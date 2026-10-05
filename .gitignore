@@ -1,0 +1,43 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.next/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Personal data and coursework evidence
+private/
+data/private/
+data/student-profiles/
+docs/private/
+docs/assessments/
+*Transcript*
+*transcript*
+*CV*.doc*
+*CV*.pdf
+
+# Local review files
+qa-output/
+tmp/

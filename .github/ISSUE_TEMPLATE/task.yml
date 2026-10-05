@@ -1,0 +1,35 @@
+name: Project task
+description: Track a development, research, data or review task
+title: "[Task] "
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Deliverable
+      description: What concrete output will this task produce?
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: Owner and reviewer
+      description: Name the owner and a different reviewer where applicable.
+    validations:
+      required: true
+  - type: input
+    id: target-date
+    attributes:
+      label: Target date
+      placeholder: YYYY-MM-DD
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: State how completion will be checked, including sources or tests.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Actual progress and evidence
+      description: Record real progress with dates. Do not backdate activity or upload personal data.
