@@ -6,32 +6,32 @@ const isIsoDate = value => { if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{
 
 const bounded = (value, min, max, label, step) => {
   if (value === null || value === undefined || value === '') return null;
-  if (typeof value !== 'number' || !Number.isFinite(value) || value < min || value > max || (step && Math.abs(value / step - Math.round(value / step)) > 0.00001)) throw new InputError(`${label} 不在允许范围内 / invalid value`);
+  if (typeof value !== 'number' || !Number.isFinite(value) || value < min || value > max || (step && Math.abs(value / step - Math.round(value / step)) > 0.00001)) throw new InputError(`${label} is outside the allowed range or has an invalid increment.`);
   return value;
 };
 export function validateProfile(input) {
-  if (!input || typeof input !== 'object' || Array.isArray(input)) throw new InputError('需要有效的背景信息 / Profile required');
+  if (!input || typeof input !== 'object' || Array.isArray(input)) throw new InputError('A valid background profile is required.');
   const major = String(input.major || '').trim();
-  if (!major || major.length > 120) throw new InputError('请填写本科专业 / Undergraduate major required');
+  if (!major || major.length > 120) throw new InputError('Please enter your undergraduate major, using no more than 120 characters.');
   const degreeStatus = ['graduated', 'final_year', 'other'].includes(input.degreeStatus) ? input.degreeStatus : 'other';
   const classifications = ['unknown', 'ordinary', 'third', 'second_lower', 'second_upper', 'first'];
   const classification = classifications.includes(input.classification) ? input.classification : 'unknown';
   const gpa = bounded(input.gpa, 0, 100, 'GPA');
   const gpaScale = bounded(input.gpaScale, 1, 100, 'GPA scale');
-  if ((gpa === null) !== (gpaScale === null)) throw new InputError('GPA 和原始满分需要一起填写 / Provide GPA and its scale together');
-  if (gpa !== null && gpa > gpaScale) throw new InputError('GPA 不能高于原始满分 / GPA exceeds scale');
+  if ((gpa === null) !== (gpaScale === null)) throw new InputError('Please provide GPA and its original scale together, or leave both blank.');
+  if (gpa !== null && gpa > gpaScale) throw new InputError('GPA cannot exceed the original scale maximum.');
   const languageInput = input.language || {};
-  if (!['none', 'ielts', 'toefl_120', 'toefl_6', 'waiver'].includes(languageInput.type || 'none')) throw new InputError('未知语言考试 / Unknown language test');
+  if (!['none', 'ielts', 'toefl_120', 'toefl_6', 'waiver'].includes(languageInput.type || 'none')) throw new InputError('Unknown language test or waiver route.');
   const type = languageInput.type || 'none';
   const max = type === 'toefl_120' ? 120 : type === 'toefl_6' ? 6 : 9;
   const total = bounded(languageInput.total, 0, max, 'Language score', type === 'ielts' || type === 'toefl_6' ? 0.5 : 1);
   const components = {};
   for (const name of ['listening', 'reading', 'writing', 'speaking']) components[name] = bounded(languageInput.components?.[name], 0, 9, name, 0.5);
   const testDate = languageInput.testDate || null;
-  if (testDate && !isIsoDate(testDate)) throw new InputError('考试日期无效 / Invalid test date');
+  if (testDate && !isIsoDate(testDate)) throw new InputError('Please enter a valid test date in YYYY-MM-DD format.');
   const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Singapore', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
-  if (testDate && testDate > today) throw new InputError('考试日期不能在未来 / Test date is in the future');
-  if (testDate && ((type === 'toefl_120' && testDate >= '2026-01-21') || (type === 'toefl_6' && testDate < '2026-01-21'))) throw new InputError('托福版本与考试日期不一致 / TOEFL scale conflicts with test date');
+  if (testDate && testDate > today) throw new InputError('The test date cannot be in the future.');
+  if (testDate && ((type === 'toefl_120' && testDate >= '2026-01-21') || (type === 'toefl_6' && testDate < '2026-01-21'))) throw new InputError('The TOEFL score scale conflicts with the test date.');
   const experiences = bounded(input.experienceYears, 0, 60, 'Experience');
   return { major, degreeStatus, classification, gpa, gpaScale, experienceYears: experiences, language: { type, total, components, testDate, atHome: !!languageInput.atHome, singleAttempt: languageInput.singleAttempt === true, waiverBasis: ['first_language', 'english_degree'].includes(languageInput.waiverBasis) ? languageInput.waiverBasis : null } };
 }

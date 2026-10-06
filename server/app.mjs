@@ -21,7 +21,7 @@ export function filterProgrammes(all, filters = {}) {
   return all.filter(p => (filters.includeTransfer === 'true' || p.admissionRoute !== 'transfer_only') && (!q || searchText(p).includes(q)) && (!filters.region || p.university.region === filters.region) && (!filters.school || p.universityId === filters.school) && (!filters.area || p.area === filters.area) && (!filters.mode || p.offerings.some(o => o.mode?.toLowerCase().includes(filters.mode))) && (!filters.verification || p.verification === filters.verification));
 }
 export function createApp({ store, publicDir, adminToken = '' }) {
-  const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/i18n.js', ['i18n.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
+  const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
   return http.createServer(async (req, res) => {
     try {
       const host = req.headers.host || '';
