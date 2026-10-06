@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-06",
+  "programmes": [
+    {
+      "id": "HK-HKUST-P002",
+      "universityId": "HK-HKUST",
+      "name": "MSc Digital and Sustainable Cities",
+      "award": "MSc",
+      "area": "Engineering",
+      "faculty": "Department of Civil and Environmental Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+      "verification": "programme_page_checked",
+      "sourceStatus": "Official programme page checked 2026-10-06",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2026/27",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "项目页已查，尚待独立复核、当期申请窗口和一般规则确认。学历认可、英语豁免及相关工程领域由学校判断。",
+      "notesEn": "Programme page checked. Independent review, application windows and general rules still need confirmation. Degree recognition, waivers and related-field equivalence remain university decisions.",
+      "offerings": [
+        { "id": "HK-HKUST-P002-2026-FT", "mode": "Full-time", "duration": "1 year", "intake": null, "deadline": null, "currency": "HKD", "tuition": 270000, "feeBasis": "Total programme fee", "academicYear": "2026/27" },
+        { "id": "HK-HKUST-P002-2026-PT", "mode": "Part-time", "duration": "2–2.5 years", "intake": null, "deadline": null, "currency": "HKD", "tuition": 230000, "feeBasis": "Total programme fee", "academicYear": "2026/27" }
+      ],
+      "rules": [
+        { "kind": "degree", "labelZh": "学士学位", "labelEn": "Bachelor’s degree", "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc" },
+        { "kind": "major", "labelZh": "土木工程或相关工程", "labelEn": "Civil or related engineering", "accepted": ["Civil Engineering"], "relatedAllowed": true, "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc" },
+        { "kind": "classification", "labelZh": "二等荣誉或以上", "labelEn": "Second-class honours or above", "min": "second_lower", "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc" },
+        { "kind": "language", "labelZh": "英语考试要求", "labelEn": "English test requirements", "singleAttempt": true, "atHomeAccepted": false, "tests": { "ielts": { "total": 6.5, "componentMin": 5.5 }, "toefl_120": { "total": 80, "validBefore": "2026-01-21" }, "toefl_6": { "total": 4.5, "validFrom": "2026-01-21" } }, "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc" }
+      ]
+    },
+    {
+      "id": "HK-HKUST-P003",
+      "universityId": "HK-HKUST",
+      "name": "MEng Digital and Sustainable Cities",
+      "award": "MEng",
+      "area": "Engineering",
+      "faculty": "Department of Civil and Environmental Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+      "verification": "programme_page_checked",
+      "sourceStatus": "Transfer-only route confirmed on official page",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2026/27",
+      "admissionRoute": "transfer_only",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "仅供现有 MSc(DISC) 学生申请转入，不开放新生直接申请。默认课程搜索不显示此项。",
+      "notesEn": "Only available by transfer for current MSc(DISC) students. Not open to direct new admission and excluded from default search.",
+      "offerings": [{ "id": "HK-HKUST-P003-2026-transfer", "mode": "Full-time", "duration": "2 years", "intake": null, "deadline": null, "currency": "HKD", "tuition": null, "feeBasis": "Transfer route; additional year-two fee is not a standalone programme price", "academicYear": "2026/27" }],
+      "rules": []
+    }
+  ]
+}

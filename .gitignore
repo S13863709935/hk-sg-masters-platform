@@ -31,6 +31,10 @@ desktop.ini
 private/
 data/private/
 data/student-profiles/
+data/local/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
 docs/private/
 docs/assessments/
 *Transcript*
