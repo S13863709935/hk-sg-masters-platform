@@ -1,0 +1,120 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { CatalogueStore } from '../server/database.mjs';
+import { matchProgramme } from '../server/matching.mjs';
+import { validateProgramme, validateDirectoryAudit, isOfficialUrl } from '../server/validation.mjs';
+
+const root = new URL('../', import.meta.url);
+const seed = JSON.parse(readFileSync(new URL('data/catalogue.json', root), 'utf8'));
+const batch = JSON.parse(readFileSync(new URL('data/checked-programmes.json', root), 'utf8'));
+const audit = JSON.parse(readFileSync(new URL('data/directory-audit.json', root), 'utf8'));
+const ids = new Set(seed.universities.map(u => u.id));
+const pilot = batch.programmes.filter(p => batch.pilotProgrammeIds.includes(p.id));
+const get = id => pilot.find(p => p.id === id);
+const profile = { major: 'Computer Science', degreeStatus: 'graduated', classification: 'first', gpa: 3.8, gpaScale: 4, experienceYears: 0, language: { type: 'ielts', total: 7, components: { listening: 7, reading: 7, writing: 7, speaking: 7 }, singleAttempt: true, testDate: '2026-05-01' } };
+
+test('the official-source pilot has 20 direct-entry records across all 14 target schools', () => {
+  assert.equal(pilot.length, 20);
+  assert.equal(new Set(pilot.map(p => p.id)).size, 20);
+  assert.equal(new Set(pilot.map(p => p.universityId)).size, 14);
+  assert.equal(pilot.filter(p => p.id.startsWith('HK-')).length, 10);
+  assert.equal(pilot.filter(p => p.id.startsWith('SG-')).length, 10);
+  assert.ok(pilot.every(p => p.admissionRoute === 'direct'));
+});
+test('all pilot sources, coverage states and checked dates are validated', () => {
+  for (const p of pilot) {
+    assert.equal(validateProgramme(p, ids), p);
+    assert.ok(p.sources.length > 0 && p.sources.every(s => isOfficialUrl(s.url) && s.checkedOn === '2026-10-06'));
+    assert.deepEqual(Object.keys(p.fieldStatus).sort(), ['academicYear', 'deadline', 'gpa', 'independentReview', 'language', 'major', 'tuition']);
+    assert.equal(/\p{Script=Han}/u.test(JSON.stringify({ name: p.name, notes: p.notesEn, rules: p.rules, fields: p.fieldStatus })), false);
+  }
+});
+test('machine-assisted page checks never fabricate independent review or recommendation tiers', () => {
+  for (const p of pilot) {
+    assert.equal(p.reviewer, null);
+    assert.equal(p.verification, 'programme_page_checked');
+    assert.equal(p.requirementsCoverage, 'partial');
+    assert.equal(matchProgramme(p, profile).tier, null);
+    assert.notEqual(matchProgramme(p, profile).status, 'meets_checked');
+  }
+});
+test('graduation, scholarship and institution-specific test-waiver GPAs are not generic entry cutoffs', () => {
+  assert.ok(pilot.every(p => !p.rules.some(r => r.kind === 'gpa')));
+  assert.match(get('SG-NUS-P029').notesEn, /graduation criterion/);
+  assert.match(get('SG-NTU-P018').notesEn, /not admission cutoffs/);
+  assert.match(get('SG-SMU-P010').notesEn, /not universal entry thresholds/);
+  assert.match(get('SG-SUSS-P001').notesEn, /graduation condition/);
+});
+test('EdUHK January and September cohorts retain different tuition and deadlines', () => {
+  const p = get('HK-EDUHK-P001');
+  assert.equal(p.offerings[0].academicYear, '2026/27');
+  assert.equal(p.offerings[0].tuition, 188888);
+  assert.equal(p.offerings[0].deadline, '2026-10-15');
+  assert.equal(p.offerings[1].academicYear, '2027/28');
+  assert.equal(p.offerings[1].tuition, 208000);
+  assert.equal(p.offerings[1].deadline, null);
+});
+test('non-local deadlines, fee categories and application rounds remain explicit', () => {
+  assert.equal(get('HK-HKBU-P001').offerings[0].deadline, '2027-06-07');
+  assert.match(get('HK-HKBU-P001').offerings[0].deadlineNote, /local applicants: 23 July/);
+  assert.match(get('HK-HKBU-P007').offerings[0].feeBasis, /non-local/);
+  assert.equal(get('HK-POLYU-P001').offerings[0].deadline, '2027-02-25');
+  assert.match(get('HK-POLYU-P001').offerings[0].deadlineNote, /Early round/);
+  assert.match(get('HK-POLYU-P001').offerings[0].feeBasis, /excluding/);
+});
+test('recurring months and uncertain fee cohorts do not become invented ISO deadlines', () => {
+  for (const id of ['SG-NTU-P018', 'SG-NTU-P015', 'SG-SMU-P010']) {
+    assert.ok(get(id).offerings.every(o => o.deadline === null));
+    assert.equal(get(id).fieldStatus.academicYear.status, 'unknown');
+  }
+  assert.equal(get('SG-SMU-P010').fieldStatus.tuition.status, 'unknown');
+});
+test('a known language component gap survives unresolved programme conditions', () => {
+  const p = { ...profile, language: { ...profile.language, components: { ...profile.language.components, writing: 5.5 } } };
+  const result = matchProgramme(get('SG-NTU-P018'), p);
+  assert.equal(result.status, 'has_gap');
+  assert.ok(result.checks.some(c => c.kind === 'language' && c.status === 'fail'));
+  assert.ok(result.checks.some(c => c.status === 'unknown'));
+});
+test('preferred SMU experience is not promoted to a mandatory requirement', () => {
+  const p = get('SG-SMU-P010');
+  const r = p.rules.find(r => r.kind === 'experience');
+  assert.equal(r.mandatory, false);
+  assert.equal(r.min, 2);
+  assert.equal(matchProgramme(p, profile).checks.find(c => c.kind === 'experience').mandatory, false);
+});
+test('directory entries distinguish 175 stored seeds from a fully enumerated school count', () => {
+  assert.equal(validateDirectoryAudit(audit, ids), audit);
+  assert.equal(audit.universities.length, 14);
+  assert.equal(audit.fullScopeEnumerationComplete, false);
+  const counted = audit.universities.filter(u => u.confirmedProgrammeCount !== null);
+  assert.equal(counted.length, 1);
+  assert.equal(counted[0].universityId, 'SG-SIT');
+  assert.equal(counted[0].confirmedProgrammeCount, 4);
+  assert.equal(audit.universities.reduce((sum, u) => sum + u.existingSeedCount, 0), 175);
+});
+test('versioned directory updates replace stale links without changing raw snapshot records', () => {
+  const store = new CatalogueStore(':memory:', { seed, checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root) });
+  try {
+    assert.equal(store.quality().checked, 21);
+    assert.equal(store.quality().enumeratedUniversities, 1);
+    assert.equal(store.universities().find(u => u.id === 'HK-HKBU').directoryUrl, 'https://ar.hkbu.edu.hk/tpg-admissions/programmes');
+    assert.equal(seed.universities.find(u => u.id === 'HK-HKBU').directoryUrl, 'https://gs.hkbu.edu.hk/programmes');
+    assert.equal(store.quality().total, 175);
+  } finally { store.close(); }
+});
+test('invalid evidence, recurring deadline strings and unsupported count claims are rejected', () => {
+  const p = structuredClone(pilot[0]);
+  p.sources[0].url = 'https://attacker.invalid/example';
+  assert.throws(() => validateProgramme(p, ids), /evidence sources/);
+  const q = structuredClone(pilot[0]);
+  q.offerings[0].deadline = '31 May every year';
+  assert.throws(() => validateProgramme(q, ids), /YYYY-MM-DD/);
+  const unsafe = structuredClone(pilot[0]);
+  unsafe.fieldStatus['<script>'] = { ...unsafe.fieldStatus.gpa };
+  assert.throws(() => validateProgramme(unsafe, ids), /coverage key/);
+  const d = structuredClone(audit);
+  d.universities[0].confirmedProgrammeCount = 999;
+  assert.throws(() => validateDirectoryAudit(d, ids), /completed enumeration/);
+});

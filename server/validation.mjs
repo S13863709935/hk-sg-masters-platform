@@ -55,6 +55,8 @@ export function validateProgramme(p, universityIds) {
   for (const o of p.offerings) {
     if (typeof o.id !== 'string' || !o.id.startsWith(`${p.id}-`)) throw new InputError('Offering ID must belong to the programme');
     if (o.tuition !== null && o.tuition !== undefined && (!Number.isFinite(o.tuition) || o.tuition < 0 || !o.currency)) throw new InputError('Invalid tuition amount or missing currency');
+    if (o.deadline && !isIsoDate(o.deadline)) throw new InputError('A dated deadline must use YYYY-MM-DD; recurring dates belong in deadlineNote');
+    if (o.deadlineNote !== null && o.deadlineNote !== undefined && (typeof o.deadlineNote !== 'string' || o.deadlineNote.length > 2000)) throw new InputError('Invalid deadline note');
   }
   if (p.verification === 'peer_reviewed' && (!p.reviewer || !p.collector || p.reviewer === p.collector)) throw new InputError('Independent reviewer required');
   if (p.verification !== 'catalogue_seed' && (!isIsoDate(p.lastChecked) || !p.academicYear)) throw new InputError('Checked data requires date and applicable intake/year');
@@ -66,5 +68,22 @@ export function validateProgramme(p, universityIds) {
     if (r.kind === 'experience' && (!Number.isFinite(r.min) || r.min < 0)) throw new InputError('Invalid experience rule');
     if (r.kind === 'language' && (!r.tests || typeof r.tests !== 'object' || Object.entries(r.tests).some(([test, v]) => !['ielts', 'toefl_120', 'toefl_6'].includes(test) || !Number.isFinite(v.total) || v.total < 0 || (test === 'ielts' && v.total > 9) || (test === 'toefl_120' && v.total > 120) || (test === 'toefl_6' && v.total > 6)))) throw new InputError('Invalid language rule');
   }
+  if (p.sources !== undefined && (!Array.isArray(p.sources) || p.sources.some(s => !isOfficialUrl(s.url) || !isIsoDate(s.checkedOn) || typeof s.purpose !== 'string'))) throw new InputError('Invalid programme evidence sources');
+  if (p.fieldStatus !== undefined) {
+    if (!p.fieldStatus || typeof p.fieldStatus !== 'object' || Array.isArray(p.fieldStatus)) throw new InputError('Invalid field coverage');
+    const fields = new Set(['academicYear', 'major', 'gpa', 'language', 'tuition', 'deadline', 'independentReview']);
+    if (Object.keys(p.fieldStatus).some(key => !fields.has(key))) throw new InputError('Unsupported field coverage key');
+    for (const f of Object.values(p.fieldStatus)) if (!f || !['known', 'not_published', 'not_applicable', 'unknown'].includes(f.status) || typeof f.noteEn !== 'string' || f.noteEn.length > 2000 || !isOfficialUrl(f.sourceUrl)) throw new InputError('Invalid field coverage or evidence URL');
+  }
   return p;
+}
+
+export function validateDirectoryAudit(audit, universityIds) {
+  if (audit?.schemaVersion !== 1 || !isIsoDate(audit.checkedOn) || !Array.isArray(audit.universities) || audit.universities.length !== universityIds.size || new Set(audit.universities.map(u => u?.universityId)).size !== universityIds.size || audit.universities.some(u => !u)) throw new InputError('Invalid directory audit');
+  for (const u of audit.universities) {
+    if (!universityIds.has(u.universityId) || !isOfficialUrl(u.directoryUrl) || !['entry_checked', 'search_index_checked', 'access_limited'].includes(u.entryStatus) || !['pending', 'complete_for_consulted_directory'].includes(u.enumerationStatus) || !isIsoDate(u.checkedOn) || typeof u.noteEn !== 'string') throw new InputError('Invalid directory audit entry');
+    if (u.confirmedProgrammeCount !== null && (!Number.isInteger(u.confirmedProgrammeCount) || u.confirmedProgrammeCount < 0 || u.enumerationStatus !== 'complete_for_consulted_directory')) throw new InputError('Directory count requires completed enumeration');
+    if (u.enumerationStatus === 'complete_for_consulted_directory' && u.confirmedProgrammeCount === null) throw new InputError('Completed enumeration requires a count');
+  }
+  return audit;
 }

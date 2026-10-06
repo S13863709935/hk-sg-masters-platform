@@ -202,7 +202,24 @@ export const copy = {
   "final_year": "Final year / expected graduation",
   "matchingFirst": "Requirement-check result",
   "chooseFile": "Choose JSON file",
-  "noFile": "No file selected"
+  "noFile": "No file selected",
+  "dataCoverage": "Data coverage and evidence",
+  "known": "Recorded from source",
+  "not_published": "Not stated in checked sources",
+  "not_applicable": "Not applicable",
+  "unknown": "Still needs confirmation",
+  "majorCoverage": "Undergraduate field / academic standing",
+  "reviewCoverage": "Independent review",
+  "evidenceSources": "Sources consulted",
+  "deadlinePassed": "Recorded deadline has passed; check the official page for any extension.",
+  "cohortUnconfirmed": "Applicable fee cohort needs confirmation",
+  "officialMasterCount": "Audited master’s count",
+  "notEnumerated": "Not yet enumerated",
+  "entry_checked": "Directory entry checked",
+  "search_index_checked": "Official index checked; access limited",
+  "access_limited": "Directory access limited",
+  "directoryAuditNote": "Catalogue records are not the university’s total. Only a completed directory enumeration has an audited count. Other totals remain unknown.",
+  "directoryAuditDate": "Directory-entry checks"
 };
 
 export const areaLabels = {

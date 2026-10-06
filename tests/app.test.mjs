@@ -9,7 +9,7 @@ import { createApp } from '../server/app.mjs';
 const root = new URL('../', import.meta.url);
 const seed = JSON.parse(readFileSync(new URL('data/catalogue.json', root), 'utf8'));
 const checkedPath = new URL('data/checked-programmes.json', root);
-const store = new CatalogueStore(':memory:', { seed, checkedPath });
+const store = new CatalogueStore(':memory:', { seed, checkedPath, directoryAuditPath: new URL('data/directory-audit.json', root) });
 const token = 'test-only-admin-token-not-a-secret-1234';
 const app = createApp({ store, publicDir: new URL('public/', root), adminToken: token });
 await new Promise(resolve => app.listen(0, '127.0.0.1', resolve));
@@ -19,7 +19,7 @@ const post = (path, payload, headers = {}) => fetch(base + path, { method: 'POST
 
 test('health endpoint identifies the local app for the Windows launcher', async () => { const response = await fetch(base + '/api/health'); assert.deepEqual(await response.json(), { ok: true, app: 'gradpath', version: '0.1.0' }); });
 
-test('all 175 source records remain, while transfer-only is excluded by default', async () => { assert.equal(store.quality().total, 175); assert.equal(store.quality().universities, 14); assert.equal(store.quality().checked, 2); assert.equal(store.quality().peerReviewed, 0); const body = await (await fetch(base + '/api/catalogue')).json(); assert.equal(body.total, 174); assert.equal(body.items.length, 12); assert.equal(body.items.some(p => p.id === 'HK-HKUST-P003'), false); });
+test('all 175 source records remain, while transfer-only is excluded by default', async () => { assert.equal(store.quality().total, 175); assert.equal(store.quality().universities, 14); assert.equal(store.quality().checked, 21); assert.equal(store.quality().peerReviewed, 0); const body = await (await fetch(base + '/api/catalogue')).json(); assert.equal(body.total, 174); assert.equal(body.items.length, 12); assert.equal(body.items.some(p => p.id === 'HK-HKUST-P003'), false); });
 test('explicit includeTransfer retains the source record', async () => { const body = await (await fetch(base + '/api/catalogue?includeTransfer=true&q=MEng%20Digital')).json(); assert.equal(body.total, 1); assert.equal(body.items[0].admissionRoute, 'transfer_only'); });
 test('school and region filters do not leak records from the other region', async () => { const body = await (await fetch(base + '/api/catalogue?region=SG&school=SG-SIT')).json(); assert.equal(body.total, 4); assert.ok(body.items.every(p => p.university.region === 'SG')); });
 test('programme details preserve study-mode fee bases and different prices', async () => { const p = await (await fetch(base + '/api/programmes/HK-HKUST-P002')).json(); assert.equal(p.offerings[0].tuition, 270000); assert.equal(p.offerings[1].tuition, 230000); assert.equal(p.offerings[0].feeBasis, 'Total programme fee'); assert.equal(p.requirementsCoverage, 'partial'); });

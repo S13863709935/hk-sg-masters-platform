@@ -2,10 +2,10 @@ import { DatabaseSync } from 'node:sqlite';
 import { mkdirSync, readFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { createHash } from 'node:crypto';
-import { validateProgramme, InputError } from './validation.mjs';
+import { validateProgramme, validateDirectoryAudit, InputError } from './validation.mjs';
 
 export class CatalogueStore {
-  constructor(path, { seedPath, checkedPath, seed } = {}) {
+  constructor(path, { seedPath, checkedPath, directoryAuditPath, seed } = {}) {
     if (path !== ':memory:') mkdirSync(dirname(path), { recursive: true });
     this.db = new DatabaseSync(path);
     this.db.exec(`
@@ -32,6 +32,21 @@ export class CatalogueStore {
       const text = readFileSync(checkedPath, 'utf8');
       const hash = createHash('sha256').update(text).digest('hex');
       if (this.getMeta('checkedHash') !== hash) { this.importBatch(JSON.parse(text), 'Versioned official-page checks'); this.setMeta('checkedHash', hash); }
+    }
+    if (directoryAuditPath) {
+      const text = readFileSync(directoryAuditPath, 'utf8');
+      const hash = createHash('sha256').update(text).digest('hex');
+      if (this.getMeta('directoryAuditHash') !== hash) {
+        const audit = validateDirectoryAudit(JSON.parse(text), new Set(this.universities().map(u => u.id)));
+        this.db.exec('BEGIN');
+        try {
+          const schools = new Map(this.universities().map(u => [u.id, u]));
+          for (const entry of audit.universities) this.db.prepare('UPDATE universities SET document=? WHERE id=?').run(JSON.stringify({ ...schools.get(entry.universityId), directoryUrl: entry.directoryUrl, directoryAudit: entry }), entry.universityId);
+          this.setMeta('directoryAuditDate', audit.checkedOn);
+          this.setMeta('directoryAuditHash', hash);
+          this.db.exec('COMMIT');
+        } catch (error) { this.db.exec('ROLLBACK'); throw error; }
+      }
     }
   }
   setMeta(key, value) { this.db.prepare('INSERT INTO metadata VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value').run(key, value); }
@@ -70,6 +85,8 @@ export class CatalogueStore {
       complete: all.filter(p => p.requirementsCoverage === 'complete').length,
       transferOnly: all.filter(p => p.admissionRoute === 'transfer_only').length,
       snapshotDate: this.getMeta('snapshotDate'),
+      directoryAuditDate: this.getMeta('directoryAuditDate'),
+      enumeratedUniversities: this.universities().filter(u => u.directoryAudit?.enumerationStatus === 'complete_for_consulted_directory').length,
       schools: this.universities().map(u => ({ ...u, seeds: all.filter(p => p.universityId === u.id).length, checked: all.filter(p => p.universityId === u.id && ['programme_page_checked', 'peer_reviewed'].includes(p.verification)).length, peerReviewed: all.filter(p => p.universityId === u.id && p.verification === 'peer_reviewed').length })),
     };
   }
