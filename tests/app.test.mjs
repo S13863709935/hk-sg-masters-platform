@@ -1,0 +1,40 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { CatalogueStore } from '../server/database.mjs';
+import { createApp } from '../server/app.mjs';
+
+const root = new URL('../', import.meta.url);
+const seed = JSON.parse(readFileSync(new URL('data/catalogue.json', root), 'utf8'));
+const checkedPath = new URL('data/checked-programmes.json', root);
+const store = new CatalogueStore(':memory:', { seed, checkedPath });
+const token = 'test-only-admin-token-not-a-secret-1234';
+const app = createApp({ store, publicDir: new URL('public/', root), adminToken: token });
+await new Promise(resolve => app.listen(0, '127.0.0.1', resolve));
+const base = `http://127.0.0.1:${app.address().port}`;
+test.after(async () => { await new Promise(resolve => app.close(resolve)); store.close(); });
+const post = (path, payload, headers = {}) => fetch(base + path, { method: 'POST', headers: { 'Content-Type': 'application/json', ...headers }, body: JSON.stringify(payload) });
+
+test('health endpoint identifies the local app for the Windows launcher', async () => { const response = await fetch(base + '/api/health'); assert.deepEqual(await response.json(), { ok: true, app: 'gradpath', version: '0.1.0' }); });
+
+test('all 175 source records remain, while transfer-only is excluded by default', async () => { assert.equal(store.quality().total, 175); assert.equal(store.quality().universities, 14); assert.equal(store.quality().checked, 2); assert.equal(store.quality().peerReviewed, 0); const body = await (await fetch(base + '/api/catalogue')).json(); assert.equal(body.total, 174); assert.equal(body.items.length, 12); assert.equal(body.items.some(p => p.id === 'HK-HKUST-P003'), false); });
+test('explicit includeTransfer retains the source record', async () => { const body = await (await fetch(base + '/api/catalogue?includeTransfer=true&q=MEng%20Digital')).json(); assert.equal(body.total, 1); assert.equal(body.items[0].admissionRoute, 'transfer_only'); });
+test('school and region filters do not leak records from the other region', async () => { const body = await (await fetch(base + '/api/catalogue?region=SG&school=SG-SIT')).json(); assert.equal(body.total, 4); assert.ok(body.items.every(p => p.university.region === 'SG')); });
+test('programme details preserve study-mode fee bases and different prices', async () => { const p = await (await fetch(base + '/api/programmes/HK-HKUST-P002')).json(); assert.equal(p.offerings[0].tuition, 270000); assert.equal(p.offerings[1].tuition, 230000); assert.equal(p.offerings[0].feeBasis, 'Total programme fee'); assert.equal(p.requirementsCoverage, 'partial'); });
+test('profiles are checked without creating a profile table', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science', gpa: 3.5, gpaScale: 4, language: { type: 'none' } } }); assert.equal(response.status, 200); const body = await response.json(); assert.equal(body.total, 174); assert.ok(body.items.every(p => p.match.tier === null)); const tables = store.db.prepare("SELECT name FROM sqlite_master WHERE type='table'").all(); assert.ok(tables.every(t => !/profile|student/i.test(t.name))); });
+test('malformed scores return 422', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science', gpa: 5, gpaScale: 4 } }); assert.equal(response.status, 422); });
+test('malformed JSON is rejected', async () => { const response = await fetch(base + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{' }); assert.equal(response.status, 400); });
+test('cross-origin writes are rejected', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science' } }, { Origin: 'https://external.invalid' }); assert.equal(response.status, 403); });
+test('unknown programme IDs return 404', async () => { assert.equal((await fetch(base + '/api/programmes/NO-SUCH-ID')).status, 404); });
+test('source file paths are never exposed as static assets', async () => { assert.equal((await fetch(base + '/data/catalogue.json')).status, 404); assert.equal((await fetch(base + '/server/index.mjs')).status, 404); });
+test('security headers and main UI are served', async () => { const response = await fetch(base); assert.equal(response.status, 200); assert.match(response.headers.get('content-security-policy'), /frame-ancestors 'none'/); assert.match(await response.text(), /GradPath/); });
+test('exports include sources but no student profiles', async () => { const response = await fetch(base + '/api/export'); const body = await response.json(); assert.equal(body.programmes.length, 175); assert.equal('profiles' in body, false); assert.match(response.headers.get('content-disposition'), /attachment/); });
+test('data imports require an admin token', async () => { const response = await post('/api/admin/import', { schemaVersion: 1, programmes: [store.get('HK-HKUST-P002')] }); assert.equal(response.status, 401); });
+test('invalid imports roll back the entire batch', async () => { const p = store.get('HK-HKUST-P002'); const changed = { ...p, name: 'Temporary test-only rename' }; const invalid = { ...store.get('HK-HKUST-P001'), officialUrl: 'https://attacker.invalid/' }; const response = await post('/api/admin/import', { schemaVersion: 1, programmes: [changed, invalid] }, { Authorization: `Bearer ${token}` }); assert.equal(response.status, 422); assert.equal(store.get(p.id).name, p.name); });
+test('authenticated valid batches retain an audit entry', async () => { const p = store.get('HK-HKUST-P002'); const response = await post('/api/admin/import', { schemaVersion: 1, programmes: [{ ...p, notesEn: p.notesEn + ' Test audit.' }] }, { Authorization: `Bearer ${token}` }); assert.equal(response.status, 200); const latest = store.db.prepare('SELECT reason FROM change_log ORDER BY id DESC LIMIT 1').get(); assert.equal(latest.reason, 'Authenticated local admin import'); });
+test('independent review cannot use the same collector and reviewer', () => { const p = store.get('HK-HKUST-P002'); assert.throws(() => store.importBatch({ schemaVersion: 1, programmes: [{ ...p, verification: 'peer_reviewed', collector: 'same', reviewer: 'same' }] }, 'Test'), /Independent reviewer/); });
+test('misattributed university IDs are rejected', () => { const p = store.get('HK-HKUST-P002'); assert.throws(() => store.importBatch({ schemaVersion: 1, programmes: [{ ...p, universityId: 'SG-NUS' }] }, 'Test'), /conflicts with university/); });
+test('negative tuition and invalid check dates are rejected', () => { const p = structuredClone(store.get('HK-HKUST-P002')); p.offerings[0].tuition = -1; assert.throws(() => store.importBatch({ schemaVersion: 1, programmes: [p] }, 'Test'), /Invalid tuition/); p.offerings[0].tuition = 1; p.lastChecked = '2026-13-01'; assert.throws(() => store.importBatch({ schemaVersion: 1, programmes: [p] }, 'Test'), /requires date/); });
+test('file-backed updates survive a restart', () => { const dir = mkdtempSync(join(tmpdir(), 'gradpath-tests-')); const dbPath = join(dir, 'test.sqlite'); let db; try { db = new CatalogueStore(dbPath, { seed }); const p = db.get('HK-HKUST-P001'); db.importBatch({ schemaVersion: 1, programmes: [{ ...p, notesEn: 'Persisted test-only note' }] }, 'Persistence test'); db.close(); db = new CatalogueStore(dbPath, { seed }); assert.equal(db.get(p.id).notesEn, 'Persisted test-only note'); } finally { db?.close(); rmSync(dbPath, { force: true }); rmdirSync(dir); } });
