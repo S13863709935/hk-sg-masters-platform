@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { validateProgramme, validateDirectoryAudit, InputError } from './validation.mjs';
 
 export class CatalogueStore {
-  constructor(path, { seedPath, checkedPath, directoryAuditPath, seed } = {}) {
+  constructor(path, { seedPath, expansionPath, checkedPath, directoryAuditPath, seed } = {}) {
     if (path !== ':memory:') mkdirSync(dirname(path), { recursive: true });
     this.db = new DatabaseSync(path);
     this.db.exec(`
@@ -27,6 +27,20 @@ export class CatalogueStore {
         this.setMeta('snapshotDate', snapshot.snapshotDate);
         this.db.exec('COMMIT');
       } catch (error) { this.db.exec('ROLLBACK'); throw error; }
+    }
+    if (expansionPath) {
+      const text = readFileSync(expansionPath, 'utf8');
+      const hash = createHash('sha256').update(text).digest('hex');
+      if (this.getMeta('expansionHash') !== hash) {
+        const batch = JSON.parse(text);
+        if (batch.schemaVersion !== 1 || !Array.isArray(batch.programmes)) throw new InputError('Invalid directory expansion batch');
+        if (batch.programmes?.some(p => p.verification !== 'catalogue_seed' || p.requirementsCoverage !== 'unreviewed' || p.reviewer || p.rules?.length)) throw new InputError('Directory expansion must contain unreviewed leads without admissions rules');
+        // Never replace an existing record, including later checked/admin-imported data.
+        const existingIds = new Set(this.db.prepare('SELECT id FROM programmes').all().map(p => p.id));
+        const newRecords = batch.programmes.filter(p => !existingIds.has(p.id));
+        if (newRecords.length) this.importBatch({ ...batch, programmes: newRecords }, 'Versioned directory expansion; admissions unreviewed');
+        this.setMeta('expansionHash', hash);
+      }
     }
     if (checkedPath) {
       const text = readFileSync(checkedPath, 'utf8');

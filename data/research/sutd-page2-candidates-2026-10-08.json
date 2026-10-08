@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-08",
+  "warning": "Candidate extraction is not verified enumeration and not admissions-rule verification. Review duplicates, programme types, delivery location and pending approval before importing.",
+  "sources": [
+    {
+      "universityId": "SG-SUTD",
+      "requestedUrl": "https://www.sutd.edu.sg/admissions/graduate/masters?paged=2",
+      "checkedOn": "2026-10-08",
+      "fetchedAt": "2026-10-08T03:19:24.079Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.sutd.edu.sg/admissions/graduate/masters?paged=2",
+      "sourceSha256": "9cfbe5c3b53c02bebc1a0a1fb6a3cdedc4c4e1ee34a5626962f9095e487f1e6f",
+      "characters": 549735,
+      "pageTitle": "Graduate admissions - Masters - Singapore University of Technology and Design (SUTD)",
+      "candidates": [
+        {
+          "title": "PhD",
+          "url": "https://www.sutd.edu.sg/admissions/graduate/phd/#tabs",
+          "context": "",
+          "element": "anchor"
+        }
+      ],
+      "headings": [
+        {
+          "title": "Master of Science in Technology and Design (Human-Centred AI for Venture Innovation)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Technology and Design (Human-Centred Design)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-design/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Technology and Design (IC Design, Failure Analysis and Reliability)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-ic-design-failure-analysis-and-reliability/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Technology and Design (Integrated Photonics For Semiconductor Technology)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-integrated-photonics-for-semiconductor-technology/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Technology and Design (Robotics & Automation)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-robotics-automation/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Engineering (Innovation by Design)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mibd/about",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Design and Artificial Intelligence for Enterprise",
+          "url": "https://www.sutd.edu.sg/programme-listing/master-of-science-in-design-and-artificial-intelligence-for-enterprise/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Security by Design",
+          "url": "https://www.sutd.edu.sg/programme-listing/mssd/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Urban Science, Policy and Planning",
+          "url": "https://www.sutd.edu.sg/programme-listing/muspp/overview",
+          "context": "",
+          "element": "h5"
+        }
+      ],
+      "rows": [],
+      "visibleResultCount": 20,
+      "collectionStatus": "parsed_candidates_unreviewed"
+    }
+  ]
+}

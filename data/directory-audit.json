@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-06",
+  "checkedOn": "2026-10-08",
   "basis": {
     "HK": {
       "definition": "Eight UGC-funded universities; institutional boundary, not a claim that each master's course is subsidised",
@@ -39,12 +39,13 @@
       "fallbackUrl": null,
       "listingUrl": null,
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
-      "confirmedProgrammeCount": null,
+      "checkedOn": "2026-10-08",
+      "enumerationStatus": "complete_for_consulted_directory",
+      "confirmedProgrammeCount": 49,
       "visibleDirectoryResultCount": null,
       "existingSeedCount": 7,
-      "noteEn": "Replace the old Graduate School research-programme entry. Academic Registry lists taught degrees as well as BNBU Zhuhai delivery; exclude overseas-only delivery and non-master awards."
+      "noteEn": "49 distinct Hong Kong-delivery master's listings after merging cross-school duplicates; one doctorate and five named BNBU/Zhuhai programme entries excluded. Directory presence does not prove open admissions.",
+      "inventoryFile": "data/research/programme-inventory-2026-10-08.json"
     },
     {
       "universityId": "HK-LU",
@@ -55,12 +56,13 @@
       "fallbackUrl": null,
       "listingUrl": null,
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
-      "confirmedProgrammeCount": null,
+      "checkedOn": "2026-10-08",
+      "enumerationStatus": "complete_for_consulted_directory",
+      "confirmedProgrammeCount": 44,
       "visibleDirectoryResultCount": null,
       "existingSeedCount": 9,
-      "noteEn": "Old SGS cluster page has only nine master's titles and is not the whole university. The university-wide list includes all faculties and doctorates, double-degree options and pending retitles; deduplicate and check delivery."
+      "noteEn": "44 master's listings after excluding five doctorates. MRes in Advanced Data Science is retained because the School of Data Science explicitly categorises it as taught postgraduate. Concentrations and double-degree options are not extra programmes.",
+      "inventoryFile": "data/research/programme-inventory-2026-10-08.json"
     },
     {
       "universityId": "HK-CUHK",
@@ -71,12 +73,13 @@
       "fallbackUrl": null,
       "listingUrl": null,
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
-      "confirmedProgrammeCount": null,
+      "checkedOn": "2026-10-08",
+      "enumerationStatus": "complete_for_consulted_directory",
+      "confirmedProgrammeCount": 129,
       "visibleDirectoryResultCount": null,
       "existingSeedCount": 20,
-      "noteEn": "Research and taught titles are mixed; repeated responsive table representations must be deduplicated. Count master's awards, not divisions, doctorate titles or specialisation rows."
+      "noteEn": "129 distinct master's listings from the official Taught Programmes column, including all nine MSSc entries. Research-column awards, four doctorates, JD/JD-MBA, Shanghai/Shenzhen-only delivery are excluded. Cross-faculty duplicate entries are merged; programme-level delivery and admissions details still require checks.",
+      "inventoryFile": "data/research/programme-inventory-2026-10-08.json"
     },
     {
       "universityId": "HK-EDUHK",
@@ -103,12 +106,14 @@
       "fallbackUrl": null,
       "listingUrl": null,
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
+      "checkedOn": "2026-10-08",
+      "enumerationStatus": "entries_enumerated",
       "confirmedProgrammeCount": null,
       "visibleDirectoryResultCount": null,
       "existingSeedCount": 11,
-      "noteEn": "Filter taught postgraduate list to master's awards. Programme schemes, January/September entry, study modes and application rounds are not separate degrees."
+      "noteEn": "125 dated Sept-2027 entries enumerated: 14 doctorates excluded, leaving 111 master's/scheme listings including five pending-approval entries. Scheme/award variants still need reconciliation; 111 is not a confirmed distinct-master's total.",
+      "directoryMasterEntryCount": 111,
+      "provisionalEntryCount": 5
     },
     {
       "universityId": "HK-HKUST",

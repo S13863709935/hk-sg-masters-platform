@@ -186,7 +186,7 @@ export const copy = {
   "privacyTitle": "Where your information lives",
   "privacyText": "Shortlists stay in your browser. Background stays in this page session unless you choose to remember it. The server processes checks temporarily and does not store profiles. Clearing background does not delete your shortlist.",
   "riskTitle": "The limits of the data",
-  "riskText": "The 14 universities are the target scope; 175 records are the existing seeds, not every programme. Outdated, unpublished and uncollected requirements can prevent a conclusion.",
+  "riskText": "The 14 universities are the target scope. The original 175 leads have been expanded, but this is still not a complete catalogue. Outdated, unpublished and uncollected requirements can prevent a conclusion.",
   "footer": "Official sources · Explicit unknowns · No predictions",
   "privacyLink": "How it works & privacy",
   "downloadShortlist": "Export shortlist",
@@ -213,13 +213,14 @@ export const copy = {
   "evidenceSources": "Sources consulted",
   "deadlinePassed": "Recorded deadline has passed; check the official page for any extension.",
   "cohortUnconfirmed": "Applicable fee cohort needs confirmation",
-  "officialMasterCount": "Audited master’s count",
+  "officialMasterCount": "Directory-listed master’s count",
   "notEnumerated": "Not yet enumerated",
   "entry_checked": "Directory entry checked",
   "search_index_checked": "Official index checked; access limited",
   "access_limited": "Directory access limited",
-  "directoryAuditNote": "Catalogue records are not the university’s total. Only a completed directory enumeration has an audited count. Other totals remain unknown.",
-  "directoryAuditDate": "Directory-entry checks"
+  "directoryAuditNote": "Counts follow the consulted directory and scope rules, not verified open applications. Schemes and conditional entries may still need reconciliation. Stored catalogue records are not the university’s official total.",
+  "directoryAuditDate": "Directory inventory updated",
+  "schemeReconciliation": "Directory entries · schemes/awards still need reconciliation"
 };
 
 export const areaLabels = {

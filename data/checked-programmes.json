@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-06",
+  "checkedOn": "2026-10-08",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -571,38 +571,38 @@
       "officialUrl": "https://www.ln.edu.hk/sgs/ihem/admission",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-08",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "The window is 1 August 2026 to 30 June 2027, subject to change. Tuition and duration remain uncollected in this batch.",
+      "notesEn": "Window 1 August 2026–30 June 2027, subject to change. One-year FT/two-year PT and AY2027/28 tuition checked 8 October 2026. Curriculum GPA 2.67 (pass) and 3.50 (distinction) are graduation classifications, not undergraduate admission cutoffs.",
       "offerings": [
         {
           "id": "HK-LU-P001-O1",
           "mode": "Full-time",
-          "duration": null,
+          "duration": "1 year",
           "intake": "2027/28 intake",
           "deadline": "2027-06-30",
           "deadlineNote": null,
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": null,
-          "feeBasis": null
+          "tuition": 198000,
+          "feeBasis": "Published AY2027/28 programme tuition; application fee additional"
         },
         {
           "id": "HK-LU-P001-O2",
           "mode": "Part-time",
-          "duration": null,
+          "duration": "2 years",
           "intake": "2027/28 intake",
           "deadline": "2027-06-30",
           "deadlineNote": null,
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": null,
-          "feeBasis": null
+          "tuition": 198000,
+          "feeBasis": "Published AY2027/28 programme tuition; application fee additional"
         }
       ],
       "rules": [
@@ -661,12 +661,17 @@
         {
           "url": "https://www.ln.edu.hk/sgs/ihem/admission",
           "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "checkedOn": "2026-10-08"
         },
         {
           "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
           "purpose": "Study modes and application window",
-          "checkedOn": "2026-10-06"
+          "checkedOn": "2026-10-08"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information",
+          "purpose": "Study mode and duration; graduation GPAs are not admission criteria",
+          "checkedOn": "2026-10-08"
         }
       ],
       "researchBatch": "official-pilot-2026-10-06",
@@ -692,8 +697,8 @@
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "status": "known",
+          "noteEn": "AY2027/28 tuition HKD 198,000; application fee HKD 400 is separate.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "deadline": {

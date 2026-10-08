@@ -81,7 +81,7 @@ export function validateProgramme(p, universityIds) {
 export function validateDirectoryAudit(audit, universityIds) {
   if (audit?.schemaVersion !== 1 || !isIsoDate(audit.checkedOn) || !Array.isArray(audit.universities) || audit.universities.length !== universityIds.size || new Set(audit.universities.map(u => u?.universityId)).size !== universityIds.size || audit.universities.some(u => !u)) throw new InputError('Invalid directory audit');
   for (const u of audit.universities) {
-    if (!universityIds.has(u.universityId) || !isOfficialUrl(u.directoryUrl) || !['entry_checked', 'search_index_checked', 'access_limited'].includes(u.entryStatus) || !['pending', 'complete_for_consulted_directory'].includes(u.enumerationStatus) || !isIsoDate(u.checkedOn) || typeof u.noteEn !== 'string') throw new InputError('Invalid directory audit entry');
+    if (!universityIds.has(u.universityId) || !isOfficialUrl(u.directoryUrl) || !['entry_checked', 'search_index_checked', 'access_limited'].includes(u.entryStatus) || !['pending', 'entries_enumerated', 'complete_for_consulted_directory'].includes(u.enumerationStatus) || !isIsoDate(u.checkedOn) || typeof u.noteEn !== 'string') throw new InputError('Invalid directory audit entry');
     if (u.confirmedProgrammeCount !== null && (!Number.isInteger(u.confirmedProgrammeCount) || u.confirmedProgrammeCount < 0 || u.enumerationStatus !== 'complete_for_consulted_directory')) throw new InputError('Directory count requires completed enumeration');
     if (u.enumerationStatus === 'complete_for_consulted_directory' && u.confirmedProgrammeCount === null) throw new InputError('Completed enumeration requires a count');
   }

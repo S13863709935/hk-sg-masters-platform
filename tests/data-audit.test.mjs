@@ -25,7 +25,7 @@ test('the official-source pilot has 20 direct-entry records across all 14 target
 test('all pilot sources, coverage states and checked dates are validated', () => {
   for (const p of pilot) {
     assert.equal(validateProgramme(p, ids), p);
-    assert.ok(p.sources.length > 0 && p.sources.every(s => isOfficialUrl(s.url) && s.checkedOn === '2026-10-06'));
+    assert.ok(p.sources.length > 0 && p.sources.every(s => isOfficialUrl(s.url) && s.checkedOn === p.lastChecked));
     assert.deepEqual(Object.keys(p.fieldStatus).sort(), ['academicYear', 'deadline', 'gpa', 'independentReview', 'language', 'major', 'tuition']);
     assert.equal(/\p{Script=Han}/u.test(JSON.stringify({ name: p.name, notes: p.notesEn, rules: p.rules, fields: p.fieldStatus })), false);
   }
@@ -89,16 +89,18 @@ test('directory entries distinguish 175 stored seeds from a fully enumerated sch
   assert.equal(audit.universities.length, 14);
   assert.equal(audit.fullScopeEnumerationComplete, false);
   const counted = audit.universities.filter(u => u.confirmedProgrammeCount !== null);
-  assert.equal(counted.length, 1);
-  assert.equal(counted[0].universityId, 'SG-SIT');
-  assert.equal(counted[0].confirmedProgrammeCount, 4);
+  assert.equal(counted.length, 4);
+  assert.equal(counted.find(u => u.universityId === 'SG-SIT').confirmedProgrammeCount, 4);
+  assert.equal(counted.find(u => u.universityId === 'HK-HKBU').confirmedProgrammeCount, 49);
+  assert.equal(counted.find(u => u.universityId === 'HK-LU').confirmedProgrammeCount, 44);
+  assert.equal(counted.find(u => u.universityId === 'HK-CUHK').confirmedProgrammeCount, 129);
   assert.equal(audit.universities.reduce((sum, u) => sum + u.existingSeedCount, 0), 175);
 });
 test('versioned directory updates replace stale links without changing raw snapshot records', () => {
   const store = new CatalogueStore(':memory:', { seed, checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root) });
   try {
     assert.equal(store.quality().checked, 21);
-    assert.equal(store.quality().enumeratedUniversities, 1);
+    assert.equal(store.quality().enumeratedUniversities, 4);
     assert.equal(store.universities().find(u => u.id === 'HK-HKBU').directoryUrl, 'https://ar.hkbu.edu.hk/tpg-admissions/programmes');
     assert.equal(seed.universities.find(u => u.id === 'HK-HKBU').directoryUrl, 'https://gs.hkbu.edu.hk/programmes');
     assert.equal(store.quality().total, 175);

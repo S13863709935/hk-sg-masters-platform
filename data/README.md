@@ -31,6 +31,8 @@
 
 ## 采集流程
 
+2026-10-08：新增 `catalogue-expansion.json`（186 条未核验目录线索），原始 175 条保留，总库 361 条，默认显示 360 条。HKBU、Lingnan、CUHK 的本轮目录计数分别为 49、44、129，排除及别名依据保存在 `research/programme-inventory-2026-10-08.json`。目录计数不表示当期开放申请或规则完整；PolyU 111 个硕士／组合条目尚不能作为精确项目总数。见 [本轮记录](../docs/research/directory-expansion-2026-10-08.md)。
+
 2026-10-06：`checked-programmes.json` 新增首批 20 个直接申请项目（全部 14 校）及其字段状态和来源，另保留 1 个转入限定项目。共 21 条项目页已查、0 条独立复核、0 条完整条件。`directory-audit.json` 记录入口问题及实际计数状态；SIT 的明确 coursework 表为 4 个硕士，其余学校全量枚举未完成。详见 [本批核查记录](../docs/research/official-data-pilot-2026-10-06.md)。
 
 `not_published` 在本批仅表示“所查来源没有明示”，不是证明该要求不存在。`unknown` 表示未采集、适用周期未确认或需判断；`known` 只表示对应事实已从来源记录，并不升级整条项目的复核状态。
