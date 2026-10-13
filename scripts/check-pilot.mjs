@@ -1,0 +1,15 @@
+import { readFileSync } from 'node:fs';
+import assert from 'node:assert/strict';
+const root = new URL('../', import.meta.url);
+const pilot = JSON.parse(readFileSync(new URL('data/checked-programmes.json', root), 'utf8'));
+const directory = JSON.parse(readFileSync(new URL('data/directory-audit.json', root), 'utf8'));
+assert.equal(pilot.schemaVersion, 1);
+assert.equal(directory.universities.length, 14);
+assert.equal(pilot.pilotProgrammeIds.length, 20);
+assert.equal(pilot.programmes.length, 21);
+assert.equal(pilot.programmes.filter(p => p.admissionRoute === 'transfer_only').length, 1);
+assert.equal(new Set(pilot.programmes.map(p => p.id)).size, 21);
+assert.equal(new Set(pilot.programmes.map(p => p.universityId)).size, 14);
+assert.ok(pilot.programmes.every(p => p.verification === 'programme_page_checked' && p.requirementsCoverage === 'partial' && p.reviewer === null));
+assert.ok(pilot.programmes.every(p => p.sources?.every(s => new URL(s.url).protocol === 'https:') !== false));
+console.log('Week 4 pilot: 14 schools, 20 direct-entry records, 1 transfer reference, 0 independent reviews, 0 complete requirement records.');

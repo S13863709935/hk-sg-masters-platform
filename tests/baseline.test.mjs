@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { createBaseline } from '../server/app.mjs';
+const root = new URL('../', import.meta.url);
+const server = createBaseline({ htmlPath: new URL('public/index.html', root), pilotPath: new URL('data/checked-programmes.json', root), directoryPath: new URL('data/directory-audit.json', root) });
+await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+const url = `http://127.0.0.1:${server.address().port}`;
+test.after(() => new Promise(resolve => server.close(resolve)));
+test('the published checkpoint has a local health endpoint', async () => { const response = await fetch(url + '/api/health'); assert.equal(response.status, 200); assert.equal((await response.json()).checkpoint, 'week-04'); });
+test('the page is English and explicitly describes a limited checkpoint', async () => { const html = await (await fetch(url)).text(); assert.match(html, /<html lang="en">/); assert.equal(/\p{Script=Han}/u.test(html), false); assert.match(html, /not the complete platform/); });
+test('metadata separates the 20 pilot records from the transfer reference', async () => { const data = await (await fetch(url + '/api/checkpoint')).json(); assert.equal(data.pilotProgrammes, 20); assert.equal(data.transferOnlyReferenceRecords, 1); assert.equal(data.targetUniversities, 14); assert.equal(data.independentlyReviewed, 0); assert.equal(data.completeRequirements, 0); });
+test('core implementation endpoints are absent from this checkpoint', async () => { for (const path of ['/api/catalogue', '/api/matches', '/api/admin/import']) assert.equal((await fetch(url + path)).status, 404); });
+test('the checkpoint does not accept student-profile writes', async () => { assert.equal((await fetch(url + '/api/checkpoint', { method: 'POST', body: '{}' })).status, 405); });
+test('source paths are not served as public static assets', async () => { assert.equal((await fetch(url + '/server/app.mjs')).status, 404); assert.equal((await fetch(url + '/data/checked-programmes.json')).status, 404); });
+test('the pilot retains explicit partial coverage and no human review', () => { const data = JSON.parse(readFileSync(new URL('data/checked-programmes.json', root), 'utf8')); assert.ok(data.programmes.every(p => p.requirementsCoverage === 'partial' && p.reviewer === null)); });

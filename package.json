@@ -1,0 +1,13 @@
+{
+  "name": "hk-sg-masters-platform",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Week 4 project foundations and official-source pilot",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check:data": "node scripts/check-pilot.mjs"
+  }
+}
