@@ -1,0 +1,672 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-13",
+  "countingUnit": "Distinct listed master programme, including separately named SUTD MTD routes. Modes and intakes are not extra programmes; SUSS-FHNW dual pathways are held separately for reconciliation.",
+  "reviewer": null,
+  "inventories": [
+    {
+      "universityId": "SG-SMU",
+      "sourceUrls": [
+        "https://masters.smu.edu.sg/programmes"
+      ],
+      "checkedOn": "2026-10-13",
+      "enumerationStatus": "complete_for_consulted_directory",
+      "includedProgrammeCount": 17,
+      "rawEntryCount": 18,
+      "entries": [
+        {
+          "name": "Master of Professional Accounting",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P001",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Accounting",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-in-accounting",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P002",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Chinese Executive MBA",
+          "officialUrl": "https://cn.masters.smu.edu.sg/cemba",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P011",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Executive MBA",
+          "officialUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P012",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Business Administration",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-business-administration",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P013",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Management",
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-management",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P003",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Applied Finance",
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-applied-finance",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P004",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Quantitative Finance",
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P016",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Wealth Management",
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-wealth-management",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P017",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Entrepreneurship and Innovation",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-entrepreneurship-innovation",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P005",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Business Artificial Intelligence",
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-business-ai",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P006",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Economics",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-in-economics",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P007",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Data Science in Economics",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-data-science-economics",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P008",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "MSc in Financial Economics",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-in-financial-economics",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P009",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of IT in Business",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P010",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Juris Doctor",
+          "officialUrl": "https://masters.smu.edu.sg/programme/juris-doctor",
+          "decision": "exclude",
+          "reasonEn": "Juris Doctor is outside the master-only scope."
+        },
+        {
+          "name": "Master of Laws",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P014",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Sustainability",
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-sustainability",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master in the official professional postgraduate directory; programme admissions still unreviewed.",
+          "programmeId": "SG-SMU-P015",
+          "registryAction": "existing_id_preserved"
+        }
+      ]
+    },
+    {
+      "universityId": "SG-SUTD",
+      "sourceUrls": [
+        "https://www.sutd.edu.sg/admissions/graduate/masters/?programme-level=769",
+        "https://www.sutd.edu.sg/admissions/graduate/masters/?programme-level=769&paged=2"
+      ],
+      "sourceSha256s": [
+        "5ca24ee1c6b2fe84090f1f1dc134413069cf7152ffe8a51dbbfecd6d57c2b99e",
+        "d82f5add49140fb278cb76d988f35910590bc43c28e15e691d641806d6523086"
+      ],
+      "checkedOn": "2026-10-13",
+      "enumerationStatus": "complete_for_consulted_directory",
+      "includedProgrammeCount": 18,
+      "rawEntryCount": 18,
+      "excludedFromUnfilteredDirectory": [
+        "Master of Engineering (Interdisciplinary)",
+        "Master of Engineering (Innovation by Design)",
+        "SUTD-CGU Dual Masters Programme in Nano-Electronics Engineering and Design"
+      ],
+      "entries": [
+        {
+          "name": "Master of Architecture",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P001",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Advanced IC Design and Technology)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-advanced-ic-design-technology/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P007",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (AI and Technology in Education)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-ai-and-technology-in-education/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P005",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (AI and Technology in Finance)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-ai-and-technology-in-finance/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P008",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Architectural Design Computation)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-architectural-design-computation/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P009",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Artificial Intelligence)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-artificial-intelligence/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P010",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Cybersecurity)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-cybersecurity/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P011",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Data Science)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-data-science/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P012",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (HealthTech Innovation)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-healthtech-innovation/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P013",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Human-Centred Design)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-design/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P014",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (IC Design, Failure Analysis and Reliability)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-ic-design-failure-analysis-and-reliability/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P015",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Integrated Photonics For Semiconductor Technology)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-integrated-photonics-for-semiconductor-technology/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P016",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Robotics & Automation)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-robotics-automation/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P017",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Urban Innovation and Design)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-urban-innovation-and-design/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P018",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Design and Artificial Intelligence for Enterprise",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/master-of-science-in-design-and-artificial-intelligence-for-enterprise/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P004",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Security by Design",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mssd/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P006",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Technology and Design (Human-Centred AI for Venture Innovation)",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P002",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Urban Science, Policy and Planning",
+          "officialUrl": "https://www.sutd.edu.sg/programme-listing/muspp/overview",
+          "decision": "include_directory_lead",
+          "reasonEn": "Listed after applying the official Master by Coursework filter; separately named MTD routes retain their own identities. Admissions still unreviewed.",
+          "programmeId": "SG-SUTD-P019",
+          "registryAction": "existing_id_preserved"
+        }
+      ]
+    },
+    {
+      "universityId": "SG-SUSS",
+      "sourceUrls": [
+        "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes"
+      ],
+      "checkedOn": "2026-10-13",
+      "enumerationStatus": "entries_enumerated",
+      "includedProgrammeCount": null,
+      "directoryMasterEntryCount": 28,
+      "rawEntryCount": 38,
+      "entries": [
+        {
+          "name": "Master of Counselling",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P018",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Early Childhood Education",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-early-childhood-education-mece-spe",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P020",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Education in Early Childhood Education (Chinese)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-(chinese)-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-(%E5%8D%8E%E6%96%87",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P021",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Gerontology",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P023",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Doctor of Philosophy (Gerontology)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/phd-in-gerontology-phger",
+          "decision": "exclude",
+          "reasonEn": "Doctoral or Juris Doctor award is outside the master-only scope."
+        },
+        {
+          "name": "Master of Human Capital Management",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-human-capital-management",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P024",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Sustainability Management",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P029",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Artificial Intelligence for Business",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-artificial-intelligence-for-business",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P016",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Digital Marketing",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P019",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Analytics and Visualisation",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/mavi",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P015",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Data Analytics and Visualisation (Chinese)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-science-in-data-analytics-and-visualisation-chinese",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P026",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Executive Master of Business Administration",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/executive-master-of-business-administration-emba",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P014",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Doctor of Business Administration",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/doctor-of-business-administration-dba",
+          "decision": "exclude",
+          "reasonEn": "Doctoral or Juris Doctor award is outside the master-only scope."
+        },
+        {
+          "name": "Master of Finance",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-finance-mfin",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P022",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Financial Technology (Chinese)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-financial-technology",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P027",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of IP and Innovation Management (IP Business)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/mipimipb",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P025",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Strategic IP and Innovation Management (Chinese)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/msmip",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P028",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Management",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P001",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Management (Chinese)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-science-in-management",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P002",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Management (Education)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-science-in-management-(education)",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P003",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Arts in Applied Linguistics (TESOL)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P004",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Global Security and Strategy",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P005",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Psychology",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P006",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Psychology (Clinical)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P007",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Applied Research in Social Sciences",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-applied-research-in-social-sciences-mress",
+          "decision": "exclude",
+          "reasonEn": "The official programme page identifies a research degree with a research thesis/qualifying examination.",
+          "typeEvidenceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-applied-research-in-social-sciences-mress"
+        },
+        {
+          "name": "Master of Taxation",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P013",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Juris Doctor",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/juris-doctor-lawjd",
+          "decision": "exclude",
+          "reasonEn": "Doctoral or Juris Doctor award is outside the master-only scope."
+        },
+        {
+          "name": "Master of Engineering",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-engineering-meng",
+          "decision": "exclude",
+          "reasonEn": "The official programme page identifies a research degree with a research thesis/qualifying examination.",
+          "typeEvidenceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-engineering-meng"
+        },
+        {
+          "name": "Doctor of Philosophy (Engineering)",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/doctor-of-philosophy-pdeng",
+          "decision": "exclude",
+          "reasonEn": "Doctoral or Juris Doctor award is outside the master-only scope."
+        },
+        {
+          "name": "Master of Built Environment",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P017",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Social Work",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P012",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Doctor of Philosophy",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/doctor-of-philosophy-phdg",
+          "decision": "exclude",
+          "reasonEn": "Doctoral or Juris Doctor award is outside the master-only scope."
+        },
+        {
+          "name": "Master of Social Sciences",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences",
+          "decision": "include_directory_lead",
+          "reasonEn": "Coursework-led stackable route: two graduate diplomas (60 cu) and a 10 cu applied research project. A research project alone does not make this a research degree; route eligibility remains unreviewed.",
+          "typeEvidenceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences",
+          "programmeId": "SG-SUSS-P009",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master in Boundary-Crossing Learning and Leadership",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-in-boundary-crossing-learning-and-leadership",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P010",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Education",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education",
+          "decision": "include_directory_lead",
+          "reasonEn": "Named master directory lead; programme type, delivery, applicant categories and admissions need individual page checks.",
+          "programmeId": "SG-SUSS-P011",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "SUSS Master of Management + FHNW Master of Science in International Management",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/suss-master-of-management-fhnw-master-of-science-in-international-management",
+          "decision": "needs_route_reconciliation",
+          "reasonEn": "SUSS-FHNW dual-degree pathway. Retained separately as research evidence; not an extra standalone SUSS award or interchangeable with ordinary admission rules."
+        },
+        {
+          "name": "SUSS Master of Digital Marketing + FHNW Master of Science in International Management",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/suss-master-of-digital-marketing-fhnw-master-of-science-in-international-management",
+          "decision": "needs_route_reconciliation",
+          "reasonEn": "SUSS-FHNW dual-degree pathway. Retained separately as research evidence; not an extra standalone SUSS award or interchangeable with ordinary admission rules."
+        },
+        {
+          "name": "SUSS Master of Finance + FHNW Master of Science in International Management",
+          "officialUrl": "https://www.suss.edu.sg/programmes/detail/suss-master-of-finance-fhnw-master-of-science-in-international-management",
+          "decision": "needs_route_reconciliation",
+          "reasonEn": "SUSS-FHNW dual-degree pathway. Retained separately as research evidence; not an extra standalone SUSS award or interchangeable with ordinary admission rules."
+        }
+      ]
+    },
+    {
+      "universityId": "SG-SIT",
+      "sourceUrls": [
+        "https://www.singaporetech.edu.sg/admissions/postgraduate"
+      ],
+      "checkedOn": "2026-10-13",
+      "enumerationStatus": "complete_for_consulted_directory",
+      "includedProgrammeCount": 4,
+      "rawEntryCount": 4,
+      "entries": [
+        {
+          "name": "Master of Health Sciences",
+          "officialUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate",
+          "decision": "include_directory_lead",
+          "reasonEn": "One of the four awards in the explicit Programmes by Coursework table. Stackable pathways, modes and intakes are not extra awards.",
+          "programmeId": "SG-SIT-P001",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Civil Engineering",
+          "officialUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate",
+          "decision": "include_directory_lead",
+          "reasonEn": "One of the four awards in the explicit Programmes by Coursework table. Stackable pathways, modes and intakes are not extra awards.",
+          "programmeId": "SG-SIT-P002",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Electrical and Electronic Engineering",
+          "officialUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate",
+          "decision": "include_directory_lead",
+          "reasonEn": "One of the four awards in the explicit Programmes by Coursework table. Stackable pathways, modes and intakes are not extra awards.",
+          "programmeId": "SG-SIT-P003",
+          "registryAction": "existing_id_preserved"
+        },
+        {
+          "name": "Master of Science in Mechanical Engineering",
+          "officialUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate",
+          "decision": "include_directory_lead",
+          "reasonEn": "One of the four awards in the explicit Programmes by Coursework table. Stackable pathways, modes and intakes are not extra awards.",
+          "programmeId": "SG-SIT-P004",
+          "registryAction": "existing_id_preserved"
+        }
+      ]
+    }
+  ]
+}

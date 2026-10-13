@@ -18,7 +18,7 @@ async function body(req) {
 const searchText = p => [p.name, p.area, p.faculty, p.university.nameEn, p.university.nameZh, p.university.abbreviation].filter(Boolean).join(' ').toLowerCase();
 export function filterProgrammes(all, filters = {}) {
   const q = String(filters.q || '').slice(0, 200).trim().toLowerCase();
-  return all.filter(p => (filters.includeTransfer === 'true' || p.admissionRoute !== 'transfer_only') && (!q || searchText(p).includes(q)) && (!filters.region || p.university.region === filters.region) && (!filters.school || p.universityId === filters.school) && (!filters.area || p.area === filters.area) && (!filters.mode || p.offerings.some(o => o.mode?.toLowerCase().includes(filters.mode))) && (!filters.verification || p.verification === filters.verification));
+  return all.filter(p => (filters.includeTransfer === 'true' || p.admissionRoute !== 'transfer_only') && (filters.includeOutOfScope === 'true' || p.scope?.status !== 'out_of_scope') && (!q || searchText(p).includes(q)) && (!filters.region || p.university.region === filters.region) && (!filters.school || p.universityId === filters.school) && (!filters.area || p.area === filters.area) && (!filters.mode || p.offerings.some(o => o.mode?.toLowerCase().includes(filters.mode))) && (!filters.verification || p.verification === filters.verification));
 }
 export function createApp({ store, publicDir, adminToken = '' }) {
   const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
@@ -52,7 +52,7 @@ export function createApp({ store, publicDir, adminToken = '' }) {
         const input = await body(req);
         const profile = validateProfile(input.profile);
         const items = filterProgrammes(store.all(), input.filters).map(p => ({ ...p, match: matchProgramme(p, profile) }));
-        const order = { meets_checked: 0, needs_confirmation: 1, has_gap: 2 };
+        const order = { meets_checked: 0, needs_confirmation: 1, has_gap: 2, out_of_scope: 3 };
         items.sort((a, b) => order[a.match.status] - order[b.match.status] || b.match.counts.pass - a.match.counts.pass || a.name.localeCompare(b.name));
         return send(res, 200, { items, total: items.length });
       }

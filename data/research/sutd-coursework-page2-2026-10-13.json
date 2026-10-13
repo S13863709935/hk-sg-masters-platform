@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-13",
+  "warning": "Candidate extraction is not verified enumeration and not admissions-rule verification. Review duplicates, programme types, delivery location and pending approval before importing.",
+  "sources": [
+    {
+      "universityId": "SG-SUTD",
+      "requestedUrl": "https://www.sutd.edu.sg/admissions/graduate/masters/?programme-level=769&paged=2",
+      "checkedOn": "2026-10-13",
+      "fetchedAt": "2026-10-13T01:39:38.848Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.sutd.edu.sg/admissions/graduate/masters/?programme-level=769&paged=2",
+      "sourceSha256": "d82f5add49140fb278cb76d988f35910590bc43c28e15e691d641806d6523086",
+      "characters": 535987,
+      "pageTitle": "Graduate admissions - Masters - Singapore University of Technology and Design (SUTD)",
+      "candidates": [
+        {
+          "title": "PhD",
+          "url": "https://www.sutd.edu.sg/admissions/graduate/phd/#tabs",
+          "context": "",
+          "element": "anchor",
+          "parentMeta": [
+            {
+              "tag": "div",
+              "class": "swiper-slide !w-auto max-w-[20rem] [&:not(:first-child)]:ml-[1.5rem] item group",
+              "id": null,
+              "data": {}
+            },
+            {
+              "tag": "div",
+              "class": "flex items-end js-sutd-tabs-nav swiper-wrapper",
+              "id": null,
+              "data": {}
+            },
+            {
+              "tag": "div",
+              "class": "js-tabs-main-nav container mx-auto swiper-tabs relative overflow-hidden border-y border-t-0 border-global-stroke-disabled-light pr-4",
+              "id": null,
+              "data": {}
+            },
+            {
+              "tag": "section",
+              "class": "section js-sutd-tabs pt-24 max-w-full overflow-hidden relative top-0 z-20 sticky [.tab-sticky_&]:top-[var(--header-height)] bg-white !transition-[top] !duration-300",
+              "id": "tabs",
+              "data": {
+                "data-active": "is-active-"
+              }
+            },
+            {
+              "tag": "div",
+              "class": "entry-content wp-block-post-content is-layout-constrained wp-block-post-content-is-layout-constrained",
+              "id": null,
+              "data": {}
+            },
+            {
+              "tag": "main",
+              "class": "wp-block-group is-layout-flow wp-block-group-is-layout-flow",
+              "id": "wp--skip-link--target",
+              "data": {}
+            }
+          ]
+        }
+      ],
+      "headings": [
+        {
+          "title": "Master of Science in Technology and Design (IC Design, Failure Analysis and Reliability)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-ic-design-failure-analysis-and-reliability/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Technology and Design (Integrated Photonics For Semiconductor Technology)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-integrated-photonics-for-semiconductor-technology/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Technology and Design (Robotics & Automation)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-robotics-automation/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Technology and Design (Urban Innovation and Design)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-urban-innovation-and-design/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Design and Artificial Intelligence for Enterprise",
+          "url": "https://www.sutd.edu.sg/programme-listing/master-of-science-in-design-and-artificial-intelligence-for-enterprise/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Security by Design",
+          "url": "https://www.sutd.edu.sg/programme-listing/mssd/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Technology and Design (Human-Centred AI for Venture Innovation)",
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/",
+          "context": "",
+          "element": "h5"
+        },
+        {
+          "title": "Master of Science in Urban Science, Policy and Planning",
+          "url": "https://www.sutd.edu.sg/programme-listing/muspp/overview",
+          "context": "",
+          "element": "h5"
+        }
+      ],
+      "rows": [],
+      "visibleResultCount": 18,
+      "collectionStatus": "parsed_candidates_unreviewed"
+    }
+  ]
+}

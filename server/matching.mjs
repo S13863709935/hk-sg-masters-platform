@@ -52,6 +52,7 @@ function evaluateRule(r, profile) {
 
 export function matchProgramme(programme, profileInput) {
   const profile = validateProfile(profileInput);
+  if (programme.scope?.status === 'out_of_scope') return { status: 'out_of_scope', tier: null, checks: [{ kind: 'scope', labelEn: 'Programme scope', labelZh: '', mandatory: true, status: 'unknown', reasonEn: programme.scope.reasonEn, reasonZh: '', sourceUrl: programme.scope.sourceUrl }], counts: { pass: 0, fail: 0, unknown: 1 }, disclaimerEn: 'Excluded because of the programme type, not because of your background. No eligibility or admission conclusion is made.', disclaimerZh: '' };
   const canUseRules = ['programme_page_checked', 'peer_reviewed'].includes(programme.verification);
   const checks = canUseRules ? programme.rules.map(r => evaluateRule(r, profile)) : [];
   if (!checks.length) checks.push({ kind: 'data', labelZh: '项目要求', labelEn: 'Programme requirements', mandatory: true, status: 'unknown', reasonZh: '仍为目录线索，不能据此判断门槛。', reasonEn: 'This is a catalogue lead, not a checked admissions record.', sourceUrl: programme.officialUrl });

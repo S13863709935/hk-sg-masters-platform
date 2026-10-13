@@ -14,6 +14,7 @@ const checked = read('data/checked-programmes.json');
 const expansionUrl = new URL('data/catalogue-expansion.json', root);
 const previous = existsSync(expansionUrl) ? read('data/catalogue-expansion.json') : { programmes: [] };
 const date = '2026-10-08';
+if (previous.checkedOn > date) throw new Error('Refusing to replace a newer inventory with this historical batch');
 
 const inventories = [];
 for (const universityId of ['HK-HKBU', 'HK-LU', 'HK-CUHK', 'HK-POLYU']) {

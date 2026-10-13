@@ -89,18 +89,20 @@ test('directory entries distinguish 175 stored seeds from a fully enumerated sch
   assert.equal(audit.universities.length, 14);
   assert.equal(audit.fullScopeEnumerationComplete, false);
   const counted = audit.universities.filter(u => u.confirmedProgrammeCount !== null);
-  assert.equal(counted.length, 4);
+  assert.equal(counted.length, 6);
   assert.equal(counted.find(u => u.universityId === 'SG-SIT').confirmedProgrammeCount, 4);
   assert.equal(counted.find(u => u.universityId === 'HK-HKBU').confirmedProgrammeCount, 49);
   assert.equal(counted.find(u => u.universityId === 'HK-LU').confirmedProgrammeCount, 44);
   assert.equal(counted.find(u => u.universityId === 'HK-CUHK').confirmedProgrammeCount, 129);
+  assert.equal(counted.find(u => u.universityId === 'SG-SMU').confirmedProgrammeCount, 17);
+  assert.equal(counted.find(u => u.universityId === 'SG-SUTD').confirmedProgrammeCount, 18);
   assert.equal(audit.universities.reduce((sum, u) => sum + u.existingSeedCount, 0), 175);
 });
 test('versioned directory updates replace stale links without changing raw snapshot records', () => {
   const store = new CatalogueStore(':memory:', { seed, checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root) });
   try {
     assert.equal(store.quality().checked, 21);
-    assert.equal(store.quality().enumeratedUniversities, 4);
+    assert.equal(store.quality().enumeratedUniversities, 6);
     assert.equal(store.universities().find(u => u.id === 'HK-HKBU').directoryUrl, 'https://ar.hkbu.edu.hk/tpg-admissions/programmes');
     assert.equal(seed.universities.find(u => u.id === 'HK-HKBU').directoryUrl, 'https://gs.hkbu.edu.hk/programmes');
     assert.equal(store.quality().total, 175);

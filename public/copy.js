@@ -220,7 +220,11 @@ export const copy = {
   "access_limited": "Directory access limited",
   "directoryAuditNote": "Counts follow the consulted directory and scope rules, not verified open applications. Schemes and conditional entries may still need reconciliation. Stored catalogue records are not the university’s official total.",
   "directoryAuditDate": "Directory inventory updated",
-  "schemeReconciliation": "Directory entries · schemes/awards still need reconciliation"
+  "schemeReconciliation": "Directory entries · scope/awards still need reconciliation",
+  "out_of_scope": "Outside taught/coursework scope",
+  "scopeExcluded": "Research/scope exclusions · hidden by default",
+  "scopeAuditDate": "Programme scope updated",
+  "sourceRefreshPending": "Source updates awaiting manual reconciliation"
 };
 
 export const areaLabels = {

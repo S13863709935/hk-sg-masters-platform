@@ -12,7 +12,7 @@ const checkedPath = new URL('data/checked-programmes.json', root);
 const expansionPath = new URL('data/catalogue-expansion.json', root);
 const expansion = JSON.parse(readFileSync(expansionPath, 'utf8'));
 const totalRecords = seed.programmes.length + expansion.programmes.length;
-const store = new CatalogueStore(':memory:', { seed, expansionPath, checkedPath, directoryAuditPath: new URL('data/directory-audit.json', root) });
+const store = new CatalogueStore(':memory:', { seed, expansionPath, checkedPath, directoryAuditPath: new URL('data/directory-audit.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root) });
 const token = 'test-only-admin-token-not-a-secret-1234';
 const app = createApp({ store, publicDir: new URL('public/', root), adminToken: token });
 await new Promise(resolve => app.listen(0, '127.0.0.1', resolve));
@@ -22,11 +22,27 @@ const post = (path, payload, headers = {}) => fetch(base + path, { method: 'POST
 
 test('health endpoint identifies the local app for the Windows launcher', async () => { const response = await fetch(base + '/api/health'); assert.deepEqual(await response.json(), { ok: true, app: 'gradpath', version: '0.1.0' }); });
 
-test('all original 175 source records remain alongside directory expansions', async () => { assert.equal(store.quality().total, totalRecords); assert.equal(store.quality().universities, 14); assert.equal(store.quality().checked, 21); assert.equal(store.quality().peerReviewed, 0); const body = await (await fetch(base + '/api/catalogue')).json(); assert.equal(body.total, totalRecords - 1); assert.equal(body.items.length, 12); assert.equal(body.items.some(p => p.id === 'HK-HKUST-P003'), false); });
+test('all original 175 source records remain alongside directory expansions', async () => { assert.equal(store.quality().total, totalRecords); assert.equal(store.quality().universities, 14); assert.equal(store.quality().checked, 21); assert.equal(store.quality().peerReviewed, 0); const body = await (await fetch(base + '/api/catalogue')).json(); assert.equal(body.total, totalRecords - 3); assert.equal(body.items.length, 12); assert.equal(body.items.some(p => p.id === 'HK-HKUST-P003'), false); });
 test('explicit includeTransfer retains the source record', async () => { const body = await (await fetch(base + '/api/catalogue?includeTransfer=true&q=MEng%20Digital')).json(); assert.equal(body.total, 1); assert.equal(body.items[0].admissionRoute, 'transfer_only'); });
+test('default catalogue hides research scope corrections while explicit audit reads retain them', async () => {
+  const defaultResponse = await (await fetch(base + '/api/catalogue?school=SG-SUTD&q=Innovation%20by%20Design')).json();
+  assert.equal(defaultResponse.total, 0);
+  const auditResponse = await (await fetch(base + '/api/catalogue?includeOutOfScope=true&school=SG-SUTD&q=Innovation%20by%20Design')).json();
+  assert.equal(auditResponse.total, 1);
+  assert.equal(auditResponse.items[0].scope.status, 'out_of_scope');
+  const retained = await (await fetch(base + '/api/programmes/SG-SUSS-P008')).json();
+  assert.equal(retained.scope.status, 'out_of_scope');
+});
+test('an explicit audit match cannot turn a research degree into student eligibility or an academic gap', async () => {
+  const response = await post('/api/matches', {profile:{major:'Computer Science'},filters:{includeOutOfScope:'true',school:'SG-SUSS',q:'Applied Research'}});
+  const result = (await response.json()).items[0].match;
+  assert.equal(result.status, 'out_of_scope');
+  assert.equal(result.tier, null);
+  assert.equal(result.counts.fail, 0);
+});
 test('school and region filters do not leak records from the other region', async () => { const body = await (await fetch(base + '/api/catalogue?region=SG&school=SG-SIT')).json(); assert.equal(body.total, 4); assert.ok(body.items.every(p => p.university.region === 'SG')); });
 test('programme details preserve study-mode fee bases and different prices', async () => { const p = await (await fetch(base + '/api/programmes/HK-HKUST-P002')).json(); assert.equal(p.offerings[0].tuition, 270000); assert.equal(p.offerings[1].tuition, 230000); assert.equal(p.offerings[0].feeBasis, 'Total programme fee'); assert.equal(p.requirementsCoverage, 'partial'); });
-test('profiles are checked without creating a profile table', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science', gpa: 3.5, gpaScale: 4, language: { type: 'none' } } }); assert.equal(response.status, 200); const body = await response.json(); assert.equal(body.total, totalRecords - 1); assert.ok(body.items.every(p => p.match.tier === null)); const tables = store.db.prepare("SELECT name FROM sqlite_master WHERE type='table'").all(); assert.ok(tables.every(t => !/profile|student/i.test(t.name))); });
+test('profiles are checked without creating a profile table', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science', gpa: 3.5, gpaScale: 4, language: { type: 'none' } } }); assert.equal(response.status, 200); const body = await response.json(); assert.equal(body.total, totalRecords - 3); assert.ok(body.items.every(p => p.match.tier === null)); const tables = store.db.prepare("SELECT name FROM sqlite_master WHERE type='table'").all(); assert.ok(tables.every(t => !/profile|student/i.test(t.name))); });
 test('malformed scores return 422', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science', gpa: 5, gpaScale: 4 } }); assert.equal(response.status, 422); });
 test('malformed JSON is rejected', async () => { const response = await fetch(base + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{' }); assert.equal(response.status, 400); });
 test('cross-origin writes are rejected', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science' } }, { Origin: 'https://external.invalid' }); assert.equal(response.status, 403); });

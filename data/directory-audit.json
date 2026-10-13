@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-08",
+  "checkedOn": "2026-10-13",
   "basis": {
     "HK": {
       "definition": "Eight UGC-funded universities; institutional boundary, not a claim that each master's course is subsidised",
@@ -188,28 +188,30 @@
       "fallbackUrl": null,
       "listingUrl": null,
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
-      "confirmedProgrammeCount": null,
+      "checkedOn": "2026-10-13",
+      "enumerationStatus": "complete_for_consulted_directory",
+      "confirmedProgrammeCount": 17,
       "visibleDirectoryResultCount": 18,
       "existingSeedCount": 10,
-      "noteEn": "School headings advertise 18 postgraduate entries in total. This is not an audited master's count: exclude Juris Doctor and reconcile executive, law and joint/double offerings and older displayed intake dates."
+      "noteEn": "18 professional postgraduate cards reconciled to 17 masters after excluding JD. Executive/Chinese-language awards stay in institutional scope; tracks are not added. Older advertised dates do not prove current applications are open.",
+      "inventoryFile": "data/research/sg-programme-inventory-2026-10-13.json"
     },
     {
       "universityId": "SG-SUTD",
       "nameEn": "Singapore University of Technology and Design",
       "region": "SG",
       "originalDirectoryUrl": "https://www.sutd.edu.sg/admissions/graduate/masters",
-      "directoryUrl": "https://www.sutd.edu.sg/admissions/graduate/masters",
+      "directoryUrl": "https://www.sutd.edu.sg/admissions/graduate/masters/?programme-level=769",
       "fallbackUrl": null,
-      "listingUrl": null,
+      "listingUrl": "https://www.sutd.edu.sg/admissions/graduate/masters/?programme-level=769&paged=2",
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
-      "confirmedProgrammeCount": null,
-      "visibleDirectoryResultCount": 20,
+      "checkedOn": "2026-10-13",
+      "enumerationStatus": "complete_for_consulted_directory",
+      "confirmedProgrammeCount": 18,
+      "visibleDirectoryResultCount": 18,
       "existingSeedCount": 5,
-      "noteEn": "Directory shows 20 results over two pages, including research-oriented MEng. Filter Master By Coursework and distinguish MTD tracks; 20 is a raw result count, not the qualifying total."
+      "noteEn": "18 distinct coursework listings across both filtered pages, reconciled against 21 unfiltered entries. Three research routes excluded, including Innovation by Design. Individually named MTD routes count separately; modes/intakes do not.",
+      "inventoryFile": "data/research/sg-programme-inventory-2026-10-13.json"
     },
     {
       "universityId": "SG-SIT",
@@ -220,12 +222,13 @@
       "fallbackUrl": null,
       "listingUrl": null,
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
+      "checkedOn": "2026-10-13",
       "enumerationStatus": "complete_for_consulted_directory",
       "confirmedProgrammeCount": 4,
-      "visibleDirectoryResultCount": null,
+      "visibleDirectoryResultCount": 4,
       "existingSeedCount": 4,
-      "noteEn": "The explicit Programmes by Coursework table has four distinct master's awards: Health Sciences, Civil Engineering, Electrical and Electronic Engineering, Mechanical Engineering. Research awards are in a separate table."
+      "noteEn": "The explicit Programmes by Coursework table still lists four awards: Health Sciences, Civil Engineering, Electrical and Electronic Engineering, Mechanical Engineering. Research table excluded. Health Sciences now links to a CSM pathway; course/pathway admissions need checking without counting them as duplicate awards.",
+      "inventoryFile": "data/research/sg-programme-inventory-2026-10-13.json"
     },
     {
       "universityId": "SG-SUSS",
@@ -236,12 +239,14 @@
       "fallbackUrl": null,
       "listingUrl": null,
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
+      "checkedOn": "2026-10-13",
+      "enumerationStatus": "entries_enumerated",
       "confirmedProgrammeCount": null,
-      "visibleDirectoryResultCount": null,
+      "visibleDirectoryResultCount": 38,
       "existingSeedCount": 13,
-      "noteEn": "The list mixes certificates, diplomas, master's, doctorates and dual-degree paths. Applied Research/Social Sciences routes require type checking before inclusion; separate English and Chinese delivery."
+      "noteEn": "38 master/doctor/JD/dual-pathway links enumerated across all school sections: 28 master leads remain after excluding four doctorates, JD and two confirmed research masters; three dual pathways held separately. Remaining programme-level type/delivery checks are pending; 28 is not a confirmed taught-master total. Social Sciences is coursework-led and not excluded just for having a project.",
+      "inventoryFile": "data/research/sg-programme-inventory-2026-10-13.json",
+      "directoryMasterEntryCount": 28
     }
   ]
 }

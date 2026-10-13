@@ -50,6 +50,7 @@ export function validateProgramme(p, universityIds) {
   if (!['catalogue_seed', 'programme_page_checked', 'peer_reviewed', 'needs_confirmation', 'outdated'].includes(p.verification)) throw new InputError('Invalid verification status');
   if (!['unreviewed', 'partial', 'complete'].includes(p.requirementsCoverage)) throw new InputError('Invalid requirements coverage');
   if (!['unconfirmed', 'direct', 'transfer_only'].includes(p.admissionRoute)) throw new InputError('Invalid admission route');
+  if (p.scope !== undefined) validateScopeDecision(p.scope);
   if (!Array.isArray(p.offerings) || !Array.isArray(p.rules)) throw new InputError('Offerings and rules must be arrays');
   if (!p.offerings.length || new Set(p.offerings.map(o => o.id)).size !== p.offerings.length) throw new InputError('Missing or duplicate offerings');
   for (const o of p.offerings) {
@@ -84,6 +85,19 @@ export function validateDirectoryAudit(audit, universityIds) {
     if (!universityIds.has(u.universityId) || !isOfficialUrl(u.directoryUrl) || !['entry_checked', 'search_index_checked', 'access_limited'].includes(u.entryStatus) || !['pending', 'entries_enumerated', 'complete_for_consulted_directory'].includes(u.enumerationStatus) || !isIsoDate(u.checkedOn) || typeof u.noteEn !== 'string') throw new InputError('Invalid directory audit entry');
     if (u.confirmedProgrammeCount !== null && (!Number.isInteger(u.confirmedProgrammeCount) || u.confirmedProgrammeCount < 0 || u.enumerationStatus !== 'complete_for_consulted_directory')) throw new InputError('Directory count requires completed enumeration');
     if (u.enumerationStatus === 'complete_for_consulted_directory' && u.confirmedProgrammeCount === null) throw new InputError('Completed enumeration requires a count');
+  }
+  return audit;
+}
+
+export function validateScopeDecision(scope) {
+  if (!scope || !['out_of_scope', 'in_scope', 'unconfirmed'].includes(scope.status) || !isIsoDate(scope.checkedOn) || !isOfficialUrl(scope.sourceUrl) || typeof scope.reasonEn !== 'string' || !scope.reasonEn.trim() || scope.reasonEn.length > 2000) throw new InputError('Invalid scope decision or evidence');
+  return scope;
+}
+export function validateScopeAudit(audit, programmeIds) {
+  if (audit?.schemaVersion !== 1 || !isIsoDate(audit.checkedOn) || !Array.isArray(audit.decisions) || audit.decisions.length > 1000 || new Set(audit.decisions.map(d => d?.programmeId)).size !== audit.decisions.length) throw new InputError('Invalid scope audit');
+  for (const d of audit.decisions) {
+    if (!programmeIds.has(d?.programmeId)) throw new InputError('Scope audit refers to an unknown programme');
+    validateScopeDecision(d);
   }
   return audit;
 }

@@ -15,17 +15,18 @@ const read = path => JSON.parse(readFileSync(new URL(path, root), 'utf8'));
 const seed = read('data/catalogue.json');
 const expansion = read('data/catalogue-expansion.json');
 const inventory = read('data/research/programme-inventory-2026-10-08.json');
-const options = { seed, expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root) };
+const options = { seed, expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root) };
 const schools = new Set(seed.universities.map(u => u.id));
 const background = { major: 'Computer Science', degreeStatus: 'graduated', gpa: 4, gpaScale: 4, language: { type: 'ielts', total: 9, components: { listening: 9, reading: 9, writing: 9, speaking: 9 }, singleAttempt: true } };
 
-test('catalogue expansion preserves every original ID and reconciles 361 records', () => {
+test('catalogue expansion preserves original IDs, the Oct-8 additions and the current 398 records', () => {
   const db = new CatalogueStore(':memory:', options);
   try {
     assert.equal(seed.programmes.length, 175);
-    assert.equal(expansion.programmes.length, 186);
-    assert.equal(db.quality().total, 361);
-    assert.equal(db.quality().browsable, 360);
+    assert.equal(expansion.programmes.filter(p => p.inventoryBatch === '2026-10-08').length, 186);
+    assert.equal(expansion.programmes.length, 223);
+    assert.equal(db.quality().total, 398);
+    assert.equal(db.quality().browsable, 395);
     assert.equal(db.quality().checked, 21);
     assert.equal(db.quality().peerReviewed, 0);
     const allIds = new Set(db.all().map(p => p.id));

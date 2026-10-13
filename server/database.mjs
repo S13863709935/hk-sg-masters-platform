@@ -2,10 +2,14 @@ import { DatabaseSync } from 'node:sqlite';
 import { mkdirSync, readFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { createHash } from 'node:crypto';
-import { validateProgramme, validateDirectoryAudit, InputError } from './validation.mjs';
+import { validateProgramme, validateDirectoryAudit, validateScopeAudit, InputError } from './validation.mjs';
+
+const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().filter(key => value[key] !== undefined).map(key => [key, canonical(value[key])])) : value;
+const recordHash = value => createHash('sha256').update(JSON.stringify(canonical(value))).digest('hex');
+const withoutScope = ({ scope, university, ...p }) => p;
 
 export class CatalogueStore {
-  constructor(path, { seedPath, expansionPath, checkedPath, directoryAuditPath, seed } = {}) {
+  constructor(path, { seedPath, expansionPath, checkedPath, directoryAuditPath, scopeAuditPath, seed } = {}) {
     if (path !== ':memory:') mkdirSync(dirname(path), { recursive: true });
     this.db = new DatabaseSync(path);
     this.db.exec(`
@@ -45,7 +49,7 @@ export class CatalogueStore {
     if (checkedPath) {
       const text = readFileSync(checkedPath, 'utf8');
       const hash = createHash('sha256').update(text).digest('hex');
-      if (this.getMeta('checkedHash') !== hash) { this.importBatch(JSON.parse(text), 'Versioned official-page checks'); this.setMeta('checkedHash', hash); }
+      this.refreshCheckedBatch(JSON.parse(text), hash);
     }
     if (directoryAuditPath) {
       const text = readFileSync(directoryAuditPath, 'utf8');
@@ -58,6 +62,23 @@ export class CatalogueStore {
           for (const entry of audit.universities) this.db.prepare('UPDATE universities SET document=? WHERE id=?').run(JSON.stringify({ ...schools.get(entry.universityId), directoryUrl: entry.directoryUrl, directoryAudit: entry }), entry.universityId);
           this.setMeta('directoryAuditDate', audit.checkedOn);
           this.setMeta('directoryAuditHash', hash);
+          this.db.exec('COMMIT');
+        } catch (error) { this.db.exec('ROLLBACK'); throw error; }
+      }
+    }
+    if (scopeAuditPath) {
+      const text = readFileSync(scopeAuditPath, 'utf8');
+      const hash = createHash('sha256').update(text).digest('hex');
+      if (this.getMeta('scopeAuditHash') !== hash) {
+        const audit = validateScopeAudit(JSON.parse(text), new Set(this.all().map(p => p.id)));
+        this.db.exec('BEGIN');
+        try {
+          for (const { programmeId, ...scope } of audit.decisions) {
+            const { university, ...p } = this.get(programmeId);
+            this.upsert({ ...p, scope }, 'Versioned programme-scope correction; admissions fields preserved');
+          }
+          this.setMeta('scopeAuditDate', audit.checkedOn);
+          this.setMeta('scopeAuditHash', hash);
           this.db.exec('COMMIT');
         } catch (error) { this.db.exec('ROLLBACK'); throw error; }
       }
@@ -89,15 +110,49 @@ export class CatalogueStore {
     try { for (const p of batch.programmes) this.upsert(p, reason); this.db.exec('COMMIT'); } catch (error) { this.db.exec('ROLLBACK'); throw error; }
     return { imported: batch.programmes.length };
   }
+  refreshCheckedBatch(batch, fileHash) {
+    if (batch?.schemaVersion !== 1 || !Array.isArray(batch.programmes) || !batch.programmes.length || batch.programmes.length > 1000 || new Set(batch.programmes.map(p => p.id)).size !== batch.programmes.length) throw new InputError('Invalid checked source batch');
+    const universityIds = new Set(this.universities().map(u => u.id));
+    for (const p of batch.programmes) validateProgramme(p, universityIds);
+    const sameLegacyBatch = this.getMeta('checkedHash') === fileHash;
+    const conflicts = [];
+    this.db.exec('BEGIN');
+    try {
+      for (const incoming of batch.programmes) {
+        const key = `checkedRecordHash:${incoming.id}`;
+        const previousHash = this.getMeta(key);
+        const nextHash = recordHash(withoutScope(incoming));
+        // An unchanged source record must never replace a later manual update.
+        if (previousHash === nextHash) continue;
+        // Migrate older stores without rewriting their existing documents.
+        if (!previousHash && sameLegacyBatch) { this.setMeta(key, nextHash); continue; }
+        const current = this.get(incoming.id);
+        const latest = this.db.prepare('SELECT reason FROM change_log WHERE programme_id=? ORDER BY id DESC LIMIT 1').get(incoming.id);
+        const legacySource = this.db.prepare("SELECT new_document FROM change_log WHERE programme_id=? AND reason='Versioned official-page checks' ORDER BY id DESC LIMIT 1").get(incoming.id);
+        const expectedHash = previousHash || (legacySource ? recordHash(withoutScope(JSON.parse(legacySource.new_document))) : null);
+        const safeToRefresh = !current || (current.verification !== 'peer_reviewed' && (latest?.reason === 'Initial catalogue seed' || recordHash(withoutScope(current)) === expectedHash));
+        if (safeToRefresh) {
+          this.upsert({ ...incoming, ...(current?.scope ? { scope: current.scope } : {}) }, 'Versioned official-page checks');
+          this.setMeta(key, nextHash);
+        } else conflicts.push(incoming.id);
+      }
+      this.setMeta('checkedHash', fileHash);
+      this.setMeta('sourceRefreshConflicts', JSON.stringify(conflicts));
+      this.db.exec('COMMIT');
+    } catch (error) { this.db.exec('ROLLBACK'); throw error; }
+  }
   quality() {
     const all = this.all();
     return {
       total: all.length, universities: this.universities().length,
-      browsable: all.filter(p => p.admissionRoute !== 'transfer_only').length,
+      browsable: all.filter(p => p.admissionRoute !== 'transfer_only' && p.scope?.status !== 'out_of_scope').length,
       checked: all.filter(p => ['programme_page_checked', 'peer_reviewed'].includes(p.verification)).length,
       peerReviewed: all.filter(p => p.verification === 'peer_reviewed').length,
       complete: all.filter(p => p.requirementsCoverage === 'complete').length,
       transferOnly: all.filter(p => p.admissionRoute === 'transfer_only').length,
+      outOfScope: all.filter(p => p.scope?.status === 'out_of_scope').length,
+      scopeAuditDate: this.getMeta('scopeAuditDate'),
+      sourceRefreshConflicts: JSON.parse(this.getMeta('sourceRefreshConflicts') || '[]'),
       snapshotDate: this.getMeta('snapshotDate'),
       directoryAuditDate: this.getMeta('directoryAuditDate'),
       enumeratedUniversities: this.universities().filter(u => u.directoryAudit?.enumerationStatus === 'complete_for_consulted_directory').length,
