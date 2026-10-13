@@ -2,14 +2,14 @@ import { DatabaseSync } from 'node:sqlite';
 import { mkdirSync, readFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { createHash } from 'node:crypto';
-import { validateProgramme, validateDirectoryAudit, validateScopeAudit, InputError } from './validation.mjs';
+import { validateProgramme, validateDirectoryAudit, validateScopeAudit, validateDirectoryListing, InputError } from './validation.mjs';
 
 const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().filter(key => value[key] !== undefined).map(key => [key, canonical(value[key])])) : value;
 const recordHash = value => createHash('sha256').update(JSON.stringify(canonical(value))).digest('hex');
-const withoutScope = ({ scope, university, ...p }) => p;
+const withoutScope = ({ scope, directoryListing, university, ...p }) => p;
 
 export class CatalogueStore {
-  constructor(path, { seedPath, expansionPath, checkedPath, directoryAuditPath, scopeAuditPath, seed } = {}) {
+  constructor(path, { seedPath, expansionPath, checkedPath, directoryAuditPath, scopeAuditPath, directoryEvidencePath, seed } = {}) {
     if (path !== ':memory:') mkdirSync(dirname(path), { recursive: true });
     this.db = new DatabaseSync(path);
     this.db.exec(`
@@ -83,6 +83,25 @@ export class CatalogueStore {
         } catch (error) { this.db.exec('ROLLBACK'); throw error; }
       }
     }
+    if (directoryEvidencePath) {
+      const text = readFileSync(directoryEvidencePath, 'utf8');
+      const hash = createHash('sha256').update(text).digest('hex');
+      if (this.getMeta('directoryLinksHash') !== hash) {
+        const batch = JSON.parse(text), ids = new Set(this.all().map(p=>p.id));
+        if (batch?.schemaVersion !== 1 || !Array.isArray(batch.listings) || batch.listings.length > 1000 || new Set(batch.listings.map(p=>p?.programmeId)).size !== batch.listings.length) throw new InputError('Invalid directory evidence batch');
+        for (const listing of batch.listings) { if (!ids.has(listing?.programmeId)) throw new InputError('Directory evidence refers to an unknown programme'); validateDirectoryListing(listing); }
+        this.db.exec('BEGIN');
+        try {
+          for (const { programmeId, ...directoryListing } of batch.listings) {
+            const { university, ...p } = this.get(programmeId);
+            this.upsert({ ...p, directoryListing }, 'Versioned directory links and route evidence; admissions fields preserved');
+          }
+          this.setMeta('directoryLinksHash', hash);
+          this.setMeta('directoryLinksDate', batch.checkedOn);
+          this.db.exec('COMMIT');
+        } catch (error) { this.db.exec('ROLLBACK'); throw error; }
+      }
+    }
   }
   setMeta(key, value) { this.db.prepare('INSERT INTO metadata VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value=excluded.value').run(key, value); }
   getMeta(key) { return this.db.prepare('SELECT value FROM metadata WHERE key=?').get(key)?.value || null; }
@@ -91,7 +110,10 @@ export class CatalogueStore {
     const schools = new Map(this.universities().map(u => [u.id, u]));
     return this.db.prepare('SELECT document FROM programmes').all().map(r => { const p = JSON.parse(r.document); return { ...p, university: schools.get(p.universityId) }; });
   }
-  get(id) { return this.all().find(p => p.id === id) || null; }
+  get(id) {
+    const row = this.db.prepare('SELECT p.document, u.document AS school_document FROM programmes p JOIN universities u ON p.university_id=u.id WHERE p.id=?').get(id);
+    return row ? { ...JSON.parse(row.document), university: JSON.parse(row.school_document) } : null;
+  }
   upsert(p, reason) {
     validateProgramme(p, new Set(this.universities().map(u => u.id)));
     const previous = this.db.prepare('SELECT document FROM programmes WHERE id=?').get(p.id)?.document || null;
@@ -132,7 +154,7 @@ export class CatalogueStore {
         const expectedHash = previousHash || (legacySource ? recordHash(withoutScope(JSON.parse(legacySource.new_document))) : null);
         const safeToRefresh = !current || (current.verification !== 'peer_reviewed' && (latest?.reason === 'Initial catalogue seed' || recordHash(withoutScope(current)) === expectedHash));
         if (safeToRefresh) {
-          this.upsert({ ...incoming, ...(current?.scope ? { scope: current.scope } : {}) }, 'Versioned official-page checks');
+          this.upsert({ ...incoming, ...(current?.scope ? { scope: current.scope } : {}), ...(current?.directoryListing ? { directoryListing: current.directoryListing } : {}) }, 'Versioned official-page checks');
           this.setMeta(key, nextHash);
         } else conflicts.push(incoming.id);
       }

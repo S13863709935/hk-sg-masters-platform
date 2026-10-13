@@ -224,7 +224,10 @@ export const copy = {
   "out_of_scope": "Outside taught/coursework scope",
   "scopeExcluded": "Research/scope exclusions · hidden by default",
   "scopeAuditDate": "Programme scope updated",
-  "sourceRefreshPending": "Source updates awaiting manual reconciliation"
+  "sourceRefreshPending": "Source updates awaiting manual reconciliation",
+  "directoryEvidence": "Official directory evidence",
+  "directoryRoutes": "Listed specialisations / pathways",
+  "routeSelection": "Specific route needs confirmation"
 };
 
 export const areaLabels = {

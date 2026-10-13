@@ -54,6 +54,13 @@ test('safe source updates retain programme scope corrections', () => fixture(({o
   assert.equal(db.get(a.id).scope.status,'out_of_scope');
   assert.equal(db.get(a.id).notesEn,revised.programmes[0].notesEn);
 }));
+test('safe source updates retain non-admission directory evidence', () => fixture(({open,save})=>{
+  let db=open();const a=source.programmes[0];
+  const directoryListing={nameEn:a.name,checkedOn:'2026-10-13',sourceUrl:a.officialUrl,programmeUrl:a.officialUrl,variants:[],noteEn:'Synthetic directory metadata only'};
+  db.importBatch({schemaVersion:1,programmes:[{...a,directoryListing}]},'Synthetic directory overlay');
+  const revised=structuredClone(source);revised.programmes[0].notesEn+=' Synthetic source refresh.';
+  save(revised);db=open();assert.deepEqual(db.get(a.id).directoryListing,directoryListing);assert.equal(db.get(a.id).notesEn,revised.programmes[0].notesEn);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);
+}));
 test('a legacy checked batch gains fingerprints without replacing later manual data', () => fixture(({open,save})=>{
   let db = open(); const a = source.programmes[0];
   db.importBatch({schemaVersion:1,programmes:[{...a,notesEn:'Synthetic legacy manual change.'}]},'Synthetic manual edit');

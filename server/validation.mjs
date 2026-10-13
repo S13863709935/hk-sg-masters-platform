@@ -36,7 +36,8 @@ export function validateProfile(input) {
   return { major, degreeStatus, classification, gpa, gpaScale, experienceYears: experiences, language: { type, total, components, testDate, atHome: !!languageInput.atHome, singleAttempt: languageInput.singleAttempt === true, waiverBasis: ['first_language', 'english_degree'].includes(languageInput.waiverBasis) ? languageInput.waiverBasis : null } };
 }
 
-export const universityDomains = ['cityu.edu.hk', 'hkbu.edu.hk', 'ln.edu.hk', 'cuhk.edu.hk', 'eduhk.hk', 'polyu.edu.hk', 'hkust.edu.hk', 'ust.hk', 'hku.hk', 'nus.edu.sg', 'ntu.edu.sg', 'smu.edu.sg', 'sutd.edu.sg', 'singaporetech.edu.sg', 'suss.edu.sg'];
+// Duke-NUS is a school of NUS (NUS Bulletin AY2026/27), not a fifteenth university.
+export const universityDomains = ['cityu.edu.hk', 'hkbu.edu.hk', 'ln.edu.hk', 'cuhk.edu.hk', 'eduhk.hk', 'polyu.edu.hk', 'hkust.edu.hk', 'ust.hk', 'hku.hk', 'nus.edu.sg', 'duke-nus.edu.sg', 'ntu.edu.sg', 'smu.edu.sg', 'sutd.edu.sg', 'singaporetech.edu.sg', 'suss.edu.sg'];
 export function isOfficialUrl(value) {
   try { const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password && universityDomains.some(domain => u.hostname === domain || u.hostname.endsWith(`.${domain}`)); } catch { return false; }
 }
@@ -51,6 +52,7 @@ export function validateProgramme(p, universityIds) {
   if (!['unreviewed', 'partial', 'complete'].includes(p.requirementsCoverage)) throw new InputError('Invalid requirements coverage');
   if (!['unconfirmed', 'direct', 'transfer_only'].includes(p.admissionRoute)) throw new InputError('Invalid admission route');
   if (p.scope !== undefined) validateScopeDecision(p.scope);
+  if (p.directoryListing !== undefined) validateDirectoryListing(p.directoryListing);
   if (!Array.isArray(p.offerings) || !Array.isArray(p.rules)) throw new InputError('Offerings and rules must be arrays');
   if (!p.offerings.length || new Set(p.offerings.map(o => o.id)).size !== p.offerings.length) throw new InputError('Missing or duplicate offerings');
   for (const o of p.offerings) {
@@ -92,6 +94,12 @@ export function validateDirectoryAudit(audit, universityIds) {
 export function validateScopeDecision(scope) {
   if (!scope || !['out_of_scope', 'in_scope', 'unconfirmed'].includes(scope.status) || !isIsoDate(scope.checkedOn) || !isOfficialUrl(scope.sourceUrl) || typeof scope.reasonEn !== 'string' || !scope.reasonEn.trim() || scope.reasonEn.length > 2000) throw new InputError('Invalid scope decision or evidence');
   return scope;
+}
+
+export function validateDirectoryListing(listing) {
+  if (!listing || typeof listing.nameEn !== 'string' || !listing.nameEn.trim() || listing.nameEn.length > 300 || !isIsoDate(listing.checkedOn) || !isOfficialUrl(listing.sourceUrl) || !isOfficialUrl(listing.programmeUrl) || typeof listing.noteEn !== 'string' || listing.noteEn.length > 2000 || !Array.isArray(listing.variants) || listing.variants.length > 50) throw new InputError('Invalid directory listing evidence');
+  for (const v of listing.variants) if (!v || typeof v.nameEn !== 'string' || !v.nameEn.trim() || v.nameEn.length > 300 || !isOfficialUrl(v.officialUrl)) throw new InputError('Invalid directory route evidence');
+  return listing;
 }
 export function validateScopeAudit(audit, programmeIds) {
   if (audit?.schemaVersion !== 1 || !isIsoDate(audit.checkedOn) || !Array.isArray(audit.decisions) || audit.decisions.length > 1000 || new Set(audit.decisions.map(d => d?.programmeId)).size !== audit.decisions.length) throw new InputError('Invalid scope audit');

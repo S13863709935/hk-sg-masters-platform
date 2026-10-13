@@ -49,6 +49,8 @@ node scripts/import-data.mjs path/to/checked-batch.json
 
 `programme-scope-audit.json` 只添加带来源和日期的范围判定，不改入学条件或原始表格。研究型项目从默认搜索／匹配中排除，但原 ID、详情和导出记录保留；这是项目范围排除，不是学生成绩不达标。
 
+`directory-links.json` 是目录证据叠加层：只补官方目录名称、链接和分路径参考，不修改原记录的入学要求、费用、日期或复核状态。合并索引的方向／语言／双学位路径必须先选定并分别核实，不能使用共同或另一方向的条件判断资格；这些合并记录始终保留路径未知项，不产生分档。
+
 ## 可选目录研究工具
 
 `collect-directory.mjs` 对指定公开目录进行有超时和体积限制的读取，最多两个请求并行；拒绝或读不到的页面保留为未知，不绕过访问限制。HTML 解析使用用户显式提供的 Python 及已安装的 lxml，仅用于研究，不是网站运行依赖。候选输出不自动变成已核验招生数据。
@@ -56,6 +58,8 @@ node scripts/import-data.mjs path/to/checked-batch.json
 `build-directory-inventory.mjs` 使用 2026-10-08 已保存的目录快照和本轮范围规则生成排除清单及未核验扩展层，保留已有 ID。目录结构／学校范围变化时需重新审查规则，不能把该脚本当成无需人工检查的长期爬虫。重复运行只更新同一批研究派生文件，不产生新周次或伪造贡献。
 
 `build-sg-directory-inventory.mjs` 使用 2026-10-13 的冻结观察记录，生成新加坡目录交叉表及未核验线索。旧版生成器拒绝覆盖较新批次；SUSS 的 28 条仍是待逐项目核实的目录线索，不能当作已确认授课型硕士总数。它不会替代 NUS／NTU 的后续盘点。
+
+`build-dynamic-directory-inventory.mjs` 使用同日 NUS／NTU 全部动态分页的冻结观察，生成新的目录交叉表、未核实线索和链接证据。136／113 是官网筛选后的目录条目数，不是最终独立硕士数量。通用 Computing、Accounting 名称对应和部分联合路径仍保留待协调状态；没有套用 General Track 或其他方向的入学规则。
 
 ## 网页导入权限
 

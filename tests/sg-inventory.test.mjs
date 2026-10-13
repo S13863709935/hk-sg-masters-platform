@@ -11,7 +11,7 @@ const read = file => JSON.parse(readFileSync(new URL(file, root), 'utf8'));
 const seed = read('data/catalogue.json');
 const inventory = read('data/research/sg-programme-inventory-2026-10-13.json');
 const scope = read('data/programme-scope-audit.json');
-const options = { seed, expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root) };
+const options = { seed, expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root), directoryEvidencePath: new URL('data/directory-links.json', root) };
 const profile = { major: 'Computer Science', degreeStatus: 'graduated', gpa: 4, gpaScale: 4, language: { type: 'ielts', total: 9 } };
 
 test('SMU enumerates 17 master cards, excludes JD and retains executive/Chinese awards', () => {
@@ -47,7 +47,7 @@ test('SUSS keeps 28 leads provisional and separates research and dual pathways',
   assert.equal(i.entries.find(e => e.name === 'Master of Science in Management (Chinese)').programmeId, 'SG-SUSS-P002');
 });
 test('new SG leads have official sources, English names and no admissions rules or tiers', () => {
-  const additions = read('data/catalogue-expansion.json').programmes.filter(p => p.inventoryBatch === '2026-10-13');
+  const additions = read('data/catalogue-expansion.json').programmes.filter(p => p.inventoryBatch === '2026-10-13' && p.inventoryPass !== 'nus-ntu-dynamic');
   assert.equal(additions.length, 37);
   assert.ok(additions.every(p => isOfficialUrl(p.officialUrl) && p.rules.length === 0 && p.reviewer === null && p.academicYear === null && p.requirementsCoverage === 'unreviewed'));
   assert.ok(additions.every(p => !/\p{Script=Han}/u.test(p.name + p.notesEn)));
@@ -56,13 +56,14 @@ test('new SG leads have official sources, English names and no admissions rules 
 test('two scope corrections hide records but keep IDs, evidence and original snapshot intact', () => {
   const db = new CatalogueStore(':memory:', options);
   try {
-    assert.equal(db.quality().total, 398);
-    assert.equal(db.quality().browsable, 395);
+    const total = seed.programmes.length + read('data/catalogue-expansion.json').programmes.length;
+    assert.equal(db.quality().total, total);
+    assert.equal(db.quality().browsable, total - 3);
     assert.equal(db.quality().outOfScope, 2);
     assert.equal(db.quality().enumeratedUniversities, 6);
     assert.equal(db.quality().scopeAuditDate, '2026-10-13');
-    assert.equal(filterProgrammes(db.all()).length, 395);
-    assert.equal(filterProgrammes(db.all(), {includeTransfer:'true',includeOutOfScope:'true'}).length, 398);
+    assert.equal(filterProgrammes(db.all()).length, total - 3);
+    assert.equal(filterProgrammes(db.all(), {includeTransfer:'true',includeOutOfScope:'true'}).length, total);
     for (const d of scope.decisions) {
       const p = db.get(d.programmeId);
       assert.equal(p.scope.status, 'out_of_scope');
