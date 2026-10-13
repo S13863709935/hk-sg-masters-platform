@@ -1,0 +1,2813 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-06",
+  "pilotProgrammeIds": [
+    "HK-CITYU-P010",
+    "HK-CITYU-P004",
+    "HK-HKBU-P001",
+    "HK-HKBU-P007",
+    "HK-LU-P001",
+    "HK-CUHK-P001",
+    "HK-EDUHK-P001",
+    "HK-POLYU-P001",
+    "HK-HKUST-P002",
+    "HK-HKU-P007",
+    "SG-NUS-P029",
+    "SG-NUS-P007",
+    "SG-NTU-P018",
+    "SG-NTU-P015",
+    "SG-SMU-P001",
+    "SG-SMU-P010",
+    "SG-SUTD-P001",
+    "SG-SUTD-P002",
+    "SG-SIT-P002",
+    "SG-SUSS-P001"
+  ],
+  "programmes": [
+    {
+      "id": "HK-CITYU-P010",
+      "universityId": "HK-CITYU",
+      "name": "MSc Computer Science",
+      "award": "MSc",
+      "area": "Computing",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Rolling review. Tuition for this intake still needs checking; do not reuse the 2026/27 price.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P010-O1",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "deadline": "2027-05-31",
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "feeBasis": null
+        },
+        {
+          "id": "HK-CITYU-P010-O2",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "deadline": "2027-05-31",
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [
+            "Computer Science",
+            "Information Technology",
+            "Computer Engineering",
+            "Information Systems"
+          ],
+          "any": false,
+          "relatedAllowed": true,
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Related-field route and English-proficiency interview conditions require individual confirmation.",
+          "noteEn": "Related-field route and English-proficiency interview conditions require individual confirmation.",
+          "mandatory": true,
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "Test validity is anchored to the application-period start, not today's date. CET-6 is an alternative not supported by the form.",
+          "noteEn": "Test validity is anchored to the application-period start, not today's date. CET-6 is an alternative not supported by the form.",
+          "mandatory": true,
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Computing-degree route; related disciplines also require applicable IT work experience.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+        }
+      }
+    },
+    {
+      "id": "HK-CITYU-P004",
+      "universityId": "HK-CITYU",
+      "name": "MSc Applied Economics",
+      "award": "MSc",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Any undergraduate discipline may apply. Do not turn the quantitative-background preference into an invented GPA cutoff.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P004-O1",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "deadline": "2027-03-31",
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false,
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "English interview and test-validity conditions need confirmation; CET-6 and equivalent routes are not supported by the form.",
+          "noteEn": "English interview and test-validity conditions need confirmation; CET-6 and equivalent routes are not supported by the form.",
+          "mandatory": true,
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Economics is not a prerequisite; a strong quantitative background is encouraged.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+        }
+      }
+    },
+    {
+      "id": "HK-HKBU-P001",
+      "universityId": "HK-HKBU",
+      "name": "MA Communication",
+      "award": "MA",
+      "area": "Arts and Communication",
+      "faculty": null,
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Applications open on 6 October 2026. The GPA 2.50 on the page concerns an exit award, not admission.",
+      "offerings": [
+        {
+          "id": "HK-HKBU-P001-O1",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Non-local deadline; local applicants: 23 July 2027.",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "Total programme fee"
+        },
+        {
+          "id": "HK-HKBU-P001-O2",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Non-local deadline; local applicants: 23 July 2027.",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "Total programme fee"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "An honours bachelor's degree is required; no specific honours division is stated.",
+          "noteEn": "An honours bachelor's degree is required; no specific honours division is stated.",
+          "mandatory": true,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "English waiver and validity at the offer-letter date need confirmation; the new TOEFL scale is not stated on this page.",
+          "noteEn": "English waiver and validity at the offer-letter date need confirmation; the new TOEFL scale is not stated on this page.",
+          "mandatory": true,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "An English essay is required; professional experience is a preference, not a mandatory number of years.",
+          "noteEn": "An English essay is required; professional experience is a preference, not a mandatory number of years.",
+          "mandatory": true,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+        }
+      }
+    },
+    {
+      "id": "HK-HKBU-P007",
+      "universityId": "HK-HKBU",
+      "name": "MSc Business Management",
+      "award": "MSc",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Keep local and non-local tuition distinct. The published bachelor's requirement does not give a numeric undergraduate GPA minimum.",
+      "offerings": [
+        {
+          "id": "HK-HKBU-P007-O1",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "deadline": "2027-04-01",
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 393000,
+          "feeBasis": "Total programme tuition for non-local students; local tuition HKD 301,000"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Equivalent academic qualifications, language alternatives and offer-date test validity require confirmation.",
+          "noteEn": "Equivalent academic qualifications, language alternatives and offer-date test validity require confirmation.",
+          "mandatory": true,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "Personal statement and satisfactory admission interview are required. GMAT is encouraged, not compulsory.",
+          "noteEn": "Personal statement and satisfactory admission interview are required. GMAT is encouraged, not compulsory.",
+          "mandatory": true,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "A complete accepted-field policy was not captured.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+        }
+      }
+    },
+    {
+      "id": "HK-LU-P001",
+      "universityId": "HK-LU",
+      "name": "MA International Higher Education and Management",
+      "award": "MA",
+      "area": "Education",
+      "faculty": null,
+      "officialUrl": "https://www.ln.edu.hk/sgs/ihem/admission",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "The window is 1 August 2026 to 30 June 2027, subject to change. Tuition and duration remain uncollected in this batch.",
+      "offerings": [
+        {
+          "id": "HK-LU-P001-O1",
+          "mode": "Full-time",
+          "duration": null,
+          "intake": "2027/28 intake",
+          "deadline": "2027-06-30",
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "feeBasis": null
+        },
+        {
+          "id": "HK-LU-P001-O2",
+          "mode": "Part-time",
+          "duration": null,
+          "intake": "2027/28 intake",
+          "deadline": "2027-06-30",
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "A relevant bachelor's degree, accepted equivalent, or satisfactory academic/professional attainment is considered.",
+          "noteEn": "A relevant bachelor's degree, accepted equivalent, or satisfactory academic/professional attainment is considered.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Relevance, alternative qualifications and language equivalents need university judgement.",
+          "noteEn": "Relevance, alternative qualifications and language equivalents need university judgement.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "Single-sitting language scores must remain valid at application; the page does not give a revised TOEFL 6-point threshold.",
+          "noteEn": "Single-sitting language scores must remain valid at application; the page does not give a revised TOEFL 6-point threshold.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/ihem/admission",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "purpose": "Study modes and application window",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+        }
+      }
+    },
+    {
+      "id": "HK-CUHK-P001",
+      "universityId": "HK-CUHK",
+      "name": "MA Anthropology",
+      "award": "MA",
+      "area": "Social Sciences",
+      "faculty": null,
+      "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "Intake year not stated in checked programme details",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "The page lists annual tuition of HKD 198,000 (FT) and HKD 99,000 (PT), but the applicable intake year was not identified; no price is imported as a confirmed current offering.",
+      "offerings": [
+        {
+          "id": "HK-CUHK-P001-O1",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": null,
+          "deadline": null,
+          "deadlineNote": null,
+          "academicYear": "Intake year not stated in checked programme details",
+          "currency": "HKD",
+          "tuition": null,
+          "feeBasis": null
+        },
+        {
+          "id": "HK-CUHK-P001-O2",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": null,
+          "deadline": null,
+          "deadlineNote": null,
+          "academicYear": "Intake year not stated in checked programme details",
+          "currency": "HKD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "General taught-master's criterion: normally second-class honours OR average grade B; accepted equivalent route also exists.",
+          "noteEn": "General taught-master's criterion: normally second-class honours OR average grade B; accepted equivalent route also exists.",
+          "mandatory": true,
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": true,
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "The honours/average-grade/equivalent alternatives need manual checking; do not invent a GPA conversion.",
+          "noteEn": "The honours/average-grade/equivalent alternatives need manual checking; do not invent a GPA conversion.",
+          "mandatory": true,
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "A one-page statement of purpose is required. Deadline and applicable tuition year remain unconfirmed.",
+          "noteEn": "A one-page statement of purpose is required. Deadline and applicable tuition year remain unconfirmed.",
+          "mandatory": true,
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+          "purpose": "General academic and English requirements",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+        }
+      }
+    },
+    {
+      "id": "HK-EDUHK-P001",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Public Policy and Management",
+      "award": "Master",
+      "area": "Social Sciences",
+      "faculty": null,
+      "officialUrl": "https://www.eduhk.hk/ssps/mppm",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "January 2027 (2026/27); September 2027 (2027/28)",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Do not merge the two intake prices or deadlines. The September deadline has not been checked in this batch.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P001-O1",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "January 2027",
+          "deadline": "2026-10-15",
+          "deadlineNote": "Non-local deadline; local applicants: 20 November 2026.",
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": 188888,
+          "feeBasis": "Total tuition for non-local applicants; local tuition HKD 151,110"
+        },
+        {
+          "id": "HK-EDUHK-P001-O2",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "deadline": null,
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 208000,
+          "feeBasis": "Published September 2027 programme tuition"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Language exemptions, accepted equivalents and intake-specific test-validity anchors require confirmation.",
+          "noteEn": "Language exemptions, accepted equivalents and intake-specific test-validity anchors require confirmation.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/ssps/mppm",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/",
+          "purpose": "January intake applicant-category deadlines",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "A complete accepted-field policy was not captured.",
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        }
+      }
+    },
+    {
+      "id": "HK-POLYU-P001",
+      "universityId": "HK-POLYU",
+      "name": "MSc Business Management",
+      "award": "MSc",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Any discipline may apply. The advertised fee is not a complete cost-of-study estimate; summer-school expenses are additional.",
+      "offerings": [
+        {
+          "id": "HK-POLYU-P001-O1",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "deadline": "2027-02-25",
+          "deadlineNote": "Early round: 20 October 2026; main round: 25 February 2027.",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 424800,
+          "feeBasis": "Programme tuition excluding compulsory overseas summer-school course and travel costs"
+        },
+        {
+          "id": "HK-POLYU-P001-O2",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "deadline": "2027-02-25",
+          "deadlineNote": "Early round: 20 October 2026; main round: 25 February 2027.",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 424800,
+          "feeBasis": "Programme tuition excluding compulsory overseas summer-school course and travel costs"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false,
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "English waiver and score validity at application require confirmation; shortlisted applicants may be interviewed.",
+          "noteEn": "English waiver and score validity at application require confirmation; shortlisted applicants may be interviewed.",
+          "mandatory": true,
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg",
+          "purpose": "General English requirements",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Any discipline is explicitly allowed, subject to all other criteria.",
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        }
+      }
+    },
+    {
+      "id": "HK-HKUST-P002",
+      "universityId": "HK-HKUST",
+      "name": "MSc Digital and Sustainable Cities",
+      "award": "MSc",
+      "area": "Engineering",
+      "faculty": null,
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2026/27",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Checked 2026/27 catalogue. A newer application window or intake is not assumed. Related engineering fields and waivers require university judgement.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P002-O1",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": null,
+          "deadline": null,
+          "deadlineNote": null,
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": 270000,
+          "feeBasis": "Total programme fee"
+        },
+        {
+          "id": "HK-HKUST-P002-O2",
+          "mode": "Part-time",
+          "duration": "2–2.5 years",
+          "intake": null,
+          "deadline": null,
+          "deadlineNote": null,
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Total programme fee"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [
+            "Civil Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        {
+          "kind": "classification",
+          "labelZh": "Honours classification",
+          "labelEn": "Honours classification",
+          "min": "second_lower",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Exact fields or accepted alternative routes are recorded.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+        }
+      }
+    },
+    {
+      "id": "HK-HKU-P007",
+      "universityId": "HK-HKU",
+      "name": "MSc Urban Analytics",
+      "award": "MSc",
+      "area": "Social Sciences",
+      "faculty": null,
+      "officialUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Use the 2027/28 amount, not the older HKD 240,000. Main-round timing and provisional fee status are retained.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P007-O1",
+          "mode": "Full-time",
+          "duration": null,
+          "intake": "2027/28 intake",
+          "deadline": "2027-01-04",
+          "deadlineNote": "12:00 noon GMT+8; shortlisted candidates may be interviewed.",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 252000,
+          "feeBasis": "Proposed programme tuition, subject to university approval"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "An urban-related bachelor's degree or accepted equivalent is required; a qualifying examination may be requested.",
+          "noteEn": "An urban-related bachelor's degree or accepted equivalent is required; a qualifying examination may be requested.",
+          "mandatory": true,
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://calendar.hku.hk/general-regulations/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Urban-field equivalence and any qualifying examination need university judgement.",
+          "noteEn": "Urban-field equivalence and any qualifying examination need university judgement.",
+          "mandatory": true,
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "English alternatives and waivers need confirmation; tests must be within two years before 1 September of the admission year.",
+          "noteEn": "English alternatives and waivers need confirmation; tests must be within two years before 1 September of the admission year.",
+          "mandatory": true,
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://calendar.hku.hk/general-regulations/",
+          "purpose": "General Regulation G2(b) for higher degrees by coursework",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://calendar.hku.hk/general-regulations/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        }
+      }
+    },
+    {
+      "id": "SG-NUS-P029",
+      "universityId": "SG-NUS",
+      "name": "Master of Computing (General Track)",
+      "award": "MComp",
+      "area": "Computing",
+      "faculty": null,
+      "officialUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "The old broad seed is now explicitly General Track only; specialisation-track criteria are not merged. The GPA 3.0 in the curriculum is a graduation criterion.",
+      "offerings": [
+        {
+          "id": "SG-NUS-P029-O1",
+          "mode": "Full-time",
+          "duration": "1.5–2 years",
+          "intake": "August 2027",
+          "deadline": "2027-01-31",
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": 76409,
+          "feeBasis": "Programme tuition including 9% GST; miscellaneous fees and excess units are additional"
+        },
+        {
+          "id": "SG-NUS-P029-O2",
+          "mode": "Part-time",
+          "duration": "2.5 years",
+          "intake": "August 2027",
+          "deadline": "2027-01-31",
+          "deadlineNote": null,
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": 76409,
+          "feeBasis": "Programme tuition including 9% GST; miscellaneous fees and excess units are additional"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false,
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "A good honours degree or accepted equivalent in any discipline is required; this is a conversion-oriented track.",
+          "noteEn": "A good honours degree or accepted equivalent in any discipline is required; this is a conversion-oriented track.",
+          "mandatory": true,
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 90,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "GRE/GMAT or permitted GATE route, academic equivalence and language waiver need checking.",
+          "noteEn": "GRE/GMAT or permitted GATE route, academic equivalence and language waiver need checking.",
+          "mandatory": true,
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "Test validity is assessed at application. Relevant IT experience is a preference, not a mandatory minimum.",
+          "noteEn": "Test validity is assessed at application. Relevant IT experience is a preference, not a mandatory minimum.",
+          "mandatory": true,
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/",
+          "purpose": "Track scope and duration",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/",
+          "purpose": "2027 intake and application window",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/fees/",
+          "purpose": "2027/28 tuition",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Any discipline is explicitly allowed, subject to all other criteria.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        }
+      }
+    },
+    {
+      "id": "SG-NUS-P007",
+      "universityId": "SG-NUS",
+      "name": "MSc Finance",
+      "award": "MSc",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Work experience and GMAT/GRE are not required. The current admission page gives TOEFL 5.0, not a checked old-scale minimum. Curriculum GPA 3.2/5 is not an entry cutoff.",
+      "offerings": [
+        {
+          "id": "SG-NUS-P007-O1",
+          "mode": "Full-time",
+          "duration": "16 months",
+          "intake": "August 2027",
+          "deadline": "2027-02-15",
+          "deadlineNote": "First round/study award cutoff: 15 November 2026; final deadline: 15 February 2027.",
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": 77390,
+          "feeBasis": "Single-degree programme tuition including 9% GST; miscellaneous fees additional"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false,
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "A good undergraduate degree is required; final-year candidates may apply subject to completion evidence.",
+          "noteEn": "A good undergraduate degree is required; final-year candidates may apply subject to completion evidence.",
+          "mandatory": true,
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 7
+            },
+            "toefl_6": {
+              "total": 5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Academic quality, shortlisted interview, conditional completion evidence and waiver routes require confirmation.",
+          "noteEn": "Academic quality, shortlisted interview, conditional completion evidence and waiver routes require confirmation.",
+          "mandatory": true,
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://mscfin.nus.edu.sg/admissions/application-process/",
+          "purpose": "2027 deadlines and final-year conditions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/",
+          "purpose": "2027/28 tuition",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://mscfin.nus.edu.sg/faqs/",
+          "purpose": "Duration",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Any discipline is explicitly allowed, subject to all other criteria.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        }
+      }
+    },
+    {
+      "id": "SG-NTU-P018",
+      "universityId": "SG-NTU",
+      "name": "MSc Information Systems",
+      "award": "MSc",
+      "area": "Computing",
+      "faculty": null,
+      "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "Intake year not explicitly stated in checked requirements",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "GRE/GMAT are not required. Internship is not counted as the experience in the alternative route. Programme CGPA 2.50 and dissertation CGPA 4.00 are not admission cutoffs.",
+      "offerings": [
+        {
+          "id": "SG-NTU-P018-O1",
+          "mode": "Full-time",
+          "duration": "1–2 years",
+          "intake": "August annually; year to confirm",
+          "deadline": null,
+          "deadlineNote": "Published recurring window: 1 November–15 February; year not confirmed.",
+          "academicYear": "Intake year not explicitly stated in checked requirements",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": null
+        },
+        {
+          "id": "SG-NTU-P018-O2",
+          "mode": "Part-time",
+          "duration": "2–4 years",
+          "intake": "August annually; year to confirm",
+          "deadline": null,
+          "deadlineNote": "Published recurring window: 1 November–15 February; year not confirmed.",
+          "academicYear": "Intake year not explicitly stated in checked requirements",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [
+            "Computer Science",
+            "Information Systems",
+            "Information Technology"
+          ],
+          "any": false,
+          "relatedAllowed": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "Second-class lower/Honours (Merit) or equivalent; alternative degree routes involve IT content or relevant work.",
+          "noteEn": "Second-class lower/Honours (Merit) or equivalent; alternative degree routes involve IT content or relevant work.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 6
+            },
+            "toefl_120": {
+              "total": 100,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Equivalent academic standing and alternative degree/work routes need checking.",
+          "noteEn": "Equivalent academic standing and alternative degree/work routes need checking.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "The revised TOEFL scale needs reconciliation with central guidance; test validity is at application.",
+          "noteEn": "The revised TOEFL scale needs reconciliation with central guidance; test validity is at application.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Exact fields or accepted alternative routes are recorded.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+        }
+      }
+    },
+    {
+      "id": "SG-NTU-P015",
+      "universityId": "SG-NTU",
+      "name": "MSc Applied Economics",
+      "award": "MSc",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "Intake year not explicitly stated in checked requirements",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Current webpage and older brochure disagree about the August opening month. The brochure's 2026/27 fee is not imported into an unidentified later cohort. ARP GPA 4.75 is not an entry cutoff.",
+      "offerings": [
+        {
+          "id": "SG-NTU-P015-O1",
+          "mode": "Full-time",
+          "duration": "Normally 1 year",
+          "intake": "August or November annually; year to confirm",
+          "deadline": null,
+          "deadlineNote": "Recurring windows on the page: September–31 January (August); March–31 May (November).",
+          "academicYear": "Intake year not explicitly stated in checked requirements",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "Economics degree with good honours where applicable, or another honours degree with a strong quantitative background.",
+          "noteEn": "Economics degree with good honours where applicable, or another honours degree with a strong quantitative background.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 85,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Honours equivalence, quantitative preparation and the programme-specific English waiver require university judgement.",
+          "noteEn": "Honours equivalence, quantitative preparation and the programme-specific English waiver require university judgement.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        }
+      }
+    },
+    {
+      "id": "SG-SMU-P001",
+      "universityId": "SG-SMU",
+      "name": "Master of Professional Accounting",
+      "award": "Master",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "Current page; applicable tuition cohort to confirm",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "GPA 3.0/4 and 3.5/5 apply to admission-test exemptions for named local-university graduates, not all applicants. Scholarships use other GPAs; none are generic entry cutoffs.",
+      "offerings": [
+        {
+          "id": "SG-SMU-P001-O1",
+          "mode": "Full-time",
+          "duration": "18 months; possible 12-month completion",
+          "intake": "August annually; year to confirm",
+          "deadline": null,
+          "deadlineNote": "Central directory: May closing month, year and day unconfirmed.",
+          "academicYear": "Current page; applicable tuition cohort to confirm",
+          "currency": "SGD",
+          "tuition": 58860,
+          "feeBasis": "Displayed total tuition including GST; applicable cohort still requires confirmation"
+        },
+        {
+          "id": "SG-SMU-P001-O2",
+          "mode": "Part-time",
+          "duration": "24 months",
+          "intake": "August annually; year to confirm",
+          "deadline": null,
+          "deadlineNote": "Central directory: May closing month, year and day unconfirmed.",
+          "academicYear": "Current page; applicable tuition cohort to confirm",
+          "currency": "SGD",
+          "tuition": 58860,
+          "feeBasis": "Displayed total tuition including GST; applicable cohort still requires confirmation"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "A recognised bachelor's degree with good academic performance and sufficient mathematics/calculus preparation.",
+          "noteEn": "A recognised bachelor's degree with good academic performance and sufficient mathematics/calculus preparation.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 90,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Mathematics prerequisites, admission test or institution-specific exemption, and shortlisted interview need checking.",
+          "noteEn": "Mathematics prerequisites, admission test or institution-specific exemption, and shortlisted interview need checking.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/master-of-professional-accounting",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "An amount appears on the current webpage, but its applicable cohort needs confirmation.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        }
+      }
+    },
+    {
+      "id": "SG-SMU-P010",
+      "universityId": "SG-SMU",
+      "name": "Master of IT in Business",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": null,
+      "officialUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "Current page; applicable tuition cohort to confirm",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Two years of business/technology experience is preferred, not mandatory. GPA 3.0/4 or 3.6/5 are institution-specific test-substitution conditions, not universal entry thresholds.",
+      "offerings": [
+        {
+          "id": "SG-SMU-P010-O1",
+          "mode": "Full-time",
+          "duration": "1–1.5 years",
+          "intake": "January or August annually; year to confirm",
+          "deadline": null,
+          "deadlineNote": "Recurring closing dates: 31 October (January); 31 May (August); year unconfirmed.",
+          "academicYear": "Current page; applicable tuition cohort to confirm",
+          "currency": "SGD",
+          "tuition": 56680,
+          "feeBasis": "Displayed programme tuition including GST; applicable cohort still requires confirmation"
+        },
+        {
+          "id": "SG-SMU-P010-O2",
+          "mode": "Part-time",
+          "duration": "2–2.5 years",
+          "intake": "January or August annually; year to confirm",
+          "deadline": null,
+          "deadlineNote": "Recurring closing dates: 31 October (January); 31 May (August); year unconfirmed.",
+          "academicYear": "Current page; applicable tuition cohort to confirm",
+          "currency": "SGD",
+          "tuition": 56680,
+          "feeBasis": "Displayed programme tuition including GST; applicable cohort still requires confirmation"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 90,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        {
+          "kind": "experience",
+          "labelZh": "Preferred work experience",
+          "labelEn": "Preferred work experience",
+          "min": 2,
+          "mandatory": false,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Admission test or institution-specific GPA exemption, English waiver and interview require checking.",
+          "noteEn": "Admission test or institution-specific GPA exemption, English waiver and interview require checking.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/master-of-it-in-business",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Any discipline is explicitly allowed, subject to all other criteria.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "An amount appears on the current webpage, but its applicable cohort needs confirmation.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+        }
+      }
+    },
+    {
+      "id": "SG-SUTD-P001",
+      "universityId": "SG-SUTD",
+      "name": "Master of Architecture",
+      "award": "MArch",
+      "area": "Engineering",
+      "faculty": null,
+      "officialUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2027 intake",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Do not treat every bachelor's holder as eligible. The three-year architecture route includes preliminary undergraduate terms with separate non-subsidised fees.",
+      "offerings": [
+        {
+          "id": "SG-SUTD-P001-O1",
+          "mode": "Full-time",
+          "duration": "1 year; 2-year bridging route may apply",
+          "intake": "2027 intake",
+          "deadline": "2026-12-31",
+          "deadlineNote": null,
+          "academicYear": "2027 intake",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [
+            "Architecture"
+          ],
+          "any": false,
+          "relatedAllowed": false,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Degree accreditation, four-year architecture education or bridging track, relevant work, technical preparation and portfolio need checking.",
+          "noteEn": "Degree accreditation, four-year architecture education or bridging track, relevant work, technical preparation and portfolio need checking.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "An English score may be required, but no numeric threshold was captured on the admissions page.",
+          "noteEn": "An English score may be required, but no numeric threshold was captured on the admissions page.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/",
+          "purpose": "Accreditation, prior education and technical requirements",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Exact fields or accepted alternative routes are recorded.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Numeric thresholds were not captured. Do not assume the programme has no English requirement.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+        }
+      }
+    },
+    {
+      "id": "SG-SUTD-P002",
+      "universityId": "SG-SUTD",
+      "name": "MSc Technology and Design (Human-Centred AI for Venture Innovation)",
+      "award": "MSc",
+      "area": "Computing",
+      "faculty": null,
+      "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2026/27",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "A bachelor's degree in any discipline is listed, but unrelated-degree applications may need portfolio-based review. Do not automatically apply a citizen/PR discount.",
+      "offerings": [
+        {
+          "id": "SG-SUTD-P002-O1",
+          "mode": "Full-time",
+          "duration": "12 months",
+          "intake": "January 2027",
+          "deadline": "2026-10-31",
+          "deadlineNote": null,
+          "academicYear": "2026/27",
+          "currency": "SGD",
+          "tuition": 54500,
+          "feeBasis": "Annual tuition for international students including GST; SC/PR rate SGD 49,050; miscellaneous fees additional"
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        {
+          "kind": "major",
+          "labelZh": "Undergraduate field",
+          "labelEn": "Undergraduate field",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 85,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Interest in innovation/applied technology, unrelated-degree case-by-case review and language validity need checking.",
+          "noteEn": "Interest in innovation/applied technology, unrelated-degree case-by-case review and language validity need checking.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "The page does not state a revised TOEFL 6-point minimum.",
+          "noteEn": "The page does not state a revised TOEFL 6-point minimum.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/financing/fees",
+          "purpose": "2026/27 nationality-specific tuition",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Any discipline is explicitly allowed, subject to all other criteria.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        }
+      }
+    },
+    {
+      "id": "SG-SIT-P002",
+      "universityId": "SG-SIT",
+      "name": "MSc Civil Engineering",
+      "award": "MSc",
+      "area": "Engineering",
+      "faculty": null,
+      "officialUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "January 2027 intake",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Duration differs between the page summary and mode-specific text; preserve both and seek confirmation. Closed application window is not a failure of the applicant's academic background.",
+      "offerings": [
+        {
+          "id": "SG-SIT-P002-O1",
+          "mode": "Full-time",
+          "duration": "3 trimesters",
+          "intake": "5 January 2027",
+          "deadline": "2026-09-30",
+          "deadlineNote": "Published application window is already closed as of 6 October 2026.",
+          "academicYear": "January 2027 intake",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": null
+        },
+        {
+          "id": "SG-SIT-P002-O2",
+          "mode": "Part-time",
+          "duration": "5 trimesters; overview lists 2 years",
+          "intake": "5 January 2027",
+          "deadline": "2026-09-30",
+          "deadlineNote": "Published application window is already closed as of 6 October 2026.",
+          "academicYear": "January 2027 intake",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Academic standing and equivalence",
+          "labelEn": "Academic standing and equivalence",
+          "noteZh": "An engineering bachelor's degree or accepted equivalent and at least one year of relevant post-bachelor experience.",
+          "noteEn": "An engineering bachelor's degree or accepted equivalent and at least one year of relevant post-bachelor experience.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        {
+          "kind": "experience",
+          "labelZh": "Relevant post-bachelor experience",
+          "labelEn": "Relevant post-bachelor experience",
+          "min": 1,
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "Engineering-degree equivalence, relevance and timing of experience need confirmation; SIT IWSP can count.",
+          "noteEn": "Engineering-degree equivalence, relevance and timing of experience need confirmation; SIT IWSP can count.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 2",
+          "labelEn": "Additional condition 2",
+          "noteZh": "English proficiency is required for non-native speakers; the linked international guide's numeric thresholds remain uncollected.",
+          "noteEn": "English proficiency is required for non-native speakers; the linked international guide's numeric thresholds remain uncollected.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements",
+          "purpose": "Engineering academic and experience requirements",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Intake/year identified in the checked sources.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Numeric thresholds were not captured. Do not assume the programme has no English requirement.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        }
+      }
+    },
+    {
+      "id": "SG-SUSS-P001",
+      "universityId": "SG-SUSS",
+      "name": "Master of Management",
+      "award": "Master",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-06",
+      "academicYear": "Current page; intake year to confirm",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "GMAT/GRE are not required. General guidance lists IELTS 6.5 and other tests, including paper-based TOEFL, not a checked iBT threshold. CGPA 3.0 is a graduation condition.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P001-O1",
+          "mode": null,
+          "duration": "18 months–4 years; accelerated pathway differs",
+          "intake": "January or July annually; year to confirm",
+          "deadline": null,
+          "deadlineNote": null,
+          "academicYear": "Current page; intake year to confirm",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": null
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "Bachelor’s degree",
+          "labelEn": "Bachelor’s degree",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        },
+        {
+          "kind": "language",
+          "labelZh": "Published English test scores",
+          "labelEn": "Published English test scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            }
+          },
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Additional condition 1",
+          "labelEn": "Additional condition 1",
+          "noteZh": "English waiver, merit review, possible interview/evaluation tests and alternative qualifications need checking.",
+          "noteEn": "English waiver, merit review, possible interview/evaluation tests and alternative qualifications need checking.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt",
+          "purpose": "Programme-specific admissions",
+          "checkedOn": "2026-10-06"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "General graduate academic and English requirements",
+          "checkedOn": "2026-10-06"
+        }
+      ],
+      "researchBatch": "official-pilot-2026-10-06",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "A complete accepted-field policy was not captured.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        }
+      }
+    },
+    {
+      "id": "HK-HKUST-P003",
+      "universityId": "HK-HKUST",
+      "name": "MEng Digital and Sustainable Cities",
+      "award": "MEng",
+      "area": "Engineering",
+      "faculty": "Department of Civil and Environmental Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+      "verification": "programme_page_checked",
+      "sourceStatus": "Transfer-only route confirmed on official page",
+      "lastChecked": "2026-10-06",
+      "academicYear": "2026/27",
+      "admissionRoute": "transfer_only",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "仅供现有 MSc(DISC) 学生申请转入，不开放新生直接申请。默认课程搜索不显示此项。",
+      "notesEn": "Only available by transfer for current MSc(DISC) students. Not open to direct new admission and excluded from default search.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P003-2026-transfer",
+          "mode": "Full-time",
+          "duration": "2 years",
+          "intake": null,
+          "deadline": null,
+          "currency": "HKD",
+          "tuition": null,
+          "feeBasis": "Transfer route; additional year-two fee is not a standalone programme price",
+          "academicYear": "2026/27"
+        }
+      ],
+      "rules": []
+    }
+  ]
+}

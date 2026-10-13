@@ -1,45 +1,49 @@
-# HK–SG Masters Platform
+# HK–SG Masters Platform — Week 4 checkpoint
 
-香港与新加坡授课型硕士项目信息整合与匹配网站。
+A source-linked information and programme-screening project for taught/coursework master's degrees at the target Hong Kong and Singapore universities.
 
-用户可以按本科专业、GPA／学位等级和语言成绩筛选项目，查看公开入学要求、费用、申请时间和官方来源，比较课程并保存候选清单。网站不代办申请，不预测录取概率，也不保证录取。
+## Published checkpoint
 
-## 当前状态
+This branch publishes Week 4 foundations (5–11 October 2026), prepared for release on 13 October. It contains project/data documentation, 14 university directory entries, a first 20-programme pilot and a minimal local HTTP runtime.
 
-2026-10-05：仓库初始化，整理前三周已有资料和后续开发任务。目前只有项目文档及课程目录种子，尚无可运行网站。
+It does not publish programme search, student profiles, requirement matching, comparison, shortlists or a public deployment. This is not the complete platform.
 
-原始工作簿冻结于 2026-09-29，包含 14 所目标大学的 175 条课程种子，其中只有 1 条标记为项目页已核验。这不是完整课程清单，也不是可直接上线的匹配数据库。旧版加权评分规则尚未验证，不能作为正式招生标准使用。
+## Run the foundation
 
-## 文档入口
+Use Node.js 24 or later. No runtime dependencies need to be installed.
 
-- [项目范围与功能需求](docs/scope-and-requirements.md)
-- [团队分工与协作方式](docs/team-and-workflow.md)
-- [项目周历与开发任务](docs/calendar-and-backlog.md)
-- [前三周回顾](docs/progress/weeks-01-to-03.md)
-- [数据字段与匹配原则](docs/data-and-matching.md)
-- [现有数据及限制](data/README.md)
-- [如何提交修改](CONTRIBUTING.md)
+```text
+npm start
+npm test
+npm run check:data
+```
 
-## 下一步
+Open http://127.0.0.1:3103 after starting the service. It binds only to 127.0.0.1. The published page is entirely in English and collects no student background.
 
-1. 全体成员核对前三周回顾，补充实际发生的活动及可用证据。
-2. 确定字段和核验规则，开始盘点全部 14 所学校的目录。
-3. 先核验 10–20 个代表性课程，验证采集方法和匹配流程，再扩大覆盖。
-4. 三位 CP 成员确认熟悉的技术、运行方式和接口，然后搭建可运行网站。
+## Data status
 
-代表性课程用于验证方法，不替代最终的 14 校覆盖范围。技术栈、托管方式和用户档案保存方式尚未确认。
+- Target scope: eight Hong Kong UGC-funded universities and six Singapore autonomous universities.
+- Pilot: 20 direct-entry programme records, plus one transfer-only reference.
+- Source snapshot: 6 October 2026. All records have partial requirement coverage.
+- Independent reviews: 0. Complete requirement records: 0.
+- Directory-entry checks are not complete catalogue enumeration or proof that applications are open.
+- The original 175-record workbook is preserved as historical research material, not a verified production database.
 
-## 团队
+Do not invent GPA cutoffs, convert incomparable scales or treat language waivers as automatically accepted. The platform does not handle applications, predict admission probabilities or guarantee admission.
 
-| 成员 | 学科 | 主要职责 |
-| --- | --- | --- |
-| Song Shaoheng | CP | Project Manager & Product Owner |
-| Wu Buqing | CP | Data & Matching Developer |
-| Zhang Dawei | CP | Frontend & Deployment Developer |
-| Wang Youran | BU | Research & Programme Content Lead |
-| Chen Chuanjin | BU | Business & Stakeholder Lead |
-| Li Anji | BU | Project Coordinator & QA Lead |
+## Checkpoint documents
 
-## 数据与隐私
+- [Week 4 evidence and remaining work](docs/progress/week-04-checkpoint.md)
+- [Scope and requirements](docs/scope-and-requirements.md)
+- [Team and workflow](docs/team-and-workflow.md)
+- [Calendar and action plan](docs/calendar-and-backlog.md)
+- [Data fields and matching design](docs/data-and-matching.md)
+- [Directory-entry register](data/directory-audit.json)
+- [First programme pilot snapshot](data/checked-programmes.json)
+- [Technical foundations](docs/technical-foundations.md)
+- [User/service research procedure](docs/user-research-protocol.md)
+- [Planned test scenarios](docs/test-scenarios.md)
+- [Staged publication policy](docs/publication-policy.md)
+- [Contribution and review process](CONTRIBUTING.md)
 
-仅收集官方公开课程信息。密码、密钥、真实学生档案、成绩单、CV、联系电话和签名文件不得提交到仓库。研究及测试先使用匿名反馈或合成档案。课程提交资料在课程指定平台管理。
+Team responsibilities are planned assignments, not proof of actual contribution. Do not upload CVs, contact details, signatures, credentials or identifiable student records to this repository.
