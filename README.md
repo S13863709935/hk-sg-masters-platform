@@ -1,14 +1,14 @@
-# HK–SG Masters Platform — Week 4 checkpoint
+# HK–SG Masters Platform — Week 5 checkpoint
 
 A source-linked information and programme-screening project for taught/coursework master's degrees at the target Hong Kong and Singapore universities.
 
 ## Published checkpoint
 
-This branch publishes Week 4 foundations (5–11 October 2026), prepared for release on 13 October. It contains project/data documentation, 14 university directory entries, a first 20-programme pilot and a minimal local HTTP runtime.
+This branch publishes the Week 5 design and early-development checkpoint (12–18 October 2026), prepared on 16 October. It starts from the published Week 4 branch, not from the ahead-of-plan local prototype.
 
-It does not publish programme search, student profiles, requirement matching, comparison, shortlists or a public deployment. This is not the complete platform.
+Implemented here: an English interface, pilot search and details, temporary background input, and a source-linked condition-check proof of concept. Comparison and candidate lists have clearly labelled design previews only. This is not the complete platform.
 
-## Run the foundation
+## Run the pilot
 
 Use Node.js 24 or later. No runtime dependencies need to be installed.
 
@@ -18,7 +18,9 @@ npm test
 npm run check:data
 ```
 
-Open http://127.0.0.1:3103 after starting the service. It binds only to 127.0.0.1. The published page is entirely in English and collects no student background.
+Open http://127.0.0.1:3105 after starting the service. It binds only to 127.0.0.1. Set PORT explicitly if needed. It does not replace the advanced local development server on port 3102.
+
+The optional form sends a background only to this local process for checks. It is not logged, written to disk, placed in the URL or persisted in browser storage. Page reload clears it. No account, document upload or personal contact information is required. SQLite is a planned storage design, not part of this release.
 
 ## Data status
 
@@ -29,9 +31,18 @@ Open http://127.0.0.1:3103 after starting the service. It binds only to 127.0.0.
 - Directory-entry checks are not complete catalogue enumeration or proof that applications are open.
 - The original 175-record workbook is preserved as historical research material, not a verified production database.
 
-Do not invent GPA cutoffs, convert incomparable scales or treat language waivers as automatically accepted. The platform does not handle applications, predict admission probabilities or guarantee admission.
+Do not invent GPA cutoffs, convert incomparable scales or treat language waivers as automatically accepted. All recommendation tiers are disabled in this checkpoint. The platform does not handle applications, predict admission probabilities or guarantee admission. The pilot snapshot has not been revalidated as current on the publication date.
 
-## Checkpoint documents
+## Week 5 design and evidence
+
+- [Week 5 scope, evidence and remaining work](docs/progress/week-05-checkpoint.md)
+- [Interface flows and implementation boundaries](docs/interface-contract-week-05.md)
+- [Data model and API contract](docs/data-contract-week-05.md)
+- [Condition-check rules and evidence gates](docs/check-rules-week-05.md)
+
+No expanded catalogue, route-reconciliation tooling, full comparison/shortlist implementation, administrative imports or public deployment is included. Other members' acceptance, independent review and real user research are not claimed.
+
+## Baseline documents
 
 - [Week 4 evidence and remaining work](docs/progress/week-04-checkpoint.md)
 - [Scope and requirements](docs/scope-and-requirements.md)

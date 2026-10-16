@@ -1,5 +1,7 @@
 # Week 4 technical foundations
 
+Historical Week 4 record. For the current Week 5 runtime and boundaries, see the repository README and `docs/data-contract-week-05.md`; the older port and feature list below describe the earlier checkpoint only.
+
 Prepared for publication on 13 October 2026. This is an internal engineering checkpoint, not a claim that the complete platform has been delivered.
 
 ## Published runtime
