@@ -60,6 +60,7 @@ export const copy = {
   "duration": "Duration",
   "tuition": "Tuition",
   "deadline": "Application deadline",
+  "applicationDates": "Application dates · separate from academic checks",
   "intake": "Intake",
   "sources": "Official sources",
   "lastChecked": "Last checked",

@@ -59,6 +59,7 @@ export function validateProgramme(p, universityIds) {
     if (typeof o.id !== 'string' || !o.id.startsWith(`${p.id}-`)) throw new InputError('Offering ID must belong to the programme');
     if (o.tuition !== null && o.tuition !== undefined && (!Number.isFinite(o.tuition) || o.tuition < 0 || !o.currency)) throw new InputError('Invalid tuition amount or missing currency');
     if (o.deadline && !isIsoDate(o.deadline)) throw new InputError('A dated deadline must use YYYY-MM-DD; recurring dates belong in deadlineNote');
+    if (o.applicationOpen && (!isIsoDate(o.applicationOpen) || (o.deadline && o.applicationOpen > o.deadline))) throw new InputError('Application opening date must be valid and no later than its deadline');
     if (o.deadlineNote !== null && o.deadlineNote !== undefined && (typeof o.deadlineNote !== 'string' || o.deadlineNote.length > 2000)) throw new InputError('Invalid deadline note');
   }
   if (p.verification === 'peer_reviewed' && (!p.reviewer || !p.collector || p.reviewer === p.collector)) throw new InputError('Independent reviewer required');
