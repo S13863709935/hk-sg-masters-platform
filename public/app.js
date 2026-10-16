@@ -15,6 +15,10 @@ let toastTimer;
 let searchTimer;
 let activeDetail = null;
 let detailTrigger = null;
+let detailSequence = 0;
+const routeChoices = {};
+const programmePath = id => `/api/programmes/${encodeURIComponent(id)}${routeChoices[id] ? `?route=${encodeURIComponent(routeChoices[id])}` : ''}`;
+const matchingPayload = profile => ({ profile, filters: { includeTransfer: 'true' }, selectedRoutes: { ...routeChoices } });
 const t = key => copy[key] || key;
 const areaName = area => areaLabels[area] || area;
 const schoolName = school => school.nameEn;
@@ -22,7 +26,7 @@ function toast(message) { const node = $('#toast'); node.textContent = message; 
 async function api(path, options = {}) { const response = await fetch(path, options); const body = await response.json(); if (!response.ok) throw new Error(body.error || response.statusText); return body; }
 const post = (path, data, extraHeaders = {}) => api(path, { method: 'POST', headers: { 'Content-Type': 'application/json', ...extraHeaders }, body: JSON.stringify(data) });
 function badge(value) { const kind = ['programme_page_checked', 'peer_reviewed'].includes(value) ? 'checked' : value === 'has_gap' ? 'danger' : value === 'meets_checked' ? 'pass' : 'warning'; return `<span class="badge ${kind}">${esc(t(value))}</span>`; }
-function money(o) { return o.tuition !== null && o.tuition !== undefined && o.currency ? `${esc(o.currency)} ${new Intl.NumberFormat('en-SG').format(o.tuition)}` : `<span class="unknown-value">${t('unknown')}</span>`; }
+function money(o) { return o.tuition !== null && o.tuition !== undefined && o.currency ? `${esc(o.currency)} ${new Intl.NumberFormat('en-SG', { minimumFractionDigits: Number.isInteger(o.tuition) ? 0 : 2, maximumFractionDigits: 2 }).format(o.tuition)}` : `<span class="unknown-value">${t('unknown')}</span>`; }
 function fees(p, detailed = false) { return p.offerings.map(o => `${money(o)}<small>${esc([o.mode, o.intake].filter(Boolean).join(' · '))}</small>${detailed && o.feeBasis ? `<small>${esc(o.feeBasis)}</small>` : ''}`).join('<br>') + (p.fieldStatus?.tuition?.status === 'unknown' && p.offerings.some(o => o.tuition !== null) ? `<small class="warning">${t('cohortUnconfirmed')}</small>` : ''); }
 function known(value) { return value === null || value === undefined || value === '' ? `<span class="unknown-value">${t('unknown')}</span>` : esc(value); }
 function shell() {
@@ -77,7 +81,7 @@ function updateTray() {
   $('#tray-wrapper').innerHTML = state.compare.length ? `<aside class="compare-tray" aria-label="${t('compareSelection')}"><div><small>${t('compareSelection')} · ${state.compare.length}/4</small><div class="tray-chips">${state.compare.map(id => `<span class="tray-chip">${esc(state.meta.universities.find(u => id.startsWith(`${u.id}-`))?.abbreviation || id)}<button data-action="compare" data-id="${id}" aria-label="${t('remove')} ${id}">×</button></span>`).join('')}</div></div><div class="tray-actions"><button class="tray-clear" data-action="clearCompare">${t('clear')}</button><button class="button" data-action="nav" data-view="compare" ${state.compare.length < 2 ? 'disabled' : ''}>${t('compareNow')}${icon('arrow')}</button></div></aside>` : '';
   if ($('#shortlist-count')) $('#shortlist-count').textContent = state.shortlist.length;
 }
-async function selectedProgrammes(ids) { return Promise.all(ids.map(id => api(`/api/programmes/${encodeURIComponent(id)}`))); }
+async function selectedProgrammes(ids) { return Promise.all(ids.map(id => api(programmePath(id)))); }
 async function renderShortlist() {
   $('#page').innerHTML = `${heading('shortlistHeading', 'shortlistIntro')}${state.shortlist.length ? `<div class="results-header"><span class="results-count">${state.shortlist.length} ${t('results')}</span><button class="button" data-action="exportShortlist">${t('downloadShortlist')}</button></div><small class="muted">${t('exportShortlistNote')}</small><div id="saved-cards" class="cards"></div>` : empty('emptyShortlist', 'emptyShortlistHint')}`;
   if (state.shortlist.length) { const items = await selectedProgrammes(state.shortlist); if (state.view === 'shortlist' && $('#saved-cards')) $('#saved-cards').innerHTML = items.map(card).join(''); }
@@ -129,12 +133,12 @@ async function submitProfile(event) {
   const type = values.get('languageType');
   const profile = { major: values.get('major').trim(), degreeStatus: values.get('degreeStatus'), classification: values.get('classification'), gpa: number('gpa'), gpaScale: number('gpaScale'), experienceYears: number('experienceYears'), language: { type, total: ['none', 'waiver'].includes(type) ? null : number('total'), testDate: ['none', 'waiver'].includes(type) ? null : values.get('testDate') || null, singleAttempt: values.has('singleAttempt'), atHome: values.has('atHome'), waiverBasis: values.get('waiverBasis'), components: Object.fromEntries(['listening', 'reading', 'writing', 'speaking'].map(k => [k, type === 'ielts' ? number(k) : null])) } };
   const button = form.querySelector('button[type=submit]'); button.disabled = true; $('#form-error').hidden = true;
-  try { validateForm(form); const response = await post('/api/matches', { profile, filters: { includeTransfer: 'true' } }); state.profile = profile; state.matches = response.items; state.page = 1; writeStorage(keys.profile, values.has('remember') ? profile : null); toast(t('profileSuccess')); navigate('discover'); }
+  try { validateForm(form); const response = await post('/api/matches', matchingPayload(profile)); state.profile = profile; state.matches = response.items; state.page = 1; writeStorage(keys.profile, values.has('remember') ? profile : null); toast(t('profileSuccess')); navigate('discover'); }
   catch (error) { $('#form-error').textContent = error.message; $('#form-error').hidden = false; $('#form-error').scrollIntoView({ block: 'center', behavior: 'smooth' }); }
   finally { button.disabled = false; }
 }
 function ruleText(r) { if (r.kind === 'language') return Object.entries(r.tests).map(([kind, test]) => `${esc(t(kind))}: ${test.total}${test.componentMin !== undefined ? ` · each component ≥ ${test.componentMin}` : ''}`).join('<br>'); if (r.kind === 'gpa') return `GPA ≥ ${r.min}/${r.scale}`; if (r.kind === 'classification') return t(r.min); if (r.kind === 'major') return r.any ? 'Any undergraduate discipline; all other criteria still apply.' : `${r.accepted.map(esc).join(', ')}${r.relatedAllowed ? '; related fields need confirmation' : ''}`; if (r.kind === 'experience') return `At least ${r.min} years${r.mandatory === false ? ' preferred (not mandatory)' : ' of relevant experience'}`; return esc(r.noteEn || r.labelEn); }
-function deadlineText(o) { return `${known(o.deadline)}${o.deadlineNote ? `<small>${esc(o.deadlineNote)}</small>` : ''}`; }
+function deadlineText(o) { return `${known(o.deadline)}${o.applicationOpen ? `<small>Applications open: ${esc(o.applicationOpen)}</small>` : ''}${o.deadlineNote ? `<small>${esc(o.deadlineNote)}</small>` : ''}`; }
 function deadlineWarning(o) { const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Singapore', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date()); return o.deadline && o.deadline < today ? `<small class="warning">${t('deadlinePassed')}</small>` : ''; }
 function evidenceCoverage(p) { if (!p.fieldStatus) return ''; const labels = { academicYear: 'academicYear', major: 'majorCoverage', gpa: 'gpa', language: 'languageInfo', tuition: 'tuition', deadline: 'deadline', independentReview: 'reviewCoverage' }; return `<h3>${t('dataCoverage')}</h3><div class="checks">${Object.entries(p.fieldStatus).map(([key, f]) => `<div class="check-row"><span class="check-symbol ${f.status === 'known' ? 'pass' : 'unknown'}">${f.status === 'known' ? 'i' : '?'}</span><div><strong>${esc(t(labels[key] || key))} · ${t(f.status)}</strong><p>${esc(f.noteEn)}</p><a href="${esc(f.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div>${p.sources?.length ? `<h3>${t('evidenceSources')}</h3><ul>${p.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.purpose)} ↗</a> · ${esc(s.checkedOn)}</li>`).join('')}</ul>` : ''}`; }
 function scopeWarning(p) { return p.scope?.status === 'out_of_scope' ? `<p class="detail-note warning">${badge('out_of_scope')} ${esc(p.scope.reasonEn)} <a href="${esc(p.scope.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a> · ${esc(p.scope.checkedOn)}</p>` : ''; }
@@ -144,27 +148,36 @@ function directoryEvidence(p) {
   return `<h3>${t('directoryEvidence')}</h3><p class="detail-note"><strong>${esc(d.nameEn)}</strong><br>${esc(d.noteEn)}<br><a href="${esc(d.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('openDirectory')} ↗</a> · ${esc(d.checkedOn)}</p>${d.variants.length ? `<details><summary>${t('directoryRoutes')} (${d.variants.length})</summary><ul>${d.variants.map(v=>`<li><a href="${esc(v.officialUrl)}" target="_blank" rel="noopener noreferrer">${esc(v.nameEn)} ↗</a></li>`).join('')}</ul></details>` : `<p><a href="${esc(d.programmeUrl)}" target="_blank" rel="noopener noreferrer">${t('officialPage')} ↗</a></p>`}`;
 }
 function sourceTarget(p) { return p.directoryListing && p.verification === 'catalogue_seed' ? (p.directoryListing.variants.length ? p.directoryListing.sourceUrl : p.directoryListing.programmeUrl) : p.officialUrl; }
+function routeSelector(p) {
+  if (!p.routeOptions?.length) return '';
+  return `<section class="plain-panel"><div class="field"><label for="programme-route">Specific programme route</label><select id="programme-route" data-programme="${esc(p.id)}">${options([['', 'No route selected — keep group unresolved'], ...p.routeOptions.map(r => [r.id, r.name])], p.selectedRoute?.id || '')}</select></div><p class="detail-note">Each route uses its own sources, requirements and offering year. Route selection is temporary for this page session; it does not confirm eligibility or independent review. Changing it also updates background checks and comparisons.</p>${p.selectedRoute ? `<p class="detail-note"><strong>Selected route:</strong> ${esc(p.selectedRoute.name)} · ${esc(p.lastChecked)}<br>Partial requirements; independent review pending.</p>` : ''}</section>`;
+}
 function requirementChecks(p) {
   if (p.scope?.status === 'out_of_scope') return scopeWarning(p);
-  const match = state.matches?.find(item => item.id === p.id)?.match;
+  const match = state.matches?.find(item => item.id === p.id && (item.selectedRoute?.id || '') === (p.selectedRoute?.id || ''))?.match;
   const checks = match?.checks;
   if (checks) return `<div class="badge-row">${badge(match.tier || match.status)}${!match.tier ? `<span class="badge">${t('noTier')}</span>` : ''}</div><div class="checks">${checks.map(c => `<div class="check-row"><span class="check-symbol ${c.status}">${c.status === 'pass' ? '✓' : c.status === 'fail' ? '!' : '?'}</span><div><strong>${esc(c.labelEn)} · ${t(c.status === 'unknown' ? 'unknownCheck' : c.status)}</strong><p>${esc(c.reasonEn)}</p><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div><p class="detail-note">${esc(match.disclaimerEn)}</p>`;
   return `<p class="detail-note">${t('profileNeeded')}</p>${p.rules.length ? `<div class="checks">${p.rules.map(r => `<div class="check-row"><span class="check-symbol">i</span><div><strong>${esc(r.labelEn)}</strong><p>${ruleText(r)}</p><a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div>` : `<p class="detail-note warning">${t('emptyKnown')}</p>`}<button class="button secondary" data-action="nav" data-view="profile">${t('profile')}${icon('arrow')}</button>`;
 }
 async function openDetail(id) {
+  const sequence = ++detailSequence;
   detailTrigger = document.activeElement;
   const dialog = $('#detail-dialog');
   dialog.innerHTML = `<div class="detail-body">${t('loading')}</div>`;
   if (!dialog.open) dialog.showModal(); document.body.classList.add('modal-open');
   try {
-    const p = await api(`/api/programmes/${encodeURIComponent(id)}`); activeDetail = p;
+    const p = await api(programmePath(id));
+    if (sequence !== detailSequence || !dialog.open) return;
+    activeDetail = p;
     const url = new URL(location.href); url.searchParams.set('programme', id); history.replaceState(null, '', url);
     dialog.innerHTML = `<div class="detail-head"><div><span class="badge">${esc(p.university.abbreviation)} · ${t(p.university.region === 'HK' ? 'hongKong' : 'singapore')}</span><h2 id="detail-title">${esc(p.name)}</h2><div class="badge-row">${badge(p.verification)}${p.directoryListing?.variants.length ? badge('routeSelection') : ''}${p.scope?.status === 'out_of_scope' ? badge('out_of_scope') : ''}${p.admissionRoute === 'transfer_only' ? badge('transferOnly') : ''}</div></div><button class="icon-button" data-action="closeDetail" aria-label="${t('close')}">${icon('close')}</button></div><div class="detail-body"><div class="detail-meta">${[['university', schoolName(p.university)], ['area', areaName(p.area)], ['academicYear', p.academicYear], ['lastChecked', p.lastChecked], ['completeStatus', t(p.requirementsCoverage)]].map(([key, value]) => `<div><small>${t(key)}</small><span>${known(value)}</span></div>`).join('')}</div><h3>${t('offeringInfo')}</h3><div class="detail-offerings">${p.offerings.map(o => `<div class="offering"><strong>${known(o.mode)}</strong> · ${known(o.duration)}<br>${money(o)}<small>${known(o.feeBasis)} · ${t('academicYear')}: ${known(o.academicYear || p.academicYear)}</small><small>${t('intake')}: ${known(o.intake)} · ${t('deadline')}: ${deadlineText(o)}</small>${deadlineWarning(o)}</div>`).join('')}</div><h3>${t('requirementChecks')}</h3>${requirementChecks(p)}${evidenceCoverage(p)}${directoryEvidence(p)}<h3>${t('notes')}</h3><p class="detail-note">${esc(p.notesEn)}</p>${p.legacyRequirements?.length ? `<p class="detail-note warning">${t('legacyWarning')}</p>` : ''}<p class="detail-note warning">${t('noProbability')}</p><div class="detail-actions"><a class="button primary" href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t(p.directoryListing?.variants.length ? 'openDirectory' : 'officialPage')}${icon('external')}</a><button class="button" data-action="save" data-id="${p.id}">${icon('shortlist')}${t(state.shortlist.includes(p.id) ? 'saved' : 'save')}</button></div></div>`;
+    dialog.querySelector('.detail-body').insertAdjacentHTML('afterbegin', routeSelector(p));
+    if (p.selectedRoute) dialog.querySelector('.detail-actions a').innerHTML = `${t('officialPage')}${icon('external')}`;
     dialog.querySelector('[data-action=closeDetail]').focus();
   } catch (error) { dialog.innerHTML = `<div class="detail-body"><p>${esc(error.message)}</p><button class="button" data-action="closeDetail">${t('close')}</button></div>`; }
 }
 function closeDetail() { const dialog = $('#detail-dialog'); if (dialog.open) dialog.close(); }
-$('#detail-dialog').addEventListener('close', () => { document.body.classList.remove('modal-open'); activeDetail = null; const url = new URL(location.href); url.searchParams.delete('programme'); history.replaceState(null, '', url); if (detailTrigger?.isConnected) detailTrigger.focus(); });
+$('#detail-dialog').addEventListener('close', () => { detailSequence++; document.body.classList.remove('modal-open'); activeDetail = null; const url = new URL(location.href); url.searchParams.delete('programme'); history.replaceState(null, '', url); if (detailTrigger?.isConnected) detailTrigger.focus(); });
 async function renderCompare() {
   $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}${state.compare.length < 2 ? empty('emptyCompare', 'emptyCompareHint', 'compare') : `<p class="muted">${t('loading')}</p>`}`;
   if (state.compare.length < 2) return;
@@ -181,6 +194,7 @@ function renderGuide() { $('#page').innerHTML = `${heading('guideHeading', 'matc
 async function renderView() {
   try { if (state.view === 'discover') renderDiscover(); else if (state.view === 'profile') renderProfile(); else if (state.view === 'shortlist') await renderShortlist(); else if (state.view === 'compare') await renderCompare(); else if (state.view === 'data') renderData(); else renderGuide(); }
   catch (error) { if ($('#page')) $('#page').innerHTML = `${empty('errorHeading', 'errorHint', 'data')}<button class="button" data-action="rerender">${t('retry')}</button>`; toast(error.message); }
+  if (state.view === 'data' && state.meta.routeEvidence?.routes) { const r = state.meta.routeEvidence; $('#page').insertAdjacentHTML('beforeend', `<section class="plain-panel"><h2>Route-specific evidence</h2><p>${r.pageChecked} route page checks across ${r.groups} catalogue group; ${r.peerReviewed} independent reviews; ${r.complete} complete requirement sets. These are separate route snapshots, not additional catalogue records or completed group-level checks.</p><p>Choose a specific direction in its programme detail. Unselected groups remain unresolved, and route-specific sources never overwrite parent or sibling requirements.</p></section>`); }
 }
 function navigate(view) { closeDetail(); if (location.hash === `#${view}`) { state.view = view; shell(); renderView(); } else location.hash = view; }
 function updateSavedButtons() { document.querySelectorAll('[data-action=save]').forEach(button => { const saved = state.shortlist.includes(button.dataset.id); button.setAttribute('aria-pressed', String(saved)); button.classList.toggle('selected', saved); if (button.classList.contains('icon-button')) { const title = button.closest('article')?.querySelector('h3')?.textContent || ''; button.setAttribute('aria-label', `${t(saved ? 'saved' : 'save')} · ${title}`); } else button.innerHTML = `${icon('shortlist')}${t(saved ? 'saved' : 'save')}`; }); updateTray(); }
@@ -203,23 +217,40 @@ document.addEventListener('click', async event => {
   if (action === 'clearProfile') { state.profile = null; state.matches = null; state.matchFilter = ''; writeStorage(keys.profile, null); toast(t('profileCleared')); renderProfile(); }
   if (action === 'retry') await loadCatalogue();
   if (action === 'rerender') await renderView();
-  if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson({ exportedAt: new Date().toISOString(), programmes: programmes.map(p => ({ id: p.id, name: p.name, university: p.university.nameEn, officialUrl: p.officialUrl, verification: p.verification, academicYear: p.academicYear, offerings: p.offerings })) }, 'gradpath-shortlist.json'); }
+  if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson({ exportedAt: new Date().toISOString(), programmes: programmes.map(p => ({ id: p.id, selectedRoute: p.selectedRoute || null, name: p.name, university: p.university.nameEn, officialUrl: p.officialUrl, verification: p.verification, academicYear: p.academicYear, offerings: p.offerings })) }, 'gradpath-shortlist.json'); }
   } catch (error) { toast(error.message); }
 });
 document.addEventListener('input', event => { if (event.target.id === 'search') { clearTimeout(searchTimer); state.q = event.target.value; state.page = 1; syncUrl(); searchTimer = setTimeout(loadCatalogue, 220); } });
 document.addEventListener('change', event => { if (event.target.dataset.filter) { state[event.target.dataset.filter] = event.target.value; state.page = 1; syncUrl(); loadCatalogue(); } if (event.target.id === 'profile-languageType') languageFields(); if (event.target.id === 'batch-file') $('#batch-file-name').textContent = event.target.files[0]?.name || t('noFile'); });
+document.addEventListener('change', async event => {
+  if (event.target.id !== 'programme-route') return;
+  const control = event.target; const id = control.dataset.programme;
+  const previous = routeChoices[id]; const previousMatches = state.matches; const trigger = detailTrigger;
+  control.disabled = true;
+  if (control.value) routeChoices[id] = control.value; else delete routeChoices[id];
+  try {
+    if (state.profile) state.matches = (await post('/api/matches', matchingPayload(state.profile))).items;
+    await renderView();
+    if (activeDetail?.id === id && $('#detail-dialog').open) { await openDetail(id); detailTrigger = trigger; }
+  } catch (error) {
+    if (previous) routeChoices[id] = previous; else delete routeChoices[id];
+    state.matches = previousMatches;
+    toast(error.message);
+    if (activeDetail?.id === id && $('#detail-dialog').open) { await openDetail(id); detailTrigger = trigger; }
+  } finally { control.disabled = false; }
+});
 document.addEventListener('submit', async event => {
   if (event.target.id === 'profile-form') return submitProfile(event);
   if (event.target.id === 'import-form') {
     event.preventDefault(); const button = event.target.querySelector('button'); button.disabled = true;
-    try { validateForm(event.target); const file = $('#batch-file').files[0]; if (file.size > 1024 * 1024) throw new Error('JSON batch must be under 1 MB'); const batch = parseImportJson(await file.text()); await post('/api/admin/import', batch, { Authorization: `Bearer ${$('#admin-token').value}` }); $('#admin-token').value = ''; state.meta = await api('/api/meta'); if (state.profile) state.matches = (await post('/api/matches', { profile: state.profile, filters: { includeTransfer: 'true' } })).items; shell(); renderData(); toast(t('importSuccess')); }
+    try { validateForm(event.target); const file = $('#batch-file').files[0]; if (file.size > 1024 * 1024) throw new Error('JSON batch must be under 1 MB'); const batch = parseImportJson(await file.text()); await post('/api/admin/import', batch, { Authorization: `Bearer ${$('#admin-token').value}` }); $('#admin-token').value = ''; state.meta = await api('/api/meta'); if (state.profile) state.matches = (await post('/api/matches', matchingPayload(state.profile))).items; shell(); renderData(); toast(t('importSuccess')); }
     catch (error) { $('#import-error').hidden = false; $('#import-error').textContent = error.message; }
     finally { button.disabled = false; }
   }
 });
 window.addEventListener('hashchange', () => { const view = location.hash.slice(1); if (view === 'main') { $('#main')?.focus(); return; } state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(view) ? view : 'discover'; shell(); renderView(); window.scrollTo({ top: 0 }); });
 async function boot() {
-  try { state.meta = await api('/api/meta'); if (state.profile) { try { state.matches = (await post('/api/matches', { profile: state.profile, filters: { includeTransfer: 'true' } })).items; } catch { state.profile = null; writeStorage(keys.profile, null); } } state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'discover'; shell(); await renderView(); const id = params.get('programme'); if (id) await openDetail(id); }
+  try { state.meta = await api('/api/meta'); if (state.profile) { try { state.matches = (await post('/api/matches', matchingPayload(state.profile))).items; } catch { state.profile = null; writeStorage(keys.profile, null); } } state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'discover'; shell(); await renderView(); const id = params.get('programme'); if (id) await openDetail(id); }
   catch (error) { $('#app').innerHTML = `<main class="content"><div class="brand"><span class="brand-mark">g.</span><strong>GradPath</strong></div><br><h1>${t('errorHeading')}</h1><p>${t('errorHint')}</p><button class="button" id="boot-retry">${t('retry')}</button></main>`; $('#boot-retry').addEventListener('click', boot); }
 }
 boot();

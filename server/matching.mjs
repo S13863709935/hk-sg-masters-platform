@@ -1,4 +1,5 @@
 import { validateProfile } from './validation.mjs';
+import { hasResolvedRoute } from './routes.mjs';
 
 const ranks = { ordinary: 0, third: 1, second_lower: 2, second_upper: 3, first: 4 };
 const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
@@ -58,7 +59,7 @@ export function matchProgramme(programme, profileInput) {
   if (!checks.length) checks.push({ kind: 'data', labelZh: '项目要求', labelEn: 'Programme requirements', mandatory: true, status: 'unknown', reasonZh: '仍为目录线索，不能据此判断门槛。', reasonEn: 'This is a catalogue lead, not a checked admissions record.', sourceUrl: programme.officialUrl });
   if (programme.requirementsCoverage !== 'complete') checks.push({ kind: 'coverage', labelZh: '完整性', labelEn: 'Completeness', mandatory: true, status: 'unknown', reasonZh: '尚未确认完整招生条件、当期申请状态或独立复核。', reasonEn: 'The complete requirements, current application status or independent review remain unconfirmed.', sourceUrl: programme.officialUrl });
   if (programme.admissionRoute === 'transfer_only') checks.push({ kind: 'route', labelZh: '申请路径', labelEn: 'Admission route', mandatory: true, status: 'fail', reasonZh: '仅限现有学生转入，不是新生直接申请项目。', reasonEn: 'Transfer-only for existing students; not open to direct new admission.', sourceUrl: programme.officialUrl });
-  if (programme.directoryListing?.variants.length) checks.push({ kind: 'route', labelZh: '', labelEn: 'Specific programme route', mandatory: true, status: 'unknown', reasonZh: '', reasonEn: 'The directory groups specialisations, languages or dual pathways. Select and verify one specific route; shared or sibling-route criteria cannot establish eligibility.', sourceUrl: programme.directoryListing.sourceUrl });
+  if (programme.directoryListing?.variants.length && !hasResolvedRoute(programme)) checks.push({ kind: 'route', labelZh: '', labelEn: 'Specific programme route', mandatory: true, status: 'unknown', reasonZh: '', reasonEn: 'The directory groups specialisations, languages or dual pathways. Select and verify one specific route; shared or sibling-route criteria cannot establish eligibility.', sourceUrl: programme.directoryListing.sourceUrl });
   const mandatory = checks.filter(c => c.mandatory);
   const failures = mandatory.filter(c => c.status === 'fail').length;
   const unknowns = mandatory.filter(c => c.status === 'unknown' || c.unresolved).length;

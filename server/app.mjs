@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import { timingSafeEqual } from 'node:crypto';
 import { matchProgramme } from './matching.mjs';
 import { validateProfile, InputError } from './validation.mjs';
+import { loadRoutes, resolveRoute, validateSelections, routeSummary } from './routes.mjs';
 
 const headers = {
   'Content-Security-Policy': "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
@@ -20,7 +21,8 @@ export function filterProgrammes(all, filters = {}) {
   const q = String(filters.q || '').slice(0, 200).trim().toLowerCase();
   return all.filter(p => (filters.includeTransfer === 'true' || p.admissionRoute !== 'transfer_only') && (filters.includeOutOfScope === 'true' || p.scope?.status !== 'out_of_scope') && (!q || searchText(p).includes(q)) && (!filters.region || p.university.region === filters.region) && (!filters.school || p.universityId === filters.school) && (!filters.area || p.area === filters.area) && (!filters.mode || p.offerings.some(o => o.mode?.toLowerCase().includes(filters.mode))) && (!filters.verification || p.verification === filters.verification));
 }
-export function createApp({ store, publicDir, adminToken = '' }) {
+export function createApp({ store, publicDir, adminToken = '', routeEvidencePath }) {
+  const routeIndex = loadRoutes(routeEvidencePath, store.all());
   const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
   return http.createServer(async (req, res) => {
     try {
@@ -32,7 +34,7 @@ export function createApp({ store, publicDir, adminToken = '' }) {
         if (origin && origin !== `http://${host}`) throw new InputError('Cross-origin writes are not allowed', 403);
       }
       if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, app: 'gradpath', version: '0.1.0' });
-      if (req.method === 'GET' && url.pathname === '/api/meta') return send(res, 200, { universities: store.universities(), areas: [...new Set(store.all().map(p => p.area))].sort(), quality: store.quality(), adminEnabled: adminToken.length >= 24 });
+      if (req.method === 'GET' && url.pathname === '/api/meta') return send(res, 200, { universities: store.universities(), areas: [...new Set(store.all().map(p => p.area))].sort(), quality: store.quality(), routeEvidence: routeSummary(routeIndex), adminEnabled: adminToken.length >= 24 });
       if (req.method === 'GET' && url.pathname === '/api/quality') return send(res, 200, store.quality());
       if (req.method === 'GET' && url.pathname === '/api/catalogue') {
         const filters = Object.fromEntries(url.searchParams);
@@ -41,17 +43,19 @@ export function createApp({ store, publicDir, adminToken = '' }) {
         result.sort((a, b) => direction * (Number(['programme_page_checked', 'peer_reviewed'].includes(b.verification)) - Number(['programme_page_checked', 'peer_reviewed'].includes(a.verification))) || a.name.localeCompare(b.name));
         const page = Math.max(1, Math.min(1000, Number(filters.page) || 1));
         const limit = Math.max(1, Math.min(100, Number(filters.limit) || 12));
-        return send(res, 200, { items: result.slice((page - 1) * limit, page * limit), total: result.length, page, limit });
+        return send(res, 200, { items: result.slice((page - 1) * limit, page * limit).map(p => resolveRoute(p, routeIndex)), total: result.length, page, limit });
       }
       if (req.method === 'GET' && url.pathname.startsWith('/api/programmes/')) {
         const p = store.get(decodeURIComponent(url.pathname.slice('/api/programmes/'.length)));
         if (!p) throw new InputError('Programme not found', 404);
-        return send(res, 200, p);
+        return send(res, 200, resolveRoute(p, routeIndex, url.searchParams.get('route')));
       }
       if (req.method === 'POST' && url.pathname === '/api/matches') {
         const input = await body(req);
-        const profile = validateProfile(input.profile);
-        const items = filterProgrammes(store.all(), input.filters).map(p => ({ ...p, match: matchProgramme(p, profile) }));
+        const profile = validateProfile(input?.profile);
+        const all = store.all();
+        const selected = validateSelections(input.selectedRoutes, all, routeIndex);
+        const items = filterProgrammes(all.map(p => resolveRoute(p, routeIndex, selected[p.id])), input.filters).map(p => ({ ...p, match: matchProgramme(p, profile) }));
         const order = { meets_checked: 0, needs_confirmation: 1, has_gap: 2, out_of_scope: 3 };
         items.sort((a, b) => order[a.match.status] - order[b.match.status] || b.match.counts.pass - a.match.counts.pass || a.name.localeCompare(b.name));
         return send(res, 200, { items, total: items.length });

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-16",
+  "programmes": [
+    {
+      "programmeId": "SG-NTU-P061",
+      "routes": [
+        {
+          "routeId": "SG-NTU-P061-ROUTE-CRYPTO",
+          "name": "Master of Science in Cybersecurity (Applied Cryptography)",
+          "award": "MSc",
+          "area": "Computing",
+          "faculty": "School of Physical and Mathematical Sciences",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-master-of-science-in-cybersecurity-applied-cryptography",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted route-specific source reading; independent review pending",
+          "lastChecked": "2026-10-16",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesEn": "NTU main campus; coursework degree, including a dissertation study option. No numeric entry GPA was found. The SPMS fee of SGD 63,220 is labelled 2026/27 and is not copied into the 2027/28 offering. Relevant experience and GRE/GMAT are preferences without published numeric minima.",
+          "notesZh": "",
+          "offerings": [
+            { "id": "SG-NTU-P061-CRYPTO-FT-2027", "mode": "Full-time", "duration": "1 year", "intake": "2 August 2027", "academicYear": "2027/28", "applicationOpen": "2026-09-01", "deadline": "2027-03-31", "deadlineNote": "Matriculation in mid-July is not the course commencement date.", "currency": "SGD", "tuition": null, "feeBasis": "2027/28 tuition unconfirmed; do not reuse the published 2026/27 price." },
+            { "id": "SG-NTU-P061-CRYPTO-PT-2027", "mode": "Part-time", "duration": "2 years", "intake": "2 August 2027", "academicYear": "2027/28", "applicationOpen": "2026-09-01", "deadline": "2027-03-31", "deadlineNote": "Matriculation in mid-July is not the course commencement date.", "currency": "SGD", "tuition": null, "feeBasis": "2027/28 tuition unconfirmed; do not reuse the published 2026/27 price." }
+          ],
+          "rules": [
+            { "kind": "degree", "labelEn": "Bachelor's degree", "labelZh": "", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
+            { "kind": "major", "labelEn": "Quantitative academic background", "labelZh": "", "accepted": ["Mathematics", "Physics", "Engineering", "Computer Science", "Finance"], "relatedAllowed": true, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
+            { "kind": "language", "labelEn": "SPMS English test score route", "labelZh": "", "tests": { "ielts": { "total": 6 }, "toefl_120": { "total": 85, "validBefore": "2026-01-21" }, "toefl_6": { "total": 4.5, "validFrom": "2026-01-21" } }, "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide" },
+            { "kind": "manual", "labelEn": "Academic quality and equivalence", "labelZh": "", "noteEn": "The school assesses degree quality, quantitative preparation and equivalent disciplines; no numeric GPA cutoff is inferred.", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
+            { "kind": "manual", "labelEn": "Language applicability and validity", "labelZh": "", "noteEn": "MOI evidence, case-by-case alternatives and validity within two years of the application date require confirmation. Today's date is not substituted for the application date.", "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide" },
+            { "kind": "manual", "labelEn": "Optional experience and tests", "labelZh": "", "mandatory": false, "noteEn": "Relevant work and GRE/GMAT are preferences; no minimum years or score is invented.", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" }
+          ],
+          "sources": [
+            { "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-master-of-science-in-cybersecurity-applied-cryptography", "purpose": "Route identity and coursework classification", "checkedOn": "2026-10-16" },
+            { "url": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography", "purpose": "Route admissions, 2027 dates and separate 2026/27 fee context", "checkedOn": "2026-10-16" },
+            { "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide", "purpose": "SPMS score scales and general validity conditions", "checkedOn": "2026-10-16" }
+          ],
+          "fieldStatus": {
+            "tuition": { "status": "unknown", "noteEn": "The consulted SPMS fee is for 2026/27, not the selected 2027/28 offering.", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
+            "gpa": { "status": "not_published", "noteEn": "No numeric entry GPA was found in the consulted admissions sections; academic quality still matters.", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
+            "independentReview": { "status": "unknown", "noteEn": "No independent human review is recorded.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-master-of-science-in-cybersecurity-applied-cryptography" }
+          }
+        },
+        {
+          "routeId": "SG-NTU-P061-ROUTE-CYBER",
+          "name": "Master of Science in Cybersecurity (Applied Cybersecurity)",
+          "award": "MSc",
+          "area": "Computing",
+          "faculty": "College of Computing and Data Science",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted route-specific source reading; independent review pending",
+          "lastChecked": "2026-10-16",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesEn": "The degree routes are alternatives, not cumulative requirements. The SGD 5,000 deposit is credited towards tuition, not an extra tuition charge. The SGD 50 application fee and annual miscellaneous charges are additional; grants are not deducted automatically.",
+          "notesZh": "",
+          "offerings": [
+            { "id": "SG-NTU-P061-CYBER-FT-2027", "mode": "Full-time", "duration": "1–2.5 years", "intake": "August 2027", "academicYear": "2027/28", "applicationOpen": "2026-10-01", "deadline": "2027-03-31", "currency": "SGD", "tuition": 65748.8, "feeBasis": "2027/28 onwards; total tuition including 9% GST at shortest candidature, billed over 2 semesters; extra fees may apply." },
+            { "id": "SG-NTU-P061-CYBER-PT-2027", "mode": "Part-time", "duration": "2–4 years", "intake": "August 2027", "academicYear": "2027/28", "applicationOpen": "2026-10-01", "deadline": "2027-03-31", "currency": "SGD", "tuition": 65748.8, "feeBasis": "2027/28 onwards; total tuition including 9% GST at shortest candidature, billed over 4 semesters; extra fees may apply." }
+          ],
+          "rules": [
+            { "kind": "degree", "labelEn": "Bachelor's degree", "labelZh": "", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
+            { "kind": "major", "labelEn": "Computing and mathematical preparation", "labelZh": "", "accepted": ["Computer Science", "Computer Engineering"], "relatedAllowed": true, "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
+            { "kind": "manual", "labelEn": "Alternative academic entry routes", "labelZh": "", "noteEn": "Either an accepted honours degree, or an accepted bachelor's degree plus two relevant industry years. Both routes require the specified background and mathematical preparation. Quality, relevance and equivalence need school assessment.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
+            { "kind": "language", "labelEn": "CCDS English test score route", "labelZh": "", "tests": { "ielts": { "total": 6.5 }, "toefl_120": { "total": 100, "validBefore": "2026-01-21" }, "toefl_6": { "total": 5, "validFrom": "2026-01-21" } }, "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
+            { "kind": "manual", "labelEn": "MOI alternative and test validity", "labelZh": "", "noteEn": "English-medium evidence and other school discretion require confirmation; test validity is assessed against the application date, which is not provided here.", "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide" }
+          ],
+          "sources": [
+            { "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity", "purpose": "Route admissions, August 2027 dates and 2027/28 tuition", "checkedOn": "2026-10-16" },
+            { "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide", "purpose": "CCDS test scales, application-date validity and general conditions", "checkedOn": "2026-10-16" }
+          ],
+          "fieldStatus": {
+            "tuition": { "status": "known", "noteEn": "2027/28 onwards tuition is recorded with GST and shortest-candidature conditions; no personal grant is assumed.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
+            "gpa": { "status": "not_published", "noteEn": "No numeric entry GPA was found; degree quality and alternative routes still require assessment.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
+            "independentReview": { "status": "unknown", "noteEn": "No independent human review is recorded.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" }
+          }
+        }
+      ]
+    }
+  ]
+}
