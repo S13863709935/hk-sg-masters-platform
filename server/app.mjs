@@ -3,7 +3,8 @@ import { readFileSync } from 'node:fs';
 import { timingSafeEqual } from 'node:crypto';
 import { matchProgramme } from './matching.mjs';
 import { validateProfile, InputError } from './validation.mjs';
-import { loadRoutes, resolveRoute, validateSelections, routeSummary } from './routes.mjs';
+import { loadRoutes, resolveProgramme, validateSelections, routeSummary } from './routes.mjs';
+import { validateOfferingSelections } from './offerings.mjs';
 import { applicationDate, programmeTimeline } from './application-dates.mjs';
 
 const headers = {
@@ -49,7 +50,14 @@ export function createApp({ store, publicDir, adminToken = '', routeEvidencePath
           try { choices = JSON.parse(raw); } catch { throw new InputError('Invalid route query JSON', 400); }
         }
         const selected = validateSelections(choices, all, routeIndex);
-        const result = filterProgrammes(all.map(p => resolveRoute(p, routeIndex, selected[p.id])), filters);
+        let offeringChoices;
+        if (url.searchParams.has('offerings')) {
+          const raw = url.searchParams.get('offerings');
+          if (raw.length > 8000) throw new InputError('Study-option query is too large', 413);
+          try { offeringChoices = JSON.parse(raw); } catch { throw new InputError('Invalid study-option query JSON', 400); }
+        }
+        const offerings = validateOfferingSelections(offeringChoices, all);
+        const result = filterProgrammes(all.map(p => resolveProgramme(p, routeIndex, selected[p.id], offerings[p.id])), filters);
         const direction = filters.sort === 'az' ? 0 : 1;
         result.sort((a, b) => direction * (Number(['programme_page_checked', 'peer_reviewed'].includes(b.verification)) - Number(['programme_page_checked', 'peer_reviewed'].includes(a.verification))) || a.name.localeCompare(b.name));
         const page = Math.max(1, Math.min(1000, Number(filters.page) || 1));
@@ -59,14 +67,16 @@ export function createApp({ store, publicDir, adminToken = '', routeEvidencePath
       if (req.method === 'GET' && url.pathname.startsWith('/api/programmes/')) {
         const p = store.get(decodeURIComponent(url.pathname.slice('/api/programmes/'.length)));
         if (!p) throw new InputError('Programme not found', 404);
-        return send(res, 200, present(resolveRoute(p, routeIndex, url.searchParams.get('route'))));
+        if (url.searchParams.has('offering') && !url.searchParams.get('offering')) throw new InputError('Invalid study-option selection');
+        return send(res, 200, present(resolveProgramme(p, routeIndex, url.searchParams.get('route'), url.searchParams.get('offering'))));
       }
       if (req.method === 'POST' && url.pathname === '/api/matches') {
         const input = await body(req);
         const profile = validateProfile(input?.profile);
         const all = store.all();
         const selected = validateSelections(input.selectedRoutes, all, routeIndex);
-        const items = filterProgrammes(all.map(p => resolveRoute(p, routeIndex, selected[p.id])), input.filters).map(p => ({ ...present(p), match: matchProgramme(p, profile) }));
+        const offerings = validateOfferingSelections(input.selectedOfferings, all);
+        const items = filterProgrammes(all.map(p => resolveProgramme(p, routeIndex, selected[p.id], offerings[p.id])), input.filters).map(p => ({ ...present(p), match: matchProgramme(p, profile) }));
         const order = { meets_checked: 0, needs_confirmation: 1, has_gap: 2, out_of_scope: 3 };
         items.sort((a, b) => order[a.match.status] - order[b.match.status] || b.match.counts.pass - a.match.counts.pass || a.name.localeCompare(b.name));
         return send(res, 200, { items, total: items.length });

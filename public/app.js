@@ -17,8 +17,10 @@ let activeDetail = null;
 let detailTrigger = null;
 let detailSequence = 0;
 const routeChoices = {};
-const programmePath = id => `/api/programmes/${encodeURIComponent(id)}${routeChoices[id] ? `?route=${encodeURIComponent(routeChoices[id])}` : ''}`;
-const matchingPayload = profile => ({ profile, filters: { includeTransfer: 'true' }, selectedRoutes: { ...routeChoices } });
+const offeringChoices = {};
+const programmePath = id => { const query = new URLSearchParams(); if (routeChoices[id]) query.set('route', routeChoices[id]); if (offeringChoices[id]) query.set('offering', offeringChoices[id]); return `/api/programmes/${encodeURIComponent(id)}${query.size ? `?${query}` : ''}`; };
+const matchingPayload = profile => ({ profile, filters: { includeTransfer: 'true' }, selectedRoutes: { ...routeChoices }, selectedOfferings: { ...offeringChoices } });
+const contextMatch = p => state.matches?.find(item => item.id === p.id && (item.selectedRoute?.id || '') === (p.selectedRoute?.id || '') && (item.selectedOffering?.id || '') === (p.selectedOffering?.id || ''))?.match;
 const t = key => copy[key] || key;
 const areaName = area => areaLabels[area] || area;
 const schoolName = school => school.nameEn;
@@ -58,7 +60,7 @@ async function loadCatalogue() {
   try {
     let response;
     if (state.profile && state.matches) { const filtered = filterMatches(state.matches); if (state.sort === 'az') filtered.sort((a, b) => a.name.localeCompare(b.name)); response = { total: filtered.length, items: filtered.slice((state.page - 1) * state.limit, state.page * state.limit) }; }
-    else { const query = new URLSearchParams(Object.fromEntries(['q', 'region', 'school', 'area', 'mode', 'verification', 'page', 'limit', 'sort'].map(k => [k, state[k]]))); if (Object.keys(routeChoices).length) query.set('routes', JSON.stringify(routeChoices)); response = await api(`/api/catalogue?${query}`); }
+    else { const query = new URLSearchParams(Object.fromEntries(['q', 'region', 'school', 'area', 'mode', 'verification', 'page', 'limit', 'sort'].map(k => [k, state[k]]))); if (Object.keys(routeChoices).length) query.set('routes', JSON.stringify(routeChoices)); if (Object.keys(offeringChoices).length) query.set('offerings', JSON.stringify(offeringChoices)); response = await api(`/api/catalogue?${query}`); }
     if (seq !== requestSequence || state.view !== 'discover') return;
     state.items = response.items; state.total = response.total;
     renderResults();
@@ -66,14 +68,14 @@ async function loadCatalogue() {
 }
 function card(p) {
   const saved = state.shortlist.includes(p.id);
-  const match = p.match || state.matches?.find(x => x.id === p.id)?.match;
+  const match = p.match || contextMatch(p);
   const mode = [...new Set(p.offerings.map(o => o.mode).filter(Boolean))].join(' / ');
   const duration = [...new Set(p.offerings.map(o => o.duration).filter(Boolean))].join(' / ');
   return `<article class="programme-card">
     <div class="card-top"><div class="school-tag"><span class="school-monogram">${esc(p.university.abbreviation)}</span><div>${esc(p.university.abbreviation)}<div class="region-code">${t(p.university.region === 'HK' ? 'hongKong' : 'singapore')}</div></div></div><button class="icon-button ${saved ? 'selected' : ''}" data-action="save" data-id="${p.id}" aria-label="${t(saved ? 'saved' : 'save')} · ${esc(p.name)}" aria-pressed="${saved}">${icon('shortlist')}</button></div>
     <h3><button class="card-title" data-action="detail" data-id="${p.id}">${esc(p.name)}</button></h3>
     <div class="badge-row"><span class="badge">${esc(areaName(p.area))}</span>${badge(p.verification)}${p.directoryListing?.variants.length ? badge('routeSelection') : ''}${p.scope?.status === 'out_of_scope' ? badge('out_of_scope') : ''}${p.admissionRoute === 'transfer_only' ? badge('transferOnly') : ''}</div>
-    ${applicationSummary(p)}
+    ${offeringSummary(p)}${applicationSummary(p)}
     <div class="card-facts"><div class="card-fact"><small>${t('mode')}</small><span>${known(mode)}</span></div><div class="card-fact"><small>${t('duration')}</small><span>${known(duration)}</span></div><div class="card-fact"><small>${t('tuition')}</small><span>${p.offerings.filter(o => o.tuition !== null && o.currency).length ? fees(p) : known(null)}</span></div><div class="card-fact"><small>${t('academicYear')}</small><span>${known(p.academicYear)}</span></div></div>
     ${match ? `<div class="card-match">${badge(match.tier || match.status)}<small>${`Checked: ${match.counts.pass} met · ${match.counts.fail} gaps · ${match.counts.unknown} unresolved`}</small></div>` : ''}
     <div class="card-bottom"><label class="compare-check"><input type="checkbox" data-action="compare" data-id="${p.id}" ${state.compare.includes(p.id) ? 'checked' : ''}>${t('addCompare')}</label><button class="details-button" data-action="detail" data-id="${p.id}">${t('details')}${icon('arrow')}</button></div>
@@ -147,6 +149,13 @@ async function submitProfile(event) {
 }
 function ruleText(r) { if (r.kind === 'language') return Object.entries(r.tests).map(([kind, test]) => `${esc(t(kind))}: ${test.total}${test.componentMin !== undefined ? ` · each component ≥ ${test.componentMin}` : ''}`).join('<br>'); if (r.kind === 'gpa') return `GPA ≥ ${r.min}/${r.scale}`; if (r.kind === 'classification') return t(r.min); if (r.kind === 'major') return r.any ? 'Any undergraduate discipline; all other criteria still apply.' : `${r.accepted.map(esc).join(', ')}${r.relatedAllowed ? '; related fields need confirmation' : ''}`; if (r.kind === 'experience') return `At least ${r.min} years${r.mandatory === false ? ' preferred (not mandatory)' : ' of relevant experience'}`; return esc(r.noteEn || r.labelEn); }
 function deadlineText(o) { return `${known(o.deadline)}${o.applicationOpen ? `<small>Applications open: ${esc(o.applicationOpen)}</small>` : ''}${o.deadlineNote ? `<small>${esc(o.deadlineNote)}</small>` : ''}`; }
+const offeringLabel = o => [o.intake, o.academicYear, o.mode].filter(Boolean).join(' · ') || 'Study option';
+const offeringCaution = 'Fees and dates only. Applicant-category notes still apply; intake-specific entry requirements need confirmation.';
+function offeringSummary(p) { return p.selectedOffering ? `<p class="offering-context"><strong>Selected study option</strong><br>${esc(offeringLabel(p.selectedOffering))}<small>Category-specific notes still apply. Change this choice in programme details.</small></p>` : ''; }
+function offeringSelector(p) {
+  if (!p.offeringOptions?.length || (p.offeringOptions.length < 2 && !p.selectedOffering)) return '';
+  return `<section class="study-option-panel"><div class="field"><label for="programme-offering">Intake and study mode</label><select id="programme-offering" data-programme="${esc(p.id)}" aria-describedby="offering-selection-note">${options([['', 'All recorded study options — no selection'], ...p.offeringOptions.map(o => [o.id, offeringLabel(o)])], p.selectedOffering?.id || '')}</select></div><p id="offering-selection-note" class="detail-note">Applies to cards, comparison and export until page reload. Changing route clears this choice.</p><p class="detail-note warning">${offeringCaution}</p></section>`;
+}
 function applicationSummary(p) {
   const a = p.applicationTimeline;
   if (!a) return '';
@@ -155,7 +164,7 @@ function applicationSummary(p) {
 function applicationPanel(p) {
   const a = p.applicationTimeline;
   if (!a) return '';
-  return `<section class="application-panel" aria-label="Application date comparison"><h3>Application date comparison</h3><p class="detail-note">Compared as of ${esc(a.asOfDate)} · UTC+08:00. This is separate from academic conditions and does not confirm that applications are currently accepted.</p><span class="application-badge" data-state="${esc(a.state)}">${esc(a.label)}</span><div class="application-offerings">${a.offerings.map(o => `<div><strong>${esc([o.mode, o.intake, o.academicYear].filter(Boolean).join(' · ') || 'Study option')}</strong><p>Opening: ${esc(o.openingDate || 'Not recorded')} · Deadline: ${esc(o.deadline || 'Not recorded')}</p><span class="application-badge" data-state="${esc(o.state)}">${esc(o.label)}</span><p>${esc(o.reason)}</p><a href="${esc(o.sourceUrl)}" target="_blank" rel="noopener noreferrer">Official date source ↗</a><small>Source read: ${esc(o.sourceCheckedOn || 'Not confirmed')}</small></div>`).join('')}</div><p class="detail-note">${esc(a.disclaimer)}</p><button class="button secondary" data-action="refreshApplicationDates">Refresh date comparison</button><p class="detail-note">Refresh recalculates from stored records. It does not recheck the university website.</p></section>`;
+  return `<section class="application-panel" aria-label="Application date comparison"><h3>Application date comparison</h3><p class="detail-note">Compared as of ${esc(a.asOfDate)} · UTC+08:00. This is separate from academic conditions and does not confirm that applications are currently accepted.</p><span class="application-badge" data-state="${esc(a.state)}">${esc(a.label)}</span><div class="application-offerings">${a.offerings.map(o => `<div><strong>${esc([o.mode, o.intake, o.academicYear].filter(Boolean).join(' · ') || 'Study option')}</strong><p>Opening: ${esc(o.openingDate || 'Not recorded')} · Deadline: ${esc(o.deadline || 'Not recorded')}</p>${p.offerings.find(option => option.id === o.offeringId)?.deadlineNote ? `<p class="warning">${esc(p.offerings.find(option => option.id === o.offeringId).deadlineNote)}</p>` : ''}<span class="application-badge" data-state="${esc(o.state)}">${esc(o.label)}</span><p>${esc(o.reason)}</p><a href="${esc(o.sourceUrl)}" target="_blank" rel="noopener noreferrer">Official date source ↗</a><small>Source read: ${esc(o.sourceCheckedOn || 'Not confirmed')}</small></div>`).join('')}</div><p class="detail-note">${esc(a.disclaimer)}</p><button class="button secondary" data-action="refreshApplicationDates">Refresh date comparison</button><p class="detail-note">Refresh recalculates from stored records. It does not recheck the university website.</p></section>`;
 }
 function evidenceCoverage(p) { if (!p.fieldStatus) return ''; const labels = { academicYear: 'academicYear', major: 'majorCoverage', gpa: 'gpa', language: 'languageInfo', tuition: 'tuition', deadline: 'deadline', independentReview: 'reviewCoverage' }; return `<h3>${t('dataCoverage')}</h3><div class="checks">${Object.entries(p.fieldStatus).map(([key, f]) => `<div class="check-row"><span class="check-symbol ${f.status === 'known' ? 'pass' : 'unknown'}">${f.status === 'known' ? 'i' : '?'}</span><div><strong>${esc(t(labels[key] || key))} · ${t(f.status)}</strong><p>${esc(f.noteEn)}</p><a href="${esc(f.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div>${p.sources?.length ? `<h3>${t('evidenceSources')}</h3><ul>${p.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.purpose)} ↗</a> · ${esc(s.checkedOn)}</li>`).join('')}</ul>` : ''}`; }
 function scopeWarning(p) { return p.scope?.status === 'out_of_scope' ? `<p class="detail-note warning">${badge('out_of_scope')} ${esc(p.scope.reasonEn)} <a href="${esc(p.scope.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a> · ${esc(p.scope.checkedOn)}</p>` : ''; }
@@ -171,7 +180,7 @@ function routeSelector(p) {
 }
 function requirementChecks(p) {
   if (p.scope?.status === 'out_of_scope') return scopeWarning(p);
-  const match = state.matches?.find(item => item.id === p.id && (item.selectedRoute?.id || '') === (p.selectedRoute?.id || ''))?.match;
+  const match = contextMatch(p);
   const checks = match?.checks;
   if (checks) return `<div class="badge-row">${badge(match.tier || match.status)}${!match.tier ? `<span class="badge">${t('noTier')}</span>` : ''}</div><div class="checks">${checks.map(c => `<div class="check-row"><span class="check-symbol ${c.status}">${c.status === 'pass' ? '✓' : c.status === 'fail' ? '!' : '?'}</span><div><strong>${esc(c.labelEn)} · ${t(c.status === 'unknown' ? 'unknownCheck' : c.status)}</strong><p>${esc(c.reasonEn)}</p><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div><p class="detail-note">${esc(match.disclaimerEn)}</p>`;
   return `<p class="detail-note">${t('profileNeeded')}</p>${p.rules.length ? `<div class="checks">${p.rules.map(r => `<div class="check-row"><span class="check-symbol">i</span><div><strong>${esc(r.labelEn)}</strong><p>${ruleText(r)}</p><a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div>` : `<p class="detail-note warning">${t('emptyKnown')}</p>`}<button class="button secondary" data-action="nav" data-view="profile">${t('profile')}${icon('arrow')}</button>`;
@@ -196,7 +205,7 @@ async function openDetail(id) {
         <h3>${t('notes')}</h3><p class="detail-note">${esc(p.notesEn)}</p>${p.legacyRequirements?.length ? `<p class="detail-note warning">${t('legacyWarning')}</p>` : ''}<p class="detail-note warning">${t('noProbability')}</p>
         <div class="detail-actions"><a class="button primary" href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t(p.selectedRoute || !p.directoryListing?.variants.length ? 'officialPage' : 'openDirectory')}${icon('external')}</a><button class="button" data-action="save" data-id="${p.id}">${icon('shortlist')}${t(state.shortlist.includes(p.id) ? 'saved' : 'save')}</button></div>
       </div>`;
-    dialog.querySelector('.detail-body').insertAdjacentHTML('afterbegin', routeSelector(p));
+    dialog.querySelector('.detail-body').insertAdjacentHTML('afterbegin', routeSelector(p) + offeringSelector(p));
     dialog.querySelector('.detail-meta').insertAdjacentHTML('afterend', applicationPanel(p));
     dialog.querySelector('[data-action=closeDetail]').focus();
   } catch (error) { dialog.innerHTML = `<div class="detail-body"><p>${esc(error.message)}</p><button class="button" data-action="closeDetail">${t('close')}</button></div>`; }
@@ -208,7 +217,7 @@ async function renderCompare() {
   if (state.compare.length < 2) return;
   const items = await selectedProgrammes(state.compare);
   if (state.view !== 'compare') return;
-  const rows = [['university', p => esc(schoolName(p.university))], ['area', p => esc(areaName(p.area))], ['academicYear', p => known(p.academicYear)], ['mode', p => p.offerings.map(o => known(o.mode)).join('<br>')], ['duration', p => p.offerings.map(o => known(o.duration)).join('<br>')], ['tuition', p => fees(p, true)], ['deadline', p => p.offerings.map(o => deadlineText(o)).join('<br>')], ['applicationDates', p => applicationSummary(p)], ['verification', p => badge(p.verification)], ['lastChecked', p => known(p.lastChecked)], ['requirementChecks', p => p.rules.length ? p.rules.map(r => `${esc(r.labelEn)}<small>${ruleText(r)}</small>`).join('<br>') : known(null)], ['matchingFilter', p => { const m = state.matches?.find(x => x.id === p.id)?.match; return m ? badge(m.tier || m.status) : `<span class="muted">${t('profileNeeded')}</span>`; }], ['sources', p => `<a href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t('officialPage')} ↗</a>`]];
+  const rows = [['university', p => esc(schoolName(p.university))], ['area', p => esc(areaName(p.area))], ['studyOption', p => `${p.selectedOffering ? esc(offeringLabel(p.selectedOffering)) : 'All recorded study options — no selection'}<small>${p.selectedOffering ? offeringCaution : 'Review each option separately; applicant-category notes still apply.'}</small><button class="button" data-action="detail" data-id="${esc(p.id)}">Change study option</button>`], ['academicYear', p => known(p.academicYear)], ['mode', p => p.offerings.map(o => known(o.mode)).join('<br>')], ['duration', p => p.offerings.map(o => known(o.duration)).join('<br>')], ['tuition', p => fees(p, true)], ['deadline', p => p.offerings.map(o => deadlineText(o)).join('<br>')], ['applicationDates', p => applicationSummary(p)], ['verification', p => badge(p.verification)], ['lastChecked', p => known(p.lastChecked)], ['requirementChecks', p => p.rules.length ? p.rules.map(r => `${esc(r.labelEn)}<small>${ruleText(r)}</small>`).join('<br>') : known(null)], ['matchingFilter', p => { const m = contextMatch(p); return m ? badge(m.tier || m.status) : `<span class="muted">${t('profileNeeded')}</span>`; }], ['sources', p => `<a href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t('officialPage')} ↗</a>`]];
   $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}<div class="table-wrap"><table class="compare-table"><thead><tr><th>${t('compare')}</th>${items.map(p => `<th><span class="badge">${esc(p.university.abbreviation)}</span><h3>${esc(p.name)}</h3><button class="button" data-action="compare" data-id="${p.id}">${t('remove')}</button></th>`).join('')}</tr></thead><tbody>${rows.map(([label, get]) => `<tr><td>${t(label)}</td>${items.map(p => `<td>${get(p)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="detail-note warning">${t('noProbability')}</p>`;
 }
 function renderData() {
@@ -252,27 +261,33 @@ document.addEventListener('click', async event => {
   if (action === 'clearProfile') { state.profile = null; state.matches = null; state.matchFilter = ''; writeStorage(keys.profile, null); toast(t('profileCleared')); renderProfile(); }
   if (action === 'retry') await loadCatalogue();
   if (action === 'rerender') await renderView();
-  if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson({ exportedAt: new Date().toISOString(), programmes: programmes.map(p => ({ id: p.id, selectedRoute: p.selectedRoute || null, name: p.name, university: p.university.nameEn, officialUrl: p.officialUrl, verification: p.verification, academicYear: p.academicYear, offerings: p.offerings, applicationTimeline: p.applicationTimeline })) }, 'gradpath-shortlist.json'); }
+  if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson({ exportedAt: new Date().toISOString(), selectionPersistence: 'Programme IDs only are saved. Route and study-option choices reset on page reload.', programmes: programmes.map(p => ({ id: p.id, selectedRoute: p.selectedRoute || null, selectedOffering: p.selectedOffering || null, offeringDisclaimer: p.offeringDisclaimer || null, name: p.name, university: p.university.nameEn, officialUrl: p.officialUrl, verification: p.verification, academicYear: p.academicYear, offerings: p.offerings, applicationTimeline: p.applicationTimeline })) }, 'gradpath-shortlist.json'); }
   } catch (error) { toast(error.message); }
 });
 document.addEventListener('input', event => { if (event.target.id === 'search') { clearTimeout(searchTimer); state.q = event.target.value; state.page = 1; syncUrl(); searchTimer = setTimeout(loadCatalogue, 220); } });
 document.addEventListener('change', event => { if (event.target.dataset.filter) { state[event.target.dataset.filter] = event.target.value; state.page = 1; syncUrl(); loadCatalogue(); } if (event.target.id === 'profile-languageType') languageFields(); if (event.target.id === 'batch-file') $('#batch-file-name').textContent = event.target.files[0]?.name || t('noFile'); });
 document.addEventListener('change', async event => {
-  if (event.target.id !== 'programme-route') return;
+  if (!['programme-route', 'programme-offering'].includes(event.target.id)) return;
   const control = event.target; const id = control.dataset.programme;
-  const previous = routeChoices[id]; const previousMatches = state.matches; const trigger = detailTrigger;
-  control.disabled = true;
-  if (control.value) routeChoices[id] = control.value; else delete routeChoices[id];
+  const previousRoute = routeChoices[id]; const previousOffering = offeringChoices[id]; const previousMatches = state.matches; const trigger = detailTrigger;
+  const dialog = $('#detail-dialog'); const scroll = dialog.scrollTop;
+  dialog.querySelectorAll('select').forEach(select => { select.disabled = true; });
+  if (control.id === 'programme-route') {
+    if (control.value) routeChoices[id] = control.value; else delete routeChoices[id];
+    delete offeringChoices[id];
+  } else if (control.value) offeringChoices[id] = control.value; else delete offeringChoices[id];
   try {
+    await api(programmePath(id));
     if (state.profile) state.matches = (await post('/api/matches', matchingPayload(state.profile))).items;
     await renderView();
-    if (activeDetail?.id === id && $('#detail-dialog').open) { await openDetail(id); detailTrigger = trigger; }
+    if (activeDetail?.id === id && dialog.open) { await openDetail(id); detailTrigger = trigger; dialog.scrollTop = scroll; dialog.querySelector(`#${control.id}`)?.focus({ preventScroll: true }); }
   } catch (error) {
-    if (previous) routeChoices[id] = previous; else delete routeChoices[id];
+    if (previousRoute) routeChoices[id] = previousRoute; else delete routeChoices[id];
+    if (previousOffering) offeringChoices[id] = previousOffering; else delete offeringChoices[id];
     state.matches = previousMatches;
     toast(error.message);
-    if (activeDetail?.id === id && $('#detail-dialog').open) { await openDetail(id); detailTrigger = trigger; }
-  } finally { control.disabled = false; }
+    if (activeDetail?.id === id && dialog.open) { await openDetail(id); detailTrigger = trigger; }
+  } finally { dialog.querySelectorAll('select').forEach(select => { select.disabled = false; }); }
 });
 document.addEventListener('submit', async event => {
   if (event.target.id === 'profile-form') return submitProfile(event);

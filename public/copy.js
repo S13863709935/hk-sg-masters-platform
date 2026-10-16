@@ -1,4 +1,5 @@
 export const copy = {
+  "studyOption": "Selected study option",
   "brandSub": "Hong Kong & Singapore",
   "explore": "Explore programmes",
   "profile": "My background",

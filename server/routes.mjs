@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { InputError, validateProgramme, isOfficialUrl } from './validation.mjs';
+import { resolveOffering } from './offerings.mjs';
 
 // A client/import cannot assert this trust marker by adding a JSON property.
 const resolvedRoutes = new WeakSet();
@@ -52,6 +53,18 @@ export function validateSelections(input, programmes, index) {
     resolveRoute(bases.get(id), index, route);
   }
   return input;
+}
+
+export function resolveProgramme(base, index, routeId, offeringId) {
+  const routed = resolveRoute(base, index, routeId);
+  if (routed.directoryListing?.variants.length && !hasResolvedRoute(routed)) {
+    if (offeringId) throw new InputError('Choose a verified specific route before choosing a study option');
+    return routed;
+  }
+  const result = resolveOffering(routed, offeringId);
+  // Preserve trust only across this server-owned projection, never from JSON.
+  if (hasResolvedRoute(routed)) resolvedRoutes.add(result);
+  return result;
 }
 
 export function routeSummary(index) {
