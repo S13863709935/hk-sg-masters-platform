@@ -12,4 +12,4 @@ assert.equal(new Set(pilot.programmes.map(p => p.id)).size, 21);
 assert.equal(new Set(pilot.programmes.map(p => p.universityId)).size, 14);
 assert.ok(pilot.programmes.every(p => p.verification === 'programme_page_checked' && p.requirementsCoverage === 'partial' && p.reviewer === null));
 assert.ok(pilot.programmes.every(p => p.sources?.every(s => new URL(s.url).protocol === 'https:') !== false));
-console.log('Week 4 pilot: 14 schools, 20 direct-entry records, 1 transfer reference, 0 independent reviews, 0 complete requirement records.');
+console.log('Unchanged 6 October pilot: 14 schools, 20 direct-entry records, 1 transfer reference, 0 independent reviews, 0 complete requirement records.');

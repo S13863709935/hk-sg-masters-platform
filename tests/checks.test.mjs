@@ -1,0 +1,28 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { checkProgramme } from '../server/checks.mjs';
+import { validateProfile } from '../server/profile.mjs';
+// Synthetic thresholds below exercise software behaviour; they are not admissions data.
+const sourceUrl = 'https://example.invalid/synthetic-test-only';
+const base = { verification: 'programme_page_checked', requirementsCoverage: 'partial', admissionRoute: 'direct', officialUrl: sourceUrl, rules: [] };
+const profile = { major: 'Computer Science', gpa: 3.5, gpaScale: 4, degreeStatus: 'graduated', language: { type: 'ielts', total: 7, components: { listening: 7, reading: 7, writing: 7, speaking: 7 }, singleAttempt: true } };
+const run = (rule, changes = {}) => checkProgramme({ ...base, rules: [{ sourceUrl, labelEn: 'Synthetic test rule', ...rule }] }, { ...structuredClone(profile), ...changes });
+test('same-scale GPA comparison works but partial coverage remains unresolved', () => { const d = run({ kind: 'gpa', min: 3, scale: 4 }); assert.equal(d.checks[0].status, 'pass'); assert.equal(d.status, 'needs_confirmation'); assert.equal(d.tier, null); });
+test('different GPA scales are not converted', () => { assert.equal(run({ kind: 'gpa', min: 80, scale: 100 }).checks[0].status, 'unknown'); });
+test('known mandatory gap is not turned into stretch', () => { const d = run({ kind: 'gpa', min: 3.8, scale: 4 }); assert.equal(d.status, 'has_gap'); assert.equal(d.tier, null); assert.ok(d.counts.unknown); });
+test('related-major equivalence is not inferred', () => { assert.equal(run({ kind: 'major', accepted: ['Software Engineering'], relatedAllowed: true }).checks[0].status, 'unknown'); });
+test('explicitly closed major list detects a gap', () => { assert.equal(run({ kind: 'major', accepted: ['Accounting'], relatedAllowed: false }).checks[0].status, 'fail'); });
+test('honours is not inferred from GPA', () => { assert.equal(run({ kind: 'classification', min: 'second_lower' }).checks[0].status, 'unknown'); });
+test('IELTS component gap is detected even when total passes', () => { const p = structuredClone(profile); p.language.components.writing = 5; const d = run({ kind: 'language', tests: { ielts: { total: 6.5, componentMin: 6 } } }, p); assert.equal(d.status, 'has_gap'); assert.match(d.checks[0].reason, /writing/); });
+test('missing component and known failure are both retained', () => { const p = structuredClone(profile); p.language.total = 5; p.language.components.writing = null; const d = run({ kind: 'language', tests: { ielts: { total: 6.5, componentMin: 6 } } }, p); assert.equal(d.checks[0].status, 'fail'); assert.equal(d.checks[0].unresolved, true); });
+test('waiver request is not automatically accepted', () => { assert.equal(run({ kind: 'language', tests: { ielts: { total: 6 } } }, { language: { type: 'waiver' } }).checks[0].status, 'unknown'); });
+test('a preference gap is not a mandatory failure', () => { assert.equal(run({ kind: 'experience', min: 2, mandatory: false }, { experienceYears: 0 }).counts.fail, 0); });
+test('missing experience remains unknown', () => { assert.equal(run({ kind: 'experience', min: 2 }).checks[0].status, 'unknown'); });
+test('unreviewed catalogue leads cannot use structured rules', () => { const d = checkProgramme({ ...base, verification: 'catalogue_seed', rules: [{ kind: 'gpa', min: 3, scale: 4 }] }, profile); assert.equal(d.counts.pass, 0); assert.equal(d.status, 'needs_confirmation'); });
+test('even complete synthetic records cannot issue recommendation tiers in this checkpoint', () => { const d = checkProgramme({ ...base, verification: 'peer_reviewed', requirementsCoverage: 'complete', rules: [{ kind: 'degree' }] }, profile); assert.equal(d.status, 'meets_checked'); assert.equal(d.tier, null); });
+test('invalid GPA pairs, overflow and language increments are rejected', () => { for (const p of [{ ...profile, gpa: 5 }, { ...profile, gpaScale: null }, { ...profile, language: { type: 'ielts', total: 6.7 } }, { ...profile, major: '' }]) assert.throws(() => validateProfile(p)); });
+test('TOEFL scale and test date conflict is rejected', () => { assert.throws(() => validateProfile({ ...profile, language: { type: 'toefl_120', total: 100, testDate: '2026-02-01' } })); });
+test('TOEFL version date is unresolved if missing', () => { assert.equal(run({ kind: 'language', tests: { toefl_6: { total: 4, validFrom: '2026-01-21' } } }, { language: { type: 'toefl_6', total: 5 } }).checks[0].status, 'unknown'); });
+test('programme-specific validity is not guessed from today', () => { assert.equal(run({ kind: 'language', tests: { ielts: { total: 6 } }, validityMonths: 24 }).checks[0].status, 'unknown'); });
+test('at-home acceptance stays unresolved if not documented', () => { assert.equal(run({ kind: 'language', tests: { ielts: { total: 6 } } }, { language: { type: 'ielts', total: 7, atHome: true } }).checks[0].status, 'unknown'); });
+test('impossible dates are input errors and not runtime failures', () => { assert.throws(() => validateProfile({ ...profile, language: { type: 'ielts', testDate: '2026-02-30' } })); });

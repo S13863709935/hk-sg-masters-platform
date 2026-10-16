@@ -2,47 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GradPath · Week 4 foundations</title>
-  <style>
-    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #173f34; background: #f6f7f2; }
-    body { margin: 0; }
-    main { max-width: 880px; margin: 64px auto; padding: 0 24px 40px; }
-    .eyebrow { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; }
-    h1 { font-size: clamp(32px, 6vw, 52px); line-height: 1.1; margin: 16px 0; }
-    p, li { line-height: 1.7; }
-    .panel { background: white; border: 1px solid #dde5dc; border-radius: 16px; padding: 24px; margin-top: 24px; }
-    .notice { padding: 16px; border-left: 4px solid #8e7137; background: #fff8e9; color: #634f27; }
-    a { color: inherit; }
-    footer { margin-top: 32px; font-size: 13px; }
-  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="GradPath Week 5: interface design and a limited Hong Kong–Singapore master's screening pilot.">
+  <title>GradPath · Week 5 pilot</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
 </head>
 <body>
-<main>
-  <div class="eyebrow">Hong Kong &amp; Singapore · Taught master’s programmes</div>
-  <h1>GradPath foundations.</h1>
-  <p>Week 4 checkpoint: scope, data design, official-directory entry checks and a first programme pilot.</p>
-  <p class="notice">This branch contains a limited development foundation. It is not the complete platform and does not check admission eligibility.</p>
-  <section class="panel">
-    <h2>What is in this checkpoint</h2>
-    <ul>
-      <li>14 target universities and directory-source notes.</li>
-      <li>20 direct-entry programme records for method validation, plus one transfer-only reference.</li>
-      <li>Data fields, evidence states, user-research protocol and test scenarios.</li>
-      <li>A local HTTP service, health check and checkpoint metadata.</li>
-    </ul>
-    <p>Programme-page extraction is not independent human review. Unknown requirements remain unresolved.</p>
-  </section>
-  <section class="panel">
-    <h2>Planned platform workflow</h2>
-    <p>Explore programmes → enter background → inspect requirement checks → compare and save options.</p>
-    <p>These core features are not implemented in this published checkpoint. No student information is collected here.</p>
-  </section>
-  <footer>
-    Source snapshot: 6 October 2026 · Publication prepared: 13 October 2026<br>
-    <a href="/api/health">Health check</a> · <a href="/api/checkpoint">Checkpoint metadata</a><br>
-    Official sources · Explicit unknowns · No admission predictions
-  </footer>
-</main>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar"><a class="brand" href="#explore"><span class="mark">g.</span>GradPath</a><span class="checkpoint">WEEK 05 / DESIGN + PILOT</span></header>
+  <div class="layout">
+    <aside><p class="eyebrow">YOUR NEXT CHAPTER</p><nav aria-label="Main navigation"><a href="#explore">Explore programmes</a><a href="#background">Your background</a><a href="#comparison">Comparison design</a><a href="#candidates">Candidate-list design</a><a href="#data">Data &amp; limitations</a></nav><p class="sidebar-note">Hong Kong + Singapore<br>Taught master's only<br><br>Local engineering checkpoint<br>Not the complete platform</p></aside>
+    <main id="main" tabindex="-1"><div id="page"><p role="status">Loading the pilot…</p></div><footer>Independent information tool. No applications, admission probabilities or guarantees.</footer></main>
+  </div>
+  <dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span class="eyebrow">PROGRAMME RECORD</span><button id="close-detail" aria-label="Close programme details">Close ×</button></div><div id="detail-content"></div></dialog>
 </body>
 </html>
