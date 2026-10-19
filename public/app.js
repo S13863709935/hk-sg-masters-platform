@@ -18,9 +18,10 @@ let detailTrigger = null;
 let detailSequence = 0;
 const routeChoices = {};
 const offeringChoices = {};
-const programmePath = id => { const query = new URLSearchParams(); if (routeChoices[id]) query.set('route', routeChoices[id]); if (offeringChoices[id]) query.set('offering', offeringChoices[id]); return `/api/programmes/${encodeURIComponent(id)}${query.size ? `?${query}` : ''}`; };
-const matchingPayload = profile => ({ profile, filters: { includeTransfer: 'true' }, selectedRoutes: { ...routeChoices }, selectedOfferings: { ...offeringChoices } });
-const contextMatch = p => state.matches?.find(item => item.id === p.id && (item.selectedRoute?.id || '') === (p.selectedRoute?.id || '') && (item.selectedOffering?.id || '') === (p.selectedOffering?.id || ''))?.match;
+const applicantChoices = {};
+const programmePath = id => { const query = new URLSearchParams(); if (routeChoices[id]) query.set('route', routeChoices[id]); if (offeringChoices[id]) query.set('offering', offeringChoices[id]); if (applicantChoices[id]) query.set('applicant', applicantChoices[id]); return `/api/programmes/${encodeURIComponent(id)}${query.size ? `?${query}` : ''}`; };
+const matchingPayload = profile => ({ profile, filters: { includeTransfer: 'true' }, selectedRoutes: { ...routeChoices }, selectedOfferings: { ...offeringChoices }, selectedApplicants: { ...applicantChoices } });
+const contextMatch = p => state.matches?.find(item => item.id === p.id && (item.selectedRoute?.id || '') === (p.selectedRoute?.id || '') && (item.selectedOffering?.id || '') === (p.selectedOffering?.id || '') && (item.selectedApplicant?.id || '') === (p.selectedApplicant?.id || ''))?.match;
 const t = key => copy[key] || key;
 const areaName = area => areaLabels[area] || area;
 const schoolName = school => school.nameEn;
@@ -29,7 +30,7 @@ async function api(path, options = {}) { const response = await fetch(path, opti
 const post = (path, data, extraHeaders = {}) => api(path, { method: 'POST', headers: { 'Content-Type': 'application/json', ...extraHeaders }, body: JSON.stringify(data) });
 function badge(value) { const kind = ['programme_page_checked', 'peer_reviewed'].includes(value) ? 'checked' : value === 'has_gap' ? 'danger' : value === 'meets_checked' ? 'pass' : 'warning'; return `<span class="badge ${kind}">${esc(t(value))}</span>`; }
 function money(o) { return o.tuition !== null && o.tuition !== undefined && o.currency ? `${esc(o.currency)} ${new Intl.NumberFormat('en-SG', { minimumFractionDigits: Number.isInteger(o.tuition) ? 0 : 2, maximumFractionDigits: 2 }).format(o.tuition)}` : `<span class="unknown-value">${t('unknown')}</span>`; }
-function fees(p, detailed = false) { return p.offerings.map(o => `${money(o)}<small>${esc([o.mode, o.intake].filter(Boolean).join(' · '))}</small>${detailed && o.feeBasis ? `<small>${esc(o.feeBasis)}</small>` : ''}`).join('<br>') + (p.fieldStatus?.tuition?.status === 'unknown' && p.offerings.some(o => o.tuition !== null) ? `<small class="warning">${t('cohortUnconfirmed')}</small>` : ''); }
+function fees(p, detailed = false) { return p.offerings.map(o => `${money(o)}<small>${esc([o.mode, o.intake, o.applicantCategory?.label].filter(Boolean).join(' · '))}</small>${o.applicantCategoryRequired ? '<small class="warning">Applicant category required; no default fee assumed.</small>' : ''}${detailed && o.feeBasis ? `<small>${esc(o.feeBasis)}</small>` : ''}`).join('<br>') + (p.fieldStatus?.tuition?.status === 'unknown' && p.offerings.some(o => o.tuition !== null) ? `<small class="warning">${t('cohortUnconfirmed')}</small>` : ''); }
 function known(value) { return value === null || value === undefined || value === '' ? `<span class="unknown-value">${t('unknown')}</span>` : esc(value); }
 function shell() {
   document.documentElement.lang = 'en';
@@ -60,7 +61,7 @@ async function loadCatalogue() {
   try {
     let response;
     if (state.profile && state.matches) { const filtered = filterMatches(state.matches); if (state.sort === 'az') filtered.sort((a, b) => a.name.localeCompare(b.name)); response = { total: filtered.length, items: filtered.slice((state.page - 1) * state.limit, state.page * state.limit) }; }
-    else { const query = new URLSearchParams(Object.fromEntries(['q', 'region', 'school', 'area', 'mode', 'verification', 'page', 'limit', 'sort'].map(k => [k, state[k]]))); if (Object.keys(routeChoices).length) query.set('routes', JSON.stringify(routeChoices)); if (Object.keys(offeringChoices).length) query.set('offerings', JSON.stringify(offeringChoices)); response = await api(`/api/catalogue?${query}`); }
+    else { const query = new URLSearchParams(Object.fromEntries(['q', 'region', 'school', 'area', 'mode', 'verification', 'page', 'limit', 'sort'].map(k => [k, state[k]]))); if (Object.keys(routeChoices).length) query.set('routes', JSON.stringify(routeChoices)); if (Object.keys(offeringChoices).length) query.set('offerings', JSON.stringify(offeringChoices)); if (Object.keys(applicantChoices).length) query.set('applicants', JSON.stringify(applicantChoices)); response = await api(`/api/catalogue?${query}`); }
     if (seq !== requestSequence || state.view !== 'discover') return;
     state.items = response.items; state.total = response.total;
     renderResults();
@@ -151,7 +152,14 @@ function ruleText(r) { if (r.kind === 'language') return Object.entries(r.tests)
 function deadlineText(o) { return `${known(o.deadline)}${o.applicationOpen ? `<small>Applications open: ${esc(o.applicationOpen)}</small>` : ''}${o.deadlineNote ? `<small>${esc(o.deadlineNote)}</small>` : ''}`; }
 const offeringLabel = o => [o.intake, o.academicYear, o.mode].filter(Boolean).join(' · ') || 'Study option';
 const offeringCaution = 'Fees and dates only. Applicant-category notes still apply; intake-specific entry requirements need confirmation.';
-function offeringSummary(p) { return p.selectedOffering ? `<p class="offering-context"><strong>Selected study option</strong><br>${esc(offeringLabel(p.selectedOffering))}<small>Category-specific notes still apply. Change this choice in programme details.</small></p>` : ''; }
+function offeringSummary(p) { return p.selectedOffering ? `<p class="offering-context"><strong>Selected study option</strong><br>${esc(offeringLabel(p.selectedOffering))}${p.selectedApplicant ? `<br>${esc(p.selectedApplicant.label)}` : ''}<small>${p.offerings.some(o => o.applicantCategoryRequired) ? 'Applicant category required. ' : ''}Category-specific notes still apply. Change this choice in programme details.</small></p>` : ''; }
+function applicantSelector(p) {
+  if (p.applicantContextStatus === 'stale') return '<p class="detail-note warning">Applicant-category evidence no longer matches the stored study option. Recheck the sources before choosing a category.</p>';
+  if (!p.applicantOptions?.length) return p.offerings.some(o => o.applicantCategoryRequired) ? '<p class="detail-note warning">Some fees and dates depend on applicant category. Choose a specific intake and study mode first.</p>' : '';
+  const e = p.applicantEvidence;
+  return `<section class="study-option-panel applicant-panel"><div class="field"><label for="programme-applicant">Applicant category for this university</label><select id="programme-applicant" data-programme="${esc(p.id)}" aria-describedby="applicant-selection-note">${options([['', 'Not confirmed — do not assume a category'], ...p.applicantOptions.map(o => [o.id, o.label])], p.selectedApplicant?.id || '')}</select></div><p id="applicant-selection-note" class="detail-note">Use the university's classification, not your current location. The university must confirm your status. Changing intake or route clears this choice.</p><p class="detail-note">Fees/date sources read ${esc(e.checkedOn)} · independent review pending. <a href="${esc(e.feeSourceUrl)}" target="_blank" rel="noopener noreferrer">Fee source ↗</a> · <a href="${esc(e.dateSourceUrl)}" target="_blank" rel="noopener noreferrer">Date source ↗</a></p></section>`;
+}
+function applicationFees(p) { return p.offerings.map(o => o.applicationFee === undefined || o.applicationFee === null ? known(null) : `${money({ tuition: o.applicationFee, currency: o.currency })}<small>Separate from tuition; not an amount to pay through this platform.</small>`).join('<br>'); }
 function offeringSelector(p) {
   if (!p.offeringOptions?.length || (p.offeringOptions.length < 2 && !p.selectedOffering)) return '';
   return `<section class="study-option-panel"><div class="field"><label for="programme-offering">Intake and study mode</label><select id="programme-offering" data-programme="${esc(p.id)}" aria-describedby="offering-selection-note">${options([['', 'All recorded study options — no selection'], ...p.offeringOptions.map(o => [o.id, offeringLabel(o)])], p.selectedOffering?.id || '')}</select></div><p id="offering-selection-note" class="detail-note">Applies to cards, comparison and export until page reload. Changing route clears this choice.</p><p class="detail-note warning">${offeringCaution}</p></section>`;
@@ -200,12 +208,12 @@ async function openDetail(id) {
       <div class="detail-body">
         <div class="detail-meta">${[['university', schoolName(p.university)], ['area', areaName(p.area)], ['academicYear', p.academicYear], ['lastChecked', p.lastChecked], ['completeStatus', t(p.requirementsCoverage)]].map(([key, value]) => `<div><small>${t(key)}</small><span>${known(value)}</span></div>`).join('')}</div>
         <h3>${t('offeringInfo')}</h3>
-        <div class="detail-offerings">${p.offerings.map(o => `<div class="offering"><strong>${known(o.mode)}</strong> · ${known(o.duration)}<br>${money(o)}<small>${known(o.feeBasis)} · ${t('academicYear')}: ${known(o.academicYear || p.academicYear)}</small><small>${t('intake')}: ${known(o.intake)} · ${t('deadline')}: ${deadlineText(o)}</small></div>`).join('')}</div>
+        <div class="detail-offerings">${p.offerings.map(o => `<div class="offering"><strong>${known(o.mode)}</strong> · ${known(o.duration)}${o.applicantCategory ? `<small>${esc(o.applicantCategory.label)}</small>` : ''}<br>${money(o)}<small>${known(o.feeBasis)} · ${t('academicYear')}: ${known(o.academicYear || p.academicYear)}</small>${o.applicationFee !== undefined && o.applicationFee !== null ? `<small>Application fee: ${money({ tuition: o.applicationFee, currency: o.currency })} · separate from tuition</small>` : ''}${o.feeEvidence ? `<small>Fee source read: ${esc(o.feeEvidence.checkedOn)} · <a href="${esc(o.feeEvidence.sourceUrl)}" target="_blank" rel="noopener noreferrer">Official source ↗</a></small>` : ''}<small>${t('intake')}: ${known(o.intake)} · ${t('deadline')}: ${deadlineText(o)}</small></div>`).join('')}</div>
         <h3>${t('requirementChecks')}</h3>${requirementChecks(p)}${evidenceCoverage(p)}${directoryEvidence(p)}
         <h3>${t('notes')}</h3><p class="detail-note">${esc(p.notesEn)}</p>${p.legacyRequirements?.length ? `<p class="detail-note warning">${t('legacyWarning')}</p>` : ''}<p class="detail-note warning">${t('noProbability')}</p>
         <div class="detail-actions"><a class="button primary" href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t(p.selectedRoute || !p.directoryListing?.variants.length ? 'officialPage' : 'openDirectory')}${icon('external')}</a><button class="button" data-action="save" data-id="${p.id}">${icon('shortlist')}${t(state.shortlist.includes(p.id) ? 'saved' : 'save')}</button></div>
       </div>`;
-    dialog.querySelector('.detail-body').insertAdjacentHTML('afterbegin', routeSelector(p) + offeringSelector(p));
+    dialog.querySelector('.detail-body').insertAdjacentHTML('afterbegin', routeSelector(p) + offeringSelector(p) + applicantSelector(p));
     dialog.querySelector('.detail-meta').insertAdjacentHTML('afterend', applicationPanel(p));
     dialog.querySelector('[data-action=closeDetail]').focus();
   } catch (error) { dialog.innerHTML = `<div class="detail-body"><p>${esc(error.message)}</p><button class="button" data-action="closeDetail">${t('close')}</button></div>`; }
@@ -218,6 +226,8 @@ async function renderCompare() {
   const items = await selectedProgrammes(state.compare);
   if (state.view !== 'compare') return;
   const rows = [['university', p => esc(schoolName(p.university))], ['area', p => esc(areaName(p.area))], ['studyOption', p => `${p.selectedOffering ? esc(offeringLabel(p.selectedOffering)) : 'All recorded study options — no selection'}<small>${p.selectedOffering ? offeringCaution : 'Review each option separately; applicant-category notes still apply.'}</small><button class="button" data-action="detail" data-id="${esc(p.id)}">Change study option</button>`], ['academicYear', p => known(p.academicYear)], ['mode', p => p.offerings.map(o => known(o.mode)).join('<br>')], ['duration', p => p.offerings.map(o => known(o.duration)).join('<br>')], ['tuition', p => fees(p, true)], ['deadline', p => p.offerings.map(o => deadlineText(o)).join('<br>')], ['applicationDates', p => applicationSummary(p)], ['verification', p => badge(p.verification)], ['lastChecked', p => known(p.lastChecked)], ['requirementChecks', p => p.rules.length ? p.rules.map(r => `${esc(r.labelEn)}<small>${ruleText(r)}</small>`).join('<br>') : known(null)], ['matchingFilter', p => { const m = contextMatch(p); return m ? badge(m.tier || m.status) : `<span class="muted">${t('profileNeeded')}</span>`; }], ['sources', p => `<a href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t('officialPage')} ↗</a>`]];
+  rows.splice(3, 0, ['applicantCategory', p => `${esc(p.selectedApplicant?.label || (p.offerings.some(o => o.applicantCategoryRequired) ? 'Applicant category required' : 'No category selected; check the official rules'))}${p.applicantEvidence ? `<small>Fee/date sources read ${esc(p.applicantEvidence.checkedOn)} · not a status determination</small>` : ''}`]);
+  rows.splice(rows.findIndex(([label]) => label === 'tuition') + 1, 0, ['applicationFee', applicationFees]);
   $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}<div class="table-wrap"><table class="compare-table"><thead><tr><th>${t('compare')}</th>${items.map(p => `<th><span class="badge">${esc(p.university.abbreviation)}</span><h3>${esc(p.name)}</h3><button class="button" data-action="compare" data-id="${p.id}">${t('remove')}</button></th>`).join('')}</tr></thead><tbody>${rows.map(([label, get]) => `<tr><td>${t(label)}</td>${items.map(p => `<td>${get(p)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="detail-note warning">${t('noProbability')}</p>`;
 }
 function renderData() {
@@ -229,6 +239,7 @@ async function renderView() {
   try { if (state.view === 'discover') renderDiscover(); else if (state.view === 'profile') renderProfile(); else if (state.view === 'shortlist') await renderShortlist(); else if (state.view === 'compare') await renderCompare(); else if (state.view === 'data') renderData(); else renderGuide(); }
   catch (error) { if ($('#page')) $('#page').innerHTML = `${empty('errorHeading', 'errorHint', 'data')}<button class="button" data-action="rerender">${t('retry')}</button>`; toast(error.message); }
   if (state.view === 'data' && state.meta.routeEvidence?.routes) { const r = state.meta.routeEvidence; $('#page').insertAdjacentHTML('beforeend', `<section class="plain-panel"><h2>Route-specific evidence</h2><p>${r.pageChecked} route page checks across ${r.groups} catalogue group; ${r.peerReviewed} independent reviews; ${r.complete} complete requirement sets. These are separate route snapshots, not additional catalogue records or completed group-level checks.</p><p>Choose a specific direction in its programme detail. Unselected groups remain unresolved, and route-specific sources never overwrite parent or sibling requirements.</p></section>`); }
+  if (state.view === 'data' && state.meta.applicantEvidence?.studyOptions) { const a = state.meta.applicantEvidence; $('#page').insertAdjacentHTML('beforeend', `<section class="plain-panel"><h2>Applicant-category fee/date evidence</h2><p>${a.categories} recorded categories for ${a.studyOptions} study option; ${a.peerReviewed} independent reviews. These are limited fee/date source checks, not additional programmes or complete admissions reviews. Categories are university-specific and are never inferred from residence, nationality or background.</p></section>`); }
 }
 function navigate(view) { closeDetail(); if (location.hash === `#${view}`) { state.view = view; shell(); renderView(); } else location.hash = view; }
 function updateSavedButtons() { document.querySelectorAll('[data-action=save]').forEach(button => { const saved = state.shortlist.includes(button.dataset.id); button.setAttribute('aria-pressed', String(saved)); button.classList.toggle('selected', saved); if (button.classList.contains('icon-button')) { const title = button.closest('article')?.querySelector('h3')?.textContent || ''; button.setAttribute('aria-label', `${t(saved ? 'saved' : 'save')} · ${title}`); } else button.innerHTML = `${icon('shortlist')}${t(saved ? 'saved' : 'save')}`; }); updateTray(); }
@@ -261,21 +272,26 @@ document.addEventListener('click', async event => {
   if (action === 'clearProfile') { state.profile = null; state.matches = null; state.matchFilter = ''; writeStorage(keys.profile, null); toast(t('profileCleared')); renderProfile(); }
   if (action === 'retry') await loadCatalogue();
   if (action === 'rerender') await renderView();
-  if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson({ exportedAt: new Date().toISOString(), selectionPersistence: 'Programme IDs only are saved. Route and study-option choices reset on page reload.', programmes: programmes.map(p => ({ id: p.id, selectedRoute: p.selectedRoute || null, selectedOffering: p.selectedOffering || null, offeringDisclaimer: p.offeringDisclaimer || null, name: p.name, university: p.university.nameEn, officialUrl: p.officialUrl, verification: p.verification, academicYear: p.academicYear, offerings: p.offerings, applicationTimeline: p.applicationTimeline })) }, 'gradpath-shortlist.json'); }
+  if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson({ exportedAt: new Date().toISOString(), selectionPersistence: 'Programme IDs only are saved. Route, study-option and applicant-category choices reset on page reload.', programmes: programmes.map(p => ({ id: p.id, selectedRoute: p.selectedRoute || null, selectedOffering: p.selectedOffering || null, selectedApplicant: p.selectedApplicant || null, applicantEvidence: p.applicantEvidence || null, offeringDisclaimer: p.offeringDisclaimer || null, name: p.name, university: p.university.nameEn, officialUrl: p.officialUrl, verification: p.verification, academicYear: p.academicYear, offerings: p.offerings, applicationTimeline: p.applicationTimeline })) }, 'gradpath-shortlist.json'); }
   } catch (error) { toast(error.message); }
 });
 document.addEventListener('input', event => { if (event.target.id === 'search') { clearTimeout(searchTimer); state.q = event.target.value; state.page = 1; syncUrl(); searchTimer = setTimeout(loadCatalogue, 220); } });
 document.addEventListener('change', event => { if (event.target.dataset.filter) { state[event.target.dataset.filter] = event.target.value; state.page = 1; syncUrl(); loadCatalogue(); } if (event.target.id === 'profile-languageType') languageFields(); if (event.target.id === 'batch-file') $('#batch-file-name').textContent = event.target.files[0]?.name || t('noFile'); });
 document.addEventListener('change', async event => {
-  if (!['programme-route', 'programme-offering'].includes(event.target.id)) return;
+  if (!['programme-route', 'programme-offering', 'programme-applicant'].includes(event.target.id)) return;
   const control = event.target; const id = control.dataset.programme;
   const previousRoute = routeChoices[id]; const previousOffering = offeringChoices[id]; const previousMatches = state.matches; const trigger = detailTrigger;
+  const previousApplicant = applicantChoices[id];
   const dialog = $('#detail-dialog'); const scroll = dialog.scrollTop;
   dialog.querySelectorAll('select').forEach(select => { select.disabled = true; });
   if (control.id === 'programme-route') {
     if (control.value) routeChoices[id] = control.value; else delete routeChoices[id];
     delete offeringChoices[id];
-  } else if (control.value) offeringChoices[id] = control.value; else delete offeringChoices[id];
+    delete applicantChoices[id];
+  } else if (control.id === 'programme-offering') {
+    if (control.value) offeringChoices[id] = control.value; else delete offeringChoices[id];
+    delete applicantChoices[id];
+  } else if (control.value) applicantChoices[id] = control.value; else delete applicantChoices[id];
   try {
     await api(programmePath(id));
     if (state.profile) state.matches = (await post('/api/matches', matchingPayload(state.profile))).items;
@@ -284,6 +300,7 @@ document.addEventListener('change', async event => {
   } catch (error) {
     if (previousRoute) routeChoices[id] = previousRoute; else delete routeChoices[id];
     if (previousOffering) offeringChoices[id] = previousOffering; else delete offeringChoices[id];
+    if (previousApplicant) applicantChoices[id] = previousApplicant; else delete applicantChoices[id];
     state.matches = previousMatches;
     toast(error.message);
     if (activeDetail?.id === id && dialog.open) { await openDetail(id); detailTrigger = trigger; }

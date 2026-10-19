@@ -5,6 +5,7 @@ import { matchProgramme } from './matching.mjs';
 import { validateProfile, InputError } from './validation.mjs';
 import { loadRoutes, resolveProgramme, validateSelections, routeSummary } from './routes.mjs';
 import { validateOfferingSelections } from './offerings.mjs';
+import { loadApplicantContexts, validateApplicantSelections, applicantSummary } from './applicants.mjs';
 import { applicationDate, programmeTimeline } from './application-dates.mjs';
 
 const headers = {
@@ -23,8 +24,9 @@ export function filterProgrammes(all, filters = {}) {
   const q = String(filters.q || '').slice(0, 200).trim().toLowerCase();
   return all.filter(p => (filters.includeTransfer === 'true' || p.admissionRoute !== 'transfer_only') && (filters.includeOutOfScope === 'true' || p.scope?.status !== 'out_of_scope') && (!q || searchText(p).includes(q)) && (!filters.region || p.university.region === filters.region) && (!filters.school || p.universityId === filters.school) && (!filters.area || p.area === filters.area) && (!filters.mode || p.offerings.some(o => o.mode?.toLowerCase().includes(filters.mode))) && (!filters.verification || p.verification === filters.verification));
 }
-export function createApp({ store, publicDir, adminToken = '', routeEvidencePath, now = () => new Date() }) {
+export function createApp({ store, publicDir, adminToken = '', routeEvidencePath, applicantEvidencePath, now = () => new Date() }) {
   const routeIndex = loadRoutes(routeEvidencePath, store.all());
+  const applicantIndex = loadApplicantContexts(applicantEvidencePath, store.all(), routeIndex);
   const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
   return http.createServer(async (req, res) => {
     try {
@@ -38,7 +40,7 @@ export function createApp({ store, publicDir, adminToken = '', routeEvidencePath
         if (origin && origin !== `http://${host}`) throw new InputError('Cross-origin writes are not allowed', 403);
       }
       if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, app: 'gradpath', version: '0.1.0' });
-      if (req.method === 'GET' && url.pathname === '/api/meta') return send(res, 200, { universities: store.universities(), areas: [...new Set(store.all().map(p => p.area))].sort(), quality: store.quality(), routeEvidence: routeSummary(routeIndex), adminEnabled: adminToken.length >= 24 });
+      if (req.method === 'GET' && url.pathname === '/api/meta') return send(res, 200, { universities: store.universities(), areas: [...new Set(store.all().map(p => p.area))].sort(), quality: store.quality(), routeEvidence: routeSummary(routeIndex), applicantEvidence: applicantSummary(applicantIndex), adminEnabled: adminToken.length >= 24 });
       if (req.method === 'GET' && url.pathname === '/api/quality') return send(res, 200, store.quality());
       if (req.method === 'GET' && url.pathname === '/api/catalogue') {
         const filters = Object.fromEntries(url.searchParams);
@@ -57,7 +59,14 @@ export function createApp({ store, publicDir, adminToken = '', routeEvidencePath
           try { offeringChoices = JSON.parse(raw); } catch { throw new InputError('Invalid study-option query JSON', 400); }
         }
         const offerings = validateOfferingSelections(offeringChoices, all);
-        const result = filterProgrammes(all.map(p => resolveProgramme(p, routeIndex, selected[p.id], offerings[p.id])), filters);
+        let applicantChoices;
+        if (url.searchParams.has('applicants')) {
+          const raw = url.searchParams.get('applicants');
+          if (raw.length > 8000) throw new InputError('Applicant-category query is too large', 413);
+          try { applicantChoices = JSON.parse(raw); } catch { throw new InputError('Invalid applicant-category query JSON', 400); }
+        }
+        const applicants = validateApplicantSelections(applicantChoices, all);
+        const result = filterProgrammes(all.map(p => resolveProgramme(p, routeIndex, selected[p.id], offerings[p.id], applicants[p.id], applicantIndex)), filters);
         const direction = filters.sort === 'az' ? 0 : 1;
         result.sort((a, b) => direction * (Number(['programme_page_checked', 'peer_reviewed'].includes(b.verification)) - Number(['programme_page_checked', 'peer_reviewed'].includes(a.verification))) || a.name.localeCompare(b.name));
         const page = Math.max(1, Math.min(1000, Number(filters.page) || 1));
@@ -68,7 +77,8 @@ export function createApp({ store, publicDir, adminToken = '', routeEvidencePath
         const p = store.get(decodeURIComponent(url.pathname.slice('/api/programmes/'.length)));
         if (!p) throw new InputError('Programme not found', 404);
         if (url.searchParams.has('offering') && !url.searchParams.get('offering')) throw new InputError('Invalid study-option selection');
-        return send(res, 200, present(resolveProgramme(p, routeIndex, url.searchParams.get('route'), url.searchParams.get('offering'))));
+        if (url.searchParams.has('applicant') && !url.searchParams.get('applicant')) throw new InputError('Invalid applicant-category selection');
+        return send(res, 200, present(resolveProgramme(p, routeIndex, url.searchParams.get('route'), url.searchParams.get('offering'), url.searchParams.get('applicant'), applicantIndex)));
       }
       if (req.method === 'POST' && url.pathname === '/api/matches') {
         const input = await body(req);
@@ -76,7 +86,8 @@ export function createApp({ store, publicDir, adminToken = '', routeEvidencePath
         const all = store.all();
         const selected = validateSelections(input.selectedRoutes, all, routeIndex);
         const offerings = validateOfferingSelections(input.selectedOfferings, all);
-        const items = filterProgrammes(all.map(p => resolveProgramme(p, routeIndex, selected[p.id], offerings[p.id])), input.filters).map(p => ({ ...present(p), match: matchProgramme(p, profile) }));
+        const applicants = validateApplicantSelections(input.selectedApplicants, all);
+        const items = filterProgrammes(all.map(p => resolveProgramme(p, routeIndex, selected[p.id], offerings[p.id], applicants[p.id], applicantIndex)), input.filters).map(p => ({ ...present(p), match: matchProgramme(p, profile) }));
         const order = { meets_checked: 0, needs_confirmation: 1, has_gap: 2, out_of_scope: 3 };
         items.sort((a, b) => order[a.match.status] - order[b.match.status] || b.match.counts.pass - a.match.counts.pass || a.name.localeCompare(b.name));
         return send(res, 200, { items, total: items.length });

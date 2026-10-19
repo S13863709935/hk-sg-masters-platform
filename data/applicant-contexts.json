@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-19",
+  "contexts": [
+    {
+      "programmeId": "HK-EDUHK-P001",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P001-O1",
+      "offeringFingerprint": "b4306069e4f856f16fb81aca3a594e28fcf9348b15e95bd788710fad7e0ec681",
+      "officialUrl": "https://www.eduhk.hk/ssps/mppm",
+      "academicYear": "2026/27",
+      "intake": "January 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-19",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/ssps/mppm",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/",
+      "noteEn": "EdUHK January 2027 categories only. The university decides applicant classification. No opening date or exact deadline time was captured; generic Now Open wording does not override category-specific deadlines.",
+      "options": [
+        { "id": "HK-EDUHK-P001-O1-LOCAL", "label": "Local applicant — EdUHK category", "currency": "HKD", "tuition": 151110, "feeBasis": "Programme tuition for the January 2027 local-applicant category", "applicationFee": 300, "applicationOpen": null, "deadline": "2026-11-20" },
+        { "id": "HK-EDUHK-P001-O1-NONLOCAL", "label": "Non-local applicant — EdUHK category", "currency": "HKD", "tuition": 188888, "feeBasis": "Programme tuition for the January 2027 non-local-applicant category", "applicationFee": 400, "applicationOpen": null, "deadline": "2026-10-15" }
+      ]
+    }
+  ]
+}

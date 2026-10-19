@@ -24,6 +24,6 @@ A study option is one existing `offerings` record belonging to an exact programm
 
 ## Known limits
 
-Applicant categories and application rounds are not independently selectable yet. For example, EdUHK January's non-local tuition/deadline and local-applicant caveats remain together exactly as recorded, not converted into a newly verified category-specific option. The unresolved coverage flag is retained. No new source dates or independently reviewed criteria are inferred.
+Update on 19 October 2026: a separate, source-bound applicant-category layer now supports the EdUHK January 2027 example. See [applicant-category-selection.md](applicant-category-selection.md). The original source snapshot and unresolved programme-level coverage flag remain unchanged. Only that layer's exact, newly source-checked category context can supply category-specific prices/dates; no other school's categories or opening dates are inferred. Application-round selection is not implemented.
 
 If an authenticated source import removes an option during a session, stale requests fail closed; reloading resets temporary choices. Persisted route/option-specific shortlists and per-offering requirement evidence need separate design and verification.
