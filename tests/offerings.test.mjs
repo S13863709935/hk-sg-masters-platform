@@ -160,7 +160,7 @@ test('raw export and quality totals do not include request-time selections', asy
 test('UI shares transient context, resets dependent choices, and exports the exact selected option', () => {
   const js = readFileSync(new URL('public/app.js', root), 'utf8');
   assert.match(js, /selectedOfferings: \{ \.\.\.offeringChoices \}/);
-  assert.match(js, /selectedOffering: p.selectedOffering \|\| null/);
+  assert.match(readFileSync(new URL('public/saved-options.js', root), 'utf8'), /selectedOffering: p.selectedOffering \|\| null/);
   assert.match(js, /delete offeringChoices\[id\]/);
   assert.match(js, /const previousOffering = offeringChoices\[id\]/);
   assert.match(js, /if \(previousOffering\) offeringChoices\[id\] = previousOffering/);

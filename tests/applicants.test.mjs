@@ -146,7 +146,8 @@ test('raw exports, original sources and original workbook-backed IDs remain unch
 test('UI carries category context through matching, display and export without browser persistence', () => {
   const js = readFileSync(new URL('public/app.js', root), 'utf8');
   assert.match(js, /selectedApplicants: \{ \.\.\.applicantChoices \}/); assert.match(js, /item.selectedApplicant\?\.id/);
-  assert.match(js, /selectedApplicant: p.selectedApplicant \|\| null/); assert.match(js, /applicantEvidence: p.applicantEvidence \|\| null/);
+  const exports = readFileSync(new URL('public/saved-options.js', root), 'utf8');
+  assert.match(exports, /selectedApplicant: p.selectedApplicant \|\| null/); assert.match(exports, /applicantEvidence: p.applicantEvidence \|\| null/);
   assert.match(js, /delete applicantChoices\[id\]/); assert.match(js, /if \(previousApplicant\) applicantChoices\[id\] = previousApplicant/);
   assert.equal(/writeStorage\([^\n]*applicantChoices/.test(js), false); assert.match(js, /not your current location/);
 });

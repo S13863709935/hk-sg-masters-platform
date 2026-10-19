@@ -8,7 +8,7 @@ A study option is one existing `offerings` record belonging to an exact programm
 
 - No first-option default. An empty choice shows all recorded options separately.
 - The current browser page session shares the choice across catalogue cards, details, background checks, comparisons, shortlist cards and candidate export.
-- Only programme IDs persist in the shortlist/comparison list. Route and study-option choices are not saved or added to browser history; a page reload resets both. Export records the exact choices used at that time.
+- Programme IDs persist in the shortlist/comparison list. Choices are temporary by default and are not added to browser history. Update on October 19: users can explicitly remember one route/study-option/category context per saved programme; startup resolves it against current records. See [remembered-programme-options.md](remembered-programme-options.md). Export records the exact current choices used at that time.
 - Changing route clears its dependent study-option choice. Invalid selections fail rather than carrying fees/dates across routes. The UI preflights a new choice, restores both old choices and matching results on request failure, and disables both controls while applying the change.
 
 ## Server contract
@@ -26,4 +26,4 @@ A study option is one existing `offerings` record belonging to an exact programm
 
 Update on 19 October 2026: a separate, source-bound applicant-category layer now supports the EdUHK January 2027 example. See [applicant-category-selection.md](applicant-category-selection.md). The original source snapshot and unresolved programme-level coverage flag remain unchanged. Only that layer's exact, newly source-checked category context can supply category-specific prices/dates; no other school's categories or opening dates are inferred. Application-round selection is not implemented.
 
-If an authenticated source import removes an option during a session, stale requests fail closed; reloading resets temporary choices. Persisted route/option-specific shortlists and per-offering requirement evidence need separate design and verification.
+If an authenticated source import removes an option during a session, stale requests fail closed. Reloading resets temporary choices and validates explicitly remembered ones; invalid remembered entries require user review, not automatic substitution. Multiple saved variants of the same programme and per-offering requirement evidence remain unimplemented.

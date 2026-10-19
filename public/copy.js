@@ -188,7 +188,7 @@ export const copy = {
   "categoriesTitle": "What the tiers mean",
   "categoriesText": "Tiers require complete criteria and independent review. Stretch means required criteria are met but an explicit preferred attribute is not. Relatively safer only indicates a margin over comparable published minima.",
   "privacyTitle": "Where your information lives",
-  "privacyText": "Shortlists stay in your browser. Background stays in this page session unless you choose to remember it. The server processes checks temporarily and does not store profiles. Clearing background does not delete your shortlist.",
+  "privacyText": "Shortlists stay in your browser. Route, intake, study mode and applicant-category choices are remembered only when you click Remember these choices in programme details. Forget remembered choices removes that saved selection without removing the programme. Background stays in this page session unless you separately choose to remember it. The server processes checks temporarily and does not store profiles. Clearing background does not delete your shortlist or remembered choices. Use caution on shared devices.",
   "riskTitle": "The limits of the data",
   "riskText": "The 14 universities are the target scope. The original 175 leads have been expanded, but this is still not a complete catalogue. Outdated, unpublished and uncollected requirements can prevent a conclusion.",
   "footer": "Official sources · Explicit unknowns · No predictions",

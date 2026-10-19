@@ -7,6 +7,7 @@ import { loadRoutes, resolveProgramme, validateSelections, routeSummary } from '
 import { validateOfferingSelections } from './offerings.mjs';
 import { loadApplicantContexts, validateApplicantSelections, applicantSummary } from './applicants.mjs';
 import { applicationDate, programmeTimeline } from './application-dates.mjs';
+import { parseSavedOption } from '../public/saved-options.js';
 
 const headers = {
   'Content-Security-Policy': "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
@@ -27,7 +28,7 @@ export function filterProgrammes(all, filters = {}) {
 export function createApp({ store, publicDir, adminToken = '', routeEvidencePath, applicantEvidencePath, now = () => new Date() }) {
   const routeIndex = loadRoutes(routeEvidencePath, store.all());
   const applicantIndex = loadApplicantContexts(applicantEvidencePath, store.all(), routeIndex);
-  const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
+  const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/saved-options.js', ['saved-options.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
   return http.createServer(async (req, res) => {
     try {
       const host = req.headers.host || '';
@@ -42,6 +43,24 @@ export function createApp({ store, publicDir, adminToken = '', routeEvidencePath
       if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, app: 'gradpath', version: '0.1.0' });
       if (req.method === 'GET' && url.pathname === '/api/meta') return send(res, 200, { universities: store.universities(), areas: [...new Set(store.all().map(p => p.area))].sort(), quality: store.quality(), routeEvidence: routeSummary(routeIndex), applicantEvidence: applicantSummary(applicantIndex), adminEnabled: adminToken.length >= 24 });
       if (req.method === 'GET' && url.pathname === '/api/quality') return send(res, 200, store.quality());
+      if (req.method === 'POST' && url.pathname === '/api/saved-options/resolve') {
+        const input = await body(req);
+        if (!input || Object.keys(input).some(k => k !== 'contexts') || !Array.isArray(input.contexts) || input.contexts.length > 500) throw new InputError('Provide up to 500 saved programme choices');
+        const items = input.contexts.map((entry, index) => {
+          const context = parseSavedOption(entry);
+          try {
+            if (!context) throw new InputError('Saved choice format is invalid; choose the programme options again');
+            const base = store.get(context.programmeId);
+            if (!base) throw new InputError('The saved programme is no longer available', 404);
+            const programme = resolveProgramme(base, routeIndex, context.routeId, context.offeringId, context.applicantId, applicantIndex);
+            return { index, programmeId: base.id, status: 'resolved', programme: present(programme) };
+          } catch (error) {
+            if (!(error instanceof InputError)) throw error;
+            return { index, programmeId: context?.programmeId || null, status: 'needs_attention', code: error.status, message: error.message };
+          }
+        });
+        return send(res, 200, { items });
+      }
       if (req.method === 'GET' && url.pathname === '/api/catalogue') {
         const filters = Object.fromEntries(url.searchParams);
         const all = store.all();
