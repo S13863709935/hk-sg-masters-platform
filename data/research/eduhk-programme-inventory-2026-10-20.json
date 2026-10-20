@@ -1,0 +1,1581 @@
+{
+  "schemaVersion": 1,
+  "universityId": "HK-EDUHK",
+  "checkedOn": "2026-10-20",
+  "sourceUrl": "https://gs.eduhk.hk/pg-programmes/programme-information.html",
+  "observationRowsSha256": "38e01bc970d3e534828ce1242842e2af557ca94842ff4a5f9b38ea8715f4e633",
+  "verificationLevel": "AI-assisted directory reconciliation; no independent human review",
+  "countingUnit": "All taught-section list rows including unlinked proposals; language versions are candidate parent groups, not confirmed separate awards. Research, doctorates and PGDE sections are not imported.",
+  "rawRowCount": 79,
+  "masterRowCount": 78,
+  "excludedRowCount": 1,
+  "heldRowCount": 10,
+  "pendingApprovalRows": 17,
+  "candidateGroupCount": 59,
+  "languageVariantGroups": 9,
+  "pendingApprovalGroups": 7,
+  "confirmedProgrammeCount": null,
+  "entries": [
+    {
+      "rowNumber": 1,
+      "section": "gs",
+      "rawName": "Master of Education [MEd]",
+      "name": "Master of Education",
+      "officialUrl": "https://gs.eduhk.hk/prospective/med/",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P040"
+    },
+    {
+      "rowNumber": 2,
+      "section": "aapsef",
+      "rawName": "Executive Master of Public Administration and Leadership [EMPAL] #",
+      "name": "Executive Master of Public Administration and Leadership",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/empal",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P004"
+    },
+    {
+      "rowNumber": 3,
+      "section": "aapsef",
+      "rawName": "Master of Arts in Emerging Technology for Future Workforce [MA(ETFW)] #",
+      "name": "Master of Arts in Emerging Technology for Future Workforce",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P021"
+    },
+    {
+      "rowNumber": 4,
+      "section": "aapsef",
+      "rawName": "Master of Arts in Higher Education Management [MA(HEM)] # *",
+      "name": "Master of Arts in Higher Education Management",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAHEM",
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P025"
+    },
+    {
+      "rowNumber": 5,
+      "section": "aapsef",
+      "rawName": "Master of Laws in Digital Governance [LLM (DG)] #",
+      "name": "Master of Laws in Digital Governance",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-laws-in-digital-governance",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P041"
+    },
+    {
+      "rowNumber": 6,
+      "section": "aapsef",
+      "rawName": "Master of Laws in National Security Law [LLM(NSL)]",
+      "name": "Master of Laws in National Security Law",
+      "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P042"
+    },
+    {
+      "rowNumber": 7,
+      "section": "aapsef",
+      "rawName": "Master of Occupational Therapy [MOT]",
+      "name": "Master of Occupational Therapy",
+      "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-occupational-therapy",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P043"
+    },
+    {
+      "rowNumber": 8,
+      "section": "aapsef",
+      "rawName": "Master of Science in Artificial Intelligence for Executive Professionals [MSc(AIEP)] / Medium of Instruction: English",
+      "name": "Master of Science in Artificial Intelligence for Executive Professionals",
+      "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P046"
+    },
+    {
+      "rowNumber": 9,
+      "section": "aapsef",
+      "rawName": "Master of Science in Artificial Intelligence for Executive Professionals [MSc(AIEP)] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Science in Artificial Intelligence for Executive Professionals",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P046"
+    },
+    {
+      "rowNumber": 10,
+      "section": "aapsef",
+      "rawName": "Master of Science in Environmental, Social and Governance for Sustainable Development [MSc(ESGSD)] #",
+      "name": "Master of Science in Environmental, Social and Governance for Sustainable Development",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/ESGSD",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P052"
+    },
+    {
+      "rowNumber": 11,
+      "section": "aapsef",
+      "rawName": "Master of Arts in China’s Global Diplomacy and International Relations [MA(CGDIR)] # *",
+      "name": "Master of Arts in China’s Global Diplomacy and International Relations",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MACGDIR",
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P008"
+    },
+    {
+      "rowNumber": 12,
+      "section": "aapsef",
+      "rawName": "Master of Arts in Women’s Studies and Sustainable Development in the Chinese Context [MA(WSSD)] # *",
+      "name": "Master of Arts in Women’s Studies and Sustainable Development in the Chinese Context",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAWSSD",
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P039"
+    },
+    {
+      "rowNumber": 13,
+      "section": "aapsef",
+      "rawName": "Master of Science in Low-Altitude Economy and Management [MSc(LAEM)] # *",
+      "name": "Master of Science in Low-Altitude Economy and Management",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MScLAEM",
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P054"
+    },
+    {
+      "rowNumber": 14,
+      "section": "aapsef",
+      "rawName": "Master of Arts in Beauty and Lifestyle (Organisational Operations and Management) [MA(BLOOM)] # *",
+      "name": "Master of Arts in Beauty and Lifestyle (Organisational Operations and Management)",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MABLOOM",
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P005"
+    },
+    {
+      "rowNumber": 15,
+      "section": "aapsef",
+      "rawName": "Master of Science in Digital Economy [MSc(DE)] #",
+      "name": "Master of Science in Digital Economy",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MScDE",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P048"
+    },
+    {
+      "rowNumber": 16,
+      "section": "aapsef",
+      "rawName": "Master of Science in Computational Linguistics and Language Technology[MSc(CLLT)] # *",
+      "name": "Master of Science in Computational Linguistics and Language Technology",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    },
+    {
+      "rowNumber": 17,
+      "section": "aapsef",
+      "rawName": "Master of Science in Cyber Security[MSc(CS)] # *",
+      "name": "Master of Science in Cyber Security",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    },
+    {
+      "rowNumber": 18,
+      "section": "aapsef",
+      "rawName": "Master of Science in Artificial Intelligence Innovation and Venture[MSc(CABCHM)] # *",
+      "name": "Master of Science in Artificial Intelligence Innovation and Venture",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record.",
+      "sourceIdentityNote": "The displayed acronym overlaps another programme. Retain the source wording; never use the acronym alone as a programme identity."
+    },
+    {
+      "rowNumber": 19,
+      "section": "aapsef",
+      "rawName": "Master of Social Sciences in Elderly Care Service Management and Social Governance[MSocSc(ECSMSG)] # *",
+      "name": "Master of Social Sciences in Elderly Care Service Management and Social Governance",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    },
+    {
+      "rowNumber": 20,
+      "section": "aapsef",
+      "rawName": "Master of Arts in Teaching in Higher Education[MA(THE)] # *",
+      "name": "Master of Arts in Teaching in Higher Education",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    },
+    {
+      "rowNumber": 21,
+      "section": "aedi",
+      "rawName": "Master of Arts in Belt and Road Business Communication and Administration [MA(BRBCA)] # 「",
+      "name": "Master of Arts in Belt and Road Business Communication and Administration",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-belt-and-road-business-communication-and-administration",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P006"
+    },
+    {
+      "rowNumber": 22,
+      "section": "aedi",
+      "rawName": "Master of Arts in Chinese Values-Based Leadership Education [MA(CVBLE)] #",
+      "name": "Master of Arts in Chinese Values-Based Leadership Education",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-values-based-leadership-education",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P011"
+    },
+    {
+      "rowNumber": 23,
+      "section": "aedi",
+      "rawName": "Master of Arts in Comparative Education and Collaborative Innovation [MA(CECI)] #",
+      "name": "Master of Arts in Comparative Education and Collaborative Innovation",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-comparative-education-and-collaborative-innovation",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P012"
+    },
+    {
+      "rowNumber": 24,
+      "section": "aedi",
+      "rawName": "Master of Arts in Digital Human Resource Management [MA(DHRM)] #",
+      "name": "Master of Arts in Digital Human Resource Management",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-human-resource-management-and-organisational-marketing",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P014"
+    },
+    {
+      "rowNumber": 25,
+      "section": "aedi",
+      "rawName": "Master of Arts in Digital Marketing and E-Commerce [MA(DMEC)] #",
+      "name": "Master of Arts in Digital Marketing and E-Commerce",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-marketing-and-e-commerce",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P017"
+    },
+    {
+      "rowNumber": 26,
+      "section": "aedi",
+      "rawName": "Master of Arts in E-Sports Management [MA(ESM)] #",
+      "name": "Master of Arts in E-Sports Management",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-e-sports-management",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P018"
+    },
+    {
+      "rowNumber": 27,
+      "section": "aedi",
+      "rawName": "Master of Arts in Mindfulness and Life Education [MA(MLE)] #",
+      "name": "Master of Arts in Mindfulness and Life Education",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-mindfulness-and-life-education",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P028"
+    },
+    {
+      "rowNumber": 28,
+      "section": "aedi",
+      "rawName": "Master of Arts in New Media and Social Media [MA(NMSM)] #",
+      "name": "Master of Arts in New Media and Social Media",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-new-media-and-social-media",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P030"
+    },
+    {
+      "rowNumber": 29,
+      "section": "aedi",
+      "rawName": "Master of Arts in Science and Robotics Education [MA(SRE)] #",
+      "name": "Master of Arts in Science and Robotics Education",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-science-and-robotics-education",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P033"
+    },
+    {
+      "rowNumber": 30,
+      "section": "aedi",
+      "rawName": "Master of Science in Educational Neuroscience [MSc(EdN)] #",
+      "name": "Master of Science in Educational Neuroscience",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-science-in-educational-neuroscience",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P050"
+    },
+    {
+      "rowNumber": 31,
+      "section": "aedi",
+      "rawName": "Master of Arts in Chinese Art Business and Cultural Heritage Management [MA(CABCHM)] #",
+      "name": "Master of Arts in Chinese Art Business and Cultural Heritage Management",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-art-business-and-cultural-heritage-management",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P009"
+    },
+    {
+      "rowNumber": 32,
+      "section": "aedi",
+      "rawName": "Master of Arts in Healthy Ageing and Silver Economy [MA(HASE)] #",
+      "name": "Master of Arts in Healthy Ageing and Silver Economy",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-healthy-ageing-and-silver-economy",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P024"
+    },
+    {
+      "rowNumber": 33,
+      "section": "aedi",
+      "rawName": "Master of Arts in Tourism and Hospitality Management [MA(THM)] #",
+      "name": "Master of Arts in Tourism and Hospitality Management",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-tourism-and-hospitality-management",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P037"
+    },
+    {
+      "rowNumber": 34,
+      "section": "aedi",
+      "rawName": "Master of Global Management (MGM)",
+      "name": "Master of Global Management",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-global-management",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P003"
+    },
+    {
+      "rowNumber": 35,
+      "section": "aedi",
+      "rawName": "Master of Management (MM) #",
+      "name": "Master of Management",
+      "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-management",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P002"
+    },
+    {
+      "rowNumber": 36,
+      "section": "aedi",
+      "rawName": "Master of Science in Applied Neuroscience [MSc(ApN)] # *",
+      "name": "Master of Science in Applied Neuroscience",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    },
+    {
+      "rowNumber": 37,
+      "section": "aedi",
+      "rawName": "Postgraduate Certificate in Higher Education Quality Assurance and Management [PGC(HEQAM)]",
+      "name": "Postgraduate Certificate in Higher Education Quality Assurance and Management",
+      "officialUrl": null,
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "exclude_non_master",
+      "reasonEn": "Postgraduate certificate in a taught section is not a master award."
+    },
+    {
+      "rowNumber": 38,
+      "section": "fehd",
+      "rawName": "Master of Arts in Child and Family Education [MA(CFE)]",
+      "name": "Master of Arts in Child and Family Education",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P007"
+    },
+    {
+      "rowNumber": 39,
+      "section": "fehd",
+      "rawName": "Master of Arts in Cultural Heritage Education and Management [MA(CHEM)] #",
+      "name": "Master of Arts in Cultural Heritage Education and Management",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P013"
+    },
+    {
+      "rowNumber": 40,
+      "section": "fehd",
+      "rawName": "Master of Arts in Educational Counselling [MA(EC)]",
+      "name": "Master of Arts in Educational Counselling",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P020"
+    },
+    {
+      "rowNumber": 41,
+      "section": "fehd",
+      "rawName": "Master of Arts in Global Studies in Education [MA(GSE)] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Arts in Global Studies in Education",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P023"
+    },
+    {
+      "rowNumber": 42,
+      "section": "fehd",
+      "rawName": "Master of Arts in Inclusive Early Childhood Education [MA(IECE)] #",
+      "name": "Master of Arts in Inclusive Early Childhood Education",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P026"
+    },
+    {
+      "rowNumber": 43,
+      "section": "fehd",
+      "rawName": "Master of Arts in Positive Psychology in Education [MA(PPE)]",
+      "name": "Master of Arts in Positive Psychology in Education",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P032"
+    },
+    {
+      "rowNumber": 44,
+      "section": "fehd",
+      "rawName": "Master of Science in Education Policy and Management [MSc(EPM)] / Medium of Instruction: English",
+      "name": "Master of Science in Education Policy and Management",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P049"
+    },
+    {
+      "rowNumber": 45,
+      "section": "fehd",
+      "rawName": "Master of Science in Education Policy and Management [MSc(EPM)] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Science in Education Policy and Management",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10214",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P049"
+    },
+    {
+      "rowNumber": 46,
+      "section": "fehd",
+      "rawName": "Master of Science in Educational Speech-Language Pathology and Learning Disabilities [MScESLPLD]",
+      "name": "Master of Science in Educational Speech-Language Pathology and Learning Disabilities",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P051"
+    },
+    {
+      "rowNumber": 47,
+      "section": "fehd",
+      "rawName": "Master of Science in Learning Sciences and Smart Education [MSc(LSSE)] #",
+      "name": "Master of Science in Learning Sciences and Smart Education",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P053"
+    },
+    {
+      "rowNumber": 48,
+      "section": "fehd",
+      "rawName": "Master of Social Sciences in Psychology (Schools and Community Settings) [MSocScP(SCS)]",
+      "name": "Master of Social Sciences in Psychology (Schools and Community Settings)",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P056"
+    },
+    {
+      "rowNumber": 49,
+      "section": "fehd",
+      "rawName": "Master of Teaching [MTeach] / Medium of Instruction: English",
+      "name": "Master of Teaching",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=724",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P059"
+    },
+    {
+      "rowNumber": 50,
+      "section": "fehd",
+      "rawName": "Master of Teaching [MTeach] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Teaching",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10627",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P059"
+    },
+    {
+      "rowNumber": 51,
+      "section": "fhm",
+      "rawName": "Master of Arts in Artificial Intelligence and Technology in Language Learning [MAATLL] *",
+      "name": "Master of Arts in Artificial Intelligence and Technology in Language Learning",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": false,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    },
+    {
+      "rowNumber": 52,
+      "section": "fhm",
+      "rawName": "Master of Arts in Chinese Studies (Language Education) [MACSLE] #",
+      "name": "Master of Arts in Chinese Studies (Language Education)",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-chinese-studies-language-education-macsle/",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P010"
+    },
+    {
+      "rowNumber": 53,
+      "section": "fhm",
+      "rawName": "Master of Arts in Digital Humanities for Cultural Professionals [MADHCP] / Medium of Instruction: English",
+      "name": "Master of Arts in Digital Humanities for Cultural Professionals",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P015"
+    },
+    {
+      "rowNumber": 54,
+      "section": "fhm",
+      "rawName": "Master of Arts in Digital Humanities for Cultural Professionals [MADHCP] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Arts in Digital Humanities for Cultural Professionals",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P015"
+    },
+    {
+      "rowNumber": 55,
+      "section": "fhm",
+      "rawName": "Master of Arts in Global Histories of Education [MAGHE] / Medium of Instruction: English",
+      "name": "Master of Arts in Global Histories of Education",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P022"
+    },
+    {
+      "rowNumber": 56,
+      "section": "fhm",
+      "rawName": "Master of Arts in Global Histories of Education [MAGHE] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Arts in Global Histories of Education",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P022"
+    },
+    {
+      "rowNumber": 57,
+      "section": "fhm",
+      "rawName": "Master of Arts in Digital Linguistics and Intercultural Communication [MADLIC] / Medium of Instruction: English",
+      "name": "Master of Arts in Digital Linguistics and Intercultural Communication",
+      "officialUrl": "https://www.eduhk.hk/madlic",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P016"
+    },
+    {
+      "rowNumber": 58,
+      "section": "fhm",
+      "rawName": "Master of Arts in Digital Linguistics and Intercultural Communication [MADLIC] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Arts in Digital Linguistics and Intercultural Communication",
+      "officialUrl": "https://www.eduhk.hk/madlic",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P016"
+    },
+    {
+      "rowNumber": 59,
+      "section": "fhm",
+      "rawName": "Master of Arts in Music Education [MA(ME)]",
+      "name": "Master of Arts in Music Education",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-music-education-mame",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P029"
+    },
+    {
+      "rowNumber": 60,
+      "section": "fhm",
+      "rawName": "Master of Arts in Teaching Chinese as an International Language [MATCIL] #",
+      "name": "Master of Arts in Teaching Chinese as an International Language",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-chinese-as-an-international-language-matcil",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P035"
+    },
+    {
+      "rowNumber": 61,
+      "section": "fhm",
+      "rawName": "Master of Arts in Teaching English to Speakers of Other Languages [MATESOL]",
+      "name": "Master of Arts in Teaching English to Speakers of Other Languages",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-english-to-speakers-of-other-languages-matesol/",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P036"
+    },
+    {
+      "rowNumber": 62,
+      "section": "fhm",
+      "rawName": "Master of Arts in Visual Arts Education and Creative Practice [MA(VAECP)]",
+      "name": "Master of Arts in Visual Arts Education and Creative Practice",
+      "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-visual-arts-education-and-creative-practice-mavaecp",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P038"
+    },
+    {
+      "rowNumber": 63,
+      "section": "flass",
+      "rawName": "Master of Arts in Education for Sustainability [MA(EfS)] / Medium of Instruction: English",
+      "name": "Master of Arts in Education for Sustainability",
+      "officialUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P019"
+    },
+    {
+      "rowNumber": 64,
+      "section": "flass",
+      "rawName": "Master of Arts in Education for Sustainability [MA(EfS)] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Arts in Education for Sustainability",
+      "officialUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P019"
+    },
+    {
+      "rowNumber": 65,
+      "section": "flass",
+      "rawName": "Master of Arts in Mathematics and Pedagogy [MA(MP)]",
+      "name": "Master of Arts in Mathematics and Pedagogy",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mamp",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P027"
+    },
+    {
+      "rowNumber": 66,
+      "section": "flass",
+      "rawName": "Master of Arts in Personal Finance [MA(PF)]",
+      "name": "Master of Arts in Personal Finance",
+      "officialUrl": "https://www.eduhk.hk/ssps/mapf",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P031"
+    },
+    {
+      "rowNumber": 67,
+      "section": "flass",
+      "rawName": "Master of Arts in STEM Education [MA(STEM Ed)] / Medium of Instruction: English STEM",
+      "name": "Master of Arts in STEM Education",
+      "officialUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P034"
+    },
+    {
+      "rowNumber": 68,
+      "section": "flass",
+      "rawName": "Master of Arts in STEM Education [MA(STEM Ed)] / Medium of Instruction: Chinese (mainly Putonghua) # STEM",
+      "name": "Master of Arts in STEM Education",
+      "officialUrl": "https://ses.eduhk.hk/en/programmes/master-arts-stem-education-medium-instruction-chinese-mainly-putonghua",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P034"
+    },
+    {
+      "rowNumber": 69,
+      "section": "flass",
+      "rawName": "Master of Public Policy and Management [MPPM]",
+      "name": "Master of Public Policy and Management",
+      "officialUrl": "https://www.eduhk.hk/ssps/mppm",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P001"
+    },
+    {
+      "rowNumber": 70,
+      "section": "flass",
+      "rawName": "Master of Science in Applied Data Science [MSc(ADS)] #",
+      "name": "Master of Science in Applied Data Science",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mscads",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P044"
+    },
+    {
+      "rowNumber": 71,
+      "section": "flass",
+      "rawName": "Master of Science in Artificial Intelligence and Educational Technology [MSc(AI&EdTech)] / Medium of Instruction: English",
+      "name": "Master of Science in Artificial Intelligence and Educational Technology",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mscait",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P045"
+    },
+    {
+      "rowNumber": 72,
+      "section": "flass",
+      "rawName": "Master of Science in Artificial Intelligence and Educational Technology [MSc(AI&EdTech)] / Medium of Instruction: Chinese (mainly Putonghua) #",
+      "name": "Master of Science in Artificial Intelligence and Educational Technology",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+      "pendingApproval": false,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P045"
+    },
+    {
+      "rowNumber": 73,
+      "section": "flass",
+      "rawName": "Master of Social Sciences in Sports Coaching and Management [MSocSc(SCM)]",
+      "name": "Master of Social Sciences in Sports Coaching and Management",
+      "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P057"
+    },
+    {
+      "rowNumber": 74,
+      "section": "flass",
+      "rawName": "Master of Social Sciences in Therapeutic Play and Well-Being [MSocSc(TPWB)]",
+      "name": "Master of Social Sciences in Therapeutic Play and Well-Being",
+      "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/",
+      "pendingApproval": false,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P058"
+    },
+    {
+      "rowNumber": 75,
+      "section": "flass",
+      "rawName": "Master of Social Sciences in Global Business and Policy Studies for the Belt-and-Road Initiative [MSocSc(GBPSBRI)] *",
+      "name": "Master of Social Sciences in Global Business and Policy Studies for the Belt-and-Road Initiative",
+      "officialUrl": "https://www.eduhk.hk/ssps/mgbpsbri",
+      "pendingApproval": true,
+      "chineseMarker": false,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P055"
+    },
+    {
+      "rowNumber": 76,
+      "section": "flass",
+      "rawName": "Master of Science in Business Analytics and FinTech [MSc(BAFT)] # *",
+      "name": "Master of Science in Business Analytics and FinTech",
+      "officialUrl": "https://www.eduhk.hk/ssps/mscbaft",
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "include_directory_lead",
+      "reasonEn": "Linked master in an explicit taught section; programme admissions, delivery, year and fees still need checks.",
+      "programmeId": "HK-EDUHK-P047"
+    },
+    {
+      "rowNumber": 77,
+      "section": "flass",
+      "rawName": "Master of Science in Artificial Intelligence [MSc(AI)] # *",
+      "name": "Master of Science in Artificial Intelligence",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    },
+    {
+      "rowNumber": 78,
+      "section": "flass",
+      "rawName": "Master of Science in Electrical Engineering and Intelligent Systems [MSc(EEIS)] # *",
+      "name": "Master of Science in Electrical Engineering and Intelligent Systems",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    },
+    {
+      "rowNumber": 79,
+      "section": "flass",
+      "rawName": "Master of Science in Health and Rehabilitation Sciences[MSc(HRS)] # *",
+      "name": "Master of Science in Health and Rehabilitation Sciences",
+      "officialUrl": null,
+      "pendingApproval": true,
+      "chineseMarker": true,
+      "decision": "hold_missing_programme_link",
+      "reasonEn": "Listed subject to approval without a programme link. Keep as research evidence; do not invent a URL or an application-ready programme record."
+    }
+  ],
+  "candidates": [
+    {
+      "programmeId": "HK-EDUHK-P004",
+      "name": "Executive Master of Public Administration and Leadership",
+      "directoryRows": [
+        2
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P005",
+      "name": "Master of Arts in Beauty and Lifestyle (Organisational Operations and Management)",
+      "directoryRows": [
+        14
+      ],
+      "pendingApproval": true,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P006",
+      "name": "Master of Arts in Belt and Road Business Communication and Administration",
+      "directoryRows": [
+        21
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P007",
+      "name": "Master of Arts in Child and Family Education",
+      "directoryRows": [
+        38
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P008",
+      "name": "Master of Arts in China’s Global Diplomacy and International Relations",
+      "directoryRows": [
+        11
+      ],
+      "pendingApproval": true,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P009",
+      "name": "Master of Arts in Chinese Art Business and Cultural Heritage Management",
+      "directoryRows": [
+        31
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P010",
+      "name": "Master of Arts in Chinese Studies (Language Education)",
+      "directoryRows": [
+        52
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P011",
+      "name": "Master of Arts in Chinese Values-Based Leadership Education",
+      "directoryRows": [
+        22
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P012",
+      "name": "Master of Arts in Comparative Education and Collaborative Innovation",
+      "directoryRows": [
+        23
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P013",
+      "name": "Master of Arts in Cultural Heritage Education and Management",
+      "directoryRows": [
+        39
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P014",
+      "name": "Master of Arts in Digital Human Resource Management",
+      "directoryRows": [
+        24
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P015",
+      "name": "Master of Arts in Digital Humanities for Cultural Professionals",
+      "directoryRows": [
+        53,
+        54
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Arts in Digital Humanities for Cultural Professionals — English",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp"
+        },
+        {
+          "nameEn": "Master of Arts in Digital Humanities for Cultural Professionals — Chinese (mainly Putonghua)",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P016",
+      "name": "Master of Arts in Digital Linguistics and Intercultural Communication",
+      "directoryRows": [
+        57,
+        58
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Arts in Digital Linguistics and Intercultural Communication — English",
+          "officialUrl": "https://www.eduhk.hk/madlic"
+        },
+        {
+          "nameEn": "Master of Arts in Digital Linguistics and Intercultural Communication — Chinese (mainly Putonghua)",
+          "officialUrl": "https://www.eduhk.hk/madlic"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P017",
+      "name": "Master of Arts in Digital Marketing and E-Commerce",
+      "directoryRows": [
+        25
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P018",
+      "name": "Master of Arts in E-Sports Management",
+      "directoryRows": [
+        26
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P019",
+      "name": "Master of Arts in Education for Sustainability",
+      "directoryRows": [
+        63,
+        64
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Arts in Education for Sustainability — English",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/maefs"
+        },
+        {
+          "nameEn": "Master of Arts in Education for Sustainability — Chinese (mainly Putonghua)",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/maefscmi"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P020",
+      "name": "Master of Arts in Educational Counselling",
+      "directoryRows": [
+        40
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P021",
+      "name": "Master of Arts in Emerging Technology for Future Workforce",
+      "directoryRows": [
+        3
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P022",
+      "name": "Master of Arts in Global Histories of Education",
+      "directoryRows": [
+        55,
+        56
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Arts in Global Histories of Education — English",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/"
+        },
+        {
+          "nameEn": "Master of Arts in Global Histories of Education — Chinese (mainly Putonghua)",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P023",
+      "name": "Master of Arts in Global Studies in Education",
+      "directoryRows": [
+        41
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P024",
+      "name": "Master of Arts in Healthy Ageing and Silver Economy",
+      "directoryRows": [
+        32
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P025",
+      "name": "Master of Arts in Higher Education Management",
+      "directoryRows": [
+        4
+      ],
+      "pendingApproval": true,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P026",
+      "name": "Master of Arts in Inclusive Early Childhood Education",
+      "directoryRows": [
+        42
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P027",
+      "name": "Master of Arts in Mathematics and Pedagogy",
+      "directoryRows": [
+        65
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P028",
+      "name": "Master of Arts in Mindfulness and Life Education",
+      "directoryRows": [
+        27
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P029",
+      "name": "Master of Arts in Music Education",
+      "directoryRows": [
+        59
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P030",
+      "name": "Master of Arts in New Media and Social Media",
+      "directoryRows": [
+        28
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P031",
+      "name": "Master of Arts in Personal Finance",
+      "directoryRows": [
+        66
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P032",
+      "name": "Master of Arts in Positive Psychology in Education",
+      "directoryRows": [
+        43
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P033",
+      "name": "Master of Arts in Science and Robotics Education",
+      "directoryRows": [
+        29
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P034",
+      "name": "Master of Arts in STEM Education",
+      "directoryRows": [
+        67,
+        68
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Arts in STEM Education — English",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/stem_ed"
+        },
+        {
+          "nameEn": "Master of Arts in STEM Education — Chinese (mainly Putonghua)",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/master-arts-stem-education-medium-instruction-chinese-mainly-putonghua"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P035",
+      "name": "Master of Arts in Teaching Chinese as an International Language",
+      "directoryRows": [
+        60
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P036",
+      "name": "Master of Arts in Teaching English to Speakers of Other Languages",
+      "directoryRows": [
+        61
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P037",
+      "name": "Master of Arts in Tourism and Hospitality Management",
+      "directoryRows": [
+        33
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P038",
+      "name": "Master of Arts in Visual Arts Education and Creative Practice",
+      "directoryRows": [
+        62
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P039",
+      "name": "Master of Arts in Women’s Studies and Sustainable Development in the Chinese Context",
+      "directoryRows": [
+        12
+      ],
+      "pendingApproval": true,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P040",
+      "name": "Master of Education",
+      "directoryRows": [
+        1
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P003",
+      "name": "Master of Global Management",
+      "directoryRows": [
+        34
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P041",
+      "name": "Master of Laws in Digital Governance",
+      "directoryRows": [
+        5
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P042",
+      "name": "Master of Laws in National Security Law",
+      "directoryRows": [
+        6
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P002",
+      "name": "Master of Management",
+      "directoryRows": [
+        35
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P043",
+      "name": "Master of Occupational Therapy",
+      "directoryRows": [
+        7
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P001",
+      "name": "Master of Public Policy and Management",
+      "directoryRows": [
+        69
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P044",
+      "name": "Master of Science in Applied Data Science",
+      "directoryRows": [
+        70
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P045",
+      "name": "Master of Science in Artificial Intelligence and Educational Technology",
+      "directoryRows": [
+        71,
+        72
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Science in Artificial Intelligence and Educational Technology — English",
+          "officialUrl": "https://www.eduhk.hk/mit/en/mscait"
+        },
+        {
+          "nameEn": "Master of Science in Artificial Intelligence and Educational Technology — Chinese (mainly Putonghua)",
+          "officialUrl": "https://www.eduhk.hk/mit/en/mscait_cmi"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P046",
+      "name": "Master of Science in Artificial Intelligence for Executive Professionals",
+      "directoryRows": [
+        8,
+        9
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Science in Artificial Intelligence for Executive Professionals — English",
+          "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep"
+        },
+        {
+          "nameEn": "Master of Science in Artificial Intelligence for Executive Professionals — Chinese (mainly Putonghua)",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P047",
+      "name": "Master of Science in Business Analytics and FinTech",
+      "directoryRows": [
+        76
+      ],
+      "pendingApproval": true,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P048",
+      "name": "Master of Science in Digital Economy",
+      "directoryRows": [
+        15
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P049",
+      "name": "Master of Science in Education Policy and Management",
+      "directoryRows": [
+        44,
+        45
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Science in Education Policy and Management — English",
+          "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861"
+        },
+        {
+          "nameEn": "Master of Science in Education Policy and Management — Chinese (mainly Putonghua)",
+          "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10214"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P050",
+      "name": "Master of Science in Educational Neuroscience",
+      "directoryRows": [
+        30
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P051",
+      "name": "Master of Science in Educational Speech-Language Pathology and Learning Disabilities",
+      "directoryRows": [
+        46
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P052",
+      "name": "Master of Science in Environmental, Social and Governance for Sustainable Development",
+      "directoryRows": [
+        10
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P053",
+      "name": "Master of Science in Learning Sciences and Smart Education",
+      "directoryRows": [
+        47
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P054",
+      "name": "Master of Science in Low-Altitude Economy and Management",
+      "directoryRows": [
+        13
+      ],
+      "pendingApproval": true,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P055",
+      "name": "Master of Social Sciences in Global Business and Policy Studies for the Belt-and-Road Initiative",
+      "directoryRows": [
+        75
+      ],
+      "pendingApproval": true,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P056",
+      "name": "Master of Social Sciences in Psychology (Schools and Community Settings)",
+      "directoryRows": [
+        48
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P057",
+      "name": "Master of Social Sciences in Sports Coaching and Management",
+      "directoryRows": [
+        73
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P058",
+      "name": "Master of Social Sciences in Therapeutic Play and Well-Being",
+      "directoryRows": [
+        74
+      ],
+      "pendingApproval": false,
+      "variants": []
+    },
+    {
+      "programmeId": "HK-EDUHK-P059",
+      "name": "Master of Teaching",
+      "directoryRows": [
+        49,
+        50
+      ],
+      "pendingApproval": false,
+      "variants": [
+        {
+          "nameEn": "Master of Teaching — English",
+          "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=724"
+        },
+        {
+          "nameEn": "Master of Teaching — Chinese (mainly Putonghua)",
+          "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10627"
+        }
+      ]
+    }
+  ]
+}

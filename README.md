@@ -6,7 +6,7 @@
 
 ## 当前状态
 
-2026-10-20 本地最新：总库 603 条目录记录，默认浏览 600 条；项目页已查仍为 21，独立复核和完整条件仍为 0。最新 CityU 目录盘点新增 52 条未核验线索，保留去重、范围排除、待确认改名／联合路径及语言／stream 分组证据；这些数量不是完整已核验项目或当前开放申请数量。详见 [CityU 目录盘点](docs/research/cityu-directory-pass-2026-10-20.md)。以下保留早期开发记录及当时的数量，不应当作最新总量。
+2026-10-20 本地最新：总库 659 条目录记录，默认浏览 656 条；项目页已查仍为 21，独立复核和完整条件仍为 0。同日 CityU 新增 52 条、EdUHK 新增 56 条未核验目录线索，保留范围排除、待批准／缺链接项目及语言／stream 分组证据；这些数量不是完整已核验项目或当前开放申请数量。详见 [CityU 目录盘点](docs/research/cityu-directory-pass-2026-10-20.md)和 [EdUHK 目录盘点](docs/research/eduhk-directory-pass-2026-10-20.md)。以下保留早期开发记录及当时的数量，不应当作最新总量。
 
 2026-10-06：本地可运行版本 0.1.0 已实现。网站统一采用英文界面，包含搜索、项目详情、背景输入及逐条件判断、课程比较、候选清单和数据工作台。当前开发工作保存在本地，尚未公开部署。
 
@@ -37,6 +37,7 @@ Windows 双击 `start-local.cmd`，待启动窗口显示网址后打开 `http://
 - [首批官方数据核查记录](docs/research/official-data-pilot-2026-10-06.md)
 - [10 月 8 日目录扩展与核查记录](docs/research/directory-expansion-2026-10-08.md)
 - [10 月 20 日 CityU 目录盘点与边界记录](docs/research/cityu-directory-pass-2026-10-20.md)
+- [10 月 20 日 EdUHK 目录盘点与语言／待批准条目记录](docs/research/eduhk-directory-pass-2026-10-20.md)
 
 ## 下一步
 

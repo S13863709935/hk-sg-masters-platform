@@ -73,7 +73,9 @@ export function buildCityuInventory(input) {
   if (candidates.length !== 61 || inventory.excludedCodeCount !== 4 || inventory.heldCodeCount !== 2) throw new Error('Unexpected CityU scope reconciliation');
   const refreshedIds = new Set(listings.map(l => l.programmeId));
   if (links.listings.some(l => refreshedIds.has(l.programmeId) && l.checkedOn > date)) throw new Error('Refusing to replace newer CityU listing');
-  links.listings = [...links.listings.filter(l => !refreshedIds.has(l.programmeId)), ...listings];
+  const incoming = new Map(listings.map(l => [l.programmeId, l]));
+  const existingIds = new Set(links.listings.map(l => l.programmeId));
+  links.listings = [...links.listings.map(l => incoming.get(l.programmeId) || l), ...listings.filter(l => !existingIds.has(l.programmeId))];
   links.checkedOn = date;
   expansion.checkedOn = date;
   expansion.programmes.sort((a, b) => a.id.localeCompare(b.id));

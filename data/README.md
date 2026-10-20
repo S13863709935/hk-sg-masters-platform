@@ -31,7 +31,9 @@
 
 ## 采集流程
 
-2026-10-20 本地最新：总库 603 条，默认浏览 600 条，项目页已查 21，独立复核和完整条件仍为 0。CityU 的 72 行目录先去重为 69 个代码，再排除 4 个范围外代码、保留 2 个待确认代码并进行保守的语言／stream 分组，形成 61 个候选组；其中 9 个沿用原 ID，52 个新增为未核验线索。候选组不是已确认的不同学位总数；旧 Civil 种子在改名未证实前保持原样。见 [本轮目录记录](../docs/research/cityu-directory-pass-2026-10-20.md)；运行 `node scripts/build-cityu-directory-inventory.mjs` 可从冻结快照确定性重建本轮派生数据，不再次联网采集。
+2026-10-20 本地最新：总库 659 条，默认浏览 656 条，项目页已查 21，独立复核和完整条件仍为 0。EdUHK 的 79 个授课目录条目包含 1 个证书、10 个无链接待批准硕士及 9 对语言版本；保守分组后有 59 个带链接的候选组，3 个沿用原 ID，新增 56 条未核验线索。另有 7 个带链接候选组仍待学校批准。见 [EdUHK 目录记录](../docs/research/eduhk-directory-pass-2026-10-20.md)；运行 `node scripts/build-eduhk-directory-inventory.mjs` 可从冻结快照重建派生数据，不再次联网采集。
+
+同日较早的 CityU 轮次：总库当时为 603 条，默认浏览 600 条。CityU 的 72 行目录先去重为 69 个代码，再排除 4 个范围外代码、保留 2 个待确认代码并进行保守的语言／stream 分组，形成 61 个候选组；其中 9 个沿用原 ID，52 个新增为未核验线索。候选组不是已确认的不同学位总数；旧 Civil 种子在改名未证实前保持原样。见 [CityU 目录记录](../docs/research/cityu-directory-pass-2026-10-20.md)；运行 `node scripts/build-cityu-directory-inventory.mjs` 可从冻结快照确定性重建该校派生数据，不再次联网采集。
 
 2026-10-08：新增 `catalogue-expansion.json`（186 条未核验目录线索），原始 175 条保留，总库 361 条，默认显示 360 条。HKBU、Lingnan、CUHK 的本轮目录计数分别为 49、44、129，排除及别名依据保存在 `research/programme-inventory-2026-10-08.json`。目录计数不表示当期开放申请或规则完整；PolyU 111 个硕士／组合条目尚不能作为精确项目总数。见 [本轮记录](../docs/research/directory-expansion-2026-10-08.md)。
 
