@@ -6,7 +6,7 @@ A source-linked information and programme-screening project for taught/coursewor
 
 Prepared on 20 October 2026 during Study Week (19–25 October). This branch starts from the published Week 5 checkpoint `9aeddfa`, not from the ahead-of-plan local prototype. It publishes a small, actual programme-data refresh under the ongoing T2 collection task; it does not claim all Study Week tasks are finished.
 
-The Week 5 feature boundary is unchanged: English interface, pilot search and details, temporary background input, and a source-linked condition-check proof of concept. Comparison and candidate lists remain clearly labelled design previews. Only SMU MPA has been re-read for this update. This is not the complete platform.
+The Week 5 feature boundary is unchanged: English interface, pilot search and details, temporary background input, and a source-linked condition-check proof of concept. Comparison and candidate lists remain clearly labelled design previews. Only SMU MPA and MITB have been re-read for this update. This is not the complete platform.
 
 ## Run the pilot
 
@@ -26,8 +26,9 @@ The optional form sends a background only to this local process for checks. It i
 
 - Target scope: eight Hong Kong UGC-funded universities and six Singapore autonomous universities.
 - Pilot: 20 direct-entry programme records, plus one transfer-only reference.
-- Original source snapshot: 6 October 2026. Only `SG-SMU-P001` was refreshed on 20 October; all other record dates are unchanged. The batch date means the latest read, not a full recheck.
+- Original source snapshot: 6 October 2026. Only `SG-SMU-P001` and `SG-SMU-P010` were refreshed on 20 October; all other record dates are unchanged. The batch date means the latest read, not a full recheck.
 - SMU MPA now retains its dated August 2027 admissions phases and fee context; waiver, academic-equivalence, test-exemption and interview checks remain unresolved.
+- SMU MITB has four separate fee-cohort/mode options. Its recurring application windows remain year-unconfirmed, with conflicting August opening-month wording; no dated deadline is inferred. Retired combined-intake IDs are not reassigned to a new cohort.
 - Independent reviews: 0. Complete requirement records: 0.
 - Directory-entry checks are not complete catalogue enumeration or proof that applications are open.
 - The original 175-record workbook is preserved as historical research material, not a verified production database.
@@ -38,6 +39,7 @@ Do not invent GPA cutoffs, convert incomparable scales or treat language waivers
 
 - [Selected scope, checks and outstanding work](docs/progress/study-week-2026-10-20.md)
 - [Official-source research notes](docs/research/smu-mpa-refresh-2026-10-20.md)
+- [MITB intake/fee reconciliation and unresolved window evidence](docs/research/smu-mitb-refresh-2026-10-20.md)
 
 This push is publication of checked engineering/research progress for review. It is not deployment, a course submission, independent human verification or evidence that the planned 25 October user-research milestone is complete.
 

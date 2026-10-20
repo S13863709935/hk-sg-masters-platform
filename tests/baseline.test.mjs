@@ -11,7 +11,7 @@ const json = async path => (await fetch(url + path)).json();
 const post = (value, extra = {}) => fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json', ...extra }, body: JSON.stringify(value) });
 const profile = { major: 'Computer Science', gpa: 3.5, gpaScale: 4, degreeStatus: 'graduated', language: { type: 'ielts', total: 7, components: { listening: 7, reading: 7, writing: 5, speaking: 7 }, singleAttempt: true } };
 test('health identifies the Study Week data checkpoint', async () => { assert.equal((await json('/api/health')).checkpoint, 'study-week'); });
-test('metadata separates the original snapshot, one actual refresh and excluded features', async () => { const d = await json('/api/checkpoint'); assert.equal(d.pilotProgrammes, 20); assert.equal(d.transferOnlyReferenceRecords, 1); assert.equal(d.targetUniversities, 14); assert.equal(d.independentlyReviewed, 0); assert.equal(d.completeRequirements, 0); assert.equal(d.sourceSnapshotDate, '2026-10-06'); assert.equal(d.latestSourceCheckDate, '2026-10-20'); assert.deepEqual(d.sourceRefreshes, [{ programmeId: 'SG-SMU-P001', checkedOn: '2026-10-20' }]); assert.equal(d.publicationPreparedOn, '2026-10-20'); assert.deepEqual(d.designOnly, ['programme comparison', 'candidate lists']); assert.ok(d.notIncludedHere.includes('expanded catalogue')); });
+test('metadata separates the original snapshot, two actual refreshes and excluded features', async () => { const d = await json('/api/checkpoint'); assert.equal(d.pilotProgrammes, 20); assert.equal(d.transferOnlyReferenceRecords, 1); assert.equal(d.targetUniversities, 14); assert.equal(d.independentlyReviewed, 0); assert.equal(d.completeRequirements, 0); assert.equal(d.sourceSnapshotDate, '2026-10-06'); assert.equal(d.latestSourceCheckDate, '2026-10-20'); assert.deepEqual(d.sourceRefreshes, [{ programmeId: 'SG-SMU-P001', checkedOn: '2026-10-20' }, { programmeId: 'SG-SMU-P010', checkedOn: '2026-10-20' }]); assert.equal(d.publicationPreparedOn, '2026-10-20'); assert.deepEqual(d.designOnly, ['programme comparison', 'candidate lists']); assert.ok(d.notIncludedHere.includes('expanded catalogue')); });
 test('the direct-entry pilot has 20 distinct records, not the larger local inventory', async () => { const d = await json('/api/catalogue'); assert.equal(d.total, 20); assert.equal(new Set(d.items.map(p => p.id)).size, 20); assert.ok(d.items.every(p => p.admissionRoute === 'direct')); });
 test('school and region filters combine without leaking other records', async () => { const d = await json('/api/catalogue?school=SG-NUS&region=SG'); assert.ok(d.total > 0); assert.ok(d.items.every(p => p.universityId === 'SG-NUS')); assert.equal((await json('/api/catalogue?school=SG-NUS&region=HK')).total, 0); });
 test('search is case-insensitive and empty results are explicit', async () => { assert.ok((await json('/api/catalogue?q=COMPUTER')).items.every(p => /computer/i.test(p.name))); assert.equal((await json('/api/catalogue?q=zzzz-no-such-pilot-record')).total, 0); });
@@ -27,7 +27,7 @@ test('background processing does not alter the static catalogue or source file',
 test('English UI marks design-only features and contains no profile-persistence code', () => { const html = readFileSync(new URL('public/index.html', root), 'utf8'); const js = readFileSync(new URL('public/app.js', root), 'utf8'); assert.match(html, /<html lang="en">/); assert.equal(/\p{Script=Han}/u.test(html + js), false); assert.match(js, /Design preview only/); assert.equal(/localStorage|sessionStorage|indexedDB|document\.cookie/.test(js), false); assert.ok(js.includes("'<': '&lt;'")); assert.match(js, /officialDomains\.some/); });
 test('HEAD returns metadata headers without a response body', async () => { const r = await fetch(url + '/api/checkpoint', { method: 'HEAD' }); assert.equal(r.status, 200); assert.equal(await r.text(), ''); });
 test('an unrelated write endpoint is not accepted', async () => { assert.equal((await fetch(url + '/api/checkpoint', { method: 'POST', body: '{}' })).status, 405); });
-test('only the selected SMU record gains a read date; all records remain partial and unreviewed', () => { const d = JSON.parse(readFileSync(new URL('data/checked-programmes.json', root), 'utf8')); assert.equal(d.programmes.length, 21); assert.ok(d.programmes.every(p => p.lastChecked === (p.id === 'SG-SMU-P001' ? '2026-10-20' : '2026-10-06') && p.requirementsCoverage === 'partial' && p.reviewer === null)); });
+test('only the two selected SMU records gain read dates; all records remain partial and unreviewed', () => { const d = JSON.parse(readFileSync(new URL('data/checked-programmes.json', root), 'utf8')); assert.equal(d.programmes.length, 21); assert.ok(d.programmes.every(p => p.lastChecked === (['SG-SMU-P001', 'SG-SMU-P010'].includes(p.id) ? '2026-10-20' : '2026-10-06') && p.requirementsCoverage === 'partial' && p.reviewer === null)); });
 
 test('the refreshed SMU record is used by details and conservative background checks', async () => {
   const p = await json('/api/programmes/SG-SMU-P001');
@@ -47,4 +47,17 @@ test('long fee and phase notes stay in an internally scrolling readable table', 
   assert.match(css, /table-layout:fixed;min-width:720px/);
   assert.match(css, /\.table-scroll\{overflow-x:auto;max-width:100%\}/);
   assert.match(js, /Opening: \$\{esc\(o.applicationOpen/);
+});
+
+test('MITB details preserve four fee cohorts without inventing dated application windows', async () => {
+  const p = await json('/api/programmes/SG-SMU-P010');
+  assert.equal(p.offerings.length, 4);
+  assert.equal(p.fieldStatus.tuition.status, 'known');
+  assert.equal(p.fieldStatus.deadline.status, 'unknown');
+  assert.ok(p.offerings.every(o => o.applicationOpen === null && o.deadline === null));
+  const response = await post({ profile: { ...profile, experienceYears: 0 } });
+  const checked = (await response.json()).items.find(item => item.id === p.id);
+  assert.equal(checked.match.status, 'needs_confirmation');
+  assert.equal(checked.match.tier, null);
+  assert.equal(checked.match.checks.find(c => c.kind === 'experience').mandatory, false);
 });

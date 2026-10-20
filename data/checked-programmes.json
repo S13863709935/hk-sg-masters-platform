@@ -2158,38 +2158,66 @@
       "officialUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "Current page; applicable tuition cohort to confirm",
+      "lastChecked": "2026-10-20",
+      "academicYear": "January 2027 and August 2027 intakes",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Two years of business/technology experience is preferred, not mandatory. GPA 3.0/4 or 3.6/5 are institution-specific test-substitution conditions, not universal entry thresholds.",
+      "notesEn": "Two years of business/technology experience is preferred, not mandatory. GPA 3.0/4 or 3.6/5 concern institution-specific test substitution, not universal entry thresholds. The two old combined-intake option IDs are retired: choose a specific 2027 intake again. Source window years and the conflicting August opening month remain unconfirmed.",
       "offerings": [
         {
-          "id": "SG-SMU-P010-O1",
+          "id": "SG-SMU-P010-JAN2027-FT",
           "mode": "Full-time",
-          "duration": "1–1.5 years",
-          "intake": "January or August annually; year to confirm",
+          "duration": "Minimum 1 year; normal 1.5 years; maximum 3 years",
+          "intake": "January 2027",
+          "applicationOpen": null,
           "deadline": null,
-          "deadlineNote": "Recurring closing dates: 31 October (January); 31 May (August); year unconfirmed.",
-          "academicYear": "Current page; applicable tuition cohort to confirm",
+          "deadlineNote": "The application page lists 1 June–31 October for January, without a year. Billing dates identify this cohort but do not establish its dated application window. No ISO dates are inferred.",
+          "academicYear": "January 2027 intake",
           "currency": "SGD",
           "tuition": 56680,
-          "feeBasis": "Displayed programme tuition including GST; applicable cohort still requires confirmation"
+          "feeBasis": "Tuition includes 9% GST; books/materials excluded. Separate application fee: SGD 100 including GST. Registration: SC/PR SGD 400, foreigners SGD 500; confirm tax basis. SGD 10,000 deposit is part of tuition, not an extra charge. Confirm status and extended-study charges with SMU."
         },
         {
-          "id": "SG-SMU-P010-O2",
+          "id": "SG-SMU-P010-JAN2027-PT",
           "mode": "Part-time",
-          "duration": "2–2.5 years",
-          "intake": "January or August annually; year to confirm",
+          "duration": "Minimum 2 years; normal 2.5 years; maximum 5 years",
+          "intake": "January 2027",
+          "applicationOpen": null,
           "deadline": null,
-          "deadlineNote": "Recurring closing dates: 31 October (January); 31 May (August); year unconfirmed.",
-          "academicYear": "Current page; applicable tuition cohort to confirm",
+          "deadlineNote": "The application page lists 1 June–31 October for January, without a year. Billing dates identify this cohort but do not establish its dated application window. No ISO dates are inferred.",
+          "academicYear": "January 2027 intake",
           "currency": "SGD",
           "tuition": 56680,
-          "feeBasis": "Displayed programme tuition including GST; applicable cohort still requires confirmation"
+          "feeBasis": "Tuition includes 9% GST; books/materials excluded. Separate application fee: SGD 100 including GST. Registration: SC/PR SGD 400, foreigners SGD 500; confirm tax basis. SGD 10,000 deposit is part of tuition, not an extra charge. Confirm status and extended-study charges with SMU."
+        },
+        {
+          "id": "SG-SMU-P010-AUG2027-FT",
+          "mode": "Full-time",
+          "duration": "Minimum 1 year; normal 1.5 years; maximum 3 years",
+          "intake": "August 2027",
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "The application page lists 1 September–31 May for August; the FAQ instead starts in January. Neither states the window year. Confirm the applicable opening and closing dates with SMU; fee/billing years do not resolve this conflict.",
+          "academicYear": "August 2027 intake",
+          "currency": "SGD",
+          "tuition": 56680,
+          "feeBasis": "Indicative tuition includes 9% GST; subject to revision; books/materials excluded. Separate application fee: SGD 100 including GST. Annual miscellaneous fees replace registration: SC/PR SGD 400, foreigners SGD 480, excluding GST. SGD 8,000 deposit is part of tuition, not extra. Confirm status and extended-study charges with SMU."
+        },
+        {
+          "id": "SG-SMU-P010-AUG2027-PT",
+          "mode": "Part-time",
+          "duration": "Minimum 2 years; normal 2.5 years; maximum 5 years",
+          "intake": "August 2027",
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "The application page lists 1 September–31 May for August; the FAQ instead starts in January. Neither states the window year. Confirm the applicable opening and closing dates with SMU; fee/billing years do not resolve this conflict.",
+          "academicYear": "August 2027 intake",
+          "currency": "SGD",
+          "tuition": 56680,
+          "feeBasis": "Indicative tuition includes 9% GST; subject to revision; books/materials excluded. Separate application fee: SGD 100 including GST. Annual miscellaneous fees replace registration: SC/PR SGD 400, foreigners SGD 480, excluding GST. SGD 8,000 deposit is part of tuition, not extra. Confirm status and extended-study charges with SMU."
         }
       ],
       "rules": [
@@ -2239,8 +2267,8 @@
           "kind": "manual",
           "labelZh": "Additional condition 1",
           "labelEn": "Additional condition 1",
-          "noteZh": "Admission test or institution-specific GPA exemption, English waiver and interview require checking.",
-          "noteEn": "Admission test or institution-specific GPA exemption, English waiver and interview require checking.",
+          "noteZh": "",
+          "noteEn": "Confirm the admission-test route, discretionary GPA substitution, English-medium waiver, accepted test format/validity and interview. The listed SMUAT score is 56; GMAT/GRE are alternatives. No test waiver is automatically granted here.",
           "mandatory": true,
           "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
         }
@@ -2248,15 +2276,20 @@
       "sources": [
         {
           "url": "https://masters.smu.edu.sg/programme/master-of-it-in-business",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Admissions, duration and intake-specific fees/billing",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/MITB/Apply_Now",
+          "purpose": "Recurring application windows; year not stated",
+          "checkedOn": "2026-10-20"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "smu-mitb-refresh-2026-10-20",
       "fieldStatus": {
         "academicYear": {
-          "status": "unknown",
-          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "status": "known",
+          "noteEn": "The fee/payment schedule names January and August 2027 separately; this is not dated application-window evidence.",
           "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
         },
         "major": {
@@ -2275,14 +2308,14 @@
           "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "An amount appears on the current webpage, but its applicable cohort needs confirmation.",
+          "status": "known",
+          "noteEn": "Keep each intake's separate charges and deposit treatment. August tuition is indicative; no discounts, category or all-in cost is inferred.",
           "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
         },
         "deadline": {
           "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
-          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business"
+          "noteEn": "Yearless recurring windows and a conflicting August opening month remain unresolved, even though fee cohorts are identified.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/MITB/Apply_Now"
         },
         "independentReview": {
           "status": "unknown",
