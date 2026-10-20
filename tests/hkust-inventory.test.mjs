@@ -76,7 +76,7 @@ test('new directory year cannot relabel older checked admissions or offering amo
     assert.ok(current.directoryListing.programmeUrl.includes('/2027-28/'));
     assert.ok(current.officialUrl.includes('/2026-27/'));
     assert.match(current.directoryListing.noteEn, /does not refresh older-cycle/);
-    const q = db.quality(); assert.equal(q.total, 704); assert.equal(q.browsable, 701); assert.equal(q.checked, 21); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.transferOnly, 1); assert.deepEqual(q.sourceRefreshConflicts, []);
+    const q = db.quality(); assert.equal(q.total, 793); assert.equal(q.browsable, 790); assert.equal(q.checked, 21); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.transferOnly, 1); assert.deepEqual(q.sourceRefreshConflicts, []);
   } finally { db.close(); }
 });
 

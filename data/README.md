@@ -31,7 +31,9 @@
 
 ## 采集流程
 
-2026-10-20 本地最新：总库 704 条，默认浏览 701 条，项目页已查 21，独立复核和完整条件仍为 0。HKUST 以香港五学院、2027/28、非研究型及 Show All 筛选读到 55 行；排除 2 个 DBA、保留 4 个联合／实习交付待确认案例、合并普通 MBA 的格式版本后得到 48 个候选组，3 个沿用原 ID、新增 45 条未核验线索。硕士／PGD 共用页不额外增加文凭记录，DISC 的既有 MEng 转入 ID 不变。见 [HKUST 目录记录](../docs/research/hkust-directory-pass-2026-10-20.md)；`node scripts/build-hkust-directory-inventory.mjs` 从冻结快照重建派生数据，不再次联网。
+2026-10-20 本地最新：总库 793 条，默认浏览 790 条，项目页已查 21，独立复核和完整条件仍为 0。PolyU 两批目录共 169 行，排除 18 个博士条目、保留 12 个组合／联合／交付或停招／关闭待确认条目后，按入学批次和部分 stream 保守分为 100 个候选组；11 个沿用原 ID、新增 89 条未核验线索。4 个候选组保留待批准提示；一月 2027 与九月 2027 的链接不共用招生周期或条件。见 [PolyU 目录记录](../docs/research/polyu-directory-pass-2026-10-20.md)；`node scripts/build-polyu-directory-inventory.mjs` 从冻结快照重建派生数据，不再次联网。
+
+同日较早的 HKUST 轮次：总库当时为 704 条，默认浏览 701 条。HKUST 以香港五学院、2027/28、非研究型及 Show All 筛选读到 55 行；排除 2 个 DBA、保留 4 个联合／实习交付待确认案例、合并普通 MBA 的格式版本后得到 48 个候选组，3 个沿用原 ID、新增 45 条未核验线索。硕士／PGD 共用页不额外增加文凭记录，DISC 的既有 MEng 转入 ID 不变。见 [HKUST 目录记录](../docs/research/hkust-directory-pass-2026-10-20.md)；`node scripts/build-hkust-directory-inventory.mjs` 从冻结快照重建派生数据，不再次联网。
 
 同日较早的 EdUHK 轮次：总库当时为 659 条，默认浏览 656 条。EdUHK 的 79 个授课目录条目包含 1 个证书、10 个无链接待批准硕士及 9 对语言版本；保守分组后有 59 个带链接的候选组，3 个沿用原 ID，新增 56 条未核验线索。另有 7 个带链接候选组仍待学校批准。见 [EdUHK 目录记录](../docs/research/eduhk-directory-pass-2026-10-20.md)；运行 `node scripts/build-eduhk-directory-inventory.mjs` 可从冻结快照重建派生数据，不再次联网采集。
 

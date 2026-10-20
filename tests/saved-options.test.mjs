@@ -133,7 +133,7 @@ test('reopening recomputes date comparison instead of retaining an old availabil
 });
 test('storage never becomes a source update or a database profile table', async () => {
   const before = JSON.stringify(store.get(id)); await resolved([saved]);
-  assert.equal(JSON.stringify(store.get(id)), before); assert.equal(store.quality().total, 704);
+  assert.equal(JSON.stringify(store.get(id)), before); assert.equal(store.quality().total, 793);
   assert.equal(store.db.prepare("SELECT name FROM sqlite_master WHERE type='table'").all().some(t => /saved|profile|student/.test(t.name)), false);
 });
 test('export uses current facts, retained choices and no student background', async () => {
