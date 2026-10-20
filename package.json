@@ -1,9 +1,9 @@
 {
   "name": "hk-sg-masters-platform",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "type": "module",
-  "description": "Week 5 interface and data design with a limited programme-screening proof of concept",
+  "description": "Study Week data refresh on the limited Week 5 programme-screening pilot",
   "engines": { "node": ">=24" },
   "scripts": {
     "start": "node server/index.mjs",

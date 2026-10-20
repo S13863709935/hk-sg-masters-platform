@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-06",
+  "checkedOn": "2026-10-20",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -2007,38 +2007,40 @@
       "officialUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "Current page; applicable tuition cohort to confirm",
+      "lastChecked": "2026-10-20",
+      "academicYear": "August 2027 intake",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "GPA 3.0/4 and 3.5/5 apply to admission-test exemptions for named local-university graduates, not all applicants. Scholarships use other GPAs; none are generic entry cutoffs.",
+      "notesEn": "GPA 3.0/4 and 3.5/5 concern named-university test exemptions, not general entry cutoffs. Exemptions remain discretionary. Dated August 2027 admissions phases take precedence over the undated May/June FAQ. No independent review is recorded.",
       "offerings": [
         {
           "id": "SG-SMU-P001-O1",
           "mode": "Full-time",
           "duration": "18 months; possible 12-month completion",
-          "intake": "August annually; year to confirm",
-          "deadline": null,
-          "deadlineNote": "Central directory: May closing month, year and day unconfirmed.",
-          "academicYear": "Current page; applicable tuition cohort to confirm",
+          "intake": "August 2027",
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-30",
+          "deadlineNote": "Phase 1: 1 Sep–31 Dec 2026; phase 2: 1 Jan–31 Mar 2027; phase 3: 1 Apr–30 Jun 2027. Supporting documents are due by the relevant phase deadline. Exact cutoff time and live portal availability are not verified.",
+          "academicYear": "August 2027 intake",
           "currency": "SGD",
           "tuition": 58860,
-          "feeBasis": "Displayed total tuition including GST; applicable cohort still requires confirmation"
+          "feeBasis": "Total tuition including GST; subject to revision. Separate application fee: SGD 100. Annual miscellaneous fees exclude GST: SC/PR SGD 400, international SGD 480. The SGD 8,000 deposit counts toward tuition; it is not added again. Applicant status needs university confirmation."
         },
         {
           "id": "SG-SMU-P001-O2",
           "mode": "Part-time",
           "duration": "24 months",
-          "intake": "August annually; year to confirm",
-          "deadline": null,
-          "deadlineNote": "Central directory: May closing month, year and day unconfirmed.",
-          "academicYear": "Current page; applicable tuition cohort to confirm",
+          "intake": "August 2027",
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-30",
+          "deadlineNote": "Phase 1: 1 Sep–31 Dec 2026; phase 2: 1 Jan–31 Mar 2027; phase 3: 1 Apr–30 Jun 2027. Supporting documents are due by the relevant phase deadline. Exact cutoff time and live portal availability are not verified.",
+          "academicYear": "August 2027 intake",
           "currency": "SGD",
           "tuition": 58860,
-          "feeBasis": "Displayed total tuition including GST; applicable cohort still requires confirmation"
+          "feeBasis": "Total tuition including GST; subject to revision. Separate application fee: SGD 100. Annual miscellaneous fees exclude GST: SC/PR SGD 400, international SGD 480. The SGD 8,000 deposit counts toward tuition; it is not added again. Applicant status needs university confirmation."
         }
       ],
       "rules": [
@@ -2080,8 +2082,17 @@
           "kind": "manual",
           "labelZh": "Additional condition 1",
           "labelEn": "Additional condition 1",
-          "noteZh": "Mathematics prerequisites, admission test or institution-specific exemption, and shortlisted interview need checking.",
-          "noteEn": "Mathematics prerequisites, admission test or institution-specific exemption, and shortlisted interview need checking.",
+          "noteZh": "",
+          "noteEn": "Confirm the admission test or discretionary institution-specific exemption, mathematics preparation and shortlisted interview with SMU.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English waiver and test validity",
+          "noteZh": "",
+          "noteEn": "Confirm any English-medium waiver. IELTS/TOEFL validity is two years at application submission, not today's date; meeting a score alone is insufficient.",
           "mandatory": true,
           "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
         }
@@ -2089,15 +2100,20 @@
       "sources": [
         {
           "url": "https://masters.smu.edu.sg/programme/master-of-professional-accounting",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Admissions, study modes and fee caveats",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/MPA/apply_now",
+          "purpose": "Dated August 2027 application phases",
+          "checkedOn": "2026-10-20"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "smu-mpa-refresh-2026-10-20",
       "fieldStatus": {
         "academicYear": {
-          "status": "unknown",
-          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "status": "known",
+          "noteEn": "August 2027 cohort; do not reuse these dates for another intake.",
           "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
         },
         "major": {
@@ -2116,14 +2132,14 @@
           "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "An amount appears on the current webpage, but its applicable cohort needs confirmation.",
+          "status": "known",
+          "noteEn": "Published tuition is not an all-in cost or a guaranteed quote; retain the separate fees and revision caveats.",
           "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
-          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting"
+          "status": "known",
+          "noteEn": "Dated phase schedule recorded; cutoff time, extensions and portal availability remain unverified.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/MPA/apply_now"
         },
         "independentReview": {
           "status": "unknown",
