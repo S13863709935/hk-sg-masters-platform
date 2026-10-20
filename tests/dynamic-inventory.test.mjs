@@ -58,7 +58,7 @@ test('Duke-NUS source-domain support does not add another target university or a
   assert.equal(isOfficialUrl('https://not-duke-nus.edu.sg/'),false);
 });
 test('grouped routes have explicit evidence and English labels, not shared criteria', () => {
-  assert.equal(links.listings.length,207);
+  assert.equal(links.listings.filter(l=>l.programmeId.startsWith('SG-')).length,207);
   for (const listing of links.listings) { validateDirectoryListing(listing); assert.equal(/\p{Script=Han}/u.test(listing.nameEn+listing.noteEn+listing.variants.map(v=>v.nameEn).join('')),false); }
   assert.equal(links.listings.find(l=>l.nameEn==='Master of Laws').variants.length,8);
   assert.equal(links.listings.find(l=>l.nameEn==='Master of Education').variants.length,16);
@@ -70,7 +70,7 @@ test('153 new leads remain unreviewed and source overlays preserve all checked r
   assert.ok(additions.every(p=>p.verification==='catalogue_seed' && p.rules.length===0 && p.academicYear===null && p.reviewer===null));
   const db=new CatalogueStore(':memory:',options);
   try {
-    const q=db.quality(); assert.equal(q.total,551);assert.equal(q.browsable,548);assert.equal(q.checked,21);assert.equal(q.peerReviewed,0);assert.equal(q.complete,0);
+    const q=db.quality(); assert.equal(q.total,603);assert.equal(q.browsable,600);assert.equal(q.checked,21);assert.equal(q.peerReviewed,0);assert.equal(q.complete,0);
     for (const original of read('data/checked-programmes.json').programmes) {
       const current=db.get(original.id); assert.deepEqual(current.rules,original.rules);assert.deepEqual(current.offerings,original.offerings);assert.equal(current.lastChecked,original.lastChecked);assert.equal(current.name,original.name);
     }

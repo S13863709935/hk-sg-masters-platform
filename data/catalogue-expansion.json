@@ -1,8 +1,2192 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-13",
+  "checkedOn": "2026-10-20",
   "description": "Unreviewed additions across frozen directory passes; immutable original seed retained.",
   "programmes": [
+    {
+      "id": "HK-CITYU-P011",
+      "universityId": "HK-CITYU",
+      "name": "MA Applied Social Sciences",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p77",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P011-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P012",
+      "universityId": "HK-CITYU",
+      "name": "MA Chinese and History",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-chinese-and-history/p34",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P012-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P013",
+      "universityId": "HK-CITYU",
+      "name": "MA Communication and New Media",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-media-and-communication/p25",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P013-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P014",
+      "universityId": "HK-CITYU",
+      "name": "MA Creative Media",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-creative-media/school-of-creative-media/p81",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P014-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P015",
+      "universityId": "HK-CITYU",
+      "name": "MA English Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-english/p40",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P015-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P016",
+      "universityId": "HK-CITYU",
+      "name": "MA Global Business Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P016-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P017",
+      "universityId": "HK-CITYU",
+      "name": "MA Housing and Urban Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p78",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P017-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P018",
+      "universityId": "HK-CITYU",
+      "name": "MA Integrated Marketing Communication",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-media-and-communication/p39",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P018-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P019",
+      "universityId": "HK-CITYU",
+      "name": "MA International Accounting",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P019-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P020",
+      "universityId": "HK-CITYU",
+      "name": "MA International Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p38",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P020-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P021",
+      "universityId": "HK-CITYU",
+      "name": "MA Language Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-linguistics-and-translation/p30",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P021-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P022",
+      "universityId": "HK-CITYU",
+      "name": "Master of Architecture",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P022-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P023",
+      "universityId": "HK-CITYU",
+      "name": "Master of Laws",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p46",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P023-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P024",
+      "universityId": "HK-CITYU",
+      "name": "Master of Laws in Arbitration and Dispute Resolution",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p41",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P024-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P025",
+      "universityId": "HK-CITYU",
+      "name": "Master of Public Health",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/jockey-club-college-of-veterinary-medicine-and-life-sciences/department-of-infectious-diseases-and-public-health/p96",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P025-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P026",
+      "universityId": "HK-CITYU",
+      "name": "Master of Social Work",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p71",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P026-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P027",
+      "universityId": "HK-CITYU",
+      "name": "Master of Urban Design and Regional Planning",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P027-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P028",
+      "universityId": "HK-CITYU",
+      "name": "Master of Veterinary Medicine",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/jockey-club-college-of-veterinary-medicine-and-life-sciences/department-of-veterinary-clinical-sciences/p99",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P028-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P029",
+      "universityId": "HK-CITYU",
+      "name": "MFA Creative Media",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-creative-media/school-of-creative-media/p80",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P029-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P030",
+      "universityId": "HK-CITYU",
+      "name": "MSc AI-Driven Innovation",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P030-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P031",
+      "universityId": "HK-CITYU",
+      "name": "MSc Artificial Intelligence",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P031-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P032",
+      "universityId": "HK-CITYU",
+      "name": "MSc Artificial Intelligence for Sciences",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P032-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P033",
+      "universityId": "HK-CITYU",
+      "name": "MSc Artificial Intelligence in Business",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P033-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P034",
+      "universityId": "HK-CITYU",
+      "name": "MSc Biomedical Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P034-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P035",
+      "universityId": "HK-CITYU",
+      "name": "MSc Biostatistics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P035-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P036",
+      "universityId": "HK-CITYU",
+      "name": "MSc Business and Data Analytics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p84",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P036-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P037",
+      "universityId": "HK-CITYU",
+      "name": "MSc Business Information Systems",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Conservative grouping of directory language/stream routes, not a confirmed award count or interchangeable admissions criteria. Verify the specific route before any eligibility conclusion. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P037-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P038",
+      "universityId": "HK-CITYU",
+      "name": "MSc Chemistry",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P038-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P039",
+      "universityId": "HK-CITYU",
+      "name": "MSc Computer and Information Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P039-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P040",
+      "universityId": "HK-CITYU",
+      "name": "MSc Cybersecurity",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P040-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P041",
+      "universityId": "HK-CITYU",
+      "name": "MSc Data Science",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P041-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P042",
+      "universityId": "HK-CITYU",
+      "name": "MSc Electrical and Electronic Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P042-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P043",
+      "universityId": "HK-CITYU",
+      "name": "MSc Energy and Environment",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P043-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P044",
+      "universityId": "HK-CITYU",
+      "name": "MSc Engineering Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P044-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P045",
+      "universityId": "HK-CITYU",
+      "name": "MSc Finance",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P045-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P046",
+      "universityId": "HK-CITYU",
+      "name": "MSc Financial Mathematics and Statistics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P046-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P047",
+      "universityId": "HK-CITYU",
+      "name": "MSc FinTech and Digital Assets",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P047-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P048",
+      "universityId": "HK-CITYU",
+      "name": "MSc Health Sciences and Biomedicine",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P048-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P049",
+      "universityId": "HK-CITYU",
+      "name": "MSc Intelligent Construction and Project Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P049-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P050",
+      "universityId": "HK-CITYU",
+      "name": "MSc Intelligent Semiconductor Manufacturing",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P050-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P051",
+      "universityId": "HK-CITYU",
+      "name": "MSc Management and Innovation",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P051-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P052",
+      "universityId": "HK-CITYU",
+      "name": "MSc Marketing",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P052-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P053",
+      "universityId": "HK-CITYU",
+      "name": "MSc Materials Science and Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P053-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P054",
+      "universityId": "HK-CITYU",
+      "name": "MSc Mechanical Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P054-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P055",
+      "universityId": "HK-CITYU",
+      "name": "MSc Neuroscience",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P055-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P056",
+      "universityId": "HK-CITYU",
+      "name": "MSc Operations and Supply Chain Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P056-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P057",
+      "universityId": "HK-CITYU",
+      "name": "MSc Physics with Data Modelling and Quantum Technologies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P057-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P058",
+      "universityId": "HK-CITYU",
+      "name": "MSc Venture Creation",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P058-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P059",
+      "universityId": "HK-CITYU",
+      "name": "MSocSc Counselling",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p20",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P059-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P060",
+      "universityId": "HK-CITYU",
+      "name": "MSocSc Cross Sectoral Leadership (Taught in Chinese)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/college-of-liberal-arts-and-social-sciences/p92",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P060-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P061",
+      "universityId": "HK-CITYU",
+      "name": "MSocSc Psychology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p76",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P061-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
+    {
+      "id": "HK-CITYU-P062",
+      "universityId": "HK-CITYU",
+      "name": "MSocSc Sustainability and Development Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p37",
+      "verification": "catalogue_seed",
+      "sourceStatus": "Official taught directory listing; admissions unreviewed",
+      "lastChecked": "2026-10-20",
+      "academicYear": null,
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "unreviewed",
+      "collector": "AI-assisted CityU directory reconciliation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Official directory title and link only; intake-specific admissions, fees, dates and delivery still require checks. Directory presence does not prove applications are open.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P062-catalogue",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "deadline": null,
+          "currency": null,
+          "tuition": null,
+          "feeBasis": null,
+          "academicYear": null
+        }
+      ],
+      "rules": [],
+      "sources": [
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "Official taught directory listing only",
+          "checkedOn": "2026-10-20"
+        }
+      ],
+      "inventoryBatch": "2026-10-20",
+      "inventoryPass": "cityu-directory"
+    },
     {
       "id": "HK-CUHK-P021",
       "universityId": "HK-CUHK",

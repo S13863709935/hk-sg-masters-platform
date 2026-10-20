@@ -1,0 +1,1561 @@
+{
+  "schemaVersion": 1,
+  "universityId": "HK-CITYU",
+  "checkedOn": "2026-10-20",
+  "sourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+  "sourceHeading": "Programme List (2027/28)",
+  "observationRowsSha256": "8d242aaa2db8101381e0c0a8f101f55366f9cfc48caa26c5277bd5dca61d7a20",
+  "verificationLevel": "AI-assisted directory reconciliation; not independent human review",
+  "countingUnit": "Unique admission codes first; conservative language/stream groups are candidate parents, not confirmed distinct awards. Modes/intakes and repeated department rows do not add programmes.",
+  "rawRowCount": 72,
+  "uniqueCodeCount": 69,
+  "duplicateRowCount": 3,
+  "excludedCodeCount": 4,
+  "heldCodeCount": 2,
+  "candidateGroupCount": 61,
+  "confirmedProgrammeCount": null,
+  "entries": [
+    {
+      "code": "P88",
+      "rawName": "MSc Venture Creation",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P058"
+    },
+    {
+      "code": "P69",
+      "rawName": "MSc Biomedical Engineering",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P034"
+    },
+    {
+      "code": "P95",
+      "rawName": "MSc Health Sciences and Biomedicine",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "30 Apr 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P048"
+    },
+    {
+      "code": "P98",
+      "rawName": "MSc Neuroscience",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "30 Apr 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P055"
+    },
+    {
+      "code": "P01A",
+      "rawName": "Executive Master of Business Administration (Taught in Chinese)",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "20 Aug 2027",
+        "nonLocalLabel": "14 Jul 2027",
+        "sharedCell": false
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P003"
+    },
+    {
+      "code": "P01B",
+      "rawName": "Executive Master of Business Administration* (Taught in Chinese)",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01b",
+      "occurrences": 1,
+      "modeLabel": "Part-time",
+      "directoryDates": {
+        "localLabel": "31 Jul 2027",
+        "nonLocalLabel": "30 Jun 2027",
+        "sharedCell": false
+      },
+      "decision": "needs_partner_reconciliation",
+      "reasonEn": "A Chinese EMBA concentration with an optional separately admitted Tsinghua MPA. Award, partner and delivery boundaries need reconciliation; do not count another standalone EMBA or MPA.",
+      "relatedSeedId": "HK-CITYU-P003"
+    },
+    {
+      "code": "P11",
+      "rawName": "Master of Business Administration",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "18 Nov 2026",
+        "nonLocalLabel": "18 Nov 2026",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P002"
+    },
+    {
+      "code": "P12",
+      "rawName": "Executive Master of Business Administration (EMBA)",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "10 Dec 2026",
+        "nonLocalLabel": "10 Dec 2026",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P003"
+    },
+    {
+      "code": "P84",
+      "rawName": "MSc Business and Data Analytics",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p84",
+      "occurrences": 3,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "30 Apr 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P036"
+    },
+    {
+      "code": "P94",
+      "rawName": "MSc FinTech and Digital Assets",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "31 Dec 2026",
+        "nonLocalLabel": "31 Dec 2026",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P047"
+    },
+    {
+      "code": "P02",
+      "rawName": "MA International Accounting",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P019"
+    },
+    {
+      "code": "P10",
+      "rawName": "MSc Professional Accounting and Corporate Governance",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P001"
+    },
+    {
+      "code": "P83",
+      "rawName": "MSc Accounting and Finance with AI and Fintech Applications* [Taught in Chinese]",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p83",
+      "occurrences": 1,
+      "modeLabel": "Part-time",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "exclude_mainland_delivery",
+      "reasonEn": "The official programme page states that most classes are taught in Beijing, in collaboration with BNAI; excluded from Hong Kong/Singapore delivery scope."
+    },
+    {
+      "code": "P09",
+      "rawName": "MSc Operations and Supply Chain Management",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "30 Apr 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P056"
+    },
+    {
+      "code": "P04",
+      "rawName": "MSc Finance",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P045"
+    },
+    {
+      "code": "P13",
+      "rawName": "MSc Applied Economics",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P004"
+    },
+    {
+      "code": "P15",
+      "rawName": "MSc Financial Engineering",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P005"
+    },
+    {
+      "code": "P05A",
+      "rawName": "MSc Business Information Systems (Management of Intelligent Systems Stream)",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P037"
+    },
+    {
+      "code": "P05B",
+      "rawName": "MSc Business Information Systems (Financial and Intelligent Technology Stream)",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P037"
+    },
+    {
+      "code": "P16",
+      "rawName": "MSc Digital Transformation and Technological Innovation",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Jul 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": false
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P006"
+    },
+    {
+      "code": "P17",
+      "rawName": "MSc Digital Commerce and Computing*",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17",
+      "occurrences": 2,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed. The programme page explicitly says the title is subject to University approval; the asterisk is not treated as approval of all other starred programmes.",
+      "pendingTitleApproval": true,
+      "programmeId": "HK-CITYU-P007"
+    },
+    {
+      "code": "P85",
+      "rawName": "MSc Artificial Intelligence in Business",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P033"
+    },
+    {
+      "code": "P07",
+      "rawName": "MA Global Business Management",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": false
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P016"
+    },
+    {
+      "code": "P19",
+      "rawName": "MSc Management and Innovation",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": false
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P051"
+    },
+    {
+      "code": "P18",
+      "rawName": "MSc Marketing",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "30 Jun 2027",
+        "nonLocalLabel": "02 Jun 2027",
+        "sharedCell": false
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P052"
+    },
+    {
+      "code": "P97",
+      "rawName": "MSc Biostatistics",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Jan 2027",
+        "nonLocalLabel": "31 Jan 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P035"
+    },
+    {
+      "code": "P53",
+      "rawName": "MSc Computer Science",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P010"
+    },
+    {
+      "code": "P75",
+      "rawName": "MSc Artificial Intelligence",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P031"
+    },
+    {
+      "code": "P91",
+      "rawName": "MSc Cybersecurity",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P040"
+    },
+    {
+      "code": "P70",
+      "rawName": "MSc Data Science",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P041"
+    },
+    {
+      "code": "P79",
+      "rawName": "MSc Artificial Intelligence for Sciences",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P032"
+    },
+    {
+      "code": "P52",
+      "rawName": "MSc Intelligent Construction and Project Management",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P049"
+    },
+    {
+      "code": "P60",
+      "rawName": "MSc Civil Infrastructure and Building Sustainability",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "needs_identity_reconciliation",
+      "reasonEn": "Current Civil Infrastructure and Building Sustainability title differs from the existing Civil and Architectural Engineering seed. No formal rename/alias has been established; do not silently relabel or add a potential duplicate.",
+      "relatedSeedId": "HK-CITYU-P009"
+    },
+    {
+      "code": "P64",
+      "rawName": "Master of Urban Design and Regional Planning",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P027"
+    },
+    {
+      "code": "P82",
+      "rawName": "Master of Architecture",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P022"
+    },
+    {
+      "code": "P54",
+      "rawName": "MSc Electrical and Electronic Engineering",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P042"
+    },
+    {
+      "code": "P59",
+      "rawName": "MSc Computer and Information Engineering",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P039"
+    },
+    {
+      "code": "P58",
+      "rawName": "MSc Materials Science and Engineering",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P053"
+    },
+    {
+      "code": "P66",
+      "rawName": "MSc Mechanical Engineering",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P054"
+    },
+    {
+      "code": "P56",
+      "rawName": "MSc Engineering Management",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P044"
+    },
+    {
+      "code": "P86",
+      "rawName": "MSc Intelligent Semiconductor Manufacturing",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P050"
+    },
+    {
+      "code": "P89",
+      "rawName": "MSc AI-Driven Innovation",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Jan 2027",
+        "nonLocalLabel": "31 Jan 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P030"
+    },
+    {
+      "code": "P92",
+      "rawName": "MSocSc Cross Sectoral Leadership (Taught in Chinese)",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/college-of-liberal-arts-and-social-sciences/p92",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P060"
+    },
+    {
+      "code": "P34",
+      "rawName": "MA Chinese and History",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-chinese-and-history/p34",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P012"
+    },
+    {
+      "code": "P40",
+      "rawName": "MA English Studies",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-english/p40",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P015"
+    },
+    {
+      "code": "P30",
+      "rawName": "MA Language Studies",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-linguistics-and-translation/p30",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P021"
+    },
+    {
+      "code": "P25",
+      "rawName": "MA Communication and New Media",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-media-and-communication/p25",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P013"
+    },
+    {
+      "code": "P39",
+      "rawName": "MA Integrated Marketing Communication",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-media-and-communication/p39",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P018"
+    },
+    {
+      "code": "P27",
+      "rawName": "MA Public Policy and Management",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p27",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P008"
+    },
+    {
+      "code": "P37",
+      "rawName": "MSocSc Sustainability and Development Studies",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p37",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P062"
+    },
+    {
+      "code": "P38",
+      "rawName": "MA International Studies",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p38",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P020"
+    },
+    {
+      "code": "P78",
+      "rawName": "MA Housing and Urban Management",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p78",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P017"
+    },
+    {
+      "code": "P20",
+      "rawName": "MSocSc Counselling",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p20",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "30 Nov 2026",
+        "nonLocalLabel": "30 Nov 2026",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P059"
+    },
+    {
+      "code": "P71",
+      "rawName": "Master of Social Work",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p71",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Dec 2026",
+        "nonLocalLabel": "31 Dec 2026",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P026"
+    },
+    {
+      "code": "P76",
+      "rawName": "MSocSc Psychology",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p76",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P061"
+    },
+    {
+      "code": "P77",
+      "rawName": "MA Applied Social Sciences",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p77",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P011"
+    },
+    {
+      "code": "P67",
+      "rawName": "MSc Chemistry",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P038"
+    },
+    {
+      "code": "P68",
+      "rawName": "MSc Financial Mathematics and Statistics",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Jan 2027",
+        "nonLocalLabel": "31 Jan 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P046"
+    },
+    {
+      "code": "P50",
+      "rawName": "MSc Physics with Data Modelling and Quantum Technologies",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P057"
+    },
+    {
+      "code": "P96",
+      "rawName": "Master of Public Health",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/jockey-club-college-of-veterinary-medicine-and-life-sciences/department-of-infectious-diseases-and-public-health/p96",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "28 Feb 2027",
+        "nonLocalLabel": "28 Feb 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P025"
+    },
+    {
+      "code": "P99",
+      "rawName": "Master of Veterinary Medicine",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/jockey-club-college-of-veterinary-medicine-and-life-sciences/department-of-veterinary-clinical-sciences/p99",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "30 Apr 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P028"
+    },
+    {
+      "code": "P80",
+      "rawName": "MFA Creative Media",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-creative-media/school-of-creative-media/p80",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P029"
+    },
+    {
+      "code": "P81",
+      "rawName": "MA Creative Media",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-creative-media/school-of-creative-media/p81",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 Mar 2027",
+        "nonLocalLabel": "31 Mar 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P014"
+    },
+    {
+      "code": "P63",
+      "rawName": "MSc Energy and Environment",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P043"
+    },
+    {
+      "code": "P41",
+      "rawName": "Master of Laws in Arbitration and Dispute Resolution",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p41",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": false
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P024"
+    },
+    {
+      "code": "P43",
+      "rawName": "Juris Doctor",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p43",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "31 May 2027",
+        "nonLocalLabel": "31 May 2027",
+        "sharedCell": true
+      },
+      "decision": "exclude_non_master",
+      "reasonEn": "Juris Doctor or postgraduate certificate, outside the master-only scope."
+    },
+    {
+      "code": "P45",
+      "rawName": "Postgraduate Certificate in Laws",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p45",
+      "occurrences": 1,
+      "modeLabel": "Full-time",
+      "directoryDates": {
+        "localLabel": "30 Apr 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": true
+      },
+      "decision": "exclude_non_master",
+      "reasonEn": "Juris Doctor or postgraduate certificate, outside the master-only scope."
+    },
+    {
+      "code": "P46",
+      "rawName": "Master of Laws",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p46",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "30 Jun 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": false
+      },
+      "decision": "include_directory_lead",
+      "reasonEn": "Master title in the official taught directory; admissions and delivery details remain unreviewed.",
+      "programmeId": "HK-CITYU-P023"
+    },
+    {
+      "code": "P93",
+      "rawName": "Postgraduate Certificate in Patent Law",
+      "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p93",
+      "occurrences": 1,
+      "modeLabel": "Combined",
+      "directoryDates": {
+        "localLabel": "30 Jun 2027",
+        "nonLocalLabel": "30 Apr 2027",
+        "sharedCell": false
+      },
+      "decision": "exclude_non_master",
+      "reasonEn": "Juris Doctor or postgraduate certificate, outside the master-only scope."
+    }
+  ],
+  "candidates": [
+    {
+      "programmeId": "HK-CITYU-P003",
+      "name": "Executive Master of Business Administration",
+      "directoryCodes": [
+        "P01A",
+        "P12"
+      ],
+      "variants": [
+        {
+          "nameEn": "Executive Master of Business Administration (Taught in Chinese)",
+          "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a"
+        },
+        {
+          "nameEn": "Executive Master of Business Administration (EMBA)",
+          "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P011",
+      "name": "MA Applied Social Sciences",
+      "directoryCodes": [
+        "P77"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P012",
+      "name": "MA Chinese and History",
+      "directoryCodes": [
+        "P34"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P013",
+      "name": "MA Communication and New Media",
+      "directoryCodes": [
+        "P25"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P014",
+      "name": "MA Creative Media",
+      "directoryCodes": [
+        "P81"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P015",
+      "name": "MA English Studies",
+      "directoryCodes": [
+        "P40"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P016",
+      "name": "MA Global Business Management",
+      "directoryCodes": [
+        "P07"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P017",
+      "name": "MA Housing and Urban Management",
+      "directoryCodes": [
+        "P78"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P018",
+      "name": "MA Integrated Marketing Communication",
+      "directoryCodes": [
+        "P39"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P019",
+      "name": "MA International Accounting",
+      "directoryCodes": [
+        "P02"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P020",
+      "name": "MA International Studies",
+      "directoryCodes": [
+        "P38"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P021",
+      "name": "MA Language Studies",
+      "directoryCodes": [
+        "P30"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P008",
+      "name": "MA Public Policy and Management",
+      "directoryCodes": [
+        "P27"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P022",
+      "name": "Master of Architecture",
+      "directoryCodes": [
+        "P82"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P002",
+      "name": "Master of Business Administration",
+      "directoryCodes": [
+        "P11"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P023",
+      "name": "Master of Laws",
+      "directoryCodes": [
+        "P46"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P024",
+      "name": "Master of Laws in Arbitration and Dispute Resolution",
+      "directoryCodes": [
+        "P41"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P025",
+      "name": "Master of Public Health",
+      "directoryCodes": [
+        "P96"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P026",
+      "name": "Master of Social Work",
+      "directoryCodes": [
+        "P71"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P027",
+      "name": "Master of Urban Design and Regional Planning",
+      "directoryCodes": [
+        "P64"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P028",
+      "name": "Master of Veterinary Medicine",
+      "directoryCodes": [
+        "P99"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P029",
+      "name": "MFA Creative Media",
+      "directoryCodes": [
+        "P80"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P030",
+      "name": "MSc AI-Driven Innovation",
+      "directoryCodes": [
+        "P89"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P004",
+      "name": "MSc Applied Economics",
+      "directoryCodes": [
+        "P13"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P031",
+      "name": "MSc Artificial Intelligence",
+      "directoryCodes": [
+        "P75"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P032",
+      "name": "MSc Artificial Intelligence for Sciences",
+      "directoryCodes": [
+        "P79"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P033",
+      "name": "MSc Artificial Intelligence in Business",
+      "directoryCodes": [
+        "P85"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P034",
+      "name": "MSc Biomedical Engineering",
+      "directoryCodes": [
+        "P69"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P035",
+      "name": "MSc Biostatistics",
+      "directoryCodes": [
+        "P97"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P036",
+      "name": "MSc Business and Data Analytics",
+      "directoryCodes": [
+        "P84"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P037",
+      "name": "MSc Business Information Systems",
+      "directoryCodes": [
+        "P05A",
+        "P05B"
+      ],
+      "variants": [
+        {
+          "nameEn": "MSc Business Information Systems (Management of Intelligent Systems Stream)",
+          "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a"
+        },
+        {
+          "nameEn": "MSc Business Information Systems (Financial and Intelligent Technology Stream)",
+          "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P038",
+      "name": "MSc Chemistry",
+      "directoryCodes": [
+        "P67"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P039",
+      "name": "MSc Computer and Information Engineering",
+      "directoryCodes": [
+        "P59"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P010",
+      "name": "MSc Computer Science",
+      "directoryCodes": [
+        "P53"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P040",
+      "name": "MSc Cybersecurity",
+      "directoryCodes": [
+        "P91"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P041",
+      "name": "MSc Data Science",
+      "directoryCodes": [
+        "P70"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P007",
+      "name": "MSc Digital Commerce and Computing",
+      "directoryCodes": [
+        "P17"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P006",
+      "name": "MSc Digital Transformation and Technological Innovation",
+      "directoryCodes": [
+        "P16"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P042",
+      "name": "MSc Electrical and Electronic Engineering",
+      "directoryCodes": [
+        "P54"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P043",
+      "name": "MSc Energy and Environment",
+      "directoryCodes": [
+        "P63"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P044",
+      "name": "MSc Engineering Management",
+      "directoryCodes": [
+        "P56"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P045",
+      "name": "MSc Finance",
+      "directoryCodes": [
+        "P04"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P005",
+      "name": "MSc Financial Engineering",
+      "directoryCodes": [
+        "P15"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P046",
+      "name": "MSc Financial Mathematics and Statistics",
+      "directoryCodes": [
+        "P68"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P047",
+      "name": "MSc FinTech and Digital Assets",
+      "directoryCodes": [
+        "P94"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P048",
+      "name": "MSc Health Sciences and Biomedicine",
+      "directoryCodes": [
+        "P95"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P049",
+      "name": "MSc Intelligent Construction and Project Management",
+      "directoryCodes": [
+        "P52"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P050",
+      "name": "MSc Intelligent Semiconductor Manufacturing",
+      "directoryCodes": [
+        "P86"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P051",
+      "name": "MSc Management and Innovation",
+      "directoryCodes": [
+        "P19"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P052",
+      "name": "MSc Marketing",
+      "directoryCodes": [
+        "P18"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P053",
+      "name": "MSc Materials Science and Engineering",
+      "directoryCodes": [
+        "P58"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P054",
+      "name": "MSc Mechanical Engineering",
+      "directoryCodes": [
+        "P66"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P055",
+      "name": "MSc Neuroscience",
+      "directoryCodes": [
+        "P98"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P056",
+      "name": "MSc Operations and Supply Chain Management",
+      "directoryCodes": [
+        "P09"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P057",
+      "name": "MSc Physics with Data Modelling and Quantum Technologies",
+      "directoryCodes": [
+        "P50"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P001",
+      "name": "MSc Professional Accounting and Corporate Governance",
+      "directoryCodes": [
+        "P10"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P058",
+      "name": "MSc Venture Creation",
+      "directoryCodes": [
+        "P88"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P059",
+      "name": "MSocSc Counselling",
+      "directoryCodes": [
+        "P20"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P060",
+      "name": "MSocSc Cross Sectoral Leadership (Taught in Chinese)",
+      "directoryCodes": [
+        "P92"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P061",
+      "name": "MSocSc Psychology",
+      "directoryCodes": [
+        "P76"
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-CITYU-P062",
+      "name": "MSocSc Sustainability and Development Studies",
+      "directoryCodes": [
+        "P37"
+      ],
+      "variants": []
+    }
+  ]
+}

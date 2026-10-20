@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-13",
+  "checkedOn": "2026-10-20",
   "basis": {
     "HK": {
       "definition": "Eight UGC-funded universities; institutional boundary, not a claim that each master's course is subsidised",
@@ -22,13 +22,15 @@
       "directoryUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
       "fallbackUrl": null,
       "listingUrl": null,
-      "entryStatus": "search_index_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
+      "entryStatus": "entry_checked",
+      "checkedOn": "2026-10-20",
+      "enumerationStatus": "entries_enumerated",
       "confirmedProgrammeCount": null,
-      "visibleDirectoryResultCount": null,
+      "visibleDirectoryResultCount": 72,
       "existingSeedCount": 10,
-      "noteEn": "Original programme-search fetch returned 403. Official indexed master's list identifies 2027/28; programme details were read via the university's cb.cityu.edu.hk host. Full list still needs enumeration."
+      "noteEn": "All 72 visible 2027/28 table rows reconciled to 69 admission codes. Four codes excluded (JD, two certificates, mostly-Beijing delivery); two held for identity/partner checks. 61 conservative candidate groups after language/stream grouping, not a confirmed distinct-master total. Dates/modes remain raw observations, not checked admissions or live-portal evidence.",
+      "directoryMasterEntryCount": 65,
+      "inventoryFile": "data/research/cityu-programme-inventory-2026-10-20.json"
     },
     {
       "universityId": "HK-HKBU",

@@ -31,6 +31,8 @@
 
 ## 采集流程
 
+2026-10-20 本地最新：总库 603 条，默认浏览 600 条，项目页已查 21，独立复核和完整条件仍为 0。CityU 的 72 行目录先去重为 69 个代码，再排除 4 个范围外代码、保留 2 个待确认代码并进行保守的语言／stream 分组，形成 61 个候选组；其中 9 个沿用原 ID，52 个新增为未核验线索。候选组不是已确认的不同学位总数；旧 Civil 种子在改名未证实前保持原样。见 [本轮目录记录](../docs/research/cityu-directory-pass-2026-10-20.md)；运行 `node scripts/build-cityu-directory-inventory.mjs` 可从冻结快照确定性重建本轮派生数据，不再次联网采集。
+
 2026-10-08：新增 `catalogue-expansion.json`（186 条未核验目录线索），原始 175 条保留，总库 361 条，默认显示 360 条。HKBU、Lingnan、CUHK 的本轮目录计数分别为 49、44、129，排除及别名依据保存在 `research/programme-inventory-2026-10-08.json`。目录计数不表示当期开放申请或规则完整；PolyU 111 个硕士／组合条目尚不能作为精确项目总数。见 [本轮记录](../docs/research/directory-expansion-2026-10-08.md)。
 
 2026-10-06：`checked-programmes.json` 新增首批 20 个直接申请项目（全部 14 校）及其字段状态和来源，另保留 1 个转入限定项目。共 21 条项目页已查、0 条独立复核、0 条完整条件。`directory-audit.json` 记录入口问题及实际计数状态；SIT 的明确 coursework 表为 4 个硕士，其余学校全量枚举未完成。详见 [本批核查记录](../docs/research/official-data-pilot-2026-10-06.md)。

@@ -153,7 +153,7 @@ test('POST rejects stale, foreign and malformed choices even when filters would 
 test('raw export and quality totals do not include request-time selections', async () => {
   const d = await get('/api/export');
   assert.ok(d.programmes.every(p => p.selectedOffering === undefined && p.offeringOptions === undefined));
-  assert.equal(store.quality().total, 551);
+  assert.equal(store.quality().total, 603);
   assert.equal(store.quality().complete, 0);
   assert.equal(store.quality().peerReviewed, 0);
 });
