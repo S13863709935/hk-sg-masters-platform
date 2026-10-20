@@ -141,7 +141,7 @@ test('raw exports, original sources and original workbook-backed IDs remain unch
   assert.equal(JSON.stringify(store.get(id)), before);
   const raw = await get('/api/export'); assert.ok(raw.programmes.every(p => p.selectedApplicant === undefined && p.applicantEvidence === undefined));
   assert.equal(raw.programmes.find(p => p.id === id).offerings[0].tuition, 188888);
-  const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 3, categories: 6, peerReviewed: 0 }); assert.equal(meta.quality.total, 659);
+  const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 3, categories: 6, peerReviewed: 0 }); assert.equal(meta.quality.total, 704);
 });
 test('UI carries category context through matching, display and export without browser persistence', () => {
   const js = readFileSync(new URL('public/app.js', root), 'utf8');

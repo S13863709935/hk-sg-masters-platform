@@ -34,7 +34,7 @@ test('two CityU parents are refreshed without adding programmes or independent r
     assert.equal(p.verification, 'programme_page_checked'); assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
     assert.ok(p.sources.every(s => s.checkedOn === p.lastChecked));
   }
-  assert.equal(store.quality().total, 659); assert.equal(store.quality().checked, 21);
+  assert.equal(store.quality().total, 704); assert.equal(store.quality().checked, 21);
   assert.equal(store.quality().peerReviewed, 0); assert.equal(store.quality().complete, 0);
 });
 

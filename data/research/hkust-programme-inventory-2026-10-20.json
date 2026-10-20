@@ -1,0 +1,962 @@
+{
+  "schemaVersion": 1,
+  "universityId": "HK-HKUST",
+  "checkedOn": "2026-10-20",
+  "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog",
+  "catalogueYear": "2027-28",
+  "observationRowsSha256": "2259ee6c6027aaee2298d62ee63907947eed74a470b082fa3cf696428f8c732b",
+  "verificationLevel": "AI-assisted directory and boundary reconciliation; not independent human review",
+  "countingUnit": "Filtered Hong Kong-school taught rows. DBA excluded, PGD components not separate masters, joint/delivery questions held and MBA study formats conservatively grouped. DISC MEng transfer identity is not another direct-entry lead.",
+  "rawRowCount": 55,
+  "excludedRowCount": 2,
+  "heldRowCount": 4,
+  "masterRowCount": 53,
+  "candidateGroupCount": 48,
+  "confirmedProgrammeCount": null,
+  "entries": [
+    {
+      "rowNumber": 1,
+      "department": "Chemistry",
+      "rawName": "Analytical Chemistry",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P014"
+    },
+    {
+      "rowNumber": 2,
+      "department": "Life Science",
+      "rawName": "Biotechnology",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P018"
+    },
+    {
+      "rowNumber": 3,
+      "department": "Life Science",
+      "rawName": "Drug Regulatory Affairs and Policy",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P022"
+    },
+    {
+      "rowNumber": 4,
+      "department": "Life Science",
+      "rawName": "Entrepreneurial Leadership in Biotechnology",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P026"
+    },
+    {
+      "rowNumber": 5,
+      "department": "Mathematics",
+      "rawName": "Financial Mathematics",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mafm/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P032"
+    },
+    {
+      "rowNumber": 6,
+      "department": "Mathematics",
+      "rawName": "Mathematics for Educators",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P045"
+    },
+    {
+      "rowNumber": 7,
+      "department": "Ocean Science",
+      "rawName": "Environmental Health and Safety",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P028"
+    },
+    {
+      "rowNumber": 8,
+      "department": "Ocean Science",
+      "rawName": "Global Marine Resources Management",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P035"
+    },
+    {
+      "rowNumber": 9,
+      "department": "Physics",
+      "rawName": "Data-Driven Modeling",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ddm/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P021"
+    },
+    {
+      "rowNumber": 10,
+      "department": "Physics",
+      "rawName": "Physics",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P047"
+    },
+    {
+      "rowNumber": 11,
+      "department": "School of Engineering",
+      "rawName": "Financial Technology",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fintech/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P033"
+    },
+    {
+      "rowNumber": 12,
+      "department": "Chemical and Biological Engineering",
+      "rawName": "Biomolecular Engineering and Health Informatics",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P017"
+    },
+    {
+      "rowNumber": 13,
+      "department": "Chemical and Biological Engineering",
+      "rawName": "Chemical and Energy Engineering",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P020"
+    },
+    {
+      "rowNumber": 14,
+      "department": "Chemical and Biological Engineering",
+      "rawName": "Materials Engineering",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P044"
+    },
+    {
+      "rowNumber": 15,
+      "department": "Civil and Environmental Engineering",
+      "rawName": "Civil Infrastructural Engineering and Management",
+      "awardLabel": "MSc / PGD",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "excludedAwardComponent": "PGD",
+      "programmeId": "HK-HKUST-P001"
+    },
+    {
+      "rowNumber": 16,
+      "department": "Civil and Environmental Engineering",
+      "rawName": "Digital and Sustainable Cities",
+      "awardLabel": "MSc / MEng",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks. Only MSc maps to the direct-entry parent; MEng is available to existing MSc students, not new admissions.",
+      "relatedTransferOnlyId": "HK-HKUST-P003",
+      "programmeId": "HK-HKUST-P002"
+    },
+    {
+      "rowNumber": 17,
+      "department": "Civil and Environmental Engineering",
+      "rawName": "Environmental Engineering and Management",
+      "awardLabel": "MSc / PGD",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "excludedAwardComponent": "PGD",
+      "programmeId": "HK-HKUST-P027"
+    },
+    {
+      "rowNumber": 18,
+      "department": "Computer Science and Engineering",
+      "rawName": "AI and Entrepreneurship",
+      "awardLabel": "MEng",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-aie/",
+      "decision": "hold_delivery_reconciliation",
+      "reasonEn": "The 2027/28 curriculum requires a year-long Shanghai internship. Hold for cross-region delivery/scope reconciliation, not because all MEng degrees are research or transfer-only."
+    },
+    {
+      "rowNumber": 19,
+      "department": "Computer Science and Engineering",
+      "rawName": "Artificial Intelligence",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P015"
+    },
+    {
+      "rowNumber": 20,
+      "department": "Computer Science and Engineering",
+      "rawName": "Big Data Technology",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P016"
+    },
+    {
+      "rowNumber": 21,
+      "department": "Computer Science and Engineering",
+      "rawName": "Information Technology",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P039"
+    },
+    {
+      "rowNumber": 22,
+      "department": "Electronic and Computer Engineering",
+      "rawName": "Electronic Engineering",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P024"
+    },
+    {
+      "rowNumber": 23,
+      "department": "Electronic and Computer Engineering",
+      "rawName": "Integrated Circuits",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P040"
+    },
+    {
+      "rowNumber": 24,
+      "department": "Electronic and Computer Engineering",
+      "rawName": "Telecommunications",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-telecom/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P049"
+    },
+    {
+      "rowNumber": 25,
+      "department": "Industrial Engineering and Decision Analytics",
+      "rawName": "Engineering Enterprise Management",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P025"
+    },
+    {
+      "rowNumber": 26,
+      "department": "Mechanical and Aerospace Engineering",
+      "rawName": "Aeronautical Engineering",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P013"
+    },
+    {
+      "rowNumber": 27,
+      "department": "Mechanical and Aerospace Engineering",
+      "rawName": "Intelligent Building Technology and Management",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P041"
+    },
+    {
+      "rowNumber": 28,
+      "department": "Mechanical and Aerospace Engineering",
+      "rawName": "Mechanical Engineering",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P046"
+    },
+    {
+      "rowNumber": 29,
+      "department": "School of Business and Management",
+      "rawName": "Bilingual Doctor of Business Administration (Bilingual DBA)",
+      "awardLabel": "DBA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/bilingual-dba/",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctor of Business Administration is not a master, despite appearing under the taught filter."
+    },
+    {
+      "rowNumber": 30,
+      "department": "School of Business and Management",
+      "rawName": "Doctor of Business Administration (DBA)",
+      "awardLabel": "DBA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/dba/",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctor of Business Administration is not a master, despite appearing under the taught filter."
+    },
+    {
+      "rowNumber": 31,
+      "department": "School of Business and Management",
+      "rawName": "Global Finance (joint program with NYU Stern)",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gfin/",
+      "decision": "hold_partner_reconciliation",
+      "reasonEn": "Named external-university joint programme. Awarding and delivery boundaries need checking before adding a standalone Hong Kong lead."
+    },
+    {
+      "rowNumber": 32,
+      "department": "School of Business and Management",
+      "rawName": "HKUST Executive Master of Business Administration (HKUST EMBA)",
+      "awardLabel": "EMBA / MBA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/hkust-emba/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P005"
+    },
+    {
+      "rowNumber": 33,
+      "department": "School of Business and Management",
+      "rawName": "International Management",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-imt/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P042"
+    },
+    {
+      "rowNumber": 34,
+      "department": "School of Business and Management",
+      "rawName": "Kellogg-HKUST Executive Master of Business Administration (KH EMBA)",
+      "awardLabel": "EMBA / MBA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/kh-emba/",
+      "decision": "hold_partner_reconciliation",
+      "reasonEn": "Named external-university joint programme. Awarding and delivery boundaries need checking before adding a standalone Hong Kong lead."
+    },
+    {
+      "rowNumber": 35,
+      "department": "School of Business and Management",
+      "rawName": "Master of Business Administration (MBA)",
+      "awardLabel": "EMBA / MBA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P010"
+    },
+    {
+      "rowNumber": 36,
+      "department": "School of Business and Management",
+      "rawName": "Part-time MBA (Bi-weekly)",
+      "awardLabel": "EMBA / MBA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P010"
+    },
+    {
+      "rowNumber": 37,
+      "department": "Accounting",
+      "rawName": "Accounting",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-acct/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P012"
+    },
+    {
+      "rowNumber": 38,
+      "department": "Economics",
+      "rawName": "Economics",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P023"
+    },
+    {
+      "rowNumber": 39,
+      "department": "Finance",
+      "rawName": "Finance",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P031"
+    },
+    {
+      "rowNumber": 40,
+      "department": "Information Systems, Business Statistics and Operations Management",
+      "rawName": "Business Analytics",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P019"
+    },
+    {
+      "rowNumber": 41,
+      "department": "Information Systems, Business Statistics and Operations Management",
+      "rawName": "Global Operations",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-go/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P036"
+    },
+    {
+      "rowNumber": 42,
+      "department": "Information Systems, Business Statistics and Operations Management",
+      "rawName": "Information and Cyber Security Management",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-icsm/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P037"
+    },
+    {
+      "rowNumber": 43,
+      "department": "Information Systems, Business Statistics and Operations Management",
+      "rawName": "Information Systems Management",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ism/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P038"
+    },
+    {
+      "rowNumber": 44,
+      "department": "Management",
+      "rawName": "Family Office and Family Business",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fofb/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P030"
+    },
+    {
+      "rowNumber": 45,
+      "department": "Marketing",
+      "rawName": "Marketing",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mark/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P043"
+    },
+    {
+      "rowNumber": 46,
+      "department": "School of Humanities and Social Science",
+      "rawName": "Global China Studies",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P034"
+    },
+    {
+      "rowNumber": 47,
+      "department": "School of Humanities and Social Science",
+      "rawName": "International Language Education",
+      "awardLabel": "MA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P008"
+    },
+    {
+      "rowNumber": 48,
+      "department": "Humanities",
+      "rawName": "Chinese Culture",
+      "awardLabel": "MA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P007"
+    },
+    {
+      "rowNumber": 49,
+      "department": "Social Science",
+      "rawName": "Social Science",
+      "awardLabel": "MA / PGD",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-ma-sosc/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "excludedAwardComponent": "PGD",
+      "programmeId": "HK-HKUST-P009"
+    },
+    {
+      "rowNumber": 50,
+      "department": "Arts and Machine Creativity",
+      "rawName": "Arts and Machine Creativity",
+      "awardLabel": "MA",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P006"
+    },
+    {
+      "rowNumber": 51,
+      "department": "Environment and Sustainability",
+      "rawName": "Environmental Science, Management and Sustainability",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P029"
+    },
+    {
+      "rowNumber": 52,
+      "department": "Integrative Systems and Design",
+      "rawName": "Design Intelligence",
+      "awardLabel": "MEng",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-di/",
+      "decision": "hold_delivery_reconciliation",
+      "reasonEn": "The 2027/28 curriculum lists a year-long placement in Hong Kong, the Greater Bay Area or Shanghai. The Hong Kong placement choice and delivery boundary need confirmation; do not assume the whole programme is Hong Kong-only."
+    },
+    {
+      "rowNumber": 53,
+      "department": "Integrative Systems and Design",
+      "rawName": "Technology Leadership and Entrepreneurship",
+      "awardLabel": "MSc",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P048"
+    },
+    {
+      "rowNumber": 54,
+      "department": "Public Policy",
+      "rawName": "Public Management",
+      "awardLabel": "MPM",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P011"
+    },
+    {
+      "rowNumber": 55,
+      "department": "Public Policy",
+      "rawName": "Public Policy",
+      "awardLabel": "MPP",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpp/",
+      "decision": "include_directory_lead",
+      "reasonEn": "Master lead in the Hong Kong-school taught directory; admissions, intake and delivery still need programme-specific checks.",
+      "programmeId": "HK-HKUST-P004"
+    }
+  ],
+  "candidates": [
+    {
+      "programmeId": "HK-HKUST-P005",
+      "name": "Executive Master of Business Administration",
+      "directoryRows": [
+        32
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P006",
+      "name": "MA Arts and Machine Creativity",
+      "directoryRows": [
+        50
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P007",
+      "name": "MA Chinese Culture",
+      "directoryRows": [
+        48
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P008",
+      "name": "MA International Language Education",
+      "directoryRows": [
+        47
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P009",
+      "name": "MA Social Science",
+      "directoryRows": [
+        49
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P010",
+      "name": "Master of Business Administration",
+      "directoryRows": [
+        35,
+        36
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Business Administration (MBA)",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/"
+        },
+        {
+          "nameEn": "Part-time MBA (Bi-weekly)",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKUST-P011",
+      "name": "Master of Public Management",
+      "directoryRows": [
+        54
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P004",
+      "name": "Master of Public Policy",
+      "directoryRows": [
+        55
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P012",
+      "name": "MSc Accounting",
+      "directoryRows": [
+        37
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P013",
+      "name": "MSc Aeronautical Engineering",
+      "directoryRows": [
+        26
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P014",
+      "name": "MSc Analytical Chemistry",
+      "directoryRows": [
+        1
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P015",
+      "name": "MSc Artificial Intelligence",
+      "directoryRows": [
+        19
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P016",
+      "name": "MSc Big Data Technology",
+      "directoryRows": [
+        20
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P017",
+      "name": "MSc Biomolecular Engineering and Health Informatics",
+      "directoryRows": [
+        12
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P018",
+      "name": "MSc Biotechnology",
+      "directoryRows": [
+        2
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P019",
+      "name": "MSc Business Analytics",
+      "directoryRows": [
+        40
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P020",
+      "name": "MSc Chemical and Energy Engineering",
+      "directoryRows": [
+        13
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P001",
+      "name": "MSc Civil Infrastructural Engineering and Management",
+      "directoryRows": [
+        15
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P021",
+      "name": "MSc Data-Driven Modeling",
+      "directoryRows": [
+        9
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P002",
+      "name": "MSc Digital and Sustainable Cities",
+      "directoryRows": [
+        16
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P022",
+      "name": "MSc Drug Regulatory Affairs and Policy",
+      "directoryRows": [
+        3
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P023",
+      "name": "MSc Economics",
+      "directoryRows": [
+        38
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P024",
+      "name": "MSc Electronic Engineering",
+      "directoryRows": [
+        22
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P025",
+      "name": "MSc Engineering Enterprise Management",
+      "directoryRows": [
+        25
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P026",
+      "name": "MSc Entrepreneurial Leadership in Biotechnology",
+      "directoryRows": [
+        4
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P027",
+      "name": "MSc Environmental Engineering and Management",
+      "directoryRows": [
+        17
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P028",
+      "name": "MSc Environmental Health and Safety",
+      "directoryRows": [
+        7
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P029",
+      "name": "MSc Environmental Science, Management and Sustainability",
+      "directoryRows": [
+        51
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P030",
+      "name": "MSc Family Office and Family Business",
+      "directoryRows": [
+        44
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P031",
+      "name": "MSc Finance",
+      "directoryRows": [
+        39
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P032",
+      "name": "MSc Financial Mathematics",
+      "directoryRows": [
+        5
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P033",
+      "name": "MSc Financial Technology",
+      "directoryRows": [
+        11
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P034",
+      "name": "MSc Global China Studies",
+      "directoryRows": [
+        46
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P035",
+      "name": "MSc Global Marine Resources Management",
+      "directoryRows": [
+        8
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P036",
+      "name": "MSc Global Operations",
+      "directoryRows": [
+        41
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P037",
+      "name": "MSc Information and Cyber Security Management",
+      "directoryRows": [
+        42
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P038",
+      "name": "MSc Information Systems Management",
+      "directoryRows": [
+        43
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P039",
+      "name": "MSc Information Technology",
+      "directoryRows": [
+        21
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P040",
+      "name": "MSc Integrated Circuits",
+      "directoryRows": [
+        23
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P041",
+      "name": "MSc Intelligent Building Technology and Management",
+      "directoryRows": [
+        27
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P042",
+      "name": "MSc International Management",
+      "directoryRows": [
+        33
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P043",
+      "name": "MSc Marketing",
+      "directoryRows": [
+        45
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P044",
+      "name": "MSc Materials Engineering",
+      "directoryRows": [
+        14
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P045",
+      "name": "MSc Mathematics for Educators",
+      "directoryRows": [
+        6
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P046",
+      "name": "MSc Mechanical Engineering",
+      "directoryRows": [
+        28
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P047",
+      "name": "MSc Physics",
+      "directoryRows": [
+        10
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P048",
+      "name": "MSc Technology Leadership and Entrepreneurship",
+      "directoryRows": [
+        53
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKUST-P049",
+      "name": "MSc Telecommunications",
+      "directoryRows": [
+        24
+      ],
+      "variants": []
+    }
+  ]
+}

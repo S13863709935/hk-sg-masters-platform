@@ -128,12 +128,14 @@
       "fallbackUrl": null,
       "listingUrl": null,
       "entryStatus": "entry_checked",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
+      "checkedOn": "2026-10-20",
+      "enumerationStatus": "entries_enumerated",
       "confirmedProgrammeCount": null,
-      "visibleDirectoryResultCount": null,
+      "visibleDirectoryResultCount": 55,
       "existingSeedCount": 4,
-      "noteEn": "Year-specific catalogues mix MSc, MEng and research awards. The DISC MEng route is transfer-only, not a new direct-entry master; keep it outside default browsing."
+      "noteEn": "2027/28 Show All results with research unchecked and only the five Hong Kong schools selected: 55 rows, two DBAs excluded, four joint/placement cases held. 48 candidate groups after MBA-format grouping; PGD components do not add masters. DISC maps only to the MSc seed, while its existing MEng transfer identity stays hidden by default. No confirmed distinct-programme count or live admissions claim.",
+      "directoryMasterEntryCount": 53,
+      "inventoryFile": "data/research/hkust-programme-inventory-2026-10-20.json"
     },
     {
       "universityId": "HK-HKU",
