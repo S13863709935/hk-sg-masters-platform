@@ -80,6 +80,32 @@ test('a route change cannot silently fall back to a sibling offering', async () 
   const [item] = await resolved([{ programmeId: 'SG-NTU-P061', routeId: 'SG-NTU-P061-ROUTE-CRYPTO', offeringId: 'SG-NTU-P061-CYBER-PT-2027' }]);
   assert.equal(item.status, 'needs_attention'); assert.equal(item.programme, undefined);
 });
+
+test('retired combined MITB intake IDs require review instead of silently choosing January or August', async () => {
+  const programmeId = 'SG-SMU-P010';
+  const result = await resolved([{ programmeId, offeringId: programmeId + '-O1' }, { programmeId, offeringId: programmeId + '-O2' }, saved]);
+  assert.deepEqual(result.map(r => r.status), ['needs_attention', 'needs_attention', 'resolved']);
+  for (const item of result.slice(0, 2)) { assert.equal(item.code, 422); assert.equal(item.programme, undefined); }
+  const [baseline] = await resolved([{ programmeId }]);
+  assert.equal(baseline.status, 'resolved');
+  assert.equal(baseline.programme.selectedOffering, undefined);
+  assert.equal(baseline.programme.offerings.length, 4);
+});
+
+test('explicit MITB intake repair restores only that cohort and exports its unresolved dates', async () => {
+  const programmeId = 'SG-SMU-P010';
+  const [january, august] = await resolved(['JAN2027-PT', 'AUG2027-PT'].map(suffix => ({ programmeId, offeringId: programmeId + '-' + suffix })));
+  assert.equal(january.status, 'resolved'); assert.equal(august.status, 'resolved');
+  assert.equal(january.programme.offerings.length, 1); assert.equal(august.programme.offerings.length, 1);
+  assert.match(january.programme.offerings[0].feeBasis, /SGD 10,000 deposit/);
+  assert.match(august.programme.offerings[0].feeBasis, /SGD 8,000 deposit/);
+  assert.equal(august.programme.applicationTimeline.state, 'dates_incomplete');
+  const choice = optionSnapshot(august.programme, savedAt);
+  const output = shortlistExport([august.programme], { [programmeId]: choice }, savedAt);
+  assert.equal(output.programmes[0].selectedOffering.id, programmeId + '-AUG2027-PT');
+  assert.equal(output.programmes[0].offerings[0].deadline, null);
+  assert.equal(output.programmes[0].applicationTimeline.state, 'dates_incomplete');
+});
 test('a removed offering is flagged while other saved programmes remain usable, and recovery is explicit', async () => {
   const original = store.get('HK-HKUST-P002');
   const context = { programmeId: original.id, offeringId: original.id + '-O2' };

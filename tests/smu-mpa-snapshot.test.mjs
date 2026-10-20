@@ -7,11 +7,11 @@ const programme = batch.programmes.find(p => p.id === 'SG-SMU-P001');
 const official = 'https://masters.smu.edu.sg/programme/master-of-professional-accounting';
 const dates = 'https://masters.smu.edu.sg/programme/MPA/apply_now';
 
-test('the SMU refresh has its actual read date without relabelling other programmes', () => {
+test('the SMU refresh dates are explicit without relabelling unrelated programmes', () => {
   assert.equal(batch.checkedOn, '2026-10-20');
   assert.equal(programme.lastChecked, '2026-10-20');
-  assert.deepEqual(batch.programmes.filter(p => p.lastChecked === '2026-10-20').map(p => p.id), [programme.id]);
-  assert.equal(batch.programmes.find(p => p.id === 'SG-SMU-P010').lastChecked, '2026-10-06');
+  assert.deepEqual(batch.programmes.filter(p => p.lastChecked === '2026-10-20').map(p => p.id), [programme.id, 'SG-SMU-P010']);
+  assert.equal(batch.programmes.find(p => p.id === 'SG-NUS-P029').lastChecked, '2026-10-06');
 });
 
 test('both MPA modes keep their stable IDs and dated August 2027 cohort', () => {

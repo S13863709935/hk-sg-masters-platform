@@ -64,11 +64,15 @@ test('non-local deadlines, fee categories and application rounds remain explicit
   assert.match(get('HK-POLYU-P001').offerings[0].feeBasis, /excluding/);
 });
 test('recurring months and uncertain fee cohorts do not become invented ISO deadlines', () => {
-  for (const id of ['SG-NTU-P018', 'SG-NTU-P015', 'SG-SMU-P010']) {
+  for (const id of ['SG-NTU-P018', 'SG-NTU-P015']) {
     assert.ok(get(id).offerings.every(o => o.deadline === null));
     assert.equal(get(id).fieldStatus.academicYear.status, 'unknown');
   }
-  assert.equal(get('SG-SMU-P010').fieldStatus.tuition.status, 'unknown');
+  const mitb = get('SG-SMU-P010');
+  assert.equal(mitb.fieldStatus.tuition.status, 'known');
+  assert.equal(mitb.fieldStatus.academicYear.status, 'known');
+  assert.equal(mitb.fieldStatus.deadline.status, 'unknown');
+  assert.ok(mitb.offerings.every(o => o.deadline === null && o.applicationOpen === null));
 });
 test('a known language component gap survives unresolved programme conditions', () => {
   const p = { ...profile, language: { ...profile.language, components: { ...profile.language.components, writing: 5.5 } } };
