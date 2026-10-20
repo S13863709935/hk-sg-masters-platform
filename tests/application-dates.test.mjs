@@ -51,4 +51,35 @@ test('no-profile catalogue cards and filters use the explicitly chosen route, no
 test('GET route-choice queries are validated and bounded rather than silently ignored', async () => { for (const [raw, code] of [['{', 400], ['[]', 422], [JSON.stringify({ 'SG-NTU-P061': 'unknown' }), 422], ['x'.repeat(8001), 413]]) { const query = new URLSearchParams({ routes: raw }); assert.equal((await fetch(url + '/api/catalogue?' + query)).status, code); } });
 test('changing the comparison clock changes date status but never academic checks or tiers', async () => { const before = await match(); clock = new Date('2027-04-02T04:00:00Z'); try { const after = await match(); assert.equal(before.applicationTimeline.state, 'within_recorded_dates'); assert.equal(after.applicationTimeline.state, 'deadline_passed'); assert.deepEqual(after.match, before.match); assert.equal(after.match.checks.some(c => c.kind === 'route'), false); assert.equal(after.match.tier, null); } finally { clock = new Date('2026-10-16T04:00:00Z'); } });
 test('raw source export does not turn computed date status into stored admissions evidence', async () => { const d = await (await fetch(url + '/api/export')).json(); assert.ok(d.programmes.every(p => p.applicationTimeline === undefined)); assert.equal(d.programmes.some(p => 'profile' in p), false); });
+
+test('refreshed SMU dates use the dated source in catalogue, detail and selected-option reads', async () => {
+  const id = 'SG-SMU-P001';
+  const p = await (await fetch(url + '/api/programmes/' + id)).json();
+  assert.equal(p.applicationTimeline.state, 'within_recorded_dates');
+  assert.equal(p.applicationTimeline.livePortalChecked, false);
+  for (const o of p.applicationTimeline.offerings) {
+    assert.equal(o.sourceUrl, 'https://masters.smu.edu.sg/programme/MPA/apply_now');
+    assert.equal(o.sourceCheckedOn, '2026-10-20');
+    assert.equal(o.openingDate, '2026-09-01');
+    assert.equal(o.deadline, '2027-06-30');
+  }
+  const catalogue = await (await fetch(url + '/api/catalogue?school=SG-SMU&q=Professional')).json();
+  assert.deepEqual(catalogue.items[0].applicationTimeline, p.applicationTimeline);
+  const selected = await (await fetch(url + '/api/programmes/' + id + '?offering=' + id + '-O2')).json();
+  assert.deepEqual(selected.applicationTimeline.offerings, [p.applicationTimeline.offerings[1]]);
+  assert.equal(selected.offerings.length, 1);
+});
+
+test('SMU final deadline passing does not become an academic gap or create a tier', async () => {
+  const request = () => fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ profile, filters: { q: 'Professional', school: 'SG-SMU' } }) }).then(r => r.json()).then(r => r.items[0]);
+  const before = await request();
+  clock = new Date('2027-07-01T04:00:00Z');
+  try {
+    const after = await request();
+    assert.equal(after.applicationTimeline.state, 'deadline_passed');
+    assert.deepEqual(after.match, before.match);
+    assert.equal(after.match.tier, null);
+    assert.ok(after.match.checks.some(c => c.labelEn === 'English waiver and test validity' && c.status === 'unknown'));
+  } finally { clock = new Date('2026-10-16T04:00:00Z'); }
+});
 test('UI and candidate export keep application dates separate with a manual comparison refresh', () => { const js = readFileSync(new URL('public/app.js', root), 'utf8'); const exports = readFileSync(new URL('public/saved-options.js', root), 'utf8'); assert.match(js, /applicationSummary\(p\)/); assert.match(js, /applicationPanel\(p\)/); assert.match(js, /not a live portal check/); assert.match(js, /refreshApplicationDates/); assert.match(exports, /applicationTimeline: p.applicationTimeline/); assert.match(js, /shortlistExport\(programmes, remembered.entries\)/); assert.equal(js.includes('deadlineWarning('), false); });
