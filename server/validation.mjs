@@ -71,6 +71,9 @@ export function validateProgramme(p, universityIds) {
     if (r.kind === 'major' && (!Array.isArray(r.accepted) || r.accepted.some(x => typeof x !== 'string'))) throw new InputError('Invalid major rule');
     if (r.kind === 'experience' && (!Number.isFinite(r.min) || r.min < 0)) throw new InputError('Invalid experience rule');
     if (r.kind === 'language' && (!r.tests || typeof r.tests !== 'object' || Object.entries(r.tests).some(([test, v]) => !['ielts', 'toefl_120', 'toefl_6'].includes(test) || !Number.isFinite(v.total) || v.total < 0 || (test === 'ielts' && v.total > 9) || (test === 'toefl_120' && v.total > 120) || (test === 'toefl_6' && v.total > 6)))) throw new InputError('Invalid language rule');
+    if (r.testDateNotBefore !== undefined || r.testDateSourceUrl !== undefined) {
+      if (r.kind !== 'language' || !isIsoDate(r.testDateNotBefore) || !isOfficialUrl(r.testDateSourceUrl) || r.validityMonths !== undefined) throw new InputError('Explicit test-date minimum requires a valid date and official source, without rolling expiry');
+    }
   }
   if (p.sources !== undefined && (!Array.isArray(p.sources) || p.sources.some(s => !isOfficialUrl(s.url) || !isIsoDate(s.checkedOn) || typeof s.purpose !== 'string'))) throw new InputError('Invalid programme evidence sources');
   if (p.fieldStatus !== undefined) {

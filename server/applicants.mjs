@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { InputError, isOfficialUrl } from './validation.mjs';
+import { InputError, isOfficialUrl, universityDomains } from './validation.mjs';
 
 const trustedDates = new WeakSet();
 export const hasApplicantDateEvidence = offering => trustedDates.has(offering);
@@ -10,6 +10,11 @@ const date = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(va
 const key = (p, route, offering) => `${p}|${route || ''}|${offering}`;
 const matches = (record, o) => o && o.mode === record.mode && o.intake === record.intake && o.academicYear === record.academicYear && offeringFingerprint(o) === record.offeringFingerprint;
 const evidence = record => ({ checkedOn: record.checkedOn, verification: record.verification, reviewer: null, feeSourceUrl: record.feeSourceUrl, dateSourceUrl: record.dateSourceUrl, noteEn: record.noteEn });
+const institutionDomain = value => {
+  if (!isOfficialUrl(value)) return null;
+  const host = new URL(value).hostname;
+  return universityDomains.find(domain => host === domain || host.endsWith(`.${domain}`));
+};
 
 export function loadApplicantContexts(path, programmes, routes = new Map()) {
   const index = new Map();
@@ -19,15 +24,17 @@ export function loadApplicantContexts(path, programmes, routes = new Map()) {
   for (const r of batch.contexts) {
     const base = programmes.find(p => p.id === r?.programmeId);
     const p = r?.routeId ? routes.get(base?.id)?.find(route => route.routeId === r.routeId) : base;
-    const ownSource = value => isOfficialUrl(value) && p && new URL(value).hostname === new URL(p.officialUrl).hostname;
-    if (!p || (r.routeId !== null && typeof r.routeId !== 'string') || r.officialUrl !== p.officialUrl || !p.offerings.some(o => o.id === r.offeringId) || !/^[a-f0-9]{64}$/.test(r.offeringFingerprint || '') || !r.academicYear || !r.intake || !r.mode || r.checkedOn !== batch.checkedOn || r.verification !== 'programme_page_checked' || r.reviewer !== null || !ownSource(r.feeSourceUrl) || !ownSource(r.dateSourceUrl) || typeof r.noteEn !== 'string' || r.noteEn.length > 2000) throw new InputError('Invalid applicant-category identity or evidence');
+    const ownSource = value => p && institutionDomain(value) && institutionDomain(value) === institutionDomain(p.officialUrl);
+    if (!p || (r.routeId !== null && typeof r.routeId !== 'string') || r.officialUrl !== p.officialUrl || !p.offerings.some(o => o.id === r.offeringId) || !/^[a-f0-9]{64}$/.test(r.offeringFingerprint || '') || !r.academicYear || !r.intake || !r.mode || !date(r.checkedOn) || r.checkedOn > batch.checkedOn || r.verification !== 'programme_page_checked' || r.reviewer !== null || !ownSource(r.feeSourceUrl) || !ownSource(r.dateSourceUrl) || typeof r.noteEn !== 'string' || r.noteEn.length > 2000) throw new InputError('Invalid applicant-category identity or evidence');
     const contextKey = key(base.id, r.routeId, r.offeringId);
     if (index.has(contextKey) || !Array.isArray(r.options) || r.options.length < 2 || r.options.length > 20 || new Set(r.options.map(o => o?.id)).size !== r.options.length) throw new InputError('Missing or duplicate applicant categories');
     for (const o of r.options) {
-      if (!o || typeof o.id !== 'string' || !o.id.startsWith(`${r.offeringId}-`) || !/^[A-Z0-9-]+$/.test(o.id) || o.id.length > 200 || typeof o.label !== 'string' || !o.label.trim() || o.label.length > 150 || !/^[A-Z]{3}$/.test(o.currency) || !Number.isFinite(o.tuition) || o.tuition < 0 || !Number.isFinite(o.applicationFee) || o.applicationFee < 0 || typeof o.feeBasis !== 'string' || !o.feeBasis || !date(o.deadline) || (o.applicationOpen !== null && (!date(o.applicationOpen) || o.applicationOpen > o.deadline))) throw new InputError('Invalid applicant-category fees or dates');
+      if (o?.tuitionEstimate !== undefined && typeof o.tuitionEstimate !== 'boolean') throw new InputError('Invalid tuition estimate flag');
+      if (!o || typeof o.id !== 'string' || !o.id.startsWith(`${r.offeringId}-`) || !/^[A-Z0-9-]+$/.test(o.id) || o.id.length > 200 || typeof o.label !== 'string' || !o.label.trim() || o.label.length > 150 || !/^[A-Z]{3}$/.test(o.currency) || !Number.isFinite(o.tuition) || o.tuition < 0 || (o.applicationFee !== null && (!Number.isFinite(o.applicationFee) || o.applicationFee < 0)) || typeof o.feeBasis !== 'string' || !o.feeBasis || !date(o.deadline) || (o.applicationOpen !== null && (!date(o.applicationOpen) || o.applicationOpen > o.deadline)) || (o.deadlineNote !== undefined && (typeof o.deadlineNote !== 'string' || o.deadlineNote.length > 2000))) throw new InputError('Invalid applicant-category fees or dates');
     }
     index.set(contextKey, r);
   }
+  if (batch.contexts.length && batch.checkedOn !== batch.contexts.map(r => r.checkedOn).sort().at(-1)) throw new InputError('Applicant batch date must identify the latest source observation');
   return index;
 }
 
@@ -45,7 +52,7 @@ export function resolveApplicantContext(programme, index = new Map(), applicantI
     if (!r) return o;
     const valid = matches(r, originals.find(option => option.id === o.id));
     // Never present an old non-local amount/date as a universal/default value.
-    const masked = { ...o, tuition: null, applicationFee: null, applicationOpen: null, deadline: null, deadlineNote: valid ? 'Choose the university-specific applicant category; dates differ.' : 'Applicant-category evidence needs reconciliation after a source change.', feeBasis: 'Applicant category required; no default fee is assumed.', applicantCategoryRequired: true };
+    const masked = { ...o, tuition: null, applicationFee: null, applicationOpen: null, deadline: null, deadlineNote: valid ? 'Choose the university-specific applicant category to resolve recorded fees and dates.' : 'Applicant-category evidence needs reconciliation after a source change.', feeBasis: 'Applicant category required; no default fee is assumed.', applicantCategoryRequired: true };
     if (valid) {
       masked.applicantDateEvidence = { sourceUrl: r.dateSourceUrl, checkedOn: r.checkedOn };
       trustedDates.add(masked);
@@ -61,8 +68,9 @@ export function resolveApplicantContext(programme, index = new Map(), applicantI
   }
   if (applicantId) {
     const category = record.options.find(o => o.id === applicantId);
-    const offering = { ...original, tuition: category.tuition, currency: category.currency, feeBasis: category.feeBasis, applicationFee: category.applicationFee, applicationOpen: category.applicationOpen, deadline: category.deadline, deadlineNote: 'Recorded category-specific deadline; exact cutoff time and live portal availability are not verified.', applicantCategory: { id: category.id, label: category.label }, applicantDateEvidence: { sourceUrl: record.dateSourceUrl, checkedOn: record.checkedOn }, feeEvidence: { sourceUrl: record.feeSourceUrl, checkedOn: record.checkedOn } };
+    const offering = { ...original, tuition: category.tuition, currency: category.currency, feeBasis: category.feeBasis, applicationFee: category.applicationFee, applicationOpen: category.applicationOpen, deadline: category.deadline, deadlineNote: category.deadlineNote || 'Recorded category-specific deadline; exact cutoff time and live portal availability are not verified.', applicantCategory: { id: category.id, label: category.label }, applicantDateEvidence: { sourceUrl: record.dateSourceUrl, checkedOn: record.checkedOn }, feeEvidence: { sourceUrl: record.feeSourceUrl, checkedOn: record.checkedOn } };
     trustedDates.add(offering);
+    if (category.tuitionEstimate === true) offering.tuitionEstimate = true;
     result.offerings = [offering];
     result.selectedApplicant = { id: category.id, label: category.label };
   }

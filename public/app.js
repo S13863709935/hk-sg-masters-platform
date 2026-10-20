@@ -34,7 +34,11 @@ function toast(message) { const node = $('#toast'); node.textContent = message; 
 async function api(path, options = {}) { const response = await fetch(path, options); const body = await response.json(); if (!response.ok) throw Object.assign(new Error(body.error || response.statusText), { status: response.status }); return body; }
 const post = (path, data, extraHeaders = {}) => api(path, { method: 'POST', headers: { 'Content-Type': 'application/json', ...extraHeaders }, body: JSON.stringify(data) });
 function badge(value) { const kind = ['programme_page_checked', 'peer_reviewed'].includes(value) ? 'checked' : value === 'has_gap' ? 'danger' : value === 'meets_checked' ? 'pass' : 'warning'; return `<span class="badge ${kind}">${esc(t(value))}</span>`; }
-function money(o) { return o.tuition !== null && o.tuition !== undefined && o.currency ? `${esc(o.currency)} ${new Intl.NumberFormat('en-SG', { minimumFractionDigits: Number.isInteger(o.tuition) ? 0 : 2, maximumFractionDigits: 2 }).format(o.tuition)}` : `<span class="unknown-value">${t('unknown')}</span>`; }
+function money(o) {
+  if (o.tuition === null || o.tuition === undefined || !o.currency) return `<span class="unknown-value">${t('unknown')}</span>`;
+  const value = `${esc(o.currency)} ${new Intl.NumberFormat('en-SG', { minimumFractionDigits: Number.isInteger(o.tuition) ? 0 : 2, maximumFractionDigits: 2 }).format(o.tuition)}`;
+  return value + (o.tuitionEstimate ? '<small>Minimum-credit tuition estimate · not a fixed quote</small>' : '');
+}
 function fees(p, detailed = false) { return p.offerings.map(o => `${money(o)}<small>${esc([o.mode, o.intake, o.applicantCategory?.label].filter(Boolean).join(' · '))}</small>${o.applicantCategoryRequired ? '<small class="warning">Applicant category required; no default fee assumed.</small>' : ''}${detailed && o.feeBasis ? `<small>${esc(o.feeBasis)}</small>` : ''}`).join('<br>') + (p.fieldStatus?.tuition?.status === 'unknown' && p.offerings.some(o => o.tuition !== null) ? `<small class="warning">${t('cohortUnconfirmed')}</small>` : ''); }
 function known(value) { return value === null || value === undefined || value === '' ? `<span class="unknown-value">${t('unknown')}</span>` : esc(value); }
 function shell() {
@@ -181,7 +185,14 @@ async function submitProfile(event) {
   catch (error) { $('#form-error').textContent = error.message; $('#form-error').hidden = false; $('#form-error').scrollIntoView({ block: 'center', behavior: 'smooth' }); }
   finally { button.disabled = false; }
 }
-function ruleText(r) { if (r.kind === 'language') return Object.entries(r.tests).map(([kind, test]) => `${esc(t(kind))}: ${test.total}${test.componentMin !== undefined ? ` · each component ≥ ${test.componentMin}` : ''}`).join('<br>'); if (r.kind === 'gpa') return `GPA ≥ ${r.min}/${r.scale}`; if (r.kind === 'classification') return t(r.min); if (r.kind === 'major') return r.any ? 'Any undergraduate discipline; all other criteria still apply.' : `${r.accepted.map(esc).join(', ')}${r.relatedAllowed ? '; related fields need confirmation' : ''}`; if (r.kind === 'experience') return `At least ${r.min} years${r.mandatory === false ? ' preferred (not mandatory)' : ' of relevant experience'}`; return esc(r.noteEn || r.labelEn); }
+function ruleText(r) {
+  if (r.kind === 'language') return Object.entries(r.tests).map(([kind, test]) => `${esc(t(kind))}: ${test.total}${test.componentMin !== undefined ? ` · each component ≥ ${test.componentMin}` : ''}`).join('<br>') + (r.testDateNotBefore ? `<br><small>Accepted test date: on or after ${esc(r.testDateNotBefore)} (inclusive). Published intake-specific rule, not a rolling expiry from today. <a href="${esc(r.testDateSourceUrl)}" target="_blank" rel="noopener noreferrer">Official test-date source ↗</a></small>` : '');
+  if (r.kind === 'gpa') return `GPA ≥ ${r.min}/${r.scale}`;
+  if (r.kind === 'classification') return t(r.min);
+  if (r.kind === 'major') return r.any ? 'Any undergraduate discipline; all other criteria still apply.' : `${r.accepted.map(esc).join(', ')}${r.relatedAllowed ? '; related fields need confirmation' : ''}`;
+  if (r.kind === 'experience') return `At least ${r.min} years${r.mandatory === false ? ' preferred (not mandatory)' : ' of relevant experience'}`;
+  return esc(r.noteEn || r.labelEn);
+}
 function deadlineText(o) { return `${known(o.deadline)}${o.applicationOpen ? `<small>Applications open: ${esc(o.applicationOpen)}</small>` : ''}${o.deadlineNote ? `<small>${esc(o.deadlineNote)}</small>` : ''}`; }
 const offeringLabel = o => [o.intake, o.academicYear, o.mode].filter(Boolean).join(' · ') || 'Study option';
 const offeringCaution = 'Fees and dates only. Applicant-category notes still apply; intake-specific entry requirements need confirmation.';

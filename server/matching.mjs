@@ -40,15 +40,16 @@ function evaluateRule(r, profile) {
   else if (language.total < target.total) failures.push('total');
   if (target.componentMin !== undefined) for (const [name, score] of Object.entries(language.components)) { if (score === null) unknowns.push(name); else if (score < target.componentMin) failures.push(name); }
   if (r.singleAttempt && !language.singleAttempt) unknowns.push('single attempt');
-  if ((target.validFrom || target.validBefore || r.validityMonths) && !language.testDate) unknowns.push('test date');
+  if ((target.validFrom || target.validBefore || r.validityMonths || r.testDateNotBefore) && !language.testDate) unknowns.push('test date');
   if (language.testDate && ((target.validFrom && language.testDate < target.validFrom) || (target.validBefore && language.testDate >= target.validBefore))) failures.push('version date');
+  if (language.testDate && r.testDateNotBefore && language.testDate < r.testDateNotBefore) failures.push('score validity window');
   if (language.testDate && r.validityMonths) { const expiration = new Date(`${language.testDate}T00:00:00Z`); expiration.setUTCMonth(expiration.getUTCMonth() + r.validityMonths); if (expiration < new Date()) failures.push('expired'); }
   const status = failures.length ? 'fail' : unknowns.length ? 'unknown' : 'pass';
-  const fieldsZh = { total: '总分', listening: '听力', reading: '阅读', writing: '写作', speaking: '口语', 'single attempt': '单次考试确认', 'test date': '考试日期', 'version date': '考试版本日期', expired: '有效期' };
+  const fieldsZh = { total: '总分', listening: '听力', reading: '阅读', writing: '写作', speaking: '口语', 'single attempt': '单次考试确认', 'test date': '考试日期', 'version date': '考试版本日期', 'score validity window': '公布的考试日期范围', expired: '有效期' };
   return outcome(r, status,
     status === 'pass' ? '自报总分、适用单项及已记录的考试条件达到要求。' : `${failures.length ? `未满足：${failures.map(x => fieldsZh[x]).join('、')}。` : ''}${unknowns.length ? `待确认：${unknowns.map(x => fieldsZh[x]).join('、')}。` : ''}`,
-    status === 'pass' ? 'Reported total, applicable components and recorded test conditions meet the rule.' : `${failures.length ? `Not met: ${failures.join(', ')}. ` : ''}${unknowns.length ? `Needs confirmation: ${unknowns.join(', ')}.` : ''}`,
-    { unresolved: unknowns.length > 0, languageMargin: status === 'pass' && language.total > target.total && (target.componentMin === undefined || Object.values(language.components).every(v => v > target.componentMin)) });
+    (status === 'pass' ? 'Reported total, applicable components and recorded test conditions meet the rule.' : `${failures.length ? `Not met: ${failures.join(', ')}. ` : ''}${unknowns.length ? `Needs confirmation: ${unknowns.join(', ')}.` : ''}`) + (r.testDateNotBefore ? ` Published test-date minimum: ${r.testDateNotBefore} (inclusive), not a rolling expiry measured from today.` : ''),
+    { unresolved: unknowns.length > 0, ...(r.testDateNotBefore ? { testDateEvidence: { notBefore: r.testDateNotBefore, sourceUrl: r.testDateSourceUrl } } : {}), languageMargin: status === 'pass' && language.total > target.total && (target.componentMin === undefined || Object.values(language.components).every(v => v > target.componentMin)) });
 }
 
 export function matchProgramme(programme, profileInput) {

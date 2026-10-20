@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-19",
+  "checkedOn": "2026-10-20",
   "contexts": [
     {
       "programmeId": "HK-EDUHK-P001",
@@ -20,6 +20,46 @@
       "options": [
         { "id": "HK-EDUHK-P001-O1-LOCAL", "label": "Local applicant — EdUHK category", "currency": "HKD", "tuition": 151110, "feeBasis": "Programme tuition for the January 2027 local-applicant category", "applicationFee": 300, "applicationOpen": null, "deadline": "2026-11-20" },
         { "id": "HK-EDUHK-P001-O1-NONLOCAL", "label": "Non-local applicant — EdUHK category", "currency": "HKD", "tuition": 188888, "feeBasis": "Programme tuition for the January 2027 non-local-applicant category", "applicationFee": 400, "applicationOpen": null, "deadline": "2026-10-15" }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P010",
+      "routeId": null,
+      "offeringId": "HK-CITYU-P010-O1",
+      "offeringFingerprint": "b6ea2fa4f5653019240f264c6d6735134ed06796672b7bdff049e5a0c7785bf0",
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-20",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm",
+      "dateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+      "noteEn": "CityUHK 2027/28 per-credit rates, multiplied by the programme's minimum 30 credits. Calculated tuition estimates are not published fixed totals. Classification, extra credits/charges and live availability require confirmation; no application fee was collected.",
+      "options": [
+        { "id": "HK-CITYU-P010-O1-LOCAL", "label": "Local applicant — CityUHK category", "currency": "HKD", "tuition": 258000, "tuitionEstimate": true, "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,600 per credit, 2027/28 local rate. Not a fixed all-in quote. Extra credits, separate charges and living costs are not included; confirm classification with CityUHK.", "applicationFee": null, "applicationOpen": "2026-09-15", "deadline": "2027-05-31", "deadlineNote": "Rolling review; places may fill before the recorded deadline. Exact cutoff handling, combined-mode restrictions and live portal availability require confirmation." },
+        { "id": "HK-CITYU-P010-O1-NONLOCAL", "label": "Non-local applicant — CityUHK category", "currency": "HKD", "tuition": 303000, "tuitionEstimate": true, "feeBasis": "Minimum-credit estimate: 30 credits × HKD 10,100 per credit, 2027/28 non-local rate. Not a fixed all-in quote. Extra credits, separate charges and living costs are not included; confirm classification with CityUHK.", "applicationFee": null, "applicationOpen": "2026-09-15", "deadline": "2027-05-31", "deadlineNote": "Rolling review; places may fill before the recorded deadline. Exact cutoff handling, combined-mode restrictions and live portal availability require confirmation." }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P010",
+      "routeId": null,
+      "offeringId": "HK-CITYU-P010-O2",
+      "offeringFingerprint": "4cff8c983abe11fca26fc0ef5db76797e54192042c7e61d23ae84798192dd826",
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-20",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm",
+      "dateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+      "noteEn": "CityUHK 2027/28 per-credit rates, multiplied by the programme's minimum 30 credits. Calculated tuition estimates are not published fixed totals. Applicant classification and permission for part-time/combined study require university confirmation; no application fee was collected.",
+      "options": [
+        { "id": "HK-CITYU-P010-O2-LOCAL", "label": "Local applicant — CityUHK category", "currency": "HKD", "tuition": 258000, "tuitionEstimate": true, "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,600 per credit, 2027/28 local rate. Not a fixed all-in quote. Extra credits, separate charges and living costs are not included; confirm classification with CityUHK.", "applicationFee": null, "applicationOpen": "2026-09-15", "deadline": "2027-05-31", "deadlineNote": "Rolling review; places may fill before the recorded deadline. Part-time permission, combined-mode restrictions and live portal availability require confirmation." },
+        { "id": "HK-CITYU-P010-O2-NONLOCAL", "label": "Non-local applicant — CityUHK category", "currency": "HKD", "tuition": 303000, "tuitionEstimate": true, "feeBasis": "Minimum-credit estimate: 30 credits × HKD 10,100 per credit, 2027/28 non-local rate. Not a fixed all-in quote. Extra credits, separate charges and living costs are not included; confirm classification with CityUHK.", "applicationFee": null, "applicationOpen": "2026-09-15", "deadline": "2027-05-31", "deadlineNote": "Rolling review; places may fill before the recorded deadline. Part-time permission, combined-mode restrictions and live portal availability require confirmation." }
       ]
     }
   ]

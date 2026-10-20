@@ -34,38 +34,40 @@
       "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-20",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Rolling review. Tuition for this intake still needs checking; do not reuse the 2026/27 price.",
+      "notesEn": "2027/28 tuition is category-dependent and charged per credit; choose study mode and the university's applicant category. Any displayed minimum-credit total is an estimate, not an all-in quote. Rolling review may close before the deadline. Related-field IT experience, language waiver/interview and combined-mode restrictions remain for confirmation.",
       "offerings": [
         {
           "id": "HK-CITYU-P010-O1",
           "mode": "Full-time",
-          "duration": "1 year",
+          "duration": "Normal 1 year; maximum 2.5 years",
           "intake": "2027 entry",
+          "applicationOpen": "2026-09-15",
           "deadline": "2027-05-31",
-          "deadlineNote": null,
+          "deadlineNote": "Rolling review; places may fill before the recorded deadline. Date comparison does not verify live portal availability. Combined-mode and immigration restrictions require university confirmation.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027/28 per-credit rates differ by applicant category. Choose a category; no default tuition estimate or application fee is assumed."
         },
         {
           "id": "HK-CITYU-P010-O2",
           "mode": "Part-time",
-          "duration": "2 years",
+          "duration": "Normal 2 years; maximum 5 years",
           "intake": "2027 entry",
+          "applicationOpen": "2026-09-15",
           "deadline": "2027-05-31",
-          "deadlineNote": null,
+          "deadlineNote": "Rolling review; places may fill before the recorded deadline. Date comparison does not verify live portal availability. Combined-mode and immigration restrictions require university confirmation.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027/28 per-credit rates differ by applicant category. Choose a category; no default tuition estimate or application fee is assumed."
         }
       ],
       "rules": [
@@ -106,6 +108,8 @@
               "validFrom": "2026-01-21"
             }
           },
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
           "singleAttempt": true,
           "atHomeAccepted": false,
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
@@ -123,8 +127,8 @@
           "kind": "manual",
           "labelZh": "Additional condition 2",
           "labelEn": "Additional condition 2",
-          "noteZh": "Test validity is anchored to the application-period start, not today's date. CET-6 is an alternative not supported by the form.",
-          "noteEn": "Test validity is anchored to the application-period start, not today's date. CET-6 is an alternative not supported by the form.",
+          "noteZh": "",
+          "noteEn": "The recorded IELTS/TOEFL date floor is 15 September 2024 for 2027 entry. English-medium waiver, CET-6 (450) and proficiency-interview routes still need university confirmation; CET-6 is not supported by this form.",
           "mandatory": true,
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
         }
@@ -132,11 +136,21 @@
       "sources": [
         {
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "2027 requirements, study modes, credits and dated window",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm",
+          "purpose": "2027/28 local/non-local per-credit tuition",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027 application start and explicit accepted test-date minimum",
+          "checkedOn": "2026-10-20"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "cityu-refresh-2026-10-20",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -155,13 +169,13 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Recorded test thresholds and the inclusive 15 September 2024 date minimum; waivers, CET-6 and proficiency-interview alternatives still need confirmation.",
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+          "status": "known",
+          "noteEn": "2027/28 per-credit rates verified for both categories; totals require a category and are minimum-credit estimates, not published all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm"
         },
         "deadline": {
           "status": "known",
@@ -185,26 +199,27 @@
       "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-20",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Any undergraduate discipline may apply. Do not turn the quantitative-background preference into an invented GPA cutoff.",
+      "notesEn": "Any undergraduate discipline may apply. Do not turn the quantitative-background preference into an invented GPA cutoff. The faculty's 2027 total agrees with the current per-credit schedule for the minimum 30 credits; older 2026/27 rates are not reused. Rolling review, language waiver/interview and other equivalence checks remain unresolved.",
       "offerings": [
         {
           "id": "HK-CITYU-P004-O1",
           "mode": "Full-time",
-          "duration": "1 year",
+          "duration": "Normal 1 year; maximum 2.5 years",
           "intake": "2027 entry",
+          "applicationOpen": "2026-09-15",
           "deadline": "2027-03-31",
-          "deadlineNote": null,
+          "deadlineNote": "Rolling review may finish when places fill; this is a recorded date, not confirmation that the portal is accepting applications.",
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": null,
-          "feeBasis": null
+          "tuition": 354000,
+          "feeBasis": "Faculty-published tuition for 2027 entry; equals 30 minimum credits at HKD 11,800 per credit in the 2027/28 schedule. Not an all-in cost: extra credits, separate charges and living expenses are not included or verified here."
         }
       ],
       "rules": [
@@ -240,6 +255,8 @@
               "validFrom": "2026-01-21"
             }
           },
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
           "singleAttempt": true,
           "atHomeAccepted": false,
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
@@ -248,8 +265,8 @@
           "kind": "manual",
           "labelZh": "Additional condition 1",
           "labelEn": "Additional condition 1",
-          "noteZh": "English interview and test-validity conditions need confirmation; CET-6 and equivalent routes are not supported by the form.",
-          "noteEn": "English interview and test-validity conditions need confirmation; CET-6 and equivalent routes are not supported by the form.",
+          "noteZh": "",
+          "noteEn": "English waiver/interview and equivalent routes need confirmation. IELTS/TOEFL use the published 15 September 2024 date floor for 2027 entry, not today's date. CET-6 (490) and other equivalence routes are not supported by this form.",
           "mandatory": true,
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
         }
@@ -257,11 +274,26 @@
       "sources": [
         {
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "2027 requirements, duration and dated window",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/masters/our-programmes/department-of-economics-and-finance/msc-applied-economics",
+          "purpose": "2027 faculty-published total tuition and credit requirement",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p13.htm",
+          "purpose": "2027/28 per-credit fee schedule",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027 application start and explicit accepted test-date minimum",
+          "checkedOn": "2026-10-20"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "cityu-refresh-2026-10-20",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -280,13 +312,13 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Recorded test thresholds and the inclusive 15 September 2024 date minimum; waivers, CET-6 and proficiency-interview alternatives still need confirmation.",
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+          "status": "known",
+          "noteEn": "2027 total tuition checked against the faculty page and current minimum-credit schedule; separate costs remain unverified.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/masters/our-programmes/department-of-economics-and-finance/msc-applied-economics"
         },
         "deadline": {
           "status": "known",

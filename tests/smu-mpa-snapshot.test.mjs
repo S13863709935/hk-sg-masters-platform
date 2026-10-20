@@ -10,7 +10,7 @@ const dates = 'https://masters.smu.edu.sg/programme/MPA/apply_now';
 test('the SMU refresh dates are explicit without relabelling unrelated programmes', () => {
   assert.equal(batch.checkedOn, '2026-10-20');
   assert.equal(programme.lastChecked, '2026-10-20');
-  assert.deepEqual(batch.programmes.filter(p => p.lastChecked === '2026-10-20').map(p => p.id), [programme.id, 'SG-SMU-P010']);
+  assert.deepEqual(batch.programmes.filter(p => p.lastChecked === '2026-10-20').map(p => p.id), ['HK-CITYU-P010', 'HK-CITYU-P004', programme.id, 'SG-SMU-P010']);
   assert.equal(batch.programmes.find(p => p.id === 'SG-NUS-P029').lastChecked, '2026-10-06');
 });
 
