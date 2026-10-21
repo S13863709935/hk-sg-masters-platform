@@ -1,0 +1,2604 @@
+{
+  "schemaVersion": 1,
+  "universityId": "HK-HKU",
+  "checkedOn": "2026-10-20",
+  "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-listing",
+  "observationRowsSha256": "f487c0b6940ef723b7ee2b3d450f06b62fd3f07bc2284d7c7614de77afbc4d4b",
+  "verificationLevel": "AI-assisted directory and targeted boundary checks; not independent human review",
+  "countingUnit": "170 result rows in each applicant context, counted once. Category/scholarship/stream/fellowship variants are grouped conservatively; closed masters held and non-masters excluded. Default fee/duration filters and unresolved identities prevent an exact university-wide total.",
+  "rawRowCount": 170,
+  "excludedRowCount": 13,
+  "heldRowCount": 43,
+  "masterRowCount": 157,
+  "candidateGroupCount": 99,
+  "confirmedProgrammeCount": null,
+  "entries": [
+    {
+      "rowNumber": 1,
+      "rawTitle": "Master of Architecture (Design)",
+      "programmeSlug": "master-of-architecture-(design)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(design)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P028"
+    },
+    {
+      "rowNumber": 2,
+      "rawTitle": "Master of Architecture (non-HK and International Applicants)",
+      "programmeSlug": "master-of-architecture-(non-hk-and-international-applicants)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P001"
+    },
+    {
+      "rowNumber": 3,
+      "rawTitle": "Master of Architecture (UGC funded for HK Applicants)",
+      "programmeSlug": "master-of-architecture-(ugc-funded-for-hk-applicants)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P001"
+    },
+    {
+      "rowNumber": 4,
+      "rawTitle": "Master of Digital Urban Management",
+      "programmeSlug": "master-of-digital-urban-management-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-digital-urban-management-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P002"
+    },
+    {
+      "rowNumber": 5,
+      "rawTitle": "Master of Landscape Architecture",
+      "programmeSlug": "master-of-landscape-architecture-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-landscape-architecture-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P004"
+    },
+    {
+      "rowNumber": 6,
+      "rawTitle": "Master of Science in Advanced Architectural Design (September 2026)",
+      "programmeSlug": "master-of-science-in-advanced-architectural-design-(sep-2026)-foa",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-advanced-architectural-design-(sep-2026)-foa&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 7,
+      "rawTitle": "Master of Science in Conservation (Conservation Planning and Management Stream)",
+      "programmeSlug": "master-of-science-in-conservation-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P065"
+    },
+    {
+      "rowNumber": 8,
+      "rawTitle": "Master of Science in Conservation (Design for Conservation Stream)",
+      "programmeSlug": "master-of-science-in-conservation-(design-for-conservation-stream)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P065"
+    },
+    {
+      "rowNumber": 9,
+      "rawTitle": "Master of Science in Construction Project Management",
+      "programmeSlug": "master-of-science-in-construction-project-management-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-construction-project-management-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P005"
+    },
+    {
+      "rowNumber": 10,
+      "rawTitle": "Master of Science in Digital Management of Built Assets",
+      "programmeSlug": "master-of-science-in-digital-management-of-built-assets-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-digital-management-of-built-assets-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P066"
+    },
+    {
+      "rowNumber": 11,
+      "rawTitle": "Master of Science in Real Estate",
+      "programmeSlug": "master-of-science-in-real-estate-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-real-estate-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P006"
+    },
+    {
+      "rowNumber": 12,
+      "rawTitle": "Master of Science in Sustainable Environmental Design",
+      "programmeSlug": "master-of-science-in-sustainable-environmental-design-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-sustainable-environmental-design-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P088"
+    },
+    {
+      "rowNumber": 13,
+      "rawTitle": "Master of Science in Urban Analytics",
+      "programmeSlug": "master-of-science-in-urban-analytics-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-analytics-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P007"
+    },
+    {
+      "rowNumber": 14,
+      "rawTitle": "Master of Science in Urban Design and Transport",
+      "programmeSlug": "master-of-science-in-urban-design-and-transport-foa",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-design-and-transport-foa&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 15,
+      "rawTitle": "Master of Science in Urban Planning (For ADB-Japan Scholarship Programme applicants)",
+      "programmeSlug": "master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P089"
+    },
+    {
+      "rowNumber": 16,
+      "rawTitle": "Master of Science in Urban Planning (Urban and Regional Planning Stream) [Self-funded for all applicants]",
+      "programmeSlug": "master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P089"
+    },
+    {
+      "rowNumber": 17,
+      "rawTitle": "Master of Science in Urban Planning (Urban Planning Stream) [UGC-funded for HK Applicants]",
+      "programmeSlug": "master-of-science-in-urban-planning-(for-general-applicants)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P089"
+    },
+    {
+      "rowNumber": 18,
+      "rawTitle": "Master of Urban Design (For ADB-Japan Scholarship Programme applicants)",
+      "programmeSlug": "master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P101"
+    },
+    {
+      "rowNumber": 19,
+      "rawTitle": "Master of Urban Design (For general applicants)",
+      "programmeSlug": "master-of-urban-design-(for-general-applicants)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P101"
+    },
+    {
+      "rowNumber": 20,
+      "rawTitle": "Master of Urban Studies and Housing Management (Housing Management (Professional) Stream)",
+      "programmeSlug": "master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P102"
+    },
+    {
+      "rowNumber": 21,
+      "rawTitle": "Master of Urban Studies and Housing Management (Urban Studies Stream)",
+      "programmeSlug": "master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P102"
+    },
+    {
+      "rowNumber": 22,
+      "rawTitle": "Master of Arts in Applied Linguistics",
+      "programmeSlug": "master-of-arts-in-applied-linguistics-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P030"
+    },
+    {
+      "rowNumber": 23,
+      "rawTitle": "Master of Arts in the field of AI, Ethics and Society",
+      "programmeSlug": "master-of-arts-in-the-field-of-ai,-ethics-and-society-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-ai%2C-ethics-and-society-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P008"
+    },
+    {
+      "rowNumber": 24,
+      "rawTitle": "Master of Arts in the field of Art History",
+      "programmeSlug": "master-of-arts-in-the-field-of-art-history-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P031"
+    },
+    {
+      "rowNumber": 25,
+      "rawTitle": "Master of Arts in the field of Chinese Historical Studies",
+      "programmeSlug": "master-of-arts-in-the-field-of-chinese-historical-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P032"
+    },
+    {
+      "rowNumber": 26,
+      "rawTitle": "Master of Arts in the field of Chinese Language and Literature",
+      "programmeSlug": "master-of-arts-in-the-field-of-chinese-language-and-literature-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P009"
+    },
+    {
+      "rowNumber": 27,
+      "rawTitle": "Master of Arts in the field of Creative Communications",
+      "programmeSlug": "master-of-arts-in-the-field-of-creative-communications-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P034"
+    },
+    {
+      "rowNumber": 28,
+      "rawTitle": "Master of Arts in the field of East Asian Studies",
+      "programmeSlug": "master-of-arts-in-the-field-of-east-asian-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P035"
+    },
+    {
+      "rowNumber": 29,
+      "rawTitle": "Master of Arts in the field of English Studies",
+      "programmeSlug": "master-of-arts-in-the-field-of-english-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P036"
+    },
+    {
+      "rowNumber": 30,
+      "rawTitle": "Master of Arts in the field of European Studies",
+      "programmeSlug": "master-of-arts-in-the-field-of-european-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P037"
+    },
+    {
+      "rowNumber": 31,
+      "rawTitle": "Master of Arts in the field of Hong Kong Cultural Studies",
+      "programmeSlug": "master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P038"
+    },
+    {
+      "rowNumber": 32,
+      "rawTitle": "Master of Arts in the field of Hong Kong History",
+      "programmeSlug": "master-of-arts-in-the-field-of-hong-kong-history-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P039"
+    },
+    {
+      "rowNumber": 33,
+      "rawTitle": "Master of Arts in the field of Linguistics",
+      "programmeSlug": "master-of-arts-in-the-field-of-linguistics-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P040"
+    },
+    {
+      "rowNumber": 34,
+      "rawTitle": "Master of Arts in the field of Literary and Cultural Studies",
+      "programmeSlug": "master-of-arts-in-the-field-of-literary-and-cultural-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P041"
+    },
+    {
+      "rowNumber": 35,
+      "rawTitle": "Master of Arts in the field of Museum Studies",
+      "programmeSlug": "master-of-arts-in-the-field-of-museum-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-museum-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P010"
+    },
+    {
+      "rowNumber": 36,
+      "rawTitle": "Master of Arts in the field of Music Studies",
+      "programmeSlug": "master-of-arts-in-the-field-of-music-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P042"
+    },
+    {
+      "rowNumber": 37,
+      "rawTitle": "Master of Arts in the field of Philosophy, Politics and Economics",
+      "programmeSlug": "master-of-arts-in-the-field-of-philosophy,-politics-and-economics-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P043"
+    },
+    {
+      "rowNumber": 38,
+      "rawTitle": "Master of Arts in the field of Translation",
+      "programmeSlug": "master-of-arts-in-the-field-of-translation-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P011"
+    },
+    {
+      "rowNumber": 39,
+      "rawTitle": "Master of Buddhist Counselling",
+      "programmeSlug": "master-of-buddhist-counselling-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-counselling-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P045"
+    },
+    {
+      "rowNumber": 40,
+      "rawTitle": "Master of Buddhist Studies",
+      "programmeSlug": "master-of-buddhist-studies-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-studies-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P046"
+    },
+    {
+      "rowNumber": 41,
+      "rawTitle": "Master of Fine Arts in the field of Creative Writing in English",
+      "programmeSlug": "master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P058"
+    },
+    {
+      "rowNumber": 42,
+      "rawTitle": "Advanced Diploma in Orthodontics",
+      "programmeSlug": "advanced-diploma-in-orthodontics-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=advanced-diploma-in-orthodontics-facdent&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 43,
+      "rawTitle": "Master of Dental Surgery in Endodontics",
+      "programmeSlug": "master-of-dental-surgery-in-endodontics-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-dental-surgery-in-endodontics-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 44,
+      "rawTitle": "Master of Dental Surgery in Oral and Maxillofacial Surgery",
+      "programmeSlug": "master-of-dental-surgery-in-oral-and-maxillofacial-surgery-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-dental-surgery-in-oral-and-maxillofacial-surgery-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 45,
+      "rawTitle": "Master of Dental Surgery in Orthodontics and Dentofacial Orthopaedics",
+      "programmeSlug": "master-of-dental-surgery-in-orthodontics-and-dentofacial-orthopaedics-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-dental-surgery-in-orthodontics-and-dentofacial-orthopaedics-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 46,
+      "rawTitle": "Master of Dental Surgery in Paediatric Dentistry",
+      "programmeSlug": "master-of-dental-surgery-in-paediatric-dentistry-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-dental-surgery-in-paediatric-dentistry-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 47,
+      "rawTitle": "Master of Dental Surgery in Periodontology",
+      "programmeSlug": "master-of-dental-surgery-in-periodontology-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-dental-surgery-in-periodontology-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 48,
+      "rawTitle": "Master of Dental Surgery in Prosthodontics",
+      "programmeSlug": "master-of-dental-surgery-in-prosthodontics-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-dental-surgery-in-prosthodontics-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 49,
+      "rawTitle": "Master of Science in Community Dentistry",
+      "programmeSlug": "master-of-science-in-community-dentistry-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-community-dentistry-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 50,
+      "rawTitle": "Master of Science in Dental Materials Science",
+      "programmeSlug": "master-of-science-in-dental-materials-science-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-dental-materials-science-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 51,
+      "rawTitle": "Master of Science in Implant Dentistry",
+      "programmeSlug": "master-of-science-in-implant-dentistry-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-implant-dentistry-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 52,
+      "rawTitle": "Master of Science in Oral and Maxillofacial Radiology & Diagnostic Imaging",
+      "programmeSlug": "master-of-science-in-oral-and-maxillofacial-radiology-and-diagnostic-imaging-facdent",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-oral-and-maxillofacial-radiology-and-diagnostic-imaging-facdent&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 53,
+      "rawTitle": "Doctor of Education",
+      "programmeSlug": "doctor-of-education-edu",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=doctor-of-education-edu&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 54,
+      "rawTitle": "Master of Arts in Teaching English to Speakers of Other Languages",
+      "programmeSlug": "master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag.",
+      "retainedExistingId": "HK-HKU-P012"
+    },
+    {
+      "rowNumber": 55,
+      "rawTitle": "Master of Education",
+      "programmeSlug": "master-of-education-edu",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-education-edu&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag.",
+      "retainedExistingId": "HK-HKU-P013"
+    },
+    {
+      "rowNumber": 56,
+      "rawTitle": "Master of Science in Audiology",
+      "programmeSlug": "master-of-science-in-audiology",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag.",
+      "retainedExistingId": "HK-HKU-P014"
+    },
+    {
+      "rowNumber": 57,
+      "rawTitle": "Master of Science in Library and Information Management",
+      "programmeSlug": "master-of-science-in-library-and-information-management-edu",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-library-and-information-management-edu&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 58,
+      "rawTitle": "Master of Science in Technology, Design and Leadership for Learning",
+      "programmeSlug": "master-of-science-in-technology,-design-and-leadership-for-learning-edu",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-technology%2C-design-and-leadership-for-learning-edu&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 59,
+      "rawTitle": "Postgraduate Diploma in Education",
+      "programmeSlug": "postgraduate-diploma-in-education-edu",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=postgraduate-diploma-in-education-edu&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 60,
+      "rawTitle": "Postgraduate Diploma in Education (Teaching Chinese as a Second Language)",
+      "programmeSlug": "postgraduate-diploma-in-education-(teaching-chinese-as-a-second-language)-edu",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=postgraduate-diploma-in-education-(teaching-chinese-as-a-second-language)-edu&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 61,
+      "rawTitle": "Master of Science in Engineering (Building Services Engineering)",
+      "programmeSlug": "master-of-science-in-engineering-(building-services-engineering)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P068"
+    },
+    {
+      "rowNumber": 62,
+      "rawTitle": "Master of Science in Engineering (Civil Engineering) - Environmental Engineering Stream",
+      "programmeSlug": "master-of-science-in-engineering-(civil-engineering)-environmental-engineering-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-environmental-engineering-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P069"
+    },
+    {
+      "rowNumber": 63,
+      "rawTitle": "Master of Science in Engineering (Civil Engineering) - General Stream",
+      "programmeSlug": "master-of-science-in-engineering-(civil-engineering)-general-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-general-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P069"
+    },
+    {
+      "rowNumber": 64,
+      "rawTitle": "Master of Science in Engineering (Civil Engineering) - Geotechnical Engineering Stream",
+      "programmeSlug": "master-of-science-in-engineering-(civil-engineering)-geotechnical-engineering-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-geotechnical-engineering-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P069"
+    },
+    {
+      "rowNumber": 65,
+      "rawTitle": "Master of Science in Engineering (Civil Engineering) - Structural Engineering Stream",
+      "programmeSlug": "master-of-science-in-engineering-(civil-engineering)-structural-engineering-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-structural-engineering-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P069"
+    },
+    {
+      "rowNumber": 66,
+      "rawTitle": "Master of Science in Engineering (Electrical and Electronic Engineering) - Communications Engineering Stream",
+      "programmeSlug": "master-of-science-in-engineering-(electrical-and-electronic-engineering)-communications-engineering-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-communications-engineering-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P070"
+    },
+    {
+      "rowNumber": 67,
+      "rawTitle": "Master of Science in Engineering (Electrical and Electronic Engineering) - General Stream",
+      "programmeSlug": "master-of-science-in-engineering-(electrical-and-electronic-engineering)-general-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-general-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P070"
+    },
+    {
+      "rowNumber": 68,
+      "rawTitle": "Master of Science in Engineering (Electrical and Electronic Engineering) - Power Engineering Stream",
+      "programmeSlug": "master-of-science-in-engineering-(electrical-and-electronic-engineering)-power-engineering-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-power-engineering-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P070"
+    },
+    {
+      "rowNumber": 69,
+      "rawTitle": "Master of Science in Engineering (Energy Engineering)",
+      "programmeSlug": "master-of-science-in-engineering-(energy-engineering)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P071"
+    },
+    {
+      "rowNumber": 70,
+      "rawTitle": "Master of Science in Engineering (Industrial Engineering and Logistics Management)",
+      "programmeSlug": "master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P072"
+    },
+    {
+      "rowNumber": 71,
+      "rawTitle": "Master of Science in Engineering (Infrastructure Engineering and Management) - Digital Infrastructure Stream",
+      "programmeSlug": "master-of-science-in-engineering-(infrastructure-engineering-and-management)-digital-infrastructure-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(infrastructure-engineering-and-management)-digital-infrastructure-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P073"
+    },
+    {
+      "rowNumber": 72,
+      "rawTitle": "Master of Science in Engineering (Infrastructure Engineering and Management) - Infrastructure Project Management Stream",
+      "programmeSlug": "master-of-science-in-engineering-(infrastructure-engineering-and-management)-infrastructure-project-management-stream-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(infrastructure-engineering-and-management)-infrastructure-project-management-stream-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P073"
+    },
+    {
+      "rowNumber": 73,
+      "rawTitle": "Master of Science in Engineering (Innovative Design and Technology)",
+      "programmeSlug": "master-of-science-in-engineering-(innovative-design-and-technology)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P074"
+    },
+    {
+      "rowNumber": 74,
+      "rawTitle": "Master of Science in Engineering (Integrated Circuits and Electronic Systems)",
+      "programmeSlug": "master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P075"
+    },
+    {
+      "rowNumber": 75,
+      "rawTitle": "Master of Science in Engineering (Intelligent Networks and Information Engineering)",
+      "programmeSlug": "master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P076"
+    },
+    {
+      "rowNumber": 76,
+      "rawTitle": "Master of Science in Engineering (Low-Altitude Technology)",
+      "programmeSlug": "master-of-science-in-engineering-(low-altitude-technology)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P077"
+    },
+    {
+      "rowNumber": 77,
+      "rawTitle": "Master of Science in Engineering (Materials Engineering and Advanced Manufacturing)",
+      "programmeSlug": "master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P078"
+    },
+    {
+      "rowNumber": 78,
+      "rawTitle": "Master of Science in Engineering (Mechanical Engineering)",
+      "programmeSlug": "master-of-science-in-engineering-(mechanical-engineering)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P079"
+    },
+    {
+      "rowNumber": 79,
+      "rawTitle": "Master of Science in Engineering (Microelectronics Science and Technology)",
+      "programmeSlug": "master-of-science-in-engineering-(microelectronics-science-and-technology)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P080"
+    },
+    {
+      "rowNumber": 80,
+      "rawTitle": "Master of Science in Engineering (Robotics and Intelligent Systems)",
+      "programmeSlug": "master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P081"
+    },
+    {
+      "rowNumber": 81,
+      "rawTitle": "Master of Science in Engineering (Sustainability Engineering)",
+      "programmeSlug": "master-of-science-in-engineering-(sustainability-engineering)-engg",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P082"
+    },
+    {
+      "rowNumber": 82,
+      "rawTitle": "Executive Master of Business Laws",
+      "programmeSlug": "executive-master-of-business-laws-law",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=executive-master-of-business-laws-law&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P024"
+    },
+    {
+      "rowNumber": 83,
+      "rawTitle": "Juris Doctor",
+      "programmeSlug": "juris-doctor-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=juris-doctor-law&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 84,
+      "rawTitle": "Master of Common Law",
+      "programmeSlug": "master-of-common-law-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-common-law-law&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 85,
+      "rawTitle": "Master of Laws (General or with Specialisation)",
+      "programmeSlug": "master-of-laws-(general-or-with-specialisation)-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-laws-(general-or-with-specialisation)-law&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 86,
+      "rawTitle": "Master of Laws in Arbitration and Dispute Resolution",
+      "programmeSlug": "master-of-laws-in-arbitration-and-dispute-resolution-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-laws-in-arbitration-and-dispute-resolution-law&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 87,
+      "rawTitle": "Master of Laws in Chinese Law",
+      "programmeSlug": "master-of-laws-in-chinese-law-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-laws-in-chinese-law-law&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 88,
+      "rawTitle": "Master of Laws in Compliance and Regulation",
+      "programmeSlug": "master-of-laws-in-compliance-and-regulation-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-laws-in-compliance-and-regulation-law&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 89,
+      "rawTitle": "Master of Laws in Corporate and Financial Law",
+      "programmeSlug": "master-of-laws-in-corporate-and-financial-law-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-laws-in-corporate-and-financial-law-law&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 90,
+      "rawTitle": "Master of Laws in Human Rights",
+      "programmeSlug": "master-of-laws-in-human-rights-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-laws-in-human-rights-law&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 91,
+      "rawTitle": "Master of Laws in Technology and Intellectual Property Law",
+      "programmeSlug": "master-of-laws-in-technology-and-intellectual-property-law-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-laws-in-technology-and-intellectual-property-law-law&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 92,
+      "rawTitle": "Postgraduate Certificate in Laws",
+      "programmeSlug": "postgraduate-certificate-in-laws-law",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=postgraduate-certificate-in-laws-law&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 93,
+      "rawTitle": "Master of Science in Artificial Intelligence",
+      "programmeSlug": "master-of-science-in-artificial-intelligence-sci",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P015"
+    },
+    {
+      "rowNumber": 94,
+      "rawTitle": "Master of Science in Environmental Management",
+      "programmeSlug": "master-of-science-in-environmental-management-sci",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-environmental-management-sci&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 95,
+      "rawTitle": "Master of Science in Integrative Marine Ecology and Conservation",
+      "programmeSlug": "master-of-science-in-integrative-marine-ecology-and-conservation-sci",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-integrative-marine-ecology-and-conservation-sci&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P085"
+    },
+    {
+      "rowNumber": 96,
+      "rawTitle": "Master of Science in the field of Applied Geosciences",
+      "programmeSlug": "msc-in-the-field-of-applied-geosciences-sci",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P062"
+    },
+    {
+      "rowNumber": 97,
+      "rawTitle": "Master of Science in the field of Chemical Technologies for Health and Materials",
+      "programmeSlug": "master-of-science-in-the-field-of-chemical-technologies-for-health-and-materials-sci",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-chemical-technologies-for-health-and-materials-sci&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P064"
+    },
+    {
+      "rowNumber": 98,
+      "rawTitle": "Master of Science in the field of Food Industry: Management and Marketing",
+      "programmeSlug": "master-of-science-in-the-field-of-food-industry:-management-and-marketing-sci",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-food-industry%3A-management-and-marketing-sci&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 99,
+      "rawTitle": "Master of Science in the field of Food Safety and Toxicology",
+      "programmeSlug": "master-of-science-in-the-field-of-food-safety-and-toxicology-sci",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-food-safety-and-toxicology-sci&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P083"
+    },
+    {
+      "rowNumber": 100,
+      "rawTitle": "Master of Science in the field of Physics",
+      "programmeSlug": "master-of-science-in-the-field-of-physics-sci",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-physics-sci&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P087"
+    },
+    {
+      "rowNumber": 101,
+      "rawTitle": "Doctor of Psychology in the field of Clinical Psychology",
+      "programmeSlug": "doctor-of-psychology-in-the-field-of-clinical-psychology-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=doctor-of-psychology-in-the-field-of-clinical-psychology-socsc&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 102,
+      "rawTitle": "Doctor of Psychology in the field of Educational Psychology",
+      "programmeSlug": "doctor-of-psychology-in-the-field-of-educational-psychology-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=doctor-of-psychology-in-the-field-of-educational-psychology-socsc&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 103,
+      "rawTitle": "Doctor of Public Administration",
+      "programmeSlug": "doctor-of-public-administration-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=doctor-of-public-administration-socsc&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 104,
+      "rawTitle": "Master of Arts in Creative Artificial Intelligence Film and Media",
+      "programmeSlug": "master-of-arts-in-creative-artificial-intelligence-filmmaking-and-media-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-creative-artificial-intelligence-filmmaking-and-media-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P033"
+    },
+    {
+      "rowNumber": 105,
+      "rawTitle": "Master of China Development Studies",
+      "programmeSlug": "master-of-arts-in-china-development-studies-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P048"
+    },
+    {
+      "rowNumber": 106,
+      "rawTitle": "Master of Climate Governance and Risk Management",
+      "programmeSlug": "master-of-climate-governance-and-risk-management-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P050"
+    },
+    {
+      "rowNumber": 107,
+      "rawTitle": "Master of Expressive Arts Therapy",
+      "programmeSlug": "master-of-expressive-arts-therapy-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-expressive-arts-therapy-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P054"
+    },
+    {
+      "rowNumber": 108,
+      "rawTitle": "Master of International and Public Affairs",
+      "programmeSlug": "master-of-international-and-public-affairs-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P020"
+    },
+    {
+      "rowNumber": 109,
+      "rawTitle": "Master of Journalism",
+      "programmeSlug": "master-of-journalism-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P021"
+    },
+    {
+      "rowNumber": 110,
+      "rawTitle": "Master of Journalism - Documentary Filmmaking Specialisation",
+      "programmeSlug": "master-of-arts-in-documentary-filmmaking-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-documentary-filmmaking-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P021"
+    },
+    {
+      "rowNumber": 111,
+      "rawTitle": "Master of Public Administration",
+      "programmeSlug": "master-of-public-administration-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-administration-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P061"
+    },
+    {
+      "rowNumber": 112,
+      "rawTitle": "Master of Science in Geospatial Data Science",
+      "programmeSlug": "master-of-science-in-geospatial-data-science-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P022"
+    },
+    {
+      "rowNumber": 113,
+      "rawTitle": "Master of Social Sciences in the field of Applied Psychology",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-applied-psychology-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-applied-psychology-socsc&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 114,
+      "rawTitle": "Master of Social Sciences in the field of Behavioral Health",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-behavioral-health-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-behavioral-health-socsc&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 115,
+      "rawTitle": "Master of Social Sciences in the field of Clinical Psychology",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-clinical-psychology-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-clinical-psychology-socsc&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 116,
+      "rawTitle": "Master of Social Sciences in the field of Counselling",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-counselling-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-counselling-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P090"
+    },
+    {
+      "rowNumber": 117,
+      "rawTitle": "Master of Social Sciences in the field of Criminology",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-criminology-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-criminology-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P091"
+    },
+    {
+      "rowNumber": 118,
+      "rawTitle": "Master of Social Sciences in the field of Educational Psychology",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-educational-psychology-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-educational-psychology-socsc&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 119,
+      "rawTitle": "Master of Social Sciences in the field of Gerontology",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-gerontology-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-gerontology-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P092"
+    },
+    {
+      "rowNumber": 120,
+      "rawTitle": "Master of Social Sciences in the field of Media, Culture and Creative Cities",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-media,-culture-and-creative-cities-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-media%2C-culture-and-creative-cities-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P093"
+    },
+    {
+      "rowNumber": 121,
+      "rawTitle": "Master of Social Sciences in the field of Mental Health",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-mental-health-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-mental-health-socsc&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 122,
+      "rawTitle": "Master of Social Sciences in the field of Nonprofit Management",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-nonprofit-management-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-nonprofit-management-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P094"
+    },
+    {
+      "rowNumber": 123,
+      "rawTitle": "Master of Social Sciences in the field of Population and Policy Analysis",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P095"
+    },
+    {
+      "rowNumber": 124,
+      "rawTitle": "Master of Social Sciences in the field of Psychology",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-psychology-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-psychology-socsc&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 125,
+      "rawTitle": "Master of Social Sciences in the field of Social Data Analytics",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-social-data-analytics-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P096"
+    },
+    {
+      "rowNumber": 126,
+      "rawTitle": "Master of Social Sciences in the field of Social Service Management",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-social-service-management-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-service-management-socsc&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 127,
+      "rawTitle": "Master of Social Sciences in the field of Sociology",
+      "programmeSlug": "master-of-social-sciences-in-the-field-of-sociology-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-sociology-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P097"
+    },
+    {
+      "rowNumber": 128,
+      "rawTitle": "Master of Social Sciences in the field of Sustainability Leadership and Governance",
+      "programmeSlug": "msocsc-sustainability-leadership-and-governance",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P098"
+    },
+    {
+      "rowNumber": 129,
+      "rawTitle": "Master of Social Work",
+      "programmeSlug": "master-of-social-work-socsc",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-work-socsc&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P023"
+    },
+    {
+      "rowNumber": 130,
+      "rawTitle": "Master of Transport Policy and Planning",
+      "programmeSlug": "master-of-transport-policy-and-planning-socsc",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-transport-policy-and-planning-socsc&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 131,
+      "rawTitle": "Doctor of Business Administration",
+      "programmeSlug": "doctor-of-business-administration-hkubs",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=doctor-of-business-administration-hkubs&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 132,
+      "rawTitle": "Executive Master of Business Administration",
+      "programmeSlug": "executive-master-of-business-administration-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=executive-master-of-business-administration-hkubs&mode=0",
+      "decision": "hold_route_reconciliation",
+      "reasonEn": "The page describes September and March EMBA streams, with required overseas courses in the international stream. Reconcile stream identity/delivery rather than assuming every route is wholly in Hong Kong."
+    },
+    {
+      "rowNumber": 133,
+      "rawTitle": "Master of Accounting",
+      "programmeSlug": "master-of-accounting-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P025"
+    },
+    {
+      "rowNumber": 134,
+      "rawTitle": "Master of Accounting Analytics",
+      "programmeSlug": "master-of-accounting-analytics-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P026"
+    },
+    {
+      "rowNumber": 135,
+      "rawTitle": "Master of Artificial Intelligence in Business",
+      "programmeSlug": "master-of-artificial-intelligence-in-business-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P029"
+    },
+    {
+      "rowNumber": 136,
+      "rawTitle": "Master of Business Administration",
+      "programmeSlug": "master-of-business-administration-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P047"
+    },
+    {
+      "rowNumber": 137,
+      "rawTitle": "Master of Business Administration (International)",
+      "programmeSlug": "master-of-business-administration-(international)-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-(international)-hkubs&mode=0",
+      "decision": "hold_delivery_reconciliation",
+      "reasonEn": "The page identifies a joint HKU/Fudan part-time programme taught in Shanghai and Hong Kong. Reconcile partner and delivery boundaries before adding a Hong Kong lead."
+    },
+    {
+      "rowNumber": 138,
+      "rawTitle": "Master of Economics",
+      "programmeSlug": "master-of-economics-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P053"
+    },
+    {
+      "rowNumber": 139,
+      "rawTitle": "Master of Family Wealth Management",
+      "programmeSlug": "master-of-family-wealth-management-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P055"
+    },
+    {
+      "rowNumber": 140,
+      "rawTitle": "Master of Finance",
+      "programmeSlug": "master-of-finance-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P056"
+    },
+    {
+      "rowNumber": 141,
+      "rawTitle": "Master of Finance in Financial Technology",
+      "programmeSlug": "master-of-finance-in-financial-technology-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P057"
+    },
+    {
+      "rowNumber": 142,
+      "rawTitle": "Master of Global Management",
+      "programmeSlug": "master-of-global-management-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P059"
+    },
+    {
+      "rowNumber": 143,
+      "rawTitle": "Master of Science in Business Analytics",
+      "programmeSlug": "master-of-science-in-business-analytics-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P063"
+    },
+    {
+      "rowNumber": 144,
+      "rawTitle": "Master of Science in Marketing",
+      "programmeSlug": "master-of-science-in-marketing-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P086"
+    },
+    {
+      "rowNumber": 145,
+      "rawTitle": "Master of Sustainable Accounting and Finance",
+      "programmeSlug": "master-of-sustainable-accounting-and-finance-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P100"
+    },
+    {
+      "rowNumber": 146,
+      "rawTitle": "Master of Wealth Management",
+      "programmeSlug": "master-of-wealth-management-hkubs",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P103"
+    },
+    {
+      "rowNumber": 147,
+      "rawTitle": "Doctor of Nursing",
+      "programmeSlug": "doctor-of-nursing-med",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=doctor-of-nursing-med&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 148,
+      "rawTitle": "Master of Advanced Pharmacy",
+      "programmeSlug": "master-of-advanced-pharmacy-med",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-advanced-pharmacy-med&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P027"
+    },
+    {
+      "rowNumber": 149,
+      "rawTitle": "Master of Biomedical Innovation",
+      "programmeSlug": "master-of-biomedical-innovation-med",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-biomedical-innovation-med&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P044"
+    },
+    {
+      "rowNumber": 150,
+      "rawTitle": "Master of Chinese Medicine",
+      "programmeSlug": "master-of-chinese-medicine-med",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-chinese-medicine-med&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P049"
+    },
+    {
+      "rowNumber": 151,
+      "rawTitle": "Master of Clinical Research and Product Development",
+      "programmeSlug": "master-of-clinical-research-and-product-development-med",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-clinical-research-and-product-development-med&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P051"
+    },
+    {
+      "rowNumber": 152,
+      "rawTitle": "Master of Community Health Care",
+      "programmeSlug": "master-of-community-health-care-med",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-community-health-care-med&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P052"
+    },
+    {
+      "rowNumber": 153,
+      "rawTitle": "Master of Medical Sciences",
+      "programmeSlug": "master-of-medical-sciences-med",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-medical-sciences-med&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 154,
+      "rawTitle": "Master of Molecular and Diagnostic Pathology",
+      "programmeSlug": "master-of-molecular-and-diagnostic-pathology-med",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-molecular-and-diagnostic-pathology-med&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 155,
+      "rawTitle": "Master of Nursing",
+      "programmeSlug": "master-of-nursing-med",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-nursing-med&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 156,
+      "rawTitle": "Master of Psychological Medicine (Psychosis Studies)",
+      "programmeSlug": "master-of-psychological-medicine-(psychosis-studies)-med",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-psychological-medicine-(psychosis-studies)-med&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 157,
+      "rawTitle": "Master of Public Health",
+      "programmeSlug": "master-of-public-health-med",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P019"
+    },
+    {
+      "rowNumber": 158,
+      "rawTitle": "Master of Research in Medicine",
+      "programmeSlug": "master-of-research-in-medicine-med",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-research-in-medicine-med&mode=0",
+      "decision": "hold_intercalated_route",
+      "reasonEn": "The page specifies an intercalated year for HKU MBBS students who have completed Year 2, not a general graduate-entry master. Do not exclude it just because its title says Research."
+    },
+    {
+      "rowNumber": 159,
+      "rawTitle": "Master of Science in Nursing",
+      "programmeSlug": "master-of-science-in-nursing-med",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-nursing-med&mode=0",
+      "decision": "hold_closed_listing",
+      "reasonEn": "Closed tag observed in both applicant-context result views. Hold a new lead; do not infer the applicable cycle or future availability from this directory tag."
+    },
+    {
+      "rowNumber": 160,
+      "rawTitle": "Postgraduate Diploma in Infectious Diseases",
+      "programmeSlug": "postgraduate-diploma-in-infectious-diseases-med",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=postgraduate-diploma-in-infectious-diseases-med&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 161,
+      "rawTitle": "Postgraduate Diploma in Psychological Medicine (Psychosis Studies)",
+      "programmeSlug": "postgraduate-diploma-in-psychological-medicine-(psychosis-studies)-med",
+      "closedTag": true,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=postgraduate-diploma-in-psychological-medicine-(psychosis-studies)-med&mode=0",
+      "decision": "exclude_non_master",
+      "reasonEn": "Doctoral, Juris Doctor, diploma or certificate award is outside the master-only scope."
+    },
+    {
+      "rowNumber": 162,
+      "rawTitle": "Master of Data Science",
+      "programmeSlug": "master-of-data-science-cds",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P018"
+    },
+    {
+      "rowNumber": 163,
+      "rawTitle": "Master of Science in Computer Science (AI & Decentralized Technologies Stream), with Delta X Fellowship",
+      "programmeSlug": "master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream),-with-delta-x-fellowship-cds",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P016"
+    },
+    {
+      "rowNumber": 164,
+      "rawTitle": "Master of Science in Computer Science (General, Cyber Security, Financial Computing and Multimedia Computing Streams)",
+      "programmeSlug": "master-of-science-in-computer-science-(general,-cyber-security,-financial-computing-and-multimedia-computing-streams)-cds",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P016"
+    },
+    {
+      "rowNumber": 165,
+      "rawTitle": "Master of Science in Computer Science (General, Cyber Security, Financial Computing and Multimedia Computing Streams), with Delta X Fellowship",
+      "programmeSlug": "master-of-science-in-computer-science-(general,-cyber-security,-financial-computing-and-multimedia-computing-streams),-with-delta-x-fellowship-cds",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P016"
+    },
+    {
+      "rowNumber": 166,
+      "rawTitle": "Master of Science in Electronic Commerce and Internet Computing",
+      "programmeSlug": "master-of-science-in-electronic-commerce-and-internet-computing-cds",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P067"
+    },
+    {
+      "rowNumber": 167,
+      "rawTitle": "Master of Science in Financial Technology and Data Analytics",
+      "programmeSlug": "master-of-science-in-financial-technology-and-data-analytics-cds",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P017"
+    },
+    {
+      "rowNumber": 168,
+      "rawTitle": "Master of Statistics",
+      "programmeSlug": "master-of-statistics-cds",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P099"
+    },
+    {
+      "rowNumber": 169,
+      "rawTitle": "Master of Governance and Policy",
+      "programmeSlug": "master-of-governance-and-policy-sgp",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P060"
+    },
+    {
+      "rowNumber": 170,
+      "rawTitle": "Master of Science in Innovation and Technology",
+      "programmeSlug": "master-of-science-in-innovation-and-technology",
+      "closedTag": false,
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0",
+      "decision": "include_directory_lead",
+      "reasonEn": "Named master in the consulted taught directory; absence of a Closed tag is not evidence of open admissions.",
+      "programmeId": "HK-HKU-P084"
+    }
+  ],
+  "candidates": [
+    {
+      "programmeId": "HK-HKU-P024",
+      "name": "Executive Master of Business Laws",
+      "directoryRows": [
+        82
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P025",
+      "name": "Master of Accounting",
+      "directoryRows": [
+        133
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P026",
+      "name": "Master of Accounting Analytics",
+      "directoryRows": [
+        134
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P027",
+      "name": "Master of Advanced Pharmacy",
+      "directoryRows": [
+        148
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P001",
+      "name": "Master of Architecture",
+      "directoryRows": [
+        2,
+        3
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Architecture (non-HK and International Applicants)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0"
+        },
+        {
+          "nameEn": "Master of Architecture (UGC funded for HK Applicants)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P028",
+      "name": "Master of Architecture (Design)",
+      "directoryRows": [
+        1
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P029",
+      "name": "Master of Artificial Intelligence in Business",
+      "directoryRows": [
+        135
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P008",
+      "name": "Master of Arts in AI, Ethics and Society",
+      "directoryRows": [
+        23
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P030",
+      "name": "Master of Arts in Applied Linguistics",
+      "directoryRows": [
+        22
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P031",
+      "name": "Master of Arts in Art History",
+      "directoryRows": [
+        24
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P032",
+      "name": "Master of Arts in Chinese Historical Studies",
+      "directoryRows": [
+        25
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P009",
+      "name": "Master of Arts in Chinese Language and Literature",
+      "directoryRows": [
+        26
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P033",
+      "name": "Master of Arts in Creative Artificial Intelligence Film and Media",
+      "directoryRows": [
+        104
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P034",
+      "name": "Master of Arts in Creative Communications",
+      "directoryRows": [
+        27
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P035",
+      "name": "Master of Arts in East Asian Studies",
+      "directoryRows": [
+        28
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P036",
+      "name": "Master of Arts in English Studies",
+      "directoryRows": [
+        29
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P037",
+      "name": "Master of Arts in European Studies",
+      "directoryRows": [
+        30
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P038",
+      "name": "Master of Arts in Hong Kong Cultural Studies",
+      "directoryRows": [
+        31
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P039",
+      "name": "Master of Arts in Hong Kong History",
+      "directoryRows": [
+        32
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P040",
+      "name": "Master of Arts in Linguistics",
+      "directoryRows": [
+        33
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P041",
+      "name": "Master of Arts in Literary and Cultural Studies",
+      "directoryRows": [
+        34
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P010",
+      "name": "Master of Arts in Museum Studies",
+      "directoryRows": [
+        35
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P042",
+      "name": "Master of Arts in Music Studies",
+      "directoryRows": [
+        36
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P043",
+      "name": "Master of Arts in Philosophy, Politics and Economics",
+      "directoryRows": [
+        37
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P011",
+      "name": "Master of Arts in Translation",
+      "directoryRows": [
+        38
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P044",
+      "name": "Master of Biomedical Innovation",
+      "directoryRows": [
+        149
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P045",
+      "name": "Master of Buddhist Counselling",
+      "directoryRows": [
+        39
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P046",
+      "name": "Master of Buddhist Studies",
+      "directoryRows": [
+        40
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P047",
+      "name": "Master of Business Administration",
+      "directoryRows": [
+        136
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P048",
+      "name": "Master of China Development Studies",
+      "directoryRows": [
+        105
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P049",
+      "name": "Master of Chinese Medicine",
+      "directoryRows": [
+        150
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P050",
+      "name": "Master of Climate Governance and Risk Management",
+      "directoryRows": [
+        106
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P051",
+      "name": "Master of Clinical Research and Product Development",
+      "directoryRows": [
+        151
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P052",
+      "name": "Master of Community Health Care",
+      "directoryRows": [
+        152
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P018",
+      "name": "Master of Data Science",
+      "directoryRows": [
+        162
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P002",
+      "name": "Master of Digital Urban Management",
+      "directoryRows": [
+        4
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P053",
+      "name": "Master of Economics",
+      "directoryRows": [
+        138
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P054",
+      "name": "Master of Expressive Arts Therapy",
+      "directoryRows": [
+        107
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P055",
+      "name": "Master of Family Wealth Management",
+      "directoryRows": [
+        139
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P056",
+      "name": "Master of Finance",
+      "directoryRows": [
+        140
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P057",
+      "name": "Master of Finance in Financial Technology",
+      "directoryRows": [
+        141
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P058",
+      "name": "Master of Fine Arts in Creative Writing in English",
+      "directoryRows": [
+        41
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P059",
+      "name": "Master of Global Management",
+      "directoryRows": [
+        142
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P060",
+      "name": "Master of Governance and Policy",
+      "directoryRows": [
+        169
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P020",
+      "name": "Master of International and Public Affairs",
+      "directoryRows": [
+        108
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P021",
+      "name": "Master of Journalism",
+      "directoryRows": [
+        109,
+        110
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Journalism",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0"
+        },
+        {
+          "nameEn": "Master of Journalism - Documentary Filmmaking Specialisation",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-documentary-filmmaking-socsc&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P004",
+      "name": "Master of Landscape Architecture",
+      "directoryRows": [
+        5
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P061",
+      "name": "Master of Public Administration",
+      "directoryRows": [
+        111
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P019",
+      "name": "Master of Public Health",
+      "directoryRows": [
+        157
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P062",
+      "name": "Master of Science in Applied Geosciences",
+      "directoryRows": [
+        96
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P015",
+      "name": "Master of Science in Artificial Intelligence",
+      "directoryRows": [
+        93
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P063",
+      "name": "Master of Science in Business Analytics",
+      "directoryRows": [
+        143
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P064",
+      "name": "Master of Science in Chemical Technologies for Health and Materials",
+      "directoryRows": [
+        97
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P065",
+      "name": "Master of Science in Conservation",
+      "directoryRows": [
+        7,
+        8
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Science in Conservation (Conservation Planning and Management Stream)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Conservation (Design for Conservation Stream)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P005",
+      "name": "Master of Science in Construction Project Management",
+      "directoryRows": [
+        9
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P066",
+      "name": "Master of Science in Digital Management of Built Assets",
+      "directoryRows": [
+        10
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P067",
+      "name": "Master of Science in Electronic Commerce and Internet Computing",
+      "directoryRows": [
+        166
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P068",
+      "name": "Master of Science in Engineering (Building Services Engineering)",
+      "directoryRows": [
+        61
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P069",
+      "name": "Master of Science in Engineering (Civil Engineering)",
+      "directoryRows": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Science in Engineering (Civil Engineering) - Environmental Engineering Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-environmental-engineering-stream-engg&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Engineering (Civil Engineering) - General Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-general-stream-engg&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Engineering (Civil Engineering) - Geotechnical Engineering Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-geotechnical-engineering-stream-engg&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Engineering (Civil Engineering) - Structural Engineering Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-structural-engineering-stream-engg&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P070",
+      "name": "Master of Science in Engineering (Electrical and Electronic Engineering)",
+      "directoryRows": [
+        66,
+        67,
+        68
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Science in Engineering (Electrical and Electronic Engineering) - Communications Engineering Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-communications-engineering-stream-engg&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Engineering (Electrical and Electronic Engineering) - General Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-general-stream-engg&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Engineering (Electrical and Electronic Engineering) - Power Engineering Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-power-engineering-stream-engg&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P071",
+      "name": "Master of Science in Engineering (Energy Engineering)",
+      "directoryRows": [
+        69
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P072",
+      "name": "Master of Science in Engineering (Industrial Engineering and Logistics Management)",
+      "directoryRows": [
+        70
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P073",
+      "name": "Master of Science in Engineering (Infrastructure Engineering and Management)",
+      "directoryRows": [
+        71,
+        72
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Science in Engineering (Infrastructure Engineering and Management) - Digital Infrastructure Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(infrastructure-engineering-and-management)-digital-infrastructure-stream-engg&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Engineering (Infrastructure Engineering and Management) - Infrastructure Project Management Stream",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(infrastructure-engineering-and-management)-infrastructure-project-management-stream-engg&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P074",
+      "name": "Master of Science in Engineering (Innovative Design and Technology)",
+      "directoryRows": [
+        73
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P075",
+      "name": "Master of Science in Engineering (Integrated Circuits and Electronic Systems)",
+      "directoryRows": [
+        74
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P076",
+      "name": "Master of Science in Engineering (Intelligent Networks and Information Engineering)",
+      "directoryRows": [
+        75
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P077",
+      "name": "Master of Science in Engineering (Low-Altitude Technology)",
+      "directoryRows": [
+        76
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P078",
+      "name": "Master of Science in Engineering (Materials Engineering and Advanced Manufacturing)",
+      "directoryRows": [
+        77
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P079",
+      "name": "Master of Science in Engineering (Mechanical Engineering)",
+      "directoryRows": [
+        78
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P080",
+      "name": "Master of Science in Engineering (Microelectronics Science and Technology)",
+      "directoryRows": [
+        79
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P081",
+      "name": "Master of Science in Engineering (Robotics and Intelligent Systems)",
+      "directoryRows": [
+        80
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P082",
+      "name": "Master of Science in Engineering (Sustainability Engineering)",
+      "directoryRows": [
+        81
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P017",
+      "name": "Master of Science in Financial Technology and Data Analytics",
+      "directoryRows": [
+        167
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P083",
+      "name": "Master of Science in Food Safety and Toxicology",
+      "directoryRows": [
+        99
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P022",
+      "name": "Master of Science in Geospatial Data Science",
+      "directoryRows": [
+        112
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P084",
+      "name": "Master of Science in Innovation and Technology",
+      "directoryRows": [
+        170
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P085",
+      "name": "Master of Science in Integrative Marine Ecology and Conservation",
+      "directoryRows": [
+        95
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P086",
+      "name": "Master of Science in Marketing",
+      "directoryRows": [
+        144
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P087",
+      "name": "Master of Science in Physics",
+      "directoryRows": [
+        100
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P006",
+      "name": "Master of Science in Real Estate",
+      "directoryRows": [
+        11
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P088",
+      "name": "Master of Science in Sustainable Environmental Design",
+      "directoryRows": [
+        12
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P007",
+      "name": "Master of Science in Urban Analytics",
+      "directoryRows": [
+        13
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P089",
+      "name": "Master of Science in Urban Planning",
+      "directoryRows": [
+        15,
+        16,
+        17
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Science in Urban Planning (For ADB-Japan Scholarship Programme applicants)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Urban Planning (Urban and Regional Planning Stream) [Self-funded for all applicants]",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Urban Planning (Urban Planning Stream) [UGC-funded for HK Applicants]",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P090",
+      "name": "Master of Social Sciences in Counselling",
+      "directoryRows": [
+        116
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P091",
+      "name": "Master of Social Sciences in Criminology",
+      "directoryRows": [
+        117
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P092",
+      "name": "Master of Social Sciences in Gerontology",
+      "directoryRows": [
+        119
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P093",
+      "name": "Master of Social Sciences in Media, Culture and Creative Cities",
+      "directoryRows": [
+        120
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P094",
+      "name": "Master of Social Sciences in Nonprofit Management",
+      "directoryRows": [
+        122
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P095",
+      "name": "Master of Social Sciences in Population and Policy Analysis",
+      "directoryRows": [
+        123
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P096",
+      "name": "Master of Social Sciences in Social Data Analytics",
+      "directoryRows": [
+        125
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P097",
+      "name": "Master of Social Sciences in Sociology",
+      "directoryRows": [
+        127
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P098",
+      "name": "Master of Social Sciences in Sustainability Leadership and Governance",
+      "directoryRows": [
+        128
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P023",
+      "name": "Master of Social Work",
+      "directoryRows": [
+        129
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P099",
+      "name": "Master of Statistics",
+      "directoryRows": [
+        168
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P100",
+      "name": "Master of Sustainable Accounting and Finance",
+      "directoryRows": [
+        145
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P101",
+      "name": "Master of Urban Design",
+      "directoryRows": [
+        18,
+        19
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Urban Design (For ADB-Japan Scholarship Programme applicants)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+        },
+        {
+          "nameEn": "Master of Urban Design (For general applicants)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P102",
+      "name": "Master of Urban Studies and Housing Management",
+      "directoryRows": [
+        20,
+        21
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Urban Studies and Housing Management (Housing Management (Professional) Stream)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0"
+        },
+        {
+          "nameEn": "Master of Urban Studies and Housing Management (Urban Studies Stream)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P103",
+      "name": "Master of Wealth Management",
+      "directoryRows": [
+        146
+      ],
+      "variants": []
+    },
+    {
+      "programmeId": "HK-HKU-P016",
+      "name": "MSc Computer Science",
+      "directoryRows": [
+        163,
+        164,
+        165
+      ],
+      "variants": [
+        {
+          "nameEn": "Master of Science in Computer Science (AI & Decentralized Technologies Stream), with Delta X Fellowship",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Computer Science (General, Cyber Security, Financial Computing and Multimedia Computing Streams)",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0"
+        },
+        {
+          "nameEn": "Master of Science in Computer Science (General, Cyber Security, Financial Computing and Multimedia Computing Streams), with Delta X Fellowship",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+        }
+      ]
+    }
+  ],
+  "retainedClosedEvidence": [
+    {
+      "programmeId": "HK-HKU-P012",
+      "rowNumber": 54
+    },
+    {
+      "programmeId": "HK-HKU-P013",
+      "rowNumber": 55
+    },
+    {
+      "programmeId": "HK-HKU-P014",
+      "rowNumber": 56
+    }
+  ],
+  "unmatchedExisting": [
+    {
+      "programmeId": "HK-HKU-P003",
+      "name": "Master of Housing Management",
+      "reasonEn": "No confirmed exact identity in this capture. Preserve the historical seed; do not infer a rename, closure or deletion."
+    }
+  ]
+}

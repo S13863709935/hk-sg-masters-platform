@@ -6,7 +6,7 @@
 
 ## 当前状态
 
-2026-10-20 本地最新：总库 793 条目录记录，默认浏览 790 条；项目页已查仍为 21，独立复核和完整条件仍为 0。同日 CityU 新增 52 条、EdUHK 新增 56 条、HKUST 新增 45 条、PolyU 新增 89 条未核验线索，保留范围排除、语言／格式／入学批次分组及待确认交付边界；这些数量不是完整已核验项目或当前开放申请数量。详见 [CityU](docs/research/cityu-directory-pass-2026-10-20.md)、[EdUHK](docs/research/eduhk-directory-pass-2026-10-20.md)、[HKUST](docs/research/hkust-directory-pass-2026-10-20.md)和 [PolyU 目录盘点](docs/research/polyu-directory-pass-2026-10-20.md)。以下保留早期开发记录及当时的数量，不应当作最新总量。
+2026-10-21 本地最新：总库 873 条目录记录，默认浏览 870 条；项目页已查仍为 21，独立复核和完整条件仍为 0。本批完成 HKU 目录整理，官网观察日期保留为 10 月 20 日：两类申请人视图各 17 页、170 行，分为 99 个保守候选组，新增 80 条未核验线索；关闭、插读及交付边界有单独记录。这些数量不是完整已核验项目或当前开放申请数量。详见 [HKU 目录盘点](docs/research/hku-directory-pass-2026-10-20.md)。此前 CityU 新增 52 条、EdUHK 56 条、HKUST 45 条、PolyU 89 条未核验线索，分别见 [CityU](docs/research/cityu-directory-pass-2026-10-20.md)、[EdUHK](docs/research/eduhk-directory-pass-2026-10-20.md)、[HKUST](docs/research/hkust-directory-pass-2026-10-20.md)及 [PolyU](docs/research/polyu-directory-pass-2026-10-20.md)。以下保留早期开发记录及当时数量，不应当作最新总量。
 
 2026-10-06：本地可运行版本 0.1.0 已实现。网站统一采用英文界面，包含搜索、项目详情、背景输入及逐条件判断、课程比较、候选清单和数据工作台。当前开发工作保存在本地，尚未公开部署。
 
@@ -40,6 +40,7 @@ Windows 双击 `start-local.cmd`，待启动窗口显示网址后打开 `http://
 - [10 月 20 日 EdUHK 目录盘点与语言／待批准条目记录](docs/research/eduhk-directory-pass-2026-10-20.md)
 - [10 月 20 日 HKUST 目录、学位组合与交付边界](docs/research/hkust-directory-pass-2026-10-20.md)
 - [10 月 20 日 PolyU 两批入学目录与学位／组合课程边界](docs/research/polyu-directory-pass-2026-10-20.md)
+- [10 月 20 日 HKU 目录、申请人类别与关闭／交付边界](docs/research/hku-directory-pass-2026-10-20.md)
 
 ## 下一步
 

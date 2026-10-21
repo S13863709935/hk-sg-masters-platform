@@ -146,13 +146,15 @@
       "directoryUrl": "https://portal.hku.hk/tpg-admissions/programme-listing",
       "fallbackUrl": "https://www4.hku.hk/pubunit/drcd/postgraduate-2026-2027/1122-all",
       "listingUrl": null,
-      "entryStatus": "access_limited",
-      "checkedOn": "2026-10-06",
-      "enumerationStatus": "pending",
+      "entryStatus": "entry_checked",
+      "checkedOn": "2026-10-20",
+      "enumerationStatus": "entries_enumerated",
       "confirmedProgrammeCount": null,
-      "visibleDirectoryResultCount": null,
+      "visibleDirectoryResultCount": 170,
       "existingSeedCount": 23,
-      "noteEn": "Old admissions programme-list link and new portal were not readable in this research tool. Faculty admissions pages were usable. Annual regulations are a fallback inventory, not confirmation of live applications."
+      "noteEn": "17 pages / 170 rows in each Local and Non-local view; extracted titles, links and Closed tags matched exactly, counted once. Default fee/duration ranges apply. Exclude 13 non-masters; hold 40 closed master rows and three intercalated/route/delivery cases. 99 conservative candidate groups; retain three existing closed seeds with directory cautions and one unmatched historical Housing Management seed. No exact distinct-master total, shared category conditions or live-open status is asserted.",
+      "directoryMasterEntryCount": 157,
+      "inventoryFile": "data/research/hku-programme-inventory-2026-10-20.json"
     },
     {
       "universityId": "SG-NUS",
