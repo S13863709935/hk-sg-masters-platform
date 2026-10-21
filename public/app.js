@@ -59,24 +59,63 @@ function notice() { return `<div class="data-notice">${icon('guide')}<span>${t('
 function renderDiscover() {
   const q = state.meta.quality;
   $('#page').innerHTML = `<section class="hero"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>${t('heading')}</h1><p>${t('intro')}</p><p class="hero-note">${t('heroNote')}</p></div><div class="city-stamp" aria-hidden="true"><span class="stamp-code">HKG</span><span class="stamp-name">HONG KONG</span><div class="stamp-line"></div><span class="stamp-code">SGP</span><span class="stamp-name">SINGAPORE</span></div></section>${metrics([[q.universities, 'targetSchools', 'school'], [q.total, 'seedRecords', 'explore'], [q.checked, 'sourceChecked', 'check'], [q.peerReviewed, 'independentReview', 'data']])}<section class="search-panel" aria-label="${t('searchLabel')}"><div class="search-row"><div class="segmented" aria-label="${'Region'}">${[['', 'allRegions'], ['HK', 'hongKong'], ['SG', 'singapore']].map(([value, label]) => `<button data-action="region" data-value="${value}" class="${state.region === value ? 'active' : ''}" aria-pressed="${state.region === value}">${t(label)}</button>`).join('')}</div><div class="search-input">${icon('search')}<input type="search" id="search" value="${esc(state.q)}" placeholder="${t('searchPlaceholder')}" aria-label="${t('searchLabel')}" maxlength="200"></div></div><div class="filters">${filterField('school', 'university', [['', t('allUniversities')], ...state.meta.universities.filter(u => !state.region || u.region === state.region).map(u => [u.id, `${u.abbreviation} · ${schoolName(u)}`])])}${filterField('area', 'area', [['', t('allAreas')], ...state.meta.areas.map(a => [a, areaName(a)])])}${filterField('mode', 'mode', [['', t('allModes')], ['full-time', t('fullTime')], ['part-time', t('partTime')]])}${filterField('verification', 'verification', [['', t('allVerification')], ['catalogue_seed', t('catalogue_seed')], ['programme_page_checked', t('programme_page_checked')], ['peer_reviewed', t('peer_reviewed')]])}<button class="link-button" data-action="reset">${t('reset')}</button></div></section>${notice()}<div class="profile-strip"><p>${icon('profile')}${state.profile ? `${t('backgroundActive')} · ${esc(state.profile.major)}` : t('backgroundCta')}</p><button class="button secondary" data-action="nav" data-view="profile">${t(state.profile ? 'changeProfile' : 'profile')}${icon('arrow')}</button></div>${state.profile ? `<div class="field"><label for="match-filter">${t('matchingFilter')}</label><select id="match-filter" data-filter="matchFilter">${options([['', t('allMatches')], ['meets_checked', t('meets_checked')], ['has_gap', t('has_gap')], ['needs_confirmation', t('needs_confirmation')]], state.matchFilter)}</select></div>` : ''}<div id="results"></div>`;
+  $('#results').insertAdjacentHTML('beforebegin', '<p id="catalogue-status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>');
   loadCatalogue();
 }
 function syncUrl() { const url = new URL(location.href); for (const key of ['q', 'region', 'school', 'area', 'mode', 'verification']) state[key] ? url.searchParams.set(key, state[key]) : url.searchParams.delete(key); history.replaceState(null, '', url); }
 function filterMatches(items) {
   return filterMatchedProgrammes(items, state, savedOptionIssues);
 }
-async function loadCatalogue() {
-  const seq = ++requestSequence;
-  if (!$('#results')) return;
-  $('#results').innerHTML = `<div class="cards" aria-busy="true">${[1, 2, 3].map(() => '<div class="skeleton"></div>').join('')}</div>`;
+const catalogueContext = () => JSON.stringify([...['q', 'region', 'school', 'area', 'mode', 'verification', 'page', 'limit', 'sort', 'matchFilter'].map(key => state[key]), routeChoices, offeringChoices, applicantChoices]);
+const catalogueSummary = () => `${state.total} ${t('results')} · ${t('page')} ${state.page} ${t('of')} ${Math.max(1, Math.ceil(state.total / state.limit))}`;
+function catalogueLoading(target) {
+  target.setAttribute('aria-busy', 'true');
+  target.innerHTML = `<div class="cards">${[1, 2, 3].map(() => '<div class="skeleton"></div>').join('')}</div>`;
+  if ($('#catalogue-status')) $('#catalogue-status').textContent = t('loading');
+}
+function scheduleCatalogueSearch(value) {
+  clearTimeout(searchTimer); requestSequence++;
+  state.q = value; state.page = 1; syncUrl();
+  const target = $('#results');
+  if (state.view !== 'discover' || !target) return;
+  catalogueLoading(target);
+  searchTimer = setTimeout(() => {
+    searchTimer = null;
+    if (state.view === 'discover' && target.isConnected && $('#results') === target) loadCatalogue();
+  }, 220);
+}
+async function loadCatalogue({ focusResults = false } = {}) {
+  clearTimeout(searchTimer); searchTimer = null;
+  const seq = ++requestSequence, target = $('#results');
+  if (state.view !== 'discover' || !target) return false;
+  const snapshot = catalogueContext(), profile = state.profile, matches = state.matches;
+  const restoreSort = document.activeElement?.id === 'sort';
+  const current = () => seq === requestSequence && state.view === 'discover' && target.isConnected && $('#results') === target && catalogueContext() === snapshot && state.profile === profile && state.matches === matches;
+  const mayMoveFocus = () => !$('#detail-dialog')?.open && (!document.activeElement || document.activeElement === document.body);
+  catalogueLoading(target);
   try {
     let response;
     if (state.profile && state.matches) { const filtered = filterMatches(state.matches); if (state.sort === 'az') filtered.sort((a, b) => a.name.localeCompare(b.name)); response = { total: filtered.length, items: filtered.slice((state.page - 1) * state.limit, state.page * state.limit) }; }
     else { const query = new URLSearchParams(Object.fromEntries(['q', 'region', 'school', 'area', 'mode', 'verification', 'page', 'limit', 'sort'].map(k => [k, state[k]]))); if (Object.keys(routeChoices).length) query.set('routes', JSON.stringify(routeChoices)); if (Object.keys(offeringChoices).length) query.set('offerings', JSON.stringify(offeringChoices)); if (Object.keys(applicantChoices).length) query.set('applicants', JSON.stringify(applicantChoices)); response = await api(`/api/catalogue?${query}`); }
-    if (seq !== requestSequence || state.view !== 'discover') return;
+    if (!current()) return false;
     state.items = response.items; state.total = response.total;
     renderResults();
-  } catch (error) { if (seq === requestSequence && $('#results')) $('#results').innerHTML = `${empty('errorHeading', 'errorHint', 'data')}<button class="button" data-action="retry">${t('retry')}</button>`; }
+    target.setAttribute('aria-busy', 'false');
+    if ($('#catalogue-status')) $('#catalogue-status').textContent = catalogueSummary();
+    if (mayMoveFocus()) {
+      const focus = restoreSort ? $('#sort') : focusResults ? $('#results-summary') : null;
+      focus?.focus({ preventScroll: true });
+      if (focus && focusResults) focus.scrollIntoView({ block: 'start', behavior: 'auto' });
+    }
+    return true;
+  } catch (error) {
+    if (!current()) return false;
+    target.innerHTML = `${empty('errorHeading', 'errorHint', 'data')}<button class="button" data-action="retry">${t('retry')}</button>`;
+    target.setAttribute('aria-busy', 'false');
+    if ($('#catalogue-status')) $('#catalogue-status').textContent = `${t('errorHeading')} ${t('errorHint')}`;
+    if ((focusResults || restoreSort) && mayMoveFocus()) target.querySelector('[data-action=retry]')?.focus();
+    return false;
+  }
 }
 function card(p) {
   if (p.unavailable) return unavailableCard(p, state.view === 'compare' ? 'compare' : 'save');
@@ -96,7 +135,7 @@ function card(p) {
 }
 function renderResults() {
   const pages = Math.max(1, Math.ceil(state.total / state.limit));
-  $('#results').innerHTML = `<div class="results-header"><div class="results-count"><strong>${state.total}</strong> ${t('results')}</div><div class="sort-group"><label for="sort">${t('sort')}</label><select id="sort" data-filter="sort">${options([['quality', t(state.profile ? 'matchingFirst' : 'qualityFirst')], ['az', t('az')]], state.sort)}</select></div></div><section class="cards" aria-label="${t('searchResults')}">${state.items.length ? state.items.map(card).join('') : empty('noResults', 'noResultsHint', 'search')}</section>${state.total > state.limit ? `<nav class="pagination" aria-label="${'Pagination'}"><button class="button" data-action="page" data-value="${state.page - 1}" ${state.page <= 1 ? 'disabled' : ''}>${t('previous')}</button><span>${t('page')} ${state.page} ${t('of')} ${pages}</span><button class="button" data-action="page" data-value="${state.page + 1}" ${state.page >= pages ? 'disabled' : ''}>${t('next')}</button></nav>` : ''}`;
+  $('#results').innerHTML = `<div class="results-header"><div class="results-count" id="results-summary" tabindex="-1" role="heading" aria-level="2"><strong>${state.total}</strong> ${t('results')} · ${t('page')} ${state.page} ${t('of')} ${pages}</div><div class="sort-group"><label for="sort">${t('sort')}</label><select id="sort" data-filter="sort">${options([['quality', t(state.profile ? 'matchingFirst' : 'qualityFirst')], ['az', t('az')]], state.sort)}</select></div></div><section class="cards" aria-label="${t('searchResults')}">${state.items.length ? state.items.map(card).join('') : empty('noResults', 'noResultsHint', 'search')}</section>${state.total > state.limit ? `<nav class="pagination" aria-label="${'Pagination'}"><button class="button" data-action="page" data-value="${state.page - 1}" ${state.page <= 1 ? 'disabled' : ''}>${t('previous')}</button><span>${t('page')} ${state.page} ${t('of')} ${pages}</span><button class="button" data-action="page" data-value="${state.page + 1}" ${state.page >= pages ? 'disabled' : ''}>${t('next')}</button></nav>` : ''}`;
 }
 function empty(title, intro, symbol = 'shortlist') { return `<div class="empty-state"><div class="empty-icon">${icon(symbol)}</div><h2>${t(title)}</h2><p>${t(intro)}</p><button class="button secondary" data-action="nav" data-view="discover">${t('backExplore')}${icon('arrow')}</button></div>`; }
 function updateTray() {
@@ -397,9 +436,9 @@ document.addEventListener('click', async event => {
   try {
   if (action === 'nav') navigate(view);
   if (action === 'chooseFile') $('#batch-file').click();
-  if (action === 'region') { state.region = value; state.school = ''; state.page = 1; syncUrl(); renderDiscover(); }
-  if (action === 'reset') { for (const key of ['q', 'region', 'school', 'area', 'mode', 'verification', 'matchFilter']) state[key] = ''; state.page = 1; syncUrl(); renderDiscover(); }
-  if (action === 'page') { state.page = Number(value); await loadCatalogue(); $('#results').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  if (action === 'region') { state.region = value; state.school = ''; state.page = 1; syncUrl(); renderDiscover(); [...document.querySelectorAll('[data-action=region]')].find(button => button.dataset.value === value)?.focus(); }
+  if (action === 'reset') { for (const key of ['q', 'region', 'school', 'area', 'mode', 'verification', 'matchFilter']) state[key] = ''; state.page = 1; syncUrl(); renderDiscover(); $('#search')?.focus(); }
+  if (action === 'page') { state.page = Number(value); await loadCatalogue({ focusResults: true }); }
   if (action === 'detail') await openDetail(id);
   if (action === 'closeDetail') closeDetail();
   if (action === 'rememberOptions') {
@@ -439,12 +478,12 @@ document.addEventListener('click', async event => {
   if (action === 'clearCompare') { if (!writeStorage(keys.compare, [])) return; state.compare = []; pruneRememberedOptions(); updateTray(); refreshRememberPanel(); document.querySelectorAll('input[data-action=compare]').forEach(input => { input.checked = false; }); if (state.view === 'compare') await renderCompare(); }
   if (action === 'sample') { fillProfile({ major: 'Civil Engineering', degreeStatus: 'graduated', classification: 'second_upper', gpa: null, gpaScale: null, experienceYears: null, language: { type: 'ielts', total: 7, components: { listening: 6.5, reading: 6.5, writing: 6.5, speaking: 6.5 }, testDate: '2026-09-01', singleAttempt: true, atHome: false, waiverBasis: null } }); toast('Synthetic background for functional checks only.'); }
   if (action === 'clearProfile') clearBackground();
-  if (action === 'retry') await loadCatalogue();
+  if (action === 'retry') await loadCatalogue({ focusResults: true });
   if (action === 'rerender') await renderView();
   if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson(shortlistExport(programmes, remembered.entries), 'gradpath-shortlist.json'); }
   } catch (error) { toast(error.message); }
 });
-document.addEventListener('input', event => { if (event.target.id === 'search') { clearTimeout(searchTimer); state.q = event.target.value; state.page = 1; syncUrl(); searchTimer = setTimeout(loadCatalogue, 220); } });
+document.addEventListener('input', event => { if (event.target.id === 'search') scheduleCatalogueSearch(event.target.value); });
 document.addEventListener('change', event => { if (event.target.dataset.filter) { state[event.target.dataset.filter] = event.target.value; state.page = 1; syncUrl(); loadCatalogue(); } if (event.target.id === 'profile-languageType') languageFields(); if (event.target.id === 'batch-file') $('#batch-file-name').textContent = event.target.files[0]?.name || t('noFile'); });
 document.addEventListener('change', async event => {
   if (!['programme-route', 'programme-offering', 'programme-applicant'].includes(event.target.id)) return;

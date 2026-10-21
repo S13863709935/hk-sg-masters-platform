@@ -21,3 +21,5 @@
 .card-title,.card-fact span,.detail-head h2,.check-row>div,.detail-note{overflow-wrap:anywhere}
 .detail-head>[data-action=closeDetail],.profile-strip>.button{flex-shrink:0}
 .profile-strip p{min-width:0;overflow-wrap:anywhere}
+#results-summary{scroll-margin-block-start:16px}
+#results-summary:focus-visible{outline:3px solid #9bbca9;outline-offset:5px;border-radius:3px}
