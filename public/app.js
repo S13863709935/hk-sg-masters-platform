@@ -129,9 +129,26 @@ function pruneRememberedOptions() {
   const next = Object.fromEntries(Object.entries(remembered.entries).filter(([id]) => attached.has(id)));
   if (Object.keys(next).length !== Object.keys(remembered.entries).length && writeStorage(keys.choices, savedOptionsPayload(next))) { remembered.entries = next; for (const id of Object.keys(savedOptionIssues)) if (!attached.has(id)) delete savedOptionIssues[id]; }
 }
+function currentSavedView(view, selector, target) {
+  return state.view === view && target?.isConnected && $(selector) === target;
+}
+function savedViewError(target) {
+  target.setAttribute('aria-busy', 'false');
+  target.innerHTML = `<div class="empty-state"><h2>Saved programmes could not be loaded.</h2><p role="alert">Your saved selections have not been changed. Try again to reload the current list.</p><button class="button" data-action="rerender">${t('retry')}</button></div>`;
+}
 async function renderShortlist() {
-  $('#page').innerHTML = `${heading('shortlistHeading', 'shortlistIntro')}${state.shortlist.length ? `<div class="results-header"><span class="results-count">${state.shortlist.length} ${t('results')}</span><button class="button" data-action="exportShortlist">${t('downloadShortlist')}</button></div><small class="muted">${t('exportShortlistNote')}</small><div id="saved-cards" class="cards"></div>` : empty('emptyShortlist', 'emptyShortlistHint')}`;
-  if (state.shortlist.length) { const items = await selectedProgrammes(state.shortlist); if (state.view === 'shortlist' && $('#saved-cards')) $('#saved-cards').innerHTML = items.map(card).join(''); }
+  const ids = [...state.shortlist];
+  $('#page').innerHTML = `${heading('shortlistHeading', 'shortlistIntro')}${ids.length ? `<div class="results-header"><span class="results-count">${ids.length} ${t('results')}</span><button class="button" data-action="exportShortlist">${t('downloadShortlist')}</button></div><small class="muted">${t('exportShortlistNote')}</small><div id="saved-cards" class="cards" aria-busy="true"><p class="muted" role="status">${t('loading')}</p></div>` : empty('emptyShortlist', 'emptyShortlistHint')}`;
+  if (!ids.length) return;
+  const target = $('#saved-cards');
+  try {
+    const items = await selectedProgrammes(ids);
+    if (!currentSavedView('shortlist', '#saved-cards', target)) return;
+    target.innerHTML = items.map(card).join('');
+    target.setAttribute('aria-busy', 'false');
+  } catch {
+    if (currentSavedView('shortlist', '#saved-cards', target)) savedViewError(target);
+  }
 }
 function field(name, label, type = 'text', attributes = '') { return `<div class="field"><label for="profile-${name}">${t(label)}</label><input id="profile-${name}" name="${name}" type="${type}" ${attributes}></div>`; }
 function select(name, label, choices) { return `<div class="field"><label for="profile-${name}">${t(label)}</label><select id="profile-${name}" name="${name}">${options(choices.map(k => [k, t(k)]), '')}</select></div>`; }
@@ -292,19 +309,26 @@ function restoreDetailFocus() {
 }
 $('#detail-dialog').addEventListener('close', () => { detailSequence++; document.body.classList.remove('modal-open'); activeDetail = null; const url = new URL(location.href); url.searchParams.delete('programme'); history.replaceState(null, '', url); restoreDetailFocus(); });
 async function renderCompare() {
-  $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}${state.compare.length < 2 ? empty('emptyCompare', 'emptyCompareHint', 'compare') : `<p class="muted">${t('loading')}</p>`}`;
-  if (state.compare.length < 2) return;
-  const loaded = await selectedProgrammes(state.compare);
+  const ids = [...state.compare];
+  $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}${ids.length < 2 ? empty('emptyCompare', 'emptyCompareHint', 'compare') : `<div id="compare-results" aria-busy="true"><p class="muted" role="status">${t('loading')}</p></div>`}`;
+  if (ids.length < 2) return;
+  const target = $('#compare-results');
+  try {
+  const loaded = await selectedProgrammes(ids);
+  if (!currentSavedView('compare', '#compare-results', target)) return;
   const items = loaded.filter(p => !p.unavailable);
   const attention = loaded.filter(p => p.unavailable).map(p => unavailableCard(p, 'compare')).join('') + items.map(p => savedOptionWarning(p.id)).join('');
-  if (state.view !== 'compare') return;
-  if (items.length < 2) { $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}${attention}${empty('emptyCompare', 'emptyCompareHint', 'compare')}`; return; }
+  if (items.length < 2) { target.innerHTML = `${attention}${empty('emptyCompare', 'emptyCompareHint', 'compare')}`; target.setAttribute('aria-busy', 'false'); return; }
   const rows = [['university', p => esc(schoolName(p.university))], ['area', p => esc(areaName(p.area))], ['studyOption', p => `${p.selectedOffering ? esc(offeringLabel(p.selectedOffering)) : 'All recorded study options — no selection'}<small>${p.selectedOffering ? offeringCaution : 'Review each option separately; applicant-category notes still apply.'}</small><button class="button" data-action="detail" data-id="${esc(p.id)}">Change study option</button>`], ['academicYear', p => known(p.academicYear)], ['mode', p => p.offerings.map(o => known(o.mode)).join('<br>')], ['duration', p => p.offerings.map(o => known(o.duration)).join('<br>')], ['tuition', p => fees(p, true)], ['deadline', p => p.offerings.map(o => deadlineText(o)).join('<br>')], ['applicationDates', p => applicationSummary(p)], ['verification', p => badge(p.verification)], ['lastChecked', p => known(p.lastChecked)], ['requirementChecks', p => p.rules.length ? p.rules.map(r => `${esc(r.labelEn)}<small>${ruleText(r)}</small>`).join('<br>') : known(null)], ['matchingFilter', p => { const m = contextMatch(p); return m ? badge(m.tier || m.status) : `<span class="muted">${t('profileNeeded')}</span>`; }], ['sources', p => `<a href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t('officialPage')} ↗</a>`]];
   rows[rows.findIndex(([label]) => label === 'matchingFilter')][1] = p => savedOptionIssues[p.id] ? '<span class="warning">Saved choices need review</span>' : contextMatch(p) ? badge(contextMatch(p).tier || contextMatch(p).status) : `<span class="muted">${t('profileNeeded')}</span>`;
   rows.splice(3, 0, ['applicantCategory', p => `${esc(p.selectedApplicant?.label || (p.offerings.some(o => o.applicantCategoryRequired) ? 'Applicant category required' : 'No category selected; check the official rules'))}${p.applicantEvidence ? `<small>Fee/date sources read ${esc(p.applicantEvidence.checkedOn)} · not a status determination</small>` : ''}`]);
   rows.splice(rows.findIndex(([label]) => label === 'tuition') + 1, 0, ['applicationFee', applicationFees]);
   rows.splice(3, 0, ['deliveryScope', p => scopeWarning(p) || '<small>Study locations are not separately confirmed here; check the official route.</small>']);
-  $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}${attention}<div class="table-wrap"><table class="compare-table"><thead><tr><th>${t('compare')}</th>${items.map(p => `<th><span class="badge">${esc(p.university.abbreviation)}</span><h3>${esc(p.name)}</h3><button class="button" data-action="compare" data-id="${p.id}">${t('remove')}</button></th>`).join('')}</tr></thead><tbody>${rows.map(([label, get]) => `<tr><td>${t(label)}</td>${items.map(p => `<td>${get(p)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="detail-note warning">${t('noProbability')}</p>`;
+  target.innerHTML = `${attention}<div class="table-wrap"><table class="compare-table"><thead><tr><th>${t('compare')}</th>${items.map(p => `<th><span class="badge">${esc(p.university.abbreviation)}</span><h3>${esc(p.name)}</h3><button class="button" data-action="compare" data-id="${p.id}">${t('remove')}</button></th>`).join('')}</tr></thead><tbody>${rows.map(([label, get]) => `<tr><td>${t(label)}</td>${items.map(p => `<td>${get(p)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="detail-note warning">${t('noProbability')}</p>`;
+  target.setAttribute('aria-busy', 'false');
+  } catch {
+    if (currentSavedView('compare', '#compare-results', target)) savedViewError(target);
+  }
 }
 function renderData() {
   const q = state.meta.quality;
@@ -312,8 +336,10 @@ function renderData() {
 }
 function renderGuide() { $('#page').innerHTML = `${heading('guideHeading', 'matchingIntro')}<div class="guide-steps">${[1, 2, 3, 4].map(i => `<section class="guide-step"><div class="step-number">0${i}</div><h2>${t(`step${i}`)}</h2><p>${t(`step${i}Text`)}</p></section>`).join('')}</div>${[['categoriesTitle', 'categoriesText'], ['privacyTitle', 'privacyText'], ['riskTitle', 'riskText']].map(([title, body]) => `<section class="plain-panel"><h2>${t(title)}</h2><p>${t(body)}</p></section>`).join('')}`; }
 async function renderView() {
+  const view = state.view, page = $('#page');
   try { if (state.view === 'discover') renderDiscover(); else if (state.view === 'profile') renderProfile(); else if (state.view === 'shortlist') await renderShortlist(); else if (state.view === 'compare') await renderCompare(); else if (state.view === 'data') renderData(); else renderGuide(); }
-  catch (error) { if ($('#page')) $('#page').innerHTML = `${empty('errorHeading', 'errorHint', 'data')}<button class="button" data-action="rerender">${t('retry')}</button>`; toast(error.message); }
+  catch (error) { if (state.view !== view || !page?.isConnected || $('#page') !== page) return; page.innerHTML = `${empty('errorHeading', 'errorHint', 'data')}<button class="button" data-action="rerender">${t('retry')}</button>`; toast(error.message); }
+  if (state.view !== view || !page?.isConnected || $('#page') !== page) return;
   if (state.view === 'data' && state.meta.routeEvidence?.routes) { const r = state.meta.routeEvidence; $('#page').insertAdjacentHTML('beforeend', `<section class="plain-panel"><h2>Route-specific evidence</h2><p>${r.pageChecked} route page checks across ${r.groups} catalogue group; ${r.peerReviewed} independent reviews; ${r.complete} complete requirement sets. These are separate route snapshots, not additional catalogue records or completed group-level checks.</p><p>Choose a specific direction in its programme detail. Unselected groups remain unresolved, and route-specific sources never overwrite parent or sibling requirements.</p></section>`); }
   if (state.view === 'data' && state.meta.applicantEvidence?.studyOptions) { const a = state.meta.applicantEvidence; $('#page').insertAdjacentHTML('beforeend', `<section class="plain-panel"><h2>Applicant-category fee/date evidence</h2><p>${a.categories} recorded categories for ${a.studyOptions} study option; ${a.peerReviewed} independent reviews. These are limited fee/date source checks, not additional programmes or complete admissions reviews. Categories are university-specific and are never inferred from residence, nationality or background.</p></section>`); }
 }
