@@ -1,4 +1,6 @@
 export const copy = {
+  "deliveryScope": "Delivery and project scope",
+  "scopeUnconfirmed": "Delivery / scope needs confirmation",
   "studyOption": "Selected study option",
   "applicantCategory": "Applicant category",
   "applicationFee": "Application fee · separate from tuition",

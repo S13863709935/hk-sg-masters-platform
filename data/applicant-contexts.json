@@ -101,6 +101,222 @@
         { "id": "HK-HKU-P016-STANDARD-PT-2027-LOCAL", "label": "Local applicant — HKU category", "currency": "HKD", "tuition": 275000, "feeBasis": "2027/28 local tuition, subject to University approval; four equal instalments. The deposit is the first instalment, not extra tuition. Separate application/miscellaneous charges and living costs are excluded; confirm part-time permission.", "applicationFee": 780, "applicationOpen": null, "deadline": "2027-04-30", "deadlineNote": "Main round: 1 December 2026 at 12:00 noon GMT+8. Clearing round: 30 April 2027 at 12:00 noon GMT+8. Compare the two recorded cutoffs separately; status updates only on refresh. No notifications are scheduled. Opening date, part-time permission and live availability are unconfirmed.", "applicationRounds": [{"id":"MAIN","label":"Main round","applicationOpen":null,"deadline":"2026-12-01","deadlineAt":"2026-12-01T12:00:00+08:00"},{"id":"CLEARING","label":"Clearing round","applicationOpen":null,"deadline":"2027-04-30","deadlineAt":"2027-04-30T12:00:00+08:00"}] },
         { "id": "HK-HKU-P016-STANDARD-PT-2027-NONLOCAL", "label": "Non-local applicant — HKU category", "currency": "HKD", "tuition": 375000, "feeBasis": "2027/28 non-local tuition, subject to University approval; four equal instalments. The deposit is the first instalment, not extra tuition. Separate application/miscellaneous charges and living costs are excluded. Confirm classification and part-time permission with HKU.", "applicationFee": 780, "applicationOpen": null, "deadline": "2027-04-30", "deadlineNote": "Main round: 1 December 2026 at 12:00 noon GMT+8. Clearing round: 30 April 2027 at 12:00 noon GMT+8. Compare the two recorded cutoffs separately; status updates only on refresh. No notifications are scheduled. Opening date, part-time permission and live availability are unconfirmed.", "applicationRounds": [{"id":"MAIN","label":"Main round","applicationOpen":null,"deadline":"2026-12-01","deadlineAt":"2026-12-01T12:00:00+08:00"},{"id":"CLEARING","label":"Clearing round","applicationOpen":null,"deadline":"2027-04-30","deadlineAt":"2027-04-30T12:00:00+08:00"}] }
       ]
+    },
+    {
+      "programmeId": "HK-HKU-P016",
+      "routeId": "HK-HKU-P016-ROUTE-DELTA-AI",
+      "offeringId": "HK-HKU-P016-DELTA-AI-FT-2027",
+      "offeringFingerprint": "e6c43e091f1b6d1c04a36e86a89332ad4cb073228ce1dcc1360b8066b2fc78d6",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-21",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0",
+      "noteEn": "Exact 2027/28 Delta X route/mode only. Published tuition does not establish cross-border study permission or project-scope inclusion. HKU decides category and support terms; no Fellowship amount is deducted and no placement or all-in budget is guaranteed.",
+      "options": [
+        {
+          "id": "HK-HKU-P016-DELTA-AI-FT-2027-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 275000,
+          "feeBasis": "2027/28 local tuition, subject to University approval; two instalments. First-instalment deposit is credited, not extra tuition. No Fellowship discount is assumed. Separate application/miscellaneous, living and cross-border travel costs are excluded; study arrangements need confirmation.",
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P016-DELTA-AI-FT-2027-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 375000,
+          "feeBasis": "2027/28 non-local tuition, subject to University approval; two instalments. First-instalment deposit is credited, not extra tuition. No Fellowship discount is assumed. Separate application/miscellaneous, living and cross-border travel costs are excluded; study arrangements need confirmation.",
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P016",
+      "routeId": "HK-HKU-P016-ROUTE-DELTA-STREAMS",
+      "offeringId": "HK-HKU-P016-DELTA-STREAMS-FT-2027",
+      "offeringFingerprint": "11cbd3c47df95d0c669b7324fb260b8a15275619b1aa5408a88f58a41bdb5109",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-21",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+      "noteEn": "Exact 2027/28 Delta X route/mode only. Published tuition does not establish cross-border study permission or project-scope inclusion. HKU decides category and support terms; no Fellowship amount is deducted and no placement or all-in budget is guaranteed.",
+      "options": [
+        {
+          "id": "HK-HKU-P016-DELTA-STREAMS-FT-2027-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 275000,
+          "feeBasis": "2027/28 local tuition, subject to University approval; two instalments. First-instalment deposit is credited, not extra tuition. No Fellowship discount is assumed. Separate application/miscellaneous, living and cross-border travel costs are excluded; study arrangements need confirmation.",
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P016-DELTA-STREAMS-FT-2027-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 375000,
+          "feeBasis": "2027/28 non-local tuition, subject to University approval; two instalments. First-instalment deposit is credited, not extra tuition. No Fellowship discount is assumed. Separate application/miscellaneous, living and cross-border travel costs are excluded; study arrangements need confirmation.",
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P016",
+      "routeId": "HK-HKU-P016-ROUTE-DELTA-STREAMS",
+      "offeringId": "HK-HKU-P016-DELTA-STREAMS-PT-2027",
+      "offeringFingerprint": "ed076294faa257625658b6f8fc1c77c7ec587ee7b71fb72832df8b0bb12ffc18",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-21",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+      "noteEn": "Exact 2027/28 Delta X route/mode only. Published tuition does not establish cross-border study permission or project-scope inclusion. HKU decides category and support terms; no Fellowship amount is deducted and no placement or all-in budget is guaranteed.",
+      "options": [
+        {
+          "id": "HK-HKU-P016-DELTA-STREAMS-PT-2027-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 275000,
+          "feeBasis": "2027/28 local tuition, subject to University approval; four instalments. First-instalment deposit is credited, not extra tuition. No Fellowship discount is assumed. Separate application/miscellaneous, living and cross-border travel costs are excluded; study arrangements need confirmation.",
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P016-DELTA-STREAMS-PT-2027-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 375000,
+          "feeBasis": "2027/28 non-local tuition, subject to University approval; four instalments. First-instalment deposit is credited, not extra tuition. No Fellowship discount is assumed. Separate application/miscellaneous, living and cross-border travel costs are excluded; study arrangements need confirmation.",
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

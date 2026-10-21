@@ -35,10 +35,10 @@ test.after(async () => { await new Promise(done => server.close(done)); store.cl
 const get = async path => (await fetch(url + path)).json();
 const details = (offering, category) => '/api/programmes/' + id + '?' + new URLSearchParams({ route: routeId, ...(offering ? { offering } : {}), ...(category ? { applicant: category } : {}) });
 
-test('only the ordinary HKU pathway is selectable; fellowship siblings and the parent stay unreviewed', () => {
+test('the HKU group never defaults to an ordinary or cross-border route; its parent stays unreviewed', () => {
   const p = resolveProgramme(base, routes, undefined, undefined, undefined, applicants);
   assert.equal(p.directoryListing.variants.length, 3);
-  assert.deepEqual(p.routeOptions.map(r => r.id), [routeId]);
+  assert.deepEqual(p.routeOptions.map(r => r.id), [routeId, id + '-ROUTE-DELTA-AI', id + '-ROUTE-DELTA-STREAMS']);
   assert.equal(p.verification, 'catalogue_seed'); assert.equal(p.selectedRoute, undefined);
   assert.equal(programmeTimeline(p, '2026-10-21').state, 'route_required');
   assert.equal(matchProgramme(p, profile).checks.some(c => c.kind === 'route'), true);
@@ -218,8 +218,8 @@ test('parent records and raw export are unchanged; route and category evidence h
   assert.equal(exported.verification, 'catalogue_seed'); assert.equal(exported.selectedRoute, undefined);
   assert.equal(exported.applicantEvidence, undefined);
   const meta = await get('/api/meta');
-  assert.deepEqual(meta.routeEvidence, { groups: 2, routes: 3, pageChecked: 3, peerReviewed: 0, complete: 0 });
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 5, categories: 10, peerReviewed: 0 });
+  assert.deepEqual(meta.routeEvidence, { groups: 2, routes: 5, pageChecked: 5, peerReviewed: 0, complete: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 8, categories: 16, peerReviewed: 0 });
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.checked, 21); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
 });

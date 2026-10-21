@@ -103,7 +103,7 @@
           "admissionRoute": "direct",
           "collector": "AI-assisted official-source extraction",
           "reviewer": null,
-          "notesEn": "Ordinary application pathway only, without Delta X Fellowship consideration. The two Delta X directory references remain unverified and do not inherit these facts. Stream choice, degree recognition, academic suitability and language alternatives require HKU assessment. A request for CGPA evidence is not a numeric entry cutoff.",
+          "notesEn": "Ordinary application pathway only, without Delta X Fellowship consideration. The two Delta X pathways use independent snapshots with cross-border scope cautions; their conditions are not inherited here. Stream choice, degree recognition, academic suitability and language alternatives require HKU assessment. A request for CGPA evidence is not a numeric entry cutoff.",
           "notesZh": "",
           "offerings": [
             { "id": "HK-HKU-P016-STANDARD-FT-2027", "mode": "Full-time", "duration": "1 year normative; 2 years maximum", "intake": "September 2027", "academicYear": "2027/28", "applicationOpen": null, "deadline": "2027-04-30", "deadlineNote": "Main round: 1 December 2026, 12:00 noon GMT+8; clearing round: 30 April 2027, 12:00 noon GMT+8. Round cutoff status is a refresh-time snapshot, not live availability. No notifications are scheduled. Opening date was not captured.", "applicationRounds": [{ "id": "MAIN", "label": "Main round", "applicationOpen": null, "deadline": "2026-12-01", "deadlineAt": "2026-12-01T12:00:00+08:00" }, { "id": "CLEARING", "label": "Clearing round", "applicationOpen": null, "deadline": "2027-04-30", "deadlineAt": "2027-04-30T12:00:00+08:00" }], "currency": "HKD", "tuition": null, "feeBasis": "Select the HKU applicant category for 2027/28 tuition; fees remain subject to University approval." },
@@ -129,6 +129,369 @@
             "tuition": { "status": "unknown", "noteEn": "Amounts are held in dated, study-option-specific applicant contexts; no universal fee or inferred classification.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
             "deadline": { "status": "known", "noteEn": "Main and clearing rounds end at noon GMT+8, not midnight. Opening date and live portal availability are unconfirmed.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
             "independentReview": { "status": "unknown", "noteEn": "No independent human review is recorded.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" }
+          }
+        },
+        {
+          "routeId": "HK-HKU-P016-ROUTE-DELTA-AI",
+          "name": "Master of Science in Computer Science (AI & Decentralized Technologies Stream), with Delta X Fellowship",
+          "award": "MSc",
+          "area": "Computing",
+          "faculty": "School of Computing and Data Science",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted exact-route source reading; cross-border scope and independent review pending",
+          "lastChecked": "2026-10-21",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-21",
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0",
+            "reasonEn": "Includes Semester 1 study in Shanghai, not Hong Kong-only delivery. Cross-border study arrangements and inclusion within the project's Hong Kong/Singapore coverage need confirmation; this is not an academic-background failure."
+          },
+          "notesEn": "Delta X pathway only: Semester 1 at the Shanghai teaching/research site. No support amount, scholarship deduction, internship placement guarantee or all-in cross-border cost is recorded. Do not reuse the older 2026/27 Fellowship page as 2027/28 financial evidence. Other paths are independently sourced.",
+          "notesZh": "",
+          "offerings": [
+            {
+              "id": "HK-HKU-P016-DELTA-AI-FT-2027",
+              "mode": "Full-time",
+              "duration": "1 year normative; 2 years maximum",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2026-12-01",
+                  "deadlineAt": "2026-12-01T12:00:00+08:00"
+                },
+                {
+                  "id": "CLEARING",
+                  "label": "Clearing round",
+                  "applicationOpen": null,
+                  "deadline": "2027-04-30",
+                  "deadlineAt": "2027-04-30T12:00:00+08:00"
+                }
+              ],
+              "currency": "HKD",
+              "tuition": null,
+              "feeBasis": "Choose the exact HKU applicant category for published tuition; no Fellowship discount or cross-border living/travel cost is assumed."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelEn": "Bachelor's degree or equivalent",
+              "labelZh": "",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Academic suitability and equivalence",
+              "labelZh": "",
+              "noteEn": "The consulted entry sections do not state an accepted-major list or numeric GPA minimum. Missing thresholds are not an any-major or GPA guarantee.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            {
+              "kind": "language",
+              "labelEn": "HKU general English test-score route",
+              "labelZh": "",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "English applicability and alternatives",
+              "labelZh": "",
+              "noteEn": "HKU determines applicability, medium-of-instruction evidence, exemptions, alternative examinations and test formats. The derived intake-anchored date boundary needs independent review.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Cross-border Fellowship arrangements",
+              "labelZh": "",
+              "noteEn": "Semester 1 in Shanghai is part of this exact pathway. Confirm study-location and mode arrangements with HKU. Support and travel terms are subject to current arrangements; opportunities are not guaranteed placements.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Stream choice and conditional degree completion",
+              "labelZh": "",
+              "noteEn": "This application pathway is for AI & Decentralized Technologies. No part-time option was listed on this route page. Degree completion and document acceptance need university confirmation.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0",
+              "purpose": "Exact Delta X route: entry, modes, fees, deadlines and Semester 1 Shanghai delivery",
+              "checkedOn": "2026-10-21"
+            },
+            {
+              "url": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/",
+              "purpose": "2027/28 route separation, published fees/instalments and separate application fee",
+              "checkedOn": "2026-10-21"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "purpose": "Current university English score scales and intake-anchored validity",
+              "checkedOn": "2026-10-21"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "September 2027 entry, 2027/28; exact Delta X pathway only.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "major": {
+              "status": "unknown",
+              "noteEn": "No explicit subject list found in the consulted entry sections; do not infer universal acceptance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry minimum found in the consulted sections; CGPA documentation is not a cutoff.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "General test-score route only; applicability, exemptions and any additional conditions remain manual.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Published amounts are applicant-category-specific; no default price, support deduction or all-in overseas cost.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Two noon GMT+8 cutoffs recorded; no opening date or live availability check.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent human review recorded; cross-border project scope remains unconfirmed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0"
+            }
+          }
+        },
+        {
+          "routeId": "HK-HKU-P016-ROUTE-DELTA-STREAMS",
+          "name": "Master of Science in Computer Science (General, Cyber Security, Financial Computing and Multimedia Computing Streams), with Delta X Fellowship",
+          "award": "MSc",
+          "area": "Computing",
+          "faculty": "School of Computing and Data Science",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted exact-route source reading; cross-border scope and independent review pending",
+          "lastChecked": "2026-10-21",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-21",
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+            "reasonEn": "Includes Semester 2 study in Shanghai, not Hong Kong-only delivery. Cross-border study arrangements and inclusion within the project's Hong Kong/Singapore coverage need confirmation; this is not an academic-background failure."
+          },
+          "notesEn": "Delta X pathway only: Semester 2 at the Shanghai teaching/research site. No support amount, scholarship deduction, internship placement guarantee or all-in cross-border cost is recorded. Do not reuse the older 2026/27 Fellowship page as 2027/28 financial evidence. Other paths are independently sourced.",
+          "notesZh": "",
+          "offerings": [
+            {
+              "id": "HK-HKU-P016-DELTA-STREAMS-FT-2027",
+              "mode": "Full-time",
+              "duration": "1 year normative; 2 years maximum",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2026-12-01",
+                  "deadlineAt": "2026-12-01T12:00:00+08:00"
+                },
+                {
+                  "id": "CLEARING",
+                  "label": "Clearing round",
+                  "applicationOpen": null,
+                  "deadline": "2027-04-30",
+                  "deadlineAt": "2027-04-30T12:00:00+08:00"
+                }
+              ],
+              "currency": "HKD",
+              "tuition": null,
+              "feeBasis": "Choose the exact HKU applicant category for published tuition; no Fellowship discount or cross-border living/travel cost is assumed."
+            },
+            {
+              "id": "HK-HKU-P016-DELTA-STREAMS-PT-2027",
+              "mode": "Part-time",
+              "duration": "2 years normative; 3 years maximum",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineNote": "Main round: 1 December 2026 at noon GMT+8; clearing: 30 April 2027 at noon GMT+8. Opening date and live availability unconfirmed; no notifications. Cross-border and mode-specific arrangements require HKU confirmation.",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2026-12-01",
+                  "deadlineAt": "2026-12-01T12:00:00+08:00"
+                },
+                {
+                  "id": "CLEARING",
+                  "label": "Clearing round",
+                  "applicationOpen": null,
+                  "deadline": "2027-04-30",
+                  "deadlineAt": "2027-04-30T12:00:00+08:00"
+                }
+              ],
+              "currency": "HKD",
+              "tuition": null,
+              "feeBasis": "Choose the exact HKU applicant category for published tuition; no Fellowship discount or cross-border living/travel cost is assumed."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelEn": "Bachelor's degree or equivalent",
+              "labelZh": "",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Academic suitability and equivalence",
+              "labelZh": "",
+              "noteEn": "The consulted entry sections do not state an accepted-major list or numeric GPA minimum. Missing thresholds are not an any-major or GPA guarantee.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            {
+              "kind": "language",
+              "labelEn": "HKU general English test-score route",
+              "labelZh": "",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "English applicability and alternatives",
+              "labelZh": "",
+              "noteEn": "HKU determines applicability, medium-of-instruction evidence, exemptions, alternative examinations and test formats. The derived intake-anchored date boundary needs independent review.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Cross-border Fellowship arrangements",
+              "labelZh": "",
+              "noteEn": "Semester 2 in Shanghai is part of this exact pathway. Confirm study-location and mode arrangements with HKU. Support and travel terms are subject to current arrangements; opportunities are not guaranteed placements.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Stream choice and conditional degree completion",
+              "labelZh": "",
+              "noteEn": "Select a preferred General, Cyber Security, Financial Computing or Multimedia Computing stream. Part-time mode is listed, but its Shanghai schedule and individual permission require confirmation.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+              "purpose": "Exact Delta X route: entry, modes, fees, deadlines and Semester 2 Shanghai delivery",
+              "checkedOn": "2026-10-21"
+            },
+            {
+              "url": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/",
+              "purpose": "2027/28 route separation, published fees/instalments and separate application fee",
+              "checkedOn": "2026-10-21"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "purpose": "Current university English score scales and intake-anchored validity",
+              "checkedOn": "2026-10-21"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "September 2027 entry, 2027/28; exact Delta X pathway only.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "major": {
+              "status": "unknown",
+              "noteEn": "No explicit subject list found in the consulted entry sections; do not infer universal acceptance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry minimum found in the consulted sections; CGPA documentation is not a cutoff.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "General test-score route only; applicability, exemptions and any additional conditions remain manual.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Published amounts are applicant-category-specific; no default price, support deduction or all-in overseas cost.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Two noon GMT+8 cutoffs recorded; no opening date or live availability check.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent human review recorded; cross-border project scope remains unconfirmed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
+            }
           }
         }
       ]

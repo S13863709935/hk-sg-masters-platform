@@ -39,7 +39,7 @@ export function shortlistExport(programmes, remembered = {}, now = new Date().to
       id: p.id, selectedRoute: p.selectedRoute || null, selectedOffering: p.selectedOffering || null,
       selectedApplicant: p.selectedApplicant || null, applicantEvidence: p.applicantEvidence || null,
       offeringDisclaimer: p.offeringDisclaimer || null, name: p.name, university: p.university.nameEn,
-      officialUrl: p.officialUrl, verification: p.verification, academicYear: p.academicYear,
+      officialUrl: p.officialUrl, verification: p.verification, academicYear: p.academicYear, scope: p.scope || null,
       offerings: p.offerings, applicationTimeline: p.applicationTimeline,
       rememberedChoice: sameOptions(p, remembered[p.id])
     })),

@@ -23,6 +23,7 @@ export function loadRoutes(path, programmes) {
       ids.add(route.routeId);
       if (!base.directoryListing.variants.some(v => v.officialUrl === route.officialUrl && v.nameEn === route.name)) throw new InputError('Route must match explicit directory evidence');
       if (!isDate(route.lastChecked) || route.lastChecked > batch.checkedOn || !Array.isArray(route.sources) || !route.sources.some(s => s?.url === route.officialUrl && s.checkedOn === route.lastChecked) || route.sources.some(s => !s || !isOfficialUrl(s.url) || s.checkedOn !== route.lastChecked)) throw new InputError('Route evidence date or programme source is missing');
+      if (route.scope && (route.scope.checkedOn !== route.lastChecked || !route.sources.some(s => s.url === route.scope.sourceUrl && s.checkedOn === route.scope.checkedOn))) throw new InputError('Route scope requires its own date-matched source evidence');
       // A full standalone snapshot is mandatory: never spread the parent/sibling rules.
       const record = { ...route, id: base.id, universityId: base.universityId };
       validateProgramme(record, new Set([base.universityId]));
@@ -39,11 +40,14 @@ export function loadRoutes(path, programmes) {
 
 export function resolveRoute(base, index, routeId) {
   const routes = index.get(base.id) || [];
-  const routeOptions = routes.map(r => ({ id: r.routeId, name: r.name, checkedOn: r.lastChecked, verification: r.verification, requirementsCoverage: r.requirementsCoverage }));
+  const routeOptions = routes.map(r => ({ id: r.routeId, name: r.name, checkedOn: r.lastChecked, verification: r.verification, requirementsCoverage: r.requirementsCoverage, scope: r.scope || null }));
   if (!routeId) return routes.length ? { ...base, routeOptions } : base;
   const route = routes.find(r => r.routeId === routeId);
   if (!route) throw new InputError('Unknown route for this programme');
-  const result = { ...route, id: base.id, universityId: base.universityId, university: base.university, directoryListing: base.directoryListing, ...(base.scope ? { scope: base.scope } : {}), routeOptions, selectedRoute: { id: route.routeId, name: route.name } };
+  // A parent exclusion cannot be cleared by selecting a child. Otherwise keep
+  // the exact route's delivery decision rather than overwriting it with a parent hint.
+  const scope = base.scope?.status === 'out_of_scope' ? base.scope : route.scope || base.scope;
+  const result = { ...route, id: base.id, universityId: base.universityId, university: base.university, directoryListing: base.directoryListing, ...(scope ? { scope } : {}), routeOptions, selectedRoute: { id: route.routeId, name: route.name } };
   resolvedRoutes.add(result);
   return result;
 }

@@ -73,7 +73,7 @@ test('both CS modes keep local and non-local minimum-credit estimates separate',
 });
 
 test('same-university subdomains are supported without accepting another university or spoofed hosts', () => {
-  assert.equal(index.size, 5);
+  assert.equal(index.size, 8);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-cityu-domain-')), file = join(dir, 'batch.json');
   try {
     for (const bad of ['https://www.nus.edu.sg/fees', 'https://cityu.edu.hk.attacker.invalid/fees', 'https://attacker@www.cityu.edu.hk/fees']) {
