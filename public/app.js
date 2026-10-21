@@ -18,6 +18,8 @@ let searchTimer;
 let activeDetail = null;
 let detailTrigger = null;
 let detailSequence = 0;
+let backgroundVersion = 0;
+let matchRequestSequence = 0;
 const routeChoices = {};
 const offeringChoices = {};
 const applicantChoices = {};
@@ -27,7 +29,7 @@ const remembered = normalizeSavedOptions(storedOptions, [...state.shortlist, ...
 const savedOptionIssues = Object.create(null);
 const programmePath = id => { const query = new URLSearchParams(); if (routeChoices[id]) query.set('route', routeChoices[id]); if (offeringChoices[id]) query.set('offering', offeringChoices[id]); if (applicantChoices[id]) query.set('applicant', applicantChoices[id]); return `/api/programmes/${encodeURIComponent(id)}${query.size ? `?${query}` : ''}`; };
 const matchingPayload = profile => ({ profile, filters: { includeTransfer: 'true' }, selectedRoutes: { ...routeChoices }, selectedOfferings: { ...offeringChoices }, selectedApplicants: { ...applicantChoices } });
-const contextMatch = p => savedOptionIssues[p.id] ? null : state.matches?.find(item => item.id === p.id && (item.selectedRoute?.id || '') === (p.selectedRoute?.id || '') && (item.selectedOffering?.id || '') === (p.selectedOffering?.id || '') && (item.selectedApplicant?.id || '') === (p.selectedApplicant?.id || ''))?.match;
+const contextMatch = p => !state.profile || savedOptionIssues[p.id] ? null : state.matches?.find(item => item.id === p.id && (item.selectedRoute?.id || '') === (p.selectedRoute?.id || '') && (item.selectedOffering?.id || '') === (p.selectedOffering?.id || '') && (item.selectedApplicant?.id || '') === (p.selectedApplicant?.id || ''))?.match;
 const t = key => copy[key] || key;
 const areaName = area => areaLabels[area] || area;
 const schoolName = school => school.nameEn;
@@ -190,15 +192,53 @@ function parseImportJson(value) {
   try { return JSON.parse(value); } catch { throw new Error('Please choose a valid JSON batch file.'); }
 }
 
+function changeBackground(profile) {
+  backgroundVersion++; matchRequestSequence++;
+  state.profile = profile; state.matches = null;
+}
+async function refreshMatches() {
+  const profile = state.profile;
+  if (!profile) return false;
+  const version = backgroundVersion, sequence = ++matchRequestSequence;
+  const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.profile === profile;
+  try {
+    const response = await post('/api/matches', matchingPayload(profile));
+    if (!current()) return false;
+    state.matches = response.items;
+    return true;
+  } catch (error) { if (!current()) return false; throw error; }
+}
+function clearBackground() {
+  changeBackground(null); state.matchFilter = '';
+  const removed = writeStorage(keys.profile, null);
+  toast(removed ? t('profileCleared') : 'Background cleared for this session. Browser storage could not be updated; previously saved background data may remain.');
+  renderProfile();
+}
+const profileFormSnapshot = form => JSON.stringify([...new FormData(form).entries()]);
 async function submitProfile(event) {
   event.preventDefault();
   const form = event.target; const values = new FormData(form);
   const number = key => values.get(key) === '' || values.get(key) === null ? null : Number(values.get(key));
   const type = values.get('languageType');
   const profile = { major: values.get('major').trim(), degreeStatus: values.get('degreeStatus'), classification: values.get('classification'), gpa: number('gpa'), gpaScale: number('gpaScale'), experienceYears: number('experienceYears'), language: { type, total: ['none', 'waiver'].includes(type) ? null : number('total'), testDate: ['none', 'waiver'].includes(type) ? null : values.get('testDate') || null, singleAttempt: values.has('singleAttempt'), atHome: values.has('atHome'), waiverBasis: values.get('waiverBasis'), components: Object.fromEntries(['listening', 'reading', 'writing', 'speaking'].map(k => [k, type === 'ielts' ? number(k) : null])) } };
-  const button = form.querySelector('button[type=submit]'); button.disabled = true; $('#form-error').hidden = true;
-  try { validateForm(form); const response = await post('/api/matches', matchingPayload(profile)); state.profile = profile; state.matches = response.items; state.page = 1; writeStorage(keys.profile, values.has('remember') ? profile : null); toast(t('profileSuccess')); navigate('discover'); }
-  catch (error) { $('#form-error').textContent = error.message; $('#form-error').hidden = false; $('#form-error').scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+  const version = backgroundVersion, sequence = ++matchRequestSequence, snapshot = profileFormSnapshot(form);
+  const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.view === 'profile' && form.isConnected && $('#profile-form') === form;
+  const button = form.querySelector('button[type=submit]'), errorBox = $('#form-error'); button.disabled = true; errorBox.hidden = true;
+  try {
+    validateForm(form);
+    const response = await post('/api/matches', matchingPayload(profile));
+    if (!current()) return;
+    if (profileFormSnapshot(form) !== snapshot) {
+      errorBox.textContent = 'Your background or save preference changed while loading. Submit again to check the current form.';
+      errorBox.hidden = false;
+      return;
+    }
+    changeBackground(profile); state.matches = response.items; state.page = 1;
+    const stored = writeStorage(keys.profile, values.has('remember') ? profile : null);
+    toast(stored ? t('profileSuccess') : 'Background applied for this session. Browser storage could not be updated; previously saved background data may remain.');
+    navigate('discover');
+  }
+  catch (error) { if (!current()) return; errorBox.textContent = error.message; errorBox.hidden = false; errorBox.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
   finally { button.disabled = false; }
 }
 function ruleText(r) {
@@ -383,7 +423,7 @@ document.addEventListener('click', async event => {
     const programmeId = activeDetail?.id; const originalTrigger = detailTrigger;
     trigger.disabled = true;
     try {
-      if (state.profile) state.matches = (await post('/api/matches', matchingPayload(state.profile))).items;
+      if (state.profile) await refreshMatches();
       await renderView();
       if (programmeId && activeDetail?.id === programmeId && $('#detail-dialog').open) { await openDetail(programmeId); detailTrigger = originalTrigger; }
       toast('Date comparison refreshed from stored records; the official website was not rechecked.');
@@ -393,7 +433,7 @@ document.addEventListener('click', async event => {
   if (action === 'compare') { let next; if (state.compare.includes(id)) next = state.compare.filter(x => x !== id); else if (state.compare.length < 4) next = [...state.compare, id]; else { if (trigger.type === 'checkbox') trigger.checked = false; toast(t('maxCompare')); return; } if (!writeStorage(keys.compare, next)) { if (trigger.type === 'checkbox') trigger.checked = state.compare.includes(id); return; } state.compare = next; pruneRememberedOptions(); document.querySelectorAll('input[data-action=compare]').forEach(input => { input.checked = state.compare.includes(input.dataset.id); }); updateTray(); refreshRememberPanel(); if (state.view === 'compare') await renderCompare(); }
   if (action === 'clearCompare') { if (!writeStorage(keys.compare, [])) return; state.compare = []; pruneRememberedOptions(); updateTray(); refreshRememberPanel(); document.querySelectorAll('input[data-action=compare]').forEach(input => { input.checked = false; }); if (state.view === 'compare') await renderCompare(); }
   if (action === 'sample') { fillProfile({ major: 'Civil Engineering', degreeStatus: 'graduated', classification: 'second_upper', gpa: null, gpaScale: null, experienceYears: null, language: { type: 'ielts', total: 7, components: { listening: 6.5, reading: 6.5, writing: 6.5, speaking: 6.5 }, testDate: '2026-09-01', singleAttempt: true, atHome: false, waiverBasis: null } }); toast('Synthetic background for functional checks only.'); }
-  if (action === 'clearProfile') { state.profile = null; state.matches = null; state.matchFilter = ''; writeStorage(keys.profile, null); toast(t('profileCleared')); renderProfile(); }
+  if (action === 'clearProfile') clearBackground();
   if (action === 'retry') await loadCatalogue();
   if (action === 'rerender') await renderView();
   if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson(shortlistExport(programmes, remembered.entries), 'gradpath-shortlist.json'); }
@@ -405,6 +445,7 @@ document.addEventListener('change', async event => {
   if (!['programme-route', 'programme-offering', 'programme-applicant'].includes(event.target.id)) return;
   const control = event.target; const id = control.dataset.programme;
   const previousRoute = routeChoices[id]; const previousOffering = offeringChoices[id]; const previousMatches = state.matches; const trigger = detailTrigger;
+  const previousProfile = state.profile, previousBackgroundVersion = backgroundVersion;
   const previousApplicant = applicantChoices[id];
   const dialog = $('#detail-dialog'); const scroll = dialog.scrollTop;
   dialog.querySelectorAll('select').forEach(select => { select.disabled = true; });
@@ -418,14 +459,14 @@ document.addEventListener('change', async event => {
   } else if (control.value) applicantChoices[id] = control.value; else delete applicantChoices[id];
   try {
     await api(programmePath(id));
-    if (state.profile) state.matches = (await post('/api/matches', matchingPayload(state.profile))).items;
+    if (state.profile) await refreshMatches();
     await renderView();
     if (activeDetail?.id === id && dialog.open) { await openDetail(id); detailTrigger = trigger; dialog.scrollTop = scroll; dialog.querySelector(`#${control.id}`)?.focus({ preventScroll: true }); }
   } catch (error) {
     if (previousRoute) routeChoices[id] = previousRoute; else delete routeChoices[id];
     if (previousOffering) offeringChoices[id] = previousOffering; else delete offeringChoices[id];
     if (previousApplicant) applicantChoices[id] = previousApplicant; else delete applicantChoices[id];
-    state.matches = previousMatches;
+    if (state.profile === previousProfile && backgroundVersion === previousBackgroundVersion) state.matches = previousMatches;
     toast(error.message);
     if (activeDetail?.id === id && dialog.open) { await openDetail(id); detailTrigger = trigger; }
   } finally { dialog.querySelectorAll('select').forEach(select => { select.disabled = false; }); }
@@ -434,14 +475,14 @@ document.addEventListener('submit', async event => {
   if (event.target.id === 'profile-form') return submitProfile(event);
   if (event.target.id === 'import-form') {
     event.preventDefault(); const button = event.target.querySelector('button'); button.disabled = true;
-    try { validateForm(event.target); const file = $('#batch-file').files[0]; if (file.size > 1024 * 1024) throw new Error('JSON batch must be under 1 MB'); const batch = parseImportJson(await file.text()); await post('/api/admin/import', batch, { Authorization: `Bearer ${$('#admin-token').value}` }); $('#admin-token').value = ''; state.meta = await api('/api/meta'); if (state.profile) state.matches = (await post('/api/matches', matchingPayload(state.profile))).items; shell(); renderData(); toast(t('importSuccess')); }
+    try { validateForm(event.target); const file = $('#batch-file').files[0]; if (file.size > 1024 * 1024) throw new Error('JSON batch must be under 1 MB'); const batch = parseImportJson(await file.text()); await post('/api/admin/import', batch, { Authorization: `Bearer ${$('#admin-token').value}` }); $('#admin-token').value = ''; state.meta = await api('/api/meta'); if (state.profile) await refreshMatches(); shell(); renderData(); toast(t('importSuccess')); }
     catch (error) { $('#import-error').hidden = false; $('#import-error').textContent = error.message; }
     finally { button.disabled = false; }
   }
 });
 window.addEventListener('hashchange', () => { const view = location.hash.slice(1); if (view === 'main') { $('#main')?.focus(); return; } state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(view) ? view : 'discover'; shell(); renderView(); window.scrollTo({ top: 0 }); });
 async function boot() {
-  try { state.meta = await api('/api/meta'); await restoreRememberedOptions(); if (state.profile) { try { state.matches = (await post('/api/matches', matchingPayload(state.profile))).items; } catch (error) { if (error.status !== 422) throw error; state.profile = null; writeStorage(keys.profile, null); } } state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'discover'; shell(); await renderView(); if (remembered.rejected) toast('Some stored programme choices could not be read. Existing programme lists were preserved.'); const id = params.get('programme'); if (id) await openDetail(id); }
+  try { state.meta = await api('/api/meta'); await restoreRememberedOptions(); if (state.profile) { try { await refreshMatches(); } catch (error) { if (error.status !== 422) throw error; changeBackground(null); writeStorage(keys.profile, null); } } state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'discover'; shell(); await renderView(); if (remembered.rejected) toast('Some stored programme choices could not be read. Existing programme lists were preserved.'); const id = params.get('programme'); if (id) await openDetail(id); }
   catch (error) { $('#app').innerHTML = `<main class="content"><div class="brand"><span class="brand-mark">g.</span><strong>GradPath</strong></div><br><h1>${t('errorHeading')}</h1><p>${t('errorHint')}</p><button class="button" id="boot-retry">${t('retry')}</button></main>`; $('#boot-retry').addEventListener('click', boot); }
 }
 boot();
