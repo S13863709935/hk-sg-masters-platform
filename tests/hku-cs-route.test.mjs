@@ -138,7 +138,7 @@ test('main and clearing noon cutoffs stay visible; a future clearing date is not
   assert.equal(o.applicationOpen, null); assert.equal(o.deadline, '2027-04-30');
   assert.match(o.deadlineNote, /1 December 2026 at 12:00 noon GMT\+8/);
   assert.match(o.deadlineNote, /30 April 2027 at 12:00 noon GMT\+8/);
-  assert.match(o.deadlineNote, /no separate main-round reminder or intraday cutoff/);
+  assert.match(o.deadlineNote, /No notifications are scheduled/);
   assert.equal(programmeTimeline(p, '2026-10-21').state, 'dates_incomplete');
   assert.equal(programmeTimeline(p, '2027-04-30').state, 'deadline_today');
   assert.equal(programmeTimeline(p, '2027-05-01').state, 'deadline_passed');

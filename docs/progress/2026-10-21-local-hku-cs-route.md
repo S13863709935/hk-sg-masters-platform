@@ -2,6 +2,8 @@
 
 Actual AI-assisted engineering work, not assessment text, teammate attribution or user-research evidence.
 
+Subsequent same-day follow-up: [structured application rounds](2026-10-21-local-application-rounds.md) supersedes the date-only/multi-round limitation described in this historical batch record; no automatic notification service was added.
+
 ## Completed locally
 
 - Added one independently scoped, partially checked ordinary HKU Computer Science route, with FT/PT offerings, general language conditions and manual academic gaps. Both Delta X references remain unresolved; no new catalogue record or eligibility conclusion.

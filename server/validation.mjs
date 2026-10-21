@@ -1,3 +1,5 @@
+import { validApplicationRounds } from './application-rounds.mjs';
+
 export class InputError extends Error {
   constructor(message, status = 422) { super(message); this.status = status; }
 }
@@ -61,6 +63,7 @@ export function validateProgramme(p, universityIds) {
     if (o.deadline && !isIsoDate(o.deadline)) throw new InputError('A dated deadline must use YYYY-MM-DD; recurring dates belong in deadlineNote');
     if (o.applicationOpen && (!isIsoDate(o.applicationOpen) || (o.deadline && o.applicationOpen > o.deadline))) throw new InputError('Application opening date must be valid and no later than its deadline');
     if (o.deadlineNote !== null && o.deadlineNote !== undefined && (typeof o.deadlineNote !== 'string' || o.deadlineNote.length > 2000)) throw new InputError('Invalid deadline note');
+    if (!validApplicationRounds(o.applicationRounds, o)) throw new InputError('Invalid application rounds or final deadline');
   }
   if (p.verification === 'peer_reviewed' && (!p.reviewer || !p.collector || p.reviewer === p.collector)) throw new InputError('Independent reviewer required');
   if (p.verification !== 'catalogue_seed' && (!isIsoDate(p.lastChecked) || !p.academicYear)) throw new InputError('Checked data requires date and applicable intake/year');

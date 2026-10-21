@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { InputError, isOfficialUrl, universityDomains } from './validation.mjs';
+import { validApplicationRounds } from './application-rounds.mjs';
 
 const trustedDates = new WeakSet();
 export const hasApplicantDateEvidence = offering => trustedDates.has(offering);
@@ -30,6 +31,7 @@ export function loadApplicantContexts(path, programmes, routes = new Map()) {
     if (index.has(contextKey) || !Array.isArray(r.options) || r.options.length < 2 || r.options.length > 20 || new Set(r.options.map(o => o?.id)).size !== r.options.length) throw new InputError('Missing or duplicate applicant categories');
     for (const o of r.options) {
       if (o?.tuitionEstimate !== undefined && typeof o.tuitionEstimate !== 'boolean') throw new InputError('Invalid tuition estimate flag');
+      if (o && !validApplicationRounds(o.applicationRounds, o)) throw new InputError('Invalid applicant-category application rounds');
       if (!o || typeof o.id !== 'string' || !o.id.startsWith(`${r.offeringId}-`) || !/^[A-Z0-9-]+$/.test(o.id) || o.id.length > 200 || typeof o.label !== 'string' || !o.label.trim() || o.label.length > 150 || !/^[A-Z]{3}$/.test(o.currency) || !Number.isFinite(o.tuition) || o.tuition < 0 || (o.applicationFee !== null && (!Number.isFinite(o.applicationFee) || o.applicationFee < 0)) || typeof o.feeBasis !== 'string' || !o.feeBasis || !date(o.deadline) || (o.applicationOpen !== null && (!date(o.applicationOpen) || o.applicationOpen > o.deadline)) || (o.deadlineNote !== undefined && (typeof o.deadlineNote !== 'string' || o.deadlineNote.length > 2000))) throw new InputError('Invalid applicant-category fees or dates');
     }
     index.set(contextKey, r);
@@ -52,7 +54,8 @@ export function resolveApplicantContext(programme, index = new Map(), applicantI
     if (!r) return o;
     const valid = matches(r, originals.find(option => option.id === o.id));
     // Never present an old non-local amount/date as a universal/default value.
-    const masked = { ...o, tuition: null, applicationFee: null, applicationOpen: null, deadline: null, deadlineNote: valid ? 'Choose the university-specific applicant category to resolve recorded fees and dates.' : 'Applicant-category evidence needs reconciliation after a source change.', feeBasis: 'Applicant category required; no default fee is assumed.', applicantCategoryRequired: true };
+    const { applicationRounds, ...withoutRounds } = o;
+    const masked = { ...withoutRounds, tuition: null, applicationFee: null, applicationOpen: null, deadline: null, deadlineNote: valid ? 'Choose the university-specific applicant category to resolve recorded fees and dates.' : 'Applicant-category evidence needs reconciliation after a source change.', feeBasis: 'Applicant category required; no default fee is assumed.', applicantCategoryRequired: true };
     if (valid) {
       masked.applicantDateEvidence = { sourceUrl: r.dateSourceUrl, checkedOn: r.checkedOn };
       trustedDates.add(masked);
@@ -68,7 +71,9 @@ export function resolveApplicantContext(programme, index = new Map(), applicantI
   }
   if (applicantId) {
     const category = record.options.find(o => o.id === applicantId);
-    const offering = { ...original, tuition: category.tuition, currency: category.currency, feeBasis: category.feeBasis, applicationFee: category.applicationFee, applicationOpen: category.applicationOpen, deadline: category.deadline, deadlineNote: category.deadlineNote || 'Recorded category-specific deadline; exact cutoff time and live portal availability are not verified.', applicantCategory: { id: category.id, label: category.label }, applicantDateEvidence: { sourceUrl: record.dateSourceUrl, checkedOn: record.checkedOn }, feeEvidence: { sourceUrl: record.feeSourceUrl, checkedOn: record.checkedOn } };
+    // A category without round evidence must not inherit rounds from another scope.
+    const { applicationRounds, ...withoutRounds } = original;
+    const offering = { ...withoutRounds, ...(category.applicationRounds ? { applicationRounds: structuredClone(category.applicationRounds) } : {}), tuition: category.tuition, currency: category.currency, feeBasis: category.feeBasis, applicationFee: category.applicationFee, applicationOpen: category.applicationOpen, deadline: category.deadline, deadlineNote: category.deadlineNote || 'Recorded category-specific deadline; exact cutoff time and live portal availability are not verified.', applicantCategory: { id: category.id, label: category.label }, applicantDateEvidence: { sourceUrl: record.dateSourceUrl, checkedOn: record.checkedOn }, feeEvidence: { sourceUrl: record.feeSourceUrl, checkedOn: record.checkedOn } };
     trustedDates.add(offering);
     if (category.tuitionEstimate === true) offering.tuitionEstimate = true;
     result.offerings = [offering];

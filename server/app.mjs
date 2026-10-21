@@ -34,8 +34,9 @@ export function createApp({ store, publicDir, adminToken = '', routeEvidencePath
       const host = req.headers.host || '';
       if (!/^(127\.0\.0\.1|localhost)(:\d+)?$/.test(host)) throw new InputError('Local host required', 403);
       const url = new URL(req.url, `http://${host}`);
-      const asOfDate = applicationDate(now());
-      const present = p => ({ ...p, applicationTimeline: programmeTimeline(p, asOfDate) });
+      const instant = now();
+      const asOfDate = applicationDate(instant);
+      const present = p => ({ ...p, applicationTimeline: programmeTimeline(p, asOfDate, instant.toISOString()) });
       if (req.method === 'POST') {
         const origin = req.headers.origin;
         if (origin && origin !== `http://${host}`) throw new InputError('Cross-origin writes are not allowed', 403);
