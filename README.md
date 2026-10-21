@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-21 入学条件更新：HKU Computer Science 的普通申请路径（不含 Delta X Fellowship）已单独接入，包含 2027/28 全日制／兼读制、用户明确选择的本地／非本地费用、两轮中午截止说明和一般英语条件。未找到的专业清单和 GPA 最低值不自动补造，其余两条 Delta X 路径仍待核查。路径证据现为 2 个分组、3 条路径；申请人费用证据为 5 个学习选项、10 个类别。它们独立计数，不把总库 873／默认 870／项目页已查 21 或人工复核 0、完整条件 0 上调。详见 [本轮路径核查](docs/research/hku-cs-ordinary-route-2026-10-21.md)。
+
 2026-10-21 本地最新：总库 873 条目录记录，默认浏览 870 条；项目页已查仍为 21，独立复核和完整条件仍为 0。本批完成 HKU 目录整理，官网观察日期保留为 10 月 20 日：两类申请人视图各 17 页、170 行，分为 99 个保守候选组，新增 80 条未核验线索；关闭、插读及交付边界有单独记录。这些数量不是完整已核验项目或当前开放申请数量。详见 [HKU 目录盘点](docs/research/hku-directory-pass-2026-10-20.md)。此前 CityU 新增 52 条、EdUHK 56 条、HKUST 45 条、PolyU 89 条未核验线索，分别见 [CityU](docs/research/cityu-directory-pass-2026-10-20.md)、[EdUHK](docs/research/eduhk-directory-pass-2026-10-20.md)、[HKUST](docs/research/hkust-directory-pass-2026-10-20.md)及 [PolyU](docs/research/polyu-directory-pass-2026-10-20.md)。以下保留早期开发记录及当时数量，不应当作最新总量。
 
 2026-10-06：本地可运行版本 0.1.0 已实现。网站统一采用英文界面，包含搜索、项目详情、背景输入及逐条件判断、课程比较、候选清单和数据工作台。当前开发工作保存在本地，尚未公开部署。
@@ -41,6 +43,7 @@ Windows 双击 `start-local.cmd`，待启动窗口显示网址后打开 `http://
 - [10 月 20 日 HKUST 目录、学位组合与交付边界](docs/research/hkust-directory-pass-2026-10-20.md)
 - [10 月 20 日 PolyU 两批入学目录与学位／组合课程边界](docs/research/polyu-directory-pass-2026-10-20.md)
 - [10 月 20 日 HKU 目录、申请人类别与关闭／交付边界](docs/research/hku-directory-pass-2026-10-20.md)
+- [10 月 21 日 HKU Computer Science 普通路径、语言及分类费用](docs/research/hku-cs-ordinary-route-2026-10-21.md)
 
 ## 下一步
 

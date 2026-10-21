@@ -8,6 +8,7 @@ import { CatalogueStore } from '../server/database.mjs';
 import { matchProgramme } from '../server/matching.mjs';
 import { loadApplicantContexts, resolveApplicantContext } from '../server/applicants.mjs';
 import { resolveOffering } from '../server/offerings.mjs';
+import { loadRoutes } from '../server/routes.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = file => JSON.parse(readFileSync(new URL(file, root), 'utf8'));
@@ -81,7 +82,8 @@ test('directory-only updates preserve checked fields and the independently dated
     const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 870); assert.equal(q.checked, 21); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
     assert.equal(db.all().filter(p => p.universityId === 'HK-EDUHK').length, 59);
     for (const original of checked.programmes) { const p = db.get(original.id); assert.deepEqual(p.rules, original.rules); assert.deepEqual(p.offerings, original.offerings); assert.equal(p.lastChecked, original.lastChecked); }
-    const index = loadApplicantContexts(new URL('data/applicant-contexts.json', root), db.all());
+    const routes = loadRoutes(new URL('data/route-programmes.json', root), db.all());
+    const index = loadApplicantContexts(new URL('data/applicant-contexts.json', root), db.all(), routes);
     const resolved = resolveApplicantContext(resolveOffering(db.get('HK-EDUHK-P001'), 'HK-EDUHK-P001-O1'), index, 'HK-EDUHK-P001-O1-NONLOCAL');
     assert.equal(resolved.offerings[0].tuition, 188888); assert.equal(resolved.offerings[0].deadline, '2026-10-15'); assert.equal(resolved.offerings[0].feeEvidence.checkedOn, '2026-10-19');
     assert.equal(db.universities().find(u => u.id === 'HK-EDUHK').directoryAudit.enumerationStatus, 'entries_enumerated');

@@ -9,6 +9,7 @@ import { matchProgramme } from '../server/matching.mjs';
 import { validateProgramme } from '../server/validation.mjs';
 import { loadApplicantContexts, resolveApplicantContext } from '../server/applicants.mjs';
 import { resolveOffering } from '../server/offerings.mjs';
+import { loadRoutes } from '../server/routes.mjs';
 import { shortlistExport } from '../public/saved-options.js';
 
 const root = new URL('../', import.meta.url);
@@ -17,8 +18,9 @@ const batch = read('data/checked-programmes.json');
 const csId = 'HK-CITYU-P010', econId = 'HK-CITYU-P004';
 const store = new CatalogueStore(':memory:', { seedPath: new URL('data/catalogue.json', root), expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root), directoryEvidencePath: new URL('data/directory-links.json', root) });
 const evidencePath = new URL('data/applicant-contexts.json', root);
-const index = loadApplicantContexts(evidencePath, store.all());
-const server = createApp({ store, publicDir: new URL('public/', root), applicantEvidencePath: evidencePath, now: () => new Date('2026-10-20T04:00:00Z') });
+const routePath = new URL('data/route-programmes.json', root), routes = loadRoutes(routePath, store.all());
+const index = loadApplicantContexts(evidencePath, store.all(), routes);
+const server = createApp({ store, publicDir: new URL('public/', root), routeEvidencePath: routePath, applicantEvidencePath: evidencePath, now: () => new Date('2026-10-20T04:00:00Z') });
 await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
 const url = `http://127.0.0.1:${server.address().port}`;
 test.after(async () => { await new Promise(resolve => server.close(resolve)); store.close(); });
@@ -71,12 +73,12 @@ test('both CS modes keep local and non-local minimum-credit estimates separate',
 });
 
 test('same-university subdomains are supported without accepting another university or spoofed hosts', () => {
-  assert.equal(index.size, 3);
+  assert.equal(index.size, 5);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-cityu-domain-')), file = join(dir, 'batch.json');
   try {
     for (const bad of ['https://www.nus.edu.sg/fees', 'https://cityu.edu.hk.attacker.invalid/fees', 'https://attacker@www.cityu.edu.hk/fees']) {
       const b = read('data/applicant-contexts.json'); b.contexts[1].feeSourceUrl = bad;
-      writeFileSync(file, JSON.stringify(b)); assert.throws(() => loadApplicantContexts(file, store.all()));
+      writeFileSync(file, JSON.stringify(b)); assert.throws(() => loadApplicantContexts(file, store.all(), routes));
     }
   } finally { rmSync(file, { force: true }); rmdirSync(dir); }
 });
@@ -91,9 +93,9 @@ test('mixed source dates preserve EdUHK October 19 and CityU October 20 observat
 test('malformed dates, relabelled batch dates, unknown fees and estimate flags fail validation', () => {
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-cityu-invalid-')), file = join(dir, 'batch.json');
   try {
-    for (const alter of [b => { b.contexts[1].checkedOn = '2026-02-30'; }, b => { b.contexts[1].checkedOn = '2026-10-21'; }, b => { b.checkedOn = '2026-10-21'; }, b => { delete b.contexts[1].options[0].applicationFee; }, b => { b.contexts[1].options[0].applicationFee = -1; }, b => { b.contexts[1].options[0].tuitionEstimate = 'yes'; }, b => { b.contexts[1].options[0].deadlineNote = 1; }]) {
+    for (const alter of [b => { b.contexts[1].checkedOn = '2026-02-30'; }, b => { b.contexts[1].checkedOn = '2026-10-22'; }, b => { b.checkedOn = '2026-10-22'; }, b => { delete b.contexts[1].options[0].applicationFee; }, b => { b.contexts[1].options[0].applicationFee = -1; }, b => { b.contexts[1].options[0].tuitionEstimate = 'yes'; }, b => { b.contexts[1].options[0].deadlineNote = 1; }]) {
       const b = read('data/applicant-contexts.json'); alter(b); writeFileSync(file, JSON.stringify(b));
-      assert.throws(() => loadApplicantContexts(file, store.all()));
+      assert.throws(() => loadApplicantContexts(file, store.all(), routes));
     }
   } finally { rmSync(file, { force: true }); rmdirSync(dir); }
 });

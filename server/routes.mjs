@@ -22,7 +22,7 @@ export function loadRoutes(path, programmes) {
       if (!route || typeof route.routeId !== 'string' || !route.routeId.startsWith(`${base.id}-ROUTE-`) || !/^[A-Z0-9-]+$/.test(route.routeId) || route.routeId.length > 100 || ids.has(route.routeId)) throw new InputError('Invalid or duplicate route ID');
       ids.add(route.routeId);
       if (!base.directoryListing.variants.some(v => v.officialUrl === route.officialUrl && v.nameEn === route.name)) throw new InputError('Route must match explicit directory evidence');
-      if (route.lastChecked !== batch.checkedOn || !Array.isArray(route.sources) || !route.sources.some(s => s.url === route.officialUrl && s.checkedOn === route.lastChecked) || route.sources.some(s => !isOfficialUrl(s.url) || s.checkedOn !== route.lastChecked)) throw new InputError('Route evidence date or programme source is missing');
+      if (!isDate(route.lastChecked) || route.lastChecked > batch.checkedOn || !Array.isArray(route.sources) || !route.sources.some(s => s?.url === route.officialUrl && s.checkedOn === route.lastChecked) || route.sources.some(s => !s || !isOfficialUrl(s.url) || s.checkedOn !== route.lastChecked)) throw new InputError('Route evidence date or programme source is missing');
       // A full standalone snapshot is mandatory: never spread the parent/sibling rules.
       const record = { ...route, id: base.id, universityId: base.universityId };
       validateProgramme(record, new Set([base.universityId]));
@@ -31,6 +31,9 @@ export function loadRoutes(path, programmes) {
     });
     index.set(base.id, routes);
   }
+  // The batch is dated by its newest observation, not by restamping older routes.
+  const dates = [...index.values()].flat().map(r => r.lastChecked).sort();
+  if (dates.length && batch.checkedOn !== dates.at(-1)) throw new InputError('Route batch date must identify the latest source observation');
   return index;
 }
 

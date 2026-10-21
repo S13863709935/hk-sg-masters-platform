@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-16",
+  "checkedOn": "2026-10-21",
   "programmes": [
     {
       "programmeId": "SG-NTU-P061",
@@ -81,6 +81,54 @@
             "tuition": { "status": "known", "noteEn": "2027/28 onwards tuition is recorded with GST and shortest-candidature conditions; no personal grant is assumed.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
             "gpa": { "status": "not_published", "noteEn": "No numeric entry GPA was found; degree quality and alternative routes still require assessment.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
             "independentReview": { "status": "unknown", "noteEn": "No independent human review is recorded.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" }
+          }
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P016",
+      "routes": [
+        {
+          "routeId": "HK-HKU-P016-ROUTE-STANDARD",
+          "name": "Master of Science in Computer Science (General, Cyber Security, Financial Computing and Multimedia Computing Streams)",
+          "award": "MSc",
+          "area": "Computing",
+          "faculty": "School of Computing and Data Science",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted ordinary-route source reading; independent review pending",
+          "lastChecked": "2026-10-21",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesEn": "Ordinary application pathway only, without Delta X Fellowship consideration. The two Delta X directory references remain unverified and do not inherit these facts. Stream choice, degree recognition, academic suitability and language alternatives require HKU assessment. A request for CGPA evidence is not a numeric entry cutoff.",
+          "notesZh": "",
+          "offerings": [
+            { "id": "HK-HKU-P016-STANDARD-FT-2027", "mode": "Full-time", "duration": "1 year normative; 2 years maximum", "intake": "September 2027", "academicYear": "2027/28", "applicationOpen": null, "deadline": "2027-04-30", "deadlineNote": "Main round: 1 December 2026, 12:00 noon GMT+8; clearing round: 30 April 2027, 12:00 noon GMT+8. Date-only reminders do not enforce the noon cutoff. Opening date and live availability were not captured.", "currency": "HKD", "tuition": null, "feeBasis": "Select the HKU applicant category for 2027/28 tuition; fees remain subject to University approval." },
+            { "id": "HK-HKU-P016-STANDARD-PT-2027", "mode": "Part-time", "duration": "2 years normative; 3 years maximum", "intake": "September 2027", "academicYear": "2027/28", "applicationOpen": null, "deadline": "2027-04-30", "deadlineNote": "Main round: 1 December 2026, 12:00 noon GMT+8; clearing round: 30 April 2027, 12:00 noon GMT+8. Date-only reminders do not enforce the noon cutoff. Opening date, permission for part-time study and live availability require confirmation.", "currency": "HKD", "tuition": null, "feeBasis": "Select the HKU applicant category for 2027/28 tuition; fees remain subject to University approval." }
+          ],
+          "rules": [
+            { "kind": "degree", "labelEn": "Bachelor's degree or equivalent", "labelZh": "", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" },
+            { "kind": "manual", "labelEn": "Undergraduate subject and academic suitability", "labelZh": "", "noteEn": "No explicit accepted-major list or numeric GPA cutoff was found in the consulted entry sections. This is not an any-major guarantee; HKU decides suitability and equivalence.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" },
+            { "kind": "language", "labelEn": "HKU general English test-score route", "labelZh": "", "tests": { "ielts": { "total": 6, "componentMin": 5.5 }, "toefl_120": { "total": 80, "validBefore": "2026-01-21" }, "toefl_6": { "total": 4.5, "validFrom": "2026-01-21" } }, "testDateNotBefore": "2025-09-01", "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements", "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements" },
+            { "kind": "manual", "labelEn": "English requirement applicability and alternatives", "labelZh": "", "noteEn": "HKU determines whether the English requirement applies, including teaching/examination language and qualifications obtained outside Hong Kong. Waivers, other accepted examinations, test formats and any additional programme conditions are not automatically assessed.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements" },
+            { "kind": "manual", "labelEn": "Stream choice and conditional completion", "labelZh": "", "noteEn": "The ordinary pathway is separate from both Delta X Fellowship pathways. Preferred stream selection, final-year degree completion and supporting documents require programme confirmation.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" }
+          ],
+          "sources": [
+            { "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0", "purpose": "Ordinary route identity, FT/PT study periods, September 2027 dates and applicant-category fees", "checkedOn": "2026-10-21" },
+            { "url": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/", "purpose": "2027/28 pathway separation, supporting documents, instalments and application fee", "checkedOn": "2026-10-21" },
+            { "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements", "purpose": "General entrance and English requirements; two years before 1 September 2027 yields the recorded 1 September 2025 minimum", "checkedOn": "2026-10-21" }
+          ],
+          "fieldStatus": {
+            "academicYear": { "status": "known", "noteEn": "September 2027 entry, 2027/28, ordinary pathway only.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
+            "major": { "status": "unknown", "noteEn": "No explicit undergraduate subject list was found; do not infer that every major is accepted.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" },
+            "gpa": { "status": "not_published", "noteEn": "No numeric GPA minimum was found in the consulted entry sections. Transcript/CGPA proof does not establish a cutoff.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
+            "language": { "status": "known", "noteEn": "General test-score thresholds and intake-anchored date minimum recorded, not programme-specific waiver or format acceptance.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements" },
+            "tuition": { "status": "unknown", "noteEn": "Amounts are held in dated, study-option-specific applicant contexts; no universal fee or inferred classification.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
+            "deadline": { "status": "known", "noteEn": "Main and clearing rounds end at noon GMT+8, not midnight. Opening date and live portal availability are unconfirmed.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
+            "independentReview": { "status": "unknown", "noteEn": "No independent human review is recorded.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" }
           }
         }
       ]
