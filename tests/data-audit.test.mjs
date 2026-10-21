@@ -64,10 +64,14 @@ test('non-local deadlines, fee categories and application rounds remain explicit
   assert.match(get('HK-POLYU-P001').offerings[0].feeBasis, /excluding/);
 });
 test('recurring months and uncertain fee cohorts do not become invented ISO deadlines', () => {
-  for (const id of ['SG-NTU-P018', 'SG-NTU-P015']) {
+  for (const id of ['SG-NTU-P015']) {
     assert.ok(get(id).offerings.every(o => o.deadline === null));
     assert.equal(get(id).fieldStatus.academicYear.status, 'unknown');
   }
+  const msis = get('SG-NTU-P018');
+  assert.equal(msis.fieldStatus.academicYear.status, 'known');
+  assert.ok(msis.offerings.every(o => o.deadline === '2027-02-15' && o.applicationOpen === null && o.tuition === null));
+  assert.match(msis.fieldStatus.deadline.noteEn, /Opening differs/);
   const mitb = get('SG-SMU-P010');
   assert.equal(mitb.fieldStatus.tuition.status, 'known');
   assert.equal(mitb.fieldStatus.academicYear.status, 'known');

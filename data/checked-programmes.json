@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-20",
+  "checkedOn": "2026-10-21",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -1763,42 +1763,44 @@
       "name": "MSc Information Systems",
       "award": "MSc",
       "area": "Computing",
-      "faculty": null,
+      "faculty": "Wee Kim Wee School of Communication and Information",
       "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "Intake year not explicitly stated in checked requirements",
+      "lastChecked": "2026-10-21",
+      "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "GRE/GMAT are not required. Internship is not counted as the experience in the alternative route. Programme CGPA 2.50 and dissertation CGPA 4.00 are not admission cutoffs.",
+      "notesEn": "August 2027 cohort is identified from the central AY2027/28 semester table, not inferred from a recurring month alone. Opening-date discrepancy: the central WKWSCI other-programmes row says 1 October, while the undated programme page says 1 November. Both give 15 February; only the shared closing date is recorded, with no live-open claim. Published fees are for AY2026/27, not the 2027/28 cohort. GRE/GMAT are not required; personal statement and referee letters are optional. Internship is not counted as relevant work in the alternative degree route; one year of relevant full-time work is recommended, not a universal mandatory minimum. Programme CGPA 2.50 and dissertation CGPA 4.00 are not admission cutoffs.",
       "offerings": [
         {
           "id": "SG-NTU-P018-O1",
           "mode": "Full-time",
           "duration": "1–2 years",
-          "intake": "August annually; year to confirm",
-          "deadline": null,
-          "deadlineNote": "Published recurring window: 1 November–15 February; year not confirmed.",
-          "academicYear": "Intake year not explicitly stated in checked requirements",
+          "intake": "August 2027",
+          "applicationOpen": null,
+          "deadline": "2027-02-15",
+          "deadlineNote": "AY2027/28 central semester table: WKWSCI other programmes, August intake, closes 15 February 2027. Opening-date discrepancy: central guide says 1 October; undated programme page says 1 November. Opening is unresolved; do not assume applications are open. The separate Information Studies row is not Information Systems. No exact cutoff time or live portal availability was checked.",
+          "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027/28 tuition is unconfirmed. Historical reference only: AY2026/27 published total SGD 47,044.40 for 30 AU, inclusive of GST, charged by AU each semester, applicable to FT/PT applicants of all nationalities; separate miscellaneous fees and living/travel costs are excluded. The AY2026/27 SGD 5,000 acceptance deposit offsets tuition, not an extra tuition charge; SGD 50 application fee is non-refundable. These amounts and any SC/PR or alumni rebates are not a 2027/28 quote; no rebate is deducted and fees may be revised."
         },
         {
           "id": "SG-NTU-P018-O2",
           "mode": "Part-time",
           "duration": "2–4 years",
-          "intake": "August annually; year to confirm",
-          "deadline": null,
-          "deadlineNote": "Published recurring window: 1 November–15 February; year not confirmed.",
-          "academicYear": "Intake year not explicitly stated in checked requirements",
+          "intake": "August 2027",
+          "applicationOpen": null,
+          "deadline": "2027-02-15",
+          "deadlineNote": "AY2027/28 central semester table: WKWSCI other programmes, August intake, closes 15 February 2027. Opening-date discrepancy: central guide says 1 October; undated programme page says 1 November. Opening is unresolved; do not assume applications are open. The separate Information Studies row is not Information Systems. No exact cutoff time or live portal availability was checked.",
+          "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027/28 tuition is unconfirmed. Historical reference only: AY2026/27 published total SGD 47,044.40 for 30 AU, inclusive of GST, charged by AU each semester, applicable to FT/PT applicants of all nationalities; separate miscellaneous fees and living/travel costs are excluded. The AY2026/27 SGD 5,000 acceptance deposit offsets tuition, not an extra tuition charge; SGD 50 application fee is non-refundable. These amounts and any SC/PR or alumni rebates are not a 2027/28 quote; no rebate is deducted and fees may be revised."
         }
       ],
       "rules": [
@@ -1825,8 +1827,8 @@
           "kind": "manual",
           "labelZh": "Academic standing and equivalence",
           "labelEn": "Academic standing and equivalence",
-          "noteZh": "Second-class lower/Honours (Merit) or equivalent; alternative degree routes involve IT content or relevant work.",
-          "noteEn": "Second-class lower/Honours (Merit) or equivalent; alternative degree routes involve IT content or relevant work.",
+          "noteZh": "Second-class lower/Honours (Merit) or equivalent. The university must confirm degree equivalence; no numerical GPA conversion is made.",
+          "noteEn": "Second-class lower/Honours (Merit) or equivalent. The university must confirm degree equivalence; no numerical GPA conversion is made.",
           "mandatory": true,
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         },
@@ -1842,25 +1844,29 @@
             "toefl_120": {
               "total": 100,
               "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 5,
+              "validFrom": "2026-01-21"
             }
           },
-          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Equivalent academic standing and alternative degree/work routes need checking.",
-          "noteEn": "Equivalent academic standing and alternative degree/work routes need checking.",
+          "labelZh": "Alternative subject and work routes",
+          "labelEn": "Alternative subject and work routes",
+          "noteZh": "A degree with substantial IT content (for example Engineering or Sciences), or a degree plus relevant work, is an alternative route requiring university assessment. Internships are excluded; one year of relevant full-time experience is recommended, not a mandatory requirement for every applicant.",
+          "noteEn": "A degree with substantial IT content (for example Engineering or Sciences), or a degree plus relevant work, is an alternative route requiring university assessment. Internships are excluded; one year of relevant full-time experience is recommended, not a mandatory requirement for every applicant.",
           "mandatory": true,
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "The revised TOEFL scale needs reconciliation with central guidance; test validity is at application.",
-          "noteEn": "The revised TOEFL scale needs reconciliation with central guidance; test validity is at application.",
+          "labelZh": "English waiver and application-time validity",
+          "labelEn": "English waiver and application-time validity",
+          "noteZh": "Programme English-medium degree/instruction exemptions and any discretionary central exception require university confirmation. IELTS must be Academic, with each sub-score at least 6.0. TOEFL 100 is the previous scale; the central WKWSCI row supplies 5 on the new scale from 21 January 2026. Test scores must be within two years at application submission, not measured from today or the intake date; meeting scores alone does not confirm this condition.",
+          "noteEn": "Programme English-medium degree/instruction exemptions and any discretionary central exception require university confirmation. IELTS must be Academic, with each sub-score at least 6.0. TOEFL 100 is the previous scale; the central WKWSCI row supplies 5 on the new scale from 21 January 2026. Test scores must be within two years at application submission, not measured from today or the intake date; meeting scores alone does not confirm this condition.",
           "mandatory": true,
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         }
@@ -1868,16 +1874,21 @@
       "sources": [
         {
           "url": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "MSIS subject/degree alternatives, English components, recurring dates and historical AY2026/27 fees (Additional Information tab)",
+          "checkedOn": "2026-10-21"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+          "purpose": "AY2027/28 semester table, WKWSCI other-programmes date row, opening-date discrepancy and new TOEFL scale",
+          "checkedOn": "2026-10-21"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "ntu-msis-refresh-2026-10-21",
       "fieldStatus": {
         "academicYear": {
-          "status": "unknown",
-          "noteEn": "The consulted page does not identify a cohort for all published figures.",
-          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+          "status": "known",
+          "noteEn": "August 2027 / AY2027/28 is identified in the central semester table. The programme fee table remains AY2026/27 and is not carried forward.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         },
         "major": {
           "status": "known",
@@ -1891,18 +1902,18 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Programme IELTS Academic 6.5 with every component 6.0; central WKWSCI guidance adds TOEFL 5 on the new scale. English-medium exemptions, discretionary exceptions and two-year validity at submission remain manual checks.",
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "noteEn": "No confirmed AY2027/28 tuition. The Additional Information tab's AY2026/27 SGD 47,044.40 is historical context only; no current numeric price or rebate is imported.",
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
-          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+          "status": "known",
+          "noteEn": "15 February 2027 closing date is grounded in the AY2027/28 central semester table and consistent with the programme month/day. Opening differs (central 1 October versus programme 1 November), so applicationOpen remains null and no open-window claim is made.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         },
         "independentReview": {
           "status": "unknown",
