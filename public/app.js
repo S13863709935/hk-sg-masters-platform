@@ -20,6 +20,7 @@ let detailTrigger = null;
 let detailSequence = 0;
 let backgroundVersion = 0;
 let matchRequestSequence = 0;
+let shortlistExportSequence = 0;
 const routeChoices = {};
 const offeringChoices = {};
 const applicantChoices = {};
@@ -179,7 +180,7 @@ function savedViewError(target) {
 }
 async function renderShortlist() {
   const ids = [...state.shortlist];
-  $('#page').innerHTML = `${heading('shortlistHeading', 'shortlistIntro')}${ids.length ? `<div class="results-header"><span class="results-count">${ids.length} ${t('results')}</span><button class="button" data-action="exportShortlist">${t('downloadShortlist')}</button></div><small class="muted">${t('exportShortlistNote')}</small><div id="saved-cards" class="cards" aria-busy="true"><p class="muted" role="status">${t('loading')}</p></div>` : empty('emptyShortlist', 'emptyShortlistHint')}`;
+  $('#page').innerHTML = `${heading('shortlistHeading', 'shortlistIntro')}${ids.length ? `<div class="results-header"><span class="results-count">${ids.length} ${t('results')}</span><button class="button" data-action="exportShortlist">${t('downloadShortlist')}</button></div><small class="muted">${t('exportShortlistNote')}</small><p id="shortlist-export-status" class="detail-note" role="status" aria-live="polite" aria-atomic="true"></p><div id="saved-cards" class="cards" aria-busy="true"><p class="muted" role="status">${t('loading')}</p></div>` : empty('emptyShortlist', 'emptyShortlistHint')}`;
   if (!ids.length) return;
   const target = $('#saved-cards');
   try {
@@ -429,7 +430,44 @@ function showView() {
 }
 function navigate(view) { closeDetail(); if (location.hash === `#${view}`) { state.view = view; showView(); } else location.hash = view; }
 function updateSavedButtons() { document.querySelectorAll('[data-action=save]').forEach(button => { const saved = state.shortlist.includes(button.dataset.id); button.setAttribute('aria-pressed', String(saved)); button.classList.toggle('selected', saved); if (button.classList.contains('icon-button')) { const title = button.closest('article')?.querySelector('h3')?.textContent || ''; button.setAttribute('aria-label', `${t(saved ? 'saved' : 'save')} · ${title}`); } else button.innerHTML = `${icon('shortlist')}${t(saved ? 'saved' : 'save')}`; }); updateTray(); refreshRememberPanel(); }
-function downloadJson(value, name) { const url = URL.createObjectURL(new Blob([JSON.stringify(value, null, 2)], { type: 'application/json' })); const a = document.createElement('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
+function downloadJson(value, name) {
+  const url = URL.createObjectURL(new Blob([JSON.stringify(value, null, 2)], { type: 'application/json' }));
+  try { const a = document.createElement('a'); a.href = url; a.download = name; a.click(); }
+  finally { setTimeout(() => URL.revokeObjectURL(url), 1000); }
+}
+const shortlistExportContext = ids => JSON.stringify(ids.map(id => [id, routeChoices[id] || null, offeringChoices[id] || null, applicantChoices[id] || null, remembered.entries[id] || null, savedOptionIssues[id] || null]));
+async function exportShortlist(trigger) {
+  if (!trigger || trigger.disabled || !trigger.isConnected || state.view !== 'shortlist' || !state.shortlist.length || $('#page [data-action=exportShortlist]') !== trigger) return false;
+  const sequence = ++shortlistExportSequence, ids = [...state.shortlist], snapshot = shortlistExportContext(ids);
+  const saved = Object.fromEntries(ids.filter(id => remembered.entries[id]).map(id => [id, { ...remembered.entries[id] }]));
+  const status = $('#shortlist-export-status'), label = trigger.textContent, focused = document.activeElement === trigger;
+  const current = () => sequence === shortlistExportSequence && state.view === 'shortlist' && trigger.isConnected && $('#page [data-action=exportShortlist]') === trigger;
+  const unchanged = () => shortlistExportContext(state.shortlist) === snapshot;
+  const note = message => { if (current() && status?.isConnected) status.textContent = message; };
+  const changed = () => note('Your shortlist or programme choices changed while preparing the download. Nothing was downloaded; export again to use the current choices.');
+  let requesting = false;
+  trigger.disabled = true; trigger.textContent = 'Preparing download…';
+  note('Preparing the current shortlist. Background information is not included.');
+  try {
+    const programmes = await selectedProgrammes(ids);
+    if (!current()) return false;
+    if (!unchanged()) { changed(); return false; }
+    if (programmes.length !== ids.length || programmes.some((programme, index) => programme.id !== ids[index])) throw new Error('Unexpected shortlist response');
+    const output = shortlistExport(programmes, saved);
+    requesting = true;
+    downloadJson(output, 'gradpath-shortlist.json');
+    note(`Download requested. Check your browser's downloads. Programme records: ${output.programmes.length}. Unresolved selections: ${output.unresolved.length}. Background information is not included.`);
+    return true;
+  } catch {
+    if (!current()) return false;
+    if (!unchanged()) { changed(); return false; }
+    note(requesting ? "The download could not be confirmed. Check your browser's downloads before trying again. Your shortlist is unchanged." : 'Could not prepare the download. Nothing was downloaded; your shortlist is unchanged. Please try again.');
+    return false;
+  } finally {
+    trigger.disabled = false; trigger.textContent = label;
+    if (current() && focused && document.activeElement === document.body && !$('#detail-dialog')?.open) trigger.focus({ preventScroll: true });
+  }
+}
 document.addEventListener('click', async event => {
   const trigger = event.target.closest('[data-action]'); if (!trigger || trigger.disabled) return;
   const { action, id, view, value } = trigger.dataset;
@@ -480,7 +518,7 @@ document.addEventListener('click', async event => {
   if (action === 'clearProfile') clearBackground();
   if (action === 'retry') await loadCatalogue({ focusResults: true });
   if (action === 'rerender') await renderView();
-  if (action === 'exportShortlist') { const programmes = await selectedProgrammes(state.shortlist); downloadJson(shortlistExport(programmes, remembered.entries), 'gradpath-shortlist.json'); }
+  if (action === 'exportShortlist') await exportShortlist(trigger);
   } catch (error) { toast(error.message); }
 });
 document.addEventListener('input', event => { if (event.target.id === 'search') scheduleCatalogueSearch(event.target.value); });
