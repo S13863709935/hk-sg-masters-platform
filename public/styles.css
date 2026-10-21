@@ -16,3 +16,8 @@
 .study-option-panel{padding:18px;border:1px solid var(--line);border-radius:10px;background:#f3f6f0;margin-bottom:24px;min-width:0}.study-option-panel .detail-note{margin:12px 0 0}.offering-context{font-size:11px;line-height:1.7;border-left:3px solid #9bbca9;padding:0 0 0 10px;margin:0 0 16px;overflow-wrap:anywhere}.offering-context strong{font-weight:550}.offering-context small{display:block;font-size:10px;color:var(--muted)}.study-option-panel select{max-width:100%}
 .remember-panel{border:1px solid var(--line);border-radius:10px;padding:18px;margin-bottom:24px;min-width:0}.remember-panel h3{margin-bottom:8px}.remember-panel .detail-actions{gap:8px}.saved-option-warning{padding:13px;border:1px solid #e7d7b8;background:var(--amber-light);color:var(--amber);border-radius:8px;font-size:11px;line-height:1.8;overflow-wrap:anywhere}.saved-option-warning .button{margin-top:8px}
 @media(max-width:520px){.remember-panel .detail-actions{flex-direction:column}.remember-panel .detail-actions .button{width:100%;flex:auto}}
+.table-wrap:focus-visible{outline:3px solid #9bbca9;outline-offset:3px}
+.hero-copy,.programme-card,.form-grid>.field,.score-grid>.field,.detail-head>div,.check-row>div{min-width:0}
+.card-title,.card-fact span,.detail-head h2,.check-row>div,.detail-note{overflow-wrap:anywhere}
+.detail-head>[data-action=closeDetail],.profile-strip>.button{flex-shrink:0}
+.profile-strip p{min-width:0;overflow-wrap:anywhere}
