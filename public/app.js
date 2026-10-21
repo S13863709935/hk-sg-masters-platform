@@ -1,5 +1,6 @@
 import { copy, areaLabels } from './copy.js';
 import { normalizeSavedOptions, optionSnapshot, sameOptions, savedOptionsPayload, shortlistExport } from './saved-options.js';
+import { filterMatchedProgrammes } from './catalogue-filters.js';
 
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -60,9 +61,7 @@ function renderDiscover() {
 }
 function syncUrl() { const url = new URL(location.href); for (const key of ['q', 'region', 'school', 'area', 'mode', 'verification']) state[key] ? url.searchParams.set(key, state[key]) : url.searchParams.delete(key); history.replaceState(null, '', url); }
 function filterMatches(items) {
-  if (state.matchFilter) items = items.filter(p => !savedOptionIssues[p.id]);
-  const q = state.q.trim().toLowerCase();
-  return items.filter(p => p.admissionRoute !== 'transfer_only' && p.scope?.status !== 'out_of_scope' && (!q || [p.name, p.area, p.university.nameZh, p.university.nameEn, p.university.abbreviation, p.directoryListing?.nameEn, ...(p.directoryListing?.variants || []).map(v=>v.nameEn)].join(' ').toLowerCase().includes(q)) && (!state.region || p.university.region === state.region) && (!state.school || p.universityId === state.school) && (!state.area || p.area === state.area) && (!state.mode || p.offerings.some(o => o.mode?.toLowerCase().includes(state.mode))) && (!state.verification || p.verification === state.verification) && (!state.matchFilter || p.match.status === state.matchFilter));
+  return filterMatchedProgrammes(items, state, savedOptionIssues);
 }
 async function loadCatalogue() {
   const seq = ++requestSequence;

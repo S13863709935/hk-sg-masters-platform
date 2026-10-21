@@ -8,6 +8,8 @@ import { validateOfferingSelections } from './offerings.mjs';
 import { loadApplicantContexts, validateApplicantSelections, applicantSummary } from './applicants.mjs';
 import { applicationDate, programmeTimeline } from './application-dates.mjs';
 import { parseSavedOption } from '../public/saved-options.js';
+import { filterProgrammes } from '../public/catalogue-filters.js';
+export { filterProgrammes };
 
 const headers = {
   'Content-Security-Policy': "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
@@ -20,15 +22,10 @@ async function body(req) {
   for await (const chunk of req) { text += chunk; if (Buffer.byteLength(text) > 1024 * 1024) throw new InputError('Request too large', 413); }
   try { return JSON.parse(text); } catch { throw new InputError('Invalid JSON', 400); }
 }
-const searchText = p => [p.name, p.area, p.faculty, p.university.nameEn, p.university.nameZh, p.university.abbreviation, p.directoryListing?.nameEn, ...(p.directoryListing?.variants || []).map(v=>v.nameEn)].filter(Boolean).join(' ').toLowerCase();
-export function filterProgrammes(all, filters = {}) {
-  const q = String(filters.q || '').slice(0, 200).trim().toLowerCase();
-  return all.filter(p => (filters.includeTransfer === 'true' || p.admissionRoute !== 'transfer_only') && (filters.includeOutOfScope === 'true' || p.scope?.status !== 'out_of_scope') && (!q || searchText(p).includes(q)) && (!filters.region || p.university.region === filters.region) && (!filters.school || p.universityId === filters.school) && (!filters.area || p.area === filters.area) && (!filters.mode || p.offerings.some(o => o.mode?.toLowerCase().includes(filters.mode))) && (!filters.verification || p.verification === filters.verification));
-}
 export function createApp({ store, publicDir, adminToken = '', routeEvidencePath, applicantEvidencePath, now = () => new Date() }) {
   const routeIndex = loadRoutes(routeEvidencePath, store.all());
   const applicantIndex = loadApplicantContexts(applicantEvidencePath, store.all(), routeIndex);
-  const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/saved-options.js', ['saved-options.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
+  const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/saved-options.js', ['saved-options.js', 'text/javascript']], ['/catalogue-filters.js', ['catalogue-filters.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
   return http.createServer(async (req, res) => {
     try {
       const host = req.headers.host || '';
