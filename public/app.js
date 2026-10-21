@@ -245,17 +245,24 @@ function requirementChecks(p) {
   if (checks) return `<div class="badge-row">${badge(match.tier || match.status)}${!match.tier ? `<span class="badge">${t('noTier')}</span>` : ''}</div><div class="checks">${checks.map(c => `<div class="check-row"><span class="check-symbol ${c.status}">${c.status === 'pass' ? '✓' : c.status === 'fail' ? '!' : '?'}</span><div><strong>${esc(c.labelEn)} · ${t(c.status === 'unknown' ? 'unknownCheck' : c.status)}</strong><p>${esc(c.reasonEn)}</p><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div><p class="detail-note">${esc(match.disclaimerEn)}</p>`;
   return `<p class="detail-note">${t('profileNeeded')}</p>${p.rules.length ? `<div class="checks">${p.rules.map(r => `<div class="check-row"><span class="check-symbol">i</span><div><strong>${esc(r.labelEn)}</strong><p>${ruleText(r)}</p><a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div>` : `<p class="detail-note warning">${t('emptyKnown')}</p>`}<button class="button secondary" data-action="nav" data-view="profile">${t('profile')}${icon('arrow')}</button>`;
 }
+function detailStatus(id, error = null) {
+  const heading = error ? 'Programme details unavailable' : 'Loading programme details';
+  return `<div class="detail-head"><div><h2 id="detail-title">${heading}</h2><small>${esc(id)}</small></div><button class="icon-button" data-action="closeDetail" aria-label="${t('close')}">${icon('close')}</button></div><div class="detail-body">${error ? `<p role="alert">${esc(error.message || 'Please try again.')}</p><p class="detail-note">No previous programme details are shown.</p><div class="detail-actions"><button class="button primary" data-action="detail" data-id="${esc(id)}">${t('retry')}</button>${remembered.entries[id] ? `<button class="button" data-action="forgetOptions" data-id="${esc(id)}">Forget remembered choices</button>` : ''}</div>` : `<p role="status" aria-live="polite">${t('loading')}</p>`}</div>`;
+}
 async function openDetail(id) {
   const sequence = ++detailSequence;
-  detailTrigger = document.activeElement;
   const dialog = $('#detail-dialog');
-  dialog.innerHTML = `<div class="detail-body">${t('loading')}</div>`;
+  if (!dialog.contains(document.activeElement)) detailTrigger = document.activeElement;
+  activeDetail = null;
+  dialog.innerHTML = detailStatus(id);
+  dialog.scrollTop = 0;
   if (!dialog.open) dialog.showModal(); document.body.classList.add('modal-open');
+  const url = new URL(location.href); url.searchParams.set('programme', id); history.replaceState(null, '', url);
+  dialog.querySelector('[data-action=closeDetail]').focus();
   try {
     const p = await api(programmePath(id));
     if (sequence !== detailSequence || !dialog.open) return;
     activeDetail = p;
-    const url = new URL(location.href); url.searchParams.set('programme', id); history.replaceState(null, '', url);
     dialog.innerHTML = `<div class="detail-head"><div><span class="badge">${esc(p.university.abbreviation)} · ${t(p.university.region === 'HK' ? 'hongKong' : 'singapore')}</span><h2 id="detail-title">${esc(p.name)}</h2><div class="badge-row">${badge(p.verification)}${p.directoryListing?.variants.length && !p.selectedRoute ? badge('routeSelection') : ''}${scopeBadge(p)}${p.admissionRoute === 'transfer_only' ? badge('transferOnly') : ''}</div></div><button class="icon-button" data-action="closeDetail" aria-label="${t('close')}">${icon('close')}</button></div>
       <div class="detail-body">
         <div class="detail-meta">${[['university', schoolName(p.university)], ['area', areaName(p.area)], ['academicYear', p.academicYear], ['lastChecked', p.lastChecked], ['completeStatus', t(p.requirementsCoverage)]].map(([key, value]) => `<div><small>${t(key)}</small><span>${known(value)}</span></div>`).join('')}</div>
@@ -268,10 +275,22 @@ async function openDetail(id) {
     dialog.querySelector('.detail-body').insertAdjacentHTML('afterbegin', routeSelector(p) + scopeWarning(p) + offeringSelector(p) + applicantSelector(p) + rememberPanel(p));
     dialog.querySelector('.detail-meta').insertAdjacentHTML('afterend', applicationPanel(p));
     dialog.querySelector('[data-action=closeDetail]').focus();
-  } catch (error) { dialog.innerHTML = `<div class="detail-body"><p>${esc(error.message)}</p>${remembered.entries[id] ? `<button class="button" data-action="forgetOptions" data-id="${esc(id)}">Forget remembered choices</button>` : ''}<button class="button" data-action="closeDetail">${t('close')}</button></div>`; }
+  } catch (error) {
+    if (sequence !== detailSequence || !dialog.open) return;
+    activeDetail = null;
+    dialog.innerHTML = detailStatus(id, error);
+    dialog.scrollTop = 0;
+    dialog.querySelector('[data-action=detail]').focus();
+  }
 }
 function closeDetail() { const dialog = $('#detail-dialog'); if (dialog.open) dialog.close(); }
-$('#detail-dialog').addEventListener('close', () => { detailSequence++; document.body.classList.remove('modal-open'); activeDetail = null; const url = new URL(location.href); url.searchParams.delete('programme'); history.replaceState(null, '', url); if (detailTrigger?.isConnected) detailTrigger.focus(); });
+function restoreDetailFocus() {
+  if (detailTrigger?.isConnected) { detailTrigger.focus(); return; }
+  const dialog = $('#detail-dialog');
+  const replacement = detailTrigger?.dataset?.action === 'detail' ? [...document.querySelectorAll('[data-action="detail"]')].find(button => !dialog.contains(button) && button.dataset.id === detailTrigger.dataset.id && button.textContent === detailTrigger.textContent) : null;
+  (replacement || $('#main'))?.focus();
+}
+$('#detail-dialog').addEventListener('close', () => { detailSequence++; document.body.classList.remove('modal-open'); activeDetail = null; const url = new URL(location.href); url.searchParams.delete('programme'); history.replaceState(null, '', url); restoreDetailFocus(); });
 async function renderCompare() {
   $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}${state.compare.length < 2 ? empty('emptyCompare', 'emptyCompareHint', 'compare') : `<p class="muted">${t('loading')}</p>`}`;
   if (state.compare.length < 2) return;
