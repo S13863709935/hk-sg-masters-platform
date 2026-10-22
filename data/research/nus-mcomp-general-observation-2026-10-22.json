@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "programmeId": "SG-NUS-P029",
+  "checkedOn": "2026-10-22",
+  "method": "AI-assisted official-page reading; browser inspection of application/fee tables, admissions text and FAQ accordions",
+  "sources": {
+    "admissions": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/",
+    "programme": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/",
+    "application": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/",
+    "fees": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/fees/",
+    "faq": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/faq/"
+  },
+  "cohort": {
+    "academicYear": "2027/28",
+    "intake": "August 2027",
+    "applicationOpen": "2026-10-01",
+    "deadline": "2027-01-31",
+    "dateYearsExplicit": true,
+    "augustOnlyFromAcademicYear": 2025,
+    "separateEarlyOfferRoundIdentified": false
+  },
+  "offerings": [
+    { "id": "SG-NUS-P029-O1", "mode": "Full-time", "normalYears": [1.5, 2], "maximumYears": 3 },
+    { "id": "SG-NUS-P029-O2", "mode": "Part-time", "normalYears": [2.5], "maximumYears": 3 }
+  ],
+  "fees": {
+    "currency": "SGD",
+    "tuition": 76409,
+    "includedGstPercent": 9,
+    "includedUnitsMaximum": 52,
+    "applicationFee": 109,
+    "acceptanceFeeCreditedToTuition": 7640.90,
+    "miscellaneousAndExcessUnitFeesAdditional": true,
+    "rebateOrScholarshipDeducted": false,
+    "subjectToChange": true
+  },
+  "academic": {
+    "anyDisciplineWithGoodHonoursOrEquivalent": true,
+    "nonComputingConversionFocus": true,
+    "experienceCompulsory": false,
+    "programmingExperienceCompulsory": false,
+    "graduationGpaNotAdmissionThreshold": 3,
+    "faqSaysSameFullTimePartTimeAdmissionRequirements": true
+  },
+  "testEvidence": {
+    "ieltsTotal": 6,
+    "toefl120Total": 90,
+    "toefl6Total": 4.5,
+    "englishEvidenceDependsOnTeachingMedium": true,
+    "greGmatValidityYears": 5,
+    "englishTestValidityYears": 2,
+    "validityAutomaticallyEvaluated": false,
+    "greGmatConflict": {
+      "admissionsRequestsScores": true,
+      "publishedGreVerbalQuantitativeTotal": 320,
+      "publishedGreAnalytical": 3.5,
+      "publishedGmatTotal": 650,
+      "faqSaysNotCompulsory": true,
+      "resolved": false,
+      "automaticPassOrFailure": false
+    },
+    "gateAlternative": "Admissions mentions Indian-university graduates; no threshold or applicability inferred"
+  },
+  "documents": {
+    "minimumRefereeReports": 1,
+    "academicCompletionEvidenceNeedsUniversityAssessment": true,
+    "documentsCollectedByPlatform": false
+  },
+  "preservedBoundaries": {
+    "otherComputingTracksMerged": false,
+    "stableOfferingIdsRetained": true,
+    "livePortalChecked": false,
+    "requirementsCoverage": "partial",
+    "independentReviewer": null
+  }
+}

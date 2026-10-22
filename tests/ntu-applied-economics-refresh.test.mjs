@@ -18,12 +18,12 @@ const guide = 'https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide';
 const profile = { major: 'Economics', degreeStatus: 'graduated', classification: 'first', gpa: 3.8, gpaScale: 4, experienceYears: 0, language: { type: 'ielts', total: 7, testDate: '2026-05-01' } };
 const check = (profile, kind) => matchProgramme(p, profile).checks.find(c => c.kind === kind);
 
-test('economics refresh advances only its own observation date, not neighbouring records', () => {
+test('economics refresh preserves its own source batch and earlier observations', () => {
   assert.equal(batch.checkedOn, '2026-10-22');
   assert.equal(p.lastChecked, batch.checkedOn);
-  assert.deepEqual(batch.programmes.filter(q => q.lastChecked === p.lastChecked).map(q => q.id), [id]);
+  assert.deepEqual(batch.programmes.filter(q => q.researchBatch === p.researchBatch).map(q => q.id), [id]);
   assert.equal(batch.programmes.find(q => q.id === 'SG-NTU-P018').lastChecked, '2026-10-21');
-  assert.equal(batch.programmes.find(q => q.id === 'SG-NUS-P029').lastChecked, '2026-10-06');
+  assert.equal(batch.programmes.find(q => q.id === 'HK-EDUHK-P001').lastChecked, '2026-10-06');
   assert.deepEqual(p.sources.map(s => s.url), [official, guide]);
   assert.ok(p.sources.every(s => s.checkedOn === p.lastChecked));
   assert.equal(observation.programmeId, p.id); assert.equal(observation.checkedOn, p.lastChecked);

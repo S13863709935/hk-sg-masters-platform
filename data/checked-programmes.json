@@ -1452,42 +1452,46 @@
       "name": "Master of Computing (General Track)",
       "award": "MComp",
       "area": "Computing",
-      "faculty": null,
+      "faculty": "School of Computing",
       "officialUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-22",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "The old broad seed is now explicitly General Track only; specialisation-track criteria are not merged. The GPA 3.0 in the curriculum is a graduation criterion.",
+      "notesEn": "General Track only; Specialisations and Artificial Intelligence programme criteria are not merged. This conversion-oriented coursework programme accepts any discipline subject to honours/equivalence assessment. The curriculum GPA 3.0 is a graduation criterion, not an undergraduate entry cutoff. Official pages conflict on GRE/GMAT necessity: admissions requests scores while the FAQ calls them optional. Neither a compulsory-test rule nor an automatic exemption is inferred. The FAQ says full-time and part-time admission requirements do not differ; user-specific applicability still needs confirmation. No independent review or live portal check is recorded.",
       "offerings": [
         {
           "id": "SG-NUS-P029-O1",
           "mode": "Full-time",
-          "duration": "1.5–2 years",
+          "duration": "Normal 1.5–2 years; maximum 3 years",
           "intake": "August 2027",
+          "applicationOpen": "2026-10-01",
           "deadline": "2027-01-31",
-          "deadlineNote": null,
+          "deadlineNote": "The General Track application table explicitly identifies August 2027 and the 1 October 2026–31 January 2027 window. Only the August intake is offered from AY2025. Early offers are possible, not a separate dated application round. Submitted applications, paid application fee and required documents are needed by the deadline. No exact cutoff time or live portal availability was checked.",
           "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": 76409,
-          "feeBasis": "Programme tuition including 9% GST; miscellaneous fees and excess units are additional"
+          "applicationFee": 109,
+          "feeBasis": "AY2027/28 August 2027 intake onwards: SGD 76,409 including 9% GST, covering up to 52 Units; fees may change. Supplementary tuition beyond 52 Units and Miscellaneous Student Fees are additional. The non-refundable/non-transferable SGD 7,640.90 acceptance fee is credited towards tuition, not added twice. The SGD 109 application fee is separate. No scholarship or Enhanced Tuition Fee Rebate is assumed or deducted; eligibility and any conditions require NUS confirmation."
         },
         {
           "id": "SG-NUS-P029-O2",
           "mode": "Part-time",
-          "duration": "2.5 years",
+          "duration": "Normal 2.5 years; maximum 3 years",
           "intake": "August 2027",
+          "applicationOpen": "2026-10-01",
           "deadline": "2027-01-31",
-          "deadlineNote": null,
+          "deadlineNote": "The General Track application table explicitly identifies August 2027 and the 1 October 2026–31 January 2027 window. Only the August intake is offered from AY2025. Early offers are possible, not a separate dated application round. Submitted applications, paid application fee and required documents are needed by the deadline. No exact cutoff time or live portal availability was checked.",
           "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": 76409,
-          "feeBasis": "Programme tuition including 9% GST; miscellaneous fees and excess units are additional"
+          "applicationFee": 109,
+          "feeBasis": "AY2027/28 August 2027 intake onwards: SGD 76,409 including 9% GST, covering up to 52 Units; fees may change. Supplementary tuition beyond 52 Units and Miscellaneous Student Fees are additional. The non-refundable/non-transferable SGD 7,640.90 acceptance fee is credited towards tuition, not added twice. The SGD 109 application fee is separate. No scholarship or Enhanced Tuition Fee Rebate is assumed or deducted; eligibility and any conditions require NUS confirmation."
         }
       ],
       "rules": [
@@ -1536,51 +1540,74 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "GRE/GMAT or permitted GATE route, academic equivalence and language waiver need checking.",
-          "noteEn": "GRE/GMAT or permitted GATE route, academic equivalence and language waiver need checking.",
+          "labelZh": "GRE/GMAT source discrepancy and GATE alternative",
+          "labelEn": "GRE/GMAT source discrepancy and GATE alternative",
+          "noteZh": "Admissions requests GRE/GMAT and lists GRE verbal plus quantitative 320 and analytical 3.5, or GMAT 650. The General Track FAQ says GRE/GMAT is not compulsory. Confirm which policy applies; no automatic pass or failure is made. Indian-university graduates may submit GATE instead, but applicability and any accepted threshold require NUS confirmation. The form does not collect these tests and no GMAT-version conversion is performed.",
+          "noteEn": "Admissions requests GRE/GMAT and lists GRE verbal plus quantitative 320 and analytical 3.5, or GMAT 650. The General Track FAQ says GRE/GMAT is not compulsory. Confirm which policy applies; no automatic pass or failure is made. Indian-university graduates may submit GATE instead, but applicability and any accepted threshold require NUS confirmation. The form does not collect these tests and no GMAT-version conversion is performed.",
           "mandatory": true,
           "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "Test validity is assessed at application. Relevant IT experience is a preference, not a mandatory minimum.",
-          "noteEn": "Test validity is assessed at application. Relevant IT experience is a preference, not a mandatory minimum.",
+          "labelZh": "English-medium evidence and test validity",
+          "labelEn": "English-medium evidence and test validity",
+          "noteZh": "TOEFL/IELTS is required where the graduating university's main teaching medium is not English. A self-reported English-degree waiver does not verify that evidence. Published validity is 5 years for GRE/GMAT and 2 years for TOEFL/IELTS; the applicable submission-time check and acceptance require NUS confirmation. No intended submission date or medium-of-instruction proof is collected, and no expiry is calculated from today or intake date.",
+          "noteEn": "TOEFL/IELTS is required where the graduating university's main teaching medium is not English. A self-reported English-degree waiver does not verify that evidence. Published validity is 5 years for GRE/GMAT and 2 years for TOEFL/IELTS; the applicable submission-time check and acceptance require NUS confirmation. No intended submission date or medium-of-instruction proof is collected, and no expiry is calculated from today or intake date.",
           "mandatory": true,
           "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "IT experience preference",
+          "labelEn": "IT experience preference",
+          "noteZh": "Relevant IT employment can strengthen an application, but the FAQ says IT work, programming and computing experience are not compulsory. No minimum work duration is invented and no-experience applicants are not failed on this preference.",
+          "noteEn": "Relevant IT employment can strengthen an application, but the FAQ says IT work, programming and computing experience are not compulsory. No minimum work duration is invented and no-experience applicants are not failed on this preference.",
+          "mandatory": false,
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/faq/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Supporting documents and completion evidence",
+          "labelEn": "Supporting documents and completion evidence",
+          "noteZh": "The application checklist requires supporting documents, including at least one referee report and official academic evidence. Completion or expected-graduation evidence is assessed by NUS. This platform does not collect these documents or determine application completeness.",
+          "noteEn": "The application checklist requires supporting documents, including at least one referee report and official academic evidence. Completion or expected-graduation evidence is assessed by NUS. This platform does not collect these documents or determine application completeness.",
+          "mandatory": true,
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/"
         }
       ],
       "sources": [
         {
           "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "General Track academic and language criteria, test totals, alternative tests and stated validity periods",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/",
-          "purpose": "Track scope and duration",
-          "checkedOn": "2026-10-06"
+          "purpose": "Coursework and conversion-track scope, normal/maximum duration and graduation-only GPA",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/",
-          "purpose": "2027 intake and application window",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit August 2027 window, application fee, supporting documents and referee report",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/fees/",
-          "purpose": "2027/28 tuition",
-          "checkedOn": "2026-10-06"
+          "purpose": "AY2027/28 tuition, included units/GST, acceptance credit, extra fees and unassumed rebate",
+          "checkedOn": "2026-10-22"
+        },
+        {
+          "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/faq/",
+          "purpose": "Conflicting GRE/GMAT optionality, non-compulsory experience and common FT/PT admissions",
+          "checkedOn": "2026-10-22"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "nus-mcomp-general-refresh-2026-10-22",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
-          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+          "noteEn": "August 2027 is explicitly identified by the application table and AY2027/28 fee heading; not inferred from recurring months.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/"
         },
         "major": {
           "status": "known",
@@ -1594,18 +1621,18 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Published IELTS and both TOEFL scale totals are recorded. Teaching-medium evidence, test validity and waiver acceptance remain manual; this does not resolve the separate GRE/GMAT discrepancy.",
           "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
-          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+          "noteEn": "AY2027/28 tuition is SGD 76,409 including 9% GST for up to 52 Units. Application and miscellaneous/excess-unit charges are separate; acceptance is credited, and no rebate/scholarship is assumed.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/fees/"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
-          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+          "noteEn": "The General Track table gives 1 October 2026–31 January 2027 for August 2027. No exact cutoff, separate early-offer round or live portal verification is recorded.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/"
         },
         "independentReview": {
           "status": "unknown",
