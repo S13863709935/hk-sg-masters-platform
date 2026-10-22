@@ -1,5 +1,5 @@
 import { copy, areaLabels } from './copy.js';
-import { normalizeSavedOptions, optionSnapshot, sameOptions, savedOptionsPayload, shortlistExport } from './saved-options.js';
+import { normalizeSavedOptions, optionSnapshot, sameOptions, savedOptionsPayload, shortlistExport, restoredOptionSelections } from './saved-options.js';
 import { filterMatchedProgrammes } from './catalogue-filters.js';
 
 const $ = selector => document.querySelector(selector);
@@ -164,15 +164,19 @@ async function selectedProgrammes(ids) { return Promise.all(ids.map(async id => 
 function savedOptionWarning(id) { return savedOptionIssues[id] ? `<p class="saved-option-warning" role="status"><strong>Saved choices need review.</strong> ${esc(savedOptionIssues[id])} The current record below is unselected, not a substitute for your saved option. No saved-option match result is shown.<br><button class="button" data-action="detail" data-id="${esc(id)}">Review choices</button></p>` : ''; }
 function unavailableCard(p, action) { return `<article class="programme-card"><h3>Programme needs attention</h3><p class="detail-note">${esc(p.id)} · ${esc(p.issue)}</p><p class="detail-note">No substitute programme or fee is assumed. Other saved programmes remain available.</p><button class="button" data-action="${action}" data-id="${esc(p.id)}">Remove from this list</button></article>`; }
 async function restoreRememberedOptions() {
-  const contexts = Object.values(remembered.entries);
+  const entries = remembered.entries, snapshot = JSON.stringify(entries), choices = choiceContext();
+  const contexts = Object.values(entries).map(entry => ({ ...entry }));
   if (!contexts.length) return;
-  const result = await post('/api/saved-options/resolve', { contexts });
-  for (const item of result.items) {
-    const saved = contexts[item.index];
-    if (item.status !== 'resolved') { savedOptionIssues[saved.programmeId] = item.message; continue; }
-    if (saved.routeId) routeChoices[saved.programmeId] = saved.routeId;
-    if (saved.offeringId) offeringChoices[saved.programmeId] = saved.offeringId;
-    if (saved.applicantId) applicantChoices[saved.programmeId] = saved.applicantId;
+  let result;
+  try { result = await post('/api/saved-options/resolve', { contexts }); }
+  catch { throw Object.assign(new Error('Remembered programme choices could not be verified. Try again; no saved choices have been replaced.'), { code: 'SAVED_CHOICES_UNVERIFIED' }); }
+  if (remembered.entries !== entries || JSON.stringify(remembered.entries) !== snapshot || choiceContext() !== choices) throw Object.assign(new Error('Programme choices changed while loading. Try again to restore the current saved choices.'), { code: 'SAVED_CHOICES_UNVERIFIED' });
+  const plan = restoredOptionSelections(contexts, result);
+  for (const { programmeId } of contexts) {
+    for (const [target, values] of [[routeChoices, plan.routes], [offeringChoices, plan.offerings], [applicantChoices, plan.applicants], [savedOptionIssues, plan.issues]]) {
+      delete target[programmeId];
+      if (Object.hasOwn(values, programmeId)) target[programmeId] = values[programmeId];
+    }
   }
 }
 function rememberPanel(p) {
@@ -711,6 +715,10 @@ async function boot() {
     if (notices.length) toast(notices.join(' '));
     const id = params.get('programme'); if (id) await openDetail(id);
   }
-  catch (error) { $('#app').innerHTML = `<main class="content"><div class="brand"><span class="brand-mark">g.</span><strong>GradPath</strong></div><br><h1>${t('errorHeading')}</h1><p>${t('errorHint')}</p><button class="button" id="boot-retry">${t('retry')}</button></main>`; $('#boot-retry').addEventListener('click', boot); }
+  catch (error) {
+    const choicesUnverified = error.code === 'SAVED_CHOICES_UNVERIFIED';
+    $('#app').innerHTML = `<main class="content"><div class="brand"><span class="brand-mark">g.</span><strong>GradPath</strong></div><br><h1>${t(choicesUnverified ? 'savedChoicesRecoveryHeading' : 'errorHeading')}</h1><p>${t(choicesUnverified ? 'savedChoicesRecoveryHint' : 'errorHint')}</p><button class="button" id="boot-retry">${t('retry')}</button></main>`;
+    $('#boot-retry').addEventListener('click', boot);
+  }
 }
 boot();

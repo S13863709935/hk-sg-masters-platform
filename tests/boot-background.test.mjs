@@ -83,6 +83,14 @@ test('essential metadata and choice-restoration failures remain fatal rather tha
   }
 });
 
+test('unverified saved choices get a specific safe retry prompt without exposing backend details', async () => {
+  const h = harness({ optionsFailure: Object.assign(new Error('<script>Synthetic private backend message</script>'), { code: 'SAVED_CHOICES_UNVERIFIED' }) });
+  await h.boot();
+  assert.ok(h.root.innerHTML.includes(copy.savedChoicesRecoveryHeading)); assert.ok(h.root.innerHTML.includes(copy.savedChoicesRecoveryHint));
+  assert.equal(h.root.innerHTML.includes('Synthetic private'), false); assert.equal(h.requests.length, 0); assert.equal(h.writes.length, 0); assert.equal(h.state.profile, h.profile);
+  assert.equal(typeof h.listeners.click, 'function');
+});
+
 test('deep links and valid startup views remain available after a temporary matching failure', async () => {
   for (const hash of ['#discover', '#shortlist', '#compare', '#data', '#guide', '#unrecognised']) {
     const h = harness({ hash, search: 'programme=SG-TEST-P001' }), pending = h.boot(); await flush();

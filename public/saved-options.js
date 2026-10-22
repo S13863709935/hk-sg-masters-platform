@@ -30,6 +30,32 @@ export const optionSnapshot = (p, now = new Date().toISOString()) => ({ programm
 export const sameOptions = (p, saved) => !!saved && saved.programmeId === p.id && (saved.routeId || null) === (p.selectedRoute?.id || null) && (saved.offeringId || null) === (p.selectedOffering?.id || null) && (saved.applicantId || null) === (p.selectedApplicant?.id || null);
 export const savedOptionsPayload = entries => ({ schemaVersion: 1, items: Object.values(entries).map(parseSavedOption).filter(Boolean).slice(0, 500) });
 
+// Validate a whole restore reply before applying any selection. Missing or
+// mismatched rows must never be interpreted as permission to use a baseline.
+export function restoredOptionSelections(contexts, result) {
+  const invalid = () => { throw Object.assign(new Error('Remembered programme choices could not be verified. Try again; no saved choices have been replaced.'), { code: 'SAVED_CHOICES_UNVERIFIED' }); };
+  if (!Array.isArray(contexts) || contexts.length > 500 || !result || !Array.isArray(result.items) || result.items.length !== contexts.length) invalid();
+  const saved = contexts.map(parseSavedOption);
+  if (saved.some(value => !value) || new Set(saved.map(value => value.programmeId)).size !== saved.length) invalid();
+  const plan = { routes: {}, offerings: {}, applicants: {}, issues: {} }, seen = new Set();
+  for (const item of result.items) {
+    if (!item || !Number.isInteger(item.index) || item.index < 0 || item.index >= saved.length || seen.has(item.index)) invalid();
+    seen.add(item.index);
+    const context = saved[item.index], programmeId = context.programmeId;
+    if (item.programmeId !== programmeId) invalid();
+    if (item.status === 'needs_attention') {
+      if (typeof item.message !== 'string' || !item.message.trim() || item.message.length > 2000) invalid();
+      plan.issues[programmeId] = item.message;
+    } else if (item.status === 'resolved') {
+      if (!item.programme || item.programme.id !== programmeId || !sameOptions(item.programme, context)) invalid();
+      if (context.routeId) plan.routes[programmeId] = context.routeId;
+      if (context.offeringId) plan.offerings[programmeId] = context.offeringId;
+      if (context.applicantId) plan.applicants[programmeId] = context.applicantId;
+    } else invalid();
+  }
+  return plan;
+}
+
 const object = value => value && typeof value === 'object' && !Array.isArray(value);
 // Project only published evidence fields, never profile/match objects or staff metadata.
 const publishedFields = (value, keys) => Object.fromEntries(object(value) ? keys.filter(key => Object.hasOwn(value, key) && (['string', 'boolean'].includes(typeof value[key]) || (typeof value[key] === 'number' && Number.isFinite(value[key])))).map(key => [key, value[key]]) : []);

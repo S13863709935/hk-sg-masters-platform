@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { parseSavedOption, normalizeSavedOptions, optionSnapshot, sameOptions, savedOptionsPayload, shortlistExport } from '../public/saved-options.js';
+import { parseSavedOption, normalizeSavedOptions, optionSnapshot, sameOptions, savedOptionsPayload, shortlistExport, restoredOptionSelections } from '../public/saved-options.js';
 import { CatalogueStore } from '../server/database.mjs';
 import { createApp } from '../server/app.mjs';
 
@@ -65,6 +65,12 @@ test('valid explicit choices restore current category fees and separately checke
   assert.equal(item.status, 'resolved'); assert.equal(item.programme.selectedApplicant.id, category);
   assert.equal(item.programme.offerings[0].tuition, 151110); assert.equal(item.programme.lastChecked, '2026-10-06');
   assert.equal(item.programme.applicantEvidence.checkedOn, '2026-10-19');
+});
+test('the client restore validator accepts real resolved choices and separately flags unavailable contexts', async () => {
+  const contexts = [saved, { programmeId: 'SG-NTU-P061', routeId: 'SG-NTU-P061-ROUTE-CYBER', offeringId: 'SG-NTU-P061-CYBER-PT-2027' }, { programmeId: 'SG-NUS-P999' }];
+  const plan = restoredOptionSelections(contexts, { items: await resolved(contexts) });
+  assert.equal(plan.offerings[id], offering); assert.equal(plan.applicants[id], category);
+  assert.equal(plan.routes['SG-NTU-P061'], contexts[1].routeId); assert.ok(plan.issues['SG-NUS-P999']);
 });
 test('one invalid saved choice does not prevent valid saved programmes from loading', async () => {
   const result = await resolved([{ ...saved, offeringId: id + '-O2' }, saved, { programmeId: 'SG-NUS-P999' }]);

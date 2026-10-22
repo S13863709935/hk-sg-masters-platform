@@ -48,6 +48,8 @@ export const copy = {
   "checksUnavailable": "Requirement checks are not available for the current programme choices. Open My background and submit again to refresh. No earlier matching result is substituted.",
   "checksRecoveryHeading": "Requirement checks need a refresh",
   "startupChecksUnavailable": "Your background is still available, but requirement checks could not be refreshed. You can browse programmes, retry checks in Explore programmes, or resubmit My background.",
+  "savedChoicesRecoveryHeading": "Saved programme choices could not be verified.",
+  "savedChoicesRecoveryHint": "Your saved lists and remembered choices have not been changed. No substitute programmes, fees or matching results are shown. Try again to reload and verify the original choices.",
   "retryChecks": "Retry requirement checks",
   "retryChecksNote": "Retry with the current background and programme choices without saving them. This uses stored sources, not a fresh university-website check. Your search filters and saved programmes stay unchanged.",
   "retryChecksPending": "Rechecking the current background and programme choices…",
