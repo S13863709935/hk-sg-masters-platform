@@ -178,22 +178,38 @@ function pruneRememberedOptions() {
 function currentSavedView(view, selector, target) {
   return state.view === view && target?.isConnected && $(selector) === target;
 }
+function selectionFocus(trigger) {
+  const view = state.view, page = $('#page'), tray = $('#tray-wrapper');
+  const inTray = tray?.contains(trigger);
+  if (document.activeElement !== trigger || (!inTray && (!['shortlist', 'compare'].includes(view) || !page?.contains(trigger)))) return () => {};
+  const root = inTray ? tray : page, action = inTray || view === 'compare' ? 'compare' : 'save';
+  const controls = () => [...root.querySelectorAll(`[data-action="${action}"]`)].filter(control => !control.disabled);
+  const index = Math.max(0, controls().indexOf(trigger));
+  let restored = false;
+  return () => {
+    if (restored || state.view !== view || $('#page') !== page || !root.isConnected || trigger.isConnected || document.activeElement !== document.body || $('#detail-dialog')?.open) return;
+    const remaining = controls();
+    const next = remaining[Math.min(index, remaining.length - 1)] || (!inTray && page.querySelector('.empty-state [data-action]')) || $('#main');
+    if (next) { next.focus(); restored = true; }
+  };
+}
 function savedViewError(target) {
   target.setAttribute('aria-busy', 'false');
   target.innerHTML = `<div class="empty-state"><h2>Saved programmes could not be loaded.</h2><p role="alert">Your saved selections have not been changed. Try again to reload the current list.</p><button class="button" data-action="rerender">${t('retry')}</button></div>`;
 }
-async function renderShortlist() {
+async function renderShortlist({ restoreFocus = () => {} } = {}) {
   const ids = [...state.shortlist];
-  $('#page').innerHTML = `${heading('shortlistHeading', 'shortlistIntro')}${ids.length ? `<div class="results-header"><span class="results-count">${ids.length} ${t('results')}</span><button class="button" data-action="exportShortlist">${t('downloadShortlist')}</button></div><small class="muted">${t('exportShortlistNote')}</small><p id="shortlist-export-status" class="detail-note" role="status" aria-live="polite" aria-atomic="true"></p><div id="saved-cards" class="cards" aria-busy="true"><p class="muted" role="status">${t('loading')}</p></div>` : empty('emptyShortlist', 'emptyShortlistHint')}`;
-  if (!ids.length) return;
+  $('#page').innerHTML = `${heading('shortlistHeading', 'shortlistIntro')}${ids.length ? `<div class="results-header"><span class="results-count">${ids.length} ${t(ids.length === 1 ? 'result' : 'results')}</span><button class="button" data-action="exportShortlist">${t('downloadShortlist')}</button></div><small class="muted">${t('exportShortlistNote')}</small><p id="shortlist-export-status" class="detail-note" role="status" aria-live="polite" aria-atomic="true"></p><div id="saved-cards" class="cards" aria-busy="true"><p class="muted" role="status">${t('loading')}</p></div>` : empty('emptyShortlist', 'emptyShortlistHint')}`;
+  if (!ids.length) { restoreFocus(); return; }
   const target = $('#saved-cards');
   try {
     const items = await selectedProgrammes(ids);
     if (!currentSavedView('shortlist', '#saved-cards', target)) return;
     target.innerHTML = items.map(card).join('');
     target.setAttribute('aria-busy', 'false');
+    restoreFocus();
   } catch {
-    if (currentSavedView('shortlist', '#saved-cards', target)) savedViewError(target);
+    if (currentSavedView('shortlist', '#saved-cards', target)) { savedViewError(target); restoreFocus(); }
   }
 }
 function field(name, label, type = 'text', attributes = '') { return `<div class="field"><label for="profile-${name}">${t(label)}</label><input id="profile-${name}" name="${name}" type="${type}" ${attributes}></div>`; }
@@ -392,26 +408,27 @@ function restoreDetailFocus() {
   (replacement || $('#main'))?.focus();
 }
 $('#detail-dialog').addEventListener('close', () => { detailSequence++; document.body.classList.remove('modal-open'); activeDetail = null; const url = new URL(location.href); url.searchParams.delete('programme'); history.replaceState(null, '', url); restoreDetailFocus(); });
-async function renderCompare() {
+async function renderCompare({ restoreFocus = () => {} } = {}) {
   const ids = [...state.compare];
   $('#page').innerHTML = `${heading('compareHeading', 'compareIntro')}${ids.length < 2 ? empty('emptyCompare', 'emptyCompareHint', 'compare') : `<div id="compare-results" aria-busy="true"><p class="muted" role="status">${t('loading')}</p></div>`}`;
-  if (ids.length < 2) return;
+  if (ids.length < 2) { restoreFocus(); return; }
   const target = $('#compare-results');
   try {
   const loaded = await selectedProgrammes(ids);
   if (!currentSavedView('compare', '#compare-results', target)) return;
   const items = loaded.filter(p => !p.unavailable);
   const attention = loaded.filter(p => p.unavailable).map(p => unavailableCard(p, 'compare')).join('') + items.map(p => savedOptionWarning(p.id)).join('');
-  if (items.length < 2) { target.innerHTML = `${attention}${empty('emptyCompare', 'emptyCompareHint', 'compare')}`; target.setAttribute('aria-busy', 'false'); return; }
+  if (items.length < 2) { target.innerHTML = `${attention}${empty('emptyCompare', 'emptyCompareHint', 'compare')}`; target.setAttribute('aria-busy', 'false'); restoreFocus(); return; }
   const rows = [['university', p => esc(schoolName(p.university))], ['area', p => esc(areaName(p.area))], ['studyOption', p => `${p.selectedOffering ? esc(offeringLabel(p.selectedOffering)) : 'All recorded study options — no selection'}<small>${p.selectedOffering ? offeringCaution : 'Review each option separately; applicant-category notes still apply.'}</small><button class="button" data-action="detail" data-id="${esc(p.id)}">Change study option</button>`], ['academicYear', p => known(p.academicYear)], ['mode', p => p.offerings.map(o => known(o.mode)).join('<br>')], ['duration', p => p.offerings.map(o => known(o.duration)).join('<br>')], ['tuition', p => fees(p, true)], ['deadline', p => p.offerings.map(o => deadlineText(o)).join('<br>')], ['applicationDates', p => applicationSummary(p)], ['verification', p => badge(p.verification)], ['lastChecked', p => known(p.lastChecked)], ['requirementChecks', p => p.rules.length ? p.rules.map(r => `${esc(r.labelEn)}<small>${ruleText(r)}</small>`).join('<br>') : known(null)], ['matchingFilter', p => { const m = contextMatch(p); return m ? badge(m.tier || m.status) : `<span class="muted">${t('profileNeeded')}</span>`; }], ['sources', p => `<a href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t('officialPage')} ↗</a>`]];
   rows[rows.findIndex(([label]) => label === 'matchingFilter')][1] = p => savedOptionIssues[p.id] ? '<span class="warning">Saved choices need review</span>' : contextMatch(p) ? badge(contextMatch(p).tier || contextMatch(p).status) : `<span class="muted">${t('profileNeeded')}</span>`;
   rows.splice(3, 0, ['applicantCategory', p => `${esc(p.selectedApplicant?.label || (p.offerings.some(o => o.applicantCategoryRequired) ? 'Applicant category required' : 'No category selected; check the official rules'))}${p.applicantEvidence ? `<small>Fee/date sources read ${esc(p.applicantEvidence.checkedOn)} · not a status determination</small>` : ''}`]);
   rows.splice(rows.findIndex(([label]) => label === 'tuition') + 1, 0, ['applicationFee', applicationFees]);
   rows.splice(3, 0, ['deliveryScope', p => scopeWarning(p) || '<small>Study locations are not separately confirmed here; check the official route.</small>']);
-  target.innerHTML = `${attention}<p id="compare-scroll-hint" class="detail-note">More columns? Scroll horizontally, or focus the table area and use the left/right arrow keys.</p><div class="table-wrap" role="region" aria-label="Programme comparison table" aria-describedby="compare-scroll-hint" tabindex="0"><table class="compare-table"><thead><tr><th scope="col">${t('compare')}</th>${items.map(p => `<th scope="col"><span class="badge">${esc(p.university.abbreviation)}</span><h3>${esc(p.name)}</h3><button class="button" data-action="compare" data-id="${p.id}">${t('remove')}</button></th>`).join('')}</tr></thead><tbody>${rows.map(([label, get]) => `<tr><th scope="row">${t(label)}</th>${items.map(p => `<td>${get(p)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="detail-note warning">${t('noProbability')}</p>`;
+  target.innerHTML = `${attention}<p id="compare-scroll-hint" class="detail-note">More columns? Scroll horizontally, or focus the table area and use the left/right arrow keys.</p><div class="table-wrap" role="region" aria-label="Programme comparison table" aria-describedby="compare-scroll-hint" tabindex="0"><table class="compare-table"><thead><tr><th scope="col">${t('compare')}</th>${items.map(p => `<th scope="col"><span class="badge">${esc(p.university.abbreviation)}</span><h3>${esc(p.name)}</h3><button class="button" data-action="compare" data-id="${p.id}" aria-label="Remove ${esc(p.name)} from comparison">${t('remove')}</button></th>`).join('')}</tr></thead><tbody>${rows.map(([label, get]) => `<tr><th scope="row">${t(label)}</th>${items.map(p => `<td>${get(p)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="detail-note warning">${t('noProbability')}</p>`;
   target.setAttribute('aria-busy', 'false');
+  restoreFocus();
   } catch {
-    if (currentSavedView('compare', '#compare-results', target)) savedViewError(target);
+    if (currentSavedView('compare', '#compare-results', target)) { savedViewError(target); restoreFocus(); }
   }
 }
 function renderData() {
@@ -515,9 +532,9 @@ document.addEventListener('click', async event => {
       toast('Date comparison refreshed from stored records; the official website was not rechecked.');
     } finally { trigger.disabled = false; }
   }
-  if (action === 'save') { const exists = state.shortlist.includes(id); if (!exists && state.shortlist.length >= 500) throw new Error('You can save up to 500 programmes.'); const next = exists ? state.shortlist.filter(x => x !== id) : [...state.shortlist, id]; if (!writeStorage(keys.shortlist, next)) return; state.shortlist = next; pruneRememberedOptions(); toast(t(exists ? 'removedToast' : 'savedToast')); updateSavedButtons(); if (state.view === 'shortlist') await renderShortlist(); }
-  if (action === 'compare') { let next; if (state.compare.includes(id)) next = state.compare.filter(x => x !== id); else if (state.compare.length < 4) next = [...state.compare, id]; else { if (trigger.type === 'checkbox') trigger.checked = false; toast(t('maxCompare')); return; } if (!writeStorage(keys.compare, next)) { if (trigger.type === 'checkbox') trigger.checked = state.compare.includes(id); return; } state.compare = next; pruneRememberedOptions(); document.querySelectorAll('input[data-action=compare]').forEach(input => { input.checked = state.compare.includes(input.dataset.id); }); updateTray(); refreshRememberPanel(); if (state.view === 'compare') await renderCompare(); }
-  if (action === 'clearCompare') { if (!writeStorage(keys.compare, [])) return; state.compare = []; pruneRememberedOptions(); updateTray(); refreshRememberPanel(); document.querySelectorAll('input[data-action=compare]').forEach(input => { input.checked = false; }); if (state.view === 'compare') await renderCompare(); }
+  if (action === 'save') { const restoreFocus = selectionFocus(trigger); const exists = state.shortlist.includes(id); if (!exists && state.shortlist.length >= 500) throw new Error('You can save up to 500 programmes.'); const next = exists ? state.shortlist.filter(x => x !== id) : [...state.shortlist, id]; if (!writeStorage(keys.shortlist, next)) return; state.shortlist = next; pruneRememberedOptions(); toast(t(exists ? 'removedToast' : 'savedToast')); updateSavedButtons(); if (state.view === 'shortlist') await renderShortlist({ restoreFocus }); }
+  if (action === 'compare') { const restoreFocus = selectionFocus(trigger); let next; if (state.compare.includes(id)) next = state.compare.filter(x => x !== id); else if (state.compare.length < 4) next = [...state.compare, id]; else { if (trigger.type === 'checkbox') trigger.checked = false; toast(t('maxCompare')); return; } if (!writeStorage(keys.compare, next)) { if (trigger.type === 'checkbox') trigger.checked = state.compare.includes(id); return; } state.compare = next; pruneRememberedOptions(); document.querySelectorAll('input[data-action=compare]').forEach(input => { input.checked = state.compare.includes(input.dataset.id); }); updateTray(); refreshRememberPanel(); restoreFocus(); if (state.view === 'compare') await renderCompare({ restoreFocus }); }
+  if (action === 'clearCompare') { const restoreFocus = selectionFocus(trigger); if (!writeStorage(keys.compare, [])) return; state.compare = []; pruneRememberedOptions(); updateTray(); refreshRememberPanel(); document.querySelectorAll('input[data-action=compare]').forEach(input => { input.checked = false; }); restoreFocus(); if (state.view === 'compare') await renderCompare({ restoreFocus }); }
   if (action === 'sample') { fillProfile({ major: 'Civil Engineering', degreeStatus: 'graduated', classification: 'second_upper', gpa: null, gpaScale: null, experienceYears: null, language: { type: 'ielts', total: 7, components: { listening: 6.5, reading: 6.5, writing: 6.5, speaking: 6.5 }, testDate: '2026-09-01', singleAttempt: true, atHome: false, waiverBasis: null } }); toast('Synthetic background for functional checks only.'); }
   if (action === 'clearProfile') clearBackground();
   if (action === 'retry') await loadCatalogue({ focusResults: true });

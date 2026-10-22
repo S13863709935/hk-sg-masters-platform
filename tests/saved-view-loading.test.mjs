@@ -10,7 +10,7 @@ const source = readFileSync(new URL('../public/app.js', import.meta.url), 'utf8'
 const renderers = source.slice(source.indexOf('function currentSavedView('), source.indexOf('function field(')) +
   source.slice(source.indexOf('async function renderCompare('), source.indexOf('function renderData(')) +
   source.slice(source.indexOf('async function renderView('), source.indexOf('function navigate('));
-assert.ok(renderers.includes('async function renderShortlist()'));
+assert.ok(renderers.includes('async function renderShortlist('));
 const deferred = () => { let resolve, reject; const promise = new Promise((yes, no) => { resolve = yes; reject = no; }); return { promise, resolve, reject }; };
 const a = 'SG-TEST-P001', b = 'SG-TEST-P002', c = 'SG-TEST-P003';
 const record = id => ({ id, name: 'Synthetic programme ' + id, university: { nameEn: 'Synthetic University', abbreviation: 'TEST' }, offerings: [], rules: [], academicYear: '2027/28', verification: 'programme_page_checked' });
@@ -55,7 +55,7 @@ function harness(view = 'shortlist') {
   };
   const context = vm.createContext(sandbox);
   vm.runInContext(renderers, context);
-  return { state, requests, toasts, node: selector => nodes.get(selector), enter: next => { state.view = next; return newPage(); }, render: () => context.renderView(), shortlist: () => context.renderShortlist(), compare: () => context.renderCompare() };
+  return { state, requests, toasts, node: selector => nodes.get(selector), enter: next => { state.view = next; return newPage(); }, render: () => context.renderView(), shortlist: options => context.renderShortlist(options), compare: options => context.renderCompare(options) };
 }
 
 test('shortlist loading has an explicit status and a snapshot of requested IDs', async () => {
@@ -181,4 +181,52 @@ test('a late compare render cannot append another copy of data-workspace evidenc
   const page = h.node('#page'), before = page.innerHTML;
   h.requests[0].resolve([record(a), record(b)]); await old;
   assert.equal(page.innerHTML, before); assert.equal((page.innerHTML.match(/Applicant-category fee\/date evidence/g) || []).length, 1);
+});
+
+test('current saved-view success and error invoke action-focus restoration only after the current DOM is ready', async () => {
+  for (const view of ['shortlist', 'compare']) for (const fail of [false, true]) {
+    const h = harness(view); let calls = 0;
+    const pending = h[view]({ restoreFocus: () => {
+      calls++; const target = h.node(view === 'shortlist' ? '#saved-cards' : '#compare-results');
+      assert.equal(target.attributes['aria-busy'], 'false');
+      assert.match(target.innerHTML, fail ? /data-action="rerender"/ : view === 'shortlist' ? /<article/ : /compare-table/);
+    } });
+    assert.equal(calls, 0);
+    if (fail) h.requests[0].reject(new Error('Synthetic focus-recovery error')); else h.requests[0].resolve([record(a), record(b)]);
+    await pending; assert.equal(calls, 1);
+  }
+});
+
+test('superseded saved-view completions never invoke their old focus callback', async () => {
+  for (const view of ['shortlist', 'compare']) for (const fail of [false, true]) {
+    const h = harness(view); let calls = 0;
+    const old = h[view]({ restoreFocus: () => calls++ });
+    const current = h[view]();
+    if (fail) h.requests[0].reject(new Error('Synthetic obsolete focus error')); else h.requests[0].resolve([record(a), record(b)]);
+    await old; assert.equal(calls, 0);
+    h.requests[1].resolve([record(a), record(b)]); await current; assert.equal(calls, 0);
+  }
+});
+
+test('empty shortlist and below-two comparison restore action focus without waiting for a request', async () => {
+  for (const view of ['shortlist', 'compare']) {
+    const h = harness(view); h.state[view] = view === 'shortlist' ? [] : [a]; let calls = 0;
+    await h[view]({ restoreFocus: () => { calls++; assert.match(h.node('#page').innerHTML, /data-empty=/); } });
+    assert.equal(calls, 1); assert.equal(h.requests.length, 0);
+  }
+});
+
+test('comparison with an unavailable record restores focus after rendering its attention and empty state', async () => {
+  const h = harness('compare'); let calls = 0;
+  const pending = h.compare({ restoreFocus: () => { calls++; assert.match(h.node('#compare-results').innerHTML, /data-unavailable/); } });
+  h.requests[0].resolve([record(a), { id: b, unavailable: true }]); await pending; assert.equal(calls, 1);
+});
+
+test('shortlist counts use singular only for one saved programme', async () => {
+  for (const ids of [[a], [a, b]]) {
+    const h = harness(); h.state.shortlist = ids;
+    const pending = h.shortlist();
+    assert.ok(h.node('#page').innerHTML.includes(`>${ids.length} ${ids.length === 1 ? 'programme' : 'programmes'}</span>`));
+    h.requests[0].resolve(ids.map(record)); await pending;
+  }
 });
