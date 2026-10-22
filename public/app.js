@@ -456,7 +456,7 @@ async function exportShortlist(trigger) {
     const output = shortlistExport(programmes, saved);
     requesting = true;
     downloadJson(output, 'gradpath-shortlist.json');
-    note(`Download requested. Check your browser's downloads. Programme records: ${output.programmes.length}. Unresolved selections: ${output.unresolved.length}. Background information is not included.`);
+    note(`Download requested. Check your browser's downloads. Programme records: ${output.programmes.length}. Unresolved selections: ${output.unresolved.length}. Published evidence and unresolved conditions are included, not a complete admissions assessment. Background information and matching results are not included.`);
     return true;
   } catch {
     if (!current()) return false;

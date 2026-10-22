@@ -196,7 +196,7 @@ export const copy = {
   "footer": "Official sources · Explicit unknowns · No predictions",
   "privacyLink": "How it works & privacy",
   "downloadShortlist": "Export shortlist",
-  "exportShortlistNote": "Exports programmes and sources, not your background.",
+  "exportShortlistNote": "Includes programme choices, fees, dates, published requirements, source-read dates and unresolved conditions. Excludes your background and matching results. This is not a complete admissions assessment.",
   "emptyKnown": "Unpublished or unverified. Check the source.",
   "errorHeading": "The catalogue is unavailable.",
   "errorHint": "Check that the local service is still running, then try again.",
