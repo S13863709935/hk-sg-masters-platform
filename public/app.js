@@ -248,17 +248,43 @@ function fillProfile(profile) {
   for (const key of ['listening', 'reading', 'writing', 'speaking']) form.elements.namedItem(key).value = profile.language.components?.[key] ?? '';
   languageFields();
 }
+// Client preflight for coupled form fields only. Server validation remains
+// authoritative; no grade-scale conversion or admissions threshold is inferred.
+function profileFieldIssue(profile) {
+  if (!profile.major) return { field: 'major', message: 'Please enter your undergraduate major.' };
+  if (profile.gpa !== null && profile.gpaScale === null) return { field: 'gpaScale', message: 'Enter the original GPA scale maximum as well, or leave both GPA fields blank.' };
+  if (profile.gpa === null && profile.gpaScale !== null) return { field: 'gpa', message: 'Enter your GPA as well, or leave both GPA fields blank.' };
+  if (profile.gpa !== null && profile.gpa > profile.gpaScale) return { field: 'gpa', message: 'GPA cannot exceed the original scale maximum.' };
+  return null;
+}
+function clearProfileFeedback(form) {
+  form.querySelectorAll('[data-profile-invalid]').forEach(field => {
+    field.removeAttribute('aria-invalid'); field.removeAttribute('data-profile-invalid');
+    const describedBy = (field.getAttribute('aria-describedby') || '').split(/\s+/).filter(id => id && id !== 'form-error').join(' ');
+    if (describedBy) field.setAttribute('aria-describedby', describedBy); else field.removeAttribute('aria-describedby');
+  });
+}
+function showProfileError(form, errorBox, error) {
+  errorBox.textContent = error.message; errorBox.hidden = false;
+  const field = error.field && form.elements.namedItem(error.field);
+  if (field && !field.disabled && typeof field.focus === 'function') {
+    field.setAttribute('aria-invalid', 'true'); field.setAttribute('data-profile-invalid', 'true');
+    const describedBy = new Set((field.getAttribute('aria-describedby') || '').split(/\s+/).filter(Boolean));
+    describedBy.add('form-error'); field.setAttribute('aria-describedby', [...describedBy].join(' '));
+    field.focus(); field.scrollIntoView({ block: 'center', behavior: 'auto' });
+  } else errorBox.scrollIntoView({ block: 'center', behavior: 'auto' });
+}
 function validateForm(form) {
   const field = form.querySelector(':invalid');
   if (!field) return;
   const label = field.labels?.[0]?.textContent.trim() || field.name || 'this field';
   if (field.type === 'file') form.querySelector('[data-action=chooseFile]')?.focus();
   else field.focus();
-  if (field.validity.valueMissing) throw new Error(field.name === 'major' ? 'Please enter your undergraduate major.' : `Please complete this required field: ${label}.`);
-  if (field.name === 'testDate') throw new Error('Please enter the test date in YYYY-MM-DD format.');
-  if (field.validity.rangeOverflow || field.validity.rangeUnderflow) throw new Error(`${label} must be between ${field.min} and ${field.max}.`);
-  if (field.validity.stepMismatch) throw new Error(`Use increments of ${field.step} for ${label}.`);
-  throw new Error(`Please enter a valid value for ${label}.`);
+  const message = field.validity.valueMissing ? (field.name === 'major' ? 'Please enter your undergraduate major.' : `Please complete this required field: ${label}.`) :
+    field.name === 'testDate' ? 'Please enter the test date in YYYY-MM-DD format.' :
+    field.validity.rangeOverflow || field.validity.rangeUnderflow ? `${label} must be between ${field.min} and ${field.max}.` :
+    field.validity.stepMismatch ? `Use increments of ${field.step} for ${label}.` : `Please enter a valid value for ${label}.`;
+  throw Object.assign(new Error(message), { field: field.name });
 }
 function parseImportJson(value) {
   try { return JSON.parse(value); } catch { throw new Error('Please choose a valid JSON batch file.'); }
@@ -322,8 +348,11 @@ async function submitProfile(event) {
   const version = backgroundVersion, sequence = ++matchRequestSequence, snapshot = profileFormSnapshot(form), choices = choiceContext();
   const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.view === 'profile' && form.isConnected && $('#profile-form') === form;
   const button = form.querySelector('button[type=submit]'), errorBox = $('#form-error'); button.disabled = true; errorBox.hidden = true;
+  clearProfileFeedback(form); errorBox.textContent = '';
   try {
     validateForm(form);
+    const issue = profileFieldIssue(profile);
+    if (issue) throw Object.assign(new Error(issue.message), { field: issue.field });
     const response = await post('/api/matches', matchingPayload(profile));
     if (!current()) return;
     if (profileFormSnapshot(form) !== snapshot || choiceContext() !== choices) {
@@ -336,7 +365,7 @@ async function submitProfile(event) {
     toast(stored ? t('profileSuccess') : 'Background applied for this session. Browser storage could not be updated; previously saved background data may remain.');
     navigate('discover');
   }
-  catch (error) { if (!current()) return; errorBox.textContent = error.message; errorBox.hidden = false; errorBox.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+  catch (error) { if (!current()) return; showProfileError(form, errorBox, error); }
   finally { button.disabled = false; }
 }
 function ruleText(r) {

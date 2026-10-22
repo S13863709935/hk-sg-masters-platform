@@ -8,6 +8,7 @@ import { copy } from '../public/copy.js';
 // No user grades or profiles are written to a browser, server, log or test artifact.
 const app = readFileSync(new URL('../public/app.js', import.meta.url), 'utf8');
 const lifecycle = app.slice(app.indexOf('function changeBackground('), app.indexOf('function ruleText('));
+const feedback = app.slice(app.indexOf('function profileFieldIssue('), app.indexOf('function validateForm('));
 const contextMatch = app.match(/const contextMatch = [^\r\n]+/)[0];
 const deferred = () => { let resolve, reject; const promise = new Promise((yes, no) => { resolve = yes; reject = no; }); return { promise, resolve, reject }; };
 const baseValues = major => [['major', major], ['degreeStatus', 'graduated'], ['classification', 'unknown'], ['gpa', ''], ['gpaScale', ''], ['experienceYears', ''], ['languageType', 'none']];
@@ -19,7 +20,19 @@ function harness() {
   const form = (major = 'Synthetic Computing') => {
     const previous = nodes.get('#profile-form'); if (previous) previous.isConnected = false;
     const button = { disabled: false }, error = { hidden: true, textContent: '', scrolls: 0, scrollIntoView() { this.scrolls++; } };
-    const result = { isConnected: true, values: new Map(baseValues(major)), button, invalid: false, querySelector: selector => { assert.equal(selector, 'button[type=submit]'); return button; } };
+    const fields = new Map();
+    const field = name => {
+      if (!fields.has(name)) fields.set(name, { name, attributes: {}, focused: false, scrolls: 0,
+        setAttribute(key, value) { this.attributes[key] = value; }, removeAttribute(key) { delete this.attributes[key]; }, getAttribute(key) { return this.attributes[key] ?? null; },
+        focus() { this.focused = true; }, scrollIntoView(options) { assert.equal(options.behavior, 'auto'); this.scrolls++; }
+      });
+      return fields.get(name);
+    };
+    const result = { isConnected: true, values: new Map(baseValues(major)), button, invalid: false,
+      querySelector: selector => { assert.equal(selector, 'button[type=submit]'); return button; },
+      querySelectorAll: selector => { assert.equal(selector, '[data-profile-invalid]'); return [...fields.values()].filter(field => field.attributes['data-profile-invalid']); },
+      elements: { namedItem: field }
+    };
     nodes.set('#profile-form', result); nodes.set('#form-error', error); return result;
   };
   class SyntheticFormData {
@@ -42,7 +55,7 @@ function harness() {
     post: (path, payload) => { assert.equal(path, '/api/matches'); const request = { payload, ...deferred() }; requests.push(request); return request.promise; }
   };
   const context = vm.createContext(sandbox);
-  vm.runInContext('let backgroundVersion = 0, matchRequestSequence = 0;\nconst choiceContext = () => JSON.stringify(choices);\n' + contextMatch + '\n' + lifecycle, context);
+  vm.runInContext('let backgroundVersion = 0, matchRequestSequence = 0;\nconst choiceContext = () => JSON.stringify(choices);\n' + contextMatch + '\n' + feedback + '\n' + lifecycle, context);
   return {
     state, requests, writes, toasts, navigation, issues, choices: sandbox.choices,
     form: () => nodes.get('#profile-form'), error: () => nodes.get('#form-error'), replace: form,
@@ -124,6 +137,43 @@ test('local validation errors do not send a request or change the active backgro
   await h.submit();
   assert.equal(h.requests.length, 0); assert.equal(h.state.profile, original); assert.equal(h.writes.length, 0);
   assert.equal(h.error().hidden, false); assert.equal(h.form().button.disabled, false);
+});
+
+for (const { major, gpa, scale, field } of [
+  { major: '   ', gpa: '', scale: '', field: 'major' },
+  { major: 'Synthetic Computing', gpa: '3.5', scale: '', field: 'gpaScale' },
+  { major: 'Synthetic Computing', gpa: '', scale: '4', field: 'gpa' },
+  { major: 'Synthetic Computing', gpa: '4.1', scale: '4', field: 'gpa' }
+]) test(`profile preflight targets ${field} for synthetic values ${JSON.stringify([major, gpa, scale])} without applying them`, async () => {
+  const h = harness(), original = { major: 'Synthetic Existing Background' }, matches = [{ id: 'existing-match' }];
+  h.change(original); h.state.matches = matches; h.edit('major', major); h.edit('gpa', gpa); h.edit('gpaScale', scale); h.edit('remember', 'on');
+  await h.submit();
+  assert.equal(h.requests.length, 0); assert.equal(h.writes.length, 0); assert.equal(h.navigation.length, 0);
+  assert.equal(h.state.profile, original); assert.equal(h.state.matches, matches); assert.equal(h.form().button.disabled, false);
+  const input = h.form().elements.namedItem(field);
+  assert.equal(input.getAttribute('aria-invalid'), 'true'); assert.equal(input.getAttribute('aria-describedby'), 'form-error');
+  assert.equal(input.focused, true); assert.equal(input.scrolls, 1); assert.equal(h.error().scrolls, 0);
+  assert.equal(h.error().hidden, false); assert.match(h.error().textContent, /[A-Za-z]/);
+});
+
+test('correcting GPA fields clears old feedback but preserves hints before a fresh request', async () => {
+  const h = harness(), scale = h.form().elements.namedItem('gpaScale'); scale.setAttribute('aria-describedby', 'scale-hint');
+  h.edit('gpa', '3.5'); await h.submit();
+  assert.equal(scale.getAttribute('aria-describedby'), 'scale-hint form-error');
+  h.edit('gpaScale', '4'); const pending = h.submit();
+  assert.equal(h.requests.length, 1); assert.equal(h.error().hidden, true); assert.equal(h.error().textContent, '');
+  assert.equal(scale.getAttribute('aria-invalid'), null); assert.equal(scale.getAttribute('data-profile-invalid'), null);
+  assert.equal(scale.getAttribute('aria-describedby'), 'scale-hint'); assert.equal(h.state.profile, null); assert.equal(h.writes.length, 0);
+  assert.equal(h.requests[0].payload.profile.gpa, 3.5); assert.equal(h.requests[0].payload.profile.gpaScale, 4);
+  h.requests[0].resolve({ items: [] }); await pending;
+  assert.equal(h.state.profile.gpa, 3.5); assert.deepEqual(h.navigation, ['discover']);
+});
+
+test('zero GPA is submitted unchanged rather than treated as missing', async () => {
+  const h = harness(); h.edit('gpa', '0'); h.edit('gpaScale', '4'); const pending = h.submit();
+  assert.equal(h.requests.length, 1); assert.equal(h.requests[0].payload.profile.gpa, 0);
+  h.requests[0].resolve({ items: [] }); await pending;
+  assert.equal(h.state.profile.gpa, 0); assert.equal(h.error().hidden, true);
 });
 
 test('a current server error stays on its form without replacing an already active background', async () => {
