@@ -226,18 +226,39 @@ async function renderShortlist({ restoreFocus = () => {} } = {}) {
 }
 function field(name, label, type = 'text', attributes = '') { return `<div class="field"><label for="profile-${name}">${t(label)}</label><input id="profile-${name}" name="${name}" type="${type}" ${attributes}></div>`; }
 function select(name, label, choices) { return `<div class="field"><label for="profile-${name}">${t(label)}</label><select id="profile-${name}" name="${name}">${options(choices.map(k => [k, t(k)]), '')}</select></div>`; }
+function languagePanel() {
+  return `<section id="language-panel" class="form-panel"><h2>${t('languageInfo')}</h2><div class="form-grid">
+    ${select('languageType', 'languageType', ['none', 'ielts', 'toefl_120', 'toefl_6', 'waiver'])}
+    <div id="total-field">${field('total', 'total', 'number', 'min="0" max="9" step="0.5" aria-describedby="language-input-hint"')}</div>
+    <p id="language-input-hint" class="field-hint span-2" role="status" aria-live="polite" aria-atomic="true"></p>
+    <div id="date-field" class="span-2">${field('testDate', 'testDate', 'text', 'placeholder="YYYY-MM-DD" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" inputmode="text" autocomplete="off" aria-describedby="language-date-hint"')}<p id="language-date-hint" class="field-hint">${t('languageDateHint')}</p></div>
+    <div id="component-fields" class="score-grid span-2">${['listening', 'reading', 'writing', 'speaking'].map(k => field(k, k, 'number', 'min="0" max="9" step="0.5"')).join('')}</div>
+    <div id="attempt-fields" class="span-2"><label class="checkbox-line"><input name="singleAttempt" type="checkbox">${t('singleAttempt')}</label><br><label class="checkbox-line"><input name="atHome" type="checkbox">${t('atHome')}</label></div>
+    <div id="waiver-fields" class="span-2">${select('waiverBasis', 'waiverBasis', ['none', 'first_language', 'english_degree'])}<p class="field-hint">${t('waiverHint')}</p></div>
+  </div></section>`;
+}
 function renderProfile() {
-  $('#page').innerHTML = `${heading('profileHeading', 'profileIntro')}<div id="form-error" class="form-error" role="alert" hidden></div><form id="profile-form" novalidate><section class="form-panel"><h2>${t('academicInfo')}</h2><div class="form-grid">${field('major', 'major', 'text', `required maxlength="120" placeholder="${t('majorPlaceholder')}" autocomplete="off"`)}${select('degreeStatus', 'degreeStatus', ['graduated', 'final_year', 'otherDegree']).replace('value="otherDegree"', 'value="other"')}${field('gpa', 'gpa', 'number', 'min="0" max="100" step="0.01" placeholder="3.5"')}${field('gpaScale', 'gpaScale', 'number', 'min="1" max="100" step="0.01" placeholder="4.0"')}<p class="field-hint span-2">${t('gpaHint')}</p>${select('classification', 'classification', ['unknownClass', 'first', 'second_upper', 'second_lower', 'third', 'ordinary']).replace('value="unknownClass"', 'value="unknown"')}${field('experienceYears', 'experience', 'number', 'min="0" max="60" step="0.5"')}</div></section><section class="form-panel"><h2>${t('languageInfo')}</h2><div class="form-grid">${select('languageType', 'languageType', ['none', 'ielts', 'toefl_120', 'toefl_6', 'waiver'])}<div id="total-field">${field('total', 'total', 'number', 'min="0" max="9" step="0.5"')}</div><div id="date-field" class="span-2">${field('testDate', 'testDate', 'text', 'placeholder="YYYY-MM-DD" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" inputmode="text" autocomplete="off"')}</div><div id="component-fields" class="score-grid span-2">${['listening', 'reading', 'writing', 'speaking'].map(k => field(k, k, 'number', 'min="0" max="9" step="0.5"')).join('')}</div><div id="attempt-fields" class="span-2"><label class="checkbox-line"><input name="singleAttempt" type="checkbox">${t('singleAttempt')}</label><br><label class="checkbox-line"><input name="atHome" type="checkbox">${t('atHome')}</label></div><div id="waiver-fields" class="span-2">${select('waiverBasis', 'waiverBasis', ['none', 'first_language', 'english_degree'])}<p class="field-hint">${t('waiverHint')}</p></div></div></section><label class="checkbox-line"><input name="remember" type="checkbox" ${readStorage(keys.profile, null) ? 'checked' : ''}>${t('keepProfile')}</label><div class="form-actions"><button class="button primary" type="submit">${t('checkRequirements')}${icon('arrow')}</button><button class="button" type="button" data-action="sample">${t('sample')}</button>${state.profile ? `<button class="button ghost danger" type="button" data-action="clearProfile">${t('deleteProfile')}</button>` : ''}</div></form>`;
+  $('#page').innerHTML = `${heading('profileHeading', 'profileIntro')}<div id="form-error" class="form-error" role="alert" hidden></div><form id="profile-form" novalidate><section class="form-panel"><h2>${t('academicInfo')}</h2><div class="form-grid">${field('major', 'major', 'text', `required maxlength="120" placeholder="${t('majorPlaceholder')}" autocomplete="off"`)}${select('degreeStatus', 'degreeStatus', ['graduated', 'final_year', 'otherDegree']).replace('value="otherDegree"', 'value="other"')}${field('gpa', 'gpa', 'number', 'min="0" max="100" step="0.01" placeholder="3.5"')}${field('gpaScale', 'gpaScale', 'number', 'min="1" max="100" step="0.01" placeholder="4.0"')}<p class="field-hint span-2">${t('gpaHint')}</p>${select('classification', 'classification', ['unknownClass', 'first', 'second_upper', 'second_lower', 'third', 'ordinary']).replace('value="unknownClass"', 'value="unknown"')}${field('experienceYears', 'experience', 'number', 'min="0" max="60" step="0.5"')}</div></section>${languagePanel()}<label class="checkbox-line"><input name="remember" type="checkbox" ${readStorage(keys.profile, null) ? 'checked' : ''}>${t('keepProfile')}</label><div class="form-actions"><button class="button primary" type="submit">${t('checkRequirements')}${icon('arrow')}</button><button class="button" type="button" data-action="sample">${t('sample')}</button>${state.profile ? `<button class="button ghost danger" type="button" data-action="clearProfile">${t('deleteProfile')}</button>` : ''}</div></form>`;
   if (state.profile) fillProfile(state.profile);
   languageFields();
 }
 function languageFields() {
   const type = $('#profile-languageType').value;
+  const panel = $('#language-panel');
+  if (panel.dataset.languageType && panel.dataset.languageType !== type && panel.querySelector('[data-profile-invalid]')) {
+    clearProfileFeedback(panel);
+    const errorBox = $('#form-error'); errorBox.hidden = true; errorBox.textContent = '';
+  }
+  panel.dataset.languageType = type;
   const scored = !['none', 'waiver'].includes(type);
   $('#total-field').hidden = !scored; $('#date-field').hidden = !scored; $('#component-fields').hidden = type !== 'ielts'; $('#attempt-fields').hidden = !scored; $('#waiver-fields').hidden = type !== 'waiver';
   for (const id of ['total-field', 'date-field', 'component-fields', 'attempt-fields', 'waiver-fields']) $( `#${id}` ).querySelectorAll('input,select').forEach(input => { input.disabled = $(`#${id}`).hidden; });
+  $('#profile-total').min = type === 'toefl_6' ? '1' : '0';
   $('#profile-total').max = type === 'toefl_120' ? '120' : type === 'toefl_6' ? '6' : '9';
   $('#profile-total').step = type === 'toefl_120' ? '1' : '0.5';
+  $('#profile-languageType').setAttribute('aria-describedby', 'language-input-hint');
+  $('#language-input-hint').textContent = t(`languageHint_${type}`);
+  $('#total-field label').textContent = `${t('total')} · ${type === 'toefl_120' ? '0–120' : type === 'toefl_6' ? '1–6' : '0–9'}`;
 }
 function fillProfile(profile) {
   const form = $('#profile-form');

@@ -26,7 +26,8 @@ export function validateProfile(input) {
   if (!['none', 'ielts', 'toefl_120', 'toefl_6', 'waiver'].includes(languageInput.type || 'none')) throw new InputError('Unknown language test or waiver route.');
   const type = languageInput.type || 'none';
   const max = type === 'toefl_120' ? 120 : type === 'toefl_6' ? 6 : 9;
-  const total = bounded(languageInput.total, 0, max, 'Language score', type === 'ielts' || type === 'toefl_6' ? 0.5 : 1);
+  // ETS reports the updated TOEFL overall score on 1–6, not 0–6.
+  const total = bounded(languageInput.total, type === 'toefl_6' ? 1 : 0, max, 'Language score', type === 'ielts' || type === 'toefl_6' ? 0.5 : 1);
   const components = {};
   for (const name of ['listening', 'reading', 'writing', 'speaking']) components[name] = bounded(languageInput.components?.[name], 0, 9, name, 0.5);
   const testDate = languageInput.testDate || null;

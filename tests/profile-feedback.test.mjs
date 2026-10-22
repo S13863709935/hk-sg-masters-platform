@@ -42,6 +42,19 @@ test('optional, zero, maximum and different original GPA scales remain unconvert
   }
 });
 
+test('updated TOEFL scores accept 1–6 half bands, not zero, while unknown scores stay optional', () => {
+  const profile = { major: 'Synthetic Computing', language: { type: 'toefl_6', testDate: '2026-01-21' } };
+  for (const total of [null, 1, 1.5, 5.5, 6]) assert.equal(validateProfile({ ...profile, language: { ...profile.language, total } }).language.total, total);
+  for (const total of [-1, 0, 0.5, 1.2, 6.5, '5']) assert.throws(() => validateProfile({ ...profile, language: { ...profile.language, total } }), InputError);
+});
+
+test('zero IELTS and legacy TOEFL scores are still real values, not missing', () => {
+  for (const type of ['ielts', 'toefl_120']) {
+    const checked = validateProfile({ major: 'Synthetic Computing', language: { type, total: 0, testDate: '2026-01-20' } });
+    assert.equal(checked.language.total, 0);
+  }
+});
+
 test('field feedback uses plain text, preserves hints and does not duplicate error references', () => {
   const input = field('gpa', { 'aria-describedby': 'gpa-hint' }), box = errorBox(), current = form([input]);
   const error = { field: 'gpa', message: 'Synthetic <img src=x onerror=alert(1)> error' };

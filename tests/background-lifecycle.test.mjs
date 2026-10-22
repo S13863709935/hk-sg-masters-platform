@@ -132,6 +132,13 @@ test('changing the save preference while loading cannot persist the old checkbox
   assert.equal(h.writes.length, 1); assert.equal(h.writes[0].value, null);
 });
 
+test('changing language route during a pending check requires resubmission without applying stale scores', async () => {
+  const h = harness(); h.edit('remember', 'on'); h.edit('languageType', 'ielts'); h.edit('total', '7'); const pending = h.submit();
+  h.edit('languageType', 'none'); h.edit('total', null); h.requests[0].resolve({ items: [{ id: 'obsolete-language-check' }] }); await pending;
+  assert.equal(h.state.profile, null); assert.equal(h.state.matches, null); assert.equal(h.writes.length, 0); assert.equal(h.navigation.length, 0);
+  assert.match(h.error().textContent, /changed while loading/); assert.equal(h.form().button.disabled, false);
+});
+
 test('local validation errors do not send a request or change the active background', async () => {
   const h = harness(), original = { major: 'Synthetic Existing Background' }; h.change(original); h.form().invalid = true;
   await h.submit();

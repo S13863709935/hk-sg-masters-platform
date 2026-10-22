@@ -49,6 +49,16 @@ test('specialisation keywords find their grouped programme without importing adm
 test('programme details preserve study-mode fee bases and different prices', async () => { const p = await (await fetch(base + '/api/programmes/HK-HKUST-P002')).json(); assert.equal(p.offerings[0].tuition, 270000); assert.equal(p.offerings[1].tuition, 230000); assert.equal(p.offerings[0].feeBasis, 'Total programme fee'); assert.equal(p.requirementsCoverage, 'partial'); });
 test('profiles are checked without creating a profile table', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science', gpa: 3.5, gpaScale: 4, language: { type: 'none' } } }); assert.equal(response.status, 200); const body = await response.json(); assert.equal(body.total, totalRecords - 3); assert.ok(body.items.every(p => p.match.tier === null)); const tables = store.db.prepare("SELECT name FROM sqlite_master WHERE type='table'").all(); assert.ok(tables.every(t => !/profile|student/i.test(t.name))); });
 test('malformed scores return 422', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science', gpa: 5, gpaScale: 4 } }); assert.equal(response.status, 422); });
+test('updated TOEFL report range is enforced even when browser validation is bypassed', async () => {
+  for (const total of [0, 0.5, 6.5]) {
+    const response = await post('/api/matches', { profile: { major: 'Synthetic Language QA', language: { type: 'toefl_6', total, testDate: '2026-01-21' } } });
+    assert.equal(response.status, 422); assert.match((await response.json()).error, /Language score/);
+  }
+  for (const total of [null, 1, 6]) {
+    const response = await post('/api/matches', { profile: { major: 'Synthetic Language QA', language: { type: 'toefl_6', total, testDate: '2026-01-21' } }, filters: { school: 'SG-NUS', q: 'Master of Computing' } });
+    assert.equal(response.status, 200); assert.ok((await response.json()).items.every(item => item.match.tier === null));
+  }
+});
 test('malformed JSON is rejected', async () => { const response = await fetch(base + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{' }); assert.equal(response.status, 400); });
 test('cross-origin writes are rejected', async () => { const response = await post('/api/matches', { profile: { major: 'Computer Science' } }, { Origin: 'https://external.invalid' }); assert.equal(response.status, 403); });
 test('unknown programme IDs return 404', async () => { assert.equal((await fetch(base + '/api/programmes/NO-SUCH-ID')).status, 404); });
