@@ -162,8 +162,8 @@ test('UI shares transient context, resets dependent choices, and exports the exa
   assert.match(js, /selectedOfferings: \{ \.\.\.offeringChoices \}/);
   assert.match(readFileSync(new URL('public/saved-options.js', root), 'utf8'), /selectedOffering: p.selectedOffering \|\| null/);
   assert.match(js, /delete offeringChoices\[id\]/);
-  assert.match(js, /const previousOffering = offeringChoices\[id\]/);
-  assert.match(js, /if \(previousOffering\) offeringChoices\[id\] = previousOffering/);
+  assert.match(js, /programmeChoiceRequests\[id\]\?\.previous/);
+  assert.match(js, /if \(previous\.offering\) offeringChoices\[id\] = previous\.offering/);
   assert.match(js, /item.selectedOffering\?\.id/);
   assert.match(js, /offeringChoices\[id\].*query.set\('offering'/);
   assert.equal(/writeStorage\([^\n]*(routeChoices|offeringChoices)/.test(js), false);

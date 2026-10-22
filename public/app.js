@@ -21,6 +21,7 @@ let detailSequence = 0;
 let backgroundVersion = 0;
 let matchRequestSequence = 0;
 let shortlistExportSequence = 0;
+const programmeChoiceRequests = Object.create(null);
 const routeChoices = {};
 const offeringChoices = {};
 const applicantChoices = {};
@@ -30,6 +31,7 @@ const remembered = normalizeSavedOptions(storedOptions, [...state.shortlist, ...
 const savedOptionIssues = Object.create(null);
 const programmePath = id => { const query = new URLSearchParams(); if (routeChoices[id]) query.set('route', routeChoices[id]); if (offeringChoices[id]) query.set('offering', offeringChoices[id]); if (applicantChoices[id]) query.set('applicant', applicantChoices[id]); return `/api/programmes/${encodeURIComponent(id)}${query.size ? `?${query}` : ''}`; };
 const matchingPayload = profile => ({ profile, filters: { includeTransfer: 'true' }, selectedRoutes: { ...routeChoices }, selectedOfferings: { ...offeringChoices }, selectedApplicants: { ...applicantChoices } });
+const choiceContext = () => JSON.stringify([routeChoices, offeringChoices, applicantChoices]);
 const contextMatch = p => !state.profile || savedOptionIssues[p.id] ? null : state.matches?.find(item => item.id === p.id && (item.selectedRoute?.id || '') === (p.selectedRoute?.id || '') && (item.selectedOffering?.id || '') === (p.selectedOffering?.id || '') && (item.selectedApplicant?.id || '') === (p.selectedApplicant?.id || ''))?.match;
 const t = key => copy[key] || key;
 const areaName = area => areaLabels[area] || area;
@@ -61,6 +63,7 @@ function renderDiscover() {
   const q = state.meta.quality;
   $('#page').innerHTML = `<section class="hero"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>${t('heading')}</h1><p>${t('intro')}</p><p class="hero-note">${t('heroNote')}</p></div><div class="city-stamp" aria-hidden="true"><span class="stamp-code">HKG</span><span class="stamp-name">HONG KONG</span><div class="stamp-line"></div><span class="stamp-code">SGP</span><span class="stamp-name">SINGAPORE</span></div></section>${metrics([[q.universities, 'targetSchools', 'school'], [q.total, 'seedRecords', 'explore'], [q.checked, 'sourceChecked', 'check'], [q.peerReviewed, 'independentReview', 'data']])}<section class="search-panel" aria-label="${t('searchLabel')}"><div class="search-row"><div class="segmented" aria-label="${'Region'}">${[['', 'allRegions'], ['HK', 'hongKong'], ['SG', 'singapore']].map(([value, label]) => `<button data-action="region" data-value="${value}" class="${state.region === value ? 'active' : ''}" aria-pressed="${state.region === value}">${t(label)}</button>`).join('')}</div><div class="search-input">${icon('search')}<input type="search" id="search" value="${esc(state.q)}" placeholder="${t('searchPlaceholder')}" aria-label="${t('searchLabel')}" maxlength="200"></div></div><div class="filters">${filterField('school', 'university', [['', t('allUniversities')], ...state.meta.universities.filter(u => !state.region || u.region === state.region).map(u => [u.id, `${u.abbreviation} · ${schoolName(u)}`])])}${filterField('area', 'area', [['', t('allAreas')], ...state.meta.areas.map(a => [a, areaName(a)])])}${filterField('mode', 'mode', [['', t('allModes')], ['full-time', t('fullTime')], ['part-time', t('partTime')]])}${filterField('verification', 'verification', [['', t('allVerification')], ['catalogue_seed', t('catalogue_seed')], ['programme_page_checked', t('programme_page_checked')], ['peer_reviewed', t('peer_reviewed')]])}<button class="link-button" data-action="reset">${t('reset')}</button></div></section>${notice()}<div class="profile-strip"><p>${icon('profile')}${state.profile ? `${t('backgroundActive')} · ${esc(state.profile.major)}` : t('backgroundCta')}</p><button class="button secondary" data-action="nav" data-view="profile">${t(state.profile ? 'changeProfile' : 'profile')}${icon('arrow')}</button></div>${state.profile ? `<div class="field"><label for="match-filter">${t('matchingFilter')}</label><select id="match-filter" data-filter="matchFilter">${options([['', t('allMatches')], ['meets_checked', t('meets_checked')], ['has_gap', t('has_gap')], ['needs_confirmation', t('needs_confirmation')]], state.matchFilter)}</select></div>` : ''}<div id="results"></div>`;
   $('#results').insertAdjacentHTML('beforebegin', '<p id="catalogue-status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>');
+  if (state.profile && !state.matches) $('#results').insertAdjacentHTML('beforebegin', `<p class="detail-note warning" role="status">${t('checksUnavailable')}</p>`);
   loadCatalogue();
 }
 function syncUrl() { const url = new URL(location.href); for (const key of ['q', 'region', 'school', 'area', 'mode', 'verification']) state[key] ? url.searchParams.set(key, state[key]) : url.searchParams.delete(key); history.replaceState(null, '', url); }
@@ -259,8 +262,8 @@ function changeBackground(profile) {
 async function refreshMatches() {
   const profile = state.profile;
   if (!profile) return false;
-  const version = backgroundVersion, sequence = ++matchRequestSequence;
-  const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.profile === profile;
+  const version = backgroundVersion, sequence = ++matchRequestSequence, choices = choiceContext();
+  const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.profile === profile && choiceContext() === choices;
   try {
     const response = await post('/api/matches', matchingPayload(profile));
     if (!current()) return false;
@@ -281,15 +284,15 @@ async function submitProfile(event) {
   const number = key => values.get(key) === '' || values.get(key) === null ? null : Number(values.get(key));
   const type = values.get('languageType');
   const profile = { major: values.get('major').trim(), degreeStatus: values.get('degreeStatus'), classification: values.get('classification'), gpa: number('gpa'), gpaScale: number('gpaScale'), experienceYears: number('experienceYears'), language: { type, total: ['none', 'waiver'].includes(type) ? null : number('total'), testDate: ['none', 'waiver'].includes(type) ? null : values.get('testDate') || null, singleAttempt: values.has('singleAttempt'), atHome: values.has('atHome'), waiverBasis: values.get('waiverBasis'), components: Object.fromEntries(['listening', 'reading', 'writing', 'speaking'].map(k => [k, type === 'ielts' ? number(k) : null])) } };
-  const version = backgroundVersion, sequence = ++matchRequestSequence, snapshot = profileFormSnapshot(form);
+  const version = backgroundVersion, sequence = ++matchRequestSequence, snapshot = profileFormSnapshot(form), choices = choiceContext();
   const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.view === 'profile' && form.isConnected && $('#profile-form') === form;
   const button = form.querySelector('button[type=submit]'), errorBox = $('#form-error'); button.disabled = true; errorBox.hidden = true;
   try {
     validateForm(form);
     const response = await post('/api/matches', matchingPayload(profile));
     if (!current()) return;
-    if (profileFormSnapshot(form) !== snapshot) {
-      errorBox.textContent = 'Your background or save preference changed while loading. Submit again to check the current form.';
+    if (profileFormSnapshot(form) !== snapshot || choiceContext() !== choices) {
+      errorBox.textContent = 'Your background, save preference or programme choices changed while loading. Submit again to check the current form.';
       errorBox.hidden = false;
       return;
     }
@@ -360,7 +363,7 @@ function requirementChecks(p) {
   const match = contextMatch(p);
   const checks = match?.checks;
   if (checks) return `<div class="badge-row">${badge(match.tier || match.status)}${!match.tier ? `<span class="badge">${t('noTier')}</span>` : ''}</div><div class="checks">${checks.map(c => `<div class="check-row"><span class="check-symbol ${c.status}">${c.status === 'pass' ? '✓' : c.status === 'fail' ? '!' : '?'}</span><div><strong>${esc(c.labelEn)} · ${t(c.status === 'unknown' ? 'unknownCheck' : c.status)}</strong><p>${esc(c.reasonEn)}</p><a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div><p class="detail-note">${esc(match.disclaimerEn)}</p>`;
-  return `<p class="detail-note">${t('profileNeeded')}</p>${p.rules.length ? `<div class="checks">${p.rules.map(r => `<div class="check-row"><span class="check-symbol">i</span><div><strong>${esc(r.labelEn)}</strong><p>${ruleText(r)}</p><a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div>` : `<p class="detail-note warning">${t('emptyKnown')}</p>`}<button class="button secondary" data-action="nav" data-view="profile">${t('profile')}${icon('arrow')}</button>`;
+  return `<p class="detail-note">${t(state.profile ? 'checksUnavailable' : 'profileNeeded')}</p>${p.rules.length ? `<div class="checks">${p.rules.map(r => `<div class="check-row"><span class="check-symbol">i</span><div><strong>${esc(r.labelEn)}</strong><p>${ruleText(r)}</p><a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('sources')} ↗</a></div></div>`).join('')}</div>` : `<p class="detail-note warning">${t('emptyKnown')}</p>`}<button class="button secondary" data-action="nav" data-view="profile">${t('profile')}${icon('arrow')}</button>`;
 }
 function detailStatus(id, error = null) {
   const heading = error ? 'Programme details unavailable' : 'Loading programme details';
@@ -420,7 +423,7 @@ async function renderCompare({ restoreFocus = () => {} } = {}) {
   const attention = loaded.filter(p => p.unavailable).map(p => unavailableCard(p, 'compare')).join('') + items.map(p => savedOptionWarning(p.id)).join('');
   if (items.length < 2) { target.innerHTML = `${attention}${empty('emptyCompare', 'emptyCompareHint', 'compare')}`; target.setAttribute('aria-busy', 'false'); restoreFocus(); return; }
   const rows = [['university', p => esc(schoolName(p.university))], ['area', p => esc(areaName(p.area))], ['studyOption', p => `${p.selectedOffering ? esc(offeringLabel(p.selectedOffering)) : 'All recorded study options — no selection'}<small>${p.selectedOffering ? offeringCaution : 'Review each option separately; applicant-category notes still apply.'}</small><button class="button" data-action="detail" data-id="${esc(p.id)}">Change study option</button>`], ['academicYear', p => known(p.academicYear)], ['mode', p => p.offerings.map(o => known(o.mode)).join('<br>')], ['duration', p => p.offerings.map(o => known(o.duration)).join('<br>')], ['tuition', p => fees(p, true)], ['deadline', p => p.offerings.map(o => deadlineText(o)).join('<br>')], ['applicationDates', p => applicationSummary(p)], ['verification', p => badge(p.verification)], ['lastChecked', p => known(p.lastChecked)], ['requirementChecks', p => p.rules.length ? p.rules.map(r => `${esc(r.labelEn)}<small>${ruleText(r)}</small>`).join('<br>') : known(null)], ['matchingFilter', p => { const m = contextMatch(p); return m ? badge(m.tier || m.status) : `<span class="muted">${t('profileNeeded')}</span>`; }], ['sources', p => `<a href="${esc(sourceTarget(p))}" target="_blank" rel="noopener noreferrer">${t('officialPage')} ↗</a>`]];
-  rows[rows.findIndex(([label]) => label === 'matchingFilter')][1] = p => savedOptionIssues[p.id] ? '<span class="warning">Saved choices need review</span>' : contextMatch(p) ? badge(contextMatch(p).tier || contextMatch(p).status) : `<span class="muted">${t('profileNeeded')}</span>`;
+  rows[rows.findIndex(([label]) => label === 'matchingFilter')][1] = p => savedOptionIssues[p.id] ? '<span class="warning">Saved choices need review</span>' : contextMatch(p) ? badge(contextMatch(p).tier || contextMatch(p).status) : `<span class="muted">${t(state.profile ? 'checksUnavailable' : 'profileNeeded')}</span>`;
   rows.splice(3, 0, ['applicantCategory', p => `${esc(p.selectedApplicant?.label || (p.offerings.some(o => o.applicantCategoryRequired) ? 'Applicant category required' : 'No category selected; check the official rules'))}${p.applicantEvidence ? `<small>Fee/date sources read ${esc(p.applicantEvidence.checkedOn)} · not a status determination</small>` : ''}`]);
   rows.splice(rows.findIndex(([label]) => label === 'tuition') + 1, 0, ['applicationFee', applicationFees]);
   rows.splice(3, 0, ['deliveryScope', p => scopeWarning(p) || '<small>Study locations are not separately confirmed here; check the official route.</small>']);
@@ -547,10 +550,20 @@ document.addEventListener('change', event => { if (event.target.dataset.filter) 
 document.addEventListener('change', async event => {
   if (!['programme-route', 'programme-offering', 'programme-applicant'].includes(event.target.id)) return;
   const control = event.target; const id = control.dataset.programme;
-  const previousRoute = routeChoices[id]; const previousOffering = offeringChoices[id]; const previousMatches = state.matches; const trigger = detailTrigger;
-  const previousProfile = state.profile, previousBackgroundVersion = backgroundVersion;
-  const previousApplicant = applicantChoices[id];
-  const dialog = $('#detail-dialog'); const scroll = dialog.scrollTop;
+  const previous = programmeChoiceRequests[id]?.previous || { route: routeChoices[id], offering: offeringChoices[id], applicant: applicantChoices[id] };
+  const transaction = { previous }; programmeChoiceRequests[id] = transaction;
+  const current = () => programmeChoiceRequests[id] === transaction;
+  const trigger = detailTrigger;
+  const dialog = $('#detail-dialog'), generation = detailSequence, scroll = dialog.scrollTop;
+  const visible = () => current() && dialog.open && activeDetail?.id === id && detailSequence === generation;
+  const refreshDetail = async () => {
+    if (!visible()) return;
+    const rendering = detailSequence + 1;
+    await openDetail(id);
+    if (!current() || !dialog.open || activeDetail?.id !== id || detailSequence !== rendering) return;
+    detailTrigger = trigger; dialog.scrollTop = scroll;
+    dialog.querySelector(`#${control.id}`)?.focus({ preventScroll: true });
+  };
   dialog.querySelectorAll('select').forEach(select => { select.disabled = true; });
   if (control.id === 'programme-route') {
     if (control.value) routeChoices[id] = control.value; else delete routeChoices[id];
@@ -560,19 +573,27 @@ document.addEventListener('change', async event => {
     if (control.value) offeringChoices[id] = control.value; else delete offeringChoices[id];
     delete applicantChoices[id];
   } else if (control.value) applicantChoices[id] = control.value; else delete applicantChoices[id];
+  state.matches = null; matchRequestSequence++; requestSequence++;
   try {
     await api(programmePath(id));
+    if (!current()) return;
     if (state.profile) await refreshMatches();
+    if (!current()) return;
     await renderView();
-    if (activeDetail?.id === id && dialog.open) { await openDetail(id); detailTrigger = trigger; dialog.scrollTop = scroll; dialog.querySelector(`#${control.id}`)?.focus({ preventScroll: true }); }
+    await refreshDetail();
   } catch (error) {
-    if (previousRoute) routeChoices[id] = previousRoute; else delete routeChoices[id];
-    if (previousOffering) offeringChoices[id] = previousOffering; else delete offeringChoices[id];
-    if (previousApplicant) applicantChoices[id] = previousApplicant; else delete applicantChoices[id];
-    if (state.profile === previousProfile && backgroundVersion === previousBackgroundVersion) state.matches = previousMatches;
-    toast(error.message);
-    if (activeDetail?.id === id && dialog.open) { await openDetail(id); detailTrigger = trigger; }
-  } finally { dialog.querySelectorAll('select').forEach(select => { select.disabled = false; }); }
+    if (!current()) return;
+    if (previous.route) routeChoices[id] = previous.route; else delete routeChoices[id];
+    if (previous.offering) offeringChoices[id] = previous.offering; else delete offeringChoices[id];
+    if (previous.applicant) applicantChoices[id] = previous.applicant; else delete applicantChoices[id];
+    state.matches = null; matchRequestSequence++; requestSequence++;
+    let refreshFailed = false;
+    if (state.profile) { try { await refreshMatches(); } catch { refreshFailed = true; } }
+    if (!current()) return;
+    toast(`${error.message} Previous choices for this programme were restored.${refreshFailed ? ' Matching results are unavailable; submit My background again to retry.' : ''}`);
+    await renderView();
+    await refreshDetail();
+  } finally { if (current()) { if (visible()) dialog.querySelectorAll('select').forEach(select => { select.disabled = false; }); delete programmeChoiceRequests[id]; } }
 });
 document.addEventListener('submit', async event => {
   if (event.target.id === 'profile-form') return submitProfile(event);

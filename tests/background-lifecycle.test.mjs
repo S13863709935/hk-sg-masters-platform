@@ -37,13 +37,14 @@ function harness() {
     renderProfile: () => { profileRenders++; form(''); },
     navigate: view => { navigation.push(view); state.view = view; },
     validateForm: form => { if (form.invalid) throw new Error('Synthetic invalid background'); },
+    choices: { routes: {}, offerings: {}, applicants: {} },
     matchingPayload: profile => ({ profile, selectedRoutes: {}, selectedOfferings: {}, selectedApplicants: {} }),
     post: (path, payload) => { assert.equal(path, '/api/matches'); const request = { payload, ...deferred() }; requests.push(request); return request.promise; }
   };
   const context = vm.createContext(sandbox);
-  vm.runInContext('let backgroundVersion = 0, matchRequestSequence = 0;\n' + contextMatch + '\n' + lifecycle, context);
+  vm.runInContext('let backgroundVersion = 0, matchRequestSequence = 0;\nconst choiceContext = () => JSON.stringify(choices);\n' + contextMatch + '\n' + lifecycle, context);
   return {
-    state, requests, writes, toasts, navigation, issues,
+    state, requests, writes, toasts, navigation, issues, choices: sandbox.choices,
     form: () => nodes.get('#profile-form'), error: () => nodes.get('#form-error'), replace: form,
     leave: view => { state.view = view; const current = nodes.get('#profile-form'); if (current) current.isConnected = false; nodes.clear(); },
     edit: (key, value) => value === null ? nodes.get('#profile-form').values.delete(key) : nodes.get('#profile-form').values.set(key, value),
@@ -113,7 +114,7 @@ test('editing a pending form requires resubmission and cannot apply the previous
 test('changing the save preference while loading cannot persist the old checkbox decision', async () => {
   const h = harness(); h.edit('remember', 'on'); const first = h.submit(); h.edit('remember', null);
   h.requests[0].resolve({ items: [] }); await first;
-  assert.equal(h.writes.length, 0); assert.match(h.error().textContent, /save preference changed/);
+  assert.equal(h.writes.length, 0); assert.match(h.error().textContent, /save preference or programme choices changed/);
   const retry = h.submit(); h.requests[1].resolve({ items: [] }); await retry;
   assert.equal(h.writes.length, 1); assert.equal(h.writes[0].value, null);
 });
@@ -191,7 +192,25 @@ test('refresh without an active background sends no request', async () => {
 
 test('refresh call sites and option rollback keep the shared background guards', () => {
   assert.equal([...app.matchAll(/post\('\/api\/matches'/g)].length, 2);
-  assert.equal([...app.matchAll(/await refreshMatches\(\)/g)].length, 4);
+  assert.equal([...app.matchAll(/await refreshMatches\(\)/g)].length, 5);
   assert.match(app, /if \(action === 'clearProfile'\) clearBackground\(\)/);
-  assert.match(app, /state\.profile === previousProfile && backgroundVersion === previousBackgroundVersion/);
+  assert.match(app, /state\.profile === profile && choiceContext\(\) === choices/);
+  assert.doesNotMatch(app, /state\.matches = previousMatches/);
+});
+
+test('choice changes invalidate in-flight matching success and error even without a newer match request', async () => {
+  for (const fail of [false, true]) for (const kind of ['routes', 'offerings', 'applicants']) {
+    const h = harness(); h.change({ major: 'Synthetic Active Background' }); const pending = h.refresh();
+    h.choices[kind].TEST = 'new-choice';
+    if (fail) h.requests[0].reject(new Error('Synthetic obsolete choice error')); else h.requests[0].resolve({ items: [{ id: 'wrong-context' }] });
+    assert.equal(await pending, false); assert.equal(h.state.matches, null);
+  }
+});
+
+test('a programme-choice change during profile submission requires explicit resubmission and never persists the old check', async () => {
+  const h = harness(); h.edit('remember', 'on'); const pending = h.submit();
+  h.choices.offerings.TEST = 'new-intake'; h.requests[0].resolve({ items: [{ id: 'old-choice-match' }] }); await pending;
+  assert.equal(h.state.profile, null); assert.equal(h.state.matches, null); assert.equal(h.writes.length, 0);
+  assert.equal(h.navigation.length, 0); assert.match(h.error().textContent, /programme choices changed while loading/);
+  assert.equal(h.form().button.disabled, false);
 });

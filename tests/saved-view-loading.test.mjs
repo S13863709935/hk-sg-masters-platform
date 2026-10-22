@@ -230,3 +230,11 @@ test('shortlist counts use singular only for one saved programme', async () => {
     h.requests[0].resolve(ids.map(record)); await pending;
   }
 });
+
+test('comparison explains unavailable current checks without treating an existing background as missing', async () => {
+  const h = harness('compare'); h.state.profile = { major: 'Synthetic active background' }; h.state.matches = null;
+  const pending = h.compare(); h.requests[0].resolve([record(a), record(b)]); await pending;
+  const html = h.node('#compare-results').innerHTML;
+  assert.ok(html.includes(copy.checksUnavailable)); assert.equal(html.includes(copy.profileNeeded), false);
+  assert.match(html, /Unconfirmed fee/); assert.doesNotMatch(html, /Recorded criterion met/);
+});

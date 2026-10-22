@@ -148,6 +148,6 @@ test('UI carries category context through matching, display and export without b
   assert.match(js, /selectedApplicants: \{ \.\.\.applicantChoices \}/); assert.match(js, /item.selectedApplicant\?\.id/);
   const exports = readFileSync(new URL('public/saved-options.js', root), 'utf8');
   assert.match(exports, /selectedApplicant: p.selectedApplicant \|\| null/); assert.match(exports, /applicantEvidence: p.applicantEvidence \|\| null/);
-  assert.match(js, /delete applicantChoices\[id\]/); assert.match(js, /if \(previousApplicant\) applicantChoices\[id\] = previousApplicant/);
+  assert.match(js, /delete applicantChoices\[id\]/); assert.match(js, /if \(previous\.applicant\) applicantChoices\[id\] = previous\.applicant/);
   assert.equal(/writeStorage\([^\n]*applicantChoices/.test(js), false); assert.match(js, /not your current location/);
 });
