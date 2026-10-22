@@ -1647,30 +1647,48 @@
       "name": "MSc Finance",
       "award": "MSc",
       "area": "Business",
-      "faculty": null,
+      "faculty": "NUS Business School",
       "officialUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-22",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Work experience and GMAT/GRE are not required. The current admission page gives TOEFL 5.0, not a checked old-scale minimum. Curriculum GPA 3.2/5 is not an entry cutoff.",
+      "notesEn": "Single-degree MSc Finance only; CEMS/double-degree, Financial Engineering and Quantitative Finance criteria are not merged. Full-time only, normally 16 months. GMAT/GRE and work experience are optional, not admission minima. The current admission page gives TOEFL 5.0, not a confirmed old-scale minimum. Curriculum GPA 3.2/5 is a graduation condition, not an entry cutoff. The dated 2027 application page says 22 July for completion documents, while the undated FAQ says 15 July; confirm this discrepancy with NUS. Neither July date is an application deadline. No independent review or live portal check is recorded.",
       "offerings": [
         {
           "id": "SG-NUS-P007-O1",
           "mode": "Full-time",
           "duration": "16 months",
           "intake": "August 2027",
+          "applicationOpen": "2026-09-01",
           "deadline": "2027-02-15",
-          "deadlineNote": "First round/study award cutoff: 15 November 2026; final deadline: 15 February 2027.",
+          "deadlineNote": "August 2027 intake: applications open 1 September 2026; first application/study-award consideration cutoff 15 November 2026; final application deadline for all applicants 15 February 2027. Submission and application-fee payment are needed by the relevant cutoff. Separate round openings and exact cutoff times are not stated. July completion-document dates are not application rounds. No live portal availability or award eligibility was checked.",
+          "applicationRounds": [
+            {
+              "id": "FIRST",
+              "label": "First application / study-award consideration cutoff",
+              "applicationOpen": null,
+              "deadline": "2026-11-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final application cutoff (all applicants)",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            }
+          ],
           "academicYear": "2027/28",
           "currency": "SGD",
-          "tuition": 77390,
-          "feeBasis": "Single-degree programme tuition including 9% GST; miscellaneous fees additional"
+          "tuition": 77608,
+          "applicationFee": 100,
+          "feeBasis": "August 2027 / AY2027/28 single-degree tuition: SGD 71,200 before GST, SGD 77,608 including 9% GST; subject to GST changes. Published payment schedule: SGD 10,900 acceptance plus two SGD 33,354 instalments totals SGD 77,608, so do not add acceptance again on top of tuition; confirm billing with NUS. The SGD 100 application fee and semester Miscellaneous Student Fees are separate. No alumni rebate, other financial aid or study award is assumed or deducted."
         }
       ],
       "rules": [
@@ -1715,42 +1733,74 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Academic quality, shortlisted interview, conditional completion evidence and waiver routes require confirmation.",
-          "noteEn": "Academic quality, shortlisted interview, conditional completion evidence and waiver routes require confirmation.",
+          "labelZh": "English proof, waiver and score applicability",
+          "labelEn": "English proof, waiver and score applicability",
+          "noteZh": "The programme accepts IELTS Academic or TOEFL iBT. A fully English-taught degree may support a waiver request with official medium-of-instruction proof, not an automatic exemption. Native-language and teaching-medium applicability, accepted score version and test validity require NUS confirmation. No cohort-specific validity window or old 0–120 TOEFL minimum was established in these sources; no score conversion or expiry from today is inferred.",
+          "noteEn": "The programme accepts IELTS Academic or TOEFL iBT. A fully English-taught degree may support a waiver request with official medium-of-instruction proof, not an automatic exemption. Native-language and teaching-medium applicability, accepted score version and test validity require NUS confirmation. No cohort-specific validity window or old 0–120 TOEFL minimum was established in these sources; no score conversion or expiry from today is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://mscfin.nus.edu.sg/faqs/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Final-year completion-document date discrepancy",
+          "labelEn": "Final-year completion-document date discrepancy",
+          "noteZh": "Final-year applicants may apply subject to completing the undergraduate requirements and providing completion evidence. The dated August 2027 application page specifies 22 July 2027 for the completion letter and unofficial final transcript; the undated FAQ says 15 July. Confirm the applicable date with NUS before relying on it. This is a completion-document condition, not a later application deadline or an extension of February 15.",
+          "noteEn": "Final-year applicants may apply subject to completing the undergraduate requirements and providing completion evidence. The dated August 2027 application page specifies 22 July 2027 for the completion letter and unofficial final transcript; the undated FAQ says 15 July. Confirm the applicable date with NUS before relying on it. This is a completion-document condition, not a later application deadline or an extension of February 15.",
+          "mandatory": true,
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/application-process/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Shortlisted interview and programme documents",
+          "labelEn": "Shortlisted interview and programme documents",
+          "noteZh": "Shortlisted applicants must perform well in the admission interview. Application and academic/financial documents require university assessment; the FAQ says referee details and reference letters are not required for this programme. The platform does not collect documents, submit applications or determine application completeness.",
+          "noteEn": "Shortlisted applicants must perform well in the admission interview. Application and academic/financial documents require university assessment; the FAQ says referee details and reference letters are not required for this programme. The platform does not collect documents, submit applications or determine application completeness.",
           "mandatory": true,
           "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Optional experience and aptitude tests",
+          "labelEn": "Optional experience and aptitude tests",
+          "noteZh": "Work or internship experience and GMAT/GRE may strengthen an application but are not compulsory. The FAQ's indicative competitive GMAT score is not a mandatory minimum; no GMAT-version conversion or work-duration threshold is applied.",
+          "noteEn": "Work or internship experience and GMAT/GRE may strengthen an application but are not compulsory. The FAQ's indicative competitive GMAT score is not a mandatory minimum; no GMAT-version conversion or work-duration threshold is applied.",
+          "mandatory": false,
+          "sourceUrl": "https://mscfin.nus.edu.sg/faqs/"
         }
       ],
       "sources": [
         {
           "url": "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Any-discipline degree, language totals, shortlisted interview and optional tests/experience",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://mscfin.nus.edu.sg/admissions/application-process/",
-          "purpose": "2027 deadlines and final-year conditions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit 2027 intake/opening/cutoffs, payment and dated July completion condition",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/",
-          "purpose": "2027/28 tuition",
-          "checkedOn": "2026-10-06"
+          "purpose": "AY2027/28 single-degree tuition, GST, payment schedule, application fee and unassumed rebate",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://mscfin.nus.edu.sg/faqs/",
-          "purpose": "Duration",
-          "checkedOn": "2026-10-06"
+          "purpose": "Full-time duration, no strict GPA cutoff, waiver proof, optional tests, referee exclusion and conflicting July date",
+          "checkedOn": "2026-10-22"
+        },
+        {
+          "url": "https://mscfin.nus.edu.sg/academics/programme-structure-and-curriculum/",
+          "purpose": "GPA 3.2/5 graduation-only condition, not an undergraduate entry cutoff",
+          "checkedOn": "2026-10-22"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "nus-finance-refresh-2026-10-22",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
-          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+          "noteEn": "August 2027 is explicit in the application process and AY2027/28 single-degree fee heading.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/application-process/"
         },
         "major": {
           "status": "known",
@@ -1759,23 +1809,23 @@
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+          "noteEn": "The FAQ describes holistic academic assessment without a strict GPA cutoff. A good undergraduate degree is still required; curriculum GPA 3.2/5 concerns graduation, not entry.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/faqs/"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "IELTS 7.0 and new-scale TOEFL 5.0 are recorded. The old-scale minimum, test-validity window and university acceptance of official waiver proof remain unresolved.",
           "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
-          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+          "noteEn": "The current single-degree AY2027/28 table gives SGD 77,608 including 9% GST, replacing the older local numeric record. Application and semester miscellaneous charges are separate; no rebate is deducted.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
-          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+          "noteEn": "Opening 1 September 2026; first application/study-award consideration cutoff 15 November 2026; final application deadline 15 February 2027. Separate round openings and cutoff times remain null; July document dates are not application deadlines.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/application-process/"
         },
         "independentReview": {
           "status": "unknown",

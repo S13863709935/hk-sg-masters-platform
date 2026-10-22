@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "programmeId": "SG-NUS-P007",
+  "checkedOn": "2026-10-22",
+  "method": "AI-assisted official-page reading; browser inspection of fee/application tables and FAQ waiver/completion accordions",
+  "sources": {
+    "admissions": "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
+    "application": "https://mscfin.nus.edu.sg/admissions/application-process/",
+    "fees": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/",
+    "faq": "https://mscfin.nus.edu.sg/faqs/",
+    "curriculum": "https://mscfin.nus.edu.sg/academics/programme-structure-and-curriculum/"
+  },
+  "cohort": {
+    "intake": "August 2027",
+    "academicYear": "2027/28",
+    "offeringIdRetained": "SG-NUS-P007-O1",
+    "mode": "Full-time",
+    "normalDurationMonths": 16,
+    "partTimeCurrentlyOffered": false,
+    "doubleDegreeFactsMerged": false
+  },
+  "dates": {
+    "applicationOpen": "2026-09-01",
+    "firstApplicationAndStudyAwardConsiderationCutoff": "2026-11-15",
+    "finalApplicationDeadline": "2027-02-15",
+    "yearsExplicit": true,
+    "separateRoundOpenings": null,
+    "exactCutoffTimes": null,
+    "applicationAndFeeRequiredByRelevantCutoff": true
+  },
+  "completionEvidenceDiscrepancy": {
+    "datedApplicationPage": "2027-07-22",
+    "undatedFaqMonthDay": "07-15",
+    "automaticallyChosenDate": null,
+    "applicationDeadlineExtension": false
+  },
+  "fees": {
+    "currency": "SGD",
+    "tuitionBeforeGst": 71200,
+    "gstPercent": 9,
+    "tuitionIncludingGst": 77608,
+    "previousLocalNumericTuition": 77390,
+    "applicationFeeSeparate": 100,
+    "acceptancePayment": 10900,
+    "instalments": [33354, 33354],
+    "paymentScheduleSum": 77608,
+    "scheduleInterpretation": "Acceptance and the two instalments sum to published tuition; do not add acceptance again. This is arithmetic interpretation of the schedule, not an independently checked bill.",
+    "semesterMiscellaneousFeesAdditional": true,
+    "rebateOrAwardDeducted": false
+  },
+  "academic": {
+    "anyDiscipline": true,
+    "goodDegreeAssessmentManual": true,
+    "strictGpaCutoffNotStatedInFaq": true,
+    "graduationGpaNotEntryCutoff": { "minimum": 3.2, "scale": 5 },
+    "workExperienceMandatory": false,
+    "gmatGreMandatory": false,
+    "shortlistedInterviewAssessedByUniversity": true,
+    "refereeLettersRequiredByThisProgramme": false
+  },
+  "english": {
+    "ieltsAcademicTotal": 7,
+    "toefl6Total": 5,
+    "oldToefl120MinimumConfirmed": false,
+    "cohortSpecificValidityWindowConfirmed": false,
+    "fullyEnglishTaughtWaiverNeedsOfficialProof": true,
+    "automaticWaiver": false
+  },
+  "livePortalChecked": false,
+  "requirementsCoverage": "partial",
+  "independentReviewer": null
+}
