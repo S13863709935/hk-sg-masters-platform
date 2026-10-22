@@ -226,6 +226,24 @@ test('one result is singular in both the visible count and polite status', async
   }
 });
 
+test('a requirement-check filter without current matches pauses instead of showing an unfiltered catalogue or count', async () => {
+  for (const matchFilter of ['meets_checked', 'has_gap', 'needs_confirmation']) {
+    const h = harness(); h.state.profile = { major: 'Synthetic background' }; h.state.matchFilter = matchFilter;
+    h.state.items = [record('OLD')]; h.state.total = 500;
+    assert.equal(await h.load(), false); assert.equal(h.requests.length, 0);
+    assert.equal(h.state.items.length, 0); assert.equal(h.state.total, 0); assert.equal(h.state.matchFilter, matchFilter);
+    assert.ok(h.target().innerHTML.includes(copy.checksFilterPaused)); assert.equal(h.status(), copy.checksFilterPaused);
+    assert.doesNotMatch(h.target().innerHTML, /results-summary|OLD|data-action="reset"/); assert.equal(h.target().attributes['aria-busy'], 'false');
+  }
+});
+
+test('without a requirement-check filter, missing matches still allow ordinary catalogue browsing', async () => {
+  const h = harness(); h.state.profile = { major: 'Synthetic background' };
+  const pending = h.load(); assert.equal(h.requests.length, 1);
+  h.requests[0].resolve({ total: 1, items: [record('BROWSE')] }); assert.equal(await pending, true);
+  assert.match(h.target().innerHTML, /Synthetic BROWSE/); assert.equal(h.state.matches, null);
+});
+
 test('UI wiring keeps a stable polite status, safe pagination, region/reset focus and the debounced handler', () => {
   assert.match(app, /id="catalogue-status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"/);
   assert.match(app, /if \(action === 'page'\).*await loadCatalogue\(\{ focusResults: true \}\)/);

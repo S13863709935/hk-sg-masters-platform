@@ -21,6 +21,7 @@ let detailSequence = 0;
 let backgroundVersion = 0;
 let matchRequestSequence = 0;
 let shortlistExportSequence = 0;
+let matchingRetry = null;
 const programmeChoiceRequests = Object.create(null);
 const routeChoices = {};
 const offeringChoices = {};
@@ -63,9 +64,10 @@ function renderDiscover() {
   const q = state.meta.quality;
   $('#page').innerHTML = `<section class="hero"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>${t('heading')}</h1><p>${t('intro')}</p><p class="hero-note">${t('heroNote')}</p></div><div class="city-stamp" aria-hidden="true"><span class="stamp-code">HKG</span><span class="stamp-name">HONG KONG</span><div class="stamp-line"></div><span class="stamp-code">SGP</span><span class="stamp-name">SINGAPORE</span></div></section>${metrics([[q.universities, 'targetSchools', 'school'], [q.total, 'seedRecords', 'explore'], [q.checked, 'sourceChecked', 'check'], [q.peerReviewed, 'independentReview', 'data']])}<section class="search-panel" aria-label="${t('searchLabel')}"><div class="search-row"><div class="segmented" aria-label="${'Region'}">${[['', 'allRegions'], ['HK', 'hongKong'], ['SG', 'singapore']].map(([value, label]) => `<button data-action="region" data-value="${value}" class="${state.region === value ? 'active' : ''}" aria-pressed="${state.region === value}">${t(label)}</button>`).join('')}</div><div class="search-input">${icon('search')}<input type="search" id="search" value="${esc(state.q)}" placeholder="${t('searchPlaceholder')}" aria-label="${t('searchLabel')}" maxlength="200"></div></div><div class="filters">${filterField('school', 'university', [['', t('allUniversities')], ...state.meta.universities.filter(u => !state.region || u.region === state.region).map(u => [u.id, `${u.abbreviation} · ${schoolName(u)}`])])}${filterField('area', 'area', [['', t('allAreas')], ...state.meta.areas.map(a => [a, areaName(a)])])}${filterField('mode', 'mode', [['', t('allModes')], ['full-time', t('fullTime')], ['part-time', t('partTime')]])}${filterField('verification', 'verification', [['', t('allVerification')], ['catalogue_seed', t('catalogue_seed')], ['programme_page_checked', t('programme_page_checked')], ['peer_reviewed', t('peer_reviewed')]])}<button class="link-button" data-action="reset">${t('reset')}</button></div></section>${notice()}<div class="profile-strip"><p>${icon('profile')}${state.profile ? `${t('backgroundActive')} · ${esc(state.profile.major)}` : t('backgroundCta')}</p><button class="button secondary" data-action="nav" data-view="profile">${t(state.profile ? 'changeProfile' : 'profile')}${icon('arrow')}</button></div>${state.profile ? `<div class="field"><label for="match-filter">${t('matchingFilter')}</label><select id="match-filter" data-filter="matchFilter">${options([['', t('allMatches')], ['meets_checked', t('meets_checked')], ['has_gap', t('has_gap')], ['needs_confirmation', t('needs_confirmation')]], state.matchFilter)}</select></div>` : ''}<div id="results"></div>`;
   $('#results').insertAdjacentHTML('beforebegin', '<p id="catalogue-status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>');
-  if (state.profile && !state.matches) $('#results').insertAdjacentHTML('beforebegin', `<p class="detail-note warning" role="status">${t('checksUnavailable')}</p>`);
+  if (state.profile && !state.matches) $('#results').insertAdjacentHTML('beforebegin', matchingRecovery());
   loadCatalogue();
 }
+function matchingRecovery() { return `<section id="matching-recovery" class="plain-panel" aria-labelledby="matching-recovery-heading" aria-busy="false"><h2 id="matching-recovery-heading">${t('checksRecoveryHeading')}</h2><p>${t('checksUnavailable')}</p><p>${t('retryChecksNote')}</p><button class="button secondary" data-action="retryMatches">${t('retryChecks')}</button><p id="matching-recovery-status" class="detail-note" role="status" aria-live="polite" aria-atomic="true"></p></section>`; }
 function syncUrl() { const url = new URL(location.href); for (const key of ['q', 'region', 'school', 'area', 'mode', 'verification']) state[key] ? url.searchParams.set(key, state[key]) : url.searchParams.delete(key); history.replaceState(null, '', url); }
 function filterMatches(items) {
   return filterMatchedProgrammes(items, state, savedOptionIssues);
@@ -98,6 +100,13 @@ async function loadCatalogue({ focusResults = false } = {}) {
   const mayMoveFocus = () => !$('#detail-dialog')?.open && (!document.activeElement || document.activeElement === document.body);
   catalogueLoading(target);
   try {
+    if (state.profile && !state.matches && state.matchFilter) {
+      state.items = []; state.total = 0;
+      target.innerHTML = `<p class="detail-note warning" role="status">${t('checksFilterPaused')}</p>`;
+      target.setAttribute('aria-busy', 'false');
+      if ($('#catalogue-status')) $('#catalogue-status').textContent = t('checksFilterPaused');
+      return false;
+    }
     let response;
     if (state.profile && state.matches) { const filtered = filterMatches(state.matches); if (state.sort === 'az') filtered.sort((a, b) => a.name.localeCompare(b.name)); response = { total: filtered.length, items: filtered.slice((state.page - 1) * state.limit, state.page * state.limit) }; }
     else { const query = new URLSearchParams(Object.fromEntries(['q', 'region', 'school', 'area', 'mode', 'verification', 'page', 'limit', 'sort'].map(k => [k, state[k]]))); if (Object.keys(routeChoices).length) query.set('routes', JSON.stringify(routeChoices)); if (Object.keys(offeringChoices).length) query.set('offerings', JSON.stringify(offeringChoices)); if (Object.keys(applicantChoices).length) query.set('applicants', JSON.stringify(applicantChoices)); response = await api(`/api/catalogue?${query}`); }
@@ -139,7 +148,7 @@ function card(p) {
 }
 function renderResults() {
   const pages = Math.max(1, Math.ceil(state.total / state.limit));
-  $('#results').innerHTML = `<div class="results-header"><div class="results-count" id="results-summary" tabindex="-1" role="heading" aria-level="2"><strong>${state.total}</strong> ${t(state.total === 1 ? 'result' : 'results')} · ${t('page')} ${state.page} ${t('of')} ${pages}</div><div class="sort-group"><label for="sort">${t('sort')}</label><select id="sort" data-filter="sort">${options([['quality', t(state.profile ? 'matchingFirst' : 'qualityFirst')], ['az', t('az')]], state.sort)}</select></div></div><section class="cards" aria-label="${t('searchResults')}">${state.items.length ? state.items.map(card).join('') : catalogueEmpty()}</section>${state.total > state.limit ? `<nav class="pagination" aria-label="${'Pagination'}"><button class="button" data-action="page" data-value="${state.page - 1}" ${state.page <= 1 ? 'disabled' : ''}>${t('previous')}</button><span>${t('page')} ${state.page} ${t('of')} ${pages}</span><button class="button" data-action="page" data-value="${state.page + 1}" ${state.page >= pages ? 'disabled' : ''}>${t('next')}</button></nav>` : ''}`;
+  $('#results').innerHTML = `<div class="results-header"><div class="results-count" id="results-summary" tabindex="-1" role="heading" aria-level="2"><strong>${state.total}</strong> ${t(state.total === 1 ? 'result' : 'results')} · ${t('page')} ${state.page} ${t('of')} ${pages}</div><div class="sort-group"><label for="sort">${t('sort')}</label><select id="sort" data-filter="sort">${options([['quality', t(state.profile && state.matches ? 'matchingFirst' : 'qualityFirst')], ['az', t('az')]], state.sort)}</select></div></div><section class="cards" aria-label="${t('searchResults')}">${state.items.length ? state.items.map(card).join('') : catalogueEmpty()}</section>${state.total > state.limit ? `<nav class="pagination" aria-label="${'Pagination'}"><button class="button" data-action="page" data-value="${state.page - 1}" ${state.page <= 1 ? 'disabled' : ''}>${t('previous')}</button><span>${t('page')} ${state.page} ${t('of')} ${pages}</span><button class="button" data-action="page" data-value="${state.page + 1}" ${state.page >= pages ? 'disabled' : ''}>${t('next')}</button></nav>` : ''}`;
 }
 function catalogueEmpty() {
   const filtered = ['q', 'region', 'school', 'area', 'mode', 'verification', 'matchFilter'].some(key => state[key]);
@@ -259,17 +268,43 @@ function changeBackground(profile) {
   backgroundVersion++; matchRequestSequence++;
   state.profile = profile; state.matches = null;
 }
-async function refreshMatches() {
+async function refreshMatches({ isCurrent = () => true } = {}) {
   const profile = state.profile;
   if (!profile) return false;
   const version = backgroundVersion, sequence = ++matchRequestSequence, choices = choiceContext();
-  const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.profile === profile && choiceContext() === choices;
+  const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.profile === profile && choiceContext() === choices && isCurrent();
   try {
     const response = await post('/api/matches', matchingPayload(profile));
     if (!current()) return false;
     state.matches = response.items;
     return true;
   } catch (error) { if (!current()) return false; throw error; }
+}
+async function retryMatching(trigger) {
+  const panel = $('#matching-recovery'), page = $('#page'), profile = state.profile;
+  if (state.view !== 'discover' || !profile || state.matches || !panel?.contains(trigger) || trigger.disabled || matchingRetry?.panel === panel) return false;
+  const ticket = { panel }; matchingRetry = ticket;
+  const version = backgroundVersion, choices = choiceContext(), label = trigger.textContent, focused = document.activeElement === trigger;
+  const pageCurrent = () => matchingRetry === ticket && state.view === 'discover' && page?.isConnected && $('#page') === page && state.profile === profile && backgroundVersion === version && choiceContext() === choices;
+  const current = () => pageCurrent() && panel.isConnected && $('#matching-recovery') === panel;
+  const status = panel.querySelector('#matching-recovery-status');
+  trigger.disabled = true; panel.setAttribute('aria-busy', 'true'); status.textContent = t('retryChecksPending');
+  try {
+    const refreshed = await refreshMatches({ isCurrent: current });
+    if (!current()) return false;
+    if (!refreshed) { status.textContent = t('retryChecksFailed'); return false; }
+    state.page = 1; panel.remove();
+    const loaded = await loadCatalogue({ focusResults: focused });
+    if (pageCurrent() && loaded) toast(t('retryChecksSuccess'));
+    return pageCurrent() && loaded;
+  } catch {
+    if (current()) status.textContent = t('retryChecksFailed');
+    return false;
+  } finally {
+    trigger.disabled = false; trigger.textContent = label; panel.setAttribute('aria-busy', 'false');
+    if (current() && focused && document.activeElement === document.body && !$('#detail-dialog')?.open) trigger.focus({ preventScroll: true });
+    if (matchingRetry === ticket) matchingRetry = null;
+  }
 }
 function clearBackground() {
   changeBackground(null); state.matchFilter = '';
@@ -541,6 +576,7 @@ document.addEventListener('click', async event => {
   if (action === 'sample') { fillProfile({ major: 'Civil Engineering', degreeStatus: 'graduated', classification: 'second_upper', gpa: null, gpaScale: null, experienceYears: null, language: { type: 'ielts', total: 7, components: { listening: 6.5, reading: 6.5, writing: 6.5, speaking: 6.5 }, testDate: '2026-09-01', singleAttempt: true, atHome: false, waiverBasis: null } }); toast('Synthetic background for functional checks only.'); }
   if (action === 'clearProfile') clearBackground();
   if (action === 'retry') await loadCatalogue({ focusResults: true });
+  if (action === 'retryMatches') await retryMatching(trigger);
   if (action === 'rerender') await renderView();
   if (action === 'exportShortlist') await exportShortlist(trigger);
   } catch (error) { toast(error.message); }
