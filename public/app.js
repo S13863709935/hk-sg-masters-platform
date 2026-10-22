@@ -692,7 +692,25 @@ document.addEventListener('submit', async event => {
 });
 window.addEventListener('hashchange', () => { const view = location.hash.slice(1); if (view === 'main') { $('#main')?.focus(); return; } state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(view) ? view : 'discover'; showView(); });
 async function boot() {
-  try { state.meta = await api('/api/meta'); await restoreRememberedOptions(); if (state.profile) { try { await refreshMatches(); } catch (error) { if (error.status !== 422) throw error; changeBackground(null); writeStorage(keys.profile, null); } } state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'discover'; shell(); await renderView(); if (remembered.rejected) toast('Some stored programme choices could not be read. Existing programme lists were preserved.'); const id = params.get('programme'); if (id) await openDetail(id); }
+  try {
+    let checksUnavailable = false;
+    state.meta = await api('/api/meta');
+    await restoreRememberedOptions();
+    if (state.profile) {
+      try { await refreshMatches(); }
+      catch (error) {
+        if (error.status === 422) { changeBackground(null); writeStorage(keys.profile, null); }
+        else { state.matches = null; checksUnavailable = true; }
+      }
+    }
+    state.view = ['discover', 'profile', 'shortlist', 'compare', 'data', 'guide'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'discover';
+    shell(); await renderView();
+    const notices = [];
+    if (remembered.rejected) notices.push('Some stored programme choices could not be read. Existing programme lists were preserved.');
+    if (checksUnavailable && state.profile && !state.matches) notices.push(t('startupChecksUnavailable'));
+    if (notices.length) toast(notices.join(' '));
+    const id = params.get('programme'); if (id) await openDetail(id);
+  }
   catch (error) { $('#app').innerHTML = `<main class="content"><div class="brand"><span class="brand-mark">g.</span><strong>GradPath</strong></div><br><h1>${t('errorHeading')}</h1><p>${t('errorHint')}</p><button class="button" id="boot-retry">${t('retry')}</button></main>`; $('#boot-retry').addEventListener('click', boot); }
 }
 boot();

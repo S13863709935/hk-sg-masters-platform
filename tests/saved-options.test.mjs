@@ -156,10 +156,10 @@ test('saving a changed current view requires an explicit update', () => {
 test('client explicitly gates persistence and revalidates saved contexts before background checks', () => {
   const js = readFileSync(new URL('public/app.js', root), 'utf8');
   assert.match(js, /action === 'rememberOptions'/); assert.match(js, /action === 'forgetOptions'/);
-  assert.match(js, /await restoreRememberedOptions\(\); if \(state.profile\)/);
+  assert.match(js, /await restoreRememberedOptions\(\);\s*if \(state.profile\)/);
   assert.match(js, /savedOptionIssues\[p.id\] \? null/); assert.match(js, /remembered choices differ/);
   assert.equal(/writeStorage\([^\n]*(routeChoices|offeringChoices|applicantChoices)/.test(js), false);
-  assert.match(js, /if \(error.status !== 422\) throw error/);
+  assert.match(js, /if \(error.status === 422\) \{ changeBackground\(null\); writeStorage\(keys.profile, null\); \}/);
 });
 test('shared storage/export helper is served but private source paths remain blocked', async () => {
   assert.equal((await fetch(url + '/saved-options.js')).status, 200);
