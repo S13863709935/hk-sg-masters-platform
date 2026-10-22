@@ -68,7 +68,7 @@ function filterMatches(items) {
   return filterMatchedProgrammes(items, state, savedOptionIssues);
 }
 const catalogueContext = () => JSON.stringify([...['q', 'region', 'school', 'area', 'mode', 'verification', 'page', 'limit', 'sort', 'matchFilter'].map(key => state[key]), routeChoices, offeringChoices, applicantChoices]);
-const catalogueSummary = () => `${state.total} ${t('results')} · ${t('page')} ${state.page} ${t('of')} ${Math.max(1, Math.ceil(state.total / state.limit))}`;
+const catalogueSummary = () => `${state.total} ${t(state.total === 1 ? 'result' : 'results')} · ${t('page')} ${state.page} ${t('of')} ${Math.max(1, Math.ceil(state.total / state.limit))}`;
 function catalogueLoading(target) {
   target.setAttribute('aria-busy', 'true');
   target.innerHTML = `<div class="cards">${[1, 2, 3].map(() => '<div class="skeleton"></div>').join('')}</div>`;
@@ -111,7 +111,7 @@ async function loadCatalogue({ focusResults = false } = {}) {
     return true;
   } catch (error) {
     if (!current()) return false;
-    target.innerHTML = `${empty('errorHeading', 'errorHint', 'data')}<button class="button" data-action="retry">${t('retry')}</button>`;
+    target.innerHTML = empty('errorHeading', 'errorHint', 'data', { name: 'retry', label: 'retry' });
     target.setAttribute('aria-busy', 'false');
     if ($('#catalogue-status')) $('#catalogue-status').textContent = `${t('errorHeading')} ${t('errorHint')}`;
     if ((focusResults || restoreSort) && mayMoveFocus()) target.querySelector('[data-action=retry]')?.focus();
@@ -136,9 +136,13 @@ function card(p) {
 }
 function renderResults() {
   const pages = Math.max(1, Math.ceil(state.total / state.limit));
-  $('#results').innerHTML = `<div class="results-header"><div class="results-count" id="results-summary" tabindex="-1" role="heading" aria-level="2"><strong>${state.total}</strong> ${t('results')} · ${t('page')} ${state.page} ${t('of')} ${pages}</div><div class="sort-group"><label for="sort">${t('sort')}</label><select id="sort" data-filter="sort">${options([['quality', t(state.profile ? 'matchingFirst' : 'qualityFirst')], ['az', t('az')]], state.sort)}</select></div></div><section class="cards" aria-label="${t('searchResults')}">${state.items.length ? state.items.map(card).join('') : empty('noResults', 'noResultsHint', 'search')}</section>${state.total > state.limit ? `<nav class="pagination" aria-label="${'Pagination'}"><button class="button" data-action="page" data-value="${state.page - 1}" ${state.page <= 1 ? 'disabled' : ''}>${t('previous')}</button><span>${t('page')} ${state.page} ${t('of')} ${pages}</span><button class="button" data-action="page" data-value="${state.page + 1}" ${state.page >= pages ? 'disabled' : ''}>${t('next')}</button></nav>` : ''}`;
+  $('#results').innerHTML = `<div class="results-header"><div class="results-count" id="results-summary" tabindex="-1" role="heading" aria-level="2"><strong>${state.total}</strong> ${t(state.total === 1 ? 'result' : 'results')} · ${t('page')} ${state.page} ${t('of')} ${pages}</div><div class="sort-group"><label for="sort">${t('sort')}</label><select id="sort" data-filter="sort">${options([['quality', t(state.profile ? 'matchingFirst' : 'qualityFirst')], ['az', t('az')]], state.sort)}</select></div></div><section class="cards" aria-label="${t('searchResults')}">${state.items.length ? state.items.map(card).join('') : catalogueEmpty()}</section>${state.total > state.limit ? `<nav class="pagination" aria-label="${'Pagination'}"><button class="button" data-action="page" data-value="${state.page - 1}" ${state.page <= 1 ? 'disabled' : ''}>${t('previous')}</button><span>${t('page')} ${state.page} ${t('of')} ${pages}</span><button class="button" data-action="page" data-value="${state.page + 1}" ${state.page >= pages ? 'disabled' : ''}>${t('next')}</button></nav>` : ''}`;
 }
-function empty(title, intro, symbol = 'shortlist') { return `<div class="empty-state"><div class="empty-icon">${icon(symbol)}</div><h2>${t(title)}</h2><p>${t(intro)}</p><button class="button secondary" data-action="nav" data-view="discover">${t('backExplore')}${icon('arrow')}</button></div>`; }
+function catalogueEmpty() {
+  const filtered = ['q', 'region', 'school', 'area', 'mode', 'verification', 'matchFilter'].some(key => state[key]);
+  return filtered ? empty('noResults', 'noResultsHint', 'search', { name: 'reset', label: 'reset' }) : empty('noProgrammes', 'noProgrammesHint', 'data', { name: 'retry', label: 'retry' });
+}
+function empty(title, intro, symbol = 'shortlist', action = { name: 'nav', view: 'discover', label: 'backExplore' }) { return `<div class="empty-state"><div class="empty-icon">${icon(symbol)}</div><h2>${t(title)}</h2><p>${t(intro)}</p><button class="button secondary" data-action="${action.name}"${action.view ? ` data-view="${action.view}"` : ''}>${t(action.label)}${icon('arrow')}</button></div>`; }
 function updateTray() {
   if (!$('#tray-wrapper')) return;
   $('#tray-wrapper').innerHTML = state.compare.length ? `<aside class="compare-tray" aria-label="${t('compareSelection')}"><div><small>${t('compareSelection')} · ${state.compare.length}/4</small><div class="tray-chips">${state.compare.map(id => `<span class="tray-chip">${esc(state.meta.universities.find(u => id.startsWith(`${u.id}-`))?.abbreviation || id)}<button data-action="compare" data-id="${id}" aria-label="${t('remove')} ${id}">×</button></span>`).join('')}</div></div><div class="tray-actions"><button class="tray-clear" data-action="clearCompare">${t('clear')}</button><button class="button" data-action="nav" data-view="compare" ${state.compare.length < 2 ? 'disabled' : ''}>${t('compareNow')}${icon('arrow')}</button></div></aside>` : '';

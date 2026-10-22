@@ -8,7 +8,7 @@ import { copy } from '../public/copy.js';
 // minimal replaceable DOM and controlled replies. No real browser data is used.
 const app = readFileSync(new URL('../public/app.js', import.meta.url), 'utf8');
 const loader = app.slice(app.indexOf('const catalogueContext ='), app.indexOf('function card('));
-const renderer = app.slice(app.indexOf('function renderResults('), app.indexOf('function empty('));
+const renderer = app.slice(app.indexOf('function renderResults('), app.indexOf('function updateTray('));
 const deferred = () => { let resolve, reject; const promise = new Promise((yes, no) => { resolve = yes; reject = no; }); return { promise, resolve, reject }; };
 const record = id => ({ id, name: `Synthetic ${id}` });
 
@@ -50,7 +50,7 @@ function harness() {
     state, document, URLSearchParams, $: selector => nodes.get(selector) || null,
     routeChoices: {}, offeringChoices: {}, applicantChoices: {}, t: key => copy[key] || key,
     filterMatches: items => [...items], card: p => `<article>${p.name}</article>`,
-    options: () => '', empty: title => `<div data-empty="${title}"></div>`,
+    options: () => '', icon: () => '',
     syncUrl: () => { urlChanges++; },
     setTimeout: (fn, delay) => { assert.equal(delay, 220); const id = ++timerId; timers.set(id, fn); return id; },
     clearTimeout: id => timers.delete(id),
@@ -176,6 +176,8 @@ test('a current failure clears busy state and focuses its retry without deleting
   assert.equal(await pending, false); assert.equal(h.target().attributes['aria-busy'], 'false');
   assert.match(h.target().innerHTML, /data-action="retry"/); assert.equal(h.focus.at(-1).id, 'retry');
   assert.equal(h.state.total, 9); assert.equal(h.state.items[0].id, 'PREVIOUS'); assert.equal(h.status(), `${copy.errorHeading} ${copy.errorHint}`);
+  assert.equal((h.target().innerHTML.match(/data-action="retry"/g) || []).length, 1);
+  assert.doesNotMatch(h.target().innerHTML, /data-action="nav"|data-action="reset"/);
 });
 
 test('retry can recover the current results and focus the summary', async () => {
@@ -194,8 +196,34 @@ test('background-filtered results retain their existing local sort and paginatio
 
 test('empty results report page one of one and retain the explicit empty view', async () => {
   const h = harness(), pending = h.load(); h.requests[0].resolve({ total: 0, items: [] }); await pending;
-  assert.equal(h.status(), '0 programmes · Page 1 of 1'); assert.match(h.target().innerHTML, /data-empty="noResults"/);
+  assert.equal(h.status(), '0 programmes · Page 1 of 1'); assert.ok(h.target().innerHTML.includes(copy.noProgrammes));
+  assert.match(h.target().innerHTML, /data-action="retry"/);
+  assert.doesNotMatch(h.target().innerHTML, /data-action="reset"|data-action="nav"/);
   assert.equal(h.focus.length, 0);
+});
+
+test('every active search or matching filter offers a real reset rather than same-page navigation', async () => {
+  for (const [key, value] of Object.entries({ q: 'Synthetic missing keyword', region: 'HK', school: 'SG-NUS', area: 'Synthetic discipline', mode: 'part-time', verification: 'peer_reviewed', matchFilter: 'meets_checked' })) {
+    const h = harness(); h.state[key] = value;
+    if (key === 'matchFilter') { h.state.profile = { major: 'Synthetic discipline' }; h.state.matches = []; }
+    const pending = h.load(); if (h.requests.length) h.requests[0].resolve({ total: 0, items: [] }); await pending;
+    assert.ok(h.target().innerHTML.includes(copy.noResults));
+    assert.match(h.target().innerHTML, /data-action="reset"/);
+    assert.doesNotMatch(h.target().innerHTML, /data-action="nav"|data-action="retry"/);
+    assert.ok(h.target().innerHTML.includes(copy.noResultsHint));
+  }
+});
+
+test('one result is singular in both the visible count and polite status', async () => {
+  for (const withBackground of [false, true]) {
+    const h = harness();
+    if (withBackground) { h.state.profile = { major: 'Synthetic discipline' }; h.state.matches = [record('A')]; }
+    const pending = h.load();
+    if (!withBackground) h.requests[0].resolve({ total: 1, items: [record('A')] });
+    await pending;
+    assert.equal(h.status(), '1 programme · Page 1 of 1');
+    assert.match(h.target().innerHTML, /<strong>1<\/strong> programme · Page 1 of 1/);
+  }
 });
 
 test('UI wiring keeps a stable polite status, safe pagination, region/reset focus and the debounced handler', () => {
