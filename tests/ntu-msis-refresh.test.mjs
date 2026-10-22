@@ -17,10 +17,10 @@ const profile = { major: 'Computer Science', degreeStatus: 'graduated', classifi
 const check = (profile, kind) => matchProgramme(p, profile).checks.find(c => c.kind === kind);
 
 test('MSIS refresh changes only its observation date and preserves other source dates', () => {
-  assert.equal(batch.checkedOn, '2026-10-21');
+  assert.equal(batch.checkedOn, batch.programmes.map(q => q.lastChecked).sort().at(-1));
   assert.equal(p.lastChecked, '2026-10-21');
   assert.deepEqual(batch.programmes.filter(q => q.lastChecked === '2026-10-21').map(q => q.id), [id]);
-  assert.equal(batch.programmes.find(q => q.id === 'SG-NTU-P015').lastChecked, '2026-10-06');
+  assert.equal(batch.programmes.find(q => q.id === 'SG-NUS-P029').lastChecked, '2026-10-06');
   assert.deepEqual(p.sources.map(s => s.url), [official, guide]);
   assert.ok(p.sources.every(s => s.checkedOn === p.lastChecked));
 });

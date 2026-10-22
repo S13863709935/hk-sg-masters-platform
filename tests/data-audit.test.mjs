@@ -63,11 +63,13 @@ test('non-local deadlines, fee categories and application rounds remain explicit
   assert.match(get('HK-POLYU-P001').offerings[0].deadlineNote, /Early round/);
   assert.match(get('HK-POLYU-P001').offerings[0].feeBasis, /excluding/);
 });
-test('recurring months and uncertain fee cohorts do not become invented ISO deadlines', () => {
-  for (const id of ['SG-NTU-P015']) {
-    assert.ok(get(id).offerings.every(o => o.deadline === null));
-    assert.equal(get(id).fieldStatus.academicYear.status, 'unknown');
-  }
+test('identified cohorts can resolve dates without resolving unrelated fees or conflicting openings', () => {
+  const economics = get('SG-NTU-P015');
+  assert.equal(economics.fieldStatus.academicYear.status, 'known');
+  assert.equal(economics.fieldStatus.deadline.sourceUrl, 'https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide');
+  assert.deepEqual(economics.offerings.map(o => [o.applicationOpen, o.deadline]), [['2026-09-01', '2027-01-31'], ['2027-03-01', '2027-05-31']]);
+  assert.equal(economics.fieldStatus.tuition.status, 'unknown');
+  assert.ok(economics.offerings.every(o => o.tuition === null));
   const msis = get('SG-NTU-P018');
   assert.equal(msis.fieldStatus.academicYear.status, 'known');
   assert.ok(msis.offerings.every(o => o.deadline === '2027-02-15' && o.applicationOpen === null && o.tuition === null));

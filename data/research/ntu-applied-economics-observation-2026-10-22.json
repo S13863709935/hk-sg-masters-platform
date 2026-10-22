@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "programmeId": "SG-NTU-P015",
+  "checkedOn": "2026-10-22",
+  "method": "AI-assisted reading of official pages and browser DOM; not independent human review",
+  "sources": [
+    "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics",
+    "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+  ],
+  "centralTable": {
+    "academicYear": "2027/28",
+    "section": "Trimester programmes",
+    "august": {
+      "rowScope": "Applied Economics only, School of Social Sciences",
+      "openingMonthDay": "09-01",
+      "closingMonthDay": "01-31",
+      "normalizedIntake": "August 2027",
+      "normalizedOpening": "2026-09-01",
+      "normalizedClosing": "2027-01-31",
+      "yearAssignment": "Interpretation from the central table's AY2027/28 August cohort context; years are not printed in these two cells. Not inferred from undated programme months alone.",
+      "excludedNeighbourClosings": ["02-15", "02-26"]
+    },
+    "november": {
+      "rowScope": "November group includes Applied Economics",
+      "openingCellRowSpan": 7,
+      "closingCellRowSpan": 7,
+      "openingYearExplicit": true,
+      "closingYearExplicit": true,
+      "normalizedIntake": "November 2027",
+      "normalizedOpening": "2027-03-01",
+      "normalizedClosing": "2027-05-31"
+    }
+  },
+  "programmeFacts": {
+    "mode": "Full-time",
+    "normalDurationYears": 1,
+    "delivery": "On campus",
+    "degreeAlternativesNeedAssessment": true,
+    "nonEconomicsHonoursWithQuantitativeBackgroundConsidered": true,
+    "preparatoryCoursesTiming": "During the trimester, not verified pre-entry prerequisites",
+    "arpGpaNotEntryThreshold": 4.75,
+    "ieltsTotal": 6.5,
+    "toefl120Total": 85,
+    "toefl6Total": 4.5,
+    "toeflScaleChangeDate": "2026-01-21",
+    "waiverRequiresCountryAndCampusEvidence": true
+  },
+  "centralValidity": {
+    "years": 2,
+    "anchor": "Application date, not today or intake date",
+    "intendedSubmissionDateCollected": false,
+    "discretionaryConsiderationIsAutomaticPass": false
+  },
+  "retiredChoice": {
+    "id": "SG-NTU-P015-O1",
+    "reason": "Previously combined undated August/November choice cannot identify either current cohort",
+    "automaticReplacement": null,
+    "newChoices": ["SG-NTU-P015-O2", "SG-NTU-P015-O3"]
+  },
+  "unresolved": [
+    "AY2027/28 tuition and additional charges in the two consulted sources",
+    "Honours equivalence and quantitative background",
+    "English waiver applicability and submission-time test validity",
+    "Exact cutoff time, live portal availability and independent review"
+  ],
+  "brochureRechecked": false,
+  "livePortalChecked": false,
+  "independentReviewer": null,
+  "requirementsCoverage": "partial"
+}
