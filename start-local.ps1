@@ -14,7 +14,7 @@ $taskNodeCommand = Get-Command node -ErrorAction SilentlyContinue
 $taskNodePath = if ($taskNodeCommand) { $taskNodeCommand.Source } else { $null }
 $taskBundledNode = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe'
 if ($taskNodePath) {
-    $taskVersion = & $taskNodePath -p 'process.versions.node.split(".")[0]'
+    $taskVersion = & $taskNodePath -p 'parseInt(process.versions.node)'
     if ([int]$taskVersion -lt 24) { $taskNodePath = $null }
 }
 if (-not $taskNodePath -and (Test-Path -LiteralPath $taskBundledNode)) { $taskNodePath = $taskBundledNode }
