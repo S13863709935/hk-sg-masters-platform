@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-23",
+  "method": "AI-assisted reading of official SUTD programme, admission and fee HTML pages; no independent human review or live application-portal check",
+  "sources": {
+    "marchOverview": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/",
+    "marchAdmissions": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/",
+    "marchFees": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/financing/tuition-fees/",
+    "mtdOverview": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/",
+    "mtdAdmissions": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
+    "mtdSchedule": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/programme-schedule/",
+    "mtdFees": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/financing/fees/"
+  },
+  "march": {
+    "programmeId": "SG-SUTD-P001",
+    "type": "Master by coursework; Architecture and Sustainable Design",
+    "intake": "2027 intake; month not established here",
+    "window": { "open": "2026-08-01", "deadline": "2026-12-31", "cutoffTime": null },
+    "duration": { "standard": "One-year full-time MArch", "twoYearTrack": "Includes two preliminary undergraduate architecture terms (Terms 7 and 8); not two additional years after the MArch" },
+    "academic": "Accredited architecture bachelor degree, normally four years university architecture education; three-year applicants and some four-year applicants may need the two-year track",
+    "manual": ["Non-SUTD accreditation proof and institutional approval", "Relevant work experience and duration without a published numeric minimum", "Programming experience and Rhino/Grasshopper/digital fabrication preparation", "Track placement and preliminary non-graduating fee applicability"],
+    "english": { "trigger": "Prior degree not taught in English", "numericThreshold": null, "scoreSubmission": "Within two weeks after the application deadline; not an application deadline extension" },
+    "documents": { "statementWords": 1000, "referees": 2, "refereesOptional": true, "refereeTiming": "Within one week after submitting the application", "gre": "Optional; considered if submitted", "other": "Degree/transcript or final-year evidence, translations where needed, identity and relevant supporting portfolio/awards/publications", "interview": "Shortlisted applicants may be interviewed" },
+    "feePageScope": "AY2026 and older cohorts, not an identified AY2027 fee table",
+    "feeConflict": "Overview says preliminary NG terms pay non-subsidised fees, while the AY2026 preliminary-term table also displays SC/PR subsidised columns. Do not resolve this from table flattening or apply it to 2027.",
+    "decision": "Keep 2027 numeric tuition and application fee unknown. Do not add an internship or two-year track as a second degree, assume a subsidy, or multiply old annual fees into a 2027 total."
+  },
+  "mtd": {
+    "programmeId": "SG-SUTD-P002",
+    "type": "One-year full-time coursework MSc, three terms and a venture project",
+    "applicationStatusObservation": "The application and fee-page banners state applications for 2027 are closed",
+    "actualClosureDate": null,
+    "intakeMonth": null,
+    "previousSnapshot": { "intake": "January 2027", "academicYear": "2026/27", "deadline": "2026-10-31" },
+    "dateDecision": "Withdraw the old future deadline from active comparison. Retain only the explicitly identified 2027 intake year; the consulted current overview/application/schedule do not establish January or a reopening date. No closure date is invented from the observation date.",
+    "academic": "Bachelor degree in any discipline with demonstrated innovation/entrepreneurship/applied-technology interest; unrelated degrees are considered case-by-case with resumé/portfolio support; related job experience is considered, not mandatory years",
+    "english": { "ieltsAcademic": 6, "toefl120": 85, "toefl6": null, "validity": "Two years from test date and unexpired at application, not rolling expiry measured from today", "trigger": "Undergraduate instruction not in English" },
+    "documents": { "statementMinimumWords": 500, "referees": 2, "other": "Degree/transcript, applicable score report, CV and identity evidence" },
+    "applicationFeeSgd": 21.8,
+    "applicationFeeRefundable": false,
+    "publishedTuition": { "academicYear": "2026/27", "basis": "Per academic year, full-time, inclusive of prevailing GST", "scPrSgd": 49050, "internationalSgd": 54500, "subsidy": "Non-MOE-subsidised; Tuition Grant not applicable" },
+    "otherFees": { "acceptanceSgd": 5450, "acceptanceCreditedToTuition": true, "miscellaneousTableYear": "AY2025, not a current 2027 quote", "alumniRebate": "5% before GST stated for qualifying SUTD alumni; not automatically applied" },
+    "feeDecision": "Do not default to the international rate or bind the AY2026/27 annual table to an unconfirmed 2027 month. Keep active numeric tuition null, preserve published categories as dated explanatory evidence, and leave historical CMF amounts out of a current all-in quote. No applicant context is fabricated because its required dated deadline is not established."
+  },
+  "limits": { "independentHumanReviews": 0, "livePortalChecked": false, "newProgrammeCount": 0, "softwareChanges": false }
+}

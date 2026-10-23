@@ -2634,111 +2634,136 @@
       "name": "Master of Architecture",
       "award": "MArch",
       "area": "Engineering",
-      "faculty": null,
+      "faculty": "Architecture and Sustainable Design",
       "officialUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "2027 intake",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Do not treat every bachelor's holder as eligible. The three-year architecture route includes preliminary undergraduate terms with separate non-subsidised fees.",
+      "notesEn": "The standard MArch is one year after four years of university architecture education. The two-year track includes two preliminary undergraduate terms, not two extra years after the master's. Accreditation, work/technical preparation and track placement need SUTD approval. The published 2027 application dates do not establish 2027 tuition or subsidy entitlement.",
       "offerings": [
         {
           "id": "SG-SUTD-P001-O1",
           "mode": "Full-time",
-          "duration": "1 year; 2-year bridging route may apply",
+          "duration": "Standard MArch: 1 year; two-year track includes 2 preliminary undergraduate terms",
           "intake": "2027 intake",
           "deadline": "2026-12-31",
-          "deadlineNote": null,
+          "deadlineNote": "The overview explicitly identifies the 2027 intake window: 1 August to 31 December 2026. Exact cutoff time, track-specific applicability and portal availability were not checked. A later English-score submission allowance is not an extension of the application deadline.",
           "academicYear": "2027 intake",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027 tuition is unconfirmed. The consulted tuition page labels AY2026 and older cohorts, not AY2027. Its preliminary-term subsidy table and the overview's non-subsidised NG wording need reconciliation. Do not import an older annual price, multiply terms, assume subsidy eligibility or an all-in total.",
+          "applicationOpen": "2026-08-01",
+          "applicationFee": null
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
+          "labelZh": "",
           "labelEn": "Bachelor’s degree",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         {
           "kind": "major",
-          "labelZh": "Undergraduate field",
-          "labelEn": "Undergraduate field",
+          "labelZh": "",
+          "labelEn": "Architecture undergraduate education",
           "accepted": [
             "Architecture"
           ],
           "any": false,
           "relatedAllowed": false,
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Degree accreditation, four-year architecture education or bridging track, relevant work, technical preparation and portfolio need checking.",
-          "noteEn": "Degree accreditation, four-year architecture education or bridging track, relevant work, technical preparation and portfolio need checking.",
+          "labelZh": "",
+          "labelEn": "Accreditation, prior study and track placement",
+          "noteZh": "",
+          "noteEn": "An accredited architecture bachelor degree and normally four years of university architecture education are required. Non-SUTD graduates need accreditation proof and institutional approval. Applicants with three years may be considered for the two-year track, as may some four-year applicants needing preparation. Two preliminary undergraduate terms (Terms 7 and 8) precede the MArch and have separate fee/applicability questions; track placement is not automatic.",
           "mandatory": true,
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "An English score may be required, but no numeric threshold was captured on the admissions page.",
-          "noteEn": "An English score may be required, but no numeric threshold was captured on the admissions page.",
+          "labelZh": "",
+          "labelEn": "Work experience and technical preparation",
+          "noteZh": "",
+          "noteEn": "Relevant work experience and its duration must support professional-course requirements, but no numeric minimum years is published here. Programming experience (such as Python, JavaScript, C++ or C#) and Rhino 3D, Grasshopper and digital-fabrication preparation require manual assessment. Advanced standing for a structured internship requires a separate request; it is not automatic.",
           "mandatory": true,
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and submission timing",
+          "noteZh": "",
+          "noteEn": "TOEFL or IELTS evidence is required where the prior degree was not taught in English. The consulted admissions page does not state a numeric minimum, a test-validity anchor or an updated TOEFL scale cutoff. It permits score submission within two weeks after the application deadline; that is not an application extension. Confirm all language applicability with SUTD.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme documents, optional referees and selection",
+          "noteZh": "",
+          "noteEn": "Statement of Objectives: 1,000 words. Supply degree/transcript or final-year completion evidence, official translations where needed, identity and relevant portfolio/awards/publications. Two referees are optional; if used, recommendations are due within one week after application submission. GRE is optional and considered if supplied. Shortlisted applicants may be interviewed. The platform does not collect or submit these materials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         }
       ],
       "sources": [
         {
           "url": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit 2027 application dates and standard versus preliminary two-year track",
+          "checkedOn": "2026-10-23"
         },
         {
           "url": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/",
-          "purpose": "Accreditation, prior education and technical requirements",
-          "checkedOn": "2026-10-06"
+          "purpose": "Accreditation, technical/work preparation, English evidence and document timing",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/financing/tuition-fees/",
+          "purpose": "AY2026/older fee tables and preliminary-term subsidy discrepancy, not a 2027 quotation",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "sutd-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "noteEn": "2027 intake is explicit; an exact start month is not imported.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
         },
         "major": {
           "status": "known",
-          "noteEn": "Exact fields or accepted alternative routes are recorded.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "noteEn": "Architecture is explicit; accreditation, duration of prior study and track approval remain manual.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "noteEn": "No numeric undergraduate admission GPA was found in the consulted programme sources; recognition and selection still apply.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         "language": {
           "status": "unknown",
-          "noteEn": "Numeric thresholds were not captured. Do not assume the programme has no English requirement.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "noteEn": "English evidence is required when applicable, but no numeric threshold or updated TOEFL cutoff was found on the consulted admissions page.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "noteEn": "The fee page covers AY2026 and older cohorts. AY2027 amounts and preliminary-term subsidy applicability are not established.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/financing/tuition-fees/"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Explicit 1 August–31 December 2026 window for the 2027 intake; language-document timing is not another application round.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
         },
         "independentReview": {
@@ -2758,38 +2783,40 @@
       "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "2026/27",
+      "lastChecked": "2026-10-23",
+      "academicYear": "2027 intake",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "A bachelor's degree in any discipline is listed, but unrelated-degree applications may need portfolio-based review. Do not automatically apply a citizen/PR discount.",
+      "notesEn": "The application and fee pages state that applications for 2027 are closed as observed on 23 October 2026; this is not the actual closure date or a live portal check. The current overview/application/schedule do not establish January or reopening dates. The old 31 October 2026 cutoff is withdrawn from active date comparison. AY2026/27 annual category fees are not a confirmed quote for an unconfirmed 2027 start month. Any-discipline wording does not remove case-by-case review for unrelated degrees.",
       "offerings": [
         {
           "id": "SG-SUTD-P002-O1",
           "mode": "Full-time",
           "duration": "12 months",
-          "intake": "January 2027",
-          "deadline": "2026-10-31",
-          "deadlineNote": null,
-          "academicYear": "2026/27",
+          "intake": "2027 intake",
+          "deadline": null,
+          "deadlineNote": "Official application/fee-page notice observed 23 October 2026: applications for 2027 are closed. No exact closure date, reopening window or intake month is established. The former 31 October 2026 deadline is not retained as an active cutoff; do not infer closure on the observation date.",
+          "academicYear": "2027 intake",
           "currency": "SGD",
-          "tuition": 54500,
-          "feeBasis": "Annual tuition for international students including GST; SC/PR rate SGD 49,050; miscellaneous fees additional"
+          "tuition": null,
+          "feeBasis": "Active tuition withheld: the published AY2026/27 full-time annual rates are SGD 49,050 for SC/PR and SGD 54,500 for international students, inclusive of prevailing GST, but the exact 2027 intake linkage is unconfirmed. Non-MOE-subsidised; no default international price or automatic alumni rebate. SGD 21.80 non-refundable application fee is separate. The fee page's SGD 5,450 acceptance fee is credited to tuition, not added twice. Its miscellaneous-fee table is labelled AY2025, not a current 2027 all-in quote.",
+          "applicationOpen": null,
+          "applicationFee": 21.8
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
+          "labelZh": "",
           "labelEn": "Bachelor’s degree",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         {
           "kind": "major",
-          "labelZh": "Undergraduate field",
+          "labelZh": "",
           "labelEn": "Undergraduate field",
           "accepted": [],
           "any": true,
@@ -2798,7 +2825,7 @@
         },
         {
           "kind": "language",
-          "labelZh": "Published English test scores",
+          "labelZh": "",
           "labelEn": "Published English test scores",
           "tests": {
             "ielts": {
@@ -2813,65 +2840,93 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Interest in innovation/applied technology, unrelated-degree case-by-case review and language validity need checking.",
-          "noteEn": "Interest in innovation/applied technology, unrelated-degree case-by-case review and language validity need checking.",
+          "labelZh": "",
+          "labelEn": "Innovation interest and unrelated-degree review",
+          "noteZh": "",
+          "noteEn": "Demonstrated innovation, entrepreneurship or applied-technology interest is required. Unrelated undergraduate disciplines are considered case-by-case; a resumé or portfolio can support the application. Related job experience is considered, not a published mandatory number of years. No numeric admission GPA is invented.",
           "mandatory": true,
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "The page does not state a revised TOEFL 6-point minimum.",
-          "noteEn": "The page does not state a revised TOEFL 6-point minimum.",
+          "labelZh": "",
+          "labelEn": "English medium, validity and test versions",
+          "noteZh": "",
+          "noteEn": "Where undergraduate instruction was not English, the page requires IELTS Academic 6.0 or TOEFL iBT 85. Scores must remain within two years of the test date at application, not at today's date. English-medium evidence, accepted test variants and any updated TOEFL 1–6 threshold require confirmation; none is inferred from the old 85/120 value.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme documents and referees",
+          "noteZh": "",
+          "noteEn": "Supply degree/transcript, applicable English report, CV and identity evidence, with details of two referees. The Statement of Objectives / Personal Statement must be at least 500 words, not a maximum of 500. Admissions-committee consideration is not guaranteed admission. This platform does not collect or submit documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "2027 application closure and intake scope",
+          "noteZh": "",
+          "noteEn": "The application and fee pages state applications for 2027 are closed as observed on 23 October 2026. Actual closure date, any reopening and start month are unconfirmed. Do not use the old January label or 31 October cutoff to claim availability; ask SUTD about the next available intake.",
           "mandatory": true,
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         }
       ],
       "sources": [
         {
-          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/",
+          "purpose": "One-year full-time coursework MSc and venture-project structure; no start month established",
+          "checkedOn": "2026-10-23"
         },
         {
-          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/financing/fees",
-          "purpose": "2026/27 nationality-specific tuition",
-          "checkedOn": "2026-10-06"
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
+          "purpose": "2027 closed notice, academic/English conditions, documents and separate application fee",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/programme-schedule/",
+          "purpose": "One-year coursework schedule, not evidence of a January intake",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/financing/fees/",
+          "purpose": "2027 closed notice; AY2026/27 category fees, credited acceptance payment and older miscellaneous-fee year",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "sutd-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
-          "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "status": "unknown",
+          "noteEn": "2027 is named in the closure banner, but the current consulted pages do not establish January or link that intake to the AY2026/27 fee table.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "major": {
           "status": "known",
-          "noteEn": "Any discipline is explicitly allowed, subject to all other criteria.",
+          "noteEn": "Any discipline is stated, subject to innovation interest and unrelated-degree case-by-case review.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted programme sources.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Published IELTS Academic 6.0 / TOEFL iBT 85 only; validity is assessed at application and unlisted test versions remain manual.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "tuition": {
-          "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+          "status": "unknown",
+          "noteEn": "AY2026/27 annual SC/PR and international amounts are recorded only as dated evidence, not a default or confirmed 2027 intake quote.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/financing/fees/"
         },
         "deadline": {
-          "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "status": "unknown",
+          "noteEn": "Applications for 2027 are stated closed. No actual closing date or reopening window is established; the previous future cutoff is withdrawn.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "independentReview": {
