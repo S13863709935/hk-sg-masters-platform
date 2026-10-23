@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-23",
+  "method": "AI-assisted reading of official HKBU pages; no independent human review or live application-portal check",
+  "sources": {
+    "communicationRegistry": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+    "communicationSchool": "https://comm.hkbu.edu.hk/en/programmes/taught-postgraduate-programmes/macomm.html",
+    "businessRegistry": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+    "businessAdmissions": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html",
+    "businessFaq": "https://mscbm.hkbu.edu.hk/admission/faq.html",
+    "generalRequirements": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements",
+    "nonlocalInformation": "https://ar.hkbu.edu.hk/tpg-studies/prospective-student/information-for-non-local-applicants"
+  },
+  "communication": {
+    "programmeId": "HK-HKBU-P001",
+    "faculty": "School of Communication",
+    "cohort": "September 2027 / 2027/28",
+    "modes": { "fullTime": "1 year", "partTime": "2 years" },
+    "registryWindow": { "open": "2026-10-06", "nonlocalDeadline": "2027-06-07", "localDeadline": "2027-07-23" },
+    "registryProgrammeTuitionHkd": 180000,
+    "schoolPage": {
+      "cohortExplicitlyIdentified": false,
+      "recurringWindow": "Mid-November through June with an early-closure/rolling warning",
+      "partTimeRestriction": "School fee table describes part-time as local Hong Kong students only",
+      "partTimeAnnualHkd": 90000,
+      "academicDifference": "Registry asks for an honours bachelor degree; school text says bachelor degree without an honours qualifier",
+      "languageDifference": "Admission section requests English scores where needed; FAQ wording says proof is not a necessary admissions condition"
+    },
+    "decision": "Use the registry's explicit 2027 dates and programme-total fee, not the undated school's recurring months or annual-price conversion. Add existing category contexts only for full-time. Keep part-time deadline null and mode/status applicability mandatory/manual; never fabricate a non-local part-time category merely to satisfy a schema.",
+    "requirements": {
+      "ielts": 6.5,
+      "toefl120": 79,
+      "toefl6": null,
+      "documents": "500-word English essay on academic interests/objectives; own publication/research sample if available",
+      "experience": "Relevant professional experience is advantageous, without mandatory years",
+      "selection": "Shortlisted interview may be required; Interactive Media concentration selection does not guarantee a concentration place",
+      "graduationGpaNotAdmission": 2.5
+    }
+  },
+  "business": {
+    "programmeId": "HK-HKBU-P007",
+    "faculty": "School of Business",
+    "cohort": "September 2027 / 2027/28",
+    "mode": "Full-time, 1 year",
+    "window": { "open": "2026-09-01", "deadline": "2027-04-01", "appliesTo": "Local and non-local on the programme admissions page" },
+    "tuitionHkd": { "local": 301000, "nonlocal": 393000 },
+    "payment": "Two instalments; not two copies of the programme fee",
+    "excludedCosts": "Business Field Study travel, visa and living costs; textbooks and other course materials",
+    "requirements": {
+      "degree": "Recognised bachelor degree or accepted equivalent professional qualification",
+      "ieltsProgrammeSpecific": 6,
+      "ieltsGeneralPage": 6.5,
+      "toefl120": 79,
+      "toefl6": null,
+      "cet6ManualAlternative": 500,
+      "documents": "Personal statement no more than 500 words; two referees; relevant qualification/score evidence",
+      "selection": "Satisfactory shortlisted admission interview",
+      "gmat": "Encouraged, not required",
+      "gpa": null
+    },
+    "decision": "Withhold a default numeric tuition and bind both published category prices to the existing full-time option. Preserve the programme-specific IELTS 6.0 with a mandatory general-versus-specific policy warning rather than silently imposing 6.5 or claiming full eligibility. No scholarship is deducted or universal all-in cost calculated."
+  },
+  "shared": {
+    "validityAnchor": "Within two years at issuance of the admission offer, not two years measured from today's date",
+    "generalExcludedTests": ["TOEFL iBT Home Edition", "TOEFL MyBest", "IELTS Indicator", "IELTS One Skill Retake", "IELTS Online"],
+    "newToeflScaleDecision": "No updated 1-6 threshold was found in consulted programme/general pages; do not infer a conversion from 79/120",
+    "waiver": "English-medium first degree evidence needs university confirmation, not an automatic waiver",
+    "applicationFeeAmount": null,
+    "confirmationFee": "Registry says confirmation includes the first tuition instalment plus administrative charges; do not count the tuition part twice",
+    "classification": "HKBU decides local/non-local classification; location in Singapore, nationality or GPA is not used to infer it",
+    "partTimeConflict": "General non-local information discusses appropriately authorised part-time students, but does not establish that this specific MA accepts them; keep programme-specific uncertainty",
+    "livePortalChecked": false,
+    "independentHumanReviews": 0
+  }
+}

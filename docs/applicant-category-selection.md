@@ -1,6 +1,6 @@
 # University-specific applicant-category selection
 
-Implementation contract, 19 October 2026. Current real coverage: two EdUHK categories for one January 2027 study option. Other universities and intakes are not generalized from this example.
+Implementation contract introduced on 19 October 2026 with two EdUHK categories for one January 2027 study option. As of 23 October, explicit contexts cover 10 study options / 20 categories across that EdUHK intake, CityU Applied Economics, HKU Computer Science and the full-time September 2027 HKBU Communication / Business Management options. Each combination requires its own evidence; rules are not generalized across universities, modes or intakes. HKBU Communication part-time applicability remains unresolved and has no contextual category record.
 
 ## Source and trust boundary
 
@@ -19,8 +19,8 @@ The `WeakSet` date-evidence marker belongs to server-created offering objects. N
 - No category is chosen by default or inferred from residence, nationality or academic background. Application fees remain separate from tuition, without an invented total price or payment action.
 - Responses expose the limited `applicantEvidence` date and sources separately from the original academic `lastChecked` value. Candidate exports include context identity, fee/date evidence and comparison date, but no student background.
 - Matching keeps academic-rule results and adds a manual category-classification check. Choosing a category cannot confer eligibility, complete requirements, independent review or a recommendation tier.
-- Metadata reports contextual coverage separately; it does not inflate the 551 parent programmes or 21 checked parent records.
+- Metadata reports contextual coverage separately; it does not inflate the current 873 parent programmes or 21 checked parent records. Independent human reviews and complete requirement sets remain zero.
 
 ## Deliberate limits
 
-This is not immigration/status advice or an applicant-classification tool. Category descriptions are university-specific; use the official sources and ask the university to confirm status. No rules are inferred for September 2027 or other schools. Contextual editing/import through the web admin, independent review of contextual facts, multi-variant candidate rows and cross-device choice synchronization are not implemented. Restart after changing a sidecar; the source export remains the original catalogue, not the selected views.
+This is not immigration/status advice or an applicant-classification tool. Category descriptions are university-specific; use the official sources and ask the university to confirm status. No rules are inferred for combinations without their own bound evidence. Contextual editing/import through the web admin, independent review of contextual facts, multi-variant candidate rows and cross-device choice synchronization are not implemented. Restart after changing a sidecar; the source export remains the original catalogue, not the selected views.

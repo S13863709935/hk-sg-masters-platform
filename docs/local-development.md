@@ -106,7 +106,7 @@ node scripts/import-data.mjs path/to/checked-batch.json
 
 该选择只筛选已记录事实，不证明该批次／模式的完整入学条件已核实。因此背景检查另加一项“批次和模式适用性待确认”，不会据此启用推荐分档。实现边界见 [study-option-selection.md](study-option-selection.md)。
 
-大学专属申请者类别层现有教大 MPPM January 2027、CityU Applied Economics 和 HKU CS 的具体费用上下文，合计 8 个学习选项／16 类别。不能把这些类别规则推广到其他项目或入学批次。未选类别不默认套用非本地价格；选中后分别显示该类别的学费、单独申请费、截止日期和对应来源日期。不能从人在新加坡、国籍或背景资料推断本地身份。更换方向或批次会清除当前类别，但不会自动覆盖主动保存的选项；未主动保存时刷新会重置。选择不写入历史地址，也不与成绩资料一起自动保存。独立复核和完整性缺口不变。实现契约及最早示例见 [applicant-category-selection.md](applicant-category-selection.md)，当前覆盖以 Data workspace 和源文件为准。
+大学专属申请者类别层现有教大 MPPM January 2027、CityU Applied Economics、HKU CS 以及 HKBU Communication／Business Management September 2027 全日制的具体上下文，合计 10 个学习选项／20 类别。浸大传播学兼读制适用性仍待确认，没有创建其非本地类别。不能把这些类别规则推广到其他项目、模式或入学批次。未选类别不默认套用非本地价格；选中后分别显示该类别有证据的学费、单独申请费、截止日期和对应来源日期，未知费用仍留空。不能从人在新加坡、国籍或背景资料推断本地身份。更换方向或批次会清除当前类别，但不会自动覆盖主动保存的选项；未主动保存时刷新会重置。选择不写入历史地址，也不与成绩资料一起自动保存。独立复核和完整性缺口不变。实现契约及最早示例见 [applicant-category-selection.md](applicant-category-selection.md)，当前覆盖以 Data workspace 和源文件为准。
 
 ### 申请日期与学术条件分开
 

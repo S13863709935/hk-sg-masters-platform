@@ -338,42 +338,44 @@
       "name": "MA Communication",
       "award": "MA",
       "area": "Arts and Communication",
-      "faculty": null,
+      "faculty": "School of Communication",
       "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Applications open on 6 October 2026. The GPA 2.50 on the page concerns an exit award, not admission.",
+      "notesEn": "Use the registry's explicit September 2027 dates, not the school's undated recurring window. Full-time fees/dates need HKBU applicant-category selection. The school describes part-time as local-only, but 2027 mode/status applicability needs confirmation; no non-local part-time context is fabricated. The registry asks for honours while the school says bachelor degree. GPA 2.50 is an exit-award condition, not admission.",
       "offerings": [
         {
           "id": "HK-HKBU-P001-O1",
           "mode": "Full-time",
           "duration": "1 year",
           "intake": "September 2027",
-          "deadline": "2027-06-07",
-          "deadlineNote": "Non-local deadline; local applicants: 23 July 2027.",
+          "deadline": null,
+          "deadlineNote": "Non-local applicants: 7 June 2027; local applicants: 23 July 2027. Select the HKBU category; no single cutoff or intraday time is assumed. The school's undated rolling window is not converted into 2027 rounds.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 180000,
-          "feeBasis": "Total programme fee"
+          "feeBasis": "Published HKD 180,000 total programme tuition, not an annual multiplier. Select the HKBU applicant category for dated comparison. Confirmation includes a first tuition instalment plus administrative charges; do not add the tuition instalment again. Separate application/administrative and living costs are not quantified.",
+          "applicationOpen": "2026-10-06"
         },
         {
           "id": "HK-HKBU-P001-O2",
           "mode": "Part-time",
           "duration": "2 years",
           "intake": "September 2027",
-          "deadline": "2027-06-07",
-          "deadlineNote": "Non-local deadline; local applicants: 23 July 2027.",
+          "deadline": null,
+          "deadlineNote": "2027 part-time/status applicability requires HKBU confirmation. The registry publishes 7 June (non-local) and 23 July (local) 2027, but no non-local part-time context is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": 180000,
-          "feeBasis": "Total programme fee"
+          "tuition": null,
+          "feeBasis": "Part-time numeric tuition withheld pending 2027 mode/status confirmation. Registry programme total: HKD 180,000; undated school page: HKD 90,000 per year for local-only part-time. Do not multiply or extend a non-local fee/date into this mode.",
+          "applicationOpen": null
         }
       ],
       "rules": [
@@ -385,10 +387,10 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Academic standing and equivalence",
-          "labelEn": "Academic standing and equivalence",
-          "noteZh": "An honours bachelor's degree is required; no specific honours division is stated.",
-          "noteEn": "An honours bachelor's degree is required; no specific honours division is stated.",
+          "labelZh": "",
+          "labelEn": "Academic standing and programme-specific evidence",
+          "noteZh": "",
+          "noteEn": "The dated registry requires a recognised honours bachelor degree; the undated school page says bachelor degree without the qualifier. Keep honours/equivalence for university confirmation rather than silently using the weaker wording. No numeric undergraduate GPA or honours division is invented.",
           "mandatory": true,
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
@@ -406,35 +408,60 @@
             }
           },
           "atHomeAccepted": false,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+          "singleAttempt": true
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "English waiver and validity at the offer-letter date need confirmation; the new TOEFL scale is not stated on this page.",
-          "noteEn": "English waiver and validity at the offer-letter date need confirmation; the new TOEFL scale is not stated on this page.",
+          "labelZh": "",
+          "labelEn": "English evidence, offer-date validity and exclusions",
+          "noteZh": "",
+          "noteEn": "Scores must be valid within two years of admission-offer issuance, not a rolling check from today. General rules reject TOEFL Home Edition/MyBest and IELTS Indicator/One Skill Retake/Online. Confirm English-medium degree evidence and waiver acceptance; the school FAQ's softer proof wording does not remove the registry's requirement. No updated TOEFL 1-6 cutoff is published in the consulted pages.",
+          "mandatory": true,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme essay, experience and selection",
+          "noteZh": "",
+          "noteEn": "A 500-word English essay on academic interests/objectives is required, with the applicant's own publication/research sample if available. Relevant professional experience is a preference, not mandatory years. Shortlisted applicants may be interviewed; selection for Interactive Media concentration is not guaranteed. This website does not collect or submit documents.",
           "mandatory": true,
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "An English essay is required; professional experience is a preference, not a mandatory number of years.",
-          "noteEn": "An English essay is required; professional experience is a preference, not a mandatory number of years.",
+          "labelZh": "",
+          "labelEn": "Part-time availability and concentration scope",
+          "noteZh": "",
+          "noteEn": "The school fee table describes part-time as local Hong Kong students only; the registry lists both modes without that detail. Generic non-local visa information is not permission for this specific MA. Confirm 2027 mode/status and concentration applicability with HKBU; do not infer eligibility from location or nationality.",
           "mandatory": true,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+          "sourceUrl": "https://comm.hkbu.edu.hk/en/programmes/taught-postgraduate-programmes/macomm.html"
         }
       ],
       "sources": [
         {
           "url": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit September 2027 registry dates, fee, academic and programme requirements",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://comm.hkbu.edu.hk/en/programmes/taught-postgraduate-programmes/macomm.html",
+          "purpose": "Undated school admission/FAQ, honours/window differences and local-only part-time caution",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements",
+          "purpose": "General English exclusions and admission-offer-date validity",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://ar.hkbu.edu.hk/tpg-studies/prospective-student/information-for-non-local-applicants",
+          "purpose": "General non-local information does not establish programme-specific part-time permission",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "hkbu-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -442,8 +469,8 @@
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "major": {
-          "status": "known",
-          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "status": "unknown",
+          "noteEn": "Honours and accepted undergraduate-field policy require university judgement; no universal subject whitelist or any-major rule is inferred.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "gpa": {
@@ -453,17 +480,17 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Programme-specific scores only; offer-date validity, excluded test variants, English-medium evidence and unlisted TOEFL versions remain to confirm.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "noteEn": "Full-time programme total is recorded; no default category or all-in quote. Part-time numeric tuition is withheld until mode/status applicability is confirmed.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "The registry's full-time local/non-local dates are category-bound; part-time 2027 eligibility and dated scope remain unresolved.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "independentReview": {
@@ -479,18 +506,18 @@
       "name": "MSc Business Management",
       "award": "MSc",
       "area": "Business",
-      "faculty": null,
+      "faculty": "School of Business",
       "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Keep local and non-local tuition distinct. The published bachelor's requirement does not give a numeric undergraduate GPA minimum.",
+      "notesEn": "September 2027 full-time tuition is HKBU-category dependent: no default non-local amount. Registry and programme pages agree on IELTS 6.0, while the general page lists 6.5; confirm applicability. CET-6 and equivalent qualifications are manual alternatives. Offer-date score validity, documents and interview remain unresolved. GMAT is encouraged, not required; no scholarship or award is automatically deducted.",
       "offerings": [
         {
           "id": "HK-HKBU-P007-O1",
@@ -498,11 +525,12 @@
           "duration": "1 year",
           "intake": "September 2027",
           "deadline": "2027-04-01",
-          "deadlineNote": null,
+          "deadlineNote": "Published full-time deadline is 1 April 2027 for local and non-local applicants. Rolling assessment may fill places earlier; no cutoff time or live portal check is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": 393000,
-          "feeBasis": "Total programme tuition for non-local students; local tuition HKD 301,000"
+          "tuition": null,
+          "feeBasis": "HKBU category required: HKD 301,000 local / HKD 393,000 non-local, total programme tuition in two instalments. No default amount, scholarship deduction or all-in cost. Field-study travel/visa/living expenses and textbooks/course materials are excluded; application/administrative fees remain separate and unquantified.",
+          "applicationOpen": "2026-09-01"
         }
       ],
       "rules": [
@@ -526,35 +554,60 @@
             }
           },
           "atHomeAccepted": false,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+          "singleAttempt": true
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Equivalent academic qualifications, language alternatives and offer-date test validity require confirmation.",
-          "noteEn": "Equivalent academic qualifications, language alternatives and offer-date test validity require confirmation.",
+          "labelZh": "",
+          "labelEn": "Academic equivalence and undergraduate field",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor degree or accepted equivalent professional qualification is required. No numeric undergraduate GPA or complete subject whitelist was found; recognition and equivalence remain the university's decision.",
           "mandatory": true,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+          "sourceUrl": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "Personal statement and satisfactory admission interview are required. GMAT is encouraged, not compulsory.",
-          "noteEn": "Personal statement and satisfactory admission interview are required. GMAT is encouraged, not compulsory.",
+          "labelZh": "",
+          "labelEn": "English policy, alternatives and offer-date validity",
+          "noteZh": "",
+          "noteEn": "Programme-specific registry/admissions/FAQ pages list IELTS 6.0, but the general page lists 6.5; confirm which policy applies. CET-6 500 and equivalent qualifications are manual alternatives, not converted scores. Validity is two years at admission-offer issuance. General exclusions cover TOEFL Home Edition/MyBest and IELTS Indicator/One Skill Retake/Online; English-medium evidence and an unlisted updated TOEFL threshold need confirmation.",
           "mandatory": true,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme documents and admission interview",
+          "noteZh": "",
+          "noteEn": "Personal statement must be no more than 500 words; two referees and relevant qualification/score evidence are required. Shortlisted applicants need a satisfactory admission interview. GMAT is highly encouraged, not mandatory. No scholarship, tuition waiver or admission is guaranteed; this website does not collect documents.",
+          "mandatory": true,
+          "sourceUrl": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html"
         }
       ],
       "sources": [
         {
           "url": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit 2027 registry tuition categories, dates and programme requirements",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html",
+          "purpose": "Programme-specific language alternatives, referees, two instalments and excluded field-study costs",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://mscbm.hkbu.edu.hk/admission/faq.html",
+          "purpose": "2027 fee/window confirmation, textbooks exclusion and GMAT/interview policy",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements",
+          "purpose": "General IELTS wording, excluded score variants and offer-date validity",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "hkbu-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -573,17 +626,17 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Registry and programme pages list IELTS 6.0 but the general page lists 6.5; mandatory manual policy confirmation remains. No TOEFL 1-6 score or CET conversion is inferred.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "noteEn": "Both 2027 total tuition categories are sourced, but no category is inferred. Two instalments are not two programme fees; field-study and material costs are separate.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Explicit 1 September 2026 to 1 April 2027 full-time window is recorded for both categories; availability and cutoff time remain unverified.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
         },
         "independentReview": {

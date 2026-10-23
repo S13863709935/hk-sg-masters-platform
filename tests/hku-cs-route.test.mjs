@@ -219,7 +219,7 @@ test('parent records and raw export are unchanged; route and category evidence h
   assert.equal(exported.applicantEvidence, undefined);
   const meta = await get('/api/meta');
   assert.deepEqual(meta.routeEvidence, { groups: 2, routes: 5, pageChecked: 5, peerReviewed: 0, complete: 0 });
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 8, categories: 16, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 10, categories: 20, peerReviewed: 0 });
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.checked, 21); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
 });

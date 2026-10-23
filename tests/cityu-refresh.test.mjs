@@ -73,7 +73,7 @@ test('both CS modes keep local and non-local minimum-credit estimates separate',
 });
 
 test('same-university subdomains are supported without accepting another university or spoofed hosts', () => {
-  assert.equal(index.size, 8);
+  assert.equal(index.size, 10);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-cityu-domain-')), file = join(dir, 'batch.json');
   try {
     for (const bad of ['https://www.nus.edu.sg/fees', 'https://cityu.edu.hk.attacker.invalid/fees', 'https://attacker@www.cityu.edu.hk/fees']) {
@@ -93,7 +93,7 @@ test('mixed source dates preserve EdUHK October 19 and CityU October 20 observat
 test('malformed dates, relabelled batch dates, unknown fees and estimate flags fail validation', () => {
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-cityu-invalid-')), file = join(dir, 'batch.json');
   try {
-    for (const alter of [b => { b.contexts[1].checkedOn = '2026-02-30'; }, b => { b.contexts[1].checkedOn = '2026-10-22'; }, b => { b.checkedOn = '2026-10-22'; }, b => { delete b.contexts[1].options[0].applicationFee; }, b => { b.contexts[1].options[0].applicationFee = -1; }, b => { b.contexts[1].options[0].tuitionEstimate = 'yes'; }, b => { b.contexts[1].options[0].deadlineNote = 1; }]) {
+    for (const alter of [b => { b.contexts[1].checkedOn = '2026-02-30'; }, b => { b.contexts[1].checkedOn = '2099-01-01'; }, b => { b.checkedOn = '2026-10-22'; }, b => { delete b.contexts[1].options[0].applicationFee; }, b => { b.contexts[1].options[0].applicationFee = -1; }, b => { b.contexts[1].options[0].tuitionEstimate = 'yes'; }, b => { b.contexts[1].options[0].deadlineNote = 1; }]) {
       const b = read('data/applicant-contexts.json'); alter(b); writeFileSync(file, JSON.stringify(b));
       assert.throws(() => loadApplicantContexts(file, store.all(), routes));
     }

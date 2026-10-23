@@ -204,7 +204,7 @@ test('route/category evidence is counted separately and no original parent, work
   const meta = await get('/api/meta');
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 21);
   assert.deepEqual(meta.routeEvidence, { groups: 2, routes: 5, pageChecked: 5, peerReviewed: 0, complete: 0 });
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 8, categories: 16, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 10, categories: 20, peerReviewed: 0 });
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.ok(routes.get('SG-NTU-P061').every(r => r.lastChecked === '2026-10-16'));
 });

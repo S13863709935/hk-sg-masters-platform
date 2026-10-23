@@ -8,7 +8,7 @@
 
 2026-10-23：本地演示版 0.1.0 进入功能冻结收尾。主要浏览器流程及手机窄屏布局已集中验收；本轮补查 Windows 启动入口和交付说明。当前是可本地运行的原型，不是已经上线或已经完成招生数据核验的正式服务。功能验收记录见 [10 月 23 日本地验收](docs/progress/2026-10-23-local-site-acceptance.md)，启动与交付检查见 [交付记录](docs/progress/2026-10-23-local-delivery-freeze.md)。
 
-同日后续数据维护仅更新 CUHK Anthropology 与 SUSS Management：补入中大明确轮次，保留兼读学费冲突；SUSS 路径与学制冲突仍待确认，不套用其他项目窗口或未经完整核对的费用。软件功能、总数和独立复核数不变。见 [来源与解释](docs/research/cuhk-suss-refresh-2026-10-23.md)。
+同日后续数据维护更新 CUHK Anthropology 与 SUSS Management：补入中大明确轮次，保留兼读学费冲突；SUSS 路径与学制冲突仍待确认，不套用其他项目窗口或未经完整核对的费用。见 [来源与解释](docs/research/cuhk-suss-refresh-2026-10-23.md)。随后补查 HKBU Communication 与 Business Management，将两个全日制选项接入现有申请人类别选择，分别显示官方类别的日期和费用；传播学兼读制适用性及英语政策差异仍待确认。申请人证据现为 10 个学习选项／20 类别，不与项目数相加。软件功能、项目总数和独立复核数不变。见 [浸大来源与边界](docs/research/hkbu-refresh-2026-10-23.md)。
 
 | 当前本地数据状态 | 数量 |
 | --- | ---: |

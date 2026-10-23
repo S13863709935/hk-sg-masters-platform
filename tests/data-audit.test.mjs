@@ -56,8 +56,10 @@ test('EdUHK January and September cohorts retain different tuition and deadlines
   assert.equal(p.offerings[1].deadline, null);
 });
 test('non-local deadlines, fee categories and application rounds remain explicit', () => {
-  assert.equal(get('HK-HKBU-P001').offerings[0].deadline, '2027-06-07');
+  assert.equal(get('HK-HKBU-P001').offerings[0].deadline, null);
+  assert.equal(get('HK-HKBU-P001').offerings[0].applicationOpen, '2026-10-06');
   assert.match(get('HK-HKBU-P001').offerings[0].deadlineNote, /local applicants: 23 July/);
+  assert.equal(get('HK-HKBU-P007').offerings[0].tuition, null);
   assert.match(get('HK-HKBU-P007').offerings[0].feeBasis, /non-local/);
   assert.equal(get('HK-POLYU-P001').offerings[0].deadline, '2027-02-25');
   assert.match(get('HK-POLYU-P001').offerings[0].deadlineNote, /Early round/);

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-21",
+  "checkedOn": "2026-10-23",
   "contexts": [
     {
       "programmeId": "HK-EDUHK-P001",
@@ -315,6 +315,86 @@
               "deadlineAt": "2027-04-30T12:00:00+08:00"
             }
           ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P001",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P001-O1",
+      "offeringFingerprint": "f6d0b19030f34dc88588c429d127e5a982b569130c283e921093df83007505c6",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-23",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+      "noteEn": "Full-time September 2027 only. HKBU must confirm applicant classification and eligibility; current location and academic background are not classification evidence. No scholarship or all-in cost is assumed.",
+      "options": [
+        {
+          "id": "HK-HKBU-P001-O1-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "2027 registry total programme tuition, not an annual fee. Confirmation includes a tuition instalment; do not count it twice. Separate application/administrative and living costs are unquantified. No automatic scholarship deduction.",
+          "applicationFee": null,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Category-specific 2027 registry cutoff. Undated school recurring months are not treated as dated rounds. Confirm availability, exact cutoff time and academic/mode applicability with HKBU."
+        },
+        {
+          "id": "HK-HKBU-P001-O1-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "2027 registry total programme tuition, not an annual fee. Confirmation includes a tuition instalment; do not count it twice. Separate application/administrative and living costs are unquantified. No automatic scholarship deduction.",
+          "applicationFee": null,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Category-specific 2027 registry cutoff. Undated school recurring months are not treated as dated rounds. Confirm availability, exact cutoff time and academic/mode applicability with HKBU."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P007",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P007-O1",
+      "offeringFingerprint": "8c62488c1075fe2a63f2ca696b2bfb67dd82d97a6489cdc57be31061834c16c8",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-23",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+      "dateSourceUrl": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html",
+      "noteEn": "Full-time September 2027 only. HKBU must confirm applicant classification and eligibility; current location and academic background are not classification evidence. No scholarship or all-in cost is assumed.",
+      "options": [
+        {
+          "id": "HK-HKBU-P007-O1-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 301000,
+          "feeBasis": "2027 local total programme tuition in two instalments, not two fees. Field-study travel/visa/living costs and textbooks/course materials are excluded. Application/administrative fees are separate and unquantified; no automatic scholarship deduction.",
+          "applicationFee": null,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-04-01",
+          "deadlineNote": "Same published 1 April 2027 cutoff for both categories. Rolling assessment may fill places early; exact cutoff time and portal availability are not verified."
+        },
+        {
+          "id": "HK-HKBU-P007-O1-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 393000,
+          "feeBasis": "2027 non-local total programme tuition in two instalments, not two fees. Field-study travel/visa/living costs and textbooks/course materials are excluded. Application/administrative fees are separate and unquantified; no automatic scholarship deduction.",
+          "applicationFee": null,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-04-01",
+          "deadlineNote": "Same published 1 April 2027 cutoff for both categories. Rolling assessment may fill places early; exact cutoff time and portal availability are not verified."
         }
       ]
     }
