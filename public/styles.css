@@ -24,3 +24,4 @@
 #results-summary{scroll-margin-block-start:16px}
 #results-summary:focus-visible{outline:3px solid #9bbca9;outline-offset:5px;border-radius:3px}
 #profile-form [aria-invalid=true]{border-color:var(--red)}
+.data-grid>section{min-width:0}
