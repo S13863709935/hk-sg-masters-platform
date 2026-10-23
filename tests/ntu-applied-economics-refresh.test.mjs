@@ -19,8 +19,8 @@ const profile = { major: 'Economics', degreeStatus: 'graduated', classification:
 const check = (profile, kind) => matchProgramme(p, profile).checks.find(c => c.kind === kind);
 
 test('economics refresh preserves its own source batch and earlier observations', () => {
-  assert.equal(batch.checkedOn, '2026-10-22');
-  assert.equal(p.lastChecked, batch.checkedOn);
+  assert.equal(batch.checkedOn, batch.programmes.map(q => q.lastChecked).sort().at(-1));
+  assert.equal(p.lastChecked, observation.checkedOn);
   assert.deepEqual(batch.programmes.filter(q => q.researchBatch === p.researchBatch).map(q => q.id), [id]);
   assert.equal(batch.programmes.find(q => q.id === 'SG-NTU-P018').lastChecked, '2026-10-21');
   assert.equal(batch.programmes.find(q => q.id === 'HK-EDUHK-P001').lastChecked, '2026-10-06');

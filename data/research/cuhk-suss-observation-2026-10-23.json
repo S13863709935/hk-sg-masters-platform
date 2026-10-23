@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-23",
+  "method": "AI-assisted reading of official sources; no independent human review or live application-portal check",
+  "selection": "Refresh two older pilot records with unresolved cohort, fee or deadline fields. This is a bounded maintenance batch, not an all-programme completeness claim.",
+  "cuhk": {
+    "programmeId": "HK-CUHK-P001",
+    "sources": {
+      "programme": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
+      "requirements": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+      "deadlines": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+      "application": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/",
+      "faq": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/",
+      "fees": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees"
+    },
+    "access": "Graduate School pages read with the research tool. Department application/FAQ pages failed there but both returned HTTP 200 through direct read-only HTTPS retrieval; their relevant body text was inspected, not just search snippets.",
+    "cohort": {
+      "bodyIntake": "September 2027",
+      "bodyAcademicYear": "2027/28",
+      "applicationHeading": "Fall 2026 Admission",
+      "decision": "Use the explicitly dated September 2027 body and matching central deadlines; retain the stale-heading discrepancy for confirmation. Do not infer an exact term-start day."
+    },
+    "dates": {
+      "applicationOpen": "2026-09-01",
+      "openingBasis": "Central commencement date excludes PCLL, not Anthropology; department also states September 2026.",
+      "roundDeadlines": ["2026-09-30", "2026-10-31", "2026-11-30", "2026-12-31", "2027-01-31"],
+      "roundOpenings": null,
+      "cutoffTimes": null,
+      "caution": "Rolling assessment may fill places early. After 31 December consideration depends on places; final listed round is not a guaranteed open portal. Do not import neighbouring MPhil/PhD dates."
+    },
+    "fees": {
+      "fullTimeAnnualHkd": 198000,
+      "fullTimeNormativeYears": 1,
+      "partTimeAnnualHkdInProgrammeAndApplication": 99000,
+      "partTimeNormativeYears": 2,
+      "partTimeHkdDescribedOverTwoYearsInFaq": 99000,
+      "approval": "Department application marks tuition as awaiting approval; FAQ describes figures as tentative.",
+      "applicationFeeHkd": 500,
+      "decision": "Import provisional full-time annual tuition with caveats. Keep part-time numeric tuition null because the charging basis conflicts; do not select a figure or calculate a two-year total. Keep the application fee separate."
+    },
+    "requirements": {
+      "academicAlternatives": "Recognised bachelor degree normally at least second-class honours or average B, or accepted equivalent qualification; university judgement, not a numeric GPA conversion.",
+      "ieltsAcademic": 6.5,
+      "toefl120": 79,
+      "toefl6": 4.5,
+      "homeEditionAndIeltsOnline": "Accepted by the current general English page; programme-specific acceptance/evidence remains subject to university review.",
+      "validity": "TOEFL/IELTS two years from test; GMAT five years. Applicable evidence, anchor and alternative qualifications remain manual.",
+      "documents": "One-page purpose statement; two references; transcript/grading and degree evidence; English proof where needed; applicable verification documents. Not collected by this website.",
+      "notImported": "No numeric undergraduate GPA, guaranteed waiver, MPhil subject restriction, research scholarship, exchange-rate conversion or housing estimate."
+    }
+  },
+  "suss": {
+    "programmeId": "SG-SUSS-P001",
+    "sources": {
+      "programme": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt",
+      "requirements": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "fees": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "feeTable": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "featuredDirectory": "https://www.suss.edu.sg/academics/programmes/graduate-programmes"
+    },
+    "access": "Research-tool page text available. Direct local download/page requests hit a security block and were not bypassed. PDF screenshots did not yield inspectable images; no local PDF was created. Fee PDF was read as extracted text only, not visually verified.",
+    "intake": {
+      "recurringMonths": ["January", "July"],
+      "year": null,
+      "applicationOpen": null,
+      "deadline": null,
+      "decision": "Do not attach the 16 October 2026 to 15 April 2027 windows of other featured programmes to MMGT. No exact MMGT cohort/window was established."
+    },
+    "pathways": {
+      "regular": "Programme page limits this pathway to Singapore citizens/PRs; up to 20 CU per semester.",
+      "accelerated": "Programme page admits international applicants and eligible citizens/PRs not employed full-time; suitability assessed at interview; up to 30 CU per semester.",
+      "decision": "Keep the existing grouped option unresolved, with an explicit mandatory manual condition. No residence/status inference or new route is created."
+    },
+    "durationConflict": {
+      "structureRegular": "1 to 4 years",
+      "structureAccelerated": "Within 1 year",
+      "faqRegular": "18 months to 4 years",
+      "faqAccelerated": "12 or 18 months",
+      "decision": "Replace the previously unqualified duration with a conflict warning; do not choose one duration or equate regular/accelerated with part-/full-time modes."
+    },
+    "fees": {
+      "tableHeading": "Year 2026/2027 Non-Subsidised Programme Fees",
+      "tableUpdated": "October 2026; text states fees accurate as of 16 October 2026",
+      "textCautions": "Separate SSG-subsidy and residence columns; fees exclude GST and extra charges and may be revised. Column mapping not visually verified.",
+      "acceptanceDepositSgd": 2000,
+      "depositBasis": "General admissions page: includes prevailing GST and offsets the first-semester course bill; not extra tuition.",
+      "numericTuitionImported": false,
+      "decision": "Keep tuition null: exact cohort, applicant category, subsidy applicability and table layout were not fully verified. Do not invent a universal price, aid deduction or total cost."
+    },
+    "requirements": {
+      "degree": "Recognised undergraduate degree or accepted equivalent; alternative qualifications considered individually with relevant experience.",
+      "ieltsAcademic": 6.5,
+      "unsupportedAlternatives": "Paper TOEFL 580, PTE 58, C1 180, MUET band 4; not converted into an iBT or updated TOEFL score.",
+      "validity": "Application-time two-year score window for the listed non-MUET tests, five years for MUET; evidence/waiver checked manually.",
+      "waiver": "Official medium-of-instruction letter needed when claiming an English-taught degree from a non-English-medium institution; not an automatic waiver.",
+      "programmeSpecific": "Shortlisted interview, alternative-qualification merit review and pathway suitability. Volunteering is advantageous, not mandatory years of work. GMAT/GRE not required.",
+      "excludedGraduationGpa": 3,
+      "decision": "No undergraduate GPA minimum, mandatory experience-year threshold, universal field whitelist or specific study mode is invented. Certificate/diploma and specialisation requirements are not silently substituted."
+    }
+  }
+}
