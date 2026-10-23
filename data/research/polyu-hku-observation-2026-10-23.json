@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-23",
+  "method": "AI-assisted reading of official programme, central admissions and general-policy HTML; no independent human review or live application-session check",
+  "sources": {
+    "polyuProgramme": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp",
+    "polyuFacultyAdmissions": "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/bm/admissions/",
+    "polyuEnglish": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg",
+    "polyuFaq": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/frequently-asked-questions-tpg",
+    "polyuFeeInfo": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/general-information-tpg",
+    "polyuDocuments": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/additional-supporting-documents-required-application-admissions-tpg",
+    "polyuPublicEntry": "https://www38.polyu.edu.hk/eAdmission/index.do",
+    "hkuAdmission": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
+    "hkuOverview": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/",
+    "hkuGeneral": "https://calendar.hku.hk/general-regulations/",
+    "hkuFacultyFaq": "https://www.arch.hku.hk/admissions/faqs-for-taught-postgraduate-programmes/"
+  },
+  "polyu": {
+    "programmeId": "HK-POLYU-P001",
+    "cohort": "September 2027 / 2027/28",
+    "faculty": "Faculty of Business",
+    "mode": "Mixed mode: 1 year full-time or 2 years part-time, including summer term",
+    "window": { "open": "2026-07-02", "openingScope": "Central September 2027 TPG FAQ and public eAdmission entry page", "earlyDeadline": "2026-10-20", "mainDeadline": "2027-02-25", "deadlineScope": "Programme table explicitly lists the same dates for local and non-local mixed-mode applicants", "cutoffTime": null, "roundSpecificOpenings": null },
+    "dateCaveat": "The faculty's alumni-referral subsection calls 20 October 2026 the programme-admission deadline. Preserve the discrepancy/referral context; use the dated central programme early/main table, not a whole-programme closure inferred from that subsection. Interview months are not application rounds.",
+    "tuition": { "programmeHkd": 424800, "perCreditHkd": 11800, "chargedCredits": 36, "degreeCredits": 43, "zeroChargeEthicsCredits": 1, "externalSummerCredits": 6, "appliesTo": "Local and non-local students; both study loads", "excluded": "External summer-school course fee plus travel, accommodation, visa and insurance; alternatives may be arranged" },
+    "applicationFeeHkd": 600,
+    "applicationFeeBasis": "2027/28 non-refundable/non-transferable TPG fee; BM is not the MBA or doctorate exception",
+    "academic": "Bachelor degree or accepted equivalent in any discipline; no numeric admission GPA or mandatory work-years cutoff established",
+    "english": { "ieltsAcademic": 6, "toefl120": 80, "toefl6": 4.5, "newScaleFrom": "2026-01-21", "singleSitting": true, "validity": "Within two years; exact reference-date applicability remains manual", "excluded": ["TOEFL iBT Home Edition", "IELTS Online", "IELTS Indicator", "IELTS One Skill Retake"] },
+    "documents": "Programme code 02022 asks for transcript/certificate including grading system/conversion table; do not copy neighbouring doctoral employment or personal-statement conditions",
+    "selection": "Shortlisted interview; admissions quota and rolling consideration. Referral interview conditions do not guarantee admission.",
+    "scholarships": "Merit schemes described for full-time only; do not make scholarship eligibility an admission gate or automatically reduce tuition",
+    "decision": "Keep existing FT/PT IDs. Add exact central opening and two date-only cutoff records, leaving separate round openings and cutoff times null. Keep programme-total tuition and separate application fee, not a 43-credit multiplication or an all-in study cost."
+  },
+  "hku": {
+    "programmeId": "HK-HKU-P007",
+    "faculty": "Faculty of Architecture",
+    "cohort": "2027/28; exact start month not asserted here",
+    "duration": "One-year full-time",
+    "window": { "openingDate": null, "openingNotice": "Programme page says the system is open, without a dated opening", "mainDeadline": "2027-01-04", "mainDeadlineAt": "2027-01-04T12:00:00+08:00", "earlyReview": "Rolling review September–December 2026, not dated early rounds", "lateApplication": "Normally not considered" },
+    "fee": { "programmeHkd": 252000, "approval": "Subject to University approval", "instalments": 2, "eachInstalmentHkd": 126000, "applicationFeeHkd": null },
+    "feeCaveat": "Undated faculty FAQ mentions HKD 300 and older portal addresses without a 2027/28 binding. Do not treat this as a confirmed application fee or copy a different faculty's amount. No scholarship deduction or all-in total.",
+    "academic": "Urban/related bachelor degree or accepted equivalent; professional qualification preferred, not mandatory; qualifying examination if required",
+    "english": { "ieltsOverall": 6, "ieltsEach": 5.5, "toefl120": 80, "toefl6": 4.5, "newScaleFrom": "2026-01-21", "validityAnchor": "Two years before 1 September of the admissions year", "derived2027TestDateMinimum": "2025-09-01", "generalSourceYear": "Current Calendar 2026–2027 explicitly linked by the 2027 programme page", "alternatives": "GCE/IGCSE/Cambridge grade C or exceptional faculty exemption remain manual", "scopeCaveat": "Faculty of Arts writing/IELTS footnotes do not apply to Faculty of Architecture; no home-test or single-sitting policy is invented" },
+    "documents": "Official undergraduate transcript and graduation certificate, two reference reports, applicable English score evidence and certified translations/true copies as instructed",
+    "selection": "Shortlisted interview; no guaranteed admission or scholarship",
+    "professionalExperienceCaveat": "Overview's RTPI membership experience is post-degree professional membership information, not an admission work-year minimum",
+    "access": "The programme-specific portal link could not be read with the web tool; the faculty HTML pages and current linked Calendar were read. No access restriction was bypassed.",
+    "decision": "Keep the existing offering ID, fill one-year duration, add one exact-noon main cutoff without inventing an opening date or clearing round, retain provisional programme tuition and separate unknown application fee. Use a cohort-anchored test-date minimum, not rolling expiry from today."
+  },
+  "limits": { "newProgrammeCount": 0, "newApplicantContexts": 0, "independentHumanReviews": 0, "livePortalChecked": false, "softwareChanges": false }
+}

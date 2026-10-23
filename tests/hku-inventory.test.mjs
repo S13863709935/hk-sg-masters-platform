@@ -92,7 +92,7 @@ test('new directory evidence preserves Urban Analytics checked fields and all pr
   const db = new CatalogueStore(':memory:', options);
   try {
     const p = db.get('HK-HKU-P007'), original = checked.programmes.find(p => p.id === 'HK-HKU-P007');
-    assert.equal(p.lastChecked, '2026-10-06'); assert.deepEqual(p.rules, original.rules); assert.deepEqual(p.offerings, original.offerings); assert.deepEqual(p.sources, original.sources); assert.equal(p.academicYear, original.academicYear);
+    assert.equal(p.lastChecked, original.lastChecked); assert.deepEqual(p.rules, original.rules); assert.deepEqual(p.offerings, original.offerings); assert.deepEqual(p.sources, original.sources); assert.equal(p.academicYear, original.academicYear);
     assert.equal(p.directoryListing.checkedOn, '2026-10-20');
     for (const e of inventory.retainedClosedEvidence) assert.equal(db.get(e.programmeId).lastChecked, '2026-09-29');
     const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 870); assert.equal(q.checked, 21); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);

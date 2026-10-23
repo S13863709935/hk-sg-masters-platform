@@ -101,7 +101,7 @@ test('89 new unreviewed records preserve all eleven seeds and checked programme 
   const db = new CatalogueStore(':memory:', options);
   try {
     const p = db.get('HK-POLYU-P001'), original = checked.programmes.find(p => p.id === 'HK-POLYU-P001');
-    assert.equal(p.lastChecked, '2026-10-06'); assert.equal(p.academicYear, '2027/28'); assert.deepEqual(p.offerings, original.offerings); assert.deepEqual(p.rules, original.rules); assert.deepEqual(p.sources, original.sources);
+    assert.equal(p.lastChecked, original.lastChecked); assert.equal(p.academicYear, '2027/28'); assert.deepEqual(p.offerings, original.offerings); assert.deepEqual(p.rules, original.rules); assert.deepEqual(p.sources, original.sources);
     assert.equal(p.directoryListing.checkedOn, '2026-10-20');
     const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 870); assert.equal(q.checked, 21); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
   } finally { db.close(); }
