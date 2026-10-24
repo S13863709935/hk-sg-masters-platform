@@ -9,12 +9,13 @@ import { CatalogueStore } from '../server/database.mjs';
 const root = new URL('../', import.meta.url);
 const seed = JSON.parse(readFileSync(new URL('data/catalogue.json', root), 'utf8'));
 const source = JSON.parse(readFileSync(new URL('data/checked-programmes.json', root), 'utf8'));
+const unreviewedSeeds = seed.programmes.filter(p => !source.programmes.some(s => s.id === p.id));
 const hash = text => createHash('sha256').update(text).digest('hex');
 function fixture(run) {
   const dir = mkdtempSync(join(tmpdir(),'gradpath-refresh-'));
   const path = join(dir,'test.sqlite'), sourcePath = join(dir,'checked.json');
   let db;
-  const open = () => { db?.close(); db = new CatalogueStore(path, {seed,checkedPath:sourcePath}); return db; };
+  const open = (options = {}) => { db?.close(); db = new CatalogueStore(path, {seed,checkedPath:sourcePath,...options}); return db; };
   const save = data => writeFileSync(sourcePath, JSON.stringify(data));
   try { save(source); run({ open, save, path, sourcePath, get:()=>db }); }
   finally { db?.close(); rmSync(path,{force:true}); rmSync(sourcePath,{force:true}); rmdirSync(dir); }
@@ -84,4 +85,53 @@ test('invalid refreshed batches leave records and fingerprints unchanged', () =>
   assert.throws(()=>db.refreshCheckedBatch(invalid,hash('synthetic invalid')));
   assert.deepEqual(get().export().programmes,before.programmes);
   assert.equal(db.getMeta('checkedHash'),priorHash);
+}));
+
+test('first programme check upgrades an unchanged seed beneath directory and scope overlays after restart', () => fixture(({open,save})=>{
+  let db = open(); const lead = db.get(unreviewedSeeds[0].id);
+  assert.equal(lead.verification, 'catalogue_seed');
+  const directoryListing = { nameEn: lead.name, checkedOn: '2026-10-20', sourceUrl: lead.officialUrl, programmeUrl: lead.officialUrl, variants: [], noteEn: 'Synthetic directory-only overlay.' };
+  const scope = { status: 'unconfirmed', checkedOn: '2026-10-20', sourceUrl: lead.officialUrl, reasonEn: 'Synthetic delivery scope remains pending.' };
+  db.importBatch({ schemaVersion: 1, programmes: [{ ...lead, directoryListing, scope }] }, 'Synthetic non-admission overlays');
+  const { university, ...withoutUniversity } = lead;
+  const incoming = { ...withoutUniversity, verification: 'programme_page_checked', admissionRoute: 'direct', requirementsCoverage: 'partial', academicYear: '2027/28', lastChecked: '2026-10-24', collector: 'Synthetic collector', reviewer: null, notesEn: 'Synthetic first programme-page check.' };
+  const revised = structuredClone(source); revised.programmes.push(incoming); save(revised); db = open();
+  assert.equal(db.get(lead.id).verification, 'programme_page_checked'); assert.equal(db.get(lead.id).notesEn, incoming.notesEn);
+  assert.deepEqual(db.get(lead.id).directoryListing, directoryListing); assert.deepEqual(db.get(lead.id).scope, scope);
+  assert.deepEqual(db.quality().sourceRefreshConflicts, []);
+  db = open(); assert.equal(db.get(lead.id).notesEn, incoming.notesEn); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
+}));
+
+test('first checks of directory-expansion leads use their own untouched admission baseline', () => fixture(({open,save})=>{
+  const expansionPath = new URL('data/catalogue-expansion.json', root);
+  let db = open({ expansionPath }); const raw = JSON.parse(readFileSync(expansionPath, 'utf8')).programmes.find(p => !seed.programmes.some(s => s.id === p.id) && !source.programmes.some(s => s.id === p.id));
+  const lead = db.get(raw.id);
+  const directoryListing = { nameEn: lead.name, checkedOn: '2026-10-20', sourceUrl: lead.officialUrl, programmeUrl: lead.officialUrl, variants: [], noteEn: 'Synthetic expansion directory-only overlay.' };
+  db.importBatch({ schemaVersion: 1, programmes: [{ ...lead, directoryListing }] }, 'Synthetic non-admission overlay');
+  const incoming = { ...raw, verification: 'programme_page_checked', admissionRoute: 'direct', requirementsCoverage: 'partial', academicYear: '2027/28', lastChecked: '2026-10-24', collector: 'Synthetic collector', reviewer: null, notesEn: 'Synthetic first expanded-lead check.' };
+  const revised = structuredClone(source); revised.programmes.push(incoming); save(revised); db = open({ expansionPath });
+  assert.equal(db.get(raw.id).notesEn, incoming.notesEn); assert.equal(db.get(raw.id).verification, 'programme_page_checked');
+  assert.deepEqual(db.get(raw.id).directoryListing, directoryListing); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
+}));
+
+test('first programme checks cannot overwrite locally changed or independently reviewed catalogue leads', () => fixture(({open,save})=>{
+  let db = open(); const lead = db.get(unreviewedSeeds[0].id), reviewedLead = db.get(unreviewedSeeds[1].id);
+  const manual = { ...lead, notesEn: 'Synthetic manual data that must survive.' };
+  const reviewed = { ...reviewedLead, verification: 'peer_reviewed', requirementsCoverage: 'partial', academicYear: '2027/28', lastChecked: '2026-10-24', collector: 'Synthetic collector', reviewer: 'Synthetic independent reviewer' };
+  db.importBatch({ schemaVersion: 1, programmes: [manual, reviewed] }, 'Synthetic manual/imported review');
+  const revised = structuredClone(source);
+  for (const p of [lead, reviewedLead]) {
+    const { university, ...raw } = p;
+    revised.programmes.push({ ...raw, verification: 'programme_page_checked', admissionRoute: 'direct', requirementsCoverage: 'partial', academicYear: '2027/28', lastChecked: '2026-10-24', collector: 'Synthetic collector', reviewer: null, notesEn: 'Synthetic upstream first check.' });
+  }
+  save(revised); db = open();
+  assert.equal(db.get(lead.id).notesEn, manual.notesEn); assert.equal(db.get(reviewedLead.id).verification, 'peer_reviewed');
+  assert.equal(db.get(reviewedLead.id).reviewer, reviewed.reviewer);
+  assert.deepEqual(db.quality().sourceRefreshConflicts, [lead.id, reviewedLead.id]);
+  db = open(); assert.deepEqual(db.quality().sourceRefreshConflicts, [lead.id, reviewedLead.id]);
+  // Explicitly restoring the untouched admission baseline makes only that pending upgrade safe.
+  db.importBatch({ schemaVersion: 1, programmes: [lead] }, 'Synthetic explicit restoration to catalogue baseline');
+  db = open(); assert.equal(db.get(lead.id).notesEn, 'Synthetic upstream first check.');
+  assert.equal(db.get(reviewedLead.id).verification, 'peer_reviewed');
+  assert.deepEqual(db.quality().sourceRefreshConflicts, [reviewedLead.id]);
 }));

@@ -137,6 +137,7 @@ export class CatalogueStore {
     const universityIds = new Set(this.universities().map(u => u.id));
     for (const p of batch.programmes) validateProgramme(p, universityIds);
     const sameLegacyBatch = this.getMeta('checkedHash') === fileHash;
+    const pendingConflicts = new Set(JSON.parse(this.getMeta('sourceRefreshConflicts') || '[]'));
     const conflicts = [];
     this.db.exec('BEGIN');
     try {
@@ -147,11 +148,14 @@ export class CatalogueStore {
         // An unchanged source record must never replace a later manual update.
         if (previousHash === nextHash) continue;
         // Migrate older stores without rewriting their existing documents.
-        if (!previousHash && sameLegacyBatch) { this.setMeta(key, nextHash); continue; }
+        if (!previousHash && sameLegacyBatch && !pendingConflicts.has(incoming.id)) { this.setMeta(key, nextHash); continue; }
         const current = this.get(incoming.id);
         const latest = this.db.prepare('SELECT reason FROM change_log WHERE programme_id=? ORDER BY id DESC LIMIT 1').get(incoming.id);
         const legacySource = this.db.prepare("SELECT new_document FROM change_log WHERE programme_id=? AND reason='Versioned official-page checks' ORDER BY id DESC LIMIT 1").get(incoming.id);
-        const expectedHash = previousHash || (legacySource ? recordHash(withoutScope(JSON.parse(legacySource.new_document))) : null);
+        // A directory/scope overlay does not change an untouched lead's admission baseline.
+        const catalogueSource = this.db.prepare("SELECT new_document FROM change_log WHERE programme_id=? AND reason IN ('Initial catalogue seed', 'Versioned directory expansion; admissions unreviewed') ORDER BY id DESC LIMIT 1").get(incoming.id);
+        const baseline = legacySource || catalogueSource;
+        const expectedHash = previousHash || (baseline ? recordHash(withoutScope(JSON.parse(baseline.new_document))) : null);
         const safeToRefresh = !current || (current.verification !== 'peer_reviewed' && (latest?.reason === 'Initial catalogue seed' || recordHash(withoutScope(current)) === expectedHash));
         if (safeToRefresh) {
           this.upsert({ ...incoming, ...(current?.scope ? { scope: current.scope } : {}), ...(current?.directoryListing ? { directoryListing: current.directoryListing } : {}) }, 'Versioned official-page checks');
