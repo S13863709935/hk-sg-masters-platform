@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-24",
+  "method": "AI-assisted reading of official HKUST and SIT sources; no independent human review, application submission or live application-session check. SIT guide was read as complete two-page extracted text only; screenshot requests failed and a direct download returned an HTML challenge, not a usable PDF.",
+  "sources": {
+    "hkustCatalogue": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+    "hkustSchool": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-disc",
+    "sitProgramme": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering",
+    "sitRequirements": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements",
+    "sitFees": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees",
+    "sitGuide": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
+  },
+  "hkust": {
+    "programmeId": "HK-HKUST-P002",
+    "cohort": "2027/28",
+    "intake": "September 2027",
+    "modes": { "fullTime": { "duration": "1 year", "tuitionHkd": 270000, "instalments": 2 }, "partTime": { "duration": "2-2.5 years", "tuitionHkd": 230000, "instalments": 4 } },
+    "applicationFeeHkd": 600,
+    "window": { "openingDate": null, "round1": "2026-12-15", "localRound2": "2027-05-15", "nonlocalRound2": "2027-04-01", "exactCutoffTimes": null, "rollingSelection": true },
+    "academic": "Recognised bachelor/equivalent; second-class honours or above in Civil Engineering or related engineering. Relatedness, equivalence and non-Civil Engineering remedial courses need university judgement.",
+    "english": { "ieltsTotal": 6.5, "ieltsEach": 5.5, "toefl120": 80, "toefl6": 4.5, "newScaleFrom": "2026-01-21", "singleSitting": true, "atHomeAccepted": false, "manualAlternatives": "English-first-language or English-medium bachelor/equivalent waiver, TOEFL pBT 550 or revised paper-delivered 60", "validityAnchor": null },
+    "graduationNotAdmissionGga": 2.85,
+    "feeExceptions": "Ordinary MSc credit transfer still pays full tuition; additional/retaken courses cost extra. The HKUST integrated Bachelor-Master pathway has separate conditional admission, prior-credit and minimum-21-credit pro-rata rules.",
+    "meng": { "directNewEntry": false, "additionalYear2Hkd": 150000, "transfer": "Current MSc students only, after first-year MSc requirements and approval for year-long industrial placement", "archivalIdUnchanged": "HK-HKUST-P003-2026-transfer", "archivalObservationDateUnchanged": "2026-10-06" },
+    "decision": "Keep stable MSc mode IDs while explicitly updating cohort from directly read 2027/28 sources. Add two separately fingerprint-bound applicant contexts with four category options. Leave opening/time unknown, no default category, no visa determination. Retain the separate older MEng archival record unchanged; new source notes do not restamp its 2026 record."
+  },
+  "sit": {
+    "programmeId": "SG-SIT-P002",
+    "intake": "5 January 2027",
+    "window": { "open": "2026-09-03", "deadline": "2026-09-30", "exactCutoffTime": null, "extensionOrNextIntake": null },
+    "otherStagesNotApplicationExtensions": { "paymentAndDocuments": "One week after admissions close", "shortlistingAndInterview": "1-23 October 2026", "outcomeAndAcceptance": "27 October-3 November 2026" },
+    "duration": { "overview": "2 years", "fullTime": "3 trimesters", "partTime": "5 trimesters", "maximumCandidature": "4 years", "decision": "Keep source discrepancy for confirmation, not an additive duration" },
+    "academic": "Programme specifies accredited Civil Engineering bachelor, central engineering page says Engineering/equivalent. One year of relevant post-bachelor experience includes SIT IWSP; equivalence, relevance and timing remain manual.",
+    "english": { "centralScope": "Non-native English speakers", "guideTextScope": "International bachelor qualification not taught in English", "guidePagesTextRead": 2, "visualPdfVerified": false, "textOnlyIeltsAcademic": 6, "textOnlyToeflIbt": 85, "newToeflScale": null, "validity": "Two years before application submission, not today", "decision": "Keep all newly captured guide thresholds/alternatives manual pending visual and applicability confirmation; no new automated language rule or automatic English-medium waiver" },
+    "fees": { "programmeExamples": { "singaporeCitizen": 8970, "permanentResident": 18180, "nonSubsidised": 36069 }, "cohortOfExamples": null, "confirmedJanuary2027Tuition": null, "applicationFee": null, "decision": "Examples stay labelled undated, not imported as a January 2027 or international quote. Cohort/subsidy, prior subsidised postgraduate qualifications, professional recognition, GST and separate miscellaneous charges need confirmation." },
+    "delivery": "Weekday evening classes; ten coursework modules or eight plus an industrial dissertation subject to good academic standing. Dissertation option is not research-entry classification.",
+    "decision": "Keep IDs, January intake and past cutoff; add explicit opening. Do not invent extension, next intake, numeric GPA, category pricing or programme-specific eligibility from generic wording."
+  },
+  "limits": { "changedProgrammeRecords": 2, "newParentProgrammes": 0, "newApplicantContexts": 2, "independentHumanReviews": 0, "livePortalChecked": false, "softwareChanges": false }
+}

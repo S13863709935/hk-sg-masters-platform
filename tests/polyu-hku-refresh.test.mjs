@@ -169,6 +169,6 @@ test('saved choices reload refreshed mode facts and read-only access leaves qual
   assert.equal(shortlistExport([item.programme], { [py.id]: saved }).programmes[0].rememberedChoice, true);
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.checked, 21); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 11, categories: 22, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 13, categories: 26, peerReviewed: 0 });
   assert.equal(JSON.stringify([store.get(py.id), store.get(hk.id)]), before);
 });

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-23",
+  "checkedOn": "2026-10-24",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -1465,42 +1465,46 @@
       "name": "MSc Digital and Sustainable Cities",
       "award": "MSc",
       "area": "Engineering",
-      "faculty": null,
-      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+      "faculty": "Department of Civil and Environmental Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "2026/27",
+      "lastChecked": "2026-10-24",
+      "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Checked 2026/27 catalogue. A newer application window or intake is not assumed. Related engineering fields and waivers require university judgement.",
+      "notesEn": "2027/28 September MSc cohort checked directly, not inferred from the directory. FT/PT fees differ; local/non-local final cutoffs require explicit category selection. Current MSc students may apply for MEng transfer only with approval; its HKD 150,000 extra year-two fee is not a standalone new-entry masters price. Graduation GGA 2.850 is not an undergraduate admission GPA. Recognised qualifications, related engineering fields, remedial courses, language alternatives/waivers and pathway exceptions require university judgement. No confirmed opening date or live application-portal check.",
       "offerings": [
         {
           "id": "HK-HKUST-P002-O1",
           "mode": "Full-time",
           "duration": "1 year",
-          "intake": null,
+          "intake": "September 2027",
           "deadline": null,
-          "deadlineNote": null,
-          "academicYear": "2026/27",
+          "deadlineNote": "Select the HKUST local/non-local applicant category for Round 1 and the different Round 2 cutoffs. Opening date and exact cutoff times are not established; competitive rolling review is not a guarantee of availability.",
+          "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 270000,
-          "feeBasis": "Total programme fee"
+          "feeBasis": "2027/28 ordinary direct-entry MSc total: HKD 270000, two instalments; not an annual amount. Additional/retaken courses cost extra. Ordinary credit transfer does not reduce the full fee; the HKUST integrated Bachelor-Master pathway has a separate pro-rata exception requiring confirmation. Excludes the separate HKD 600 application fee and conditional MEng year-two fee.",
+          "applicationOpen": null,
+          "applicationFee": 600
         },
         {
           "id": "HK-HKUST-P002-O2",
           "mode": "Part-time",
           "duration": "2–2.5 years",
-          "intake": null,
+          "intake": "September 2027",
           "deadline": null,
-          "deadlineNote": null,
-          "academicYear": "2026/27",
+          "deadlineNote": "Select the HKUST local/non-local applicant category for Round 1 and the different Round 2 cutoffs. Opening date and exact cutoff times are not established; competitive rolling review is not a guarantee of availability.",
+          "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 230000,
-          "feeBasis": "Total programme fee"
+          "feeBasis": "2027/28 ordinary direct-entry MSc total: HKD 230000, four instalments; not an annual amount. Additional/retaken courses cost extra. Ordinary credit transfer does not reduce the full fee; the HKUST integrated Bachelor-Master pathway has a separate pro-rata exception requiring confirmation. Excludes the separate HKD 600 application fee and conditional MEng year-two fee.",
+          "applicationOpen": null,
+          "applicationFee": 600
         }
       ],
       "rules": [
@@ -1508,7 +1512,7 @@
           "kind": "degree",
           "labelZh": "Bachelor’s degree",
           "labelEn": "Bachelor’s degree",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         {
           "kind": "major",
@@ -1519,14 +1523,14 @@
           ],
           "any": false,
           "relatedAllowed": true,
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         {
           "kind": "classification",
           "labelZh": "Honours classification",
           "labelEn": "Honours classification",
           "min": "second_lower",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         {
           "kind": "language",
@@ -1548,52 +1552,93 @@
           },
           "singleAttempt": true,
           "atHomeAccepted": false,
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognised qualification, related engineering field and remedial courses",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor degree or accepted equivalent and second-class honours or above in Civil Engineering or a related engineering area are required. The university decides recognition/equivalence and whether another engineering field is related; non-Civil Engineering degree holders may need remedial civil engineering courses before study. No numeric undergraduate GPA is published here; the 2.850 GGA concerns graduation, not admission.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language waivers, legacy tests and validity",
+          "noteZh": "",
+          "noteEn": "A first language of English or a bachelor degree/equivalent taught in English can support a TOEFL/IELTS waiver, subject to university acceptance. The catalogue also lists TOEFL pBT 550 and revised paper-delivered 60; these unmodelled formats need review. Recorded IELTS/iBT thresholds require a single sitting and exclude at-home tests. A score-validity anchor was not established in the accessible sources; no rolling expiry is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "MSc-to-MEng transfer and integrated pathway exceptions",
+          "noteZh": "",
+          "noteEn": "MEng is only for current MSc(DISC) students, with transfer after first-year MSc requirements and approval for an additional year-long industrial placement; it is not open to new direct admission. The integrated Bachelor-Master pathway is separately restricted to qualifying HKUST Year 3-or-above Civil/Civil & Environmental Engineering students, allows conditional entry and up to 9 prior credits with pro-rata tuition for at least 21 credits. Neither pathway is automatically granted to an ordinary applicant.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Applicant category, part-time permission and rolling selection",
+          "noteZh": "",
+          "noteEn": "HKUST defines non-local status using visa/entry-permit categories; do not infer it from residence, nationality or grades. FT/PT and local/non-local cutoffs are published, but part-time study permission and immigration arrangements still require confirmation. Selection is competitive and rolling; minimum requirements do not guarantee admission. Opening dates and exact cutoff times are unknown.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         }
       ],
       "sources": [
         {
-          "url": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+          "purpose": "2027/28 MSc admissions, study modes, category cutoffs, separate application fee and restricted MEng/pathway exceptions",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-disc",
+          "purpose": "Programme-school corroboration of 2027/28 fees, September intake and local/non-local rounds",
+          "checkedOn": "2026-10-24"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "hkust-sit-refresh-2026-10-24",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "noteEn": "2027/28 Fall / September 2027 is stated in both consulted programme sources.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "major": {
           "status": "known",
-          "noteEn": "Exact fields or accepted alternative routes are recorded.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "noteEn": "Civil Engineering is explicit; related engineering areas, recognition and remedial courses need university judgement.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "gpa": {
           "status": "not_published",
           "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "language": {
           "status": "known",
           "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "noteEn": "Mode-specific ordinary MSc totals with instalments, extra-course and integrated-pathway exceptions; separate HKD 600 application fee and conditional MEng extra fee.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "status": "known",
+          "noteEn": "Two category-specific cutoffs are captured in separate FT/PT contexts. Final raw deadline stays null; opening dates and cutoff times remain unknown.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "independentReview": {
           "status": "unknown",
           "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         }
       }
     },
@@ -3116,14 +3161,14 @@
       "officialUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-24",
       "academicYear": "January 2027 intake",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Duration differs between the page summary and mode-specific text; preserve both and seek confirmation. Closed application window is not a failure of the applicant's academic background.",
+      "notesEn": "January 2027 intake still lists a 3-30 September 2026 application window, already passed on 24 October. No extension or next intake is inferred. Overview says 2 years while mode text says FT 3 / PT 5 trimesters; maximum candidature is 4 years. Programme-specific accredited Civil Engineering wording is narrower than central generic Engineering/equivalent wording and needs confirmation. Undated programme fee examples are not a cohort-bound January 2027 quote. The English guide was text-read but could not be visually retrieved, and its applicability differs from the central native-language wording; thresholds remain manual, not newly automated. No independent human review or live portal check.",
       "offerings": [
         {
           "id": "SG-SIT-P002-O1",
@@ -3131,11 +3176,13 @@
           "duration": "3 trimesters",
           "intake": "5 January 2027",
           "deadline": "2026-09-30",
-          "deadlineNote": "Published application window is already closed as of 6 October 2026.",
+          "deadlineNote": "January 2027 published application window: 3-30 September 2026; already passed as of 24 October. Later payment/documents, interview, outcome and acceptance dates are not extended application deadlines. No exact closing time, extension or next intake was established.",
           "academicYear": "January 2027 intake",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "January 2027 tuition and application-fee amounts remain unconfirmed. Undated programme examples distinguish Singapore Citizen/PR subsidy and non-subsidised fees; do not use them as an international/default cohort quote. Miscellaneous fees and subsidy eligibility are separate and require confirmation.",
+          "applicationOpen": "2026-09-03",
+          "applicationFee": null
         },
         {
           "id": "SG-SIT-P002-O2",
@@ -3143,11 +3190,13 @@
           "duration": "5 trimesters; overview lists 2 years",
           "intake": "5 January 2027",
           "deadline": "2026-09-30",
-          "deadlineNote": "Published application window is already closed as of 6 October 2026.",
+          "deadlineNote": "January 2027 published application window: 3-30 September 2026; already passed as of 24 October. Later payment/documents, interview, outcome and acceptance dates are not extended application deadlines. No exact closing time, extension or next intake was established.",
           "academicYear": "January 2027 intake",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "January 2027 tuition and application-fee amounts remain unconfirmed. Undated programme examples distinguish Singapore Citizen/PR subsidy and non-subsidised fees; do not use them as an international/default cohort quote. Miscellaneous fees and subsidy eligibility are separate and require confirmation.",
+          "applicationOpen": "2026-09-03",
+          "applicationFee": null
         }
       ],
       "rules": [
@@ -3159,10 +3208,10 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Academic standing and equivalence",
-          "labelEn": "Academic standing and equivalence",
-          "noteZh": "An engineering bachelor's degree or accepted equivalent and at least one year of relevant post-bachelor experience.",
-          "noteEn": "An engineering bachelor's degree or accepted equivalent and at least one year of relevant post-bachelor experience.",
+          "labelZh": "",
+          "labelEn": "Civil Engineering accreditation and generic equivalence wording",
+          "noteZh": "",
+          "noteEn": "The programme page specifically requires an accredited bachelor degree in Civil Engineering (including SIT-Glasgow BEng). The central engineering overview allows an Engineering bachelor degree or equivalent. The narrower programme requirement, accreditation and any accepted equivalence need SIT confirmation; generic wording does not establish that every Engineering major is accepted.",
           "mandatory": true,
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
         },
@@ -3175,36 +3224,73 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Engineering-degree equivalence, relevance and timing of experience need confirmation; SIT IWSP can count.",
-          "noteEn": "Engineering-degree equivalence, relevance and timing of experience need confirmation; SIT IWSP can count.",
+          "labelZh": "",
+          "labelEn": "Relevant post-bachelor experience and IWSP",
+          "noteZh": "",
+          "noteEn": "At least one year of relevant post-bachelor working experience is published, including SIT IWSP. Reported total years alone do not establish relevance or qualifying timing; the IWSP inclusion must be confirmed for the applicant.",
           "mandatory": true,
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "English proficiency is required for non-native speakers; the linked international guide's numeric thresholds remain uncollected.",
-          "noteEn": "English proficiency is required for non-native speakers; the linked international guide's numeric thresholds remain uncollected.",
+          "labelZh": "",
+          "labelEn": "English applicability and guide scores pending visual confirmation",
+          "noteZh": "",
+          "noteEn": "The central page requires English results for non-native English speakers. The linked international-qualification guide text instead refers to an international bachelor degree not taught in English. Its Engineering/Infocomm table text lists IELTS Academic 6.0 and TOEFL iBT 85, but the PDF image could not be retrieved for visual confirmation. No new-scale TOEFL cutoff is stated. Keep applicability, table interpretation and score thresholds manual; English-medium study is not an automatic exemption in this record.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English validity, alternatives and documents",
+          "noteZh": "",
+          "noteEn": "The text-read guide measures test validity within two years before application, not today. Other listed alternatives include SAT reading/writing 600, ACT-with-writing composite 29, O-Level English/EL1119 C6 and Cambridge C1 Advanced/C2 Proficiency; interpretation and the Cambridge table require confirmation. A relevant completed stackable SIT course may be considered for English satisfaction; a SIT English test may be invited, neither is automatic. Degree certificate/transcript and certified translations for non-English documents are required by the guide. PDF visual verification and newer TOEFL-scale policy remain outstanding.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Study length, curriculum and interview",
+          "noteZh": "",
+          "noteEn": "Programme mode text gives FT 3 trimesters / PT 5 trimesters and maximum candidature 4 years, while the overview says 2 years. Confirm the applicable duration rather than add the figures. Classes are weekday evenings. Ten coursework modules or eight plus an industrial dissertation are offered; dissertation access requires good academic standing and does not itself make the MSc a research-admission programme. Shortlisted applicants are interviewed; no interview outcome is guaranteed.",
           "mandatory": true,
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Cohort fees, subsidy and application-stage dates",
+          "noteZh": "",
+          "noteEn": "The programme displays undated Singapore Citizen tuition 8,970, PR 18,180 and non-subsidised 36,069, with a separate international fee-structure link. Central policy fixes AY2022-onward rates by cohort/subsidy status and limits subsidy based on relevant professional recognition and previous government-subsidised postgraduate study. The January 2027 cohort quote, GST treatment, international applicability and application-fee amount were not established. Do not assume a subsidy from nationality. One-week post-closing payment/document timing, 1-23 October shortlisting and 27 October-3 November outcome/acceptance are not a reopened application window.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees"
         }
       ],
       "sources": [
         {
           "url": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "January 2027 window, specific Civil Engineering eligibility, mode durations, curriculum and undated fee examples",
+          "checkedOn": "2026-10-24"
         },
         {
           "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements",
-          "purpose": "Engineering academic and experience requirements",
-          "checkedOn": "2026-10-06"
+          "purpose": "Central generic Engineering/equivalent, experience and English applicability wording",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees",
+          "purpose": "Cohort/subsidy policy and separate miscellaneous fees; no cohort quote obtained",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications",
+          "purpose": "Both pages text-read only; PDF visual retrieval unavailable, applicability and table confirmation pending",
+          "checkedOn": "2026-10-24"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "hkust-sit-refresh-2026-10-24",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -3213,7 +3299,7 @@
         },
         "major": {
           "status": "known",
-          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "noteEn": "Specific accredited Civil Engineering requirement is narrower than the central generic engineering/equivalence wording; no exhaustive automatic field whitelist is asserted.",
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
         },
         "gpa": {
@@ -3223,17 +3309,17 @@
         },
         "language": {
           "status": "unknown",
-          "noteEn": "Numeric thresholds were not captured. Do not assume the programme has no English requirement.",
-          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+          "noteEn": "Guide text has IELTS 6.0 / TOEFL iBT 85, but PDF visual confirmation and applicability against central native-language wording remain unresolved; no new automated thresholds imported.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+          "noteEn": "Undated nationality/subsidy examples do not establish a January 2027 cohort quote, international/GST basis or application-fee amount.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Explicit 3-30 September 2026 window for 5 January 2027 intake; later administrative stages do not extend it, exact closing time unknown.",
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
         },
         "independentReview": {

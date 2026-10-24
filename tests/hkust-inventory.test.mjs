@@ -67,14 +67,16 @@ test('MBA modes have one candidate identity with two distinct unresolved directo
   assert.match(links.listings.find(l => l.programmeId === mba.programmeId).noteEn, /grouped, not interchangeable/);
 });
 
-test('new directory year cannot relabel older checked admissions or offering amounts', () => {
+test('directory attachment preserves the independently checked programme cohort, amounts and source date', () => {
   const db = new CatalogueStore(':memory:', options);
   try {
     const current = db.get('HK-HKUST-P002'), original = checked.programmes.find(p => p.id === current.id);
-    assert.equal(current.academicYear, '2026/27'); assert.equal(current.lastChecked, '2026-10-06');
+    assert.equal(current.academicYear, '2027/28'); assert.equal(current.lastChecked, '2026-10-24');
+    assert.equal(current.academicYear, original.academicYear); assert.equal(current.lastChecked, original.lastChecked);
     assert.deepEqual(current.offerings, original.offerings); assert.deepEqual(current.rules, original.rules);
     assert.ok(current.directoryListing.programmeUrl.includes('/2027-28/'));
-    assert.ok(current.officialUrl.includes('/2026-27/'));
+    assert.ok(current.officialUrl.includes('/2027-28/'));
+    assert.equal(current.officialUrl, original.officialUrl); assert.deepEqual(current.sources, original.sources);
     assert.match(current.directoryListing.noteEn, /does not refresh older-cycle/);
     const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 870); assert.equal(q.checked, 21); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.transferOnly, 1); assert.deepEqual(q.sourceRefreshConflicts, []);
   } finally { db.close(); }

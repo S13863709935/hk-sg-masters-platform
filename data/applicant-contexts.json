@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-23",
+  "checkedOn": "2026-10-24",
   "contexts": [
     {
       "programmeId": "HK-EDUHK-P001",
@@ -496,6 +496,150 @@
               "label": "Category final cutoff",
               "applicationOpen": null,
               "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKUST-P002",
+      "routeId": null,
+      "offeringId": "HK-HKUST-P002-O1",
+      "offeringFingerprint": "0d7b574d47aaf875ef60b886b9fdac8221005b17124b9947ddc88b074f6b7e50",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-24",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+      "dateSourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+      "noteEn": "HKUST ordinary direct-entry MSc(DISC), September 2027 / 2027/28 only. Mode-specific tuition is common to the two published applicant categories, but final deadlines differ. Opening dates and exact cutoff times are not established. HKUST decides visa/entry-permit classification and part-time permission; category selection is not eligibility, subsidy or immigration advice. Competitive rolling selection and pathway fee exceptions require confirmation.",
+      "options": [
+        {
+          "id": "HK-HKUST-P002-O1-LOCAL",
+          "label": "Local applicant - HKUST category",
+          "currency": "HKD",
+          "tuition": 270000,
+          "feeBasis": "2027/28 ordinary direct-entry MSc total: HKD 270000, two instalments; not an annual amount. Additional/retaken courses cost extra. Ordinary credit transfer does not reduce the full fee; the HKUST integrated Bachelor-Master pathway has a separate pro-rata exception requiring confirmation. Excludes the separate HKD 600 application fee and conditional MEng year-two fee.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-05-15",
+          "deadlineNote": "2027/28 September MSc intake; Round 1 closes 15 December 2026, Round 2 closes 15 May 2027. Competitive rolling review may end earlier. No opening date, exact cutoff time or live portal check; classification and part-time permission need university confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-05-15",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKUST-P002-O1-NONLOCAL",
+          "label": "Non-local applicant - HKUST category",
+          "currency": "HKD",
+          "tuition": 270000,
+          "feeBasis": "2027/28 ordinary direct-entry MSc total: HKD 270000, two instalments; not an annual amount. Additional/retaken courses cost extra. Ordinary credit transfer does not reduce the full fee; the HKUST integrated Bachelor-Master pathway has a separate pro-rata exception requiring confirmation. Excludes the separate HKD 600 application fee and conditional MEng year-two fee.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-04-01",
+          "deadlineNote": "2027/28 September MSc intake; Round 1 closes 15 December 2026, Round 2 closes 1 April 2027. Competitive rolling review may end earlier. No opening date, exact cutoff time or live portal check; classification and part-time permission need university confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKUST-P002",
+      "routeId": null,
+      "offeringId": "HK-HKUST-P002-O2",
+      "offeringFingerprint": "ed2bd7fae6c83b6728daa49c195a632138b06bf2d96afa7423f7827e1eef27d0",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-24",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+      "dateSourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+      "noteEn": "HKUST ordinary direct-entry MSc(DISC), September 2027 / 2027/28 only. Mode-specific tuition is common to the two published applicant categories, but final deadlines differ. Opening dates and exact cutoff times are not established. HKUST decides visa/entry-permit classification and part-time permission; category selection is not eligibility, subsidy or immigration advice. Competitive rolling selection and pathway fee exceptions require confirmation.",
+      "options": [
+        {
+          "id": "HK-HKUST-P002-O2-LOCAL",
+          "label": "Local applicant - HKUST category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "2027/28 ordinary direct-entry MSc total: HKD 230000, four instalments; not an annual amount. Additional/retaken courses cost extra. Ordinary credit transfer does not reduce the full fee; the HKUST integrated Bachelor-Master pathway has a separate pro-rata exception requiring confirmation. Excludes the separate HKD 600 application fee and conditional MEng year-two fee.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-05-15",
+          "deadlineNote": "2027/28 September MSc intake; Round 1 closes 15 December 2026, Round 2 closes 15 May 2027. Competitive rolling review may end earlier. No opening date, exact cutoff time or live portal check; classification and part-time permission need university confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-05-15",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKUST-P002-O2-NONLOCAL",
+          "label": "Non-local applicant - HKUST category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "2027/28 ordinary direct-entry MSc total: HKD 230000, four instalments; not an annual amount. Additional/retaken courses cost extra. Ordinary credit transfer does not reduce the full fee; the HKUST integrated Bachelor-Master pathway has a separate pro-rata exception requiring confirmation. Excludes the separate HKD 600 application fee and conditional MEng year-two fee.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-04-01",
+          "deadlineNote": "2027/28 September MSc intake; Round 1 closes 15 December 2026, Round 2 closes 1 April 2027. Competitive rolling review may end earlier. No opening date, exact cutoff time or live portal check; classification and part-time permission need university confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-01",
               "deadlineAt": null
             }
           ]

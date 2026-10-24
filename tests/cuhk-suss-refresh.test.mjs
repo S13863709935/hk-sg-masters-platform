@@ -17,7 +17,8 @@ const profile = { major: 'Synthetic Data QA', degreeStatus: 'graduated', classif
 const manual = (p, label) => p.rules.find(r => r.kind === 'manual' && r.labelEn === label);
 
 test('the two-programme refresh keeps independent review pending and leaves earlier source dates intact', () => {
-  assert.equal(batch.checkedOn, observation.checkedOn);
+  assert.equal(batch.checkedOn, batch.programmes.map(p => p.lastChecked).sort().at(-1));
+  assert.equal(observation.checkedOn, '2026-10-23');
   assert.deepEqual(batch.programmes.filter(p => p.researchBatch === 'cuhk-suss-refresh-2026-10-23').map(p => p.id), [cu.id, su.id]);
   for (const p of [cu, su]) {
     assert.equal(p.lastChecked, observation.checkedOn);

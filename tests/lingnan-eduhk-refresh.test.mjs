@@ -86,7 +86,7 @@ test('EdUHK September has distinct application fees, central opening and three c
   }
   const context = [...contexts.values()].find(c => c.offeringId === ed.id + '-O2');
   assert.equal(context.offeringFingerprint, offeringFingerprint(ed.offerings[1]));
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 11, categories: 22, peerReviewed: 0 });
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 13, categories: 26, peerReviewed: 0 });
 });
 
 test('EdUHK September next-round transitions and final dates stay within the selected category', () => {
@@ -167,6 +167,6 @@ test('saved choices and candidate exports retain fresh evidence while read-only 
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined); assert.equal(exported.rememberedChoice, true);
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.checked, 21); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 11, categories: 22, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 13, categories: 26, peerReviewed: 0 });
   assert.equal(JSON.stringify([store.get(lu.id), store.get(ed.id)]), before);
 });

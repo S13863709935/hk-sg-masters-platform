@@ -120,7 +120,7 @@ test('a removed offering is flagged while other saved programmes remain usable, 
     const result = await resolved([context, saved]);
     assert.equal(result[0].status, 'needs_attention'); assert.equal(result[0].programme, undefined); assert.equal(result[1].status, 'resolved');
     const [repaired] = await resolved([{ programmeId: original.id, offeringId: original.id + '-O1' }]);
-    assert.equal(repaired.status, 'resolved'); assert.equal(repaired.programme.offerings[0].tuition, 270000);
+    assert.equal(repaired.status, 'resolved'); assert.equal(repaired.programme.offerings[0].tuition, null); assert.equal(repaired.programme.applicationTimeline.state, 'applicant_required');
   } finally { store.importBatch({ schemaVersion: 1, programmes: [original] }, 'Restore in-memory regression fixture'); }
 });
 test('invalid context entries do not reflect hidden profile or price fields', async () => {

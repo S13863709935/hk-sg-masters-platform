@@ -154,6 +154,6 @@ test('read-only SUTD lookups do not mutate evidence or promote catalogue, review
   const meta = await get('/api/meta');
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 21);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 11, categories: 22, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 13, categories: 26, peerReviewed: 0 });
   assert.equal(JSON.stringify([store.get(ma.id), store.get(mt.id)]), before);
 });
