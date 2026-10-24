@@ -4288,6 +4288,414 @@
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
         }
       }
+    },
+    {
+      "id": "HK-HKUST-P016",
+      "universityId": "HK-HKUST",
+      "name": "MSc Big Data Technology",
+      "award": "MSc",
+      "area": "Data & AI",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-24",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "researchBatch": "beyond-pilot-data-science-2026-10-24",
+      "faculty": "Department of Computer Science and Engineering / Department of Mathematics",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt",
+      "notesEn": "First programme-page observation of this existing Hong Kong taught MSc directory identity. September 2027 FT and PT have different total tuition, not different applicant categories. Published rounds are common to local/non-local applicants. Other-discipline applicants need relevant IT and mathematics experience, but no universal or numeric work-year minimum is published. Graduation GGA 2.850 is not an entry GPA. Ordinary credit transfer, the specific MicroMasters exception and the restricted integrated pathway must not be conflated. Opening times, evidence/waiver decisions, special-fee eligibility and independent review remain unconfirmed.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P016-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 350000,
+          "feeBasis": "2027/28 ordinary MSc BDT total HKD 350,000, paid in two instalments; not an annual fee multiplied by study years. Ordinary credit transfer still pays the full fee and additional/retaken courses cost extra. The approved complete MicroMasters certificate and restricted integrated Bachelor-Master pathway have separate conditional reductions, not automatically deducted here. Separate HKD 600 application fee; no automatic scholarship deduction.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "deadlineNote": "September 2027 / 2027/28 MSc BDT only. Local/non-local and FT/PT share Round 1 on 1 December 2026 and Round 2 on 1 March 2027. Exact opening and cutoff times are not established; rolling competitive review and study-mode/visa permission need confirmation. MicroMasters completion/transfer dates are not programme admission deadlines.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKUST-P016-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 290000,
+          "feeBasis": "2027/28 ordinary MSc BDT total HKD 290,000, paid in four instalments; not an annual fee multiplied by study years. Ordinary credit transfer still pays the full fee and additional/retaken courses cost extra. The approved complete MicroMasters certificate and restricted integrated Bachelor-Master pathway have separate conditional reductions, not automatically deducted here. Separate HKD 600 application fee; no automatic scholarship deduction.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "deadlineNote": "September 2027 / 2027/28 MSc BDT only. Local/non-local and FT/PT share Round 1 on 1 December 2026 and Round 2 on 1 March 2027. Exact opening and cutoff times are not established; rolling competitive review and study-mode/visa permission need confirmation. MicroMasters completion/transfer dates are not programme admission deadlines.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor degree or accepted equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Computing / mathematics or reviewed related/experience route",
+          "accepted": [
+            "Computer Engineering",
+            "Computer Science",
+            "Mathematics"
+          ],
+          "any": false,
+          "relatedAllowed": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and date-specific TOEFL iBT thresholds",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Alternative discipline and unquantified relevant experience",
+          "noteZh": "",
+          "noteEn": "Route A: bachelor in Computer Engineering, Computer Science, Mathematics or a related area; OR Route B: bachelor in another discipline AND relevant work experience in IT and Mathematics related fields. Recognition, relatedness and relevant experience require HKUST judgement. No numeric work-year minimum or post-qualification timing is stated in these programme admissions sections; do not copy the separate MSc AI two-year condition or impose experience on every applicant. No generic numeric entry GPA or honours minimum is published here. GGA 2.850 is a graduation requirement.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English waivers, legacy formats and unresolved validity",
+          "noteZh": "",
+          "noteEn": "English first language or a bachelor/equivalent taught in English may support a waiver subject to university acceptance. Legacy TOEFL pBT 550 and revised paper-delivered 60 are published but not modelled. IELTS/iBT must be from a single sitting and not at home. A score-validity anchor was not established here, so no expiry countdown from today is created.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Three distinct credit-transfer and fee arrangements",
+          "noteZh": "",
+          "noteEn": "Ordinary transfer permits up to 9 credits with approval but retains full tuition. The complete HKUST/edX Big Data Technology MicroMasters certificate can support an approved 9-credit transfer, four-core-course exemption with a 3-credit Independent Project substitute and HKD 13,000 reduction applied in the second term. Complete the entire MicroMasters by 30 June 2027 and submit transfer documents by 30 July 2027; matching certificate/identity names are required and individual courses or late submissions do not suffice. These are transfer milestones, not MSc admission cutoffs. The separate integrated Bachelor-Master pathway is restricted to eligible HKUST Year 3-or-above students, with up to 6 credits and pro-rata fees for at least 24 credits. No exception is applied to the ordinary fee automatically.",
+          "mandatory": true,
+          "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-bdt"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Coursework and study-mode permission",
+          "noteZh": "",
+          "noteEn": "Thirty coursework credits: 12 core and 18 elective. The school describes on-campus weekday-evening/Saturday teaching and project opportunities; these do not make it a research-admission degree. Part-time study has a maximum of 9 credits per term. Shared category deadlines do not determine visa classification, part-time permission or admission. Older-cohort scholarship news is not a 2027/28 entitlement.",
+          "mandatory": true,
+          "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-bdt"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt",
+          "purpose": "2027/28 taught MSc identity, modes, total fees, alternative academic routes, language, ordinary/integrated transfers and common rounds",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-bdt",
+          "purpose": "Fall 2027/28 instalments, shared cutoffs and complete MicroMasters-specific reduction/milestones",
+          "checkedOn": "2026-10-24"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 / 2027/28 explicitly stated.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Computing/mathematics areas explicit; relatedness and other-discipline experience remain manual.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No generic numeric entry GPA or honours cutoff found; graduation GGA is not admission.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS components, TOEFL scale/date boundary, single attempt and no-at-home recorded; waiver/validity remain manual.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Ordinary FT/PT totals differ, paid in two/four instalments; conditional transfer/pathway reductions not applied.",
+          "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-bdt"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Common December/March date-only rounds; opening and cutoff times unconfirmed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial check only; independent human review and complete criteria still missing.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt"
+        }
+      }
+    },
+    {
+      "id": "SG-NUS-P032",
+      "universityId": "SG-NUS",
+      "name": "MSc Data Science and Machine Learning",
+      "award": "MSc",
+      "area": "Data & AI",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-24",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "researchBatch": "beyond-pilot-data-science-2026-10-24",
+      "faculty": "Faculty of Science / Centre for Data Science and Machine Learning",
+      "officialUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/",
+      "notesEn": "First programme-page observation of the existing coursework MSc directory identity, August 2027 only. Store the regular cycle (1 October 2026 to 31 January 2027), not a continuous window across the closed early cycle. FT/PT and the three documented unsponsored fee cases are explicit; no category is inferred from residence or background. Honours/four-year and named disciplines are normal routes with FAQ exceptions requiring review, not universal automated rejection gates. No numeric entry GPA is published; GPA 3.00 is for graduation. Fee-PDF text and footnotes were read, but visual PDF verification was unavailable; funded/local special cases, evidence assessment and independent review remain unresolved.",
+      "offerings": [
+        {
+          "id": "SG-NUS-P032-AUG2027-FT",
+          "mode": "Full-time",
+          "duration": "1 to 2 years",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": "Choose the documented fee eligibility case; no default tuition is assumed. AY2027/28 linked fee schedules include GST and acceptance payments in the programme total. Scholarship/sponsorship, rebate/study-award qualification, extra courses and semester miscellaneous fees require separate confirmation.",
+          "applicationFee": 100,
+          "applicationOpen": "2026-10-01",
+          "deadline": "2027-01-31",
+          "deadlineNote": "August 2027 regular admission cycle: 1 October 2026 to 31 January 2027, applicable to published FT/PT choices. The earlier 16 May to 15 July 2026 cycle is closed and leads to the same August intake, not a second intake or one uninterrupted window. No precise cutoff time or live portal session was checked."
+        },
+        {
+          "id": "SG-NUS-P032-AUG2027-PT",
+          "mode": "Part-time",
+          "duration": "2 to 4 years",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": "Choose the documented fee eligibility case; no default tuition is assumed. AY2027/28 linked fee schedules include GST and acceptance payments in the programme total. Scholarship/sponsorship, rebate/study-award qualification, extra courses and semester miscellaneous fees require separate confirmation.",
+          "applicationFee": 100,
+          "applicationOpen": "2026-10-01",
+          "deadline": "2027-01-31",
+          "deadlineNote": "August 2027 regular admission cycle: 1 October 2026 to 31 January 2027, applicable to published FT/PT choices. The earlier 16 May to 15 July 2026 cycle is closed and leads to the same August intake, not a second intake or one uninterrupted window. No precise cutoff time or live portal session was checked."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or reviewed equivalent; normal honours/four-year route assessed separately",
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Quantitative science / engineering / computing or reviewed alternative background",
+          "accepted": [
+            "Mathematics",
+            "Statistics",
+            "Physics",
+            "Engineering",
+            "Computing Science",
+            "Computer Science"
+          ],
+          "any": false,
+          "relatedAllowed": true,
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific IELTS and date-specific TOEFL totals",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 85,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Normal academic routes and FAQ exceptions",
+          "noteZh": "",
+          "noteEn": "Normal entry is a bachelor honours degree OR four-year bachelor/equivalent in quantitative science, Engineering or Computing Science. The FAQ also welcomes other fields based on relevant knowledge/experience and permits a strong-grades application without honours/four-year study, with no admission guarantee. Do not enforce honours alone, reject every three-year degree, linearly convert GPA or create a numeric cutoff. Recognition, prior CS/statistics courses and strength of the record require NUS review; 3.00 GPA is a graduation criterion, not admission. Work and programming experience are advantageous, not mandatory.",
+          "mandatory": true,
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/msc-dsml-faq/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English scope, waiver evidence and application-time validity",
+          "noteZh": "",
+          "noteEn": "The prospective page requires English evidence when BOTH the country's native language is not English AND university instruction is not completely English; the FAQ uses and/or wording and separately permits entirely English-medium postgraduate education. Keep this scope/waiver interpretation for university confirmation, not automatic exemption. Tests must be at authorised centres; TOEFL Home Edition and IELTS Online are not accepted. No IELTS sub-score or single-sitting condition was established. Scores must not be expired at application and are valid two years from test date; no rolling validity check against today.",
+          "mandatory": true,
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/msc-dsml-faq/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Fee cases, funding exclusions and PDF verification limit",
+          "noteZh": "",
+          "noteEn": "Linked AY2027/28 PDFs distinguish international standard SGD 58,860, eligible international NUS alumni SGD 47,088 (20% rebate), and eligible Singapore citizen/PR SGD 29,866 after a 40% rebate plus the cohort-only SGD 5,450 study award. Scholarship/sponsorship excludes rebates; funded local cases and award interaction need a separate quote and are not assigned a generic price. Category choice is a self-selected comparison case, not proof of eligibility. Both full-time and part-time totals include 9% GST and the SGD 10,900 acceptance payment (early cycle splits it into two SGD 5,450 payments); do not add acceptance twice. Standard/alumni/local PDFs have different payment schedules. Extra/repeated/replacement courses and compulsory semester miscellaneous fees are separate; rebates are not assumed on extra courses. PDF text and footnotes were read; screenshot output exposed no images and direct downloads returned non-PDF content, so visual/table verification remains pending.",
+          "mandatory": true,
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting documents and conditional completion",
+          "noteZh": "",
+          "noteEn": "Published evidence includes identity/pass documents as applicable, official transcripts and grading system/GPA evidence, degree scroll or student-status letter for current students, CV, applicable English report and financial evidence. A bank/savings statement of SGD 30,000 (sponsor letter if relevant) OR approved scholarship/sponsorship/loan evidence is published; it is not extra tuition or a numeric GPA gate. GRE and referee reports are not required; personal statement and internship certificates are optional. An unfinished degree needs a conditional-offer review, not automatic eligibility. No documents are collected or applications submitted by this platform.",
+          "mandatory": true,
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Coursework, calendar and current-cycle limits",
+          "noteZh": "",
+          "noteEn": "Forty units comprise five core and five elective courses. The programme has one annual August intake; early and regular applicants start together. Classes are normally weekday evenings/Saturdays, with some weekday daytime core teaching from AY2025/26. Regular-cycle outcome is due by 30 June 2027, not the application deadline. Mode permission, fee eligibility, recognition, capacity and current portal status remain for NUS confirmation.",
+          "mandatory": true,
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/msc-dsml-faq/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/",
+          "purpose": "Coursework/FT/PT August 2027 identity, academic and English thresholds, exact early/regular dates, fee-document links and application evidence",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/msc-dsml-faq/",
+          "purpose": "Alternative degree/discipline applications, optional experience, waiver/delivery caveats, one August intake and graduation GPA distinction",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.math.nus.edu.sg/MDSML-AY2027-International-Students/",
+          "purpose": "AY2027/28 international and eligible NUS-alumni tuition, deposit-included schedules and funding/extras footnotes; text extraction only",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.math.nus.edu.sg/MDSML-AY2027-Local-Students/",
+          "purpose": "AY2027/28 citizen/PR rebate, one-cohort study award and total with funding/extras footnotes; text extraction only",
+          "checkedOn": "2026-10-24"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "August 2027 stated in application directions; linked fee PDFs explicitly identify AY2027/28.",
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Normal fields and FAQ alternative-background assessment retained; no automatic exclusion of other disciplines.",
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA found; honours/four-year normal path has FAQ exceptions and graduation GPA 3.00 is separate.",
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/msc-dsml-faq/"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0 and TOEFL 85/4.5 explicit; waiver-scope difference and two-year application-time validity remain manual.",
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Three documented eligible fee cases from linked PDFs, no default; funded local and special-case qualification unresolved. PDF text only, visual verification pending.",
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Current regular cycle 1 October 2026 to 31 January 2027; earlier closed cycle not merged, no intraday cutoff.",
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review, visual fee-table acceptance or complete requirement set.",
+          "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
+        }
+      }
     }
   ]
 }

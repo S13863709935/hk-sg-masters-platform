@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-24",
+  "method": "AI-assisted official HTML and fee-PDF text reading. Web screenshot results exposed text placeholders only; direct public PDF downloads returned non-PDF responses and could not be rendered. No visual PDF verification, portal session, independent human review or application submission is claimed.",
+  "sources": {
+    "hkustCatalogue": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt",
+    "hkustSchool": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-bdt",
+    "nusProgramme": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/",
+    "nusFaq": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/msc-dsml-faq/",
+    "nusInternationalFees": "https://www.math.nus.edu.sg/MDSML-AY2027-International-Students/",
+    "nusLocalFees": "https://www.math.nus.edu.sg/MDSML-AY2027-Local-Students/"
+  },
+  "hkust": {
+    "programmeId": "HK-HKUST-P016",
+    "year": "2027/28",
+    "intake": "September 2027",
+    "modes": [
+      {
+        "id": "HK-HKUST-P016-SEP2027-FT",
+        "mode": "Full-time",
+        "duration": "1 year",
+        "tuitionHkd": 350000
+      },
+      {
+        "id": "HK-HKUST-P016-SEP2027-PT",
+        "mode": "Part-time",
+        "duration": "2 years",
+        "tuitionHkd": 290000
+      }
+    ],
+    "applicationFeeHkd": 600,
+    "sharedRounds": [
+      "2026-12-01",
+      "2027-03-01"
+    ],
+    "opening": null,
+    "academicRoutes": [
+      "CE/CS/Mathematics/related bachelor",
+      "Other bachelor AND relevant IT and Mathematics experience, no numeric years stated"
+    ],
+    "graduationGgaNotAdmissionGpa": 2.85,
+    "microMasters": {
+      "completeBy": "2027-06-30",
+      "transferDocumentsBy": "2027-07-30",
+      "conditionalReductionHkd": 13000,
+      "applied": "Second term, subject to approved full-certificate application",
+      "notAdmissionDeadlines": true
+    },
+    "ordinaryTransferMaximumCredits": 9,
+    "integrated": {
+      "maximumPriorCredits": 6,
+      "minimumChargedCredits": 24
+    },
+    "decision": "Ordinary fees mode-specific; common category rounds need no invented applicant selector. No universal two-year experience rule or automatically deducted transfer discount."
+  },
+  "nus": {
+    "programmeId": "SG-NUS-P032",
+    "year": "2027/28",
+    "intake": "August 2027",
+    "modes": [
+      {
+        "id": "SG-NUS-P032-AUG2027-FT",
+        "mode": "Full-time",
+        "duration": "1 to 2 years"
+      },
+      {
+        "id": "SG-NUS-P032-AUG2027-PT",
+        "mode": "Part-time",
+        "duration": "2 to 4 years"
+      }
+    ],
+    "cycle": {
+      "recorded": "Regular",
+      "applicationOpen": "2026-10-01",
+      "deadline": "2027-01-31",
+      "outcomeBy": "2027-06-30",
+      "closedEarlyCycle": {
+        "applicationOpen": "2026-05-16",
+        "deadline": "2026-07-15",
+        "sameIntake": true
+      },
+      "exactCutoffTime": null
+    },
+    "normalAcademicPath": "Honours OR four-year bachelor/equivalent, quantitative science/engineering/computing; FAQ exceptions for other fields and strong academic grades without normal degree length",
+    "numericEntryGpa": null,
+    "graduationGpaNotAdmissionGpa": 3,
+    "experienceAndProgramming": "Advantageous, not mandatory",
+    "english": {
+      "ieltsTotal": 6,
+      "ieltsEach": null,
+      "toeflOld": 85,
+      "toeflNew": 4.5,
+      "scaleChange": "2026-01-21",
+      "atHomeAccepted": false,
+      "singleAttemptPolicy": null,
+      "validity": "Two years from test; unexpired at application, not a today-based countdown",
+      "waiverScope": "Main page AND vs FAQ and/or; entirely English-medium postgraduate evidence subject to confirmation"
+    },
+    "fees": {
+      "pdfUpdated": {
+        "international": "2026-07-23",
+        "local": "2026-10-06"
+      },
+      "gstPercent": 9,
+      "cases": [
+        {
+          "id": "INTERNATIONAL-STANDARD",
+          "label": "International student - standard fee case",
+          "tuitionSgd": 58860,
+          "note": "International standard 10-course programme total, not the eligible NUS-alumni concession. Funding payable by the student/sponsor is not calculated."
+        },
+        {
+          "id": "INTERNATIONAL-ALUMNI",
+          "label": "International NUS alumnus - eligible, not scholarship/sponsored",
+          "tuitionSgd": 47088,
+          "note": "International NUS-alumni total after the documented 20% rebate, only if eligible and not on scholarship/sponsorship. No additional rebate is stacked."
+        },
+        {
+          "id": "SC-PR-ELIGIBLE",
+          "label": "Singapore citizen / PR - eligible, not scholarship/sponsored",
+          "tuitionSgd": 29866,
+          "note": "Singapore citizen/PR total after the documented 40% rebate and cohort-only SGD 5,450 study award; not a general or future-cohort price. Scholarship/sponsored local cases require a separate university quote."
+        }
+      ],
+      "applicationFeeSgd": 100,
+      "acceptanceTotalIncludedSgd": 10900,
+      "earlyAcceptanceSplitSgd": [
+        5450,
+        5450
+      ],
+      "studyAwardCohortOnlySgd": 5450,
+      "fundedLocalPrice": null,
+      "extraCourseSgd": {
+        "nonLab": 5886,
+        "lab": 6322,
+        "note": "Level-5000 list; level-4000 and DSA5201 may differ; extra-course rebates not assumed"
+      },
+      "miscellaneous": "Compulsory per semester, amount not captured",
+      "visualPdfVerified": false
+    },
+    "documents": "Identity/pass as applicable, official transcript/grading/GPA evidence, degree or student status, CV, applicable English report, financial statement or approved scholarship/sponsorship/loan. GRE/referees not required; statement/internship evidence optional.",
+    "decision": "Regular-cycle-only stored dates avoid claiming a continuous early-to-regular opening. Three documented eligible fee cases per mode; no fallback price for funded local/unknown cases. FAQ alternatives, waiver ambiguity, financial evidence and PDF verification remain manual."
+  },
+  "limits": {
+    "existingDirectoryIdsUpgraded": 2,
+    "netNewCatalogueRecords": 0,
+    "newApplicantContexts": 2,
+    "newCategoryOptions": 6,
+    "previousProgrammeObjectsChanged": 0,
+    "previousContextObjectsChanged": 0,
+    "pilotIdsChanged": 0,
+    "independentHumanReviews": 0,
+    "completeRequirementSets": 0,
+    "softwareChanges": false
+  }
+}
