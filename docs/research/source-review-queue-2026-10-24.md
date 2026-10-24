@@ -23,7 +23,7 @@
 
 | 优先顺序 | 稳定 ID／官方来源 | 原查阅日 | 尚未确认字段 | 未公布字段（不补造门槛） |
 | --- | --- | --- | --- | --- |
-| 先查：14 日内有记录截止 | HK-CUHK-P001 · [MA Anthropology](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology>) | 2026-10-23 | major, tuition | gpa |
+| 先查：14 日内有记录截止 | HK-CUHK-P001 · [MA Anthropology](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology>) | 2026-10-24 | major, tuition | gpa |
 | 先查：14 日内有记录截止 | HK-HKUST-P001 · [MSc Civil Infrastructural Engineering and Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
 | 先解决未确认依据 | HK-EDUHK-P001 · [Master of Public Policy and Management](<https://www.eduhk.hk/ssps/mppm>) | 2026-10-23 | major, deadline | gpa |
 | 先解决未确认依据 | HK-HKBU-P001 · [MA Communication](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication>) | 2026-10-23 | major | gpa |
@@ -85,8 +85,8 @@
 
 ## 截止优先项
 
-- HK-CUHK-P001 / HK-CUHK-P001-O1：记录截止 2026-10-31，距快照 7 天；来源查阅 2026-10-23。须检查最新状态、类别和确切时间。
-- HK-CUHK-P001 / HK-CUHK-P001-O2：记录截止 2026-10-31，距快照 7 天；来源查阅 2026-10-23。须检查最新状态、类别和确切时间。
+- HK-CUHK-P001 / HK-CUHK-P001-O1：记录截止 2026-10-31，距快照 7 天；来源查阅 2026-10-24。须检查最新状态、类别和确切时间。
+- HK-CUHK-P001 / HK-CUHK-P001-O2：记录截止 2026-10-31，距快照 7 天；来源查阅 2026-10-24。须检查最新状态、类别和确切时间。
 - HK-HKUST-P001 / HK-HKUST-P001-FEB2027-PT：记录截止 2026-11-01，距快照 8 天；来源查阅 2026-10-24。须检查最新状态、类别和确切时间。
 
 ## 可重复检查
@@ -104,11 +104,11 @@ JSON 输出含逐条来源、字段说明、人工条件、类别与记录截止
 
 - `data/catalogue.json`: `319efc86d0cb69e7798775cf645545d445253ab0edc8b58b0a70b8905cff1792`
 - `data/catalogue-expansion.json`: `a9dc5dc89ae2ec651d383da29954b404549feda2bda2f5527d50790126cfd489`
-- `data/checked-programmes.json`: `9d87b3571359a4284482b99d9c0b7d96de1543f95dcd13632de2b90cd0047e58`
+- `data/checked-programmes.json`: `3d2d50d07ae9269515e350817b95459db3021bd9a9fa4fbea86f6d32dca44440`
 - `data/directory-audit.json`: `6943222bfbed8c1250af519e53cad92bb39aae2fee58d69fbdc247784cb38ff8`
 - `data/programme-scope-audit.json`: `95336c13de560005db1dc39da9a6343c3d4a27b1e5f08e30c1230b87e70b781f`
 - `data/directory-links.json`: `5e1a684bc823ee3985393c9482509d6b741bdcfe124c9fd62f7e6f0b62420b0b`
 - `data/route-programmes.json`: `63acd7abde67beb69223d1bd4c0e8679de11f83e04684153c37c784cde6a6ef1`
 - `data/applicant-contexts.json`: `2ea85ffbcde93a1b9fe3e90b738b225bdda826ef24f8e48e17db0b94bb97ae97`
 
-清单指纹：`5d7bfb538038ca63026e19a65e596332bbebc8e82d0452c21286f17e35a487bc`
+清单指纹：`0b5d9317c5f0dd1ec02571122345cc5e7eef256ed8faafa93bd8fc4b577a9cc6`

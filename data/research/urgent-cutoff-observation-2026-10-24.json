@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-24",
+  "method": "AI-assisted official HTML re-reading for two near-cutoff records. CUHK department application/FAQ pages returned HTTP 200 through read-only HTTPS after research-tool errors. No application portal/session, submission, independent human review or PDF inspection is claimed.",
+  "sources": {
+    "cuhkProgramme": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
+    "cuhkRequirements": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+    "cuhkDeadlines": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+    "cuhkApplication": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/",
+    "cuhkFaq": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/",
+    "cuhkFees": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+    "hkustCatalogue": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem",
+    "hkustSchool": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem"
+  },
+  "cuhk": {
+    "programmeId": "HK-CUHK-P001",
+    "previousObservation": "2026-10-23",
+    "refreshedProgramme": true,
+    "sourcePagesReread": 6,
+    "cohort": {
+      "intake": "September 2027",
+      "academicYear": "2027/28",
+      "staleHeading": "Fall 2026 Admission",
+      "faqFooter": "1 September 2025",
+      "decision": "Explicit cohort in department body and matching central MA dates retained; stale heading/footer not hidden or used as approval."
+    },
+    "dates": {
+      "applicationOpen": "2026-09-01",
+      "roundDeadlines": [
+        "2026-09-30",
+        "2026-10-31",
+        "2026-11-30",
+        "2026-12-31",
+        "2027-01-31"
+      ],
+      "nextRoundId": "ROUND-2",
+      "nextRoundDeadline": "2026-10-31",
+      "exactTimes": null,
+      "lateRule": "Rolling review may fill places early; after 31 December 2026 consideration depends on places.",
+      "receiptRule": "Application, payment and supporting documents due by the deadline; department requests online application plus mailed evidence and accepts two references online or hard copy. Exact current receipt/delivery instructions require confirmation."
+    },
+    "fees": {
+      "fullTimeProvisionalAnnualHkd": 198000,
+      "partTimeProgrammeApplicationAnnualHkd": 99000,
+      "partTimeFaqTwoYearHkd": 99000,
+      "partTimeImportedTuition": null,
+      "applicationFeeHkd": 500,
+      "approvalConfirmed": false,
+      "decision": "No approved or all-in price, no selected PT figure or calculated two-year total, no currency/living-cost or research-stipend substitution."
+    },
+    "academic": {
+      "numericGpa": null,
+      "normalRoutes": "Recognised bachelor normally second-class honours OR average B; accepted professional/similar bachelor-equivalent alternative; unusual lower grades require justification and assessment.",
+      "priorAnthropologyRequired": false,
+      "universalAnyMajorRule": false,
+      "maThesisRequired": false,
+      "mphilRestrictionsImported": false
+    },
+    "documents": {
+      "purposeStatementPages": 1,
+      "references": 2,
+      "referencesDelivery": "Online or hard copy",
+      "onlineAndMailInstruction": true,
+      "websiteCollectsOrSubmits": false
+    },
+    "language": {
+      "requiredCourses": "English",
+      "someElectives": "Cantonese; sufficient English choices but more limited selection",
+      "cantoneseAdmissionTestImported": false,
+      "centralDeliveryModes": "TOEFL iBT/Home Edition and IELTS Academic centre/online; programme evidence still subject to acceptance",
+      "validity": "TOEFL/IELTS two years from test; GMAT five, kept manual",
+      "automaticWaiver": false
+    },
+    "decision": "Refresh this one parent only after reading all six sources; preserve stable offerings, dates, numerical thresholds and unresolved fees/academic policy. Clarify MA scope, material delivery, language and FAQ boundaries without creating admission gates."
+  },
+  "hkust": {
+    "programmeId": "HK-HKUST-P001",
+    "refreshedProgramme": false,
+    "storedProgrammeUnchanged": true,
+    "sourcePagesReread": 2,
+    "spring": {
+      "offeringId": "HK-HKUST-P001-FEB2027-PT",
+      "academicYear": "2026/27",
+      "intake": "February 2027",
+      "mode": "Part-time",
+      "deadline": "2026-11-01",
+      "sameForPublishedCategories": true,
+      "preciseOpening": null,
+      "openingPhrase": "Early September 2026",
+      "tuitionHkd": 180000,
+      "instalments": 4
+    },
+    "fall": {
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "round1": "2026-12-15",
+      "nonLocalFinal": "2027-04-01",
+      "localFinal": "2027-05-15",
+      "tuitionFullTimeHkd": 210000,
+      "tuitionPartTimeHkd": 180000
+    },
+    "decision": "Both primary pages still support existing cohort/mode dates and prices. Do not rewrite unchanged evidence, copy September category rounds into February, import PGD or claim exact opening/time/live availability."
+  },
+  "limits": {
+    "parentRecordsChanged": 1,
+    "otherParentObjectsPreserved": 26,
+    "netNewCatalogueRecords": 0,
+    "checkedCountIncrease": 0,
+    "originalPilotIdsChanged": 0,
+    "applicantContextsChanged": 0,
+    "independentHumanReviews": 0,
+    "completeRequirementSets": 0,
+    "softwareChanges": false
+  }
+}

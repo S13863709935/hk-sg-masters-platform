@@ -812,14 +812,14 @@
       "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-24",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "September 2027 is stated in the department body, although its heading still says Fall 2026. Five dated rounds are recorded; rolling assessment may fill places early, and consideration after 31 December depends on places. Full-time annual tuition is provisional. Part-time charging basis conflicts across official pages, so no numeric part-time fee or two-year total is assumed. No numeric undergraduate GPA or automatic English waiver is inferred.",
+      "notesEn": "September 2027 is stated in the department body, although its heading still says Fall 2026. Five dated rounds are recorded; rolling assessment may fill places early, and consideration after 31 December depends on places. Full-time annual tuition is provisional. Part-time charging basis conflicts across official pages, so no numeric part-time fee or two-year total is assumed. No numeric undergraduate GPA or automatic English waiver is inferred. Re-read all six listed CUHK sources on 24 October 2026 before the second round. The MA is taught coursework without a thesis and does not require previous anthropology study; this does not establish a universal subject whitelist. Online application, payment and supporting-document deadlines must be considered together; the department also requests mailed evidence. Required courses are in English, while some electives are Cantonese. Mixed MA/MPhil/PhD FAQ content, its older update footer and the Fall 2026 heading are not used to import research admission, writing-sample or funding conditions.",
       "offerings": [
         {
           "id": "HK-CUHK-P001-O1",
@@ -936,7 +936,7 @@
           "labelZh": "",
           "labelEn": "Academic standing and equivalence",
           "noteZh": "",
-          "noteEn": "Recognised bachelor degree normally at least second-class honours or average B, or accepted equivalent qualification; university judgement, not a numeric GPA conversion. Exceptional lower-grade cases are considered individually, not guaranteed.",
+          "noteEn": "Recognised bachelor degree normally at least second-class honours or average B, OR an accepted professional/similar qualification equivalent to a bachelor degree; university judgement, not a numeric GPA conversion. The department says exceptional lower-grade cases may be considered with a justification and individual assessment, not guaranteed admission. No general numeric GPA, honours-only rejection or anthropology-major prerequisite is inferred.",
           "mandatory": true,
           "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/"
         },
@@ -965,7 +965,7 @@
           "labelZh": "",
           "labelEn": "English evidence, alternatives and validity",
           "noteZh": "",
-          "noteEn": "English-taught degree evidence and alternative English qualifications require university acceptance. TOEFL/IELTS two years from test; GMAT five years. Applicable evidence, anchor and alternative qualifications remain manual. No waiver is automatic.",
+          "noteEn": "A Hong Kong university degree or a degree taught in English may support the general English route, subject to additional evidence and university acceptance. The central page lists TOEFL Internet-based/Home Edition and IELTS Academic Test Centre/Online; no compulsory single-sitting condition or IELTS sub-score is established here. GMAT/Focus verbal, specified school examinations and accepted English-examined professional qualifications are alternative evidence, not automatic waivers. TOEFL/IELTS two years from test; GMAT five years. Applicable validity anchor, programme-specific evidence and university acceptance remain manual; no expiry countdown from today.",
           "mandatory": true,
           "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
         },
@@ -974,44 +974,53 @@
           "labelZh": "",
           "labelEn": "Programme documents and individual review",
           "noteZh": "",
-          "noteEn": "One-page purpose statement; two references; transcript/grading and degree evidence; English proof where needed; applicable verification documents. Not collected by this website. Confirm current delivery instructions and submit evidence by the deadline.",
+          "noteEn": "One-page purpose statement; two references (online or hard copy); official transcript/grading and degree evidence; English proof where needed; applicable identity and qualification-verification documents. The department application page requests an online application plus mailed supporting documents to the Division BY THE DEADLINE; the FAQ says application, payment and all supporting documents are due by the deadline. Confirm the exact current receipt/delivery instructions, including online references, rather than assuming a payment or form alone completes the file. Its stale Fall 2026 heading remains a discrepancy. This website does not collect, mail or submit these documents.",
           "mandatory": true,
           "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Taught MA scope, delivery language and mixed FAQ boundaries",
+          "noteZh": "",
+          "noteEn": "The MA is designed for people without previous anthropology study, is entirely coursework and requires no thesis. The FAQ's MPhil anthropology/social-science background, research thesis/writing-sample discussion and PhD supervisor/quota/deadline material are not MA admission gates. All required MA courses are in English; some electives are in Cantonese, with sufficient English options but more limited choice for non-Cantonese speakers. No Cantonese test or prior anthropology degree is introduced as a mandatory rule. Research stipends and fellowship figures are not MA fee deductions, and no external funding or housing entitlement is promised. The FAQ still carries a 1 September 2025 update footer despite its 2027/28 tuition text, so it does not resolve the provisional/part-time fee conflict.",
+          "mandatory": true,
+          "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/"
         }
       ],
       "sources": [
         {
           "url": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
           "purpose": "Programme study modes, normative periods and annual fees",
-          "checkedOn": "2026-10-23"
+          "checkedOn": "2026-10-24"
         },
         {
           "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
           "purpose": "General taught-master academic alternatives and English evidence",
-          "checkedOn": "2026-10-23"
+          "checkedOn": "2026-10-24"
         },
         {
           "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
           "purpose": "Central commencement date and five Anthropology MA cutoffs",
-          "checkedOn": "2026-10-23"
+          "checkedOn": "2026-10-24"
         },
         {
           "url": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/",
           "purpose": "September 2027 body, pending fee approval, documents and heading discrepancy",
-          "checkedOn": "2026-10-23"
+          "checkedOn": "2026-10-24"
         },
         {
           "url": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/",
           "purpose": "Taught MA scope and conflicting part-time fee basis",
-          "checkedOn": "2026-10-23"
+          "checkedOn": "2026-10-24"
         },
         {
           "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
           "purpose": "Separate programme application fee",
-          "checkedOn": "2026-10-23"
+          "checkedOn": "2026-10-24"
         }
       ],
-      "researchBatch": "cuhk-suss-refresh-2026-10-23",
+      "researchBatch": "urgent-cutoff-refresh-2026-10-24",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -1020,7 +1029,7 @@
         },
         "major": {
           "status": "unknown",
-          "noteEn": "The MA welcomes applicants without prior anthropology, but no complete subject-acceptance policy is established here. Do not import MPhil subject restrictions or assume a universal major match.",
+          "noteEn": "The FAQ explicitly designs the coursework MA for people without previous anthropology study; no complete subject-acceptance policy is established. Recognition and academic alternatives still need assessment; no MPhil subject restriction or universal major match is imported.",
           "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/"
         },
         "gpa": {
@@ -1035,17 +1044,17 @@
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "Full-time annual HKD 198,000 is provisional. Part-time annual versus two-year charging basis conflicts, so its numeric tuition remains null.",
+          "noteEn": "Re-read on 24 October: full-time annual HKD 198,000 remains provisional, pending approval. Part-time annual versus two-year charging basis still conflicts across official pages, so numeric part-time tuition remains null. The FAQ's older update footer does not settle approval or charging basis.",
           "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Five date-only MA cutoffs and central commencement date are recorded; late-round consideration is conditional on places, not a live portal check.",
+          "noteEn": "Rechecked central and department MA tables on 24 October: five date-only rounds remain unchanged; the next recorded cutoff is 31 October 2026. Rolling closure and post-31-December consideration are capacity-dependent. Application, payment and supporting-document delivery matter; no exact cutoff or live portal check is inferred.",
           "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
         },
         "independentReview": {
           "status": "unknown",
-          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "noteEn": "AI-assisted re-reading only; no independent human review, complete requirement set or admission guarantee, and no recommendation tier is enabled.",
           "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
         }
       }

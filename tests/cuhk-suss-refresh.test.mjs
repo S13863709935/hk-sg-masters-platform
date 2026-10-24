@@ -16,13 +16,14 @@ const su = batch.programmes.find(p => p.id === observation.suss.programmeId);
 const profile = { major: 'Synthetic Data QA', degreeStatus: 'graduated', classification: 'first', gpa: 3.8, gpaScale: 4, language: { type: 'ielts', total: 7, testDate: '2026-05-01' } };
 const manual = (p, label) => p.rules.find(r => r.kind === 'manual' && r.labelEn === label);
 
-test('the two-programme refresh keeps independent review pending and leaves earlier source dates intact', () => {
+test('the original two-programme observation stays historical while CUHK gains a later source recheck', () => {
   assert.equal(batch.checkedOn, batch.programmes.map(p => p.lastChecked).sort().at(-1));
   assert.equal(observation.checkedOn, '2026-10-23');
-  assert.deepEqual(batch.programmes.filter(p => p.researchBatch === 'cuhk-suss-refresh-2026-10-23').map(p => p.id), [cu.id, su.id]);
+  assert.deepEqual(batch.programmes.filter(p => p.researchBatch === 'cuhk-suss-refresh-2026-10-23').map(p => p.id), [su.id]);
+  assert.equal(cu.researchBatch, 'urgent-cutoff-refresh-2026-10-24');
+  assert.equal(cu.lastChecked, '2026-10-24'); assert.equal(su.lastChecked, observation.checkedOn);
   for (const p of [cu, su]) {
-    assert.equal(p.lastChecked, observation.checkedOn);
-    assert.ok(p.sources.every(s => s.checkedOn === observation.checkedOn));
+    assert.ok(p.sources.every(s => s.checkedOn === p.lastChecked));
     assert.equal(p.reviewer, null); assert.equal(p.verification, 'programme_page_checked');
     assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.fieldStatus.independentReview.status, 'unknown');
   }
@@ -56,7 +57,7 @@ test('CUHK date comparisons advance through rounds without inventing a cutoff ti
     assert.equal(timeline.livePortalChecked, false);
     for (const o of timeline.offerings) {
       assert.equal(o.nextRoundId, next); assert.equal(o.rounds.find(r => r.id === next).state, roundState);
-      assert.equal(o.sourceCheckedOn, observation.checkedOn);
+      assert.equal(o.sourceCheckedOn, cu.lastChecked);
     }
   }
   const expired = programmeTimeline(cu, '2027-02-01');
@@ -127,10 +128,10 @@ test('catalogue, detail and candidate exports preserve new source dates, provisi
     const catalogue = await (await fetch(`${url}/api/catalogue?school=${school}&q=${encodeURIComponent(query)}`)).json();
     assert.ok(catalogue.items.some(item => item.id === p.id));
     const detail = await (await fetch(`${url}/api/programmes/${p.id}?offering=${p.id}-O${p === cu ? 2 : 1}`)).json();
-    assert.equal(detail.lastChecked, observation.checkedOn); assert.equal(detail.offerings[0].tuition, null);
+    assert.equal(detail.lastChecked, p.lastChecked); assert.equal(detail.offerings[0].tuition, null);
     assert.equal(detail.selectedOffering.id, `${p.id}-O${p === cu ? 2 : 1}`);
     const exported = shortlistExport([detail], {}, '2026-10-23T04:00:00.000Z').programmes[0];
-    assert.equal(exported.evidence.lastChecked, observation.checkedOn);
+    assert.equal(exported.evidence.lastChecked, p.lastChecked);
     assert.equal(exported.offerings[0].tuition, null);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
     if (p === cu) assert.equal(detail.applicationTimeline.offerings[0].nextRoundId, 'ROUND-2');
