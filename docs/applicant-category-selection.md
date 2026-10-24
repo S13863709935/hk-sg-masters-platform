@@ -4,6 +4,8 @@ Implementation contract introduced on 19 October 2026 with two EdUHK categories 
 
 ## Source and trust boundary
 
+Identical published fees and cutoffs do not require invented differentiated contexts. The 24 October HKUST MSc AI check records the common FT/PT local/non-local dates directly, without adding a category selector; NTU MSAI likewise has no fabricated category net-price record. Existing 15-context / 30-option coverage and its actual source dates are unchanged by the AI batch. Applicant permission, waivers and concessions still need university confirmation.
+
 `data/applicant-contexts.json` is a read-only sidecar loaded at startup, separate from the original programme/route snapshots and SQLite source records. Each record binds an exact programme, optional route and study option; year, intake and mode must match, along with a canonical SHA-256 fingerprint of every original offering field. Fee/date URLs must match the programme source host. Duplicate identities, malformed dates, negative/missing prices, false reviewer labels and reversed windows are rejected.
 
 If a stored offering changes, its contextual evidence becomes stale: prices/dates are masked, selectable categories are removed and previous category choices fail with 422. Manual/reviewed data is not overwritten. A new source file must be reviewed and bound to the changed record. Removing a referenced offering requires reconciling the sidecar before restart.

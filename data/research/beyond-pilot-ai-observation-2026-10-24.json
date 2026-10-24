@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-24",
+  "method": "AI-assisted reading of official HTML programme/admissions sources. NTU central semester-table merged cells were additionally read directly from public HTML. No independent human review, live application session, application submission or browser/device acceptance is claimed.",
+  "sources": {
+    "hkustCatalogue": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+    "hkustSchool": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+    "ntuProgramme": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence",
+    "ntuGuide": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+    "ntuFaq": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes/frequently-asked-questions",
+    "ntuApplyInformation": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide/apply-now"
+  },
+  "hkust": {
+    "programmeId": "HK-HKUST-P015",
+    "award": "MSc in Artificial Intelligence, Hong Kong campus; not MEng AI and Entrepreneurship",
+    "academicYear": "2027/28",
+    "intake": "September 2027",
+    "offerings": [
+      { "id": "HK-HKUST-P015-SEP2027-FT", "mode": "Full-time", "duration": "1 year", "tuitionHkd": 400000, "instalments": 2 },
+      { "id": "HK-HKUST-P015-SEP2027-PT", "mode": "Part-time", "duration": "2 years", "tuitionHkd": 400000, "instalments": 4 }
+    ],
+    "applicationFeeHkd": 600,
+    "window": { "opening": null, "round1": "2026-12-01", "round2": "2027-03-01", "sameForPublishedModesAndCategories": true, "exactCutoffTimes": null, "rollingSelection": true },
+    "academicAlternatives": ["Bachelor in Computer Engineering, Computer Science or related discipline", "Bachelor in another discipline with at least two years relevant post-qualification work experience"],
+    "genericHonoursOrEntryGpa": null,
+    "graduationGgaNotAdmissionGpa": 2.85,
+    "english": { "ieltsTotal": 6.5, "ieltsEach": 5.5, "oldToeflIbt": 80, "newToeflIbt": 4.5, "newScaleFrom": "2026-01-21", "singleAttempt": true, "atHomeAccepted": false, "legacyFormatsManual": "pBT 550; revised paper-delivered 60", "waiversManual": "English first language or English-medium bachelor/equivalent", "validityAnchor": null },
+    "creditTransfer": { "ordinaryMaximumCredits": 9, "ordinaryFee": "Full programme fee", "restrictedIntegratedMaximumCredits": 6, "restrictedIntegratedMinimumChargedCredits": 24 },
+    "decision": "Upgrade the existing directory ID, retire its unresolved catalogue offering, create FT/PT September options and record common rounds directly. No artificial applicant category contexts, universal experience minimum, honours/GPA threshold or credit discount."
+  },
+  "ntu": {
+    "programmeId": "SG-NTU-P047",
+    "award": "MSc Artificial Intelligence by coursework, not MComp Applied AI, Enterprise AI or a FlexiMasters certificate",
+    "academicYear": "2027/28",
+    "intake": "August 2027",
+    "offerings": [
+      { "id": "SG-NTU-P047-AUG2027-FT", "mode": "Full-time", "normalAndMinimumMonths": 12, "maximumMonths": 30, "billedSemesters": 2 },
+      { "id": "SG-NTU-P047-AUG2027-PT", "mode": "Part-time", "normalAndMinimumMonths": 24, "maximumMonths": 48, "billedSemesters": 4 }
+    ],
+    "centralTableObservation": { "yearHeading": "Academic Year 2027-28", "table": "Semester Programmes", "intakeCellText": "August Intake", "schoolRow": "College of Computing and Data Science", "inheritedOpeningCellText": "1 October", "inheritedClosingCellText": "31 March", "dateCellRowspans": [12, 12], "intakeCellRowspan": 15, "method": "Read merged public HTML cells on the preceding row and the following CCDS row; did not borrow the trimester MComp row" },
+    "windowInterpretation": { "centralOpeningInterpretedFromHeading": "2026-10-01", "centralClosingInterpretedFromHeading": "2027-03-31", "faqOpeningText": "November for August main intake", "storedOpening": null, "storedDeadline": "2027-03-31", "exactCutoffTime": null, "januaryCohortImported": false, "decision": "Year assignments follow the dated table context, not fully written date literals. Opening remains unresolved because the undated college FAQ differs; no live-open conclusion or January programme availability is inferred." },
+    "academicAlternatives": ["Good honours degree in CS/CE or related discipline with solid mathematical training", "Good bachelor degree in CS/CE or related discipline with solid mathematical training and two years relevant industry experience"],
+    "genericNumericGpa": null,
+    "english": { "ieltsTotal": 6.5, "ieltsEach": null, "oldToeflIbt": 100, "newToeflIbt": 5, "newScaleFromCentralGuide": "2026-01-21", "singleAttemptPolicy": null, "atHomePolicy": null, "moiCertification": "Subject to university acceptance and reconciliation with central non-native-language/discretionary wording", "validity": "Within two years of application submission, not today" },
+    "fees": { "applicableYearText": "AY2027/2028 and after", "tuitionSgdIncludingGst": 65748.8, "gstPercent": 9, "acceptanceDepositSgd": 5000, "depositBasis": "Deducted from first tuition billing, not added again", "applicationFeeSgd": 50, "basis": "Shortest candidature; extra time/charges case by case; fees may be revised", "miscellaneous": "Programme says one-time fee billed every academic year; amount/recurrence not reconciled", "concessions": "No automatic subsidy, CCDS grant, alumni rebate, scholarship or study award deduction; eligibility/stacking needs confirmation" },
+    "curriculum": { "aus": 30, "coreAus": 12, "projectAndElectiveAus": 18, "masterProject": "Optional one-year six-AU project", "pythonBridge": "Optional zero-AU bridge, not a mandatory admission prerequisite" },
+    "documents": "Identity/pass evidence as applicable, CV, degree/transcripts, English/MOI evidence, application GPA/reason fields; final-year documentation is conditional. GRE and reference letters are optional per programme page. Central apply information requires applicable immigration-pass evidence for international part-time applicants and disallows simultaneous FT/PT applications for the same programme; comparison on this site is not submission.",
+    "decision": "Upgrade existing directory ID, retire unresolved catalogue offering and add two August study modes. Keep OR routes, mathematics/recognition/experience judgement, opening conflict, evidence requirements, concessions and fee caveats manual. No invented January intake, numeric GPA, universal experience minimum or NTU IELTS sub-score."
+  },
+  "limits": { "existingDirectoryIdsUpgraded": 2, "netNewCatalogueRecords": 0, "newApplicantContexts": 0, "previousProgrammeObjectsChanged": 0, "independentHumanReviews": 0, "completeRequirementSets": 0, "softwareChanges": false }
+}

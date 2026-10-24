@@ -113,11 +113,14 @@ test('directory entries distinguish 175 stored seeds from a fully enumerated sch
 test('versioned directory updates replace stale links without changing raw snapshot records', () => {
   const store = new CatalogueStore(':memory:', { seed, checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root) });
   try {
-    assert.equal(store.quality().checked, 23);
+    assert.equal(store.quality().checked, 25);
     assert.equal(store.quality().enumeratedUniversities, 6);
     assert.equal(store.universities().find(u => u.id === 'HK-HKBU').directoryUrl, 'https://ar.hkbu.edu.hk/tpg-admissions/programmes');
     assert.equal(seed.universities.find(u => u.id === 'HK-HKBU').directoryUrl, 'https://gs.hkbu.edu.hk/programmes');
-    assert.equal(store.quality().total, 175);
+    // This fixture omits the expansion layer, but separately checked expansion IDs still load.
+    assert.equal(store.quality().total, new Set([...seed.programmes, ...batch.programmes].map(p => p.id)).size);
+    assert.equal(seed.programmes.length, 175);
+    assert.deepEqual(JSON.parse(readFileSync(new URL('data/catalogue.json', root), 'utf8')), seed);
   } finally { store.close(); }
 });
 test('invalid evidence, recurring deadline strings and unsupported count claims are rejected', () => {

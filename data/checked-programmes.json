@@ -3877,6 +3877,417 @@
           "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
         }
       }
+    },
+    {
+      "id": "HK-HKUST-P015",
+      "universityId": "HK-HKUST",
+      "name": "MSc Artificial Intelligence",
+      "award": "MSc",
+      "area": "Computing",
+      "faculty": "Department of Computer Science and Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-24",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "researchBatch": "beyond-pilot-ai-2026-10-24",
+      "notesEn": "First programme-page observation of the existing Hong Kong MSc AI directory identity, not MEng AI and Entrepreneurship or a new programme. September 2027 FT/PT share HKD 400,000 programme tuition and 1 December 2026 / 1 March 2027 round cutoffs for both local and non-local applicants, so no artificial category selector is added. The two-year relevant post-qualification experience condition belongs only to the other-discipline alternative, not every applicant. No general honours/GPA cutoff is published here; graduation GGA 2.850 and restricted integrated-pathway rules are not generic entry gates. Opening dates, exact cutoff times, waiver/qualification assessment and independent review remain unresolved.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P015-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 400000,
+          "feeBasis": "2027/28 ordinary MSc AI programme tuition HKD 400,000 for either study mode, paid in two instalments; not an annual fee multiplied by years. Ordinary credit-transfer entrants still pay full programme tuition; extra/retaken courses cost more. Restricted integrated Bachelor-Master pathway has a separate minimum-24-credit pro-rata exception. Excludes separate HKD 600 application fee; no scholarships automatically deducted.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "deadlineNote": "Same published September 2027 MSc AI cutoffs for local/non-local and FT/PT: Round 1 1 December 2026, Round 2 1 March 2027. No precise opening or cutoff time established; competitive rolling selection and study-mode/visa permission require confirmation. Do not reuse DISC or CIEM dates.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKUST-P015-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 400000,
+          "feeBasis": "2027/28 ordinary MSc AI programme tuition HKD 400,000 for either study mode, paid in four instalments; not an annual fee multiplied by years. Ordinary credit-transfer entrants still pay full programme tuition; extra/retaken courses cost more. Restricted integrated Bachelor-Master pathway has a separate minimum-24-credit pro-rata exception. Excludes separate HKD 600 application fee; no scholarships automatically deducted.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "deadlineNote": "Same published September 2027 MSc AI cutoffs for local/non-local and FT/PT: Round 1 1 December 2026, Round 2 1 March 2027. No precise opening or cutoff time established; competitive rolling selection and study-mode/visa permission require confirmation. Do not reuse DISC or CIEM dates.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor degree or accepted equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Computer Engineering / Computer Science or reviewed alternative discipline",
+          "accepted": [
+            "Computer Engineering",
+            "Computer Science"
+          ],
+          "any": false,
+          "relatedAllowed": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT thresholds",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Alternative discipline and conditional work experience",
+          "noteZh": "",
+          "noteEn": "Two alternative academic routes are published: a bachelor degree in Computer Engineering, Computer Science or a related discipline; OR a bachelor degree in another discipline with at least two years of relevant post-qualification work experience. Recognition, relatedness, relevance and post-qualification timing require HKUST judgement. Do not impose two years on a computing-route applicant or infer qualifying experience from reported total years alone. No numeric undergraduate GPA or universal second-class honours threshold is stated in these admissions sections; 2.850 GGA is a graduation requirement.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English waivers, legacy formats and score validity",
+          "noteZh": "",
+          "noteEn": "English first language or an English-medium bachelor/equivalent may support a TOEFL/IELTS waiver, subject to university acceptance. Legacy TOEFL pBT 550 and revised paper-delivered 60 are listed but not modelled. Recorded IELTS/iBT thresholds require a single sitting and exclude at-home tests. A score-validity anchor was not established in the accessible programme sources; no rolling expiry is calculated from today.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary credit transfer and restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "Ordinary students may transfer up to 9 credits with approval but still pay the full programme tuition. The integrated Bachelor-Master route instead restricts entry to qualifying HKUST Year 3-or-above students in the listed degree areas, depends on academic excellence and allows conditional entry, up to 6 prior credits and pro-rata tuition for at least 24 credits. These are different pathways, not a discount or admission route automatically available to any applicant.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Delivery, project and applicant permission",
+          "noteZh": "",
+          "noteEn": "Thirty credits of coursework are published. Courses are normally on weekday evenings and Saturday mornings/afternoons on HKUST campus. An independent/practicum project does not make this a research-admission MSc. Same published gross fees and cutoffs for both applicant categories do not determine visa classification, part-time permission, waivers or an admission guarantee. Scholarship news for 2026/27 or older cohorts is not a current 2027/28 award entitlement.",
+          "mandatory": true,
+          "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+          "purpose": "2027/28 MSc AI requirements, ordinary/integrated pathway distinctions, modes, fees and common category rounds",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai",
+          "purpose": "September 2027 cohort, instalments, both academic alternatives and all-applicant deadline corroboration",
+          "checkedOn": "2026-10-24"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 / 2027/28 directly stated in both programme sources.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Two computing fields explicit; related disciplines and other-discipline plus relevant post-qualification experience need judgement.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No generic numeric undergraduate admission GPA or honours threshold found; graduation GGA and pathway excellence are not general entry cutoffs.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published IELTS/iBT scores and scale boundary captured; waiver/legacy-format/validity checks remain manual.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Same ordinary programme total for FT/PT, distinct instalment schedules, extra-course/credit-transfer and restricted pathway exceptions.",
+          "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Two shared date-only rounds for all published categories and modes; opening and precise cutoff times unconfirmed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirement set; no recommendation tier enabled.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai"
+        }
+      }
+    },
+    {
+      "id": "SG-NTU-P047",
+      "universityId": "SG-NTU",
+      "name": "Master of Science in Artificial Intelligence",
+      "award": "MSc",
+      "area": "Computing",
+      "faculty": "College of Computing and Data Science",
+      "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-24",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "researchBatch": "beyond-pilot-ai-2026-10-24",
+      "notesEn": "First partial programme check of the existing MSAI directory identity, not MComp in Applied AI, Enterprise AI, a FlexiMasters award or a new programme. August 2027 / AY2027/28 uses the central Semester Programmes CCDS row and fee-year context, not the neighbouring trimester MComp row. The central table implies 1 October opening while the undated college FAQ says November; opening stays null and only the contextual 31 March 2027 cutoff is recorded. Honours and bachelor-plus-two-year routes both need solid mathematical training; no universal work-year or honours/GPA gate is invented. Gross tuition, credited deposit, annual miscellaneous wording, grants and part-time permission remain distinct. No January cohort or live portal state is inferred.",
+      "offerings": [
+        {
+          "id": "SG-NTU-P047-AUG2027-FT",
+          "mode": "Full-time",
+          "duration": "Normal/minimum 12 months; maximum 30 months",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": 65748.8,
+          "feeBasis": "Published AY2027/28-and-after programme tuition SGD 65,748.80 including prevailing 9% GST for shortest candidature, before grants/rebates; billed across two semesters. Not an annual fee multiplied by duration. SGD 5,000 acceptance deposit is deducted from the first billing, not added again. Separate SGD 50 application fee; miscellaneous charges, additional candidature, materials and living/travel costs are extra/unconfirmed. No scholarship, citizenship subsidy or alumni rebate automatically deducted.",
+          "applicationFee": 50,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "deadlineNote": "31 March 2027 is interpreted from the central AY2027-28 August Semester Programmes CCDS row, verified via HTML merged cells; exact cutoff time unknown. That row implies opening 1 October 2026, but the undated CCDS FAQ says November for August intake. Opening is unresolved, not a claim the portal is open. Do not substitute MComp trimester dates, January intake or scholarship deadlines."
+        },
+        {
+          "id": "SG-NTU-P047-AUG2027-PT",
+          "mode": "Part-time",
+          "duration": "Normal/minimum 24 months; maximum 48 months",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": 65748.8,
+          "feeBasis": "Published AY2027/28-and-after programme tuition SGD 65,748.80 including prevailing 9% GST for shortest candidature, before grants/rebates; billed across four semesters. Not an annual fee multiplied by duration. SGD 5,000 acceptance deposit is deducted from the first billing, not added again. Separate SGD 50 application fee; miscellaneous charges, additional candidature, materials and living/travel costs are extra/unconfirmed. No scholarship, citizenship subsidy or alumni rebate automatically deducted.",
+          "applicationFee": 50,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "deadlineNote": "31 March 2027 is interpreted from the central AY2027-28 August Semester Programmes CCDS row, verified via HTML merged cells; exact cutoff time unknown. That row implies opening 1 October 2026, but the undated CCDS FAQ says November for August intake. Opening is unresolved, not a claim the portal is open. Do not substitute MComp trimester dates, January intake or scholarship deadlines."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor degree or relevant honours alternative",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Computer Science / Computer Engineering or related discipline",
+          "accepted": [
+            "Computer Science",
+            "Computer Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "CCDS published IELTS and TOEFL iBT scores",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 100,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Alternative academic routes, mathematics and conditional experience",
+          "noteZh": "",
+          "noteEn": "Route A is a good honours degree in Computer Science, Computer Engineering or a related discipline with solid mathematical training. Route B is a good bachelor degree in those fields with solid mathematical training AND two years of relevant industry experience. The university decides good standing, relatedness, honours equivalence, mathematical preparation and experience relevance. The two-year requirement is not universal; neither is an honours-only gate. Named related fields are not exhaustive and no numeric entry GPA is published. A GPA field in the application is not a cutoff.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English scope, evidence and application-time validity",
+          "noteZh": "",
+          "noteEn": "Programme/college sources permit English-medium-instruction certification; the central guide refers to non-native English speakers and discretionary consideration without/below TOEFL/IELTS. Waiver/MOI evidence, applicability and any discretionary interview/test require NTU assessment, not an automatic exemption. Central and FAQ validity is within two years of application submission, not today. No NTU IELTS component minimum, at-home acceptance or single-sitting policy was established here; do not copy HKUST conditions or convert TOEFL scales.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme documents, optional evidence and final-year status",
+          "noteZh": "",
+          "noteEn": "Programme documents include identity/pass evidence as applicable, CV, degree certificate, transcripts and English score or MOI certification. Final-year applicants supply recent transcripts and applicable provisional/expected-graduation evidence; completion before intended study still needs confirmation. GPA and reason-for-study fields are required in the application; GRE and reference letters are optional per programme page, not universal admission gates. Originals/translations and any additional documents require university review. The platform does not create or submit these application documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Coursework, optional project and non-compulsory bridge",
+          "noteZh": "",
+          "noteEn": "MSAI is explicitly coursework: 30 AUs with 12 core and 18 project/elective AUs. The one-year six-AU master project is optional, as is the zero-AU Python bridge; do not make either a mandatory admission prerequisite or relabel this as a research master. Normal/minimum/maximum study lengths and extra-candidature charges are different concepts.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Gross fees, credited deposit and unconfirmed concessions",
+          "noteZh": "",
+          "noteEn": "The AY2027/28-and-after total is based on shortest candidature and may be revised. The SGD 5,000 acceptance deposit offsets the first tuition bill; do not add it to tuition. Application fee SGD 50 is separate. Programme wording calls miscellaneous fees one-time but billed every academic year, so amount/recurrence and all-in costs need confirmation. FT/PT billing is two/four semesters; a later generic grants paragraph mentions two instalments and needs reconciliation. Subsidy, CCDS grant, alumni rebate, external scholarships and study-award eligibility/stacking are not automatically applied. A generic no-university-scholarship statement does not mean all external funding is unavailable.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Opening-date conflict, cohort and study-mode permission",
+          "noteZh": "",
+          "noteEn": "The central AY2027-28 August Semester Programmes CCDS row has merged 1 October / 31 March cells; the college FAQ says applications open in November for the main August intake. Preserve both and confirm the opening. No January MSAI cohort is established by a generic college row and no MComp trimester window is reused. The central apply page requires applicable valid immigration-pass evidence for international part-time applicants and does not permit simultaneous FT and PT applications to the same programme. Website comparison is not application submission or immigration advice.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide/apply-now"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence",
+          "purpose": "MSAI academic alternatives, programme type/modes, English evidence, 2027/28 fees and billing/award caveats",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+          "purpose": "CCDS English row, TOEFL scale date, application-time validity and AY2027-28 semester table; merged date cells verified in public HTML",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes/frequently-asked-questions",
+          "purpose": "College FAQ English/validity policy, main August intake and conflicting November opening",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide/apply-now",
+          "purpose": "General required documents, international part-time evidence and simultaneous FT/PT application restriction; no live session opened",
+          "checkedOn": "2026-10-24"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "August 2027 / AY2027/28 interpreted from the dated central semester-table heading and college main-August FAQ, aligned to programme fee year; no January cohort imported.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "CS/CE explicit; relatedness, mathematics and the two alternative academic paths require university assessment.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA found; good honours/bachelor wording and an application GPA field are not a published numeric minimum.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.5, old TOEFL 100/new 5.0 corroborated by programme and central CCDS row; waivers, conditions and application-time validity remain manual.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "AY2027/28-and-after gross total inclusive of GST; shortest-candidature basis, separate charges, credited deposit and no automatic grants/rebates.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Contextual 31 March 2027 cutoff from merged CCDS semester row; October vs November opening conflict leaves start unknown and live availability unverified.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirement set; no recommendation tier enabled.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence"
+        }
+      }
     }
   ]
 }
