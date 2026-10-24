@@ -165,8 +165,8 @@ test('mixed route observation dates retain the older NTU dates and their source 
   assert.equal(batch.checkedOn, '2026-10-21');
   assert.ok(routes.get('SG-NTU-P061').every(r => r.lastChecked === '2026-10-16' && r.sources.every(s => s.checkedOn === '2026-10-16')));
   assert.equal(routes.get(id)[0].lastChecked, '2026-10-21');
-  const oldContext = [...applicants.values()].find(r => r.programmeId === 'HK-EDUHK-P001');
-  assert.equal(oldContext.checkedOn, '2026-10-19');
+  const eduhkContext = [...applicants.values()].find(r => r.programmeId === 'HK-EDUHK-P001');
+  assert.equal(eduhkContext.checkedOn, '2026-10-23');
 });
 
 test('route loader rejects malformed, future, inconsistent-source and nonlatest batch dates', () => {
@@ -219,7 +219,7 @@ test('parent records and raw export are unchanged; route and category evidence h
   assert.equal(exported.applicantEvidence, undefined);
   const meta = await get('/api/meta');
   assert.deepEqual(meta.routeEvidence, { groups: 2, routes: 5, pageChecked: 5, peerReviewed: 0, complete: 0 });
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 10, categories: 20, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 11, categories: 22, peerReviewed: 0 });
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.checked, 21); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
 });

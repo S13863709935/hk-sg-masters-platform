@@ -63,8 +63,8 @@ const resolved = async contexts => (await (await post({ contexts })).json()).ite
 test('valid explicit choices restore current category fees and separately checked evidence', async () => {
   const [item] = await resolved([saved]);
   assert.equal(item.status, 'resolved'); assert.equal(item.programme.selectedApplicant.id, category);
-  assert.equal(item.programme.offerings[0].tuition, 151110); assert.equal(item.programme.lastChecked, '2026-10-06');
-  assert.equal(item.programme.applicantEvidence.checkedOn, '2026-10-19');
+  assert.equal(item.programme.offerings[0].tuition, 151110); assert.equal(item.programme.lastChecked, '2026-10-23');
+  assert.equal(item.programme.applicantEvidence.checkedOn, '2026-10-23');
 });
 test('the client restore validator accepts real resolved choices and separately flags unavailable contexts', async () => {
   const contexts = [saved, { programmeId: 'SG-NTU-P061', routeId: 'SG-NTU-P061-ROUTE-CYBER', offeringId: 'SG-NTU-P061-CYBER-PT-2027' }, { programmeId: 'SG-NUS-P999' }];

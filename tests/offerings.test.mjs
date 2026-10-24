@@ -35,8 +35,8 @@ test('January and September fees and years are never merged', () => {
   const jan = resolveOffering(edu, 'HK-EDUHK-P001-O1');
   const sep = resolveOffering(edu, 'HK-EDUHK-P001-O2');
   assert.equal(jan.offerings.length, 1);
-  assert.equal(jan.offerings[0].tuition, 188888);
-  assert.equal(jan.offerings[0].deadline, '2026-10-15');
+  assert.equal(jan.offerings[0].tuition, null);
+  assert.equal(jan.offerings[0].deadline, null);
   assert.equal(jan.academicYear, '2026/27');
   assert.equal(sep.offerings[0].tuition, 208000);
   assert.equal(sep.offerings[0].deadline, null);
@@ -98,7 +98,7 @@ test('unresolved date-coverage flags remain unresolved after selecting a populat
 test('projection does not modify stored evidence, review flags or source dates', () => {
   const before = JSON.stringify(edu);
   const p = resolveProgramme(edu, routes, undefined, edu.id + '-O1');
-  assert.equal(p.lastChecked, '2026-10-06');
+  assert.equal(p.lastChecked, edu.lastChecked);
   assert.equal(p.requirementsCoverage, 'partial');
   assert.equal(p.reviewer, null);
   assert.equal(JSON.stringify(edu), before);

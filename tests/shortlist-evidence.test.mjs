@@ -153,8 +153,8 @@ test('parent, applicant-category and comparison dates remain separate for a sele
   const id = 'HK-EDUHK-P001', choice = id + '-O1';
   const p = await get('/api/programmes/' + id + '?offering=' + choice + '&applicant=' + choice + '-LOCAL');
   const saved = optionSnapshot(p, exportedAt), result = shortlistExport([p], { [id]: saved }, exportedAt).programmes[0];
-  assert.equal(result.evidence.lastChecked, '2026-10-06'); assert.ok(result.evidence.sources.every(s => s.checkedOn === '2026-10-06'));
-  assert.equal(result.applicantEvidence.checkedOn, '2026-10-19'); assert.equal(result.applicationTimeline.asOfDate, '2026-10-22');
+  assert.equal(result.evidence.lastChecked, '2026-10-23'); assert.ok(result.evidence.sources.every(s => s.checkedOn === '2026-10-23'));
+  assert.equal(result.applicantEvidence.checkedOn, '2026-10-23'); assert.equal(result.applicationTimeline.asOfDate, '2026-10-22');
   assert.equal(result.selectedApplicant.id, choice + '-LOCAL'); assert.equal(result.rememberedChoice, true);
 });
 

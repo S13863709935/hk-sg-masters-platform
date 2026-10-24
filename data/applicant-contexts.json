@@ -6,20 +6,38 @@
       "programmeId": "HK-EDUHK-P001",
       "routeId": null,
       "offeringId": "HK-EDUHK-P001-O1",
-      "offeringFingerprint": "b4306069e4f856f16fb81aca3a594e28fcf9348b15e95bd788710fad7e0ec681",
+      "offeringFingerprint": "c333207fd2d46cc77a02687c66be0b136aee46288523e799726edb429a6dca66",
       "officialUrl": "https://www.eduhk.hk/ssps/mppm",
       "academicYear": "2026/27",
       "intake": "January 2027",
       "mode": "Full-time",
-      "checkedOn": "2026-10-19",
+      "checkedOn": "2026-10-23",
       "verification": "programme_page_checked",
       "reviewer": null,
       "feeSourceUrl": "https://www.eduhk.hk/ssps/mppm",
       "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/",
-      "noteEn": "EdUHK January 2027 categories only. The university decides applicant classification. No opening date or exact deadline time was captured; generic Now Open wording does not override category-specific deadlines.",
+      "noteEn": "EdUHK January 2027 / 2026/27 only, re-read on 23 October. Published category prices and cutoffs remain unchanged. No opening date or exact cutoff time is established; generic Now Open wording does not override a passed category deadline. EdUHK decides classification, not residence or GPA.",
       "options": [
-        { "id": "HK-EDUHK-P001-O1-LOCAL", "label": "Local applicant — EdUHK category", "currency": "HKD", "tuition": 151110, "feeBasis": "Programme tuition for the January 2027 local-applicant category", "applicationFee": 300, "applicationOpen": null, "deadline": "2026-11-20" },
-        { "id": "HK-EDUHK-P001-O1-NONLOCAL", "label": "Non-local applicant — EdUHK category", "currency": "HKD", "tuition": 188888, "feeBasis": "Programme tuition for the January 2027 non-local-applicant category", "applicationFee": 400, "applicationOpen": null, "deadline": "2026-10-15" }
+        {
+          "id": "HK-EDUHK-P001-O1-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 151110,
+          "feeBasis": "Programme tuition for the January 2027 local-applicant category",
+          "applicationFee": 300,
+          "applicationOpen": null,
+          "deadline": "2026-11-20"
+        },
+        {
+          "id": "HK-EDUHK-P001-O1-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 188888,
+          "feeBasis": "Programme tuition for the January 2027 non-local-applicant category",
+          "applicationFee": 400,
+          "applicationOpen": null,
+          "deadline": "2026-10-15"
+        }
       ]
     },
     {
@@ -395,6 +413,92 @@
           "applicationOpen": "2026-09-01",
           "deadline": "2027-04-01",
           "deadlineNote": "Same published 1 April 2027 cutoff for both categories. Rolling assessment may fill places early; exact cutoff time and portal availability are not verified."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P001",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P001-O2",
+      "offeringFingerprint": "a034e9cdc0a27436548364ad0a29bda6e1e75f7a789d2ae52df576334e0cdb4d",
+      "officialUrl": "https://www.eduhk.hk/ssps/mppm",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-23",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/ssps/mppm",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "September 2027 only. Central TPG schedule applies to this programme, which is not a listed exception; earlier programme closure/capacity and applicant classification require confirmation. No scholarship deduction, application submission or live portal check.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P001-O2-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 208000,
+          "feeBasis": "September 2027 published programme tuition HKD 208,000, not the January category price. Separate local application fee HKD 400. No automatic scholarship deduction or all-in total; classification and other charges require EdUHK confirmation.",
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Central September 2027 TPG schedule: early 4 January, main 15 February, category-specific final 31 May 2027. Programme may close earlier subject to places. Separate round opening dates and exact cutoff times are not established.",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Category final cutoff",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-EDUHK-P001-O2-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 208000,
+          "feeBasis": "September 2027 published programme tuition HKD 208,000, not the January category price. Separate non-local application fee HKD 500. No automatic scholarship deduction or all-in total; classification and other charges require EdUHK confirmation.",
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "deadlineNote": "Central September 2027 TPG schedule: early 4 January, main 15 February, category-specific final 10 May 2027. Programme may close earlier subject to places. Separate round opening dates and exact cutoff times are not established.",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Category final cutoff",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ]
         }
       ]
     }

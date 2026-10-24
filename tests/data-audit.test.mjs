@@ -49,8 +49,8 @@ test('graduation, scholarship and institution-specific test-waiver GPAs are not 
 test('EdUHK January and September cohorts retain different tuition and deadlines', () => {
   const p = get('HK-EDUHK-P001');
   assert.equal(p.offerings[0].academicYear, '2026/27');
-  assert.equal(p.offerings[0].tuition, 188888);
-  assert.equal(p.offerings[0].deadline, '2026-10-15');
+  assert.equal(p.offerings[0].tuition, null);
+  assert.equal(p.offerings[0].deadline, null);
   assert.equal(p.offerings[1].academicYear, '2027/28');
   assert.equal(p.offerings[1].tuition, 208000);
   assert.equal(p.offerings[1].deadline, null);

@@ -652,18 +652,18 @@
       "name": "MA International Higher Education and Management",
       "award": "MA",
       "area": "Education",
-      "faculty": null,
+      "faculty": "School of Graduate Studies",
       "officialUrl": "https://www.ln.edu.hk/sgs/ihem/admission",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-08",
+      "lastChecked": "2026-10-23",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Window 1 August 2026–30 June 2027, subject to change. One-year FT/two-year PT and AY2027/28 tuition checked 8 October 2026. Curriculum GPA 2.67 (pass) and 3.50 (distinction) are graduation classifications, not undergraduate admission cutoffs.",
+      "notesEn": "AY2027/28: applications 1 August 2026–30 June 2027, subject to change. Full-time is one year and includes Regular/Weekend formats; Weekend is not the two-year part-time mode. HKD 198,000 is programme tuition, not an annual multiplier; application fee HKD 400 is separate. GPA 2.67 (pass), 3.50 (distinction) and 2.33 (intermediate diploma) are graduation classifications, not undergraduate admission thresholds. Relevant fields, equivalent qualifications and language alternatives require university judgement.",
       "offerings": [
         {
           "id": "HK-LU-P001-O1",
@@ -671,11 +671,13 @@
           "duration": "1 year",
           "intake": "2027/28 intake",
           "deadline": "2027-06-30",
-          "deadlineNote": null,
+          "deadlineNote": "AY2027/28 application window: 1 August 2026 to 30 June 2027. The Programme Office may change the closing date without notice based on admissions. No exact cutoff time, extra round or live portal availability is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 198000,
-          "feeBasis": "Published AY2027/28 programme tuition; application fee additional"
+          "feeBasis": "Published AY2027/28 programme tuition HKD 198,000, not an annual amount multiplied by the two-year part-time duration. Separate application fee HKD 400. Other expenses and individual mode/status applicability require confirmation; no automatic scholarship deduction or all-in total.",
+          "applicationOpen": "2026-08-01",
+          "applicationFee": 400
         },
         {
           "id": "HK-LU-P001-O2",
@@ -683,33 +685,35 @@
           "duration": "2 years",
           "intake": "2027/28 intake",
           "deadline": "2027-06-30",
-          "deadlineNote": null,
+          "deadlineNote": "AY2027/28 application window: 1 August 2026 to 30 June 2027. The Programme Office may change the closing date without notice based on admissions. No exact cutoff time, extra round or live portal availability is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 198000,
-          "feeBasis": "Published AY2027/28 programme tuition; application fee additional"
+          "feeBasis": "Published AY2027/28 programme tuition HKD 198,000, not an annual amount multiplied by the two-year part-time duration. Separate application fee HKD 400. Other expenses and individual mode/status applicability require confirmation; no automatic scholarship deduction or all-in total.",
+          "applicationOpen": "2026-08-01",
+          "applicationFee": 400
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
-          "labelEn": "Bachelor’s degree",
+          "labelZh": "",
+          "labelEn": "Bachelor’s degree or accepted alternative",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         {
           "kind": "manual",
-          "labelZh": "Academic standing and equivalence",
-          "labelEn": "Academic standing and equivalence",
-          "noteZh": "A relevant bachelor's degree, accepted equivalent, or satisfactory academic/professional attainment is considered.",
-          "noteEn": "A relevant bachelor's degree, accepted equivalent, or satisfactory academic/professional attainment is considered.",
+          "labelZh": "",
+          "labelEn": "Relevant fields and alternative academic attainment",
+          "noteZh": "",
+          "noteEn": "A relevant recognised bachelor degree, equivalent qualification, or satisfactory academic/professional attainment may be considered. No exhaustive subject whitelist, automatic any-discipline rule, numeric admission GPA or mandatory work-year minimum is established. Alternative routes and recognition require university judgement.",
           "mandatory": true,
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         {
           "kind": "language",
-          "labelZh": "Published English test scores",
-          "labelEn": "Published English test scores",
+          "labelZh": "",
+          "labelEn": "Published IELTS and old-scale TOEFL scores",
           "tests": {
             "ielts": {
               "total": 6
@@ -725,70 +729,70 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Relevance, alternative qualifications and language equivalents need university judgement.",
-          "noteEn": "Relevance, alternative qualifications and language equivalents need university judgement.",
+          "labelZh": "",
+          "labelEn": "Language validity, CET-6 alternative and spoken evidence",
+          "noteZh": "",
+          "noteEn": "For a prior qualification not taught in English, IELTS/TOEFL must be from one sitting at a recognised test centre and within two years counted from the submission date for this intake, not today's date. CET-6 450 is a manual alternative with a five-year submission-based validity period plus a Programme oral interview and/or CET-6 Speaking grade B or above. Recognised equivalent tests/qualifications, waiver evidence and an unlisted TOEFL 1–6 threshold need confirmation; no score conversion is inferred.",
           "mandatory": true,
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "Single-sitting language scores must remain valid at application; the page does not give a revised TOEFL 6-point threshold.",
-          "noteEn": "Single-sitting language scores must remain valid at application; the page does not give a revised TOEFL 6-point threshold.",
+          "labelZh": "",
+          "labelEn": "Study formats, concentration and selection",
+          "noteZh": "",
+          "noteEn": "Regular and Weekend formats are both listed under full-time; some Regular classes may be on weekends. Neither format determines immigration permission or guarantees a concentration place. Two-year part-time study remains a separate mode. Interviews may be required; a professional-attainment alternative or meeting recorded scores does not guarantee admission.",
           "mandatory": true,
-          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information"
         }
       ],
       "sources": [
         {
           "url": "https://www.ln.edu.hk/sgs/ihem/admission",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-08"
-        },
-        {
-          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
-          "purpose": "Study modes and application window",
-          "checkedOn": "2026-10-08"
+          "purpose": "Explicit AY2027/28 window, tuition/application fee and intake-submission-based language alternatives",
+          "checkedOn": "2026-10-23"
         },
         {
           "url": "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information",
-          "purpose": "Study mode and duration; graduation GPAs are not admission criteria",
-          "checkedOn": "2026-10-08"
+          "purpose": "FT/PT formats and durations; degree/exit-award GPAs are graduation classifications",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "purpose": "Selected IHEM row corroborates both modes and dated window; not a new directory enumeration",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "lingnan-eduhk-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "noteEn": "Admissions explicitly identifies AY2027/28; no precise start month is inferred.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "major": {
           "status": "known",
-          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "noteEn": "Relevant bachelor degree or accepted alternative is qualitative; equivalence remains manual, not an automatic any-discipline rule.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+          "noteEn": "No numeric undergraduate admission cutoff found; 2.67/3.50 degree and 2.33 exit-diploma GPAs are graduation classifications.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "IELTS 6.0 / TOEFL 79 old scale; single test-centre sitting. CET-6 450 plus spoken evidence and submission-based validity remain manual; no new TOEFL threshold inferred.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "AY2027/28 tuition HKD 198,000; application fee HKD 400 is separate.",
+          "noteEn": "AY2027/28 programme tuition HKD 198,000 with separate HKD 400 application fee; not two annual tuition amounts for part-time.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Dated 1 August 2026–30 June 2027 window is recorded, subject to change without notice; exact cutoff time/live availability unverified.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "independentReview": {
@@ -1056,26 +1060,28 @@
       "officialUrl": "https://www.eduhk.hk/ssps/mppm",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "January 2027 (2026/27); September 2027 (2027/28)",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Do not merge the two intake prices or deadlines. The September deadline has not been checked in this batch.",
+      "notesEn": "January 2027 (2026/27) and September 2027 (2027/28) keep separate applicant categories, fees and deadlines. Select the intake and EdUHK category; no non-local default is used. January's generic Now Open label does not override the passed non-local cutoff. September dates use the central taught-postgraduate schedule with possible earlier closure. Published language-validity examples differ by academic year; no shared rolling expiry is inferred. Institutional recognition, documents and interviews remain manual; admission is not guaranteed.",
       "offerings": [
         {
           "id": "HK-EDUHK-P001-O1",
           "mode": "Full-time",
           "duration": "1 year",
           "intake": "January 2027",
-          "deadline": "2026-10-15",
-          "deadlineNote": "Non-local deadline; local applicants: 20 November 2026.",
+          "deadline": null,
+          "deadlineNote": "January 2027 category required: Non-local cutoff 15 October 2026; local applicants 20 November 2026. No dated opening or intraday cutoff is established. Generic Now Open wording does not override a passed category deadline.",
           "academicYear": "2026/27",
           "currency": "HKD",
-          "tuition": 188888,
-          "feeBasis": "Total tuition for non-local applicants; local tuition HKD 151,110"
+          "tuition": null,
+          "feeBasis": "January 2027 total tuition: non-local HKD 188,888; local tuition HKD 151,110. Separate application fees: HKD 400 non-local / HKD 300 local. Select the EdUHK category; no default amount or September fee is assumed.",
+          "applicationOpen": null,
+          "applicationFee": null
         },
         {
           "id": "HK-EDUHK-P001-O2",
@@ -1083,23 +1089,25 @@
           "duration": "1 year",
           "intake": "September 2027",
           "deadline": null,
-          "deadlineNote": null,
+          "deadlineNote": "September 2027 central TPG schedule: opening 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final cutoff 10 May 2027 non-local / 31 May 2027 local. Select the EdUHK category. Programmes may close earlier; no separate round openings, exact cutoff times or live availability are assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 208000,
-          "feeBasis": "Published September 2027 programme tuition"
+          "feeBasis": "Published September 2027 programme tuition HKD 208,000. Separate application fees from this intake: HKD 400 local / HKD 500 non-local. No January price, category default, scholarship discount or all-in cost is assumed.",
+          "applicationOpen": "2026-10-05",
+          "applicationFee": null
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
-          "labelEn": "Bachelor’s degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor’s degree or accepted equivalent",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         {
           "kind": "language",
-          "labelZh": "Published English test scores",
+          "labelZh": "",
           "labelEn": "Published English test scores",
           "tests": {
             "ielts": {
@@ -1120,10 +1128,37 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Language exemptions, accepted equivalents and intake-specific test-validity anchors require confirmation.",
-          "noteEn": "Language exemptions, accepted equivalents and intake-specific test-validity anchors require confirmation.",
+          "labelZh": "",
+          "labelEn": "Academic recognition and undergraduate field",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor degree or accepted equivalent is normally required. An exhaustive accepted-field list, an automatic any-discipline policy and a numeric admission GPA are not established. Overseas qualifications may require HKQF Level 5 equivalence and requested assessment evidence; recognition is the university's decision, not inferred from nationality or a self-reported GPA.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Intake-specific English validity and alternatives",
+          "noteZh": "",
+          "noteEn": "Programme text gives a 2026/27 example of IELTS/TOEFL/CET-6 on or after 1 January 2024; the current central 2027/28 page gives 1 January 2025. Confirm which example and two-year rule apply to the selected intake; neither is a rolling expiry from today or one shared date across intakes. CET-6 430, GCSE/GCE OL English grade C and equivalents remain manual alternatives. Scores must be test-centre based; TOEFL Home Edition/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and the National Postgraduate Entrance Examination are excluded.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification evidence, confidential transcript and interview",
+          "noteZh": "",
+          "noteEn": "Academic documents and applicable English evidence are required; confidential transcripts may need direct transmission from the awarding institution. Mainland-qualification verification requirements apply only to that qualification route, not to every applicant. Non-English/non-Chinese documents need certified English translation under the central FAQ; further evidence may be requested. Shortlisted applicants undergo document verification and interview. No third party is authorised to guarantee admission; this platform does not submit or collect these documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Delivery, curriculum and category applicability",
+          "noteZh": "",
+          "noteEn": "Teaching defaults to in-person, with sites and class times determined by EdUHK. Specialisation/elective quotas and alternatives may change; choosing an optional thesis does not make this coursework programme a research master. EdUHK must confirm applicant status, qualification recognition and current intake availability; location in Singapore does not determine local/non-local classification.",
           "mandatory": true,
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         }
@@ -1131,46 +1166,61 @@
       "sources": [
         {
           "url": "https://www.eduhk.hk/ssps/mppm",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Programme code/mode, both intake fee schedules, academic/English/document conditions and January validity example",
+          "checkedOn": "2026-10-23"
         },
         {
           "url": "https://www.eduhk.hk/acadprog/postgrad/",
-          "purpose": "January intake applicant-category deadlines",
-          "checkedOn": "2026-10-06"
+          "purpose": "January 2027 local/non-local deadlines; promotional Now Open is not a date override",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "purpose": "Central September 2027 opening, early/main and local/non-local final cutoffs; MPPM is not an excluded programme",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "purpose": "General English alternatives, exclusions and distinct 2027/28 test-date example",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "purpose": "Document translation/direct-verification guidance and separate application-fee refund conditions",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "lingnan-eduhk-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "noteEn": "January 2027 is 2026/27; September 2027 is 2027/28. These are not one combined intake.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "major": {
           "status": "unknown",
-          "noteEn": "A complete accepted-field policy was not captured.",
+          "noteEn": "A recognised degree/equivalent is stated but no exhaustive accepted-field or automatic any-discipline policy is established.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "noteEn": "No numeric undergraduate admission GPA cutoff found in the consulted programme/general sources.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "IELTS 6.0, old TOEFL 80 / new TOEFL 4.0. Distinct 2026/27 and 2027/28 validity examples and alternative qualifications remain intake-specific manual checks.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "noteEn": "January category tuition differs; September tuition is HKD 208,000 but application fees change by intake/category. No non-local default is used.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "deadline": {
           "status": "unknown",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
-          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+          "noteEn": "Category-bound January cutoffs and September central rounds are recorded. January opening and exact times are unknown; use validated intake/category evidence rather than a single programme-wide date.",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html"
         },
         "independentReview": {
           "status": "unknown",

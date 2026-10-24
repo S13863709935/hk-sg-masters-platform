@@ -1,6 +1,6 @@
 # University-specific applicant-category selection
 
-Implementation contract introduced on 19 October 2026 with two EdUHK categories for one January 2027 study option. As of 23 October, explicit contexts cover 10 study options / 20 categories across that EdUHK intake, CityU Applied Economics, HKU Computer Science and the full-time September 2027 HKBU Communication / Business Management options. Each combination requires its own evidence; rules are not generalized across universities, modes or intakes. HKBU Communication part-time applicability remains unresolved and has no contextual category record.
+Implementation contract introduced on 19 October 2026 with two EdUHK categories for one January 2027 study option. As of 23 October, explicit contexts cover 11 study options / 22 categories across EdUHK MPPM January and September 2027, CityU Applied Economics, HKU Computer Science and the full-time September 2027 HKBU Communication / Business Management options. EdUHK September has its own central schedule and changed application fees, not copied January facts. Each combination requires its own evidence; rules are not generalized across universities, modes or intakes. HKBU Communication part-time applicability remains unresolved and has no contextual category record.
 
 ## Source and trust boundary
 

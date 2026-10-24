@@ -23,7 +23,7 @@ test('economics refresh preserves its own source batch and earlier observations'
   assert.equal(p.lastChecked, observation.checkedOn);
   assert.deepEqual(batch.programmes.filter(q => q.researchBatch === p.researchBatch).map(q => q.id), [id]);
   assert.equal(batch.programmes.find(q => q.id === 'SG-NTU-P018').lastChecked, '2026-10-21');
-  assert.equal(batch.programmes.find(q => q.id === 'HK-EDUHK-P001').lastChecked, '2026-10-06');
+  assert.equal(batch.programmes.find(q => q.id === 'HK-EDUHK-P001').lastChecked, '2026-10-23');
   assert.deepEqual(p.sources.map(s => s.url), [official, guide]);
   assert.ok(p.sources.every(s => s.checkedOn === p.lastChecked));
   assert.equal(observation.programmeId, p.id); assert.equal(observation.checkedOn, p.lastChecked);

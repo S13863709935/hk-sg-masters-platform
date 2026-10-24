@@ -23,7 +23,7 @@ test('SUTD refresh is limited to two partial programme-page observations without
     assert.ok(p.sources.every(s => s.checkedOn === observation.checkedOn));
     assert.equal(p.fieldStatus.independentReview.status, 'unknown');
   }
-  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-06');
+  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-23');
   assert.equal(batch.programmes.find(p => p.id === 'SG-NUS-P029').lastChecked, '2026-10-22');
   assert.equal(observation.limits.livePortalChecked, false); assert.equal(observation.limits.independentHumanReviews, 0);
 });
@@ -154,6 +154,6 @@ test('read-only SUTD lookups do not mutate evidence or promote catalogue, review
   const meta = await get('/api/meta');
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 21);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 10, categories: 20, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 11, categories: 22, peerReviewed: 0 });
   assert.equal(JSON.stringify([store.get(ma.id), store.get(mt.id)]), before);
 });

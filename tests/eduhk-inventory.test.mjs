@@ -85,7 +85,7 @@ test('directory-only updates preserve checked fields and the independently dated
     const routes = loadRoutes(new URL('data/route-programmes.json', root), db.all());
     const index = loadApplicantContexts(new URL('data/applicant-contexts.json', root), db.all(), routes);
     const resolved = resolveApplicantContext(resolveOffering(db.get('HK-EDUHK-P001'), 'HK-EDUHK-P001-O1'), index, 'HK-EDUHK-P001-O1-NONLOCAL');
-    assert.equal(resolved.offerings[0].tuition, 188888); assert.equal(resolved.offerings[0].deadline, '2026-10-15'); assert.equal(resolved.offerings[0].feeEvidence.checkedOn, '2026-10-19');
+    assert.equal(resolved.offerings[0].tuition, 188888); assert.equal(resolved.offerings[0].deadline, '2026-10-15'); assert.equal(resolved.offerings[0].feeEvidence.checkedOn, '2026-10-23');
     assert.equal(db.universities().find(u => u.id === 'HK-EDUHK').directoryAudit.enumerationStatus, 'entries_enumerated');
   } finally { db.close(); }
 });

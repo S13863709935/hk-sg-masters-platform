@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-23",
+  "method": "AI-assisted reading of official Lingnan and EdUHK HTML sources; no independent human review, application submission or live application-session check",
+  "sources": {
+    "lingnanAdmissions": "https://www.ln.edu.hk/sgs/ihem/admission",
+    "lingnanInformation": "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information",
+    "lingnanDirectory": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+    "eduhkProgramme": "https://www.eduhk.hk/ssps/mppm",
+    "eduhkJanuaryDates": "https://www.eduhk.hk/acadprog/postgrad/",
+    "eduhkSeptemberDates": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+    "eduhkGeneral": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+    "eduhkFaq": "https://www.eduhk.hk/acadprog/FAQS/index.htm"
+  },
+  "lingnan": {
+    "programmeId": "HK-LU-P001",
+    "cohort": "2027/28",
+    "window": { "open": "2026-08-01", "deadline": "2027-06-30", "caveat": "Programme may change closing date without notice based on admissions situation", "cutoffTime": null },
+    "modes": { "fullTime": "1 year; Regular and Weekend formats are both full-time", "partTime": "2 years" },
+    "tuitionHkd": 198000,
+    "applicationFeeHkd": 400,
+    "academic": "Relevant recognised bachelor degree, accepted equivalent, or satisfactory academic/professional attainment; no exhaustive subject list or numeric admission GPA",
+    "english": { "ielts": 6, "toefl120": 79, "toefl6": null, "singleSitting": true, "testCentre": true, "ieltsToeflValidity": "Two years counted from submission for the specific intake, not today's date", "cet6": 450, "cet6Validity": "Five years counted from application submission", "cet6Speaking": "Programme oral interview and/or CET-6 Speaking grade B or above", "other": "Equivalent recognised test or qualification requires judgement" },
+    "graduationNotAdmissionGpa": { "pass": 2.67, "distinction": 3.5, "intermediateDiploma": 2.33 },
+    "decision": "Keep FT/PT IDs, add the explicit opening and separate application fee, retain qualitative academic and alternative-language review. Do not multiply the programme fee by two part-time years, map Weekend to part-time or invent a new-scale TOEFL cutoff."
+  },
+  "eduhk": {
+    "programmeId": "HK-EDUHK-P001",
+    "mode": "One-year full-time; programme code A1M082",
+    "january": { "academicYear": "2026/27", "intake": "January 2027", "openingDate": null, "local": { "tuitionHkd": 151110, "applicationFeeHkd": 300, "deadline": "2026-11-20" }, "nonlocal": { "tuitionHkd": 188888, "applicationFeeHkd": 400, "deadline": "2026-10-15" }, "caveat": "Generic Now Open promotion does not override an already passed category deadline" },
+    "september": { "academicYear": "2027/28", "intake": "September 2027", "openingDate": "2026-10-05", "earlyDeadline": "2027-01-04", "mainDeadline": "2027-02-15", "local": { "tuitionHkd": 208000, "applicationFeeHkd": 400, "deadline": "2027-05-31" }, "nonlocal": { "tuitionHkd": 208000, "applicationFeeHkd": 500, "deadline": "2027-05-10" }, "scheduleScope": "Central taught-postgraduate September 2027 schedule; MPPM is not among its listed exceptions. Programme-specific earlier closure/capacity remains possible.", "cutoffTimes": null, "roundSpecificOpenings": null },
+    "academic": "Recognised bachelor degree or accepted equivalent; field whitelist/any-discipline policy and numeric admission GPA are not established",
+    "english": { "ieltsAcademic": 6, "toefl120": 80, "toefl6": 4, "newScaleFrom": "2026-01-21", "cet6": 430, "other": "GCSE/GCE OL English grade C or accepted equivalent", "testCentre": true, "exclusions": ["TOEFL Home Edition", "TOEFL MyBest", "IELTS Indicator", "IELTS Online", "IELTS One Skill Retake", "Duolingo", "National Postgraduate Entrance Examination"], "januaryValidityExample": "Programme's 2026/27 example says tests on/after 1 January 2024", "septemberValidityExample": "Central 2027/28 example says tests on/after 1 January 2025", "decision": "Keep distinct published academic-year examples and confirm intake applicability manually; do not apply one programme-level minimum to both intakes or roll expiry from today" },
+    "documents": "Institutional recognition/equivalence, applicable qualification assessment, official/confidential transcripts, translations and conditional Mainland-qualification verification need manual review; only shortlisted applicants undergo verification/interview and no admission is guaranteed",
+    "delivery": "In-person default; electives and specialisation quotas may change; an optional thesis does not turn the coursework programme into a research master",
+    "decision": "Refresh the January context with actual new source reading and fingerprint, without altering its four published fee values or category cutoffs. Append a separately bound September context with its own fees and central three-cutoff schedule. Raw category-dependent default prices/deadlines are null; no applicant status is inferred."
+  },
+  "limits": { "newParentProgrammes": 0, "newApplicantContexts": 1, "independentHumanReviews": 0, "livePortalChecked": false, "softwareChanges": false }
+}

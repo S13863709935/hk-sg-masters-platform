@@ -25,7 +25,7 @@ test('the two-programme refresh keeps independent review pending and leaves earl
     assert.equal(p.reviewer, null); assert.equal(p.verification, 'programme_page_checked');
     assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.fieldStatus.independentReview.status, 'unknown');
   }
-  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-06');
+  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-23');
   assert.equal(batch.programmes.find(p => p.id === 'SG-NUS-P029').lastChecked, '2026-10-22');
   assert.equal(batch.programmes.find(p => p.id === 'SG-NTU-P018').lastChecked, '2026-10-21');
 });

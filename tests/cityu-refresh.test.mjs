@@ -73,7 +73,7 @@ test('both CS modes keep local and non-local minimum-credit estimates separate',
 });
 
 test('same-university subdomains are supported without accepting another university or spoofed hosts', () => {
-  assert.equal(index.size, 10);
+  assert.equal(index.size, 11);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-cityu-domain-')), file = join(dir, 'batch.json');
   try {
     for (const bad of ['https://www.nus.edu.sg/fees', 'https://cityu.edu.hk.attacker.invalid/fees', 'https://attacker@www.cityu.edu.hk/fees']) {
@@ -83,10 +83,10 @@ test('same-university subdomains are supported without accepting another univers
   } finally { rmSync(file, { force: true }); rmdirSync(dir); }
 });
 
-test('mixed source dates preserve EdUHK October 19 and CityU October 20 observations', async () => {
+test('mixed source dates keep refreshed EdUHK separate from CityU October 20 observations', async () => {
   const ed = await get('/api/programmes/HK-EDUHK-P001?offering=HK-EDUHK-P001-O1&applicant=HK-EDUHK-P001-O1-LOCAL');
   const cs = await selected('O1', 'LOCAL');
-  assert.equal(ed.applicantEvidence.checkedOn, '2026-10-19'); assert.equal(ed.lastChecked, '2026-10-06');
+  assert.equal(ed.applicantEvidence.checkedOn, '2026-10-23'); assert.equal(ed.lastChecked, '2026-10-23');
   assert.equal(cs.applicantEvidence.checkedOn, '2026-10-20'); assert.equal(cs.lastChecked, '2026-10-20');
 });
 

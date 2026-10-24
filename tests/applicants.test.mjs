@@ -24,7 +24,7 @@ const get = async path => (await fetch(url + path)).json();
 const post = value => fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(value) });
 
 test('category evidence has its own dated scope and does not inflate programme review counts', () => {
-  assert.deepEqual(applicantSummary(index), { studyOptions: 10, categories: 20, peerReviewed: 0 });
+  assert.deepEqual(applicantSummary(index), { studyOptions: 11, categories: 22, peerReviewed: 0 });
   assert.equal(store.quality().checked, 21); assert.equal(store.quality().complete, 0); assert.equal(store.quality().peerReviewed, 0);
 });
 test('the source binding fingerprints every field regardless of property order', () => {
@@ -39,11 +39,11 @@ test('the unselected category never silently becomes the non-local amount or dat
   assert.equal(p.selectedApplicant, undefined); assert.equal(p.applicantOptions.length, 2);
   assert.equal(p.offerings[0].tuition, null); assert.equal(p.offerings[0].deadline, null);
   assert.equal(programmeTimeline(p, '2026-10-19').state, 'applicant_required');
-  assert.equal(programmeTimeline(p, '2026-10-19').offerings[0].sourceCheckedOn, '2026-10-19');
+  assert.equal(programmeTimeline(p, '2026-10-19').offerings[0].sourceCheckedOn, '2026-10-23');
 });
-test('all-options browsing masks only the category-dependent offering', () => {
+test('all-options browsing masks each category-dependent intake independently', () => {
   const p = resolveProgramme(base, routes, undefined, undefined, undefined, index);
-  assert.equal(p.offerings.length, 2); assert.equal(p.offerings[0].tuition, null); assert.equal(p.offerings[1].tuition, 208000);
+  assert.equal(p.offerings.length, 2); assert.equal(p.offerings[0].tuition, null); assert.equal(p.offerings[1].tuition, null);
   assert.equal(p.applicantOptions, undefined); assert.equal(p.offeringOptions[0].deadline, null);
 });
 test('local tuition, separate application fee and deadline stay in one exact intake', () => {
@@ -62,9 +62,11 @@ test('a future local deadline alone never establishes that applications are curr
   assert.equal(programmeTimeline(resolve(local), '2026-11-21').state, 'deadline_passed');
 });
 test('new fee/date evidence does not relabel older academic criteria as rechecked', () => {
-  const p = resolve(nonlocal), dates = programmeTimeline(p, '2026-10-19');
-  assert.equal(p.lastChecked, '2026-10-06'); assert.equal(p.applicantEvidence.checkedOn, '2026-10-19');
-  assert.equal(dates.offerings[0].sourceCheckedOn, '2026-10-19');
+  // Synthetic older academic date keeps this trust-boundary check independent of later real refreshes.
+  const older = { ...base, lastChecked: '2026-10-06' };
+  const p = resolveProgramme(older, routes, undefined, offering, nonlocal, index), dates = programmeTimeline(p, '2026-10-19');
+  assert.equal(p.lastChecked, '2026-10-06'); assert.equal(p.applicantEvidence.checkedOn, '2026-10-23');
+  assert.equal(dates.offerings[0].sourceCheckedOn, '2026-10-23');
   assert.equal(dates.offerings[0].sourceUrl, 'https://www.eduhk.hk/acadprog/postgrad/');
   assert.deepEqual(p.rules, base.rules); assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
 });
@@ -122,7 +124,7 @@ test('catalogue applies selections before mode filters and keeps category source
   const q = new URLSearchParams({ school: 'HK-EDUHK', q: 'Public Policy', offerings: JSON.stringify({ [id]: offering }), applicants: JSON.stringify({ [id]: local }) });
   const d = await get('/api/catalogue?' + q);
   assert.equal(d.total, 1); assert.equal(d.items[0].selectedApplicant.id, local); assert.equal(d.items[0].offerings[0].tuition, 151110);
-  assert.equal(d.items[0].applicationTimeline.offerings[0].sourceCheckedOn, '2026-10-19');
+  assert.equal(d.items[0].applicationTimeline.offerings[0].sourceCheckedOn, '2026-10-23');
 });
 test('catalogue selection queries are bounded, parsed and validated', async () => {
   for (const [raw, code] of [['{', 400], ['[]', 422], ['null', 422], [JSON.stringify({ [id]: local }), 422], ['x'.repeat(8001), 413]]) assert.equal((await fetch(url + '/api/catalogue?' + new URLSearchParams({ applicants: raw }))).status, code);
@@ -140,8 +142,8 @@ test('raw exports, original sources and original workbook-backed IDs remain unch
   const before = JSON.stringify(store.get(id)); resolve(local); resolve(nonlocal);
   assert.equal(JSON.stringify(store.get(id)), before);
   const raw = await get('/api/export'); assert.ok(raw.programmes.every(p => p.selectedApplicant === undefined && p.applicantEvidence === undefined));
-  assert.equal(raw.programmes.find(p => p.id === id).offerings[0].tuition, 188888);
-  const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 10, categories: 20, peerReviewed: 0 }); assert.equal(meta.quality.total, 873);
+  assert.equal(raw.programmes.find(p => p.id === id).offerings[0].tuition, null);
+  const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 11, categories: 22, peerReviewed: 0 }); assert.equal(meta.quality.total, 873);
 });
 test('UI carries category context through matching, display and export without browser persistence', () => {
   const js = readFileSync(new URL('public/app.js', root), 'utf8');

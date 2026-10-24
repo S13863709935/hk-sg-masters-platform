@@ -24,7 +24,7 @@ test('two PolyU/HKU refreshes retain partial evidence, stable study IDs and unre
     assert.equal(matchProgramme(p, profile).tier, null);
   }
   assert.deepEqual(py.offerings.map(o => o.id), [py.id + '-O1', py.id + '-O2']); assert.deepEqual(hk.offerings.map(o => o.id), [hk.id + '-O1']);
-  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-06');
+  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-23');
   assert.equal(batch.programmes.find(p => p.id === 'SG-NUS-P029').lastChecked, '2026-10-22');
 });
 
@@ -169,6 +169,6 @@ test('saved choices reload refreshed mode facts and read-only access leaves qual
   assert.equal(shortlistExport([item.programme], { [py.id]: saved }).programmes[0].rememberedChoice, true);
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.checked, 21); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 10, categories: 20, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 11, categories: 22, peerReviewed: 0 });
   assert.equal(JSON.stringify([store.get(py.id), store.get(hk.id)]), before);
 });

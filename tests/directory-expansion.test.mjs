@@ -83,7 +83,7 @@ test('PolyU 111 master/scheme entries are not promoted to an exact programme tot
 });
 test('the refreshed Lingnan offering retains fees and durations without graduation GPA rules', () => {
   const p = read('data/checked-programmes.json').programmes.find(p => p.id === 'HK-LU-P001');
-  assert.equal(p.lastChecked, '2026-10-08');
+  assert.equal(p.lastChecked, '2026-10-23');
   assert.deepEqual(p.offerings.map(o => [o.duration, o.tuition]), [['1 year', 198000], ['2 years', 198000]]);
   assert.ok(!p.rules.some(r => r.kind === 'gpa'));
   assert.match(p.notesEn, /graduation classifications/);
