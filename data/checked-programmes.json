@@ -3500,6 +3500,383 @@
         }
       ],
       "rules": []
+    },
+    {
+      "id": "HK-HKUST-P001",
+      "universityId": "HK-HKUST",
+      "name": "MSc Civil Infrastructural Engineering and Management",
+      "award": "MSc",
+      "area": "Engineering",
+      "faculty": "Department of Civil and Environmental Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-24",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "researchBatch": "beyond-pilot-ciem-mim-2026-10-24",
+      "academicYear": "2026/27 and 2027/28",
+      "notesEn": "First programme-page check of the existing MSc identity, not an extra catalogue programme. Only the MSc is in scope; the PGD award and HKD 105,000 PGD fee are excluded. February 2027 is part-time only; September 2027 has separate full/part-time and applicant-category cutoffs. An early-September opening phrase is not an exact date. Concentrations are curriculum choices, not new admission programmes. Credit-transfer, PGD-to-MSc and integrated pathway fee rules differ. Older intake-2026 professional-recognition wording is not a guarantee for the 2027 cohort. No admission GPA, live availability or independent review is established.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P001-FEB2027-PT",
+          "mode": "Part-time",
+          "duration": "2–2.5 years",
+          "intake": "February 2027",
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "Ordinary MSc programme total HKD 180000, paid in 4 instalments; not an annual amount. Covers 6 terms. Additional time beyond covered normative study, extra/retaken courses cost more. Ordinary credit transfer and PGD-to-MSc entrants pay full MSc tuition; the restricted integrated Bachelor-Master route has a separate pro-rata exception. Separate HKD 600 application fee; excludes PGD tuition.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2026-11-01",
+          "deadlineNote": "Published MSc part-time Spring 2026/27 cutoff is 1 November 2026 for local and non-local applicants. School says opening in early September 2026, not an exact date. No full-time spring option, exact cutoff time or live portal check."
+        },
+        {
+          "id": "HK-HKUST-P001-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1–1.5 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 210000,
+          "feeBasis": "Ordinary MSc programme total HKD 210000, paid in 2 instalments; not an annual amount. Covers 4 terms. Additional time beyond covered normative study, extra/retaken courses cost more. Ordinary credit transfer and PGD-to-MSc entrants pay full MSc tuition; the restricted integrated Bachelor-Master route has a separate pro-rata exception. Separate HKD 600 application fee; excludes PGD tuition.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "Choose the HKUST applicant category for September Round 1 / Round 2. Local and non-local final cutoffs differ; opening date and exact cutoff times are unknown. Rolling selection may end earlier."
+        },
+        {
+          "id": "HK-HKUST-P001-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2–2.5 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "Ordinary MSc programme total HKD 180000, paid in 4 instalments; not an annual amount. Covers 6 terms. Additional time beyond covered normative study, extra/retaken courses cost more. Ordinary credit transfer and PGD-to-MSc entrants pay full MSc tuition; the restricted integrated Bachelor-Master route has a separate pro-rata exception. Separate HKD 600 application fee; excludes PGD tuition.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "Choose the HKUST applicant category for September Round 1 / Round 2. Local and non-local final cutoffs differ; opening date and exact cutoff times are unknown. Rolling selection may end earlier."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor degree or accepted equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Civil Engineering or related engineering",
+          "accepted": [
+            "Civil Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or above",
+          "min": "second_lower",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS / TOEFL iBT thresholds",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, related engineering and remedial study",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor/equivalent and second-class honours in Civil Engineering or a related engineering area are published. Relatedness/equivalence is decided by HKUST; non-Civil Engineering applicants may need remedial civil engineering courses before study. No numeric undergraduate admission GPA was found in the consulted sources.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English waivers, legacy formats and validity",
+          "noteZh": "",
+          "noteEn": "English first language or an English-medium bachelor/equivalent may support a TOEFL/IELTS waiver, subject to university acceptance. TOEFL pBT 550 and revised paper-delivered 60 are also listed but not modelled. IELTS/iBT thresholds require a single sitting and exclude at-home tests. No score-validity anchor was established; do not calculate rolling expiry from today.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "MSc-only award, concentrations and professional recognition",
+          "noteZh": "",
+          "noteEn": "The shared page also includes a PGD, which is outside this master-only project; neither its 15-credit curriculum nor its HKD 105,000 price is an MSc offering. MSc has 30 credits including a 6-credit independent project; that project does not make admission research-based. Seven optional concentrations remain within one MSc. School professional-accreditation wording specifically mentions intake 2026 and qualifying prior degrees, not an automatic 2027 professional licence or membership.",
+          "mandatory": true,
+          "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Credit transfer, PGD progression and integrated pathway fee exceptions",
+          "noteZh": "",
+          "noteEn": "Ordinary credit-transfer entrants and PGD graduates later admitted to MSc still pay the full MSc fee. Up to 9 credits require approval. The restricted integrated Bachelor-Master route for qualifying HKUST Year 3-or-above Civil/Civil & Environmental Engineering students has conditional admission and a separate pro-rata minimum-21-credit fee rule; do not assume an ordinary applicant qualifies. Staying beyond covered normative terms or extra/retaken courses costs more.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Intake, applicant category and rolling selection",
+          "noteZh": "",
+          "noteEn": "February 2027 is listed only for part-time MSc, with a common local/non-local 1 November 2026 deadline. Early September 2026 is not a precise opening date. September 2027 has mode-bound local/non-local round cutoffs; HKUST determines visa/entry-permit category and permission for part-time study. Opening dates, exact cutoff times and live availability remain unverified. Minimum conditions and rolling consideration do not guarantee admission.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem",
+          "purpose": "MSc-specific award, modes, language/academic requirements, both intake cutoffs, application fee and pathway distinctions",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem",
+          "purpose": "February/September cohort fees and instalments, imprecise spring opening, award separation and intake-specific recognition caveat",
+          "checkedOn": "2026-10-24"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "February 2027 / 2026/27 and September 2027 / 2027/28 are explicit; do not combine their modes or dates.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Civil Engineering is explicit; related fields, equivalence and remedial study require judgement.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA found in the consulted sources; do not turn pathway or graduation figures into a general cutoff.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Only published numeric IELTS/iBT thresholds are modelled. Waivers, older formats and score-validity anchor still need confirmation.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "MSc cohort/mode totals only, with fee-covered terms, extra charges and pathway exceptions. Do not use the PGD price.",
+          "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Intake-specific cutoffs recorded; September needs explicit applicant category. Precise opening dates and cutoff times are unknown.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirement set; recommendation tiers remain disabled.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem"
+        }
+      }
+    },
+    {
+      "id": "SG-SMU-P003",
+      "universityId": "SG-SMU",
+      "name": "MSc Management",
+      "award": "MSc",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-management",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-24",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "researchBatch": "beyond-pilot-ciem-mim-2026-10-24",
+      "academicYear": "2027 intake",
+      "notesEn": "First programme-page check of existing SMU Management (MiM), not a new catalogue identity. Full-time 18 months, with distinct January and August 2027 offerings. Dated apply notice gives month ranges only; recurring day/month text is not promoted to fully dated windows. Published tuition is common across nationalities; August 2027 price is indicative. January registration changes to annual miscellaneous fees from August; advance tuition offsets tuition, not an added charge. GPA figures concern institution-specific admission-test waivers, not universal entry cutoffs. Competitive test/profile averages are not minimum scores. Experience upper limit, test/English evidence and all discretionary waivers remain manual.",
+      "offerings": [
+        {
+          "id": "SG-SMU-P003-JAN2027-FT",
+          "mode": "Full-time",
+          "duration": "18 months",
+          "intake": "January 2027",
+          "academicYear": "January 2027 intake",
+          "currency": "SGD",
+          "tuition": 63220,
+          "feeBasis": "Published full-time programme tuition SGD 63,220 inclusive of GST, common to local and foreign students, subject to change. January 2027 advance tuition SGD 5,000 contributes to the first tuition billing and is not added again. Separate SGD 100 application fee; January registration SGD 400 for Singaporeans/PRs or SGD 500 for international students is not included, with applicable tax basis requiring confirmation. Overseas exchange/living/travel expenses excluded; no discounts automatically deducted.",
+          "applicationFee": 100,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "Dated apply notice: January 2027, February 2026 to October 2026 (months only). Main page recurring 1 February-31 October wording is not a fully dated cohort window. Exact endpoints/times and current rolling availability need confirmation."
+        },
+        {
+          "id": "SG-SMU-P003-AUG2027-FT",
+          "mode": "Full-time",
+          "duration": "18 months",
+          "intake": "August 2027",
+          "academicYear": "August 2027 intake",
+          "currency": "SGD",
+          "tuition": 63220,
+          "tuitionEstimate": true,
+          "feeBasis": "Published indicative August 2027 programme tuition SGD 63,220 inclusive of GST, subject to revision, common across nationalities. Advance tuition SGD 8,000 contributes to tuition, not added again. Separate SGD 100 application fee. From August 2027 annual miscellaneous fees replace registration: Singaporeans/PRs SGD 400 or international SGD 480, excluding GST and subject to change; no all-in total inferred. Overseas exchange/living/travel excluded; discounts require confirmation.",
+          "applicationFee": 100,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "Dated apply notice: August 2027, September 2026 to May 2027 (months only). Recurring 1 September-31 May wording is not promoted to exact calendar dates. No invented rounds, exact cutoff time or guaranteed availability."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good undergraduate degree",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Bachelor degree in any field",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Academic quality and full-time experience ceiling",
+          "noteZh": "",
+          "noteEn": "A good undergraduate degree from a reputable institution in any field is required; equivalence/quality needs SMU judgement. No work experience is required, but the page allows up to 3 years of full-time experience. The site records total self-reported years, not verified full-time duration, so applicability of this upper bound needs confirmation. Do not turn it into a three-year minimum or invent a generic GPA cutoff.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Admissions tests, competitive scores and narrow GPA waiver",
+          "noteZh": "",
+          "noteEn": "A good GMAT, GRE or SMU Admissions Test score is normally required. The FAQ calls GMAT 600 and SMUAT T-score 55/80 competitive, not universal minimums; the GMAT version was not established. A waiver is described for SMU graduates at 3.0/4.0 and the named local autonomous universities at 3.5/5.0, with undergraduate GPA valid for 5 years after graduation. Institutional eligibility, original scale, graduation date and any further test advice require SMU confirmation; these are not general entry GPA thresholds. The page permits applying before sitting the test; it does not waive the test. Do not use class-profile or scholarship scores as cutoffs.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and medium-of-instruction waiver",
+          "noteZh": "",
+          "noteEn": "TOEFL/IELTS evidence is required if undergraduate instruction was not English; English-medium waiver evidence needs university acceptance. The page says test results are valid for two years from the test date, but an application/intake comparison anchor is not established here. No numeric IELTS/TOEFL cutoff or new-scale conversion was found in the consulted sections. Keep language thresholds/validity manual, not a rolling expiry checked against today.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and interview",
+          "noteZh": "",
+          "noteEn": "Published documents include an updated resume, official transcripts for all institutions, two personal statements of 500-600 words each, two referee reports with details entered in the application, identification and any supporting documents. Shortlisted candidates interview with the Admissions Committee; original documents are verified at matriculation. No report, statement, referee response or interview outcome is generated or submitted by this platform.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Fees, deposits, concessions and intake transition",
+          "noteZh": "",
+          "noteEn": "Application fee is SGD 100 including GST. Advance tuition is credited to tuition, not charged on top: January SGD 5,000, August-onward SGD 8,000. January registration and August-onward annual miscellaneous categories are different; exact tax/applicant applicability and duration of annual charges require confirmation. Optional SMUAT costs SGD 125 on top of the application fee per FAQ. Scholarships, discounts and credit exemptions require eligibility checks, are not automatically stacked or deducted and do not establish admission. August tuition is indicative and fees may change.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Intake dates and early-career selection",
+          "noteZh": "",
+          "noteEn": "The dated apply page identifies January/August 2027 and month-range windows, while the main page states recurring day/month ranges. No exact dated openings or deadlines are imported by combining those sources. Seats and scholarships may fill earlier under rolling consideration. No part-time mode, live portal status, automatic eligibility or admission guarantee is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/MiM/Apply_now"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/msc-in-management",
+          "purpose": "18-month full-time programme, eligibility, documents, fee/waiver and experience conditions, recurring dates and FAQ caveats",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/MiM/Apply_now",
+          "purpose": "January/August 2027 cohort identity and month-only application periods; rolling consideration",
+          "checkedOn": "2026-10-24"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "January and August 2027 are explicit in the dated apply notice; separate offering identities are retained.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/MiM/Apply_now"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "The programme expressly accepts a good undergraduate degree in any field, subject to recognition/quality.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No generic admission GPA cutoff; SMU 3.0/4.0 and named-AU 3.5/5.0 are restricted admissions-test waiver criteria.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "English requirement and possible medium-of-instruction waiver are described, but numeric thresholds/version policy and validity anchor are unconfirmed.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Common tuition with separate application/registration/miscellaneous charges, credited advance tuition and August indicative-price caveat. Not an all-in quote.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Dated notice supplies month ranges only; recurring day/month text is not converted into fully dated cohort windows.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/MiM/Apply_now"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirement set; no recommendation tier is enabled.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management"
+        }
+      }
     }
   ]
 }

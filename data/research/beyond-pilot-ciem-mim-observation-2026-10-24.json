@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-24",
+  "method": "AI-assisted reading of official programme HTML, not independent human review, application submission or live portal verification",
+  "sources": {
+    "ciemCatalogue": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem",
+    "ciemSchool": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem",
+    "mimProgramme": "https://masters.smu.edu.sg/programme/msc-in-management",
+    "mimApply": "https://masters.smu.edu.sg/programme/MiM/Apply_now"
+  },
+  "ciem": {
+    "programmeId": "HK-HKUST-P001",
+    "awardIncluded": "MSc only",
+    "excludedSharedPageAward": "PGD: 15 credits, part-time, HKD 105000; not an MSc or extra catalogue programme",
+    "mscCredits": 30,
+    "mscProjectCredits": 6,
+    "offerings": [
+      { "id": "HK-HKUST-P001-FEB2027-PT", "academicYear": "2026/27", "intake": "February 2027", "mode": "Part-time", "duration": "2-2.5 years", "tuitionHkd": 180000, "instalments": 4, "feeCoveredTerms": 6, "applicationFeeHkd": 600, "opening": null, "openingText": "Early September 2026 is imprecise", "commonCategoryDeadline": "2026-11-01" },
+      { "id": "HK-HKUST-P001-SEP2027-FT", "academicYear": "2027/28", "intake": "September 2027", "mode": "Full-time", "duration": "1-1.5 years", "tuitionHkd": 210000, "instalments": 2, "feeCoveredTerms": 4, "applicationFeeHkd": 600, "opening": null, "round1": "2026-12-15", "nonlocalRound2": "2027-04-01", "localRound2": "2027-05-15" },
+      { "id": "HK-HKUST-P001-SEP2027-PT", "academicYear": "2027/28", "intake": "September 2027", "mode": "Part-time", "duration": "2-2.5 years", "tuitionHkd": 180000, "instalments": 4, "feeCoveredTerms": 6, "applicationFeeHkd": 600, "opening": null, "round1": "2026-12-15", "nonlocalRound2": "2027-04-01", "localRound2": "2027-05-15" }
+    ],
+    "academic": "Recognised bachelor/equivalent, second-class honours in Civil Engineering or related engineering; relatedness and possible remedial civil engineering courses need judgement. No numeric generic admission GPA established.",
+    "english": { "ieltsTotal": 6.5, "ieltsEach": 5.5, "oldToeflIbt": 80, "newToeflIbt": 4.5, "newVersionFrom": "2026-01-21", "singleAttempt": true, "atHome": false, "legacyFormatsManual": "pBT 550; revised paper-delivered 60", "waiversManual": "English first language or English-medium bachelor/equivalent", "validityAnchor": null },
+    "exceptions": "Ordinary credit transfer and PGD-to-MSc progression still pay full MSc fees; extra/retaken courses or time beyond covered normative terms costs extra. Restricted integrated Bachelor-Master route has its own pro-rata fee rule with minimum 21 credits. Concentrations are within one MSc; intake-2026 professional-recognition wording is not a 2027 guarantee.",
+    "decision": "Upgrade existing MSc ID with three cohort/mode offerings; retire the unresolved seed offering. Add two September applicant contexts. Do not create PGD, concentration or full-time February identities, infer a precise opening or classify the applicant."
+  },
+  "mim": {
+    "programmeId": "SG-SMU-P003",
+    "mode": "Full-time",
+    "duration": "18 months",
+    "intakes": [
+      { "id": "SG-SMU-P003-JAN2027-FT", "intake": "January 2027", "applicationMonths": "February 2026 to October 2026", "exactOpening": null, "exactDeadline": null, "advanceTuitionSgd": 5000, "registration": { "singaporeanOrPrSgd": 400, "internationalSgd": 500, "gstBasis": "Needs confirmation" } },
+      { "id": "SG-SMU-P003-AUG2027-FT", "intake": "August 2027", "applicationMonths": "September 2026 to May 2027", "exactOpening": null, "exactDeadline": null, "advanceTuitionSgd": 8000, "annualMiscellaneous": { "singaporeanOrPrSgd": 400, "internationalSgd": 480, "gst": "Excluded; subject to change" } }
+    ],
+    "recurringDateTextNotFullyDatedWindow": "Main page: 1 February-31 October / 1 September-31 May each year. Dated apply notice gives month ranges only; do not synthesise exact cohort dates.",
+    "tuitionSgdInclusiveGst": 63220,
+    "augustTuitionIndicative": true,
+    "applicationFeeSgdInclusiveGst": 100,
+    "optionalSmuatFeeSgd": 125,
+    "advanceTuitionDecision": "Credited to tuition, not added to the gross tuition again; incidental charges and overseas costs separate, no automatic discounts or all-in total",
+    "academic": "Good undergraduate degree in any field from a reputable institution; no work experience required, up to three years full-time experience allowed",
+    "testsManual": "Good GMAT/GRE/SMUAT normally required. FAQ competitive GMAT 600 and SMUAT T-score 55/80 are not universal minima. Institutional GPA test-waiver thresholds are not general admission thresholds; graduation date and original scale matter. Applying before sitting a test does not waive it.",
+    "waiverGpaNotGenericEntry": { "smuOriginalScale": "3.0/4.0", "namedLocalAutonomousUniversitiesOriginalScale": "3.5/5.0", "validity": "Five years after graduation, only for the described admissions-test waiver" },
+    "englishManual": "TOEFL/IELTS if undergraduate instruction was not English; waiver evidence, two-year validity and comparison anchor require confirmation. No numeric threshold or new TOEFL-scale rule established from consulted sections.",
+    "documents": "Resume; official transcripts; two personal statements of 500-600 words each; two referee reports; identity/supporting documents; shortlisted interview and original-document verification. Platform does not generate or submit these admissions materials.",
+    "decision": "Upgrade existing Management ID with separate January/August offerings; retire seed offering. Keep experience ceiling, test waivers, English and incidental fees manual. No category context fabricated for unknown exact deadlines or unsupported incidental-fee fields."
+  },
+  "limits": { "existingIdsUpgraded": 2, "netNewCatalogueRecords": 0, "newApplicantContexts": 2, "originalPilotIdsChanged": false, "independentHumanReviews": 0, "completeRequirementSets": 0, "livePortalChecked": false }
+}
