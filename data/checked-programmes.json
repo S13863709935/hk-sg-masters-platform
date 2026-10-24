@@ -4705,6 +4705,201 @@
           "sourceUrl": "https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/"
         }
       }
+    },
+    {
+      "id": "SG-NTU-P062",
+      "universityId": "SG-NTU",
+      "name": "Master of Science in Data Science",
+      "award": "MSc",
+      "area": "Computing",
+      "faculty": "College of Computing and Data Science",
+      "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source page check; independent review pending",
+      "lastChecked": "2026-10-24",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "researchBatch": "ntu-msds-first-check-2026-10-24",
+      "notesEn": "Existing MSDS directory identity, not Biomedical Data Science, MSAI, MComp or a FlexiMasters award. August cohort/year interpreted from the central semester table and published fee year. Opening-month disagreement is unresolved; no live-portal availability or January intake inferred.",
+      "offerings": [
+        {
+          "id": "SG-NTU-P062-AUG2027-FT",
+          "mode": "Full-time",
+          "duration": "Minimum 1 year; maximum 2.5 years",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": 65748.8,
+          "applicationFee": 50,
+          "feeBasis": "AY2027/28 onwards, shortest-candidature gross tuition including 9% GST; billed over two semesters, not multiplied by years. SGD 5,000 deposit offsets the first bill. Application fee, miscellaneous charges, extended study, materials and living costs are separate. No automatic grant or rebate deduction.",
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "deadlineNote": "Central AY2027-28 August semester CCDS row inherits 1 October / 31 March from merged cells. Years interpreted as 2026/2027. College FAQ instead says November opening; start remains unknown. No exact closing time or January MSDS intake established; not the trimester MComp window."
+        },
+        {
+          "id": "SG-NTU-P062-AUG2027-PT",
+          "mode": "Part-time",
+          "duration": "Minimum 2 years; maximum 4 years",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": 65748.8,
+          "applicationFee": 50,
+          "feeBasis": "AY2027/28 onwards, shortest-candidature gross tuition including 9% GST; billed over four semesters, not multiplied by years. SGD 5,000 deposit offsets the first bill. Application fee, miscellaneous charges, extended study, materials and living costs are separate. No automatic grant or rebate deduction.",
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "deadlineNote": "Central AY2027-28 August semester CCDS row inherits 1 October / 31 March from merged cells. Years interpreted as 2026/2027. College FAQ instead says November opening; start remains unknown. No exact closing time or January MSDS intake established; not the trimester MComp window."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelEn": "Recognised bachelor degree",
+          "labelZh": "",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        {
+          "kind": "major",
+          "labelEn": "Computing or related quantitative background",
+          "labelZh": "",
+          "accepted": [
+            "Computer Science",
+            "Computer Engineering"
+          ],
+          "relatedAllowed": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        {
+          "kind": "language",
+          "labelEn": "Published CCDS English test totals",
+          "labelZh": "",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 100,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Alternative academic routes and mathematical preparation",
+          "labelZh": "",
+          "noteEn": "Relevant good honours degree OR relevant good bachelor plus two relevant industry years; both require solid mathematics. Quality, equivalence and relevance need NTU assessment. Experience is not universal; no numeric entry GPA established. An application GPA field is not a cutoff.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "English evidence and submission-time validity",
+          "labelZh": "",
+          "noteEn": "MOI certification is an alternative subject to NTU approval. Central non-native-language wording and discretionary tests/interviews need confirmation. Reports must be within two years of application, not today. IELTS components, home testing and single-sitting policies were not established.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Coursework and optional Python bridge",
+          "labelZh": "",
+          "noteEn": "30 AUs include a six-AU, year-long capstone. A zero-AU Python bridge is optional during the first semester, not a prerequisite certificate. Do not substitute MSAI project options or FlexiMasters subsidies.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Documents, payment and final-year applicants",
+          "labelZh": "",
+          "noteEn": "Programme: identity/pass evidence, CV, degree/transcripts and applicable English evidence; GRE/reference letters optional. Central guide additionally requests photograph, grading scale, certified translations and expected-graduation evidence where applicable. Final-year acceptance remains conditional on timely graduation. Upload and pay by the deadline; no paper copies.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Fee scope and discretionary funding",
+          "labelZh": "",
+          "noteEn": "Deposit is credited, not added twice. Miscellaneous fee wording mixes one-time and annual billing; amount/recurrence need confirmation. Mode-specific two/four-semester billing differs from generic two-instalment wording. Subsidies, alumni rebates and competitive awards require eligibility/stacking checks, not automatic subtraction. Do not treat generic no-university-scholarship wording as excluding listed external awards.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Opening conflict and part-time permissions",
+          "labelZh": "",
+          "noteEn": "Central October opening conflicts with the undated college FAQ's November. No portal session checked. International part-time applicants need a valid immigration pass. NTU prohibits simultaneous FT/PT applications to the same programme; comparing both modes here is not permission to apply twice.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide/apply-now"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)",
+          "purpose": "MSDS degree alternatives, programme modes, language, curriculum and AY2027/28 gross fees",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+          "purpose": "Current semester cohort dates, merged cells, CCDS TOEFL scales, validity and general documents",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes/frequently-asked-questions",
+          "purpose": "Conflicting opening month and college-level English/admissions conditions",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide/apply-now",
+          "purpose": "Public instructions only: international PT pass, payment and simultaneous-mode restriction",
+          "checkedOn": "2026-10-24"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "August 2027 / 2027/28 interpreted from the central cohort heading and fee year; not independently dated on the MSDS page.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "CS/CE explicit; relatedness, mathematics and alternative academic quality remain manual.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA found.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published total scores; waivers, test conditions and application-time validity remain manual.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Gross shortest-candidature total; credited deposit and conditional concessions kept separate.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Interpreted 31 March 2027 cutoff; start unknown because of October/November disagreement.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial reading only; no independent human reviewer or complete requirement set.",
+          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        }
+      }
     }
   ]
 }

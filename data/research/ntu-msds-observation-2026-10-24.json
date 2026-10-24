@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-24",
+  "method": "AI-assisted reading of four public official HTML pages; central merged-cell structure also read directly from public HTML. No application session or independent human review.",
+  "programmeId": "SG-NTU-P062",
+  "sources": [
+    "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)",
+    "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+    "https://www.ntu.edu.sg/computing/admissions/graduate-programmes/master-of-science-programmes/frequently-asked-questions",
+    "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide/apply-now"
+  ],
+  "centralTableObservation": {
+    "table": "Semester Programmes",
+    "headingYear": "2027-28",
+    "intake": "August",
+    "school": "College of Computing and Data Science",
+    "rowIndexWithinAugustGroup": 2,
+    "intakeRowspan": 15,
+    "dateCellRowspans": [
+      12,
+      12
+    ],
+    "openingText": "1 October",
+    "closingText": "31 March",
+    "interpretedOpening": "2026-10-01",
+    "interpretedDeadline": "2027-03-31",
+    "interpretationNotFullDateLiteral": true,
+    "faqOpening": "November",
+    "storedOpening": null,
+    "noJanuaryCohortInferred": true
+  },
+  "academic": {
+    "alternatives": [
+      "Relevant good honours and solid mathematics",
+      "Relevant good bachelor and solid mathematics AND two relevant industry years"
+    ],
+    "numericEntryGpa": null,
+    "experienceUniversal": false,
+    "pythonBridgeCompulsory": false,
+    "capstoneAu": 6,
+    "totalAu": 30
+  },
+  "english": {
+    "ielts": 6.5,
+    "toefl120": 100,
+    "toefl6": 5,
+    "scaleChange": "2026-01-21",
+    "componentMin": null,
+    "waiverAutomatic": false,
+    "validity": "Two years at application, not today"
+  },
+  "fees": {
+    "academicYear": "2027/28 onwards",
+    "grossSgd": 65748.8,
+    "gstPercent": 9,
+    "creditedDepositSgd": 5000,
+    "separateApplicationFeeSgd": 50,
+    "billingSemesters": {
+      "fullTime": 2,
+      "partTime": 4
+    },
+    "grantsAutomaticallyDeducted": false,
+    "miscellaneousAmount": null,
+    "wordingConflicts": [
+      "One-time versus annual miscellaneous charges",
+      "Mode-specific billing versus generic two instalments"
+    ]
+  },
+  "limits": {
+    "existingDirectoryIdsUpgraded": 1,
+    "netNewCatalogueRecords": 0,
+    "previousProgrammeObjectsChanged": 0,
+    "pilotIdsChanged": 0,
+    "newApplicantContexts": 0,
+    "independentHumanReviews": 0,
+    "completeRequirementSets": 0
+  },
+  "feeRecheck": {
+    "programmeIds": [
+      "SG-NTU-P015",
+      "SG-NTU-P018"
+    ],
+    "result": "No current-cohort fee established. Existing observations and their source dates unchanged; old MSIS AY2026/27 table not promoted to a 2027/28 quote."
+  }
+}

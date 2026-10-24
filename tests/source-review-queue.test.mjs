@@ -27,12 +27,12 @@ const unit = (q = report, id = 'SG-NUS-P032', kind = 'programme') => q.units.fin
 
 test('review units preserve separate programme, route and category counts without inflating catalogue coverage', () => {
   assert.deepEqual(report.counts, {
-    catalogueRecords: 873, programmePageRecords: 27, remainingCatalogueLeads: 846,
-    routeRecords: 5, applicantContexts: 17, applicantCategories: 36, reviewUnits: 49,
-    pendingHumanReview: 49, reviewRecordedInSource: 0, nearCutoffUnits: 2, staleApplicantContexts: 0
+    catalogueRecords: 873, programmePageRecords: 28, remainingCatalogueLeads: 845,
+    routeRecords: 5, applicantContexts: 17, applicantCategories: 36, reviewUnits: 50,
+    pendingHumanReview: 50, reviewRecordedInSource: 0, nearCutoffUnits: 2, staleApplicantContexts: 0
   });
-  assert.equal(report.units.filter(u => u.kind === 'programme').length, 27);
-  assert.equal(new Set(report.units.map(u => u.key)).size, 49);
+  assert.equal(report.units.filter(u => u.kind === 'programme').length, 28);
+  assert.equal(new Set(report.units.map(u => u.key)).size, 50);
   assert.equal(report.livePortalChecked, false); assert.equal(report.reviewApprovalGranted, false);
   assert.ok(report.units.every(u => u.status === 'pending_human_review' && !u.sourceReviewRecorded));
 });
@@ -198,5 +198,5 @@ test('committed human checklist exactly reproduces its snapshot and semantic sou
   assert.equal(Object.keys(report.inputFingerprints).length, 8);
   for (const h of Object.values(report.inputFingerprints)) assert.match(h, /^[a-f0-9]{64}$/);
   const markdown = formatSourceReviewMarkdown(report);
-  assert.match(markdown, /不是 49 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
+  assert.match(markdown, /不是 50 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
 });

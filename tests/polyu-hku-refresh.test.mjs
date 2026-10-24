@@ -168,7 +168,7 @@ test('saved choices reload refreshed mode facts and read-only access leaves qual
   assert.match(item.programme.offerings[0].duration, /2 years, including summer term/);
   assert.equal(shortlistExport([item.programme], { [py.id]: saved }).programmes[0].rememberedChoice, true);
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
-  assert.equal(meta.quality.checked, 27); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.equal(meta.quality.checked, 28); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 17, categories: 36, peerReviewed: 0 });
   assert.equal(JSON.stringify([store.get(py.id), store.get(hk.id)]), before);
 });

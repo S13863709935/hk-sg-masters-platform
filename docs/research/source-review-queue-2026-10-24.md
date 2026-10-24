@@ -4,9 +4,9 @@
 
 ## 当前范围与限制
 
-- 目录 873 条；项目页记录 27 条；其余 846 条仍是目录线索，不能全部视为范围内或开放申请。
-- 项目记录 27、具体方向 5、费用／日期上下文 17 分开核对，共 49 个工作单元，不是 49 个项目。上下文内共有 36 个类别选项。
-- 待人工复核 49 个单元；来源中记录复核 0 个；本工具不核实身份、不批准复核、不写回数据库，也不新增人工贡献记录。
+- 目录 873 条；项目页记录 28 条；其余 845 条仍是目录线索，不能全部视为范围内或开放申请。
+- 项目记录 28、具体方向 5、费用／日期上下文 17 分开核对，共 50 个工作单元，不是 50 个项目。上下文内共有 36 个类别选项。
+- 待人工复核 50 个单元；来源中记录复核 0 个；本工具不核实身份、不批准复核、不写回数据库，也不新增人工贡献记录。
 - 有记录截止落在快照日起 14 天内的单元 2 个；不等于现在可申请，不安排提醒。失配费用上下文 0 个。
 
 ## 人工实际操作
@@ -45,6 +45,7 @@
 | 待独立核对 | HK-LU-P001 · [MA International Higher Education and Management](<https://www.ln.edu.hk/sgs/ihem/admission>) | 2026-10-23 | 另查人工条件与完整性 | gpa |
 | 待独立核对 | HK-POLYU-P001 · [MSc Business Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp>) | 2026-10-23 | 另查人工条件与完整性 | gpa |
 | 待独立核对 | SG-NTU-P047 · [Master of Science in Artificial Intelligence](<https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-NTU-P062 · [Master of Science in Data Science](<https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
 | 待独立核对 | SG-NUS-P007 · [MSc Finance](<https://mscfin.nus.edu.sg/admissions/admission-requirements/>) | 2026-10-22 | 另查人工条件与完整性 | gpa |
 | 待独立核对 | SG-NUS-P029 · [Master of Computing (General Track)](<https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/>) | 2026-10-22 | 另查人工条件与完整性 | gpa |
 | 待独立核对 | SG-NUS-P032 · [MSc Data Science and Machine Learning](<https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
@@ -104,11 +105,11 @@ JSON 输出含逐条来源、字段说明、人工条件、类别与记录截止
 
 - `data/catalogue.json`: `319efc86d0cb69e7798775cf645545d445253ab0edc8b58b0a70b8905cff1792`
 - `data/catalogue-expansion.json`: `a9dc5dc89ae2ec651d383da29954b404549feda2bda2f5527d50790126cfd489`
-- `data/checked-programmes.json`: `3d2d50d07ae9269515e350817b95459db3021bd9a9fa4fbea86f6d32dca44440`
+- `data/checked-programmes.json`: `09318e0215c7ee01aed74643838ed3935b0d810f38e377bca3d7e347f90eb823`
 - `data/directory-audit.json`: `6943222bfbed8c1250af519e53cad92bb39aae2fee58d69fbdc247784cb38ff8`
 - `data/programme-scope-audit.json`: `95336c13de560005db1dc39da9a6343c3d4a27b1e5f08e30c1230b87e70b781f`
 - `data/directory-links.json`: `5e1a684bc823ee3985393c9482509d6b741bdcfe124c9fd62f7e6f0b62420b0b`
 - `data/route-programmes.json`: `63acd7abde67beb69223d1bd4c0e8679de11f83e04684153c37c784cde6a6ef1`
 - `data/applicant-contexts.json`: `2ea85ffbcde93a1b9fe3e90b738b225bdda826ef24f8e48e17db0b94bb97ae97`
 
-清单指纹：`0b5d9317c5f0dd1ec02571122345cc5e7eef256ed8faafa93bd8fc4b577a9cc6`
+清单指纹：`6e962926fb7c2460667cd61d966b974d93d858aad49cb7cff6d5377eae170d7d`
