@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-24",
+  "checkedOn": "2026-10-25",
   "contexts": [
     {
       "programmeId": "HK-EDUHK-P001",
@@ -889,6 +889,92 @@
           "applicationOpen": "2026-10-01",
           "deadline": "2027-01-31",
           "deadlineNote": "August 2027 regular admission cycle: 1 October 2026 to 31 January 2027, applicable to published FT/PT choices. The earlier 16 May to 15 July 2026 cycle is closed and leads to the same August intake, not a second intake or one uninterrupted window. No precise cutoff time or live portal session was checked."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P044",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P044-SEP2027-FT",
+      "offeringFingerprint": "9133f7096da2addec5f9f63ae810442138fc1dddfe296eaa174318e747a520f4",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mscads",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-25",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/mit/en/mscads",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "September 2027 ADS only. Shared gross tuition, but separate application fees and final cutoffs for EdUHK local/non-local applicants; no default category or nationality/residence inference. Category status, programme-specific earlier closure and extra charges need confirmation. Fee table source: official central application page recorded with programme sources. No application account, independent reviewer or admission outcome.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P044-SEP2027-FT-LOCAL",
+          "label": "Local applicant - EdUHK category",
+          "currency": "HKD",
+          "tuition": 227700,
+          "applicationFee": 400,
+          "feeBasis": "2027/28 whole-programme tuition HKD 227,700. Separate local application fee HKD 400; acceptance payment credited to tuition. No automatic scholarship, credit-transfer discount or all-in cost.",
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Central September 2027 schedule: early 4 January, main 15 February, category final 2027-05-31. Earlier programme closure possible; round-specific openings and intraday times unconfirmed. Not the MPPM January cutoff.",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Category final cutoff",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-EDUHK-P044-SEP2027-FT-NONLOCAL",
+          "label": "Non-local applicant - EdUHK category",
+          "currency": "HKD",
+          "tuition": 227700,
+          "applicationFee": 500,
+          "feeBasis": "2027/28 whole-programme tuition HKD 227,700. Separate non-local application fee HKD 500; acceptance payment credited to tuition. No automatic scholarship, credit-transfer discount or all-in cost.",
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "deadlineNote": "Central September 2027 schedule: early 4 January, main 15 February, category final 2027-05-10. Earlier programme closure possible; round-specific openings and intraday times unconfirmed. Not the MPPM January cutoff.",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Category final cutoff",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ]
         }
       ]
     }

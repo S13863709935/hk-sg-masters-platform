@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-24",
+  "checkedOn": "2026-10-25",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -4898,6 +4898,193 @@
           "status": "unknown",
           "noteEn": "AI-assisted partial reading only; no independent human reviewer or complete requirement set.",
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)"
+        }
+      }
+    },
+    {
+      "id": "HK-EDUHK-P044",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Science in Applied Data Science",
+      "award": "MSc",
+      "area": "Computing",
+      "faculty": "Department of Mathematics and Information Technology",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mscads",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source reading and PDF visual check; independent review pending",
+      "lastChecked": "2026-10-25",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "researchBatch": "eduhk-ads-first-check-2026-10-25",
+      "notesEn": "A1M137: one-year full-time taught master's, 24 credits. Instruction is Putonghua with supporting English, not English-only. Science/engineering/relevant degrees are preferred, not a hard subject gate. September 2027 uses the central schedule and category-specific application fees/final cutoffs. No live portal or January intake inferred.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P044-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 227700,
+          "feeBasis": "2027/28 whole-programme tuition HKD 227,700; not per year or per credit. Separate application fee HKD 400 local / HKD 500 non-local. Acceptance payment is credited towards tuition, not added twice. No automatic scholarship deduction or all-in cost quote.",
+          "applicationFee": null,
+          "applicationOpen": "2026-10-05",
+          "deadline": null,
+          "deadlineNote": "Central September 2027 schedule: early 4 January, main 15 February, final 10 May non-local / 31 May local. Choose EdUHK category. Programme may close earlier depending on places; no exact cutoff times or separate round-opening dates established."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelEn": "Recognised bachelor degree or accepted equivalent",
+          "labelZh": "",
+          "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Subject preference and qualification recognition",
+          "labelZh": "",
+          "noteEn": "Science, engineering and relevant disciplines are preferred, not required-only fields. No exhaustive eligibility list, numeric entry GPA, honours class or work-year minimum is established. Degree/equivalent recognition remains EdUHK's decision; non-science applicants are not automatically rejected or accepted.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Putonghua instruction and unresolved admission-language evidence",
+          "labelZh": "",
+          "noteEn": "Instruction is Putonghua supplemented by English. Central English-medium IELTS/TOEFL thresholds cannot automatically be assigned to this Chinese-medium programme: its separate branch refers applicants to the programme office. Programme page/leaflet publish no numeric language cutoff. Generic FAQ/document English requirements still need reconciliation; no English waiver, automatic language pass or invented Putonghua test minimum.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Study delivery and conditional interview",
+          "labelZh": "",
+          "noteEn": "24 credits comprise four core and four elective courses. Python is a taught core, not proof of a prerequisite certificate. Classes are face-to-face at university-designated Hong Kong locations, potentially daytime/evening or Saturdays, not guaranteed remote study or one fixed campus. Shortlisted applicants may be interviewed, not a universal interview waiver.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Category, rounds and conditional availability",
+          "labelZh": "",
+          "noteEn": "Central September 2027 TPG schedule applies: ADS is not a listed exception. Final cutoffs and application fees differ by EdUHK local/non-local category. Earlier closure is possible; no exact closing times or live portal availability checked. Classification is not inferred from current Singapore residence, nationality or the profile's major.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Fees, credited acceptance payment and separate charges",
+          "labelZh": "",
+          "noteEn": "HKD 227,700 covers the 2027/28 programme, not a discounted applicant quote. Application fee is separate and normally non-refundable/non-transferable unless cancelled by EdUHK. Acceptance payment becomes tuition credit. No deposit amount, miscellaneous/living total, scholarship entitlement or automatic credit-transfer discount established.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/FAQS/index.htm"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Academic documents, final-year status and validation",
+          "labelZh": "",
+          "noteEn": "Upload academic evidence; final-year applicants need recent transcript and student/expected-graduation confirmation. Mainland-study and Mainland-applicant verification branches are distinct, not requirements for every nationality. Alumni/document exceptions and direct official verification remain conditional. Scans at application do not remove later original/official verification; this platform does not collect or submit documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Additional material scope and language verification",
+          "labelZh": "",
+          "noteEn": "ADS is absent from the October 2026 additional-document programme list; that absence does not prove no further request. Referee reports/study statement are optional unless programme or application instructions require them. Do not import the Chinese-teaching programme's PSC certificate into ADS. General English-proof wording does not resolve this programme's language applicability.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Translations and registration restrictions",
+          "labelZh": "",
+          "noteEn": "Documents outside Chinese/English need certified English translation. EdUHK may request direct transcripts/test reports. Full-time simultaneous registration elsewhere normally needs university approval. Qualification recognition, programme language, local/non-local status and outstanding conditions require official confirmation; the site predicts no admission probability.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/application/index.html"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/mit/en/mscads",
+          "purpose": "ADS identity, preferred background, instruction, FT delivery and 2027/28 tuition",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "purpose": "September 2027 central rounds, local/non-local finals and exceptions",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "purpose": "Separate Chinese/English-medium language branches and qualification assessment",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "purpose": "Current application fee table, documents, translations and registration restrictions",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "purpose": "Credited acceptance payment, language/document caveats and category referral",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "purpose": "October 2026 additional documents: full one-page PDF rendered and visually read",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "purpose": "October 2026 conditional document branches: full one-page PDF rendered and visually read",
+          "checkedOn": "2026-10-25"
+        },
+        {
+          "url": "https://www.eduhk.hk/mit/public_uploads/Leaflet/MSc_ADS_Leaflet_TCn_2728.pdf",
+          "purpose": "Two-page June 2026 leaflet visually read: identity, instruction, subject preference and curriculum; not a fee source",
+          "checkedOn": "2026-10-25"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 tuition and central September 2027 intake aligned; no January offering inferred.",
+          "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Only a subject preference is published, not an exhaustive hard eligibility list.",
+          "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA found in consulted sources.",
+          "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Putonghua/English teaching is established; admission test/waiver applicability requires programme-office confirmation.",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Whole-programme tuition fixed for this intake; category application fee and extra charges remain distinct.",
+          "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Category-bound central rounds; no category default, exact cutoff time or live availability.",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial reading and visual inspection, not independent human review or complete requirements.",
+          "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
         }
       }
     }

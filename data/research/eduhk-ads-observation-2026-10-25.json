@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-25",
+  "method": "AI-assisted official HTML reading plus direct PDF download, signature verification, Poppler rendering and visual reading of all four PDF pages. Not independent human review. Public pages only; no application session.",
+  "programmeId": "HK-EDUHK-P044",
+  "programmeCode": "A1M137",
+  "sources": [
+    {
+      "url": "https://www.eduhk.hk/mit/en/mscads",
+      "purpose": "ADS identity, preferred background, instruction, FT delivery and 2027/28 tuition",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "purpose": "September 2027 central rounds, local/non-local finals and exceptions",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+      "purpose": "Separate Chinese/English-medium language branches and qualification assessment",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/application/index.html",
+      "purpose": "Current application fee table, documents, translations and registration restrictions",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+      "purpose": "Credited acceptance payment, language/document caveats and category referral",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+      "purpose": "October 2026 additional documents: full one-page PDF rendered and visually read",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+      "purpose": "October 2026 conditional document branches: full one-page PDF rendered and visually read",
+      "checkedOn": "2026-10-25"
+    },
+    {
+      "url": "https://www.eduhk.hk/mit/public_uploads/Leaflet/MSc_ADS_Leaflet_TCn_2728.pdf",
+      "purpose": "Two-page June 2026 leaflet visually read: identity, instruction, subject preference and curriculum; not a fee source",
+      "checkedOn": "2026-10-25"
+    }
+  ],
+  "academic": {
+    "bachelorOrEquivalent": true,
+    "preferredFields": [
+      "Science",
+      "Engineering",
+      "Relevant disciplines"
+    ],
+    "preferenceIsMandatory": false,
+    "numericEntryGpa": null,
+    "publishedWorkYearMinimum": null,
+    "shortlistedInterview": "May be required"
+  },
+  "language": {
+    "teaching": "Putonghua supplemented with English",
+    "admissionThreshold": null,
+    "automaticEnglishWaiver": false,
+    "applyGenericEnglishMediumThresholds": false,
+    "scopeConflict": "General entrance page separates Chinese-medium programmes; generic FAQ and document lists still request applicable English evidence. Programme/leaflet give no numeric language scores; refer to programme office."
+  },
+  "study": {
+    "mode": "Full-time",
+    "durationYears": 1,
+    "credits": 24,
+    "coreCourses": 4,
+    "electiveCourses": 4,
+    "delivery": "Face-to-face, university-assigned Hong Kong venues and class times",
+    "intake": "September 2027",
+    "academicYear": "2027/28"
+  },
+  "fees": {
+    "programmeTotalHkd": 227700,
+    "applicationFeeHkd": {
+      "local": 400,
+      "nonLocal": 500
+    },
+    "acceptanceCredited": true,
+    "acceptanceAmount": null,
+    "concessionAutomaticallyApplied": false
+  },
+  "dates": {
+    "centralScheduleApplicable": true,
+    "applicationOpen": "2026-10-05",
+    "early": "2027-01-04",
+    "main": "2027-02-15",
+    "localFinal": "2027-05-31",
+    "nonLocalFinal": "2027-05-10",
+    "exactCutoffTime": null,
+    "mayCloseEarlier": true,
+    "noJanuaryOfferingInferred": true
+  },
+  "pdfs": [
+    {
+      "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+      "pages": 1,
+      "published": "October 2026",
+      "sha256": "8b506d589c6d9dac53719d6c0269daf44ca25c16413dbb7cbad60ad5b90a1dd5",
+      "visuallyReadPages": [
+        1
+      ],
+      "finding": "ADS not listed; no imported PSC/artwork/subject-specific requirements. Optional references/study statement subject to programme or application request."
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+      "pages": 1,
+      "published": "October 2026",
+      "sha256": "91c041ca642c06bf4dbc804e4eefcb654d9b9f88e7d8cefef168cfd49b607ee6",
+      "visuallyReadPages": [
+        1
+      ],
+      "finding": "Final-year, alumni, non-Mainland degree and Mainland degree branches kept distinct; no all-applicant verification requirement. Generic language evidence does not settle Chinese-medium applicability."
+    },
+    {
+      "url": "https://www.eduhk.hk/mit/public_uploads/Leaflet/MSc_ADS_Leaflet_TCn_2728.pdf",
+      "pages": 2,
+      "published": "June 2026 footer; 2027/28 filename",
+      "sha256": "4f1178fe711c95d8f07990c14b0d8b86d9ea2e04da062b80a0dca4049d72caf8",
+      "visuallyReadPages": [
+        1,
+        2
+      ],
+      "finding": "Bilingual code/mode/Putonghua, degree preference, conditional interview and coursework confirmed. No fee or language-score source."
+    }
+  ],
+  "rendering": {
+    "popplerWarnings": "Missing display-font warnings for Symbol/ArialUnicode on checklist rendering; rendered content visually inspected and legible.",
+    "textExtraction": "Leaflet stdout encountered a local encoding error; no completed text extraction claimed. Visual pages used instead.",
+    "securityBypassed": false
+  },
+  "limits": {
+    "existingDirectoryIdsUpgraded": 1,
+    "netNewCatalogueRecords": 0,
+    "previousProgrammeObjectsChanged": 0,
+    "previousApplicantContextsChanged": 0,
+    "newApplicantContexts": 1,
+    "newCategories": 2,
+    "pilotIdsChanged": 0,
+    "independentHumanReviews": 0,
+    "completeRequirementSets": 0
+  },
+  "reviewSnapshot": {
+    "currentDate": "2026-10-25",
+    "previousSnapshotPreserved": "2026-10-24",
+    "originalSourceDatesNotRestamped": true
+  }
+}
