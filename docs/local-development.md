@@ -112,6 +112,8 @@ node scripts/import-data.mjs path/to/checked-batch.json
 
 ### 只读复核清单
 
+核心项目另有只读场景验收：`node scripts/core-pilot-acceptance.mjs --as-of 2026-10-25 --format markdown`。它使用明确标识的模拟背景，逐项检查筛选解释、类别默认值、来源日期和导出，不联网、不写输出文件、不打开日常数据库，也不将软件测试等同于真实用户研究或招生资料完整核验。完整 JSON 省略 `--format markdown` 即可查看；CLI 不接受数据库或输出路径覆盖。
+
 当前维护快照为 2026-10-25；2026-10-24 的已保存清单按当时输入保留，不随以后资料改写。命令使用当前输入，指定较早日期会遮蔽未来来源，不代表能自动重建旧输入或旧门户状态。
 
 在仓库根目录使用 Node 24 运行：
