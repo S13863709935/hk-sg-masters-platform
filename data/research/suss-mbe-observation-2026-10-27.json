@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P017",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Built Environment",
+    "award": "MBE",
+    "faculty": "School of Science and Technology",
+    "totalCu": 60,
+    "internationalDirectoryClassifiesCoursework": true,
+    "specialisations": [
+      "Facilities Management",
+      "Project Management"
+    ],
+    "specialisationsNotAdditionalMasters": true,
+    "regularCode": "MBE-SPE",
+    "acceleratedCode": "MBE-SPE-A",
+    "directAdmissionAvailable": true,
+    "certificateDiplomaNotRequiredFirst": true,
+    "stackableDiplomasNotMergedIntoNewMasterIdentities": true
+  },
+  "pathways": {
+    "regular": {
+      "durationYears": {
+        "minimum": 2,
+        "maximum": 4
+      },
+      "semesterMaximumCu": 20,
+      "semesterRecommendedCu": 15,
+      "singaporeCitizensPrOrResidents": true,
+      "internationalStudentPassRoute": false,
+      "formalFtPtMode": null
+    },
+    "accelerated": {
+      "durationYears": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "semesterCu": 30,
+      "singaporeCitizensPrOtherResidentsAndInternationalApplicants": true,
+      "compulsoryForInternationalStudents": true,
+      "validStudentPassForInternationalStudents": true,
+      "formalFtPtMode": null
+    },
+    "stackable": {
+      "diplomas": [
+        "GDPM",
+        "GDFMT"
+      ],
+      "eitherDiplomaNotBothRequired": true,
+      "minimumDiplomaGpa": 3,
+      "invitationAfterResultsToApply": true,
+      "notAutomaticAdmission": true,
+      "maximumYearsFromDiplomaEntry": 4,
+      "clockNotResetAtMasterEntry": true
+    },
+    "nationalityLocationOrFeeCategoryNotResidenceVerification": true,
+    "genericExperienceYearsNotAdmissionPathApproval": true
+  },
+  "requirements": {
+    "recognisedBachelorPreferredBuiltEnvironmentField": true,
+    "fieldPreferenceNotMandatoryWhitelist": true,
+    "otherQualificationsWithRelevantWorkCaseByCase": true,
+    "universalNumericWorkYears": null,
+    "numericUndergraduateEntryGpa": null,
+    "graduateAwardCgpa": 3,
+    "awardNotEntryGpa": true,
+    "cvStronglyEncouraged": true,
+    "cvRequiredNotEstablished": true,
+    "english": {
+      "conditionalUniversityMediumAndInstruction": true,
+      "ieltsAcademicMin": 6.5,
+      "internetToeflUnversionedMin": 85,
+      "pteAcademicMin": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "automaticWaiver": false,
+      "newToeflScaleNotConverted": true,
+      "universalIeltsExpiryNotInferred": true,
+      "previousMecedStrictGreaterThanNotInherited": true
+    }
+  },
+  "study": {
+    "weekdayEveningsAndSomeSaturdays": true,
+    "classTimesNotFormalFtPtOrRemoteEvidence": true,
+    "fmt588TopicNeedsHopApproval": true,
+    "fmt588IsCourseSelectionNotUniversalAdmissionProposal": true,
+    "modularCpdClaimNotWholeDegreeProfessionalAccreditation": true,
+    "currentExternalAccreditationNotIndependentlyChecked": true,
+    "cetCreditTransferNeedsAdmissionAndReview": true,
+    "cetAfterExceededCandidatureDoesNotRestoreAward": true
+  },
+  "cycle": {
+    "recurringIntakes": [
+      "January",
+      "July"
+    ],
+    "bothRegularAndAccelerated": true,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalCalendarNotAutomaticallyAssigned": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "tableTitle": "Year 2026/2027 Non-Subsidised Programme Fees",
+    "tableAsOf": "2026-10-16",
+    "masterTextQuote": {
+      "scPr": 31680,
+      "otherResidents": 38016,
+      "conditionalSubsidisedAsLowAs": 17424
+    },
+    "currency": "SGD",
+    "excludesGst": true,
+    "pdfColumnsNotVisuallyVerified": true,
+    "pathwayCategoryCreditPositionNotEstablishedByQuote": true,
+    "noAutomaticDiplomaPriceAdditionOrSubsidy": true,
+    "tuitionPaidByCoursesEnrolled": true,
+    "generalApplicationBeforeGst": {
+      "scPr": 60,
+      "otherApplicants": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "resident": 20,
+      "internationalStudentPass": 530
+    },
+    "acceptanceDeposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true,
+      "notExtraTuition": true
+    },
+    "legacyAlumniCreditPageExpiry": "2023-12",
+    "legacyCreditNotAppliedAsCurrentBenefit": true,
+    "otherAlumniBenefitsCurrentEligibilityNotVerified": true,
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "sourceLimitations": {
+    "curriculumPlanUrl": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=MBE-SPE&viewtype=mhtml",
+    "curriculumPlanFetchFailed": true,
+    "curriculumPlanError": "Cache miss",
+    "brochureRelevantPage": 5,
+    "brochureDiagramNotVisuallyInspected": true,
+    "feeQuotePage": 5,
+    "feeNotesPage": 7,
+    "pdfTextOnly": true,
+    "localPdfDownloaded": false,
+    "pdfVisualInspectionCompleted": false,
+    "noAccessChecksBypassed": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment",
+      "purpose": "MBE identity, direct/stackable/accelerated paths, preference/alternative admission, study duration and recurring intakes",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Explicit coursework classification under SST and international Student Pass context",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional English alternatives and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General calendars with programme caveat and category application fees; no path-specific window inferred",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_sst_brochure_digital.pdf?sfvrsn=f837e401_3",
+      "purpose": "Relevant page-5 text on one 60-CU MBE and three admission modes; no flowchart visual verification",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course billing, miscellaneous categories and extras",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Page-5 Built Environment text quote and page-7 tax/eligibility/date notes; no visual column verification",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-27-suss-meced.md": "b31bc2a2d9ea0b8b69112058ea713ae7cc6418ac09cefe5f9c076e49a0d94caf",
+      "docs/research/core-pilot-acceptance-2026-10-27-suss-meced.md": "d197a215deb46eecafdc2fb6450f20568f1625f46a1eee87c66b76338b289a8f"
+    }
+  }
+}

@@ -7632,6 +7632,210 @@
         }
       ],
       "researchBatch": "suss-meced-first-check-2026-10-27"
+    },
+    {
+      "id": "SG-SUSS-P017",
+      "universityId": "SG-SUSS",
+      "name": "Master of Built Environment",
+      "award": "MBE",
+      "area": "Engineering",
+      "faculty": "School of Science and Technology",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; qualification alternatives, pathway/resident eligibility, stacking/credit position, cohort and fees unresolved",
+      "lastChecked": "2026-10-27",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 60-CU coursework MBE with regular and accelerated study choices and Facilities/Project Management specialisations. Direct application is available; certificates/diplomas are not universal prerequisites. International students must use the one-year accelerated pathway with valid Student Pass arrangements. Diploma progression GPA and graduate award CGPA are separate from undergraduate entry GPA. Built Environment degree background is preferred; other qualifications plus relevant work may receive individual consideration. CV submission is strongly encouraged. The platform does not collect evidence or grant credit transfer, residence approval or professional accreditation.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P017-REGULAR",
+          "mode": null,
+          "duration": "Regular MBE-SPE: minimum 2 years, maximum 4 years",
+          "intake": "January / July (recurring; applicable cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January/July recur for both pathways. No pathway-specific application year, opening or exact close is established. General university 2027 calendar dates may be preceded by programme deadlines and are not assigned automatically. No live portal check.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 Built Environment table text before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional subsidised quote as low as 17,424. PDF columns and personal pathway/category/credit applicability remain unconfirmed. Do not add diploma/certificate prices as a second full-master charge, deduct an unverified subsidy or apply expired alumni credit. Fees are billed by courses enrolled; extras separate. General application fees: SC/PR 60, other applicants 100 before GST. Annual miscellaneous fees: resident categories 20 or international Student Pass students 530 before GST. The general SGD 2,000 acceptance deposit includes GST and credits first-semester tuition, not extra tuition. No personal total is calculated."
+        },
+        {
+          "id": "SG-SUSS-P017-ACCELERATED",
+          "mode": null,
+          "duration": "Accelerated MBE-SPE-A: minimum and maximum 1 year",
+          "intake": "January / July (recurring; applicable cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January/July recur for both pathways. No pathway-specific application year, opening or exact close is established. General university 2027 calendar dates may be preceded by programme deadlines and are not assigned automatically. No live portal check.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 Built Environment table text before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional subsidised quote as low as 17,424. PDF columns and personal pathway/category/credit applicability remain unconfirmed. Do not add diploma/certificate prices as a second full-master charge, deduct an unverified subsidy or apply expired alumni credit. Fees are billed by courses enrolled; extras separate. General application fees: SC/PR 60, other applicants 100 before GST. Annual miscellaneous fees: resident categories 20 or international Student Pass students 530 before GST. The general SGD 2,000 acceptance deposit includes GST and credits first-semester tuition, not extra tuition. No personal total is calculated."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or university-accepted alternative",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification recognition and alternative entry",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor is the main route; Built Environment-related fields are preferred, not a mandatory closed-major list. Applicants with other qualifications and relevant work may be considered case by case. No numeric undergraduate GPA or universal minimum work years is established. Generic experience years cannot establish relevant work or an accepted alternative.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Pathway and resident eligibility",
+          "noteZh": "",
+          "noteEn": "Regular MBE-SPE direct admission is for citizens, PRs and Singapore residents. Accelerated MBE-SPE-A is also available to international applicants and is compulsory for international students, who need a valid Student Pass and one-year/30-CU-per-semester study. Nationality, current location and a fee quote cannot verify residence, pass approval or the appropriate pathway. Confirm the selected study choice with SUSS.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Stacking, credit recognition and candidature position",
+          "noteZh": "",
+          "noteEn": "Direct entry is available without prior GDPM/GDFMT. The separate stacking route uses either completed diploma with GPA at least 3.0 and an invitation to apply after results; it does not guarantee admission. Its four-year candidature clock starts at diploma entry and is not reset by master entry. University approval is needed for CET admission/credit transfer. This diploma GPA must not be applied to every undergraduate applicant.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and alternative evidence",
+          "noteZh": "",
+          "noteEn": "ELPR depends on undergraduate university medium and instruction language. University alternatives include IELTS Academic at least 6.5, internet TOEFL 85, PTE 58, C1 180 within two years at application, or MUET Band 4 within five years. Waiver evidence and TOEFL version need university confirmation; no automatic waiver, new-scale conversion or universal IELTS expiry is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Individual admission and current cohort",
+          "noteZh": "",
+          "noteEn": "Qualification recognition, alternative-entry evidence, any prescribed shortlisting/interview, pathway/credit position and the applicable January/July cohort need university assessment. No live application window or formal FT/PT designation is established by evening classes or accelerated study. The platform does not collect or submit documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "CV submission is encouraged",
+          "noteZh": "",
+          "noteEn": "The programme strongly encourages a CV describing work, training and education. This wording is not converted into a mandatory submission or employment threshold, and no CV is collected by the platform.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Award GPA and course project are separate",
+          "noteZh": "",
+          "noteEn": "Coursework CGPA 3.0 is an award standard, not undergraduate entry GPA. FMT588 needs proposed-topic approval by the Head of Programme before selecting that course; it is not a universal research proposal required for admission. The regular maximum/recommended study load and accelerated 30-CU load are study conditions, not prior credits.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Professional and alumni claims need separate confirmation",
+          "noteZh": "",
+          "noteEn": "Some modular courses may carry CPD points; this does not establish whole-degree professional accreditation. Current external accreditation and alumni-benefit eligibility were not checked. The page includes a Lifelong Learning Credit that expired in December 2023; it is not applied as a current discount. Continuing CET after exceeding candidature does not restore the award.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring intakes and table year do not identify a specific admission cohort.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Built Environment is preferred; qualification recognition and alternatives remain individually assessed.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established; diploma progression and award CGPA are separate.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional ELPR, waiver acceptance and test-version applicability remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Text quote needs pathway, credit, category/funding and PDF-column confirmation.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "No path-specific opening or exact cohort close confirmed.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-built-environment",
+          "purpose": "MBE identity, direct/stackable/accelerated paths, preference/alternative admission, study duration and recurring intakes",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Explicit coursework classification under SST and international Student Pass context",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional English alternatives and credited deposit",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General calendars with programme caveat and category application fees; no path-specific window inferred",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_sst_brochure_digital.pdf?sfvrsn=f837e401_3",
+          "purpose": "Relevant page-5 text on one 60-CU MBE and three admission modes; no flowchart visual verification",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course billing, miscellaneous categories and extras",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Page-5 Built Environment text quote and page-7 tax/eligibility/date notes; no visual column verification",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "researchBatch": "suss-mbe-first-check-2026-10-27"
     }
   ]
 }

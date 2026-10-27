@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日 SUSS MBE 批次：接入建筑环境硕士常规／加速学习选择，保留国际生加速路径及文凭升读条件；本科专业优先、CV 建议不改成硬门槛，文凭 GPA 与毕业 CGPA 不套作本科入学线。具体批次、身份和个人费用仍待确认。部分项目页记录为 43，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mbe-first-check-2026-10-27.md)、[66 单元快照](docs/research/source-review-queue-2026-10-27-suss-mbe.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mbe.md)。原 42 个对象及历史快照保留，本轮仅本地保存。
+
 2026-10-27 同日 SUSS MECED 批次：接入英语幼儿教育硕士，分开教师培训、相关经验／CV、专业背景替代和条件式英语要求；IELTS／TOEFL 的严格大于门槛不改成达到即可，课程先修／毕业 GPA 不作入学门槛。居民资格、具体批次和个人费用仍待确认。部分项目页记录为 42，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-meced-first-check-2026-10-27.md)、[65 单元快照](docs/research/source-review-queue-2026-10-27-suss-meced.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-meced.md)。原 41 个对象及历史快照保留，本轮仅本地保存。
 
 2026-10-27 同日 SUSS MCOU 批次：接入咨询硕士的先修课／直接入读区分，保留材料、测试及推荐人替代要求；不以本科专业、失业状态、毕业 GPA 或学习实习时数自动拒绝。国际生资格与学生准证分开，建议申请日不作全路径硬截止，学费和 PDF 表列保持待确认。部分项目页记录为 41，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mcou-first-check-2026-10-27.md)、[64 单元快照](docs/research/source-review-queue-2026-10-27-suss-mcou.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mcou.md)。原 40 个对象及历史快照保留，本轮仅本地保存。

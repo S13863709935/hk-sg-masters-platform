@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-27）
 
+同日 SUSS MBE 首查：部分项目页记录为 43，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。一个硕士保留常规与加速学习选择；升读 GPA、学籍时钟、课程选题和过期校友优惠不误作本科门槛或当前承诺。见 [来源](../docs/research/suss-mbe-first-check-2026-10-27.md)、[66 单元快照](../docs/research/source-review-queue-2026-10-27-suss-mbe.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mbe.md)。原 42 个对象和历史记录不改写；以下为较早批次。
+
 同日 SUSS MECED 首查：部分项目页记录为 42，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。英语与中文幼教、独立 TESOL 硕士不合并；教师培训和经验材料独立核对，条件式语言的严格分数及有效期保持原意。课程表学期不作招生批次，资助条件不作入学门槛。见 [来源](../docs/research/suss-meced-first-check-2026-10-27.md)、[65 单元快照](../docs/research/source-review-queue-2026-10-27-suss-meced.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-meced.md)。原 41 个对象和历史记录不改写；以下为较早批次。
 
 同日 SUSS MCOU 首查：部分项目页记录为 41，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。先修与直接入读资格分开，失业不自动排除；实习、毕业标准和注册时数不作入学门槛。国际生准证、路径日期及费用表列仍待确认。见 [来源](../docs/research/suss-mcou-first-check-2026-10-27.md)、[64 单元快照](../docs/research/source-review-queue-2026-10-27-suss-mcou.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mcou.md)。原 40 个对象和历史记录不改写；以下为较早批次。
