@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日 SUSS MFIN 批次：接入普通金融硕士，保留金融／相关专业、统计课程与可能的预备课程评估；不把专业符合视作已完成统计课，也不套用职业考试或 FHNW 双学位条件。部分项目页记录为 36，目录 873／默认 870、人工复核与完整要求 0 不变。见 [依据与限制](docs/research/suss-mfin-first-check-2026-10-27.md)、[59 单元快照](docs/research/source-review-queue-2026-10-27-suss-mfin.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mfin.md)。原 35 个对象和历史快照保留，本轮仅本地保存。
+
 2026-10-27 同日 SUSS MDMK 批次：接入普通数字营销硕士的常规／加速路径，保留其他学历结合相关经验的个案评估；志愿经历不作硬门槛，FHNW 双学位条件与额外费用不套用。部分项目页记录为 35，目录 873／默认 870、人工复核与完整要求 0 不变。见 [来源与限制](docs/research/suss-mdmk-first-check-2026-10-27.md)、[58 单元快照](docs/research/source-review-queue-2026-10-27-suss-mdmk.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mdmk.md)。原 34 个对象和历史快照不改写，本轮仅本地保存。
 
 2026-10-27 同日 SUSS MAVI 批次：核查英语数据分析与可视化硕士，区分新加坡现场参与与全程境外远程承诺，保留路径资格、延长学制及入学面试条件；实习和推荐人信息不作硬门槛。部分项目页记录为 34，目录 873／默认 870、人工复核与完整要求 0 不变。见 [来源与限制](docs/research/suss-mavi-first-check-2026-10-27.md)、[57 单元快照](docs/research/source-review-queue-2026-10-27-suss-mavi.md) 与 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mavi.md)。原 33 个对象与历史快照保留，本轮仅本地保存。
