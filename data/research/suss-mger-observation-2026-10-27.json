@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P023",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Gerontology",
+    "award": "MGER",
+    "faculty": "S R Nathan School of Human Development",
+    "totalCu": 60,
+    "taughtCoreCu": 30,
+    "specialisationCu": 30,
+    "tracks": [
+      "Applied Research",
+      "Management",
+      "Practitioner"
+    ],
+    "trackNameNotAutomaticResearchDegreeExclusion": true,
+    "separatePhdNotMerged": true,
+    "notThreeExtraMasters": true
+  },
+  "eligibility": {
+    "currentlyUnableToTakeInternationalStudents": true,
+    "singaporeCitizensPrResidentsMayApply": true,
+    "employmentPassExample": true,
+    "allForeignNationalsNotAutomaticallyRejected": true,
+    "studentPassRouteNotEstablished": true,
+    "careerSwitchersIncluded": true
+  },
+  "study": {
+    "gdgerNominalYears": 1,
+    "mgerAdditionalYears": 1,
+    "gdgerMaximumYears": 2,
+    "mgerAdditionalMaximumYears": 2,
+    "fullDegreeDurationDependsOnEntryAndCreditPosition": true,
+    "maximumsNotAutomaticallySummed": true,
+    "ftPtMode": null,
+    "saturdayClasses": true,
+    "remoteEntitlementNotEstablished": true
+  },
+  "requirements": {
+    "numericUndergraduateEntryGpa": null,
+    "graduateAwardCgpa": 3,
+    "awardNotEntryGpa": true,
+    "universalAdmissionWorkYears": null,
+    "closedMajorWhitelist": null,
+    "internship": {
+      "course": "GER525",
+      "compulsoryWithoutEldercareExperience": true,
+      "replacementRequiresSupervisorOrHrJobScopeDocument": true,
+      "withoutDocumentSchoolAssumesInternship": true,
+      "automaticWaiverFromWorkYears": false,
+      "studyHours": 200,
+      "completionSemesters": 2,
+      "usuallyFromYear": 2,
+      "hoursAreNotPreEntryEmployment": true
+    },
+    "english": {
+      "conditionalUniversityMediumAndInstruction": true,
+      "ieltsAcademic": 6.5,
+      "internetToeflUnversioned": 85,
+      "pteAcademic": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "automaticWaiver": false,
+      "newToeflScaleNotConverted": true,
+      "universalIeltsExpiryNotInferred": true
+    }
+  },
+  "cycle": {
+    "recurringIntakeMonths": [
+      "January",
+      "July"
+    ],
+    "rollingApplicationReview": true,
+    "rollingReviewNotLiveOpening": true,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalCalendarNotAssignedToMger": true,
+    "dialogueEventDate": "2026-11-12",
+    "eventNotAdmissionDeadline": true,
+    "livePortalChecked": false
+  },
+  "curriculum": {
+    "researchPlan": {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mgerr&viewtype=mhtml",
+      "updatedOn": "2026-06-15",
+      "pdfPages": 6,
+      "readingScope": "relevant text only",
+      "taughtCoreCu": 30,
+      "project": "GER688",
+      "methodsAlternatives": [
+        "HDS501",
+        "RSS503"
+      ],
+      "statisticsRequirementIsRss503CourseLevel": true,
+      "ger699NoCurrentYPresentationInConsultedTable": true,
+      "subreportErrorObserved": true
+    },
+    "managementPlan": {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mgerm&viewtype=mhtml",
+      "updatedOn": "2026-08-27",
+      "pdfPages": 5,
+      "consultedTextPages": [
+        1
+      ]
+    },
+    "genericPlanLinkFailed": true,
+    "practitionerPlanLinkFailed": true,
+    "mainVersusPlanArrangementNeedsTrackConfirmation": true,
+    "dissertationFaqNotAppliedToEveryTrack": true
+  },
+  "fees": {
+    "tableYear": "2026/2027",
+    "tableAccurateAsOf": "2026-10-16",
+    "currency": "SGD",
+    "excludesGst": true,
+    "masterTuition": {
+      "scPr": 31680,
+      "otherResidents": 38016,
+      "conditionalSubsidisedAsLowAs": 19800
+    },
+    "diplomaPricesNotAddedAsAnotherFullMasterCharge": true,
+    "otherResidentsPriceNotInternationalAdmissionEvidence": true,
+    "subsidyNotDefault": true,
+    "genericSussApplicationBeforeGst": {
+      "scPr": 60,
+      "otherApplicants": 100
+    },
+    "residentAnnualMiscellaneousBeforeGst": 20,
+    "internationalStudentPassMisc530NotAssigned": true,
+    "acceptanceDeposit": {
+      "amount": 2000,
+      "includesGst": true,
+      "creditedToFirstSemester": true,
+      "notExtraTuition": true
+    },
+    "personalDefaultTuition": null
+  },
+  "funding": {
+    "programmeDisplayedFellowshipWorkYears": 10,
+    "programmeDisplayedFellowshipAward": 10000,
+    "displayedClaimOnly": true,
+    "currentGovernmentEligibilityNotVerified": true,
+    "externalUrl": "https://www.skillsfuture.gov.sg/fellowships",
+    "externalAccessVerificationRequired": true,
+    "notAdmissionExperienceMinimum": true,
+    "noAutomaticAwardOrTuitionDeduction": true
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj",
+      "purpose": "MGER identity, three curriculum tracks, conditional internship replacement, resident restriction, stages and recurring intakes",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes",
+      "purpose": "MGER, diploma/certificate and separate Gerontology PhD under S R Nathan School of Human Development",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional English/waiver policy and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General 2027 calendar, earlier-programme caveat and category application fees",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course-based billing, conditional funding, resident miscellaneous fees and extras",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Text-readable Gerontology master row on PDF page 1 and same-day previously read tax/eligibility notes",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mgerr&viewtype=mhtml",
+      "purpose": "Relevant text of six-page applied-research-track plan: taught core, GER688 methods alternatives and course-level statistics prerequisite",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mgerm&viewtype=mhtml",
+      "purpose": "First-page text of management-track plan updated 27 August 2026; no complete visual or whole-track verification",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousPartialProgrammeObjects": 39,
+    "sourceDatesNotRestamped": true,
+    "pdfTextOnly": true,
+    "pdfVisualVerificationNotClaimed": true,
+    "noNewPdfDownloadClaimed": true,
+    "programmeImageNotVisuallyRead": true,
+    "brochureReviewNotClaimed": true,
+    "directoryInventoryNotRewritten": true
+  }
+}

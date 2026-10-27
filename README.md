@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日 SUSS MGER 批次：接入老年学硕士，保留条件式实习及替换证明、居民限制和文凭／硕士阶段学制；三方向与博士项目分开，课程统计要求与资助年限不套为通用入学门槛。部分项目页记录为 40，目录 873／默认 870、人工复核与完整要求 0 不变。见 [依据与限制](docs/research/suss-mger-first-check-2026-10-27.md)、[63 单元快照](docs/research/source-review-queue-2026-10-27-suss-mger.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mger.md)。原 39 个对象及历史快照保留，仅本地保存。
+
 2026-10-27 同日 SUSS MHCM 批次：接入人力资本管理硕士，保留两年相关经验、必交 CV 及新加坡居民限制；GDHCM 升读 CGPA 不作为本科门槛，滚动审核不视为当前开放申请。部分项目页记录为 39，目录 873／默认 870、人工复核与完整要求 0 不变。见 [依据与限制](docs/research/suss-mhcm-first-check-2026-10-27.md)、[62 单元快照](docs/research/source-review-queue-2026-10-27-suss-mhcm.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mhcm.md)。原 38 个对象和历史快照保留，仅本地保存。
 
 2026-10-27 同日 SUSS IP Business 批次：接入原有知识产权与创新管理身份，保留 SUSS／WIPO 双系统申请、四门 WIPO 学习课程及项目替代关系；七月入学不与一月教学学期混淆。项目页与通用费用表差异未强行合并，伙伴搜索日期不作已确认窗口。部分项目页记录为 38，目录 873／默认 870、人工复核与完整要求 0 不变。见 [来源与限制](docs/research/suss-mipim-ipb-first-check-2026-10-27.md)、[61 单元快照](docs/research/source-review-queue-2026-10-27-suss-mipim-ipb.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mipim-ipb.md)。原 37 个对象及历史快照保留，仅本地保存。

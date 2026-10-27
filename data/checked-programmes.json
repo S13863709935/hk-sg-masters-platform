@@ -7043,6 +7043,201 @@
         }
       ],
       "researchBatch": "suss-mhcm-first-check-2026-10-27"
+    },
+    {
+      "id": "SG-SUSS-P023",
+      "universityId": "SG-SUSS",
+      "name": "Master of Gerontology",
+      "award": "MGER",
+      "area": "Health",
+      "faculty": "S R Nathan School of Human Development",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; stage/track applicability, internship evidence, resident status, cohort and independent review unresolved",
+      "lastChecked": "2026-10-27",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 60-CU MGER with Applied Research, Management and Practitioner curriculum tracks; the Gerontology PhD is separate. The taught core and applied-project track are recorded without treating a track name as a separate research-entry degree. Career switchers are included. GER525 is compulsory without eldercare experience or accepted documentation for replacement. Resident eligibility, GDGER/MGER stage duration, credit recognition and current track arrangements need confirmation. January/July recur; rolling review and the November dialogue event do not verify a live admission window.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P023-MGER",
+          "mode": null,
+          "duration": "FAQ: GDGER stage 1 year plus a further MGER year; up to 2 years per stage; entry/credit position needs confirmation",
+          "intake": "January / July (recurring; cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "Programme-level January/July recurrence and rolling review do not establish exact cohort dates. General university dates may be preceded by programme closing dates. The 12 November 2026 online dialogue is an event, not a deadline or open portal check. Course-presentation years are not admission windows.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 Gerontology master table before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional subsidised amount as low as 19,800. Diploma/certificate prices and the applicant credit/stage position need separate confirmation; do not add degree-stage quotes twice. Other Resident pricing does not establish overseas international admission or a Student Pass route. General application fees are SC/PR 60 or other applicants 100 before GST, subject to eligibility. Resident annual miscellaneous fee is 20 before GST; extras are separate. The general SGD 2,000 acceptance deposit includes GST and credits first-semester tuition rather than adding extra tuition. No grant or concession is applied automatically."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or university-accepted equivalent",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification recognition and career background",
+          "noteZh": "",
+          "noteEn": "A recognised undergraduate qualification or university-accepted equivalent is required. The programme includes career switchers as well as eldercare professionals; listed occupations are examples, not a closed undergraduate-major whitelist. No numeric undergraduate GPA or universal work-year minimum is established.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Singapore resident eligibility",
+          "noteZh": "",
+          "noteEn": "The programme currently cannot take international students. Singapore citizens, PRs or residents in Singapore, such as Employment Pass holders, can apply. This does not exclude all foreign nationals or create an international Student Pass route. Nationality, current location and work years do not verify resident eligibility.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Stage, track and credit applicability",
+          "noteZh": "",
+          "noteEn": "Confirm direct application, diploma-to-master progression, recognised credits and the selected curriculum track with admissions. The FAQ gives one year for GDGER plus a further MGER year and a maximum two years for each stage; do not promise a one-year full 60-CU degree or automatically add every maximum. Three tracks belong to one master, with a separate PhD.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and alternative evidence",
+          "noteZh": "",
+          "noteEn": "SUSS ELPR depends on undergraduate university medium and instruction language. Alternatives include IELTS Academic 6.5, internet TOEFL 85, PTE 58, C1 180 (within two years at application), or MUET Band 4 (within five years). Waiver acceptance and TOEFL version need confirmation; no automatic waiver, universal IELTS expiry or new-scale conversion is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Individual admission assessment",
+          "noteZh": "",
+          "noteEn": "The university assesses qualification recognition, required evidence and any shortlisting/interview. The platform does not collect or submit application, employer or residence documents. A general work-year count cannot verify employment relevance or an internship replacement.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conditional internship and replacement evidence",
+          "noteZh": "",
+          "noteEn": "GER525 is compulsory for students without eldercare-sector experience. Relevant experience requires a supervisor/HR letter or email describing job scope for a replacement course; without that document the School assumes internship is needed. Generic work years do not grant a waiver. The stated 200 hours over two semesters are study-stage training, not a pre-entry employment threshold.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Award standards and track-course prerequisites",
+          "noteZh": "",
+          "noteEn": "The master requires 60 CU and award CGPA 3.0; this is not undergraduate entry GPA. The applied-project plan requires HDS501 or RSS503 for GER688. Undergraduate statistics/bridging conditions belong to RSS503, not every MGER applicant. Course-level requirements and older dissertation references need track-specific confirmation.",
+          "mandatory": false,
+          "sourceUrl": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mgerr&viewtype=mhtml"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Funding conditions are separate",
+          "noteZh": "",
+          "noteEn": "The page advertises sponsorship/grants and a fellowship with its own citizenship/work-history conditions. Current funding eligibility and availability were not confirmed; the external page required verification. Funding work years are not a universal admission minimum and no advertised award is deducted from tuition.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring intakes and course presentations do not establish a specific current cohort.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Career background and qualification recognition need assessment; occupations are not a closed degree whitelist.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; award CGPA 3.0 is separate.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional ELPR, waiver acceptance and test-version applicability remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Dated master/category quotes do not assign personal resident, funding or diploma/credit-stage costs.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Rolling review and dialogue event do not verify an exact application window.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj",
+          "purpose": "MGER identity, three curriculum tracks, conditional internship replacement, resident restriction, stages and recurring intakes",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes",
+          "purpose": "MGER, diploma/certificate and separate Gerontology PhD under S R Nathan School of Human Development",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional English/waiver policy and credited deposit",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General 2027 calendar, earlier-programme caveat and category application fees",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course-based billing, conditional funding, resident miscellaneous fees and extras",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Text-readable Gerontology master row on PDF page 1 and same-day previously read tax/eligibility notes",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mgerr&viewtype=mhtml",
+          "purpose": "Relevant text of six-page applied-research-track plan: taught core, GER688 methods alternatives and course-level statistics prerequisite",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mgerm&viewtype=mhtml",
+          "purpose": "First-page text of management-track plan updated 27 August 2026; no complete visual or whole-track verification",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "researchBatch": "suss-mger-first-check-2026-10-27"
     }
   ]
 }

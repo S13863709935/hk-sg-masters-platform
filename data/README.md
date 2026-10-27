@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-27）
 
+同日 SUSS MGER 首查：部分项目页记录增至 40，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。实习替换须岗位职责证明，工作年数不自动豁免；阶段学制、居民资格及课程／资助适用范围保持待确认。见 [来源](../docs/research/suss-mger-first-check-2026-10-27.md)、[63 单元快照](../docs/research/source-review-queue-2026-10-27-suss-mger.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mger.md)。原 39 个对象和历史记录不改写；以下为较早批次。
+
 同日 SUSS MHCM 首查：部分项目页记录增至 39，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。经验相关性、居民身份和 CV 要求分开，其他居民价格不等于面向境外国际生开放；升读 GPA、课程替代日期及滚动审核不误作本科门槛或招生窗口。见 [来源](../docs/research/suss-mhcm-first-check-2026-10-27.md)、[62 单元快照](../docs/research/source-review-queue-2026-10-27-suss-mhcm.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mhcm.md)。原 38 个对象及历史记录不改写；下文为较早批次。
 
 同日 SUSS IP Business 首查：部分项目页记录增至 38，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。双系统申请、学习课程与毕业 GPA 分开，未复制其他 MIPIM 方向；费用差异和伙伴门户限制保持待确认。见 [依据](../docs/research/suss-mipim-ipb-first-check-2026-10-27.md)、[61 单元新快照](../docs/research/source-review-queue-2026-10-27-suss-mipim-ipb.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mipim-ipb.md)。原 37 个对象与历史记录不改写；以下为较早批次。

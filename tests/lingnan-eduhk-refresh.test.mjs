@@ -166,7 +166,7 @@ test('saved choices and candidate exports retain fresh evidence while read-only 
   assert.equal(exported.evidence.lastChecked, observed.checkedOn); assert.equal(exported.applicantEvidence.checkedOn, observed.checkedOn);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined); assert.equal(exported.rememberedChoice, true);
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
-  assert.equal(meta.quality.checked, 39); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.equal(meta.quality.checked, 40); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 18, categories: 38, peerReviewed: 0 });
   assert.equal(JSON.stringify([store.get(lu.id), store.get(ed.id)]), before);
 });
