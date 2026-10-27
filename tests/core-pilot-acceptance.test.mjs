@@ -10,7 +10,7 @@ import { CatalogueStore } from '../server/database.mjs';
 import { createApp } from '../server/app.mjs';
 import { matchProgramme } from '../server/matching.mjs';
 
-const root = new URL('../', import.meta.url), day = '2026-10-25', report = loadCoreAcceptance(day);
+const root = new URL('../', import.meta.url), day = '2026-10-27', report = loadCoreAcceptance(day);
 const read = f => JSON.parse(readFileSync(new URL(f, root), 'utf8'));
 const batch = read('data/checked-programmes.json'), observed = read('data/research/core-pilot-source-checks-2026-10-25.json');
 const options = { seedPath: new URL('data/catalogue.json', root), expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryEvidencePath: new URL('data/directory-links.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root) };
@@ -75,9 +75,10 @@ test('source spot checks are separate observations, not new source dates, comple
   assert.deepEqual(observed.programmes.map(p => p.programmeId), batch.pilotProgrammeIds);
   assert.equal(observed.productionDataChanges, 0); assert.equal(observed.allLinkedSourcesRefreshed, false);
   assert.equal(observed.pdfReviewedThisBatch, false); assert.equal(observed.independentHumanReviews, 0);
+  assert.equal(observed.checkedOn, '2026-10-25');
   for (const p of observed.programmes) {
     const actual = store.get(p.programmeId); assert.equal(actual.lastChecked, p.recordSourceDate);
-    assert.equal(p.checkedOn, day); assert.ok(p.scope && p.observation && p.remaining);
+    assert.equal(p.checkedOn, observed.checkedOn); assert.ok(p.scope && p.observation && p.remaining);
   }
 });
 
@@ -103,7 +104,7 @@ test('invalid dates, duplicate identities, missing programmes and unsupported CL
 });
 
 test('saved acceptance Markdown reproduces exactly and escapes synthetic names in table cells', () => {
-  const saved = readFileSync(new URL('docs/research/core-pilot-acceptance-2026-10-25.md', root), 'utf8').replaceAll('\r\n', '\n');
+  const saved = readFileSync(new URL('docs/research/core-pilot-acceptance-2026-10-27.md', root), 'utf8').replaceAll('\r\n', '\n');
   assert.equal(formatCoreAcceptance(report), saved);
   assert.equal(/[ \t]+$/m.test(saved), false);
   const p = fixture(); p.name = '<script>bad</script> | [bad]';

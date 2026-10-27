@@ -111,7 +111,7 @@ export function formatCoreAcceptance(r) {
   lines.push('', '## 具体差距示例', '', '下列为模拟输入与已记录公开条件的差异，不是录取决定：', '');
   const examples = new Map();
   for (const v of r.cases) for (const f of v.failed) { const key = v.programmeId + '|' + f.kind + '|' + f.reason; if (!examples.has(key)) examples.set(key, '- ' + v.programmeId + ' · ' + v.scenarioId + ' · ' + cell(f.kind) + '：' + cell(f.reason)); }
-  lines.push(...[...examples.values()].slice(0, 24), '', '## 可重复运行', '', '使用 Node 24，显式传入比较日期；只读仓库，在内存中组装，不打开日常数据库、不联网。早于当前来源的日期不重建历史招生事实。', '', fence + 'text', 'node scripts/core-pilot-acceptance.mjs --as-of ' + r.asOfDate + ' --format markdown', 'node scripts/core-pilot-acceptance.mjs --as-of ' + r.asOfDate, fence, '', '本轮主要官网重查范围与保留问题见 [官方来源抽查记录](core-pilot-source-checks-2026-10-25.md)。未将只读网页抽查冒充所有关联来源的完整更新。', '', '输入语义指纹：', '');
+  lines.push(...[...examples.values()].slice(0, 24), '', '## 可重复运行', '', '使用 Node 24，显式传入比较日期；只读仓库，在内存中组装，不打开日常数据库、不联网。早于当前来源的日期不重建历史招生事实。', '', fence + 'text', 'node scripts/core-pilot-acceptance.mjs --as-of ' + r.asOfDate + ' --format markdown', 'node scripts/core-pilot-acceptance.mjs --as-of ' + r.asOfDate, fence, '', '核心项目此前官方 HTML 抽查及其日期见 [官方来源抽查记录](core-pilot-source-checks-2026-10-25.md)。本只读验收不查阅官网、不修改来源查阅日，也不代表所有关联来源的完整更新。', '', '输入语义指纹：', '');
   for (const [file, value] of Object.entries(r.inputFingerprints)) lines.push('- ' + cell(file) + ': ' + value);
   lines.push('', '验收指纹：' + r.fingerprint, '');
   return lines.join('\n');

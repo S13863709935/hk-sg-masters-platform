@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-25",
+  "checkedOn": "2026-10-27",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -5085,6 +5085,197 @@
           "status": "unknown",
           "noteEn": "AI-assisted partial reading and visual inspection, not independent human review or complete requirements.",
           "sourceUrl": "https://www.eduhk.hk/mit/en/mscads"
+        }
+      }
+    },
+    {
+      "id": "SG-SIT-P004",
+      "universityId": "SG-SIT",
+      "name": "MSc Mechanical Engineering",
+      "award": "MSc",
+      "area": "Engineering",
+      "faculty": null,
+      "officialUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-mechanical-engineering",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted official-source observation; PDF table visual checks and independent review pending",
+      "lastChecked": "2026-10-27",
+      "academicYear": "2026/27",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Coursework MSc at SIT Punggol; its dissertation does not make it a research-entry MEng. The consulted page still identifies September 2026 and a closed May-June window; no 2027 intake or current opening is inferred. Full-time study requires approval. Engineering equivalence, qualifying work/IWSP, specialisation choice, English evidence and fee reconciliation remain unresolved.",
+      "offerings": [
+        {
+          "id": "SG-SIT-P004-SEP2026-PT",
+          "mode": "Part-time",
+          "duration": "Overview: 2 years; typically 5 trimesters; maximum 4 years",
+          "intake": "September 2026",
+          "academicYear": "2026/27",
+          "applicationOpen": "2026-05-17",
+          "deadline": "2026-06-11",
+          "deadlineNote": "Recorded September 2026 cycle, already past. The following week concerns payment/supporting documents, not an application extension. Interview and offer dates are separate. No September 2027 window or exact cutoff time was established.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "Tuition withheld: undated programme figures disagree with the linked AY2026 cohort PDF. Per-credit charges depend on subsidy/qualification history; PDF columns remain visually unchecked. Do not quote a default, multiply a research trimester rate or carry amounts into 2027. Miscellaneous and application charges remain separate."
+        },
+        {
+          "id": "SG-SIT-P004-SEP2026-FT",
+          "mode": "Full-time",
+          "duration": "2 trimesters, subject to approval; maximum 4 years",
+          "intake": "September 2026",
+          "academicYear": "2026/27",
+          "applicationOpen": "2026-05-17",
+          "deadline": "2026-06-11",
+          "deadlineNote": "Recorded September 2026 cycle, already past. The following week concerns payment/supporting documents, not an application extension. Interview and offer dates are separate. No September 2027 window or exact cutoff time was established.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "Tuition withheld: undated programme figures disagree with the linked AY2026 cohort PDF. Per-credit charges depend on subsidy/qualification history; PDF columns remain visually unchecked. Do not quote a default, multiply a research trimester rate or carry amounts into 2027. Miscellaneous and application charges remain separate."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree",
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Engineering qualification and equivalence",
+          "noteZh": "",
+          "noteEn": "An Engineering bachelor's degree or accepted equivalent is required. Recognition and equivalence are university decisions; no exhaustive major list or numeric entry GPA is established.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualifying related experience including IWSP",
+          "noteZh": "",
+          "noteEn": "At least one year of relevant post-bachelor work is stated; the central rule also permits SIT IWSP. The form's aggregate work years do not prove relevance, timing or qualifying IWSP, so no automatic pass or rejection is made from that number alone.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and guide visual verification",
+          "noteZh": "",
+          "noteEn": "The HTML uses native-language applicability; the linked international-qualification guide uses non-English instruction, names IELTS Academic 6.0 and iBT 85, and anchors two-year validity to application. Only PDF text was accessible. Table layout, updated TOEFL scale, waiver/stackable-course alternatives and individual applicability need confirmation; no numeric language rule or expiry from today is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Study approval, specialisation and professional recognition",
+          "noteZh": "",
+          "noteEn": "Full-time study needs approval. Choose Sustainable Land Transport or Sustainable Building Technology on admission; no independent route criteria were established. Accreditation wording includes specified SIT BEng combinations and is not universal professional recognition of the MSc.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-mechanical-engineering"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Tuition conflict, subsidy and extra charges",
+          "noteZh": "",
+          "noteEn": "Programme totals and per-credit figures conflict with the AY2026 PDF. MOE subsidy depends on accepted engineering qualifications and prior subsidised postgraduate study. The central miscellaneous-fee footnote places postgraduate degrees in its non-full-time rate category; no undergraduate full-time fee or all-in amount is assigned automatically.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Application assessment and documents",
+          "noteZh": "",
+          "noteEn": "Shortlisted applicants are interviewed. Application, payment and supporting-document steps remain distinct, with certified translations where required. No application, document upload, Student's Pass or completion assessment is performed by this platform.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-mechanical-engineering",
+          "purpose": "Modes, campus, coursework, eligibility, historical September 2026 window and conflicting undated fees",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/postgraduate/coursework",
+          "purpose": "Explicit coursework master's category, distinct from research degrees",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements",
+          "purpose": "Engineering/equivalent qualification, relevant work including IWSP and English applicability",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/admissions/postgraduate",
+          "purpose": "September-only programme row and dated closed cycle; later administrative stages are not an extension",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees",
+          "purpose": "Subsidy restrictions, miscellaneous-rate footnotes and separate incidental fees",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/admissions/tuition-fees",
+          "purpose": "AY2026 cohort heading and link to postgraduate fee PDF; not a 2027 quote",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/media/postgraduate-tuition-fees-ay26",
+          "purpose": "Text-only AY2026 fee rates/GST evidence conflicts with programme; no visual table verification",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications",
+          "purpose": "Text-only international-qualification English/validity guide; visual table verification pending",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "researchBatch": "sit-mechanical-first-check-2026-10-27",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Observed September 2026 and AY2026/27; no next-year cohort inferred.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-mechanical-engineering"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or equivalent; individual recognition remains manual.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA was found in consulted sources.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "PDF text available but layout/scale and applicant applicability remain unresolved.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Programme/cohort-PDF conflict, subsidy eligibility and visual confirmation unresolved.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/media/postgraduate-tuition-fees-ay26"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Closed 17 May-11 June 2026 cycle; no future or live-opening assertion.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-mechanical-engineering"
         }
       }
     }

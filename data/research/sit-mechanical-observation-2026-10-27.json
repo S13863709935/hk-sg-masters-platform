@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SIT-P004",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "scope": {
+    "coursework": true,
+    "campus": "SIT Punggol",
+    "award": "MSc",
+    "credits": 60,
+    "researchMEngNotMerged": true,
+    "specialisations": [
+      "Sustainable Land Transport",
+      "Sustainable Building Technology"
+    ]
+  },
+  "cycle": {
+    "academicYear": "2026/27",
+    "intake": "September 2026",
+    "applicationOpen": "2026-05-17",
+    "deadline": "2026-06-11",
+    "next2027Window": null,
+    "administrativeWeekNotExtension": true
+  },
+  "requirements": {
+    "engineeringOrEquivalent": true,
+    "relatedPostBachelorYears": 1,
+    "iwspMayQualify": true,
+    "aggregateExperienceNotAutomaticallyComparable": true,
+    "numericEntryGpa": null,
+    "englishPdfTextOnly": {
+      "ieltsAcademic": 6,
+      "toeflIbtUnversioned": 85,
+      "updatedToefl": null,
+      "validityAtApplicationYears": 2,
+      "visualVerified": false
+    }
+  },
+  "fees": {
+    "programmeUndatedPerCredit": {
+      "sc": 149.5,
+      "pr": 303,
+      "internationalOrNonSubsidised": 595.63
+    },
+    "programmeUndatedTotals": {
+      "sc": 8970,
+      "pr": 18180,
+      "internationalOrNonSubsidised": 35738
+    },
+    "ay2026PdfTextPerCredit": {
+      "sc": 156.5,
+      "pr": 318,
+      "nonSubsidised": 641.47
+    },
+    "feeConflict": true,
+    "pdfVisualVerified": false,
+    "storedDefaultTuition": null,
+    "storedApplicationFee": null,
+    "subsidyNotInferred": true,
+    "miscellaneousFootnote": "Postgraduate degrees use the non-full-time programme category in this table even when an offering is full-time; no amount automatically assigned."
+  },
+  "sources": [
+    {
+      "url": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-mechanical-engineering",
+      "purpose": "Modes, campus, coursework, eligibility, historical September 2026 window and conflicting undated fees",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/postgraduate/coursework",
+      "purpose": "Explicit coursework master's category, distinct from research degrees",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements",
+      "purpose": "Engineering/equivalent qualification, relevant work including IWSP and English applicability",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate",
+      "purpose": "September-only programme row and dated closed cycle; later administrative stages are not an extension",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees",
+      "purpose": "Subsidy restrictions, miscellaneous-rate footnotes and separate incidental fees",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/tuition-fees",
+      "purpose": "AY2026 cohort heading and link to postgraduate fee PDF; not a 2027 quote",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/media/postgraduate-tuition-fees-ay26",
+      "purpose": "Text-only AY2026 fee rates/GST evidence conflicts with programme; no visual table verification",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications",
+      "purpose": "Text-only international-qualification English/validity guide; visual table verification pending",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "externalReadLimitations": {
+    "nusDsmlPdfAttempts": {
+      "urls": [
+        "https://www.math.nus.edu.sg/MDSML-AY2027-International-Students/",
+        "https://www.math.nus.edu.sg/MDSML-AY2027-Local-Students/"
+      ],
+      "pdfTextReadable": true,
+      "screenshotImagePayload": false,
+      "directResponseContentType": "text/html",
+      "directResponseBytes": 212,
+      "downloadedPdf": false,
+      "visualVerified": false,
+      "existingNusObjectsUnchanged": true
+    },
+    "sitGuide": {
+      "pdfTextReadable": true,
+      "directResponseContentType": "text/html",
+      "directResponseBytes": 212,
+      "downloadedPdf": false,
+      "visualVerified": false
+    }
+  }
+}
