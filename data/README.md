@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-27）
 
+同日 SUSS MDMK 首查：部分项目页记录增至 35，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。普通 MDMK 与 FHNW 双学位分开；其他学历／相关经验、语言适用范围、身份和招生批次继续保留待确认，不把毕业 CGPA 或志愿偏好作为入学硬门槛。见 [依据](../docs/research/suss-mdmk-first-check-2026-10-27.md)、[58 单元新快照](../docs/research/source-review-queue-2026-10-27-suss-mdmk.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mdmk.md)。原 34 个对象及历史记录保持原样；下文为较早批次。
+
 同日 SUSS MAVI 首查：部分项目页记录增至 34，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。英语 MAVI 不与中文 MSDAV 或 MAIB 合并；全程境外远程不作为新加坡现场学习选项。保留条件式语言要求、批次日期与个人费用待确认。见 [依据](../docs/research/suss-mavi-first-check-2026-10-27.md)、[57 单元新快照](../docs/research/source-review-queue-2026-10-27-suss-mavi.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mavi.md)。原 33 个对象和历史记录不改写；以下为较早批次。
 
 同日 SUSS 商业人工智能硕士首查：部分项目页记录为 33，目录 873／默认 870、人工复核与完整要求 0、方向 5、分类证据 18 组／38 类别不变。两条学习路径属于一个原有项目；通用招生日期、身份相关费用、ELPR 适用范围均不自动绑定到个人，毕业 CGPA 不作本科入学门槛。见 [依据与限制](../docs/research/suss-maib-first-check-2026-10-27.md)、[56 单元维护快照](../docs/research/source-review-queue-2026-10-27-suss-maib.md) 和 [核心只读重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-maib.md)。原 32 个对象、冻结数据层与历史快照保留；下面是较早批次记录。

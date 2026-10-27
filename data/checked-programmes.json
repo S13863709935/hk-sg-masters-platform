@@ -6063,6 +6063,201 @@
         }
       ],
       "researchBatch": "suss-mavi-first-check-2026-10-27"
+    },
+    {
+      "id": "SG-SUSS-P019",
+      "universityId": "SG-SUSS",
+      "name": "Master of Digital Marketing",
+      "award": "MDMK",
+      "area": "Business",
+      "faculty": "School of Business",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; pathway eligibility, cohort, fees and independent review unresolved",
+      "lastChecked": "2026-10-27",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One standalone coursework MDMK with regular and accelerated pathways and three subject clusters. It is separate from the FHNW dual award, Management/Social Sciences alternatives and certificate/diploma exits. Other qualifications with relevant work may receive individual assessment; volunteering is a preference. Award CGPA is not entry GPA. Ordinary pathway dates, FT/PT label and personally applicable tuition are unconfirmed; teaching format and any extension arrangements need separate confirmation.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P019-REGULAR",
+          "mode": null,
+          "duration": "Regular pathway: typical 1.5–2 years; maximum 4 years; separate minimum not established",
+          "intake": null,
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "The general January/July 2027 university calendar is not confirmed as this specific pathway window and warns of earlier programme closing dates. No exact intake/year, opening or deadline is assigned; live portal not checked.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 standalone MDMK table before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional SSG amount as low as 17,424. Applicant category, subsidy and applicable cohort need confirmation; no default discount or certificate/diploma quote. Application: SC/PR 60, others 100 before GST. Annual miscellaneous charges vary by category; extras excluded. Acceptance deposit SGD 2,000 includes GST and offsets first-semester tuition, not an extra tuition charge. FHNW partner charges are separate and not included here."
+        },
+        {
+          "id": "SG-SUSS-P019-ACCELERATED",
+          "mode": null,
+          "duration": "Accelerated pathway: 1 year",
+          "intake": null,
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "The general January/July 2027 university calendar is not confirmed as this specific pathway window and warns of earlier programme closing dates. No exact intake/year, opening or deadline is assigned; live portal not checked.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 standalone MDMK table before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional SSG amount as low as 17,424. Applicant category, subsidy and applicable cohort need confirmation; no default discount or certificate/diploma quote. Application: SC/PR 60, others 100 before GST. Annual miscellaneous charges vary by category; extras excluded. Acceptance deposit SGD 2,000 includes GST and offsets first-semester tuition, not an extra tuition charge. FHNW partner charges are separate and not included here."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or university-assessed alternative",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification recognition and alternative assessment",
+          "noteZh": "",
+          "noteEn": "The general route requires a recognised undergraduate qualification or accepted equivalent. MDMK explicitly permits individual consideration of other qualifications with relevant work experience. Aggregate work years do not prove relevance or qualification acceptance. No numeric entry GPA, compulsory field whitelist or universal work-year threshold is established.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Pathway and residence eligibility",
+          "noteZh": "",
+          "noteEn": "Regular MDMK includes Singapore citizens, PRs and residents in Singapore; accelerated also includes international applicants. Nationality and current study location cannot verify residence/pass eligibility. No automatic permission or ordinary-pathway eligibility is inferred from employment years.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and alternative evidence",
+          "noteZh": "",
+          "noteEn": "ELPR depends on undergraduate university medium and instruction language. Alternatives include IELTS Academic 6.5, internet TOEFL 85, PTE 58, C1 180 (within two years at application) or MUET Band 4 (within five years). Waiver evidence needs acceptance. No new TOEFL-scale conversion, universal IELTS expiry or FHNW dual-award language rule is imported.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "CV and individual admission assessment",
+          "noteZh": "",
+          "noteEn": "A CV covering relevant education, training or work is required. Shortlisted applicants may face interviews or other evaluation at university discretion; no mandatory two-round dual-award interview process is assigned to standalone MDMK. The platform does not collect or submit evidence.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Volunteer experience is a preference",
+          "noteZh": "",
+          "noteEn": "Social outreach or volunteering can strengthen an application, without a mandatory volunteer period or universal work-experience requirement for ordinary degree holders.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Award conditions and optional learning components",
+          "noteZh": "",
+          "noteEn": "The master requires 60 CU and coursework CGPA 3.0 for graduation, not a quantitative undergraduate entry GPA. Internship and consulting-project courses appear as electives; they do not establish prior work requirements. Stackable certificate/diploma routes and industry-certification preparation are not compulsory admission credentials.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Standalone and dual-award boundaries",
+          "noteZh": "",
+          "noteEn": "The separate FHNW dual award has its own field/work criteria, language-evidence timing, two interview rounds, credit structure and CHF partner charges. Those conditions and scholarship possibilities are not copied into standalone MDMK; three subject clusters are not three extra degrees.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/suss-master-of-digital-marketing-fhnw-master-of-science-in-international-management"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "No ordinary-pathway cohort year established; fee-table year is not an intake.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "No exhaustive mandatory field list for standalone MDMK; other qualifications may receive individual assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; CGPA 3.0 concerns the award.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional ELPR, waiver acceptance and unversioned TOEFL applicability remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Dated category quotes are retained; personal cohort/category/funding is not assigned.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "General 2027 dates do not verify the selected pathway or current availability.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing",
+          "purpose": "Standalone MDMK identity, study pathways, other-qualification discretion and volunteer preference",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Standalone coursework degree versus separately listed FHNW dual award; conditional international evidence",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional ELPR, individual assessment and credited deposit",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General 2027 calendars with earlier-programme caveat and category application fees",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course-based billing, funding conditions, category miscellaneous fees and extras",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Text-readable Digital Marketing master row on PDF page 2 and policy notes on page 7; no new visual verification",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/suss-master-of-digital-marketing-fhnw-master-of-science-in-international-management",
+          "purpose": "Comparison only: dual-award credit structure, field/work criteria, two interviews, paper TOEFL and separate CHF charges are not ordinary MDMK rules",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "researchBatch": "suss-mdmk-first-check-2026-10-27"
     }
   ]
 }

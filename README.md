@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日 SUSS MDMK 批次：接入普通数字营销硕士的常规／加速路径，保留其他学历结合相关经验的个案评估；志愿经历不作硬门槛，FHNW 双学位条件与额外费用不套用。部分项目页记录为 35，目录 873／默认 870、人工复核与完整要求 0 不变。见 [来源与限制](docs/research/suss-mdmk-first-check-2026-10-27.md)、[58 单元快照](docs/research/source-review-queue-2026-10-27-suss-mdmk.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mdmk.md)。原 34 个对象和历史快照不改写，本轮仅本地保存。
+
 2026-10-27 同日 SUSS MAVI 批次：核查英语数据分析与可视化硕士，区分新加坡现场参与与全程境外远程承诺，保留路径资格、延长学制及入学面试条件；实习和推荐人信息不作硬门槛。部分项目页记录为 34，目录 873／默认 870、人工复核与完整要求 0 不变。见 [来源与限制](docs/research/suss-mavi-first-check-2026-10-27.md)、[57 单元快照](docs/research/source-review-queue-2026-10-27-suss-mavi.md) 与 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mavi.md)。原 33 个对象与历史快照保留，本轮仅本地保存。
 
 2026-10-27 同日 SUSS MAIB 批次：沿用既有目录编号，分开常规与加速学习路径；不从国籍推定居留资格，不把毕业 CGPA 或志愿经历偏好变成入学硬门槛。语言豁免适用范围、具体招生批次及个人费用仍待确认。部分项目页记录增至 33，目录 873／默认 870；独立人工复核和完整要求仍为 0。见 [本轮来源与限制](docs/research/suss-maib-first-check-2026-10-27.md)、[56 单元快照](docs/research/source-review-queue-2026-10-27-suss-maib.md) 与 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-maib.md)。原 32 个项目对象及历史快照不变，本轮仅本地保存。以下为较早批次记录。

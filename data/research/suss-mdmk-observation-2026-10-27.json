@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P019",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Digital Marketing",
+    "award": "MDMK",
+    "coursework": true,
+    "credits": 60,
+    "clusters": [
+      "Strategy",
+      "Analytics",
+      "Design"
+    ],
+    "notThreeExtraDegrees": true,
+    "certificateDiplomaNotRequiredFirst": true,
+    "notFhnwDualAward": true,
+    "notManagementOrSocialSciencesAward": true
+  },
+  "pathways": {
+    "regular": {
+      "typicalYears": [
+        1.5,
+        2
+      ],
+      "minimumYears": null,
+      "maximumYears": 4,
+      "maximumCuPerSemester": 20,
+      "residentEligibilityRequired": true
+    },
+    "accelerated": {
+      "years": 1,
+      "averageCuPerSemester": 30,
+      "maximumCuPerSemester": 35,
+      "internationalApplicantsIncluded": true,
+      "extensionNotEstablished": true
+    },
+    "ftPtMode": null,
+    "eveningTeachingDoesNotEstablishMode": true,
+    "maviRemoteRulesNotInherited": true,
+    "nationalityDoesNotEstablishResidenceOrPermission": true
+  },
+  "cycle": {
+    "programmeSpecificYear": null,
+    "programmeSpecificIntake": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalCalendarOnly": [
+      {
+        "intake": "January 2027",
+        "submitBy": "2026-10-15"
+      },
+      {
+        "intake": "July 2027",
+        "submitBy": "2027-04-15"
+      }
+    ],
+    "earlierProgrammeClosingCaveat": true,
+    "generalCalendarNotAssignedToTrack": true,
+    "livePortalChecked": false
+  },
+  "requirements": {
+    "numericEntryGpa": null,
+    "graduateAwardCgpa": 3,
+    "awardCgpaIsNotEntryGpa": true,
+    "otherQualificationsWithRelevantExperienceMayBeConsidered": true,
+    "otherQualificationAcceptanceAutomatic": false,
+    "minimumWorkYears": null,
+    "mandatoryMajorWhitelist": null,
+    "volunteerExperienceMandatory": false,
+    "volunteerExperiencePreference": true,
+    "cvRequired": true,
+    "interviewAtUniversityDiscretion": true,
+    "twoInterviewRoundsNotImported": true,
+    "priorInternshipMandatory": false,
+    "industryCertificationIsNotAdmissionCredential": true,
+    "english": {
+      "applicabilityDependsOnUndergraduateMediumAndInstruction": true,
+      "ieltsAcademic": 6.5,
+      "internetToeflUnversioned": 85,
+      "pteAcademic": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "newToeflScaleNotConverted": true,
+      "automaticWaiver": false,
+      "ieltsUniversalExpiryMonths": null,
+      "numericRuleNotAutomatedBecauseApplicabilityUnresolved": true
+    }
+  },
+  "fees": {
+    "tableYear": "2026/2027",
+    "tableAccurateAsOf": "2026-10-16",
+    "currency": "SGD",
+    "excludesGst": true,
+    "masterTuition": {
+      "scPr": 31680,
+      "otherResidents": 38016,
+      "conditionalSubsidisedAsLowAs": 17424
+    },
+    "certificateDiplomaPricesNotSubstituted": true,
+    "subsidyNotDefault": true,
+    "applicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "residentCategories": 20,
+      "internationalStudentPassCategory": 530
+    },
+    "acceptanceDeposit": {
+      "amount": 2000,
+      "includesGst": true,
+      "creditedToFirstSemester": true,
+      "notAdditionalTuition": true
+    },
+    "personalDefaultTuition": null,
+    "dualPartnerChargesNotAddedToStandalone": true
+  },
+  "dualComparison": {
+    "comparisonOnly": true,
+    "standaloneCreditsRemain": 60,
+    "sussCredits": 40,
+    "fhnwEcts": 30,
+    "partnerCurrency": "CHF",
+    "partnerTuitionQuoted": 7500,
+    "mandatoryFieldWorkCriteriaNotImported": true,
+    "twoInterviewRounds": 2,
+    "paperToefl580NotImported": true,
+    "universalTwoYearEnglishWindowNotImported": true,
+    "scholarshipNotAutomatic": true,
+    "notNewSelectableOffering": true
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing",
+      "purpose": "Standalone MDMK identity, study pathways, other-qualification discretion and volunteer preference",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Standalone coursework degree versus separately listed FHNW dual award; conditional international evidence",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional ELPR, individual assessment and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General 2027 calendars with earlier-programme caveat and category application fees",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course-based billing, funding conditions, category miscellaneous fees and extras",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Text-readable Digital Marketing master row on PDF page 2 and policy notes on page 7; no new visual verification",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/suss-master-of-digital-marketing-fhnw-master-of-science-in-international-management",
+      "purpose": "Comparison only: dual-award credit structure, field/work criteria, two interviews, paper TOEFL and separate CHF charges are not ordinary MDMK rules",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousPartialProgrammeObjects": 34,
+    "sourceDatesNotRestamped": true,
+    "pdfTextPagesConsulted": [
+      2,
+      7
+    ],
+    "pdfVisualVerificationNotClaimed": true,
+    "noNewPdfDownloadClaimed": true,
+    "progressionImageNotVisuallyRead": true,
+    "brochureReadNotClaimed": true,
+    "directoryReadNotNewlyClaimed": true
+  }
+}
