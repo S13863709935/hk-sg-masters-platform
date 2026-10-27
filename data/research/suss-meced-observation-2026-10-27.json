@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P020",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Early Childhood Education",
+    "award": "MECED",
+    "linkedPlanCode": "MECEDN",
+    "faculty": "S R Nathan School of Human Development",
+    "totalCu": 60,
+    "coreCu": 40,
+    "electiveCu": 5,
+    "trackCu": 15,
+    "tracks": [
+      "Teacher Trainer",
+      "Teaching English to Speakers of Other Languages (TESOL)"
+    ],
+    "scopeBasis": "Structured taught courses plus curriculum research project; coursework scope inference, not independent type certification",
+    "notTwoExtraMasters": true,
+    "chineseSiblingNotMerged": "SG-SUSS-P021",
+    "separateAppliedLinguisticsMasterNotMerged": "SG-SUSS-P004",
+    "stackedCertificatesNotExtraMasterAdmissions": true,
+    "revisionYearNotAdmissionCohort": 2026
+  },
+  "admission": {
+    "recognisedDegreeOrUniversityAcceptedEquivalent": true,
+    "degreeExamples": [
+      "Education",
+      "Early Childhood",
+      "English Studies",
+      "Linguistics"
+    ],
+    "degreeConductedInEnglishWording": true,
+    "strongProfessionalRecordAlternativeNeedsAssessment": true,
+    "andOrWordingNotClosedMajorWhitelist": true,
+    "teacherTraining": {
+      "minimumLevel": "Diploma",
+      "acceptedSectors": [
+        "Early childhood",
+        "Primary school",
+        "Secondary school"
+      ]
+    },
+    "relevantWorkExperienceRequired": true,
+    "cvRequired": true,
+    "numericWorkYearMinimum": null,
+    "numericUndergraduateEntryGpa": null,
+    "experienceYearsDoNotProveRelevanceOrTeacherTraining": true
+  },
+  "english": {
+    "programmeAdditionalRequirementConditionalOnDegreeField": true,
+    "programmeAlternatives": {
+      "universityEnglishAssessment": "Excellent score; no numeric threshold specified",
+      "ieltsAcademic": {
+        "operator": ">",
+        "total": 6.5,
+        "allComponentsMin": 6
+      },
+      "toeflPbt": {
+        "operator": ">",
+        "total": 580,
+        "preferredTwe": 5
+      },
+      "toeflIbtUnversioned": {
+        "operator": ">",
+        "total": 85,
+        "writingMin": 22
+      },
+      "pteAcademicMin": 58,
+      "c1AdvancedMin": 180,
+      "gceOLevelListed": {
+        "minimumPasses": 5,
+        "englishGrade": "B4",
+        "logicalApplicabilityNeedsConfirmation": true
+      }
+    },
+    "programmeIeltsToeflYearsAtApplication": 2,
+    "generalElprConditionalOnUniversityMediumAndInstruction": true,
+    "generalElpr": {
+      "ieltsAcademicMin": 6.5,
+      "internetToeflMin": 85,
+      "pteMin": 58,
+      "c1AdvancedMin": 180,
+      "c1YearsAtApplication": 2,
+      "muetBandMin": 4,
+      "muetYearsAtApplication": 5
+    },
+    "programmeAndGeneralPolicyNotFlattened": true,
+    "strongRecordDoesNotAutomaticallyWaiveLanguage": true,
+    "automaticWaiver": false,
+    "newToeflScaleNotConverted": true,
+    "conditionalLanguageNotUnconditionalScoreRule": true
+  },
+  "eligibility": {
+    "currentlyUnableToTakeInternationalStudents": true,
+    "singaporeCitizensPrOrResidentsMayApply": true,
+    "employmentPassExample": true,
+    "allForeignNationalsNotAutomaticallyRejected": true,
+    "nationalityOrLocationNotResidentVerification": true,
+    "studentPassRouteNotEstablished": true
+  },
+  "study": {
+    "nominalYears": 2,
+    "maximumYears": 4,
+    "fixedCourseSequence": true,
+    "ftPtMode": null,
+    "graduateAwardCgpa": 3,
+    "awardGpaNotEntryGpa": true,
+    "accessToEarlyChildhoodTeachersOrStudentsNeededForProjectBasedStudy": true,
+    "platformDoesNotCollectChildOrTeacherRecords": true,
+    "teacherTrainerIncludesPhysicalIalTeaching": true,
+    "tesolIncludesWeekdayEvenings": true,
+    "someClassesOnlineNotEntirelyRemoteEntitlement": true,
+    "principalQualificationNotAutomaticallyConferredPerUniversityFaq": true,
+    "currentExternalProfessionalRulesNotIndependentlyChecked": true
+  },
+  "curriculum": {
+    "planUrl": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=MECEDN&viewtype=mhtml",
+    "planUpdatedOn": "2026-06-11",
+    "planPages": 3,
+    "textRead": true,
+    "visualVerification": false,
+    "ece598Cu": 10,
+    "ece598CoursePrerequisites": [
+      "ECE525",
+      "ECE597"
+    ],
+    "ece598MinimumCompletedCu": 30,
+    "coursePrerequisitesNotPreAdmissionGates": true,
+    "presentationYears": [
+      2026,
+      2027
+    ],
+    "presentationSemestersNotAdmissionIntakes": true,
+    "individualTrackPlansNotCompletelyReconciled": true
+  },
+  "cycle": {
+    "recurringIntakeMonth": "January",
+    "intakesPerYear": 1,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "applyEarlyPriorityNotOpeningEvidence": true,
+    "generalCalendarNotAutomaticallyAssigned": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "tableTitle": "Year 2026/2027 Non-Subsidised Programme Fees",
+    "tableAsOf": "2026-10-16",
+    "masterTextQuote": {
+      "scPr": 31680,
+      "otherResidents": 38016,
+      "conditionalSubsidisedAsLowAs": 22044
+    },
+    "currency": "SGD",
+    "excludesGst": true,
+    "pdfColumnsNotVisuallyVerified": true,
+    "sameScPrOtherPriceDoesNotMergeChineseSibling": true,
+    "otherResidentPriceNotStudentPassAdmission": true,
+    "noAutomaticCertificatePriceAdditionOrSubsidy": true,
+    "personalCategoryAndTrackAmountUnresolved": true,
+    "tuitionPaidByCoursesEnrolled": true,
+    "generalApplicationBeforeGst": {
+      "scPr": 60,
+      "otherApplicants": 100
+    },
+    "residentAnnualMiscBeforeGst": 20,
+    "generalInternationalMisc530NotAssigned": true,
+    "acceptanceDeposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true,
+      "notExtraTuition": true
+    },
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "funding": {
+    "programmeAdvertisesEcdaScholarship": true,
+    "sameSemesterBxlCoursesForAdvertisedGcertFunding": [
+      "BXL641",
+      "BXL642",
+      "BXL643"
+    ],
+    "fundingConditionNotAdmissionOrUniversalStudyLoad": true,
+    "currentExternalFundingEligibilityNotVerified": true,
+    "noAutomaticAwardOrFeeDeduction": true
+  },
+  "sourceLimitations": {
+    "pdfTextOnly": true,
+    "localPdfDownloaded": false,
+    "pdfVisualInspectionCompleted": false,
+    "noRepeatedDownloadAfterPreviousOfficialPdf403": true,
+    "noAccessChecksBypassed": true,
+    "admissionDocumentsNotCollected": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-early-childhood-education-mece-spe",
+      "purpose": "Revised degree, two tracks, profession/teacher training, conditional strict English, resident restriction and January study sequence",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualifications, conditional general ELPR and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General calendar and category application fees; no programme-specific dated window inferred",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_nshd_brochure_digital.pdf?sfvrsn=56fed683_3",
+      "purpose": "Relevant page-6 text: revised 60-CU degree, ECE/track structure and practice context; no diagram visual verification",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=MECEDN&viewtype=mhtml",
+      "purpose": "Three-page text: June plan date, taught core, ECE598 study prerequisites and separate secondary fields; table not visually verified",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course-based fees, resident miscellaneous category and extras",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Page-1 ECE master text quote and page-7 tax/eligibility/as-of notes; column visual confirmation pending",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-27-suss-mcou.md": "dba158a189f70a7198fa811cc02ca5301bab0b928bcf2b3b38bee49fe2f6b95f",
+      "docs/research/core-pilot-acceptance-2026-10-27-suss-mcou.md": "e7742bcef400731e42302b7503fd2049b2f52d7bbee96c0cdbadf2d82f3cc5a2"
+    }
+  }
+}

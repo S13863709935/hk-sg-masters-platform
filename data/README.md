@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-27）
 
+同日 SUSS MECED 首查：部分项目页记录为 42，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。英语与中文幼教、独立 TESOL 硕士不合并；教师培训和经验材料独立核对，条件式语言的严格分数及有效期保持原意。课程表学期不作招生批次，资助条件不作入学门槛。见 [来源](../docs/research/suss-meced-first-check-2026-10-27.md)、[65 单元快照](../docs/research/source-review-queue-2026-10-27-suss-meced.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-meced.md)。原 41 个对象和历史记录不改写；以下为较早批次。
+
 同日 SUSS MCOU 首查：部分项目页记录为 41，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。先修与直接入读资格分开，失业不自动排除；实习、毕业标准和注册时数不作入学门槛。国际生准证、路径日期及费用表列仍待确认。见 [来源](../docs/research/suss-mcou-first-check-2026-10-27.md)、[64 单元快照](../docs/research/source-review-queue-2026-10-27-suss-mcou.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mcou.md)。原 40 个对象和历史记录不改写；以下为较早批次。
 
 同日 SUSS MGER 首查：部分项目页记录增至 40，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。实习替换须岗位职责证明，工作年数不自动豁免；阶段学制、居民资格及课程／资助适用范围保持待确认。见 [来源](../docs/research/suss-mger-first-check-2026-10-27.md)、[63 单元快照](../docs/research/source-review-queue-2026-10-27-suss-mger.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mger.md)。原 39 个对象和历史记录不改写；以下为较早批次。
