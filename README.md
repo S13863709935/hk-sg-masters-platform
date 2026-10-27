@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日后续数据完善：补查已有 SIT Electrical and Electronic Engineering 身份，保留已结束的 2026 批次、未明确的学习模式、经验／实习／IWSP 适用范围、限定专业认证及日期／费用冲突，不套用机械工程的全日制路径或论文要求。部分项目页核查为 31，目录仍为 873／默认 870；方向和分类证据不变。见 [来源与限制](docs/research/sit-eee-first-check-2026-10-27.md)、[54 单元维护快照](docs/research/source-review-queue-2026-10-27-sit-eee.md) 和 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-sit-eee.md)。保留同日较早快照原样，核心 20 项目的来源日期不变；本轮仅本地保存，不再次推送。
+
 2026-10-27 本地继续完善：首次核查已有 SIT Mechanical Engineering 目录身份，保留已结束的 2026 招生批次、全日制审批、相关工作／IWSP 及费用冲突；不推定 2027 日期、语言豁免或默认低价。项目页部分查阅为 30，目录仍为 873／默认 870；方向 5、分类证据 18 组／38 类别，人工复核与完整要求均为 0。见 [来源与限制](docs/research/sit-mechanical-first-check-2026-10-27.md)、[53 单元维护清单](docs/research/source-review-queue-2026-10-27.md) 和 [核心项目只读重跑](docs/research/core-pilot-acceptance-2026-10-27.md)。20 个核心项目仍为 497 次模拟比较、0 一致性异常；HTML 抽查日期仍是 25 日，不冒称今天重查。NUS 费用 PDF 视觉核对仍未完成。本轮只保存在本地，W6 已推送的阶段版本保持不变。
 
 2026-10-25 最新核心验收：原定 20 个核心项目、7 组模拟背景、71 种选择共完成 497 次比较，并通过真实接口核对基础筛选和收藏恢复；一致性异常为 0。另重查主要官方 HTML 页面，未形成可确认的招生数据更正，不改写原来源日期或完整性等级。项目页部分查阅仍为 29，目录及分类证据计数不变。见 [核心验收结果](docs/research/core-pilot-acceptance-2026-10-25.md) 与 [来源抽查范围](docs/research/core-pilot-source-checks-2026-10-25.md)。后续可继续由 AI 核对来源，不把用户逐条人工复核设为本地开发前置条件；未知和院校裁量条件仍保留。没有新增网站功能、推送或部署。

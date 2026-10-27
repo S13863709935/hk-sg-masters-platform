@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SIT-P003",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "scope": {
+    "coursework": true,
+    "campus": "SIT Punggol",
+    "credits": 60,
+    "coreModules": 6,
+    "disciplineElectives": 4,
+    "standaloneMasterNotCertificate": true,
+    "dissertationRequiredNotEstablished": true,
+    "accreditationCombination": "MSc EEE plus BEng (Hons) Electrical Power Engineering",
+    "noBlanketProfessionalRegistration": true
+  },
+  "cycle": {
+    "intake": "September 2026",
+    "applicationOpen": "2026-05-17",
+    "deadline": "2026-06-11",
+    "next2027Window": null,
+    "paymentWeekNotApplicationExtension": true,
+    "programmeAcceptanceObserved": {
+      "start": "2025-07-03",
+      "end": "2026-07-14"
+    },
+    "centralAcceptanceObserved": {
+      "start": "2026-07-03",
+      "end": "2026-07-14"
+    },
+    "acceptanceConflictNotSilentlyRepaired": true
+  },
+  "study": {
+    "statedYears": 2,
+    "normalPlanTrimesters": 4,
+    "weekdayEvenings": true,
+    "explicitCommitment": null,
+    "maximumCandidature": null,
+    "mechanicalFullTimeApprovalNotInherited": true
+  },
+  "requirements": {
+    "relevantRecognisedBachelorOrEquivalent": true,
+    "relatedWorkYears": 1,
+    "programmeIncludesInternships": true,
+    "centralIncludesIwsp": true,
+    "aggregateWorkYearsNotSufficient": true,
+    "postGraduationObjectivesYears": [
+      3,
+      5
+    ],
+    "objectivesNotEntryMinimum": true,
+    "namedDegreesNotClosedList": true,
+    "numericEntryGpa": null,
+    "englishTextOnly": {
+      "ieltsAcademic": 6,
+      "toeflUnversioned": 85,
+      "updatedToefl": null,
+      "validityAtApplicationYears": 2,
+      "visualVerified": false
+    }
+  },
+  "fees": {
+    "programmeUndated": {
+      "scPerCredit": 149.5,
+      "prPerCredit": 303,
+      "scTotal": 8970,
+      "prTotal": 18180,
+      "nonSubsidisedTotal": 36069,
+      "internationalNumericQuoteEstablished": false
+    },
+    "ay2026PdfTextPerCredit": {
+      "sc": 156.5,
+      "pr": 318,
+      "nonSubsidised": 641.47
+    },
+    "conflict": true,
+    "visualPdfVerified": false,
+    "defaultTuition": null,
+    "applicationFee": null,
+    "automaticSubsidy": false
+  },
+  "sources": [
+    {
+      "url": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-electrical-and-electronic-engineering",
+      "purpose": "Coursework identity, 2026 cycle, relevant degree/work, mode gap, combined-degree accreditation and fee/date discrepancies",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/postgraduate/coursework",
+      "purpose": "Master's-by-coursework listing, not a research MEng or graduate-certificate record",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements",
+      "purpose": "Engineering/equivalent qualification, related work and IWSP, English applicability",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate",
+      "purpose": "Programme-specific September cycle, payment and separate interview/offer/acceptance stages",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees",
+      "purpose": "Subsidy restrictions and postgraduate miscellaneous-rate footnotes",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/tuition-fees",
+      "purpose": "AY2026 heading and postgraduate fee document link; no future quote inferred",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/media/postgraduate-tuition-fees-ay26",
+      "purpose": "Text-only AY2026 credit-unit/GST evidence, with visual table verification still pending",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications",
+      "purpose": "Text-only international-qualification English guide, not a visually verified score-table rule",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "pdfAccess": {
+    "textReadable": true,
+    "visualVerified": false,
+    "noNewDownloadOrVisualCheckClaim": true
+  },
+  "preservedEarlierSameDaySnapshots": {
+    "source-review-queue-2026-10-27.md": "d488706a6dc52fcadeba81e3efd7221cdccb476ccab249dd8564eeb4ec5be880",
+    "core-pilot-acceptance-2026-10-27.md": "14ea4cff2ab42abe443545b27dd6460a701c01df374007367a19b10822fddd40"
+  }
+}
