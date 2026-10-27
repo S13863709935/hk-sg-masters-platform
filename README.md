@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日 SUSS IP Business 批次：接入原有知识产权与创新管理身份，保留 SUSS／WIPO 双系统申请、四门 WIPO 学习课程及项目替代关系；七月入学不与一月教学学期混淆。项目页与通用费用表差异未强行合并，伙伴搜索日期不作已确认窗口。部分项目页记录为 38，目录 873／默认 870、人工复核与完整要求 0 不变。见 [来源与限制](docs/research/suss-mipim-ipb-first-check-2026-10-27.md)、[61 单元快照](docs/research/source-review-queue-2026-10-27-suss-mipim-ipb.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mipim-ipb.md)。原 37 个对象及历史快照保留，仅本地保存。
+
 2026-10-27 同日 SUSS MESG 批次：接入可持续发展管理硕士，保留 CV 鼓励提交、毕业 capstone 二选一，以及国际生加速路径无需先在新加坡就业的区别；未从其他课程复制专业、统计课或 GPA 门槛。部分项目页记录为 37，目录 873／默认 870、人工复核与完整要求 0 不变。见 [来源与限制](docs/research/suss-mesg-first-check-2026-10-27.md)、[60 单元快照](docs/research/source-review-queue-2026-10-27-suss-mesg.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mesg.md)。原 36 个对象及历史快照保留，本轮仅本地保存。
 
 2026-10-27 同日 SUSS MFIN 批次：接入普通金融硕士，保留金融／相关专业、统计课程与可能的预备课程评估；不把专业符合视作已完成统计课，也不套用职业考试或 FHNW 双学位条件。部分项目页记录为 36，目录 873／默认 870、人工复核与完整要求 0 不变。见 [依据与限制](docs/research/suss-mfin-first-check-2026-10-27.md)、[59 单元快照](docs/research/source-review-queue-2026-10-27-suss-mfin.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mfin.md)。原 35 个对象和历史快照保留，本轮仅本地保存。

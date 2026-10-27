@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P025",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of IP and Innovation Management (IP Business)",
+    "award": "MIPIM (IP Business)",
+    "coursework": true,
+    "totalCu": 60,
+    "compulsoryCu": 50,
+    "electiveCu": 10,
+    "listedSussCompulsoryCu": 40,
+    "wipoCompulsoryRecognitionCu": 10,
+    "notMbaAward": true,
+    "notBroaderTrackOrPatentDiploma": true,
+    "notChineseProgrammeId": "SG-SUSS-P028",
+    "partnerCollaborationNotExtraCatalogueDegree": true
+  },
+  "study": {
+    "minimumSemesters": 2,
+    "maximumSemesters": 4,
+    "minimumYears": 1,
+    "maximumYears": 2,
+    "recommendedCuPerSemester": 30,
+    "ftPtMode": null,
+    "physicalRemoteDeliveryNotEstablishedForCurrentCohort": true,
+    "notInventedRegularAcceleratedPair": true
+  },
+  "cycle": {
+    "recurringIntakeMonths": [
+      "July"
+    ],
+    "januaryIsTeachingSemesterNotIntake": true,
+    "teachingSemesterMonths": {
+      "july": [
+        "August",
+        "November"
+      ],
+      "january": [
+        "January",
+        "April"
+      ]
+    },
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalJuly2027SubmitBy": "2027-04-15",
+    "bothApplicationSystemsRequired": true,
+    "partnerDatesNotAssigned": true,
+    "livePortalChecked": false
+  },
+  "requirements": {
+    "numericEntryGpa": null,
+    "graduateAwardCgpa": 3,
+    "awardCgpaIsNotEntryGpa": true,
+    "minimumWorkYears": null,
+    "exhaustiveMajorWhitelist": null,
+    "broaderTechnicalPreferenceNotImportedAsHardGate": true,
+    "wipoCourseCodes": [
+      "DL-101",
+      "DL-201",
+      "DL-301",
+      "DL-302"
+    ],
+    "wipoCoursesRequiredForStudyCredit": true,
+    "wipoCompletionTimingNotEstablishedAsPreAdmissionGate": true,
+    "arbitraryCertificateCreditNotAssumed": true,
+    "english": {
+      "conditionalUniversityMediumAndInstruction": true,
+      "ieltsAcademic": 6.5,
+      "internetToeflUnversioned": 85,
+      "pteAcademic": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "partnerRequirementsUnread": true,
+      "automaticWaiver": false,
+      "newToeflScaleNotConverted": true,
+      "universalIeltsExpiryNotInferred": true
+    }
+  },
+  "curriculum": {
+    "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mipimipb-a&viewtype=mhtml",
+    "updatedOn": "2026-09-02",
+    "textPdfPages": 4,
+    "oldProject": "IPM688",
+    "replacementProject": "MGT599",
+    "replacementEffectiveSemester": "2026/07",
+    "coursePresentationsAreNotAdmissionWindows": true,
+    "mainNarrativeStillUsesAppliedResearchWording": true
+  },
+  "fees": {
+    "currency": "SGD",
+    "programmePage": {
+      "nonResidents": 39240,
+      "includesGst": true,
+      "cohortYear": null
+    },
+    "genericMasterTable": {
+      "year": "2026/2027",
+      "accurateAsOf": "2026-10-16",
+      "scPr": 36000,
+      "otherResidents": 43200,
+      "conditionalSubsidisedAsLowAs": 25200,
+      "excludesGst": true,
+      "ipBusinessApplicabilityUnresolved": true
+    },
+    "differenceUnresolved": true,
+    "notAutomaticallyTaxConvertedOrReconciled": true,
+    "personalDefaultTuition": null,
+    "genericSussApplicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "wipoApplicationFee": null,
+    "acceptanceDeposit": {
+      "amount": 2000,
+      "includesGst": true,
+      "creditedToFirstSemester": true,
+      "notExtraTuition": true
+    }
+  },
+  "funding": {
+    "programmeAdvertisesUpToAwards": 10,
+    "wipoHalfTuitionAwardsUpTo": 5,
+    "sussHalfTuitionAwardsUpTo": 5,
+    "tuitionFraction": 0.5,
+    "cycleAndEligibilityUnconfirmed": true,
+    "automaticDiscount": false,
+    "scholarshipEvidenceNotUniversalAdmissionGate": true,
+    "notCombinedWithGenericSubsidy": true
+  },
+  "partnerLead": {
+    "url": "https://welc.wipo.int/acc/index.jsf?cc=PatentX&lang=en&page=aipCatalog.xhtml&plus_PatentX=",
+    "evidenceLevel": "search_extract_only",
+    "pageReadSucceeded": false,
+    "readFailure": "redirect loop",
+    "searchExtractLabel": "MIPIM_SUSS_2026-2027",
+    "reportedRegistration": {
+      "from": "2026-03-16",
+      "to": "2026-04-30"
+    },
+    "reportedCourseDates": {
+      "from": "2026-07-13",
+      "to": "2027-06-11"
+    },
+    "notVerifiedCurrentPortalDates": true,
+    "notImportedIntoOffering": true
+  },
+  "legacyAlias": {
+    "url": "https://www.suss.edu.sg/graduate-studies/how-to-apply",
+    "canonicalResponseDiffers": true,
+    "olderCalendarIncluded": "July 2026",
+    "paperToefl580NotImported": true,
+    "olderDatesNotAssigned": true
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/mipimipb",
+      "purpose": "Specific IP Business identity, dual SUSS/WIPO application, July intake, duration, award/credit conditions and unresolved fee/scholarship quote",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification and conditional English/waiver policy",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "Current canonical 2027 calendar and application fees; older alias response is not a current programme window",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course-based billing, category miscellaneous fees, funding conditions and extras",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Text-readable generic IP and Innovation Management master row on PDF page 3; applicability to IP Business remains unresolved",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=mipimipb-a&viewtype=mhtml",
+      "purpose": "Four-page text-only MIPIMIPB-A plan updated 2 September 2026: WIPO 10 CU, compulsory/elective totals and replaced project",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-ip-and-innovation-management-mipim-maj",
+      "purpose": "Comparison only: broader MIPIM tracks, preferred technical background and local/accelerated paths are not imported into this IP Business record",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Coursework-family context; linked general MIPIM page does not collapse IP Business, Patent Agency or Chinese degree identities",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousPartialProgrammeObjects": 37,
+    "sourceDatesNotRestamped": true,
+    "pdfTextOnly": true,
+    "pdfVisualVerificationNotClaimed": true,
+    "noNewPdfDownloadClaimed": true,
+    "programmeImageNotVisuallyRead": true,
+    "brochureReviewNotClaimed": true,
+    "directoryInventoryNotRewritten": true,
+    "universitySourceValidatorNotWeakenedForPartner": true
+  }
+}
