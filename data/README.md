@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-27）
 
+同日 SUSS 商业人工智能硕士首查：部分项目页记录为 33，目录 873／默认 870、人工复核与完整要求 0、方向 5、分类证据 18 组／38 类别不变。两条学习路径属于一个原有项目；通用招生日期、身份相关费用、ELPR 适用范围均不自动绑定到个人，毕业 CGPA 不作本科入学门槛。见 [依据与限制](../docs/research/suss-maib-first-check-2026-10-27.md)、[56 单元维护快照](../docs/research/source-review-queue-2026-10-27-suss-maib.md) 和 [核心只读重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-maib.md)。原 32 个对象、冻结数据层与历史快照保留；下面是较早批次记录。
+
 同日 MHSc 后续批次：部分项目页记录为 32，目录 873／默认 870、人工复核与完整要求 0、方向 5、分类证据 18 组／38 类别不变。SIT 目录所列四个授课型硕士均已有部分记录；CSM 硕士入读与单独 MC 学习分开，医疗工作及方向条件仍需判断，月份窗口不转成精确日期。本科 CSM 价格、工程英语分数和单个 MC 的资助不当成 MHSc 全项目条件。见 [依据与限制](../docs/research/sit-mhsc-first-check-2026-10-27.md)、[55 单元维护快照](../docs/research/source-review-queue-2026-10-27-sit-mhsc.md) 和 [核心只读重跑](../docs/research/core-pilot-acceptance-2026-10-27-sit-mhsc.md)。较早同日／历史快照和原 31 个项目对象保持原样；以下数量属于当时记录。
 
 同日后续补查 SIT Electrical and Electronic Engineering，沿用原有目录 ID。保留未知 PT／FT、旧招生批次、具条件的经验／认证及费用冲突；不从机械工程复制学制路径。部分项目页核查为 31，目录 873／默认 870；人工复核和完整要求仍为 0，方向 5、分类证据 18 组／38 类别不变。[54 单元新快照](../docs/research/source-review-queue-2026-10-27-sit-eee.md) 与 [核心只读重跑](../docs/research/core-pilot-acceptance-2026-10-27-sit-eee.md) 使用批次后缀，较早 27 日快照完整保留。见 [本轮依据](../docs/research/sit-eee-first-check-2026-10-27.md)。下面是同日较早与历史记录。

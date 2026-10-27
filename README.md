@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日 SUSS MAIB 批次：沿用既有目录编号，分开常规与加速学习路径；不从国籍推定居留资格，不把毕业 CGPA 或志愿经历偏好变成入学硬门槛。语言豁免适用范围、具体招生批次及个人费用仍待确认。部分项目页记录增至 33，目录 873／默认 870；独立人工复核和完整要求仍为 0。见 [本轮来源与限制](docs/research/suss-maib-first-check-2026-10-27.md)、[56 单元快照](docs/research/source-review-queue-2026-10-27-suss-maib.md) 与 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-maib.md)。原 32 个项目对象及历史快照不变，本轮仅本地保存。以下为较早批次记录。
+
 2026-10-27 同日健康科学批次：接入既有 SIT MHSc 身份，确认 CSM 下仍可申请硕士入读；面向在职医疗专业人员，五个方向的条件不合并成通用经验线。2027 年二月至四月仅有月份依据，不补造申请日；模式、英语及全项目学费仍待确认，不套用工程或本科 CSM 费率。部分项目页记录增至 32，目录仍为 873／默认 870；官网当前列出的四个 SIT 授课型硕士均已有部分项目页记录，不代表要求完整或全部正在招生。见 [本轮来源](docs/research/sit-mhsc-first-check-2026-10-27.md)、[55 单元快照](docs/research/source-review-queue-2026-10-27-sit-mhsc.md) 与 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-sit-mhsc.md)。原 31 个项目对象及所有较早快照保留，本轮仅本地保存。
 
 2026-10-27 同日后续数据完善：补查已有 SIT Electrical and Electronic Engineering 身份，保留已结束的 2026 批次、未明确的学习模式、经验／实习／IWSP 适用范围、限定专业认证及日期／费用冲突，不套用机械工程的全日制路径或论文要求。部分项目页核查为 31，目录仍为 873／默认 870；方向和分类证据不变。见 [来源与限制](docs/research/sit-eee-first-check-2026-10-27.md)、[54 单元维护快照](docs/research/source-review-queue-2026-10-27-sit-eee.md) 和 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-sit-eee.md)。保留同日较早快照原样，核心 20 项目的来源日期不变；本轮仅本地保存，不再次推送。

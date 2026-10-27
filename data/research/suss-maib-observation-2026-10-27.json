@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P016",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Artificial Intelligence for Business",
+    "coursework": true,
+    "credits": 60,
+    "faculty": "School of Business",
+    "stackableBulletAwardNamesUnresolved": true,
+    "clusters": [
+      "Analytics",
+      "Marketing",
+      "Financial Technology",
+      "Applied AI and Innovation"
+    ],
+    "notFourExtraDegrees": true,
+    "certificateDiplomaNotRequiredFirst": true
+  },
+  "pathways": {
+    "regular": {
+      "durationYears": {
+        "minimum": 1.5,
+        "maximum": 4,
+        "typical": [
+          1.5,
+          2
+        ]
+      },
+      "maximumCuPerSemester": 20,
+      "eligibility": [
+        "Singapore citizen",
+        "permanent resident",
+        "resident in Singapore"
+      ],
+      "mode": null
+    },
+    "accelerated": {
+      "durationYears": 1,
+      "averageCuPerSemester": 30,
+      "maximumCuPerSemester": 35,
+      "internationalApplicantsIncluded": true,
+      "mode": null
+    },
+    "nationalityDoesNotEstablishResidency": true,
+    "eveningClassesDoNotEstablishMode": true
+  },
+  "cycle": {
+    "programmeSpecificYear": null,
+    "programmeSpecificOpening": null,
+    "programmeSpecificDeadline": null,
+    "generalCalendarOnly": [
+      {
+        "intake": "January 2027",
+        "submitBy": "2026-10-15"
+      },
+      {
+        "intake": "July 2027",
+        "submitBy": "2027-04-15"
+      }
+    ],
+    "generalCalendarNotAssignedToPathways": true,
+    "livePortalChecked": false
+  },
+  "requirements": {
+    "numericEntryGpa": null,
+    "graduateAwardCgpa": 3,
+    "awardCgpaIsNotEntryGpa": true,
+    "technicalBackgroundRequired": false,
+    "exhaustiveAcceptedMajorList": null,
+    "volunteeringMandatory": false,
+    "volunteeringPreference": true,
+    "cvRequired": true,
+    "minimumWorkYears": null,
+    "conditionalOfferPossible": true,
+    "english": {
+      "applicabilityDependsOnUndergraduateMediumAndInstruction": true,
+      "ieltsAcademic": 6.5,
+      "internetToeflUnversioned": 85,
+      "pteAcademic": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "newToeflScaleNotConverted": true,
+      "automaticWaiver": false,
+      "ieltsUniversalExpiryMonths": null,
+      "numericRuleNotAutomatedBecauseApplicabilityUnresolved": true
+    }
+  },
+  "fees": {
+    "tableYear": "2026/2027",
+    "tableAccurateAsOf": "2026-10-16",
+    "currency": "SGD",
+    "excludesGst": true,
+    "masterTuition": {
+      "scPr": 31680,
+      "otherResidents": 38016,
+      "conditionalSubsidisedAsLowAs": 19800
+    },
+    "subsidyNotDefault": true,
+    "certificateDiplomaPricesNotMasterFees": true,
+    "applicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "residentCategories": 20,
+      "internationalStudentPassCategory": 530
+    },
+    "acceptanceDeposit": {
+      "amount": 2000,
+      "includesGst": true,
+      "creditedToFirstSemester": true,
+      "notAdditionalTuition": true
+    },
+    "courseBasedSemesterBilling": true,
+    "personalDefaultTuition": null,
+    "programmePathwayCohortLinkageUnconfirmed": true
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-artificial-intelligence-for-business",
+      "purpose": "MAIB identity, two study pathways, coursework structure and applicant conditions",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes",
+      "purpose": "Separate MAIB, certificate and diploma entries under School of Business",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "MAIB listed as coursework; international application and language policy",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised degree, conditional English evidence, admission discretion and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General 2027 calendars, conditional offers, verification and category application fees",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Conditional funding, semester billing and separate miscellaneous charges",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Text-readable 2026/2027 MAIB fee row and notes; download denied and no visual check claimed",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousPartialProgrammeObjects": 32,
+    "sourceDatesNotRestamped": true,
+    "pdfDownloadSucceeded": false,
+    "pdfVisualVerificationNotClaimed": true
+  }
+}
