@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SIT-P001",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "canonicalProgrammeUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-of-health-sciences-csm",
+  "legacyProgrammeUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-of-health-sciences",
+  "scope": {
+    "coursework": true,
+    "degreeEnrolmentExplicit": true,
+    "notCertificateHolderOnly": true,
+    "notResearchClinicalMaster": true,
+    "credits": 60,
+    "campus": "SIT Punggol",
+    "workingHealthcareProfessionalsOnly": true,
+    "careerConversionNotAssumed": true,
+    "specialisations": [
+      "Adult and Geriatric Rehabilitation",
+      "Musculoskeletal Physiotherapy",
+      "Medical Sonography",
+      "Organ Transplant Nursing",
+      "Rehabilitation Nursing"
+    ],
+    "singleAwardSpecialisation": true,
+    "notFiveNewProgrammes": true
+  },
+  "study": {
+    "overviewYears": 2,
+    "mode": null,
+    "maximumCandidature": null,
+    "concurrentMcsPossible": true
+  },
+  "cycle": {
+    "intakeDate": "2027-08-31",
+    "applicationMonths": {
+      "from": "2027-02",
+      "to": "2027-04"
+    },
+    "exactOpening": null,
+    "exactDeadline": null,
+    "centralOlderCycle": {
+      "applicationOpen": "2026-01-12",
+      "deadline": "2026-03-31"
+    },
+    "mcBannerOlderDeadline": "2026-04-24",
+    "oldCyclesNotMerged": true
+  },
+  "requirements": {
+    "numericEntryGpa": null,
+    "registrationNotUniversalHardRejection": true,
+    "aggregateWorkYearsDoNotVerifyProfession": true,
+    "trackExperience": {
+      "nursing": {
+        "healthcareYears": 2,
+        "specialtyYears": 1,
+        "mandatoryForTheseTracksOnly": true
+      },
+      "musculoskeletal": {
+        "recommendedYears": 2,
+        "mandatory": false
+      }
+    },
+    "noUniversalEngineeringOneYearRule": true,
+    "sonographyFacilityAndSupervisionRequired": true,
+    "essayMaxWords": 300,
+    "employerOrDepartmentSupport": true,
+    "placementsNotAdmissionYears": true,
+    "english": {
+      "numericMinimum": null,
+      "engineeringTableNotInherited": true,
+      "automaticWaiver": false
+    }
+  },
+  "fees": {
+    "wholeDegreeTuition": null,
+    "applicationFee": null,
+    "undergraduateCsmFeeTableNotApplicable": true,
+    "mcConcessionsNotWholeDegreePrice": true,
+    "fundingConditional": true,
+    "stackingFundingModuleCap": 5,
+    "stackingFundingCreditCap": 30,
+    "noAutomatic70Or90PercentDiscount": true
+  },
+  "sources": [
+    {
+      "url": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-of-health-sciences-csm",
+      "purpose": "Current MHSc degree-entry versus MC structure, 2027 month window, track eligibility, supporting documents and study requirements",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/postgraduate/coursework",
+      "purpose": "Coursework MHSc identity and four listed SIT master's parents",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements",
+      "purpose": "Central relevant qualification/healthcare experience and English-evidence applicability",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate",
+      "purpose": "Older 2026 MHSc schedule retained as conflicting historical context, not carried into 2027",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/sitlearn/competency-based-stackable-micro-credential-pathway/master-health-sciences",
+      "purpose": "Separate MC learner route, conditional funding/cap and stale April 2026 call-to-action",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/tuition-fees",
+      "purpose": "Separate CSM fee entry and AY2026 heading, not a verified MHSc 2027 quote",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/undergraduate/csm-tuition-fees",
+      "purpose": "Undergraduate-pathway fee table has no MHSc row; do not inherit its rates/subsidy criteria",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees",
+      "purpose": "Separate postgraduate miscellaneous/incidental fee policy, not complete MHSc tuition",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications",
+      "purpose": "Text-only guide; numeric Table A scoped to Engineering/ICT does not establish an MHSc score rule",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousPartialProgrammeObjects": 31,
+    "sourceDatesNotRestamped": true,
+    "pdfVisualVerificationNotClaimed": true
+  },
+  "allFourListedSitCourseworkParentsHavePartialProgrammeObservations": true
+}

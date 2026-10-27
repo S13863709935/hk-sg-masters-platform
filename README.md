@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日健康科学批次：接入既有 SIT MHSc 身份，确认 CSM 下仍可申请硕士入读；面向在职医疗专业人员，五个方向的条件不合并成通用经验线。2027 年二月至四月仅有月份依据，不补造申请日；模式、英语及全项目学费仍待确认，不套用工程或本科 CSM 费率。部分项目页记录增至 32，目录仍为 873／默认 870；官网当前列出的四个 SIT 授课型硕士均已有部分项目页记录，不代表要求完整或全部正在招生。见 [本轮来源](docs/research/sit-mhsc-first-check-2026-10-27.md)、[55 单元快照](docs/research/source-review-queue-2026-10-27-sit-mhsc.md) 与 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-sit-mhsc.md)。原 31 个项目对象及所有较早快照保留，本轮仅本地保存。
+
 2026-10-27 同日后续数据完善：补查已有 SIT Electrical and Electronic Engineering 身份，保留已结束的 2026 批次、未明确的学习模式、经验／实习／IWSP 适用范围、限定专业认证及日期／费用冲突，不套用机械工程的全日制路径或论文要求。部分项目页核查为 31，目录仍为 873／默认 870；方向和分类证据不变。见 [来源与限制](docs/research/sit-eee-first-check-2026-10-27.md)、[54 单元维护快照](docs/research/source-review-queue-2026-10-27-sit-eee.md) 和 [核心只读重跑](docs/research/core-pilot-acceptance-2026-10-27-sit-eee.md)。保留同日较早快照原样，核心 20 项目的来源日期不变；本轮仅本地保存，不再次推送。
 
 2026-10-27 本地继续完善：首次核查已有 SIT Mechanical Engineering 目录身份，保留已结束的 2026 招生批次、全日制审批、相关工作／IWSP 及费用冲突；不推定 2027 日期、语言豁免或默认低价。项目页部分查阅为 30，目录仍为 873／默认 870；方向 5、分类证据 18 组／38 类别，人工复核与完整要求均为 0。见 [来源与限制](docs/research/sit-mechanical-first-check-2026-10-27.md)、[53 单元维护清单](docs/research/source-review-queue-2026-10-27.md) 和 [核心项目只读重跑](docs/research/core-pilot-acceptance-2026-10-27.md)。20 个核心项目仍为 497 次模拟比较、0 一致性异常；HTML 抽查日期仍是 25 日，不冒称今天重查。NUS 费用 PDF 视觉核对仍未完成。本轮只保存在本地，W6 已推送的阶段版本保持不变。

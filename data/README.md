@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-27）
 
+同日 MHSc 后续批次：部分项目页记录为 32，目录 873／默认 870、人工复核与完整要求 0、方向 5、分类证据 18 组／38 类别不变。SIT 目录所列四个授课型硕士均已有部分记录；CSM 硕士入读与单独 MC 学习分开，医疗工作及方向条件仍需判断，月份窗口不转成精确日期。本科 CSM 价格、工程英语分数和单个 MC 的资助不当成 MHSc 全项目条件。见 [依据与限制](../docs/research/sit-mhsc-first-check-2026-10-27.md)、[55 单元维护快照](../docs/research/source-review-queue-2026-10-27-sit-mhsc.md) 和 [核心只读重跑](../docs/research/core-pilot-acceptance-2026-10-27-sit-mhsc.md)。较早同日／历史快照和原 31 个项目对象保持原样；以下数量属于当时记录。
+
 同日后续补查 SIT Electrical and Electronic Engineering，沿用原有目录 ID。保留未知 PT／FT、旧招生批次、具条件的经验／认证及费用冲突；不从机械工程复制学制路径。部分项目页核查为 31，目录 873／默认 870；人工复核和完整要求仍为 0，方向 5、分类证据 18 组／38 类别不变。[54 单元新快照](../docs/research/source-review-queue-2026-10-27-sit-eee.md) 与 [核心只读重跑](../docs/research/core-pilot-acceptance-2026-10-27-sit-eee.md) 使用批次后缀，较早 27 日快照完整保留。见 [本轮依据](../docs/research/sit-eee-first-check-2026-10-27.md)。下面是同日较早与历史记录。
 
 本轮新增已有 SIT Mechanical Engineering 身份的部分项目页数据，未新增目录 ID。旧 2026 招生窗口已经结束，2027 日期未确认；全日制审批、相关工作／IWSP、英语适用及相互冲突的学费均保留限制。项目页部分查阅为 30、目录 873／默认浏览 870；人工复核与完整要求仍为 0。方向 5、分类证据 18 组／38 类别不变。见 [来源与限制](../docs/research/sit-mechanical-first-check-2026-10-27.md)、[53 单元维护清单](../docs/research/source-review-queue-2026-10-27.md) 及 [核心项目只读重跑](../docs/research/core-pilot-acceptance-2026-10-27.md)。以下 25 日和更早记录保留当时的实际数量与日期；不把 AI 核查写成独立人工复核，也不要求用户逐条人工重查。
