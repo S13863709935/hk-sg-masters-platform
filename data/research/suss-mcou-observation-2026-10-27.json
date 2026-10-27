@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P018",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Counselling",
+    "award": "MCOU",
+    "faculty": "S R Nathan School of Human Development",
+    "totalCu": 70,
+    "coreCu": 40,
+    "tracks": [
+      "Generic",
+      "Cognitive Behavioural Therapy",
+      "Couple and Family Therapy",
+      "Psychodynamic Approaches",
+      "Research"
+    ],
+    "internationalDirectoryClassifiesCoursework": true,
+    "researchSpecialisationNotSeparateResearchDegree": true,
+    "notFiveExtraMasters": true,
+    "relatedDiplomasNotMerged": true
+  },
+  "entryPaths": {
+    "withoutPriorCounsellingTrainingMayBeAccepted": true,
+    "prcouCourses": [
+      "COU493",
+      "COU495",
+      "COU498"
+    ],
+    "prcouStartMonth": "January",
+    "prcouCompletionSemesters": 1,
+    "prcouMaximumCandidatureYears": 1,
+    "exemptionRequiresDocumentaryProofAndIndividualApproval": true,
+    "allThreeExemptionsNeededForDirectEntry": true,
+    "genericMajorDoesNotVerifyTraining": true,
+    "priorPrcouValidityTimeLimit": null,
+    "gdpaGdstStackableButNoAutomaticDirectEntry": true,
+    "degreeCanBeRecognisedEquivalent": true,
+    "numericUndergraduateEntryGpa": null,
+    "universalAdmissionWorkYears": null,
+    "closedMajorWhitelist": null
+  },
+  "selection": {
+    "personalStatementMaximumWords": 500,
+    "onlinePsychologicalTest": true,
+    "englishEntranceTest": true,
+    "groupInterview": true,
+    "referenceLetterCount": 2,
+    "employedReferees": [
+      "Immediate work supervisor",
+      "Family member or close friend"
+    ],
+    "notEmployedReferees": "Two letters from family members/close friends",
+    "unemploymentNotAutomaticRejection": true,
+    "platformDoesNotCollectStatementsTestsLettersOrSensitiveHistory": true
+  },
+  "english": {
+    "conditionalUniversityMediumAndInstruction": true,
+    "ieltsAcademic": 6.5,
+    "internetToeflUnversioned": 85,
+    "pteAcademic": 58,
+    "c1Advanced": {
+      "score": 180,
+      "yearsAtApplication": 2
+    },
+    "muet": {
+      "band": 4,
+      "yearsAtApplication": 5
+    },
+    "programmeEnglishEntranceTestSeparate": true,
+    "automaticWaiver": false,
+    "newToeflScaleNotConverted": true,
+    "universalIeltsExpiryNotInferred": true
+  },
+  "eligibility": {
+    "singaporeCitizensPrAndInternationalStudents": true,
+    "internationalDirectoryIntendedForStudentPassApplicants": true,
+    "validStudentPassRequiredForInternationalStudents": true,
+    "previousMgerResidentRestrictionNotInherited": true,
+    "nationalityNotPassApproval": true
+  },
+  "study": {
+    "masterIntakeMonth": "July",
+    "intakesPerYear": 1,
+    "minimumMasterYearsWithRelevantTraining": 2,
+    "maximumMasterYears": 4,
+    "prerequisiteTimeSeparateFromMasterDuration": true,
+    "ftPtMode": null,
+    "saturdayScheduleNotFormalMode": true,
+    "fullAttendanceRequiredWithDocumentedExceptions": true,
+    "graduationCgpa": 3.0,
+    "graduationGpaNotEntryGpa": true,
+    "compulsoryPracticum": {
+      "course": "COU608",
+      "cu": 10,
+      "hours": 180,
+      "months": 10,
+      "afterApplicablePrerequisitesAndAtLeastSixMasterCourses": true
+    },
+    "additionalPracticum": {
+      "course": "COU691",
+      "elective": true
+    },
+    "personalDevelopmentSessionsToGraduate": 3,
+    "placementPreferenceNotGuaranteed": true,
+    "professionalRegistrationClaimOnUniversityPage": {
+      "postgraduateFaceToFaceCounsellingHours": 600,
+      "clinicalSupervisionHours": 60
+    },
+    "professionalRegistrationNotEntryOrAutomaticDegreeOutcome": true,
+    "currentExternalProfessionalRegistrationRulesNotIndependentlyChecked": true
+  },
+  "cycle": {
+    "directEntryEncouragedApplyBy": "2027-02-28",
+    "recommendationNotUniversalHardDeadline": true,
+    "recurringExemptionProcessingMonthEnd": "February",
+    "recurringOfficialClosingMonthDay": "04-15",
+    "masterJulyAndPrcouJanuaryNotTwoMasterIntakes": true,
+    "unresolvedPathPreventsUniversalWindow": true,
+    "specificOfferingAcademicYear": null,
+    "exactOpening": null,
+    "exactUniversalDeadline": null,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "tableTitle": "Year 2026/2027 Non-Subsidised Programme Fees",
+    "tableAsOf": "2026-10-16",
+    "masterTextQuote": {
+      "scPr": 36960,
+      "otherResidents": 44352,
+      "conditionalSubsidisedAsLowAs": 32208
+    },
+    "prerequisiteRowTextQuote": {
+      "scPr": 3420,
+      "otherResidents": 4104
+    },
+    "prerequisitePriceUnitAndNumberNotAssumed": true,
+    "pdfColumnsNotVisuallyVerified": true,
+    "currency": "SGD",
+    "excludesGst": true,
+    "psychodynamicTrackHigherFeeWarning": true,
+    "quoteNotAllTrackOrPersonalTotal": true,
+    "noAutomaticSubsidyOrPrerequisiteMultiplication": true,
+    "tuitionPaidByCoursesEnrolled": true,
+    "generalApplicationFeesBeforeGst": {
+      "scPr": 60,
+      "otherApplicants": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "resident": 20,
+      "internationalStudentPass": 530
+    },
+    "acceptanceDeposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true,
+      "notExtraTuition": true
+    },
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "sourceLimitations": {
+    "curriculumPlanUrl": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=MCOU&viewtype=mhtml",
+    "curriculumPlanFetchFailed": true,
+    "officialPdfDownloadStatus": 403,
+    "noAccessChecksBypassed": true,
+    "pdfTextReadableViaWebTool": true,
+    "pdfScreenshotCallsDidNotExposeInspectableImage": true,
+    "localPdfDownloaded": false,
+    "visualInspectionCompleted": false,
+    "professionalBodySourceNotChecked": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou",
+      "purpose": "Programme-specific admission paths, selection, dates and study obligations",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Explicit coursework classification, international eligibility and Student Pass context",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualifications, conditional English and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/content_programmes/imported/content/instructions-to-applicants-for-personal-statement-and-referral-letters-pdf.pdf?sfvrsn=6ab8ca43_4",
+      "purpose": "One-page text: statement and employed/unemployed referee alternatives; no visual verification",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_nshd_brochure_digital.pdf?sfvrsn=56fed683_3",
+      "purpose": "Relevant page-5 text: one 70-CU degree and five curriculum tracks; diagram not visually verified",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Page-1 text quotes and page-7 tax/eligibility/date notes; columns not visually verified",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course-based billing, miscellaneous categories and extras",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General calendar and category application fees; no universal MCOU window inferred",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-27-suss-mger.md": "009c68e2046bc6f763d7bb70b8bdd608bab88a7debcb1a02325d33710b0683a4",
+      "docs/research/core-pilot-acceptance-2026-10-27-suss-mger.md": "cbfd944219e56fe9a83af591e9b622cc761414ff25f8c40a96132a794fb936e1"
+    }
+  }
+}

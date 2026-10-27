@@ -7238,6 +7238,201 @@
         }
       ],
       "researchBatch": "suss-mger-first-check-2026-10-27"
+    },
+    {
+      "id": "SG-SUSS-P018",
+      "universityId": "SG-SUSS",
+      "name": "Master of Counselling",
+      "award": "MCOU",
+      "area": "Social Sciences",
+      "faculty": "S R Nathan School of Human Development",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; prior-training exemptions, selection, path/cohort, track fees and independent review unresolved",
+      "lastChecked": "2026-10-27",
+      "academicYear": "2027 direct-entry notice; applicable cohort/path unconfirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 70-CU coursework master with Generic, CBT, CFT, Psychodynamic Approaches and Research tracks. Students without counselling training may be admitted through prerequisite courses; a degree title cannot establish exemption. July master intake and January prerequisites are separate. International applicants are included, subject to valid Student Pass arrangements. Selection evidence, full attendance and practicum obligations require confirmation. The platform does not assess clinical aptitude or collect personal statements, referee letters or sensitive life history.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P018-MCOU",
+          "mode": null,
+          "duration": "MCOU: at least 2 years with relevant training, maximum 4; applicable January PRCOU semester is separate",
+          "intake": "July master intake; January prerequisites where required (path/cohort unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "The page encourages direct-entry applicants with recognised counselling background/qualifications to apply by 28 February 2027. It also describes end-February exemption processing and an annually recurring 15 April close. These have different purposes; no universal hard deadline, application opening or guaranteed same-year admission is assigned. Confirm the PRCOU/direct path and cohort with SUSS. No live portal check.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 table text before GST: master SC/PR SGD 36,960; Other Residents 44,352; conditional subsidised quote as low as 32,208. Columns remain visually unverified. Counselling prerequisite row text is 3,420/4,104; its price unit, required courses and exemptions are unresolved, so no multiplication or automatic addition is made. The programme warns that Psychodynamic Approaches costs more; do not apply the table quote to every track. Fees depend on courses enrolled, applicant category, tax and funding. General application fees: SC/PR 60, other applicants 100 before GST. Annual miscellaneous fees: residents 20 or international Student Pass students 530 before GST; extras separate. The general SGD 2,000 acceptance deposit includes GST and credits first-semester tuition; no automatic subsidy or extra tuition charge is calculated."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or university-accepted equivalent",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification recognition and prior counselling training",
+          "noteZh": "",
+          "noteEn": "SUSS assesses recognised degree/equivalence and prior training. No closed undergraduate-major list, numeric entry GPA or universal work-year minimum is established. Without prior counselling training, accepted applicants complete COU493/495/498 before MCOU. Relevant course transcripts and individual approval determine partial/full exemption; only full exemption supports direct-entry consideration. A Psychology major or work years alone cannot grant exemption. GDPA/GDST stacking does not automatically provide direct entry.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Statement, referee alternatives and programme selection",
+          "noteZh": "",
+          "noteEn": "Selection includes a statement of up to 500 words, online psychological test, English entrance test, two referee letters and group interview. The instructions use a work-supervisor plus family/friend letter when employed, or two family/friend letters when not employed. Lack of employment is not an automatic rejection. SUSS assesses these materials; the platform does not collect them or sensitive life history.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/content_programmes/imported/content/instructions-to-applicants-for-personal-statement-and-referral-letters-pdf.pdf?sfvrsn=6ab8ca43_4"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and separate entrance test",
+          "noteZh": "",
+          "noteEn": "University ELPR depends on undergraduate university medium and instruction language. Alternatives include IELTS Academic 6.5, internet TOEFL 85, PTE 58, C1 180 (within two years at application), or MUET Band 4 (within five years). Waiver acceptance and TOEFL version remain unconfirmed. These scores do not replace the programme English entrance test; no automatic waiver, universal IELTS expiry or new-scale conversion is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "International eligibility and Student Pass arrangements",
+          "noteZh": "",
+          "noteEn": "The programme accepts citizens, PRs and international applicants and is explicitly listed as coursework on the international graduate page. International students require a valid Student Pass; nationality or a fee quote does not establish pass approval. Confirm applicable arrangements with SUSS.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Entry path, cohort and track confirmation",
+          "noteZh": "",
+          "noteEn": "The 28 February 2027 notice encourages direct-entry applications, while end-February exemption processing and recurring 15 April closing text have separate purposes. January PRCOU and July MCOU are not two master intakes. Confirm recognised prior training, exemptions, applicable cohort and track; same-year direct admission is conditional on processing. Saturday teaching does not establish a formal FT/PT mode.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Study attendance, practicum and graduation obligations",
+          "noteZh": "",
+          "noteEn": "All PRCOU/MCOU courses require full attendance, with documented exceptions. Compulsory COU608 involves 180 supervised-practicum hours over ten months after applicable prerequisites and at least six master courses; COU691 is elective. At least three personal-development sessions and award CGPA 3.0 are graduation conditions. These are study obligations, not prior employment, entry GPA or proof of clinical suitability; preferred placement is not guaranteed.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Professional registration is separate",
+          "noteZh": "",
+          "noteEn": "University career text refers to 600 postgraduate counselling hours and 60 supervision hours for an application to professional registration. This is not an entry prerequisite, automatic registration on graduation or a platform professional assessment. Current external professional-body rules were not independently checked.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Track fees, prerequisite costs and funding",
+          "noteZh": "",
+          "noteEn": "A text-readable general master quote does not establish every specialisation price; the page warns that Psychodynamic Approaches is more expensive. PDF columns, prerequisite price unit, exemptions, funding and applicant category remain unresolved. Do not multiply prerequisite quotes, add diploma prices, deduct subsidies automatically or double-count the credited deposit.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "A dated direct-entry recommendation does not establish every PRCOU/master cohort.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Prior training/exemptions need documentary assessment; a major title cannot determine the path.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; CGPA 3.0 is an award condition.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional ELPR/waiver and separate programme entrance test remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Text quotes, higher-cost track and prerequisite unit need category/track and visual confirmation.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Direct-entry advice, exemption processing and annual closing text do not form one universal window.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou",
+          "purpose": "Programme-specific admission paths, selection, dates and study obligations",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Explicit coursework classification, international eligibility and Student Pass context",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualifications, conditional English and credited deposit",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/content_programmes/imported/content/instructions-to-applicants-for-personal-statement-and-referral-letters-pdf.pdf?sfvrsn=6ab8ca43_4",
+          "purpose": "One-page text: statement and employed/unemployed referee alternatives; no visual verification",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_nshd_brochure_digital.pdf?sfvrsn=56fed683_3",
+          "purpose": "Relevant page-5 text: one 70-CU degree and five curriculum tracks; diagram not visually verified",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Page-1 text quotes and page-7 tax/eligibility/date notes; columns not visually verified",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course-based billing, miscellaneous categories and extras",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General calendar and category application fees; no universal MCOU window inferred",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "researchBatch": "suss-mcou-first-check-2026-10-27"
     }
   ]
 }
