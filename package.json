@@ -1,9 +1,9 @@
 {
   "name": "hk-sg-masters-platform",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "type": "module",
-  "description": "Study Week data refresh on the limited Week 5 programme-screening pilot",
+  "description": "Week 6 source consolidation on the limited programme-screening pilot",
   "engines": { "node": ">=24" },
   "scripts": {
     "start": "node server/index.mjs",

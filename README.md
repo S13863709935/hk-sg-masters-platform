@@ -1,16 +1,16 @@
-# HK–SG Masters Platform — Study Week data checkpoint
+# HK–SG Masters Platform — Week 6 checkpoint
 
-A source-linked information and programme-screening project for taught/coursework master's degrees at the target Hong Kong and Singapore universities.
+A source-linked information and programme-screening project for taught/coursework master's degrees at the target Hong Kong and Singapore universities. The interface is entirely in English.
 
-## Published checkpoint
+## This publication
 
-Prepared on 20 October 2026 during Study Week (19–25 October). This branch starts from the published Week 5 checkpoint `9aeddfa`, not from the ahead-of-plan local prototype. It publishes a small, actual programme-data refresh under the ongoing T2 collection task; it does not claim all Study Week tasks are finished.
+Prepared on **27 October 2026**, during W6 (26 October–1 November). This branch starts at the published Study Week checkpoint `2451419`, rather than merging the advanced local prototype. It consolidates eight existing programme observations under ongoing T2 data collection and a necessary language-date check under T5. It does not claim W6, user research or the whole project is complete.
 
-The Week 5 feature boundary is unchanged: English interface, pilot search and details, temporary background input, and a source-linked condition-check proof of concept. Comparison and candidate lists remain clearly labelled design previews. Only SMU MPA and MITB have been re-read for this update. This is not the complete platform.
+The limited pilot still provides search, programme details, temporary background input and source-linked condition checks. Comparison and candidate lists remain design previews. The expanded catalogue, route/applicant engines, persistence, full comparison and saved shortlists remain local.
 
-## Run the pilot
+## Run locally
 
-Use Node.js 24 or later. No runtime dependencies need to be installed.
+Use Node.js 24 or later. No runtime dependencies need to be installed. If the default Node is older, use an already installed compatible runtime.
 
 ```text
 npm start
@@ -18,53 +18,39 @@ npm test
 npm run check:data
 ```
 
-Open http://127.0.0.1:3108 after starting the service. It binds only to 127.0.0.1. Set PORT explicitly if needed. It does not replace the advanced local development server on port 3102.
+Open http://127.0.0.1:3110. The service binds only to loopback; set PORT explicitly if needed. This separate checkpoint does not replace the advanced local server on port 3102.
 
-The optional form sends a background only to this local process for checks. It is not logged, written to disk, placed in the URL or persisted in browser storage. Page reload clears it. No account, document upload or personal contact information is required. SQLite is a planned storage design, not part of this release.
+Background input goes only to this local service and remains in page memory. It is not logged, written to disk, placed in URLs or saved in browser storage. Reload clears it. No account, document upload or contact details are requested.
 
-## Data status
+## Data scope and limits
 
-- Target scope: eight Hong Kong UGC-funded universities and six Singapore autonomous universities.
-- Pilot: 20 direct-entry programme records, plus one transfer-only reference.
-- Original source snapshot: 6 October 2026. Only `SG-SMU-P001` and `SG-SMU-P010` were refreshed on 20 October; all other record dates are unchanged. The batch date means the latest read, not a full recheck.
-- SMU MPA now retains its dated August 2027 admissions phases and fee context; waiver, academic-equivalence, test-exemption and interview checks remain unresolved.
-- SMU MITB has four separate fee-cohort/mode options. Its recurring application windows remain year-unconfirmed, with conflicting August opening-month wording; no dated deadline is inferred. Retired combined-intake IDs are not reassigned to a new cohort.
-- Independent reviews: 0. Complete requirement records: 0.
-- Directory-entry checks are not complete catalogue enumeration or proof that applications are open.
-- The original 175-record workbook is preserved as historical research material, not a verified production database.
+- Fourteen target universities: eight Hong Kong UGC-funded and six Singapore autonomous universities.
+- Twenty direct-entry pilot records, plus one excluded transfer-only reference.
+- Eight records updated in this publication: CityU Applied Economics; CUHK Anthropology; NUS MComp General Track and Finance; NTU Information Systems and Applied Economics; SUTD Architecture and Human-Centred AI.
+- The two SMU records retain their earlier 20 October updates. Eleven records retain 6 October observations, including the transfer reference.
+- Actual observation dates range from 6–24 October. **27 October is publication preparation, not a source recheck date.**
+- Independent human reviews: **0**. Complete requirement records: **0**. All real records remain partial and recommendation tiers remain disabled.
+- The original 175-row workbook and directory register are unchanged. This is neither a full admissions catalogue nor a live application-portal check.
 
-Do not invent GPA cutoffs, convert incomparable scales or treat language waivers as automatically accepted. All recommendation tiers are disabled. The platform does not handle applications, predict admission probabilities or guarantee admission. No live application portal has been verified and the full pilot has not been revalidated as current.
+The update preserves university discretion and conflicting or unavailable evidence: unknown current fees stay blank, a closure notice does not become an invented deadline, and graduation GPAs do not become undergraduate entry cutoffs. Published test-date floors are checked independently of test-version boundaries, with missing dates unresolved. GPA scales are not converted; waivers are not automatically accepted.
 
-## This data update
+The website does not submit applications, predict admission probabilities or guarantee admission. AI source checking does not require the user to manually repeat each check; it also does not establish independent human review.
 
-- [Selected scope, checks and outstanding work](docs/progress/study-week-2026-10-20.md)
-- [Official-source research notes](docs/research/smu-mpa-refresh-2026-10-20.md)
-- [MITB intake/fee reconciliation and unresolved window evidence](docs/research/smu-mitb-refresh-2026-10-20.md)
+## Evidence and remaining work
 
-This push is publication of checked engineering/research progress for review. It is not deployment, a course submission, independent human verification or evidence that the planned 25 October user-research milestone is complete.
-
-## Retained Week 5 design and historical evidence
-
-- [Week 5 scope, evidence and remaining work](docs/progress/week-05-checkpoint.md)
-- [Interface flows and implementation boundaries](docs/interface-contract-week-05.md)
-- [Data model and API contract](docs/data-contract-week-05.md)
-- [Condition-check rules and evidence gates](docs/check-rules-week-05.md)
-
-No expanded catalogue, route-reconciliation tooling, full comparison/shortlist implementation, administrative imports or public deployment is included. Other members' acceptance, independent review and real user research are not claimed.
-
-## Baseline documents
-
-- [Week 4 evidence and remaining work](docs/progress/week-04-checkpoint.md)
-- [Scope and requirements](docs/scope-and-requirements.md)
-- [Team and workflow](docs/team-and-workflow.md)
+- [Selected scope, verification and remaining work](docs/progress/week-06-checkpoint.md)
+- [Eight source observations and their original dates](docs/research/week-06-selected-sources.md)
+- [Machine-readable publication manifest](data/publication-week-06.json)
 - [Calendar and action plan](docs/calendar-and-backlog.md)
-- [Data fields and matching design](docs/data-and-matching.md)
-- [Directory-entry register](data/directory-audit.json)
-- [First programme pilot snapshot](data/checked-programmes.json)
-- [Technical foundations](docs/technical-foundations.md)
-- [User/service research procedure](docs/user-research-protocol.md)
-- [Planned test scenarios](docs/test-scenarios.md)
+- [Scope and requirements](docs/scope-and-requirements.md)
+- [Data fields and matching principles](docs/data-and-matching.md)
+- [Existing data and limitations](data/README.md)
+- [Team and planned workflow](docs/team-and-workflow.md)
+- [User/service research protocol](docs/user-research-protocol.md)
 - [Staged publication policy](docs/publication-policy.md)
-- [Contribution and review process](CONTRIBUTING.md)
+- [Prior Study Week publication](docs/progress/study-week-2026-10-20.md)
+- [Prior Week 5 publication](docs/progress/week-05-checkpoint.md)
 
-Team responsibilities are planned assignments, not proof of actual contribution. Do not upload CVs, contact details, signatures, credentials or identifiable student records to this repository.
+Actual user-needs/service-comparison results for the 25 October milestone have not been established by this publication. Real user testing, wider data completion and later development milestones remain separate tasks. Planned ownership is not proof of teammate contribution.
+
+This is a GitHub checkpoint for review, not a public deployment or course submission. Keep `main`, historical checkpoints and the advanced local branch separate. Do not commit private student data, CVs, signatures, credentials, browser settings or runtime databases.

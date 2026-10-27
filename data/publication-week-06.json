@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "checkpoint": "week-06",
+  "preparedOn": "2026-10-27",
+  "baseCommit": "245141969aa5bd6039dd2d8f718b022db0bd753b",
+  "localSourceCommit": "fdb871f396716049e4581c44632783e27bdd29ab",
+  "selectedProgrammeIds": [
+    "HK-CITYU-P004",
+    "HK-CUHK-P001",
+    "SG-NUS-P029",
+    "SG-NUS-P007",
+    "SG-NTU-P018",
+    "SG-NTU-P015",
+    "SG-SUTD-P001",
+    "SG-SUTD-P002"
+  ],
+  "selectedSources": [
+    {
+      "programmeId": "HK-CITYU-P004",
+      "checkedOn": "2026-10-20",
+      "canonicalSha256": "c237f6d1d81b8783cb029aef61de2778025d148f0d9e9b10595511dc9d3521c9"
+    },
+    {
+      "programmeId": "HK-CUHK-P001",
+      "checkedOn": "2026-10-24",
+      "canonicalSha256": "020e5de55e53ae79f8f5c602b788569b633aa8fcb0623fc10862ca69f90b73e7"
+    },
+    {
+      "programmeId": "SG-NUS-P029",
+      "checkedOn": "2026-10-22",
+      "canonicalSha256": "d75db7b8930a8c3bdfe7362f2bcae351a0de3b85ab290ab19b24bad3fe53d818"
+    },
+    {
+      "programmeId": "SG-NUS-P007",
+      "checkedOn": "2026-10-22",
+      "canonicalSha256": "9a9b092d87c33c7792364f93d116faffe2cd3a78aecaf5e003a8b6fa71ad69ce"
+    },
+    {
+      "programmeId": "SG-NTU-P018",
+      "checkedOn": "2026-10-21",
+      "canonicalSha256": "e4dd279b9cc1ee0780cc82a34b9bfadc935613c6083cb86882481f7423fd2e72"
+    },
+    {
+      "programmeId": "SG-NTU-P015",
+      "checkedOn": "2026-10-22",
+      "canonicalSha256": "79de209cbc93e859a2812aa83f09acd0f308c70e71c2718babd3327c53933a3f"
+    },
+    {
+      "programmeId": "SG-SUTD-P001",
+      "checkedOn": "2026-10-23",
+      "canonicalSha256": "e4527880f4b01b0152cf904ea5a8129d16a4df8a90861eef4b34f7547fd023e1"
+    },
+    {
+      "programmeId": "SG-SUTD-P002",
+      "checkedOn": "2026-10-23",
+      "canonicalSha256": "12e6eb9dd9bf52780187573fe582faba4fc519bbb010aa7e4906c99e8143dd4e"
+    }
+  ],
+  "retainedSources": [
+    {
+      "programmeId": "HK-CITYU-P010",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "1b8696d89bc24f13910b29135e667461d4c0e7cca1ab04d67efc9dc2c05c7260"
+    },
+    {
+      "programmeId": "HK-HKBU-P001",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "c3afcdfcb6646174ba8c496afaa0d6ee4e4949edde49eacc37e815440bcff979"
+    },
+    {
+      "programmeId": "HK-HKBU-P007",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "6d43f9e936dd61f766dde7cfa54db020785b352bba715d20b28f8db8c297da01"
+    },
+    {
+      "programmeId": "HK-LU-P001",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "1ab72b81c60a5bffda185f532019ed810d5fade9bda919714fb7f623ad069fec"
+    },
+    {
+      "programmeId": "HK-EDUHK-P001",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "5a500bf8a1adb1c0ba6678c99f0e85bc3b74aae7abc781dfb7e5cae54900c2fc"
+    },
+    {
+      "programmeId": "HK-POLYU-P001",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "841d1c24dfe59d0a75c5293f9c4fe21eea0926d0f6e37b11f3ca3db9c5cc945c"
+    },
+    {
+      "programmeId": "HK-HKUST-P002",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "0094e3acb8f7375cfd7286f0424097ce2875c1b7aca465cc42596023c96acdb0"
+    },
+    {
+      "programmeId": "HK-HKU-P007",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "af2dfb45e8c1ff15b53351b205d986d8fdb66569901a22d784a170e0c95e3907"
+    },
+    {
+      "programmeId": "SG-SMU-P001",
+      "checkedOn": "2026-10-20",
+      "canonicalSha256": "95c78e06f21484d03ae0f4627778229f43ff820a70ed24fa5ed02b04b28e12ff"
+    },
+    {
+      "programmeId": "SG-SMU-P010",
+      "checkedOn": "2026-10-20",
+      "canonicalSha256": "58dd30248bb75f7ce07685176c14162e6befab47dc2ddde0118bc4533ad4bcc4"
+    },
+    {
+      "programmeId": "SG-SIT-P002",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "c41ef8877e2992746ddc3e47f241d8fd39484b1d99756ea1c84084b49260da2b"
+    },
+    {
+      "programmeId": "SG-SUSS-P001",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "062050ff9d1da419dea9a22a7237d2f148830d89544ec10237510690c7d50ce0"
+    },
+    {
+      "programmeId": "HK-HKUST-P003",
+      "checkedOn": "2026-10-06",
+      "canonicalSha256": "ecbaa9d632ee19100c257e7ad2c2766109b87d30b41b90dad87ebf400e7dced2"
+    }
+  ],
+  "workbookSha256": "5df32b82a7a1dddbf5672bf59ac46ac3eb046d95e1ee580de49a5c840fb47a0b",
+  "directorySha256": "546f1b3bded2aea1b19eaff32f07b5456facccaf903fac290f90c04b3563daa4"
+}

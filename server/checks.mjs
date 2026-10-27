@@ -22,6 +22,8 @@ function evaluate(r, p) {
   if (l.atHome && r.atHomeAccepted === undefined) unknown.push('at-home acceptance');
   if ((target.validFrom || target.validBefore) && !l.testDate) unknown.push('test date');
   if (l.testDate && ((target.validFrom && l.testDate < target.validFrom) || (target.validBefore && l.testDate >= target.validBefore))) fails.push('test-version date');
+  if (r.testDateNotBefore && !l.testDate) unknown.push(`test date on or after ${r.testDateNotBefore}`);
+  if (r.testDateNotBefore && l.testDate && l.testDate < r.testDateNotBefore) fails.push(`test date before published ${r.testDateNotBefore} minimum`);
   // Validity can be anchored to an application date or intake, not necessarily today.
   if (r.validityMonths) unknown.push('programme-specific validity anchor');
   return result(fails.length ? 'fail' : unknown.length ? 'unknown' : 'pass', fails.length || unknown.length ? `${fails.length ? `Not met: ${fails.join(', ')}. ` : ''}${unknown.length ? `Needs confirmation: ${unknown.join(', ')}.` : ''}` : 'Reported scores meet the recorded score conditions only.', unknown.length > 0);

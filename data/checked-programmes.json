@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-20",
+  "checkedOn": "2026-10-24",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -185,26 +185,27 @@
       "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-20",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Any undergraduate discipline may apply. Do not turn the quantitative-background preference into an invented GPA cutoff.",
+      "notesEn": "Any undergraduate discipline may apply. Do not turn the quantitative-background preference into an invented GPA cutoff. The faculty's 2027 total agrees with the current per-credit schedule for the minimum 30 credits; older 2026/27 rates are not reused. Rolling review, language waiver/interview and other equivalence checks remain unresolved.",
       "offerings": [
         {
           "id": "HK-CITYU-P004-O1",
           "mode": "Full-time",
-          "duration": "1 year",
+          "duration": "Normal 1 year; maximum 2.5 years",
           "intake": "2027 entry",
+          "applicationOpen": "2026-09-15",
           "deadline": "2027-03-31",
-          "deadlineNote": null,
+          "deadlineNote": "Rolling review may finish when places fill; this is a recorded date, not confirmation that the portal is accepting applications.",
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": null,
-          "feeBasis": null
+          "tuition": 354000,
+          "feeBasis": "Faculty-published tuition for 2027 entry; equals 30 minimum credits at HKD 11,800 per credit in the 2027/28 schedule. Not an all-in cost: extra credits, separate charges and living expenses are not included or verified here."
         }
       ],
       "rules": [
@@ -240,6 +241,8 @@
               "validFrom": "2026-01-21"
             }
           },
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
           "singleAttempt": true,
           "atHomeAccepted": false,
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
@@ -248,8 +251,8 @@
           "kind": "manual",
           "labelZh": "Additional condition 1",
           "labelEn": "Additional condition 1",
-          "noteZh": "English interview and test-validity conditions need confirmation; CET-6 and equivalent routes are not supported by the form.",
-          "noteEn": "English interview and test-validity conditions need confirmation; CET-6 and equivalent routes are not supported by the form.",
+          "noteZh": "",
+          "noteEn": "English waiver/interview and equivalent routes need confirmation. IELTS/TOEFL use the published 15 September 2024 date floor for 2027 entry, not today's date. CET-6 (490) and other equivalence routes are not supported by this form.",
           "mandatory": true,
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
         }
@@ -257,11 +260,26 @@
       "sources": [
         {
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "2027 requirements, duration and dated window",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/masters/our-programmes/department-of-economics-and-finance/msc-applied-economics",
+          "purpose": "2027 faculty-published total tuition and credit requirement",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p13.htm",
+          "purpose": "2027/28 per-credit fee schedule",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027 application start and explicit accepted test-date minimum",
+          "checkedOn": "2026-10-20"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "cityu-refresh-2026-10-20",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -280,13 +298,13 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Recorded test thresholds and the inclusive 15 September 2024 date minimum; waivers, CET-6 and proficiency-interview alternatives still need confirmation.",
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13"
+          "status": "known",
+          "noteEn": "2027 total tuition checked against the faculty page and current minimum-credit schedule; separate costs remain unverified.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/masters/our-programmes/department-of-economics-and-finance/msc-applied-economics"
         },
         "deadline": {
           "status": "known",
@@ -714,42 +732,120 @@
       "name": "MA Anthropology",
       "award": "MA",
       "area": "Social Sciences",
-      "faculty": null,
+      "faculty": "Faculty of Arts",
       "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "Intake year not stated in checked programme details",
+      "lastChecked": "2026-10-24",
+      "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "The page lists annual tuition of HKD 198,000 (FT) and HKD 99,000 (PT), but the applicable intake year was not identified; no price is imported as a confirmed current offering.",
+      "notesEn": "September 2027 is stated in the department body, although its heading still says Fall 2026. Five dated rounds are recorded; rolling assessment may fill places early, and consideration after 31 December depends on places. Full-time annual tuition is provisional. Part-time charging basis conflicts across official pages, so no numeric part-time fee or two-year total is assumed. No numeric undergraduate GPA or automatic English waiver is inferred. Re-read all six listed CUHK sources on 24 October 2026 before the second round. The MA is taught coursework without a thesis and does not require previous anthropology study; this does not establish a universal subject whitelist. Online application, payment and supporting-document deadlines must be considered together; the department also requests mailed evidence. Required courses are in English, while some electives are Cantonese. Mixed MA/MPhil/PhD FAQ content, its older update footer and the Fall 2026 heading are not used to import research admission, writing-sample or funding conditions.",
       "offerings": [
         {
           "id": "HK-CUHK-P001-O1",
           "mode": "Full-time",
           "duration": "1 year",
-          "intake": null,
-          "deadline": null,
-          "deadlineNote": null,
-          "academicYear": "Intake year not stated in checked programme details",
+          "intake": "September 2027",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Five rounds: 30 Sep, 31 Oct, 30 Nov, 31 Dec 2026; 31 Jan 2027. Rolling assessment may fill places early; applications after 31 Dec are considered subject to places. No round opening dates, intraday cutoffs or live availability are assumed.",
+          "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": null,
-          "feeBasis": null
+          "tuition": 198000,
+          "feeBasis": "Provisional annual full-time tuition, pending university approval; normative study is 1 year. HKD 500 application fee is separate. Not an all-in cost or approved final quote.",
+          "applicationOpen": "2026-09-01",
+          "applicationFee": 500,
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2026-10-31",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2026-11-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-4",
+              "label": "Round 4",
+              "applicationOpen": null,
+              "deadline": "2026-12-31",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-5",
+              "label": "Round 5",
+              "applicationOpen": null,
+              "deadline": "2027-01-31",
+              "deadlineAt": null
+            }
+          ]
         },
         {
           "id": "HK-CUHK-P001-O2",
           "mode": "Part-time",
           "duration": "2 years",
-          "intake": null,
-          "deadline": null,
-          "deadlineNote": null,
-          "academicYear": "Intake year not stated in checked programme details",
+          "intake": "September 2027",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Five rounds: 30 Sep, 31 Oct, 30 Nov, 31 Dec 2026; 31 Jan 2027. Rolling assessment may fill places early; applications after 31 Dec are considered subject to places. No round opening dates, intraday cutoffs or live availability are assumed.",
+          "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "Numeric part-time tuition withheld: programme/application pages state HKD 99,000 per annum, while the department FAQ describes HKD 99,000 over two years. Pending approval; confirm the charging basis. No two-year total is calculated. HKD 500 application fee is separate.",
+          "applicationOpen": "2026-09-01",
+          "applicationFee": 500,
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2026-10-31",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2026-11-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-4",
+              "label": "Round 4",
+              "applicationOpen": null,
+              "deadline": "2026-12-31",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-5",
+              "label": "Round 5",
+              "applicationOpen": null,
+              "deadline": "2027-01-31",
+              "deadlineAt": null
+            }
+          ]
         }
       ],
       "rules": [
@@ -757,16 +853,16 @@
           "kind": "degree",
           "labelZh": "Bachelor’s degree",
           "labelEn": "Bachelor’s degree",
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
         },
         {
           "kind": "manual",
-          "labelZh": "Academic standing and equivalence",
+          "labelZh": "",
           "labelEn": "Academic standing and equivalence",
-          "noteZh": "General taught-master's criterion: normally second-class honours OR average grade B; accepted equivalent route also exists.",
-          "noteEn": "General taught-master's criterion: normally second-class honours OR average grade B; accepted equivalent route also exists.",
+          "noteZh": "",
+          "noteEn": "Recognised bachelor degree normally at least second-class honours or average B, OR an accepted professional/similar qualification equivalent to a bachelor degree; university judgement, not a numeric GPA conversion. The department says exceptional lower-grade cases may be considered with a justification and individual assessment, not guaranteed admission. No general numeric GPA, honours-only rejection or anthropology-major prerequisite is inferred.",
           "mandatory": true,
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+          "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/"
         },
         {
           "kind": "language",
@@ -790,70 +886,99 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "The honours/average-grade/equivalent alternatives need manual checking; do not invent a GPA conversion.",
-          "noteEn": "The honours/average-grade/equivalent alternatives need manual checking; do not invent a GPA conversion.",
+          "labelZh": "",
+          "labelEn": "English evidence, alternatives and validity",
+          "noteZh": "",
+          "noteEn": "A Hong Kong university degree or a degree taught in English may support the general English route, subject to additional evidence and university acceptance. The central page lists TOEFL Internet-based/Home Edition and IELTS Academic Test Centre/Online; no compulsory single-sitting condition or IELTS sub-score is established here. GMAT/Focus verbal, specified school examinations and accepted English-examined professional qualifications are alternative evidence, not automatic waivers. TOEFL/IELTS two years from test; GMAT five years. Applicable validity anchor, programme-specific evidence and university acceptance remain manual; no expiry countdown from today.",
           "mandatory": true,
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "A one-page statement of purpose is required. Deadline and applicable tuition year remain unconfirmed.",
-          "noteEn": "A one-page statement of purpose is required. Deadline and applicable tuition year remain unconfirmed.",
+          "labelZh": "",
+          "labelEn": "Programme documents and individual review",
+          "noteZh": "",
+          "noteEn": "One-page purpose statement; two references (online or hard copy); official transcript/grading and degree evidence; English proof where needed; applicable identity and qualification-verification documents. The department application page requests an online application plus mailed supporting documents to the Division BY THE DEADLINE; the FAQ says application, payment and all supporting documents are due by the deadline. Confirm the exact current receipt/delivery instructions, including online references, rather than assuming a payment or form alone completes the file. Its stale Fall 2026 heading remains a discrepancy. This website does not collect, mail or submit these documents.",
           "mandatory": true,
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+          "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Taught MA scope, delivery language and mixed FAQ boundaries",
+          "noteZh": "",
+          "noteEn": "The MA is designed for people without previous anthropology study, is entirely coursework and requires no thesis. The FAQ's MPhil anthropology/social-science background, research thesis/writing-sample discussion and PhD supervisor/quota/deadline material are not MA admission gates. All required MA courses are in English; some electives are in Cantonese, with sufficient English options but more limited choice for non-Cantonese speakers. No Cantonese test or prior anthropology degree is introduced as a mandatory rule. Research stipends and fellowship figures are not MA fee deductions, and no external funding or housing entitlement is promised. The FAQ still carries a 1 September 2025 update footer despite its 2027/28 tuition text, so it does not resolve the provisional/part-time fee conflict.",
+          "mandatory": true,
+          "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/"
         }
       ],
       "sources": [
         {
           "url": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Programme study modes, normative periods and annual fees",
+          "checkedOn": "2026-10-24"
         },
         {
           "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
-          "purpose": "General academic and English requirements",
-          "checkedOn": "2026-10-06"
+          "purpose": "General taught-master academic alternatives and English evidence",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+          "purpose": "Central commencement date and five Anthropology MA cutoffs",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/",
+          "purpose": "September 2027 body, pending fee approval, documents and heading discrepancy",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/",
+          "purpose": "Taught MA scope and conflicting part-time fee basis",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+          "purpose": "Separate programme application fee",
+          "checkedOn": "2026-10-24"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "urgent-cutoff-refresh-2026-10-24",
       "fieldStatus": {
         "academicYear": {
-          "status": "unknown",
-          "noteEn": "The consulted page does not identify a cohort for all published figures.",
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+          "status": "known",
+          "noteEn": "Department body identifies September 2027 (2027/28) and central cutoffs agree; its Fall 2026 heading remains a discrepancy to confirm.",
+          "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/"
         },
         "major": {
-          "status": "known",
-          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+          "status": "unknown",
+          "noteEn": "The FAQ explicitly designs the coursework MA for people without previous anthropology study; no complete subject-acceptance policy is established. Recognition and academic alternatives still need assessment; no MPhil subject restriction or universal major match is imported.",
+          "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+          "noteEn": "Qualitative honours/average-B and exceptional-equivalence routes are not numeric undergraduate GPA cutoffs.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Record only explicit test thresholds; alternative qualifications, two-year test validity, documentary evidence and waiver acceptance remain manual.",
           "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+          "noteEn": "Re-read on 24 October: full-time annual HKD 198,000 remains provisional, pending approval. Part-time annual versus two-year charging basis still conflicts across official pages, so numeric part-time tuition remains null. The FAQ's older update footer does not settle approval or charging basis.",
+          "sourceUrl": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
-          "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
+          "status": "known",
+          "noteEn": "Rechecked central and department MA tables on 24 October: five date-only rounds remain unchanged; the next recorded cutoff is 31 October 2026. Rolling closure and post-31-December consideration are capacity-dependent. Application, payment and supporting-document delivery matter; no exact cutoff or live portal check is inferred.",
+          "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
         },
         "independentReview": {
           "status": "unknown",
-          "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
+          "noteEn": "AI-assisted re-reading only; no independent human review, complete requirement set or admission guarantee, and no recommendation tier is enabled.",
           "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology"
         }
       }
@@ -1415,42 +1540,46 @@
       "name": "Master of Computing (General Track)",
       "award": "MComp",
       "area": "Computing",
-      "faculty": null,
+      "faculty": "School of Computing",
       "officialUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-22",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "The old broad seed is now explicitly General Track only; specialisation-track criteria are not merged. The GPA 3.0 in the curriculum is a graduation criterion.",
+      "notesEn": "General Track only; Specialisations and Artificial Intelligence programme criteria are not merged. This conversion-oriented coursework programme accepts any discipline subject to honours/equivalence assessment. The curriculum GPA 3.0 is a graduation criterion, not an undergraduate entry cutoff. Official pages conflict on GRE/GMAT necessity: admissions requests scores while the FAQ calls them optional. Neither a compulsory-test rule nor an automatic exemption is inferred. The FAQ says full-time and part-time admission requirements do not differ; user-specific applicability still needs confirmation. No independent review or live portal check is recorded.",
       "offerings": [
         {
           "id": "SG-NUS-P029-O1",
           "mode": "Full-time",
-          "duration": "1.5–2 years",
+          "duration": "Normal 1.5–2 years; maximum 3 years",
           "intake": "August 2027",
+          "applicationOpen": "2026-10-01",
           "deadline": "2027-01-31",
-          "deadlineNote": null,
+          "deadlineNote": "The General Track application table explicitly identifies August 2027 and the 1 October 2026–31 January 2027 window. Only the August intake is offered from AY2025. Early offers are possible, not a separate dated application round. Submitted applications, paid application fee and required documents are needed by the deadline. No exact cutoff time or live portal availability was checked.",
           "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": 76409,
-          "feeBasis": "Programme tuition including 9% GST; miscellaneous fees and excess units are additional"
+          "applicationFee": 109,
+          "feeBasis": "AY2027/28 August 2027 intake onwards: SGD 76,409 including 9% GST, covering up to 52 Units; fees may change. Supplementary tuition beyond 52 Units and Miscellaneous Student Fees are additional. The non-refundable/non-transferable SGD 7,640.90 acceptance fee is credited towards tuition, not added twice. The SGD 109 application fee is separate. No scholarship or Enhanced Tuition Fee Rebate is assumed or deducted; eligibility and any conditions require NUS confirmation."
         },
         {
           "id": "SG-NUS-P029-O2",
           "mode": "Part-time",
-          "duration": "2.5 years",
+          "duration": "Normal 2.5 years; maximum 3 years",
           "intake": "August 2027",
+          "applicationOpen": "2026-10-01",
           "deadline": "2027-01-31",
-          "deadlineNote": null,
+          "deadlineNote": "The General Track application table explicitly identifies August 2027 and the 1 October 2026–31 January 2027 window. Only the August intake is offered from AY2025. Early offers are possible, not a separate dated application round. Submitted applications, paid application fee and required documents are needed by the deadline. No exact cutoff time or live portal availability was checked.",
           "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": 76409,
-          "feeBasis": "Programme tuition including 9% GST; miscellaneous fees and excess units are additional"
+          "applicationFee": 109,
+          "feeBasis": "AY2027/28 August 2027 intake onwards: SGD 76,409 including 9% GST, covering up to 52 Units; fees may change. Supplementary tuition beyond 52 Units and Miscellaneous Student Fees are additional. The non-refundable/non-transferable SGD 7,640.90 acceptance fee is credited towards tuition, not added twice. The SGD 109 application fee is separate. No scholarship or Enhanced Tuition Fee Rebate is assumed or deducted; eligibility and any conditions require NUS confirmation."
         }
       ],
       "rules": [
@@ -1499,51 +1628,74 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "GRE/GMAT or permitted GATE route, academic equivalence and language waiver need checking.",
-          "noteEn": "GRE/GMAT or permitted GATE route, academic equivalence and language waiver need checking.",
+          "labelZh": "GRE/GMAT source discrepancy and GATE alternative",
+          "labelEn": "GRE/GMAT source discrepancy and GATE alternative",
+          "noteZh": "Admissions requests GRE/GMAT and lists GRE verbal plus quantitative 320 and analytical 3.5, or GMAT 650. The General Track FAQ says GRE/GMAT is not compulsory. Confirm which policy applies; no automatic pass or failure is made. Indian-university graduates may submit GATE instead, but applicability and any accepted threshold require NUS confirmation. The form does not collect these tests and no GMAT-version conversion is performed.",
+          "noteEn": "Admissions requests GRE/GMAT and lists GRE verbal plus quantitative 320 and analytical 3.5, or GMAT 650. The General Track FAQ says GRE/GMAT is not compulsory. Confirm which policy applies; no automatic pass or failure is made. Indian-university graduates may submit GATE instead, but applicability and any accepted threshold require NUS confirmation. The form does not collect these tests and no GMAT-version conversion is performed.",
           "mandatory": true,
           "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "Test validity is assessed at application. Relevant IT experience is a preference, not a mandatory minimum.",
-          "noteEn": "Test validity is assessed at application. Relevant IT experience is a preference, not a mandatory minimum.",
+          "labelZh": "English-medium evidence and test validity",
+          "labelEn": "English-medium evidence and test validity",
+          "noteZh": "TOEFL/IELTS is required where the graduating university's main teaching medium is not English. A self-reported English-degree waiver does not verify that evidence. Published validity is 5 years for GRE/GMAT and 2 years for TOEFL/IELTS; the applicable submission-time check and acceptance require NUS confirmation. No intended submission date or medium-of-instruction proof is collected, and no expiry is calculated from today or intake date.",
+          "noteEn": "TOEFL/IELTS is required where the graduating university's main teaching medium is not English. A self-reported English-degree waiver does not verify that evidence. Published validity is 5 years for GRE/GMAT and 2 years for TOEFL/IELTS; the applicable submission-time check and acceptance require NUS confirmation. No intended submission date or medium-of-instruction proof is collected, and no expiry is calculated from today or intake date.",
           "mandatory": true,
           "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "IT experience preference",
+          "labelEn": "IT experience preference",
+          "noteZh": "Relevant IT employment can strengthen an application, but the FAQ says IT work, programming and computing experience are not compulsory. No minimum work duration is invented and no-experience applicants are not failed on this preference.",
+          "noteEn": "Relevant IT employment can strengthen an application, but the FAQ says IT work, programming and computing experience are not compulsory. No minimum work duration is invented and no-experience applicants are not failed on this preference.",
+          "mandatory": false,
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/faq/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Supporting documents and completion evidence",
+          "labelEn": "Supporting documents and completion evidence",
+          "noteZh": "The application checklist requires supporting documents, including at least one referee report and official academic evidence. Completion or expected-graduation evidence is assessed by NUS. This platform does not collect these documents or determine application completeness.",
+          "noteEn": "The application checklist requires supporting documents, including at least one referee report and official academic evidence. Completion or expected-graduation evidence is assessed by NUS. This platform does not collect these documents or determine application completeness.",
+          "mandatory": true,
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/"
         }
       ],
       "sources": [
         {
           "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "General Track academic and language criteria, test totals, alternative tests and stated validity periods",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/",
-          "purpose": "Track scope and duration",
-          "checkedOn": "2026-10-06"
+          "purpose": "Coursework and conversion-track scope, normal/maximum duration and graduation-only GPA",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/",
-          "purpose": "2027 intake and application window",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit August 2027 window, application fee, supporting documents and referee report",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/fees/",
-          "purpose": "2027/28 tuition",
-          "checkedOn": "2026-10-06"
+          "purpose": "AY2027/28 tuition, included units/GST, acceptance credit, extra fees and unassumed rebate",
+          "checkedOn": "2026-10-22"
+        },
+        {
+          "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/faq/",
+          "purpose": "Conflicting GRE/GMAT optionality, non-compulsory experience and common FT/PT admissions",
+          "checkedOn": "2026-10-22"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "nus-mcomp-general-refresh-2026-10-22",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
-          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+          "noteEn": "August 2027 is explicitly identified by the application table and AY2027/28 fee heading; not inferred from recurring months.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/"
         },
         "major": {
           "status": "known",
@@ -1557,18 +1709,18 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Published IELTS and both TOEFL scale totals are recorded. Teaching-medium evidence, test validity and waiver acceptance remain manual; this does not resolve the separate GRE/GMAT discrepancy.",
           "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
-          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+          "noteEn": "AY2027/28 tuition is SGD 76,409 including 9% GST for up to 52 Units. Application and miscellaneous/excess-unit charges are separate; acceptance is credited, and no rebate/scholarship is assumed.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/fees/"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
-          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/"
+          "noteEn": "The General Track table gives 1 October 2026–31 January 2027 for August 2027. No exact cutoff, separate early-offer round or live portal verification is recorded.",
+          "sourceUrl": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/application/"
         },
         "independentReview": {
           "status": "unknown",
@@ -1583,30 +1735,48 @@
       "name": "MSc Finance",
       "award": "MSc",
       "area": "Business",
-      "faculty": null,
+      "faculty": "NUS Business School",
       "officialUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-22",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Work experience and GMAT/GRE are not required. The current admission page gives TOEFL 5.0, not a checked old-scale minimum. Curriculum GPA 3.2/5 is not an entry cutoff.",
+      "notesEn": "Single-degree MSc Finance only; CEMS/double-degree, Financial Engineering and Quantitative Finance criteria are not merged. Full-time only, normally 16 months. GMAT/GRE and work experience are optional, not admission minima. The current admission page gives TOEFL 5.0, not a confirmed old-scale minimum. Curriculum GPA 3.2/5 is a graduation condition, not an entry cutoff. The dated 2027 application page says 22 July for completion documents, while the undated FAQ says 15 July; confirm this discrepancy with NUS. Neither July date is an application deadline. No independent review or live portal check is recorded.",
       "offerings": [
         {
           "id": "SG-NUS-P007-O1",
           "mode": "Full-time",
           "duration": "16 months",
           "intake": "August 2027",
+          "applicationOpen": "2026-09-01",
           "deadline": "2027-02-15",
-          "deadlineNote": "First round/study award cutoff: 15 November 2026; final deadline: 15 February 2027.",
+          "deadlineNote": "August 2027 intake: applications open 1 September 2026; first application/study-award consideration cutoff 15 November 2026; final application deadline for all applicants 15 February 2027. Submission and application-fee payment are needed by the relevant cutoff. Separate round openings and exact cutoff times are not stated. July completion-document dates are not application rounds. No live portal availability or award eligibility was checked.",
+          "applicationRounds": [
+            {
+              "id": "FIRST",
+              "label": "First application / study-award consideration cutoff",
+              "applicationOpen": null,
+              "deadline": "2026-11-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final application cutoff (all applicants)",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            }
+          ],
           "academicYear": "2027/28",
           "currency": "SGD",
-          "tuition": 77390,
-          "feeBasis": "Single-degree programme tuition including 9% GST; miscellaneous fees additional"
+          "tuition": 77608,
+          "applicationFee": 100,
+          "feeBasis": "August 2027 / AY2027/28 single-degree tuition: SGD 71,200 before GST, SGD 77,608 including 9% GST; subject to GST changes. Published payment schedule: SGD 10,900 acceptance plus two SGD 33,354 instalments totals SGD 77,608, so do not add acceptance again on top of tuition; confirm billing with NUS. The SGD 100 application fee and semester Miscellaneous Student Fees are separate. No alumni rebate, other financial aid or study award is assumed or deducted."
         }
       ],
       "rules": [
@@ -1651,42 +1821,74 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Academic quality, shortlisted interview, conditional completion evidence and waiver routes require confirmation.",
-          "noteEn": "Academic quality, shortlisted interview, conditional completion evidence and waiver routes require confirmation.",
+          "labelZh": "English proof, waiver and score applicability",
+          "labelEn": "English proof, waiver and score applicability",
+          "noteZh": "The programme accepts IELTS Academic or TOEFL iBT. A fully English-taught degree may support a waiver request with official medium-of-instruction proof, not an automatic exemption. Native-language and teaching-medium applicability, accepted score version and test validity require NUS confirmation. No cohort-specific validity window or old 0–120 TOEFL minimum was established in these sources; no score conversion or expiry from today is inferred.",
+          "noteEn": "The programme accepts IELTS Academic or TOEFL iBT. A fully English-taught degree may support a waiver request with official medium-of-instruction proof, not an automatic exemption. Native-language and teaching-medium applicability, accepted score version and test validity require NUS confirmation. No cohort-specific validity window or old 0–120 TOEFL minimum was established in these sources; no score conversion or expiry from today is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://mscfin.nus.edu.sg/faqs/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Final-year completion-document date discrepancy",
+          "labelEn": "Final-year completion-document date discrepancy",
+          "noteZh": "Final-year applicants may apply subject to completing the undergraduate requirements and providing completion evidence. The dated August 2027 application page specifies 22 July 2027 for the completion letter and unofficial final transcript; the undated FAQ says 15 July. Confirm the applicable date with NUS before relying on it. This is a completion-document condition, not a later application deadline or an extension of February 15.",
+          "noteEn": "Final-year applicants may apply subject to completing the undergraduate requirements and providing completion evidence. The dated August 2027 application page specifies 22 July 2027 for the completion letter and unofficial final transcript; the undated FAQ says 15 July. Confirm the applicable date with NUS before relying on it. This is a completion-document condition, not a later application deadline or an extension of February 15.",
+          "mandatory": true,
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/application-process/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Shortlisted interview and programme documents",
+          "labelEn": "Shortlisted interview and programme documents",
+          "noteZh": "Shortlisted applicants must perform well in the admission interview. Application and academic/financial documents require university assessment; the FAQ says referee details and reference letters are not required for this programme. The platform does not collect documents, submit applications or determine application completeness.",
+          "noteEn": "Shortlisted applicants must perform well in the admission interview. Application and academic/financial documents require university assessment; the FAQ says referee details and reference letters are not required for this programme. The platform does not collect documents, submit applications or determine application completeness.",
           "mandatory": true,
           "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Optional experience and aptitude tests",
+          "labelEn": "Optional experience and aptitude tests",
+          "noteZh": "Work or internship experience and GMAT/GRE may strengthen an application but are not compulsory. The FAQ's indicative competitive GMAT score is not a mandatory minimum; no GMAT-version conversion or work-duration threshold is applied.",
+          "noteEn": "Work or internship experience and GMAT/GRE may strengthen an application but are not compulsory. The FAQ's indicative competitive GMAT score is not a mandatory minimum; no GMAT-version conversion or work-duration threshold is applied.",
+          "mandatory": false,
+          "sourceUrl": "https://mscfin.nus.edu.sg/faqs/"
         }
       ],
       "sources": [
         {
           "url": "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Any-discipline degree, language totals, shortlisted interview and optional tests/experience",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://mscfin.nus.edu.sg/admissions/application-process/",
-          "purpose": "2027 deadlines and final-year conditions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit 2027 intake/opening/cutoffs, payment and dated July completion condition",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/",
-          "purpose": "2027/28 tuition",
-          "checkedOn": "2026-10-06"
+          "purpose": "AY2027/28 single-degree tuition, GST, payment schedule, application fee and unassumed rebate",
+          "checkedOn": "2026-10-22"
         },
         {
           "url": "https://mscfin.nus.edu.sg/faqs/",
-          "purpose": "Duration",
-          "checkedOn": "2026-10-06"
+          "purpose": "Full-time duration, no strict GPA cutoff, waiver proof, optional tests, referee exclusion and conflicting July date",
+          "checkedOn": "2026-10-22"
+        },
+        {
+          "url": "https://mscfin.nus.edu.sg/academics/programme-structure-and-curriculum/",
+          "purpose": "GPA 3.2/5 graduation-only condition, not an undergraduate entry cutoff",
+          "checkedOn": "2026-10-22"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "nus-finance-refresh-2026-10-22",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
-          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+          "noteEn": "August 2027 is explicit in the application process and AY2027/28 single-degree fee heading.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/application-process/"
         },
         "major": {
           "status": "known",
@@ -1695,23 +1897,23 @@
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+          "noteEn": "The FAQ describes holistic academic assessment without a strict GPA cutoff. A good undergraduate degree is still required; curriculum GPA 3.2/5 concerns graduation, not entry.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/faqs/"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "IELTS 7.0 and new-scale TOEFL 5.0 are recorded. The old-scale minimum, test-validity window and university acceptance of official waiver proof remain unresolved.",
           "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
-          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+          "noteEn": "The current single-degree AY2027/28 table gives SGD 77,608 including 9% GST, replacing the older local numeric record. Application and semester miscellaneous charges are separate; no rebate is deducted.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
-          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/admission-requirements/"
+          "noteEn": "Opening 1 September 2026; first application/study-award consideration cutoff 15 November 2026; final application deadline 15 February 2027. Separate round openings and cutoff times remain null; July document dates are not application deadlines.",
+          "sourceUrl": "https://mscfin.nus.edu.sg/admissions/application-process/"
         },
         "independentReview": {
           "status": "unknown",
@@ -1726,42 +1928,44 @@
       "name": "MSc Information Systems",
       "award": "MSc",
       "area": "Computing",
-      "faculty": null,
+      "faculty": "Wee Kim Wee School of Communication and Information",
       "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "Intake year not explicitly stated in checked requirements",
+      "lastChecked": "2026-10-21",
+      "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "GRE/GMAT are not required. Internship is not counted as the experience in the alternative route. Programme CGPA 2.50 and dissertation CGPA 4.00 are not admission cutoffs.",
+      "notesEn": "August 2027 cohort is identified from the central AY2027/28 semester table, not inferred from a recurring month alone. Opening-date discrepancy: the central WKWSCI other-programmes row says 1 October, while the undated programme page says 1 November. Both give 15 February; only the shared closing date is recorded, with no live-open claim. Published fees are for AY2026/27, not the 2027/28 cohort. GRE/GMAT are not required; personal statement and referee letters are optional. Internship is not counted as relevant work in the alternative degree route; one year of relevant full-time work is recommended, not a universal mandatory minimum. Programme CGPA 2.50 and dissertation CGPA 4.00 are not admission cutoffs.",
       "offerings": [
         {
           "id": "SG-NTU-P018-O1",
           "mode": "Full-time",
           "duration": "1–2 years",
-          "intake": "August annually; year to confirm",
-          "deadline": null,
-          "deadlineNote": "Published recurring window: 1 November–15 February; year not confirmed.",
-          "academicYear": "Intake year not explicitly stated in checked requirements",
+          "intake": "August 2027",
+          "applicationOpen": null,
+          "deadline": "2027-02-15",
+          "deadlineNote": "AY2027/28 central semester table: WKWSCI other programmes, August intake, closes 15 February 2027. Opening-date discrepancy: central guide says 1 October; undated programme page says 1 November. Opening is unresolved; do not assume applications are open. The separate Information Studies row is not Information Systems. No exact cutoff time or live portal availability was checked.",
+          "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027/28 tuition is unconfirmed. Historical reference only: AY2026/27 published total SGD 47,044.40 for 30 AU, inclusive of GST, charged by AU each semester, applicable to FT/PT applicants of all nationalities; separate miscellaneous fees and living/travel costs are excluded. The AY2026/27 SGD 5,000 acceptance deposit offsets tuition, not an extra tuition charge; SGD 50 application fee is non-refundable. These amounts and any SC/PR or alumni rebates are not a 2027/28 quote; no rebate is deducted and fees may be revised."
         },
         {
           "id": "SG-NTU-P018-O2",
           "mode": "Part-time",
           "duration": "2–4 years",
-          "intake": "August annually; year to confirm",
-          "deadline": null,
-          "deadlineNote": "Published recurring window: 1 November–15 February; year not confirmed.",
-          "academicYear": "Intake year not explicitly stated in checked requirements",
+          "intake": "August 2027",
+          "applicationOpen": null,
+          "deadline": "2027-02-15",
+          "deadlineNote": "AY2027/28 central semester table: WKWSCI other programmes, August intake, closes 15 February 2027. Opening-date discrepancy: central guide says 1 October; undated programme page says 1 November. Opening is unresolved; do not assume applications are open. The separate Information Studies row is not Information Systems. No exact cutoff time or live portal availability was checked.",
+          "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027/28 tuition is unconfirmed. Historical reference only: AY2026/27 published total SGD 47,044.40 for 30 AU, inclusive of GST, charged by AU each semester, applicable to FT/PT applicants of all nationalities; separate miscellaneous fees and living/travel costs are excluded. The AY2026/27 SGD 5,000 acceptance deposit offsets tuition, not an extra tuition charge; SGD 50 application fee is non-refundable. These amounts and any SC/PR or alumni rebates are not a 2027/28 quote; no rebate is deducted and fees may be revised."
         }
       ],
       "rules": [
@@ -1788,8 +1992,8 @@
           "kind": "manual",
           "labelZh": "Academic standing and equivalence",
           "labelEn": "Academic standing and equivalence",
-          "noteZh": "Second-class lower/Honours (Merit) or equivalent; alternative degree routes involve IT content or relevant work.",
-          "noteEn": "Second-class lower/Honours (Merit) or equivalent; alternative degree routes involve IT content or relevant work.",
+          "noteZh": "Second-class lower/Honours (Merit) or equivalent. The university must confirm degree equivalence; no numerical GPA conversion is made.",
+          "noteEn": "Second-class lower/Honours (Merit) or equivalent. The university must confirm degree equivalence; no numerical GPA conversion is made.",
           "mandatory": true,
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         },
@@ -1805,25 +2009,29 @@
             "toefl_120": {
               "total": 100,
               "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 5,
+              "validFrom": "2026-01-21"
             }
           },
-          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Equivalent academic standing and alternative degree/work routes need checking.",
-          "noteEn": "Equivalent academic standing and alternative degree/work routes need checking.",
+          "labelZh": "Alternative subject and work routes",
+          "labelEn": "Alternative subject and work routes",
+          "noteZh": "A degree with substantial IT content (for example Engineering or Sciences), or a degree plus relevant work, is an alternative route requiring university assessment. Internships are excluded; one year of relevant full-time experience is recommended, not a mandatory requirement for every applicant.",
+          "noteEn": "A degree with substantial IT content (for example Engineering or Sciences), or a degree plus relevant work, is an alternative route requiring university assessment. Internships are excluded; one year of relevant full-time experience is recommended, not a mandatory requirement for every applicant.",
           "mandatory": true,
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "The revised TOEFL scale needs reconciliation with central guidance; test validity is at application.",
-          "noteEn": "The revised TOEFL scale needs reconciliation with central guidance; test validity is at application.",
+          "labelZh": "English waiver and application-time validity",
+          "labelEn": "English waiver and application-time validity",
+          "noteZh": "Programme English-medium degree/instruction exemptions and any discretionary central exception require university confirmation. IELTS must be Academic, with each sub-score at least 6.0. TOEFL 100 is the previous scale; the central WKWSCI row supplies 5 on the new scale from 21 January 2026. Test scores must be within two years at application submission, not measured from today or the intake date; meeting scores alone does not confirm this condition.",
+          "noteEn": "Programme English-medium degree/instruction exemptions and any discretionary central exception require university confirmation. IELTS must be Academic, with each sub-score at least 6.0. TOEFL 100 is the previous scale; the central WKWSCI row supplies 5 on the new scale from 21 January 2026. Test scores must be within two years at application submission, not measured from today or the intake date; meeting scores alone does not confirm this condition.",
           "mandatory": true,
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         }
@@ -1831,16 +2039,21 @@
       "sources": [
         {
           "url": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "MSIS subject/degree alternatives, English components, recurring dates and historical AY2026/27 fees (Additional Information tab)",
+          "checkedOn": "2026-10-21"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+          "purpose": "AY2027/28 semester table, WKWSCI other-programmes date row, opening-date discrepancy and new TOEFL scale",
+          "checkedOn": "2026-10-21"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "ntu-msis-refresh-2026-10-21",
       "fieldStatus": {
         "academicYear": {
-          "status": "unknown",
-          "noteEn": "The consulted page does not identify a cohort for all published figures.",
-          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+          "status": "known",
+          "noteEn": "August 2027 / AY2027/28 is identified in the central semester table. The programme fee table remains AY2026/27 and is not carried forward.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         },
         "major": {
           "status": "known",
@@ -1854,18 +2067,18 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Programme IELTS Academic 6.5 with every component 6.0; central WKWSCI guidance adds TOEFL 5 on the new scale. English-medium exemptions, discretionary exceptions and two-year validity at submission remain manual checks.",
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "noteEn": "No confirmed AY2027/28 tuition. The Additional Information tab's AY2026/27 SGD 47,044.40 is historical context only; no current numeric price or rebate is imported.",
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
-          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems"
+          "status": "known",
+          "noteEn": "15 February 2027 closing date is grounded in the AY2027/28 central semester table and consistent with the programme month/day. Opening differs (central 1 October versus programme 1 November), so applicationOpen remains null and no open-window claim is made.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         },
         "independentReview": {
           "status": "unknown",
@@ -1880,30 +2093,44 @@
       "name": "MSc Applied Economics",
       "award": "MSc",
       "area": "Business",
-      "faculty": null,
+      "faculty": "School of Social Sciences",
       "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "Intake year not explicitly stated in checked requirements",
+      "lastChecked": "2026-10-22",
+      "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Current webpage and older brochure disagree about the August opening month. The brochure's 2026/27 fee is not imported into an unidentified later cohort. ARP GPA 4.75 is not an entry cutoff.",
+      "notesEn": "The central guide identifies AY2027/28 August and November intakes. August date years are interpreted from that cohort heading; November dates explicitly include 2027. Current programme-page months agree with the guide. Older brochure figures are not current cohort evidence. ARP GPA 4.75 is not an entry cutoff: it concerns the optional research project after enrolment. Statistics and Mathematics preparation takes place during the trimester, not as a verified pre-entry qualification. No live portal or independent review was checked.",
       "offerings": [
         {
-          "id": "SG-NTU-P015-O1",
+          "id": "SG-NTU-P015-O2",
           "mode": "Full-time",
           "duration": "Normally 1 year",
-          "intake": "August or November annually; year to confirm",
-          "deadline": null,
-          "deadlineNote": "Recurring windows on the page: September–31 January (August); March–31 May (November).",
-          "academicYear": "Intake year not explicitly stated in checked requirements",
+          "intake": "August 2027",
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Central AY2027/28 trimester table, Applied Economics-only August row: 1 September to 31 January. Years are interpreted as September 2026 to January 2027 from the identified August 2027 cohort, not from recurring programme-page months alone. The neighbouring Psychology and other Social Sciences rows do not apply. No exact cutoff time or live portal availability was checked.",
+          "academicYear": "2027/28",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "AY2027/28 tuition is unconfirmed in the consulted programme page and central guide. No older brochure fee, subsidy or rebate is carried forward as a current quote. Confirm tuition and additional charges with NTU."
+        },
+        {
+          "id": "SG-NTU-P015-O3",
+          "mode": "Full-time",
+          "duration": "Normally 1 year",
+          "intake": "November 2027",
+          "applicationOpen": "2027-03-01",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Central AY2027/28 trimester table: the November group includes Applied Economics and shares the explicitly dated 1 March 2027 to 31 May 2027 window through merged cells. Do not substitute the August window. No exact cutoff time or live portal availability was checked.",
+          "academicYear": "2027/28",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": "AY2027/28 tuition is unconfirmed in the consulted programme page and central guide. No older brochure fee, subsidy or rebate is carried forward as a current quote. Confirm tuition and additional charges with NTU."
         }
       ],
       "rules": [
@@ -1917,8 +2144,8 @@
           "kind": "manual",
           "labelZh": "Academic standing and equivalence",
           "labelEn": "Academic standing and equivalence",
-          "noteZh": "Economics degree with good honours where applicable, or another honours degree with a strong quantitative background.",
-          "noteEn": "Economics degree with good honours where applicable, or another honours degree with a strong quantitative background.",
+          "noteZh": "Economics with good honours where applicable, or an honours degree in another discipline with strong quantitative preparation. NTU must assess equivalence and quantitative evidence; no numerical GPA conversion or automatic non-Economics rejection is applied.",
+          "noteEn": "Economics with good honours where applicable, or an honours degree in another discipline with strong quantitative preparation. NTU must assess equivalence and quantitative evidence; no numerical GPA conversion or automatic non-Economics rejection is applied.",
           "mandatory": true,
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
         },
@@ -1943,27 +2170,41 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Honours equivalence, quantitative preparation and the programme-specific English waiver require university judgement.",
-          "noteEn": "Honours equivalence, quantitative preparation and the programme-specific English waiver require university judgement.",
+          "labelZh": "Programme-specific English waiver",
+          "labelEn": "Programme-specific English waiver",
+          "noteZh": "The programme describes an on-campus bachelor's degree in a native English-speaking country for its exemption. An English-medium degree alone does not establish this condition. The form does not capture the necessary country and campus evidence; NTU must confirm waiver applicability.",
+          "noteEn": "The programme describes an on-campus bachelor's degree in a native English-speaking country for its exemption. An English-medium degree alone does not establish this condition. The form does not capture the necessary country and campus evidence; NTU must confirm waiver applicability.",
           "mandatory": true,
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "Application-time English validity",
+          "labelEn": "Application-time English validity",
+          "noteZh": "The central guide requires TOEFL/IELTS results within two years of the application date, not measured from today or the intake date. No intended submission date is collected. Confirm test acceptance, submission-time validity and any discretionary exemption with NTU; case-by-case consideration is not an automatic pass.",
+          "noteEn": "The central guide requires TOEFL/IELTS results within two years of the application date, not measured from today or the intake date. No intended submission date is collected. Confirm test acceptance, submission-time validity and any discretionary exemption with NTU; case-by-case consideration is not an automatic pass.",
+          "mandatory": true,
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         }
       ],
       "sources": [
         {
           "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Degree alternatives, test thresholds, exemption limits, study duration and recurring intake months",
+          "checkedOn": "2026-10-22"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+          "purpose": "AY2027/28 trimester table, programme-specific rows, merged November date cells and application-time test validity",
+          "checkedOn": "2026-10-22"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "ntu-applied-economics-refresh-2026-10-22",
       "fieldStatus": {
         "academicYear": {
-          "status": "unknown",
-          "noteEn": "The consulted page does not identify a cohort for all published figures.",
-          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+          "status": "known",
+          "noteEn": "The central application table identifies AY2027/28; August and November are separate 2027 intakes. The programme page alone provides recurring months, not a cohort year.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         },
         "major": {
           "status": "known",
@@ -1977,18 +2218,18 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Published score thresholds and the TOEFL scale-date boundary are recorded. Programme-specific waiver applicability and validity at application submission remain manual checks.",
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "noteEn": "No AY2027/28 tuition was identified in the consulted programme page and central guide. Numeric fees remain null; this is not a claim that no fee is published elsewhere.",
           "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
-          "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics"
+          "status": "known",
+          "noteEn": "Separate August and November windows follow the central AY2027/28 trimester table. August years are assigned from the cohort context; November endpoints explicitly state 2027. No exact cutoff time or live portal check is recorded.",
+          "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
         },
         "independentReview": {
           "status": "unknown",
@@ -2330,111 +2571,136 @@
       "name": "Master of Architecture",
       "award": "MArch",
       "area": "Engineering",
-      "faculty": null,
+      "faculty": "Architecture and Sustainable Design",
       "officialUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "2027 intake",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Do not treat every bachelor's holder as eligible. The three-year architecture route includes preliminary undergraduate terms with separate non-subsidised fees.",
+      "notesEn": "The standard MArch is one year after four years of university architecture education. The two-year track includes two preliminary undergraduate terms, not two extra years after the master's. Accreditation, work/technical preparation and track placement need SUTD approval. The published 2027 application dates do not establish 2027 tuition or subsidy entitlement.",
       "offerings": [
         {
           "id": "SG-SUTD-P001-O1",
           "mode": "Full-time",
-          "duration": "1 year; 2-year bridging route may apply",
+          "duration": "Standard MArch: 1 year; two-year track includes 2 preliminary undergraduate terms",
           "intake": "2027 intake",
           "deadline": "2026-12-31",
-          "deadlineNote": null,
+          "deadlineNote": "The overview explicitly identifies the 2027 intake window: 1 August to 31 December 2026. Exact cutoff time, track-specific applicability and portal availability were not checked. A later English-score submission allowance is not an extension of the application deadline.",
           "academicYear": "2027 intake",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027 tuition is unconfirmed. The consulted tuition page labels AY2026 and older cohorts, not AY2027. Its preliminary-term subsidy table and the overview's non-subsidised NG wording need reconciliation. Do not import an older annual price, multiply terms, assume subsidy eligibility or an all-in total.",
+          "applicationOpen": "2026-08-01",
+          "applicationFee": null
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
+          "labelZh": "",
           "labelEn": "Bachelor’s degree",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         {
           "kind": "major",
-          "labelZh": "Undergraduate field",
-          "labelEn": "Undergraduate field",
+          "labelZh": "",
+          "labelEn": "Architecture undergraduate education",
           "accepted": [
             "Architecture"
           ],
           "any": false,
           "relatedAllowed": false,
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Degree accreditation, four-year architecture education or bridging track, relevant work, technical preparation and portfolio need checking.",
-          "noteEn": "Degree accreditation, four-year architecture education or bridging track, relevant work, technical preparation and portfolio need checking.",
+          "labelZh": "",
+          "labelEn": "Accreditation, prior study and track placement",
+          "noteZh": "",
+          "noteEn": "An accredited architecture bachelor degree and normally four years of university architecture education are required. Non-SUTD graduates need accreditation proof and institutional approval. Applicants with three years may be considered for the two-year track, as may some four-year applicants needing preparation. Two preliminary undergraduate terms (Terms 7 and 8) precede the MArch and have separate fee/applicability questions; track placement is not automatic.",
           "mandatory": true,
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "An English score may be required, but no numeric threshold was captured on the admissions page.",
-          "noteEn": "An English score may be required, but no numeric threshold was captured on the admissions page.",
+          "labelZh": "",
+          "labelEn": "Work experience and technical preparation",
+          "noteZh": "",
+          "noteEn": "Relevant work experience and its duration must support professional-course requirements, but no numeric minimum years is published here. Programming experience (such as Python, JavaScript, C++ or C#) and Rhino 3D, Grasshopper and digital-fabrication preparation require manual assessment. Advanced standing for a structured internship requires a separate request; it is not automatic.",
           "mandatory": true,
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and submission timing",
+          "noteZh": "",
+          "noteEn": "TOEFL or IELTS evidence is required where the prior degree was not taught in English. The consulted admissions page does not state a numeric minimum, a test-validity anchor or an updated TOEFL scale cutoff. It permits score submission within two weeks after the application deadline; that is not an application extension. Confirm all language applicability with SUTD.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme documents, optional referees and selection",
+          "noteZh": "",
+          "noteEn": "Statement of Objectives: 1,000 words. Supply degree/transcript or final-year completion evidence, official translations where needed, identity and relevant portfolio/awards/publications. Two referees are optional; if used, recommendations are due within one week after application submission. GRE is optional and considered if supplied. Shortlisted applicants may be interviewed. The platform does not collect or submit these materials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         }
       ],
       "sources": [
         {
           "url": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit 2027 application dates and standard versus preliminary two-year track",
+          "checkedOn": "2026-10-23"
         },
         {
           "url": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/",
-          "purpose": "Accreditation, prior education and technical requirements",
-          "checkedOn": "2026-10-06"
+          "purpose": "Accreditation, technical/work preparation, English evidence and document timing",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/financing/tuition-fees/",
+          "purpose": "AY2026/older fee tables and preliminary-term subsidy discrepancy, not a 2027 quotation",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "sutd-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "noteEn": "2027 intake is explicit; an exact start month is not imported.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
         },
         "major": {
           "status": "known",
-          "noteEn": "Exact fields or accepted alternative routes are recorded.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "noteEn": "Architecture is explicit; accreditation, duration of prior study and track approval remain manual.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "noteEn": "No numeric undergraduate admission GPA was found in the consulted programme sources; recognition and selection still apply.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         "language": {
           "status": "unknown",
-          "noteEn": "Numeric thresholds were not captured. Do not assume the programme has no English requirement.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "noteEn": "English evidence is required when applicable, but no numeric threshold or updated TOEFL cutoff was found on the consulted admissions page.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/criteria-for-admission/"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
+          "noteEn": "The fee page covers AY2026 and older cohorts. AY2027 amounts and preliminary-term subsidy applicability are not established.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/financing/tuition-fees/"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Explicit 1 August–31 December 2026 window for the 2027 intake; language-document timing is not another application round.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/"
         },
         "independentReview": {
@@ -2454,38 +2720,40 @@
       "officialUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "2026/27",
+      "lastChecked": "2026-10-23",
+      "academicYear": "2027 intake",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "A bachelor's degree in any discipline is listed, but unrelated-degree applications may need portfolio-based review. Do not automatically apply a citizen/PR discount.",
+      "notesEn": "The application and fee pages state that applications for 2027 are closed as observed on 23 October 2026; this is not the actual closure date or a live portal check. The current overview/application/schedule do not establish January or reopening dates. The old 31 October 2026 cutoff is withdrawn from active date comparison. AY2026/27 annual category fees are not a confirmed quote for an unconfirmed 2027 start month. Any-discipline wording does not remove case-by-case review for unrelated degrees.",
       "offerings": [
         {
           "id": "SG-SUTD-P002-O1",
           "mode": "Full-time",
           "duration": "12 months",
-          "intake": "January 2027",
-          "deadline": "2026-10-31",
-          "deadlineNote": null,
-          "academicYear": "2026/27",
+          "intake": "2027 intake",
+          "deadline": null,
+          "deadlineNote": "Official application/fee-page notice observed 23 October 2026: applications for 2027 are closed. No exact closure date, reopening window or intake month is established. The former 31 October 2026 deadline is not retained as an active cutoff; do not infer closure on the observation date.",
+          "academicYear": "2027 intake",
           "currency": "SGD",
-          "tuition": 54500,
-          "feeBasis": "Annual tuition for international students including GST; SC/PR rate SGD 49,050; miscellaneous fees additional"
+          "tuition": null,
+          "feeBasis": "Active tuition withheld: the published AY2026/27 full-time annual rates are SGD 49,050 for SC/PR and SGD 54,500 for international students, inclusive of prevailing GST, but the exact 2027 intake linkage is unconfirmed. Non-MOE-subsidised; no default international price or automatic alumni rebate. SGD 21.80 non-refundable application fee is separate. The fee page's SGD 5,450 acceptance fee is credited to tuition, not added twice. Its miscellaneous-fee table is labelled AY2025, not a current 2027 all-in quote.",
+          "applicationOpen": null,
+          "applicationFee": 21.8
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
+          "labelZh": "",
           "labelEn": "Bachelor’s degree",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         {
           "kind": "major",
-          "labelZh": "Undergraduate field",
+          "labelZh": "",
           "labelEn": "Undergraduate field",
           "accepted": [],
           "any": true,
@@ -2494,7 +2762,7 @@
         },
         {
           "kind": "language",
-          "labelZh": "Published English test scores",
+          "labelZh": "",
           "labelEn": "Published English test scores",
           "tests": {
             "ielts": {
@@ -2509,65 +2777,93 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Interest in innovation/applied technology, unrelated-degree case-by-case review and language validity need checking.",
-          "noteEn": "Interest in innovation/applied technology, unrelated-degree case-by-case review and language validity need checking.",
+          "labelZh": "",
+          "labelEn": "Innovation interest and unrelated-degree review",
+          "noteZh": "",
+          "noteEn": "Demonstrated innovation, entrepreneurship or applied-technology interest is required. Unrelated undergraduate disciplines are considered case-by-case; a resumé or portfolio can support the application. Related job experience is considered, not a published mandatory number of years. No numeric admission GPA is invented.",
           "mandatory": true,
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "The page does not state a revised TOEFL 6-point minimum.",
-          "noteEn": "The page does not state a revised TOEFL 6-point minimum.",
+          "labelZh": "",
+          "labelEn": "English medium, validity and test versions",
+          "noteZh": "",
+          "noteEn": "Where undergraduate instruction was not English, the page requires IELTS Academic 6.0 or TOEFL iBT 85. Scores must remain within two years of the test date at application, not at today's date. English-medium evidence, accepted test variants and any updated TOEFL 1–6 threshold require confirmation; none is inferred from the old 85/120 value.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme documents and referees",
+          "noteZh": "",
+          "noteEn": "Supply degree/transcript, applicable English report, CV and identity evidence, with details of two referees. The Statement of Objectives / Personal Statement must be at least 500 words, not a maximum of 500. Admissions-committee consideration is not guaranteed admission. This platform does not collect or submit documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "2027 application closure and intake scope",
+          "noteZh": "",
+          "noteEn": "The application and fee pages state applications for 2027 are closed as observed on 23 October 2026. Actual closure date, any reopening and start month are unconfirmed. Do not use the old January label or 31 October cutoff to claim availability; ask SUTD about the next available intake.",
           "mandatory": true,
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         }
       ],
       "sources": [
         {
-          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/",
+          "purpose": "One-year full-time coursework MSc and venture-project structure; no start month established",
+          "checkedOn": "2026-10-23"
         },
         {
-          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/financing/fees",
-          "purpose": "2026/27 nationality-specific tuition",
-          "checkedOn": "2026-10-06"
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/",
+          "purpose": "2027 closed notice, academic/English conditions, documents and separate application fee",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/programme-schedule/",
+          "purpose": "One-year coursework schedule, not evidence of a January intake",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/financing/fees/",
+          "purpose": "2027 closed notice; AY2026/27 category fees, credited acceptance payment and older miscellaneous-fee year",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "sutd-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
-          "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "status": "unknown",
+          "noteEn": "2027 is named in the closure banner, but the current consulted pages do not establish January or link that intake to the AY2026/27 fee table.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "major": {
           "status": "known",
-          "noteEn": "Any discipline is explicitly allowed, subject to all other criteria.",
+          "noteEn": "Any discipline is stated, subject to innovation interest and unrelated-degree case-by-case review.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted programme sources.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Published IELTS Academic 6.0 / TOEFL iBT 85 only; validity is assessed at application and unlisted test versions remain manual.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "tuition": {
-          "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
-          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
+          "status": "unknown",
+          "noteEn": "AY2026/27 annual SC/PR and international amounts are recorded only as dated evidence, not a default or confirmed 2027 intake quote.",
+          "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/financing/fees/"
         },
         "deadline": {
-          "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "status": "unknown",
+          "noteEn": "Applications for 2027 are stated closed. No actual closing date or reopening window is established; the previous future cutoff is withdrawn.",
           "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/"
         },
         "independentReview": {
