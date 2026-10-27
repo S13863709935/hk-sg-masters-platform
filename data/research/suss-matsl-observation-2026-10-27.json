@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P004",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Arts in Applied Linguistics (TESOL)",
+    "award": "MATSL",
+    "faculty": "School of Humanities and Behavioural Sciences",
+    "totalCu": 60,
+    "coreCu": 30,
+    "electiveCu": 30,
+    "internationalDirectoryClassifiesCoursework": true,
+    "allCourseworkOrCourseworkProject": true,
+    "relatedGcertGdipNotNewMasters": true,
+    "mecedTesolTrackNotMerged": "SG-SUSS-P020",
+    "notResearchEntryFromProjectOption": true
+  },
+  "pathways": {
+    "regular": {
+      "code": "MATSL",
+      "durationYears": {
+        "minimum": 2,
+        "maximum": 4
+      },
+      "semesterMaximumCu": 15,
+      "citizensPrOrSingaporeResidents": true,
+      "internationalStudentPassRoute": false,
+      "formalFtPtMode": null
+    },
+    "accelerated": {
+      "code": "MATSL-A",
+      "durationYears": 1,
+      "semesterCu": 30,
+      "internationalApplicantsIncluded": true,
+      "internationalStudentsMustEnterAndRemain": true,
+      "validStudentPassRequiredForInternationalStudents": true,
+      "formalFtPtMode": null
+    },
+    "residentStudentsMaySwitchPathwaySubjectToUniversity": true,
+    "nationalityLocationOrFeeCategoryNotResidenceApproval": true,
+    "sameTeachingAssessmentAndCourseFeePolicyNotPersonalQuote": true
+  },
+  "requirements": {
+    "explicitDegreeFields": [
+      "English Studies",
+      "Linguistics",
+      "Education"
+    ],
+    "relatedOrOtherBachelorFieldsNeedAssessment": true,
+    "englishTeachingExperienceRequired": false,
+    "englishTeachingExperienceAdvantage": true,
+    "universalWorkYears": null,
+    "numericUndergraduateEntryGpa": null,
+    "schoolEnglishAssessment": {
+      "requiredUnlessDegreeInEnglishStudiesOrLinguistics": true,
+      "excellentScoreNoNumericThreshold": true,
+      "educationDegreeDoesNotAutomaticallyExempt": true,
+      "externalTestNotAutomaticSubstitute": true
+    },
+    "programmeExternalEnglish": {
+      "appliesIfNativeLanguageOrUndergraduateMediumNotEnglish": true,
+      "nativeAndMediumAreSeparateFacts": true,
+      "ielts": {
+        "operator": ">",
+        "total": 6.5,
+        "allComponentsMin": 6
+      },
+      "toeflIbtUnversioned": {
+        "operator": ">",
+        "total": 85,
+        "writingMin": 22
+      },
+      "toeflPbt": {
+        "operator": ">",
+        "total": 580,
+        "preferredTwe": 5
+      },
+      "pteAcademicMin": 58,
+      "c1AdvancedMin": 180,
+      "ieltsToeflYearsAtApplication": 2
+    },
+    "generalElpr": {
+      "conditionalUniversityMediumAndInstruction": true,
+      "ieltsAcademicMin": 6.5,
+      "internetToeflUnversionedMin": 85,
+      "pteMin": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      }
+    },
+    "languageLayersNotFlattened": true,
+    "automaticWaiver": false,
+    "newToeflScaleNotConverted": true,
+    "cvRequiredInCurrentLinkedChecklist": true,
+    "neighbouringResearchProposalNotMatslRequirement": true,
+    "platformDoesNotCollectCvTestOrCredentialDocuments": true
+  },
+  "study": {
+    "weekdayEvenings": true,
+    "blendedNotEntirelyRemoteEntitlement": true,
+    "masterAwardCgpa": 3,
+    "certificateDiplomaAwardCgpa": 2.5,
+    "awardGpaNotEntryGpa": true,
+    "tsl599Cu": 10,
+    "tsl688Cu": 10,
+    "projectOptionsNotUniversalAdmissionProposal": true,
+    "universityExplicitlyDoesNotCertifyTeachers": true,
+    "cetAfterExceededCandidatureDoesNotRestoreAward": true
+  },
+  "cycle": {
+    "recurringIntakes": [
+      "January",
+      "July"
+    ],
+    "bothPathways": true,
+    "rollingReviewNotLiveOpening": true,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalCalendarNotAutomaticallyAssigned": true,
+    "olderSearchEventNotUsedForCurrentWindow": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "tableTitle": "Year 2026/2027 Non-Subsidised Programme Fees",
+    "tableAsOf": "2026-10-16",
+    "masterTextQuote": {
+      "scPr": 26400,
+      "otherResidents": 31680,
+      "conditionalSubsidisedAsLowAs": 16588
+    },
+    "currency": "SGD",
+    "excludesGst": true,
+    "pdfColumnsNotVisuallyVerified": true,
+    "gcertGdipNotAddedAsExtraMasterCharges": true,
+    "noAutomaticSubsidyOrPersonalCategory": true,
+    "generalApplicationBeforeGst": {
+      "scPr": 60,
+      "otherApplicants": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "resident": 20,
+      "internationalStudentPass": 530
+    },
+    "acceptanceDeposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true,
+      "notExtraTuition": true
+    },
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "sourceLimitations": {
+    "nonWwwDirectoryLinkFailed": true,
+    "canonicalWwwProgrammeRead": true,
+    "linkedCurriculumPlanFetchFailed": true,
+    "brochureRelevantPage": 5,
+    "checklistRelevantPage": 4,
+    "feeQuotePage": 4,
+    "feeNotesPage": 7,
+    "pdfTextOnly": true,
+    "localPdfDownloaded": false,
+    "pdfVisualInspectionCompleted": false,
+    "olderSearchChecklistNotUsed": true,
+    "noAccessChecksBypassed": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl",
+      "purpose": "Canonical programme: degree fields/alternatives, separate language gates, teaching-experience preference, pathways and teacher-certification limit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Explicit coursework classification under SHBS and international Student Pass context",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional general ELPR and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "Current linked document checklist, general calendar caveats and category application fees",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "Page-4 MATSL-specific CV row; adjacent research-proposal requirements belong to another named programme; text only",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5",
+      "purpose": "Page-5 text: 60-CU course/project structure and separate master/certificate/diploma award GPA; diagram not visually inspected",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course billing, miscellaneous categories and extras",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Page-4 Applied Linguistics text quote and page-7 tax/eligibility/as-of notes; no visual column verification",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-27-suss-mbe.md": "674cbcbc75aa21dd99e6afbfe8cfa259e1a199deb27d175d9c67730749d2ed63",
+      "docs/research/core-pilot-acceptance-2026-10-27-suss-mbe.md": "af29a3ee1f643fa71c9ca331c28dd03b376f7664bee909b86e69aaea1418315b"
+    }
+  }
+}

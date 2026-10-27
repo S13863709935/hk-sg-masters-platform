@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-27 同日 SUSS MATSL 批次：接入独立应用语言学（TESOL）硕士，列明本科专业可比较，同时分开校内英语评估、母语／授课语言条件及外部成绩。教育学专业符合不等于自动豁免校内评估；教学经验为加分项，当前清单的 CV 要求不混入邻栏研究计划。部分项目页记录为 44，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-matsl-first-check-2026-10-27.md)、[67 单元快照](docs/research/source-review-queue-2026-10-27-suss-matsl.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-matsl.md)。原 43 个对象及历史快照保留，本轮仅本地保存。
+
 2026-10-27 同日 SUSS MBE 批次：接入建筑环境硕士常规／加速学习选择，保留国际生加速路径及文凭升读条件；本科专业优先、CV 建议不改成硬门槛，文凭 GPA 与毕业 CGPA 不套作本科入学线。具体批次、身份和个人费用仍待确认。部分项目页记录为 43，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mbe-first-check-2026-10-27.md)、[66 单元快照](docs/research/source-review-queue-2026-10-27-suss-mbe.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-mbe.md)。原 42 个对象及历史快照保留，本轮仅本地保存。
 
 2026-10-27 同日 SUSS MECED 批次：接入英语幼儿教育硕士，分开教师培训、相关经验／CV、专业背景替代和条件式英语要求；IELTS／TOEFL 的严格大于门槛不改成达到即可，课程先修／毕业 GPA 不作入学门槛。居民资格、具体批次和个人费用仍待确认。部分项目页记录为 42，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-meced-first-check-2026-10-27.md)、[65 单元快照](docs/research/source-review-queue-2026-10-27-suss-meced.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-meced.md)。原 41 个对象及历史快照保留，本轮仅本地保存。

@@ -146,13 +146,13 @@ test('previously expanded file-backed catalogues load first AI checks beneath di
     for (const p of [hk, nt]) assert.equal(db.get(p.id).verification, 'catalogue_seed');
     db.close(); db = null; writeFileSync(checkedPath, JSON.stringify(batch)); db = new CatalogueStore(path, { ...options, checkedPath });
     for (const [i, p] of [hk, nt].entries()) { assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory[i]); }
-    assert.deepEqual(db.get('HK-HKUST-P001'), prior); assert.equal(db.quality().checked, 43); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
+    assert.deepEqual(db.get('HK-HKUST-P001'), prior); assert.equal(db.quality().checked, 44); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
 
 test('AI lookup, matching and exporting remain read-only with unchanged record and category totals', async () => {
   const before = JSON.stringify(store.all()); for (const p of [hk, nt]) { programmeTimeline(p, '2026-10-24'); matchProgramme(p, profile); }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 43);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 44);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5);
   assert.equal(JSON.stringify(store.all()), before);

@@ -184,7 +184,7 @@ test('existing file-backed catalogues migrate first data-science checks while pr
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
       for (const [i, p] of [hk, nu].entries()) { assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory[i]); }
-      assert.deepEqual(db.get('HK-HKUST-P015'), prior); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 43);
+      assert.deepEqual(db.get('HK-HKUST-P015'), prior); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 44);
       const ri = loadRoutes(routePath, db.all()); assert.deepEqual(applicantSummary(loadApplicantContexts(contextPath, db.all(), ri)), { studyOptions: 18, categories: 38, peerReviewed: 0 });
       db.close(); db = null;
     }
@@ -193,7 +193,7 @@ test('existing file-backed catalogues migrate first data-science checks while pr
 
 test('data-science browsing, matching and export remain read-only with no inflated record/route or review totals', async () => {
   const before = JSON.stringify(store.all()); resolve(hk, 0); resolve(nu, 0, nu.offerings[0].id + '-INTERNATIONAL-STANDARD'); matchProgramme(nu, profile);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 43);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 44);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5);
   assert.equal(JSON.stringify(store.all()), before);

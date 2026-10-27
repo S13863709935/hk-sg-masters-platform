@@ -7836,6 +7836,236 @@
         }
       ],
       "researchBatch": "suss-mbe-first-check-2026-10-27"
+    },
+    {
+      "id": "SG-SUSS-P004",
+      "universityId": "SG-SUSS",
+      "name": "Master of Arts in Applied Linguistics (TESOL)",
+      "award": "MATSL",
+      "area": "Education",
+      "faculty": "School of Humanities and Behavioural Sciences",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; degree equivalence, separate English assessments, pathway/residence, cohort and fees unresolved",
+      "lastChecked": "2026-10-27",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 60-CU coursework MATSL with regular and accelerated study choices, separate from the Early Childhood Education TESOL track and stackable certificates/diplomas. Related/other degree fields need individual assessment; teaching experience is advantageous but not required. The school English assessment depends on degree field, while additional external English depends on native language or undergraduate medium. A major match or high external score does not resolve both gates. International students must enter and remain accelerated. The university explicitly states that this programme does not certify graduates as teachers.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P004-REGULAR",
+          "mode": null,
+          "duration": "Regular MATSL: minimum 2 years, maximum 4 years; maximum 15 CU per semester",
+          "intake": "January / July (recurring; applicable cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January/July recur for both pathways. Rolling application review does not establish live opening, a specific cohort year or a precise closing date. General university dates have programme caveats and are not assigned automatically. No live portal check.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 Applied Linguistics (TESOL) master table text before GST: SC/PR SGD 26,400; Other Residents 31,680; conditional subsidised quote as low as 16,588. PDF columns, applicable cohort/category and funding remain unconfirmed. The programme says both pathways share course-fee policy; this does not establish a personal total. Do not add certificate/diploma prices or automatically deduct subsidies. Fees depend on courses enrolled; extras separate. General application fees: SC/PR 60, other applicants 100 before GST. Annual miscellaneous fees: resident categories 20 or international Student Pass students 530 before GST. The general SGD 2,000 acceptance deposit includes GST and credits first-semester tuition, not extra tuition."
+        },
+        {
+          "id": "SG-SUSS-P004-ACCELERATED",
+          "mode": null,
+          "duration": "Accelerated MATSL-A: 1 year; 30 CU per semester",
+          "intake": "January / July (recurring; applicable cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January/July recur for both pathways. Rolling application review does not establish live opening, a specific cohort year or a precise closing date. General university dates have programme caveats and are not assigned automatically. No live portal check.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 Applied Linguistics (TESOL) master table text before GST: SC/PR SGD 26,400; Other Residents 31,680; conditional subsidised quote as low as 16,588. PDF columns, applicable cohort/category and funding remain unconfirmed. The programme says both pathways share course-fee policy; this does not establish a personal total. Do not add certificate/diploma prices or automatically deduct subsidies. Fees depend on courses enrolled; extras separate. General application fees: SC/PR 60, other applicants 100 before GST. Annual miscellaneous fees: resident categories 20 or international Student Pass students 530 before GST. The general SGD 2,000 acceptance deposit includes GST and credits first-semester tuition, not extra tuition."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree from a recognised institution",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published degree fields and case-by-case alternatives",
+          "accepted": [
+            "English Studies",
+            "Linguistics",
+            "Education"
+          ],
+          "relatedAllowed": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification recognition and other degree fields",
+          "noteZh": "",
+          "noteEn": "English Studies, Linguistics and Education are explicit degree fields; related/other bachelor fields can receive individual consideration. Major comparison is self-reported and does not verify recognition, equivalence or acceptance. No numeric undergraduate entry GPA or universal work-year minimum is established.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "School English assessment by degree field",
+          "noteZh": "",
+          "noteEn": "Applicants whose bachelor is not in English Studies or Linguistics need an excellent score in the SUSS English Proficiency Assessment. Education is an accepted degree field but does not automatically exempt this assessment. An IELTS/TOEFL score is not stated to replace it; degree recognition and accepted exemptions remain university decisions.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Additional external English by native language or instruction medium",
+          "noteZh": "",
+          "noteEn": "Additional evidence applies if native language or undergraduate instruction medium is not English. Programme alternatives include TOEFL PBT strictly above 580 with preferred TWE 5, internet TOEFL strictly above 85 with writing at least 22, IELTS strictly above 6.5 with every subscore at least 6, PTE Academic 58 or C1 180. IELTS/TOEFL must be within two years at application. Do not turn preferred TWE into a hard gate, infer native language from nationality, convert TOEFL scales or grant an automatic waiver. These facts are not established by the background form.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "General English policy is separate",
+          "noteZh": "",
+          "noteEn": "General ELPR depends on undergraduate university medium and instruction language, with IELTS Academic at least 6.5, internet TOEFL 85, PTE 58, C1 180 within two years or MUET Band 4 within five years. These alternatives do not automatically override programme-specific assessment, strict-score wording or applicability. Confirm accepted evidence with SUSS.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Pathway, residence and continued study eligibility",
+          "noteZh": "",
+          "noteEn": "Regular MATSL is for citizens, PRs and Singapore residents. International students must take and remain on accelerated MATSL-A with a valid Student Pass; residents may have pathway-switching options subject to SUSS. Nationality, current location or a fee category does not establish resident status, pass approval or an authorised switch.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "CV and admission-document review",
+          "noteZh": "",
+          "noteEn": "The current linked checklist has a MATSL-specific CV requirement. Research-proposal requirements in the neighbouring section belong to another named programme and are not imported into MATSL. SUSS assesses documents, any prescribed interview/evaluation and cohort applicability; the platform does not collect or submit CVs or credentials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Teaching experience is an advantage",
+          "noteZh": "",
+          "noteEn": "English-language teaching experience can strengthen an application but is expressly not required. Career switchers and novice instructors are included; no minimum employment period or teacher-training diploma is added.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Award GPA and optional project",
+          "noteZh": "",
+          "noteEn": "The master award CGPA is 3.0; certificate/diploma award CGPA is 2.5, neither being undergraduate entry GPA. TSL599/TSL688 are study-project options, not a universal admission research proposal.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Teacher certification and candidature limit",
+          "noteZh": "",
+          "noteEn": "The university expressly states that the programme does not certify candidates as teachers. CET study after exceeding candidature does not restore the qualification. Teaching skill development is not a teacher-registration guarantee.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring intake months and fee-table year do not identify a specific admission cohort.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Explicit fields are comparable; other fields and qualification recognition need individual assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; award GPA differs by award level.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Degree-field assessment, native/medium external evidence and general ELPR must be resolved separately.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Text quote needs cohort, category, funding and PDF-column confirmation.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Rolling review and recurring intakes do not verify opening or exact close.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl",
+          "purpose": "Canonical programme: degree fields/alternatives, separate language gates, teaching-experience preference, pathways and teacher-certification limit",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Explicit coursework classification under SHBS and international Student Pass context",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional general ELPR and credited deposit",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "Current linked document checklist, general calendar caveats and category application fees",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "Page-4 MATSL-specific CV row; adjacent research-proposal requirements belong to another named programme; text only",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5",
+          "purpose": "Page-5 text: 60-CU course/project structure and separate master/certificate/diploma award GPA; diagram not visually inspected",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course billing, miscellaneous categories and extras",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Page-4 Applied Linguistics text quote and page-7 tax/eligibility/as-of notes; no visual column verification",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "researchBatch": "suss-matsl-first-check-2026-10-27"
     }
   ]
 }
