@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P029",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Sustainability Management",
+    "award": "MESG",
+    "coursework": true,
+    "credits": 60,
+    "certificateDiplomaNotRequiredFirst": true,
+    "notDuplicateCertificateOrDiploma": true
+  },
+  "pathways": {
+    "regular": {
+      "nominalYears": 2,
+      "maximumYearsFromFaq": 4,
+      "residentEligibilityRequired": true
+    },
+    "accelerated": {
+      "years": 1,
+      "cuPerSemester": 30,
+      "internationalApplicantsIncluded": true,
+      "singaporeEmploymentRequired": false,
+      "validStudentPassRequired": true,
+      "separateMaximumYears": null,
+      "extensionNotEstablished": true
+    },
+    "ftPtMode": null,
+    "faceToFaceTeaching": true,
+    "eveningAndSaturdayClasses": true,
+    "remoteEnrolmentNotEstablished": true,
+    "nationalityDoesNotEstablishResidenceOrPermission": true
+  },
+  "cycle": {
+    "recurringProgrammeIntakeMonths": [
+      "January",
+      "July"
+    ],
+    "programmeSpecificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalCalendarOnly": [
+      {
+        "intake": "January 2027",
+        "submitBy": "2026-10-15"
+      },
+      {
+        "intake": "July 2027",
+        "submitBy": "2027-04-15"
+      }
+    ],
+    "earlierProgrammeClosingCaveat": true,
+    "generalCalendarNotAssignedToTrack": true,
+    "livePortalChecked": false
+  },
+  "requirements": {
+    "freshGraduatesInIntendedAudience": true,
+    "numericEntryGpa": null,
+    "graduateAwardCgpaNotEstablishedInConsultedMesgText": true,
+    "minimumWorkYears": null,
+    "exhaustiveAcceptedMajorList": null,
+    "cvEncouraged": true,
+    "programmeCvMandatoryNotEstablished": true,
+    "financeMajorAndStatisticsPrerequisiteNotImported": true,
+    "volunteerPreferenceNotEstablishedHere": true,
+    "gmatGreRequirementNotEstablishedHere": true,
+    "interviewsDiscretionary": true,
+    "capstone": {
+      "choices": [
+        "MGT598 Management Internship",
+        "MGT599 Management Consulting Project"
+      ],
+      "requiredNumber": 1,
+      "bothRequired": false,
+      "neitherRequired": false,
+      "studyStageNotPreEntryExperience": true,
+      "credits": 10
+    },
+    "english": {
+      "applicabilityDependsOnUndergraduateMediumAndInstruction": true,
+      "ieltsAcademic": 6.5,
+      "internetToeflUnversioned": 85,
+      "pteAcademic": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "newToeflScaleNotConverted": true,
+      "automaticWaiver": false,
+      "ieltsUniversalExpiryMonths": null,
+      "numericRuleNotAutomatedBecauseApplicabilityUnresolved": true
+    }
+  },
+  "fees": {
+    "tableYear": "2026/2027",
+    "tableAccurateAsOf": "2026-10-16",
+    "currency": "SGD",
+    "excludesGst": true,
+    "masterTuition": {
+      "scPr": 31680,
+      "otherResidents": 38016,
+      "conditionalSubsidisedAsLowAs": 19800
+    },
+    "financeSubsidy18612NotInherited": true,
+    "certificateDiplomaPricesNotSubstituted": true,
+    "subsidyNotDefault": true,
+    "applicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "residentCategories": 20,
+      "internationalStudentPassCategory": 530
+    },
+    "acceptanceDeposit": {
+      "amount": 2000,
+      "includesGst": true,
+      "creditedToFirstSemester": true,
+      "notAdditionalTuition": true
+    },
+    "personalDefaultTuition": null
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management",
+      "purpose": "MESG coursework identity, pathway/residence distinction, encouraged CV, capstone alternatives and face-to-face teaching",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "MESG listed as coursework; international conditional ELPR and Student Pass policy",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional English/waivers, individual assessment and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General 2027 calendar with earlier-programme caveat and category application fees",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Semester billing, funding eligibility, category miscellaneous fees and extras",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Text-readable Sustainability Management master row on PDF page 4 and same-day previously read page-7 notes; no new visual check",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousPartialProgrammeObjects": 36,
+    "sourceDatesNotRestamped": true,
+    "pdfTextPagesConsulted": [
+      4,
+      7
+    ],
+    "page7PolicyPreviouslyReadSameDay": true,
+    "pdfVisualVerificationNotClaimed": true,
+    "noNewPdfDownloadClaimed": true,
+    "progressionImageNotVisuallyRead": true,
+    "brochureReadNotClaimed": true,
+    "directoryReadNotNewlyClaimed": true
+  }
+}

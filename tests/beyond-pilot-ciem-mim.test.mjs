@@ -149,7 +149,7 @@ test('an existing file-backed catalogue with directory metadata loads both first
     db.close(); db = null; writeFileSync(checkedPath, JSON.stringify(batch)); db = new CatalogueStore(path, { ...options, checkedPath });
     assert.equal(db.get(hk.id).verification, 'programme_page_checked'); assert.equal(db.get(sm.id).verification, 'programme_page_checked');
     assert.deepEqual(db.get(hk.id).directoryListing, directory); assert.deepEqual(db.get('HK-HKUST-P002'), oldProgramme);
-    assert.equal(db.quality().checked, 36); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
+    assert.equal(db.quality().checked, 37); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
     const routeIndex = loadRoutes(routePath, db.all()); assert.deepEqual(applicantSummary(loadApplicantContexts(contextPath, db.all(), routeIndex)), { studyOptions: 18, categories: 38, peerReviewed: 0 });
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -157,7 +157,7 @@ test('an existing file-backed catalogue with directory metadata loads both first
 test('read-only views do not inflate record totals, independent review, completed requirements or programme-source dates', async () => {
   const before = JSON.stringify(store.all());
   for (const p of [hk, sm]) { programmeTimeline(p, '2026-10-24'); matchProgramme(p, profile); }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 36);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 37);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 18, categories: 38, peerReviewed: 0 });
   assert.equal(JSON.stringify(store.all()), before);

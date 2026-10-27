@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-27）
 
+同日 SUSS MESG 首查：部分项目页记录增至 37，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。CV 鼓励提交，实习／咨询项目为毕业二选一；国际生加速路径不要求先在新加坡就业，但仍须有效学生准证。费用类别、语言适用范围及具体批次保持待确认。见 [依据](../docs/research/suss-mesg-first-check-2026-10-27.md)、[60 单元新快照](../docs/research/source-review-queue-2026-10-27-suss-mesg.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mesg.md)。原 36 个对象和历史记录不改写；以下为较早批次。
+
 同日 SUSS MFIN 首查：部分项目页记录增至 36，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。专业例子支持直接比较，相关专业等同和统计课程仍须评估；保留可能补修而非自动拒绝。职业考试豁免、双学位学分／论文／瑞郎费用与入学门槛分开。见 [来源](../docs/research/suss-mfin-first-check-2026-10-27.md)、[59 单元新快照](../docs/research/source-review-queue-2026-10-27-suss-mfin.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mfin.md)。原 35 个对象及历史记录不改写；以下为较早批次。
 
 同日 SUSS MDMK 首查：部分项目页记录增至 35，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。普通 MDMK 与 FHNW 双学位分开；其他学历／相关经验、语言适用范围、身份和招生批次继续保留待确认，不把毕业 CGPA 或志愿偏好作为入学硬门槛。见 [依据](../docs/research/suss-mdmk-first-check-2026-10-27.md)、[58 单元新快照](../docs/research/source-review-queue-2026-10-27-suss-mdmk.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mdmk.md)。原 34 个对象及历史记录保持原样；下文为较早批次。

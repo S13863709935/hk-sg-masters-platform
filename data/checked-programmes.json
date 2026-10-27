@@ -6477,6 +6477,196 @@
         }
       ],
       "researchBatch": "suss-mfin-first-check-2026-10-27"
+    },
+    {
+      "id": "SG-SUSS-P029",
+      "universityId": "SG-SUSS",
+      "name": "Master of Sustainability Management",
+      "award": "MESG",
+      "area": "Business",
+      "faculty": "School of Business",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; cohort, recognition, language applicability, personal fees and independent review unresolved",
+      "lastChecked": "2026-10-27",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 60-CU coursework MESG with regular and accelerated pathways; certificate/diploma stacking does not establish a prior-certificate requirement. Fresh graduates are included in the intended audience. International accelerated applicants do not need employment in Singapore but need the required valid Student Pass. CV is encouraged. Management Internship and Management Consulting Project are alternative graduation capstones: complete one, not both. January/July recur; exact pathway year/dates, FT/PT label and personal tuition remain unconfirmed.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P029-REGULAR",
+          "mode": null,
+          "duration": "Regular pathway: 2 years; FAQ maximum candidature 4 years",
+          "intake": "January / July (recurring; pathway cohort unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January and July recur at programme level. General 2027 university dates carry an earlier-programme caveat and do not establish this specific pathway/cohort window. No exact year, opening or deadline is assigned; live portal not checked.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 Sustainability Management master table before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional SSG amount as low as 19,800. Confirm cohort, applicant category and funding; no default subsidy or certificate/diploma rate. Application: SC/PR 60, others 100 before GST. Annual miscellaneous charges vary by resident or international Student Pass category; extras excluded. Acceptance deposit SGD 2,000 includes GST and credits first-semester tuition, not an extra tuition charge."
+        },
+        {
+          "id": "SG-SUSS-P029-ACCELERATED",
+          "mode": null,
+          "duration": "Accelerated pathway: 1 year; separate maximum/extension not established",
+          "intake": "January / July (recurring; pathway cohort unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January and July recur at programme level. General 2027 university dates carry an earlier-programme caveat and do not establish this specific pathway/cohort window. No exact year, opening or deadline is assigned; live portal not checked.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 Sustainability Management master table before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional SSG amount as low as 19,800. Confirm cohort, applicant category and funding; no default subsidy or certificate/diploma rate. Application: SC/PR 60, others 100 before GST. Annual miscellaneous charges vary by resident or international Student Pass category; extras excluded. Acceptance deposit SGD 2,000 includes GST and credits first-semester tuition, not an extra tuition charge."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or university-accepted equivalent",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification recognition and suitability",
+          "noteZh": "",
+          "noteEn": "A recognised undergraduate qualification or university-accepted equivalent is required. Fresh graduates are included in the programme audience. No exhaustive major whitelist or numeric undergraduate GPA is established in the consulted MESG sources; recognition and suitability still need university assessment.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Pathway, residence and student permission",
+          "noteZh": "",
+          "noteEn": "Regular MESG is restricted to Singapore citizens, PRs or residents in Singapore; accelerated is open to local and international applicants. International accelerated applicants do not need employment in Singapore, but require a valid Singapore Student Pass. Nationality, current study location and work years do not verify residence or permission.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and alternative evidence",
+          "noteZh": "",
+          "noteEn": "ELPR depends on undergraduate university medium and teaching language. Alternatives include IELTS Academic 6.5, internet TOEFL 85, PTE 58, C1 180 (within two years at application) or MUET Band 4 (within five years). Waiver acceptance and unversioned TOEFL applicability need confirmation. No automatic waiver, new-scale conversion or universal IELTS expiry is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Individual selection and remaining evidence",
+          "noteZh": "",
+          "noteEn": "Shortlisted applicants may face interviews or other university evaluation. Programme eligibility, required supporting evidence and recognition remain university decisions; this platform does not collect or submit documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "CV submission is encouraged",
+          "noteZh": "",
+          "noteEn": "The MESG page encourages a CV describing education, training and work; it does not state it as a mandatory programme-specific gate. This does not remove any separate document requirement applied by admissions.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "One graduation capstone, not two prior experiences",
+          "noteZh": "",
+          "noteEn": "MGT598 Management Internship and MGT599 Management Consulting Project are alternative capstones. Complete one of the two towards the 60-CU award; both are not required. This is a study-stage requirement, not proof of pre-entry work or internship. Certificate/diploma stacking is not a prerequisite for all degree applicants.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Teaching format and remaining award conditions",
+          "noteZh": "",
+          "noteEn": "The page describes face-to-face evening/Saturday classes; this does not itself establish a FT/PT label or permission for entirely remote enrolment. Confirm remaining academic award standards and any accelerated maximum/extension with the university.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring January/July months do not establish the specific pathway cohort year.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "No exhaustive field whitelist is established; recognition/suitability still need assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate admission GPA established; other programmes do not supply MESG thresholds.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional ELPR, waiver acceptance and TOEFL version remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Dated category prices are context, not an assigned personal cohort/category/subsidy.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "General university calendar is not a verified pathway window or live opening.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management",
+          "purpose": "MESG coursework identity, pathway/residence distinction, encouraged CV, capstone alternatives and face-to-face teaching",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "MESG listed as coursework; international conditional ELPR and Student Pass policy",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional English/waivers, individual assessment and credited deposit",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General 2027 calendar with earlier-programme caveat and category application fees",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Semester billing, funding eligibility, category miscellaneous fees and extras",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Text-readable Sustainability Management master row on PDF page 4 and same-day previously read page-7 notes; no new visual check",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "researchBatch": "suss-mesg-first-check-2026-10-27"
     }
   ]
 }
