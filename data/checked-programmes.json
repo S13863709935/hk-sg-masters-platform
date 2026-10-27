@@ -5859,6 +5859,210 @@
         }
       ],
       "researchBatch": "suss-maib-first-check-2026-10-27"
+    },
+    {
+      "id": "SG-SUSS-P015",
+      "universityId": "SG-SUSS",
+      "name": "Master of Analytics and Visualisation",
+      "award": "MAVI",
+      "area": "Business",
+      "faculty": "School of Business",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/mavi",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; attendance eligibility, cohort, fees and independent review unresolved",
+      "lastChecked": "2026-10-27",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "The English coursework MAVI remains distinct from Chinese MSDAV and MAIB. Selectable study choices represent Singapore attendance within hybrid teaching. Entirely overseas remote enrolment is contextual only and cannot be treated as a Singapore-campus place or later converted to physical attendance. January/July recur at programme level; track-specific cohort dates are unconfirmed. Applied project is coursework and internship optional; graduate CGPA is not an entry GPA.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P015-REGULAR-SG",
+          "mode": null,
+          "duration": "Singapore attendance, regular track: typical 1.5–2 years; maximum 4 years",
+          "intake": "Programme-level January / July recurrence; track intake and year unconfirmed",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "MAVI advertises January/July intakes. General 2027 university deadlines carry an earlier-programme caveat and do not establish this attendance/track window. No exact day or live opening is assigned.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 MAVI tuition table, before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional SSG amount as low as 17,424. Do not substitute MAIB subsidy pricing, Chinese MSDAV or certificate/diploma rates. Applicant category, funding and cohort price need confirmation. Application: SC/PR 60, others 100 before GST. Annual miscellaneous charges vary by resident or international Student Pass category. Acceptance deposit SGD 2,000 includes GST and offsets first-semester tuition; do not add it twice."
+        },
+        {
+          "id": "SG-SUSS-P015-ACCELERATED-SG",
+          "mode": null,
+          "duration": "Singapore attendance, accelerated track: 1 year; up to 6 additional months only if approved",
+          "intake": "Programme-level January / July recurrence; track intake and year unconfirmed",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "MAVI advertises January/July intakes. General 2027 university deadlines carry an earlier-programme caveat and do not establish this attendance/track window. No exact day or live opening is assigned.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 MAVI tuition table, before GST: SC/PR SGD 31,680; Other Residents 38,016; conditional SSG amount as low as 17,424. Do not substitute MAIB subsidy pricing, Chinese MSDAV or certificate/diploma rates. Applicant category, funding and cohort price need confirmation. Application: SC/PR 60, others 100 before GST. Annual miscellaneous charges vary by resident or international Student Pass category. Acceptance deposit SGD 2,000 includes GST and offsets first-semester tuition; do not add it twice."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification recognition and suitability",
+          "noteZh": "",
+          "noteEn": "Recognised undergraduate qualification or accepted equivalent is required. Prior analytics/programming knowledge is not assumed; qualification and track suitability still require assessment. No exhaustive major whitelist, minimum work years or numeric entry GPA is established.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Singapore attendance and track eligibility",
+          "noteZh": "",
+          "noteEn": "Overseas international applicants seeking physical study in Singapore must choose the accelerated track and obtain the required valid student permission. Citizens, PRs and legal Singapore residents may choose either track. Nationality or current study location alone does not establish legal residence or permission.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Entirely remote enrolment is a separate attendance commitment",
+          "noteZh": "",
+          "noteEn": "Overseas students can enrol wholly remotely in regular or accelerated study, but cannot later switch to physical attendance under that remote enrolment. These entirely remote choices are not selectable Singapore-attendance options here. Hybrid class delivery does not waive attendance or immigration conditions.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and alternative evidence",
+          "noteZh": "",
+          "noteEn": "ELPR depends on undergraduate university medium and teaching language. Stated alternatives are IELTS Academic 6.5, internet TOEFL 85, PTE 58, C1 180 (within two years at application) or MUET Band 4 (within five years). No new TOEFL-scale conversion, automatic waiver or universal IELTS expiry is established. This form cannot verify applicability or waiver acceptance.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Required CV and track interview",
+          "noteZh": "",
+          "noteEn": "Programme admissions interviews assess suitability for the degree and selected track. A CV detailing education, training or work is required. Documents and interview results are university assessments; the platform does not collect or submit them.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Referee contact is optional",
+          "noteZh": "",
+          "noteEn": "Applicants are encouraged to include at least one referee contact, but this is not mandatory. No compulsory reference letter, contact collection or referee verification is invented.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Coursework project, internship and graduation conditions",
+          "noteZh": "",
+          "noteEn": "The master requires 60 CU and award CGPA 3.0, including a taught applied project. Internship is elective, not mandatory prior work experience or a research-master admission route. Certificate/diploma stacking is possible but not an invented entry prerequisite.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Study load and conditional extension",
+          "noteZh": "",
+          "noteEn": "Regular study typically takes 1.5–2 years, with a four-year maximum. Accelerated completion is normally one year; a six-month extension needs individual approval. Hybrid describes delivery, not an explicit FT/PT label for this English programme.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring January/July months do not identify an attendance-specific cohort year.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "No prior analytics/programming assumption; recognition and suitability still need assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; 3.0 is an award condition.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Scores are recorded as alternatives; conditional ELPR and waiver acceptance cannot be inferred.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Dated category prices are context, not a selected applicant/cohort quote or default subsidy.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Recurring intake months and general 2027 calendar do not prove the selected track deadline or live opening.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/mavi"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/mavi",
+          "purpose": "MAVI coursework, hybrid attendance restrictions, recurring intakes and programme-specific admissions",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Separate English MAVI and Chinese MSDAV coursework entries; Student Pass scope and conditional ELPR",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, English evidence/waivers, individual admission and credited deposit",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General 2027 university calendars with earlier-programme caveat, fees and credential verification",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course-based billing, conditional funding, extra and category miscellaneous charges",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Text-readable fee table: MAVI row on PDF page 2 and policy notes on page 7; no visual verification",
+          "checkedOn": "2026-10-27"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_sbiz_brochure_digital.pdf?sfvrsn=b45ccb85_3",
+          "purpose": "Text-only relevant brochure sections on PDF pages 7–8; English MAVI separated from Chinese MSDAV mode labels; no full-brochure review",
+          "checkedOn": "2026-10-27"
+        }
+      ],
+      "researchBatch": "suss-mavi-first-check-2026-10-27"
     }
   ]
 }

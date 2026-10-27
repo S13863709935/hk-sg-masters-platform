@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-27）
 
+同日 SUSS MAVI 首查：部分项目页记录增至 34，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。英语 MAVI 不与中文 MSDAV 或 MAIB 合并；全程境外远程不作为新加坡现场学习选项。保留条件式语言要求、批次日期与个人费用待确认。见 [依据](../docs/research/suss-mavi-first-check-2026-10-27.md)、[57 单元新快照](../docs/research/source-review-queue-2026-10-27-suss-mavi.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-mavi.md)。原 33 个对象和历史记录不改写；以下为较早批次。
+
 同日 SUSS 商业人工智能硕士首查：部分项目页记录为 33，目录 873／默认 870、人工复核与完整要求 0、方向 5、分类证据 18 组／38 类别不变。两条学习路径属于一个原有项目；通用招生日期、身份相关费用、ELPR 适用范围均不自动绑定到个人，毕业 CGPA 不作本科入学门槛。见 [依据与限制](../docs/research/suss-maib-first-check-2026-10-27.md)、[56 单元维护快照](../docs/research/source-review-queue-2026-10-27-suss-maib.md) 和 [核心只读重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-maib.md)。原 32 个对象、冻结数据层与历史快照保留；下面是较早批次记录。
 
 同日 MHSc 后续批次：部分项目页记录为 32，目录 873／默认 870、人工复核与完整要求 0、方向 5、分类证据 18 组／38 类别不变。SIT 目录所列四个授课型硕士均已有部分记录；CSM 硕士入读与单独 MC 学习分开，医疗工作及方向条件仍需判断，月份窗口不转成精确日期。本科 CSM 价格、工程英语分数和单个 MC 的资助不当成 MHSc 全项目条件。见 [依据与限制](../docs/research/sit-mhsc-first-check-2026-10-27.md)、[55 单元维护快照](../docs/research/source-review-queue-2026-10-27-sit-mhsc.md) 和 [核心只读重跑](../docs/research/core-pilot-acceptance-2026-10-27-sit-mhsc.md)。较早同日／历史快照和原 31 个项目对象保持原样；以下数量属于当时记录。

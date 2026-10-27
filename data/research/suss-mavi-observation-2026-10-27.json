@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P015",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Analytics and Visualisation",
+    "award": "MAVI",
+    "coursework": true,
+    "credits": 60,
+    "faculty": "School of Business",
+    "notChineseProgrammeId": "SG-SUSS-P026",
+    "notMaibProgrammeId": "SG-SUSS-P016",
+    "masterInAndMasterOfWordingSameMaviIdentity": true,
+    "certificateDiplomaNotRequiredFirst": true
+  },
+  "delivery": {
+    "hybridSynchronous": true,
+    "campusAttendanceExplicit": true,
+    "entirelyRemoteOverseasExplicit": true,
+    "remoteSwitchToInPersonAllowed": false,
+    "remoteChoicesNotSelectableAsSingaporeAttendance": true,
+    "attendanceCompulsory": true,
+    "ftPtLabelForEnglishMavi": null,
+    "chineseMsDavModeLabelsNotInherited": true,
+    "progressionImageNotVisuallyRead": true
+  },
+  "pathways": {
+    "regular": {
+      "typicalYears": [
+        1.5,
+        2
+      ],
+      "minimumYears": 1.5,
+      "maximumYears": 4,
+      "cuPerSemester": [
+        15,
+        20
+      ],
+      "singaporeAttendanceForCitizensPrLegalResidents": true
+    },
+    "accelerated": {
+      "normalYears": 1,
+      "maximumYearsIfExtensionApproved": 1.5,
+      "extensionAutomatic": false,
+      "cuOverTwoSemesters": 60,
+      "faqCuPerSemester": [
+        25,
+        30
+      ],
+      "overseasInternationalPhysicalAttendanceUsesThisTrack": true,
+      "studentPermissionRequired": true
+    },
+    "nationalityDoesNotEstablishResidenceOrPermission": true
+  },
+  "cycle": {
+    "recurringProgrammeIntakeMonths": [
+      "January",
+      "July"
+    ],
+    "programmeSpecificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalCalendarOnly": [
+      {
+        "intake": "January 2027",
+        "submitBy": "2026-10-15"
+      },
+      {
+        "intake": "July 2027",
+        "submitBy": "2027-04-15"
+      }
+    ],
+    "earlierProgrammeClosingCaveat": true,
+    "generalCalendarNotAssignedToTrack": true,
+    "livePortalChecked": false
+  },
+  "requirements": {
+    "numericEntryGpa": null,
+    "graduateAwardCgpa": 3,
+    "awardCgpaIsNotEntryGpa": true,
+    "priorAnalyticsProgrammingAssumed": false,
+    "minimumWorkYears": null,
+    "exhaustiveAcceptedMajorList": null,
+    "cvRequired": true,
+    "trackInterviewRequired": true,
+    "refereeContactMandatory": false,
+    "refereeContactEncouraged": true,
+    "internshipMandatory": false,
+    "appliedProjectIsCoursework": true,
+    "english": {
+      "applicabilityDependsOnUndergraduateMediumAndInstruction": true,
+      "ieltsAcademic": 6.5,
+      "internetToeflUnversioned": 85,
+      "pteAcademic": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "newToeflScaleNotConverted": true,
+      "automaticWaiver": false,
+      "ieltsUniversalExpiryMonths": null,
+      "numericRuleNotAutomatedBecauseApplicabilityUnresolved": true
+    }
+  },
+  "fees": {
+    "tableYear": "2026/2027",
+    "tableAccurateAsOf": "2026-10-16",
+    "currency": "SGD",
+    "excludesGst": true,
+    "masterTuition": {
+      "scPr": 31680,
+      "otherResidents": 38016,
+      "conditionalSubsidisedAsLowAs": 17424
+    },
+    "maibSubsidyAmountNotInherited": 19800,
+    "chineseCertificateDiplomaRowsNotSubstituted": true,
+    "subsidyNotDefault": true,
+    "applicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "residentCategories": 20,
+      "internationalStudentPassCategory": 530
+    },
+    "acceptanceDeposit": {
+      "amount": 2000,
+      "includesGst": true,
+      "creditedToFirstSemester": true,
+      "notAdditionalTuition": true
+    },
+    "personalDefaultTuition": null,
+    "cohortAndApplicantLinkageUnconfirmed": true
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/mavi",
+      "purpose": "MAVI coursework, hybrid attendance restrictions, recurring intakes and programme-specific admissions",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Separate English MAVI and Chinese MSDAV coursework entries; Student Pass scope and conditional ELPR",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, English evidence/waivers, individual admission and credited deposit",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General 2027 university calendars with earlier-programme caveat, fees and credential verification",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course-based billing, conditional funding, extra and category miscellaneous charges",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Text-readable fee table: MAVI row on PDF page 2 and policy notes on page 7; no visual verification",
+      "checkedOn": "2026-10-27"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_sbiz_brochure_digital.pdf?sfvrsn=b45ccb85_3",
+      "purpose": "Text-only relevant brochure sections on PDF pages 7–8; English MAVI separated from Chinese MSDAV mode labels; no full-brochure review",
+      "checkedOn": "2026-10-27"
+    }
+  ],
+  "preservation": {
+    "previousPartialProgrammeObjects": 33,
+    "sourceDatesNotRestamped": true,
+    "brochureDownloadSucceeded": false,
+    "pdfVisualVerificationNotClaimed": true,
+    "brochurePdfPagesTextConsulted": [
+      7,
+      8
+    ],
+    "notFullBrochureReview": true,
+    "directoryReadNotNewlyClaimed": true
+  }
+}
