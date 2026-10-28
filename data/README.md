@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-28）
 
+同日 SUSS EMBA 首查：部分项目页记录为 53，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。八年总经验可比较，包含的三年管理经验、同等学历和中英语言途径由学校审核；毕业 GPA 不作本科门槛。旧日期与当前区间分开，DBA 留读费用不套用，个人学费未赋值。见 [来源](../docs/research/suss-emba-first-check-2026-10-28.md)、[76 单元快照](../docs/research/source-review-queue-2026-10-28-suss-emba.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-emba.md)。原 52 个对象和日期保留。
+
 同日 SUSS MSSC 首查：部分项目页记录为 52，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。两文凭与项目共 70 学分，研究生 GPA、文凭四年期限、本科资格及已修课程分别核对；不自动批准所有文凭组合或推算个人资助学费。公开 2026-10-16 至 2027-04-15 区间保留，选定批次日期未赋值。见 [来源](../docs/research/suss-mssc-first-check-2026-10-28.md)、[75 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mssc.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mssc.md)。原 51 个对象和日期保留。
 
 同日 SUSS MBX 首查：部分项目页记录为 51，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。两年工作经验可比，年数达到不等于学校批准；教师限定 WSX 模块、GDALL 证书 GPA、两专项及最高资助报价分别核对，不虚设硕士 GPA 或自动减费。见 [来源](../docs/research/suss-mbx-first-check-2026-10-28.md)、[74 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mbx.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mbx.md)。原 50 个对象和日期保留。

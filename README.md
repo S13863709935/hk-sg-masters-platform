@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SUSS EMBA 首查：接入高级工商管理硕士，比较八年工作总年数，三年管理岗位经验单独待确认，不合计成十一年；保留同等资格、杰出职业经历个案及中文语言途径。推荐信、公司资料和博士研究计划分开，旧宣传册日期与当前公开区间不合并，个人学费和具体批次仍待确认。部分项目页记录为 53，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-emba-first-check-2026-10-28.md)、[76 单元快照](docs/research/source-review-queue-2026-10-28-suss-emba.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-emba.md)。原 52 个对象与历史快照保留，本轮仅本地保存。
+
 2026-10-28 同日 SUSS MSSC 首查：接入社会科学硕士，保留两份文凭加研究项目的 70 学分结构；文凭及硕士毕业 GPA 不作本科门槛，四年期限不包含研究项目。国际生须核对所选文凭组合，旧课程学分与已付费用不自动抵扣。公开日期区间保留在说明中，具体批次和个人费用待确认。部分项目页记录为 52，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mssc-first-check-2026-10-28.md)、[75 单元快照](docs/research/source-review-queue-2026-10-28-suss-mssc.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mssc.md)。原 51 个对象与历史快照保留，本轮仅本地保存。
 
 2026-10-28 同日 SUSS MBX 首查：接入跨界学习与领导力硕士，对照两年工作经验，保留学校审核及居民身份要求；文凭 GPA、教师专属替代模块和最高 SSG 报价不套成统一入学条件或个人费用。两专项与证书堆叠仍为一个硕士，具体批次和个人适用待确认。部分项目页记录为 51，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mbx-first-check-2026-10-28.md)、[74 单元快照](docs/research/source-review-queue-2026-10-28-suss-mbx.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mbx.md)。原 50 个对象与历史快照保留，本轮仅本地保存。
