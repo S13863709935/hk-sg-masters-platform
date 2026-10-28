@@ -12075,6 +12075,231 @@
         }
       ],
       "researchBatch": "smu-maf-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SMU-P002",
+      "universityId": "SG-SMU",
+      "name": "Master of Science in Accounting",
+      "award": "MSc",
+      "area": "Accounting",
+      "faculty": "School of Accountancy",
+      "officialUrl": "https://masters.smu.edu.sg/programme/master-in-accounting",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official-source observation; degree/background, test alternatives, English proof, track/mode/status and personal fee applicability need confirmation",
+      "lastChecked": "2026-10-28",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One coursework MSA with Data & Analytics and Applied Artificial Intelligence tracks, distinct from MPA. A mode choice does not select or verify a track. Quantitative/background evidence needs assessment rather than a strict major-name gate. Relevant work is advantageous, not compulsory. Published scholarship and alumni-test GPA figures are not universal entry GPA floors. Current 15-CU structure is retained separately from unreconciled calendar module counts; no automatic CA/CPA status, exemption discount or internship placement is claimed.",
+      "offerings": [
+        {
+          "id": "SG-SMU-P002-AUG2027-FT",
+          "mode": "Full-time",
+          "duration": "12-18 months; individual track/exemption plan needs confirmation",
+          "intake": "August 2027 (one annual intake)",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "PHASE-1",
+              "label": "Phase 1",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-31",
+              "deadlineAt": null
+            },
+            {
+              "id": "PHASE-2",
+              "label": "Phase 2",
+              "applicationOpen": "2027-01-01",
+              "deadline": "2027-03-31",
+              "deadlineAt": null
+            },
+            {
+              "id": "PHASE-3",
+              "label": "Phase 3",
+              "applicationOpen": "2027-04-01",
+              "deadline": "2027-06-30",
+              "deadlineAt": null
+            }
+          ],
+          "deadlineNote": "August 2027 only. Main programme and public application landing agree on Phase 1: 1 September-31 December 2026; Phase 2: 1 January-31 March 2027; Phase 3: 1 April-30 June 2027. All supporting documents including relevant test scores must arrive by the applicable phase deadline. No exact cutoff time is established; generic May/June FAQ or another programme does not replace these dates. Calendar comparison is not live portal, capacity or eligibility verification.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": 100,
+          "feeBasis": "Published base tuition is SGD 63,220 inclusive of GST; confirm the applicable incoming cohort, track, category and funding before a personal total. Application is SGD 100 inclusive of GST, non-refundable. The 8,000 deposit is explicitly inclusive of GST and credited to first tuition billing, not extra tuition; do not copy the Economics exclusive-GST deposit. AY2027 annual miscellaneous fees are 400 SC/PR or 480 international, excluding GST. Full-time billing is Terms 1/2; part-time Terms 1/4. Exemptions do not reduce tuition per FAQ. Scholarships/discounts are assessed separately, not automatic admission eligibility or stacked reductions. Personal tuition remains unassigned."
+        },
+        {
+          "id": "SG-SMU-P002-AUG2027-PT",
+          "mode": "Part-time",
+          "duration": "24 months; individual track plan needs confirmation",
+          "intake": "August 2027 (one annual intake)",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "PHASE-1",
+              "label": "Phase 1",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-31",
+              "deadlineAt": null
+            },
+            {
+              "id": "PHASE-2",
+              "label": "Phase 2",
+              "applicationOpen": "2027-01-01",
+              "deadline": "2027-03-31",
+              "deadlineAt": null
+            },
+            {
+              "id": "PHASE-3",
+              "label": "Phase 3",
+              "applicationOpen": "2027-04-01",
+              "deadline": "2027-06-30",
+              "deadlineAt": null
+            }
+          ],
+          "deadlineNote": "August 2027 only. Main programme and public application landing agree on Phase 1: 1 September-31 December 2026; Phase 2: 1 January-31 March 2027; Phase 3: 1 April-30 June 2027. All supporting documents including relevant test scores must arrive by the applicable phase deadline. No exact cutoff time is established; generic May/June FAQ or another programme does not replace these dates. Calendar comparison is not live portal, capacity or eligibility verification.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": 100,
+          "feeBasis": "Published base tuition is SGD 63,220 inclusive of GST; confirm the applicable incoming cohort, track, category and funding before a personal total. Application is SGD 100 inclusive of GST, non-refundable. The 8,000 deposit is explicitly inclusive of GST and credited to first tuition billing, not extra tuition; do not copy the Economics exclusive-GST deposit. AY2027 annual miscellaneous fees are 400 SC/PR or 480 international, excluding GST. Full-time billing is Terms 1/2; part-time Terms 1/4. Exemptions do not reduce tuition per FAQ. Scholarships/discounts are assessed separately, not automatic admission eligibility or stacked reductions. Personal tuition remains unassigned."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor from a recognised institution",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor, good performance and quantitative background",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor with good prior academic performance is required; the FAQ says a higher/professional qualification without a bachelor does not replace it. Main admissions requires sufficient Mathematics/Calculus; header/FAQ mentions Accounting/Finance/Statistics/Business. The FAQ assesses background through alternative evidence such as GMAT quantitative at least the 60th percentile, satisfactory university mathematics, two polytechnic mathematics courses with minimum B, or acceptable GCE mathematics/equivalent. Do not turn these alternatives into a mandatory Accounting major, require all at once or infer transcript adequacy from major/GPA alone. No universal numeric undergraduate GPA or compulsory work years are established.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Admission test alternatives and recent-alumni evidence",
+          "noteZh": "",
+          "noteEn": "GMAT, GRE or SMU Admission Test are alternatives. Explicit recent-alumni exceptions list SMU CGPA 3.0/4.0, or SUTD/NUS/NTU/SUSS/SIT 3.5/5.0 within five graduation years. Read the blanket test sentence with those exceptions; SMU may still request a test, and GPA alone does not establish institution/year or admission. Main guidance quotes GMAT 600, GMAT Focus 595 and GRE verbal+quantitative 312 for competitiveness; FAQ labels them minimums. Retain wording differences without cross-version conversion or treating GMAT as universal when another accepted route applies. GMAT/GRE must be within five years before application submission, not rolling from today. Optional SMUAT fee 125 is separate from the 100 application fee; its tax basis is not established here.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conditional English evidence, two TOEFL scales and submission-time validity",
+          "noteZh": "",
+          "noteEn": "For undergraduate studies not taught in English, the programme explicitly publishes TOEFL 90 or Band 4.5, or IELTS 6.5. These are separate university-published alternatives, not a platform conversion. Either test must be within two years before application submission. FAQ undergraduate/graduate-medium wording and accepted language-proof exceptions require individual assessment; the profile does not establish the actual teaching language or intended submission date. High scores or a self-reported waiver do not prove accepted evidence. Do not use another programme threshold, score version or validity anchor.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Materials, statement, referees and selection interview",
+          "noteZh": "",
+          "noteEn": "Published materials include resume, undergraduate degree and transcript, passport, applicable test reports and additional supporting documents. The FAQ also requires a personal statement explaining programme/career fit, with no programme-specific word limit established here. Do not inherit MAF two 500-600-word statements. Two referee details are supplied and the university invites reports after an actual application; the list allows colleagues, superiors or friends, not a universal academic/work pair. Shortlisted applicants are interviewed. Supporting documents/test scores are due by the applicable phase. This platform does not write, collect, email or submit applicant/referee materials.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Track, mode, work preference and accepted pass",
+          "noteZh": "",
+          "noteEn": "Data & Analytics and Applied Artificial Intelligence are tracks within one MSA; a full/part-time choice does not establish track selection or all track-specific applicability. Relevant work is an advantage, not a compulsory numeric minimum or the historical cohort average. Foreign part-time applicants need an accepted employment/dependent pass per FAQ; personal status and mode eligibility need confirmation. General Student Pass assistance does not establish part-time sponsorship or approval. The platform does not decide immigration or professional recognition.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Personal tuition, inclusive deposit and annual miscellaneous fees",
+          "noteZh": "",
+          "noteEn": "Published base tuition is SGD 63,220 inclusive of GST; confirm the applicable incoming cohort, track, category and funding before a personal total. Application is SGD 100 inclusive of GST, non-refundable. The 8,000 deposit is explicitly inclusive of GST and credited to first tuition billing, not extra tuition; do not copy the Economics exclusive-GST deposit. AY2027 annual miscellaneous fees are 400 SC/PR or 480 international, excluding GST. Full-time billing is Terms 1/2; part-time Terms 1/4. Exemptions do not reduce tuition per FAQ. Scholarships/discounts are assessed separately, not automatic admission eligibility or stacked reductions. Personal tuition remains unassigned.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Current curriculum, internship choices and professional distinction",
+          "noteZh": "",
+          "noteEn": "Current programme/FAQ structure totals 15 CU: 8 core, 4 track electives including SMU-X, 2 open electives and 1 professional development. Calendar module counts do not fully reconcile and need the actual study plan. Full-time is 12-18 months, part-time 24; no automatic acceleration follows from GPA. Open choices allow two electives or elective plus internship; when taken the internship minimum is ten weeks, not required prior work or a guaranteed placement. MSA FAQ says this programme does not provide CA/CPA accreditation and directs that aim to MPA; no professional status or sibling award-GPA rule is imported.",
+          "mandatory": false,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Dated phases and joint supporting-document deadlines",
+          "noteZh": "",
+          "noteEn": "August 2027 only. Main programme and public application landing agree on Phase 1: 1 September-31 December 2026; Phase 2: 1 January-31 March 2027; Phase 3: 1 April-30 June 2027. All supporting documents including relevant test scores must arrive by the applicable phase deadline. No exact cutoff time is established; generic May/June FAQ or another programme does not replace these dates. Calendar comparison is not live portal, capacity or eligibility verification.",
+          "mandatory": false,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/MSA/Apply_now"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Programme and public application landing explicitly identify August 2027.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Sufficient background has course/test alternatives; accepted subject evidence and track applicability need assessment.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established; alumni test substitutes/scholarships are separate.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Published 90/Band 4.5/IELTS 6.5 and two-year submission-time rule retained; instruction-language/evidence applicability unresolved.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Base quote retained, but personal cohort/track/category/funding and linked fee page remain unresolved.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three dated 2027-intake phases and supporting-score deadlines agree; exact times/live portal not checked.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/MSA/Apply_now"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; zero independent human reviews.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/master-in-accounting",
+          "purpose": "Current MSA identity/two tracks, degree and quantitative-background assessment, conditional versioned English scores/validity, test substitutes, phase dates, fees, materials and programme/FAQ distinctions",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/MSA/Apply_now",
+          "purpose": "Public landing corroborates August 2027 and all three dated application phases with supporting-score deadlines; no registration/login entered",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "smu-msa-first-check-2026-10-28"
     }
   ]
 }

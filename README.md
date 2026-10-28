@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SMU 会计 MSA 首查：部分项目页记录为 64，原 63 个对象不变。数学／会计等背景有课程或考试证据替代，不按本科专业名硬拒；校友免试和奖学金 GPA 不作通用入学线。八月 2027 两种模式保留三阶段日期、材料共同截止与无精确时点限制；TOEFL 90／Band 4.5 为官网分别列出，非平台换算。Data & Analytics／Applied AI 是同一 MSA 的方向，不混同 MPA 或自动给予 CA／CPA。见 [依据](docs/research/smu-msa-first-check-2026-10-28.md)、[87 单元快照](docs/research/source-review-queue-2026-10-28-smu-msa.md) 和 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-msa.md)。目录 873／默认 870、零独立复核不变，本轮仅本地保存。
+
 2026-10-28 同日 SMU 应用金融 MAF 首查：部分项目页记录为 63，原 62 个对象不变。应届／不限专业、非全日经验偏好不变成硬门槛；中英文校友 GPA 免试 3.0／3.4 分歧和语言版本继续待确认。仅八月入学，2026 年九月至 2027 年五月为月份窗口，不补造首末日；18／24 月页首与旧学制差异保留。两份陈述、两位推荐人及指示性费用单独记录。见 [依据](docs/research/smu-maf-first-check-2026-10-28.md)、[86 单元快照](docs/research/source-review-queue-2026-10-28-smu-maf.md) 和 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-maf.md)。873／870 目录、零独立复核不变，本轮仅本地保存。
 
 2026-10-28 同日 SMU 经济学院首查：接入既有 MSE、MDSE、MSFE 三个项目，部分项目页记录为 62。院校／毕业年份限定的校友 GPA 替代考试条件不当作通用入学线；MSE／MSFE 软性分数指引不变成语言硬门槛。MSE／MSFE 一月 2027 截止日记为 10 月 31 日，MDSE 同页 10 月／11 月冲突保留待确认；北京合作项目不加入港新选项。个人学费继续待核对，保留各批次报价及押金抵扣说明。见 [依据](docs/research/smu-econ-first-check-2026-10-28.md)、[85 单元快照](docs/research/source-review-queue-2026-10-28-smu-econ.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-econ.md)。原 59 个对象、873／870 目录规模和零独立复核不变，本轮仅本地保存。

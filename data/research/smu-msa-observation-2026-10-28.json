@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SMU-P002",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Science in Accounting",
+    "school": "School of Accountancy",
+    "distinctFromMpa": true,
+    "tracks": [
+      "Data & Analytics",
+      "Applied Artificial Intelligence"
+    ],
+    "trackChoiceNotEstablishedByModeOrMajor": true,
+    "notTwoExtraDegrees": true
+  },
+  "entry": {
+    "recognisedBachelorRequired": true,
+    "professionalOrHigherQualificationWithoutBachelorNotAcceptedInFaq": true,
+    "goodAcademicPerformanceQualitative": true,
+    "universalNumericUndergraduateGpa": null,
+    "relevantWorkAdvantageNotRequired": true,
+    "admissionsBackgroundWording": "Sufficient Mathematics/Calculus background",
+    "headerFaqBackgroundWording": "Sufficient Accounting/Finance/Statistics/Business background",
+    "faqBackgroundEvidenceAlternatives": [
+      "GMAT quantitative at least 60th percentile",
+      "Satisfactory university mathematics courses",
+      "At least two polytechnic mathematics courses with minimum B",
+      "Acceptable GCE A/O-level mathematics or equivalent"
+    ],
+    "backgroundNotStrictUndergraduateMajorList": true,
+    "workCohortAverageNotEntryFloor": true,
+    "scholarshipGpaThresholdsNotAdmissionGpa": true
+  },
+  "tests": {
+    "alternatives": [
+      "GMAT",
+      "GRE",
+      "SMU Admission Test"
+    ],
+    "recentAlumniSubstitutes": [
+      {
+        "institutions": [
+          "SMU"
+        ],
+        "minimum": 3.0,
+        "scale": 4.0,
+        "withinGraduationYears": 5
+      },
+      {
+        "institutions": [
+          "SUTD",
+          "NUS",
+          "NTU",
+          "SUSS",
+          "SIT"
+        ],
+        "minimum": 3.5,
+        "scale": 5.0,
+        "withinGraduationYears": 5
+      }
+    ],
+    "testMayStillBeRequested": true,
+    "blanketTestSentenceReadWithExplicitExceptions": true,
+    "publishedGuidance": {
+      "gmat": 600,
+      "gmatFocus": 595,
+      "greVerbalPlusQuantitative": 312
+    },
+    "mainCompetitiveVersusFaqMinimumWordingDiffers": true,
+    "noCrossVersionConversionOrUniversalGmatRequirement": true,
+    "gmatGreValidityYearsBeforeApplicationSubmission": 5,
+    "optionalSmuAtFee": 125,
+    "testFeeTaxBasisNotEstablished": true
+  },
+  "language": {
+    "conditionalOnNonEnglishUndergraduateInstruction": true,
+    "mainPublishedAlternatives": {
+      "toeflOldScore": 90,
+      "toeflBand": 4.5,
+      "ielts": 6.5
+    },
+    "publishedBothToeflValuesNotPlatformConversion": true,
+    "validityYearsBeforeApplicationSubmission": 2,
+    "faqUndergraduateOrGraduateMediumWordingNeedsIndividualAssessment": true,
+    "noAutomaticWaiverFromHighScoreOrSelfReportedMedium": true
+  },
+  "cycle": {
+    "intake": "August 2027",
+    "oneAnnualIntake": true,
+    "applicationOpen": "2026-09-01",
+    "finalDeadline": "2027-06-30",
+    "phases": [
+      {
+        "id": "PHASE-1",
+        "label": "Phase 1",
+        "applicationOpen": "2026-09-01",
+        "deadline": "2026-12-31",
+        "deadlineAt": null
+      },
+      {
+        "id": "PHASE-2",
+        "label": "Phase 2",
+        "applicationOpen": "2027-01-01",
+        "deadline": "2027-03-31",
+        "deadlineAt": null
+      },
+      {
+        "id": "PHASE-3",
+        "label": "Phase 3",
+        "applicationOpen": "2027-04-01",
+        "deadline": "2027-06-30",
+        "deadlineAt": null
+      }
+    ],
+    "supportingDocumentsAndTestScoresDueByApplicablePhase": true,
+    "exactCutoffTimes": null,
+    "genericMayJuneFaqNotOverrideDatedPhases": true,
+    "livePortalChecked": false
+  },
+  "study": {
+    "fullTimeMonths": [
+      12,
+      18
+    ],
+    "partTimeMonths": 24,
+    "currentCu": {
+      "core": 8,
+      "trackElectivesIncludingSmuX": 4,
+      "openElectivesIncludingInternship": 2,
+      "professionalDevelopment": 1
+    },
+    "calendarModuleCountsDoNotFullyReconcileWithCurrentStructure": true,
+    "internshipElectiveNotUniversalPriorWorkRequirement": true,
+    "internshipMinimumWeeksWhenTaken": 10,
+    "twoOpenElectivesOrElectivePlusInternship": true,
+    "noGuaranteedPlacement": true,
+    "noAutomaticCaCpaFromMsa": true,
+    "faqCaCpaNonAccreditationStatementNotIndependentProfessionalVerification": true,
+    "tuitionNotReducedForExemptions": true,
+    "noSiblingAwardGpaImported": true
+  },
+  "documents": {
+    "resume": true,
+    "undergraduateDegreeAndTranscript": true,
+    "passport": true,
+    "twoReferees": true,
+    "faqPersonalStatementCareerRationale": true,
+    "programmeStatementWordLimit": null,
+    "noMafTwoStatementLengthInherited": true,
+    "refereesMayBeColleaguesSuperiorsOrFriendsPerPublishedList": true,
+    "shortlistedInterview": true,
+    "platformDoesNotCollectWriteEmailOrSubmitMaterials": true
+  },
+  "eligibility": {
+    "foreignPartTimeEmploymentOrDependentPass": true,
+    "personalAcceptedStatusNeedsAssessment": true,
+    "generalStudentPassHelpNotAutomaticPartTimeSponsorshipOrApproval": true
+  },
+  "fees": {
+    "publishedTuitionInclusiveGst": 63220,
+    "applicationInclusiveGstNonrefundable": 100,
+    "depositInclusiveGst": 8000,
+    "depositCreditedToFirstBillNotAddedAgain": true,
+    "ay2027AnnualMiscExclusiveGst": {
+      "scPr": 400,
+      "international": 480
+    },
+    "billingTerms": {
+      "fullTime": [
+        1,
+        2
+      ],
+      "partTime": [
+        1,
+        4
+      ]
+    },
+    "personalCohortTrackCategoryAndFundingUnresolved": true,
+    "personalTuition": null,
+    "scholarshipThresholdsNotAdmissionOrAutomaticPriceReduction": true,
+    "noAutomaticDiscountStacking": true
+  },
+  "sourceLimitations": {
+    "htmlOnly": true,
+    "brochurePdfNotRead": true,
+    "applicationPortalNotEntered": true,
+    "linkedFeeEndpointUnread": "https://accountancy.smu.edu.sg/master-accounting/admissions/fees",
+    "linkedFeeEndpointError": "Web fetch cache miss; no linked-page content read",
+    "independentHumanReview": false,
+    "currentProfessionalOrImmigrationRulesNotIndependentlyVerified": true
+  },
+  "sources": [
+    {
+      "url": "https://masters.smu.edu.sg/programme/master-in-accounting",
+      "purpose": "Current MSA identity/two tracks, degree and quantitative-background assessment, conditional versioned English scores/validity, test substitutes, phase dates, fees, materials and programme/FAQ distinctions",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programme/MSA/Apply_now",
+      "purpose": "Public landing corroborates August 2027 and all three dated application phases with supporting-score deadlines; no registration/login entered",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-smu-maf.md": "f3d615838fb6f089fbb0b87dc26e8fb4d237c1dc8588be4ceeb27468ea954c6d",
+      "docs/research/core-pilot-acceptance-2026-10-28-smu-maf.md": "c0a15e3da2104b69d65c5b1777c126c984ccfe0c52a78160a6f61e68744615e6"
+    }
+  }
+}
