@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-28）
 
+同日 SUSS MPSY 首查：部分项目页记录为 46，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。心理学学历和经验比较保留相关性／FAQ 矛盾核查；组织／法证方向、条件式桥接、国际生实习安排与临床硕士分开，MOE 年费及桥接价格不合成个人总价。见 [来源](../docs/research/suss-mpsy-first-check-2026-10-28.md)、[69 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mpsy.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mpsy.md)。原 45 个对象和日期不改写。
+
 2026-10-28 SUSS MGSS 首查：部分项目页记录为 45，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。毕业 GPA 2.5/5 与 3.0、项目 5 与 10 学分的官方差异保留待确认，不套作本科门槛。当前材料、条件式背书及国际生准证分开核对。见 [来源](../docs/research/suss-mgss-first-check-2026-10-28.md)、[68 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mgss.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mgss.md)。批次日期推进至实际 28 日，此前 44 个项目对象和日期保留。
 
 ## 2026-10-27 历史批次

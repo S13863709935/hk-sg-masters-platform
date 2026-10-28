@@ -8270,6 +8270,232 @@
         }
       ],
       "researchBatch": "suss-mgss-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SUSS-P006",
+      "universityId": "SG-SUSS",
+      "name": "Master of Psychology",
+      "award": "MPSY",
+      "area": "Health",
+      "faculty": "School of Humanities and Behavioural Sciences",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; psychology-title recognition, relevant work, honours/bridge, track citizenship, English, practicum and personal fees unresolved",
+      "lastChecked": "2026-10-28",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 60-CU coursework MPSY with Organisational and Forensic tracks, separate from Clinical Psychology. Formal admissions and the school brochure require a psychology undergraduate degree and at least two years of relevant work; honours is preferred, with conditional PRCPSY preparation for non-honours psychology graduates. A contradictory credit-exemption FAQ sentence is retained for clarification rather than creating a non-psychology entry route. Organisational accepts international applicants; Forensic is restricted to Singapore citizens/PRs. The 1000-hour practicum and award/bridging GPA are study conditions. Track choice, qualification recognition, work relevance and English evidence need university confirmation.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P006-MPSY",
+          "mode": null,
+          "duration": "Master candidature 2-4 years; conditional PRCPSY timing and track/study approval need confirmation",
+          "intake": "January (one annual intake; applicable cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January is the annual MPSY intake. General university July calendars and fee-table years do not create another intake or exact application window. No programme-specific year/open/close is confirmed and no live portal check was performed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "AY2026/27 MOE table text has annual subsidised rates SC SGD 6,950 / PR 14,100 and no international subsidy amount. Actual amounts depend on modules, cohort, funding history, tax and track. Starred non-subsidised quotes require footnote/column-unit reconciliation and are not assigned as annual or full-degree personal totals. A Forensic international price column does not establish international admission, which the programme restricts. Self-funded psychology prerequisite text quotes are 8,350/10,020 before GST; price unit and PRCPSY position remain unresolved, so no automatic bridge/diploma addition is made. General application fees are 60 for SC/PR or 100 for other applicants before GST. Annual miscellaneous fees: residents 20 or international Student Pass students 530 before GST; the Clinical resident rate is separate. General acceptance deposit SGD 2,000 includes GST and credits first-semester tuition."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Undergraduate degree from a recognised institution",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Psychology undergraduate degree in formal admission requirements",
+          "accepted": [
+            "Psychology"
+          ],
+          "relatedAllowed": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "experience",
+          "labelZh": "",
+          "labelEn": "At least two years of work; related-field relevance needs confirmation",
+          "min": 2,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Psychology recognition, work relevance and contradictory FAQ",
+          "noteZh": "",
+          "noteEn": "Formal admissions, the specific degree FAQ and the brochure require psychology. Qualification-title equivalence and the relevance of at least two years of work require SUSS assessment; a numeric experience pass does not verify relevance. Another credit-exemption FAQ refers to a non-psychology discipline, contradicting these statements. It is retained for clarification and is not treated as an alternate entry route. A different reported degree label is not a final university rejection.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Honours preference and conditional PRCPSY stage",
+          "noteZh": "",
+          "noteEn": "Honours is preferred, including a brochure preference for second upper or above, not a universal minimum classification. Non-honours psychology graduates need 30 CU of Level-4 PRCPSY preparation with CGPA 3.0. That self-funded bridge awards no separate qualification and is not an undergraduate entry GPA for all applicants. Confirm the stage, recognition and timing; no GPA-scale conversion or automatic bridge completion is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Track eligibility and international study arrangements",
+          "noteZh": "",
+          "noteEn": "Organisational Psychology accepts local and international applicants. Forensic Psychology is restricted to Singapore citizens/PRs; international applicants are not eligible for it. The unresolved parent choice must not inherit one track condition across both. Nationality, residence and Student Pass approval are not verified by the profile or by a fee quote. International graded coursework and PSY501/502/599 must be completed within the first two years; remaining self-sourced hours in years three/four in the country of residence require prior programme approval.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conditional international Organisational English",
+          "noteZh": "",
+          "noteEn": "For international Organisational applicants whose first language or undergraduate instruction medium is not English, the page lists IELTS strictly above 6.5 with each subscore at least 6, internet TOEFL strictly above 85 with writing at least 22, or PBT above 580 with preferred TWE 5. Do not apply this unconditionally to every track/applicant, turn preferred TWE into a minimum, convert TOEFL scales or assume test expiry not stated here. SUSS must confirm the applicant category and accepted evidence.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "General English policy applicability",
+          "noteZh": "",
+          "noteEn": "University ELPR separately depends on undergraduate university medium and instruction language, with IELTS Academic at least 6.5, internet TOEFL 85, PTE 58, C1 180 within two years or MUET Band 4 within five years. General alternatives do not silently replace the international Organisational conditions. No automatic waiver or universal IELTS expiry is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Application materials and shortlisted interviews",
+          "noteZh": "",
+          "noteEn": "Academic transcripts, CV and a personally written statement of interest of at most one page are required. Shortlisted applicants must attend interviews. The current MPSY checklist is separate from the Clinical reference-letter block; those requirements are not inherited. Incomplete applications are not considered. The platform does not collect, write, verify or submit these documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Track and practicum feasibility",
+          "noteZh": "",
+          "noteEn": "Attendance, assessed participation and substantial weekday business-hour practicums/workshops/supervision are compulsory. Local work-study feasibility needs careful scheduling; employment or overseas placements are not promised. Completing in two years normally requires a full-time commitment, without establishing every offered mode. Verify track and approved placement arrangements before relying on the timetable.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Award, practicum and professional scope",
+          "noteZh": "",
+          "noteEn": "The 60-CU master requires award CGPA 3.0/5 and 1000 practicum hours, approximately 500 in PSY501/502/599 plus 500 self-sourced. These are study requirements, not pre-entry work hours. PSY534 is required for Forensic but excluded from Organisational electives; it does not make MPSY the separate Clinical degree. Professional preparation is not an automatic registration or overseas practice guarantee; external rules were not independently checked.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Subsidy, bridge and fee categories",
+          "noteZh": "",
+          "noteEn": "MOE annual/module-based rates, starred track quotes and self-funded PRCPSY costs have distinct applicability. Prior government graduate funding and the applicable cohort/category require review; do not grant a subsidy from citizenship alone, add diploma/bridge quotes automatically or infer Forensic international eligibility from a price column. Personal totals and PDF column/unit reconciliation remain unresolved.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring January and fee cohort labels do not identify a current admission window.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Formal psychology requirement is comparable; recognition/title equivalence and the contradictory credit FAQ still need assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; award and conditional bridge CGPA are separate.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Track/applicant-specific strict English and general ELPR applicability remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Annual, starred track and self-funded bridge quotes require category/credit/tax and visual unit confirmation.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "No exact programme/cohort opening or closing date confirmed.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-psychology",
+          "purpose": "Formal psychology/work requirements, honours bridge, track-specific eligibility/English and practicum/candidature; contradictory exemption FAQ retained",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Separate coursework MPSY/Clinical identities under SHBS and Student Pass context",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional general ELPR and credited deposit",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "Current checklist link, general calendar caveats and application fees; no July MPSY intake inferred",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "Page-4 MPSY CV, one-page statement and transcript; clinical reference-letter block not imported; text only",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5",
+          "purpose": "Page-8 text corroborates psychology degree, honours preference/bridge, 60 CU and 1000 practicum hours; Clinical page remains separate",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course/annual billing context and miscellaneous categories; Clinical resident fee not inherited",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Page-4 self-funded psychology prerequisite/diploma rows are not master totals; page-7 notes; text only",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1",
+          "purpose": "AY2026/27 page-1 MPSY annual/category/track quotes and page-2 tax/unit notes; starred units/columns not visually reconciled",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "suss-mpsy-first-check-2026-10-28"
     }
   ]
 }

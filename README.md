@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SUSS MPSY 首查：接入普通心理学硕士，按正式要求比较心理学本科与两年工作年数，相关性另待确认；荣誉优先与条件式桥接不作统一等级／GPA 门槛。组织／法证方向的资格和语言分开，学习实习不作入学经验。部分项目页记录为 46，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mpsy-first-check-2026-10-28.md)、[69 单元快照](docs/research/source-review-queue-2026-10-28-suss-mpsy.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mpsy.md)。原 45 个对象及日期保留，本轮仅本地保存。
+
 2026-10-28 SUSS MGSS 首查：新增全球安全与战略硕士的部分官方资料，保留项目页／宣传册的毕业 GPA 与项目学分差异，入读／升读位置和个人费用仍待确认。机构背书仅在适用时要求，不设统一就业或临床资质门槛；材料清单不混入相邻研究项目要求。部分项目页记录为 45，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mgss-first-check-2026-10-28.md)、[68 单元快照](docs/research/source-review-queue-2026-10-28-suss-mgss.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mgss.md)。此前 44 个对象及其查阅日期不改写；本轮仅本地保存。
 
 2026-10-27 同日 SUSS MATSL 批次：接入独立应用语言学（TESOL）硕士，列明本科专业可比较，同时分开校内英语评估、母语／授课语言条件及外部成绩。教育学专业符合不等于自动豁免校内评估；教学经验为加分项，当前清单的 CV 要求不混入邻栏研究计划。部分项目页记录为 44，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-matsl-first-check-2026-10-27.md)、[67 单元快照](docs/research/source-review-queue-2026-10-27-suss-matsl.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-27-suss-matsl.md)。原 43 个对象及历史快照保留，本轮仅本地保存。

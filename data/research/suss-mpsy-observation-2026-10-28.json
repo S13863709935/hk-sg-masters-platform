@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SUSS-P006",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Psychology",
+    "award": "MPSY",
+    "faculty": "School of Humanities and Behavioural Sciences",
+    "totalCu": 60,
+    "compulsoryCu": 25,
+    "trackCu": 30,
+    "electiveCu": 5,
+    "tracks": [
+      "Organisational Psychology",
+      "Forensic Psychology"
+    ],
+    "internationalDirectoryClassifiesCoursework": true,
+    "clinicalSiblingNotMerged": "SG-SUSS-P007",
+    "notTwoExtraMasters": true,
+    "gdopNotStackableIntoMaster": true
+  },
+  "requirements": {
+    "psychologyUndergraduateDegreeRequired": true,
+    "mainAdmissionSpecificFaqAndBrochureAgreeOnPsychology": true,
+    "contradictoryDifferentDisciplineCreditFaqRetained": true,
+    "contradictoryFaqNotNewNonPsychologyEntryRoute": true,
+    "honoursPreferred": true,
+    "secondUpperHonoursPreferredInBrochureNotMinimum": true,
+    "minimumRelevantWorkYears": 2,
+    "relevanceNotEstablishedByGenericYearCount": true,
+    "numericUndergraduateEntryGpa": null,
+    "masterAwardCgpa": 3,
+    "awardCgpaScale": 5,
+    "bridging": {
+      "code": "PRCPSY",
+      "conditionalForPsychologyWithoutHonours": true,
+      "cu": 30,
+      "level": 4,
+      "minimumCgpa": 3,
+      "selfFunded": true,
+      "noSeparateCertificateOrQualification": true,
+      "notGpaRequirementForEveryUndergraduate": true,
+      "notAutomaticAdmissionOrHonoursEquivalence": true
+    },
+    "documents": [
+      "Academic transcripts",
+      "CV",
+      "Personally written statement of interest"
+    ],
+    "personalStatementMaximumPages": 1,
+    "interviewsForShortlistedApplicants": true,
+    "clinicalSiblingReferenceLettersNotInherited": true,
+    "platformDoesNotCollectCredentialOrClinicalRecords": true,
+    "generalEnglish": {
+      "conditionalUniversityMediumAndInstruction": true,
+      "ieltsAcademicMin": 6.5,
+      "internetToeflUnversionedMin": 85,
+      "pteAcademicMin": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      }
+    },
+    "internationalOrganisationalEnglish": {
+      "conditionalOnFirstLanguageOrUndergraduateMediumNotEnglish": true,
+      "ielts": {
+        "operator": ">",
+        "total": 6.5,
+        "allComponentsMin": 6
+      },
+      "toeflIbtUnversioned": {
+        "operator": ">",
+        "total": 85,
+        "writingMin": 22
+      },
+      "toeflPbt": {
+        "operator": ">",
+        "total": 580,
+        "preferredTwe": 5
+      },
+      "ieltsToeflValidityNotEstablishedHere": true
+    },
+    "englishLayersNotFlattened": true,
+    "automaticWaiver": false,
+    "newToeflScaleNotConverted": true
+  },
+  "eligibility": {
+    "organisationalLocalAndInternationalApplicants": true,
+    "forensicOnlySingaporeCitizensAndPr": true,
+    "forensicInternationalApplicantsNotEligible": true,
+    "validStudentPassForInternationalStudents": true,
+    "nationalityResidenceAndFeeCategoryNotVerifiedByProfile": true,
+    "noAutomaticSiblingTrackInheritance": true
+  },
+  "study": {
+    "minimumYears": 2,
+    "maximumYears": 4,
+    "formalFtPtMode": null,
+    "completionInTwoYearsTypicallyFullTimeCommitmentNotModeGuarantee": true,
+    "compulsoryBusinessHourActivities": true,
+    "practicumHours": 1000,
+    "gradedPracticumEstimatedHours": 500,
+    "selfSourcedPracticumEstimatedHours": 500,
+    "gradedPracticumCourses": [
+      "PSY501",
+      "PSY502",
+      "PSY599"
+    ],
+    "studyPracticumNotPreEntryExperience": true,
+    "internationalGradedCourseworkAndPracticumWithinFirstTwoYears": true,
+    "remainingSelfSourcedHoursYearsThreeFourCountryOfResidenceNeedPriorApproval": true,
+    "noWholeDegreeRemoteOrAutomaticOverseasPlacementEntitlement": true,
+    "forensicPsy534RequiredOrganisationalExcluded": true,
+    "professionalPreparationNotAutomaticRegistrationGuarantee": true,
+    "externalProfessionalRulesNotIndependentlyChecked": true
+  },
+  "cycle": {
+    "recurringIntakeMonth": "January",
+    "intakesPerYear": 1,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "applyEarlyNotLiveOpening": true,
+    "generalJulyCalendarNotAdditionalMpsyIntake": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "moeCohortLabel": "AY2026/AY2027 new students",
+    "moeHeaderUnit": "Per annum; actual amount depends on modules",
+    "moeAnnualSubsidisedTextQuote": {
+      "sc": 6950,
+      "pr": 14100,
+      "international": null
+    },
+    "moeStarredNonSubsidisedTextQuotes": {
+      "scPrForensic": 52000,
+      "scPrOrganisational": 51140,
+      "internationalForensic": 62400,
+      "internationalOrganisational": 61638
+    },
+    "starredQuoteFootnoteAndColumnUnitsNotFullyReconciled": true,
+    "annualRatesNotFullDegreeTotalOrAutomaticMultiplication": true,
+    "forensicInternationalPriceNotAdmissionEligibility": true,
+    "moeSubsidyNotAutomaticallyGrantedFromCitizenship": true,
+    "programmePriorGraduateFundingConditionNeedsAssessment": true,
+    "moeGstTreatmentDiffersBySubsidyCategory": true,
+    "selfFundedPrerequisiteTextQuote": {
+      "scPr": 8350,
+      "otherResidents": 10020
+    },
+    "prerequisitePriceUnitAndRequiredBridgingPositionUnresolved": true,
+    "selfFundedGdipNotMasterTuition": true,
+    "noAutomaticBridgingAdditionOrSubsidy": true,
+    "generalApplicationBeforeGst": {
+      "scPr": 60,
+      "otherApplicants": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "resident": 20,
+      "internationalStudentPass": 530
+    },
+    "clinicalResidentMisc240NotInherited": true,
+    "acceptanceDeposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true,
+      "notExtraTuition": true
+    },
+    "pdfColumnsNotVisuallyVerified": true,
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "sourceLimitations": {
+    "linkedCurriculumPlanFetchFailed": true,
+    "brochureRelevantPage": 8,
+    "checklistRelevantPage": 4,
+    "selfFundedFeeQuotePage": 4,
+    "moeFeePagesRead": [
+      1,
+      2
+    ],
+    "moeEarlierCohortNotAssigned": true,
+    "pdfTextOnly": true,
+    "localPdfDownloaded": false,
+    "pdfVisualInspectionCompleted": false,
+    "noAccessChecksBypassed": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-psychology",
+      "purpose": "Formal psychology/work requirements, honours bridge, track-specific eligibility/English and practicum/candidature; contradictory exemption FAQ retained",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Separate coursework MPSY/Clinical identities under SHBS and Student Pass context",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional general ELPR and credited deposit",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "Current checklist link, general calendar caveats and application fees; no July MPSY intake inferred",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "Page-4 MPSY CV, one-page statement and transcript; clinical reference-letter block not imported; text only",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5",
+      "purpose": "Page-8 text corroborates psychology degree, honours preference/bridge, 60 CU and 1000 practicum hours; Clinical page remains separate",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course/annual billing context and miscellaneous categories; Clinical resident fee not inherited",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Page-4 self-funded psychology prerequisite/diploma rows are not master totals; page-7 notes; text only",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1",
+      "purpose": "AY2026/27 page-1 MPSY annual/category/track quotes and page-2 tax/unit notes; starred units/columns not visually reconciled",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-suss-mgss.md": "27af0215e852995aa7a7ff0d72b0f71a73c2b15b3b13be67c25644d7969171a4",
+      "docs/research/core-pilot-acceptance-2026-10-28-suss-mgss.md": "c3cfca94bab962752d5cd6db1ece3cef2cf567088401cf58b325a19051c462f1"
+    }
+  }
+}
