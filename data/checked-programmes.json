@@ -9146,6 +9146,219 @@
         }
       ],
       "researchBatch": "suss-medu-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SUSS-P013",
+      "universityId": "SG-SUSS",
+      "name": "Master of Taxation",
+      "award": "MTAX",
+      "area": "Business",
+      "faculty": "School of Law",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; professional/degree equivalence, resident/pass evidence, motivation, English, credit recognition, cohort and personal fees unresolved",
+      "lastChecked": "2026-10-28",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 60-CU taught-course MTAX, separate from GCTAX, GDTAX, CPE certificates and Juris Doctor. Recognised degree/equivalent or professional qualifications such as ACCA, CA (Sing) or CPA (Aust) may support admission; these credentials are alternatives, not universal requirements. The programme currently cannot take international students and requires Singapore citizen, PR or resident status such as an Employment Pass holder; actual eligibility/pass evidence needs confirmation. No numeric work-year, undergraduate GPA, honours or major gate was established. Completed ATP Level 3 may receive four-course recognition; no personal credit or fee reduction is assumed.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P013-MTAX",
+          "mode": null,
+          "duration": "Typically 2 years; maximum candidature 4 years; formal FT/PT mode unconfirmed",
+          "intake": "July (one annual intake; specific cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "The public MTAX feature card labels an application period 16 April 2026 to 15 April 2027. Its exact cohort binding has not been established, so the dates remain a raw published-window observation rather than a selected-intake window or live-open claim. MTAX commences once annually in July; general January calendars, CPE presentations and the 12 November dialogue are not another master intake/deadline. No live portal check was performed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "October 2026 Taxation master text quotes are SGD 31,680 SC/PR or 38,016 Other Residents before GST. Separate diploma 15,840/19,008, certificate 7,920/9,504 and five-CU module 2,640/3,168 quotes are not automatically added to the master total. No populated Taxation as-low-as subsidy was established in the row; generic SSG notes and neighbouring Built Environment subsidies do not supply one. Confirm category/cohort, approved credits, tax and PDF column mapping before relying on a personal total. ATP credit recognition does not establish a proportional fee discount. Other Residents pricing and the general international miscellaneous charge do not override MTAX international restrictions. General application fees are 60 SC/PR or 100 others before GST; resident annual miscellaneous 20 before GST, not Clinical 240. The general deposit 2,000 includes GST and credits first-semester tuition."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted professional qualification",
+          "noteZh": "",
+          "noteEn": "A recognised undergraduate degree/equivalent is the general route; professional qualifications such as ACCA, CA (Sing) or CPA (Aust) may be accepted in lieu of a degree. These are examples, not credentials every graduate must hold. The background profile does not verify professional qualification, recognition or university approval; do not automatically reject a non-degree applicant or approve equivalence from major, GPA or generic experience.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Singapore resident eligibility and pass evidence",
+          "noteZh": "",
+          "noteEn": "MTAX currently cannot take international students. Published eligible groups are Singapore citizens, PRs or residents in Singapore, for example Employment Pass holders. Accepted residency/pass evidence requires SUSS confirmation. Physical presence, nationality alone, an academic score, a Student Pass claim or Other Residents pricing does not establish eligibility. Do not import the international Student Pass admission route of another SUSS master.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Motivation, work-history CV and general application evidence",
+          "noteZh": "",
+          "noteEn": "High motivation and a full CV detailing work experience are required. The current Taxation checklist block adds that CV; general academic, credential and conditional English evidence still apply. It does not create a numeric minimum work history or an employment mandate. Adjacent JD LNAT, mother-tongue and community-service evidence are not Taxation requirements. Interviews/evaluations may apply under general selection policy. This platform does not prepare, collect or submit materials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conditional general English and professional-route assessment",
+          "noteZh": "",
+          "noteEn": "Current general ELPR depends on undergraduate university medium and instruction: IELTS Academic at least 6.5, internet TOEFL 85, PTE 58, C1 180 within two years or MUET Band 4 within five years. The June brochure also lists paper TOEFL 580; current acceptance must be confirmed rather than imported automatically. Applicants using a professional qualification instead of an undergraduate degree need university assessment of language evidence. No automatic waiver, unstated IELTS/TOEFL expiry, other-degree strict-greater score or TOEFL scale conversion is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "ATP recognition and course-list ambiguity",
+          "noteZh": "",
+          "noteEn": "Published policy grants recognition for four courses to students who have completed the Tax Academy Income Tax Programme Level 3 (Advanced Tax Programme). Actual completion/equivalence and recorded credits need evidence. The HTML TAX001 ATP-courses 20-CU item sits alongside the compulsory list; its alternative/aggregate layout was not reconciled through the inaccessible curriculum plan. Do not require ATP from all applicants, add 20 to the 60-CU award, infer an 80-CU master or guarantee a fee discount. Up to two five-CU electives may be replaced within the ten-CU unrestricted allowance.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Master award, smaller awards and CPE boundaries",
+          "noteZh": "",
+          "noteEn": "MTAX totals 60 CU with nominally twelve five-CU courses and award CGPA 3.0; elective substitution/recognition can affect the personal study plan. The separate GDTAX 30-CU and GCTAX 15-CU blocks are not extra master credits. GCTAX CET CGPA 2.5 and master-award CGPA are not undergraduate entry thresholds. CPE attendance-only participation certificates differ from assessed course certificates and do not themselves establish a master award. This is not JD or an automatic legal-practice qualification.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Study timing and candidature limits",
+          "noteZh": "",
+          "noteEn": "Typical master completion is two years with maximum candidature four years and up to three courses per semester. Each course provides thirty instruction hours over four Saturdays; FAQ hours are 09:00-18:00 with a one-hour lunch, plus self-study. Saturday/adult learning does not establish formal FT/PT mode, wholly remote delivery or employment rights. Completing remaining CET courses after candidature expiry does not restore the award.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Public application window and intake binding",
+          "noteZh": "",
+          "noteEn": "The graduate feature card lists 16 April 2026 to 15 April 2027 for MTAX, retained as a raw dated observation. Exact master cohort/year binding and portal availability remain unconfirmed. MTAX has one July intake; general January calendars, certificate/CPE presentations and a November information session are not additional master admission windows. Do not turn the card into a live-open claim or invent a cohort.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/academics/programmes/graduate-programmes"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Personal fees, credits and category applicability",
+          "noteZh": "",
+          "noteEn": "Separate master/diploma/certificate/module prices and generic subsidy notes do not establish a personal price. Other Residents fees are not an international admission promise; recognised ATP credits are not an automatic proportional discount. Confirm cohort, category, actual approved credits, tax and PDF columns. Do not import neighbouring subsidies or add smaller-award prices above master tuition; personal tuition/application fee stays unassigned.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Annual July intake and a dated public feature window do not explicitly bind the selected cohort year.",
+          "sourceUrl": "https://www.suss.edu.sg/academics/programmes/graduate-programmes"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "No mandatory undergraduate field established; degree/professional equivalence and qualification recognition remain unverified.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; master award and smaller-award CET GPA are separate.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional current general ELPR and professional-without-degree evidence need university assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Current Taxation quotes have separate award units; category/cohort/credits/tax and visual column mapping remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Raw feature window 2026-04-16 to 2027-04-15 is retained, but selected master cohort binding and portal status are unconfirmed.",
+          "sourceUrl": "https://www.suss.edu.sg/academics/programmes/graduate-programmes"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax",
+          "purpose": "MTAX coursework identity, degree/professional alternatives, resident restriction, ATP credit, CV/motivation, 60 CU and July recurrence",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes",
+          "purpose": "School of Law MTAX identity kept separate from certificate, diploma and Juris Doctor",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes",
+          "purpose": "Explicit MTAX feature-card application dates preserved as raw public window; cohort binding and live portal not established",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_slaw_brochure_digital.pdf?sfvrsn=aabb633f_3",
+          "purpose": "June-2026 school brochure PDF pages 5/7: coursework, four-course completed-ATP recognition, professional qualification alternatives and taxation versus JD requirements; text only",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-taxation-gdtax",
+          "purpose": "Separate GDTAX 30-CU elective block and 1-2-year duration, despite reused master overview text; not extra master requirements",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/graduate-certificate-in-taxation",
+          "purpose": "Separate GCTAX 15-CU/three-course award and conditional CET CGPA 2.5; not a master/entry GPA",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Current conditional general ELPR, qualification recognition and acceptance deposit credited to tuition",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General documents, application fees and calendar caveats; January calendar not a Taxation intake",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "PDF page 8 Taxation CV block kept distinct from adjacent JD LNAT, MTL and community-service evidence; general documents still apply",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course-based billing and miscellaneous categories; generic international charge does not establish MTAX admission",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "PDF pages 5/7 current Taxation master/diploma/certificate/module text quotes, SGD/GST and conditional funding notes; personal price/visual columns unresolved",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "suss-mtax-first-check-2026-10-28"
     }
   ]
 }

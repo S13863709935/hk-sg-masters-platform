@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-28）
 
+同日 SUSS MTAX 首查：部分项目页记录为 50，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。专业资格替代学位、居民／准证、动机和语言证据保留核查；ATP 四课认可不作额外 20 学分或自动减费，较小学位和 JD 要求不合并。公开申请日期保留为原始观察，具体批次和个人费用仍待确认。见 [来源](../docs/research/suss-mtax-first-check-2026-10-28.md)、[73 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mtax.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mtax.md)。原 49 个对象与日期保留。
+
 同日 SUSS MEDU 首查：部分项目页记录为 49，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。教育硕士三种文凭选择不计成三个硕士或 90 学分；GDCT 条件不套给 GDED，独立文凭国际生矛盾不覆盖明确的硕士路径。缺少可读材料条目、个人费用和批次仍待确认。见 [来源](../docs/research/suss-medu-first-check-2026-10-28.md)、[72 单元快照](../docs/research/source-review-queue-2026-10-28-suss-medu.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-medu.md)。原 48 个对象与日期保留。
 
 同日 SUSS MDSW 首查：部分项目页记录为 48，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。社会工作本科与文凭替代资格不以单一本科专业误判；文凭毕业 GPA、实习、转业计划及课程开课月份不当作硕士门槛或招生批次。SSG 最低报价不自动授予，个人费用待确认。见 [来源](../docs/research/suss-mdsw-first-check-2026-10-28.md)、[71 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mdsw.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mdsw.md)。原 47 个对象和日期保留。
