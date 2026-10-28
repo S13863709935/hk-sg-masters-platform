@@ -11078,6 +11078,208 @@
         }
       ],
       "researchBatch": "suss-chbiz-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SUSS-P021",
+      "universityId": "SG-SUSS",
+      "name": "Master of Education in Early Childhood Education (Chinese)",
+      "award": "MEd",
+      "area": "Education",
+      "faculty": "S R Nathan School of Human Development",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; recognised Early Childhood bachelor, relevant work, Chinese evidence, accepted residence/pass, materials, exact cycle and personal fees unresolved",
+      "lastChecked": "2026-10-28",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One existing Chinese early-childhood MEd with 50 compulsory and 10 elective CU. Coursework-led classification is inferred from that published structure; a project choice alone does not make a research-only master. A recognised Early Childhood Education bachelor and relevant work are required; no numeric work-year floor is invented. Chinese evidence is programme-specific, not the HSK 5 or English rules of siblings. The resident/pass restriction and July-only intake remain explicit. Brochure award CGPA 3.0 is separate from unreported undergraduate entry GPA. Priority for Chinese-language early-childhood teachers does not establish a universal current job title, teaching licence or employment guarantee.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P021-MECC",
+          "mode": null,
+          "duration": "Normally 2 years; maximum 4 years; formal FT/PT mode unconfirmed. Up to three courses per semester is recommended, not a new entry criterion.",
+          "intake": "July only (one recurring intake per year; selected year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "The programme FAQ states one intake per year in July. Exact selected-year opening and deadline are not established; the general January/July university calendar does not add a January intake or confirm this programme deadline. No live portal check was performed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "The October 2026 Chinese Early Childhood Education text row quotes SGD 31,680 SC/PR or 38,016 Other Residents before GST. The neighbouring English ECE as-low-as 22,044 is not the Chinese default. Confirm selected cohort, accepted residence/pass, fee category, funding, GST and PDF columns before a personal total; an Other Residents or general international fee does not establish admission eligibility. No automatic subsidy or concession stacking. General application fees are 60 SC/PR or 100 others before GST; resident annual miscellaneous fees are 20 before GST. Personal tuition/application-fee fields remain unassigned."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor from a recognised institution",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Bachelor major in Early Childhood Education",
+          "accepted": [
+            "Early Childhood Education",
+            "Preschool Education"
+          ],
+          "relatedAllowed": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Early Childhood qualification recognition and relevant work",
+          "noteZh": "",
+          "noteEn": "The programme explicitly requires a recognised Early Childhood Education bachelor and relevant work experience. A self-reported major pass does not verify the actual award, institution, degree equivalence, job relevance or documents. No minimum number of work years is published in the consulted requirement, so do not invent one or treat aggregate years as relevant experience. Unlike the Chinese business MScs, work is required here. Priority for Chinese-language early-childhood teachers is not a universal separate teaching-licence/current-job-title gate; additional recognition decisions need university assessment.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific Chinese qualification and test validity",
+          "noteZh": "",
+          "noteEn": "At least one published Chinese route is required: GCE 'A' level A2 as the programme labels it, HSK Level 6 within two years from its test date, or another Chinese test accepted by SUSS. Retain the GCE label without correcting it to O-Level or inventing the precise accepted subject/evidence. No numeric HSK Level 6 score is published here and the exact validity assessment point needs confirmation. Do not borrow HSK Level 5/180, native-Chinese/Chinese-degree automatic exemptions, IELTS/TOEFL thresholds or rolling-from-today expiry logic from another programme. The current profile does not capture these Chinese credentials; accepted evidence remains manual.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Singapore resident category and accepted pass evidence",
+          "noteZh": "",
+          "noteEn": "Applicants must be Singapore citizens, permanent residents, or people in Singapore with employment passes or comparable eligible status as accepted by SUSS. The exact eligible pass list needs confirmation. A Student Pass alone, an offshore address, physical presence or Other Residents fee does not establish eligibility. General international SUSS guidance is not programme-specific admission approval; do not import universal international accelerated access from Chinese business masters.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Eight-hundred-character statement, two referee roles and assessment",
+          "noteZh": "",
+          "noteEn": "The programme instructions and current checklist require a personal statement within 800 Chinese characters, plus two reference letters: one from a past/current work superior, supervisor or direct leader, and one from an academic/professional mentor, professor or lecturer. Referees send letters directly to Graduate Studies. General identity, academic/credential verification, photo and applicable Chinese evidence also apply. A dedicated CV requirement is not established in the consulted Chinese programme block; this does not mean additional materials cannot be requested. Do not import the English sibling CV/ELPR, EMBA employer chart or another statement length. Interview, written or other selection assessment may be requested. The platform does not write, collect, evaluate, email or submit these materials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/content_programmes/imported/content/mecc-personal-statement-and-rec-letter-pdf.pdf?sfvrsn=c652377e_4"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Coursework structure, optional research project and award GPA",
+          "noteZh": "",
+          "noteEn": "The published 60-CU master has ten compulsory five-CU courses (50 CU), then either ECC511 and ECC512 at five CU each or ECC688 Research Project at ten CU. The project is a choice within the degree, not an extra ten CU or a research-only identity. The dedicated school brochure states award CGPA at least 3.0; no GPA scale is established here and it is not undergraduate entry GPA. Do not borrow English MECED teacher-training/TESOL/placement or another master credit-exemption rules.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_nshd_brochure_digital.pdf?sfvrsn=56fed683_3"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Study timing, teaching locations and exact intake",
+          "noteZh": "",
+          "noteEn": "The programme normally lasts two years, maximum four; three courses per semester is a recommendation. Formal FT/PT mode is not established here. The FAQ labels Sunday evening (19:00-22:00) or Saturday sessions (08:30-17:30 or 08:30-12:30), at SUSS or via Zoom. Retain the published day wording and confirm the current personal timetable; do not silently rewrite it to weekday evenings or promise entirely offshore/self-paced completion. There is one recurring July intake; generic January dates do not establish a second intake.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Personal fees and Chinese-versus-English ECE prices",
+          "noteZh": "",
+          "noteEn": "The distinct Chinese ECE master text quote and general fees have separate category/cohort/tax/funding applicability. Confirm accepted residence/pass, actual category and PDF columns before a personal total; the English ECE maximum-subsidy quote is not the Chinese default. No automatic concession/subsidy stacking or international access from fee labels is inferred. Structured tuition/application fee remain null.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "July is recurring; a selected year is not established.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A recognised Early Childhood Education bachelor is explicitly required; award and equivalence still need assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; brochure CGPA 3.0 is an award standard.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_nshd_brochure_digital.pdf?sfvrsn=56fed683_3"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Programme-specific GCE/HSK Level 6/other Chinese evidence and validity are not in this profile.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Category/cohort/funding/tax, eligible pass and visual PDF columns unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "July-only recurrence does not establish exact selected-year opening/deadline or portal state.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87",
+          "purpose": "Required Early Childhood bachelor/relevant work, programme-specific Chinese alternatives, resident/pass restriction, 50+10 curriculum, July-only intake and two-to-four-year study/timetable",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes",
+          "purpose": "Separately linked Chinese early-childhood master, distinct from English MECED and other education masters",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_nshd_brochure_digital.pdf?sfvrsn=56fed683_3",
+          "purpose": "PDF page 7 dedicated Chinese early-childhood structure and award CGPA 3.0; optional project versus two electives, kept separate from English sibling; text only",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/content_programmes/imported/content/mecc-personal-statement-and-rec-letter-pdf.pdf?sfvrsn=c652377e_4",
+          "purpose": "One-page linked programme instruction: personal statement within 800 Chinese characters and separate work/academic-or-professional reference roles; no applicant content generated",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "PDF page 6 current Chinese early-childhood statement/referee block, distinct from adjacent English CV/language and other programmes",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General Chinese-taught ELPR exception, credentials/application fee categories; January/July calendars do not override programme July-only intake",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "General Student Pass context does not establish eligibility for this resident-restricted programme or an explicit international listing",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "General course-based billing and ancillary fee categories, not personal tuition or proof of eligible residence",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "PDF pages 1 and 7 distinct Chinese ECE 31680/38016 pre-GST text row; English ECE subsidy row not copied and personal category/columns unconfirmed",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "suss-mecch-first-check-2026-10-28"
     }
   ]
 }

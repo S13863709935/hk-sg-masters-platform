@@ -1,0 +1,25 @@
+# SUSS Chinese Early Childhood MEd — 28 October 2026
+
+Partial internal source observation for existing `SG-SUSS-P021`; no additional degree identity, independent human review or applicant finding. See the [structured observation](../../data/research/suss-mecch-observation-2026-10-28.json).
+
+## Entry and Chinese evidence
+
+The [official programme page](https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87) requires a recognised Early Childhood Education bachelor and relevant work. The named field is comparable; Early Childhood Education/Preschool Education are English renderings of the same published field. Do not turn generic Education into that award or infer recognition from a title. No numeric work-year minimum, undergraduate GPA or honours requirement was established. Aggregate experience cannot prove relevance. Priority for Chinese-language early-childhood teachers is separate from compulsory qualification/experience and is not a new universal licence or current-job-title rule.
+
+Retain the Chinese alternatives as printed: GCE 'A' level A2, HSK Level 6 within two years from test date, or other SUSS-recognised Chinese tests. Do not silently change the GCE label to O-Level, invent an HSK score, copy HSK 5/180, assume native-language exemption or assign an unconfirmed validity assessment date. The profile lacks these credentials. [General guidance](https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide) says Chinese-taught programmes do not require ELPR; this does not establish Chinese proficiency.
+
+The programme restricts applications to citizens, PRs or accepted employment-pass/similar-status holders in Singapore. Exact pass eligibility remains manual. Generic [international Student Pass guidance](https://www.suss.edu.sg/admissions/international-students/international-graduate-students), physical presence or fee labels do not prove admission eligibility. No explicit international-directory coursework listing was established; coursework-led classification is an inference from the published taught structure.
+
+## Structure and materials
+
+The [dedicated brochure section](https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_nshd_brochure_digital.pdf?sfvrsn=56fed683_3), PDF page 7, specifies 60 CU and award CGPA 3.0, with scale unestablished here. Its alternative English title refers to this same Chinese programme. Fifty CU are compulsory; the remaining ten are two five-CU electives or ECC688 project. A project choice is not an extra degree/ten CU or a research-only programme. Award GPA does not become undergraduate entry GPA. English MECED teacher-training/TESOL/placement and other masters' exemption rules are not imported.
+
+The [linked one-page instructions](https://www.suss.edu.sg/docs/default-source/content_programmes/imported/content/mecc-personal-statement-and-rec-letter-pdf.pdf?sfvrsn=c652377e_4) and [October checklist](https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27), PDF page 6, agree on a personal statement within 800 Chinese characters and two references: a past/current work superior and an academic/professional mentor. Referees send letters directly to Graduate Studies. General credential/identity/photo evidence applies; a dedicated Chinese-programme CV requirement was not established in consulted text, so additional materials are not presumed absent. Possible interviews/written/other assessments remain manual. No applicant content or letters were written, collected or sent.
+
+## Timing, fees and limits
+
+The FAQ gives one annual July intake, normal two-year study and maximum four years, with at most three courses per semester recommended. Formal FT/PT mode stays unassigned. Its printed Sunday-evening/Saturday day wording is retained for confirmation, rather than rewritten to weekday evenings. SUSS/Zoom venues do not establish entire offshore completion. Exact year, application dates and portal state remain unconfirmed; the central January calendar does not create a second intake.
+
+The [fee table](https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80), PDF pages 1/7, gives Chinese ECE text quotes of SGD 31,680 SC/PR and 38,016 Other Residents before GST. The English ECE subsidy figure is separate. Category, cohort, funding, tax, [ancillary fees](https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate) and PDF columns remain unresolved; personal fees stay null.
+
+PDF evidence is web text only; no visual diagram/table-column verification or local download is claimed. The MECC curriculum fetch returned 502 and was not read or bypassed. All programme-facing text remains English. Current snapshots: [82 maintenance units](source-review-queue-2026-10-28-suss-mecch.md), [core comparisons](core-pilot-acceptance-2026-10-28-suss-mecch.md).

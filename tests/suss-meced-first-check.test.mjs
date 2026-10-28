@@ -31,7 +31,11 @@ test('MECED retains one existing revised master, two tracks and separate Chinese
   assert.equal(p.award, 'MECED'); assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
   assert.equal(obs.identity.coreCu + obs.identity.electiveCu + obs.identity.trackCu, 60); assert.equal(obs.identity.tracks.length, 2);
   assert.equal(obs.identity.linkedPlanCode, 'MECEDN'); assert.equal(obs.identity.notTwoExtraMasters, true);
-  assert.equal(store.get('SG-SUSS-P021').verification, 'catalogue_seed'); assert.notEqual(store.get('SG-SUSS-P004').id, p.id); assert.notEqual(store.get('SG-SUSS-P004').name, p.name);
+  const chinese = store.get('SG-SUSS-P021'); assert.equal(chinese.verification, 'programme_page_checked');
+  assert.notEqual(chinese.id, p.id); assert.notEqual(chinese.officialUrl, p.officialUrl); assert.equal(chinese.award, 'MEd');
+  assert.equal(chinese.rules.some(r => r.kind === 'major' && r.accepted.includes('Early Childhood Education')), true);
+  assert.equal(chinese.rules.some(r => r.labelEn === 'Programme-specific Chinese qualification and test validity'), true);
+  assert.deepEqual(store.get(p.id).rules, p.rules); assert.notEqual(store.get('SG-SUSS-P004').id, p.id); assert.notEqual(store.get('SG-SUSS-P004').name, p.name);
   assert.equal(p.offerings.length, 1); assert.equal(o.id, p.id + '-MECED'); assert.equal(routes.has(p.id), false);
   assert.equal(batch.pilotProgrammeIds.includes(p.id), false); assert.equal(batch.pilotProgrammeIds.length, 20);
   assert.equal(/\p{Script=Han}/u.test(JSON.stringify(p)), false);
@@ -112,18 +116,18 @@ test('MECED fee quotes remain unassigned without a funding deduction, certificat
 
 test('MECED migration preserves earlier source records across isolated restarts and leaves MCOU archives immutable', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 58); assert.equal(queue.counts.reviewUnits, 81);
+  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 59); assert.equal(queue.counts.reviewUnits, 82);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-meced-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== p.id) }));
     db = new CatalogueStore(path, { ...options, checkedPath }); const previous = db.all().filter(x => x.id !== p.id), directory = db.get(p.id).directoryListing;
-    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 57); db.close(); db = null;
+    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 58); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, directory); assert.deepEqual(db.all().filter(x => x.id !== p.id), previous);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 58); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 59); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -146,7 +150,7 @@ test('actual API/save/export preserves strict conditional English and training/r
   assert.match(exported.evidence.publishedRequirements.find(r => /Conditional programme English/.test(r.labelEn)).noteEn, /strictly above 6.5/);
   assert.match(exported.evidence.publishedRequirements.find(r => /Teacher-training/.test(r.labelEn)).noteEn, /primary\/secondary/);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 58);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 59);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5); assert.equal(JSON.stringify(store.all()), before);
 });
