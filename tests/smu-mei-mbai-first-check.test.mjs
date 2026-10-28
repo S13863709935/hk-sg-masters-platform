@@ -61,7 +61,7 @@ test('explicit September openings plus May-only closes never become complete win
     }
     assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   }
-  assert.equal(queue.counts.programmePageRecords, 66); assert.equal(queue.counts.reviewUnits, 89);
+  assert.equal(queue.counts.programmePageRecords, 67); assert.equal(queue.counts.reviewUnits, 90);
 });
 
 test('distinct statements, overseas residency, curriculum versions and deposit tax bases survive selection without stale fees or automatic funding', () => {
@@ -88,13 +88,13 @@ test('two existing catalogue IDs migrate idempotently without rewriting older pr
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(p => !obs.programmeIds.includes(p.id)) }));
     db = new CatalogueStore(path, { ...options, checkedPath }); const earlier = db.all().filter(p => !obs.programmeIds.includes(p.id)); const listings = obs.programmeIds.map(id => db.get(id).directoryListing);
-    for (const id of obs.programmeIds) assert.equal(db.get(id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 64); db.close(); db = null;
+    for (const id of obs.programmeIds) assert.equal(db.get(id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 65); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
       for (const [i, id] of obs.programmeIds.entries()) { assert.equal(db.get(id).verification, 'programme_page_checked'); assert.deepEqual(db.get(id).directoryListing, listings[i]); }
       assert.deepEqual(db.all().filter(p => !obs.programmeIds.includes(p.id)), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      assert.equal(db.quality().checked, 66); db.close(); db = null;
+      assert.equal(db.quality().checked, 67); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -119,7 +119,7 @@ test('actual matching, saved-choice restore and export preserve separate MEI/MBA
     assert.match(exported.evidence.publishedRequirements.find(r => /Flexible experience/.test(r.labelEn)).noteEn, /neither a one-year floor nor five-year cap/);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined); assert.equal(detail.applicationTimeline.state, 'dates_incomplete');
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 66); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 67); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5);
   assert.equal(JSON.stringify(store.all()), before);

@@ -94,17 +94,17 @@ test('materials, events, dates and separate Chinese fee rows remain unresolved w
 test('three-record source migration preserves prior objects, original pilot and previous report hashes across restarts', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
   assert.equal(batch.pilotProgrammeIds.length, 20); assert.equal(programmes.some(p => batch.pilotProgrammeIds.includes(p.id) || routes.has(p.id)), false);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 66); assert.equal(queue.counts.reviewUnits, 89); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 67); assert.equal(queue.counts.reviewUnits, 90); assert.equal(queue.counts.reviewRecordedInSource, 0);
   for (const p of programmes) assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-chbiz-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     const other = p => !obs.programmeIds.includes(p.id);
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(other) }));
     db = new CatalogueStore(path, { ...options, checkedPath }); const earlier = db.all().filter(other), listings = programmes.map(p => db.get(p.id).directoryListing);
-    assert.equal(db.quality().checked, 63); db.close(); db = null;
+    assert.equal(db.quality().checked, 64); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
-      db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.quality().checked, 66);
+      db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.quality().checked, 67);
       for (const [i, p] of programmes.entries()) { assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, listings[i]); }
       assert.deepEqual(db.all().filter(other), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); db.close(); db = null;
     }
@@ -134,7 +134,7 @@ test('real matching/save/restore/export preserves all six mode choices, distinct
     assert.equal(exported.evidence.publishedRequirements.find(r => /Programme-specific Chinese/.test(r.labelEn)).noteEn, rule(programmes.find(p => p.id === item.programme.id), 'Programme-specific Chinese proficiency and HSK evidence').noteEn);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 66); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 67); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5);
   assert.equal(JSON.stringify(store.all()), before);
