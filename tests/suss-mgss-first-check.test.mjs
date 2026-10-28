@@ -99,7 +99,7 @@ test('28 October comparison uses real source dates while earlier comparison cann
   }
   const earlier = loadRepositoryReviewQueue('2026-10-27').units.find(u => u.programmeId === p.id);
   assert.equal(earlier.sourceCheckedOn, '2026-10-28'); assert.match(earlier.reasons.join(' '), /postdate/); assert.equal(earlier.recordedCutoffs.length, 0);
-  const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 2); assert.equal(current.counts.reviewRecordedInSource, 0);
+  const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 4); assert.equal(current.counts.reviewRecordedInSource, 0);
 });
 
 test('MGSS text fees do not inherit a populated subsidy from a neighbouring row or add separate diploma costs', () => {
@@ -111,17 +111,17 @@ test('MGSS text fees do not inherit a populated subsidy from a neighbouring row 
 
 test('first MGSS migration preserves earlier records and 27 October archive hashes across isolated restarts', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 59); assert.equal(queue.counts.reviewUnits, 82);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 62); assert.equal(queue.counts.reviewUnits, 85);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-mgss-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, checkedOn: obs.previousBatchCheckedOn, programmes: batch.programmes.filter(x => x.id !== p.id) }));
     db = new CatalogueStore(path, { ...options, checkedPath }); const previous = db.all().filter(x => x.id !== p.id), directory = db.get(p.id).directoryListing;
-    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 58); db.close(); db = null;
+    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 61); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, directory); assert.deepEqual(db.all().filter(x => x.id !== p.id), previous);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 59); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 62); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -145,7 +145,7 @@ test('actual API/save/restore/export retains contradictory published values and 
   assert.match(exported.evidence.publishedRequirements.find(r => /Brochure award/.test(r.labelEn)).noteEn, /3.0/);
   assert.equal(exported.evidence.publishedRequirements.find(r => /Organisation endorsement/.test(r.labelEn)).mandatory, false);
   assert.equal(exported.evidence.lastChecked, '2026-10-28'); assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 59);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 62);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5); assert.equal(JSON.stringify(store.all()), before);
 });

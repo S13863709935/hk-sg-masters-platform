@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeIds": [
+    "SG-SMU-P007",
+    "SG-SMU-P008",
+    "SG-SMU-P009"
+  ],
+  "existingCatalogueIds": true,
+  "originalPilotUnchanged": true,
+  "common": {
+    "qualitativeGoodBachelorNotUniversalNumericGpa": true,
+    "testAlternatives": [
+      "GMAT",
+      "GRE",
+      "SMU Admission Test"
+    ],
+    "gpaTestSubstitution": [
+      {
+        "institutions": [
+          "SMU"
+        ],
+        "minimum": 3.0,
+        "scale": 4.0,
+        "withinGraduationYears": 5
+      },
+      {
+        "institutions": [
+          "NUS",
+          "NTU",
+          "SUTD",
+          "SUSS",
+          "SIT"
+        ],
+        "minimum": 3.5,
+        "scale": 5.0,
+        "withinGraduationYears": 5
+      }
+    ],
+    "testSubstitutionNotAdmissionGuaranteeOrLinearConversion": true,
+    "mayStillRequestTest": true,
+    "englishTestConditionalOnNonEnglishFirstDegree": true,
+    "personalStatementResumeTwoReferencesAndInterview": true,
+    "academicDocumentsFromEachUniversityWithApplicableEnglishTranslations": true,
+    "nonSingaporeanPartTimeSupportingDocuments": [
+      "Passport",
+      "Employment Pass or Dependent Pass"
+    ],
+    "refereeEmailsTriggeredByActualApplicationNotByPlatform": true,
+    "applicationFeeInclusiveGstNonrefundable": 100,
+    "optionalSmuAdmissionTestFee": 125,
+    "testFeeGstBasisNotEstablished": true,
+    "normalMonths": {
+      "fullTime": 18,
+      "partTime": 30
+    },
+    "shorterMonthsSubjectToApproval": {
+      "fullTime": 12,
+      "partTime": 24
+    },
+    "maximumPartTimeYears": 4,
+    "universalWorkYearFloorNotEstablished": true,
+    "legacyMiscDepositAndAy2027TransitionNeedIndividualConfirmation": true,
+    "ay2027MiscExclusiveGstAnnual": {
+      "scPr": 400,
+      "international": 480
+    },
+    "ay2027DepositExclusiveGst": 8000,
+    "depositCreditedToTuitionNotAddedTwice": true,
+    "noAutomaticScholarshipOrSubsidy": true
+  },
+  "programmes": [
+    {
+      "id": "SG-SMU-P007",
+      "name": "Master of Science in Economics",
+      "code": "MSE",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-economics",
+      "checkedOn": "2026-10-28",
+      "applicationWindow": {
+        "januaryHeader": [
+          "2026-07-01",
+          "2026-10-31"
+        ],
+        "augustHeader": [
+          "2026-09-01",
+          "2027-05-31"
+        ],
+        "januaryMainTableClose": "31 October",
+        "internalJanuaryConflict": false,
+        "structuredDatesAssigned": true
+      },
+      "tuitionObservation": "January 2027: SGD 49,050 inclusive of GST. August 2027 onward: SGD 54,500 inclusive of GST. Approved accelerated/foundation arrangements may affect the corresponding charge; confirm the individual offer. The January billing amounts total 44,050 plus the credited 5,000 deposit, not an extra deposit above 49,050.",
+      "curriculumCu": {
+        "foundation": 3,
+        "core": 3,
+        "elective": 5,
+        "open": 3,
+        "professionalDevelopment": 1
+      },
+      "maximumFullTimeYears": 2.5,
+      "softNumericTargetsEstablished": true,
+      "singaporeOnlyBeijingPartnerExcluded": false,
+      "identityAndLimitations": "Applied Economics and Econometrics and Quantitative Economics are tracks of this one master, not extra degrees. Track choice and quantitative preparation remain manual; current profile/mode selection does not select a track. August 2026 updates admit diverse backgrounds and permit approved accelerated study in both January and August. Older mismatched Data Science FAQ calendar text does not override the dated MSE header and current main application table."
+    },
+    {
+      "id": "SG-SMU-P008",
+      "name": "Master of Data Science in Economics",
+      "code": "MDSE",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-data-science-economics",
+      "checkedOn": "2026-10-28",
+      "applicationWindow": {
+        "januaryHeader": [
+          "2026-07-01",
+          "2026-10-31"
+        ],
+        "augustHeader": [
+          "2026-09-01",
+          "2027-05-31"
+        ],
+        "januaryMainTableClose": "30 November",
+        "internalJanuaryConflict": true,
+        "structuredDatesAssigned": false
+      },
+      "tuitionObservation": "Published tuition is SGD 54,500 inclusive of GST; the August 2027 quote is explicitly indicative and subject to revision. Approved exemptions do not establish an automatic individual reduction.",
+      "curriculumCu": {
+        "foundation": 2,
+        "core": 6,
+        "elective": 3,
+        "open": 3,
+        "professionalDevelopment": 1
+      },
+      "maximumFullTimeYears": 2.25,
+      "softNumericTargetsEstablished": false,
+      "singaporeOnlyBeijingPartnerExcluded": true,
+      "identityAndLimitations": "This record covers Singapore study only. The same page separately describes an SMU-CUFE programme taught in Beijing; that location and its partner form/August-only intake are excluded from these Hong Kong/Singapore options. Technical backgrounds help but prior coding/Economics is not a universal gate. Graduation CGPA 2.50/4.00 is not undergraduate entry GPA."
+    },
+    {
+      "id": "SG-SMU-P009",
+      "name": "Master of Science in Financial Economics",
+      "code": "MSFE",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-financial-economics",
+      "checkedOn": "2026-10-28",
+      "applicationWindow": {
+        "januaryHeader": [
+          "2026-07-01",
+          "2026-10-31"
+        ],
+        "augustHeader": [
+          "2026-09-01",
+          "2027-05-31"
+        ],
+        "januaryMainTableClose": "31 October",
+        "internalJanuaryConflict": false,
+        "structuredDatesAssigned": true
+      },
+      "tuitionObservation": "January 2027: SGD 54,500 inclusive of GST. August 2027: SGD 57,700 inclusive of GST. January instalments already sum to 54,500 while the deposit is described as credited; confirm the actual balance rather than adding the deposit twice.",
+      "curriculumCu": {
+        "foundation": 3,
+        "core": 6,
+        "elective": 3,
+        "open": 2,
+        "professionalDevelopment": 1
+      },
+      "maximumFullTimeYears": 2.5,
+      "softNumericTargetsEstablished": true,
+      "singaporeOnlyBeijingPartnerExcluded": false,
+      "identityAndLimitations": "Applicants from varied disciplines may take foundations; a coursework professional master is distinct from linked MPhil/PhD programmes. Current structure has three foundation CU, while older FAQ text says four and limits August to accelerated study. These conflicts are retained for follow-up; no universal prior Economics/Finance major or automatic acceleration is inferred."
+    }
+  ],
+  "sourceLimitations": {
+    "htmlOnly": true,
+    "livePortalChecked": false,
+    "brochurePdfNotRead": true,
+    "partnerFormsNotVisited": true,
+    "independentHumanReview": false,
+    "noAccessChecksBypassed": true
+  },
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-suss-mecch.md": "58b10f1e74cdc0c72efdf82ac530a34bfc18b2cc096da93f232e145984b723b1",
+      "docs/research/core-pilot-acceptance-2026-10-28-suss-mecch.md": "9e4a7dc4c6aea43ac9886ea6b58278896e9f2f749301510992f7e241d8d8410e"
+    }
+  }
+}
