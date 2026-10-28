@@ -9571,6 +9571,230 @@
         }
       ],
       "researchBatch": "suss-mbx-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SUSS-P009",
+      "universityId": "SG-SUSS",
+      "name": "Master of Social Sciences",
+      "award": "MSSC",
+      "area": "Social Sciences",
+      "faculty": "Graduate Studies",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; entry stage, recognised diploma pair/grades/credits, international pairing eligibility, project evidence, English, cohort and personal fees unresolved",
+      "lastChecked": "2026-10-28",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One explicitly coursework-classified 70-CU MSSC: 60 relevant-course CU from two graduate diplomas plus a 10-CU applied research project. Public instructions allow a programme application; entry stage and actual approved prior courses/pairing need assessment, without assuming both diplomas must already be completed before any application. Diploma/master CGPA 3.0/5 is postgraduate evidence, not undergraduate entry GPA. Both diploma studies must fit within four years excluding research-project time; this is not a four-year total master maximum. International access is subject to Student Pass and selected diploma conditions, not approval of every listed or recommended combination.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P009-MSSC",
+          "mode": null,
+          "duration": "Both graduate diplomas within 4 years, excluding 10-CU project time; total programme duration, clock/credit applicability and formal mode unconfirmed",
+          "intake": "January and July (recurring intakes; specific cohort years unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "The public MSSC feature card lists 16 October 2026 to 15 April 2027. The exact selected cohort/year binding has not been established, so this remains a raw published-window observation, not a selected-intake window or live-open claim. January and July are recurring intakes; generic calendars and diploma course presentations do not resolve the selected pair/cohort. No live portal check was performed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "October 2026 Social Sciences master text quotes are SGD 36,960 SC/PR or 44,352 Other Residents before GST. The as-low-as 21,252 figure requires maximum conditional SSG support and is not granted from citizenship alone. Approved diploma/course recognition, prior payments, selected pair/cohort, applicant category, funding, GST and PDF columns need reconciliation; do not add two diploma prices above the master by default, assume a refund or calculate an unverified project-only balance. Neighbouring MBX/Education master prices are separate. Application fees are 60 SC/PR or 100 others before GST; annual miscellaneous 20 residents or 530 international Student Pass students before GST, not Clinical 240. General deposit 2,000 includes GST and credits first-semester tuition."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Undergraduate qualification from a recognised institution",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Entry stage, approved diploma pairing and recognised credits",
+          "noteZh": "",
+          "noteEn": "The master provides public application instructions, but actual entry stage, selected diploma combination, recognition and credited prior courses need SUSS assessment. Do not presume both diplomas must already be completed before any application, treat an unrelated undergraduate title as automatic refusal, infer diploma completion from years of work, or approve every recommended/freeform pair. Diploma-specific academic, work, language and availability conditions remain unresolved.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Postgraduate diploma grades and separate study clock",
+          "noteZh": "",
+          "noteEn": "MSSC graduation requires 70 CU and master CGPA 3.0/5; the FAQ specifies at least 3.0/5 for both graduate diplomas. These are postgraduate progression/award standards, not undergraduate entry GPA. The two diploma studies together must be completed within four years excluding the applied-project time; it is not four years for each diploma or a confirmed four-year whole-master limit. Prior-credit clock start, records, project timing and current stage need confirmation.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "International master eligibility and diploma-specific restrictions",
+          "noteZh": "",
+          "noteEn": "The master welcomes Singapore citizens, PRs and international applicants, with a valid Student Pass for international study. This does not approve every diploma pairing. Standalone Taxation currently restricts admission to citizens/PRs/Singapore residents; do not infer approval of an international Taxation-containing pair or apply that restriction to every MSSC applicant. Selected diploma availability, language, academic criteria, category and immigration decisions need university confirmation; the profile verifies none of these.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "CV, applied-project proposal and shortlisted interview",
+          "noteZh": "",
+          "noteEn": "Applicants must provide a CV covering education/work and an approximately 500-word proposal integrating the two chosen diploma disciplines for the 10-CU applied project. Shortlisted applicants must attend an interview. The current MSSC checklist proposal block is separate from PhD statements, references and supervisor information. General academic/credential and conditional English documents still apply. Template contents were not inspected or generated; the platform does not prepare, collect, evaluate or submit materials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conditional general English and selected-diploma applicability",
+          "noteZh": "",
+          "noteEn": "Current ELPR depends on undergraduate university medium and instruction: IELTS Academic at least 6.5, internet TOEFL 85, PTE 58, C1 180 within two years or MUET Band 4 within five years. The June brochure also mentions paper TOEFL 580, not automatically inserted into current policy. Selected diplomas may impose additional conditions; do not flatten them into the general list. Waiver evidence and acceptance require assessment; no universal IELTS/TOEFL expiry, borrowed strict-greater score or scale conversion is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Social Work and other prior-diploma mapping",
+          "noteZh": "",
+          "noteEn": "Graduates of Social Work and Translation and Technology diplomas may apply to stack with a constituent diploma and integrated project, subject to recognition. The standalone GDSW is 40 CU with award GPA 2.5 and a 400-hour practicum; the MSSC Social Work section labels 30 CU but its visible five listed courses sum to 25 CU. This mapping is not reconciled. Do not turn a 40-CU prior award into an automatic 80-CU MSSC, import its practicum/award GPA as master entry requirements, or invent the missing course. The published MSSC total remains 70 CU.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Coursework identity, timetable and award boundaries",
+          "noteZh": "",
+          "noteEn": "The official international directory classifies MSSC as coursework despite its applied project and proposal. It is distinct from the research Master of Applied Research in Social Sciences and from separate diploma awards; listed/recommended pairs are not additional master programmes. General lessons are weekday evenings or weekends, with exact diploma schedules to confirm. Formal FT/PT mode and whole-programme duration are not established here. CET completion after candidature expiry does not restore the award.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Public application window and selected cohort",
+          "noteZh": "",
+          "noteEn": "The MSSC feature card labels 16 October 2026 to 15 April 2027; retain the raw window without assigning an unverified intake year or live portal state. January and July are annual recurring intakes, and generic calendar warnings/diploma presentations do not establish a selected-pair application window.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/academics/programmes/graduate-programmes"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Personal fees, prior payments and conditional SSG",
+          "noteZh": "",
+          "noteEn": "The master quote and as-low-as maximum SSG figure have separate funding/category/cohort applicability. Prior diploma/course recognition and earlier payments need reconciliation; do not add two diploma prices to the quoted master by default, calculate an assumed project-only price or guarantee a credit/refund/discount. Confirm approved courses, category, funding, GST and PDF columns before a personal total; numeric tuition/application fee remain unassigned.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring January/July and a dated public feature window do not bind a selected diploma pair/cohort year.",
+          "sourceUrl": "https://www.suss.edu.sg/academics/programmes/graduate-programmes"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "No universal undergraduate subject established; constituent diploma prerequisites and approved pairing/recognition remain unconfirmed.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; both diploma and master 3.0/5 standards are separate postgraduate evidence.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional general ELPR and selected-diploma requirements/waiver evidence need assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Maximum SSG quote, approved courses/prior payments, category/cohort/funding/tax and PDF columns remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Raw public window 2026-10-16 to 2027-04-15 is retained; selected master pair/cohort and portal status are unconfirmed.",
+          "sourceUrl": "https://www.suss.edu.sg/academics/programmes/graduate-programmes"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-social-sciences",
+          "purpose": "70-CU MSSC, separate diploma/award GPA and clock, CV/500-word applied project proposal/interview, direct application instructions and approved pairing boundaries",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes",
+          "purpose": "One Graduate Studies MSSC, separate from doctoral/research programmes and diploma options",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Explicit coursework classification and Student Pass context; not approval of every diploma pair",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes",
+          "purpose": "Raw MSSC application period 16 October 2026 to 15 April 2027 retained without selected-cohort/live-portal claim",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_gs_brochure_digital.pdf?sfvrsn=6d4efdcc_6",
+          "purpose": "PDF pages 6-8: 60 relevant-course CU plus 10 project, postgraduate GPA and four-year diploma-only clock; June publication context; text only",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-taxation-gdtax",
+          "purpose": "Standalone Taxation resident restriction kept separate from international MSSC parent; cross-pair applicability not presumed",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-social-work-gdsw",
+          "purpose": "Separate 40-CU GDSW, award GPA 2.5 and 400-hour practicum do not define MSSC total/admission; prior-credit mapping unresolved",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional current ELPR, assessed waiver and credited deposit",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General supporting documents, category application fees and calendar caveats; no exact selected MSSC cohort inferred",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "PDF page 10 MSSC proposal block distinct from PhD statement, references and supervisor material; programme page independently confirms CV",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course-based billing, separate resident/international miscellaneous categories and conditional funding context",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "PDF pages 6-7 Social Sciences master text quotes and maximum conditional SSG/GST notes; prior payments/personal credits/visual columns unresolved",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "suss-mssc-first-check-2026-10-28"
     }
   ]
 }
