@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SUSS-P007",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Psychology (Clinical)",
+    "award": "MPCL",
+    "faculty": "School of Humanities and Behavioural Sciences",
+    "internationalDirectoryClassifiesCoursework": true,
+    "ordinaryPsychologySiblingNotMerged": "SG-SUSS-P006",
+    "totalCu": 75,
+    "allComponentsCompulsory": true,
+    "placements": [
+      {
+        "code": "PSY503",
+        "cu": 5
+      },
+      {
+        "code": "PSY504",
+        "cu": 10
+      },
+      {
+        "code": "PSY505",
+        "cu": 10
+      }
+    ],
+    "skillsCourseworkCu": 35,
+    "researchDesignCu": 5,
+    "dissertationCu": 10,
+    "researchComponentDoesNotReclassifyAsResearchMaster": true
+  },
+  "requirements": {
+    "psychologyOrPsychologyRelatedDegree": true,
+    "relatedDegreeEquivalenceRequiresUniversityAssessment": true,
+    "standardDirectHonours": "Second Upper",
+    "standardHonoursNotUnconditionalRejectionRule": true,
+    "conditionalBridgeForNoHonoursOrBelowRequiredClassification": true,
+    "holisticAssessmentNotAutomaticAdmission": true,
+    "minimumFullTimeEquivalentWorkYears": 2,
+    "workField": "Psychology",
+    "genericYearCountCannotEstablishRelevanceOrFullTimeEquivalent": true,
+    "numericUndergraduateEntryGpa": null,
+    "bridging": {
+      "code": "PRCPSY",
+      "cu": 30,
+      "level": 4,
+      "minimumCgpa": 3,
+      "selfFunded": true,
+      "noSeparateQualification": true,
+      "notUniversalUndergraduateGpaOrAutomaticCompletion": true,
+      "notAutomaticallyAddedToMaster75Cu": true
+    },
+    "creditExemptions": false,
+    "documents": [
+      "Academic certificate and transcripts",
+      "CV via prescribed online form",
+      "Personal statement",
+      "Two referee reports"
+    ],
+    "personalStatementPages": 1,
+    "referees": {
+      "academic": 1,
+      "professionalOrClinicalSkills": 1,
+      "directSubmissionByReferees": true,
+      "withinWeeksOfApplication": 2,
+      "templateFilenameIncludes2026NotCurrentCohortProof": true,
+      "templateContentsRead": false
+    },
+    "organisationEndorsementOnlyIfApplicable": true,
+    "endorsementAdditionalToTwoRefereeReports": true,
+    "samePersonMayProvideEndorsementAndRefereeReportWithDistinctPurposes": true,
+    "shortlistedFaceToFaceInterviews": true,
+    "incompleteApplicationsNotConsidered": true,
+    "platformDoesNotCollectOrSubmitClinicalOrRefereeRecords": true,
+    "internationalEnglish": {
+      "conditionalOnNativeLanguageOrUndergraduateMediumNotEnglish": true,
+      "ielts": {
+        "operator": ">",
+        "total": 6.5,
+        "allComponentsMin": 6
+      },
+      "toeflIbtUnversioned": {
+        "operator": ">",
+        "total": 85,
+        "writingMin": 22
+      },
+      "toeflPbt": {
+        "operator": ">",
+        "total": 580,
+        "preferredTwe": 5
+      },
+      "ieltsToeflValidityNotEstablishedHere": true
+    },
+    "generalEnglish": {
+      "conditionalUniversityMediumAndInstruction": true,
+      "ieltsAcademicMin": 6.5,
+      "internetToeflUnversionedMin": 85,
+      "pteAcademicMin": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      }
+    },
+    "generalSde101ChecklistOptionNotAutomaticClinicalReplacement": true,
+    "englishLayersNotFlattened": true,
+    "automaticWaiver": false,
+    "newToeflScaleNotConverted": true
+  },
+  "eligibility": {
+    "internationalApplicantsWelcomeSubjectToCriteria": true,
+    "validStudentPassForInternationalStudents": true,
+    "ordinaryForensicCitizenPrRestrictionNotInherited": true,
+    "applicantNationalityAndFeeCategoryNotInferred": true
+  },
+  "study": {
+    "durationYears": 2,
+    "mode": "Full-time",
+    "partTimeAvailableCurrently": false,
+    "mostlyWeekdayBusinessHoursSomeWeekdayEvenings": true,
+    "threeCompulsoryPlacements": true,
+    "minimumMasterAwardCgpa": 3,
+    "awardGpaScale": 5,
+    "allCourseworkPracticumResearchMustPass": true,
+    "employmentAlongsideStudyChallengingNotBlanketEmploymentBan": true,
+    "ordinaryMpsy1000HoursNotInherited": true,
+    "exactClinicalPlacementHoursNotEstablished": true,
+    "placementHoursNotPreEntryWork": true,
+    "professionalPreparationNotAutomaticRegistrationOrOverseasPractice": true,
+    "professionalBodyRulesNotIndependentlyChecked": true
+  },
+  "cycle": {
+    "recurringIntakeMonth": "January",
+    "intakesPerYear": 1,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalJanuary2027CalendarNotAssignedProgrammeDeadline": true,
+    "generalJulyCalendarNotAdditionalIntake": true,
+    "refereeTwoWeekIntervalNotAdmissionWindow": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "moeCohortLabel": "AY2026/AY2027 new students",
+    "annualSubsidisedTextQuote": {
+      "sc": 8200,
+      "pr": 16650,
+      "international": null
+    },
+    "starredNonSubsidisedTextQuote": {
+      "scPr": 74500,
+      "international": 89400
+    },
+    "starredFootnoteSaysWholeProgramme": true,
+    "starredAmountsNotAnnualOrMultipliedByTwo": true,
+    "annualActualFeeDependsOnModules": true,
+    "eligibleScPrNoPreviousGovernmentGraduateSubsidyOrSponsorship": true,
+    "moeSubsidyNotAutomaticFromCitizenship": true,
+    "subsidisedScPrGstSponsoredNonSubsidisedAndInternationalGstSeparate": true,
+    "clinicalPrerequisiteTextQuote": {
+      "scPr": 8350,
+      "otherResidents": 10020
+    },
+    "prerequisitePricingUnitAndPersonalApplicabilityUnreconciled": true,
+    "noAutomaticPrerequisiteAdditionOrSubsidy": true,
+    "generalApplicationBeforeGst": {
+      "scPr": 60,
+      "otherApplicants": 100
+    },
+    "clinicalAnnualMiscellaneousTextQuoteBeforeGst": 240,
+    "internationalStudentPassAnnualMiscellaneousTextQuoteBeforeGst": 530,
+    "miscellaneousOverlapNotAddedInto770OrAssignedByDefault": true,
+    "ordinaryResident20NotClinicalDefault": true,
+    "acceptanceDeposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true
+    },
+    "offeringTuition": null,
+    "offeringApplicationFee": null,
+    "pdfColumnsNotVisuallyVerified": true
+  },
+  "sourceLimitations": {
+    "brochurePdfPage": 9,
+    "brochurePrintedPages": "16-17",
+    "checklistPdfPage": 4,
+    "moeFeePdfPages": [
+      1,
+      2
+    ],
+    "selfFundedFeePdfPages": [
+      4,
+      7
+    ],
+    "pdfTextOnly": true,
+    "localPdfDownloaded": false,
+    "pdfVisualInspectionCompleted": false,
+    "curriculumPlanFetchTimedOut": true,
+    "refereeDocxUnsupportedByWebTool": true,
+    "cvExternalFormNotOpenedOrSubmitted": true,
+    "noAccessChecksBypassed": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical",
+      "purpose": "Clinical-specific admissions, conditional bridge, full-time study, referees, strict conditional English and annual January intake",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Separate Clinical coursework-master identity and Student Pass context",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional general ELPR and credited acceptance deposit",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General calendar caveats, current checklist and category-based application fees; no exact Clinical deadline inferred",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "PDF page 4 Clinical CV, statement, transcript and two referee reports; page 1 general documents/SDE101 not an automatic programme exemption; text only",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5",
+      "purpose": "PDF page 9/printed 16-17 Clinical structure and conditional PRCPSY distinct from ordinary MPSY on preceding page; diagram not visually verified",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Clinical SGD 240 and international Student Pass SGD 530 miscellaneous statements kept without adding or assigning overlapping categories",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1",
+      "purpose": "AY2026/27 Clinical annual subsidised quotes, whole-programme starred fee footnote and GST notes on PDF pages 1-2; text only, columns not visually verified",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Clinical-specific prerequisite row on PDF page 4 and page-7 SGD/GST notes; bridge price not assigned as master tuition",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-suss-mpsy.md": "cfb30b98d7b1df5398344304b8bfe9a463f1be76bd0c814dcda6cdb9232abc9a",
+      "docs/research/core-pilot-acceptance-2026-10-28-suss-mpsy.md": "f7507164f019e3ae77da34aa673bf330131cc88a6f90fbc81ad639736d7170da"
+    }
+  }
+}

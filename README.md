@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SUSS MPCL 首查：接入独立临床心理学硕士，保留心理学相关学历、两年全职等值工作与条件式荣誉／桥接路径，避免仅按学位等级误拒。两年全日制、推荐人材料、学习实习及临床费用独立核对，个人费用与具体招生日期仍待确认。部分项目页记录为 47，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mpcl-first-check-2026-10-28.md)、[70 单元快照](docs/research/source-review-queue-2026-10-28-suss-mpcl.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mpcl.md)。原 46 个对象和历史快照保留，本轮仅本地保存。
+
 2026-10-28 同日 SUSS MPSY 首查：接入普通心理学硕士，按正式要求比较心理学本科与两年工作年数，相关性另待确认；荣誉优先与条件式桥接不作统一等级／GPA 门槛。组织／法证方向的资格和语言分开，学习实习不作入学经验。部分项目页记录为 46，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mpsy-first-check-2026-10-28.md)、[69 单元快照](docs/research/source-review-queue-2026-10-28-suss-mpsy.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mpsy.md)。原 45 个对象及日期保留，本轮仅本地保存。
 
 2026-10-28 SUSS MGSS 首查：新增全球安全与战略硕士的部分官方资料，保留项目页／宣传册的毕业 GPA 与项目学分差异，入读／升读位置和个人费用仍待确认。机构背书仅在适用时要求，不设统一就业或临床资质门槛；材料清单不混入相邻研究项目要求。部分项目页记录为 45，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mgss-first-check-2026-10-28.md)、[68 单元快照](docs/research/source-review-queue-2026-10-28-suss-mgss.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mgss.md)。此前 44 个对象及其查阅日期不改写；本轮仅本地保存。

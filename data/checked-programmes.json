@@ -8496,6 +8496,232 @@
         }
       ],
       "researchBatch": "suss-mpsy-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SUSS-P007",
+      "universityId": "SG-SUSS",
+      "name": "Master of Psychology (Clinical)",
+      "award": "MPCL",
+      "area": "Health",
+      "faculty": "School of Humanities and Behavioural Sciences",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; related-degree recognition, equivalent work, direct/conditional honours route, English, materials, cohort and personal fees unresolved",
+      "lastChecked": "2026-10-28",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "A separate 75-CU Clinical coursework master with compulsory placements and dissertation. The usual route requires a psychology or related degree with Second Upper Honours and two years of full-time or equivalent psychology work. The FAQ also allows applications without honours or below that classification, subject to other requirements, holistic review and conditional PRCPSY. Recognition and route suitability are not verified by self-reported scores. International applicants are welcome subject to programme criteria and Student Pass approval. Clinical referee reports and study conditions are not inherited from ordinary MPSY.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P007-MPCL-FT",
+          "mode": "Full-time",
+          "duration": "2 years; conditional PRCPSY stage and any extension timing need confirmation",
+          "intake": "January (one annual intake; applicable cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "Clinical has one January intake yearly. The general January 2027 calendar warns of earlier programme deadlines; no exact Clinical opening/closing date is confirmed. July is not a second Clinical intake. The two-week referee submission interval is relative to an actual application, not a programme deadline. No live portal check was performed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "AY2026/27 MOE text quotes annual subsidised Clinical tuition of SGD 8,200 for SC / 16,650 for PR; international subsidy is NA. The starred SGD 74,500 SC/PR and 89,400 international quotes have a whole-programme footnote, not annual rates to double. Actual annual fees depend on modules. Applicable cohort, prior government graduate funding, tax and PDF columns need confirmation; no personal total is assigned. The separate Clinical prerequisite row quotes 8,350/10,020 before GST, with pricing unit/applicability unresolved; no bridge cost is automatically added. General application fees: 60 SC/PR or 100 others before GST. The policy separately states annual Clinical miscellaneous 240 and international Student Pass miscellaneous 530 before GST; do not add them together or substitute the ordinary resident rate of 20 without category confirmation. General acceptance deposit 2,000 includes GST and credits first-semester tuition."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Undergraduate qualification from a recognised institution",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Psychology or psychology-related degree; related-field recognition needs confirmation",
+          "accepted": [
+            "Psychology"
+          ],
+          "relatedAllowed": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        {
+          "kind": "experience",
+          "labelZh": "",
+          "labelEn": "At least two years of work; psychology relevance and full-time equivalence need confirmation",
+          "min": 2,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Degree recognition and psychology work equivalence",
+          "noteZh": "",
+          "noteEn": "Psychology and psychology-related degrees are accepted subject to SUSS assessment. Two years of full-time or equivalent psychology work is required; a numeric year-count pass does not establish relevance or full-time equivalence. An unlisted degree title remains unresolved rather than automatically rejected.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Standard honours route and conditional PRCPSY alternative",
+          "noteZh": "",
+          "noteEn": "Second Upper Honours is the usual direct-entry requirement, not merely a preference. The FAQ also permits applications without honours or below the required classification if the other work requirement is met, with holistic review and conditional admission. PRCPSY is a self-funded 30-CU Level-4 bridge requiring CGPA 3.0 and awards no separate qualification. Do not reject these applicants solely by classification, infer approval/completion or treat bridge/award CGPA as undergraduate entry GPA. There are no credit exemptions.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conditional international Clinical English",
+          "noteZh": "",
+          "noteEn": "For international applicants when English is not the native language or undergraduate instruction medium, Clinical lists IELTS strictly above 6.5 with every subscore at least 6; internet TOEFL strictly above 85 with writing at least 22; or PBT above 580 with TWE 5 preferred. Preserve strict comparisons and preferred versus mandatory wording. Applicant category, language medium and accepted evidence need confirmation; no universal expiry or TOEFL-scale conversion is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "General English policy and programme-specific alternatives",
+          "noteZh": "",
+          "noteEn": "General ELPR depends on undergraduate university medium and instruction, with IELTS Academic 6.5, internet TOEFL 85, PTE 58, C1 180 within two years or MUET Band 4 within five years. A waiver requires assessment and supporting university evidence. The general checklist mentions SDE101 for applicants without test results, but it is not confirmed as a replacement for Clinical-specific international conditions. No automatic waiver or replacement is assigned.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Clinical documents, referee reports and selection interviews",
+          "noteZh": "",
+          "noteEn": "Prepare certificate/transcripts, CV using the prescribed online form and a one-page statement. Two referee reports are required: one academic and one supporting professional/clinical skills, sent directly by referees within two weeks of application. Organisation endorsement applies only when relevant and is additional to the reports; the same person may provide both with distinct purposes. Shortlisted applicants attend face-to-face selection interviews; incomplete applications are not considered. The platform does not collect, write, contact referees or submit these materials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "International eligibility and Student Pass",
+          "noteZh": "",
+          "noteEn": "International applicants are welcome subject to the Clinical criteria and a valid Student Pass. The ordinary MPSY Forensic citizen/PR restriction does not apply by inheritance. Neither eligibility nor an immigration decision or fee category is established by self-reported academic scores.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Full-time placement feasibility",
+          "noteZh": "",
+          "noteEn": "Clinical is two years full-time with no current part-time option. Classes are mostly during weekday business hours with some weekday evenings; three compulsory placements are mostly in business hours. Combining employment may be challenging; this is not a published blanket employment prohibition or promise of online-only/remote study.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Master award, placements and professional scope",
+          "noteZh": "",
+          "noteEn": "All 75 CU of coursework, practicum and research must be passed with award CGPA at least 3.0/5. PSY503/504/505 are the three placements and PSY699 is the dissertation. These study requirements are not undergraduate GPA or pre-entry work. Do not import ordinary MPSY 1000 practicum hours or overseas arrangements. The programme describes preparation for SPS registration hours, not automatic registration or overseas practice rights; external professional-body rules were not independently checked.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Clinical funding, bridge and miscellaneous categories",
+          "noteZh": "",
+          "noteEn": "MOE subsidy depends on SC/PR eligibility, prior government graduate subsidy/sponsorship and applicable cohort. Annual subsidised rates, whole-programme starred rates, conditional bridge costs and miscellaneous charges have different units and conditions. The Clinical 240 and Student Pass 530 statements overlap without a reconciled personal category; do not add them into 770. No default personal tuition or automatic subsidy is assigned.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "January recurrence and AY2026/27 fee labels do not establish an exact Clinical application cycle.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Psychology is explicitly included; related degrees and qualification recognition require SUSS assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; honours/conditional bridge and master-award CGPA are separate.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional Clinical international requirements and general ELPR alternatives need applicant-specific confirmation.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Annual/whole-programme units are separated in text; category, bridge pricing and PDF column validation remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Exact Clinical cohort opening/closing not established; general calendars and referee interval are not assigned.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial source observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical",
+          "purpose": "Clinical-specific admissions, conditional bridge, full-time study, referees, strict conditional English and annual January intake",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Separate Clinical coursework-master identity and Student Pass context",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional general ELPR and credited acceptance deposit",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General calendar caveats, current checklist and category-based application fees; no exact Clinical deadline inferred",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "PDF page 4 Clinical CV, statement, transcript and two referee reports; page 1 general documents/SDE101 not an automatic programme exemption; text only",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5",
+          "purpose": "PDF page 9/printed 16-17 Clinical structure and conditional PRCPSY distinct from ordinary MPSY on preceding page; diagram not visually verified",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Clinical SGD 240 and international Student Pass SGD 530 miscellaneous statements kept without adding or assigning overlapping categories",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_f-b-p/suss-pg-programmes-(subsidised)_clean_ay2026-moe_published.pdf?sfvrsn=17ac575e_1",
+          "purpose": "AY2026/27 Clinical annual subsidised quotes, whole-programme starred fee footnote and GST notes on PDF pages 1-2; text only, columns not visually verified",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Clinical-specific prerequisite row on PDF page 4 and page-7 SGD/GST notes; bridge price not assigned as master tuition",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "suss-mpcl-first-check-2026-10-28"
     }
   ]
 }
