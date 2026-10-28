@@ -8722,6 +8722,220 @@
         }
       ],
       "researchBatch": "suss-mpcl-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SUSS-P012",
+      "universityId": "SG-SUSS",
+      "name": "Master of Social Work",
+      "award": "MDSW",
+      "area": "Social Sciences",
+      "faculty": "School of Social Work and Social Development",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; social-work degree/diploma recognition, conditional English, cohort, formal mode and personal fees unresolved",
+      "lastChecked": "2026-10-28",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 60-CU coursework MDSW with Social Impact Leadership, Advanced Clinical Practice or a generic mixed-elective option. Entry accepts an undergraduate social-work degree or Graduate Diploma in Social Work, subject to qualification recognition. The profile cannot verify that alternative diploma, so another undergraduate major is not an automatic rejection or admission. No numeric entry GPA, honours minimum or minimum work years was established. The separate GDSW award/placement and CCPSW scheme are not master conditions.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P012-MDSW",
+          "mode": null,
+          "duration": "Recommended 4 semesters, up to 3 courses per semester; formal mode and maximum candidature unconfirmed",
+          "intake": "January and July (recurring intakes; applicable cohort years unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "Two annual intakes are stated: January and July. General 2027 application calendars warn of earlier programme cutoffs, so no exact MDSW window is assigned. Teaching-semester columns such as May 2027 do not create another intake. July-only CCPSW on the separate diploma page does not remove the master January intake. No live portal check was performed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "October 2026 table text lists MDSW master quotes of SGD 31,680 for SC/PR and 38,016 for Other Residents before GST; the as-low-as 26,928 amount is after maximum conditional SSG subsidies, not a default personal price. Category, cohort, course funding and PDF column validation remain unresolved. Separate GDSW prices 21,120/25,344 are not automatically added to master tuition, and MOE annual psychology rates are not used. General application fees are 60 SC/PR or 100 others before GST. Annual miscellaneous: residents 20 or international Student Pass students 530 before GST; Clinical Psychology 240 does not apply by inheritance. The general deposit 2,000 includes GST and credits first-semester tuition."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Undergraduate qualification from a recognised institution",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Social-work undergraduate or graduate-diploma qualification",
+          "noteZh": "",
+          "noteEn": "The master accepts an undergraduate social-work degree or Graduate Diploma in Social Work, subject to SUSS recognition. The profile records undergraduate major but cannot verify an additional graduate diploma. Do not reject another reported major without considering that alternative, or treat an unrelated bachelor alone, assumed diploma completion or prior social-service work as proof of eligibility.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "CV and possible suitability interviews",
+          "noteZh": "",
+          "noteEn": "A CV is required and one or more interviews may be used to assess motivation and ability to complete MDSW. The current master-specific checklist adds a CV detailing work experience; general certificate/transcript/credential/English documents still apply. Adjacent personal-statement, research-proposal and Clinical referee requirements are not imported. The professional audience is not a published numeric minimum work-years gate; the platform does not collect or submit admission materials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conditional international MDSW English",
+          "noteZh": "",
+          "noteEn": "For international applicants when English is not the native language or undergraduate instruction medium, the page specifies IELTS strictly above 6.5 with every subscore at least 6; internet TOEFL strictly above 85 with writing at least 22; or PBT above 580 with TWE 5 preferred. Applicant category, medium and accepted evidence need confirmation. Do not turn strict totals into inclusive minima, preferred TWE into a requirement, or infer unstated expiry or TOEFL-scale conversion.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "General English policy applicability",
+          "noteZh": "",
+          "noteEn": "General ELPR depends on undergraduate university medium and instruction, listing IELTS Academic 6.5, internet TOEFL 85, PTE 58, C1 180 within two years or MUET Band 4 within five years. Waiver evidence needs university assessment. General checklist SDE101 guidance is not confirmed as a replacement for MDSW-specific international conditions; no automatic waiver, accepted alternative or universal test expiry is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "International eligibility and formal study mode",
+          "noteZh": "",
+          "noteEn": "International applicants are welcome subject to programme criteria and a valid Student Pass. Saturday lessons and recommended four semesters do not establish a formal full-time/part-time offering or guarantee pass approval, remote delivery, employment rights or eligibility from a price category.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Master study requirements and elective choice",
+          "noteZh": "",
+          "noteEn": "The 60-CU master comprises 30 core CU including the 10-CU SWK689 applied project, 20 specialisation or generic mixed-basket CU and 10 unrestricted CU. Research methodology of 5 CU is needed within the unrestricted component if relevant research knowledge is insufficient; it is not an additional admission research degree or automatically added 65th CU. Master award CGPA 3.0 is not undergraduate entry GPA. The two named tracks and generic choice are not three separate masters.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Saturday schedule, project timing and candidature",
+          "noteZh": "",
+          "noteEn": "Recommended completion is four semesters at up to three courses per semester. The FAQ describes four Saturdays per course, 08:30-17:30 with a one-hour lunch, and up to two semesters for the applied project. Exact offered timetable and maximum candidature need confirmation; teaching-plan Y/N columns are not admissions or entry prerequisites. After candidature expires, completing remaining courses through CET does not restore the master award.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Separate diploma and professional-recognition boundaries",
+          "noteZh": "",
+          "noteEn": "The 40-CU GDSW has award CGPA 2.5, 400 supervised practicum hours and a recommended three-semester duration; these are not MDSW entry GPA, master placement hours or an automatic 100-CU combined award. Diploma placement assistance and July-only CCPSW do not apply to the master by inheritance. Programme recognition statements do not establish an individual registration or overseas practice right; external professional requirements were not independently checked.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-social-work-gdsw"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Personal fee category and conditional SSG support",
+          "noteZh": "",
+          "noteEn": "Master/diploma prices and maximum SSG amounts have separate applicability. SC/PR/LTVP+ eligibility categories alone do not guarantee funding or the quoted lowest amount. Confirm cohort, category, course eligibility, tax and PDF columns; do not add a diploma price automatically or import MOE annual psychology rates. Personal tuition and application fee remain unassigned.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring January/July and curriculum semesters do not verify a specific admission cycle.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Social-work undergraduate or graduate-diploma alternatives require qualification recognition beyond the undergraduate-only profile.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; MDSW/GDSW award CGPA is separate.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Programme-specific conditional international English and general alternatives need applicant-specific confirmation.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Master/diploma/maximum SSG quotes are separate; personal category, course funding and PDF column mapping remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Exact cohort opening/closing not established; generic calendar and teaching matrix are not assigned.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw",
+          "purpose": "MDSW qualification alternatives, CV/interviews, conditional English, 60 CU, tracks/generic choice, Saturday timetable and two recurring intakes",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Explicit coursework classification, international eligibility and Student Pass context",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "General recognised qualification/conditional ELPR and tuition-crediting deposit",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General calendar caveat, application fees, current checklist and supporting document requirements; no exact master cutoff inferred",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "PDF page 8 Master of Social Work CV block kept distinct from next-page statement and later research proposal; general requirements still apply; text only",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_swsd_brochure_digital.pdf?sfvrsn=9f869ee4_3",
+          "purpose": "PDF pages 5-6 master/diploma identity, 60-CU structure and generic elective option; diagram not visually checked",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-social-work-gdsw",
+          "purpose": "Separate 40-CU GDSW, award CGPA 2.5, 400-hour placement and July-only CCPSW not assigned to master",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=MDSW&viewtype=mhtml",
+          "purpose": "PDF text pages 1,2,4, updated 2 September: MDSW structure and teaching-semester matrix; timetable months not admissions cycles; column alignment not visually checked",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Semester/course billing and resident/international miscellaneous categories; Clinical fee is separate",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "PDF pages 6-7 Social Work master/diploma text quotes, maximum SSG caveats and SGD/GST notes; personal category/visual column checks unresolved",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "suss-mdsw-first-check-2026-10-28"
     }
   ]
 }

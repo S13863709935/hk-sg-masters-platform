@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SUSS-P012",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Social Work",
+    "award": "MDSW",
+    "faculty": "School of Social Work and Social Development",
+    "internationalDirectoryClassifiesCoursework": true,
+    "totalCu": 60,
+    "coreCu": 30,
+    "specialisationOrGenericElectivesCu": 20,
+    "unrestrictedElectivesCu": 10,
+    "appliedProjectCuIncludedInCore": 10,
+    "appliedProjectCode": "SWK689",
+    "namedSpecialisations": [
+      "Social Impact Leadership",
+      "Advanced Clinical Practice"
+    ],
+    "genericMixedBasketOption": true,
+    "notThreeSeparateMasterDegrees": true,
+    "graduateDiplomaNotMerged": true
+  },
+  "entry": {
+    "acceptedSocialWorkQualifications": [
+      "Undergraduate social work degree",
+      "Graduate Diploma in Social Work"
+    ],
+    "qualificationRecognitionRequiresAssessment": true,
+    "nonSocialWorkBachelorNotAutomaticRejectionBecauseDiplomaAlternative": true,
+    "unrelatedBachelorAloneNotAutomaticEligibility": true,
+    "noAutomaticDiplomaCompletionOrMasterAdmission": true,
+    "numericUndergraduateGpa": null,
+    "minimumHonoursClassification": null,
+    "numericMinimumWorkYears": null,
+    "professionalAudienceNotNumericEmploymentGate": true,
+    "cvRequired": true,
+    "interviewsMayBeRequired": true,
+    "currentChecklistMasterSpecificAdditionalDocuments": [
+      "CV detailing work experience"
+    ],
+    "neighbouringPersonalStatementResearchProposalAndClinicalRefereesNotInherited": true,
+    "generalCredentialAndEnglishDocumentsStillApply": true,
+    "platformDoesNotCollectOrSubmitAdmissionMaterials": true,
+    "internationalEnglish": {
+      "conditionalOnNativeLanguageOrUndergraduateMediumNotEnglish": true,
+      "ielts": {
+        "operator": ">",
+        "total": 6.5,
+        "allComponentsMin": 6
+      },
+      "toeflIbtUnversioned": {
+        "operator": ">",
+        "total": 85,
+        "writingMin": 22
+      },
+      "toeflPbt": {
+        "operator": ">",
+        "total": 580,
+        "preferredTwe": 5
+      },
+      "ieltsToeflExpiryNotEstablishedHere": true
+    },
+    "generalEnglish": {
+      "conditionalUniversityMediumAndInstruction": true,
+      "ieltsAcademicMin": 6.5,
+      "internetToeflUnversionedMin": 85,
+      "pteAcademicMin": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      }
+    },
+    "generalSde101OptionNotAutomaticProgrammeSpecificReplacement": true,
+    "automaticWaiver": false,
+    "toeflScaleConversion": false
+  },
+  "study": {
+    "recommendedSemesters": 4,
+    "recommendedMaxCoursesPerSemester": 3,
+    "formalFullPartTimeMode": null,
+    "lessonsSaturdaysPerCourse": 4,
+    "lessonHours": "08:30-17:30 with one-hour lunch",
+    "appliedProjectUpToSemesters": 2,
+    "masterAwardCgpa": 3,
+    "researchMethodologyCuIfKnowledgeInsufficient": 5,
+    "researchMethodologyWithinUnrestricted10Cu": true,
+    "researchCourseNotAdmissionResearchDegreeRequirement": true,
+    "candidatureExpiredCETCompletionDoesNotRestoreMasterAward": true,
+    "formalMaximumCandidatureNotEstablished": true,
+    "curriculumUpdatedOn": "2026-09-02",
+    "curriculumTeachingMonthsNotAdmissionIntakes": true,
+    "curriculumPrerequisiteExcludedColumnAlignmentNotVisuallyVerified": true,
+    "programmeProfessionalRecognitionClaimNotIndependentRegistrationGuarantee": true,
+    "professionalBodyRequirementsNotIndependentlyChecked": true
+  },
+  "diplomaBoundary": {
+    "diplomaCu": 40,
+    "diplomaAwardCgpa": 2.5,
+    "supervisedPracticumHours": 400,
+    "recommendedSemesters": 3,
+    "notMasterEntryGpaOrMasterPracticum": true,
+    "notAutomatic100CuMaster": true,
+    "ccpswJulyOnlyNotMasterIntakeRestriction": true,
+    "diplomaPlacementAssistanceNotMasterGuarantee": true
+  },
+  "eligibility": {
+    "internationalApplicantsWelcomeSubjectToCriteria": true,
+    "studentPassRequiredForInternationalStudents": true,
+    "saturdayScheduleDoesNotEstablishFormalPartTimeModeOrPassApproval": true,
+    "nationalityAndFeeCategoryNotInferred": true
+  },
+  "cycle": {
+    "recurringIntakes": [
+      "January",
+      "July"
+    ],
+    "intakesPerYear": 2,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "general2027CutoffsHaveEarlierProgrammeWarningAndAreNotAssigned": true,
+    "curriculumMay2027NotThirdIntake": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "selfFundedTableUpdatedMonth": "October 2026",
+    "tablePricesAsOf": "2026-10-16",
+    "masterTextQuotesBeforeGst": {
+      "maximumSsgSubsidyAsLowAs": 26928,
+      "scPr": 31680,
+      "otherResidents": 38016
+    },
+    "separateDiplomaTextQuotesBeforeGst": {
+      "scPr": 21120,
+      "otherResidents": 25344
+    },
+    "ssgEligibleCategoriesText": [
+      "Singapore Citizen",
+      "Permanent Resident",
+      "LTVP+ holder"
+    ],
+    "maximumSubsidyNotGrantedFromCitizenshipOrWholeAwardLabel": true,
+    "notMoeAnnualPsychologySubsidy": true,
+    "diplomaPriceNotAutomaticallyAddedToMaster": true,
+    "categoryCohortCourseFundingAndPdfColumnsUnresolved": true,
+    "generalApplicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "residents": 20,
+      "internationalStudentPass": 530
+    },
+    "clinicalPsychology240NotInherited": true,
+    "acceptanceDeposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true
+    },
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "sourceLimitations": {
+    "brochurePdfPages": [
+      5,
+      6
+    ],
+    "brochureDiagramNotVisuallyInspected": true,
+    "checklistPdfPage": 8,
+    "feePdfPages": [
+      6,
+      7
+    ],
+    "curriculumPdfPagesRead": [
+      1,
+      2,
+      4
+    ],
+    "pdfTextOnly": true,
+    "localPdfDownloaded": false,
+    "pdfVisualInspectionCompleted": false,
+    "noAccessChecksBypassed": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw",
+      "purpose": "MDSW qualification alternatives, CV/interviews, conditional English, 60 CU, tracks/generic choice, Saturday timetable and two recurring intakes",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Explicit coursework classification, international eligibility and Student Pass context",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "General recognised qualification/conditional ELPR and tuition-crediting deposit",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General calendar caveat, application fees, current checklist and supporting document requirements; no exact master cutoff inferred",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "PDF page 8 Master of Social Work CV block kept distinct from next-page statement and later research proposal; general requirements still apply; text only",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_swsd_brochure_digital.pdf?sfvrsn=9f869ee4_3",
+      "purpose": "PDF pages 5-6 master/diploma identity, 60-CU structure and generic elective option; diagram not visually checked",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-social-work-gdsw",
+      "purpose": "Separate 40-CU GDSW, award CGPA 2.5, 400-hour placement and July-only CCPSW not assigned to master",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=MDSW&viewtype=mhtml",
+      "purpose": "PDF text pages 1,2,4, updated 2 September: MDSW structure and teaching-semester matrix; timetable months not admissions cycles; column alignment not visually checked",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Semester/course billing and resident/international miscellaneous categories; Clinical fee is separate",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "PDF pages 6-7 Social Work master/diploma text quotes, maximum SSG caveats and SGD/GST notes; personal category/visual column checks unresolved",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-suss-mpcl.md": "30f52c3258e67d64e770946a324d7067777d7cd91724cafd331d3f7ff9e05875",
+      "docs/research/core-pilot-acceptance-2026-10-28-suss-mpcl.md": "b0089b31801b59fe9c1216b2e5afa2afdcabdc4beec76459a54759b1b6222754"
+    }
+  }
+}

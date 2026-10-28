@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SUSS MDSW 首查：接入社会工作硕士，保留社会工作本科／研究生文凭两种资格，避免仅按本科专业误排除或自动认可；不虚设最低工作年数和本科 GPA。专项／通用选修、研究课程及文凭实习分别核对，具体模式、批次和个人资助费用仍待确认。部分项目页记录为 48，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mdsw-first-check-2026-10-28.md)、[71 单元快照](docs/research/source-review-queue-2026-10-28-suss-mdsw.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mdsw.md)。原 47 个对象与历史快照保留，本轮仅本地保存。
+
 2026-10-28 同日 SUSS MPCL 首查：接入独立临床心理学硕士，保留心理学相关学历、两年全职等值工作与条件式荣誉／桥接路径，避免仅按学位等级误拒。两年全日制、推荐人材料、学习实习及临床费用独立核对，个人费用与具体招生日期仍待确认。部分项目页记录为 47，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mpcl-first-check-2026-10-28.md)、[70 单元快照](docs/research/source-review-queue-2026-10-28-suss-mpcl.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mpcl.md)。原 46 个对象和历史快照保留，本轮仅本地保存。
 
 2026-10-28 同日 SUSS MPSY 首查：接入普通心理学硕士，按正式要求比较心理学本科与两年工作年数，相关性另待确认；荣誉优先与条件式桥接不作统一等级／GPA 门槛。组织／法证方向的资格和语言分开，学习实习不作入学经验。部分项目页记录为 46，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mpsy-first-check-2026-10-28.md)、[69 单元快照](docs/research/source-review-queue-2026-10-28-suss-mpsy.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mpsy.md)。原 45 个对象及日期保留，本轮仅本地保存。
