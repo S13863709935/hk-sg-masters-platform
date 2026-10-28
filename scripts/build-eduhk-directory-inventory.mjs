@@ -18,7 +18,8 @@ export function buildEduhkInventory(input) {
   const { observation, seed, checked } = structuredClone(input);
   const expansion = structuredClone(input.expansion), links = structuredClone(input.links), audit = structuredClone(input.audit);
   if (observation.schemaVersion !== 1 || observation.universityId !== school || observation.checkedOn !== date || observation.sourceUrl !== sourceUrl || observation.sourceHeading !== 'Programme Information' || observation.rowCount !== 79 || observation.rows?.length !== 79 || JSON.stringify(observation.sections) !== JSON.stringify(sectionCounts) || observation.footnoteMeanings?.asterisk !== 'Programme subject to University approval' || observation.footnoteMeanings?.hash !== 'Chinese medium of instruction; not a pending-approval marker') throw new Error('Incomplete or unexpected EdUHK observation');
-  if ([expansion.checkedOn, links.checkedOn, audit.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer directory evidence');
+  if ([expansion.checkedOn, audit.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer directory evidence');
+  if (links.checkedOn !== links.listings.map(l => l.checkedOn).sort().at(-1)) throw new Error('Inconsistent directory evidence batch date');
   const counts = Object.fromEntries(Object.keys(sectionCounts).map(key => [key, 0]));
   const seen = new Set(), entries = [], groups = new Map();
   for (const [index, row] of observation.rows.entries()) {
@@ -69,7 +70,7 @@ export function buildEduhkInventory(input) {
   if (links.listings.some(l => incoming.has(l.programmeId) && l.checkedOn > date)) throw new Error('Refusing to replace newer EdUHK listings');
   const existingIds = new Set(links.listings.map(l => l.programmeId));
   links.listings = [...links.listings.map(l => incoming.get(l.programmeId) || l), ...listings.filter(l => !existingIds.has(l.programmeId))];
-  links.checkedOn = date; expansion.checkedOn = date;
+  links.checkedOn = links.listings.map(l => l.checkedOn).sort().at(-1); expansion.checkedOn = date;
   expansion.programmes.sort((a, b) => a.id.localeCompare(b.id));
   Object.assign(audit.universities.find(u => u.universityId === school), { checkedOn: date, directoryUrl: sourceUrl, listingUrl: sourceUrl, entryStatus: 'entry_checked', enumerationStatus: 'entries_enumerated', confirmedProgrammeCount: null, visibleDirectoryResultCount: 79, directoryMasterEntryCount: 78, inventoryFile: `data/research/eduhk-programme-inventory-${date}.json`, noteEn: 'All six taught-section containers read: 79 rows, one certificate excluded, ten unlinked pending-approval master rows held. Linked rows form 59 conservative candidate groups after nine language-pair merges, including seven linked groups subject to approval. These are not confirmed distinct-master totals, admissions checks or live application status. Both administrative links resolve to the same list; do not double-count it.' });
   audit.checkedOn = date; validateDirectoryAudit(audit, schoolIds);

@@ -12983,6 +12983,101 @@
         }
       },
       "researchBatch": "smu-mwm-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SMU-P016",
+      "universityId": "SG-SMU",
+      "name": "Master of Science in Quantitative Finance",
+      "award": "MSc",
+      "area": "Finance",
+      "faculty": null,
+      "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial observation; choose a delivery track before applying its evidence",
+      "lastChecked": "2026-10-28",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Select the Singapore-based or international delivery track. Elective career themes are not separate master degrees. Route-specific English, delivery and study-mode conditions cannot be combined.",
+      "offerings": [
+        {
+          "id": "SG-SMU-P016-ROUTE-PENDING",
+          "mode": null,
+          "duration": null,
+          "intake": "August 2027",
+          "academicYear": "2027",
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+          "currency": "SGD",
+          "tuition": null,
+          "feeBasis": "Select a delivery track; shared and older fee blocks are not a personal quotation."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Delivery track required",
+          "noteZh": "",
+          "noteEn": "Choose one delivery track; parent-level data does not establish route-specific admission or fees.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+          "purpose": "MQF track-specific delivery, admission conditions and conflicting English/fee versions",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/MQF/Apply_now",
+          "purpose": "August 2027 month window; stale August 2026 introduction kept separate",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "August 2027 identified in current header and landing table.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A good bachelor degree from a reputable institution in any field with mathematical rigour. Actual preparation and recognition need assessment; no universal numeric entry GPA or Finance-major whitelist was established. Alumni test substitutes and graduation GPA are separate conditions.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal entry GPA established.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Route-specific policy and published contradictions require confirmation.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Indicative and duplicate fee versions unresolved.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/MQF/Apply_now"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        }
+      },
+      "researchBatch": "smu-mqf-first-check-2026-10-28"
     }
   ]
 }

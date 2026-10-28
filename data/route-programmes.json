@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-21",
+  "checkedOn": "2026-10-28",
   "programmes": [
     {
       "programmeId": "SG-NTU-P061",
@@ -492,6 +492,365 @@
               "noteEn": "No independent human review recorded; cross-border project scope remains unconfirmed.",
               "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0"
             }
+          }
+        }
+      ]
+    },
+    {
+      "programmeId": "SG-SMU-P016",
+      "routes": [
+        {
+          "name": "Singapore-based Track",
+          "award": "MSc",
+          "area": "Finance",
+          "faculty": null,
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial track observation; unresolved conditions remain manual",
+          "lastChecked": "2026-10-28",
+          "academicYear": "2027",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "All courses at SMU in Singapore; SMU MQF degree. Full-time and part-time are distinct study modes of this track. Local track is a delivery label, not a nationality or residency category. Elective themes do not add master degrees.",
+          "offerings": [
+            {
+              "id": "SG-SMU-P016-SG-AUG2027-FT",
+              "mode": "Full-time",
+              "duration": "18 months, option to complete in 12; calendar also describes 12 months plus internship, confirm current plan",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": null,
+              "deadlineNote": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "August 2027 indicative tuition quote: SGD 63,220 inclusive of GST. A duplicate fee block quotes 59,950 with no reconciled cohort. The calendar says both tracks share programme fees and the international quote includes four Bayes modules; London travel, accommodation and living costs are additional. Current advance tuition is 8,000, credited toward tuition, not an extra tuition charge. AY2027 annual miscellaneous fees: SC/PR 400 or international 480 excluding GST; an older block lists registration 400/500 inclusive of GST. Application fee 100 inclusive of GST. Confirm the applicable cohort, tax, category, balance and additional costs. Personal tuition remains unassigned; do not add GST twice or automatically apply scholarships."
+            },
+            {
+              "id": "SG-SMU-P016-SG-AUG2027-PT",
+              "mode": "Part-time",
+              "duration": "24 months",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": null,
+              "deadlineNote": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "August 2027 indicative tuition quote: SGD 63,220 inclusive of GST. A duplicate fee block quotes 59,950 with no reconciled cohort. The calendar says both tracks share programme fees and the international quote includes four Bayes modules; London travel, accommodation and living costs are additional. Current advance tuition is 8,000, credited toward tuition, not an extra tuition charge. AY2027 annual miscellaneous fees: SC/PR 400 or international 480 excluding GST; an older block lists registration 400/500 inclusive of GST. Application fee 100 inclusive of GST. Confirm the applicable cohort, tax, category, balance and additional costs. Personal tuition remains unassigned; do not add GST twice or automatically apply scholarships."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Bachelor degree",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Academic recognition and mathematical preparation",
+              "noteZh": "",
+              "noteEn": "A good bachelor degree from a reputable institution in any field with mathematical rigour. Actual preparation and recognition need assessment; no universal numeric entry GPA or Finance-major whitelist was established. Alumni test substitutes and graduation GPA are separate conditions.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Admission-test alternatives and recent-alumni evidence",
+              "noteZh": "",
+              "noteEn": "GMAT, GRE or SMU Admissions Test are alternatives, subject to assessed recent-alumni substitutes: SMU 3.0/4.0 or named NUS/NTU/SUSS/SUTD/SIT 3.5/5.0 within five graduation years. A test may still be requested. Institution/year and accepted evidence are not established by this profile. No universal entry GPA, converted scale or sibling minimum/test validity is inferred.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track-specific English evidence",
+              "noteZh": "",
+              "noteEn": "For the Singapore-based track, English proof is conditional on non-English undergraduate instruction. The detailed block uses strict TOEFL >90 and IELTS >6.5 wording, without resolving TOEFL scale/version, validity or accepted exceptions. Do not silently turn > into >=, import international IELTS 7.0/Writing 6.5, or approve an English-degree self-report. Keep the condition manual.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Application materials and interview",
+              "noteZh": "",
+              "noteEn": "Resume, official transcripts, identity, applicable scores, certified CFA/ACCA copies if held, two approximately 500-600-word statements and two referee reports. The university triggers referee requests after actual application; shortlisted applicants have an interview and originals require verification. Materials and accepted substitutes still need assessment.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Indicative and duplicate fee versions",
+              "noteZh": "",
+              "noteEn": "August 2027 indicative tuition quote: SGD 63,220 inclusive of GST. A duplicate fee block quotes 59,950 with no reconciled cohort. The calendar says both tracks share programme fees and the international quote includes four Bayes modules; London travel, accommodation and living costs are additional. Current advance tuition is 8,000, credited toward tuition, not an extra tuition charge. AY2027 annual miscellaneous fees: SC/PR 400 or international 480 excluding GST; an older block lists registration 400/500 inclusive of GST. Application fee 100 inclusive of GST. Confirm the applicable cohort, tax, category, balance and additional costs. Personal tuition remains unassigned; do not add GST twice or automatically apply scholarships.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Month-only application window",
+              "noteZh": "",
+              "noteEn": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/MQF/Apply_now"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Work experience by study mode",
+              "noteZh": "",
+              "noteEn": "Full-time accepts fresh graduates without required work experience; relevant experience is strongly preferred for part-time, not a published numeric minimum. Selecting a mode does not establish personal applicability.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Coursework and graduation conditions",
+              "noteZh": "",
+              "noteEn": "Nine core modules, four electives, professional development and an open module; internship is one open-module option, not a guaranteed job. Graduation GPA 2.5/4.0 is not undergraduate entry GPA. Course exemption does not imply tuition reduction.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+              "purpose": "MQF track-specific delivery, admission conditions and conflicting English/fee versions",
+              "checkedOn": "2026-10-28"
+            },
+            {
+              "url": "https://masters.smu.edu.sg/programme/MQF/Apply_now",
+              "purpose": "August 2027 month window; stale August 2026 introduction kept separate",
+              "checkedOn": "2026-10-28"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "August 2027 identified in current header and landing table.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "A good bachelor degree from a reputable institution in any field with mathematical rigour. Actual preparation and recognition need assessment; no universal numeric entry GPA or Finance-major whitelist was established. Alumni test substitutes and graduation GPA are separate conditions.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No universal entry GPA established.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "language": {
+              "status": "unknown",
+              "noteEn": "For the Singapore-based track, English proof is conditional on non-English undergraduate instruction. The detailed block uses strict TOEFL >90 and IELTS >6.5 wording, without resolving TOEFL scale/version, validity or accepted exceptions. Do not silently turn > into >=, import international IELTS 7.0/Writing 6.5, or approve an English-degree self-report. Keep the condition manual.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Indicative and duplicate fee versions unresolved.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "deadline": {
+              "status": "unknown",
+              "noteEn": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/MQF/Apply_now"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "AI-assisted partial observation; no independent human review.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            }
+          },
+          "researchBatch": "smu-mqf-first-check-2026-10-28",
+          "routeId": "SG-SMU-P016-ROUTE-SINGAPORE",
+          "scope": {
+            "status": "in_scope",
+            "checkedOn": "2026-10-28",
+            "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+            "reasonEn": "SMU taught MQF with all courses in Singapore, as described for the Singapore-based track."
+          }
+        },
+        {
+          "name": "International Track",
+          "award": "MSc",
+          "area": "Finance",
+          "faculty": null,
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial track observation; unresolved conditions remain manual",
+          "lastChecked": "2026-10-28",
+          "academicYear": "2027",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Full-time only. Terms 1 and 3 at SMU, term 2 at Bayes in London, with a joint SMU/Bayes MQF degree. FAQ describes three London months while the calendar describes four; confirm current attendance. This is one joint master, not two degrees or entirely Singapore delivery.",
+          "offerings": [
+            {
+              "id": "SG-SMU-P016-INT-AUG2027-FT",
+              "mode": "Full-time",
+              "duration": "18 months, option to complete in 12; calendar also describes 12 months plus internship, confirm current plan",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": null,
+              "deadlineNote": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "August 2027 indicative tuition quote: SGD 63,220 inclusive of GST. A duplicate fee block quotes 59,950 with no reconciled cohort. The calendar says both tracks share programme fees and the international quote includes four Bayes modules; London travel, accommodation and living costs are additional. Current advance tuition is 8,000, credited toward tuition, not an extra tuition charge. AY2027 annual miscellaneous fees: SC/PR 400 or international 480 excluding GST; an older block lists registration 400/500 inclusive of GST. Application fee 100 inclusive of GST. Confirm the applicable cohort, tax, category, balance and additional costs. Personal tuition remains unassigned; do not add GST twice or automatically apply scholarships."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Bachelor degree",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Academic recognition and mathematical preparation",
+              "noteZh": "",
+              "noteEn": "A good bachelor degree from a reputable institution in any field with mathematical rigour. Actual preparation and recognition need assessment; no universal numeric entry GPA or Finance-major whitelist was established. Alumni test substitutes and graduation GPA are separate conditions.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Admission-test alternatives and recent-alumni evidence",
+              "noteZh": "",
+              "noteEn": "GMAT, GRE or SMU Admissions Test are alternatives, subject to assessed recent-alumni substitutes: SMU 3.0/4.0 or named NUS/NTU/SUSS/SUTD/SIT 3.5/5.0 within five graduation years. A test may still be requested. Institution/year and accepted evidence are not established by this profile. No universal entry GPA, converted scale or sibling minimum/test validity is inferred.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track-specific English evidence",
+              "noteZh": "",
+              "noteEn": "All international-track applicants must confirm mandatory IELTS evidence, even with an English-taught bachelor. The header specifies IELTS 7.0 overall and 6.5 Writing; a detailed block instead lists TOEFL >90 or IELTS >6.5 for all, while the FAQ requires IELTS. These are conflicting published versions. Confirm the accepted test, exact scores and validity; do not offer TOEFL substitution, apply Singapore-track waivers or convert the Writing-only figure into an all-component minimum.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Application materials and interview",
+              "noteZh": "",
+              "noteEn": "Resume, official transcripts, identity, applicable scores, certified CFA/ACCA copies if held, two approximately 500-600-word statements and two referee reports. The university triggers referee requests after actual application; shortlisted applicants have an interview and originals require verification. Materials and accepted substitutes still need assessment.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Indicative and duplicate fee versions",
+              "noteZh": "",
+              "noteEn": "August 2027 indicative tuition quote: SGD 63,220 inclusive of GST. A duplicate fee block quotes 59,950 with no reconciled cohort. The calendar says both tracks share programme fees and the international quote includes four Bayes modules; London travel, accommodation and living costs are additional. Current advance tuition is 8,000, credited toward tuition, not an extra tuition charge. AY2027 annual miscellaneous fees: SC/PR 400 or international 480 excluding GST; an older block lists registration 400/500 inclusive of GST. Application fee 100 inclusive of GST. Confirm the applicable cohort, tax, category, balance and additional costs. Personal tuition remains unassigned; do not add GST twice or automatically apply scholarships.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Month-only application window",
+              "noteZh": "",
+              "noteEn": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/MQF/Apply_now"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Joint award and London attendance",
+              "noteZh": "",
+              "noteEn": "Mandatory London term, joint award and published three/four-month descriptions need confirmation. No international part-time option is established; track switching after commencement is not allowed. Fresh graduates are welcome. Travel permissions and personal costs remain unassessed.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Coursework and graduation conditions",
+              "noteZh": "",
+              "noteEn": "Nine core modules, four electives, professional development and an open module; internship is one open-module option, not a guaranteed job. Graduation GPA 2.5/4.0 is not undergraduate entry GPA. Course exemption does not imply tuition reduction.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+              "purpose": "MQF track-specific delivery, admission conditions and conflicting English/fee versions",
+              "checkedOn": "2026-10-28"
+            },
+            {
+              "url": "https://masters.smu.edu.sg/programme/MQF/Apply_now",
+              "purpose": "August 2027 month window; stale August 2026 introduction kept separate",
+              "checkedOn": "2026-10-28"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "August 2027 identified in current header and landing table.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "A good bachelor degree from a reputable institution in any field with mathematical rigour. Actual preparation and recognition need assessment; no universal numeric entry GPA or Finance-major whitelist was established. Alumni test substitutes and graduation GPA are separate conditions.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No universal entry GPA established.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "language": {
+              "status": "unknown",
+              "noteEn": "All international-track applicants must confirm mandatory IELTS evidence, even with an English-taught bachelor. The header specifies IELTS 7.0 overall and 6.5 Writing; a detailed block instead lists TOEFL >90 or IELTS >6.5 for all, while the FAQ requires IELTS. These are conflicting published versions. Confirm the accepted test, exact scores and validity; do not offer TOEFL substitution, apply Singapore-track waivers or convert the Writing-only figure into an all-component minimum.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Indicative and duplicate fee versions unresolved.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            },
+            "deadline": {
+              "status": "unknown",
+              "noteEn": "August 2027 intake; September 2026-May 2027 month window, rolling selection. Exact opening/final days and cutoff time are not established. The landing introduction still mentions August 2026 and 1 September 2025: neither is reused for this cycle. No live application account was checked.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/MQF/Apply_now"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "AI-assisted partial observation; no independent human review.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+            }
+          },
+          "researchBatch": "smu-mqf-first-check-2026-10-28",
+          "routeId": "SG-SMU-P016-ROUTE-INTERNATIONAL",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-28",
+            "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+            "reasonEn": "The joint SMU/Bayes route includes mandatory London study. Retained transparently as an SMU route; inclusion within this Hong Kong/Singapore project boundary needs confirmation, rather than silently classifying it as wholly Singapore-based."
           }
         }
       ]

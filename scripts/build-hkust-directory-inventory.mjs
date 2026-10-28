@@ -19,7 +19,8 @@ export function buildHkustInventory(input) {
   const expansion = structuredClone(input.expansion), links = structuredClone(input.links), audit = structuredClone(input.audit);
   const f = observation.selectedFilters;
   if (observation.schemaVersion !== 1 || observation.universityId !== school || observation.checkedOn !== date || observation.sourceUrl !== sourceUrl || observation.catalogueYear !== '2027-28' || observation.programmeUrlPrefix !== prefix || observation.rowCount !== 55 || observation.rows?.length !== 55 || f?.year !== '2027-28' || JSON.stringify(f.schools) !== JSON.stringify(schools) || JSON.stringify(f.degrees) !== JSON.stringify(degrees) || f.allAreas !== true || f.researchSelected !== false || f.guangzhouHubsSelected !== false || f.alphabet !== 'Show All') throw new Error('Incomplete or incorrect HKUST filter observation');
-  if ([expansion.checkedOn, links.checkedOn, audit.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer directory evidence');
+  if ([expansion.checkedOn, audit.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer directory evidence');
+  if (links.checkedOn !== links.listings.map(l => l.checkedOn).sort().at(-1)) throw new Error('Inconsistent directory evidence batch date');
   const entries = [], groups = new Map(), paths = new Set();
   for (const [index, row] of observation.rows.entries()) {
     const [department, rawName, awardLabel, path] = row;
@@ -65,7 +66,7 @@ export function buildHkustInventory(input) {
   const incoming = new Map(listings.map(l => [l.programmeId, l])), existingIds = new Set(links.listings.map(l => l.programmeId));
   if (links.listings.some(l => incoming.has(l.programmeId) && l.checkedOn > date)) throw new Error('Refusing to replace newer HKUST listings');
   links.listings = [...links.listings.map(l => incoming.get(l.programmeId) || l), ...listings.filter(l => !existingIds.has(l.programmeId))];
-  links.checkedOn = date; expansion.checkedOn = date;
+  links.checkedOn = links.listings.map(l => l.checkedOn).sort().at(-1); expansion.checkedOn = date;
   expansion.programmes.sort((a, b) => a.id.localeCompare(b.id));
   Object.assign(audit.universities.find(u => u.universityId === school), { checkedOn: date, entryStatus: 'entry_checked', enumerationStatus: 'entries_enumerated', confirmedProgrammeCount: null, visibleDirectoryResultCount: 55, directoryMasterEntryCount: 53, inventoryFile: `data/research/hkust-programme-inventory-${date}.json`, noteEn: '2027/28 Show All results with research unchecked and only the five Hong Kong schools selected: 55 rows, two DBAs excluded, four joint/placement cases held. 48 candidate groups after MBA-format grouping; PGD components do not add masters. DISC maps only to the MSc seed, while its existing MEng transfer identity stays hidden by default. No confirmed distinct-programme count or live admissions claim.' });
   audit.checkedOn = date; validateDirectoryAudit(audit, schoolIds);

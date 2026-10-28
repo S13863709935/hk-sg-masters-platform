@@ -32,7 +32,8 @@ function nameOf(title, award, code) {
 export function buildPolyuInventory(input) {
   const { observation, seed, checked, expansion, links, audit } = structuredClone(input);
   if (observation.schemaVersion !== 1 || observation.universityId !== school || observation.checkedOn !== date || observation.sourceUrl !== sourceUrl || observation.views?.length !== 2) throw new Error('Invalid PolyU observation');
-  if ([expansion.checkedOn, links.checkedOn, audit.checkedOn, audit.universities.find(u => u.universityId === school)?.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer PolyU evidence');
+  if ([expansion.checkedOn, audit.checkedOn, audit.universities.find(u => u.universityId === school)?.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer PolyU evidence');
+  if (links.checkedOn !== links.listings.map(l => l.checkedOn).sort().at(-1)) throw new Error('Inconsistent directory evidence batch date');
   const entries = [], groups = new Map();
   for (const [i, view] of observation.views.entries()) {
     const [label, filter, year, count] = views[i], prefix = `https://www.polyu.edu.hk/study/pg/tpg/${year}/`;
@@ -87,7 +88,7 @@ export function buildPolyuInventory(input) {
   const incoming = new Map(listings.map(l => [l.programmeId, l])), existingIds = new Set(links.listings.map(l => l.programmeId));
   if (links.listings.some(l => incoming.has(l.programmeId) && l.checkedOn > date)) throw new Error('Refusing to replace newer PolyU listings');
   links.listings = [...links.listings.map(l => incoming.get(l.programmeId) || l), ...listings.filter(l => !existingIds.has(l.programmeId))];
-  links.checkedOn = date; expansion.checkedOn = date; expansion.programmes.sort((a, b) => a.id.localeCompare(b.id));
+  links.checkedOn = links.listings.map(l => l.checkedOn).sort().at(-1); expansion.checkedOn = date; expansion.programmes.sort((a, b) => a.id.localeCompare(b.id));
   const schoolAudit = audit.universities.find(u => u.universityId === school);
   if (!schoolAudit) throw new Error('Missing PolyU audit');
   Object.assign(schoolAudit, { checkedOn: date, entryStatus: 'entry_checked', enumerationStatus: 'entries_enumerated', confirmedProgrammeCount: null, visibleDirectoryResultCount: 169, directoryMasterEntryCount: 151, inventoryFile: `data/research/polyu-programme-inventory-${date}.json`, noteEn: 'All-faculty semester lists: 128 September 2027 rows and 41 January 2027 rows. Exclude 18 doctoral rows, hold 12 rows for schemes/partners/delivery or unavailable intakes. Repeated intakes and selected streams form 100 conservative candidate groups, not an exact distinct-master total. Master-labelled row count 151 still includes repeated intakes and unresolved cases. Admissions and delivery are not fully checked.' });

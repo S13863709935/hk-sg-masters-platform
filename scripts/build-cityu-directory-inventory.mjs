@@ -17,7 +17,8 @@ export function buildCityuInventory(input) {
   const { observation, seed, checked } = structuredClone(input);
   const expansion = structuredClone(input.expansion), links = structuredClone(input.links), audit = structuredClone(input.audit);
   if (observation.schemaVersion !== 1 || observation.universityId !== school || observation.checkedOn !== date || observation.sourceHeading !== 'Programme List (2027/28)' || observation.rowCount !== 72 || observation.rows?.length !== 72 || observation.sourceUrl !== 'https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list' || observation.programmeUrlPrefix !== 'https://www.cityu.edu.hk/en/pg/programme/program-list/2027/') throw new Error('Incomplete or unexpected CityU observation');
-  if ([expansion.checkedOn, links.checkedOn, audit.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer directory evidence');
+  if ([expansion.checkedOn, audit.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer directory evidence');
+  if (links.checkedOn !== links.listings.map(l => l.checkedOn).sort().at(-1)) throw new Error('Inconsistent directory evidence batch date');
   const schoolIds = new Set(seed.universities.map(u => u.id));
   const registry = new Map([...seed.programmes, ...expansion.programmes, ...checked.programmes].map(p => [p.id, p]));
   const records = [...registry.values()].filter(p => p.universityId === school);
@@ -76,7 +77,7 @@ export function buildCityuInventory(input) {
   const incoming = new Map(listings.map(l => [l.programmeId, l]));
   const existingIds = new Set(links.listings.map(l => l.programmeId));
   links.listings = [...links.listings.map(l => incoming.get(l.programmeId) || l), ...listings.filter(l => !existingIds.has(l.programmeId))];
-  links.checkedOn = date;
+  links.checkedOn = links.listings.map(l => l.checkedOn).sort().at(-1);
   expansion.checkedOn = date;
   expansion.programmes.sort((a, b) => a.id.localeCompare(b.id));
   const u = audit.universities.find(u => u.universityId === school);

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-20",
+  "checkedOn": "2026-10-28",
   "description": "Non-admission directory evidence. Existing titles, rules, reviews and offering values remain untouched.",
   "listings": [
     {
@@ -5942,6 +5942,24 @@
       "programmeUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0",
       "variants": [],
       "noteEn": "Closed directory tag observed in both Local and Non-local result views on 20 October 2026. The applicable intake is not established here; this is not a live application-portal check. The existing archival seed is retained, not a new or currently open lead. Existing admissions, fees and source dates are unchanged."
+    },
+    {
+      "programmeId": "SG-SMU-P016",
+      "nameEn": "Master of Science in Quantitative Finance",
+      "checkedOn": "2026-10-28",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+      "programmeUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+      "variants": [
+        {
+          "nameEn": "Singapore-based Track",
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        },
+        {
+          "nameEn": "International Track",
+          "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance"
+        }
+      ],
+      "noteEn": "Official programme-page delivery-track grouping. Singapore-based versus international are distinct routes, not applicant nationalities; elective career themes are not additional awards. Admissions evidence is stored separately per route."
     }
   ]
 }

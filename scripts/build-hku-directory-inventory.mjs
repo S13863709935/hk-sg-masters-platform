@@ -36,7 +36,8 @@ export function buildHkuInventory(input) {
   const { observation, seed, checked, expansion, links, audit } = structuredClone(input);
   const comparison = observation.applicantContextComparison;
   if (observation.schemaVersion !== 1 || observation.universityId !== school || observation.checkedOn !== date || observation.sourceUrl !== sourceUrl || observation.programmeUrlPrefix !== prefix || observation.rowCount !== 170 || observation.rows?.length !== 170 || JSON.stringify(observation.selectedFilters) !== JSON.stringify(filters) || JSON.stringify(comparison?.contexts) !== JSON.stringify(['Local', 'Non-local']) || comparison.pageCountPerContext !== 17 || comparison.rowCountPerContext !== 170 || comparison.allExtractedColumnsIdentical !== true || comparison.sharedAdmissionConditionsInferred !== false) throw new Error('Invalid or incomplete HKU directory capture');
-  if ([expansion.checkedOn, links.checkedOn, audit.checkedOn, audit.universities.find(u => u.universityId === school)?.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer HKU evidence');
+  if ([expansion.checkedOn, audit.checkedOn, audit.universities.find(u => u.universityId === school)?.checkedOn].some(d => d > date)) throw new Error('Refusing to replace newer HKU evidence');
+  if (links.checkedOn !== links.listings.map(l => l.checkedOn).sort().at(-1)) throw new Error('Inconsistent directory evidence batch date');
   const entries = [], groups = new Map(), slugs = new Set();
   for (const [index, row] of observation.rows.entries()) {
     if (!Array.isArray(row) || row.length !== 3) throw new Error('Invalid HKU row');
@@ -90,7 +91,7 @@ export function buildHkuInventory(input) {
   const incoming = new Map(listings.map(l => [l.programmeId, l])), existingIds = new Set(links.listings.map(l => l.programmeId));
   if (listings.length !== incoming.size || links.listings.some(l => incoming.has(l.programmeId) && l.checkedOn > date)) throw new Error('Duplicate or newer HKU directory evidence');
   links.listings = [...links.listings.map(l => incoming.get(l.programmeId) || l), ...listings.filter(l => !existingIds.has(l.programmeId))];
-  links.checkedOn = date; expansion.checkedOn = date; expansion.programmes.sort((a, b) => a.id.localeCompare(b.id));
+  links.checkedOn = links.listings.map(l => l.checkedOn).sort().at(-1); expansion.checkedOn = date; expansion.programmes.sort((a, b) => a.id.localeCompare(b.id));
   const schoolAudit = audit.universities.find(u => u.universityId === school);
   if (!schoolAudit) throw new Error('Missing HKU audit');
   Object.assign(schoolAudit, { checkedOn: date, entryStatus: 'entry_checked', enumerationStatus: 'entries_enumerated', confirmedProgrammeCount: null, visibleDirectoryResultCount: 170, directoryMasterEntryCount: 157, inventoryFile: `data/research/hku-programme-inventory-${date}.json`, noteEn: '17 pages / 170 rows in each Local and Non-local view; extracted titles, links and Closed tags matched exactly, counted once. Default fee/duration ranges apply. Exclude 13 non-masters; hold 40 closed master rows and three intercalated/route/delivery cases. 99 conservative candidate groups; retain three existing closed seeds with directory cautions and one unmatched historical Housing Management seed. No exact distinct-master total, shared category conditions or live-open status is asserted.' });

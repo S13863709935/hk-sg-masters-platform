@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SMU-P016",
+  "existingCatalogueId": true,
+  "sources": [
+    {
+      "url": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+      "purpose": "MQF track-specific delivery, admission conditions and conflicting English/fee versions",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programme/MQF/Apply_now",
+      "purpose": "August 2027 month window; stale August 2026 introduction kept separate",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "trackIds": [
+    "SG-SMU-P016-ROUTE-SINGAPORE",
+    "SG-SMU-P016-ROUTE-INTERNATIONAL"
+  ],
+  "programmeCountAdded": 0,
+  "partialProgrammeObservationAdded": 1,
+  "routeObservationsAdded": 2,
+  "offeringCountsByTrack": [
+    2,
+    1
+  ],
+  "englishConflict": {
+    "headerInternationalIelts": {
+      "total": 7,
+      "writing": 6.5
+    },
+    "detailedBlockStrictlyGreater": {
+      "toefl": 90,
+      "ielts": 6.5
+    },
+    "faqInternationalIeltsMandatory": true,
+    "automaticLanguageRulesAdded": false
+  },
+  "fees": {
+    "indicative2027InclusiveGst": 63220,
+    "duplicateInclusiveGst": 59950,
+    "advanceCredited": 8000,
+    "applicationInclusiveGst": 100,
+    "ay2027AnnualMiscExcludingGst": {
+      "scPr": 400,
+      "international": 480
+    },
+    "olderRegistrationInclusiveGst": {
+      "scPr": 400,
+      "international": 500
+    },
+    "personalTuition": null
+  },
+  "cycle": {
+    "intake": "August 2027",
+    "windowMonths": [
+      "September 2026",
+      "May 2027"
+    ],
+    "staleLandingIntake": "August 2026",
+    "staleOpening": "2025-09-01",
+    "opening": null,
+    "deadline": null,
+    "livePortalChecked": false
+  },
+  "delivery": {
+    "internationalFullTimeOnly": true,
+    "internationalJointAward": true,
+    "londonMonthsInFaq": 3,
+    "londonMonthsInCalendar": 4,
+    "internationalScope": "unconfirmed",
+    "electiveThemesNotExtraMasters": true
+  },
+  "evidenceLimits": {
+    "htmlOnly": true,
+    "brochureNotRead": true,
+    "independentHumanReview": false,
+    "applicationAccountEntered": false
+  },
+  "preservation": {
+    "previousSnapshotHashes": {
+      "data/research/smu-mwm-observation-2026-10-28.json": "0faa4647e593f51bc27ddf0124072da4242d43bce1f8368b5177ce3b715d8ffb",
+      "docs/research/smu-mwm-first-check-2026-10-28.md": "8040d86542b9219a48ab5c3fe1b1dba8d8b080da91fbbac8b7f7276f3b94012a",
+      "docs/research/source-review-queue-2026-10-28-smu-mwm.md": "65450ca6653d9c08eb810f8d78bbaa5cda3fb29801c053db48be42854c906f10",
+      "docs/research/core-pilot-acceptance-2026-10-28-smu-mwm.md": "71143d89b159a785f4252967b05d0aca14d229432d1d042454b5a83ae9956585"
+    }
+  }
+}
