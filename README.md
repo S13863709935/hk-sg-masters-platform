@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SUSS MEDU 首查：接入教育硕士常规非全日制／加速全日制选择，区分 GDCT 的经验和工作场所实习条件、国际生 MEDU-A／GDED 限制及独立文凭页面矛盾。毕业 GPA 不作本科门槛，未读到专属材料条目不等于无额外材料，费用和具体招生日期继续待确认。部分项目页记录为 49，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-medu-first-check-2026-10-28.md)、[72 单元快照](docs/research/source-review-queue-2026-10-28-suss-medu.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-medu.md)。原 48 个对象和历史快照保留，本轮仅本地保存。
+
 2026-10-28 同日 SUSS MDSW 首查：接入社会工作硕士，保留社会工作本科／研究生文凭两种资格，避免仅按本科专业误排除或自动认可；不虚设最低工作年数和本科 GPA。专项／通用选修、研究课程及文凭实习分别核对，具体模式、批次和个人资助费用仍待确认。部分项目页记录为 48，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mdsw-first-check-2026-10-28.md)、[71 单元快照](docs/research/source-review-queue-2026-10-28-suss-mdsw.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mdsw.md)。原 47 个对象与历史快照保留，本轮仅本地保存。
 
 2026-10-28 同日 SUSS MPCL 首查：接入独立临床心理学硕士，保留心理学相关学历、两年全职等值工作与条件式荣誉／桥接路径，避免仅按学位等级误拒。两年全日制、推荐人材料、学习实习及临床费用独立核对，个人费用与具体招生日期仍待确认。部分项目页记录为 47，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mpcl-first-check-2026-10-28.md)、[70 单元快照](docs/research/source-review-queue-2026-10-28-suss-mpcl.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mpcl.md)。原 46 个对象和历史快照保留，本轮仅本地保存。

@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SUSS-P011",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Education",
+    "award": "MEd",
+    "faculty": "Teaching & Learning Centre",
+    "internationalDirectoryClassifiesCoursework": true,
+    "masterTotalCu": 60,
+    "foundationalCu": 30,
+    "deepeningCu": 30,
+    "alternativeFoundationDiplomas": [
+      "GDED",
+      "GDCT"
+    ],
+    "commonDeepeningDiploma": "GDLDT",
+    "chooseOneFoundationNotBoth": true,
+    "not90CuMasterOrThreeMasters": true,
+    "standaloneDiplomasSeparateAwards": true,
+    "thesisRequired": false,
+    "earlyChildhoodEducationNotMerged": true
+  },
+  "pathways": {
+    "regular": {
+      "code": "MEDU",
+      "mode": "Part-time",
+      "durationYears": {
+        "minimum": 2,
+        "maximum": 4
+      },
+      "foundationalChoices": [
+        "GDED",
+        "GDCT"
+      ],
+      "recommendedSemesterCu": {
+        "minimum": 15,
+        "maximum": 20
+      },
+      "foundationChoiceNotVerifiedByModeSelection": true
+    },
+    "accelerated": {
+      "code": "MEDU-A",
+      "mode": "Full-time",
+      "durationYears": 1,
+      "foundation": "GDED",
+      "semesterCu": 30,
+      "notAvailableThroughGdct": true,
+      "internationalApplicantsMustSelectThisCode": true
+    },
+    "gdctOnly": {
+      "minimumTeachingTrainingEquivalentYears": 2,
+      "employerPracticumCapacityRequired": true,
+      "workStudyPrimarilyAsynchronousNotWholeMasterRemotePromise": true,
+      "standaloneGdctCitizenPrOnly": true,
+      "practicumCourses": [
+        "EDU522",
+        "EDU524"
+      ],
+      "practicumCu": [
+        10,
+        10
+      ],
+      "notUniversalMasterWorkExperienceOrEmploymentGate": true
+    },
+    "international": {
+      "masterWelcomesApplicants": true,
+      "foundationGdedOnly": true,
+      "validStudentPassRequired": true,
+      "standaloneDiplomaAdmissionNotMasterEligibility": true,
+      "gdedAndGdldtStandaloneInternationalAdmissionFaqContradictionRetained": true,
+      "noAutomaticPassResidenceOrEmploymentInference": true
+    },
+    "stacking": {
+      "qualificationCreditRecognitionRequiresApproval": true,
+      "notAutomaticAdmissionOrTransfer": true,
+      "diplomaPlusDiplomaIsNotAdditionalTuitionAboveMasterByDefault": true
+    }
+  },
+  "requirements": {
+    "numericUndergraduateEntryGpa": null,
+    "minimumHonoursClassification": null,
+    "universalMinimumWorkYears": null,
+    "mandatoryEducationUndergraduateMajorNotEstablished": true,
+    "masterAwardCgpa": 3,
+    "awardCgpaNotUndergraduateEntryGpa": true,
+    "generalEnglish": {
+      "conditionalOnUniversityMediumOrInstructionNotEnglish": true,
+      "ieltsAcademicMin": 6.5,
+      "internetToeflUnversionedMin": 85,
+      "pteAcademicMin": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "officialUniversityLetterForWaiverAssessment": true,
+      "ieltsToeflExpiryNotEstablishedHere": true,
+      "notOtherSussProgrammeStrictGreaterThanGate": true,
+      "automaticWaiver": false,
+      "toeflScaleConversion": false
+    },
+    "documents": {
+      "generalAcademicCredentialAndConditionalEnglishApply": true,
+      "dedicatedMEdBlockNotLocatedInReadableChecklistText": true,
+      "notEvidenceOfNoAdditionalProgrammeDocuments": true,
+      "imageOrUnextractedPagesNotRuledOut": true,
+      "nearbyEarlyChildhoodCvRefereesStatementNotInherited": true,
+      "generalSupportingDocumentsNotUploadedWithinDaysOfApplication": 7,
+      "generalCreditRecognitionFormWithinDaysOfApplication": 7,
+      "relativeIntervalsNotProgrammeAdmissionDeadlines": true,
+      "programmeSpecificEvidenceToConfirm": true,
+      "noAdmissionMaterialsCollectedOrSubmitted": true
+    }
+  },
+  "study": {
+    "regularLessons": "Weekday evenings or Saturdays",
+    "gdctWorkplacePracticumNotOptionalFromModeChoice": true,
+    "maximumRegularCandidatureYears": 4,
+    "diplomaStandaloneDurationYears": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "candidatureExpiredCETCompletionDoesNotRestoreAward": true,
+    "notAutomaticTeacherRegistrationOrEmploymentGuarantee": true
+  },
+  "cycle": {
+    "recurringIntake": "January",
+    "intakesPerYear": 1,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generalJulyCalendarNotExtraIntake": true,
+    "generalJanuary2027CutoffNotProgrammeSpecific": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "tableUpdatedMonth": "October 2026",
+    "tablePricesAsOf": "2026-10-16",
+    "educationMasterTextQuoteBeforeGst": {
+      "scPr": 31680,
+      "otherResidents": 38016
+    },
+    "educationDiplomaTextQuoteBeforeGst": {
+      "scPr": 15840,
+      "otherResidents": 19008
+    },
+    "educationFiveCuModuleTextQuoteBeforeGst": {
+      "scPr": 2640,
+      "otherResidents": 3168
+    },
+    "educationSubsidyCellNotPopulatedInReadableRow": true,
+    "nearbyBoundaryCrossingOrSocialWorkLowestPriceNotInherited": true,
+    "genericSsgNotesNotAutomaticEducationSubsidy": true,
+    "notMoeAnnualPsychologyFee": true,
+    "stackingNotDefaultMasterPlusTwoDiplomasFee": true,
+    "personalCategoryCohortCreditTaxAndPdfColumnsUnresolved": true,
+    "applicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "annualMiscBeforeGst": {
+      "residents": 20,
+      "internationalStudentPass": 530
+    },
+    "clinical240NotInherited": true,
+    "deposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true
+    },
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "sourceLimitations": {
+    "curriculumPlanFetchTimedOut": true,
+    "noCurriculumOrProgrammeDiagramInspectionClaimed": true,
+    "checklistTextHasGapsNoVisualAll29PagesReview": true,
+    "feePdfPagesRead": [
+      6,
+      7
+    ],
+    "checklistGeneralPdfPagesRead": [
+      1,
+      11
+    ],
+    "pdfTextOnly": true,
+    "pdfVisualInspectionCompleted": false,
+    "localPdfDownloaded": false,
+    "noAccessChecksBypassed": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-education",
+      "purpose": "MEd stackable alternatives, regular/accelerated modes, GDCT-specific experience/practicum, MEDU-A international route, award criteria and January recurrence",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Explicit coursework master listing and Student Pass context",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-education",
+      "purpose": "Standalone 30-CU foundation distinct from master; formal international exclusion versus welcoming FAQ retained rather than assigned to master",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-curriculum-and-teaching",
+      "purpose": "Standalone citizen/PR scope, two-year teaching/training/practicum condition and work-study basis; not universal master conditions",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-learning-design-and-technology",
+      "purpose": "Common 30-CU deepening diploma and standalone international exclusion/FAQ contradiction; not a third required diploma",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Conditional general ELPR, recognised qualification, waiver assessment and deposit credited to first-semester tuition",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General calendar warnings, application fees and supporting document requirements; July not inferred as MEd intake",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "Readable general requirements and relative seven-day document/credit-recognition intervals; no dedicated MEd block located in readable text, not a claim of no extra documents or all-pages visual review",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Semester/course billing and resident/international miscellaneous categories kept separate from Clinical",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "PDF pages 6-7 Education module/diploma/master quotes and tax/conditional funding notes; no neighbouring subsidy quote imported; text only",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-suss-mdsw.md": "caa16daf19000dbcda491f0bddf9370c0bdf18ca7f9e42bb4538dd17bb729f5b",
+      "docs/research/core-pilot-acceptance-2026-10-28-suss-mdsw.md": "86a26a05ea977515fa7aeaad422cbecdffbe54c4e51ea82e4f4e55fa43632f2c"
+    }
+  }
+}

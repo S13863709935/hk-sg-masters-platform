@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-28）
 
+同日 SUSS MEDU 首查：部分项目页记录为 49，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。教育硕士三种文凭选择不计成三个硕士或 90 学分；GDCT 条件不套给 GDED，独立文凭国际生矛盾不覆盖明确的硕士路径。缺少可读材料条目、个人费用和批次仍待确认。见 [来源](../docs/research/suss-medu-first-check-2026-10-28.md)、[72 单元快照](../docs/research/source-review-queue-2026-10-28-suss-medu.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-medu.md)。原 48 个对象与日期保留。
+
 同日 SUSS MDSW 首查：部分项目页记录为 48，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。社会工作本科与文凭替代资格不以单一本科专业误判；文凭毕业 GPA、实习、转业计划及课程开课月份不当作硕士门槛或招生批次。SSG 最低报价不自动授予，个人费用待确认。见 [来源](../docs/research/suss-mdsw-first-check-2026-10-28.md)、[71 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mdsw.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mdsw.md)。原 47 个对象和日期保留。
 
 同日 SUSS MPCL 首查：部分项目页记录为 47，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。临床心理学与普通心理学分开；两年相关全职等值经验、标准荣誉入读与条件式桥接分别核查，毕业 GPA 不作本科门槛。年费／全课程费用、桥接价格与临床杂费不合成个人总价。见 [来源](../docs/research/suss-mpcl-first-check-2026-10-28.md)、[70 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mpcl.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mpcl.md)。原 46 个对象与日期保留。

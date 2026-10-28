@@ -8936,6 +8936,216 @@
         }
       ],
       "researchBatch": "suss-mdsw-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SUSS-P011",
+      "universityId": "SG-SUSS",
+      "name": "Master of Education",
+      "award": "MEd",
+      "area": "Education",
+      "faculty": "Teaching & Learning Centre",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; foundation path, conditional experience/practicum, international/master-diploma distinction, English, documents, cohort and personal fees unresolved",
+      "lastChecked": "2026-10-28",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One 60-CU coursework MEd: choose GDED or GDCT foundation plus GDLDT, not all three diplomas. Regular part-time study is 2-4 years; accelerated full-time is one year and GDED-only. International applicants must select MEDU-A and the GDED specialisation. The two-year teaching/training and employer practicum requirement belongs only to GDCT-GDLDT, not every MEd applicant. Study-option selection filters duration/fees/dates only and does not verify foundation, citizenship, experience or language applicability. Standalone diploma international FAQs conflict with their formal restrictions and must not override the master-specific route.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P011-REGULAR",
+          "mode": "Part-time",
+          "duration": "2-4 years; foundation GDED or GDCT remains to be confirmed",
+          "intake": "January — regular MEDU (cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January is the sole recurring MEd intake. The general January 2027 calendar warns of earlier programme cutoffs; exact MEd opening/closing is unconfirmed. General July dates do not create another intake, and relative document-submission intervals do not establish a programme deadline. No live portal check was performed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "Regular MEDU may use GDED-GDLDT or GDCT-GDLDT; a part-time selection does not choose or approve the foundation. GDCT-specific work/practicum conditions remain separate. October 2026 Education master text quotes are SGD 31,680 SC/PR or 38,016 Other Residents before GST. Education diploma quotes 15,840/19,008 and five-CU module quotes 2,640/3,168 are separate units, not extra charges automatically added above the 60-CU master. No Education as-low-as subsidy amount was established in this row; nearby Boundary-Crossing Learning or Social Work subsidy amounts and MOE annual Psychology fees are not imported. Confirm cohort, applicant category, approved credits, tax and PDF columns before using a personal total. General application fees are 60 SC/PR or 100 others before GST; annual miscellaneous 20 residents or 530 international Student Pass students before GST, not Clinical 240. General deposit 2,000 includes GST and credits first-semester tuition."
+        },
+        {
+          "id": "SG-SUSS-P011-ACCELERATED",
+          "mode": "Full-time",
+          "duration": "1 year; GDED-GDLDT only",
+          "intake": "January — accelerated MEDU-A (cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January is the sole recurring MEd intake. The general January 2027 calendar warns of earlier programme cutoffs; exact MEd opening/closing is unconfirmed. General July dates do not create another intake, and relative document-submission intervals do not establish a programme deadline. No live portal check was performed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "Accelerated MEDU-A uses GDED-GDLDT only; international applicants must select this master code. No GDCT acceleration or standalone diploma admission is inferred. October 2026 Education master text quotes are SGD 31,680 SC/PR or 38,016 Other Residents before GST. Education diploma quotes 15,840/19,008 and five-CU module quotes 2,640/3,168 are separate units, not extra charges automatically added above the 60-CU master. No Education as-low-as subsidy amount was established in this row; nearby Boundary-Crossing Learning or Social Work subsidy amounts and MOE annual Psychology fees are not imported. Confirm cohort, applicant category, approved credits, tax and PDF columns before using a personal total. General application fees are 60 SC/PR or 100 others before GST; annual miscellaneous 20 residents or 530 international Student Pass students before GST, not Clinical 240. General deposit 2,000 includes GST and credits first-semester tuition."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Undergraduate qualification from a recognised institution",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Foundation choice and GDCT-only experience/practicum",
+          "noteZh": "",
+          "noteEn": "Choose one foundation, GDED or GDCT, plus GDLDT. Only applicants for GDCT-GDLDT need two years of teaching/training or equivalent experience and capacity to perform practicums at their employing organisations. The undergraduate/background profile and regular-mode selection do not establish foundation choice, relevance, equivalence or workplace capacity. Do not impose a universal two-year work or employment gate on GDED applicants or assume eligibility from generic years.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "International master code versus standalone diploma restrictions",
+          "noteZh": "",
+          "noteEn": "The master welcomes local/international applicants; international students must select MEDU-A and the GDED specialisation, with a valid Student Pass. Acceleration is not available through GDCT. Standalone GDCT is citizen/PR-only; standalone GDED/GDLDT formal admissions restrict to citizens, PRs or Singapore residents and direct international applicants to a master, while their FAQs also welcome international students. Retain that ambiguity without permitting standalone admission or excluding the explicit master route. No citizenship, residence, pass approval or employment rights are inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conditional general English and waiver assessment",
+          "noteZh": "",
+          "noteEn": "For English-taught programmes, general ELPR applies if the undergraduate university medium or actual instruction was not English: IELTS Academic at least 6.5, internet TOEFL 85, PTE Academic 58, C1 180 within two years or MUET Band 4 within five years. A university letter may support a waiver request, not automatic exemption. No programme-specific strict greater-than score was established here; do not import one from another SUSS degree, invent universal IELTS/TOEFL expiry or convert TOEFL scales. The profile cannot confirm medium, evidence acceptance or waiver approval.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Application documents and credit-recognition evidence",
+          "noteZh": "",
+          "noteEn": "General academic/credential and conditional language documents still apply. A dedicated MEd additional-documents block was not located in the readable checklist text; image or unextracted pages were not ruled out, so extra programme materials remain to be confirmed. Do not inherit Early Childhood Education CV/referees/statements or unrelated research proposals. General seven-day supporting-document/credit-recognition intervals are relative to an actual application, not an admissions cutoff. Prior credits or diplomas require approval; no automatic transfer/admission is inferred. The platform does not collect, prepare or submit materials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Stackable study, award and candidature boundaries",
+          "noteZh": "",
+          "noteEn": "The master totals 60 CU: one 30-CU foundation plus 30-CU GDLDT, with master-award CGPA 3.0 and no thesis. Three available diplomas do not mean 90 required CU or three masters; standalone diplomas can be separate awards. Regular part-time is 2-4 years, accelerated full-time one year through GDED only. Award CGPA and study-module practicums are not undergraduate entry GPA. Completing remaining courses through CET after candidature expiry does not restore eligibility for the master award.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Timetable and work-study feasibility",
+          "noteZh": "",
+          "noteEn": "Regular lessons occur on weekday evenings or Saturdays; regular students are advised 15-20 CU per semester, accelerated/international students 30 CU. GDCT uses primarily asynchronous workplace learning with paired practicum courses, mentoring and organisational capacity. That flexibility does not promise a fully remote master or remove practicum requirements; timetable and foundation-specific arrangements need confirmation.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Personal fees and approved stacking credits",
+          "noteZh": "",
+          "noteEn": "Education master/diploma/module quotes have different units and approved-credit/category/cohort applicability. Do not add master tuition plus two diploma prices by default. Generic SSG notes do not grant a subsidy or import a populated neighbouring as-low-as figure; MOE Psychology annual rates are separate. Confirm tax, credit recognition and PDF columns; personal tuition/application amount remains unassigned.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "January recurrence, master codes and fee-table year do not establish an exact admission cohort.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "No mandatory Education undergraduate field established; recognised qualification and selected foundation suitability remain unconfirmed.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established; master-award CGPA 3.0 is separate.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "General conditional ELPR/waiver evidence needs medium/applicant assessment; no other-degree strict threshold inherited.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Education quotes are separated from diploma/module and neighbouring subsidies; approved credits, category/cohort/tax and visual columns remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "No exact programme/cohort opening or closing established; generic calendars and relative document intervals are not assigned.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-education"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-education",
+          "purpose": "MEd stackable alternatives, regular/accelerated modes, GDCT-specific experience/practicum, MEDU-A international route, award criteria and January recurrence",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Explicit coursework master listing and Student Pass context",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-education",
+          "purpose": "Standalone 30-CU foundation distinct from master; formal international exclusion versus welcoming FAQ retained rather than assigned to master",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-curriculum-and-teaching",
+          "purpose": "Standalone citizen/PR scope, two-year teaching/training/practicum condition and work-study basis; not universal master conditions",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-learning-design-and-technology",
+          "purpose": "Common 30-CU deepening diploma and standalone international exclusion/FAQ contradiction; not a third required diploma",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Conditional general ELPR, recognised qualification, waiver assessment and deposit credited to first-semester tuition",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "General calendar warnings, application fees and supporting document requirements; July not inferred as MEd intake",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "Readable general requirements and relative seven-day document/credit-recognition intervals; no dedicated MEd block located in readable text, not a claim of no extra documents or all-pages visual review",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Semester/course billing and resident/international miscellaneous categories kept separate from Clinical",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "PDF pages 6-7 Education module/diploma/master quotes and tax/conditional funding notes; no neighbouring subsidy quote imported; text only",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "suss-medu-first-check-2026-10-28"
     }
   ]
 }
