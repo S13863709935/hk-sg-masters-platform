@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeIds": [
+    "SG-SMU-P005",
+    "SG-SMU-P006"
+  ],
+  "existingCatalogueIds": true,
+  "originalPilotUnchanged": true,
+  "common": {
+    "goodBachelorAnyField": true,
+    "universalNumericUndergraduateGpa": null,
+    "preferredExperienceYears": [
+      1,
+      5
+    ],
+    "otherCandidatesConsideredNotHardMinimumOrMaximum": true,
+    "testAlternatives": [
+      "GMAT",
+      "GRE",
+      "SMU Admission Test"
+    ],
+    "recentAlumniTestSubstitutes": [
+      {
+        "institutions": [
+          "SMU"
+        ],
+        "minimum": 3.0,
+        "scale": 4.0,
+        "withinGraduationYears": 5
+      },
+      {
+        "institutions": [
+          "NUS",
+          "NTU",
+          "SUSS",
+          "SUTD",
+          "SIT"
+        ],
+        "minimum": 3.5,
+        "scale": 5.0,
+        "withinGraduationYears": 5
+      }
+    ],
+    "testMayStillBeRequested": true,
+    "alumniGpaNotUniversalAdmissionOrAutomaticDiscount": true,
+    "englishTestsConditionalOnNonEnglishUndergraduateInstruction": true,
+    "englishValidityYearsFromTestDate": 2,
+    "validityAssessmentPointNotEstablished": true,
+    "twoRefereesAfterActualApplication": true,
+    "identityResumeTranscriptsAndShortlistedInterview": true,
+    "originalDocumentsVerifiedAtMatriculation": true,
+    "intake": "August 2027",
+    "mode": "Full-time",
+    "applicationOpen": "2026-09-01",
+    "closingMonth": "May 2027",
+    "exactDeadline": null,
+    "rolling": true,
+    "noJanuaryOrPartTimeOptionEstablished": true,
+    "applicationInclusiveGst": 100,
+    "currentBaseTuitionInclusiveGst": 63220,
+    "personalTuition": null,
+    "ay2027AnnualMiscExclusiveGst": {
+      "scPr": 400,
+      "international": 480
+    },
+    "advanceOrDeposit": 8000,
+    "advanceCreditedToFirstTuitionBillNotAddedTwice": true,
+    "noAutomaticFundingOrScholarshipStacking": true
+  },
+  "programmes": [
+    {
+      "id": "SG-SMU-P005",
+      "code": "MEI",
+      "name": "Master of Science in Entrepreneurship and Innovation",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-entrepreneurship-innovation",
+      "applicationUrl": "https://masters.smu.edu.sg/programme/MEI/Apply_now",
+      "checkedOn": "2026-10-28",
+      "statementApproximateWords": [
+        500,
+        300
+      ],
+      "secondStatementSubpartVersusChoiceNeedsActualForm": true,
+      "numericTestAlternatives": null,
+      "englishNumericReference": null,
+      "currentCu": {
+        "core": 7,
+        "elective": 2,
+        "ventureBuilding": 4,
+        "professionalDevelopment": 1,
+        "overseasImmersion": 1
+      },
+      "durationAndDeliveryObservation": "The header and primary calendar say 12 months full-time, while another calendar block says 15 months/capstone; confirm the applicable plan rather than inferring a new mode or maximum. The published 15 CU are 7 core, 2 elective, 4 Venture Building Experience, 1 professional development and 1 overseas immersion. The curriculum describes a one-week UCL London residency. This is overseas study within the SMU programme, not a separate UK degree or permission to promise entirely Singapore-only delivery; confirm current travel, participation and cost arrangements.",
+      "feeObservation": "Current header/main table quote SGD 63,220 inclusive of GST, subject to revision. The separate 59,950 row is explicitly AY2024 and is not the August 2027 default. The 8,000 advance is credited to first tuition billing; its tax basis is not established here. Overseas meals, travel, insurance, living and accommodation are excluded; confirm residency arrangements and extras. Application fee is SGD 100 inclusive of GST. AY2027 annual miscellaneous fees are 400 SC/PR or 480 international, excluding GST. Personal cohort/category, funding, tax and billing remain to be confirmed; tuition stays unassigned. Never add the advance/deposit twice, assume a scholarship or stack discounts.",
+      "historicalAy2024TuitionInclusiveGst": 59950,
+      "currentAdvanceDepositTaxBasis": "Unconfirmed",
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/master-entrepreneurship-innovation",
+          "purpose": "Current degree identity, experience flexibility, separate materials, tests/English, curriculum and fee/version distinctions; incomplete/conflicting facts retained",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/MEI/Apply_now",
+          "purpose": "Public landing explicitly identifies August 2027 full-time and 1 September 2026 opening, with May closing month only; no registration/login entered",
+          "checkedOn": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "SG-SMU-P006",
+      "code": "MBAI",
+      "name": "Master of Science in Business AI",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-business-ai",
+      "applicationUrl": "https://masters.smu.edu.sg/programme/MBAI/Apply_now",
+      "checkedOn": "2026-10-28",
+      "statementApproximateWords": [
+        [
+          500,
+          600
+        ],
+        [
+          500,
+          600
+        ]
+      ],
+      "secondStatementSubpartVersusChoiceNeedsActualForm": true,
+      "numericTestAlternatives": {
+        "gmat": 600,
+        "gmatFocus": 595,
+        "gre": 312,
+        "smuAt": 55
+      },
+      "englishNumericReference": {
+        "ielts": 6.5,
+        "unversionedToefl": 90
+      },
+      "currentCu": {
+        "aiCapacityBuilding": 3,
+        "core": 6,
+        "programmeElective": 3,
+        "openElective": 2,
+        "professionalDevelopment": 1
+      },
+      "durationAndDeliveryObservation": "The programme is 12 months full-time with maximum candidature 1.5 years. The main 15 CU are 3 AI-capacity building, 6 core, 3 programme electives, 2 open electives and 1 professional development. FAQ instead lists 2 programme/3 open electives and internship-or-capstone wording; another open-elective line also says 3 CU. Retain the distribution discrepancy for the actual study plan. A ten-week internship can replace an open elective; do not add it as extra CU, require prior work or promise placement. Coding/programming is expressly not required.",
+      "feeObservation": "August 2027 tuition is quoted as SGD 63,220 inclusive of GST, explicitly indicative. The 8,000 non-refundable deposit is explicitly inclusive of GST and part of total tuition, credited to first billing. Do not inherit MEI historical pricing or an unconfirmed deposit tax basis. Main scholarship wording says up to 30%, while FAQ says up to 25%; neither is an automatic personal award. Application fee is SGD 100 inclusive of GST. AY2027 annual miscellaneous fees are 400 SC/PR or 480 international, excluding GST. Personal cohort/category, funding, tax and billing remain to be confirmed; tuition stays unassigned. Never add the advance/deposit twice, assume a scholarship or stack discounts.",
+      "historicalAy2024TuitionInclusiveGst": null,
+      "currentAdvanceDepositTaxBasis": "Inclusive of GST",
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/msc-in-business-ai",
+          "purpose": "Current degree identity, experience flexibility, separate materials, tests/English, curriculum and fee/version distinctions; incomplete/conflicting facts retained",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/MBAI/Apply_now",
+          "purpose": "Public landing explicitly identifies August 2027 full-time and 1 September 2026 opening, with May closing month only; no registration/login entered",
+          "checkedOn": "2026-10-28"
+        }
+      ]
+    }
+  ],
+  "sourceLimitations": {
+    "htmlOnly": true,
+    "brochuresNotRead": true,
+    "applicationAccountsNotEntered": true,
+    "adviserOrRefereeMessagesNotSent": true,
+    "individualEligibilityNotVerified": true,
+    "independentHumanReview": false
+  },
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-smu-msa.md": "5ec9f776c090e2eeb139f98c8a407cc99f572c017553007c1ba089b2a69350ca",
+      "docs/research/core-pilot-acceptance-2026-10-28-smu-msa.md": "24df9a986463915d43b161ab486ef5280231143d1905e9097cfab54f4feb7d40"
+    }
+  }
+}

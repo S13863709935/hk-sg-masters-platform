@@ -106,13 +106,13 @@ test('three existing catalogue IDs migrate together and idempotently while prece
     db = new CatalogueStore(path, { ...options, checkedPath }); const earlier = db.all().filter(p => !obs.programmeIds.includes(p.id));
     const listings = obs.programmeIds.map(id => db.get(id).directoryListing);
     for (const id of obs.programmeIds) assert.equal(db.get(id).verification, 'catalogue_seed');
-    assert.equal(db.quality().checked, 61); db.close(); db = null;
+    assert.equal(db.quality().checked, 63); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
       for (const [i, id] of obs.programmeIds.entries()) { assert.equal(db.get(id).verification, 'programme_page_checked'); assert.deepEqual(db.get(id).directoryListing, listings[i]); }
       assert.deepEqual(db.all().filter(p => !obs.programmeIds.includes(p.id)), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 64); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 66); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -139,7 +139,7 @@ test('API matching, save/restore and export retain all twelve study selections w
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
     assert.equal(detail.applicationTimeline.state, p.id === mdse.id ? 'dates_incomplete' : 'within_recorded_dates');
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 64); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 66); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5);
   assert.equal(JSON.stringify(store.all()), before);

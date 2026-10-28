@@ -114,7 +114,7 @@ test('today adds a new review snapshot without rewriting yesterday or relabellin
   const current = today.units.find(x => x.kind === 'applicant_context' && x.programmeId === p.id);
   const future = yesterday.units.find(x => x.kind === 'applicant_context' && x.programmeId === p.id);
   assert.ok(current.categories.every(x => x.tuition === 227700)); assert.ok(future.categories.every(x => x.tuition === null && x.recordedCutoffs.length === 0));
-  assert.equal(today.counts.reviewUnits, 87); assert.equal(today.counts.reviewRecordedInSource, 0);
+  assert.equal(today.counts.reviewUnits, 89); assert.equal(today.counts.reviewRecordedInSource, 0);
   assert.equal(today.units.find(x => x.programmeId === 'SG-NTU-P062').sourceCheckedOn, '2026-10-24');
   assert.deepEqual(today.units.filter(x => x.upcomingRecordedCutoffs.length).map(x => x.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001']);
 });
@@ -155,7 +155,7 @@ test('first ADS source migration preserves all prior programme objects, director
     writeFileSync(checkedPath, JSON.stringify({ ...batch, checkedOn: '2026-10-24', programmes: batch.programmes.filter(x => x.id !== p.id) }));
     db = new CatalogueStore(path, { ...options, checkedPath });
     const previous = db.all().filter(x => x.id !== p.id), directory = db.get(p.id).directoryListing;
-    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 63); db.close(); db = null;
+    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 65); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
@@ -169,7 +169,7 @@ test('first ADS source migration preserves all prior programme objects, director
 
 test('ADS lookup, matching and export do not write data or inflate independent review and catalogue coverage', async () => {
   const before = JSON.stringify(store.all()); resolve('LOCAL'); matchProgramme(resolve('NONLOCAL'), profile);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 64);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 66);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5);
   assert.equal(JSON.stringify(store.all()), before);

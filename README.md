@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SMU MEI／MBAI 首查：部分项目页记录为 66，原 64 个对象不变。1–5 年经验是可考虑例外的偏好，不作硬性下限或上限；MBAI 技术／编程背景不设硬门槛。两项八月 2027 全日制开放日为 2026-09-01，截止只到五月，具体日仍未知；不复制 MSA 轮次。MEI 当前 63,220 与 AY2024 59,950 分开，保留伦敦一周课程及 12／15 月差异；MBAI 选修分配和奖学金比例分歧保留。见 [依据](docs/research/smu-mei-mbai-first-check-2026-10-28.md)、[89 单元快照](docs/research/source-review-queue-2026-10-28-smu-mei-mbai.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-mei-mbai.md)。目录 873／默认 870、零独立复核不变，本轮仅本地保存。
+
 2026-10-28 同日 SMU 会计 MSA 首查：部分项目页记录为 64，原 63 个对象不变。数学／会计等背景有课程或考试证据替代，不按本科专业名硬拒；校友免试和奖学金 GPA 不作通用入学线。八月 2027 两种模式保留三阶段日期、材料共同截止与无精确时点限制；TOEFL 90／Band 4.5 为官网分别列出，非平台换算。Data & Analytics／Applied AI 是同一 MSA 的方向，不混同 MPA 或自动给予 CA／CPA。见 [依据](docs/research/smu-msa-first-check-2026-10-28.md)、[87 单元快照](docs/research/source-review-queue-2026-10-28-smu-msa.md) 和 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-msa.md)。目录 873／默认 870、零独立复核不变，本轮仅本地保存。
 
 2026-10-28 同日 SMU 应用金融 MAF 首查：部分项目页记录为 63，原 62 个对象不变。应届／不限专业、非全日经验偏好不变成硬门槛；中英文校友 GPA 免试 3.0／3.4 分歧和语言版本继续待确认。仅八月入学，2026 年九月至 2027 年五月为月份窗口，不补造首末日；18／24 月页首与旧学制差异保留。两份陈述、两位推荐人及指示性费用单独记录。见 [依据](docs/research/smu-maf-first-check-2026-10-28.md)、[86 单元快照](docs/research/source-review-queue-2026-10-28-smu-maf.md) 和 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-maf.md)。873／870 目录、零独立复核不变，本轮仅本地保存。
