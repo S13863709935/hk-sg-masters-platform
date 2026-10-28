@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SMU-P004",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "entry": {
+    "anyUndergraduateDiscipline": true,
+    "goodDegreeQualitative": true,
+    "finalYearApplicantsWelcomeSubjectToCompletionAssessment": true,
+    "universalNumericUndergraduateGpa": null,
+    "formalFinanceTrainingRequired": false,
+    "workRequired": false,
+    "partTimeExperiencePreferredNotNumericFloor": true,
+    "cohortWorkAveragesNotRequirements": true,
+    "cfaProfessionalExperienceNotAdmissionGate": true
+  },
+  "tests": {
+    "alternatives": [
+      "GMAT",
+      "GRE",
+      "SMU Admission Test"
+    ],
+    "englishSmuAlumniCgpa": [
+      3.0,
+      4.0
+    ],
+    "chineseSmuAlumniCgpa": [
+      3.4,
+      4.0
+    ],
+    "otherNamedAutonomousAlumni": [
+      "NUS",
+      "NTU",
+      "SUSS",
+      "SUTD",
+      "SIT"
+    ],
+    "otherAlumniCgpa": [
+      3.5,
+      5.0
+    ],
+    "withinGraduationYears": 5,
+    "waiverConflictUnresolved": true,
+    "englishFaqSaysAllNeedTest": true,
+    "mayStillAdviseTest": true,
+    "gpaSubstituteNotUniversalEntryGpa": true,
+    "chineseChinaUniversityWaiverPossibleSubjectToAssessmentNotAutomatic": true,
+    "noMinimumGmatGrePublishedInEnglishFaq": true,
+    "unversionedCombinedGmatGre600WordingNotNormalised": true,
+    "englishFaqGmatGreValidityYears": 5,
+    "validityAssessmentPointNeedsConfirmation": true
+  },
+  "language": {
+    "conditionalOnNonEnglishUndergraduateInstruction": true,
+    "chinesePageToeflQuote": 90,
+    "chinesePageIeltsQuote": 6.5,
+    "englishNumericFaqAnswerMisaligned": true,
+    "unversionedToeflNotConvertedToSixPointScale": true,
+    "noAutomaticEnglishDegreeWaiverFromProfile": true,
+    "englishFaqToeflValidityYears": 2,
+    "universalIeltsValidityNotImportedFromOldMqfParagraph": true
+  },
+  "documents": {
+    "englishCurrentPersonalStatements": 2,
+    "approximateWordsEach": [
+      500,
+      600
+    ],
+    "chineseStatementUnitNotConvertedToEnglishWords": true,
+    "secondQuestionChoiceSetsDifferAcrossLanguagePages": true,
+    "currentResume": true,
+    "officialTranscriptsAllInstitutions": true,
+    "certifiedCfaAccaCopiesOnlyIfHeld": true,
+    "refereeReports": 2,
+    "identityAndOriginalVerification": true,
+    "shortlistedOnlineInterview": true,
+    "platformDoesNotWriteCollectEmailOrSubmitMaterials": true,
+    "oldSingleStatementDoesNotOverrideCurrentTwo": true
+  },
+  "study": {
+    "headerMonths": {
+      "fullTime": 18,
+      "partTime": 24
+    },
+    "otherPublishedDescriptions": [
+      "Full-time 12 months plus internship",
+      "Full-time 15 months plus internship",
+      "Part-time 20 months"
+    ],
+    "exactPersonalDurationUnresolved": true,
+    "currentCu": {
+      "core": 9,
+      "elective": 4,
+      "open": 1,
+      "professionalDevelopment": 1
+    },
+    "optionalSpecialisations": [
+      "Fintech",
+      "Fund Management",
+      "Real Estate",
+      "Sustainable Finance"
+    ],
+    "notFourExtraDegrees": true,
+    "openModuleAlternatives": [
+      "Internship",
+      "MAF elective",
+      "Other school module"
+    ],
+    "olderFaqModuleCount": 13,
+    "olderFaqAwardGpa": 2.5,
+    "awardGpaScaleNotEstablished": true,
+    "awardGpaNotUndergraduateEntry": true,
+    "faqNoExemptionNotSiblingCreditWaiver": true
+  },
+  "eligibility": {
+    "partTimePassDescriptionsDiffer": [
+      "EP/DP",
+      "EP/DP/S Pass or other valid stay visa"
+    ],
+    "exactAcceptedStatusManual": true,
+    "noStudentPassIssuedForPartTime": true,
+    "fullTimeVisaAssistanceNotApprovalGuarantee": true
+  },
+  "cycle": {
+    "intake": "August 2027",
+    "oneAnnualIntake": true,
+    "publishedWindowMonths": [
+      "September 2026",
+      "May 2027"
+    ],
+    "rolling": true,
+    "exactOpeningDay": null,
+    "exactDeadline": null,
+    "noJanuaryIntakeBorrowedFromEconomics": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "indicativeTuitionInclusiveGst": 63220,
+    "cohort": "August 2027",
+    "applicationInclusiveGst": 100,
+    "ay2027AnnualMiscExclusiveGst": {
+      "scPr": 400,
+      "international": 480
+    },
+    "currentAdvanceTuition": 8000,
+    "advanceTaxBasisUnresolved": true,
+    "chineseOlderAdvanceTuition": 5000,
+    "advanceCreditedNotAddedAgain": true,
+    "oldRegistrationAndCurrentMiscNotStacked": true,
+    "cfaExamAndOverseasLivingTravelNotIncluded": true,
+    "personalTuition": null,
+    "noAutomaticScholarshipDiscountOrStacking": true
+  },
+  "sourceLimitations": {
+    "htmlOnly": true,
+    "brochurePdfNotRead": true,
+    "livePortalChecked": false,
+    "noAccountsOrAdviserFormsVisited": true,
+    "currentProfessionalCertificationOrImmigrationRulesNotIndependentlyVerified": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://masters.smu.edu.sg/programme/msc-in-applied-finance",
+      "purpose": "Current header/admissions, August-only monthly window, any-field degree, fresh-graduate access, two statements/referees, mode/pass preferences, indicative fees and internal FAQ/curriculum conflicts",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programme/MAF/Apply_now",
+      "purpose": "Public application landing page corroborates August 2027, September 2026-May 2027 and rolling selection; no application account or portal entered",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/maf/admission-requirements",
+      "purpose": "Official Chinese admissions: conditional TOEFL 90/IELTS 6.5, SMU 3.4 waiver versus English 3.0, conditional China-university waiver possibility and older deposit; discrepancies retained",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://business.smu.edu.sg/master-applied-finance/admissions/how-apply-old",
+      "purpose": "Explicit old admissions URL has a one-statement/SMU-3.40 version and a mismatched MQF test paragraph; not used to override current MAF requirements or copy codes/validity",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-smu-econ.md": "664d903d09ac8ec6053d8f67761bec10606a02b95af58b846d7e338acd7d0351",
+      "docs/research/core-pilot-acceptance-2026-10-28-smu-econ.md": "0fab7a2ddf4daccbb9b85a469da5a5d034a0986a2c7f11076067a4d98c3d57ef"
+    }
+  }
+}

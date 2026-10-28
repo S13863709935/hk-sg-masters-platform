@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SMU 应用金融 MAF 首查：部分项目页记录为 63，原 62 个对象不变。应届／不限专业、非全日经验偏好不变成硬门槛；中英文校友 GPA 免试 3.0／3.4 分歧和语言版本继续待确认。仅八月入学，2026 年九月至 2027 年五月为月份窗口，不补造首末日；18／24 月页首与旧学制差异保留。两份陈述、两位推荐人及指示性费用单独记录。见 [依据](docs/research/smu-maf-first-check-2026-10-28.md)、[86 单元快照](docs/research/source-review-queue-2026-10-28-smu-maf.md) 和 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-maf.md)。873／870 目录、零独立复核不变，本轮仅本地保存。
+
 2026-10-28 同日 SMU 经济学院首查：接入既有 MSE、MDSE、MSFE 三个项目，部分项目页记录为 62。院校／毕业年份限定的校友 GPA 替代考试条件不当作通用入学线；MSE／MSFE 软性分数指引不变成语言硬门槛。MSE／MSFE 一月 2027 截止日记为 10 月 31 日，MDSE 同页 10 月／11 月冲突保留待确认；北京合作项目不加入港新选项。个人学费继续待核对，保留各批次报价及押金抵扣说明。见 [依据](docs/research/smu-econ-first-check-2026-10-28.md)、[85 单元快照](docs/research/source-review-queue-2026-10-28-smu-econ.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-econ.md)。原 59 个对象、873／870 目录规模和零独立复核不变，本轮仅本地保存。
 
 2026-10-28 同日 SUSS 华文学前教育首查：接入既有华文 MEd，按明确学前教育本科字段显示差距，相关工作经验与中文六级／其他证明另待确认，不编造经验年数或套用商科 HSK 五级。保留居民限制、七月单次入学、800 字陈述及两类推荐人要求；毕业 GPA 与选修研究项目不作入学线或额外学位。部分项目页记录为 59，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-mecch-first-check-2026-10-28.md)、[82 单元快照](docs/research/source-review-queue-2026-10-28-suss-mecch.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-mecch.md)。原 58 个对象与历史快照保留，本轮仅本地保存。
