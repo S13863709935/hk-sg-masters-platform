@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SMU MWM 首查：部分项目页记录为 68，原 67 个对象不变。保留学士后两年工作要求与 CFA Level 1 豁免考虑，未用总经验或 CFA 自动判定；12 个月 modular 格式不强行归类全日／兼读。五月 31 日最终截止有主页面依据，开放日仍未知。海外两周模块、学位／证书区别、8,000／7,000 订金和 GST 差异另待核对。另作中大／科大近期截止日专项抽查，原整条资料查阅日保留。见 [依据](docs/research/smu-mwm-first-check-2026-10-28.md)、[91 单元快照](docs/research/source-review-queue-2026-10-28-smu-mwm.md) 和 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-mwm.md)。目录 873／默认 870、零独立复核不变，本轮仅本地保存。
+
 2026-10-28 同日 SMU MST 首查：部分项目页记录为 67，原 66 个对象不变。MST 校友考试替代是 3.4／4.0 和 3.6／5.0，不套用其他项目数字或当作通用入学 GPA；无需工作经验。保留 IELTS／UKVI Academic、申请时有效期、2027 主页面与 2026 入口年份差异，以及 FAQ 旧日期，不生成虚构轮次。三方向／不分方向是同一学位；学制、8,000／5,000 预付与新旧学费待核对。见 [依据](docs/research/smu-mst-first-check-2026-10-28.md)、[90 单元快照](docs/research/source-review-queue-2026-10-28-smu-mst.md) 和 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-mst.md)。目录 873／默认 870、零独立复核不变，本轮仅本地保存。
 
 2026-10-28 同日 SMU MEI／MBAI 首查：部分项目页记录为 66，原 64 个对象不变。1–5 年经验是可考虑例外的偏好，不作硬性下限或上限；MBAI 技术／编程背景不设硬门槛。两项八月 2027 全日制开放日为 2026-09-01，截止只到五月，具体日仍未知；不复制 MSA 轮次。MEI 当前 63,220 与 AY2024 59,950 分开，保留伦敦一周课程及 12／15 月差异；MBAI 选修分配和奖学金比例分歧保留。见 [依据](docs/research/smu-mei-mbai-first-check-2026-10-28.md)、[89 单元快照](docs/research/source-review-queue-2026-10-28-smu-mei-mbai.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-mei-mbai.md)。目录 873／默认 870、零独立复核不变，本轮仅本地保存。

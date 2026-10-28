@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SMU-P017",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Science in Wealth Management",
+    "smuDegreePlusPartnerCertificatesNotExtraMasters": true
+  },
+  "entry": {
+    "goodUndergraduateDegreeAnyField": true,
+    "normalPostBachelorWorkYears": 2,
+    "industryMayBeAny": true,
+    "cfaLevelOnePassWorkWaiverConsideredNotAutomatic": true,
+    "aggregateProfileYearsNotPostDegreeEvidence": true,
+    "noUnconditionalExperienceRuleWhileExceptionEvidenceUncaptured": true,
+    "universalNumericUndergraduateGpa": null
+  },
+  "tests": {
+    "alternatives": [
+      "GMAT",
+      "GRE",
+      "SMU Admission Test"
+    ],
+    "recentAlumniSubstitutes": [
+      {
+        "institutions": [
+          "SMU"
+        ],
+        "minimum": 3.0,
+        "scale": 4.0,
+        "withinGraduationYears": 5
+      },
+      {
+        "institutions": [
+          "NUS",
+          "NTU",
+          "SUSS",
+          "SUTD",
+          "SIT"
+        ],
+        "minimum": 3.5,
+        "scale": 5.0,
+        "withinGraduationYears": 5
+      }
+    ],
+    "testMayStillBeRequested": true,
+    "noMinimumGmatGreSetInFaq": true,
+    "gmatGreValidityYearsAfterTestDate": 5,
+    "validityAssessmentPointAndSmuAtNumericThresholdNotEstablished": true,
+    "workWaiverNotSameAsTestSubstitutionOrProfessionalCharter": true
+  },
+  "language": {
+    "conditionalOnNonEnglishUndergraduateMedium": true,
+    "numericMinimumNotEstablishedHere": true,
+    "validityAnchorNotEstablishedHere": true,
+    "noSiblingThresholdExpiryOrAutomaticWaiverImported": true
+  },
+  "documents": {
+    "resume": true,
+    "officialTranscriptsAllInstitutions": true,
+    "certifiedCfaAccaCopiesIfHeld": true,
+    "personalStatements": 2,
+    "approximateWordsEach": [
+      500,
+      600
+    ],
+    "secondOneSelectedReflectionTopic": true,
+    "twoRefereeReportsTriggeredByActualUniversityApplication": true,
+    "identity": true,
+    "shortlistedInterviewAndOriginalVerification": true,
+    "platformDoesNotCollectWriteEmailOrSubmitMaterials": true
+  },
+  "study": {
+    "publishedFormat": "Modular",
+    "formalFullPartTimeClassification": null,
+    "durationMonths": 12,
+    "studyBlocks": 5,
+    "coreCu": 15,
+    "graduationCgpa": 2.5,
+    "graduationScaleNotEstablished": true,
+    "graduationGpaNotEntry": true,
+    "mandatoryOverseasBlockConsecutiveWeeks": 2,
+    "currentPartners": [
+      "University of St. Gallen, Switzerland",
+      "Cambridge Judge Business School, United Kingdom"
+    ],
+    "olderFaqAndAlumniReferencesToUsaRetainedAsVersionDifference": true,
+    "partnersSubjectToChange": true,
+    "internshipOptionalWithinStudyNotGuaranteed": true,
+    "individualResearchTopicProjectNotResearchOnlyDegree": true,
+    "noProfessionalCharterOrEntirelySingaporeDeliveryGuaranteed": true
+  },
+  "cycle": {
+    "intake": "August 2027",
+    "mainFinalDeadline": "2027-05-31",
+    "monthWindow": [
+      "August 2026",
+      "May 2027"
+    ],
+    "landingIntroductionStillAugust2026": true,
+    "exactOpeningDay": null,
+    "mainNowPhraseNotConvertedToOpeningDate": true,
+    "exactCutoffTime": null,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "ay2027IndicativeTuitionInclusiveGst": 74120,
+    "applicationInclusiveGst": 100,
+    "currentDepositTableAndBilling": 8000,
+    "olderAdvanceFirstBillingNote": 7000,
+    "annualMiscMainExcludingGst": {
+      "scPr": 400,
+      "international": 480
+    },
+    "duplicateMiscRowsConflictingTaxLabels": true,
+    "laterNinePercentRemarkNotAddedAgainToInclusiveQuote": true,
+    "personalTuition": null,
+    "taxCategoryDepositCreditAndBalanceNeedConfirmation": true,
+    "overseasTravelLivingMealsInsuranceNotIncluded": true,
+    "noAutomaticFundingOrStacking": true
+  },
+  "additionalDeadlineSpotChecks": [
+    {
+      "programmeId": "HK-CUHK-P001",
+      "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+      "checkedOn": "2026-10-28",
+      "scope": "Central Anthropology MA deadline table only",
+      "rounds": [
+        "2026-09-30",
+        "2026-10-31",
+        "2026-11-30",
+        "2026-12-31",
+        "2027-01-31"
+      ],
+      "nextRecordedRound": "ROUND-2",
+      "nextRecordedDeadline": "2026-10-31",
+      "rollingCapacityConditionStillPresent": true,
+      "storedWholeProgrammeUnchanged": true,
+      "wholeProgrammeLastCheckedRetained": "2026-10-24",
+      "allRequirementsReread": false,
+      "livePortalChecked": false
+    },
+    {
+      "programmeId": "HK-HKUST-P001",
+      "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem",
+      "checkedOn": "2026-10-28",
+      "scope": "School spring February 2027 part-time deadline table only",
+      "offeringId": "HK-HKUST-P001-FEB2027-PT",
+      "deadline": "2026-11-01",
+      "localAndNonLocalShareCutoff": true,
+      "openingStillEarlySeptemberNotExactDay": true,
+      "storedWholeProgrammeUnchanged": true,
+      "wholeProgrammeLastCheckedRetained": "2026-10-24",
+      "allRequirementsReread": false,
+      "livePortalChecked": false
+    }
+  ],
+  "sourceLimitations": {
+    "htmlOnly": true,
+    "brochureNotRead": true,
+    "applicationAccountNotEntered": true,
+    "professionalCertificationAndImmigrationRulesNotIndependentlyVerified": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://masters.smu.edu.sg/programme/msc-in-wealth-management",
+      "purpose": "Current modular MWM identity, two post-bachelor work years/CFA-1 waiver consideration, materials/test alternatives, dated May final, overseas blocks and fee/GST inconsistencies",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programme/MWM/Apply_now",
+      "purpose": "Public landing August 2027 table/month window with older August 2026 introduction; no account entered or live availability inferred",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-smu-mst.md": "45f99d747396f8525cb2d3bcea89858e064786db7efccf1fbd5ff14990e64f30",
+      "docs/research/core-pilot-acceptance-2026-10-28-smu-mst.md": "259dff81e135b5c13f532b4f746fc435e1b2ac7fc467666477480d4e39349ff6"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+# SMU Wealth Management and deadline spot checks — 28 October 2026
+
+Internal source/implementation maintenance, not assessment prose. Existing `SG-SMU-P017` gains partial evidence from the current [MWM page](https://masters.smu.edu.sg/programme/msc-in-wealth-management) and [public application landing](https://masters.smu.edu.sg/programme/MWM/Apply_now). Brochure and application/adviser accounts were not entered/read; no applicant/referee message or submission occurred.
+
+## Entry conditions and evidence boundaries
+
+Normal entry requires a good undergraduate degree in any field and at least two post-bachelor work years in any industry. CFA Level 1 pass holders may be considered for a work waiver; FAQ describes preference below two years. This is an assessed exception, not a universal no-work preference or automatic waiver. The profile captures total years without post-degree dates or CFA evidence, so a plain experience rule would wrongly reject possible exceptions or approve unverified work. The explicit two-year condition stays visible in a mandatory manual check. Historical ten-year cohort averages are not admission requirements.
+
+GMAT/GRE/SMUAT alternatives and recent-alumni test substitutes are distinct from the work waiver: SMU 3.0/4.0 or named local autonomous alumni 3.5/5.0 within five graduation years, subject to further tests/assessment. No universal numeric undergraduate GPA or minimum GMAT/GRE is published in the consulted FAQ. GMAT/GRE five-year validity is from testing, with assessment point unconfirmed. Do not borrow MST GPA thresholds, MBAI AIQ targets or a fee/score for SMUAT not established here. CFA Level 1 is not a professional charter or automatic admission.
+
+TOEFL/IELTS is conditional on undergraduate teaching language. No MWM numeric English threshold/expiry was established in the consulted blocks; sibling numbers, Band 4.5 or validity anchors are not inherited. Materials include resume, all-institution transcripts, identity, applicable tests and certified CFA/ACCA copies if held. Two approximately 500–600-word statements cover career/motivation and one selected reflection topic. Two university-triggered referee reports follow actual application, with shortlisted interview and original-document verification. No academic/work referee pair is invented and the platform does not write/collect/email/submit materials.
+
+## Modular study, dated final and fees
+
+One 12-month modular option is represented with formal full/part-time mode left null; historical class-profile labels do not establish the current classification. Five study blocks include two consecutive overseas weeks in block four, currently St. Gallen/Switzerland and Cambridge Judge/UK; partners can change. Older FAQ/testimonials mention USA, retained as a version difference. One SMU MSc plus partner certificates is not three masters or a joint award, and delivery is not entirely in Singapore. Confirm individual attendance/travel and mode/permission arrangements; generic visa assistance is not approval.
+
+The programme requires 15 core CU and graduation CGPA 2.5 without an established scale here. This is not entry GPA. An individual research-topic project remains within the taught MSc; internship is optional, not guaranteed placement or replacement for entry work. Historical career percentages are not personal forecasts.
+
+Main admissions explicitly states August 2027 final **31 May 2027**. The landing table gives August 2026–May 2027 while its introduction still says August 2026 intake. The 2027 table/main final are retained with the older introduction noted. Opening day and exact cutoff time remain unknown; Now is not converted into a date. Date comparison remains incomplete before the final date; deadline-day/passed labels refer only to the recorded final, without live availability or invented phases.
+
+AY2027 tuition is SGD 74,120 including GST and indicative; application is 100 including GST. Current deposit table/billing says 8,000 while the advance-credit note says 7,000. Annual miscellaneous 400 SC/PR or 480 international has conflicting inclusive/exclusive labels. Reconcile the actual tax/category/deposit/balance; do not add GST twice from the later 9% remark or stack deposits. Personal tuition stays null; no automatic scholarship/subsidy/discount. Overseas meals, travel, insurance, living and accommodation are excluded.
+
+## Separate deadline-only observations
+
+The current [CUHK central table](https://www.gs.cuhk.edu.hk/admissions/application-deadline) still lists Anthropology MA Round 2 on **31 October 2026**, retaining five recorded rounds and rolling/capacity caveats. The [HKUST school table](https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem) still lists **1 November 2026** for February 2027 part-time CIEM, local and non-local; opening remains early September without an exact day. These are limited date-table checks, not full-record rereads or live portal checks. Both stored programme objects and their 24 October whole-record source dates remain unchanged; no new programme or independent review is counted. Structured observations preserve this distinction.
+
+## Coverage and preservation
+
+68 partial programme observations, 805 remaining catalogue leads; zero independent human reviews/complete sets. Catalogue 873 / default 870, original 20 pilot IDs, five routes, eighteen contexts/thirty-eight categories remain unchanged. There are 91 maintenance units (68 + 5 + 18), not 91 programmes; imminent recorded-cutoff units remain four as of 28 October. All preceding 67 objects/dates, seven frozen layers, 204 historical research files, workbook and five protected refs remain unchanged. New [review queue](source-review-queue-2026-10-28-smu-mwm.md), [core acceptance](core-pilot-acceptance-2026-10-28-smu-mwm.md) and [structured observation](../../data/research/smu-mwm-observation-2026-10-28.json) are separate snapshots. Local commit only; no push/deployment.

@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-28）
 
+同日 SMU MWM 首查后，部分项目页记录为 68，目录 873／默认 870、方向证据 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。MWM 正常学士后两年经验与 CFA Level 1 豁免为替代评估，未硬设经验门槛或自动豁免；正式模式和个人费用待确认。74,120 含税指示价、新旧订金、杂费税基及海外支出分开。中大 10-31／科大春兼读 11-01 日期仍列于官方表，本次为单字段抽查。见 [来源](../docs/research/smu-mwm-first-check-2026-10-28.md)、[91 单元快照](../docs/research/source-review-queue-2026-10-28-smu-mwm.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-smu-mwm.md)。原 67 个对象、旧日期和历史快照保留。
+
 同日 SMU MST 首查后，部分项目页记录为 67，目录 873／默认 870、方向证据 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。MST 特定校友免试、SMUAT overall 55 和每次含税 125 单独保留；不导入其他项目门槛或 TOEFL Band 4.5。八月 2027 两种模式的开放／截止及个人费用留空，保留旧入口年份和费用／学制差异。初期两位推荐人联系方式与入围推荐信要求分开，未复制自动邮件机制。见 [来源](../docs/research/smu-mst-first-check-2026-10-28.md)、[90 单元快照](../docs/research/source-review-queue-2026-10-28-smu-mst.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-smu-mst.md)。原 66 个对象及日期保留。
 
 同日 SMU MEI／MBAI 首查后，部分项目页记录为 66，目录 873／默认 870、方向证据 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。两项经验例外、校友考试替代与英语证明须个别确认，MBAI AIQ 数字不复制给 MEI。MEI 500／300 字数说明与 MBAI 两份 500–600 words 陈述分开；截止日、个人费用留空。保留 MEI 旧年份费用、海外课程和学制差异，MBAI 押金明确含税，不能据此补造 MEI 押金税基。见 [来源](../docs/research/smu-mei-mbai-first-check-2026-10-28.md)、[89 单元快照](../docs/research/source-review-queue-2026-10-28-smu-mei-mbai.md) 和 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-smu-mei-mbai.md)。原 64 个对象及历史日期保留。
