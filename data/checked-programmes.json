@@ -13078,6 +13078,101 @@
         }
       },
       "researchBatch": "smu-mqf-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SMU-P014",
+      "universityId": "SG-SMU",
+      "name": "Master of Laws",
+      "award": "LLM",
+      "area": "Law",
+      "faculty": null,
+      "officialUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official observation; select and confirm one LLM track",
+      "lastChecked": "2026-10-28",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One existing catalogue parent with four named routes. Judicial experience, non-law consideration, study modes and the QMUL-first dual route are not interchangeable. Select a route before comparing fees or dates. This LLM does not itself qualify a graduate for Singapore Bar admission.",
+      "offerings": [
+        {
+          "id": "SG-SMU-P014-ROUTE-PENDING",
+          "mode": null,
+          "duration": null,
+          "intake": null,
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "Choose and confirm a track; the regular August 2027 schedule does not establish the dual-route cycle.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Choose a track; regular and dual-route fee bases are separate."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "LLM track required",
+          "noteZh": "",
+          "noteEn": "Select one track; a common parent does not settle academic, professional, fee or date applicability.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/master-of-laws",
+          "purpose": "LLM track-specific study, admissions, fees and historical dual-route instructions",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/LLM/Apply_now",
+          "purpose": "Regular LLM August 2027 schedule and final date, without application login",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "August 2027 regular LLM schedule; dual current cycle is not established.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Law-degree recognition, equivalent qualifications and route-specific non-law consideration require assessment.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric LLM entry GPA found; downstream JD CGPA is not an entry threshold.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Regular indicative quotation and dual currency legs require separate applicability checks.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Choose a track before applying the regular schedule.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/LLM/Apply_now"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation, not independent human review.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+        }
+      },
+      "researchBatch": "smu-llm-first-check-2026-10-28"
     }
   ]
 }

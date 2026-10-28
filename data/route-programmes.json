@@ -854,6 +854,652 @@
           }
         }
       ]
+    },
+    {
+      "programmeId": "SG-SMU-P014",
+      "routes": [
+        {
+          "name": "Judicial Studies Track",
+          "award": "LLM",
+          "area": "Law",
+          "faculty": null,
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial track observation; current applicability remains unconfirmed",
+          "lastChecked": "2026-10-28",
+          "academicYear": "2027",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "LLM route evidence is partial. Programme admission and any professional recognition remain separate; this LLM is not a Singapore Bar-qualifying degree. A dissertation within the taught curriculum does not create a research-only master.",
+          "offerings": [
+            {
+              "id": "SG-SMU-P014-JUDICIAL-AUG2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineNote": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials."
+            },
+            {
+              "id": "SG-SMU-P014-JUDICIAL-AUG2027-EXTENDED",
+              "mode": null,
+              "duration": "2-year extended duration with leave-of-absence terms; formal part-time classification not established",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineNote": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Degree completion evidence",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track academic and professional entry",
+              "noteZh": "",
+              "noteEn": "Judicial Studies requires a good first Law degree (LLB, JD or equivalent) and significant relevant legal or judicial experience. Recognition and relevance need assessment; no numeric years or entry GPA was published. The general non-law FAQ is not assumed to override this track-specific requirement. Undergraduate major alone cannot prove or disprove a later qualifying Law degree.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability and application-period validity",
+              "noteZh": "",
+              "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track fees and funding applicability",
+              "noteZh": "",
+              "noteEn": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Regular materials, referees and distinct LLM selection test",
+              "noteZh": "",
+              "noteEn": "Regular LLM instructions require identity documents, degree certificates, official transcripts, CV, a detailed statement of purpose and certified translations where needed. No general statement word limit is established here; 500-1,000-word scholarship statements are not the admission statement. Two different referees are required: an academic referee where possible, or two employers when an academic reference cannot be provided after time out of study. The university requests confidential evaluations after application. All applicants take a one-hour LLM written test after documents/references are completed; shortlisted applicants have an interview. The LLM written test is distinct from GMAT/GRE/SMU Admission Test, which are not required; do not add the optional 125 SMUAT payment. Final-year candidates completing their degree by early July may apply with current transcripts, subject to final evidence before classes.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Regular dated final and unknown opening",
+              "noteZh": "",
+              "noteEn": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/LLM/Apply_now"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Judicial extended duration and dissertation",
+              "noteZh": "",
+              "noteEn": "The two-year extended schedule includes leave-of-absence terms. It is not automatically classified as part-time from the generic page header. A judicial dissertation forms part of the taught route; no separate research award, guaranteed judicial appointment or automatic professional status is inferred.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://masters.smu.edu.sg/programme/master-of-laws",
+              "purpose": "LLM track-specific study, admissions, fees and historical dual-route instructions",
+              "checkedOn": "2026-10-28"
+            },
+            {
+              "url": "https://masters.smu.edu.sg/programme/LLM/Apply_now",
+              "purpose": "Regular LLM August 2027 schedule and final date, without application login",
+              "checkedOn": "2026-10-28"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "August 2027 regular LLM schedule; dual current cycle is not established.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "major": {
+              "status": "unknown",
+              "noteEn": "Judicial Studies requires a good first Law degree (LLB, JD or equivalent) and significant relevant legal or judicial experience. Recognition and relevance need assessment; no numeric years or entry GPA was published. The general non-law FAQ is not assumed to override this track-specific requirement. Undergraduate major alone cannot prove or disprove a later qualifying Law degree.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No universal numeric LLM entry GPA found; downstream JD CGPA is not an entry threshold.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "language": {
+              "status": "unknown",
+              "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Regular indicative quotation and dual currency legs require separate applicability checks.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Regular final 31 May 2027 displayed at 23:59; timezone/opening unconfirmed. No dual-date transfer.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/LLM/Apply_now"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "AI-assisted partial observation, not independent human review.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            }
+          },
+          "researchBatch": "smu-llm-first-check-2026-10-28",
+          "routeId": "SG-SMU-P014-ROUTE-JUDICIAL",
+          "scope": {
+            "status": "in_scope",
+            "checkedOn": "2026-10-28",
+            "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+            "reasonEn": "SMU Singapore taught LLM track; any dissertation is part of its taught curriculum."
+          }
+        },
+        {
+          "name": "Cross-Border Business and Finance Law in Asia Track",
+          "award": "LLM",
+          "area": "Law",
+          "faculty": null,
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial track observation; current applicability remains unconfirmed",
+          "lastChecked": "2026-10-28",
+          "academicYear": "2027",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "LLM route evidence is partial. Programme admission and any professional recognition remain separate; this LLM is not a Singapore Bar-qualifying degree. A dissertation within the taught curriculum does not create a research-only master.",
+          "offerings": [
+            {
+              "id": "SG-SMU-P014-CROSSBORDER-AUG2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineNote": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials."
+            },
+            {
+              "id": "SG-SMU-P014-CROSSBORDER-AUG2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineNote": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Degree completion evidence",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track academic and professional entry",
+              "noteZh": "",
+              "noteEn": "The admissions table lists a good first Law degree (LLB, JD or equivalent), with non-law graduates considered individually on substantial relevant law-related professional experience. This is assessed consideration, not unrestricted any-major entry or an automatic rejection of every non-law graduate. Confirm track and equivalent qualification; a general experience-year total, high GPA or a Computer Science major alone does not establish accepted legal preparation.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability and application-period validity",
+              "noteZh": "",
+              "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track fees and funding applicability",
+              "noteZh": "",
+              "noteEn": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Regular materials, referees and distinct LLM selection test",
+              "noteZh": "",
+              "noteEn": "Regular LLM instructions require identity documents, degree certificates, official transcripts, CV, a detailed statement of purpose and certified translations where needed. No general statement word limit is established here; 500-1,000-word scholarship statements are not the admission statement. Two different referees are required: an academic referee where possible, or two employers when an academic reference cannot be provided after time out of study. The university requests confidential evaluations after application. All applicants take a one-hour LLM written test after documents/references are completed; shortlisted applicants have an interview. The LLM written test is distinct from GMAT/GRE/SMU Admission Test, which are not required; do not add the optional 125 SMUAT payment. Final-year candidates completing their degree by early July may apply with current transcripts, subject to final evidence before classes.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Regular dated final and unknown opening",
+              "noteZh": "",
+              "noteEn": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/LLM/Apply_now"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Preparatory workshops and weekday attendance",
+              "noteZh": "",
+              "noteEn": "Non-law and civil-law-background students must attend the named legal-writing/common-law workshops as applicable. Part-time classes share full-time weekday sessions; evening-only or weekend delivery is not guaranteed. Confirm attendance and individual study-mode permission; nationality or an aggregate work total does not prove applicability.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://masters.smu.edu.sg/programme/master-of-laws",
+              "purpose": "LLM track-specific study, admissions, fees and historical dual-route instructions",
+              "checkedOn": "2026-10-28"
+            },
+            {
+              "url": "https://masters.smu.edu.sg/programme/LLM/Apply_now",
+              "purpose": "Regular LLM August 2027 schedule and final date, without application login",
+              "checkedOn": "2026-10-28"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "August 2027 regular LLM schedule; dual current cycle is not established.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "major": {
+              "status": "unknown",
+              "noteEn": "The admissions table lists a good first Law degree (LLB, JD or equivalent), with non-law graduates considered individually on substantial relevant law-related professional experience. This is assessed consideration, not unrestricted any-major entry or an automatic rejection of every non-law graduate. Confirm track and equivalent qualification; a general experience-year total, high GPA or a Computer Science major alone does not establish accepted legal preparation.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No universal numeric LLM entry GPA found; downstream JD CGPA is not an entry threshold.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "language": {
+              "status": "unknown",
+              "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Regular indicative quotation and dual currency legs require separate applicability checks.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Regular final 31 May 2027 displayed at 23:59; timezone/opening unconfirmed. No dual-date transfer.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/LLM/Apply_now"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "AI-assisted partial observation, not independent human review.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            }
+          },
+          "researchBatch": "smu-llm-first-check-2026-10-28",
+          "routeId": "SG-SMU-P014-ROUTE-CROSSBORDER",
+          "scope": {
+            "status": "in_scope",
+            "checkedOn": "2026-10-28",
+            "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+            "reasonEn": "SMU Singapore taught LLM track; any dissertation is part of its taught curriculum."
+          }
+        },
+        {
+          "name": "Law and Technology Track",
+          "award": "LLM",
+          "area": "Law",
+          "faculty": null,
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial track observation; current applicability remains unconfirmed",
+          "lastChecked": "2026-10-28",
+          "academicYear": "2027",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "LLM route evidence is partial. Programme admission and any professional recognition remain separate; this LLM is not a Singapore Bar-qualifying degree. A dissertation within the taught curriculum does not create a research-only master.",
+          "offerings": [
+            {
+              "id": "SG-SMU-P014-LAWTECH-AUG2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineNote": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials."
+            },
+            {
+              "id": "SG-SMU-P014-LAWTECH-AUG2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "August 2027",
+              "academicYear": "2027",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineNote": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "currency": "SGD",
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Degree completion evidence",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track academic and professional entry",
+              "noteZh": "",
+              "noteEn": "The admissions table lists a good first Law degree (LLB, JD or equivalent), with non-law graduates considered individually on substantial relevant law-related professional experience. This is assessed consideration, not unrestricted any-major entry or an automatic rejection of every non-law graduate. Confirm track and equivalent qualification; a general experience-year total, high GPA or a Computer Science major alone does not establish accepted legal preparation.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability and application-period validity",
+              "noteZh": "",
+              "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track fees and funding applicability",
+              "noteZh": "",
+              "noteEn": "The regular August 2027 LLM quote is SGD 39,240 inclusive of GST, indicative and subject to revision. The table includes an 8,000 non-refundable deposit before matriculation within tuition; do not add it again. Annual miscellaneous fees from 2027 are SC/PR 400 or foreigner 480 excluding GST, separate from tuition. Application fee is 100 inclusive of GST. Confirm track, cohort, category, tax and personal balance; personal tuition remains unassigned. No MOE tuition grant or automatic scholarship/discount deduction. Current fixed discounts and older 10% alumni wording coexist, so do not stack or automatically select a discount. Scholarship statements and awards are separate from ordinary admission materials.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Regular materials, referees and distinct LLM selection test",
+              "noteZh": "",
+              "noteEn": "Regular LLM instructions require identity documents, degree certificates, official transcripts, CV, a detailed statement of purpose and certified translations where needed. No general statement word limit is established here; 500-1,000-word scholarship statements are not the admission statement. Two different referees are required: an academic referee where possible, or two employers when an academic reference cannot be provided after time out of study. The university requests confidential evaluations after application. All applicants take a one-hour LLM written test after documents/references are completed; shortlisted applicants have an interview. The LLM written test is distinct from GMAT/GRE/SMU Admission Test, which are not required; do not add the optional 125 SMUAT payment. Final-year candidates completing their degree by early July may apply with current transcripts, subject to final evidence before classes.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Regular dated final and unknown opening",
+              "noteZh": "",
+              "noteEn": "Regular LLM August 2027 schedule: final online submission 31 May 2027 at the displayed 23:59, interviews from December 2026, workshops in August and first classes 23 August 2027. Opening day and the cutoff timezone are not established. Supporting documents and fee must also arrive by the deadline; rolling selection can close at capacity. Do not infer an opening from the Applications Open headline or copy this schedule to the QMUL-first dual route.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/LLM/Apply_now"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Preparatory workshops and weekday attendance",
+              "noteZh": "",
+              "noteEn": "Non-law and civil-law-background students must attend the named legal-writing/common-law workshops as applicable. Part-time classes share full-time weekday sessions; evening-only or weekend delivery is not guaranteed. Confirm attendance and individual study-mode permission; nationality or an aggregate work total does not prove applicability.",
+              "mandatory": false,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://masters.smu.edu.sg/programme/master-of-laws",
+              "purpose": "LLM track-specific study, admissions, fees and historical dual-route instructions",
+              "checkedOn": "2026-10-28"
+            },
+            {
+              "url": "https://masters.smu.edu.sg/programme/LLM/Apply_now",
+              "purpose": "Regular LLM August 2027 schedule and final date, without application login",
+              "checkedOn": "2026-10-28"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "August 2027 regular LLM schedule; dual current cycle is not established.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "major": {
+              "status": "unknown",
+              "noteEn": "The admissions table lists a good first Law degree (LLB, JD or equivalent), with non-law graduates considered individually on substantial relevant law-related professional experience. This is assessed consideration, not unrestricted any-major entry or an automatic rejection of every non-law graduate. Confirm track and equivalent qualification; a general experience-year total, high GPA or a Computer Science major alone does not establish accepted legal preparation.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No universal numeric LLM entry GPA found; downstream JD CGPA is not an entry threshold.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "language": {
+              "status": "unknown",
+              "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Regular indicative quotation and dual currency legs require separate applicability checks.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Regular final 31 May 2027 displayed at 23:59; timezone/opening unconfirmed. No dual-date transfer.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/LLM/Apply_now"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "AI-assisted partial observation, not independent human review.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            }
+          },
+          "researchBatch": "smu-llm-first-check-2026-10-28",
+          "routeId": "SG-SMU-P014-ROUTE-LAWTECH",
+          "scope": {
+            "status": "in_scope",
+            "checkedOn": "2026-10-28",
+            "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+            "reasonEn": "SMU Singapore taught LLM track; any dissertation is part of its taught curriculum."
+          }
+        },
+        {
+          "name": "Dual LLM in Commercial Law (Singapore & London) Track",
+          "award": "LLM",
+          "area": "Law",
+          "faculty": null,
+          "officialUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial track observation; current applicability remains unconfirmed",
+          "lastChecked": "2026-10-28",
+          "academicYear": "Current dual intake unconfirmed",
+          "admissionRoute": "unconfirmed",
+          "collector": "AI-assisted official-source extraction",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "LLM route evidence is partial. Programme admission and any professional recognition remain separate; this LLM is not a Singapore Bar-qualifying degree. A dissertation within the taught curriculum does not create a research-only master. This route describes two degrees, not the single joint award of MQF. The existing catalogue parent is retained without adding unverified award records.",
+          "offerings": [
+            {
+              "id": "SG-SMU-P014-DUAL-CURRENT-FT",
+              "mode": "Full-time",
+              "duration": "16 months; confirm current partner schedule",
+              "intake": null,
+              "academicYear": "Current dual intake unconfirmed",
+              "applicationOpen": null,
+              "deadline": null,
+              "deadlineNote": "Published dual instructions refer to January 2024 with a 2023-11-10 cutoff; current cycle unconfirmed, no current dated deadline recorded.",
+              "currency": null,
+              "tuition": null,
+              "applicationFee": 100,
+              "feeBasis": "The dual-track block quotes GBP 22,975 payable to QMUL in January and SGD 37,605 inclusive of GST payable to SMU in August; the applicable current cohort is not established. SMU application fee 100 inclusive of GST is payable by applicants shortlisted by QMUL. These are separate currency legs, not one SGD price. No currency conversion, regular 39,240 quote, regular deposit or automatic discount is applied. Confirm current partner charges, additional travel/living costs and personal balance."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Degree completion evidence",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track academic and professional entry",
+              "noteZh": "",
+              "noteEn": "The admissions table lists a good first Law degree (LLB, JD or equivalent), with non-law graduates considered individually on substantial relevant law-related professional experience. This is assessed consideration, not unrestricted any-major entry or an automatic rejection of every non-law graduate. Confirm track and equivalent qualification; a general experience-year total, high GPA or a Computer Science major alone does not establish accepted legal preparation.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability and application-period validity",
+              "noteZh": "",
+              "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Track fees and funding applicability",
+              "noteZh": "",
+              "noteEn": "The dual-track block quotes GBP 22,975 payable to QMUL in January and SGD 37,605 inclusive of GST payable to SMU in August; the applicable current cohort is not established. SMU application fee 100 inclusive of GST is payable by applicants shortlisted by QMUL. These are separate currency legs, not one SGD price. No currency conversion, regular 39,240 quote, regular deposit or automatic discount is applied. Confirm current partner charges, additional travel/living costs and personal balance.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "QMUL-first application and current-cycle confirmation",
+              "noteZh": "",
+              "noteEn": "Apply first through QMUL; only shortlisted applicants proceed to SMU, with a later essay test/interview. The published dual instructions still specify January 2024 intake and 10 November 2023 deadline. Current cycle, partner rules, English acceptance and exact dates remain unconfirmed; do not transplant the regular May 2027 deadline or assume direct SMU-first entry.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Dual documents and stage conditions",
+              "noteZh": "",
+              "noteEn": "The old dual instructions refer to transcripts/certificates, CV, statement, referee evidence and translations already supplied to QMUL, with completion of the later SMU stage and identity evidence if missing. Current requirements must be confirmed with both institutions; regular two-referee/test instructions are not silently reused as a complete partner checklist.",
+              "mandatory": true,
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://masters.smu.edu.sg/programme/master-of-laws",
+              "purpose": "LLM track-specific study, admissions, fees and historical dual-route instructions",
+              "checkedOn": "2026-10-28"
+            },
+            {
+              "url": "https://masters.smu.edu.sg/programme/LLM/Apply_now",
+              "purpose": "Regular LLM August 2027 schedule and final date, without application login",
+              "checkedOn": "2026-10-28"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "unknown",
+              "noteEn": "Dual instructions explicitly refer to January 2024; no current intake established.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "major": {
+              "status": "unknown",
+              "noteEn": "The admissions table lists a good first Law degree (LLB, JD or equivalent), with non-law graduates considered individually on substantial relevant law-related professional experience. This is assessed consideration, not unrestricted any-major entry or an automatic rejection of every non-law graduate. Confirm track and equivalent qualification; a general experience-year total, high GPA or a Computer Science major alone does not establish accepted legal preparation.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No universal numeric LLM entry GPA found; downstream JD CGPA is not an entry threshold.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "language": {
+              "status": "unknown",
+              "noteEn": "Published international-applicant English policy lists IELTS 6.5 or TOEFL 90. Exemption requires accepted English-medium institutional evidence in Australia, Canada, Hong Kong, Ireland, New Zealand, Philippines, United Kingdom or United States; the FAQ also describes a qualifying postgraduate degree. It is not a waiver for every English-taught degree or residence. Official scores must remain valid for two years from testing at the beginning of the relevant track application period, whose exact opening is not established here. The TOEFL scale/version and current partner-specific acceptance need confirmation. Keep applicability, waiver and expiry manual; do not start a rolling expiry from today, invent a new TOEFL conversion, or turn a self-reported score into accepted evidence.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Regular indicative quotation and dual currency legs require separate applicability checks.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "deadline": {
+              "status": "unknown",
+              "noteEn": "Historical 2023 cutoff not reused; regular 2027 final does not establish dual dates.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "AI-assisted partial observation, not independent human review.",
+              "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws"
+            }
+          },
+          "researchBatch": "smu-llm-first-check-2026-10-28",
+          "routeId": "SG-SMU-P014-ROUTE-DUAL",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-28",
+            "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+            "reasonEn": "SMU describes a two-city, two-degree route with QMUL in London. Current partner-cycle availability and inclusion within the Hong Kong/Singapore project boundary need confirmation."
+          }
+        }
+      ]
     }
   ]
 }

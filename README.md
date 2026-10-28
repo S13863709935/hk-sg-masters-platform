@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 LLM 首查：部分项目页记录增至 70；同一目录 ID 下四条路径分别保存，共七个学制选项。司法经验、非法学背景考虑、申请期起点语言有效性和双学位先经 QMUL 的流程分开，旧双学位周期不套用 2027 年常规截止。目录 873／默认 870、原试点 20、完整要求和独立复核 0 不变。见 [来源说明](docs/research/smu-llm-first-check-2026-10-28.md)、[99 单元快照](docs/research/source-review-queue-2026-10-28-smu-llm.md)、[核心验收](docs/research/core-pilot-acceptance-2026-10-28-smu-llm.md)。本轮仅本地保存。
+
 2026-10-28 同日 MQF 首查：部分项目页记录 69；新增两个独立路径观察，新加坡全日／兼读与伦敦联合培养全日共三个选项。国际路径范围待确认；语言版本、学费和月份日期不自动合并。目录 873／默认 870、原试点 20、独立人工复核 0 不变。见 [来源与处理](docs/research/smu-mqf-first-check-2026-10-28.md)、[94 单元维护快照](docs/research/source-review-queue-2026-10-28-smu-mqf.md) 和 [核心验收](docs/research/core-pilot-acceptance-2026-10-28-smu-mqf.md)。本轮仅本地保存。
 
 2026-10-28 同日 SMU MWM 首查：部分项目页记录为 68，原 67 个对象不变。保留学士后两年工作要求与 CFA Level 1 豁免考虑，未用总经验或 CFA 自动判定；12 个月 modular 格式不强行归类全日／兼读。五月 31 日最终截止有主页面依据，开放日仍未知。海外两周模块、学位／证书区别、8,000／7,000 订金和 GST 差异另待核对。另作中大／科大近期截止日专项抽查，原整条资料查阅日保留。见 [依据](docs/research/smu-mwm-first-check-2026-10-28.md)、[91 单元快照](docs/research/source-review-queue-2026-10-28-smu-mwm.md) 和 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-smu-mwm.md)。目录 873／默认 870、零独立复核不变，本轮仅本地保存。

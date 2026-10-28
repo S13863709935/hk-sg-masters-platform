@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SMU-P014",
+  "sources": [
+    {
+      "url": "https://masters.smu.edu.sg/programme/master-of-laws",
+      "purpose": "LLM track-specific study, admissions, fees and historical dual-route instructions",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programme/LLM/Apply_now",
+      "purpose": "Regular LLM August 2027 schedule and final date, without application login",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "existingCatalogueId": true,
+  "routeIds": [
+    "SG-SMU-P014-ROUTE-JUDICIAL",
+    "SG-SMU-P014-ROUTE-CROSSBORDER",
+    "SG-SMU-P014-ROUTE-LAWTECH",
+    "SG-SMU-P014-ROUTE-DUAL"
+  ],
+  "offeringsPerTrack": [
+    2,
+    2,
+    2,
+    1
+  ],
+  "newCatalogueProgrammes": 0,
+  "newPartialParent": 1,
+  "newPartialRoutes": 4,
+  "judicial": {
+    "lawDegreeAndSignificantLegalJudicialExperience": true,
+    "numericExperienceYears": null,
+    "extendedDurationClassifiedPartTime": false
+  },
+  "nonLaw": {
+    "otherTrackConsiderationNeedsRelevantEvidence": true,
+    "judicialOverrideFromGeneralFaq": false
+  },
+  "english": {
+    "ieltsQuoted": 6.5,
+    "toeflQuoted": 90,
+    "toeflScaleConfirmed": false,
+    "validityYears": 2,
+    "anchor": "beginning of track application period",
+    "openingDay": null,
+    "exemptionInstitutionLocations": [
+      "Australia",
+      "Canada",
+      "Hong Kong",
+      "Ireland",
+      "New Zealand",
+      "Philippines",
+      "United Kingdom",
+      "United States"
+    ],
+    "postgraduateDegreeFaqException": true,
+    "automaticRuleOrRollingExpiry": false
+  },
+  "regularCycle": {
+    "intake": "August 2027",
+    "deadline": "2027-05-31",
+    "displayedTime": "23:59",
+    "timezoneConfirmed": false,
+    "openingDay": null,
+    "firstClasses": "2027-08-23",
+    "livePortalChecked": false
+  },
+  "dual": {
+    "currentAdmissionRoute": "unconfirmed",
+    "historicalIntake": "January 2024",
+    "historicalDeadline": "2023-11-10",
+    "firstApplicationInstitution": "QMUL",
+    "smuStageOnlyAfterShortlisting": true,
+    "awardDescription": "two degrees",
+    "scope": "unconfirmed",
+    "currentDates": null,
+    "tuitionQuotes": [
+      {
+        "currency": "GBP",
+        "amount": 22975
+      },
+      {
+        "currency": "SGD",
+        "amount": 37605,
+        "inclusiveGst": true
+      }
+    ],
+    "currentFeeCohortConfirmed": false
+  },
+  "regularFees": {
+    "indicative2027InclusiveGst": 39240,
+    "includedDeposit": 8000,
+    "applicationInclusiveGst": 100,
+    "annualMiscExcludingGst": {
+      "scPr": 400,
+      "foreigner": 480
+    },
+    "personalTuition": null,
+    "automaticDiscountStacking": false
+  },
+  "regularMaterials": {
+    "differentReferees": 2,
+    "academicWherePossibleOtherwiseTwoEmployers": true,
+    "writtenLlmTestHours": 1,
+    "smuAtRequired": false,
+    "gmatGreRequired": false,
+    "statementWordLimitEstablished": false,
+    "scholarshipStatementNotEntryStatement": true
+  },
+  "sourceLimits": {
+    "htmlOnly": true,
+    "brochureNotRead": true,
+    "rawMergedTableSpansNotVerified": true,
+    "partnerAdmissionsNotSeparatelyChecked": true,
+    "independentHumanReview": false
+  },
+  "preservation": {
+    "previousSnapshotHashes": {
+      "data/research/smu-mqf-observation-2026-10-28.json": "b56304d117e7b860a8d18fdf52c828eff2967a7be29ee9a558f6a4fe0b965a47",
+      "docs/research/smu-mqf-first-check-2026-10-28.md": "4d51319a2359463719ed493088d6deecaa7fe14ed37a1546bb163f5cfa3a49e8",
+      "docs/research/source-review-queue-2026-10-28-smu-mqf.md": "d599741d283c262c3146b572209d0134396582d8bebd381a8dcfce4b3a37ad6d",
+      "docs/research/core-pilot-acceptance-2026-10-28-smu-mqf.md": "123854b009274bac5d187ff910c14dd7458e011e9b37779902c1d711aabc82b6"
+    }
+  }
+}

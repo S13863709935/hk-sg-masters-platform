@@ -218,10 +218,10 @@ test('parent records and raw export are unchanged; route and category evidence h
   assert.equal(exported.verification, 'catalogue_seed'); assert.equal(exported.selectedRoute, undefined);
   assert.equal(exported.applicantEvidence, undefined);
   const meta = await get('/api/meta');
-  assert.deepEqual(meta.routeEvidence, { groups: 3, routes: 7, pageChecked: 7, peerReviewed: 0, complete: 0 });
+  assert.deepEqual(meta.routeEvidence, { groups: 4, routes: 11, pageChecked: 11, peerReviewed: 0, complete: 0 });
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 18, categories: 38, peerReviewed: 0 });
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
-  assert.equal(meta.quality.checked, 69); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.equal(meta.quality.checked, 70); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
 });
 
 test('cards and details only show the unresolved-route badge when no specific route is selected', () => {
