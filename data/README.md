@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-28）
 
+同日 SUSS MBX 首查：部分项目页记录为 51，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。两年工作经验可比，年数达到不等于学校批准；教师限定 WSX 模块、GDALL 证书 GPA、两专项及最高资助报价分别核对，不虚设硕士 GPA 或自动减费。见 [来源](../docs/research/suss-mbx-first-check-2026-10-28.md)、[74 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mbx.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mbx.md)。原 50 个对象和日期保留。
+
 同日 SUSS MTAX 首查：部分项目页记录为 50，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。专业资格替代学位、居民／准证、动机和语言证据保留核查；ATP 四课认可不作额外 20 学分或自动减费，较小学位和 JD 要求不合并。公开申请日期保留为原始观察，具体批次和个人费用仍待确认。见 [来源](../docs/research/suss-mtax-first-check-2026-10-28.md)、[73 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mtax.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mtax.md)。原 49 个对象与日期保留。
 
 同日 SUSS MEDU 首查：部分项目页记录为 49，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。教育硕士三种文凭选择不计成三个硕士或 90 学分；GDCT 条件不套给 GDED，独立文凭国际生矛盾不覆盖明确的硕士路径。缺少可读材料条目、个人费用和批次仍待确认。见 [来源](../docs/research/suss-medu-first-check-2026-10-28.md)、[72 单元快照](../docs/research/source-review-queue-2026-10-28-suss-medu.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-medu.md)。原 48 个对象与日期保留。

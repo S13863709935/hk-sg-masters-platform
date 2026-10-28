@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SUSS-P010",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master in Boundary-Crossing Learning and Leadership",
+    "award": "MBX",
+    "faculty": "Institute for Adult Learning",
+    "totalCu": 60,
+    "coreCertificates": 2,
+    "trackCertificatesToComplete": 2,
+    "eachCertificateCu": 15,
+    "coreCu": 30,
+    "trackCu": 30,
+    "tracks": [
+      "Adult Learning",
+      "Learning, Innovation & Enterprise Leadership"
+    ],
+    "courseworkBasis": "Stacked assessed graduate-certificate courses; participation and individual/end-of-course assignments",
+    "coreCourses": [
+      {
+        "code": "BXL601",
+        "cu": 5
+      },
+      {
+        "code": "BXL602",
+        "cu": 5
+      },
+      {
+        "code": "BXL603",
+        "cu": 5
+      },
+      {
+        "code": "BXL611",
+        "cu": 10
+      },
+      {
+        "code": "BXL612",
+        "cu": 5
+      }
+    ],
+    "oneTrackNotBothRequired": true,
+    "notTwoSeparateMastersOrNinetyCu": true,
+    "standaloneCertificateDiplomaNotMerged": true,
+    "ialNotAnAdditionalUniversityRecord": true
+  },
+  "entry": {
+    "recognisedUndergraduateDegreeOrEquivalent": true,
+    "minimumWorkYears": 2,
+    "programmeShouldHaveWordingCorroboratedByBrochureHaveAtLeast": true,
+    "genericYearPassNotUniversityVerification": true,
+    "noPublishedTeachingOnlyWorkExperienceRestriction": true,
+    "noUniversalFacultyOrLeadershipJobTitleGate": true,
+    "numericUndergraduateEntryGpa": null,
+    "mandatoryUndergraduateMajor": null,
+    "minimumHonours": null,
+    "fullWorkHistoryCvRequired": true,
+    "personalStatementPages": 1,
+    "personalStatementWordDocumentFormat": true,
+    "schoolApprovalRequiredEvenIfPrerequisitesMet": true,
+    "notAutomaticAdmission": true,
+    "checklistAdditionalMasterDocuments": [
+      "CV detailing work experience",
+      "One-page personal statement"
+    ],
+    "neighbouringResearchProposalOrClinicalRefereesNotInherited": true,
+    "generalDocumentsStillApply": true,
+    "platformDoesNotCollectWriteOrSubmitAdmissionMaterials": true
+  },
+  "eligibility": {
+    "internationalStudentsNotAcceptedCurrently": true,
+    "publishedGroups": [
+      "Singapore Citizen",
+      "Singapore Permanent Resident",
+      "Resident in Singapore, e.g. Employment Pass holder"
+    ],
+    "residencePassEvidenceNeedsAssessment": true,
+    "physicalLocationOrOtherResidentsPriceNotEligibility": true,
+    "noInternationalStudentPassAdmissionInferred": true
+  },
+  "english": {
+    "currentGeneralElprConditionalOnUniversityMediumOrUndergraduateInstruction": true,
+    "ieltsAcademicMin": 6.5,
+    "internetToeflUnversionedMin": 85,
+    "pteAcademicMin": 58,
+    "c1Advanced": {
+      "score": 180,
+      "yearsAtApplication": 2
+    },
+    "muet": {
+      "band": 4,
+      "yearsAtApplication": 5
+    },
+    "brochurePbt580NotAutomaticallyInsertedIntoCurrentPolicy": true,
+    "ieltsToeflExpiryNotEstablishedHere": true,
+    "automaticWaiver": false,
+    "toeflScaleConversion": false
+  },
+  "study": {
+    "minimumCandidatureYears": 2,
+    "maximumCandidatureYears": 4,
+    "formalFullPartTimeMode": null,
+    "oneGraduateCertificatePerSemester": true,
+    "coursesPerCertificate": [
+      2,
+      3
+    ],
+    "certificateCuPerSemester": 15,
+    "lessonsSaturdays": true,
+    "location": "Institute for Adult Learning, Lifelong Learning Institute, Paya Lebar",
+    "masterAwardCgpaNotEstablished": true,
+    "masterAwardCgpa": null,
+    "standaloneCertificate16WeeksNotEntireMasterDuration": true,
+    "noRemoteEmploymentProfessionalRegistrationOrMentorOutcomeGuarantee": true,
+    "candidatureExpiredCetCompletionDoesNotRestoreAward": true
+  },
+  "boundaries": {
+    "gdallCu": 30,
+    "gdallCertificateCgpaMin": 2.5,
+    "gdallCgpaScale": 5,
+    "gdallMaxCandidatureYears": 2,
+    "gdallAdultLearningCoursesOverlapTrackNotExtraMasterCredits": true,
+    "diplomaGpaNotUndergraduateEntryOrUnconfirmedMasterAwardGpa": true,
+    "noAutomaticPriorCreditAdmissionOrFeeDiscount": true,
+    "curriculumCode": "MBX-SPE",
+    "curriculumUpdatedOn": "2026-09-02",
+    "wsx551AndWsx552OnlyForSussAssociateFacultyIalAdjunctAdultEducators": true,
+    "wsx551SuccessfulCompletionCertificate": "GCIAL",
+    "wsx552SuccessfulCompletionCertificate": "GCDLP",
+    "staffOnlyCoursesNotUniversalMasterAdmissionRequirement": true,
+    "genericTeachingExperienceNotStaffStatusProof": true,
+    "curriculumPresentationMonthsNotIntakesOrApplicantPrerequisites": true,
+    "curriculumColumnsNotVisuallyReconciled": true
+  },
+  "cycle": {
+    "recurringIntakes": [
+      "January",
+      "July"
+    ],
+    "intakesPerYear": 2,
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "generic2027CalendarNotBoundToProgramme": true,
+    "curriculumMay2027NotThirdIntake": true,
+    "september29InformationSessionNotDeadline": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "tableUpdatedMonth": "October 2026",
+    "tablePricesAsOf": "2026-10-16",
+    "masterTextQuotesBeforeGst": {
+      "maximumSsgAsLowAs": 10680,
+      "scPr": 31680,
+      "otherResidents": 38016
+    },
+    "diplomaTextQuotesBeforeGst": {
+      "maximumSsgAsLowAs": 8840,
+      "scPr": 15840,
+      "otherResidents": 19008
+    },
+    "certificateTextQuotesBeforeGst": {
+      "maximumSsgAsLowAs": 920,
+      "scPr": 7920,
+      "otherResidents": 9504
+    },
+    "fiveCuModuleTextQuotesBeforeGst": {
+      "maximumSsgAsLowAs": 264,
+      "scPr": 2640,
+      "otherResidents": 3168
+    },
+    "maximumSsgNotAutomaticFromCitizenship": true,
+    "noDefaultSubsidyOrPriorCreditFeeDiscount": true,
+    "certificateDiplomaAmountsNotAddedAboveMasterByDefault": true,
+    "otherResidentsPriceNotInternationalAdmission": true,
+    "personalCategoryCohortCreditsTaxAndPdfColumnsUnresolved": true,
+    "generalApplicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "residentAnnualMiscBeforeGst": 20,
+    "generalInternationalMisc530NotMbxEligibility": true,
+    "clinical240NotInherited": true,
+    "deposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true
+    },
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "sourceLimitations": {
+    "brochureAsOf": "June 2026",
+    "brochurePdfPagesRead": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "curriculumPdfPagesRead": [
+      1,
+      2
+    ],
+    "feePdfPagesRead": [
+      6,
+      7
+    ],
+    "checklistProgrammePdfPage": 9,
+    "pdfTextOnly": true,
+    "pdfVisualInspectionCompleted": false,
+    "programmeDiagramNotVisuallyInspected": true,
+    "localPdfDownloaded": false,
+    "noExternalIalLinksOrRegistrationFormsSubmitted": true,
+    "noAccessChecksBypassed": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-in-boundary-crossing-learning-and-leadership",
+      "purpose": "MBX identity, 60-CU stacking/tracks, two-year work experience, CV/Word statement, resident restriction, school approval and study/intake context",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes",
+      "purpose": "SUSS Institute for Adult Learning master identity separate from graduate certificates, GDALL and MEd",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_ial_brochure_digital.pdf?sfvrsn=f0f03d8e_3",
+      "purpose": "PDF pages 6-9 corroborate 60-CU tracks and explicit two-year work requirement; standalone certificate descriptions and June-2026 publication context; text only",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=MBX-SPE&viewtype=mhtml",
+      "purpose": "Two-page MBX-SPE plan dated 2 September: core 30 CU, tracks and staff-only WSX551/552 notes; presentation months not admission cycles; columns not visually verified",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/graduate-diploma-in-adult-learning",
+      "purpose": "Separate GDALL 30 CU, per-certificate 2.5/5 award rule, two-year maximum and Adult Learning course overlap; not MBX undergraduate/award GPA",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional current ELPR, assessed waiver and deposit credited to tuition",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General application documents/fees and calendar warnings; no exact MBX intake cutoff inferred",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "PDF page 9 MBX CV and one-page personal statement block, separate from neighbouring materials; general documents still apply",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course-based billing and miscellaneous categories; international fees do not establish MBX admission",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "PDF pages 6-7 MBX master/diploma/certificate/module quotes and maximum conditional SSG/GST notes; no default personal total; text only",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-suss-mtax.md": "032beace9aff9069b55806d6835c7ccc351d8edf7d22dcc0f2b8bc58b9532ec2",
+      "docs/research/core-pilot-acceptance-2026-10-28-suss-mtax.md": "36a631bffc8e761215b8ac8af1ec14cd4df66223ea665789a14c97c4d7d1a7eb"
+    }
+  }
+}
