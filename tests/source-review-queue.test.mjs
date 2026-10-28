@@ -27,12 +27,12 @@ const unit = (q = report, id = 'SG-NUS-P032', kind = 'programme') => q.units.fin
 
 test('review units preserve separate programme, route and category counts without inflating catalogue coverage', () => {
   assert.deepEqual(report.counts, {
-    catalogueRecords: 873, programmePageRecords: 53, remainingCatalogueLeads: 820,
-    routeRecords: 5, applicantContexts: 18, applicantCategories: 38, reviewUnits: 76,
-    pendingHumanReview: 76, reviewRecordedInSource: 0, nearCutoffUnits: 2, staleApplicantContexts: 0
+    catalogueRecords: 873, programmePageRecords: 55, remainingCatalogueLeads: 818,
+    routeRecords: 5, applicantContexts: 18, applicantCategories: 38, reviewUnits: 78,
+    pendingHumanReview: 78, reviewRecordedInSource: 0, nearCutoffUnits: 2, staleApplicantContexts: 0
   });
-  assert.equal(report.units.filter(u => u.kind === 'programme').length, 53);
-  assert.equal(new Set(report.units.map(u => u.key)).size, 76);
+  assert.equal(report.units.filter(u => u.kind === 'programme').length, 55);
+  assert.equal(new Set(report.units.map(u => u.key)).size, 78);
   assert.equal(report.livePortalChecked, false); assert.equal(report.reviewApprovalGranted, false);
   assert.ok(report.units.every(u => u.status === 'pending_human_review' && !u.sourceReviewRecorded));
 });
@@ -194,9 +194,9 @@ test('real CLI works outside the repository without modifying source files or op
 });
 
 test('committed human checklist exactly reproduces its snapshot and semantic source fingerprints', () => {
-  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-28-suss-emba.md', root), 'utf8').replaceAll('\r\n', '\n'));
+  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-28-suss-msch.md', root), 'utf8').replaceAll('\r\n', '\n'));
   assert.equal(Object.keys(report.inputFingerprints).length, 8);
   for (const h of Object.values(report.inputFingerprints)) assert.match(h, /^[a-f0-9]{64}$/);
   const markdown = formatSourceReviewMarkdown(report);
-  assert.match(markdown, /不是 76 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
+  assert.match(markdown, /不是 78 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
 });

@@ -74,7 +74,7 @@ test('raw local/non-local date columns remain explicit evidence and do not becom
 test('directory evidence preserves checked requirements, fee-context fingerprints and original snapshot', () => {
   const db = new CatalogueStore(':memory:', options);
   try {
-    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 870); assert.equal(q.checked, 53); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.enumeratedUniversities, 6); assert.deepEqual(q.sourceRefreshConflicts, []);
+    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 870); assert.equal(q.checked, 55); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.enumeratedUniversities, 6); assert.deepEqual(q.sourceRefreshConflicts, []);
     assert.equal(db.universities().find(u => u.id === 'HK-CITYU').directoryAudit.enumerationStatus, 'entries_enumerated');
     for (const original of checked.programmes) {
       const p = db.get(original.id); assert.deepEqual(p.offerings, original.offerings); assert.deepEqual(p.rules, original.rules); assert.equal(p.lastChecked, original.lastChecked);

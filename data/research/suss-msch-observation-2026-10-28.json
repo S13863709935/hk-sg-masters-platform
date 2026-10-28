@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeIds": [
+    "SG-SUSS-P002",
+    "SG-SUSS-P003"
+  ],
+  "existingCatalogueIds": true,
+  "originalPilotUnchanged": true,
+  "shared": {
+    "faculty": "School of Business",
+    "internationalDirectoryClassifiesBothCoursework": true,
+    "teachingAndAssessmentLanguage": "Chinese",
+    "recognisedBachelorRequired": true,
+    "numericUndergraduateGpa": null,
+    "mandatoryUndergraduateMajor": null,
+    "minimumHonoursClassification": null,
+    "workExperienceNotRequiredButAdvantage": true,
+    "socialVolunteerServiceNotRequiredButAdvantage": true,
+    "chineseCvUsingTemplateRequired": true,
+    "possibleAdmissionsInterview": true,
+    "hskConditional": {
+      "bothRequired": [
+        "First language is not Chinese",
+        "Undergraduate instruction was not Chinese"
+      ],
+      "level": 5,
+      "scoreAtLeast": 180
+    },
+    "profileCannotVerifyFirstLanguageChineseInstructionOrHsk": true,
+    "generalGuideNoElprForChineseTaughtProgrammes": true,
+    "noAutomaticLanguageEvidenceApproval": true,
+    "awardCu": 60,
+    "awardCgpa": 3,
+    "awardGpaScaleNotEstablishedHere": true,
+    "awardGpaNotUndergraduateEntryGpa": true,
+    "recurringIntakes": [
+      "January",
+      "July"
+    ],
+    "exactCohortYearOpeningAndDeadlineUnconfirmed": true,
+    "livePortalChecked": false,
+    "cetAfterCandidatureExpiryDoesNotRestoreAward": true,
+    "noEmbaWorkManagerialReferenceOrProfessionalExceptionInherited": true,
+    "noTeacherJobTitleOrNationalityExclusionFromAudienceWording": true
+  },
+  "managementChinese": {
+    "programmeId": "SG-SUSS-P002",
+    "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-science-in-management",
+    "regularCode": "MSMGT",
+    "regularMode": "Part-time",
+    "regularMinimumYears": 1.5,
+    "regularMaximumYears": 4,
+    "regularCuPerSemesterMaximum": 20,
+    "regularGroups": [
+      "Singapore citizens",
+      "Singapore permanent residents",
+      "Work Pass or other long-term pass holders"
+    ],
+    "acceleratedCode": "MSMGT-A",
+    "acceleratedMode": "Full-time",
+    "acceleratedMonths": 12,
+    "acceleratedAverageCuPerSemester": 30,
+    "acceleratedLocalCitizensPrNotInFullTimeEmployment": true,
+    "internationalStudentsMustChooseAccelerated": true,
+    "pathwaySuitabilityAssessedAtInterview": true,
+    "managementElectiveCuRange": [
+      30,
+      40
+    ],
+    "businessElectiveCuRange": [
+      20,
+      30
+    ],
+    "combinedTotalNotAutomaticSeventyCu": true,
+    "msm598InternshipCu": 10,
+    "internshipIsElectiveNotPriorWorkGate": true,
+    "certificateCu": 15,
+    "diplomaCu": 30,
+    "diplomaManagementElectiveMinimumCu": 15,
+    "exitAwardsNotAddedAboveSixtyCu": true,
+    "programmeFaqNoCreditExemptions": true,
+    "noCreditExemptionRuleNotAssignedToEducation": true,
+    "englishMmgtAndFhnwDualMasterNotMerged": true
+  },
+  "managementEducation": {
+    "programmeId": "SG-SUSS-P003",
+    "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-science-in-management-(education)",
+    "acceleratedCode": "MSMGTEDC-A",
+    "mode": "Full-time",
+    "months": 12,
+    "partTimeVariantNotEstablished": true,
+    "managementCourses": 6,
+    "educationCourses": 6,
+    "eachCourseCu": 5,
+    "allTwelveCompulsory": true,
+    "edcCourseCodes": [
+      "EDC511",
+      "EDC512",
+      "EDC513",
+      "EDC514",
+      "EDC515",
+      "EDC516"
+    ],
+    "msmCourseCodes": [
+      "MSM511",
+      "MSM512",
+      "MSM513",
+      "MSM514",
+      "MSM515",
+      "MSM516"
+    ],
+    "noTeachingLicenceWorkOrEducationMajorRequirementEstablished": true,
+    "regularMsMgtPassAndEmploymentRestrictionsNotAutomaticallyCopied": true,
+    "dedicatedChecklistHeadingNotEstablishedInConsultedText": true,
+    "additionalMaterialsNotAssumedAbsent": true,
+    "curriculumPlanUpdated": "2026-09-02",
+    "curriculumMay2027ColumnNotThirdAdmissionIntake": true,
+    "curriculumPresentationWeekdayAndSaturdayRowsNotExactPersonalTimetable": true,
+    "notMasterOfEducationOrEarlyChildhoodEducation": true
+  },
+  "fees": {
+    "tableAsOf": "2026-10-16",
+    "managementChineseTextQuotesBeforeGst": {
+      "scPr": 31680,
+      "otherResidents": 38016
+    },
+    "educationExplicitRowBindingNotEstablished": true,
+    "educationConfirmedTuition": null,
+    "englishManagementAsLowAs17424NotChineseDefaultPrice": true,
+    "noAutomaticSsgScholarshipConcessionStackingOrExitAwardSum": true,
+    "applicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "annualMiscBeforeGst": {
+      "residents": 20,
+      "internationalStudentPass": 530
+    },
+    "personalCategoryCohortFundingTaxAndPdfColumnsUnresolved": true,
+    "personalTuition": null,
+    "personalApplicationFee": null
+  },
+  "sourceLimitations": {
+    "pdfTextOnly": true,
+    "pdfVisualInspectionCompleted": false,
+    "localPdfDownloaded": false,
+    "brochureRelevantPdfPage": 16,
+    "feePdfPagesRead": [
+      4,
+      7
+    ],
+    "checklistPagesRead": [
+      1,
+      2,
+      3
+    ],
+    "educationCurriculumPdfPagesRead": [
+      1,
+      2
+    ],
+    "educationCurriculumTextReadNotVisualColumnsVerified": true,
+    "regularCurriculumFetchTimeout": true,
+    "regularCurriculumContentsNotRead": true,
+    "cvTemplateContentsNotReadOrGenerated": true,
+    "sourceDiagramsNotVisuallyInspected": true,
+    "independentHumanReview": false,
+    "noAccessChecksBypassed": true
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-science-in-management",
+      "purpose": "Chinese Management bachelor/HSK/CV and nonmandatory work/service, separate FT/PT codes and eligibility, award/credit/exemption and recurring-intake rules",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-science-in-management-(education)",
+      "purpose": "Education-specific Chinese 60-CU master, twelve compulsory courses, MSMGTEDC-A full-time twelve months, same conditional HSK and nonmandatory work/service without importing regular MSMGT terms",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/academics/programmes/graduate-programmes/programmes",
+      "purpose": "Two existing separately linked School of Business masters, distinct from English MMGT and other education awards",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Both listed under coursework; international Student Pass context, not individual eligibility approval",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "General Chinese-taught ELPR exception, credential verification, fee categories and generic calendars not assigned to exact selected programme cohorts",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "General identity/academic/photo evidence and Chinese Management CV-template block; Education-specific heading not established, adjacent EMBA/DBA documents not imported",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_sbiz_brochure_digital.pdf?sfvrsn=b45ccb85_3",
+      "purpose": "PDF page 16 Chinese Management elective/exit-award structure, FT/PT codes and eligibility; neighbouring English Management section kept separate; text only",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://sims1.suss.edu.sg/eservice/public/viewcp/viewcp.aspx?progcd=MSMGTEDC-A&viewtype=mhtml",
+      "purpose": "Education curriculum text, two pages, updated 2 September 2026: twelve five-CU compulsory courses; course-presentation months/weeks not admissions windows",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "General course-based billing and separate resident/international miscellaneous fee categories",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "PDF pages 4 and 7 Management (Chinese) 31680/38016 pre-GST text row; no explicit Education-code binding, personal category, SSG or visual-column approval",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-suss-emba.md": "5db8beb36f677b9ef3f4b99279b88fee3939753e5775851c337e601272f3ef23",
+      "docs/research/core-pilot-acceptance-2026-10-28-suss-emba.md": "5eba140426f587a7528ef0dddc875f5dcbee6f46b53a7198ecdb797f0abe3316"
+    }
+  }
+}
