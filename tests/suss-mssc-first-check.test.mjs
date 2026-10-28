@@ -112,18 +112,18 @@ test('dated feature window and conditional master quotes stay visible without se
 
 test('first MSSC source migration preserves every other record and prior snapshots over isolated restarts', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 55); assert.equal(queue.counts.reviewUnits, 78);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 58); assert.equal(queue.counts.reviewUnits, 81);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-mssc-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== p.id) }));
     db = new CatalogueStore(path, { ...options, checkedPath }); const earlier = db.all().filter(x => x.id !== p.id), listing = db.get(p.id).directoryListing;
-    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 54); db.close(); db = null;
+    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 57); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 55); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 58); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -149,7 +149,7 @@ test('matching API, saved restore and export preserve unresolved diploma eligibi
   assert.match(exported.offerings[0].deadlineNote, /16 October 2026 to 15 April 2027/); assert.match(exported.offerings[0].feeBasis, /prior payments/);
   assert.match(exported.evidence.publishedRequirements.find(r => /Postgraduate diploma grades/.test(r.labelEn)).noteEn, /not undergraduate entry GPA/);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 55); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 58); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5);
   assert.equal(detail.applicationTimeline.state, 'dates_incomplete'); assert.equal(JSON.stringify(store.all()), before);

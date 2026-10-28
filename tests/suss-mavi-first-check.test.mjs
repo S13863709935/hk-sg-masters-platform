@@ -31,7 +31,10 @@ test('existing English MAVI identity remains separate from Chinese MSDAV, MAIB a
   assert.equal(p.award, 'MAVI'); assert.equal(p.admissionRoute, 'direct'); assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
   assert.equal(batch.programmes.filter(x => x.id === p.id).length, 1); assert.equal(batch.pilotProgrammeIds.includes(p.id), false); assert.equal(batch.pilotProgrammeIds.length, 20);
   assert.equal(obs.identity.notChineseProgrammeId, 'SG-SUSS-P026'); assert.equal(obs.identity.notMaibProgrammeId, 'SG-SUSS-P016');
-  assert.equal(store.get('SG-SUSS-P026').verification, 'catalogue_seed'); assert.equal(store.get('SG-SUSS-P016').award, 'MAIB');
+  const chinese = store.get('SG-SUSS-P026'); assert.equal(chinese.verification, 'programme_page_checked');
+  assert.notEqual(chinese.id, p.id); assert.notEqual(chinese.officialUrl, p.officialUrl); assert.equal(chinese.award, 'MSc');
+  assert.equal(chinese.rules.some(r => r.labelEn === 'Programme-specific Chinese proficiency and HSK evidence'), true);
+  assert.equal(chinese.rules.some(r => r.kind === 'major'), false); assert.deepEqual(store.get(p.id).rules, p.rules); assert.equal(store.get('SG-SUSS-P016').award, 'MAIB');
   assert.equal(obs.identity.coursework, true); assert.equal(obs.identity.certificateDiplomaNotRequiredFirst, true);
   assert.equal(/\p{Script=Han}/u.test(JSON.stringify(p)), false);
 });
@@ -111,7 +114,7 @@ test('MAIB archives remain immutable and MAVI adds no actionable cutoff or indep
   };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash('sha256').update(readFileSync(new URL('docs/research/' + file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
   const queue = loadRepositoryReviewQueue('2026-10-27');
-  assert.equal(queue.counts.programmePageRecords, 55); assert.equal(queue.counts.reviewUnits, 78); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  assert.equal(queue.counts.programmePageRecords, 58); assert.equal(queue.counts.reviewUnits, 81); assert.equal(queue.counts.reviewRecordedInSource, 0);
   assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -121,13 +124,13 @@ test('first MAVI source migration preserves every other record and directory evi
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== p.id) }));
     db = new CatalogueStore(path, { ...options, checkedPath });
     const previous = db.all().filter(x => x.id !== p.id), directory = db.get(p.id).directoryListing;
-    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 54); db.close(); db = null;
+    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 57); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
       assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory);
       assert.deepEqual(db.all().filter(x => x.id !== p.id), previous); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 55); db.close(); db = null;
+      assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 58); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -151,7 +154,7 @@ test('real API/save/export preserves explicit Singapore-attendance choice and fl
     assert.equal(exported.offerings[0].id, o.id); assert.equal(exported.offerings[0].tuition, null); assert.equal(exported.offerings[0].deadline, null);
     assert.match(exported.evidence.notesEn, /Entirely overseas remote enrolment/); assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 55);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 58);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5);
   assert.equal(JSON.stringify(store.all()), before);

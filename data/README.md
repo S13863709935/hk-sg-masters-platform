@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-28）
 
+同日 SUSS 中文数据分析、金融科技及知识产权策略首查：部分项目页记录为 58，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。六种学习选择保留独立身份，HSK 触发条件逐项记录，不照搬中文管理学或英语同名项目规则。毕业 GPA、较小学位、实习与入学要求分开；金融科技材料未知不等于不需要，个人学费继续留空。见 [来源](../docs/research/suss-chbiz-first-check-2026-10-28.md)、[81 单元快照](../docs/research/source-review-queue-2026-10-28-suss-chbiz.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-chbiz.md)。原 55 个对象和日期保留。
+
 同日 SUSS 中文管理学及教育方向首查：部分项目页记录为 55，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。普通项目两种学制、教育方向全日制分开；零工作经验不判为差距，条件式 HSK、中文简历、路径及身份仍待确认。毕业 GPA 不作本科门槛，教育方向费用未从其他项目复制。见 [来源](../docs/research/suss-msch-first-check-2026-10-28.md)、[78 单元快照](../docs/research/source-review-queue-2026-10-28-suss-msch.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-msch.md)。原 53 个对象和日期保留。
 
 同日 SUSS EMBA 首查：部分项目页记录为 53，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。八年总经验可比较，包含的三年管理经验、同等学历和中英语言途径由学校审核；毕业 GPA 不作本科门槛。旧日期与当前区间分开，DBA 留读费用不套用，个人学费未赋值。见 [来源](../docs/research/suss-emba-first-check-2026-10-28.md)、[76 单元快照](../docs/research/source-review-queue-2026-10-28-suss-emba.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-emba.md)。原 52 个对象和日期保留。

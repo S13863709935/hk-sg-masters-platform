@@ -1,0 +1,25 @@
+# SUSS Chinese business MSc batch — 28 October 2026
+
+Partial internal source observations for existing `SG-SUSS-P026` / `P027` / `P028`, not assessment prose, new programme identities or independent human review. See the [structured observation](../../data/research/suss-chbiz-observation-2026-10-28.json).
+
+## Entry and language
+
+The official [Data Analytics and Visualisation](https://www.suss.edu.sg/programmes/detail/master-of-science-in-data-analytics-and-visualisation-chinese), [Financial Technology](https://www.suss.edu.sg/programmes/detail/master-of-financial-technology) and [Strategic IP and Innovation Management](https://www.suss.edu.sg/programmes/detail/msmip) pages accept recognised bachelor/equivalent qualifications, with other qualifications plus relevant experience assessed individually. Work and volunteering are advantages rather than prerequisites. No numerical undergraduate GPA, honours or universal subject requirement was established. Possible interviews remain manual. The data programme explicitly accommodates applicants without prior programming/data background.
+
+All teach and assess in Chinese. Keep the HSK Level 5 score 180 triggers distinct: Data requires both non-Chinese first language and a degree from a non-Chinese-medium institution; FinTech states the institution trigger without a native-language exception; IP uses both non-Chinese first language and non-Chinese undergraduate instruction. Institution medium and actual instruction are not interchangeable. The profile captures none of these facts or HSK. No nationality/name inference, automatic exemption or English-score rejection follows. [General guidance](https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide) excludes Chinese-taught programmes from ELPR, while credentials and other evidence still apply.
+
+The [international directory](https://www.suss.edu.sg/admissions/international-students/international-graduate-students) lists all three as coursework. Keep them separate from English siblings, dual masters and professional pathways.
+
+## Modes, curriculum and materials
+
+Each offers regular part-time (1.5–4 years) and accelerated full-time study. International students must select accelerated; local SC/PR accelerated applicants must not be employed full-time. Regular pass-holder access and selected mode do not establish Student Pass approval. Data normally takes twelve months full-time with an explicit maximum 1.5 years; the other two specify twelve months. Do not spread the extension to siblings. Data's on-site/synchronous-online hybrid choice does not establish permission for entirely offshore completion.
+
+The [business brochure](https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_sbiz_brochure_digital.pdf?sfvrsn=b45ccb85_3), PDF pages 8, 12 and 14, corroborates separate structures: Data combines core/restricted/other choices within 60 CU; FinTech's smaller awards use CGPA 2.5 and its master 3.0; IP combines 30 compulsory and 30 elective CU. Do not sum elective maxima or exit awards, infer undergraduate GPA or copy English IP Business WIPO admission steps. Internship electives are study activity, not prior-work requirements. The FinTech page's English masterclass is an event, not programme language or an application window. Each programme FAQ states no credit exemptions.
+
+The [current checklist](https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27), PDF pages 1–3, confirms Data's work-history CV with optional reference contact and IP's CV/template instruction. The two programme pages explicitly require Chinese CVs. A dedicated FinTech CV requirement was not established in consulted readable text; do not infer that CV/additional materials are unnecessary or import EMBA letters/employer charts. No materials were generated, collected or sent.
+
+## Dates, fees and limitations
+
+January/July recurrence does not establish selected-year dates or portal state. Keep exact opening/year/deadline null. The [October fee table](https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80), PDF pages 2/3/7, gives separate Chinese pre-GST text quotes: Data/FinTech SGD 31,680 SC/PR and 38,016 Other Residents; IP 36,000 and 43,200. Do not assign neighbouring English subsidy figures, stack concessions or sum exit-award prices. Cohort/category/tax/funding and [ancillary costs](https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate) remain separate; personal fees stay null.
+
+PDF evidence is web text only, without visual diagram/fee-column verification or local download. The three curriculum endpoints returned 502/timeout responses; contents were not read or bypassed. No live portal or applicant action occurred. Programme-facing records remain English. Current snapshots: [81 maintenance units](source-review-queue-2026-10-28-suss-chbiz.md), [core comparisons](core-pilot-acceptance-2026-10-28-suss-chbiz.md).

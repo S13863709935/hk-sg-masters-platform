@@ -104,7 +104,7 @@ test('invalid dates, duplicate identities, missing programmes and unsupported CL
 });
 
 test('saved acceptance Markdown reproduces exactly and escapes synthetic names in table cells', () => {
-  const saved = readFileSync(new URL('docs/research/core-pilot-acceptance-2026-10-28-suss-msch.md', root), 'utf8').replaceAll('\r\n', '\n');
+  const saved = readFileSync(new URL('docs/research/core-pilot-acceptance-2026-10-28-suss-chbiz.md', root), 'utf8').replaceAll('\r\n', '\n');
   assert.equal(formatCoreAcceptance(report), saved);
   assert.equal(/[ \t]+$/m.test(saved), false);
   const p = fixture(); p.name = '<script>bad</script> | [bad]';

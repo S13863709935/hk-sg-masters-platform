@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeIds": [
+    "SG-SUSS-P026",
+    "SG-SUSS-P027",
+    "SG-SUSS-P028"
+  ],
+  "existingCatalogueIds": true,
+  "originalPilotUnchanged": true,
+  "shared": {
+    "faculty": "School of Business",
+    "internationalDirectoryClassifiesAllCoursework": true,
+    "teachingAndAssessmentLanguage": "Chinese",
+    "recognisedBachelorOrEquivalent": true,
+    "otherQualificationsWithRelevantExperienceCaseByCase": true,
+    "workAndSocialVolunteerServiceNotRequiredButAdvantage": true,
+    "noNumericUndergraduateGpaHonoursOrMandatoryMajorEstablished": true,
+    "possibleInterview": true,
+    "awardCu": 60,
+    "masterAwardCgpa": 3,
+    "awardGpaScaleNotEstablishedHere": true,
+    "noCreditExemptionsPerEachProgrammeFaq": true,
+    "cetAfterCandidatureExpiryDoesNotRestoreAward": true,
+    "regularMode": "Part-time",
+    "regularMinYears": 1.5,
+    "regularMaxYears": 4,
+    "regularCuPerSemesterMax": 20,
+    "regularGroups": [
+      "Singapore citizens",
+      "Singapore permanent residents",
+      "Work Pass or other long-term-pass holders"
+    ],
+    "acceleratedMode": "Full-time",
+    "acceleratedAverageCuPerSemester": 30,
+    "acceleratedLocalScPrNotInFullTimeEmployment": true,
+    "internationalStudentsMustSelectAccelerated": true,
+    "studentPassAndPathwaySuitabilityNeedAssessment": true,
+    "noResidencePassEmploymentOrNativeLanguageInferredFromProfile": true,
+    "hskLevel": 5,
+    "hskScoreAtLeast": 180,
+    "hskTriggerDiffersByProgramme": true,
+    "profileDoesNotRecordHskOrTriggerFacts": true,
+    "noGeneralEnglishHardRuleForChineseTaughtProgrammes": true,
+    "noAutomaticLanguageExemptionOrAdmission": true,
+    "recurringIntakes": [
+      "January",
+      "July"
+    ],
+    "exactCohortYearOpeningDeadlineUnconfirmed": true,
+    "livePortalChecked": false
+  },
+  "programmes": [
+    {
+      "programmeId": "SG-SUSS-P026",
+      "regularCode": "MSDAV",
+      "acceleratedCode": "MSDAV-A",
+      "hskTriggers": [
+        "First language is not Chinese",
+        "Degree awarded by a non-Chinese-medium institution"
+      ],
+      "ftMaximumYears": 1.5,
+      "noPriorDataOrProgrammingBackgroundRequired": true,
+      "hybridOnsiteOrSynchronousOnline": true,
+      "internshipCode": "MAV580",
+      "coreCu": 10,
+      "restrictedElectiveCuRange": [
+        35,
+        40
+      ],
+      "otherElectiveCuRange": [
+        10,
+        15
+      ],
+      "noExtraProjectCreditsEstablished": true,
+      "optionalReferenceContact": true,
+      "cvExplicit": true
+    },
+    {
+      "programmeId": "SG-SUSS-P027",
+      "regularCode": "MFTH",
+      "acceleratedCode": "MFTH-A",
+      "hskTriggers": [
+        "Degree awarded by a non-Chinese-medium institution"
+      ],
+      "ftMaximumYears": null,
+      "certificateCu": 15,
+      "diplomaCu": 30,
+      "certificateDiplomaAwardCgpa": 2.5,
+      "masterThroughoutStudyCgpa": 3,
+      "cvExplicit": null,
+      "noCvRequirementNotInferred": true,
+      "eventEnglishNotProgrammeLanguage": true,
+      "fintechElectiveCuRange": [
+        40,
+        60
+      ],
+      "otherElectiveCuRange": [
+        0,
+        20
+      ]
+    },
+    {
+      "programmeId": "SG-SUSS-P028",
+      "regularCode": "MSMIP",
+      "acceleratedCode": "MSMIP-A",
+      "hskTriggers": [
+        "First language is not Chinese",
+        "Undergraduate instruction was not Chinese"
+      ],
+      "ftMaximumYears": null,
+      "compulsoryCu": 30,
+      "electiveCu": 30,
+      "cvExplicit": true,
+      "noEnglishWipoRequirementsAutomaticallyInherited": true,
+      "noProfessionalRegistrationOrEmploymentGuarantee": true
+    }
+  ],
+  "fees": {
+    "tableAsOf": "2026-10-16",
+    "textQuotesBeforeGst": {
+      "SG-SUSS-P026": {
+        "scPr": 31680,
+        "otherResidents": 38016
+      },
+      "SG-SUSS-P027": {
+        "scPr": 31680,
+        "otherResidents": 38016
+      },
+      "SG-SUSS-P028": {
+        "scPr": 36000,
+        "otherResidents": 43200
+      }
+    },
+    "noNeighbouringEnglishAsLowAsPriceOrAutomaticSsgAssigned": true,
+    "noAutomaticScholarshipConcessionStackingOrExitAwardSum": true,
+    "applicationBeforeGst": {
+      "scPr": 60,
+      "others": 100
+    },
+    "annualMiscBeforeGst": {
+      "residents": 20,
+      "internationalStudentPass": 530
+    },
+    "personalCategoryCohortFundingTaxAndPdfColumnsUnresolved": true,
+    "personalTuition": null,
+    "personalApplicationFee": null
+  },
+  "sourceLimitations": {
+    "pdfTextOnly": true,
+    "pdfVisualInspectionCompleted": false,
+    "localPdfDownloaded": false,
+    "brochureRelevantPdfPages": [
+      8,
+      12,
+      14
+    ],
+    "feePdfPagesRead": [
+      2,
+      3,
+      7
+    ],
+    "checklistPagesRead": [
+      1,
+      2,
+      3
+    ],
+    "curriculumFetches": {
+      "MSDAV": "502 Bad Gateway",
+      "MFTH": "Timeout",
+      "MSMIP": "Timeout"
+    },
+    "curriculumContentsNotReadOrBypassed": true,
+    "financialTechnologyDedicatedChecklistHeadingNotEstablished": true,
+    "additionalMaterialsNotAssumedAbsent": true,
+    "sourceDiagramsNotVisuallyInspected": true,
+    "independentHumanReview": false,
+    "noAccessChecksBypassed": true
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-science-in-data-analytics-and-visualisation-chinese",
+      "purpose": "Programme-specific conditional HSK wording, qualifications, nonmandatory experience, FT/PT codes and eligibility, curriculum/award rules, credit FAQ and recurring intakes",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-financial-technology",
+      "purpose": "Programme-specific conditional HSK wording, qualifications, nonmandatory experience, FT/PT codes and eligibility, curriculum/award rules, credit FAQ and recurring intakes",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/msmip",
+      "purpose": "Programme-specific conditional HSK wording, qualifications, nonmandatory experience, FT/PT codes and eligibility, curriculum/award rules, credit FAQ and recurring intakes",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Three distinct Chinese coursework listings and valid Student Pass context, separate from English siblings and dual masters",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "Chinese-taught ELPR exception, general credentials and documents, category application fees and generic calendars not assigned to selected programme cycles",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "General identity/degree verification/photo; Data Analytics CV with optional reference, Strategic IP CV/template; MFTH dedicated heading not established in readable consulted text",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_sbiz_brochure_digital.pdf?sfvrsn=b45ccb85_3",
+      "purpose": "PDF pages 8,12,14: separate Chinese Data Analytics, Financial Technology and Strategic IP structures and paths, kept separate from adjacent English programmes; text only",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "General course-based billing and separate resident/international miscellaneous fees",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "PDF pages 2,3,7: separate Chinese master category text quotes, SGD/pre-GST/as-of notes, no visual-column or personal funding approval",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-28-suss-msch.md": "9f5e428fde15f6ffeadf4a828ffc4f563e2d5e5ad8dee87a41def507a47fb6cc",
+      "docs/research/core-pilot-acceptance-2026-10-28-suss-msch.md": "52f039a2ccde6ca555772fa5433bab20b12e142ecaabb02b506741b5500ba0d3"
+    }
+  }
+}

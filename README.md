@@ -6,6 +6,8 @@
 
 ## 当前状态
 
+2026-10-28 同日 SUSS 中文商科三项目首查：接入数据分析、金融科技和知识产权策略三个既有编号的全日／非全日选择。HSK 的母语、院校语言及本科授课语言条件分别保留；零工作经验不判差距，同等资格仍由学校审核。数据分析最长一年半、金融科技毕业等级及知识产权课程边界不混用，材料和个人费用仍待确认。部分项目页记录为 58，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-chbiz-first-check-2026-10-28.md)、[81 单元快照](docs/research/source-review-queue-2026-10-28-suss-chbiz.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-chbiz.md)。原 55 个对象与历史快照保留，本轮仅本地保存。
+
 2026-10-28 同日 SUSS 中文管理学两项目首查：沿用既有普通／教育方向编号，分别接入普通全日／非全日与教育方向全日制选择。工作及志愿经历为优势而非门槛；HSK 条件保留母语与本科授课语言两个前提，不套用英语成绩或毕业 GPA。普通项目的费用、学分豁免与居留规则不自动套给教育方向。部分项目页记录为 55，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-msch-first-check-2026-10-28.md)、[78 单元快照](docs/research/source-review-queue-2026-10-28-suss-msch.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-msch.md)。原 53 个对象与历史快照保留，本轮仅本地保存。
 
 2026-10-28 同日 SUSS EMBA 首查：接入高级工商管理硕士，比较八年工作总年数，三年管理岗位经验单独待确认，不合计成十一年；保留同等资格、杰出职业经历个案及中文语言途径。推荐信、公司资料和博士研究计划分开，旧宣传册日期与当前公开区间不合并，个人学费和具体批次仍待确认。部分项目页记录为 53，目录 873／默认 870、独立人工复核与完整要求 0 不变。见 [依据](docs/research/suss-emba-first-check-2026-10-28.md)、[76 单元快照](docs/research/source-review-queue-2026-10-28-suss-emba.md) 与 [核心重跑](docs/research/core-pilot-acceptance-2026-10-28-suss-emba.md)。原 52 个对象与历史快照保留，本轮仅本地保存。

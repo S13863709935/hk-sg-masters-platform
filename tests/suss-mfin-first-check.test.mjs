@@ -31,7 +31,10 @@ test('existing English MFIN gains partial direct-entry evidence without merging 
   assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null); assert.equal(obs.identity.directMasterEntryExplicit, true);
   assert.equal(obs.identity.credits, 60); assert.equal(obs.identity.certificateDiplomaNotRequiredFirst, true);
   assert.equal(batch.programmes.filter(x => x.id === p.id).length, 1); assert.equal(batch.pilotProgrammeIds.includes(p.id), false); assert.equal(batch.pilotProgrammeIds.length, 20);
-  assert.equal(store.get('SG-SUSS-P027').verification, 'catalogue_seed'); assert.equal(/\p{Script=Han}/u.test(JSON.stringify(p)), false);
+  const chinese = store.get('SG-SUSS-P027'); assert.equal(chinese.verification, 'programme_page_checked');
+  assert.notEqual(chinese.id, p.id); assert.notEqual(chinese.officialUrl, p.officialUrl); assert.equal(chinese.award, 'MSc');
+  assert.equal(chinese.rules.some(r => r.labelEn === 'Programme-specific Chinese proficiency and HSK evidence'), true);
+  assert.equal(chinese.rules.some(r => r.kind === 'major'), false); assert.deepEqual(store.get(p.id).rules, p.rules); assert.equal(/\p{Script=Han}/u.test(JSON.stringify(p)), false);
 });
 
 test('published finance/related-field examples compare directly while other related qualifications remain unresolved', () => {
@@ -113,7 +116,7 @@ test('prior MDMK archives remain immutable and Finance adds no actionable cutoff
     'core-pilot-acceptance-2026-10-27-suss-mdmk.md': 'd247c320e51acd83c116c427534c719e42ef4ef811f7b429c30f8d8e471ddab7'
   };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash('sha256').update(readFileSync(new URL('docs/research/' + file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 55); assert.equal(queue.counts.reviewUnits, 78);
+  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 58); assert.equal(queue.counts.reviewUnits, 81);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -122,12 +125,12 @@ test('first MFIN source migration preserves every other record and old directory
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== p.id) }));
     db = new CatalogueStore(path, { ...options, checkedPath }); const previous = db.all().filter(x => x.id !== p.id), directory = db.get(p.id).directoryListing;
-    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 54); db.close(); db = null;
+    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 57); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, directory); assert.deepEqual(db.all().filter(x => x.id !== p.id), previous);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 55); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 58); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -151,7 +154,7 @@ test('real API/save/export retains statistics uncertainty and ordinary Finance p
     assert.equal(exported.offerings[0].tuition, null); assert.equal(exported.offerings[0].deadline, null); assert.equal(exported.offerings[0].mode, null);
     assert.match(exported.evidence.notesEn, /preparatory statistics course/); assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 55);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 58);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 5); assert.equal(JSON.stringify(store.all()), before);
 });
