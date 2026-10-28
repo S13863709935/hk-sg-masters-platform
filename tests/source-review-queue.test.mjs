@@ -8,7 +8,7 @@ import { createHash } from 'node:crypto';
 import { buildSourceReviewQueue, loadRepositoryReviewQueue, formatSourceReviewMarkdown, parseReviewArgs } from '../scripts/source-review-queue.mjs';
 import { offeringFingerprint } from '../server/applicants.mjs';
 
-const root = new URL('../', import.meta.url), day = '2026-10-24', currentDay = '2026-10-27', report = loadRepositoryReviewQueue(currentDay);
+const root = new URL('../', import.meta.url), day = '2026-10-24', currentDay = '2026-10-28', report = loadRepositoryReviewQueue(currentDay);
 const script = fileURLToPath(new URL('scripts/source-review-queue.mjs', root));
 const read = p => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
 const source = 'https://www.nus.edu.sg/example';
@@ -27,12 +27,12 @@ const unit = (q = report, id = 'SG-NUS-P032', kind = 'programme') => q.units.fin
 
 test('review units preserve separate programme, route and category counts without inflating catalogue coverage', () => {
   assert.deepEqual(report.counts, {
-    catalogueRecords: 873, programmePageRecords: 44, remainingCatalogueLeads: 829,
-    routeRecords: 5, applicantContexts: 18, applicantCategories: 38, reviewUnits: 67,
-    pendingHumanReview: 67, reviewRecordedInSource: 0, nearCutoffUnits: 2, staleApplicantContexts: 0
+    catalogueRecords: 873, programmePageRecords: 45, remainingCatalogueLeads: 828,
+    routeRecords: 5, applicantContexts: 18, applicantCategories: 38, reviewUnits: 68,
+    pendingHumanReview: 68, reviewRecordedInSource: 0, nearCutoffUnits: 2, staleApplicantContexts: 0
   });
-  assert.equal(report.units.filter(u => u.kind === 'programme').length, 44);
-  assert.equal(new Set(report.units.map(u => u.key)).size, 67);
+  assert.equal(report.units.filter(u => u.kind === 'programme').length, 45);
+  assert.equal(new Set(report.units.map(u => u.key)).size, 68);
   assert.equal(report.livePortalChecked, false); assert.equal(report.reviewApprovalGranted, false);
   assert.ok(report.units.every(u => u.status === 'pending_human_review' && !u.sourceReviewRecorded));
 });
@@ -194,9 +194,9 @@ test('real CLI works outside the repository without modifying source files or op
 });
 
 test('committed human checklist exactly reproduces its snapshot and semantic source fingerprints', () => {
-  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-27-suss-matsl.md', root), 'utf8').replaceAll('\r\n', '\n'));
+  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-28-suss-mgss.md', root), 'utf8').replaceAll('\r\n', '\n'));
   assert.equal(Object.keys(report.inputFingerprints).length, 8);
   for (const h of Object.values(report.inputFingerprints)) assert.match(h, /^[a-f0-9]{64}$/);
   const markdown = formatSourceReviewMarkdown(report);
-  assert.match(markdown, /不是 67 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
+  assert.match(markdown, /不是 68 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
 });

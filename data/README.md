@@ -1,6 +1,10 @@
 # 现有课程数据
 
-## 当前本地状态（2026-10-27）
+## 当前本地状态（2026-10-28）
+
+2026-10-28 SUSS MGSS 首查：部分项目页记录为 45，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。毕业 GPA 2.5/5 与 3.0、项目 5 与 10 学分的官方差异保留待确认，不套作本科门槛。当前材料、条件式背书及国际生准证分开核对。见 [来源](../docs/research/suss-mgss-first-check-2026-10-28.md)、[68 单元快照](../docs/research/source-review-queue-2026-10-28-suss-mgss.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-28-suss-mgss.md)。批次日期推进至实际 28 日，此前 44 个项目对象和日期保留。
+
+## 2026-10-27 历史批次
 
 同日 SUSS MATSL 首查：部分项目页记录为 44，目录 873／默认 870、方向 5、分类证据 18 组／38 类别、独立人工复核与完整要求 0 不变。独立 TESOL 硕士与幼教 TESOL 方向不合并；专业比较、两层英语评估、国际生加速路径及 CV 材料保持各自条件，毕业标准不作入学线。见 [来源](../docs/research/suss-matsl-first-check-2026-10-27.md)、[67 单元快照](../docs/research/source-review-queue-2026-10-27-suss-matsl.md) 与 [核心重跑](../docs/research/core-pilot-acceptance-2026-10-27-suss-matsl.md)。原 43 个对象和历史记录不改写；以下为较早批次。
 

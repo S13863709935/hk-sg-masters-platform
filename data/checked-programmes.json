@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-27",
+  "checkedOn": "2026-10-28",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -8066,6 +8066,210 @@
         }
       ],
       "researchBatch": "suss-matsl-first-check-2026-10-27"
+    },
+    {
+      "id": "SG-SUSS-P005",
+      "universityId": "SG-SUSS",
+      "name": "Master of Global Security and Strategy",
+      "award": "MGSS",
+      "area": "Social Sciences",
+      "faculty": "School of Humanities and Behavioural Sciences",
+      "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; conflicting published award/credit descriptions, admission/progression position, cohort and fee applicability unresolved",
+      "lastChecked": "2026-10-28",
+      "academicYear": "Intake year not confirmed",
+      "admissionRoute": "unconfirmed",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One coursework MGSS; the three GDGSS specialisation pathways and smaller awards are not additional masters. Published university descriptions conflict: the programme page gives award CGPA 2.5/5 and GSS588 at 5 CU, while the brochure describes a 60-CU master, award CGPA 3.0 and GSS588 at 10 CU. Current structure, project credits and direct/stacked admission position need confirmation. Neither GPA is treated as undergraduate entry GPA. Career examples do not impose government employment, a clinical licence or a closed major list. Organisation endorsement applies only where relevant.",
+      "offerings": [
+        {
+          "id": "SG-SUSS-P005-MGSS",
+          "mode": null,
+          "duration": null,
+          "intake": "January / July (recurring; applicable cohort year unconfirmed)",
+          "academicYear": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "deadlineNote": "January/July recur; early-application advice does not prove live opening. No programme-specific cohort year, exact opening or close is established. General university 2027 dates have programme caveats and are not assigned automatically. Admission/progression and current study structure need confirmation. No live portal check.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "2026/2027 Global Security and Strategy master table text before GST: SC/PR SGD 31,680; Other Residents 38,016. No subsidised amount is populated in this master row; generic funding notes do not establish MGSS eligibility or an award. PDF columns and personal category/cohort/credit position remain unconfirmed. Do not add certificate/diploma prices as another full-master charge or automatically deduct subsidies. General application fees: SC/PR 60, other applicants 100 before GST. Annual miscellaneous fees: resident categories 20 or international Student Pass students 530 before GST; course billing and extras separate. The general SGD 2,000 acceptance deposit includes GST and credits first-semester tuition, not extra tuition."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Undergraduate degree or university-accepted equivalent",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification recognition and admission position",
+          "noteZh": "",
+          "noteEn": "The general criteria require a recognised undergraduate qualification or university-accepted equivalent. No numeric undergraduate entry GPA, closed major list or universal work-year minimum is established. Confirm direct or stacked admission position and recognition with SUSS; the curriculum narrative does not prove that every applicant must first complete a diploma.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-page award and credit wording needs reconciliation",
+          "noteZh": "",
+          "noteEn": "The programme page states graduate CGPA 2.5 out of 5, labels a compulsory 45-CU section, lists GSS588 at 5 CU and describes stacked/alternative course options. Overlapping course baskets must not be summed blindly. Confirm the applicable structure and progression with SUSS; these published award/course figures are not undergraduate admission gates.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Brochure award and project structure needs reconciliation",
+          "noteZh": "",
+          "noteEn": "The current school brochure describes a 60-CU MGSS with graduation CGPA 3.0 and a 10-CU GSS588 project. These differ from the programme-page wording. No single resolved credit/GPA version is selected, and neighbouring research-master thesis requirements are not imported into MGSS.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "CV, statement and referee process",
+          "noteZh": "",
+          "noteEn": "The current MGSS checklist requires a CV using the provided template, a one-page statement of interest/reasons and two reference letters submitted directly by the referees to Graduate Studies. Research-proposal text under the adjacent research programme is not an MGSS requirement. Documents and referee completion need university review; the platform does not collect them or contact referees.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Academic documents and individual admission review",
+          "noteZh": "",
+          "noteEn": "Academic certificates/transcripts are required, and the programme says incomplete applications will not be considered. SUSS assesses recognised qualifications, complete materials and any prescribed evaluation. Referee wording about professional/clinical skills is not converted into a clinical-licence requirement. The platform does not submit applications or verify private credentials.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "International eligibility and Student Pass",
+          "noteZh": "",
+          "noteEn": "The programme explicitly includes citizens, PRs and international applicants. International students need valid Student Pass arrangements. Nationality, location or a fee category does not prove pass approval; regular/accelerated restrictions from another SUSS programme are not assigned here.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and alternative evidence",
+          "noteZh": "",
+          "noteEn": "General ELPR depends on undergraduate university medium and instruction language. Alternatives include IELTS Academic at least 6.5, internet TOEFL 85, PTE 58, C1 180 within two years at application, or MUET Band 4 within five years. Waiver acceptance and TOEFL version need confirmation; no automatic waiver, new-scale conversion or universal IELTS expiry is inferred. MATSL-specific school assessment/strict-score rules are not imported.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Organisation endorsement is conditional",
+          "noteZh": "",
+          "noteEn": "An organisation endorsement is requested only if applicable. This does not establish a universal employer, current job or minimum employment period. The platform work-year field cannot verify endorsement relevance or acceptance.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Career examples and study context",
+          "noteZh": "",
+          "noteEn": "Government, security, private-sector, non-profit and research roles describe potential audiences/careers, not mandatory occupations, citizenship or undergraduate majors. Weekend afternoons and mixed online/face-to-face modules do not establish FT/PT mode or a fully remote entitlement. CET continuation after exceeding candidature cannot restore the award.",
+          "mandatory": false,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "Recurring intakes and fee-table year do not identify a specific admission cohort.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "No closed required-major list established; qualification and admission/progression suitability need assessment.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric undergraduate entry GPA established. Conflicting graduate award figures 2.5/5 and 3.0 are not entry minima.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Conditional general ELPR, waiver acceptance and test-version applicability remain unresolved.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Text quote needs category, cohort/credit and PDF-column confirmation; no programme subsidy assumed.",
+          "sourceUrl": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "No programme-specific exact opening or closing date confirmed.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy",
+          "purpose": "MGSS identity, published structure/award/project wording, document conditions, international inclusion and recurring intakes",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+          "purpose": "Explicit coursework classification under SHBS and international Student Pass context",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+          "purpose": "Recognised qualification, conditional general ELPR and credited deposit",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+          "purpose": "Current document checklist link, general calendar caveats and category application fees",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+          "purpose": "Page-4 MGSS-specific CV, one-page statement and two direct referee letters; adjacent research requirements not imported; text only",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5",
+          "purpose": "Page-7 MGSS structure text: 60 CU, award CGPA 3.0 and GSS588 10 CU conflict with programme-page wording; no visual check",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Course billing, miscellaneous categories and extras",
+          "checkedOn": "2026-10-28"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "Page-4 Global Security master text quote and page-7 tax/eligibility/date notes; no visual column verification",
+          "checkedOn": "2026-10-28"
+        }
+      ],
+      "researchBatch": "suss-mgss-first-check-2026-10-28"
     }
   ]
 }

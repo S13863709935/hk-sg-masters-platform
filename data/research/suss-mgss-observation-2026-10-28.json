@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "previousBatchCheckedOn": "2026-10-27",
+  "programmeId": "SG-SUSS-P005",
+  "existingCatalogueId": true,
+  "originalPilotUnchanged": true,
+  "identity": {
+    "name": "Master of Global Security and Strategy",
+    "award": "MGSS",
+    "faculty": "School of Humanities and Behavioural Sciences",
+    "internationalDirectoryClassifiesCoursework": true,
+    "gdgssPathways": [
+      "Radicalisation and Violent Extremism",
+      "Digital Space and Cybersecurity",
+      "Crisis Management and Recovery"
+    ],
+    "notThreeExtraMasters": true,
+    "certificateDiplomaAndOtherStackedMastersNotMerged": true,
+    "brochureMasterCu": 60,
+    "resolvedMasterCu": null
+  },
+  "publicationConflicts": {
+    "programmePage": {
+      "graduationCgpa": 2.5,
+      "cgpaScale": 5,
+      "compulsoryHeaderCu": 45,
+      "gss588Cu": 5,
+      "describesTwoGdgssPathwaysOrFiveMgssCourses": true
+    },
+    "brochure": {
+      "masterCu": 60,
+      "graduationCgpa": 3,
+      "cgpaScaleExplicitlyConfirmed": false,
+      "gss588Cu": 10
+    },
+    "awardGpaConflictUnresolved": true,
+    "projectCreditConflictUnresolved": true,
+    "overlappingBasketCoursesNotAutomaticallySummed": true,
+    "neitherGpaUsedAsUndergraduateEntryMinimum": true,
+    "directVsStackedAdmissionPositionUnresolved": true,
+    "diplomaNotAutomaticallyDeclaredUniversalPrerequisite": true,
+    "neighbouringMressThesisNotInherited": true
+  },
+  "requirements": {
+    "recognisedUndergraduateDegreeOrAcceptedEquivalent": true,
+    "closedMajorWhitelist": null,
+    "numericUndergraduateEntryGpa": null,
+    "universalWorkYearMinimum": null,
+    "careerExamplesNotOccupationalOrCitizenshipGates": true,
+    "academicCertificatesAndTranscriptsRequired": true,
+    "cvRequired": true,
+    "cvTemplateProvided": true,
+    "personalStatementMaximumPages": 1,
+    "referenceLetters": 2,
+    "refereesSubmitDirectToGraduateStudies": true,
+    "organisationEndorsementIfApplicable": true,
+    "endorsementNotUniversalEmploymentRequirement": true,
+    "professionalClinicalRefereeWordingNotClinicalLicenceGate": true,
+    "incompleteApplicationsNotConsidered": true,
+    "adjacentResearchProposalNotMgssRequirement": true,
+    "platformDoesNotCollectOrSubmitDocumentsOrContactReferees": true,
+    "english": {
+      "conditionalUniversityMediumAndInstruction": true,
+      "ieltsAcademicMin": 6.5,
+      "internetToeflUnversionedMin": 85,
+      "pteAcademicMin": 58,
+      "c1Advanced": {
+        "score": 180,
+        "yearsAtApplication": 2
+      },
+      "muet": {
+        "band": 4,
+        "yearsAtApplication": 5
+      },
+      "automaticWaiver": false,
+      "newToeflScaleNotConverted": true,
+      "universalIeltsExpiryNotInferred": true,
+      "matslAssessmentAndStrictScoresNotInherited": true
+    }
+  },
+  "eligibility": {
+    "citizensPrAndInternationalApplicantsIncluded": true,
+    "validStudentPassForInternationalStudents": true,
+    "nationalityOrLocationNotPassApproval": true,
+    "regularAcceleratedRestrictionsNotInherited": true
+  },
+  "study": {
+    "weekendAfternoonsTypical": true,
+    "blendedLearningNotEntirelyRemoteEntitlement": true,
+    "formalFtPtMode": null,
+    "durationYears": null,
+    "cetAfterExceededCandidatureDoesNotRestoreAward": true,
+    "courseProjectNotAutomaticResearchEntryProposal": true
+  },
+  "cycle": {
+    "recurringIntakes": [
+      "January",
+      "July"
+    ],
+    "specificYear": null,
+    "exactOpening": null,
+    "exactDeadline": null,
+    "applyEarlyNotLiveOpening": true,
+    "generalCalendarNotAutomaticallyAssigned": true,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "tableTitle": "Year 2026/2027 Non-Subsidised Programme Fees",
+    "tableAsOf": "2026-10-16",
+    "masterTextQuote": {
+      "scPr": 31680,
+      "otherResidents": 38016,
+      "subsidisedAmountPublishedInMasterRow": null
+    },
+    "currency": "SGD",
+    "excludesGst": true,
+    "pdfColumnsNotVisuallyVerified": true,
+    "noAutomaticDiplomaPriceAdditionSubsidyOrPersonalCategory": true,
+    "genericFundingNoteNotProgrammeSubsidyEvidence": true,
+    "generalApplicationBeforeGst": {
+      "scPr": 60,
+      "otherApplicants": 100
+    },
+    "annualMiscellaneousBeforeGst": {
+      "resident": 20,
+      "internationalStudentPass": 530
+    },
+    "acceptanceDeposit": {
+      "sgd": 2000,
+      "includesGst": true,
+      "creditsFirstSemesterTuition": true,
+      "notExtraTuition": true
+    },
+    "offeringTuition": null,
+    "offeringApplicationFee": null
+  },
+  "sourceLimitations": {
+    "linkedCurriculumPlanFetchFailed": true,
+    "brochureRelevantPage": 7,
+    "checklistRelevantPage": 4,
+    "feeQuotePage": 4,
+    "feeNotesPage": 7,
+    "pdfTextOnly": true,
+    "localPdfDownloaded": false,
+    "pdfVisualInspectionCompleted": false,
+    "noAccessChecksBypassed": true,
+    "independentHumanReview": false
+  },
+  "sources": [
+    {
+      "url": "https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy",
+      "purpose": "MGSS identity, published structure/award/project wording, document conditions, international inclusion and recurring intakes",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/international-students/international-graduate-students",
+      "purpose": "Explicit coursework classification under SHBS and international Student Pass context",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
+      "purpose": "Recognised qualification, conditional general ELPR and credited deposit",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/application-process/how-to-apply/graduate-application-guide",
+      "purpose": "Current document checklist link, general calendar caveats and category application fees",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/documentchecklistforeappsgraduatestudies-v9.pdf?sfvrsn=815695b7_27",
+      "purpose": "Page-4 MGSS-specific CV, one-page statement and two direct referee letters; adjacent research requirements not imported; text only",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/brochures/grad_shbs_brochure_digital.pdf?sfvrsn=87312144_5",
+      "purpose": "Page-7 MGSS structure text: 60 CU, award CGPA 3.0 and GSS588 10 CU conflict with programme-page wording; no visual check",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+      "purpose": "Course billing, miscellaneous categories and extras",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+      "purpose": "Page-4 Global Security master text quote and page-7 tax/eligibility/date notes; no visual column verification",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "preservation": {
+    "previousSnapshotHashes": {
+      "docs/research/source-review-queue-2026-10-27-suss-matsl.md": "702504f264a3cbd0e8f9f1ac882fdb9c537fc250b2d53cdeeffd3cf63231173d",
+      "docs/research/core-pilot-acceptance-2026-10-27-suss-matsl.md": "d231f84df689bc900d801c87c2d7a016db1168f801c18cfcfed1552662914692"
+    }
+  }
+}
