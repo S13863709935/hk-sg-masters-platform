@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "programmeId": "SG-SMU-P013",
+  "sources": [
+    {
+      "url": "https://masters.smu.edu.sg/programme/master-of-business-administration",
+      "purpose": "MBA work/test/material requirements, January/August modes, fee cohorts and conflicting schedule versions",
+      "checkedOn": "2026-10-28"
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programme/MBA/Apply_now",
+      "purpose": "Public recurring deadlines disagree with main-page blocks; no current year or live portal established",
+      "checkedOn": "2026-10-28"
+    }
+  ],
+  "existingCatalogueId": true,
+  "offeringIds": [
+    "SG-SMU-P013-JAN2027-FT",
+    "SG-SMU-P013-JAN2027-PT",
+    "SG-SMU-P013-AUG2027-FT",
+    "SG-SMU-P013-AUG2027-PT"
+  ],
+  "newCatalogueProgrammes": 0,
+  "newPartialProgramme": 1,
+  "work": {
+    "postDegreeYears": 2,
+    "fullTimeRequired": true,
+    "strictMinimum": true,
+    "aggregateYearsOnlyNecessaryLowerBound": true,
+    "qualifyingChronologyNotCaptured": true,
+    "noCfaWorkWaiverImported": true
+  },
+  "academic": {
+    "anyUndergraduateField": true,
+    "universalEntryGpa": null,
+    "noGmatGreMinimumPublishedHere": true,
+    "alumniTestSubstitutionNotEntryGpa": true,
+    "allTestFaqVsAlumniSubstituteDifferenceRetained": true
+  },
+  "language": {
+    "conditionalTeachingLanguageEvidence": true,
+    "undergraduateVsPostgraduateWordingNeedsConfirmation": true,
+    "numericMinimum": null,
+    "validityAnchor": null,
+    "noSiblingThresholdsImported": true
+  },
+  "dateConflict": {
+    "headerJanuaryFinal": "30 October",
+    "mainJanuaryFinal": "30 November",
+    "landingJanuaryFinal": "31 October",
+    "headerAugustFinal": "30 May",
+    "mainAndLandingAugustFinal": "31 May",
+    "earlierJanuary": [
+      "15 March",
+      "15 July"
+    ],
+    "earlierAugust": [
+      "30 November",
+      "28 February"
+    ],
+    "applicableDeadlineYearsConfirmed": false,
+    "opening": null,
+    "activeRoundsAdded": false,
+    "activeDeadlinesAdded": false,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "january2027": {
+      "registrationInclusiveGst": {
+        "scPr": 400,
+        "international": 500
+      },
+      "advanceCredited": 7000,
+      "personalTuition": null
+    },
+    "august2027": {
+      "indicativeTuitionInclusiveGst": 82840,
+      "advanceCredited": 10000,
+      "annualMiscExcludingGst": {
+        "scPr": 400,
+        "international": 480
+      },
+      "duplicateMiscInclusiveGstLabels": true,
+      "personalTuition": null
+    },
+    "applicationInclusiveGst": 100,
+    "discountsAtMostOneHighestEligible": true,
+    "discountBeforeGst": true,
+    "noAutomaticDiscountOrFunding": true
+  },
+  "study": {
+    "preStudyAssessments": 5,
+    "preStudyModules": 3,
+    "preStudyNotEntryQualification": true,
+    "physicalAttendance": true,
+    "internshipOptionalVsCompulsoryWordingRetained": true,
+    "partTimeJanuaryTimetableDifferenceRetained": true,
+    "electiveThemesNotExtraDegrees": true
+  },
+  "materials": {
+    "statements": 2,
+    "wordsEach": [
+      500,
+      600
+    ],
+    "referees": 2,
+    "resumeLinkedInListed": true,
+    "olderFaqPhotosAndPaymentMethodsNotUniversalised": true
+  },
+  "sourceLimits": {
+    "htmlOnly": true,
+    "brochureAndSmuAtFactsheetNotRead": true,
+    "applicationAccountEntered": false,
+    "independentHumanReview": false
+  },
+  "preservation": {
+    "previousSnapshotHashes": {
+      "data/research/smu-llm-observation-2026-10-28.json": "c084c82e1d399f64024ba2876b9559920241af42178fedf60da3bbcbb0f1d272",
+      "docs/research/smu-llm-first-check-2026-10-28.md": "cba132047245d7771002d2b3ff69243f504af4d10fb3c4619e02d1205c23dc14",
+      "docs/research/source-review-queue-2026-10-28-smu-llm.md": "56b6c95762b543bbf4c2df206ba5a31795f9b7dce963cfbebf05f18518c9ca34",
+      "docs/research/core-pilot-acceptance-2026-10-28-smu-llm.md": "c603a2ca4d867c382b6af41424b7581d2be77d59f5157df0e1706417b1c823a5"
+    }
+  }
+}

@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-28）
 
+同日 MBA 批次后部分项目页记录 71、路径 4 组／11 条、分类上下文 18 组／38 类别，合计 100 个维护单元。原 70 个项目及日期、七份其他来源层保持不变。MBA 严格工作要求、校友考试替代、材料和费用按用途保存；一月／八月截止冲突且没有当期年份，活动日期留空，临近截止仍为 4。见 [依据](../docs/research/smu-mba-first-check-2026-10-28.md)、[维护快照](../docs/research/source-review-queue-2026-10-28-smu-mba.md)、[核心验收](../docs/research/core-pilot-acceptance-2026-10-28-smu-mba.md)。
+
 同日 LLM 批次后部分项目页记录 70、路径 4 组／11 条、分类上下文 18 组／38 类别，合计 99 个维护单元。仅追加 LLM 分组和四个独立路径；原 69 个项目、578 条目录分组、7 条路径及日期保留。司法 extended duration 不硬归类兼读，双学位当前周期和范围待确认；语言豁免／有效期、法学经验、个人费用继续待确认。见 [依据](../docs/research/smu-llm-first-check-2026-10-28.md)、[维护快照](../docs/research/source-review-queue-2026-10-28-smu-llm.md)、[核心验收](../docs/research/core-pilot-acceptance-2026-10-28-smu-llm.md)。
 
 同日 MQF 批次后部分项目页记录 69、路径 3 组／7 条、分类 18 组选项／38 类别，维护单元 94（不是 94 个项目）。仅追加 MQF 组与独立路径快照，原 68 个项目、577 条目录分组、5 条路径和旧日期保留。新加坡路径两种学制；国际路径仅全日制，伦敦联合培养范围待确认；语言冲突保持手动核查，个人学费与确切申请日为空。见 [依据](../docs/research/smu-mqf-first-check-2026-10-28.md)、[维护快照](../docs/research/source-review-queue-2026-10-28-smu-mqf.md)、[核心验收](../docs/research/core-pilot-acceptance-2026-10-28-smu-mqf.md)。
