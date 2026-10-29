@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-29",
+  "programmeId": "SG-SMU-P012",
+  "sources": [
+    {
+      "url": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration",
+      "purpose": "EMBA degree exception, professional experience, current opening/final, modular delivery and mixed fee/calendar versions",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programme/EMBA/Apply_Now",
+      "purpose": "Explicit August 2027 final 31 May 2027 and rolling-admissions condition; no account entered",
+      "checkedOn": "2026-10-29"
+    }
+  ],
+  "existingCatalogueId": true,
+  "newPartialProgramme": 1,
+  "newCatalogueProgrammes": 0,
+  "offeringId": "SG-SMU-P012-AUG2027-MODULAR",
+  "degree": {
+    "normalBachelorAnyField": true,
+    "notableCareerWithoutBachelorCaseByCase": true,
+    "unconditionalBachelorGateAdded": false,
+    "universalNumericGpa": null
+  },
+  "work": {
+    "headerAndEligibilityMinimumProfessionalYears": 10,
+    "seniorManagementPreferred": true,
+    "belowTenFaqStronglyRecommendsTen": true,
+    "noAutomaticWaiverOrProfileApproval": true,
+    "automaticExperienceRuleAdded": false
+  },
+  "tests": {
+    "alternatives": [
+      "GMAT",
+      "GRE",
+      "SMU Admission Test"
+    ],
+    "smuAtMayReplaceGmatNotAllTestsWaived": true,
+    "numericMinimum": null,
+    "siblingAlumniSubstitutionImported": false
+  },
+  "language": {
+    "numericMinimum": null,
+    "exemption": null,
+    "validityAnchor": null,
+    "absenceNotNoRequirement": true
+  },
+  "materials": {
+    "essays": 1,
+    "words": [
+      300,
+      500
+    ],
+    "chooseOneOfTwoTopics": true,
+    "refereeDetails": 2,
+    "noMbaLinkedInOrTwoEssayRuleImported": true,
+    "noAutomaticRefereeEmailClaim": true
+  },
+  "delivery": {
+    "residentialSegments": 8,
+    "headerMonths": 15,
+    "possibleCompletionMonths": 12,
+    "formalMode": null,
+    "currentDisplayedCalendarYears": [
+      2026,
+      2027
+    ],
+    "currentDisplayedPartners": [
+      "Cornell University",
+      "SDA Bocconi School of Management",
+      "Shanghai Jiao Tong University"
+    ],
+    "olderCalendarYears": [
+      2023,
+      2024
+    ],
+    "olderPartnersNotReused": true,
+    "calendarNotRelabelledForAugust2027": true,
+    "noExtraPartnerMasterDegrees": true
+  },
+  "cycle": {
+    "intake": "August 2027",
+    "opening": "2026-09-01",
+    "deadline": "2027-05-31",
+    "olderUndatedFaqRounds": [
+      "30 November",
+      "30 March",
+      "30 May"
+    ],
+    "exactCutoffTime": null,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "headerAugust2027IndicativeInclusiveGst": 126440,
+    "bodyHeadingStillAy2026": true,
+    "faqOlderInclusiveGst": 119900,
+    "oldAdvance": 12000,
+    "ay2027Deposit": 15000,
+    "depositExcludingGstFootnoteNeedsConfirmation": true,
+    "depositCreditedNotExtraTuition": true,
+    "annualMiscExcludingGst": {
+      "scPr": 400,
+      "international": 480
+    },
+    "oldRegistrationInclusiveGst": {
+      "scPr": 400,
+      "international": 500
+    },
+    "applicationInclusiveGst": 100,
+    "smuAtPerAttemptIfUsed": 125,
+    "overseasAccommodationStatedIncluded": true,
+    "personalTuition": null
+  },
+  "sourceLimits": {
+    "htmlOnly": true,
+    "brochureAndSmuAtFactsheetNotRead": true,
+    "applicationAccountEntered": false,
+    "immigrationRulesNotIndependentlyVerified": true,
+    "independentHumanReview": false
+  },
+  "preservation": {
+    "previousSnapshotHashes": {
+      "data/research/smu-mba-observation-2026-10-28.json": "7806e082cecf4baf6bf00d9ac2c868c2e7ee3b3193e32f2968704e63ea55d5c8",
+      "docs/research/smu-mba-first-check-2026-10-28.md": "fd6733c4613bba1f6024630f251dbd8e46285bdd7010b4aa86dce839c9370b7c",
+      "docs/research/source-review-queue-2026-10-28-smu-mba.md": "dcb75487c74d9e2bc1d85a099838d068e1f5462d72284900a103fbefab666fec",
+      "docs/research/core-pilot-acceptance-2026-10-28-smu-mba.md": "75d3cea16735d31b7fe88f46b55cc5534d9c6cde2633f402f18008d290521d59"
+    }
+  }
+}

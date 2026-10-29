@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-28",
+  "checkedOn": "2026-10-29",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -13395,6 +13395,174 @@
         }
       },
       "researchBatch": "smu-mba-first-check-2026-10-28"
+    },
+    {
+      "id": "SG-SMU-P012",
+      "universityId": "SG-SMU",
+      "name": "Executive Master of Business Administration",
+      "award": "EMBA",
+      "area": "Business and Management",
+      "faculty": null,
+      "officialUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial EMBA observation; degree exception, work interpretation, formal mode and personal fees unresolved",
+      "lastChecked": "2026-10-29",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "One modular SMU EMBA for senior executives, separate from ordinary MBA and Chinese Executive MBA. Degree-exception and professional-work evidence remain assessed conditions. Older academic calendars, fee cohorts and undated FAQ rounds are not the current intake schedule.",
+      "offerings": [
+        {
+          "id": "SG-SMU-P012-AUG2027-MODULAR",
+          "mode": null,
+          "duration": "15 months with flexibility to complete in one year; eight residential segments, formal full/part-time mode unconfirmed",
+          "intake": "August 2027",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "deadlineNote": "August 2027: main admissions table explicitly opens 1 September 2026; current header and public landing explicitly close 31 May 2027. The older FAQ has undated rounds ending 30 May (earlier 30 November/30 March); these are retained as a version difference, not dated current rounds. No exact cutoff time is established. Recorded-date comparisons do not verify live portal capacity, extensions or eligibility; rolling admissions and limited places still require confirmation.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": 100,
+          "feeBasis": "Header identifies an August 2027 indicative tuition quote of SGD 126,440 inclusive of GST, while detailed fee headings still say AY2026 and the FAQ quotes an older 119,900 inclusive of GST. Personal tuition remains unassigned. Older advance tuition is 12,000; AY2027 deposit is 15,000, shown with an excluding-GST footnote; deposits are credited to the first tuition billing, not additional tuition or stacked deposits. From August 2027 annual miscellaneous fees are SC/PR 400 or international 480 excluding GST; older registration is 400/500 inclusive of GST. Confirm applicable cohort, tax and personal balance; do not add GST twice to the inclusive quote. Application fee is 100 inclusive of GST; SMUAT 125 per attempt is separate and conditional. Tuition states accommodation in three overseas segments is included; FAQ also lists meals, but airfare/living and current inclusions need confirmation. No automatic alumni discount, scholarship, subsidy or personal travel budget is applied."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Degree recognition or assessed career-achievement exception",
+          "noteZh": "",
+          "noteEn": "Normal route is a good undergraduate degree from a reputable institution in any field. Applicants without a bachelor degree but with notable career achievements are considered case by case; FAQ also mentions equivalent professional qualifications and suitability assessment. This is not automatic non-degree admission or a universal bachelor-only exclusion. Recognition, equivalence and the accepted exception need SMU assessment. No universal numeric entry GPA or sibling alumni-GPA test substitute is established.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ten-year professional experience and senior-role evidence",
+          "noteZh": "",
+          "noteEn": "Header and eligibility list a minimum of ten years of professional work, with senior-management experience preferred and recognised achievements assessed. The FAQ response to applicants below ten years instead strongly recommends ten years. Preserve both wordings and seek programme confirmation; do not invent an approved experience waiver, hard-code a role/year exception, or assume the generic profile captures qualifying professional work or senior responsibilities. Aggregate years, age, historical class averages and leadership self-reports cannot establish this requirement. This is a senior-executive programme, not the ordinary MBA two-year route.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Alternative admission tests, not a blanket exemption",
+          "noteZh": "",
+          "noteEn": "GMAT, GRE and SMU Admissions Test are alternatives; FAQ says SMUAT may replace GMAT. It does not mean all admission tests are waived. No numeric test minimum, validity anchor or EMBA alumni-GPA substitution was established in the consulted blocks. Do not import MBA/MST thresholds or make the alternatives cumulative. SMUAT costs SGD 125 per attempt only if that test is used; it is not the SGD 100 application fee.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence not established by these blocks",
+          "noteZh": "",
+          "noteEn": "No EMBA-specific IELTS/TOEFL threshold, teaching-language exemption or score-expiry rule was established from these sources. Missing evidence is not proof that English evidence is unnecessary. Confirm programme requirements; do not import MBA, LLM, MQF or Chinese EMBA language rules or approve a self-reported waiver.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "One essay, referees and original-document verification",
+          "noteZh": "",
+          "noteEn": "Updated resume, official transcripts from all institutions attended, one essay of 300-500 words chosen from two listed leadership/management topics, details of two referees, identity and other applicable supporting documents. Originals are verified at matriculation; shortlisted candidates have an interview. No universal academic/employer referee pairing or automatic referee-email process was established in this checklist. Do not import MBA two 500-600-word essays, LinkedIn requirement or LLM written selection test. No applicant/referee materials are collected or sent by this platform.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Residential mode, overseas segments and current cohort",
+          "noteZh": "",
+          "noteEn": "One SMU EMBA delivered through eight intensive residential segments over about 12-15 months; header says 15 months with flexibility to finish in one year. Formal full-time/part-time classification was not established; old class-profile labels do not establish it. Overseas study is part of delivery, not extra partner master degrees or wholly Singapore-only attendance. Current displayed 2026-27 calendar names Cornell in the USA, SDA Bocconi in Europe and Shanghai Jiao Tong in China; the older 2023-24 block names NYU/Sasin. Neither calendar is silently relabelled as the August 2027 cohort schedule. Confirm current partners, dates, attendance and travel arrangements; no immigration, relocation or employment permission is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Mixed fee cohorts and credited deposit applicability",
+          "noteZh": "",
+          "noteEn": "Header identifies an August 2027 indicative tuition quote of SGD 126,440 inclusive of GST, while detailed fee headings still say AY2026 and the FAQ quotes an older 119,900 inclusive of GST. Personal tuition remains unassigned. Older advance tuition is 12,000; AY2027 deposit is 15,000, shown with an excluding-GST footnote; deposits are credited to the first tuition billing, not additional tuition or stacked deposits. From August 2027 annual miscellaneous fees are SC/PR 400 or international 480 excluding GST; older registration is 400/500 inclusive of GST. Confirm applicable cohort, tax and personal balance; do not add GST twice to the inclusive quote. Application fee is 100 inclusive of GST; SMUAT 125 per attempt is separate and conditional. Tuition states accommodation in three overseas segments is included; FAQ also lists meals, but airfare/living and current inclusions need confirmation. No automatic alumni discount, scholarship, subsidy or personal travel budget is applied.",
+          "mandatory": true,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Explicit current window versus undated FAQ rounds",
+          "noteZh": "",
+          "noteEn": "August 2027: main admissions table explicitly opens 1 September 2026; current header and public landing explicitly close 31 May 2027. The older FAQ has undated rounds ending 30 May (earlier 30 November/30 March); these are retained as a version difference, not dated current rounds. No exact cutoff time is established. Recorded-date comparisons do not verify live portal capacity, extensions or eligibility; rolling admissions and limited places still require confirmation.",
+          "mandatory": false,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/EMBA/Apply_Now"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Strategic project within a taught executive degree",
+          "noteZh": "",
+          "noteEn": "The Strategic Initiative Project and leadership coaching form part of the taught EMBA. Project work and partner-campus teaching do not create a research-only master or separate partner degrees. Historic rankings, employment and class-profile statistics are not personal admission probabilities.",
+          "mandatory": false,
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration",
+          "purpose": "EMBA degree exception, professional experience, current opening/final, modular delivery and mixed fee/calendar versions",
+          "checkedOn": "2026-10-29"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programme/EMBA/Apply_Now",
+          "purpose": "Explicit August 2027 final 31 May 2027 and rolling-admissions condition; no account entered",
+          "checkedOn": "2026-10-29"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Current admissions blocks and landing identify August 2027; old calendars are kept separate.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Normal bachelor route accepts any field; recognition and notable-career exception are assessed.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric EMBA entry GPA established.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "No EMBA-specific IELTS/TOEFL threshold, teaching-language exemption or score-expiry rule was established from these sources. Missing evidence is not proof that English evidence is unnecessary. Confirm programme requirements; do not import MBA, LLM, MQF or Chinese EMBA language rules or approve a self-reported waiver.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Indicative header, old AY2026/FAQ values, deposit tax and personal category require reconciliation.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Explicit 2026-09-01 opening and 2027-05-31 final for August 2027; older FAQ rounds and unknown time are not inferred.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation; no independent human review.",
+          "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration"
+        }
+      },
+      "researchBatch": "smu-emba-first-check-2026-10-29"
     }
   ]
 }
