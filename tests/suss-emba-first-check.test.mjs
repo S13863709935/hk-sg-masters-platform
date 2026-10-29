@@ -84,17 +84,17 @@ test('first EMBA source migration keeps one existing coursework identity and all
   assert.equal(p.offerings.length, 1); assert.equal(routes.has(p.id), false); assert.equal(batch.pilotProgrammeIds.includes(p.id), false);
   assert.equal(obs.identity.coreCu + obs.identity.electiveCu + obs.identity.appliedProjectCu, 90);
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 72); assert.equal(queue.counts.reviewUnits, 101); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.reviewRecordedInSource, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-emba-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== p.id) }));
     db = new CatalogueStore(path, { ...options, checkedPath }); const earlier = db.all().filter(x => x.id !== p.id), listing = db.get(p.id).directoryListing;
-    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 71); db.close(); db = null;
+    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 72); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 72); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 73); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -120,7 +120,7 @@ test('actual EMBA match/save/restore/export distinguishes total-year gaps from u
   assert.match(exported.evidence.publishedRequirements.find(r => /bilingual readiness/.test(r.labelEn)).noteEn, /HSK Level 5/);
   assert.match(exported.offerings[0].deadlineNote, /already historical/); assert.equal(exported.offerings[0].tuition, null); assert.equal(exported.offerings[0].deadline, null);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 72); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 73); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
   assert.equal(detail.applicationTimeline.state, 'dates_incomplete'); assert.equal(JSON.stringify(store.all()), before);

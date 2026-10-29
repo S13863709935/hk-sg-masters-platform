@@ -54,7 +54,7 @@ test('one modular SMU EMBA keeps unknown formal mode, overseas cohorts and proje
   assert.equal(p.offerings.length, 1); assert.equal(o.mode, null); assert.equal(routes.has(pid), false); assert.match(o.duration, /15 months.*one year/);
   assert.deepEqual(obs.delivery.olderCalendarYears, [2023, 2024]); assert.deepEqual(obs.delivery.currentDisplayedCalendarYears, [2026, 2027]);
   assert.equal(obs.delivery.calendarNotRelabelledForAugust2027, true); assert.match(rule('Residential mode, overseas segments and current cohort').noteEn, /Neither calendar is silently relabelled/);
-  assert.equal(store.get('SG-SMU-P011').verification, 'catalogue_seed'); assert.equal(store.get('SG-SMU-P011').lastChecked, '2026-10-13');
+  assert.equal(store.get('SG-SMU-P011').verification, 'programme_page_checked'); assert.equal(store.get('SG-SMU-P011').lastChecked, '2026-10-29');
   assert.equal(rule('Strategic project within a taught executive degree').mandatory, false);
 });
 
@@ -68,13 +68,13 @@ test('mixed fee cohorts and tax-labelled credited deposits do not produce person
 
 test('new 29 October observation migrates idempotently without restamping the previous 71 programmes or earlier reports', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  assert.equal(batch.checkedOn, '2026-10-29'); assert.equal(batch.programmes.filter(x => x.lastChecked === '2026-10-29').length, 1);
+  assert.equal(batch.checkedOn, '2026-10-29'); assert.equal(batch.programmes.filter(x => x.lastChecked === '2026-10-29').length, 2);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-smu-emba-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
-    writeFileSync(checkedPath, JSON.stringify({ ...batch, checkedOn: '2026-10-28', programmes: batch.programmes.filter(x => x.id !== pid) })); db = new CatalogueStore(path, { ...options, checkedPath });
-    const earlier = db.all().filter(x => x.id !== pid); assert.equal(db.get(pid).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 71); db.close(); db = null;
+    writeFileSync(checkedPath, JSON.stringify({ ...batch, checkedOn: batch.programmes.filter(x => x.id !== pid).map(x => x.lastChecked).sort().at(-1), programmes: batch.programmes.filter(x => x.id !== pid) })); db = new CatalogueStore(path, { ...options, checkedPath });
+    const earlier = db.all().filter(x => x.id !== pid); assert.equal(db.get(pid).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 72); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
-    for (let restart = 0; restart < 2; restart++) { db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(pid).verification, 'programme_page_checked'); assert.deepEqual(db.all().filter(x => x.id !== pid), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 72); db.close(); db = null; }
+    for (let restart = 0; restart < 2; restart++) { db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(pid).verification, 'programme_page_checked'); assert.deepEqual(db.all().filter(x => x.id !== pid), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 73); db.close(); db = null; }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
 
@@ -96,7 +96,7 @@ test('actual EMBA matching/save/restore/export retains assessed career exception
 
 test('EMBA adds one partial record and maintenance unit while catalogue, routes, review and recent-cutoff counts remain honest', async () => {
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-29');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 72); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.routeEvidence, { groups: 4, routes: 11, pageChecked: 11, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 72); assert.equal(queue.counts.reviewUnits, 101); assert.equal(queue.counts.nearCutoffUnits, 4); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 73); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.deepEqual(meta.routeEvidence, { groups: 4, routes: 11, pageChecked: 11, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.nearCutoffUnits, 4); assert.equal(queue.counts.reviewRecordedInSource, 0);
   assert.equal(batch.pilotProgrammeIds.length, 20); assert.equal(batch.pilotProgrammeIds.includes(pid), false);
 });

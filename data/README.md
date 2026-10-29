@@ -2,6 +2,8 @@
 
 ## 当前本地状态（2026-10-29）
 
+同日 CEMBA 批次后部分项目页记录 73，路径 4 组／11 条、分类上下文 18 组／38 类别，合计 102 个维护单元。原 72 个对象及日期和七份其他来源层未改。管理／领导五年须单独证据，字符与单词单位不互换；费用表只作文本核对，缴费日及旧目录日期不替代当期申请日。现有 17 个 SMU 父记录均有部分观察，不表示当前官网已完整盘点；MPGL 新标题另待目录身份核对。见 [依据](../docs/research/smu-cemba-first-check-2026-10-29.md)、[维护快照](../docs/research/source-review-queue-2026-10-29-smu-cemba.md)、[核心验收](../docs/research/core-pilot-acceptance-2026-10-29-smu-cemba.md)。
+
 2026-10-29 EMBA 批次后部分项目页记录 72、路径 4 组／11 条、分类上下文 18 组／38 类别，合计 101 个维护单元。仅新增记录查阅日为 29 日，原 71 个对象和日期不变，七份其他来源层未改。EMBA 无学士例外、十年经验解释、考试替代、模块海外安排及混合费用版本保留待确认。当前窗口来自明确 2027 批次日期，旧 FAQ 轮次不补造。见 [依据](../docs/research/smu-emba-first-check-2026-10-29.md)、[维护快照](../docs/research/source-review-queue-2026-10-29-smu-emba.md)、[核心验收](../docs/research/core-pilot-acceptance-2026-10-29-smu-emba.md)。
 
 ## 此前本地状态（2026-10-28）

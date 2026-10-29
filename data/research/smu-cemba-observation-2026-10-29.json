@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-29",
+  "programmeId": "SG-SMU-P011",
+  "sources": [
+    {
+      "url": "https://cn.masters.smu.edu.sg/cemba",
+      "purpose": "Chinese Executive MBA identity, separate from English EMBA",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "url": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission",
+      "purpose": "Degree exception, five management/leadership years, Chinese-character statements, dated application window and fee quote",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "url": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/course-structure",
+      "purpose": "Chinese-medium 24-month modular coursework with compulsory overseas study and graduation credits",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "url": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/scholarships",
+      "purpose": "Separate scholarship assessment and post-admission statement requirements, not guaranteed funding",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programmes",
+      "purpose": "CEMBA block only: stale January 2026 cutoff; another title observed but not reconciled as a new catalogue entry",
+      "checkedOn": "2026-10-29"
+    },
+    {
+      "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/your-pg-one-stop/5.%20Resources/Finance%20Related/ProgramFee_CEMBA_2026.pdf",
+      "purpose": "Text-only January 2026/2027 billing table; payments are not admission deadlines; visual rendering unavailable",
+      "checkedOn": "2026-10-29"
+    }
+  ],
+  "existingCatalogueId": true,
+  "newPartialProgramme": 1,
+  "newCatalogueProgrammes": 0,
+  "offeringId": "SG-SMU-P011-JAN2027-MODULAR",
+  "degree": {
+    "bachelorOrHigherAnyField": true,
+    "outstandingIndustryPerformanceExceptionAssessed": true,
+    "universalGpa": null
+  },
+  "work": {
+    "managementOrLeadershipYears": 5,
+    "aggregateYearsNecessaryLowerBoundOnly": true,
+    "academicExceptionNotWorkWaiver": true,
+    "englishEmbaTenYearsNotImported": true
+  },
+  "language": {
+    "medium": "Chinese",
+    "someEnglishOverseasSessionsWithChineseInterpretation": true,
+    "numericChineseOrEnglishScore": null,
+    "admissionTestPolicyNotEstablished": true,
+    "noAutomaticWaiverFromAbsence": true
+  },
+  "materials": {
+    "personalStatements": 2,
+    "charactersEach": [
+      500,
+      600
+    ],
+    "unit": "Chinese characters, not English words",
+    "refereeForms": 2,
+    "automaticRefereeEmailNotEstablished": true,
+    "scholarshipStatementSeparate": true
+  },
+  "study": {
+    "durationMonths": 24,
+    "teachingPeriodsPerYear": 5,
+    "intensiveSessionSpacingMonths": [
+      2,
+      3
+    ],
+    "formalMode": null,
+    "compulsoryOverseasStudy": true,
+    "graduationCu": 18,
+    "graduationCreditsNotEntry": true
+  },
+  "cycle": {
+    "guideOpening": "2026-02-01",
+    "guideDeadline": "2026-10-31",
+    "guideIntakeNotNamed": true,
+    "directoryHistoricalIntake": "January 2026",
+    "directoryHistoricalDeadline": "2025-11-01",
+    "billingIdentifiesCurrentStart": "January 2027",
+    "admissionsGuideWindowNotExplicitlyBoundToBillingStart": true,
+    "paymentDatesNotApplicationRounds": true,
+    "exactCutoffTime": null,
+    "livePortalChecked": false
+  },
+  "fees": {
+    "guideTuitionExcludingGst": 200000,
+    "applicationInclusiveGst": 100,
+    "registrationInclusiveGst": {
+      "scPr": 400,
+      "international": 500
+    },
+    "advanceCredited": 20000,
+    "billingJan2027InclusiveInstalments": [
+      87200,
+      65400,
+      65400
+    ],
+    "billingJan2027PaymentDates": [
+      "2027-01-08",
+      "2027-08-22",
+      "2028-03-19"
+    ],
+    "firstBillIncludesAdvance": true,
+    "firstBillChineseBreakdown": [
+      20000,
+      67200
+    ],
+    "pdfDepositWithinOneWeekOfAcceptance": true,
+    "guideInvoiceWithinThirtyDays": true,
+    "differentPaymentTriggersNotCollapsed": true,
+    "personalTuition": null
+  },
+  "funding": {
+    "amountsNotEstablished": true,
+    "leadershipApplicationAfterAdmissionCharacters": [
+      800,
+      1000
+    ],
+    "notAnAdmissionStatement": true,
+    "automaticConsiderationNotAutomaticAward": true
+  },
+  "directoryFollowup": {
+    "unreconciledTitle": "Master of Public Governance and Leadership (MPGL)",
+    "sourceUrl": "https://masters.smu.edu.sg/programmes",
+    "newCatalogueEntryCreated": false,
+    "currentFullDirectoryReconciliationClaimed": false
+  },
+  "sourceLimits": {
+    "htmlAndPdfText": true,
+    "pdfVisualReview": false,
+    "pdfScreenshotCacheUnavailableAndDirectDownloadNotPdf": true,
+    "brochureNotRead": true,
+    "applicationAccountEntered": false,
+    "independentHumanReview": false
+  },
+  "preservation": {
+    "previousSnapshotHashes": {
+      "data/research/smu-emba-observation-2026-10-29.json": "1008da8873863a7cca78b6e96ad299812be5b89e71a721ab75118d866de024f4",
+      "docs/research/smu-emba-first-check-2026-10-29.md": "4f97dd16376f88c1e682a362f0d408b57dbc622817584db99a28321dffd7409f",
+      "docs/research/source-review-queue-2026-10-29-smu-emba.md": "c35da33c7ff5dcc235802c7f26af1bc53a6a60d1203286eee0b9d13bf3a3cf41",
+      "docs/research/core-pilot-acceptance-2026-10-29-smu-emba.md": "1697abfa6f510d955d9a453977a8906bccdcec7acfa748a41cc4284e7359c1c5"
+    }
+  }
+}

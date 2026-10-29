@@ -13563,6 +13563,192 @@
         }
       },
       "researchBatch": "smu-emba-first-check-2026-10-29"
+    },
+    {
+      "id": "SG-SMU-P011",
+      "universityId": "SG-SMU",
+      "name": "Chinese Executive MBA",
+      "award": "EMBA",
+      "area": "Business and Management",
+      "faculty": null,
+      "officialUrl": "https://cn.masters.smu.edu.sg/cemba",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial translated CEMBA observation; managerial evidence, intake-date binding, formal mode and personal fees unresolved",
+      "lastChecked": "2026-10-29",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official-source extraction and English translation",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Chinese-medium SMU executive coursework, separate from English EMBA and ordinary MBA. January 2027 is identified in an official billing document, not proof of current admission availability. English platform descriptions preserve the Chinese-character units and programme-specific conditions.",
+      "offerings": [
+        {
+          "id": "SG-SMU-P011-JAN2027-MODULAR",
+          "mode": null,
+          "duration": "24 months, modular; five teaching periods per year, formal full/part-time classification unconfirmed",
+          "intake": "January 2027",
+          "academicYear": "2027",
+          "applicationOpen": "2026-02-01",
+          "deadline": "2026-10-31",
+          "deadlineNote": "The Chinese admissions guide explicitly lists application opening 1 February 2026 and closing 31 October 2026, but does not name the intake to which those dates apply. The English directory still lists 1 November 2025 for January 2026. The official billing document names January 2026 and January 2027 starts, but its January 2027 payment dates do not explicitly bind the admissions window to that intake. Record the guide dates while withholding an active availability/cutoff comparison until the intake link is confirmed. Do not shift the old directory year or use tuition-payment dates as application rounds. Exact cutoff time and live portal status are unconfirmed.",
+          "currency": "SGD",
+          "tuition": null,
+          "applicationFee": 100,
+          "feeBasis": "Chinese admissions quote: SGD 200,000 excluding GST; application 100 inclusive of GST; registration SC/PR 400 or international 500 inclusive of GST. Advance tuition 20,000 is credited to the first billing, not an extra tuition charge. The text-only official billing table lists January 2027 instalments 87,200, 65,400 and 65,400 inclusive of GST, with the advance included in the first amount; the Chinese breakdown separates 20,000 and 67,200. Do not add the advance twice or impose GST again on inclusive bill amounts. PDF text puts the deposit within one week of accepting an offer; the admissions guide states invoice payment within 30 days. Keep the different triggers separate and confirm current terms. Instalment dates are payment dates, not application deadlines. Applicable cohort, taxes, registration, overseas costs, funding and personal balance remain unconfirmed; personal tuition is not assigned. Do not reuse English EMBA prices, annual miscellaneous fees or deposit."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Degree recognition or assessed academic exception",
+          "noteZh": "",
+          "noteEn": "Normal entry is a bachelor degree or higher in any field. Applicants below the normal academic requirement may be assessed individually if they have outstanding performance in their industry. Recognition and the approved exception remain SMU decisions; no universal bachelor-only rejection, prestige/ranking whitelist, automatic equivalence or numeric entry GPA is inferred. The source recommends pre-assessment of degree recognition where needed.",
+          "mandatory": true,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        {
+          "kind": "experience",
+          "labelZh": "",
+          "labelEn": "Total work years: necessary five-year lower bound only",
+          "min": 5,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Five years of management or leadership evidence",
+          "noteZh": "",
+          "noteEn": "At least five years in management or leadership roles are required. A total-work-year check below five is only a necessary lower bound: at least five total years does not establish five qualifying managerial/leadership years. Actual roles, duration, overlapping appointments and accepted evidence need assessment. The academic exception does not state a work waiver. Do not import English EMBA ten-year wording or ordinary MBA two post-degree years.",
+          "mandatory": true,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chinese readiness and unestablished test policies",
+          "noteZh": "",
+          "noteEn": "This is Chinese-medium coursework. Some English-taught overseas sessions have Chinese simultaneous interpretation, not a promise that all teaching is English or that language capability is irrelevant. No HSK, IELTS/TOEFL numeric threshold, waiver, score validity or GMAT/GRE/SMUAT requirement was established in the consulted Chinese checklist. Absence from that checklist is not a universal test waiver. Confirm Chinese-language readiness, interpreted-session arrangements and any required evidence; do not borrow English EMBA rules or accept a high English score as Chinese proficiency.",
+          "mandatory": true,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Two Chinese-character statements, referees and verified materials",
+          "noteZh": "",
+          "noteEn": "Latest resume; graduation and degree certificates plus official transcripts from all institutions attended; two referees who complete recommendation forms; identity documents; and two personal statements, each 500-600 Chinese characters. They cover motivation for this Chinese EMBA and how it supports career development. Characters are not English words. No automatic referee-email workflow, universal academic/employer pairing or English-EMBA single 300-500-word essay is inferred. The guide describes about 2-3 weeks for review and an approximately 30-minute online or in-person interview; these are process descriptions, not guaranteed outcomes. Scholarship statements are separate. The platform does not collect, write, send or submit these materials.",
+          "mandatory": true,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Two-year modular delivery and compulsory overseas study",
+          "noteZh": "",
+          "noteEn": "One SMU Chinese EMBA with a two-year modular schedule, five teaching periods per year and intensive sessions every 2-3 months. Formal full-time/part-time classification is not established. Overseas study is compulsory; delivery includes SMU Singapore, overseas centres and Europe/Americas/Japan, with actual current teaching plans controlling locations and partners. Do not reuse English EMBA residential calendars or turn partner teaching into extra master degrees. Eighteen credit units and passing all courses are graduation requirements, not pre-entry credits or GPA. Overseas sessions and language arrangements still need individual confirmation.",
+          "mandatory": true,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/course-structure"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Intake binding for guide dates versus old directory and billing",
+          "noteZh": "",
+          "noteEn": "The Chinese admissions guide explicitly lists application opening 1 February 2026 and closing 31 October 2026, but does not name the intake to which those dates apply. The English directory still lists 1 November 2025 for January 2026. The official billing document names January 2026 and January 2027 starts, but its January 2027 payment dates do not explicitly bind the admissions window to that intake. Record the guide dates while withholding an active availability/cutoff comparison until the intake link is confirmed. Do not shift the old directory year or use tuition-payment dates as application rounds. Exact cutoff time and live portal status are unconfirmed.",
+          "mandatory": true,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Tax bases, credited advance and fee applicability",
+          "noteZh": "",
+          "noteEn": "Chinese admissions quote: SGD 200,000 excluding GST; application 100 inclusive of GST; registration SC/PR 400 or international 500 inclusive of GST. Advance tuition 20,000 is credited to the first billing, not an extra tuition charge. The text-only official billing table lists January 2027 instalments 87,200, 65,400 and 65,400 inclusive of GST, with the advance included in the first amount; the Chinese breakdown separates 20,000 and 67,200. Do not add the advance twice or impose GST again on inclusive bill amounts. PDF text puts the deposit within one week of accepting an offer; the admissions guide states invoice payment within 30 days. Keep the different triggers separate and confirm current terms. Instalment dates are payment dates, not application deadlines. Applicable cohort, taxes, registration, overseas costs, funding and personal balance remain unconfirmed; personal tuition is not assigned. Do not reuse English EMBA prices, annual miscellaneous fees or deposit.",
+          "mandatory": true,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Scholarship selection is separate from admission",
+          "noteZh": "",
+          "noteEn": "Scholarship amounts and conditions vary and are assessed, not guaranteed fee deductions. The scholarship page has separate selection routes: some consider eligible candidates automatically, while the leadership award describes an 800-1000-Chinese-character application after admission. That is not a third mandatory admissions statement or a general entry requirement. No scholarship, subsidy, stacking or tuition discount is applied to the personal total.",
+          "mandatory": false,
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/scholarships"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://cn.masters.smu.edu.sg/cemba",
+          "purpose": "Chinese Executive MBA identity, separate from English EMBA",
+          "checkedOn": "2026-10-29"
+        },
+        {
+          "url": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission",
+          "purpose": "Degree exception, five management/leadership years, Chinese-character statements, dated application window and fee quote",
+          "checkedOn": "2026-10-29"
+        },
+        {
+          "url": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/course-structure",
+          "purpose": "Chinese-medium 24-month modular coursework with compulsory overseas study and graduation credits",
+          "checkedOn": "2026-10-29"
+        },
+        {
+          "url": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/scholarships",
+          "purpose": "Separate scholarship assessment and post-admission statement requirements, not guaranteed funding",
+          "checkedOn": "2026-10-29"
+        },
+        {
+          "url": "https://masters.smu.edu.sg/programmes",
+          "purpose": "CEMBA block only: stale January 2026 cutoff; another title observed but not reconciled as a new catalogue entry",
+          "checkedOn": "2026-10-29"
+        },
+        {
+          "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/your-pg-one-stop/5.%20Resources/Finance%20Related/ProgramFee_CEMBA_2026.pdf",
+          "purpose": "Text-only January 2026/2027 billing table; payments are not admission deadlines; visual rendering unavailable",
+          "checkedOn": "2026-10-29"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Official billing text lists a January 2027 start; this does not bind the admissions guide window or establish live availability.",
+          "sourceUrl": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/your-pg-one-stop/5.%20Resources/Finance%20Related/ProgramFee_CEMBA_2026.pdf"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Normal bachelor-or-higher route accepts any field; recognition and academic exceptions require assessment.",
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric CEMBA entry GPA established.",
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "This is Chinese-medium coursework. Some English-taught overseas sessions have Chinese simultaneous interpretation, not a promise that all teaching is English or that language capability is irrelevant. No HSK, IELTS/TOEFL numeric threshold, waiver, score validity or GMAT/GRE/SMUAT requirement was established in the consulted Chinese checklist. Absence from that checklist is not a universal test waiver. Confirm Chinese-language readiness, interpreted-session arrangements and any required evidence; do not borrow English EMBA rules or accept a high English score as Chinese proficiency.",
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/course-structure"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Ex-GST quote, inclusive bills, credited advance, personal category and current applicability require reconciliation.",
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Guide dates are exact, but their intake link is not explicit; old directory dates and tuition bills do not establish it.",
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial observation and translation; no independent human review.",
+          "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission"
+        }
+      },
+      "researchBatch": "smu-cemba-first-check-2026-10-29"
     }
   ]
 }

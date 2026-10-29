@@ -111,18 +111,18 @@ test('Education fee rows stay distinct from neighbouring subsidies/diploma addit
 
 test('first MEd source migration preserves other records and previous snapshots across isolated restarts', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 72); assert.equal(queue.counts.reviewUnits, 101);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-medu-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== p.id) }));
     db = new CatalogueStore(path, { ...options, checkedPath }); const earlier = db.all().filter(x => x.id !== p.id), listing = db.get(p.id).directoryListing;
-    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 71); db.close(); db = null;
+    assert.equal(db.get(p.id).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 72); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 72); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 73); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -149,7 +149,7 @@ test('actual API keeps regular/accelerated saved choices distinct while qualific
     assert.match(exported.evidence.publishedRequirements.find(r => /International master code/.test(r.labelEn)).noteEn, /MEDU-A/);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 72); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 73); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
   assert.equal(JSON.stringify(store.all()), before);
