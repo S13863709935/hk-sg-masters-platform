@@ -30,7 +30,7 @@ test('two HKBU records are dated separately without inventing review or changing
   }
   assert.equal(store.get('HK-EDUHK-P001').lastChecked, '2026-10-30');
   assert.equal(store.get('SG-NUS-P029').lastChecked, '2026-10-22');
-  assert.deepEqual(applicantSummary(applicants), { studyOptions: 64, categories: 130, peerReviewed: 0 });
+  assert.deepEqual(applicantSummary(applicants), { studyOptions: 78, categories: 158, peerReviewed: 0 });
 });
 
 test('new context bindings cover only the two actual full-time options, never fabricated non-local part-time', () => {
@@ -173,8 +173,8 @@ test('unselected API views and candidate exports never project a default non-loc
 test('read-only category use does not alter raw records or increase programme review counters', async () => {
   const before = JSON.stringify([store.get(cu), store.get(bu)]);
   resolve(cu, 1, 'LOCAL'); resolve(bu, 1, 'NONLOCAL');
-  const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 64, categories: 130, peerReviewed: 0 });
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 156);
+  const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 78, categories: 158, peerReviewed: 0 });
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.equal(JSON.stringify([store.get(cu), store.get(bu)]), before);
 });

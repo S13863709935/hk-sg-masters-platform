@@ -30,11 +30,11 @@ test('eight Hong Kong school audits report 15 existing observations without prom
 
 test('checked-only selection distinguishes a transfer archive from active field follow-up', () => {
   const report = loadSchoolQuality('HK-HKUST', '2026-10-30', { checkedOnly: true });
-  assert.equal(report.rows.length, 30); assert.equal(report.counts.archiveOnly, 1);
+  assert.equal(report.rows.length, 48); assert.equal(report.counts.archiveOnly, 1);
   assert.ok(report.counts.catalogueRecords > report.rows.length);
   const archive = report.rows.find(r => r.programmeId === 'HK-HKUST-P003');
   assert.equal(archive.admissionRoute, 'transfer_only'); assert.equal(archive.fieldStates.language, 'unrecorded');
-  assert.equal(report.counts.activeFieldGaps.language, 0); assert.equal(report.counts.fieldGaps.language, 1);
+  assert.equal(report.counts.activeFieldGaps.language, 1); assert.equal(report.counts.fieldGaps.language, 2);
   assert.equal(observation.counts.activeFieldGaps.major, 2); assert.equal(observation.counts.activeFieldGaps.language, 1);
 });
 

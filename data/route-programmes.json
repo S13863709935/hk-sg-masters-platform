@@ -2181,6 +2181,355 @@
           "routeId": "HK-CITYU-P037-ROUTE-FIT"
         }
       ]
+    },
+    {
+      "programmeId": "HK-HKUST-P010",
+      "routes": [
+        {
+          "name": "Master of Business Administration (MBA)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "School of Business and Management",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+          "lastChecked": "2026-10-30",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted official-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Ordinary Hong Kong MBA format. Full-time: two full-time work years and GMAT/GRE required. Weekly part-time: three full-time work years; GMAT/GRE encouraged rather than mandatory. The automated two-year lower bound is necessary for either mode; it does not establish the three-year part-time condition. Part-time July 2027 online accelerators and mid-August 2027 mandatory campus immersion are recorded; a 2026 full-time commencement schedule is not shifted into 2027. Optional international exchange is not required overseas delivery. Applicant-date labels are MBA-specific, not the MSc local/non-local definition.",
+          "offerings": [
+            {
+              "id": "HK-HKUST-P010-2027-FT",
+              "mode": "Full-time",
+              "duration": "12 or 16 months",
+              "intake": "2027 entry; exact start unconfirmed",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 600000,
+              "applicationFee": 500,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Published 2027/28 catalogue programme total HKD 600,000; separate application fee HKD 500. The HKD 65,000 non-refundable acceptance deposit is deducted from this total, not added on top. No scholarship or fee waiver automatically deducted; living/travel and optional expenses excluded.",
+              "feeEvidence": {
+                "sourceUrl": "https://mba.hkust.edu.hk/admissions/fees-and-financing",
+                "checkedOn": "2026-10-30"
+              },
+              "deadlineNote": "General full-time rounds: 7 Oct 2026, 3 Dec 2026, 28 Jan 2027 and 25 Mar 2027; labelled International rolling cutoff 13 May 2027. No local final cutoff established, so the shared offering has no actionable final date or rounds. No International date is assigned universally."
+            },
+            {
+              "id": "HK-HKUST-P010-2027-WEEKLY",
+              "mode": "Part-time",
+              "duration": "24 months",
+              "intake": "July 2027 accelerators; August immersion",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 510000,
+              "applicationFee": 500,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Published 2027/28 catalogue programme total HKD 510,000; separate application fee HKD 500. The HKD 65,000 non-refundable acceptance deposit is deducted from this total, not added on top. No scholarship or fee waiver automatically deducted; living/travel and optional expenses excluded.",
+              "feeEvidence": {
+                "sourceUrl": "https://mba.hkust.edu.hk/admissions/fees-and-financing",
+                "checkedOn": "2026-10-30"
+              },
+              "deadlineNote": "Choose MBA-specific International or Local HK/valid-visa date category. No MSc category or regular September opening borrowed."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or approved equivalent",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/"
+            },
+            {
+              "kind": "experience",
+              "labelZh": "",
+              "labelEn": "Necessary work-year lower bound; full-time status still assessed",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+              "min": 2
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Published English test score route",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+              "tests": {
+                "ielts": {
+                  "total": 6.5,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Exact mode, full-time work and selection evidence",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+              "noteZh": "",
+              "noteEn": "Ordinary Hong Kong MBA format. Full-time: two full-time work years and GMAT/GRE required. Weekly part-time: three full-time work years; GMAT/GRE encouraged rather than mandatory. The automated two-year lower bound is necessary for either mode; it does not establish the three-year part-time condition. Part-time July 2027 online accelerators and mid-August 2027 mandatory campus immersion are recorded; a 2026 full-time commencement schedule is not shifted into 2027. Optional international exchange is not required overseas delivery. Applicant-date labels are MBA-specific, not the MSc local/non-local definition.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English alternatives and application evidence",
+              "sourceUrl": "https://mba.hkust.edu.hk/admissions",
+              "noteZh": "",
+              "noteEn": "The MBA admissions page also lists DET and undergraduate/postgraduate English-medium evidence. DET numeric threshold is not reliably established in this observation; it is not invented. Central-catalogue IELTS/TOEFL thresholds remain explicitly sourced; MBA waiver applicability and one-sitting/at-home restrictions need assessment. Essays, two references and interview evidence remain separate. No test validity date anchor or admissions guarantee is inferred.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+              "purpose": "Rendered 2027/28 general, curriculum, admission and application sections",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/admissions/deadline",
+              "purpose": "2027 labelled rounds and distinct International versus Local HK/valid-visa rolling dates",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/admissions",
+              "purpose": "Mode-specific full-time work, GMAT/GRE, English alternatives, documents and separate HKD 500 application fee",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/admissions/fees-and-financing",
+              "purpose": "Mode totals and HKD 65,000 non-refundable deposit deducted from the total",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/part-time",
+              "purpose": "July 2027 accelerators, mid-August mandatory immersion, Hong Kong formats and optional exchange",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/full-time",
+              "purpose": "Full-time 12/16 months and optional exchange; visible 2026 commencement not reused as 2027",
+              "checkedOn": "2026-10-30"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "2027/28 catalogue; FT exact start unconfirmed, PT accelerator/immersion from 2027 programme page.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/"
+            },
+            "major": {
+              "status": "not_published",
+              "noteEn": "No exclusive subject requirement established.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA cutoff established.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Central-catalogue English test routes recorded; DET/expanded waiver branch remains assessed.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Published mode total; deposit included, separate application fee.",
+              "sourceUrl": "https://mba.hkust.edu.hk/admissions/fees-and-financing"
+            },
+            "deadline": {
+              "status": "unknown",
+              "noteEn": "Labelled MBA-specific category rounds; no local full-time rolling/final date established.",
+              "sourceUrl": "https://mba.hkust.edu.hk/admissions/deadline"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial route snapshot; no independent review.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/"
+            }
+          },
+          "researchBatch": "hkust-remaining-2026-10-30",
+          "routeId": "HK-HKUST-P010-ROUTE-REGULAR"
+        },
+        {
+          "name": "Part-time MBA (Bi-weekly)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "School of Business and Management",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+          "lastChecked": "2026-10-30",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted official-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Ordinary Hong Kong MBA format. Bi-weekly part-time: three full-time work years; GMAT/GRE is encouraged rather than mandatory. The catalogue states all courses are conducted in Hong Kong. Part-time July 2027 online accelerators and mid-August 2027 mandatory campus immersion are recorded; a 2026 full-time commencement schedule is not shifted into 2027. Optional international exchange is not required overseas delivery. Applicant-date labels are MBA-specific, not the MSc local/non-local definition.",
+          "offerings": [
+            {
+              "id": "HK-HKUST-P010-2027-BIWEEKLY",
+              "mode": "Part-time",
+              "duration": "24 months",
+              "intake": "July 2027 accelerators; August immersion",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 510000,
+              "applicationFee": 500,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Published 2027/28 catalogue programme total HKD 510,000; separate application fee HKD 500. The HKD 65,000 non-refundable acceptance deposit is deducted from this total, not added on top. No scholarship or fee waiver automatically deducted; living/travel and optional expenses excluded.",
+              "feeEvidence": {
+                "sourceUrl": "https://mba.hkust.edu.hk/admissions/fees-and-financing",
+                "checkedOn": "2026-10-30"
+              },
+              "deadlineNote": "Choose MBA-specific International or Local HK/valid-visa date category. No MSc category or regular September opening borrowed."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or approved equivalent",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/"
+            },
+            {
+              "kind": "experience",
+              "labelZh": "",
+              "labelEn": "Necessary work-year lower bound; full-time status still assessed",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/",
+              "min": 3
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Published English test score route",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/",
+              "tests": {
+                "ielts": {
+                  "total": 6.5,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Exact mode, full-time work and selection evidence",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/",
+              "noteZh": "",
+              "noteEn": "Ordinary Hong Kong MBA format. Bi-weekly part-time: three full-time work years; GMAT/GRE is encouraged rather than mandatory. The catalogue states all courses are conducted in Hong Kong. Part-time July 2027 online accelerators and mid-August 2027 mandatory campus immersion are recorded; a 2026 full-time commencement schedule is not shifted into 2027. Optional international exchange is not required overseas delivery. Applicant-date labels are MBA-specific, not the MSc local/non-local definition.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English alternatives and application evidence",
+              "sourceUrl": "https://mba.hkust.edu.hk/admissions",
+              "noteZh": "",
+              "noteEn": "The MBA admissions page also lists DET and undergraduate/postgraduate English-medium evidence. DET numeric threshold is not reliably established in this observation; it is not invented. Central-catalogue IELTS/TOEFL thresholds remain explicitly sourced; MBA waiver applicability and one-sitting/at-home restrictions need assessment. Essays, two references and interview evidence remain separate. No test validity date anchor or admissions guarantee is inferred.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/",
+              "purpose": "Rendered 2027/28 general, curriculum, admission and application sections",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/admissions/deadline",
+              "purpose": "2027 labelled rounds and distinct International versus Local HK/valid-visa rolling dates",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/admissions",
+              "purpose": "Mode-specific full-time work, GMAT/GRE, English alternatives, documents and separate HKD 500 application fee",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/admissions/fees-and-financing",
+              "purpose": "Mode totals and HKD 65,000 non-refundable deposit deducted from the total",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/part-time",
+              "purpose": "July 2027 accelerators, mid-August mandatory immersion, Hong Kong formats and optional exchange",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://mba.hkust.edu.hk/full-time",
+              "purpose": "Full-time 12/16 months and optional exchange; visible 2026 commencement not reused as 2027",
+              "checkedOn": "2026-10-30"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "2027/28 catalogue; FT exact start unconfirmed, PT accelerator/immersion from 2027 programme page.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/"
+            },
+            "major": {
+              "status": "not_published",
+              "noteEn": "No exclusive subject requirement established.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA cutoff established.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Central-catalogue English test routes recorded; DET/expanded waiver branch remains assessed.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Published mode total; deposit included, separate application fee.",
+              "sourceUrl": "https://mba.hkust.edu.hk/admissions/fees-and-financing"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Labelled MBA-specific category rounds; no local full-time rolling/final date established.",
+              "sourceUrl": "https://mba.hkust.edu.hk/admissions/deadline"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial route snapshot; no independent review.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/"
+            }
+          },
+          "researchBatch": "hkust-remaining-2026-10-30",
+          "routeId": "HK-HKUST-P010-ROUTE-BIWEEKLY"
+        }
+      ]
     }
   ]
 }

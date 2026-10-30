@@ -95,11 +95,18 @@ test('real catalogue, server-filtered matches and browser-filtered matches agree
   const allMatches = (await post({ filters: { includeTransfer: 'true' } })).items;
   for (const filters of [{ q: 'Wee Kim Wee', school: 'SG-NTU' }, { q: 'Applied Cryptography', school: 'SG-NTU' }, { q: 'Early Childhood', region: 'SG' }, { region: 'HK', verification: 'programme_page_checked' }, { school: 'SG-SMU', mode: 'part-time' }, { q: 'deliberately-no-record' }, { region: 'HK', school: 'SG-NTU' }]) {
     const catalogue = await get('/api/catalogue?' + new URLSearchParams({ ...filters, limit: '100' }));
-    assert.ok(catalogue.total <= 100);
+    const catalogueItems = [...catalogue.items];
+    assert.ok(catalogue.items.length <= 100);
+    for (let page = 2; catalogueItems.length < catalogue.total; page++) {
+      const next = await get('/api/catalogue?' + new URLSearchParams({ ...filters, limit: '100', page: String(page) }));
+      assert.equal(next.total, catalogue.total); assert.ok(next.items.length > 0 && next.items.length <= 100);
+      catalogueItems.push(...next.items);
+    }
+    assert.equal(catalogueItems.length, catalogue.total); assert.equal(new Set(ids(catalogueItems)).size, catalogue.total);
     const matches = await post({ filters });
     const browser = filterMatchedProgrammes(allMatches, filters);
-    assert.deepEqual(ids(browser), ids(catalogue.items), JSON.stringify(filters));
-    assert.deepEqual(ids(matches.items), ids(catalogue.items), JSON.stringify(filters));
+    assert.deepEqual(ids(browser), ids(catalogueItems), JSON.stringify(filters));
+    assert.deepEqual(ids(matches.items), ids(catalogueItems), JSON.stringify(filters));
   }
   assert.deepEqual(ids(filterMatchedProgrammes(allMatches, { q: 'Wee Kim Wee', school: 'SG-NTU' })), ['SG-NTU-P018']);
 });
