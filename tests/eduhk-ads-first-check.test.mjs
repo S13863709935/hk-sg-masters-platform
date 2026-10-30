@@ -114,7 +114,7 @@ test('today adds a new review snapshot without rewriting yesterday or relabellin
   const current = today.units.find(x => x.kind === 'applicant_context' && x.programmeId === p.id);
   const future = yesterday.units.find(x => x.kind === 'applicant_context' && x.programmeId === p.id);
   assert.ok(current.categories.every(x => x.tuition === 227700)); assert.ok(future.categories.every(x => x.tuition === null && x.recordedCutoffs.length === 0));
-  assert.equal(today.counts.reviewUnits, 139); assert.equal(today.counts.reviewRecordedInSource, 0);
+  assert.equal(today.counts.reviewUnits, 153); assert.equal(today.counts.reviewRecordedInSource, 0);
   assert.equal(today.units.find(x => x.programmeId === 'SG-NTU-P062').sourceCheckedOn, '2026-10-24');
   assert.deepEqual(today.units.filter(x => x.upcomingRecordedCutoffs.length).map(x => x.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001']);
 });
@@ -169,7 +169,7 @@ test('first ADS source migration preserves all prior programme objects, director
 
 test('ADS lookup, matching and export do not write data or inflate independent review and catalogue coverage', async () => {
   const before = JSON.stringify(store.all()); resolve('LOCAL'); matchProgramme(resolve('NONLOCAL'), profile);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 95);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 109);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 33, categories: 68, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
   assert.equal(JSON.stringify(store.all()), before);

@@ -17438,6 +17438,2640 @@
         }
       },
       "researchBatch": "cityu-fields-reconciliation-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P022",
+      "universityId": "HK-CITYU",
+      "name": "Master of Architecture",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. A recognised undergraduate architecture/architectural-studies degree is required. Portfolio: at most 40 pages, including an English reflection of at most 500 words. Selected applicants may be interviewed. Plans to seek professional accreditation do not establish confirmed accreditation for this cohort.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P022-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 478500,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 55 credits × HKD 8,700 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p82.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+          "accepted": [
+            "Architecture",
+            "Architectural Studies"
+          ],
+          "any": false,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+          "noteZh": "",
+          "noteEn": "A recognised undergraduate architecture/architectural-studies degree is required. Portfolio: at most 40 pages, including an English reflection of at most 500 words. Selected applicants may be interviewed. Plans to seek professional accreditation do not establish confirmed accreditation for this cohort.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p82.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A recognised undergraduate architecture/architectural-studies degree is required. Portfolio: at most 40 pages, including an English reflection of at most 500 words. Selected applicants may be interviewed. Plans to seek professional accreditation do not establish confirmed accreditation for this cohort.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p82.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P027",
+      "universityId": "HK-CITYU",
+      "name": "Master of Urban Design and Regional Planning",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Relevant degree, accepted academic/professional attainments, or assessed exceptional technical/management experience may qualify. Architecture/planning/construction training is preferred, not a universal named-major or numeric work-year exclusion. Dated accreditation references do not establish personal professional status.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P027-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 522000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 60 credits × HKD 8,700 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p64.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P027-2027-PT",
+          "mode": "Part-time",
+          "duration": "4 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 522000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 60 credits × HKD 8,700 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p64.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64",
+          "noteZh": "",
+          "noteEn": "Relevant degree, accepted academic/professional attainments, or assessed exceptional technical/management experience may qualify. Architecture/planning/construction training is preferred, not a universal named-major or numeric work-year exclusion. Dated accreditation references do not establish personal professional status.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p64.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Relevant degree, accepted academic/professional attainments, or assessed exceptional technical/management experience may qualify. Architecture/planning/construction training is preferred, not a universal named-major or numeric work-year exclusion. Dated accreditation references do not establish personal professional status.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p64.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P034",
+      "universityId": "HK-CITYU",
+      "name": "MSc Biomedical Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Engineering/science degree or equivalent, eligibility for graduate professional membership, or other degrees assessed individually. Biomedical-related preparation has priority; it is not an exclusive subject list. Post-enrolment dissertation conditions are not undergraduate entry GPA.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P034-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 228000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,600 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p69.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P034-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 228000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,600 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p69.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+          "noteZh": "",
+          "noteEn": "Engineering/science degree or equivalent, eligibility for graduate professional membership, or other degrees assessed individually. Biomedical-related preparation has priority; it is not an exclusive subject list. Post-enrolment dissertation conditions are not undergraduate entry GPA.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p69.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering/science degree or equivalent, eligibility for graduate professional membership, or other degrees assessed individually. Biomedical-related preparation has priority; it is not an exclusive subject list. Post-enrolment dissertation conditions are not undergraduate entry GPA.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p69.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P038",
+      "universityId": "HK-CITYU",
+      "name": "MSc Chemistry",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Relevant science degree or assessed academic/professional attainments. Testing/certification employment is preferred, not mandatory work years. Ordinary non-stream modes only; the proposed Cosmetic Chemistry stream is subject to approval and is not another master. Semester-A CGPA 3.4 for a later elective is not an admission GPA.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P038-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 213000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,100 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p67.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P038-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 213000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,100 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p67.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+          "accepted": [
+            "Chemistry",
+            "Materials Science",
+            "Molecular Biology"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+          "noteZh": "",
+          "noteEn": "Relevant science degree or assessed academic/professional attainments. Testing/certification employment is preferred, not mandatory work years. Ordinary non-stream modes only; the proposed Cosmetic Chemistry stream is subject to approval and is not another master. Semester-A CGPA 3.4 for a later elective is not an admission GPA.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p67.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Relevant science degree or assessed academic/professional attainments. Testing/certification employment is preferred, not mandatory work years. Ordinary non-stream modes only; the proposed Cosmetic Chemistry stream is subject to approval and is not another master. Semester-A CGPA 3.4 for a later elective is not an admission GPA.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p67.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P042",
+      "universityId": "HK-CITYU",
+      "name": "MSc Electrical and Electronic Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Recognised degree or accepted equivalent academic/professional attainments; no universal named undergraduate subject restriction established. Only the ordinary 30-credit MSc is represented; 45-credit Industrial Research/Business Management options and their longer durations need separate selection evidence.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P042-2027-FT",
+          "mode": "Full-time",
+          "duration": "Ordinary 30-credit option: 1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 279000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 9,300 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded. Ordinary 30-credit option only; no 45-credit variant pricing.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p54.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P042-2027-PT",
+          "mode": "Part-time",
+          "duration": "Ordinary 30-credit option: 2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 279000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 9,300 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded. Ordinary 30-credit option only; no 45-credit variant pricing.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p54.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+          "noteZh": "",
+          "noteEn": "Recognised degree or accepted equivalent academic/professional attainments; no universal named undergraduate subject restriction established. Only the ordinary 30-credit MSc is represented; 45-credit Industrial Research/Business Management options and their longer durations need separate selection evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p54.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Recognised degree or accepted equivalent academic/professional attainments; no universal named undergraduate subject restriction established. Only the ordinary 30-credit MSc is represented; 45-credit Industrial Research/Business Management options and their longer durations need separate selection evidence.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p54.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P043",
+      "universityId": "HK-CITYU",
+      "name": "MSc Energy and Environment",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Physical science/engineering degree is the normal route. Other subjects may be assessed with A-level physics/equivalent or sufficient relevant experience. No automatic equivalence, numeric experience minimum or rejection of every other background is inferred.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P043-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Official sources conflict: central programme page shows 31 May 2027; department page shows 31 March 2027, both for local/non-local applicants. No active deadline or extension is assumed.",
+          "currency": "HKD",
+          "tuition": 213000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,100 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p63.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P043-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Official sources conflict: central programme page shows 31 May 2027; department page shows 31 March 2027, both for local/non-local applicants. No active deadline or extension is assumed.",
+          "currency": "HKD",
+          "tuition": 213000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,100 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p63.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+          "accepted": [
+            "Physical Sciences",
+            "Physics",
+            "Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+          "noteZh": "",
+          "noteEn": "Physical science/engineering degree is the normal route. Other subjects may be assessed with A-level physics/equivalent or sufficient relevant experience. No automatic equivalence, numeric experience minimum or rejection of every other background is inferred.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p63.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/en/see/programmes/master-science-energy-and-environment",
+          "purpose": "September 2027 entry and department 31 March deadline conflicting with central 31 May",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Physical science/engineering degree is the normal route. Other subjects may be assessed with A-level physics/equivalent or sufficient relevant experience. No automatic equivalence, numeric experience minimum or rejection of every other background is inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p63.htm"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Official sources conflict: central programme page shows 31 May 2027; department page shows 31 March 2027, both for local/non-local applicants. No active deadline or extension is assumed.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P044",
+      "universityId": "HK-CITYU",
+      "name": "MSc Engineering Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Engineering, science or management degree, eligible professional membership, or accepted academic/professional attainments. Membership eligibility requires evidence; it is not inferred from degree title or total work years.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P044-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 252000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,400 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p56.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P044-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 252000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,400 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p56.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+          "accepted": [
+            "Engineering",
+            "Science",
+            "Management"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+          "noteZh": "",
+          "noteEn": "Engineering, science or management degree, eligible professional membership, or accepted academic/professional attainments. Membership eligibility requires evidence; it is not inferred from degree title or total work years.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p56.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering, science or management degree, eligible professional membership, or accepted academic/professional attainments. Membership eligibility requires evidence; it is not inferred from degree title or total work years.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p56.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P048",
+      "universityId": "HK-CITYU",
+      "name": "MSc Health Sciences and Biomedicine",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Listed biology, biomedical, medical and health-related degree routes are distinct from competitive other-science assessment. Broad preparation is preferred; additional support/assessment for limited health training does not become an invented numeric GPA or mandatory named course list.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P048-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-04-30",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 243000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,100 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p95.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P048-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-04-30",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 243000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,100 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p95.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+          "accepted": [
+            "Biology",
+            "Bioengineering",
+            "Biomedical Engineering",
+            "Medicine",
+            "Pharmacology",
+            "Medical Science",
+            "Health Science",
+            "Veterinary Medicine"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+          "noteZh": "",
+          "noteEn": "Listed biology, biomedical, medical and health-related degree routes are distinct from competitive other-science assessment. Broad preparation is preferred; additional support/assessment for limited health training does not become an invented numeric GPA or mandatory named course list.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p95.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Listed biology, biomedical, medical and health-related degree routes are distinct from competitive other-science assessment. Broad preparation is preferred; additional support/assessment for limited health training does not become an invented numeric GPA or mandatory named course list.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p95.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P049",
+      "universityId": "HK-CITYU",
+      "name": "MSc Intelligent Construction and Project Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Construction-related degree or accepted equivalent academic/professional attainments. Employer support and three post-graduation industry years are preferences, not mandatory minima. This record represents the 30-credit MSc; the intermediate 24-credit diploma is not another master or a cheaper MSc option.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P049-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; dissertation elective includes an additional summer term",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 258000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,600 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded. MSc only; no 24-credit diploma pricing.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p52.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P049-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years; dissertation elective includes an additional summer term",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 258000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,600 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded. MSc only; no 24-credit diploma pricing.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p52.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+          "accepted": [
+            "Architecture",
+            "Building",
+            "Building Surveying",
+            "Quantity Surveying",
+            "Building Services Engineering",
+            "Civil Engineering",
+            "Structural Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+          "noteZh": "",
+          "noteEn": "Construction-related degree or accepted equivalent academic/professional attainments. Employer support and three post-graduation industry years are preferences, not mandatory minima. This record represents the 30-credit MSc; the intermediate 24-credit diploma is not another master or a cheaper MSc option.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p52.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Construction-related degree or accepted equivalent academic/professional attainments. Employer support and three post-graduation industry years are preferences, not mandatory minima. This record represents the 30-credit MSc; the intermediate 24-credit diploma is not another master or a cheaper MSc option.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p52.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P050",
+      "universityId": "HK-CITYU",
+      "name": "MSc Intelligent Semiconductor Manufacturing",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Engineering/science degree, eligible professional membership, or accepted academic/professional attainments. No numeric work-year or entry GPA minimum established. Professional membership cannot be automatically confirmed from the form.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P050-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 270000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 9,000 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p86.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P050-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 270000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 9,000 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p86.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+          "noteZh": "",
+          "noteEn": "Engineering/science degree, eligible professional membership, or accepted academic/professional attainments. No numeric work-year or entry GPA minimum established. Professional membership cannot be automatically confirmed from the form.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p86.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering/science degree, eligible professional membership, or accepted academic/professional attainments. No numeric work-year or entry GPA minimum established. Professional membership cannot be automatically confirmed from the form.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p86.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P053",
+      "universityId": "HK-CITYU",
+      "name": "MSc Materials Science and Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Relevant physical-science/engineering degree or eligibility for graduate membership of a relevant professional institution. Browser body and fee title use Materials Science and Engineering; older page metadata uses Materials Engineering and Nanotechnology. Keep one existing code/ID; no duplicate degree or assumed professional entitlement.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P053-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 249000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,300 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p58.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P053-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 249000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,300 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p58.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+          "accepted": [
+            "Physics",
+            "Chemistry",
+            "Civil Engineering",
+            "Electrical Engineering",
+            "Electronic Engineering",
+            "Manufacturing Engineering",
+            "Mechanical Engineering",
+            "Materials Science",
+            "Materials Technology",
+            "Building"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+          "noteZh": "",
+          "noteEn": "Relevant physical-science/engineering degree or eligibility for graduate membership of a relevant professional institution. Browser body and fee title use Materials Science and Engineering; older page metadata uses Materials Engineering and Nanotechnology. Keep one existing code/ID; no duplicate degree or assumed professional entitlement.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p58.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Relevant physical-science/engineering degree or eligibility for graduate membership of a relevant professional institution. Browser body and fee title use Materials Science and Engineering; older page metadata uses Materials Engineering and Nanotechnology. Keep one existing code/ID; no duplicate degree or assumed professional entitlement.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p58.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P054",
+      "universityId": "HK-CITYU",
+      "name": "MSc Mechanical Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Mechanical or related engineering academic background is required; final-year applicants may apply if the qualification is obtained before the programme starts. Full-time dissertation study normally takes 1.5 years rather than one; no extra degree or automatic additional-credit charge is created.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P054-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; 1.5 years with dissertation",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 258000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,600 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p66.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P054-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 258000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,600 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p66.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+          "accepted": [
+            "Mechanical Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+          "noteZh": "",
+          "noteEn": "Mechanical or related engineering academic background is required; final-year applicants may apply if the qualification is obtained before the programme starts. Full-time dissertation study normally takes 1.5 years rather than one; no extra degree or automatic additional-credit charge is created.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p66.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Mechanical or related engineering academic background is required; final-year applicants may apply if the qualification is obtained before the programme starts. Full-time dissertation study normally takes 1.5 years rather than one; no extra degree or automatic additional-credit charge is created.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p66.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P055",
+      "universityId": "HK-CITYU",
+      "name": "MSc Neuroscience",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Listed life-science, bioengineering, psychology, medical and biostatistics backgrounds or related disciplines. Broad prior preparation is preferred; limited health-related training requires assessment. No automatic course equivalence or numeric undergraduate GPA is established.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P055-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-04-30",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 228000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,600 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p98.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P055-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-04-30",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 228000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,600 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p98.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+          "accepted": [
+            "Life Science",
+            "Bioengineering",
+            "Psychology",
+            "Medicine",
+            "Dentistry",
+            "Veterinary Medicine",
+            "Biostatistics"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+          "noteZh": "",
+          "noteEn": "Listed life-science, bioengineering, psychology, medical and biostatistics backgrounds or related disciplines. Broad prior preparation is preferred; limited health-related training requires assessment. No automatic course equivalence or numeric undergraduate GPA is established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. The consulted Neuroscience section does not establish the other programmes' IELTS 6.0/new TOEFL 4 interview trigger; interview and evidence acceptance remain assessed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p98.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Listed life-science, bioengineering, psychology, medical and biostatistics backgrounds or related disciplines. Broad prior preparation is preferred; limited health-related training requires assessment. No automatic course equivalence or numeric undergraduate GPA is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p98.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P057",
+      "universityId": "HK-CITYU",
+      "name": "MSc Physics with Data Modelling and Quantum Technologies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 engineering/science observation. Relevant science/engineering degree or accepted academic/professional attainments. This is one physics MSc, not separate data-modelling and quantum degrees. Subject relevance and equivalence require assessment.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P057-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 213000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,100 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p50.htm",
+            "checkedOn": "2026-10-30"
+          }
+        },
+        {
+          "id": "HK-CITYU-P057-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "currency": "HKD",
+          "tuition": 213000,
+          "tuitionEstimate": true,
+          "applicationFee": 600,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 7,100 per credit, for students admitted in 2027/28. Cohort rate applies through completion. Not an all-in quote; extra credits, other charges and living costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p50.htm",
+            "checkedOn": "2026-10-30"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or assessed academic alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+          "accepted": [
+            "Science",
+            "Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific qualification and study conditions",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+          "noteZh": "",
+          "noteEn": "Relevant science/engineering degree or accepted academic/professional attainments. This is one physics MSc, not separate data-modelling and quantum degrees. Subject relevance and equivalence require assessment.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+          "noteZh": "",
+          "noteEn": "Non-English-medium qualification evidence, CET-6 450, equivalents and any accepted waiver require university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded. The central 2027 notice anchors IELTS/TOEFL validity at 15 September 2024. IELTS 6.0/new TOEFL 4 triggers an English interview; any stated report-based exception requires evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, documents and current availability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+          "noteZh": "",
+          "noteEn": "Recognition, evidence, applicant status and study permission remain for CityUHK confirmation. Published fee estimates and dates do not establish personal eligibility or a live-open portal.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50",
+          "purpose": "Rendered 2027 programme identity, labelled deadline, modes, minimum credits and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p50.htm",
+          "purpose": "Rendered 2027/28 cohort per-credit fee schedule",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027/28 opening and explicit test-date validity anchor",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/faq",
+          "purpose": "2027/28 HKD 600 application fee per programme choice, separate from tuition",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry with explicit 2027/28 admitted-cohort fee schedule.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Relevant science/engineering degree or accepted academic/professional attainments. This is one physics MSc, not separate data-modelling and quantum degrees. Subject relevance and equivalence require assessment.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric undergraduate entry GPA established. Post-enrolment CGPA is not an admission threshold.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme scores retain test-version dates, accepted evidence and individual applicability.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Minimum-credit calculation is an estimate, not a fixed personal bill.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p50.htm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Programme page records a shared local/non-local date. Rolling review, capacity, exact cutoff handling and live availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50"
+        }
+      },
+      "researchBatch": "cityu-engineering-science-2026-10-30"
     }
   ]
 }

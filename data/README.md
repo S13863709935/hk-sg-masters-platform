@@ -2,6 +2,10 @@
 
 ## 当前本地状态（2026-10-30）
 
+CityU 工程与科学批次新增 14 条部分记录／27 个学习选项。全库 109 条部分观察／764 条目录线索，总库 873／默认 870；CityU 38 条部分观察／24 条线索。14 份费用表均为 2027/28 队列每学分标准，按具体硕士最低学分计算并标明估算；新增申请费依据单独来自官方 FAQ，每个普通项目选择 HKD 600，不加进学费。建筑／规划、工程延长选项、论文、较小学位及化学拟新增方向分开说明。能源项目中央页 5 月 31 日与院系页 3 月 31 日冲突，日期留空；神经科学 6.5／4.5 不套用其他项目 6.0／4。原 95 条对象、33 组／68 类申请者资料及其他来源层保留。完整要求及独立复核均为 0，维护单元 153。见 [来源与边界](research/cityu-engineering-science-observation-2026-10-30.json)、[质量表](../docs/research/cityu-engineering-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-cityu-engineering.md)和[本地批次记录](../docs/progress/local-cityu-engineering-2026-10-30.md)。
+
+以下是同日较早批次，保留当时输入与数量：
+
 CityU 字段补齐后：部分项目页记录 95／目录线索 778，总库 873／默认 870；CityU 24 条部分观察／38 条线索。网页端实际读取 22 份当期学费表，21 条旧记录新增费用依据，20 条可使用条件式总价或最低学分估算。15 个新学习上下文／30 个类别将价格与截止日分开绑定，全库 33 组／68 类别，维护单元 139。Financial Mathematics and Statistics 的 30／31 学分及逐年费率不简化为个人总价；P17 正文的新名称仍待批准，旧名称费率只记为待确认观察。完整要求、独立复核仍为 0。见 [字段观察](research/cityu-fields-reconciliation-observation-2026-10-30.json)、[质量表](../docs/research/cityu-fields-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-cityu-fields.md)及[验收记录](../docs/progress/local-cityu-fields-2026-10-30.md)。
 
 以下是同日较早批次，保留当时输入与数量：
