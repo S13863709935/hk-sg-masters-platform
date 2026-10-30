@@ -13772,7 +13772,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P001-2027-FT",
@@ -13783,9 +13783,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-02-28",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 348000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 11,600 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p10.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P001-2027-PT",
@@ -13796,9 +13802,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-02-28",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 348000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 11,600 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p10.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -13861,6 +13873,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p10.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -13885,9 +13902,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p10.htm"
         },
         "deadline": {
           "status": "known",
@@ -13919,7 +13936,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P002-2027-FT",
@@ -13932,7 +13949,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "Choose the university-confirmed local/non-local category; no default category price. Published 2027/28 fees exclude other expenses.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P002-2027-PT",
@@ -13945,7 +13967,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "Choose the university-confirmed local/non-local category; no default category price. Published 2027/28 fees exclude other expenses.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -14008,6 +14035,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -14032,9 +14064,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Published category programme totals, excluding additional travel/accommodation costs.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm"
         },
         "deadline": {
           "status": "known",
@@ -14066,7 +14098,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P005-2027-FT",
@@ -14077,9 +14109,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-03-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 402000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,400 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p15.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P005-2027-PT",
@@ -14090,9 +14128,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-03-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 402000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,400 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p15.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -14155,6 +14199,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p15.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -14179,9 +14228,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p15.htm"
         },
         "deadline": {
           "status": "known",
@@ -14213,7 +14262,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P006-2027-FT",
@@ -14223,10 +14272,16 @@
           "academicYear": "2027",
           "applicationOpen": "2026-09-15",
           "deadline": null,
-          "deadlineNote": "Differing deadline values recorded: 2027-07-31, 2027-05-31. Applicant applicability is unresolved; no deadline is selected.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "deadlineNote": "Select a university-confirmed local/non-local category to resolve the labelled deadline. Exact cutoff time and live portal availability have not been checked.",
+          "currency": "HKD",
+          "tuition": 306000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 10,200 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p16.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P006-2027-PT",
@@ -14236,10 +14291,16 @@
           "academicYear": "2027",
           "applicationOpen": "2026-09-15",
           "deadline": null,
-          "deadlineNote": "Differing deadline values recorded: 2027-07-31, 2027-05-31. Applicant applicability is unresolved; no deadline is selected.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "deadlineNote": "Select a university-confirmed local/non-local category to resolve the labelled deadline. Exact cutoff time and live portal availability have not been checked.",
+          "currency": "HKD",
+          "tuition": 306000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 10,200 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p16.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -14302,6 +14363,16 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p16.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes",
+          "purpose": "Explicit local/non-local labels for this programme deadline and minimum credits",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -14326,14 +14397,14 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p16.htm"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Differing deadline values recorded: 2027-07-31, 2027-05-31. Applicant applicability is unresolved; no deadline is selected.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+          "status": "known",
+          "noteEn": "Explicit local/non-local deadline labels are recorded; select a university-confirmed category. No universal cutoff is assigned.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
         },
         "independentReview": {
           "status": "unknown",
@@ -14360,7 +14431,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P016-2027-FT",
@@ -14370,10 +14441,16 @@
           "academicYear": "2027",
           "applicationOpen": "2026-09-15",
           "deadline": null,
-          "deadlineNote": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "deadlineNote": "Select a university-confirmed local/non-local category to resolve the labelled deadline. Exact cutoff time and live portal availability have not been checked.",
+          "currency": "HKD",
+          "tuition": 399000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,300 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p07.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P016-2027-PT",
@@ -14383,10 +14460,16 @@
           "academicYear": "2027",
           "applicationOpen": "2026-09-15",
           "deadline": null,
-          "deadlineNote": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "deadlineNote": "Select a university-confirmed local/non-local category to resolve the labelled deadline. Exact cutoff time and live portal availability have not been checked.",
+          "currency": "HKD",
+          "tuition": 399000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,300 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p07.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -14456,6 +14539,16 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p07.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes",
+          "purpose": "Explicit local/non-local labels for this programme deadline and minimum credits",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -14480,14 +14573,14 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p07.htm"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+          "status": "known",
+          "noteEn": "Explicit local/non-local deadline labels are recorded; select a university-confirmed category. No universal cutoff is assigned.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
         },
         "independentReview": {
           "status": "unknown",
@@ -14514,7 +14607,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P019-2027-FT",
@@ -14525,9 +14618,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-02-28",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 348000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 11,600 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p02.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P019-2027-PT",
@@ -14538,9 +14637,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-02-28",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 348000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 11,600 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p02.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -14615,6 +14720,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p02.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -14639,9 +14749,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p02.htm"
         },
         "deadline": {
           "status": "known",
@@ -14673,7 +14783,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P030-2027-FT",
@@ -14684,9 +14794,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-01-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 408000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,600 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p89.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P030-2027-PT",
@@ -14697,9 +14813,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-01-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 408000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,600 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p89.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -14771,6 +14893,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p89.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -14795,9 +14922,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p89.htm"
         },
         "deadline": {
           "status": "known",
@@ -14829,7 +14956,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P031-2027-FT",
@@ -14842,7 +14969,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "Choose the university-confirmed local/non-local category; no default category price. Published 2027/28 fees exclude other expenses.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p75.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P031-2027-PT",
@@ -14855,7 +14987,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "Choose the university-confirmed local/non-local category; no default category price. Published 2027/28 fees exclude other expenses.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p75.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -14932,6 +15069,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p75.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -14956,9 +15098,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p75.htm"
         },
         "deadline": {
           "status": "known",
@@ -14990,7 +15132,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P032-2027-FT",
@@ -15003,7 +15145,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "Choose the university-confirmed local/non-local category; no default category price. Published 2027/28 fees exclude other expenses.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p79.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P032-2027-PT",
@@ -15016,7 +15163,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "Choose the university-confirmed local/non-local category; no default category price. Published 2027/28 fees exclude other expenses.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p79.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -15056,6 +15208,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p79.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -15080,9 +15237,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p79.htm"
         },
         "deadline": {
           "status": "known",
@@ -15114,7 +15271,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P033-2027-FT",
@@ -15125,9 +15282,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-05-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 393000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,100 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p85.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P033-2027-PT",
@@ -15138,9 +15301,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-05-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 393000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,100 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p85.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -15203,6 +15372,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p85.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -15227,9 +15401,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p85.htm"
         },
         "deadline": {
           "status": "known",
@@ -15261,7 +15435,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P035-2027-FT",
@@ -15272,9 +15446,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-01-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 243000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,100 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p97.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P035-2027-PT",
@@ -15285,9 +15465,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-01-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 243000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 8,100 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p97.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -15350,6 +15536,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p97.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -15374,9 +15565,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p97.htm"
         },
         "deadline": {
           "status": "known",
@@ -15408,7 +15599,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P039-2027-FT",
@@ -15419,9 +15610,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-02-28",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 279000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 9,300 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded. Ordinary 30-credit option only; do not use the 45-credit Industrial Research/Business Management options.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p59.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P039-2027-PT",
@@ -15432,9 +15629,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-02-28",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 279000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 9,300 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded. Ordinary 30-credit option only; do not use the 45-credit Industrial Research/Business Management options.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p59.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -15516,6 +15719,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p59.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -15540,9 +15748,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p59.htm"
         },
         "deadline": {
           "status": "known",
@@ -15574,7 +15782,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P040-2027-FT",
@@ -15587,7 +15795,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "Choose the university-confirmed local/non-local category; no default category price. Published 2027/28 fees exclude other expenses.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p91.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P040-2027-PT",
@@ -15600,7 +15813,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "Choose the university-confirmed local/non-local category; no default category price. Published 2027/28 fees exclude other expenses.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p91.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -15677,6 +15895,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p91.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -15701,9 +15924,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p91.htm"
         },
         "deadline": {
           "status": "known",
@@ -15735,7 +15958,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P041-2027-FT",
@@ -15746,9 +15969,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-03-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 342000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 11,400 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p70.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P041-2027-PT",
@@ -15759,9 +15988,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-03-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 342000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 11,400 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p70.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -15836,6 +16071,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p70.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -15860,9 +16100,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p70.htm"
         },
         "deadline": {
           "status": "known",
@@ -15894,7 +16134,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P045-2027-FT",
@@ -15905,9 +16145,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-03-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 402000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,400 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p04.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P045-2027-PT",
@@ -15918,9 +16164,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-03-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 402000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,400 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p04.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -15983,6 +16235,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p04.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -16007,9 +16264,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p04.htm"
         },
         "deadline": {
           "status": "known",
@@ -16041,7 +16298,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P046-2027-FT",
@@ -16054,7 +16311,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "2027/28 admitted cohort: 30 or 31 credits. Published rates change by academic year: HKD 9,100 (2027/28), 9,600 (2028/29), 10,100 (2029/30), 10,600 (2030/31), 11,100 (2031/32 and later). Credit route and year-by-year load are unconfirmed; no personal total or one-rate-for-all-years estimate is assigned.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p68.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P046-2027-PT",
@@ -16067,7 +16329,12 @@
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
           "currency": null,
           "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "feeBasis": "2027/28 admitted cohort: 30 or 31 credits. Published rates change by academic year: HKD 9,100 (2027/28), 9,600 (2028/29), 10,100 (2029/30), 10,600 (2030/31), 11,100 (2031/32 and later). Credit route and year-by-year load are unconfirmed; no personal total or one-rate-for-all-years estimate is assigned.",
+          "applicationFee": null,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p68.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -16148,6 +16415,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p68.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -16173,8 +16445,8 @@
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p68.htm"
         },
         "deadline": {
           "status": "known",
@@ -16206,7 +16478,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P047-2027-FT",
@@ -16217,9 +16489,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2026-12-31",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 384000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 12,800 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p94.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -16300,6 +16578,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p94.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -16324,9 +16607,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p94.htm"
         },
         "deadline": {
           "status": "known",
@@ -16358,7 +16641,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P051-2027-FT",
@@ -16368,10 +16651,16 @@
           "academicYear": "2027",
           "applicationOpen": "2026-09-15",
           "deadline": null,
-          "deadlineNote": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "deadlineNote": "Select a university-confirmed local/non-local category to resolve the labelled deadline. Exact cutoff time and live portal availability have not been checked.",
+          "currency": "HKD",
+          "tuition": 399000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 13,300 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p19.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -16434,6 +16723,16 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p19.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes",
+          "purpose": "Explicit local/non-local labels for this programme deadline and minimum credits",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -16458,14 +16757,14 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p19.htm"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+          "status": "known",
+          "noteEn": "Explicit local/non-local deadline labels are recorded; select a university-confirmed category. No universal cutoff is assigned.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
         },
         "independentReview": {
           "status": "unknown",
@@ -16492,7 +16791,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P052-2027-FT",
@@ -16502,10 +16801,16 @@
           "academicYear": "2027",
           "applicationOpen": "2026-09-15",
           "deadline": null,
-          "deadlineNote": "Differing deadline values recorded: 2027-06-30, 2027-06-02. Applicant applicability is unresolved; no deadline is selected.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "deadlineNote": "Select a university-confirmed local/non-local category to resolve the labelled deadline. Exact cutoff time and live portal availability have not been checked.",
+          "currency": "HKD",
+          "tuition": 379500,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 12,650 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p18.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P052-2027-PT",
@@ -16515,10 +16820,16 @@
           "academicYear": "2027",
           "applicationOpen": "2026-09-15",
           "deadline": null,
-          "deadlineNote": "Differing deadline values recorded: 2027-06-30, 2027-06-02. Applicant applicability is unresolved; no deadline is selected.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "deadlineNote": "Select a university-confirmed local/non-local category to resolve the labelled deadline. Exact cutoff time and live portal availability have not been checked.",
+          "currency": "HKD",
+          "tuition": 379500,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 12,650 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p18.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -16581,6 +16892,16 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p18.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes",
+          "purpose": "Explicit local/non-local labels for this programme deadline and minimum credits",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -16605,14 +16926,14 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p18.htm"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Differing deadline values recorded: 2027-06-30, 2027-06-02. Applicant applicability is unresolved; no deadline is selected.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+          "status": "known",
+          "noteEn": "Explicit local/non-local deadline labels are recorded; select a university-confirmed category. No universal cutoff is assigned.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
         },
         "independentReview": {
           "status": "unknown",
@@ -16639,7 +16960,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P056-2027-FT",
@@ -16650,9 +16971,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-04-30",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 330000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 11,000 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p09.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P056-2027-PT",
@@ -16663,9 +16990,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-04-30",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 330000,
+          "feeBasis": "Minimum-credit estimate: 30 credits × HKD 11,000 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p09.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -16728,6 +17061,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p09.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -16752,9 +17090,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p09.htm"
         },
         "deadline": {
           "status": "known",
@@ -16786,7 +17124,7 @@
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "notesEn": "Partial 2027 programme observation. Current fee evidence is scoped to 2027/28; any category, credit-path or annual-rate conditions must be retained. Complete requirements and independent review remain pending.",
       "offerings": [
         {
           "id": "HK-CITYU-P058-2027-FT",
@@ -16797,9 +17135,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-02-28",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 428400,
+          "feeBasis": "Minimum-credit estimate: 36 credits × HKD 11,900 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p88.htm",
+            "checkedOn": "2026-10-30"
+          }
         },
         {
           "id": "HK-CITYU-P058-2027-PT",
@@ -16810,9 +17154,15 @@
           "applicationOpen": "2026-09-15",
           "deadline": "2027-02-28",
           "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
-          "currency": null,
-          "tuition": null,
-          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+          "currency": "HKD",
+          "tuition": 428400,
+          "feeBasis": "Minimum-credit estimate: 36 credits × HKD 11,900 per credit, for students admitted in 2027/28. Not a fixed all-in quote; extra credits, separate charges and living costs are excluded.",
+          "applicationFee": null,
+          "tuitionEstimate": true,
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p88.htm",
+            "checkedOn": "2026-10-30"
+          }
         }
       ],
       "rules": [
@@ -16871,6 +17221,11 @@
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
           "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p88.htm",
+          "purpose": "Rendered 2027/28 tuition schedule; per-credit basis and category/year differences only",
+          "checkedOn": "2026-10-30"
         }
       ],
       "fieldStatus": {
@@ -16895,9 +17250,9 @@
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+          "status": "known",
+          "noteEn": "2027/28 fee schedule read in browser. Per-credit rates; derived minimum-credit totals are estimates, not all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p88.htm"
         },
         "deadline": {
           "status": "known",
@@ -16911,6 +17266,178 @@
         }
       },
       "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P007",
+      "universityId": "HK-CITYU",
+      "name": "MSc Digital Commerce and Computing",
+      "award": "MSc",
+      "area": "Computing",
+      "faculty": "College of Computing",
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17",
+      "verification": "programme_page_checked",
+      "sourceStatus": "Partial official-source observation; title approval and fee applicability pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "P17 body and college list display Digital Commerce and Computing; page metadata, department and fee schedule still say Electronic Commerce. The university explicitly says the new title is subject to approval. One existing ID is retained; approval and fee applicability remain unresolved.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P007-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Both local/non-local labels record the same date; exact cutoff time, rolling capacity and live availability need confirmation.",
+          "currency": null,
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "The 2027/28 P17 schedule still names Electronic Commerce. Its local/non-local per-credit rates are retained only as an unresolved observation; no amount is assigned to the pending new title."
+        },
+        {
+          "id": "HK-CITYU-P007-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Both local/non-local labels record the same date; exact cutoff time, rolling capacity and live availability need confirmation.",
+          "currency": null,
+          "tuition": null,
+          "applicationFee": null,
+          "feeBasis": "The 2027/28 P17 schedule still names Electronic Commerce. Its local/non-local per-credit rates are retained only as an unresolved observation; no amount is assigned to the pending new title."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted alternative",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published computing fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17",
+          "accepted": [
+            "Computer Science",
+            "Information Systems",
+            "Information Technology"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Related subjects and alternative qualifications",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17",
+          "noteZh": "",
+          "noteEn": "Related fields and accepted alternative qualifications with substantial IT experience need assessment; no mandatory total-work-year gate is inferred."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and interview",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17",
+          "noteZh": "",
+          "noteEn": "CET-6 450 and English-medium evidence need assessment. IELTS 6.0/new TOEFL 4 can trigger an English interview. Excluded formats and any interview exception require evidence; score comparison does not establish a waiver."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme title approval and fee applicability",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17",
+          "noteZh": "",
+          "noteEn": "The displayed new title is subject to university approval. Older page/department and fee titles do not establish approval or fee transfer; verify the final title and applicable fees. No admission or price guarantee is made."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17",
+          "purpose": "P17 current body title, explicit approval footnote, 2027 entry and selected requirements",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes",
+          "purpose": "P17 code, new title and 33 credits, shared deadline labels",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p17.htm",
+          "purpose": "Rendered 2027/28 schedule still names Electronic Commerce; applicability to pending title is unresolved",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027 entry is explicit; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Computing route plus related/equivalent alternatives need university assessment.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published scores retain applicability, validity, alternative evidence and interview conditions.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Old fee title versus pending new title is unresolved; no numeric price assigned.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Both labelled categories show 31 May 2027; no exact cutoff time or portal claim.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirement set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17"
+        }
+      },
+      "researchBatch": "cityu-fields-reconciliation-2026-10-30"
     }
   ]
 }

@@ -2,6 +2,10 @@
 
 ## 当前本地状态（2026-10-30）
 
+CityU 字段补齐后：部分项目页记录 95／目录线索 778，总库 873／默认 870；CityU 24 条部分观察／38 条线索。网页端实际读取 22 份当期学费表，21 条旧记录新增费用依据，20 条可使用条件式总价或最低学分估算。15 个新学习上下文／30 个类别将价格与截止日分开绑定，全库 33 组／68 类别，维护单元 139。Financial Mathematics and Statistics 的 30／31 学分及逐年费率不简化为个人总价；P17 正文的新名称仍待批准，旧名称费率只记为待确认观察。完整要求、独立复核仍为 0。见 [字段观察](research/cityu-fields-reconciliation-observation-2026-10-30.json)、[质量表](../docs/research/cityu-fields-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-cityu-fields.md)及[验收记录](../docs/progress/local-cityu-fields-2026-10-30.md)。
+
+以下是同日较早批次，保留当时输入与数量：
+
 CityU 计算、数据及商科批次新增 21 条部分项目页记录：总库 873／默认 870，部分记录 94／目录线索 779；CityU 保留 62 条，其中 23 条有部分观察、39 条仍为线索。22 个候选中的 P17 因项目名称差异暂缓，没有借用要求。新记录学费全部未赋值；4 个项目不同截止日的适用对象未确认，不选定通用截止。语言分数、日期锚点、CET-6 手动说明及面试条件按各项目保留，原 73 条对象、20 个核心 ID 和其他来源层不变。完整要求与独立复核仍为 0。见 [CityU 质量表](../docs/research/cityu-computing-business-quality-2026-10-30.md)、[批次观察](research/cityu-computing-business-observation-2026-10-30.json)、[123 单元维护清单](../docs/research/source-review-queue-2026-10-30-cityu-batch.md)和[核心验收](../docs/research/core-pilot-acceptance-2026-10-30-cityu-batch.md)。
 
 以下保留同日较早批次的当时输入与数量：

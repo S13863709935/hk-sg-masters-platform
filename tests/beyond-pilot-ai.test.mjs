@@ -43,7 +43,7 @@ test('HKUST shared programme tuition and mode instalments do not require an arti
     assert.match(o.feeBasis, i ? /four instalments/ : /two instalments/); assert.match(o.feeBasis, /not an annual fee multiplied by years/);
   }
   assert.equal([...contexts.values()].some(c => [hk.id, nt.id].includes(c.programmeId)), false);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 });
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 33, categories: 68, peerReviewed: 0 });
 });
 
 test('HKUST AI keeps its own common December/March rounds and unknown opening instead of copying DISC or CIEM', () => {
@@ -146,14 +146,14 @@ test('previously expanded file-backed catalogues load first AI checks beneath di
     for (const p of [hk, nt]) assert.equal(db.get(p.id).verification, 'catalogue_seed');
     db.close(); db = null; writeFileSync(checkedPath, JSON.stringify(batch)); db = new CatalogueStore(path, { ...options, checkedPath });
     for (const [i, p] of [hk, nt].entries()) { assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory[i]); }
-    assert.deepEqual(db.get('HK-HKUST-P001'), prior); assert.equal(db.quality().checked, 94); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
+    assert.deepEqual(db.get('HK-HKUST-P001'), prior); assert.equal(db.quality().checked, 95); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
 
 test('AI lookup, matching and exporting remain read-only with unchanged record and category totals', async () => {
   const before = JSON.stringify(store.all()); for (const p of [hk, nt]) { programmeTimeline(p, '2026-10-24'); matchProgramme(p, profile); }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 94);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 95);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 33, categories: 68, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
   assert.equal(JSON.stringify(store.all()), before);
 });

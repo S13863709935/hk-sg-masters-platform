@@ -44,7 +44,7 @@ $env:PORT = '3103'
 
 `data/catalogue.json` 是从原始工作簿提取的 175 条种子，保留了旧稿的状态和备注。旧稿内容标签可能不准确，不作为本科专业门槛依据。旧要求备注不参与自动判断。
 
-`data/checked-programmes.json` 当前保存 94 条部分项目页记录，独立复核及完整要求仍为 0。CityU 本批新加 21 条，沿用原目录身份，不改变原有 73 条观察。CityU 保留的 62 条记录中 23 条有部分详情、39 条仍为目录线索；P17 名称关系、四组截止日适用对象及新记录全部学费待核对。各项目的语言门槛、专业替代及面试条件分开记录，不自动认定同等资格、豁免或完整达标。873 条总库／870 条默认浏览、20 个原试点 ID 和分类／路径层保持原样。当前入口见 [数据说明](../data/README.md)和 [CityU 批次记录](progress/local-cityu-computing-business-2026-10-30.md)。
+`data/checked-programmes.json` 当前保存 95 条部分项目页记录，完整要求及独立复核仍为 0。本次只更新 CityU 上一批 21 条费用／日期字段，新增 P17 的部分详情；原始目录身份、20 个核心 ID 和其他学校的条件不变。CityU 24 条有部分详情，38 条仍为线索。类别价格／日期必须选择对应大学类别；P17 名称批准与旧费率适用、Financial Mathematics and Statistics 的分年负载仍待确认。当前入口见 [数据说明](../data/README.md)和 [CityU 字段批次](progress/local-cityu-fields-2026-10-30.md)。
 
 `data/route-programmes.json` 另存方向级快照：NTU 网络安全两个方向、HKU CS 普通路径和两条 Delta X 路径、SMU MQF 两个选项及 LLM 四条路径，共 4 组／11 条路径，均为部分要求、独立复核 0。各自保留原查阅日期；Delta X 的跨地区交付范围仍待确认。路径不增加父项目数量、不覆盖另一方向的条件，统计单独显示。
 
@@ -108,7 +108,7 @@ node scripts/import-data.mjs path/to/checked-batch.json
 
 该选择只筛选已记录事实，不证明该批次／模式的完整入学条件已核实。因此背景检查另加一项“批次和模式适用性待确认”，不会据此启用推荐分档。实现边界见 [study-option-selection.md](study-option-selection.md)。
 
-大学专属申请者类别层现有教大 MPPM January／September 2027、CityU Applied Economics、HKU CS 以及 HKBU Communication／Business Management September 2027 全日制的具体上下文，以及科大 DISC／CIEM September 2027 全日制／兼读制和 NUS DSML August 2027 全日制／兼读制，当前文件合计 18 组上下文／38 类别（2026-10-30），具体适用范围以每组绑定为准。NUS 每个学制只有普通国际、符合返还条件的国际校友和公民／PR 三种有证据的费用情形；不推断身份或资助状态，不把有资助的本地学生套入无资助优惠，费用 PDF 视觉复核仍待完成。科大两类最终截止不同，未确认开放日；旧收藏只选学制时仍须明确选择类别。CIEM 二月截止相同，不使用九月分类轮次；SMU 未确认精确截止及杂费模型，不创建虚构分类上下文。教大九月有自己的中央日程及新申请费，不沿用一月值。浸大传播学兼读制适用性仍待确认，没有创建其非本地类别。不能把这些类别规则推广到其他项目、模式或入学批次。未选类别不默认套用非本地价格；选中后分别显示该类别有证据的学费、单独申请费、截止日期和对应来源日期，未知费用仍留空。不能从人在新加坡、国籍或背景资料推断本地身份。更换方向或批次会清除当前类别，但不会自动覆盖主动保存的选项；未主动保存时刷新会重置。选择不写入历史地址，也不与成绩资料一起自动保存。独立复核和完整性缺口不变。实现契约及最早示例见 [applicant-category-selection.md](applicant-category-selection.md)，当前覆盖以 Data workspace 和源文件为准。
+大学专属申请者类别层现有教大 MPPM January／September 2027、CityU Applied Economics、HKU CS 以及 HKBU Communication／Business Management September 2027 全日制的具体上下文，以及科大 DISC／CIEM September 2027 全日制／兼读制和 NUS DSML August 2027 全日制／兼读制，本批新增 CityU MBA、AI、AI for Sciences、Cybersecurity 四组的分类费用及 DTTI、Global Business Management、Management and Innovation、Marketing 四组的分类截止日（合计 15 个学习选项）；当前文件合计 33 组上下文／68 类别（2026-10-30），具体适用范围以每组绑定为准。NUS 每个学制只有普通国际、符合返还条件的国际校友和公民／PR 三种有证据的费用情形；不推断身份或资助状态，不把有资助的本地学生套入无资助优惠，费用 PDF 视觉复核仍待完成。科大两类最终截止不同，未确认开放日；旧收藏只选学制时仍须明确选择类别。CIEM 二月截止相同，不使用九月分类轮次；SMU 未确认精确截止及杂费模型，不创建虚构分类上下文。教大九月有自己的中央日程及新申请费，不沿用一月值。浸大传播学兼读制适用性仍待确认，没有创建其非本地类别。不能把这些类别规则推广到其他项目、模式或入学批次。未选类别不默认套用非本地价格；选中后分别显示该类别有证据的学费、单独申请费、截止日期和对应来源日期，未知费用仍留空。不能从人在新加坡、国籍或背景资料推断本地身份。更换方向或批次会清除当前类别，但不会自动覆盖主动保存的选项；未主动保存时刷新会重置。选择不写入历史地址，也不与成绩资料一起自动保存。独立复核和完整性缺口不变。实现契约及最早示例见 [applicant-category-selection.md](applicant-category-selection.md)，当前覆盖以 Data workspace 和源文件为准。
 
 ### 只读复核清单
 
@@ -123,9 +123,9 @@ node scripts/source-review-queue.mjs --as-of 2026-10-30
 node scripts/source-review-queue.mjs --as-of 2026-10-30 --format markdown
 ```
 
-日期必须明确指定；工具只读仓库 JSON，并在内存中组装来源，不打开 `data/local` 的日常数据库、不联网，也不自动写输出文件或修改复核状态。JSON 保留原查阅日、字段说明、人工条件、类别绑定及记录截止；Markdown 为便于人工操作的索引。94 条部分项目页记录、11 条路径、18 个申请人上下文共 123 个工作单元，不是 123 个项目。未公布 GPA 不当成零或一般缺失，未知条件不自动通过。绑定失配或晚于快照的类别证据不得产生可用价格日期；临近截止只用于安排核对，不证明申请开放。
+日期必须明确指定；工具只读仓库 JSON，并在内存中组装来源，不打开 `data/local` 的日常数据库、不联网，也不自动写输出文件或修改复核状态。JSON 保留原查阅日、字段说明、人工条件、类别绑定及记录截止；Markdown 为便于人工操作的索引。95 条部分项目页记录、11 条路径、33 个申请人上下文共 139 个工作单元，不是 139 个项目。未公布 GPA 不当成零或一般缺失，未知条件不自动通过。绑定失配或晚于快照的类别证据不得产生可用价格日期；临近截止只用于安排核对，不证明申请开放。
 
-当前为 [30 日工作清单](research/source-review-queue-2026-10-30-cityu-batch.md)，另保留 [24 日历史工作清单](research/source-review-queue-2026-10-24.md)。源文件变动后应另建新日期快照；输入指纹按 JSON 语义计算，不受换行或对象键序影响。原件视觉检查、真实人员复核、完整性评估及上线授权仍是独立事项。
+当前为 [30 日工作清单](research/source-review-queue-2026-10-30-cityu-fields.md)，另保留 [24 日历史工作清单](research/source-review-queue-2026-10-24.md)。源文件变动后应另建新日期快照；输入指纹按 JSON 语义计算，不受换行或对象键序影响。原件视觉检查、真实人员复核、完整性评估及上线授权仍是独立事项。
 
 ### 申请日期与学术条件分开
 

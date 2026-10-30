@@ -19,8 +19,8 @@ const english = (n, language) => matchProgramme(p(n), { ...background, language 
 
 test('21 existing IDs gain partial source evidence without creating new catalogue awards or changing the original pilot', () => {
   assert.equal(obs.programmeIds.length, 21); assert.equal(new Set(obs.programmeIds).size, 21);
-  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 94); assert.equal(q.browsable, 870); assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0);
-  assert.equal(store.all().filter(p => p.universityId === 'HK-CITYU' && p.verification === 'programme_page_checked').length, 23);
+  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 95); assert.equal(q.browsable, 870); assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0);
+  assert.equal(store.all().filter(p => p.universityId === 'HK-CITYU' && p.verification === 'programme_page_checked').length, 24);
   const batch = read('data/checked-programmes.json'); assert.equal(batch.pilotProgrammeIds.length, 20);
   assert.ok(obs.programmeIds.every(id => !batch.pilotProgrammeIds.includes(id)));
   for (const id of obs.programmeIds) {
@@ -31,17 +31,19 @@ test('21 existing IDs gain partial source evidence without creating new catalogu
   }
 });
 
-test('the P17 title conflict stays a catalogue lead and grouped/held alternatives do not inherit checked criteria', () => {
-  assert.equal(p(7).verification, 'catalogue_seed'); assert.equal(obs.held[0].programmeId, p(7).id);
-  for (const n of [3, 7, 9, 36, 37]) assert.equal(p(n).verification, 'catalogue_seed');
-  assert.equal(matchProgramme(p(7), background).recordedCriteria.total, 0);
+test('the first-batch P17 hold is retained historically and its later partial record keeps title approval unresolved', () => {
+  assert.equal(obs.held[0].programmeId, p(7).id);
+  for (const n of [3, 9, 36, 37]) assert.equal(p(n).verification, 'catalogue_seed');
+  assert.equal(p(7).verification, 'programme_page_checked');
+  assert.equal(matchProgramme(p(7), background).status, 'needs_confirmation');
+  assert.ok(p(7).rules.some(r => /title approval/i.test(r.labelEn) && r.kind === 'manual'));
   assert.equal(obs.programmeIds.includes(p(7).id), false);
 });
 
-test('one school batch upgrades 21 existing catalogue records over isolated restarts while preserving all 73 earlier records', () => {
+test('one school batch upgrades 21 existing catalogue records over isolated restarts while preserving other current records', () => {
   const batch = read('data/checked-programmes.json'), ids = new Set(obs.programmeIds);
   const earlierBatch = { ...batch, programmes: batch.programmes.filter(p => !ids.has(p.id)) };
-  assert.equal(earlierBatch.programmes.length, 73);
+  assert.equal(earlierBatch.programmes.length, batch.programmes.length - 21);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-cityu-batch-'));
   const path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json');
   let db;
@@ -49,13 +51,13 @@ test('one school batch upgrades 21 existing catalogue records over isolated rest
     writeFileSync(checkedPath, JSON.stringify(earlierBatch));
     db = new CatalogueStore(path, { ...options, checkedPath });
     const earlier = db.all().filter(p => !ids.has(p.id));
-    assert.equal(db.quality().checked, 73);
+    assert.equal(db.quality().checked, earlierBatch.programmes.length);
     for (const id of ids) assert.equal(db.get(id).verification, 'catalogue_seed');
     db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
-      assert.equal(db.quality().checked, 94);
+      assert.equal(db.quality().checked, 95);
       assert.deepEqual(db.all().filter(p => !ids.has(p.id)), earlier);
       assert.deepEqual(db.quality().sourceRefreshConflicts, []);
       for (const id of ids) assert.equal(db.get(id).verification, 'programme_page_checked');
@@ -107,21 +109,22 @@ test('preferences, stream choices and academic equivalents never become universa
   assert.equal(matchProgramme(p(16), { ...background, classification: 'unknown', gpa: 4 }).checks.find(c => c.kind === 'classification').status, 'unknown');
 });
 
-test('differing deadlines are withheld while shared dates and study-mode boundaries stay explicit', () => {
+test('universal deadlines remain withheld after category reconciliation and study-mode boundaries stay explicit', () => {
   for (const n of [6, 16, 51, 52]) {
-    assert.equal(p(n).fieldStatus.deadline.status, 'unknown');
+    assert.equal(p(n).fieldStatus.deadline.status, 'known');
     for (const o of p(n).offerings) assert.equal(o.deadline, null);
     assert.equal(programmeTimeline(p(n), '2026-10-30').state, 'dates_incomplete');
   }
   assert.equal(p(2).offerings[0].deadline, '2026-11-18'); assert.equal(p(47).offerings[0].deadline, '2026-12-31');
   assert.deepEqual(p(47).offerings.map(o => o.mode), ['Full-time']); assert.deepEqual(p(51).offerings.map(o => o.mode), ['Full-time']);
   assert.deepEqual(p(39).offerings.map(o => o.duration), ['Ordinary option: 1 year', 'Ordinary option: 2 years']);
-  for (const id of obs.programmeIds) for (const o of store.get(id).offerings) assert.equal(o.tuition, null);
+  for (const n of [2, 31, 32, 40, 46]) for (const o of p(n).offerings) assert.equal(o.tuition, null);
+  assert.equal(p(39).offerings[0].tuition, 279000);
 });
 
-test('maintenance units grow by 21 without inflating routes, applicant categories or imminent cutoffs', () => {
-  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, 94); assert.equal(q.counts.remainingCatalogueLeads, 779);
-  assert.equal(q.counts.reviewUnits, 123); assert.equal(q.counts.routeRecords, 11); assert.equal(q.counts.applicantContexts, 18);
+test('current maintenance units distinguish later category evidence from unchanged routes and imminent cutoffs', () => {
+  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, 95); assert.equal(q.counts.remainingCatalogueLeads, 778);
+  assert.equal(q.counts.reviewUnits, 139); assert.equal(q.counts.routeRecords, 11); assert.equal(q.counts.applicantContexts, 33);
   assert.equal(q.counts.nearCutoffUnits, 2); assert.equal(q.counts.staleApplicantContexts, 0);
 });
 
@@ -132,7 +135,7 @@ test.after(async () => { await new Promise(resolve => app.close(resolve)); store
 const get = async path => { const r = await fetch(url + path); assert.equal(r.status, 200); return r.json(); };
 
 test('real APIs expose checked details and restore new choices without silently substituting retired lead choices', async () => {
-  const listing = await get('/api/catalogue?school=HK-CITYU&verification=programme_page_checked&limit=100'); assert.equal(listing.total, 23);
+  const listing = await get('/api/catalogue?school=HK-CITYU&verification=programme_page_checked&limit=100'); assert.equal(listing.total, 24);
   const id = p(31).id, offering = p(31).offerings[0].id;
   const detail = await get(`/api/programmes/${id}?offering=${offering}`); assert.equal(detail.selectedOffering.id, offering); assert.equal(detail.offerings[0].tuition, null);
   const original = [...read('data/catalogue.json').programmes, ...read('data/catalogue-expansion.json').programmes].find(p => p.id === id);

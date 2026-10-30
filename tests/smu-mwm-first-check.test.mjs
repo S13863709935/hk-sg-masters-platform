@@ -80,7 +80,7 @@ test('deadline-only observations preserve old whole-record dates and round/intak
   const spring = resolveProgramme(store.get(ci.programmeId), routes, undefined, ci.offeringId, undefined, contexts);
   assert.equal(spring.offerings[0].mode, 'Part-time'); assert.equal(spring.offerings[0].deadline, ci.deadline);
   assert.equal(programmeTimeline(spring, '2026-11-01').state, 'deadline_today'); assert.equal(programmeTimeline(spring, '2026-11-02').state, 'deadline_passed');
-  assert.equal(queue.counts.programmePageRecords, 94); assert.equal(queue.counts.reviewUnits, 123); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  assert.equal(queue.counts.programmePageRecords, 95); assert.equal(queue.counts.reviewUnits, 139); assert.equal(queue.counts.reviewRecordedInSource, 0);
 });
 
 test('expanded MWM catalogue ID migrates idempotently without changing preceding programmes, date-only spot-check parents or historical reports', () => {
@@ -95,7 +95,7 @@ test('expanded MWM catalogue ID migrates idempotently without changing preceding
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 94); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 95); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -119,8 +119,8 @@ test('actual matching/save/restore/export retains MWM post-degree/CFA exceptions
   assert.equal(exported.offerings[0].deadline, '2027-05-31'); assert.equal(exported.offerings[0].applicationOpen, null); assert.equal(exported.offerings[0].applicationFee, 100);
   assert.match(exported.evidence.publishedRequirements.find(r => /post-bachelor years/.test(r.labelEn)).noteEn, /CFA Level 1/);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined); assert.equal(detail.applicationTimeline.state, 'dates_incomplete');
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 94); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 95); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 33, categories: 68, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
   assert.equal(JSON.stringify(store.all()), before);
 });

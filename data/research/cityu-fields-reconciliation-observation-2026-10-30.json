@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-10-30",
+  "universityId": "HK-CITYU",
+  "collector": "AI-assisted official-page and rendered browser reading",
+  "reviewer": null,
+  "scope": "21 previous partial records: fee/credit evidence reconciliation; four labelled deadline cases; one existing P17 ID receives partial evidence. No full page re-review or independent approval.",
+  "programmeIds": [
+    "HK-CITYU-P001",
+    "HK-CITYU-P002",
+    "HK-CITYU-P005",
+    "HK-CITYU-P006",
+    "HK-CITYU-P016",
+    "HK-CITYU-P019",
+    "HK-CITYU-P030",
+    "HK-CITYU-P031",
+    "HK-CITYU-P032",
+    "HK-CITYU-P033",
+    "HK-CITYU-P035",
+    "HK-CITYU-P039",
+    "HK-CITYU-P040",
+    "HK-CITYU-P041",
+    "HK-CITYU-P045",
+    "HK-CITYU-P046",
+    "HK-CITYU-P047",
+    "HK-CITYU-P051",
+    "HK-CITYU-P052",
+    "HK-CITYU-P056",
+    "HK-CITYU-P058"
+  ],
+  "records": [
+    {
+      "programmeId": "HK-CITYU-P001",
+      "code": "P10",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p10.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        11600
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        348000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P002",
+      "code": "P11",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm",
+      "cohort": "2027/28",
+      "credits": 40,
+      "ratesHkdPerCredit": [
+        12800,
+        14000
+      ],
+      "rateScope": "local / non-local",
+      "totalsHkd": [
+        512000,
+        560000
+      ],
+      "publishedTotals": true,
+      "requiresCategory": true,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P005",
+      "code": "P15",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p15.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        13400
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        402000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P006",
+      "code": "P16",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p16.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        10200
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        306000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": true,
+      "labelledDeadlines": {
+        "local": "2027-07-31",
+        "nonLocal": "2027-05-31"
+      },
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P016",
+      "code": "P07",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p07.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        13300
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        399000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": true,
+      "labelledDeadlines": {
+        "local": "2027-05-31",
+        "nonLocal": "2027-03-31"
+      },
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P019",
+      "code": "P02",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p02.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        11600
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        348000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P030",
+      "code": "P89",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p89.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        13600
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        408000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+    },
+    {
+      "programmeId": "HK-CITYU-P031",
+      "code": "P75",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p75.htm",
+      "cohort": "2027/28",
+      "credits": 31,
+      "ratesHkdPerCredit": [
+        11400,
+        12900
+      ],
+      "rateScope": "local / non-local",
+      "totalsHkd": [
+        353400,
+        399900
+      ],
+      "publishedTotals": false,
+      "requiresCategory": true,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+    },
+    {
+      "programmeId": "HK-CITYU-P032",
+      "code": "P79",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p79.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        11700,
+        13300
+      ],
+      "rateScope": "local / non-local",
+      "totalsHkd": [
+        351000,
+        399000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": true,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+    },
+    {
+      "programmeId": "HK-CITYU-P033",
+      "code": "P85",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p85.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        13100
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        393000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P035",
+      "code": "P97",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p97.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        8100
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        243000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+    },
+    {
+      "programmeId": "HK-CITYU-P039",
+      "code": "P59",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p59.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        9300
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        279000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+    },
+    {
+      "programmeId": "HK-CITYU-P040",
+      "code": "P91",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p91.htm",
+      "cohort": "2027/28",
+      "credits": 31,
+      "ratesHkdPerCredit": [
+        11300,
+        12800
+      ],
+      "rateScope": "local / non-local",
+      "totalsHkd": [
+        350300,
+        396800
+      ],
+      "publishedTotals": false,
+      "requiresCategory": true,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+    },
+    {
+      "programmeId": "HK-CITYU-P041",
+      "code": "P70",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p70.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        11400
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        342000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+    },
+    {
+      "programmeId": "HK-CITYU-P045",
+      "code": "P04",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p04.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        13400
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        402000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P046",
+      "code": "P68",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p68.htm",
+      "cohort": "2027/28",
+      "credits": null,
+      "ratesHkdPerCredit": [
+        9100,
+        9600,
+        10100,
+        10600,
+        11100
+      ],
+      "rateScope": "academic-year schedule",
+      "totalsHkd": [],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+    },
+    {
+      "programmeId": "HK-CITYU-P047",
+      "code": "P94",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p94.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        12800
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        384000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P051",
+      "code": "P19",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p19.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        13300
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        399000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": true,
+      "labelledDeadlines": {
+        "local": "2027-05-31",
+        "nonLocal": "2027-03-31"
+      },
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P052",
+      "code": "P18",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p18.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        12650
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        379500
+      ],
+      "publishedTotals": false,
+      "requiresCategory": true,
+      "labelledDeadlines": {
+        "local": "2027-06-30",
+        "nonLocal": "2027-06-02"
+      },
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P056",
+      "code": "P09",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p09.htm",
+      "cohort": "2027/28",
+      "credits": 30,
+      "ratesHkdPerCredit": [
+        11000
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        330000
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/cb2025/programmes/all-programmes"
+    },
+    {
+      "programmeId": "HK-CITYU-P058",
+      "code": "P88",
+      "feeUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p88.htm",
+      "cohort": "2027/28",
+      "credits": 36,
+      "ratesHkdPerCredit": [
+        11900
+      ],
+      "rateScope": "single published cohort rate",
+      "totalsHkd": [
+        428400
+      ],
+      "publishedTotals": false,
+      "requiresCategory": false,
+      "labelledDeadlines": null,
+      "creditSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+    }
+  ],
+  "newPartialProgrammeId": "HK-CITYU-P007",
+  "newContextOfferingIds": [
+    "HK-CITYU-P002-2027-FT",
+    "HK-CITYU-P002-2027-PT",
+    "HK-CITYU-P006-2027-FT",
+    "HK-CITYU-P006-2027-PT",
+    "HK-CITYU-P016-2027-FT",
+    "HK-CITYU-P016-2027-PT",
+    "HK-CITYU-P031-2027-FT",
+    "HK-CITYU-P031-2027-PT",
+    "HK-CITYU-P032-2027-FT",
+    "HK-CITYU-P032-2027-PT",
+    "HK-CITYU-P040-2027-FT",
+    "HK-CITYU-P040-2027-PT",
+    "HK-CITYU-P051-2027-FT",
+    "HK-CITYU-P052-2027-FT",
+    "HK-CITYU-P052-2027-PT"
+  ],
+  "sourceAccess": {
+    "readerFee403": true,
+    "browserFeeSchedulesRead": 22,
+    "browserFeeSchedulesUsedForNumericTotals": 20,
+    "noLivePortalCheck": true
+  },
+  "p17": {
+    "displayedBodyTitle": "MSc Digital Commerce and Computing",
+    "oldMetadataAndFeeTitle": "MSc Electronic Commerce",
+    "sameCode": "P17",
+    "titleSubjectToUniversityApproval": true,
+    "credits": 33,
+    "localObservedRate": 8100,
+    "nonLocalObservedRate": 9100,
+    "feeAmountsNotAssignedToPendingTitle": true,
+    "departmentUrl": "https://www.cs.cityu.edu.hk/academic-programmes/msc-electronic-commerce/aims"
+  },
+  "specialFeeLimits": {
+    "P59": "Only ordinary 30-credit option; do not multiply by the first displayed 45-credit variant.",
+    "P68": {
+      "credits": [
+        30,
+        31
+      ],
+      "schedule": {
+        "2027/28": 9100,
+        "2028/29": 9600,
+        "2029/30": 10100,
+        "2030/31": 10600,
+        "2031/32": 11100
+      },
+      "laterYearsKeepLastPublishedRate": true,
+      "noPersonalTotal": true
+    },
+    "P11": "Published 512,000 / 560,000 programme totals, not an estimate including overseas trip expenses."
+  },
+  "counts": {
+    "catalogueRecords": 873,
+    "defaultBrowsable": 870,
+    "partialRecords": 95,
+    "catalogueLeads": 778,
+    "cityuPartialRecords": 24,
+    "cityuCatalogueLeads": 38,
+    "newPartialRecords": 1,
+    "feeRecordsUpdated": 21,
+    "newContexts": 15,
+    "contexts": 33,
+    "categories": 68,
+    "maintenanceUnits": 139,
+    "completeRequirements": 0,
+    "independentReview": 0
+  }
+}

@@ -113,7 +113,7 @@ test('three existing catalogue IDs migrate together and idempotently while prece
       db = new CatalogueStore(path, { ...options, checkedPath });
       for (const [i, id] of obs.programmeIds.entries()) { assert.equal(db.get(id).verification, 'programme_page_checked'); assert.deepEqual(db.get(id).directoryListing, listings[i]); }
       assert.deepEqual(db.all().filter(p => !obs.programmeIds.includes(p.id)), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 94); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 95); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -140,8 +140,8 @@ test('API matching, save/restore and export retain all twelve study selections w
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
     assert.equal(detail.applicationTimeline.state, p.id === mdse.id ? 'dates_incomplete' : 'within_recorded_dates');
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 94); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 95); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 18, categories: 38, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 33, categories: 68, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
   assert.equal(JSON.stringify(store.all()), before);
 });
