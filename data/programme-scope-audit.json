@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-13",
+  "checkedOn": "2026-10-30",
   "verificationLevel": "AI-assisted scope correction; not independent human review of admissions",
   "decisions": [
     {
@@ -16,6 +16,13 @@
       "checkedOn": "2026-10-13",
       "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-applied-research-in-social-sciences-mress",
       "reasonEn": "SUSS explicitly identifies Applied Research in Social Sciences as a master's degree by research, including a 40-cu thesis. It is outside this platform's taught/coursework scope; this is not a judgement of the student's qualifications."
+    },
+    {
+      "programmeId": "HK-HKUST-P035",
+      "status": "out_of_scope",
+      "checkedOn": "2026-10-30",
+      "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm",
+      "reasonEn": "The official Global Marine Resources Management page identifies dual HKUST/Southampton degrees, required Southampton study and commencement in the UK. Required UK delivery is outside the current Hong Kong/Singapore delivery scope. This is a delivery-scope exclusion, not an academic-background failure; the HKD instalment is not the whole mixed-currency fee."
     }
   ]
 }

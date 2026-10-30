@@ -25980,6 +25980,2831 @@
         }
       },
       "researchBatch": "hkust-computing-data-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P013",
+      "universityId": "HK-HKUST",
+      "name": "MSc Aeronautical Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Mechanical and Aerospace Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. Engineering, Science or a related bachelor area with second-class honours or above is required. Broad field-family and equivalent qualifications need assessment. Fresh graduates may be considered; no compulsory work duration is published.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P013-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 249000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 249,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Final category rounds conflict between official pages; no date selected."
+        },
+        {
+          "id": "HK-HKUST-P013-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 216,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Final category rounds conflict between official pages; no date selected."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae"
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or assessed equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "Engineering, Science or a related bachelor area with second-class honours or above is required. Broad field-family and equivalent qualifications need assessment. Fresh graduates may be considered; no compulsory work duration is published.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 9 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conflicting applicant-category final rounds",
+          "noteZh": "",
+          "noteEn": "For September 2027, the central catalogue assigns a June third round to non-local applicants, while the engineering page assigns it to local applicants. Both show December/March rounds but the final category dates conflict. No final deadline or actionable round is selected until reconciled. Fees agree across both sources.",
+          "sourceUrl": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ae",
+          "purpose": "Fall fees corroborated; opposite local/non-local third-round allocation retained as a conflict",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering, Science or a related bachelor area with second-class honours or above is required. Broad field-family and equivalent qualifications need assessment. Fresh graduates may be considered; no compulsory work duration is published.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Central and engineering pages disagree on which category receives June third round.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P014",
+      "universityId": "HK-HKUST",
+      "name": "MSc Analytical Chemistry",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Chemistry",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A Chemistry bachelor or related area with second-class honours is required. Relatedness and equivalent qualification evidence remain assessed; no numeric undergraduate GPA is published.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P014-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 170000,
+          "applicationFee": 350,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 170,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 350; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P014-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 170000,
+          "applicationFee": 350,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 170,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 350; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+          "accepted": [
+            "Chemistry"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or assessed equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A Chemistry bachelor or related area with second-class honours is required. Relatedness and equivalent qualification evidence remain assessed; no numeric undergraduate GPA is published.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 9 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A Chemistry bachelor or related area with second-class honours is required. Relatedness and equivalent qualification evidence remain assessed; no numeric undergraduate GPA is published.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P017",
+      "universityId": "HK-HKUST",
+      "name": "MSc Biomolecular Engineering and Health Informatics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Chemical and Biological Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. Second-class honours in one of the stated biomolecular/health, chemical/biological/biomedical/food engineering, materials/chemical/physical/polymer sciences, biotechnology, bioinformatics, computing or related fields is required. Computer Science is explicitly listed; it is not a biology-only gate.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P017-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 229000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-02-15",
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 229,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Shared published fall-cohort category dates; opening, exact cutoff time and live availability need confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+          "accepted": [
+            "Biomolecular Engineering",
+            "Health Informatics",
+            "Chemical Engineering",
+            "Biological Engineering",
+            "Biotechnology",
+            "Biomedical Engineering",
+            "Food Engineering",
+            "Materials Science",
+            "Chemistry",
+            "Physics",
+            "Polymer Science",
+            "Bioinformatics",
+            "Computer Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or assessed equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "Second-class honours in one of the stated biomolecular/health, chemical/biological/biomedical/food engineering, materials/chemical/physical/polymer sciences, biotechnology, bioinformatics, computing or related fields is required. Computer Science is explicitly listed; it is not a biology-only gate.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary transfer approval",
+          "noteZh": "",
+          "noteEn": "Up to 12 ordinary credits may be transferred with approval; no fee reduction is inferred. Ordinary and restricted integrated-transfer limits are different.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Second-class honours in one of the stated biomolecular/health, chemical/biological/biomedical/food engineering, materials/chemical/physical/polymer sciences, biotechnology, bioinformatics, computing or related fields is required. Computer Science is explicitly listed; it is not a biology-only gate.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P018",
+      "universityId": "HK-HKUST",
+      "name": "MSc Biotechnology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Life Science",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A Biological Science bachelor or related area is required, together with good academic performance and basic biotechnology knowledge. No generic second-class classification or fixed work years is stated. Daytime laboratory work applies to specified research-project choices; an evening/Saturday teaching description does not guarantee every activity is outside working hours.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P018-AUG2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 168000,
+          "applicationFee": 450,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 168,000 for full-time study (26 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies. Minimum 26 credits is not a compulsory 31-credit plan; project selection and any extra load need confirmation.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P018-AUG2027-PT",
+          "mode": "Part-time",
+          "duration": "1.5 years",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 152000,
+          "applicationFee": 450,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 152,000 for part-time study (26 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies. Minimum 26 credits is not a compulsory 31-credit plan; project selection and any extra load need confirmation.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+          "accepted": [
+            "Biological Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A Biological Science bachelor or related area is required, together with good academic performance and basic biotechnology knowledge. No generic second-class classification or fixed work years is stated. Daytime laboratory work applies to specified research-project choices; an evening/Saturday teaching description does not guarantee every activity is outside working hours.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 6 prior credits and minimum-20-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A Biological Science bachelor or related area is required, together with good academic performance and basic biotechnology knowledge. No generic second-class classification or fixed work years is stated. Daytime laboratory work applies to specified research-project choices; an evening/Saturday teaching description does not guarantee every activity is outside working hours.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P020",
+      "universityId": "HK-HKUST",
+      "name": "MSc Chemical and Energy Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Chemical and Biological Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A Chemical Engineering, Energy Engineering or related bachelor area is required. Applicants without a Chemical/Energy Engineering bachelor background must take at least five foundation courses; curriculum assignment includes a stated fifteen-credit foundation load subject to the director. These are programme study requirements, not proof of previously completed courses. The integrated-route honours condition is not ordinary entry.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P020-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 229000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 229,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies. Stated fee coverage is four full-time / six part-time terms; time beyond covered study, extra/retaken courses costs more.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Shared published fall-cohort category dates; opening, exact cutoff time and live availability need confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKUST-P020-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 177000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 177,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies. Stated fee coverage is four full-time / six part-time terms; time beyond covered study, extra/retaken courses costs more.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Shared published fall-cohort category dates; opening, exact cutoff time and live availability need confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+          "accepted": [
+            "Chemical Engineering",
+            "Energy Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A Chemical Engineering, Energy Engineering or related bachelor area is required. Applicants without a Chemical/Energy Engineering bachelor background must take at least five foundation courses; curriculum assignment includes a stated fifteen-credit foundation load subject to the director. These are programme study requirements, not proof of previously completed courses. The integrated-route honours condition is not ordinary entry.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 9 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary transfer approval",
+          "noteZh": "",
+          "noteEn": "Up to 12 ordinary credits may be transferred with approval; no fee reduction is inferred. Ordinary and restricted integrated-transfer limits are different.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A Chemical Engineering, Energy Engineering or related bachelor area is required. Applicants without a Chemical/Energy Engineering bachelor background must take at least five foundation courses; curriculum assignment includes a stated fifteen-credit foundation load subject to the director. These are programme study requirements, not proof of previously completed courses. The integrated-route honours condition is not ordinary entry.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P022",
+      "universityId": "HK-HKUST",
+      "name": "MSc Drug Regulatory Affairs and Policy",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Life Science",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A bachelor or higher qualification in the listed life/health science, business management, engineering, law, computing, mathematics or related areas is required. Pharmaceutical, device or health-industry experience is strongly favourable, not a compulsory duration. This programme is not restricted to science majors.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P022-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 330000,
+          "applicationFee": 350,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 330,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 350; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P022-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 330000,
+          "applicationFee": 350,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 330,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 350; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+          "accepted": [
+            "Life Sciences",
+            "Business Management",
+            "Engineering",
+            "Health Science",
+            "Law",
+            "Computer Science",
+            "Mathematics"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A bachelor or higher qualification in the listed life/health science, business management, engineering, law, computing, mathematics or related areas is required. Pharmaceutical, device or health-industry experience is strongly favourable, not a compulsory duration. This programme is not restricted to science majors.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A bachelor or higher qualification in the listed life/health science, business management, engineering, law, computing, mathematics or related areas is required. Pharmaceutical, device or health-industry experience is strongly favourable, not a compulsory duration. This programme is not restricted to science majors.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P025",
+      "universityId": "HK-HKUST",
+      "name": "MSc Engineering Enterprise Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Industrial Engineering and Decision Analytics",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A Science or Engineering bachelor is preferred, not a universal required major. No generic honours, numeric GPA or work-year cutoff is established. The restricted HKUST integrated pathway has its own excellence/interview conditions.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P025-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 320000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 320,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P025-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 218000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 218,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A Science or Engineering bachelor is preferred, not a universal required major. No generic honours, numeric GPA or work-year cutoff is established. The restricted HKUST integrated pathway has its own excellence/interview conditions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 9 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary transfer approval",
+          "noteZh": "",
+          "noteEn": "Up to 6 ordinary credits may be transferred with approval; no fee reduction is inferred. Ordinary and restricted integrated-transfer limits are different.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "A Science or Engineering bachelor is preferred, not a universal required major. No generic honours, numeric GPA or work-year cutoff is established. The restricted HKUST integrated pathway has its own excellence/interview conditions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P026",
+      "universityId": "HK-HKUST",
+      "name": "MSc Entrepreneurial Leadership in Biotechnology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Life Science",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A bachelor or higher qualification in Business, Engineering, Science, Medicine or a relevant discipline is required. Biotechnology-industry experience is advantageous; no fixed years or universal honours minimum is published. Broad-field and equivalent qualifications require assessment.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P026-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 250000,
+          "applicationFee": 350,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 250,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 350; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P026-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 250000,
+          "applicationFee": 350,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 250,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 350; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A bachelor or higher qualification in Business, Engineering, Science, Medicine or a relevant discipline is required. Biotechnology-industry experience is advantageous; no fixed years or universal honours minimum is published. Broad-field and equivalent qualifications require assessment.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A bachelor or higher qualification in Business, Engineering, Science, Medicine or a relevant discipline is required. Biotechnology-industry experience is advantageous; no fixed years or universal honours minimum is published. Broad-field and equivalent qualifications require assessment.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P027",
+      "universityId": "HK-HKUST",
+      "name": "MSc Environmental Engineering and Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Civil and Environmental Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A Civil, Chemical, Mechanical Engineering or related bachelor with second-class honours is required. Only ordinary 30-credit MSc study is represented; the 15-credit PGD is a different award and its price is not the MSc fee.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P027-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1–1.5 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 210000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 210,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies. Stated fee coverage is four full-time / six part-time terms; time beyond covered study, extra/retaken courses costs more. PGD HKD 105,000 is not this MSc price; PGD graduates later admitted to MSc also pay the full MSc programme fee.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P027-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2–2.5 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 180000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 180,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies. Stated fee coverage is four full-time / six part-time terms; time beyond covered study, extra/retaken courses costs more. PGD HKD 105,000 is not this MSc price; PGD graduates later admitted to MSc also pay the full MSc programme fee.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "accepted": [
+            "Civil Engineering",
+            "Chemical Engineering",
+            "Mechanical Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or assessed equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A Civil, Chemical, Mechanical Engineering or related bachelor with second-class honours is required. Only ordinary 30-credit MSc study is represented; the 15-credit PGD is a different award and its price is not the MSc fee.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 9 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary transfer approval",
+          "noteZh": "",
+          "noteEn": "Up to 9 ordinary credits may be transferred with approval; no fee reduction is inferred. Ordinary and restricted integrated-transfer limits are different.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A Civil, Chemical, Mechanical Engineering or related bachelor with second-class honours is required. Only ordinary 30-credit MSc study is represented; the 15-credit PGD is a different award and its price is not the MSc fee.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P028",
+      "universityId": "HK-HKUST",
+      "name": "MSc Environmental Health and Safety",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Ocean Science",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A Life Science, Chemistry, Environmental Science or related bachelor with second-class honours is required. Good academic performance and strong environmental-health/safety interest need assessment; no fixed work-year or numeric GPA threshold is inferred.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P028-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 175000,
+          "applicationFee": 390,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 175,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 390; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Extra/retaken credits cost HKD 5,834 each; that rounded extra-credit rate is not multiplied into a replacement base total.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P028-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 175000,
+          "applicationFee": 390,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 175,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 390; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Extra/retaken credits cost HKD 5,834 each; that rounded extra-credit rate is not multiplied into a replacement base total.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+          "accepted": [
+            "Life Science",
+            "Chemistry",
+            "Environmental Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or assessed equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A Life Science, Chemistry, Environmental Science or related bachelor with second-class honours is required. Good academic performance and strong environmental-health/safety interest need assessment; no fixed work-year or numeric GPA threshold is inferred.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 9 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A Life Science, Chemistry, Environmental Science or related bachelor with second-class honours is required. Good academic performance and strong environmental-health/safety interest need assessment; no fixed work-year or numeric GPA threshold is inferred.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P041",
+      "universityId": "HK-HKUST",
+      "name": "MSc Intelligent Building Technology and Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Mechanical and Aerospace Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. Second-class honours in Mechanical, Civil, Electrical or Building Services Engineering, Architectural Science, Physical Science or a related area is required. Qualification and subject equivalence remain assessed; no generic work years is published.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P041-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 249000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 249,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P041-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 216,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "accepted": [
+            "Mechanical Engineering",
+            "Civil Engineering",
+            "Electrical Engineering",
+            "Building Services Engineering",
+            "Architectural Science",
+            "Physical Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or assessed equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "Second-class honours in Mechanical, Civil, Electrical or Building Services Engineering, Architectural Science, Physical Science or a related area is required. Qualification and subject equivalence remain assessed; no generic work years is published.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 9 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary transfer approval",
+          "noteZh": "",
+          "noteEn": "Up to 6 ordinary credits may be transferred with approval; no fee reduction is inferred. Ordinary and restricted integrated-transfer limits are different.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Second-class honours in Mechanical, Civil, Electrical or Building Services Engineering, Architectural Science, Physical Science or a related area is required. Qualification and subject equivalence remain assessed; no generic work years is published.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P044",
+      "universityId": "HK-HKUST",
+      "name": "MSc Materials Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Chemical and Biological Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. Second-class honours in the listed Materials, Chemical, Electrical, Energy or Biological Engineering, Chemistry, Physics, Polymer Science or a related area is required. Qualification and subject equivalence need assessment. No part-time mode is listed.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P044-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 220000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 220,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Shared published fall-cohort category dates; opening, exact cutoff time and live availability need confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+          "accepted": [
+            "Materials Science and Engineering",
+            "Chemical Engineering",
+            "Electrical Engineering",
+            "Energy Engineering",
+            "Biological Engineering",
+            "Chemistry",
+            "Physics",
+            "Polymer Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or assessed equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "Second-class honours in the listed Materials, Chemical, Electrical, Energy or Biological Engineering, Chemistry, Physics, Polymer Science or a related area is required. Qualification and subject equivalence need assessment. No part-time mode is listed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary transfer approval",
+          "noteZh": "",
+          "noteEn": "Up to 12 ordinary credits may be transferred with approval; no fee reduction is inferred. Ordinary and restricted integrated-transfer limits are different.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Second-class honours in the listed Materials, Chemical, Electrical, Energy or Biological Engineering, Chemistry, Physics, Polymer Science or a related area is required. Qualification and subject equivalence need assessment. No part-time mode is listed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P045",
+      "universityId": "HK-HKUST",
+      "name": "MSc Mathematics for Educators",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Mathematics",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. A Mathematics bachelor or a related Science/Engineering area is required. Preparation in multivariable calculus, linear algebra and differential equations must be assessed. No prior teaching job, teacher licence or fixed work-year requirement is invented.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P045-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 175000,
+          "applicationFee": 500,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 175,000 for full-time study (27 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 500; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P045-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 175000,
+          "applicationFee": 500,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 175,000 for part-time study (27 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 500; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+          "accepted": [
+            "Mathematics"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "A Mathematics bachelor or a related Science/Engineering area is required. Preparation in multivariable calculus, linear algebra and differential equations must be assessed. No prior teaching job, teacher licence or fixed work-year requirement is invented.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 6 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary transfer approval",
+          "noteZh": "",
+          "noteEn": "Up to 6 ordinary credits may be transferred with approval; no fee reduction is inferred. Ordinary and restricted integrated-transfer limits are different.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A Mathematics bachelor or a related Science/Engineering area is required. Preparation in multivariable calculus, linear algebra and differential equations must be assessed. No prior teaching job, teacher licence or fixed work-year requirement is invented.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P046",
+      "universityId": "HK-HKUST",
+      "name": "MSc Mechanical Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Mechanical and Aerospace Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. Second-class honours in the stated Mechanical, Manufacturing, Engineering Management, Materials, Electrical/Electronic, Civil, Environmental Engineering or related area is required. Subject equivalence remains assessed; no numeric entry GPA is inferred.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P046-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 249000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 249,000 for full-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P046-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 216,000 for part-time study (30 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 600; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted. Ordinary credit-transfer entrants pay the full programme fee unless a separately approved named pathway exception applies.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "accepted": [
+            "Mechanical Engineering",
+            "Manufacturing Engineering",
+            "Engineering Management",
+            "Materials Science and Engineering",
+            "Electrical and Electronic Engineering",
+            "Civil Engineering",
+            "Environmental Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Second-class honours or assessed equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "Second-class honours in the stated Mechanical, Manufacturing, Engineering Management, Materials, Electrical/Electronic, Civil, Environmental Engineering or related area is required. Subject equivalence remains assessed; no numeric entry GPA is inferred.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Restricted integrated pathway",
+          "noteZh": "",
+          "noteEn": "This ordinary MSc is separate from the integrated Bachelor-Master pathway for qualifying HKUST Year-3-or-above students. Its degree/subject, selection and conditional-offer requirements need assessment; up to 9 prior credits and minimum-21-credit pro-rata tuition are pathway-specific, not automatic entry or fee concessions.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Ordinary transfer approval",
+          "noteZh": "",
+          "noteEn": "Up to 9 ordinary credits may be transferred with approval; no fee reduction is inferred. Ordinary and restricted integrated-transfer limits are different.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Second-class honours in the stated Mechanical, Manufacturing, Engineering Management, Materials, Electrical/Electronic, Civil, Environmental Engineering or related area is required. Subject equivalence remains assessed; no numeric entry GPA is inferred.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
+    },
+    {
+      "id": "HK-HKUST-P047",
+      "universityId": "HK-HKUST",
+      "name": "MSc Physics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Physics",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial ordinary 2027/28 fall MSc observation. Either a bachelor in the named physics/optics/mathematics/materials/computing/electrical areas or a related discipline, OR another discipline with at least two relevant full-time post-qualification work years. Do not impose those years on the listed-subject route; total reported years alone do not prove the alternative.",
+      "offerings": [
+        {
+          "id": "HK-HKUST-P047-SEP2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 190000,
+          "applicationFee": 250,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 190,000 for full-time study (25 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 250; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        },
+        {
+          "id": "HK-HKUST-P047-SEP2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 190000,
+          "applicationFee": 250,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary MSc programme total HKD 190,000 for part-time study (25 minimum curriculum credits), not an annual price multiplied by years or a per-credit estimate. Separate application fee HKD 250; living costs and extra charges excluded. No scholarship or automatic transfer discount is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+            "checkedOn": "2026-10-30"
+          },
+          "deadlineNote": "Local/non-local dates differ: choose the exact applicant category."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or approved equivalent",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published subject areas or assessed alternative",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+          "accepted": [
+            "Physics",
+            "Applied Physics",
+            "Optics",
+            "Photonics",
+            "Mathematics",
+            "Materials Science",
+            "Computer Science",
+            "Electronics and Electrical Engineering"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published IELTS and TOEFL iBT routes",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "noteZh": "",
+          "noteEn": "Either a bachelor in the named physics/optics/mathematics/materials/computing/electrical areas or a related discipline, OR another discipline with at least two relevant full-time post-qualification work years. Do not impose those years on the listed-subject route; total reported years alone do not prove the alternative.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and validity",
+          "noteZh": "",
+          "noteEn": "English-first-language or English-medium bachelor/equivalent evidence may support a waiver, subject to acceptance. Listed legacy paper TOEFL formats are not modelled. IELTS/iBT require one sitting and exclude at-home tests. No score-validity anchor is established in these sources; no moving expiry or CityU opening-date rule is borrowed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification, permission and current availability",
+          "noteZh": "",
+          "noteEn": "Recognition, relatedness, evidence, applicant classification and study permission require university confirmation. Published thresholds and dates do not establish full eligibility, live availability or admission probability.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys",
+          "purpose": "Rendered 2027/28 ordinary MSc modes, fees, curriculum boundary, academic/English conditions and labelled fall-category dates",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 fall only; Biotechnology explicitly starts August, other represented options September.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Either a bachelor in the named physics/optics/mathematics/materials/computing/electrical areas or a related discipline, OR another discipline with at least two relevant full-time post-qualification work years. Do not impose those years on the listed-subject route; total reported years alone do not prove the alternative.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; honours, programme GGA and restricted-pathway conditions are not GPA conversion rules.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS overall/components and separate TOEFL scales recorded; waiver/legacy/validity remain assessed.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published ordinary MSc mode total, not PGD or earlier spring-cohort price.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Fall mode/category dates retained. Earlier spring dates are not assigned to this cohort.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent review or complete requirements set.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys"
+        }
+      },
+      "researchBatch": "hkust-engineering-science-2026-10-30"
     }
   ]
 }

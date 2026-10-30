@@ -53,22 +53,22 @@ test('new SG leads have official sources, English names and no admissions rules 
   assert.ok(additions.every(p => !/\p{Script=Han}/u.test(p.name + p.notesEn)));
   assert.ok(additions.every(p => matchProgramme(p, profile).tier === null));
 });
-test('two scope corrections hide records but keep IDs, evidence and original snapshot intact', () => {
+test('three scope corrections hide records but keep IDs, evidence and original snapshot intact', () => {
   const db = new CatalogueStore(':memory:', options);
   try {
     const total = seed.programmes.length + read('data/catalogue-expansion.json').programmes.length;
     assert.equal(db.quality().total, total);
-    assert.equal(db.quality().browsable, total - 3);
-    assert.equal(db.quality().outOfScope, 2);
+    assert.equal(db.quality().browsable, total - 4);
+    assert.equal(db.quality().outOfScope, 3);
     assert.equal(db.quality().enumeratedUniversities, 6);
-    assert.equal(db.quality().scopeAuditDate, '2026-10-13');
-    assert.equal(filterProgrammes(db.all()).length, total - 3);
+    assert.equal(db.quality().scopeAuditDate, '2026-10-30');
+    assert.equal(filterProgrammes(db.all()).length, total - 4);
     assert.equal(filterProgrammes(db.all(), {includeTransfer:'true',includeOutOfScope:'true'}).length, total);
     for (const d of scope.decisions) {
       const p = db.get(d.programmeId);
       assert.equal(p.scope.status, 'out_of_scope');
       assert.equal(p.scope.sourceUrl, d.sourceUrl);
-      assert.equal('scope' in seed.programmes.find(p => p.id === d.programmeId), false);
+      assert.equal('scope' in [...seed.programmes, ...read('data/catalogue-expansion.json').programmes].find(p => p.id === d.programmeId), false);
       const result = matchProgramme(p, profile);
       assert.equal(result.status, 'out_of_scope');
       assert.equal(result.tier, null);
@@ -77,7 +77,7 @@ test('two scope corrections hide records but keep IDs, evidence and original sna
   } finally { db.close(); }
 });
 test('scope evidence validation rejects unsupported states, missing IDs and unofficial sources', () => {
-  const ids = new Set(seed.programmes.map(p=>p.id));
+  const ids = new Set([...seed.programmes, ...read('data/catalogue-expansion.json').programmes].map(p=>p.id));
   assert.equal(validateScopeAudit(scope, ids), scope);
   for (const change of [{status:'eligible'}, {programmeId:'SG-NUS-P999'}, {sourceUrl:'https://attacker.invalid/'}]) {
     const invalid = structuredClone(scope);
