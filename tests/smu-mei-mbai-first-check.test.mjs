@@ -52,7 +52,7 @@ test('programme-specific entrance/English scores and alumni evidence remain unre
 });
 
 test('explicit September openings plus May-only closes never become complete windows, January/part-time options or borrowed MSA phases', () => {
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.nearCutoffUnits, 4);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.nearCutoffUnits, 2);
   for (const p of programmes) {
     assert.equal(p.offerings.length, 1); const o = p.offerings[0]; assert.equal(o.mode, 'Full-time'); assert.equal(o.intake, 'August 2027');
     assert.equal(o.applicationOpen, '2026-09-01'); assert.equal(o.deadline, null); assert.equal(o.applicationRounds, undefined);

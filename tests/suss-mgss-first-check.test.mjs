@@ -99,7 +99,7 @@ test('28 October comparison uses real source dates while earlier comparison cann
   }
   const earlier = loadRepositoryReviewQueue('2026-10-27').units.find(u => u.programmeId === p.id);
   assert.equal(earlier.sourceCheckedOn, '2026-10-28'); assert.match(earlier.reasons.join(' '), /postdate/); assert.equal(earlier.recordedCutoffs.length, 0);
-  const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 4); assert.equal(current.counts.reviewRecordedInSource, 0);
+  const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 2); assert.equal(current.counts.reviewRecordedInSource, 0);
 });
 
 test('MGSS text fees do not inherit a populated subsidy from a neighbouring row or add separate diploma costs', () => {

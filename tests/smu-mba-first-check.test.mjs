@@ -65,7 +65,7 @@ test('three January and two August final variants stay unresolved without inferr
       const timeline = programmeTimeline(selected(o), day); assert.equal(timeline.state, 'dates_incomplete'); assert.equal(timeline.livePortalChecked, false);
     }
   }
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.nearCutoffUnits, 4); assert.deepEqual(queue.units.find(u => u.programmeId === pid).upcomingRecordedCutoffs, []);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.nearCutoffUnits, 2); assert.deepEqual(queue.units.find(u => u.programmeId === pid).upcomingRecordedCutoffs, []);
 });
 
 test('cohort fees and credited advances stay separate; materials, pre-study and conflicting internship wording do not manufacture requirements or personal totals', () => {
@@ -116,5 +116,5 @@ test('MBA increases partial programme and maintenance counts without extra route
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-28');
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 73); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.deepEqual(meta.routeEvidence, { groups: 4, routes: 11, pageChecked: 11, peerReviewed: 0, complete: 0 });
-  assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.nearCutoffUnits, 4); assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.filter(u => u.programmeId === pid).length, 1);
+  assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.filter(u => u.programmeId === pid).length, 1);
 });

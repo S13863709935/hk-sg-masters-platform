@@ -25,3 +25,8 @@
 #results-summary:focus-visible{outline:3px solid #9bbca9;outline-offset:5px;border-radius:3px}
 #profile-form [aria-invalid=true]{border-color:var(--red)}
 .data-grid>section{min-width:0}
+
+.recorded-criteria { flex-basis: 100%; margin: .4rem 0; overflow-wrap: anywhere; }
+.recorded-criteria strong, .recorded-criteria small { display: block; }
+.recorded-criteria strong { font-size: .85rem; }
+.recorded-criteria small { margin-top: .3rem; line-height: 1.5; color: var(--muted); }

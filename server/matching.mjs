@@ -1,5 +1,6 @@
 import { validateProfile } from './validation.mjs';
 import { hasResolvedRoute } from './routes.mjs';
+import { summarizeRecordedCriteria } from './criteria-summary.mjs';
 
 const ranks = { ordinary: 0, third: 1, second_lower: 2, second_upper: 3, first: 4 };
 const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
@@ -68,11 +69,12 @@ export function matchProgramme(programme, profileInput) {
   const failures = mandatory.filter(c => c.status === 'fail').length;
   const unknowns = mandatory.filter(c => c.status === 'unknown' || c.unresolved).length;
   const status = failures ? 'has_gap' : unknowns ? 'needs_confirmation' : 'meets_checked';
+  const recordedCriteria = summarizeRecordedCriteria(checks);
   let tier = null;
   if (status === 'meets_checked' && programme.verification === 'peer_reviewed' && programme.admissionRoute === 'direct') {
     if (checks.some(c => !c.mandatory && c.status === 'fail')) tier = 'stretch';
     else if (checks.every(c => c.status === 'pass') && checks.some(c => c.academicMargin) && checks.some(c => c.languageMargin) && checks.some(c => c.directMajor)) tier = 'relatively_safer';
     else if (checks.every(c => c.status === 'pass')) tier = 'match';
   }
-  return { status, tier, checks, counts: { pass: mandatory.filter(c => c.status === 'pass').length, fail: failures, unknown: unknowns }, disclaimerZh: '仅比较自报背景与已核查的公开条件，不代表录取资格已获学校确认或录取概率。', disclaimerEn: 'Checks self-reported background against recorded public criteria. Not confirmed eligibility or an admission probability.' };
+  return { status, tier, checks, recordedCriteria, counts: { pass: mandatory.filter(c => c.status === 'pass').length, fail: failures, unknown: unknowns }, disclaimerZh: '仅比较自报背景与已核查的公开条件，不代表录取资格已获学校确认或录取概率。', disclaimerEn: 'Checks self-reported background against recorded public criteria. Not confirmed eligibility or an admission probability.' };
 }

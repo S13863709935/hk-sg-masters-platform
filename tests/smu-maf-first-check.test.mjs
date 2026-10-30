@@ -57,7 +57,7 @@ test('August-only month ranges do not inherit precise Economics windows, January
     for (const day of ['2026-10-28', '2027-01-01', '2027-05-01', '2027-05-31', '2027-08-01']) assert.equal(programmeTimeline(selected(o), day).state, 'dates_incomplete');
   }
   const queue = loadRepositoryReviewQueue('2026-10-28');
-  assert.equal(queue.counts.nearCutoffUnits, 4); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
+  assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102);
 });
 

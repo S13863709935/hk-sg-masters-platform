@@ -8,7 +8,7 @@ import { createHash } from 'node:crypto';
 import { buildSourceReviewQueue, loadRepositoryReviewQueue, formatSourceReviewMarkdown, parseReviewArgs } from '../scripts/source-review-queue.mjs';
 import { offeringFingerprint } from '../server/applicants.mjs';
 
-const root = new URL('../', import.meta.url), day = '2026-10-24', currentDay = '2026-10-29', report = loadRepositoryReviewQueue(currentDay);
+const root = new URL('../', import.meta.url), day = '2026-10-24', currentDay = '2026-10-30', report = loadRepositoryReviewQueue(currentDay);
 const script = fileURLToPath(new URL('scripts/source-review-queue.mjs', root));
 const read = p => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
 const source = 'https://www.nus.edu.sg/example';
@@ -29,7 +29,7 @@ test('review units preserve separate programme, route and category counts withou
   assert.deepEqual(report.counts, {
     catalogueRecords: 873, programmePageRecords: 73, remainingCatalogueLeads: 800,
     routeRecords: 11, applicantContexts: 18, applicantCategories: 38, reviewUnits: 102,
-    pendingHumanReview: 102, reviewRecordedInSource: 0, nearCutoffUnits: 4, staleApplicantContexts: 0
+    pendingHumanReview: 102, reviewRecordedInSource: 0, nearCutoffUnits: 2, staleApplicantContexts: 0
   });
   assert.equal(report.units.filter(u => u.kind === 'programme').length, 73);
   assert.equal(new Set(report.units.map(u => u.key)).size, 102);
@@ -80,7 +80,7 @@ test('unconfirmed dates, unidentified years, exclusions and future source observ
 
 test('real imminent cutoffs retain cohort/round identity while the old transfer record stays archive-only', () => {
   const near = report.units.filter(u => u.reviewOrder === 'cutoff_within_14_days');
-  assert.deepEqual(near.map(u => u.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001', 'SG-SMU-P007', 'SG-SMU-P009']);
+  assert.deepEqual(near.map(u => u.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001']);
   const ciem = near.find(u => u.programmeId === 'HK-HKUST-P001');
   assert.deepEqual(ciem.upcomingRecordedCutoffs.map(d => [d.offeringId, d.deadline]), [['HK-HKUST-P001-FEB2027-PT', '2026-11-01']]);
   assert.ok(near[0].upcomingRecordedCutoffs.every(d => d.roundId === 'ROUND-2'));
@@ -194,7 +194,7 @@ test('real CLI works outside the repository without modifying source files or op
 });
 
 test('committed human checklist exactly reproduces its snapshot and semantic source fingerprints', () => {
-  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-29-smu-cemba.md', root), 'utf8').replaceAll('\r\n', '\n'));
+  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-30-smu-school.md', root), 'utf8').replaceAll('\r\n', '\n'));
   assert.equal(Object.keys(report.inputFingerprints).length, 8);
   for (const h of Object.values(report.inputFingerprints)) assert.match(h, /^[a-f0-9]{64}$/);
   const markdown = formatSourceReviewMarkdown(report);

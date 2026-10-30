@@ -22,5 +22,7 @@ export function filterProgrammes(all, filters = {}) {
 }
 
 export function filterMatchedProgrammes(all, filters = {}, savedOptionIssues = {}) {
-  return filterProgrammes(all, filters).filter(p => !filters.matchFilter || (!savedOptionIssues[p.id] && p.match?.status === filters.matchFilter));
+  return filterProgrammes(all, filters).filter(p => !filters.matchFilter || (!savedOptionIssues[p.id] && (filters.matchFilter === 'recorded_checks_met'
+    ? ['needs_confirmation', 'meets_checked'].includes(p.match?.status) && p.match?.recordedCriteria?.status === 'recorded_checks_met'
+    : p.match?.status === filters.matchFilter)));
 }

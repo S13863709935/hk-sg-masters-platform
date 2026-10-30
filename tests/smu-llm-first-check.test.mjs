@@ -128,6 +128,6 @@ test('LLM observations increase evidence units without inventing new catalogue p
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-28');
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 73); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.deepEqual(meta.routeEvidence, { groups: 4, routes: 11, pageChecked: 11, peerReviewed: 0, complete: 0 }); assert.deepEqual(routeSummary(routes), meta.routeEvidence);
-  assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.routeRecords, 11); assert.equal(queue.counts.nearCutoffUnits, 4);
+  assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.routeRecords, 11); assert.equal(queue.counts.nearCutoffUnits, 2);
   assert.equal(queue.units.filter(u => u.programmeId === pid).length, 5); assert.equal(queue.counts.reviewRecordedInSource, 0);
 });

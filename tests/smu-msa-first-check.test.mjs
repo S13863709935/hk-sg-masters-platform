@@ -64,7 +64,7 @@ test('three dated MSA phases retain round boundaries, document deadlines and no 
     assert.equal(programmeTimeline(selected(o), '2027-07-01').state, 'deadline_passed');
     assert.match(o.deadlineNote, /supporting documents including relevant test scores/);
   }
-  const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 4);
+  const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 2);
   assert.equal(current.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const december = loadRepositoryReviewQueue('2026-12-20').units.find(u => u.programmeId === p.id);
   assert.equal(december.reviewOrder, 'cutoff_within_14_days');

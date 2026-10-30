@@ -55,7 +55,7 @@ test('2027 versus 2026 date references and recurring FAQ cutoffs never become li
     assert.match(o.deadlineNote, /30 June 2027/); assert.match(o.deadlineNote, /30 June 2026/); assert.match(o.deadlineNote, /30 November, 28 February and 30 April/);
     for (const day of ['2026-10-28', '2026-11-30', '2027-02-28', '2027-06-30', '2027-07-01']) assert.equal(programmeTimeline(selected(o), day).state, 'dates_incomplete');
   }
-  const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 4);
+  const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 2);
   assert.equal(current.counts.programmePageRecords, 73); assert.equal(current.counts.reviewUnits, 102);
   for (const day of ['2026-10-28', '2026-11-25', '2027-06-25']) assert.equal(loadRepositoryReviewQueue(day).units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });

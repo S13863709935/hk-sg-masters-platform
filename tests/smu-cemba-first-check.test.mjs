@@ -55,7 +55,7 @@ test('exact 2026 guide dates stay visible but unresolved intake binding blocks l
   assert.equal(o.intake, 'January 2027'); assert.equal(o.applicationOpen, '2026-02-01'); assert.equal(o.deadline, '2026-10-31'); assert.equal(o.applicationRounds, undefined); assert.equal(p.fieldStatus.deadline.status, 'unknown');
   assert.equal(obs.cycle.directoryHistoricalDeadline, '2025-11-01'); assert.equal(obs.cycle.paymentDatesNotApplicationRounds, true);
   for (const day of ['2026-10-29', '2026-10-31', '2026-11-01', '2027-01-08', '2027-08-22']) { const timeline = programmeTimeline(selected(), day); assert.equal(timeline.state, 'dates_incomplete'); assert.equal(timeline.livePortalChecked, false); assert.equal(timeline.offerings[0].deadline, '2026-10-31'); }
-  const queue = loadRepositoryReviewQueue('2026-10-29'); assert.equal(queue.counts.nearCutoffUnits, 4); assert.deepEqual(queue.units.find(u => u.programmeId === pid).recordedCutoffs, []);
+  const queue = loadRepositoryReviewQueue('2026-10-29'); assert.equal(queue.counts.nearCutoffUnits, 2); assert.deepEqual(queue.units.find(u => u.programmeId === pid).recordedCutoffs, []);
 });
 
 test('tax-exclusive quote, inclusive instalments and advance-credit/payment triggers remain separate without a personal total or English EMBA charges', () => {
@@ -97,5 +97,5 @@ test('73 partial records do not claim complete current-SMU inventory, independen
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 73); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.equal(smu.length, 17); assert.ok(smu.every(p => p.verification === 'programme_page_checked' && p.requirementsCoverage === 'partial'));
   assert.equal(obs.directoryFollowup.newCatalogueEntryCreated, false); assert.equal(obs.directoryFollowup.currentFullDirectoryReconciliationClaimed, false); assert.equal(smu.some(p => p.name.includes('Public Governance')), false);
-  assert.deepEqual(meta.routeEvidence, { groups: 4, routes: 11, pageChecked: 11, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.nearCutoffUnits, 4);
+  assert.deepEqual(meta.routeEvidence, { groups: 4, routes: 11, pageChecked: 11, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.nearCutoffUnits, 2);
 });

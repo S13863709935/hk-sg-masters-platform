@@ -10,7 +10,7 @@ import { CatalogueStore } from '../server/database.mjs';
 import { createApp } from '../server/app.mjs';
 import { matchProgramme } from '../server/matching.mjs';
 
-const root = new URL('../', import.meta.url), day = '2026-10-29', report = loadCoreAcceptance(day);
+const root = new URL('../', import.meta.url), day = '2026-10-30', report = loadCoreAcceptance(day);
 const read = f => JSON.parse(readFileSync(new URL(f, root), 'utf8'));
 const batch = read('data/checked-programmes.json'), observed = read('data/research/core-pilot-source-checks-2026-10-25.json');
 const options = { seedPath: new URL('data/catalogue.json', root), expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryEvidencePath: new URL('data/directory-links.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root) };
@@ -104,7 +104,7 @@ test('invalid dates, duplicate identities, missing programmes and unsupported CL
 });
 
 test('saved acceptance Markdown reproduces exactly and escapes synthetic names in table cells', () => {
-  const saved = readFileSync(new URL('docs/research/core-pilot-acceptance-2026-10-29-smu-cemba.md', root), 'utf8').replaceAll('\r\n', '\n');
+  const saved = readFileSync(new URL('docs/research/core-pilot-acceptance-2026-10-30-smu-school.md', root), 'utf8').replaceAll('\r\n', '\n');
   assert.equal(formatCoreAcceptance(report), saved);
   assert.equal(/[ \t]+$/m.test(saved), false);
   const p = fixture(); p.name = '<script>bad</script> | [bad]';

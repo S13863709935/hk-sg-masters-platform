@@ -56,24 +56,25 @@ test('holistic English targets never become hard cutoffs or automatic waivers, a
   assert.equal(mdse.rules.some(r => r.kind === 'gpa' && r.min === 2.5), false);
 });
 
-test('exact MSE/MSFE windows produce calendar transitions while conflicting MDSE dates never generate an actionable cutoff', () => {
-  const queue = loadRepositoryReviewQueue('2026-10-28');
+test('refreshed MSE/MSFE extensions produce calendar transitions while conflicting MDSE pages never generate an actionable cutoff', () => {
+  const queue = loadRepositoryReviewQueue('2026-10-30');
   for (const p of [mse, msfe]) {
     for (const o of p.offerings.filter(o => o.intake === 'January 2027')) {
       const chosen = selected(p, o);
-      for (const [day, state] of [['2026-06-30', 'not_yet_open'], ['2026-10-28', 'within_recorded_dates'], ['2026-10-31', 'deadline_today'], ['2026-11-01', 'deadline_passed']]) assert.equal(programmeTimeline(chosen, day).state, state);
+      for (const [day, state] of [['2026-06-30', 'not_yet_open'], ['2026-10-28', 'within_recorded_dates'], ['2026-11-30', 'deadline_today'], ['2026-12-01', 'deadline_passed']]) assert.equal(programmeTimeline(chosen, day).state, state);
       assert.equal(programmeTimeline(chosen, '2026-10-28').livePortalChecked, false);
     }
     const unit = queue.units.find(u => u.programmeId === p.id);
-    assert.deepEqual(unit.upcomingRecordedCutoffs.map(d => [d.offeringId, d.deadline]), p.offerings.filter(o => o.intake === 'January 2027').map(o => [o.id, '2026-10-31']));
+    assert.deepEqual(unit.recordedCutoffs.filter(d => d.deadline === '2026-11-30').map(d => [d.offeringId, d.deadline]), p.offerings.filter(o => o.intake === 'January 2027').map(o => [o.id, '2026-11-30']));
+    assert.equal(unit.upcomingRecordedCutoffs.length, 0);
   }
   for (const o of mdse.offerings) {
     assert.equal(o.applicationOpen, null); assert.equal(o.deadline, null);
-    assert.match(o.deadlineNote, /31 October 2026/); assert.match(o.deadlineNote, /30 November/);
+    assert.match(o.deadlineNote, /31 October/); assert.match(o.deadlineNote, /30 November/);
     for (const day of ['2026-10-28', '2026-11-15', '2027-01-01']) assert.equal(programmeTimeline(selected(mdse, o), day).state, 'dates_incomplete');
   }
   assert.equal(queue.units.find(u => u.programmeId === mdse.id).upcomingRecordedCutoffs.length, 0);
-  assert.equal(queue.counts.nearCutoffUnits, 4);
+  assert.equal(queue.counts.nearCutoffUnits, 2);
 });
 
 test('cohort fee differences, credited deposits, track decisions and Beijing exclusion survive each Singapore study option', () => {

@@ -221,6 +221,8 @@ export const copy = {
   "errorHeading": "The catalogue is unavailable.",
   "errorHint": "Check that the local service is still running, then try again.",
   "matchingFilter": "Requirement check",
+  "recorded_checks_met": "Recorded comparisons met",
+  "recordedChecksNote": "This filter covers only recorded background comparisons. Missing criteria and conditions requiring university assessment remain unresolved; this is not full eligibility.",
   "allMatches": "All results",
   "noTier": "No tier assigned",
   "officialPage": "Open official page",

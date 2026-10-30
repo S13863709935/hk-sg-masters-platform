@@ -53,7 +53,7 @@ test('MWM dated final without an opening never becomes live-open, while recorded
     const timeline = programmeTimeline(selected(), day); assert.equal(timeline.state, expected); assert.equal(timeline.livePortalChecked, false);
   }
   assert.equal(programmeTimeline(selected(), '2027-05-31', '2027-05-31T04:00:00.000Z').state, 'deadline_today');
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.nearCutoffUnits, 4); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const may = loadRepositoryReviewQueue('2027-05-20').units.find(u => u.programmeId === p.id); assert.ok(may.upcomingRecordedCutoffs.some(d => d.offeringId === o.id && d.deadline === '2027-05-31'));
 });
 

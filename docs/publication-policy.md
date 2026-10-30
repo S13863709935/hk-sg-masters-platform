@@ -9,7 +9,7 @@ The user's latest clarification on 20 October 2026 supersedes the earlier interp
 - Keep local commits organised by actual completed work, using real dates. Do not make a push merely because another conversation turn or small task has finished.
 - At each completed development handoff, include a push/no-push recommendation and a short reason. Distinguish the recommendation from the actual action; recommending a push does not automatically perform it.
 - At the planned weekly/stage review, consolidate a meaningful, tested batch and assess whether it is ready for one checkpoint publication. Readiness alone before that review is not a reason for an extra push.
-- The current Study Week branch already contains commits `7e70566` and `2451419`. Make no further incremental pushes before the 25 October review unless the user explicitly asks to push. The review is not an automatic push or a claim that the research milestone is complete.
+- Study Week history remains at its existing checkpoint. Week 6 was explicitly published on 27 October 2026 at `ebc08ff`; later development stays local until a meaningful weekly/stage publication review or an explicit push request. Passing checks or completing this school batch does not itself trigger a push. The 29 October school-batch workflow confirmation preserves this cadence.
 - If the review date passes while no development turn is active, nothing runs in the background. Evaluate readiness during the next active turn; do not backdate work or invent weekly activity.
 - Preserve existing remote history; do not delete, squash or rewrite the earlier pushes without separate authorisation.
 

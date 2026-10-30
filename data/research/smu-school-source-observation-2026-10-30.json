@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-10-30",
+  "schoolId": "SG-SMU",
+  "collector": "AI-assisted official-source text check",
+  "reviewer": null,
+  "reviewScope": "Headers of all 17 existing programme records plus targeted application-period sections. Some web responses were cached; no application portal, complete requirements or independent human review was verified.",
+  "directory": {
+    "url": "https://masters.smu.edu.sg/programmes",
+    "unresolvedNewTitle": "Master of Public Governance and Leadership (MPGL)",
+    "disposition": "Directory reconciliation pending; not added or counted as an eighteenth checked programme."
+  },
+  "changes": {
+    "updatedProgrammeIds": [
+      "SG-SMU-P007",
+      "SG-SMU-P008",
+      "SG-SMU-P009"
+    ],
+    "countsUnchanged": {
+      "catalogue": 873,
+      "checked": 73,
+      "complete": 0,
+      "independentReview": 0
+    }
+  },
+  "records": [
+    {
+      "programmeId": "SG-SMU-P001",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Programme header remains consistent with recorded August 2027, June closure and tuition; exact phased dates continue to rely on the earlier specific application-page observation. Header scan is not a fresh full admissions review."
+    },
+    {
+      "programmeId": "SG-SMU-P002",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-accounting",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Current header states June 2027 closure for August entry and prerequisite subject preparation. Keep the recorded subject-equivalence and good-degree judgements manual."
+    },
+    {
+      "programmeId": "SG-SMU-P003",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-management",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Header retains recurring January/August windows and indicative August 2027 fees. No exact dated application window or numeric English threshold is inferred from recurring text."
+    },
+    {
+      "programmeId": "SG-SMU-P004",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-applied-finance",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Application period is a month range; indicative tuition and conditional English evidence do not establish a personal quote or a universal English test minimum."
+    },
+    {
+      "programmeId": "SG-SMU-P005",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-entrepreneurship-innovation",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Work-experience range has an explicit assessment exception. It remains a manual condition rather than an unconditional one-year minimum or five-year maximum."
+    },
+    {
+      "programmeId": "SG-SMU-P006",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-business-ai",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Quantitative or technical experience is preferred, and experience outside the stated range may be considered. Neither statement becomes an unconditional exclusion."
+    },
+    {
+      "programmeId": "SG-SMU-P007",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-economics",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Main header and application table explicitly extend the January 2027 application deadline to 30 November 2026. Update both January study modes; preserve August dates and all admissions rules."
+    },
+    {
+      "programmeId": "SG-SMU-P008",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-data-science-economics",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Main header/table now end January applications in November, while the separate public application landing retains October without a current-cohort extension. Keep dates unassigned and record the changed source difference."
+    },
+    {
+      "programmeId": "SG-SMU-P009",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-in-financial-economics",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Main header and application table explicitly extend the January 2027 application deadline to 30 November 2026. Do not copy this extension into MDSE or use it as evidence of live portal availability."
+    },
+    {
+      "programmeId": "SG-SMU-P010",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Main header retains recurring application windows and five named tracks. Track headings do not establish five additional master degrees or independently verified route requirements."
+    },
+    {
+      "programmeId": "SG-SMU-P011",
+      "sourceUrl": "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Chinese admissions guide still gives exact dates without a named intake binding. Preserve Chinese-medium and managerial-experience conditions; do not import English EMBA rules."
+    },
+    {
+      "programmeId": "SG-SMU-P012",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Header has the August 2027 deadline and an academic-exception route. Keep managerial evidence and exception decisions unresolved rather than requiring an unconditional bachelor degree."
+    },
+    {
+      "programmeId": "SG-SMU-P013",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-business-administration",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Header lists recurring rounds without intake years for each round. Do not convert them into current fully dated rounds or infer an automatic work/test waiver."
+    },
+    {
+      "programmeId": "SG-SMU-P014",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "A dated regular-track schedule is visible, but the grouped programme still requires route selection. Preserve the four separate route snapshots and do not broadcast one regular-track schedule to every track."
+    },
+    {
+      "programmeId": "SG-SMU-P015",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-sustainability",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Main header gives a 2027 final deadline, but the separate public application landing still shows 2026. The existing unknown date status remains appropriate."
+    },
+    {
+      "programmeId": "SG-SMU-P016",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "International-option IELTS wording differs from the local option. Preserve route-specific requirements and mathematical preparation review; do not apply international IELTS rules to all candidates."
+    },
+    {
+      "programmeId": "SG-SMU-P017",
+      "sourceUrl": "https://masters.smu.edu.sg/programme/msc-in-wealth-management",
+      "observedOn": "2026-10-30",
+      "scope": [
+        "programme identity",
+        "header and selected requirements/date wording"
+      ],
+      "finding": "Minimum post-degree work experience has an assessed CFA exception. Total work years cannot establish qualifying post-degree duration or automatic waiver approval."
+    }
+  ],
+  "additionalSources": [
+    {
+      "url": "https://masters.smu.edu.sg/programme/MDSE/Apply_Now",
+      "finding": "Recurring January window still ends on 31 October; no January 2027 extension stated."
+    },
+    {
+      "url": "https://masters.smu.edu.sg/programme/MST/Apply_now",
+      "finding": "Public landing retains June 2026; current main header shows June 2027."
+    }
+  ],
+  "localQuality": {
+    "schemaVersion": 1,
+    "schoolId": "SG-SMU",
+    "asOfDate": "2026-10-30",
+    "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+    "counts": {
+      "catalogueRecords": 17,
+      "checkedRecords": 17,
+      "completeRequirementSets": 0,
+      "independentlyReviewed": 0,
+      "withComparableRules": 14,
+      "fieldGaps": {
+        "academicYear": 0,
+        "major": 2,
+        "gpa": 0,
+        "language": 15,
+        "tuition": 14,
+        "deadline": 11,
+        "independentReview": 17
+      }
+    },
+    "rows": [
+      {
+        "programmeId": "SG-SMU-P001",
+        "name": "Master of Professional Accounting",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-of-professional-accounting",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-20",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "known",
+          "tuition": "known",
+          "deadline": "known",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree",
+          "language"
+        ],
+        "manualConditions": 3,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-of-professional-accounting",
+          "https://masters.smu.edu.sg/programme/MPA/apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P002",
+        "name": "Master of Science in Accounting",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-in-accounting",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "unknown",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "known",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "major",
+          "language",
+          "tuition",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 6,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-in-accounting",
+          "https://masters.smu.edu.sg/programme/MSA/Apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P003",
+        "name": "MSc Management",
+        "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-management",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-24",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "known",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree",
+          "major"
+        ],
+        "manualConditions": 6,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/msc-in-management",
+          "https://masters.smu.edu.sg/programme/MiM/Apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P004",
+        "name": "Master of Science in Applied Finance",
+        "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-applied-finance",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 6,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/msc-in-applied-finance",
+          "https://masters.smu.edu.sg/programme/MAF/Apply_now",
+          "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/maf/admission-requirements",
+          "https://business.smu.edu.sg/master-applied-finance/admissions/how-apply-old"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P005",
+        "name": "Master of Science in Entrepreneurship and Innovation",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-entrepreneurship-innovation",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 6,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-entrepreneurship-innovation",
+          "https://masters.smu.edu.sg/programme/MEI/Apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P006",
+        "name": "Master of Science in Business AI",
+        "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-business-ai",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 6,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/msc-in-business-ai",
+          "https://masters.smu.edu.sg/programme/MBAI/Apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P007",
+        "name": "Master of Science in Economics",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-in-economics",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-30",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "not_published",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "known",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "major",
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 6,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-in-economics"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P008",
+        "name": "Master of Data Science in Economics",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-of-data-science-economics",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-30",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "not_published",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "major",
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 5,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-of-data-science-economics",
+          "https://masters.smu.edu.sg/programme/MDSE/Apply_Now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P009",
+        "name": "Master of Science in Financial Economics",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-in-financial-economics",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-30",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "not_published",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "known",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "major",
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 5,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-in-financial-economics"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P010",
+        "name": "Master of IT in Business",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-of-it-in-business",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-20",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "known",
+          "tuition": "known",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree",
+          "major",
+          "language"
+        ],
+        "manualConditions": 1,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-of-it-in-business",
+          "https://masters.smu.edu.sg/programme/MITB/Apply_Now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P011",
+        "name": "Chinese Executive MBA",
+        "officialUrl": "https://cn.masters.smu.edu.sg/cemba",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-29",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "experience"
+        ],
+        "manualConditions": 7,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://cn.masters.smu.edu.sg/cemba",
+          "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/admission",
+          "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/course-structure",
+          "https://cn.masters.smu.edu.sg/postgraduate/lkcsb/cemba/scholarships",
+          "https://masters.smu.edu.sg/programmes",
+          "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/your-pg-one-stop/5.%20Resources/Finance%20Related/ProgramFee_CEMBA_2026.pdf"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P012",
+        "name": "Executive Master of Business Administration",
+        "officialUrl": "https://masters.smu.edu.sg/programme/executive-master-of-business-administration",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-29",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "known",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [],
+        "manualConditions": 7,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/executive-master-of-business-administration",
+          "https://masters.smu.edu.sg/programme/EMBA/Apply_Now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P013",
+        "name": "Master of Business Administration",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-of-business-administration",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree",
+          "major",
+          "experience"
+        ],
+        "manualConditions": 6,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-of-business-administration",
+          "https://masters.smu.edu.sg/programme/MBA/Apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P014",
+        "name": "Master of Laws",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "unknown",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "major",
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [],
+        "manualConditions": 1,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-of-laws",
+          "https://masters.smu.edu.sg/programme/LLM/Apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P015",
+        "name": "Master of Sustainability",
+        "officialUrl": "https://masters.smu.edu.sg/programme/master-of-sustainability",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 6,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/master-of-sustainability",
+          "https://masters.smu.edu.sg/programme/MST/Apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P016",
+        "name": "Master of Science in Quantitative Finance",
+        "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "unknown",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "deadline",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [],
+        "manualConditions": 1,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/msc-in-quantitative-finance",
+          "https://masters.smu.edu.sg/programme/MQF/Apply_now"
+        ]
+      },
+      {
+        "programmeId": "SG-SMU-P017",
+        "name": "Master of Science in Wealth Management",
+        "officialUrl": "https://masters.smu.edu.sg/programme/msc-in-wealth-management",
+        "verification": "programme_page_checked",
+        "requirementsCoverage": "partial",
+        "lastChecked": "2026-10-28",
+        "sourceAfterSnapshot": false,
+        "fieldStates": {
+          "academicYear": "known",
+          "major": "known",
+          "gpa": "not_published",
+          "language": "unknown",
+          "tuition": "unknown",
+          "deadline": "known",
+          "independentReview": "unknown"
+        },
+        "missingFields": [
+          "language",
+          "tuition",
+          "independentReview"
+        ],
+        "notPublishedFields": [
+          "gpa"
+        ],
+        "comparableRuleKinds": [
+          "degree"
+        ],
+        "manualConditions": 7,
+        "independentReviewRecorded": false,
+        "sourceUrls": [
+          "https://masters.smu.edu.sg/programme/msc-in-wealth-management",
+          "https://masters.smu.edu.sg/programme/MWM/Apply_now"
+        ]
+      }
+    ]
+  }
+}
