@@ -2,6 +2,10 @@
 
 ## 当前本地状态（2026-10-30）
 
+CityU 人文社科与传媒批次新增 16 条部分观察／30 个学习选项。全库 125 条部分观察／748 条线索，总库 873／默认 870；CityU 54 条部分观察／8 条线索。逐项记录 24／30／36／54／55 学分及其最低学分费用估算，不照搬统一模板。中文课程的中文证明与条件式英语要求并存，English Studies 的 7／102／5.5 分数线单列；MFA Main/Games 作品集与 HCI 五个日历日调查、Counselling 培养路径和 Social Work 面试分别保留。Chinese History 只表示普通香港 30 学分方向，跨地区 45 学分方向标有 2027 停招说明及批准限定，不创建开放选项。原 109 条对象、申请者及路径层不变；完整要求和独立复核均为 0，维护单元 169。见 [批次观察](research/cityu-humanities-media-observation-2026-10-30.json)、[质量表](../docs/research/cityu-humanities-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-cityu-humanities.md)和[本地批次记录](../docs/progress/local-cityu-humanities-2026-10-30.md)。
+
+以下是同日较早批次，保留当时输入与数量：
+
 CityU 工程与科学批次新增 14 条部分记录／27 个学习选项。全库 109 条部分观察／764 条目录线索，总库 873／默认 870；CityU 38 条部分观察／24 条线索。14 份费用表均为 2027/28 队列每学分标准，按具体硕士最低学分计算并标明估算；新增申请费依据单独来自官方 FAQ，每个普通项目选择 HKD 600，不加进学费。建筑／规划、工程延长选项、论文、较小学位及化学拟新增方向分开说明。能源项目中央页 5 月 31 日与院系页 3 月 31 日冲突，日期留空；神经科学 6.5／4.5 不套用其他项目 6.0／4。原 95 条对象、33 组／68 类申请者资料及其他来源层保留。完整要求及独立复核均为 0，维护单元 153。见 [来源与边界](research/cityu-engineering-science-observation-2026-10-30.json)、[质量表](../docs/research/cityu-engineering-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-cityu-engineering.md)和[本地批次记录](../docs/progress/local-cityu-engineering-2026-10-30.md)。
 
 以下是同日较早批次，保留当时输入与数量：
