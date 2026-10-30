@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-28",
+  "checkedOn": "2026-10-30",
   "programmes": [
     {
       "programmeId": "SG-NTU-P061",
@@ -23,26 +23,129 @@
           "notesEn": "NTU main campus; coursework degree, including a dissertation study option. No numeric entry GPA was found. The SPMS fee of SGD 63,220 is labelled 2026/27 and is not copied into the 2027/28 offering. Relevant experience and GRE/GMAT are preferences without published numeric minima.",
           "notesZh": "",
           "offerings": [
-            { "id": "SG-NTU-P061-CRYPTO-FT-2027", "mode": "Full-time", "duration": "1 year", "intake": "2 August 2027", "academicYear": "2027/28", "applicationOpen": "2026-09-01", "deadline": "2027-03-31", "deadlineNote": "Matriculation in mid-July is not the course commencement date.", "currency": "SGD", "tuition": null, "feeBasis": "2027/28 tuition unconfirmed; do not reuse the published 2026/27 price." },
-            { "id": "SG-NTU-P061-CRYPTO-PT-2027", "mode": "Part-time", "duration": "2 years", "intake": "2 August 2027", "academicYear": "2027/28", "applicationOpen": "2026-09-01", "deadline": "2027-03-31", "deadlineNote": "Matriculation in mid-July is not the course commencement date.", "currency": "SGD", "tuition": null, "feeBasis": "2027/28 tuition unconfirmed; do not reuse the published 2026/27 price." }
+            {
+              "id": "SG-NTU-P061-CRYPTO-FT-2027",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "2 August 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-03-31",
+              "deadlineNote": "Matriculation in mid-July is not the course commencement date.",
+              "currency": "SGD",
+              "tuition": null,
+              "feeBasis": "2027/28 tuition unconfirmed; do not reuse the published 2026/27 price."
+            },
+            {
+              "id": "SG-NTU-P061-CRYPTO-PT-2027",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "2 August 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-03-31",
+              "deadlineNote": "Matriculation in mid-July is not the course commencement date.",
+              "currency": "SGD",
+              "tuition": null,
+              "feeBasis": "2027/28 tuition unconfirmed; do not reuse the published 2026/27 price."
+            }
           ],
           "rules": [
-            { "kind": "degree", "labelEn": "Bachelor's degree", "labelZh": "", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
-            { "kind": "major", "labelEn": "Quantitative academic background", "labelZh": "", "accepted": ["Mathematics", "Physics", "Engineering", "Computer Science", "Finance"], "relatedAllowed": true, "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
-            { "kind": "language", "labelEn": "SPMS English test score route", "labelZh": "", "tests": { "ielts": { "total": 6 }, "toefl_120": { "total": 85, "validBefore": "2026-01-21" }, "toefl_6": { "total": 4.5, "validFrom": "2026-01-21" } }, "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide" },
-            { "kind": "manual", "labelEn": "Academic quality and equivalence", "labelZh": "", "noteEn": "The school assesses degree quality, quantitative preparation and equivalent disciplines; no numeric GPA cutoff is inferred.", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
-            { "kind": "manual", "labelEn": "Language applicability and validity", "labelZh": "", "noteEn": "MOI evidence, case-by-case alternatives and validity within two years of the application date require confirmation. Today's date is not substituted for the application date.", "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide" },
-            { "kind": "manual", "labelEn": "Optional experience and tests", "labelZh": "", "mandatory": false, "noteEn": "Relevant work and GRE/GMAT are preferences; no minimum years or score is invented.", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" }
+            {
+              "kind": "degree",
+              "labelEn": "Bachelor's degree",
+              "labelZh": "",
+              "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography"
+            },
+            {
+              "kind": "major",
+              "labelEn": "Quantitative academic background",
+              "labelZh": "",
+              "accepted": [
+                "Mathematics",
+                "Physics",
+                "Engineering",
+                "Computer Science",
+                "Finance"
+              ],
+              "relatedAllowed": true,
+              "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography"
+            },
+            {
+              "kind": "language",
+              "labelEn": "SPMS English test score route",
+              "labelZh": "",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 85,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Academic quality and equivalence",
+              "labelZh": "",
+              "noteEn": "The school assesses degree quality, quantitative preparation and equivalent disciplines; no numeric GPA cutoff is inferred.",
+              "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Language applicability and validity",
+              "labelZh": "",
+              "noteEn": "MOI evidence, case-by-case alternatives and validity within two years of the application date require confirmation. Today's date is not substituted for the application date.",
+              "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Optional experience and tests",
+              "labelZh": "",
+              "mandatory": false,
+              "noteEn": "Relevant work and GRE/GMAT are preferences; no minimum years or score is invented.",
+              "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography"
+            }
           ],
           "sources": [
-            { "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-master-of-science-in-cybersecurity-applied-cryptography", "purpose": "Route identity and coursework classification", "checkedOn": "2026-10-16" },
-            { "url": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography", "purpose": "Route admissions, 2027 dates and separate 2026/27 fee context", "checkedOn": "2026-10-16" },
-            { "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide", "purpose": "SPMS score scales and general validity conditions", "checkedOn": "2026-10-16" }
+            {
+              "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-master-of-science-in-cybersecurity-applied-cryptography",
+              "purpose": "Route identity and coursework classification",
+              "checkedOn": "2026-10-16"
+            },
+            {
+              "url": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography",
+              "purpose": "Route admissions, 2027 dates and separate 2026/27 fee context",
+              "checkedOn": "2026-10-16"
+            },
+            {
+              "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+              "purpose": "SPMS score scales and general validity conditions",
+              "checkedOn": "2026-10-16"
+            }
           ],
           "fieldStatus": {
-            "tuition": { "status": "unknown", "noteEn": "The consulted SPMS fee is for 2026/27, not the selected 2027/28 offering.", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
-            "gpa": { "status": "not_published", "noteEn": "No numeric entry GPA was found in the consulted admissions sections; academic quality still matters.", "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography" },
-            "independentReview": { "status": "unknown", "noteEn": "No independent human review is recorded.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-master-of-science-in-cybersecurity-applied-cryptography" }
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "The consulted SPMS fee is for 2026/27, not the selected 2027/28 offering.",
+              "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA was found in the consulted admissions sections; academic quality still matters.",
+              "sourceUrl": "https://www.ntu.edu.sg/spms/about-us/mathematics/grad/msc-in-cybersecurity-applied-cryptography"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent human review is recorded.",
+              "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-master-of-science-in-cybersecurity-applied-cryptography"
+            }
           }
         },
         {
@@ -63,24 +166,111 @@
           "notesEn": "The degree routes are alternatives, not cumulative requirements. The SGD 5,000 deposit is credited towards tuition, not an extra tuition charge. The SGD 50 application fee and annual miscellaneous charges are additional; grants are not deducted automatically.",
           "notesZh": "",
           "offerings": [
-            { "id": "SG-NTU-P061-CYBER-FT-2027", "mode": "Full-time", "duration": "1–2.5 years", "intake": "August 2027", "academicYear": "2027/28", "applicationOpen": "2026-10-01", "deadline": "2027-03-31", "currency": "SGD", "tuition": 65748.8, "feeBasis": "2027/28 onwards; total tuition including 9% GST at shortest candidature, billed over 2 semesters; extra fees may apply." },
-            { "id": "SG-NTU-P061-CYBER-PT-2027", "mode": "Part-time", "duration": "2–4 years", "intake": "August 2027", "academicYear": "2027/28", "applicationOpen": "2026-10-01", "deadline": "2027-03-31", "currency": "SGD", "tuition": 65748.8, "feeBasis": "2027/28 onwards; total tuition including 9% GST at shortest candidature, billed over 4 semesters; extra fees may apply." }
+            {
+              "id": "SG-NTU-P061-CYBER-FT-2027",
+              "mode": "Full-time",
+              "duration": "1–2.5 years",
+              "intake": "August 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": "2026-10-01",
+              "deadline": "2027-03-31",
+              "currency": "SGD",
+              "tuition": 65748.8,
+              "feeBasis": "2027/28 onwards; total tuition including 9% GST at shortest candidature, billed over 2 semesters; extra fees may apply."
+            },
+            {
+              "id": "SG-NTU-P061-CYBER-PT-2027",
+              "mode": "Part-time",
+              "duration": "2–4 years",
+              "intake": "August 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": "2026-10-01",
+              "deadline": "2027-03-31",
+              "currency": "SGD",
+              "tuition": 65748.8,
+              "feeBasis": "2027/28 onwards; total tuition including 9% GST at shortest candidature, billed over 4 semesters; extra fees may apply."
+            }
           ],
           "rules": [
-            { "kind": "degree", "labelEn": "Bachelor's degree", "labelZh": "", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
-            { "kind": "major", "labelEn": "Computing and mathematical preparation", "labelZh": "", "accepted": ["Computer Science", "Computer Engineering"], "relatedAllowed": true, "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
-            { "kind": "manual", "labelEn": "Alternative academic entry routes", "labelZh": "", "noteEn": "Either an accepted honours degree, or an accepted bachelor's degree plus two relevant industry years. Both routes require the specified background and mathematical preparation. Quality, relevance and equivalence need school assessment.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
-            { "kind": "language", "labelEn": "CCDS English test score route", "labelZh": "", "tests": { "ielts": { "total": 6.5 }, "toefl_120": { "total": 100, "validBefore": "2026-01-21" }, "toefl_6": { "total": 5, "validFrom": "2026-01-21" } }, "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
-            { "kind": "manual", "labelEn": "MOI alternative and test validity", "labelZh": "", "noteEn": "English-medium evidence and other school discretion require confirmation; test validity is assessed against the application date, which is not provided here.", "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide" }
+            {
+              "kind": "degree",
+              "labelEn": "Bachelor's degree",
+              "labelZh": "",
+              "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity"
+            },
+            {
+              "kind": "major",
+              "labelEn": "Computing and mathematical preparation",
+              "labelZh": "",
+              "accepted": [
+                "Computer Science",
+                "Computer Engineering"
+              ],
+              "relatedAllowed": true,
+              "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Alternative academic entry routes",
+              "labelZh": "",
+              "noteEn": "Either an accepted honours degree, or an accepted bachelor's degree plus two relevant industry years. Both routes require the specified background and mathematical preparation. Quality, relevance and equivalence need school assessment.",
+              "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity"
+            },
+            {
+              "kind": "language",
+              "labelEn": "CCDS English test score route",
+              "labelZh": "",
+              "tests": {
+                "ielts": {
+                  "total": 6.5
+                },
+                "toefl_120": {
+                  "total": 100,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "MOI alternative and test validity",
+              "labelZh": "",
+              "noteEn": "English-medium evidence and other school discretion require confirmation; test validity is assessed against the application date, which is not provided here.",
+              "sourceUrl": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
+            }
           ],
           "sources": [
-            { "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity", "purpose": "Route admissions, August 2027 dates and 2027/28 tuition", "checkedOn": "2026-10-16" },
-            { "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide", "purpose": "CCDS test scales, application-date validity and general conditions", "checkedOn": "2026-10-16" }
+            {
+              "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity",
+              "purpose": "Route admissions, August 2027 dates and 2027/28 tuition",
+              "checkedOn": "2026-10-16"
+            },
+            {
+              "url": "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide",
+              "purpose": "CCDS test scales, application-date validity and general conditions",
+              "checkedOn": "2026-10-16"
+            }
           ],
           "fieldStatus": {
-            "tuition": { "status": "known", "noteEn": "2027/28 onwards tuition is recorded with GST and shortest-candidature conditions; no personal grant is assumed.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
-            "gpa": { "status": "not_published", "noteEn": "No numeric entry GPA was found; degree quality and alternative routes still require assessment.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" },
-            "independentReview": { "status": "unknown", "noteEn": "No independent human review is recorded.", "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity" }
+            "tuition": {
+              "status": "known",
+              "noteEn": "2027/28 onwards tuition is recorded with GST and shortest-candidature conditions; no personal grant is assumed.",
+              "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA was found; degree quality and alternative routes still require assessment.",
+              "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent human review is recorded.",
+              "sourceUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity"
+            }
           }
         }
       ]
@@ -106,29 +296,169 @@
           "notesEn": "Ordinary application pathway only, without Delta X Fellowship consideration. The two Delta X pathways use independent snapshots with cross-border scope cautions; their conditions are not inherited here. Stream choice, degree recognition, academic suitability and language alternatives require HKU assessment. A request for CGPA evidence is not a numeric entry cutoff.",
           "notesZh": "",
           "offerings": [
-            { "id": "HK-HKU-P016-STANDARD-FT-2027", "mode": "Full-time", "duration": "1 year normative; 2 years maximum", "intake": "September 2027", "academicYear": "2027/28", "applicationOpen": null, "deadline": "2027-04-30", "deadlineNote": "Main round: 1 December 2026, 12:00 noon GMT+8; clearing round: 30 April 2027, 12:00 noon GMT+8. Round cutoff status is a refresh-time snapshot, not live availability. No notifications are scheduled. Opening date was not captured.", "applicationRounds": [{ "id": "MAIN", "label": "Main round", "applicationOpen": null, "deadline": "2026-12-01", "deadlineAt": "2026-12-01T12:00:00+08:00" }, { "id": "CLEARING", "label": "Clearing round", "applicationOpen": null, "deadline": "2027-04-30", "deadlineAt": "2027-04-30T12:00:00+08:00" }], "currency": "HKD", "tuition": null, "feeBasis": "Select the HKU applicant category for 2027/28 tuition; fees remain subject to University approval." },
-            { "id": "HK-HKU-P016-STANDARD-PT-2027", "mode": "Part-time", "duration": "2 years normative; 3 years maximum", "intake": "September 2027", "academicYear": "2027/28", "applicationOpen": null, "deadline": "2027-04-30", "deadlineNote": "Main round: 1 December 2026, 12:00 noon GMT+8; clearing round: 30 April 2027, 12:00 noon GMT+8. Round cutoff status is a refresh-time snapshot, not live availability. No notifications are scheduled. Opening date and permission for part-time study require confirmation.", "applicationRounds": [{ "id": "MAIN", "label": "Main round", "applicationOpen": null, "deadline": "2026-12-01", "deadlineAt": "2026-12-01T12:00:00+08:00" }, { "id": "CLEARING", "label": "Clearing round", "applicationOpen": null, "deadline": "2027-04-30", "deadlineAt": "2027-04-30T12:00:00+08:00" }], "currency": "HKD", "tuition": null, "feeBasis": "Select the HKU applicant category for 2027/28 tuition; fees remain subject to University approval." }
+            {
+              "id": "HK-HKU-P016-STANDARD-FT-2027",
+              "mode": "Full-time",
+              "duration": "1 year normative; 2 years maximum",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineNote": "Main round: 1 December 2026, 12:00 noon GMT+8; clearing round: 30 April 2027, 12:00 noon GMT+8. Round cutoff status is a refresh-time snapshot, not live availability. No notifications are scheduled. Opening date was not captured.",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2026-12-01",
+                  "deadlineAt": "2026-12-01T12:00:00+08:00"
+                },
+                {
+                  "id": "CLEARING",
+                  "label": "Clearing round",
+                  "applicationOpen": null,
+                  "deadline": "2027-04-30",
+                  "deadlineAt": "2027-04-30T12:00:00+08:00"
+                }
+              ],
+              "currency": "HKD",
+              "tuition": null,
+              "feeBasis": "Select the HKU applicant category for 2027/28 tuition; fees remain subject to University approval."
+            },
+            {
+              "id": "HK-HKU-P016-STANDARD-PT-2027",
+              "mode": "Part-time",
+              "duration": "2 years normative; 3 years maximum",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineNote": "Main round: 1 December 2026, 12:00 noon GMT+8; clearing round: 30 April 2027, 12:00 noon GMT+8. Round cutoff status is a refresh-time snapshot, not live availability. No notifications are scheduled. Opening date and permission for part-time study require confirmation.",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2026-12-01",
+                  "deadlineAt": "2026-12-01T12:00:00+08:00"
+                },
+                {
+                  "id": "CLEARING",
+                  "label": "Clearing round",
+                  "applicationOpen": null,
+                  "deadline": "2027-04-30",
+                  "deadlineAt": "2027-04-30T12:00:00+08:00"
+                }
+              ],
+              "currency": "HKD",
+              "tuition": null,
+              "feeBasis": "Select the HKU applicant category for 2027/28 tuition; fees remain subject to University approval."
+            }
           ],
           "rules": [
-            { "kind": "degree", "labelEn": "Bachelor's degree or equivalent", "labelZh": "", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" },
-            { "kind": "manual", "labelEn": "Undergraduate subject and academic suitability", "labelZh": "", "noteEn": "No explicit accepted-major list or numeric GPA cutoff was found in the consulted entry sections. This is not an any-major guarantee; HKU decides suitability and equivalence.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" },
-            { "kind": "language", "labelEn": "HKU general English test-score route", "labelZh": "", "tests": { "ielts": { "total": 6, "componentMin": 5.5 }, "toefl_120": { "total": 80, "validBefore": "2026-01-21" }, "toefl_6": { "total": 4.5, "validFrom": "2026-01-21" } }, "testDateNotBefore": "2025-09-01", "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements", "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements" },
-            { "kind": "manual", "labelEn": "English requirement applicability and alternatives", "labelZh": "", "noteEn": "HKU determines whether the English requirement applies, including teaching/examination language and qualifications obtained outside Hong Kong. Waivers, other accepted examinations, test formats and any additional programme conditions are not automatically assessed.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements" },
-            { "kind": "manual", "labelEn": "Stream choice and conditional completion", "labelZh": "", "noteEn": "The ordinary pathway is separate from both Delta X Fellowship pathways. Preferred stream selection, final-year degree completion and supporting documents require programme confirmation.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" }
+            {
+              "kind": "degree",
+              "labelEn": "Bachelor's degree or equivalent",
+              "labelZh": "",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Undergraduate subject and academic suitability",
+              "labelZh": "",
+              "noteEn": "No explicit accepted-major list or numeric GPA cutoff was found in the consulted entry sections. This is not an any-major guarantee; HKU decides suitability and equivalence.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0"
+            },
+            {
+              "kind": "language",
+              "labelEn": "HKU general English test-score route",
+              "labelZh": "",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "English requirement applicability and alternatives",
+              "labelZh": "",
+              "noteEn": "HKU determines whether the English requirement applies, including teaching/examination language and qualifications obtained outside Hong Kong. Waivers, other accepted examinations, test formats and any additional programme conditions are not automatically assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Stream choice and conditional completion",
+              "labelZh": "",
+              "noteEn": "The ordinary pathway is separate from both Delta X Fellowship pathways. Preferred stream selection, final-year degree completion and supporting documents require programme confirmation.",
+              "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/"
+            }
           ],
           "sources": [
-            { "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0", "purpose": "Ordinary route identity, FT/PT study periods, September 2027 dates and applicant-category fees", "checkedOn": "2026-10-21" },
-            { "url": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/", "purpose": "2027/28 pathway separation, supporting documents, instalments and application fee", "checkedOn": "2026-10-21" },
-            { "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements", "purpose": "General entrance and English requirements; two years before 1 September 2027 yields the recorded 1 September 2025 minimum", "checkedOn": "2026-10-21" }
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0",
+              "purpose": "Ordinary route identity, FT/PT study periods, September 2027 dates and applicant-category fees",
+              "checkedOn": "2026-10-21"
+            },
+            {
+              "url": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/",
+              "purpose": "2027/28 pathway separation, supporting documents, instalments and application fee",
+              "checkedOn": "2026-10-21"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "purpose": "General entrance and English requirements; two years before 1 September 2027 yields the recorded 1 September 2025 minimum",
+              "checkedOn": "2026-10-21"
+            }
           ],
           "fieldStatus": {
-            "academicYear": { "status": "known", "noteEn": "September 2027 entry, 2027/28, ordinary pathway only.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
-            "major": { "status": "unknown", "noteEn": "No explicit undergraduate subject list was found; do not infer that every major is accepted.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" },
-            "gpa": { "status": "not_published", "noteEn": "No numeric GPA minimum was found in the consulted entry sections. Transcript/CGPA proof does not establish a cutoff.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
-            "language": { "status": "known", "noteEn": "General test-score thresholds and intake-anchored date minimum recorded, not programme-specific waiver or format acceptance.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements" },
-            "tuition": { "status": "unknown", "noteEn": "Amounts are held in dated, study-option-specific applicant contexts; no universal fee or inferred classification.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
-            "deadline": { "status": "known", "noteEn": "Main and clearing rounds end at noon GMT+8, not midnight. Opening date and live portal availability are unconfirmed.", "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/" },
-            "independentReview": { "status": "unknown", "noteEn": "No independent human review is recorded.", "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0" }
+            "academicYear": {
+              "status": "known",
+              "noteEn": "September 2027 entry, 2027/28, ordinary pathway only.",
+              "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/"
+            },
+            "major": {
+              "status": "unknown",
+              "noteEn": "No explicit undergraduate subject list was found; do not infer that every major is accepted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric GPA minimum was found in the consulted entry sections. Transcript/CGPA proof does not establish a cutoff.",
+              "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "General test-score thresholds and intake-anchored date minimum recorded, not programme-specific waiver or format acceptance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Amounts are held in dated, study-option-specific applicant contexts; no universal fee or inferred classification.",
+              "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Main and clearing rounds end at noon GMT+8, not midnight. Opening date and live portal availability are unconfirmed.",
+              "sourceUrl": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent human review is recorded.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0"
+            }
           }
         },
         {
@@ -1498,6 +1828,357 @@
             "sourceUrl": "https://masters.smu.edu.sg/programme/master-of-laws",
             "reasonEn": "SMU describes a two-city, two-degree route with QMUL in London. Current partner-cycle availability and inclusion within the Hong Kong/Singapore project boundary need confirmation."
           }
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P037",
+      "routes": [
+        {
+          "name": "MSc Business Information Systems (Management of Intelligent Systems Stream)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": null,
+          "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+          "lastChecked": "2026-10-30",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted official-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027 professional-degree and business-stream observation. MIS accepts a recognised bachelor or equivalent in any subject, preferably outside Information Systems or Computer Science. Its non-IT orientation is a preference, not a hard ban on an IT graduate; recognition and preparation remain assessed.",
+          "offerings": [
+            {
+              "id": "HK-CITYU-P037-P05A-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-05-31",
+              "deadlineNote": "Published date-only shared category deadline; rolling review and live availability require confirmation.",
+              "currency": "HKD",
+              "tuition": 330000,
+              "tuitionEstimate": true,
+              "applicationFee": 600,
+              "feeBasis": "Minimum-load estimate: 30 credits × HKD 11,000 per credit for the 2027/28 admitted cohort; the cohort rate applies through completion. Extra credits, separate charges and living costs excluded.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p05a.htm",
+                "checkedOn": "2026-10-30"
+              }
+            },
+            {
+              "id": "HK-CITYU-P037-P05A-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-05-31",
+              "deadlineNote": "Published date-only shared category deadline; rolling review and live availability require confirmation.",
+              "currency": "HKD",
+              "tuition": 330000,
+              "tuitionEstimate": true,
+              "applicationFee": 600,
+              "feeBasis": "Minimum-load estimate: 30 credits × HKD 11,000 per credit for the 2027/28 admitted cohort; the cohort rate applies through completion. Extra credits, separate charges and living costs excluded.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p05a.htm",
+                "checkedOn": "2026-10-30"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised degree or assessed qualification alternative",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a"
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Published conditional English test scores",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 79,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false,
+              "testDateNotBefore": "2024-09-15",
+              "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/taught-postgraduate-programmes/list"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and study conditions",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a",
+              "noteZh": "",
+              "noteEn": "MIS accepts a recognised bachelor or equivalent in any subject, preferably outside Information Systems or Computer Science. Its non-IT orientation is a preference, not a hard ban on an IT graduate; recognition and preparation remain assessed."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, alternatives and test formats",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a",
+              "noteZh": "",
+              "noteEn": "CET-6 450 and equivalent qualifications require manual assessment. Non-English-medium qualifications trigger the published score route; English-medium documentary applicability is not an automatic waiver. IELTS 6/new TOEFL 4 requires an English interview unless the stated comparable TOEFL report exception is accepted. Single test date required; Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Recognition, current availability and study permission",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a",
+              "noteZh": "",
+              "noteEn": "Recognition, documents, current availability, credit load and part-time permission need university confirmation. Partial score comparisons do not establish complete eligibility or admission."
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a",
+              "purpose": "Rendered 2027 entry, labelled applicant dates and programme/stream requirements",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p05a.htm",
+              "purpose": "Rendered 2027/28 admitted-cohort credit fee schedule",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/pg/taught-postgraduate-programmes/list",
+              "purpose": "Explicit 2027 application opening and TOEFL/IELTS validity anchor",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/pg/taught-postgraduate-programmes/faq",
+              "purpose": "Separate HKD 600 ordinary-choice application fee and university test formats",
+              "checkedOn": "2026-10-30"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "2027 entry and 2027/28 fee cohort.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "MIS accepts a recognised bachelor or equivalent in any subject, preferably outside Information Systems or Computer Science. Its non-IT orientation is a preference, not a hard ban on an IT graduate; recognition and preparation remain assessed.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No universal numeric undergraduate entry GPA established; qualitative qualifications and school assessment remain.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conditional score branch plus manually assessed alternatives.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Load-specific estimate, not an assessed personal charge.",
+              "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p05a.htm"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Labelled local/non-local dates retained; category choice required where different.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent review or complete requirement set.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a"
+            }
+          },
+          "researchBatch": "cityu-professional-streams-2026-10-30",
+          "routeId": "HK-CITYU-P037-ROUTE-MIS"
+        },
+        {
+          "name": "MSc Business Information Systems (Financial and Intelligent Technology Stream)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": null,
+          "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial rendered official-page observation; independent review pending",
+          "lastChecked": "2026-10-30",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted official-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027 professional-degree and business-stream observation. FIT requires a recognised bachelor or equivalent and intermediate IT/IS or Finance/Accounting knowledge through fundamental undergraduate courses or related work. A major label alone does not prove that preparation; no universal minimum work years or GPA is published here.",
+          "offerings": [
+            {
+              "id": "HK-CITYU-P037-P05B-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-05-31",
+              "deadlineNote": "Published date-only shared category deadline; rolling review and live availability require confirmation.",
+              "currency": "HKD",
+              "tuition": 330000,
+              "tuitionEstimate": true,
+              "applicationFee": 600,
+              "feeBasis": "Minimum-load estimate: 30 credits × HKD 11,000 per credit for the 2027/28 admitted cohort; the cohort rate applies through completion. Extra credits, separate charges and living costs excluded.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.cityu.edu.hk/sgs/files/fees/tpg/P05B/index.htm",
+                "checkedOn": "2026-10-30"
+              }
+            },
+            {
+              "id": "HK-CITYU-P037-P05B-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-05-31",
+              "deadlineNote": "Published date-only shared category deadline; rolling review and live availability require confirmation.",
+              "currency": "HKD",
+              "tuition": 330000,
+              "tuitionEstimate": true,
+              "applicationFee": 600,
+              "feeBasis": "Minimum-load estimate: 30 credits × HKD 11,000 per credit for the 2027/28 admitted cohort; the cohort rate applies through completion. Extra credits, separate charges and living costs excluded.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.cityu.edu.hk/sgs/files/fees/tpg/P05B/index.htm",
+                "checkedOn": "2026-10-30"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised degree or assessed qualification alternative",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b"
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Published conditional English test scores",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 79,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false,
+              "testDateNotBefore": "2024-09-15",
+              "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/taught-postgraduate-programmes/list"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and study conditions",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b",
+              "noteZh": "",
+              "noteEn": "FIT requires a recognised bachelor or equivalent and intermediate IT/IS or Finance/Accounting knowledge through fundamental undergraduate courses or related work. A major label alone does not prove that preparation; no universal minimum work years or GPA is published here."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, alternatives and test formats",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b",
+              "noteZh": "",
+              "noteEn": "CET-6 450 and equivalent qualifications require manual assessment. Non-English-medium qualifications trigger the published score route; English-medium documentary applicability is not an automatic waiver. IELTS 6/new TOEFL 4 requires an English interview unless the stated comparable TOEFL report exception is accepted. Single test date required; Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Recognition, current availability and study permission",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b",
+              "noteZh": "",
+              "noteEn": "Recognition, documents, current availability, credit load and part-time permission need university confirmation. Partial score comparisons do not establish complete eligibility or admission."
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b",
+              "purpose": "Rendered 2027 entry, labelled applicant dates and programme/stream requirements",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://www.cityu.edu.hk/sgs/files/fees/tpg/P05B/index.htm",
+              "purpose": "Rendered 2027/28 admitted-cohort credit fee schedule",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/pg/taught-postgraduate-programmes/list",
+              "purpose": "Explicit 2027 application opening and TOEFL/IELTS validity anchor",
+              "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/pg/taught-postgraduate-programmes/faq",
+              "purpose": "Separate HKD 600 ordinary-choice application fee and university test formats",
+              "checkedOn": "2026-10-30"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "2027 entry and 2027/28 fee cohort.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "FIT requires a recognised bachelor or equivalent and intermediate IT/IS or Finance/Accounting knowledge through fundamental undergraduate courses or related work. A major label alone does not prove that preparation; no universal minimum work years or GPA is published here.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No universal numeric undergraduate entry GPA established; qualitative qualifications and school assessment remain.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conditional score branch plus manually assessed alternatives.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Load-specific estimate, not an assessed personal charge.",
+              "sourceUrl": "https://www.cityu.edu.hk/sgs/files/fees/tpg/P05B/index.htm"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Labelled local/non-local dates retained; category choice required where different.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent review or complete requirement set.",
+              "sourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b"
+            }
+          },
+          "researchBatch": "cityu-professional-streams-2026-10-30",
+          "routeId": "HK-CITYU-P037-ROUTE-FIT"
         }
       ]
     }

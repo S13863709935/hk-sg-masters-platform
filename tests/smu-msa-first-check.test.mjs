@@ -96,7 +96,7 @@ test('MSA first-source migration preserves MPA, all earlier objects, historical 
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 125); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 131); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -123,8 +123,8 @@ test('actual matching/save/restore/export preserves both MSA study selections, a
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
     assert.equal(detail.applicationTimeline.state, 'within_recorded_dates'); assert.equal(detail.applicationTimeline.offerings[0].nextRoundId, 'PHASE-1');
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 125); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 131); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 33, categories: 68, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 41, categories: 84, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 13);
   assert.equal(JSON.stringify(store.all()), before);
 });

@@ -2,6 +2,10 @@
 
 ## 当前本地状态（2026-10-30）
 
+CityU 专业学位及商科方向新增 6 条部分观察、2 份 BIS 独立方向快照，共 17 个有依据的学习选项。全库 131 条部分观察／742 条线索，总库 873／默认 870；CityU 60 条部分观察／2 条线索。LLM 的 24／30 学分及仲裁硕士的 30／33 学分按适用条件列示，不默认享受豁免；新增 8 组本地／非本地上下文后，全库 41 组／84 类别。BIS 的 MIS 偏好与 FIT 先修知识分开，EMBA／土木旧名保留身份或交付边界，不新增活动方向。此前 125 条记录、11 份方向快照及 33 组申请者对象不变。完整要求和独立复核仍为 0；维护单元 185。见 [批次观察](research/cityu-professional-streams-observation-2026-10-30.json)、[质量表](../docs/research/cityu-professional-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-cityu-professional.md)和[本地批次记录](../docs/progress/local-cityu-professional-2026-10-30.md)。
+
+以下是同日较早批次，保留当时输入与数量：
+
 CityU 人文社科与传媒批次新增 16 条部分观察／30 个学习选项。全库 125 条部分观察／748 条线索，总库 873／默认 870；CityU 54 条部分观察／8 条线索。逐项记录 24／30／36／54／55 学分及其最低学分费用估算，不照搬统一模板。中文课程的中文证明与条件式英语要求并存，English Studies 的 7／102／5.5 分数线单列；MFA Main/Games 作品集与 HCI 五个日历日调查、Counselling 培养路径和 Social Work 面试分别保留。Chinese History 只表示普通香港 30 学分方向，跨地区 45 学分方向标有 2027 停招说明及批准限定，不创建开放选项。原 109 条对象、申请者及路径层不变；完整要求和独立复核均为 0，维护单元 169。见 [批次观察](research/cityu-humanities-media-observation-2026-10-30.json)、[质量表](../docs/research/cityu-humanities-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-cityu-humanities.md)和[本地批次记录](../docs/progress/local-cityu-humanities-2026-10-30.md)。
 
 以下是同日较早批次，保留当时输入与数量：

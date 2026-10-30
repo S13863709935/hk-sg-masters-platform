@@ -110,7 +110,7 @@ test('earlier EEE snapshots survive the new same-day batch and the queue does no
   };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash('sha256').update(readFileSync(new URL('docs/research/' + file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
   const queue = loadRepositoryReviewQueue('2026-10-27');
-  assert.equal(queue.counts.programmePageRecords, 125); assert.equal(queue.counts.reviewUnits, 169); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  assert.equal(queue.counts.programmePageRecords, 131); assert.equal(queue.counts.reviewUnits, 185); assert.equal(queue.counts.reviewRecordedInSource, 0);
   assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -126,7 +126,7 @@ test('first MHSc source migration preserves all other records and directory cont
       db = new CatalogueStore(path, { ...options, checkedPath });
       assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory);
       assert.deepEqual(db.all().filter(x => x.id !== p.id), previous); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 125); db.close(); db = null;
+      assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 131); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -148,8 +148,8 @@ test('real APIs and saved choices retain current MHSc unknowns, retire the old s
   assert.equal(response.status, 200); const items = (await response.json()).items; assert.deepEqual(items.map(x => x.status), ['resolved', 'needs_attention']);
   const exported = shortlistExport([items[0].programme], { [p.id]: saved }).programmes[0];
   assert.equal(exported.offerings[0].deadline, null); assert.equal(exported.offerings[0].tuition, null); assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 125);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 131);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 33, categories: 68, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 11);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 41, categories: 84, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 13);
   assert.equal(JSON.stringify(store.all()), before);
 });
