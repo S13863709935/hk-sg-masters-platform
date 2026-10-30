@@ -30,7 +30,7 @@ test('existing MGSS seed gains actual 28 October partial evidence without restam
   assert.equal(validateProgramme(p, new Set(['SG-SUSS'])), p); assert.equal(p.award, 'MGSS'); assert.equal(p.faculty, 'School of Humanities and Behavioural Sciences');
   assert.equal(p.lastChecked, '2026-10-28'); assert.equal(batch.checkedOn, batch.programmes.map(x => x.lastChecked).sort().at(-1));
   const earlier = batch.programmes.slice(0, batch.programmes.findIndex(x => x.id === p.id));
-  assert.equal(earlier.length, 44); assert.ok(earlier.every(x => x.lastChecked <= '2026-10-27'));
+  assert.equal(earlier.length, 44); const laterScopedIds = new Set(read('data/research/hk-existing-records-observation-2026-10-30.json').changedProgrammeIds); assert.ok(earlier.every(x => laterScopedIds.has(x.id) ? x.lastChecked === '2026-10-30' : x.lastChecked <= '2026-10-27'));
   assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.admissionRoute, 'unconfirmed'); assert.equal(p.reviewer, null);
   assert.equal(obs.identity.internationalDirectoryClassifiesCoursework, true); assert.equal(batch.pilotProgrammeIds.includes(p.id), false); assert.equal(batch.pilotProgrammeIds.length, 20);
   assert.equal(/\p{Script=Han}/u.test(JSON.stringify(p)), false);

@@ -11,7 +11,7 @@ test('the SMU refresh dates are explicit without relabelling unrelated programme
   assert.equal(batch.checkedOn, batch.programmes.map(p => p.lastChecked).sort().at(-1));
   assert.equal(programme.lastChecked, '2026-10-20');
   assert.deepEqual(batch.programmes.filter(p => p.lastChecked === '2026-10-20').map(p => p.id), ['HK-CITYU-P010', 'HK-CITYU-P004', programme.id, 'SG-SMU-P010']);
-  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-23');
+  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-30');
 });
 
 test('both MPA modes keep their stable IDs and dated August 2027 cohort', () => {

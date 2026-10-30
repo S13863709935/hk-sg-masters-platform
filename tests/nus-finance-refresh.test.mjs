@@ -23,7 +23,7 @@ test('Finance refresh records its own five sources without restamping other prog
   assert.deepEqual(batch.programmes.filter(q => q.researchBatch === p.researchBatch).map(q => q.id), [id]);
   assert.deepEqual(p.sources.map(s => s.url), Object.values(observation.sources));
   assert.ok(p.sources.every(s => s.checkedOn === '2026-10-22'));
-  assert.equal(batch.programmes.find(q => q.id === 'HK-EDUHK-P001').lastChecked, '2026-10-23');
+  assert.equal(batch.programmes.find(q => q.id === 'HK-EDUHK-P001').lastChecked, '2026-10-30');
   assert.equal(batch.programmes.find(q => q.id === 'SG-NTU-P018').lastChecked, '2026-10-21');
 });
 

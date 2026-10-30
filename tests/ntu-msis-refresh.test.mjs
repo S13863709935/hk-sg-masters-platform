@@ -20,7 +20,7 @@ test('MSIS refresh changes only its observation date and preserves other source 
   assert.equal(batch.checkedOn, batch.programmes.map(q => q.lastChecked).sort().at(-1));
   assert.equal(p.lastChecked, '2026-10-21');
   assert.deepEqual(batch.programmes.filter(q => q.lastChecked === '2026-10-21').map(q => q.id), [id]);
-  assert.equal(batch.programmes.find(q => q.id === 'HK-EDUHK-P001').lastChecked, '2026-10-23');
+  assert.equal(batch.programmes.find(q => q.id === 'HK-EDUHK-P001').lastChecked, '2026-10-30');
   assert.deepEqual(p.sources.map(s => s.url), [official, guide]);
   assert.ok(p.sources.every(s => s.checkedOn === p.lastChecked));
 });

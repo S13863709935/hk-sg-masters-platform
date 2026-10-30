@@ -28,7 +28,7 @@ test('HKUST and SIT refresh exactly two partial records from actual 24 October s
     assert.equal(p.verification, 'programme_page_checked'); assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
     assert.deepEqual(p.offerings.map(o => o.id), [p.id + '-O1', p.id + '-O2']);
   }
-  assert.equal(store.get('HK-EDUHK-P001').lastChecked, '2026-10-23');
+  assert.equal(store.get('HK-EDUHK-P001').lastChecked, '2026-10-30');
   assert.equal(store.get('SG-NUS-P029').lastChecked, '2026-10-22');
   assert.equal(hk.academicYear, '2027/28'); assert.equal(hk.officialUrl, obs.sources.hkustCatalogue);
 });

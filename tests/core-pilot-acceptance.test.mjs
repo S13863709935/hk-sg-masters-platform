@@ -71,13 +71,15 @@ test('category choices and closed dates retain their scope without a guessed def
   assert.equal(report.livePortalChecked, false);
 });
 
-test('source spot checks are separate observations, not new source dates, complete coverage or extra programmes', () => {
+test('historical spot checks keep their own dates while a later scoped source check advances selected live records', () => {
   assert.deepEqual(observed.programmes.map(p => p.programmeId), batch.pilotProgrammeIds);
   assert.equal(observed.productionDataChanges, 0); assert.equal(observed.allLinkedSourcesRefreshed, false);
   assert.equal(observed.pdfReviewedThisBatch, false); assert.equal(observed.independentHumanReviews, 0);
   assert.equal(observed.checkedOn, '2026-10-25');
+  const refreshed = new Set(read('data/research/hk-existing-records-observation-2026-10-30.json').changedProgrammeIds);
   for (const p of observed.programmes) {
-    const actual = store.get(p.programmeId); assert.equal(actual.lastChecked, p.recordSourceDate);
+    const actual = store.get(p.programmeId); assert.equal(actual.lastChecked, refreshed.has(p.programmeId) ? '2026-10-30' : p.recordSourceDate);
+    if (refreshed.has(p.programmeId)) assert.equal(p.recordSourceDate, '2026-10-23');
     assert.equal(p.checkedOn, observed.checkedOn); assert.ok(p.scope && p.observation && p.remaining);
   }
 });
@@ -104,7 +106,7 @@ test('invalid dates, duplicate identities, missing programmes and unsupported CL
 });
 
 test('saved acceptance Markdown reproduces exactly and escapes synthetic names in table cells', () => {
-  const saved = readFileSync(new URL('docs/research/core-pilot-acceptance-2026-10-30-smu-school.md', root), 'utf8').replaceAll('\r\n', '\n');
+  const saved = readFileSync(new URL('docs/research/core-pilot-acceptance-2026-10-30-hk-school.md', root), 'utf8').replaceAll('\r\n', '\n');
   assert.equal(formatCoreAcceptance(report), saved);
   assert.equal(/[ \t]+$/m.test(saved), false);
   const p = fixture(); p.name = '<script>bad</script> | [bad]';

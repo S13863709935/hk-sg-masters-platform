@@ -25,7 +25,8 @@ test('the official-source pilot has 20 direct-entry records across all 14 target
 test('all pilot sources, coverage states and checked dates are validated', () => {
   for (const p of pilot) {
     assert.equal(validateProgramme(p, ids), p);
-    assert.ok(p.sources.length > 0 && p.sources.every(s => isOfficialUrl(s.url) && s.checkedOn === p.lastChecked));
+    assert.ok(p.sources.length > 0 && p.sources.every(s => isOfficialUrl(s.url) && /^20\d{2}-\d{2}-\d{2}$/.test(s.checkedOn) && s.checkedOn <= p.lastChecked));
+    assert.equal(p.sources.map(s => s.checkedOn).sort().at(-1), p.lastChecked);
     assert.deepEqual(Object.keys(p.fieldStatus).sort(), ['academicYear', 'deadline', 'gpa', 'independentReview', 'language', 'major', 'tuition']);
     assert.equal(/\p{Script=Han}/u.test(JSON.stringify({ name: p.name, notes: p.notesEn, rules: p.rules, fields: p.fieldStatus })), false);
   }

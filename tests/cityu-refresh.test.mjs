@@ -86,7 +86,7 @@ test('same-university subdomains are supported without accepting another univers
 test('mixed source dates keep refreshed EdUHK separate from CityU October 20 observations', async () => {
   const ed = await get('/api/programmes/HK-EDUHK-P001?offering=HK-EDUHK-P001-O1&applicant=HK-EDUHK-P001-O1-LOCAL');
   const cs = await selected('O1', 'LOCAL');
-  assert.equal(ed.applicantEvidence.checkedOn, '2026-10-23'); assert.equal(ed.lastChecked, '2026-10-23');
+  assert.equal(ed.applicantEvidence.checkedOn, '2026-10-23'); assert.equal(ed.lastChecked, '2026-10-30');
   assert.equal(cs.applicantEvidence.checkedOn, '2026-10-20'); assert.equal(cs.lastChecked, '2026-10-20');
 });
 

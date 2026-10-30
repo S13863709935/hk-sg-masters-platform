@@ -110,7 +110,7 @@ test('new maintenance snapshots preserve the complete 24/25 October archives', (
   const queue = loadRepositoryReviewQueue('2026-10-27');
   assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.reviewRecordedInSource, 0);
   assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
-  assert.equal(loadCoreAcceptance('2026-10-27').counts.violations, 0);
+  assert.equal(loadCoreAcceptance('2026-10-30').counts.violations, 0);
 });
 
 test('first programme-source migration preserves other records, directory context and restart state', () => {

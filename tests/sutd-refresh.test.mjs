@@ -23,7 +23,7 @@ test('SUTD refresh is limited to two partial programme-page observations without
     assert.ok(p.sources.every(s => s.checkedOn === observation.checkedOn));
     assert.equal(p.fieldStatus.independentReview.status, 'unknown');
   }
-  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-23');
+  assert.equal(batch.programmes.find(p => p.id === 'HK-EDUHK-P001').lastChecked, '2026-10-30');
   assert.equal(batch.programmes.find(p => p.id === 'SG-NUS-P029').lastChecked, '2026-10-22');
   assert.equal(observation.limits.livePortalChecked, false); assert.equal(observation.limits.independentHumanReviews, 0);
 });

@@ -125,7 +125,7 @@ node scripts/source-review-queue.mjs --as-of 2026-10-30 --format markdown
 
 日期必须明确指定；工具只读仓库 JSON，并在内存中组装来源，不打开 `data/local` 的日常数据库、不联网，也不自动写输出文件或修改复核状态。JSON 保留原查阅日、字段说明、人工条件、类别绑定及记录截止；Markdown 为便于人工操作的索引。29 个项目、5 个方向、18 个上下文共 52 个工作单元，不是 52 个项目。未公布 GPA 不当成零或一般缺失，未知条件不自动通过。绑定失配或晚于快照的类别证据不得产生可用价格日期；临近截止只用于安排核对，不证明申请开放。
 
-当前为 [30 日工作清单](research/source-review-queue-2026-10-30-smu-school.md)，另保留 [24 日历史工作清单](research/source-review-queue-2026-10-24.md)。源文件变动后应另建新日期快照；输入指纹按 JSON 语义计算，不受换行或对象键序影响。原件视觉检查、真实人员复核、完整性评估及上线授权仍是独立事项。
+当前为 [30 日工作清单](research/source-review-queue-2026-10-30-hk-school.md)，另保留 [24 日历史工作清单](research/source-review-queue-2026-10-24.md)。源文件变动后应另建新日期快照；输入指纹按 JSON 语义计算，不受换行或对象键序影响。原件视觉检查、真实人员复核、完整性评估及上线授权仍是独立事项。
 
 ### 申请日期与学术条件分开
 
@@ -138,6 +138,8 @@ node scripts/source-review-queue.mjs --as-of 2026-10-30 --format markdown
 ### 学术条件
 
 2026-10-30 增加 `Recorded comparisons met` 筛选与摘要。必需的 degree／major／GPA／classification／language／experience 比对单独计数；manual、来源完整性、路径／批次／申请者类别条件保留原状态。全部已记录可比条件通过且至少有一条时可进入此筛选，但总体仍可为 `needs_confirmation`，没有完整条件及独立复核仍不分档。目录线索、已知必需缺口、范围外记录或失效保存选项不进入此筛选。
+
+香港八校现有记录已另作 [统一质量表](research/hk-existing-records-quality-2026-10-30.md)。可运行 `node scripts/school-quality.mjs --school HK-HKBU --as-of 2026-10-30 --records checked --format markdown`：保留该校完整本地目录数量，表内只列已存在的部分观察；旧转入／范围外参考与活跃字段缺漏分开计数。省略 `--records` 仍按原行为输出该校所有本地记录，不会重写先前的 SMU 报告。三条资格字段的更新不重置费用类别来源日期，也不改变原匹配规则。
 
 学校质量工具示例：`node scripts/school-quality.mjs --school SG-SMU --as-of 2026-10-30 --format markdown`。它只审计本地已收集字段，不表示重新读取全部官网，也不把“未公布 GPA”当作零门槛。[本次 SMU 统一表](research/smu-school-quality-2026-10-30.md)覆盖现有 17 条记录；其中 MSE／MSFE 截止延至 11 月 30 日，MDSE 页面差异仍保留待确认。
 

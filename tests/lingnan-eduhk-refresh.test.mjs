@@ -24,7 +24,7 @@ const check = (p, language) => matchProgramme(p, { ...profile, language }).check
 test('Lingnan and EdUHK refresh only their partial observations and preserve existing programme/study identities', () => {
   assert.deepEqual(batch.programmes.filter(p => p.researchBatch === 'lingnan-eduhk-refresh-2026-10-23').map(p => p.id), [lu.id, ed.id]);
   for (const p of [lu, ed]) {
-    assert.equal(p.lastChecked, observed.checkedOn); assert.ok(p.sources.every(s => s.checkedOn === observed.checkedOn));
+    assert.equal(p.lastChecked, p.id === ed.id ? '2026-10-30' : observed.checkedOn); assert.ok(p.sources.every(s => s.checkedOn >= observed.checkedOn && s.checkedOn <= p.lastChecked)); assert.ok(p.sources.some(s => s.checkedOn === observed.checkedOn));
     assert.equal(p.verification, 'programme_page_checked'); assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
     assert.deepEqual(p.offerings.map(o => o.id), [p.id + '-O1', p.id + '-O2']);
   }
@@ -163,7 +163,7 @@ test('saved choices and candidate exports retain fresh evidence while read-only 
   assert.equal(r.status, 200); const item = (await r.json()).items[0]; assert.equal(item.status, 'resolved');
   const exported = shortlistExport([item.programme], { [ed.id]: saved }).programmes[0];
   assert.equal(exported.offerings[0].applicationFee, 500); assert.equal(exported.offerings[0].deadline, '2027-05-10');
-  assert.equal(exported.evidence.lastChecked, observed.checkedOn); assert.equal(exported.applicantEvidence.checkedOn, observed.checkedOn);
+  assert.equal(exported.evidence.lastChecked, ed.lastChecked); assert.equal(exported.applicantEvidence.checkedOn, observed.checkedOn);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined); assert.equal(exported.rememberedChoice, true);
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.checked, 73); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);

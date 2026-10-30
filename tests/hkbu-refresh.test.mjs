@@ -24,11 +24,11 @@ test('two HKBU records are dated separately without inventing review or changing
   const changed = batch.programmes.filter(p => p.researchBatch === 'hkbu-refresh-2026-10-23');
   assert.deepEqual(changed.map(p => p.id), [cu, bu]);
   for (const p of changed) {
-    assert.equal(p.lastChecked, observations.checkedOn); assert.ok(p.sources.every(s => s.checkedOn === observations.checkedOn));
+    assert.equal(p.lastChecked, '2026-10-30'); assert.ok(p.sources.every(s => s.checkedOn >= observations.checkedOn && s.checkedOn <= p.lastChecked)); assert.ok(p.sources.some(s => s.checkedOn === observations.checkedOn));
     assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
     assert.equal(p.verification, 'programme_page_checked');
   }
-  assert.equal(store.get('HK-EDUHK-P001').lastChecked, '2026-10-23');
+  assert.equal(store.get('HK-EDUHK-P001').lastChecked, '2026-10-30');
   assert.equal(store.get('SG-NUS-P029').lastChecked, '2026-10-22');
   assert.deepEqual(applicantSummary(applicants), { studyOptions: 18, categories: 38, peerReviewed: 0 });
 });
@@ -147,7 +147,7 @@ test('catalogue, detail, matching and export share the explicitly selected HKBU 
     assert.equal(matched.offerings[0].tuition, amount); assert.equal(matched.match.status, 'needs_confirmation'); assert.equal(matched.match.tier, null);
     const exported = shortlistExport([detail], { [id]: optionSnapshot(detail) }, '2026-10-23T04:00:00.000Z').programmes[0];
     assert.equal(exported.offerings[0].tuition, amount); assert.equal(exported.offerings[0].deadline, deadline);
-    assert.equal(exported.evidence.lastChecked, observations.checkedOn); assert.equal(exported.rememberedChoice, true);
+    assert.equal(exported.evidence.lastChecked, detail.lastChecked); assert.equal(exported.rememberedChoice, true);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
 });

@@ -1,0 +1,1036 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-10-30",
+  "region": "HK",
+  "collector": "AI-assisted official-source text check",
+  "reviewer": null,
+  "scope": "Targeted current source checks for 14 direct-application records and one legacy transfer reference across eight schools; not a full review of all requirements or full current catalogue enumeration. Some web responses were cached.",
+  "counts": {
+    "schools": 8,
+    "catalogueRecords": 595,
+    "checkedRecords": 15,
+    "directRecords": 14,
+    "archiveOnly": 1,
+    "completeRequirementSets": 0,
+    "independentlyReviewed": 0,
+    "activeFieldGaps": {
+      "academicYear": 0,
+      "major": 2,
+      "gpa": 0,
+      "language": 1,
+      "tuition": 1,
+      "deadline": 1,
+      "independentReview": 14
+    }
+  },
+  "changedProgrammeIds": [
+    "HK-EDUHK-P001",
+    "HK-HKBU-P001",
+    "HK-HKBU-P007"
+  ],
+  "rulesFeesDatesChanged": false,
+  "records": [
+    {
+      "programmeId": "HK-CITYU-P004",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Economics undergraduate study is explicitly not a prerequisite, while quantitative preparation is encouraged. Keep original test versions, CET-6 490 and March closing date; no generic GPA conversion."
+    },
+    {
+      "programmeId": "HK-CITYU-P010",
+      "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Current programme-specific entrance section retains the computing degree route and a related-field route with applicable IT work evidence. IELTS 6.0, dated TOEFL versions and conditional English interview remain distinct; no new full eligibility decision."
+    },
+    {
+      "programmeId": "HK-CUHK-P001",
+      "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Graduate School deadline list confirms the five existing monthly rounds including 31 October. Two department pages timed out; their earlier observations remain dated and are not described as freshly verified. One-page purpose statement is visible on the Graduate School programme page."
+    },
+    {
+      "programmeId": "HK-EDUHK-P001",
+      "sourceUrl": "https://www.eduhk.hk/ssps/mppm",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "The consulted admission section publishes a recognised bachelor/equivalent requirement, with no universal named major restriction. Reclassify the field as not published in those sections, preserving manual recognition and intake-specific English requirements. This is not an automatic any-major rule."
+    },
+    {
+      "programmeId": "HK-EDUHK-P044",
+      "sourceUrl": "https://www.eduhk.hk/mit/en/mscads",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Current page identifies Putonghua instruction supplemented by English and science/engineering as a preference. The central Chinese-medium branch refers to programme-specific requirements; English-medium score floors must not be copied into ADS."
+    },
+    {
+      "programmeId": "HK-HKBU-P001",
+      "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Dated registry specifies an honours bachelor and programme evidence without a universal undergraduate-major restriction. Reclassify that field as not published, retain honours judgement and the current language rules. Full-time applicant categories remain separate from unresolved part-time applicability."
+    },
+    {
+      "programmeId": "HK-HKBU-P007",
+      "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Registry, programme requirements and FAQ agree on bachelor/equivalent recognition without publishing a universal subject restriction. Reclassify major evidence without adding an any-major pass rule. Programme-specific IELTS and central-policy differences remain manual."
+    },
+    {
+      "programmeId": "HK-HKU-P007",
+      "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Admission page confirms the existing 4 January 2027 noon GMT+8 cutoff and an urban/related qualification route. The exact noon round is already structured; preserve it and the September-anchored English validity, without inventing an opening date."
+    },
+    {
+      "programmeId": "HK-HKUST-P001",
+      "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Official catalogue and School of Engineering agree on 1 November 2026 for February 2027 part-time entry. September 2027 category-specific rounds differ and remain separately bound. MSc and PGD titles are not duplicate masters."
+    },
+    {
+      "programmeId": "HK-HKUST-P002",
+      "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Catalogue retains engineering/honours requirements, recorded language versions and category-dependent September rounds. A named integrated bachelor-master pathway is conditional, not general direct-entry approval."
+    },
+    {
+      "programmeId": "HK-HKUST-P003",
+      "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+      "observationScope": "legacy route restriction",
+      "finding": "The 2026/27 source explicitly restricts MEng to current MSc students and says no new admission. Retain this record as an archive/transfer reference; missing current fields are not a reason to prepare it as a direct-application option."
+    },
+    {
+      "programmeId": "HK-HKUST-P015",
+      "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Programme identity and admission-language section were re-read. Graduation grade averages are not undergraduate entry GPA; no new numeric entry threshold is added."
+    },
+    {
+      "programmeId": "HK-HKUST-P016",
+      "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Programme identity and admission section were re-read. MicroMasters credit transfer and graduation grade averages are not mandatory undergraduate entry gates or guaranteed discounts."
+    },
+    {
+      "programmeId": "HK-LU-P001",
+      "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Dated admission page retains relevant-degree and academic/professional alternatives, IELTS 6.0 and CET-6 oral evidence. Original score validity is measured at application submission, not from today; an unpublished new TOEFL scale is not inferred."
+    },
+    {
+      "programmeId": "HK-POLYU-P001",
+      "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp",
+      "observationScope": "programme identity and selected qualification/language/date sections",
+      "finding": "Dated programme page retains an any-discipline bachelor/equivalent route and February main round. Graduation credits, early round and other qualifications remain separate; no rule or fee changes are justified by this read."
+    }
+  ],
+  "additionalSources": [
+    {
+      "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+      "finding": "Anthropology taught MA: 30 September, 31 October, 30 November, 31 December 2026 and 31 January 2027; do not import PhD dates."
+    },
+    {
+      "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem",
+      "finding": "February 2027 part-time final date stays 1 November 2026 for the two listed applicant categories."
+    },
+    {
+      "url": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html",
+      "finding": "Recognised bachelor or equivalent professional qualification; no universal undergraduate subject restriction in the consulted section."
+    },
+    {
+      "url": "https://mscbm.hkbu.edu.hk/admission/faq.html",
+      "finding": "Programme-specific English evidence and interview are conditional; GMAT encouraged, not required."
+    },
+    {
+      "url": "https://comm.hkbu.edu.hk/en/programmes/taught-postgraduate-programmes/macomm.html",
+      "finding": "Programme school page and registry wording retained separately, without weakening the honours/equivalence condition."
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+      "finding": "English-medium and Chinese-medium admission-language branches differ; alternatives are not automatic waivers."
+    },
+    {
+      "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "finding": "September 2027 central rounds remain distinct from January entry."
+    }
+  ],
+  "retrievalFailures": [
+    {
+      "url": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/",
+      "outcome": "tool retrieval timed out; older checked evidence retained with its original date"
+    },
+    {
+      "url": "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/",
+      "outcome": "tool retrieval timed out; no claim of fresh FAQ verification"
+    }
+  ],
+  "schoolReports": [
+    {
+      "schemaVersion": 1,
+      "schoolId": "HK-CITYU",
+      "asOfDate": "2026-10-30",
+      "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+      "recordSelection": "page_checked_only",
+      "counts": {
+        "catalogueRecords": 62,
+        "checkedRecords": 2,
+        "completeRequirementSets": 0,
+        "independentlyReviewed": 0,
+        "withComparableRules": 2,
+        "fieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 2
+        },
+        "reportedRecords": 2,
+        "archiveOnly": 0,
+        "activeFieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 2
+        }
+      },
+      "rows": [
+        {
+          "programmeId": "HK-CITYU-P004",
+          "name": "MSc Applied Economics",
+          "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-20",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "major",
+            "language"
+          ],
+          "manualConditions": 1,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13",
+            "https://www.cb.cityu.edu.hk/masters/our-programmes/department-of-economics-and-finance/msc-applied-economics",
+            "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p13.htm",
+            "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+          ]
+        },
+        {
+          "programmeId": "HK-CITYU-P010",
+          "name": "MSc Computer Science",
+          "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-20",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "major",
+            "language"
+          ],
+          "manualConditions": 2,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
+            "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm",
+            "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "schoolId": "HK-CUHK",
+      "asOfDate": "2026-10-30",
+      "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+      "recordSelection": "page_checked_only",
+      "counts": {
+        "catalogueRecords": 129,
+        "checkedRecords": 1,
+        "completeRequirementSets": 0,
+        "independentlyReviewed": 0,
+        "withComparableRules": 1,
+        "fieldGaps": {
+          "academicYear": 0,
+          "major": 1,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 1,
+          "deadline": 0,
+          "independentReview": 1
+        },
+        "reportedRecords": 1,
+        "archiveOnly": 0,
+        "activeFieldGaps": {
+          "academicYear": 0,
+          "major": 1,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 1,
+          "deadline": 0,
+          "independentReview": 1
+        }
+      },
+      "rows": [
+        {
+          "programmeId": "HK-CUHK-P001",
+          "name": "MA Anthropology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-24",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "unknown",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "unknown",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "major",
+            "tuition",
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "language"
+          ],
+          "manualConditions": 4,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology",
+            "https://www.gs.cuhk.edu.hk/admissions/requirements",
+            "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+            "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/ma/ma-application-information/",
+            "https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/",
+            "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "schoolId": "HK-EDUHK",
+      "asOfDate": "2026-10-30",
+      "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+      "recordSelection": "page_checked_only",
+      "counts": {
+        "catalogueRecords": 59,
+        "checkedRecords": 2,
+        "completeRequirementSets": 0,
+        "independentlyReviewed": 0,
+        "withComparableRules": 2,
+        "fieldGaps": {
+          "academicYear": 0,
+          "major": 1,
+          "gpa": 0,
+          "language": 1,
+          "tuition": 0,
+          "deadline": 1,
+          "independentReview": 2
+        },
+        "reportedRecords": 2,
+        "archiveOnly": 0,
+        "activeFieldGaps": {
+          "academicYear": 0,
+          "major": 1,
+          "gpa": 0,
+          "language": 1,
+          "tuition": 0,
+          "deadline": 1,
+          "independentReview": 2
+        }
+      },
+      "rows": [
+        {
+          "programmeId": "HK-EDUHK-P001",
+          "name": "Master of Public Policy and Management",
+          "officialUrl": "https://www.eduhk.hk/ssps/mppm",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-30",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "not_published",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "unknown",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "deadline",
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "major",
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "language"
+          ],
+          "manualConditions": 4,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://www.eduhk.hk/ssps/mppm",
+            "https://www.eduhk.hk/acadprog/postgrad/",
+            "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+            "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+            "https://www.eduhk.hk/acadprog/FAQS/index.htm"
+          ]
+        },
+        {
+          "programmeId": "HK-EDUHK-P044",
+          "name": "Master of Science in Applied Data Science",
+          "officialUrl": "https://www.eduhk.hk/mit/en/mscads",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-25",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "unknown",
+            "gpa": "not_published",
+            "language": "unknown",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "major",
+            "language",
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree"
+          ],
+          "manualConditions": 8,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://www.eduhk.hk/mit/en/mscads",
+            "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+            "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+            "https://www.eduhk.hk/acadprog/application/index.html",
+            "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+            "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+            "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+            "https://www.eduhk.hk/mit/public_uploads/Leaflet/MSc_ADS_Leaflet_TCn_2728.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "schoolId": "HK-HKBU",
+      "asOfDate": "2026-10-30",
+      "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+      "recordSelection": "page_checked_only",
+      "counts": {
+        "catalogueRecords": 49,
+        "checkedRecords": 2,
+        "completeRequirementSets": 0,
+        "independentlyReviewed": 0,
+        "withComparableRules": 2,
+        "fieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 2
+        },
+        "reportedRecords": 2,
+        "archiveOnly": 0,
+        "activeFieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 2
+        }
+      },
+      "rows": [
+        {
+          "programmeId": "HK-HKBU-P001",
+          "name": "MA Communication",
+          "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-30",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "not_published",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "major",
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "language"
+          ],
+          "manualConditions": 4,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+            "https://comm.hkbu.edu.hk/en/programmes/taught-postgraduate-programmes/macomm.html",
+            "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements",
+            "https://ar.hkbu.edu.hk/tpg-studies/prospective-student/information-for-non-local-applicants"
+          ]
+        },
+        {
+          "programmeId": "HK-HKBU-P007",
+          "name": "MSc Business Management",
+          "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-30",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "not_published",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "major",
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "language"
+          ],
+          "manualConditions": 3,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+            "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html",
+            "https://mscbm.hkbu.edu.hk/admission/faq.html",
+            "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "schoolId": "HK-HKU",
+      "asOfDate": "2026-10-30",
+      "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+      "recordSelection": "page_checked_only",
+      "counts": {
+        "catalogueRecords": 103,
+        "checkedRecords": 1,
+        "completeRequirementSets": 0,
+        "independentlyReviewed": 0,
+        "withComparableRules": 1,
+        "fieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 1
+        },
+        "reportedRecords": 1,
+        "archiveOnly": 0,
+        "activeFieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 1
+        }
+      },
+      "rows": [
+        {
+          "programmeId": "HK-HKU-P007",
+          "name": "MSc Urban Analytics",
+          "officialUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-23",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "language"
+          ],
+          "manualConditions": 4,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
+            "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/",
+            "https://calendar.hku.hk/general-regulations/",
+            "https://www.arch.hku.hk/admissions/faqs-for-taught-postgraduate-programmes/"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "schoolId": "HK-HKUST",
+      "asOfDate": "2026-10-30",
+      "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+      "recordSelection": "page_checked_only",
+      "counts": {
+        "catalogueRecords": 49,
+        "checkedRecords": 5,
+        "completeRequirementSets": 0,
+        "independentlyReviewed": 0,
+        "withComparableRules": 4,
+        "fieldGaps": {
+          "academicYear": 1,
+          "major": 1,
+          "gpa": 1,
+          "language": 1,
+          "tuition": 1,
+          "deadline": 1,
+          "independentReview": 5
+        },
+        "reportedRecords": 5,
+        "archiveOnly": 1,
+        "activeFieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 4
+        }
+      },
+      "rows": [
+        {
+          "programmeId": "HK-HKUST-P001",
+          "name": "MSc Civil Infrastructural Engineering and Management",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-24",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "major",
+            "classification",
+            "language"
+          ],
+          "manualConditions": 5,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem",
+            "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem"
+          ]
+        },
+        {
+          "programmeId": "HK-HKUST-P002",
+          "name": "MSc Digital and Sustainable Cities",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-24",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "major",
+            "classification",
+            "language"
+          ],
+          "manualConditions": 4,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+            "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-disc"
+          ]
+        },
+        {
+          "programmeId": "HK-HKUST-P003",
+          "name": "MEng Digital and Sustainable Cities",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+          "admissionRoute": "transfer_only",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-06",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "unrecorded",
+            "major": "unrecorded",
+            "gpa": "unrecorded",
+            "language": "unrecorded",
+            "tuition": "unrecorded",
+            "deadline": "unrecorded",
+            "independentReview": "unrecorded"
+          },
+          "missingFields": [
+            "academicYear",
+            "major",
+            "gpa",
+            "language",
+            "tuition",
+            "deadline",
+            "independentReview"
+          ],
+          "notPublishedFields": [],
+          "comparableRuleKinds": [],
+          "manualConditions": 0,
+          "independentReviewRecorded": false,
+          "sourceUrls": []
+        },
+        {
+          "programmeId": "HK-HKUST-P015",
+          "name": "MSc Artificial Intelligence",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-24",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "major",
+            "language"
+          ],
+          "manualConditions": 4,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai",
+            "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai"
+          ]
+        },
+        {
+          "programmeId": "HK-HKUST-P016",
+          "name": "MSc Big Data Technology",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-24",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "major",
+            "language"
+          ],
+          "manualConditions": 4,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt",
+            "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-bdt"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "schoolId": "HK-LU",
+      "asOfDate": "2026-10-30",
+      "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+      "recordSelection": "page_checked_only",
+      "counts": {
+        "catalogueRecords": 44,
+        "checkedRecords": 1,
+        "completeRequirementSets": 0,
+        "independentlyReviewed": 0,
+        "withComparableRules": 1,
+        "fieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 1
+        },
+        "reportedRecords": 1,
+        "archiveOnly": 0,
+        "activeFieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 1
+        }
+      },
+      "rows": [
+        {
+          "programmeId": "HK-LU-P001",
+          "name": "MA International Higher Education and Management",
+          "officialUrl": "https://www.ln.edu.hk/sgs/ihem/admission",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-23",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "language"
+          ],
+          "manualConditions": 3,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://www.ln.edu.hk/sgs/ihem/admission",
+            "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information",
+            "https://www.ln.edu.hk/sgs/programmes-on-offer"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "schoolId": "HK-POLYU",
+      "asOfDate": "2026-10-30",
+      "basis": "Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.",
+      "recordSelection": "page_checked_only",
+      "counts": {
+        "catalogueRecords": 100,
+        "checkedRecords": 1,
+        "completeRequirementSets": 0,
+        "independentlyReviewed": 0,
+        "withComparableRules": 1,
+        "fieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 1
+        },
+        "reportedRecords": 1,
+        "archiveOnly": 0,
+        "activeFieldGaps": {
+          "academicYear": 0,
+          "major": 0,
+          "gpa": 0,
+          "language": 0,
+          "tuition": 0,
+          "deadline": 0,
+          "independentReview": 1
+        }
+      },
+      "rows": [
+        {
+          "programmeId": "HK-POLYU-P001",
+          "name": "MSc Business Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp",
+          "admissionRoute": "direct",
+          "scopeStatus": "unconfirmed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "lastChecked": "2026-10-23",
+          "sourceAfterSnapshot": false,
+          "fieldStates": {
+            "academicYear": "known",
+            "major": "known",
+            "gpa": "not_published",
+            "language": "known",
+            "tuition": "known",
+            "deadline": "known",
+            "independentReview": "unknown"
+          },
+          "missingFields": [
+            "independentReview"
+          ],
+          "notPublishedFields": [
+            "gpa"
+          ],
+          "comparableRuleKinds": [
+            "degree",
+            "major",
+            "language"
+          ],
+          "manualConditions": 4,
+          "independentReviewRecorded": false,
+          "sourceUrls": [
+            "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp",
+            "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/bm/admissions/",
+            "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg",
+            "https://www.polyu.edu.hk/study/pg/taught-postgraduate/frequently-asked-questions-tpg",
+            "https://www.polyu.edu.hk/study/pg/taught-postgraduate/general-information-tpg",
+            "https://www.polyu.edu.hk/study/pg/taught-postgraduate/additional-supporting-documents-required-application-admissions-tpg",
+            "https://www38.polyu.edu.hk/eAdmission/index.do"
+          ]
+        }
+      ]
+    }
+  ]
+}
