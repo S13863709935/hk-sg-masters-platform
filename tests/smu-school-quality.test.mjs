@@ -43,7 +43,7 @@ test('MDSE main-page versus separate application-page difference remains unconfi
 });
 
 test('the current maintenance queue removes stale October warnings and historical views withhold future observations', () => {
-  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.nearCutoffUnits, 2);
+  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.nearCutoffUnits, 3);
   for (const id of ['SG-SMU-P007', 'SG-SMU-P009']) {
     const u = q.units.find(u => u.programmeId === id);
     assert.ok(u.recordedCutoffs.some(c => c.deadline === '2026-11-30'));

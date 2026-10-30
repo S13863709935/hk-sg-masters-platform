@@ -101,7 +101,7 @@ test('raw public dates remain visible without inventing a selected cohort, live-
 
 test('first MTAX source migration preserves earlier records and snapshot hashes across isolated restarts', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 131); assert.equal(queue.counts.reviewUnits, 185);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 141); assert.equal(queue.counts.reviewUnits, 196);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-mtax-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
@@ -112,7 +112,7 @@ test('first MTAX source migration preserves earlier records and snapshot hashes 
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 131); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 141); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -138,8 +138,8 @@ test('actual matching, saved-choice restore and export keep professional/residen
   assert.match(exported.evidence.publishedRequirements.find(r => /professional qualification/.test(r.labelEn)).noteEn, /may be accepted in lieu of a degree/);
   assert.match(exported.evidence.publishedRequirements.find(r => /Singapore resident/.test(r.labelEn)).noteEn, /currently cannot take international students/);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 131); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 141); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 41, categories: 84, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 13);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 42, categories: 86, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 13);
   assert.equal(detail.applicationTimeline.state, 'dates_incomplete'); assert.equal(JSON.stringify(store.all()), before);
 });

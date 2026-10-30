@@ -2087,6 +2087,85 @@
           "deadlineNote": "Published date-only category cutoff. The programme is rolling; credit-load applicability, exact cutoff handling and live availability need confirmation."
         }
       ]
+    },
+    {
+      "programmeId": "HK-HKUST-P040",
+      "routeId": null,
+      "offeringId": "HK-HKUST-P040-SEP2027-PT",
+      "offeringFingerprint": "e69718ed9d775c41ca34a9bc6747f8c5d95d2f230dd66aac8505dd3549c13ed8",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-30",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic",
+      "dateSourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic",
+      "noteEn": "September 2027 Integrated Circuits part-time only. The programme total is common to both published categories, but only the local category lists a June third round. HKUST determines classification and permission for part-time study; no category is inferred from location or nationality. Full-time dates do not use this context.",
+      "options": [
+        {
+          "id": "HK-HKUST-P040-SEP2027-PT-LOCAL",
+          "label": "Local applicant — HKUST category",
+          "currency": "HKD",
+          "tuition": 258000,
+          "feeBasis": "Published 2027/28 ordinary programme total HKD 258,000 for part-time study (25 curriculum credits), not an annual fee multiplied by study years. Separate application fee HKD 600; living costs and additional charges are excluded. No grant or credit-transfer discount is automatically deducted. Ordinary credit-transfer entrants still pay the full total unless a separately approved named exception applies; extra/retaken courses cost more.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-06-01",
+          "deadlineNote": "Published date-only category rounds for IC part-time. Opening, exact cutoff time, rolling capacity and live availability remain unverified.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-06-01",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKUST-P040-SEP2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKUST category",
+          "currency": "HKD",
+          "tuition": 258000,
+          "feeBasis": "Published 2027/28 ordinary programme total HKD 258,000 for part-time study (25 curriculum credits), not an annual fee multiplied by study years. Separate application fee HKD 600; living costs and additional charges are excluded. No grant or credit-transfer discount is automatically deducted. Ordinary credit-transfer entrants still pay the full total unless a separately approved named exception applies; extra/retaken courses cost more.",
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-04-01",
+          "deadlineNote": "Published date-only category rounds for IC part-time. Opening, exact cutoff time, rolling capacity and live availability remain unverified.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }

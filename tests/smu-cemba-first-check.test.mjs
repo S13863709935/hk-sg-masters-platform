@@ -72,7 +72,7 @@ test('CEMBA source migration is idempotent and preserves the other programmes an
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== pid) })); db = new CatalogueStore(path, { ...options, checkedPath });
     const earlier = db.all().filter(x => x.id !== pid); assert.equal(db.get(pid).verification, 'catalogue_seed'); assert.equal(db.quality().checked, batch.programmes.length - 1); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
-    for (let restart = 0; restart < 2; restart++) { db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(pid).verification, 'programme_page_checked'); assert.deepEqual(db.all().filter(x => x.id !== pid), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 131); db.close(); db = null; }
+    for (let restart = 0; restart < 2; restart++) { db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(pid).verification, 'programme_page_checked'); assert.deepEqual(db.all().filter(x => x.id !== pid), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 141); db.close(); db = null; }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
 
@@ -94,8 +94,8 @@ test('actual CEMBA APIs/save/restore/export retain character units, management e
 
 test('94 partial records do not claim complete current-SMU inventory, independent review or an unverified new directory entry', async () => {
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-29'), smu = store.all().filter(p => p.universityId === 'SG-SMU');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 131); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 141); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.equal(smu.length, 17); assert.ok(smu.every(p => p.verification === 'programme_page_checked' && p.requirementsCoverage === 'partial'));
   assert.equal(obs.directoryFollowup.newCatalogueEntryCreated, false); assert.equal(obs.directoryFollowup.currentFullDirectoryReconciliationClaimed, false); assert.equal(smu.some(p => p.name.includes('Public Governance')), false);
-  assert.deepEqual(meta.routeEvidence, { groups: 5, routes: 13, pageChecked: 13, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 131); assert.equal(queue.counts.reviewUnits, 185); assert.equal(queue.counts.nearCutoffUnits, 2);
+  assert.deepEqual(meta.routeEvidence, { groups: 5, routes: 13, pageChecked: 13, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 141); assert.equal(queue.counts.reviewUnits, 196); assert.equal(queue.counts.nearCutoffUnits, 2);
 });

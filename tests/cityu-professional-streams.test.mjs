@@ -24,11 +24,11 @@ const select=(x,o,category)=>resolveProgramme(x,routes,undefined,o.id,category?o
 
 test('six existing IDs and two separate BIS snapshots preserve counts without new degrees or full approvals',()=>{
  assert.equal(obs.programmeIds.length,6); assert.equal(new Set(obs.programmeIds).size,6);
- assert.equal(store.quality().checked,131); assert.equal(store.quality().total,873); assert.equal(store.quality().browsable,870);
+ assert.equal(store.quality().checked,141); assert.equal(store.quality().total,873); assert.equal(store.quality().browsable,870);
  assert.equal(store.quality().complete,0); assert.equal(store.quality().peerReviewed,0); assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
  assert.equal(store.all().filter(x=>x.universityId==='HK-CITYU'&&x.verification==='programme_page_checked').length,60);
  assert.deepEqual(routeSummary(routes),{groups:5,routes:13,pageChecked:13,peerReviewed:0,complete:0});
- assert.deepEqual(applicantSummary(applicants),{studyOptions:41,categories:84,peerReviewed:0});
+ assert.deepEqual(applicantSummary(applicants),{studyOptions:42,categories:86,peerReviewed:0});
  for(const x of [...obs.programmeIds.map(id=>store.get(id)),...siblings]){
   assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(y=>y.id===x.id)||x)),false);
   assert.equal(x.requirementsCoverage,'partial'); assert.equal(x.reviewer,null); assert.equal(x.lastChecked,'2026-10-30');
@@ -114,7 +114,7 @@ test('EMBA and legacy Civil holds remain leads without merging Chinese experienc
  for(const n of [3,9]){assert.equal(p(n).verification,'catalogue_seed');assert.equal(routes.has(p(n).id),false);assert.equal(p(n).rules.length,0);}
  assert.equal(obs.boundaries.EMBA.decision,'retain_catalogue_lead');assert.match(obs.boundaries.EMBA.notesEn,/not imported into P12/);
  assert.match(obs.boundaries.EMBA.notesEn,/HKD 1000/);assert.equal(obs.boundaries.civil.decision,'retain_legacy_identity_hold');
- const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,185);assert.equal(q.counts.nearCutoffUnits,2);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,196);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 test('isolated imports preserve all earlier records over restarts and route/context evidence still validates',()=>{
@@ -124,7 +124,7 @@ test('isolated imports preserve all earlier records over restarts and route/cont
   writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;
   writeFileSync(checkedPath,JSON.stringify(batch));
   for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);
-   const ri=loadRoutes(routePath,db.all());assert.equal(ri.get(bis.id).length,2);assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,41);db.close();db=null;}
+   const ri=loadRoutes(routePath,db.all());assert.equal(ri.get(bis.id).length,2);assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,42);db.close();db=null;}
  }finally{db?.close();for(const f of [file,checkedPath])rmSync(f,{force:true});rmdirSync(dir);}
 });
 

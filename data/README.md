@@ -2,6 +2,10 @@
 
 ## 当前本地状态（2026-10-30）
 
+HKUST 计算／数据／电子批次新增 10 条部分观察／20 个学习选项。全库 141 条部分观察／732 条线索，总库 873／默认 870；HKUST 49 条保留记录中 15 条有部分观察（含 1 条转入参考）、34 条线索。模式费用和 500／550／600／800 港元申请费分别记录；普通学位条件不借用本硕衔接的 CGA 和折扣。DDM 首轮 11 月 1 日与后续两轮并列；IC 非全日制的本地 6 月第三轮使用精确选项绑定。新加 1 组／2 类申请者上下文后，全库 42 组／86 类别，方向仍为 5 组／13 份。原 131 条对象、13 份方向、41 组申请者对象保留；完整要求及独立复核仍为 0，维护单元 196，当前近 14 日截止单元 3 个（不是实时开放判断）。见 [批次观察](research/hkust-computing-data-observation-2026-10-30.json)、[质量表](../docs/research/hkust-computing-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-hkust-computing.md)和[本地记录](../docs/progress/local-hkust-computing-2026-10-30.md)。
+
+以下是同日较早批次，保留当时输入与数量：
+
 CityU 专业学位及商科方向新增 6 条部分观察、2 份 BIS 独立方向快照，共 17 个有依据的学习选项。全库 131 条部分观察／742 条线索，总库 873／默认 870；CityU 60 条部分观察／2 条线索。LLM 的 24／30 学分及仲裁硕士的 30／33 学分按适用条件列示，不默认享受豁免；新增 8 组本地／非本地上下文后，全库 41 组／84 类别。BIS 的 MIS 偏好与 FIT 先修知识分开，EMBA／土木旧名保留身份或交付边界，不新增活动方向。此前 125 条记录、11 份方向快照及 33 组申请者对象不变。完整要求和独立复核仍为 0；维护单元 185。见 [批次观察](research/cityu-professional-streams-observation-2026-10-30.json)、[质量表](../docs/research/cityu-professional-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-cityu-professional.md)和[本地批次记录](../docs/progress/local-cityu-professional-2026-10-30.md)。
 
 以下是同日较早批次，保留当时输入与数量：

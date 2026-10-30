@@ -30,7 +30,7 @@ test('eight Hong Kong school audits report 15 existing observations without prom
 
 test('checked-only selection distinguishes a transfer archive from active field follow-up', () => {
   const report = loadSchoolQuality('HK-HKUST', '2026-10-30', { checkedOnly: true });
-  assert.equal(report.rows.length, 5); assert.equal(report.counts.archiveOnly, 1);
+  assert.equal(report.rows.length, 15); assert.equal(report.counts.archiveOnly, 1);
   assert.ok(report.counts.catalogueRecords > report.rows.length);
   const archive = report.rows.find(r => r.programmeId === 'HK-HKUST-P003');
   assert.equal(archive.admissionRoute, 'transfer_only'); assert.equal(archive.fieldStates.language, 'unrecorded');
@@ -78,9 +78,9 @@ test('the exact HKU noon cutoff already recorded remains precise across the cuto
 });
 
 test('urgent dates keep their programme, intake and round identities without a live-portal claim', () => {
-  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.nearCutoffUnits, 2);
+  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.nearCutoffUnits, 3);
   const near = q.units.filter(u => u.reviewOrder === 'cutoff_within_14_days');
-  assert.deepEqual(near.map(u => u.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001']);
+  assert.deepEqual(near.map(u => u.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001', 'HK-HKUST-P021']);
   assert.ok(near[0].upcomingRecordedCutoffs.every(c => c.roundId === 'ROUND-2' && c.deadline === '2026-10-31'));
   assert.deepEqual(near[1].upcomingRecordedCutoffs.map(c => [c.offeringId, c.deadline]), [['HK-HKUST-P001-FEB2027-PT', '2026-11-01']]);
 });

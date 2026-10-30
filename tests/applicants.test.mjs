@@ -24,8 +24,8 @@ const get = async path => (await fetch(url + path)).json();
 const post = value => fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(value) });
 
 test('category evidence has its own dated scope and does not inflate programme review counts', () => {
-  assert.deepEqual(applicantSummary(index), { studyOptions: 41, categories: 84, peerReviewed: 0 });
-  assert.equal(store.quality().checked, 131); assert.equal(store.quality().complete, 0); assert.equal(store.quality().peerReviewed, 0);
+  assert.deepEqual(applicantSummary(index), { studyOptions: 42, categories: 86, peerReviewed: 0 });
+  assert.equal(store.quality().checked, 141); assert.equal(store.quality().complete, 0); assert.equal(store.quality().peerReviewed, 0);
 });
 test('the source binding fingerprints every field regardless of property order', () => {
   const o = base.offerings[0];
@@ -143,7 +143,7 @@ test('raw exports, original sources and original workbook-backed IDs remain unch
   assert.equal(JSON.stringify(store.get(id)), before);
   const raw = await get('/api/export'); assert.ok(raw.programmes.every(p => p.selectedApplicant === undefined && p.applicantEvidence === undefined));
   assert.equal(raw.programmes.find(p => p.id === id).offerings[0].tuition, null);
-  const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 41, categories: 84, peerReviewed: 0 }); assert.equal(meta.quality.total, 873);
+  const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 42, categories: 86, peerReviewed: 0 }); assert.equal(meta.quality.total, 873);
 });
 test('UI carries category context through matching, display and export without browser persistence', () => {
   const js = readFileSync(new URL('public/app.js', root), 'utf8');
