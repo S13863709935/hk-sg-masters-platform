@@ -95,9 +95,9 @@ test('one existing LLM migrates idempotently while previous records and research
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-smu-llm-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== pid) })); db = new CatalogueStore(path, { ...options, checkedPath });
-    const earlier = db.all().filter(x => x.id !== pid); assert.equal(db.get(pid).verification, 'catalogue_seed'); assert.equal(db.quality().checked, 72); db.close(); db = null;
+    const earlier = db.all().filter(x => x.id !== pid); assert.equal(db.get(pid).verification, 'catalogue_seed'); assert.equal(db.quality().checked, batch.programmes.length - 1); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
-    for (let restart = 0; restart < 2; restart++) { db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(pid).verification, 'programme_page_checked'); assert.deepEqual(db.all().filter(x => x.id !== pid), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 73); db.close(); db = null; }
+    for (let restart = 0; restart < 2; restart++) { db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(pid).verification, 'programme_page_checked'); assert.deepEqual(db.all().filter(x => x.id !== pid), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 94); db.close(); db = null; }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
 
@@ -126,8 +126,8 @@ test('actual APIs match, save, restore and export each LLM track without sibling
 
 test('LLM observations increase evidence units without inventing new catalogue programmes, review or completeness', async () => {
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-28');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 73); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 870); assert.equal(meta.quality.checked, 94); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.deepEqual(meta.routeEvidence, { groups: 4, routes: 11, pageChecked: 11, peerReviewed: 0, complete: 0 }); assert.deepEqual(routeSummary(routes), meta.routeEvidence);
-  assert.equal(queue.counts.programmePageRecords, 73); assert.equal(queue.counts.reviewUnits, 102); assert.equal(queue.counts.routeRecords, 11); assert.equal(queue.counts.nearCutoffUnits, 2);
+  assert.equal(queue.counts.programmePageRecords, 94); assert.equal(queue.counts.reviewUnits, 123); assert.equal(queue.counts.routeRecords, 11); assert.equal(queue.counts.nearCutoffUnits, 2);
   assert.equal(queue.units.filter(u => u.programmeId === pid).length, 5); assert.equal(queue.counts.reviewRecordedInSource, 0);
 });

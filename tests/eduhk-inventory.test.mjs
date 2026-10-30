@@ -79,7 +79,7 @@ test('existing management and MPPM identities are preserved; 56 additions have u
 test('directory-only updates preserve checked fields and the independently dated MPPM fee context', () => {
   const db = new CatalogueStore(':memory:', options);
   try {
-    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 870); assert.equal(q.checked, 73); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
+    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 870); assert.equal(q.checked, 94); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
     assert.equal(db.all().filter(p => p.universityId === 'HK-EDUHK').length, 59);
     for (const original of checked.programmes) { const p = db.get(original.id); assert.deepEqual(p.rules, original.rules); assert.deepEqual(p.offerings, original.offerings); assert.equal(p.lastChecked, original.lastChecked); }
     const routes = loadRoutes(new URL('data/route-programmes.json', root), db.all());

@@ -2,13 +2,17 @@
 
 ## 当前本地状态（2026-10-30）
 
-香港现有记录批次：八校 15 条部分观察单独列出，包含 14 条直接申请候选与 1 条旧 MEng 转入参考；580 条香港目录线索未因此变成已核查记录。HKBU Communication／Business Management 与 EdUHK MPPM 的本科专业字段，按本次所查条款改为 `not_published`，不新增任何自动专业通过、GPA 或录取结论。仅相关页面的查阅日推进到 30 日；其他来源、分类费用和旧日期维持各自记录。详情见 [香港字段矩阵](../docs/research/hk-existing-records-quality-2026-10-30.md)及[批次观察](research/hk-existing-records-observation-2026-10-30.json)。当前 [102 单元清单](../docs/research/source-review-queue-2026-10-30-hk-school.md)和[核心验收](../docs/research/core-pilot-acceptance-2026-10-30-hk-school.md)采用新输入。总数仍为 873／部分核查 73／目录线索 800，完整要求和独立复核 0。
+CityU 计算、数据及商科批次新增 21 条部分项目页记录：总库 873／默认 870，部分记录 94／目录线索 779；CityU 保留 62 条，其中 23 条有部分观察、39 条仍为线索。22 个候选中的 P17 因项目名称差异暂缓，没有借用要求。新记录学费全部未赋值；4 个项目不同截止日的适用对象未确认，不选定通用截止。语言分数、日期锚点、CET-6 手动说明及面试条件按各项目保留，原 73 条对象、20 个核心 ID 和其他来源层不变。完整要求与独立复核仍为 0。见 [CityU 质量表](../docs/research/cityu-computing-business-quality-2026-10-30.md)、[批次观察](research/cityu-computing-business-observation-2026-10-30.json)、[123 单元维护清单](../docs/research/source-review-queue-2026-10-30-cityu-batch.md)和[核心验收](../docs/research/core-pilot-acceptance-2026-10-30-cityu-batch.md)。
+
+以下保留同日较早批次的当时输入与数量：
+
+香港现有记录批次：八校 15 条部分观察单独列出，包含 14 条直接申请候选与 1 条旧 MEng 转入参考；580 条香港目录线索未因此变成已核查记录。HKBU Communication／Business Management 与 EdUHK MPPM 的本科专业字段，按本次所查条款改为 `not_published`，不新增任何自动专业通过、GPA 或录取结论。仅相关页面的查阅日推进到 30 日；其他来源、分类费用和旧日期维持各自记录。详情见 [香港字段矩阵](../docs/research/hk-existing-records-quality-2026-10-30.md)及[批次观察](research/hk-existing-records-observation-2026-10-30.json)。该批 [102 单元清单](../docs/research/source-review-queue-2026-10-30-hk-school.md)和[核心验收](../docs/research/core-pilot-acceptance-2026-10-30-hk-school.md)采用新输入。总数仍为 873／部分核查 73／目录线索 800，完整要求和独立复核 0。
 
 同日较早 SMU 批次记录：
 
 按学校批量收敛现有资料：SMU 17 条既有记录生成统一字段缺漏表，本次官网核对限于页首及重点条件／日期段落，不能把它记作 17 条完整重新复核。MSE／MSFE 明确的一月 2027 延期已更新为 2026-11-30；MDSE 主页面与独立申请说明页仍有差异，日期保持待确认。只改这三条记录，其余 70 条观察、历史研究文件和其他来源层保持原状。数据总数仍为 873／部分核查 73／目录线索 800，完整及独立复核 0。
 
-见 [SMU 字段矩阵](../docs/research/smu-school-quality-2026-10-30.md)、[官方来源批次观察](research/smu-school-source-observation-2026-10-30.json)与[当前维护清单](../docs/research/source-review-queue-2026-10-30-smu-school.md)。只读学校质量工具可用于后续学校，未公布与尚未采集不合并；记录符合部分可比条件不等于完整入学资格。
+见 [SMU 字段矩阵](../docs/research/smu-school-quality-2026-10-30.md)、[官方来源批次观察](research/smu-school-source-observation-2026-10-30.json)与[该批维护清单](../docs/research/source-review-queue-2026-10-30-smu-school.md)。只读学校质量工具可用于后续学校，未公布与尚未采集不合并；记录符合部分可比条件不等于完整入学资格。
 
 ## 此前本地状态（2026-10-29）
 

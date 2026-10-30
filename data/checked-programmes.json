@@ -13754,6 +13754,3163 @@
         }
       },
       "researchBatch": "smu-cemba-first-check-2026-10-29"
+    },
+    {
+      "id": "HK-CITYU-P001",
+      "universityId": "HK-CITYU",
+      "name": "MSc Professional Accounting and Corporate Governance",
+      "award": "MSc",
+      "area": "Accounting",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P001-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P001-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10",
+          "noteEn": "Professional Accounting normally requires a non-accounting degree or accepted equivalent. Corporate Governance also has a recognised-degree/professional-membership route. Confirm the chosen stream; the background form does not select it.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Professional Accounting normally requires a non-accounting degree or accepted equivalent. Corporate Governance also has a recognised-degree/professional-membership route. Confirm the chosen stream; the background form does not select it.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P002",
+      "universityId": "HK-CITYU",
+      "name": "Master of Business Administration",
+      "award": "Master",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P002-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2026-11-18",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P002-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2026-11-18",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+          "noteEn": "Two years of full-time post-degree work by September 2027 is preferred. Test treatment depends on experience at application: above two years may omit GMAT/GRE; below two may receive a conditional offer with a satisfactory test. Borderline duration and interview remain assessed, not automatic work-year rejection.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The older-CET pass alternative and experience-dependent GMAT/GRE evidence remain manual. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. MBA also lists a pass in the older CET-6 test as an alternative; evidence needs assessment. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Two years of full-time post-degree work by September 2027 is preferred. Test treatment depends on experience at application: above two years may omit GMAT/GRE; below two may receive a conditional offer with a satisfactory test. Borderline duration and interview remain assessed, not automatic work-year rejection.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P005",
+      "universityId": "HK-CITYU",
+      "name": "MSc Financial Engineering",
+      "award": "MSc",
+      "area": "Finance",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P005-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P005-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15",
+          "noteEn": "A strong quantitative foundation is required. More than one year of industry experience is preferred, not an unconditional minimum. Degree recognition and quantitative evidence need assessment.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 490; evidence is assessed, not converted. The consulted programme text records CET-6 490; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A strong quantitative foundation is required. More than one year of industry experience is preferred, not an unconditional minimum. Degree recognition and quantitative evidence need assessment.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P006",
+      "universityId": "HK-CITYU",
+      "name": "MSc Digital Transformation and Technological Innovation",
+      "award": "MSc",
+      "area": "Business",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P006-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Differing deadline values recorded: 2027-07-31, 2027-05-31. Applicant applicability is unresolved; no deadline is selected.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P006-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Differing deadline values recorded: 2027-07-31, 2027-05-31. Applicant applicability is unresolved; no deadline is selected.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16",
+          "noteEn": "Basic computer literacy is required. Business/management study and two years of work experience are preferences. They are not mandatory subject or work-year exclusions.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Basic computer literacy is required. Business/management study and two years of work experience are preferences. They are not mandatory subject or work-year exclusions.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Differing deadline values recorded: 2027-07-31, 2027-05-31. Applicant applicability is unresolved; no deadline is selected.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P016",
+      "universityId": "HK-CITYU",
+      "name": "MA Global Business Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P016-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P016-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "Published honours classification",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+          "min": "second_lower"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+          "noteEn": "Second-class honours or equivalent is required. Compare only a reported honours classification; do not translate GPA or assume equivalence.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 490; evidence is assessed, not converted. The consulted programme text records CET-6 490; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Second-class honours or equivalent is required. Compare only a reported honours classification; do not translate GPA or assume equivalence.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P019",
+      "universityId": "HK-CITYU",
+      "name": "MA International Accounting",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P019-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P019-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+          "accepted": [
+            "Accounting",
+            "Finance"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+          "noteEn": "Accounting/finance degree or an accepted equivalent is required. Two years of accounting/business experience is preferred, not a mandatory duration.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Accounting/finance degree or an accepted equivalent is required. Two years of accounting/business experience is preferred, not a mandatory duration.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P030",
+      "universityId": "HK-CITYU",
+      "name": "MSc AI-Driven Innovation",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P030-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P030-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "All undergraduate disciplines welcomed",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+          "noteEn": "Bachelor holders from all disciplines are welcomed. Recognition and any additional selection conditions still require assessment; no quantitative subject gate is invented.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. No CET-6 number was established in this partial extraction; do not borrow a neighbouring programme threshold. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor holders from all disciplines are welcomed. Recognition and any additional selection conditions still require assessment; no quantitative subject gate is invented.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P031",
+      "universityId": "HK-CITYU",
+      "name": "MSc Artificial Intelligence",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P031-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P031-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+          "accepted": [
+            "Computer Science",
+            "Information Technology",
+            "Computer Engineering",
+            "Information Systems"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+          "noteEn": "The normal computing-degree route is distinct from related-degree plus applicable IT experience and a degree with substantial IT knowledge. Confirm equivalence and evidence for alternative routes.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The text states no CET-6 validity period; the IELTS/TOEFL date rule is not applied to CET-6. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "The normal computing-degree route is distinct from related-degree plus applicable IT experience and a degree with substantial IT knowledge. Confirm equivalence and evidence for alternative routes.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P032",
+      "universityId": "HK-CITYU",
+      "name": "MSc Artificial Intelligence for Sciences",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P032-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P032-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79",
+          "noteEn": "STEM background or experience is preferred, not compulsory. The language paragraph specifically addresses non-local candidates with non-English-medium qualifications. Applicant applicability and accepted evidence remain manual; no universal language failure is inferred.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79",
+          "noteEn": "Published non-local/non-English-medium guidance lists IELTS 6.0, TOEFL 79/4 and CET-6 450. Applicability, evidence and interview remain for university confirmation. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "STEM background or experience is preferred, not compulsory. The language paragraph specifically addresses non-local candidates with non-English-medium qualifications. Applicant applicability and accepted evidence remain manual; no universal language failure is inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P033",
+      "universityId": "HK-CITYU",
+      "name": "MSc Artificial Intelligence in Business",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P033-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P033-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
+          "noteEn": "Intermediate IT/IS or business knowledge must be evidenced by undergraduate courses or related work. A major title alone cannot prove this preparation or degree equivalence.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. No CET-6 number was established in this partial extraction; do not borrow a neighbouring programme threshold. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Intermediate IT/IS or business knowledge must be evidenced by undergraduate courses or related work. A major title alone cannot prove this preparation or degree equivalence.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P035",
+      "universityId": "HK-CITYU",
+      "name": "MSc Biostatistics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P035-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P035-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
+          "noteEn": "Undergraduate mathematical/biomedical coursework is relevant; weak prior mathematics/statistics may still be considered. Calculus, algebra and statistics preparation and relevant work are encouraged, not unconditional named-major or work-year exclusions.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Undergraduate mathematical/biomedical coursework is relevant; weak prior mathematics/statistics may still be considered. Calculus, algebra and statistics preparation and relevant work are encouraged, not unconditional named-major or work-year exclusions.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P039",
+      "universityId": "HK-CITYU",
+      "name": "MSc Computer and Information Engineering",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P039-2027-FT",
+          "mode": "Full-time",
+          "duration": "Ordinary option: 1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P039-2027-PT",
+          "mode": "Part-time",
+          "duration": "Ordinary option: 2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+          "accepted": [
+            "Information Technology",
+            "Information Engineering",
+            "Computer Science",
+            "Computer Engineering",
+            "Information Systems",
+            "Electronic Engineering",
+            "Electrical Engineering",
+            "Applied Mathematics",
+            "Applied Physics"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+          "noteEn": "Related BSc/BEng fields or accepted academic/professional alternatives require assessment. Computer-science minors for applied mathematics/physics are preferred. Only the ordinary degree modes are represented; 45-credit industrial/business options need separate confirmation.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Related BSc/BEng fields or accepted academic/professional alternatives require assessment. Computer-science minors for applied mathematics/physics are preferred. Only the ordinary degree modes are represented; 45-credit industrial/business options need separate confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P040",
+      "universityId": "HK-CITYU",
+      "name": "MSc Cybersecurity",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P040-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P040-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-05-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+          "accepted": [
+            "Computer Science",
+            "Information Technology",
+            "Computer Engineering",
+            "Information Systems"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+          "noteEn": "Computing degrees are listed directly. Related disciplines additionally need applicable IT work evidence; neither a related major nor total work years alone proves that route.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The text states no CET-6 validity period; the IELTS/TOEFL date rule is not applied to CET-6. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Computing degrees are listed directly. Related disciplines additionally need applicable IT work evidence; neither a related major nor total work years alone proves that route.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P041",
+      "universityId": "HK-CITYU",
+      "name": "MSc Data Science",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P041-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P041-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+          "noteEn": "Engineering, science or relevant/equivalent degree preparation is required. The university determines relevance; no universal numeric GPA is established.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering, science or relevant/equivalent degree preparation is required. The university determines relevance; no universal numeric GPA is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P045",
+      "universityId": "HK-CITYU",
+      "name": "MSc Finance",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P045-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P045-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-03-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
+          "noteEn": "More than one year of industry experience is preferred. It does not establish a mandatory work-year minimum or an undergraduate major restriction.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 490; evidence is assessed, not converted. The consulted programme text records CET-6 490; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "More than one year of industry experience is preferred. It does not establish a mandatory work-year minimum or an undergraduate major restriction.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P046",
+      "universityId": "HK-CITYU",
+      "name": "MSc Financial Mathematics and Statistics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P046-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P046-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-01-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+          "accepted": [
+            "Mathematics",
+            "Physics",
+            "Statistics",
+            "Computer Science",
+            "Engineering",
+            "Economics",
+            "Finance",
+            "Actuarial Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+          "noteEn": "Science/engineering or listed related disciplines may qualify through a first or postgraduate degree or accepted equivalent. Quantitative relevance and equivalence require assessment; graduation/project credits are not entry GPA.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Science/engineering or listed related disciplines may qualify through a first or postgraduate degree or accepted equivalent. Quantitative relevance and equivalence require assessment; graduation/project credits are not entry GPA.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P047",
+      "universityId": "HK-CITYU",
+      "name": "MSc FinTech and Digital Assets",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P047-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2026-12-31",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published undergraduate fields",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+          "accepted": [
+            "Finance",
+            "Economics",
+            "Business",
+            "Information Systems",
+            "Computer Science",
+            "Engineering",
+            "Mathematics",
+            "Statistics"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+          "noteEn": "Finance, economics, business, computing, engineering and quantitative fields are listed; other backgrounds may be considered with quantitative evidence and motivation. Work experience is favourable but not mandatory.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Finance, economics, business, computing, engineering and quantitative fields are listed; other backgrounds may be considered with quantitative evidence and motivation. Work experience is favourable but not mandatory.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P051",
+      "universityId": "HK-CITYU",
+      "name": "MSc Management and Innovation",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P051-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
+          "noteEn": "Recognised degree or accepted equivalent is stated without a universal undergraduate-major restriction. Recognition and programme assessment remain unresolved.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Recognised degree or accepted equivalent is stated without a universal undergraduate-major restriction. Recognition and programme assessment remain unresolved.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Differing deadline values recorded: 2027-05-31, 2027-03-31. Applicant applicability is unresolved; no deadline is selected.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P052",
+      "universityId": "HK-CITYU",
+      "name": "MSc Marketing",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P052-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Differing deadline values recorded: 2027-06-30, 2027-06-02. Applicant applicability is unresolved; no deadline is selected.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P052-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "deadlineNote": "Differing deadline values recorded: 2027-06-30, 2027-06-02. Applicant applicability is unresolved; no deadline is selected.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
+          "noteEn": "Over two years of business experience is preferred, not a compulsory minimum. A recognised bachelor or equivalent is required.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. The published language note requires an English interview at IELTS 6.0 or updated TOEFL band 4; any stated interview exception needs evidence and university assessment. All shortlisted Marketing candidates must attend an interview, separately from the language trigger. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Over two years of business experience is preferred, not a compulsory minimum. A recognised bachelor or equivalent is required.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Differing deadline values recorded: 2027-06-30, 2027-06-02. Applicant applicability is unresolved; no deadline is selected.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P056",
+      "universityId": "HK-CITYU",
+      "name": "MSc Operations and Supply Chain Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P056-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-04-30",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P056-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-04-30",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
+          "noteEn": "Work experience is explicitly preferred but not required. No mandatory work-year minimum is created.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 450; evidence is assessed, not converted. The consulted programme text records CET-6 450; the form does not compare CET-6 automatically. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Work experience is explicitly preferred but not required. No mandatory work-year minimum is created.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
+    },
+    {
+      "id": "HK-CITYU-P058",
+      "universityId": "HK-CITYU",
+      "name": "MSc Venture Creation",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": null,
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-10-30",
+      "academicYear": "2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official-source extraction",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027 programme observation. Fees remain unassigned; programme-specific exceptions and complete requirements need confirmation.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P058-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        },
+        {
+          "id": "HK-CITYU-P058-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027",
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "deadlineNote": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "currency": null,
+          "tuition": null,
+          "feeBasis": "Dated fees and applicant-category applicability need review; no tuition quote imported."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised degree or accepted equivalent",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English test scores",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
+          "tests": {
+            "ielts": {
+              "total": 6.5
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific preparation and selection",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
+          "noteEn": "Strong interest in venture creation is required; prior entrepreneurial involvement is preferred. Updated TOEFL requires both band 4 and a comparable 79 shown on the report; the form cannot capture that paired evidence, so updated TOEFL remains manual.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English evidence and accepted alternatives",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
+          "noteEn": "English-medium evidence, CET-6/equivalent alternatives and any language interview require university acceptance. The two-year score window is anchored to the recorded application-period start, not today. Published CET-6 alternative: 490; evidence is assessed, not converted. The consulted programme text records CET-6 490; the form does not compare CET-6 automatically. Home Edition, MyBest, IELTS Online, Indicator and One Skill Retake are excluded in the consulted text. The form captures only some test-format evidence; score comparison alone does not establish accepted evidence or a waiver.",
+          "noteZh": ""
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, study option and outstanding evidence",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
+          "noteEn": "Qualification recognition, applicant category, documents, study-option applicability and current availability require university confirmation. No fee or admission guarantee is assumed.",
+          "noteZh": ""
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88",
+          "purpose": "Programme identity, 2027 study modes, application block and selected entrance/language sections; fee schedule not verified",
+          "checkedOn": "2026-10-30"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 entry; no exact intake month inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Strong interest in venture creation is required; prior entrepreneurial involvement is preferred. Updated TOEFL requires both band 4 and a comparable 79 shown on the report; the form cannot capture that paired evidence, so updated TOEFL remains manual.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No universal numeric entry GPA established; no conversion or zero threshold inferred.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Published thresholds retain conditional evidence, validity and interview checks; alternative qualifications are not automatic waivers.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "A fee link is present, but no dated usable fee observation is established.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Date-only observation; rolling review, capacity, exact cutoff time and current availability require confirmation.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "No independent human review or complete requirements set.",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+        }
+      },
+      "researchBatch": "cityu-computing-business-2026-10-30"
     }
   ]
 }

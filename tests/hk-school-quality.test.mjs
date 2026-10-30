@@ -21,7 +21,9 @@ test('eight Hong Kong school audits report 15 existing observations without prom
   assert.equal(reports.length, 8); assert.equal(observation.counts.catalogueRecords, 595);
   assert.equal(observation.counts.checkedRecords, 15); assert.equal(observation.counts.directRecords, 14); assert.equal(observation.counts.archiveOnly, 1);
   assert.equal(observation.counts.completeRequirementSets, 0); assert.equal(observation.counts.independentlyReviewed, 0);
-  for (const report of reports) assert.deepEqual(buildSchoolQuality(all, report.schoolId, '2026-10-30', { checkedOnly: true }), report);
+  const recordedIds = new Set(reports.flatMap(r => r.rows.map(p => p.programmeId)));
+  const recordedSelection = all.map(p => p.universityId.startsWith('HK-') && !recordedIds.has(p.id) ? { ...p, verification: 'catalogue_seed' } : p);
+  for (const report of reports) assert.deepEqual(buildSchoolQuality(recordedSelection, report.schoolId, '2026-10-30', { checkedOnly: true }), report);
   assert.equal(reports.reduce((n, r) => n + r.rows.length, 0), 15);
   assert.equal(reports.reduce((n, r) => n + r.counts.catalogueRecords - r.rows.length, 0), 580);
 });
