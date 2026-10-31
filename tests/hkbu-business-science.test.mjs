@@ -25,9 +25,9 @@ const resolve=(n,tag='FT',category)=>{const id=p(n).id,o=id+'-2027-'+tag;return 
 
 test('twenty existing HKBU identities gain partial English evidence without duplicating awards or claiming reviews',()=>{
  assert.equal(obs.programmeIds.length,20);assert.equal(new Set(obs.programmeIds).size,20);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,869);assert.equal(store.quality().checked,194);assert.equal(store.quality().complete,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
- assert.equal(store.all().filter(x=>x.universityId==='HK-HKBU'&&x.verification==='programme_page_checked').length,22);
- assert.deepEqual(routeSummary(routes),{groups:7,routes:17,pageChecked:17,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:107,categories:216,peerReviewed:0});
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,869);assert.equal(store.quality().checked,221);assert.equal(store.quality().complete,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
+ assert.equal(store.all().filter(x=>x.universityId==='HK-HKBU'&&x.verification==='programme_page_checked').length,49);
+ assert.deepEqual(routeSummary(routes),{groups:7,routes:17,pageChecked:17,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:139,categories:280,peerReviewed:0});
  for(const id of obs.programmeIds){const x=batch.programmes.find(x=>x.id===id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(x)),false);assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,'2026-10-31');assert.equal(batch.pilotProgrammeIds.includes(id),false);assert.ok(x.sources.some(s=>s.url===x.officialUrl&&s.checkedOn===x.lastChecked));}
 });
 
@@ -98,7 +98,7 @@ test('English enhancement is an assessed branch rather than a universal normal-r
 });
 
 test('unpublished new TOEFL thresholds and offer-letter-relative validity do not gain invented conversions or rolling dates',()=>{
- for(const id of obs.programmeIds.filter(id=>id!==p(19).id)){const n=Number(id.slice(-3)),r=p(n).rules.find(r=>r.kind==='language');
+ for(const id of obs.programmeIds.filter(id=>![p(19).id,p(36).id].includes(id))){const n=Number(id.slice(-3)),r=p(n).rules.find(r=>r.kind==='language');
   assert.equal(r.tests.toefl_6,undefined);assert.equal(r.validityMonths,undefined);assert.equal(r.testDateNotBefore,undefined);
   assert.equal(language(n,{type:'toefl_6',total:6,testDate:'2026-10-01'}).status,'unknown');
   assert.equal(language(n,{type:'waiver',total:null,components:{},waiverBasis:'english_degree'}).status,'unknown');
@@ -138,9 +138,9 @@ test('required overseas component and unconfirmed partner delivery are explicit 
 test('isolated repeated source migration preserves earlier objects, stable IDs and category bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(x=>!ids.has(x.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hkbu-business-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
  try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));
-  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,194);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,107);db.close();db=null;}
+  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,221);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,139);db.close();db=null;}
  }finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,318);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,377);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-10-31T08:00:00Z')});let base;

@@ -236,8 +236,8 @@ test('raw catalogue exports, parent/route checks and quality counts are not infl
   const original = JSON.stringify(store.get(id)); resolve(); timeline(resolve());
   assert.equal(JSON.stringify(store.get(id)), original);
   const raw = await get('/api/export'); assert.ok(raw.programmes.every(p => p.applicationTimeline === undefined));
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.checked, 194);
-  assert.equal(meta.routeEvidence.routes, 17); assert.equal(meta.applicantEvidence.categories, 216);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.checked, 221);
+  assert.equal(meta.routeEvidence.routes, 17); assert.equal(meta.applicantEvidence.categories, 280);
   assert.equal(meta.quality.complete, 0); assert.equal(meta.quality.peerReviewed, 0);
 });
 

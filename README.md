@@ -8,18 +8,18 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 869 条；194 条有部分官方项目页观察，679 条仍为目录线索。完整要求集和独立人工复核均为 0。
-- 7 组／17 条方向快照、107 组／216 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 318 个单元，3 个单元的记录截止临近，失配绑定为 0。
-- 本轮按学校整理浸会计算、数据、商科及理科 20 个既有项目、34 个学制选项，新增 29 组／58 类费用日期上下文。浸会现有 49 条目录记录中，22 条有部分项目页观察、27 条仍为线索。
-- 本地／非本地费用日期、全日制／兼读制费用及明确申请轮次分别绑定。非商科预备课程、工作经验偏好、英语补修及单项条件单独保留；奖学金及毕业 GPA 不作本科入学门槛。
-- EGM 的 January 2028 标签保留，两个官方入口的最终日期冲突尚未解决，不提供可操作最终截止日。MCE 必修海外考察的目的地／替代安排、ORBS 联合授课安排仍为范围待确认。未公布的新 TOEFL 分数和通知书日期有效期不自行换算。
+- 14 校、873 条目录记录，默认可浏览 869 条；221 条有部分官方项目页观察，652 条仍为目录线索。完整要求集和独立人工复核均为 0。
+- 7 组／17 条方向快照、139 组／280 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 377 个单元，3 个单元的记录截止临近，失配绑定为 0。
+- 本轮为浸会剩余 27 个既有项目补入资料、48 个学制／批次选项及 32 组／64 类费用日期上下文。现有 49 条浸会目录记录均有首轮部分观察；这不代表所有条件完整、独立复核通过或重新完成全校目录普查。
+- 心理学一月／九月批次、教育硕士 FT／PT 日期、视觉艺术第一轮／第二轮／仅本地清位轮次分别保留。MSW 珠海兼读不作为香港选项；中医四课及体育管理的兼读仅限本地，按模式提示身份确认。
+- 音乐及绿色科技课程的条件式英语要求不会硬套给所有申请者；中文／双语、翻译方向、补修、专业资格和实习继续单独确认。MPA 的条件式面试 GPA 2.60 未知原始量表，不改成统一 GPA 门槛。辅导学当期费用日期、中医实习地域、此前 EGM 日期和 MCE／ORBS 范围疑点继续明确保留。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。20 个原核心 ID、71 种选择与 7 个合成背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 本轮只在本地保存，不自动推送。建议在下一周检查点统一发布一个可审阅的完整批次；最近已发布的 W6 检查点保持不变。
 
-[HKBU 质量表](docs/research/hkbu-business-science-quality-2026-10-31.md) · [318 单元维护清单](docs/research/source-review-queue-2026-10-31-hkbu-business-science.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hkbu-business-science.md) · [本批改动与限制](docs/progress/local-hkbu-business-science-2026-10-31.md)
+[HKBU 质量表](docs/research/hkbu-remaining-quality-2026-10-31.md) · [377 单元维护清单](docs/research/source-review-queue-2026-10-31-hkbu-remaining.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hkbu-remaining.md) · [本批改动与限制](docs/progress/local-hkbu-remaining-2026-10-31.md)
 
-[31 日 HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)、[30 日 HKUST 首轮整理](docs/progress/local-hkust-remaining-2026-10-30.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
+[31 日浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)、[30 日 HKUST 首轮整理](docs/progress/local-hkust-remaining-2026-10-30.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
 ## 本地运行
 

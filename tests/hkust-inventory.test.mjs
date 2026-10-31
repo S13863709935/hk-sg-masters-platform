@@ -78,7 +78,7 @@ test('directory attachment preserves the independently checked programme cohort,
     assert.ok(current.officialUrl.includes('/2027-28/'));
     assert.equal(current.officialUrl, original.officialUrl); assert.deepEqual(current.sources, original.sources);
     assert.match(current.directoryListing.noteEn, /does not refresh older-cycle/);
-    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 869); assert.equal(q.checked, 194); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.transferOnly, 1); assert.deepEqual(q.sourceRefreshConflicts, []);
+    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 869); assert.equal(q.checked, 221); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.transferOnly, 1); assert.deepEqual(q.sourceRefreshConflicts, []);
   } finally { db.close(); }
 });
 

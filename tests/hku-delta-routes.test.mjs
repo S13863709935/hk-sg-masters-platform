@@ -202,9 +202,9 @@ test('route/category evidence is counted separately and no original parent, work
   assert.equal(JSON.stringify(store.get(id)), before);
   const raw = await get('/api/export'); assert.equal(raw.programmes.find(p => p.id === id).verification, 'catalogue_seed');
   const meta = await get('/api/meta');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 194);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 221);
   assert.deepEqual(meta.routeEvidence, { groups: 7, routes: 17, pageChecked: 17, peerReviewed: 0, complete: 0 });
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 107, categories: 216, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 139, categories: 280, peerReviewed: 0 });
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.ok(routes.get('SG-NTU-P061').every(r => r.lastChecked === '2026-10-16'));
 });

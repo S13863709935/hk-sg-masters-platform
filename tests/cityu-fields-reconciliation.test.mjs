@@ -27,9 +27,9 @@ const profile = { major: 'Computer Science', degreeStatus: 'graduated', classifi
 
 test('the scoped fee batch preserves award counts, separate category counts and zero complete or independent approvals', () => {
   assert.equal(observation.records.length, 21); assert.equal(observation.sourceAccess.browserFeeSchedulesRead, 22);
-  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 194); assert.equal(q.browsable, 869);
+  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 221); assert.equal(q.browsable, 869);
   assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(applicants), { studyOptions: 107, categories: 216, peerReviewed: 0 });
+  assert.deepEqual(applicantSummary(applicants), { studyOptions: 139, categories: 280, peerReviewed: 0 });
   assert.equal(observation.newContextOfferingIds.length, 15);
   for (const record of observation.records) {
     const current = store.get(record.programmeId);
@@ -112,9 +112,9 @@ test('P17 has one existing ID and partial conditions while pending title approva
 
 test('all new source/category bindings are valid and do not invent more near-cutoff units', () => {
   const q = loadRepositoryReviewQueue('2026-10-30');
-  assert.equal(q.counts.programmePageRecords, 194); assert.equal(q.counts.remainingCatalogueLeads, 679);
-  assert.equal(q.counts.applicantContexts, 107); assert.equal(q.counts.applicantCategories, 216);
-  assert.equal(q.counts.reviewUnits, 318); assert.equal(q.counts.staleApplicantContexts, 0);
+  assert.equal(q.counts.programmePageRecords, 221); assert.equal(q.counts.remainingCatalogueLeads, 652);
+  assert.equal(q.counts.applicantContexts, 139); assert.equal(q.counts.applicantCategories, 280);
+  assert.equal(q.counts.reviewUnits, 377); assert.equal(q.counts.staleApplicantContexts, 0);
   assert.equal(q.counts.nearCutoffUnits, 3); assert.equal(q.counts.reviewRecordedInSource, 0);
 });
 
@@ -135,11 +135,11 @@ test('same-day fee refresh and one new partial record are idempotent over isolat
     db.close(); db = null; writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
-      assert.equal(db.quality().checked, 194); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
+      assert.equal(db.quality().checked, 221); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
       assert.deepEqual(db.all().filter(p => !revised.has(p.id) && p.id !== added), untouched);
       assert.equal(db.get('HK-CITYU-P058').offerings[0].tuition, 428400);
       const index = loadApplicantContexts(contextPath, db.all(), loadRoutes(routePath, db.all()));
-      assert.equal(index.size, 107); db.close(); db = null;
+      assert.equal(index.size, 139); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
