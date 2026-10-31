@@ -94,8 +94,14 @@ test('new directory evidence preserves Urban Analytics checked fields and all pr
     const p = db.get('HK-HKU-P007'), original = checked.programmes.find(p => p.id === 'HK-HKU-P007');
     assert.equal(p.lastChecked, original.lastChecked); assert.deepEqual(p.rules, original.rules); assert.deepEqual(p.offerings, original.offerings); assert.deepEqual(p.sources, original.sources); assert.equal(p.academicYear, original.academicYear);
     assert.equal(p.directoryListing.checkedOn, '2026-10-20');
-    for (const e of inventory.retainedClosedEvidence) assert.equal(db.get(e.programmeId).lastChecked, '2026-09-29');
-    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 869); assert.equal(q.checked, 274); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
+    for (const e of inventory.retainedClosedEvidence) {
+      const current = db.get(e.programmeId);
+      const source = checked.programmes.find(p => p.id === e.programmeId) || seed.programmes.find(p => p.id === e.programmeId);
+      assert.equal(current.lastChecked, source.lastChecked);
+      assert.equal(current.directoryListing.checkedOn, '2026-10-20');
+      assert.match(current.directoryListing.noteEn, /Closed directory tag/);
+    }
+    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 869); assert.equal(q.checked, 286); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
   } finally { db.close(); }
   const school = audit.universities.find(u => u.universityId === 'HK-HKU'); assert.equal(school.entryStatus, 'entry_checked'); assert.equal(school.enumerationStatus, 'entries_enumerated'); assert.equal(school.confirmedProgrammeCount, null); assert.equal(audit.fullScopeEnumerationComplete, false);
 });

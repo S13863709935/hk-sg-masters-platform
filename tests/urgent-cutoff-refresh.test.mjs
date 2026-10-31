@@ -127,12 +127,12 @@ test('an isolated synthetic older-source database reloads CUHK notes after resta
 
 test('review worklist and API counts remain unchanged; source rereading is not independent review or a live-open result', async () => {
   const before = JSON.stringify(store.all()), q = loadRepositoryReviewQueue(obs.checkedOn), meta = await get('/api/meta');
-  assert.equal(q.counts.reviewUnits, 502); assert.equal(q.counts.pendingHumanReview, 502);
+  assert.equal(q.counts.reviewUnits, 516); assert.equal(q.counts.pendingHumanReview, 516);
   assert.equal(q.units.find(u => u.kind === 'programme' && u.programmeId === cu.id).sourceCheckedOn, obs.checkedOn);
   const next = loadRepositoryReviewQueue('2026-11-02');
   assert.ok(next.units.filter(u => [cu.id, ci.id].includes(u.programmeId)).every(u => u.upcomingRecordedCutoffs.length === 0));
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 274);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 286);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 191, categories: 384, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 37);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 193, categories: 388, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 37);
   assert.equal(JSON.stringify(store.all()), before);
 });

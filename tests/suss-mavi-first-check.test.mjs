@@ -114,7 +114,7 @@ test('MAIB archives remain immutable and MAVI adds no actionable cutoff or indep
   };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash('sha256').update(readFileSync(new URL('docs/research/' + file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
   const queue = loadRepositoryReviewQueue('2026-10-27');
-  assert.equal(queue.counts.programmePageRecords, 274); assert.equal(queue.counts.reviewUnits, 502); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  assert.equal(queue.counts.programmePageRecords, 286); assert.equal(queue.counts.reviewUnits, 516); assert.equal(queue.counts.reviewRecordedInSource, 0);
   assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -130,7 +130,7 @@ test('first MAVI source migration preserves every other record and directory evi
       db = new CatalogueStore(path, { ...options, checkedPath });
       assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory);
       assert.deepEqual(db.all().filter(x => x.id !== p.id), previous); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 274); db.close(); db = null;
+      assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 286); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -154,8 +154,8 @@ test('real API/save/export preserves explicit Singapore-attendance choice and fl
     assert.equal(exported.offerings[0].id, o.id); assert.equal(exported.offerings[0].tuition, null); assert.equal(exported.offerings[0].deadline, null);
     assert.match(exported.evidence.notesEn, /Entirely overseas remote enrolment/); assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 274);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 286);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 191, categories: 384, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 37);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 193, categories: 388, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 37);
   assert.equal(JSON.stringify(store.all()), before);
 });

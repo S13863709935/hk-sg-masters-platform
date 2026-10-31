@@ -50181,6 +50181,2330 @@
         }
       },
       "researchBatch": "hku-architecture-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P012",
+      "universityId": "HK-HKU",
+      "name": "MA TESOL",
+      "award": "MA",
+      "area": "Education",
+      "faculty": "Faculty of Education",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor in English, Linguistics, English Language Education or English Language and Literature, or university-accepted equivalent. Programme targets graduates/graduating students and is not restricted to existing teachers. Exemptions, qualifying examination and possible interview are assessed individually. No fixed employment years or numeric GPA is established. TESOL is not a guaranteed teaching licence.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P012-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": "2026-11-20",
+          "deadline": "2026-12-21",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-20",
+              "deadline": "2026-12-21",
+              "deadlineAt": "2026-12-21T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 fee is UNDER REVIEW in both faculty page and linked programme PDF; tuition remains null. Application fee780 is separately published.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.edu.hku.hk/programme/matesol/tuition-and-fees",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Round1 closes21December2026; Round2 is CONDITIONAL on remaining places, opens only approximately lateJanuary2027 and closes19February2027 noon. It is not an unconditional second selectable/open round. Opening20November2026 is noon; opening field has calendar-date precision."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named TESOL degrees or assessed equivalent",
+          "sourceUrl": "https://web.edu.hku.hk/programme/matesol/admissions",
+          "accepted": [
+            "English",
+            "Linguistics",
+            "English Language Education",
+            "English Language and Literature"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://web.edu.hku.hk/programme/matesol/admissions",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 6.5,
+              "atHomeAccepted": false
+            },
+            "toefl_120": {
+              "total": 94,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://web.edu.hku.hk/programme/matesol/admissions"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://web.edu.hku.hk/programme/matesol/admissions",
+          "noteZh": "",
+          "noteEn": "Bachelor in English, Linguistics, English Language Education or English Language and Literature, or university-accepted equivalent. Programme targets graduates/graduating students and is not restricted to existing teachers. Exemptions, qualifying examination and possible interview are assessed individually. No fixed employment years or numeric GPA is established. TESOL is not a guaranteed teaching licence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R321&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "The exact supporting checklist says a reference letter is NOT REQUIRED; one may be submitted voluntarily. Academic/qualification, applicable English, identity and certified-translation evidence follow the checklist. Upload by the closing date or within FOUR WEEKS from creating the application account, whichever is earlier. No personal account date is captured, so no personal deadline is calculated.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://web.edu.hku.hk/programme/matesol/admissions",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. TOEFL Home and IELTS Online are explicitly not accepted. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://web.edu.hku.hk/programme/matesol/admissions",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://web.edu.hku.hk/programme/matesol/tuition-and-fees",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R321&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R321&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor in English, Linguistics, English Language Education or English Language and Literature, or university-accepted equivalent. Programme targets graduates/graduating students and is not restricted to existing teachers. Exemptions, qualifying examination and possible interview are assessed individually. No fixed employment years or numeric GPA is established. TESOL is not a guaranteed teaching licence.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/matesol/admissions"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/matesol/admissions"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 fee is UNDER REVIEW in both faculty page and linked programme PDF; tuition remains null. Application fee780 is separately published.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/matesol/tuition-and-fees"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. Round1 closes21December2026; Round2 is CONDITIONAL on remaining places, opens only approximately lateJanuary2027 and closes19February2027 noon. It is not an unconditional second selectable/open round. Opening20November2026 is noon; opening field has calendar-date precision.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/matesol/admissions"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P013",
+      "universityId": "HK-HKU",
+      "name": "Master of Education",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-education-edu&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Generic MEd bachelor/equivalence entry only. The 2027 PDF lists a Generalist strand plus fourteen specialist fields; specialised readiness and the exact field must still be checked. Teaching Chinese as a Second Language (TCSL) and Teaching Chinese Language and Literature in International Education (TCLL) are FULL-TIME ONLY. Other listed fields have FT/PT. These fields are not fifteen new degrees or fifteen fully checked routes. No exclusive general undergraduate major, teaching-employment minimum or numeric GPA is established.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P013-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-02-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-01",
+              "deadlineAt": "2027-02-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 fee is TBC for IB and non-IB fields. Portal234,000/249,000 quotes belong to2026 and are not carried into2027. Application fee600 is separately stated for2027/28; do not substitute a generic780. FT two/PT four instalments do not create a known total.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.edu.hku.hk/programme/med/tuition-and-fees",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Faculty2027 February1 noon supersedes portal May2026 closed-intake text; earlyNovember opening has no exact date."
+        },
+        {
+          "id": "HK-HKU-P013-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 4 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2027-02-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-01",
+              "deadlineAt": "2027-02-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 fee is TBC for IB and non-IB fields. Portal234,000/249,000 quotes belong to2026 and are not carried into2027. Application fee600 is separately stated for2027/28; do not substitute a generic780. FT two/PT four instalments do not create a known total.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.edu.hku.hk/programme/med/tuition-and-fees",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Faculty2027 February1 noon supersedes portal May2026 closed-intake text; earlyNovember opening has no exact date."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-education-edu&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://web.edu.hku.hk/programme/med/admissions",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 6,
+              "atHomeAccepted": false
+            },
+            "toefl_120": {
+              "total": 93,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://web.edu.hku.hk/programme/med/admissions"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://web.edu.hku.hk/programme/med/admissions",
+          "noteZh": "",
+          "noteEn": "Generic MEd bachelor/equivalence entry only. The 2027 PDF lists a Generalist strand plus fourteen specialist fields; specialised readiness and the exact field must still be checked. Teaching Chinese as a Second Language (TCSL) and Teaching Chinese Language and Literature in International Education (TCLL) are FULL-TIME ONLY. Other listed fields have FT/PT. These fields are not fifteen new degrees or fifteen fully checked routes. No exclusive general undergraduate major, teaching-employment minimum or numeric GPA is established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R217&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "The exact MEd checklist says a reference letter is NOT REQUIRED; optional submission does not create a two-referee rule. Supporting academic, identity and applicable English evidence is due by the closing date or FOUR WEEKS from account creation, whichever is earlier. A separate complete application, fee and documents are required for each specialism/mode. Specialism availability, cohort size and field-specific readiness need checking.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://web.edu.hku.hk/programme/med/admissions",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. TOEFL Home and IELTS Online are explicitly not accepted. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "MEd field and mode availability",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R217&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "This is the generic MEd option, not field-level eligibility. TCSL and TCLL are FT ONLY in the2027 list; a PT selection must use another offered field. Each field/mode needs its own application and evidence. Field-specific entry and class formation remain unresolved.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-education-edu&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://web.edu.hku.hk/programme/med/admissions",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://web.edu.hku.hk/programme/med/tuition-and-fees",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R217&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R217&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-education-edu&mode=0"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Generic MEd bachelor/equivalence entry only. The 2027 PDF lists a Generalist strand plus fourteen specialist fields; specialised readiness and the exact field must still be checked. Teaching Chinese as a Second Language (TCSL) and Teaching Chinese Language and Literature in International Education (TCLL) are FULL-TIME ONLY. Other listed fields have FT/PT. These fields are not fifteen new degrees or fifteen fully checked routes. No exclusive general undergraduate major, teaching-employment minimum or numeric GPA is established.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/med/admissions"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-education-edu&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/med/admissions"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 fee is TBC for IB and non-IB fields. Portal234,000/249,000 quotes belong to2026 and are not carried into2027. Application fee600 is separately stated for2027/28; do not substitute a generic780. FT two/PT four instalments do not create a known total.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/med/tuition-and-fees"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. Faculty2027 February1 noon supersedes portal May2026 closed-intake text; earlyNovember opening has no exact date.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/med/admissions"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-education-edu&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P014",
+      "universityId": "HK-HKU",
+      "name": "MSc Audiology",
+      "award": "MSc",
+      "area": "Business",
+      "faculty": "Faculty of Education",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2026/27",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. ARCHIVED 2026 intake: two-year professional taught MSc, not a new 2027 opening. Education, Psychology, Linguistics, Physics, Medicine and Speech/Hearing Sciences are preferred backgrounds, not an exclusive mandatory major list. Clinical placements during study do not establish pre-entry clinical employment, registration or a licence guarantee. The updated TOEFL six-point threshold for this archived cohort is not established in the consulted programme evidence.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P014-2026-FT",
+          "mode": "Full-time",
+          "duration": "2 years",
+          "intake": "2026 entry (start month unconfirmed)",
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 600,
+          "applicationOpen": "2025-12-10",
+          "deadline": "2026-04-02",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2025-12-10",
+              "deadline": "2026-04-02",
+              "deadlineAt": "2026-04-02T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.ARCHIVED2026 cohort only. Local47,000 per annum for2026/27 and49,500 per annum for2027/28 are year-specific; non-local224,000 and112,450 deposit have an unconfirmed total-versus-period basis. No personal whole-programme fee/category is inferred and tuition remains null. Deposit is not added on top;2027/28 annual continuation rate does not establish a2027 intake.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.edu.hku.hk/programme/audiology/tuition-and-fees",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. ARCHIVED2026 cutoff2April noon has passed; programme PDF saysSeptember but portal lateAugust start. No2027 opening, cutoff or confirmed start month is inferred."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://web.edu.hku.hk/programme/audiology/admissions",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5,
+              "atHomeAccepted": false
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://web.edu.hku.hk/programme/audiology/admissions",
+          "noteZh": "",
+          "noteEn": "ARCHIVED 2026 intake: two-year professional taught MSc, not a new 2027 opening. Education, Psychology, Linguistics, Physics, Medicine and Speech/Hearing Sciences are preferred backgrounds, not an exclusive mandatory major list. Clinical placements during study do not establish pre-entry clinical employment, registration or a licence guarantee. The updated TOEFL six-point threshold for this archived cohort is not established in the consulted programme evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R212&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "The archived Audiology checklist says a reference letter is NOT REQUIRED; no two-referee rule is borrowed from another faculty. Supporting academic, identity, applicable English and translation evidence follows the checklist, due by the application deadline or FOUR WEEKS from account creation, whichever is earlier. All dates refer to the closed2026 cohort.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://web.edu.hku.hk/programme/audiology/admissions",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. TOEFL Home and IELTS Online are explicitly not accepted. ARCHIVED2026 validity differs: portal says two years before application, faculty/PDF says two years before1September; applicability is unresolved and no rolling expiry or2027 test anchor is inferred. No updated six-point TOEFL threshold is invented.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://web.edu.hku.hk/programme/audiology/admissions",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://web.edu.hku.hk/programme/audiology/tuition-and-fees",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R212&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R212&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2026/27 archived Audiology cohort only; no2027 opening inferred.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "ARCHIVED 2026 intake: two-year professional taught MSc, not a new 2027 opening. Education, Psychology, Linguistics, Physics, Medicine and Speech/Hearing Sciences are preferred backgrounds, not an exclusive mandatory major list. Clinical placements during study do not establish pre-entry clinical employment, registration or a licence guarantee. The updated TOEFL six-point threshold for this archived cohort is not established in the consulted programme evidence.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/audiology/admissions"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Archived2026 test-date wording conflicts and new TOEFL scale not established.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/audiology/admissions"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.ARCHIVED2026 cohort only. Local47,000 per annum for2026/27 and49,500 per annum for2027/28 are year-specific; non-local224,000 and112,450 deposit have an unconfirmed total-versus-period basis. No personal whole-programme fee/category is inferred and tuition remains null. Deposit is not added on top;2027/28 annual continuation rate does not establish a2027 intake.",
+          "sourceUrl": "https://web.edu.hku.hk/programme/audiology/tuition-and-fees"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. ARCHIVED2026 cutoff2April noon has passed; programme PDF saysSeptember but portal lateAugust start. No2027 opening, cutoff or confirmed start month is inferred.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P020",
+      "universityId": "HK-HKU",
+      "name": "Master of International and Public Affairs",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent. International relations, political science, public administration, business, law and journalism/communication training or related professional experience are preferred, not exclusive majors or fixed work-year minima. Qualifying examination/interview may be required. Candidates with full-time employment are advised to choose PT; evening/weekend classes do not turn FT into PT. Overseas study opportunities are not assumed compulsory.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P020-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 298000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-01-15",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "deadlineAt": "2027-01-15T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 whole-programme298,000 FT/PT, not annual298,000 multiplied by two. Department separately quotes application fee780.",
+          "feeEvidence": {
+            "sourceUrl": "https://ppa.hku.hk/mipa/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate."
+        },
+        {
+          "id": "HK-HKU-P020-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 298000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-01-15",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "deadlineAt": "2027-01-15T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 whole-programme298,000 FT/PT, not annual298,000 multiplied by two. Department separately quotes application fee780.",
+          "feeEvidence": {
+            "sourceUrl": "https://ppa.hku.hk/mipa/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent. International relations, political science, public administration, business, law and journalism/communication training or related professional experience are preferred, not exclusive majors or fixed work-year minima. Qualifying examination/interview may be required. Candidates with full-time employment are advised to choose PT; evening/weekend classes do not turn FT into PT. Overseas study opportunities are not assumed compulsory.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R144&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Exact MIPA checklist requires two referee reports with official university/company addresses and academic/qualification, identity and applicable English evidence. Submit promptly, ideally within ONE WEEK of notification; the checklist also states within ONE MONTH from notification or the emailed deadline. These are preferred prompt timing versus outer notification-based limits, not two invented application cutoffs.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. TOEFL Home/IELTS Indicator rejection is recorded from this programme FAQ; no IELTS Online ban is borrowed. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://ppa.hku.hk/mipa/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R144&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R144&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent. International relations, political science, public administration, business, law and journalism/communication training or related professional experience are preferred, not exclusive majors or fixed work-year minima. Qualifying examination/interview may be required. Candidates with full-time employment are advised to choose PT; evening/weekend classes do not turn FT into PT. Overseas study opportunities are not assumed compulsory.",
+          "sourceUrl": "https://ppa.hku.hk/mipa/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 whole-programme298,000 FT/PT, not annual298,000 multiplied by two. Department separately quotes application fee780.",
+          "sourceUrl": "https://ppa.hku.hk/mipa/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P022",
+      "universityId": "HK-HKU",
+      "name": "MSc Geospatial Data Science",
+      "award": "MSc",
+      "area": "Data & AI",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent; departmental appropriate-subject wording requires university assessment, without a named exclusive major, numeric GPA or fixed employment minimum. GIS, machine learning, Python and capstone skills described in the curriculum are not automatically prerequisites or a mandatory Computer Science degree. An assessed dissertation/capstone remains within this taught award. PT students may need weekday daytime attendance and employer day release.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P022-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 280000,
+          "applicationFee": 780,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027 portal quotes280,000 for each mode. Department page still displays2026/27 dates; old fees and course descriptions do not replace the current quote.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate."
+        },
+        {
+          "id": "HK-HKU-P022-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 280000,
+          "applicationFee": 780,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027 portal quotes280,000 for each mode. Department page still displays2026/27 dates; old fees and course descriptions do not replace the current quote.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent; departmental appropriate-subject wording requires university assessment, without a named exclusive major, numeric GPA or fixed employment minimum. GIS, machine learning, Python and capstone skills described in the curriculum are not automatically prerequisites or a mandatory Computer Science degree. An assessed dissertation/capstone remains within this taught award. PT students may need weekday daytime attendance and employer day release.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R390&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Exact GeoDS checklist requires two referee reports with official university/company addresses and applicable academic, identity and English evidence. Documents are due within ONE MONTH of the notification email or by its stated deadline; the actual email date/instructions are not captured. No statement/portfolio is inferred just from filename examples.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. No programme-specific home/combined-score ban is inferred from a sibling. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://www.geods.hku.hk/potential-applicants/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R390&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R390&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Bachelor/equivalent; departmental appropriate-subject wording requires university assessment, without a named exclusive major, numeric GPA or fixed employment minimum. GIS, machine learning, Python and capstone skills described in the curriculum are not automatically prerequisites or a mandatory Computer Science degree. An assessed dissertation/capstone remains within this taught award. PT students may need weekday daytime attendance and employer day release.",
+          "sourceUrl": "https://www.geods.hku.hk/potential-applicants/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027 portal quotes280,000 for each mode. Department page still displays2026/27 dates; old fees and course descriptions do not replace the current quote.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P048",
+      "universityId": "HK-HKU",
+      "name": "Master of China Development Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Current official title is Master of China Development Studies (formerly MA in China Development Studies); retain the existing catalogue ID. Bachelor/equivalent in an appropriate subject requires assessment, without an exclusive major list or a numeric GPA. PT students may attend weekday morning/afternoon classes with FT and need employer arrangements. Current 60-credit regulations apply from2026/27 onward: GEOG7116 Field trip is ELECTIVE, not compulsory for every student; dissertation/non-dissertation are curriculum choices, not separate degrees or research-master exclusion.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P048-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 250000,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current department explicitly quotes250,000 total FT/PT for both local/non-local, with2x125,000 or4x62,500 instalments. Old2026 PDF application fee600 does not establish a current application charge, which stays null; scholarship is not deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.mchds.hku.hk/potential-applicants",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Current2027 portal/department dates supersede linked2026 information PDF15May2026. Numeric02/09/2027 is retained only asSeptember2027, not a guaranteed exact day."
+        },
+        {
+          "id": "HK-HKU-P048-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 250000,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current department explicitly quotes250,000 total FT/PT for both local/non-local, with2x125,000 or4x62,500 instalments. Old2026 PDF application fee600 does not establish a current application charge, which stays null; scholarship is not deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.mchds.hku.hk/potential-applicants",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Current2027 portal/department dates supersede linked2026 information PDF15May2026. Numeric02/09/2027 is retained only asSeptember2027, not a guaranteed exact day."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0",
+          "noteZh": "",
+          "noteEn": "Current official title is Master of China Development Studies (formerly MA in China Development Studies); retain the existing catalogue ID. Bachelor/equivalent in an appropriate subject requires assessment, without an exclusive major list or a numeric GPA. PT students may attend weekday morning/afternoon classes with FT and need employer arrangements. Current 60-credit regulations apply from2026/27 onward: GEOG7116 Field trip is ELECTIVE, not compulsory for every student; dissertation/non-dissertation are curriculum choices, not separate degrees or research-master exclusion.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R266&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "The linked programme-information PDF still says September2026, application fee600 and15May2026; it does not establish the2027 fee or closing date. Current portal/department establish2027 dates/tuition. Linked supporting checklist requests two referee reports and academic/English/identity evidence within ONE MONTH from notification or the emailed limit; its exact applicability still needs confirmation. No private documents are collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. TOEFL Home/IELTS Indicator rejection is recorded from this programme FAQ; no IELTS Online ban is borrowed. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Elective field trip and programme identity",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R266&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "The2026/27-and-thereafter regulations place GEOG7116 Field trip under ELECTIVES. It is not a compulsory overseas period for all students; do not exclude the entire programme because an earlier Seoul trip occurred. Chosen course delivery and current arrangements still require confirmation.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://www.mchds.hku.hk/potential-applicants",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://www.mchds.hku.hk/programme",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R266&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R266&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R266&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Current official title is Master of China Development Studies (formerly MA in China Development Studies); retain the existing catalogue ID. Bachelor/equivalent in an appropriate subject requires assessment, without an exclusive major list or a numeric GPA. PT students may attend weekday morning/afternoon classes with FT and need employer arrangements. Current 60-credit regulations apply from2026/27 onward: GEOG7116 Field trip is ELECTIVE, not compulsory for every student; dissertation/non-dissertation are curriculum choices, not separate degrees or research-master exclusion.",
+          "sourceUrl": "https://www.mchds.hku.hk/potential-applicants"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current department explicitly quotes250,000 total FT/PT for both local/non-local, with2x125,000 or4x62,500 instalments. Old2026 PDF application fee600 does not establish a current application charge, which stays null; scholarship is not deducted.",
+          "sourceUrl": "https://www.mchds.hku.hk/potential-applicants"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. Current2027 portal/department dates supersede linked2026 information PDF15May2026. Numeric02/09/2027 is retained only asSeptember2027, not a guaranteed exact day.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P050",
+      "universityId": "HK-HKU",
+      "name": "Master of Climate Governance and Risk Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Honours bachelor or university-accepted equivalent; no specific honours CLASS or numeric GPA is established. Business, science, social sciences, engineering and law are encouraged backgrounds rather than exclusive majors. Work experience and GMAT/GRE are not mandatory; scholarships are assessed separately. Portal entry text explicitly refers to2026/27 although the current programme page/portal record September2027 and the December2026 first-round cutoff. Current school evidence and supporting checklist remain separate; optional CV/statement wording does not create a compulsory document merely from a filename abbreviation.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P050-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 360000,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2026-12-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "First published round",
+              "applicationOpen": null,
+              "deadline": "2026-12-31",
+              "deadlineAt": "2026-12-31T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current school quotes360,000 and a120,000 deposit credited within the payment schedule. Scholarships and optional tests are separate; a current application fee is not established.",
+          "feeEvidence": {
+            "sourceUrl": "https://iccn.hku.hk/programmes/mcgrm",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate. Only FIRST ROUND is published;31December is not established as the final season cutoff."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0",
+          "noteZh": "",
+          "noteEn": "Honours bachelor or university-accepted equivalent; no specific honours CLASS or numeric GPA is established. Business, science, social sciences, engineering and law are encouraged backgrounds rather than exclusive majors. Work experience and GMAT/GRE are not mandatory; scholarships are assessed separately. Portal entry text explicitly refers to2026/27 although the current programme page/portal record September2027 and the December2026 first-round cutoff. Current school evidence and supporting checklist remain separate; optional CV/statement wording does not create a compulsory document merely from a filename abbreviation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R419&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Linked supporting checklist is dated September2025 and requests TWO referee reports, academic/grading, identity and applicable English evidence, within ONE MONTH from email notification or its deadline. School current page asks at least one academic referee and marks GMAT/GRE, CV and Statement of Purpose optional. CV/statement letters in the checklist file-naming legend do not themselves make those documents required; the old checklist date is retained for applicability review.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. No programme-specific home/combined-score ban is inferred from a sibling. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://iccn.hku.hk/programmes/mcgrm",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R419&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Honours bachelor or university-accepted equivalent; no specific honours CLASS or numeric GPA is established. Business, science, social sciences, engineering and law are encouraged backgrounds rather than exclusive majors. Work experience and GMAT/GRE are not mandatory; scholarships are assessed separately. Portal entry text explicitly refers to2026/27 although the current programme page/portal record September2027 and the December2026 first-round cutoff. Current school evidence and supporting checklist remain separate; optional CV/statement wording does not create a compulsory document merely from a filename abbreviation.",
+          "sourceUrl": "https://iccn.hku.hk/programmes/mcgrm"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current school quotes360,000 and a120,000 deposit credited within the payment schedule. Scholarships and optional tests are separate; a current application fee is not established.",
+          "sourceUrl": "https://iccn.hku.hk/programmes/mcgrm"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate. Only FIRST ROUND is published;31December is not established as the final season cutoff.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P060",
+      "universityId": "HK-HKU",
+      "name": "Master of Governance and Policy",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "School of Governance and Policy",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent. At least THREE professional work years are PREFERRED, not a compulsory minimum or a pass from total employment years. Equivalence, English applicability and possible qualifying examination require assessment. The 66-credit one-year FT curriculum has elective field-trip study, not proof all students must leave Hong Kong. No numeric GPA or exclusive major is established.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P060-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 320000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-26",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027/28 school composition320,000 and exact PDF application fee780;66 curriculum credits are not an undergraduate entry requirement.",
+          "feeEvidence": {
+            "sourceUrl": "https://sgp.hku.hk/programme/mgp/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sgp.hku.hk/programme/mgp/",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent. At least THREE professional work years are PREFERRED, not a compulsory minimum or a pass from total employment years. Equivalence, English applicability and possible qualifying examination require assessment. The 66-credit one-year FT curriculum has elective field-trip study, not proof all students must leave Hong Kong. No numeric GPA or exclusive major is established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R424&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Current MGP checklist requires a ONE-PAGE personal statement, CV of NO MORE THAN TWO PAGES and TWO academic/professional referees; friends/relatives are not accepted. Submit within TWO WEEKS from notification or the application deadline, whichever is earlier, using that instruction rather than the system expiry date. Academic/grading, applicable English and translations remain evidence requirements; actual personal timing is not computed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. No programme-specific home/combined-score ban is inferred from a sibling. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferred relevant professional experience",
+          "sourceUrl": "https://sgp.hku.hk/programme/mgp/",
+          "noteZh": "",
+          "noteEn": "Three professional years are preferred. A shorter self-reported total is not a mandatory rejection, and a longer total cannot prove professional relevance.",
+          "mandatory": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sgp.hku.hk/programme/mgp/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R424&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R424&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent. At least THREE professional work years are PREFERRED, not a compulsory minimum or a pass from total employment years. Equivalence, English applicability and possible qualifying examination require assessment. The 66-credit one-year FT curriculum has elective field-trip study, not proof all students must leave Hong Kong. No numeric GPA or exclusive major is established.",
+          "sourceUrl": "https://sgp.hku.hk/programme/mgp/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027/28 school composition320,000 and exact PDF application fee780;66 curriculum credits are not an undergraduate entry requirement.",
+          "sourceUrl": "https://sgp.hku.hk/programme/mgp/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P061",
+      "universityId": "HK-HKU",
+      "name": "Master of Public Administration",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-administration-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent ordinary route; department explicitly permits exceptional non-bachelor applicants to be considered after demonstrating adequate preparation and satisfying a qualifying examination. That assessed alternative must not become an automatic degree-status failure or automatic admission. No numeric GPA, mandatory major or work-year floor is established. Peking University/Chinese Academy of Governance live-in options are optional, not universal mainland delivery.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P061-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 298000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-26",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 whole-programme298,000 FT/PT, not annual298,000 multiplied by two. Competitive30,000 merit scholarship is not deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://ppa.hku.hk/mpa/Admission.html",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate."
+        },
+        {
+          "id": "HK-HKU-P061-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 298000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-26",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 whole-programme298,000 FT/PT, not annual298,000 multiplied by two. Competitive30,000 merit scholarship is not deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://ppa.hku.hk/mpa/Admission.html",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://ppa.hku.hk/mpa/Admission.html",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent ordinary route; department explicitly permits exceptional non-bachelor applicants to be considered after demonstrating adequate preparation and satisfying a qualifying examination. That assessed alternative must not become an automatic degree-status failure or automatic admission. No numeric GPA, mandatory major or work-year floor is established. Peking University/Chinese Academy of Governance live-in options are optional, not universal mainland delivery.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R58&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Exact MPA checklist asks academic/grading, identity, applicable English and TWO referee reports with official university/company addresses. It states upload within FOUR WEEKS from account creation and preferably within ONE WEEK after notification for rolling consideration. Preferred prompt submission is not a separate hard admission cutoff. Current programme-information PDF also urges submission preferably within one week.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. No programme-specific home/combined-score ban is inferred from a sibling. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-administration-socsc&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://ppa.hku.hk/mpa/Admission.html",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://ppa.hku.hk/mpa/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R58&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R58&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-administration-socsc&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent ordinary route; department explicitly permits exceptional non-bachelor applicants to be considered after demonstrating adequate preparation and satisfying a qualifying examination. That assessed alternative must not become an automatic degree-status failure or automatic admission. No numeric GPA, mandatory major or work-year floor is established. Peking University/Chinese Academy of Governance live-in options are optional, not universal mainland delivery.",
+          "sourceUrl": "https://ppa.hku.hk/mpa/Admission.html"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-administration-socsc&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.2027/28 whole-programme298,000 FT/PT, not annual298,000 multiplied by two. Competitive30,000 merit scholarship is not deducted.",
+          "sourceUrl": "https://ppa.hku.hk/mpa/Admission.html"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-administration-socsc&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-administration-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P095",
+      "universityId": "HK-HKU",
+      "name": "Master of Social Sciences in Population and Policy Analysis",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Relevant social-science or technical backgrounds are PREFERRED, not exclusive. Quantitative-method familiarity may be demonstrated by courses, certification or professional experience; candidates with limited formal training may still be considered with strong motivation and a study plan. Do not reject a different major or invent minimum quantitative course credits, GPA or employment years. The website labels8October2026 both admission opening and intake start; current portal/PDF identify September2027 intake, not October2026 study entry.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P095-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 250000,
+          "applicationFee": 780,
+          "applicationOpen": "2026-10-08",
+          "deadline": "2027-03-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-10-08",
+              "deadline": "2026-11-30",
+              "deadlineAt": "2026-11-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-10-08",
+              "deadline": "2027-01-11",
+              "deadlineAt": "2027-01-11T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": "2026-10-08",
+              "deadline": "2027-03-01",
+              "deadlineAt": "2027-03-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027 portal whole one-year quote 250000; current PDF separately states application fee780.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate.8October2026 is the admission/application opening; the website mislabels it as intake start. Actual study intake isSeptember2027 in portal/PDF."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://www.socsc.hku.hk/mpoppa/",
+          "noteZh": "",
+          "noteEn": "Relevant social-science or technical backgrounds are PREFERRED, not exclusive. Quantitative-method familiarity may be demonstrated by courses, certification or professional experience; candidates with limited formal training may still be considered with strong motivation and a study plan. Do not reject a different major or invent minimum quantitative course credits, GPA or employment years. The website labels8October2026 both admission opening and intake start; current portal/PDF identify September2027 intake, not October2026 study entry.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R403&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Exact Population/Policy checklist requires academic/grading, identity, applicable English and TWO referee reports with official university/company addresses. Upload within ONE MONTH from notification or the email deadline. Quantitative readiness is assessed from the actual evidence, not merely the major or high English score.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. No programme-specific home/combined-score ban is inferred from a sibling. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://www.socsc.hku.hk/mpoppa/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R403&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R403&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Relevant social-science or technical backgrounds are PREFERRED, not exclusive. Quantitative-method familiarity may be demonstrated by courses, certification or professional experience; candidates with limited formal training may still be considered with strong motivation and a study plan. Do not reject a different major or invent minimum quantitative course credits, GPA or employment years. The website labels8October2026 both admission opening and intake start; current portal/PDF identify September2027 intake, not October2026 study entry.",
+          "sourceUrl": "https://www.socsc.hku.hk/mpoppa/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027 portal whole one-year quote 250000; current PDF separately states application fee780.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate.8October2026 is the admission/application opening; the website mislabels it as intake start. Actual study intake isSeptember2027 in portal/PDF.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P096",
+      "universityId": "HK-HKU",
+      "name": "Master of Social Sciences in Social Data Analytics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Social-science degrees and existing statistics/formal-logic/programming/calculus/linear-algebra preparation are PREFERRED. Another major or missing quantitative course list is not an automatic mandatory failure. Evidence and possible assessment remain required; an English-medium qualification requires an official institutional letter or equivalent proof. This is a taught social-science award, distinct from GeoDS and other MSc Data Science programmes.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P096-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 265000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": "2027-03-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027 portal whole one-year quote 265000; current PDF separately states application fee780.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://www.socsc.hku.hk/sda/admission-requirements/",
+          "noteZh": "",
+          "noteEn": "Social-science degrees and existing statistics/formal-logic/programming/calculus/linear-algebra preparation are PREFERRED. Another major or missing quantitative course list is not an automatic mandatory failure. Evidence and possible assessment remain required; an English-medium qualification requires an official institutional letter or equivalent proof. This is a taught social-science award, distinct from GeoDS and other MSc Data Science programmes.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R387&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Exact Social Data Analytics checklist requires academic/grading, identity, applicable English, TWO referee reports with official university/company addresses, a personal statement covering motivation/expected benefit/future plan, and CV. Upload within ONE MONTH from notification or the emailed deadline. No unquoted word/page limit is invented.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. No programme-specific home/combined-score ban is inferred from a sibling. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://www.socsc.hku.hk/sda/admission-requirements/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R387&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R387&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Social-science degrees and existing statistics/formal-logic/programming/calculus/linear-algebra preparation are PREFERRED. Another major or missing quantitative course list is not an automatic mandatory failure. Evidence and possible assessment remain required; an English-medium qualification requires an official institutional letter or equivalent proof. This is a taught social-science award, distinct from GeoDS and other MSc Data Science programmes.",
+          "sourceUrl": "https://www.socsc.hku.hk/sda/admission-requirements/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.Current2027 portal whole one-year quote 265000; current PDF separately states application fee780.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. The exact published cutoff is12:00noon GMT+8. Opening/round precision, notifications and admission decisions remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P098",
+      "universityId": "HK-HKU",
+      "name": "Master of Social Sciences in Sustainability Leadership and Governance",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official school/PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent and possible interview. TWO years of related work are PREFERRED, not a mandatory floor or automatic pass from generic total years. Professional membership upon successful completion is not admission, employment or licensing approval. FT/PT and local/non-local deadlines are separately selected; applicant classification needs university confirmation.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P098-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 300000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.FT300,000 per year for one normative year. Choose the university applicant category to retrieve its recorded calendar deadline; time conflict remains unresolved.",
+          "feeEvidence": {
+            "sourceUrl": "https://ccsg.hku.hk/slgp/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Current PDF/portal saynoon, homepage says12:00AM; exact time UNCONFIRMED. Non-local1March and local31March are separate applicant categories."
+        },
+        {
+          "id": "HK-HKU-P098-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.PT TUITION UNKNOWN: portal300,000 per year conflicts with department150,000 per year over two years. Neither600,000 nor300,000 is silently assigned. Choose the university applicant category to retrieve its recorded calendar deadline; time conflict remains unresolved.",
+          "feeEvidence": {
+            "sourceUrl": "https://ccsg.hku.hk/slgp/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Current PDF/portal saynoon, homepage says12:00AM; exact time UNCONFIRMED. Non-local1March and local31March are separate applicant categories."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent and possible interview. TWO years of related work are PREFERRED, not a mandatory floor or automatic pass from generic total years. Professional membership upon successful completion is not admission, employment or licensing approval. FT/PT and local/non-local deadlines are separately selected; applicant classification needs university confirmation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R360&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Exact SLG checklist requires applicable academic/grading, identity/English evidence and TWO referee reports with official university/company addresses. Upload before the application deadline AND within ONE MONTH after applying. Actual date and accepted evidence need assessment; the platform does not prepare, collect or submit private application documents.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualifications, alternative examinations and waivers require school acceptance. No programme-specific home/combined-score ban is inferred from a sibling. Tests for2027 entry must be taken on/after1September2025. Applicable test scales and any unrecorded combined-score/retake policy still require evidence.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferred relevant professional experience",
+          "sourceUrl": "https://ccsg.hku.hk/slgp/",
+          "noteZh": "",
+          "noteEn": "Two related work years are preferred. A shorter self-reported total is not a mandatory rejection, and a longer total cannot prove professional relevance.",
+          "mandatory": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "SLG fee and exact cutoff reconciliation",
+          "sourceUrl": "https://ccsg.hku.hk/slgp/",
+          "noteZh": "",
+          "noteEn": "Portal PT label says300,000 per year; department home and admission fee tab say150,000 per PT year over two years. PT tuition stays UNKNOWN, not zero or a silent600,000/300,000 total. Portal and current PDF say NOON but homepage writes12:00AM for March1/March31; retain calendar dates only and confirm the exact cutoff before acting.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://ccsg.hku.hk/slgp/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://ccsg.hku.hk/slgp/admission/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R360&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R360&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode or expressly consulted faculty/PDF evidence; mixed cohorts, fees, conditional rounds and relative document limits remain separate"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "2027/28 entry evidenced by current faculty page/PDF or exact portal; old linked pages not relabelled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent and possible interview. TWO years of related work are PREFERRED, not a mandatory floor or automatic pass from generic total years. Professional membership upon successful completion is not admission, employment or licensing approval. FT/PT and local/non-local deadlines are separately selected; applicant classification needs university confirmation.",
+          "sourceUrl": "https://ccsg.hku.hk/slgp/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA established. Honours/equivalence, preference, scholarships and award/graduation standards are not converted to an entry GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact programme English minima, general rule where explicitly applicable, fixed2027 test-date anchor and unverified applicability/waivers kept separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.PT TUITION UNKNOWN: portal300,000 per year conflicts with department150,000 per year over two years. Neither600,000 nor300,000 is silently assigned. Choose the university applicant category to retrieve its recorded calendar deadline; time conflict remains unresolved.",
+          "sourceUrl": "https://ccsg.hku.hk/slgp/"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "Stored dates only; no live-open, capacity or extension claim. Current PDF/portal saynoon, homepage says12:00AM; exact time UNCONFIRMED. Non-local1March and local31March are separate applicant categories.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete requirements or independent human review.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0"
+        }
+      },
+      "researchBatch": "hku-education-policy-2026-10-31"
     }
   ]
 }

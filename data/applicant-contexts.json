@@ -11804,6 +11804,122 @@
           ]
         }
       ]
+    },
+    {
+      "programmeId": "HK-HKU-P098",
+      "routeId": null,
+      "offeringId": "HK-HKU-P098-2027-FT",
+      "offeringFingerprint": "def43692c1dd3963d3645fac530ff2d8d9b56537f1aaeea87c26561d01f64000",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ccsg.hku.hk/slgp/admission/",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R360&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact2027 SLG mode/category. FT fee300,000 for one year; PT tuition remainsnull because portal and department annual quotes conflict. Dates are known by category, but portal/PDF noon and homepage12:00AM differ: no exact cutoff instant is asserted. University category classification remainsmanual.",
+      "options": [
+        {
+          "id": "HK-HKU-P098-2027-FT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 300000,
+          "applicationFee": 780,
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.FT300,000 per year for one normative year. Choose the university applicant category to retrieve its recorded calendar deadline; time conflict remains unresolved.",
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Current PDF/portal saynoon, homepage says12:00AM; exact time UNCONFIRMED. Non-local1March and local31March are separate applicant categories. This local applicant — hku category calendar closing date is2027-03-31; no precise time or portal availability is asserted.",
+          "applicationRounds": [
+            {
+              "id": "CATEGORY-CLOSING",
+              "label": "Recorded category closing date · exact time unconfirmed",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P098-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 300000,
+          "applicationFee": 780,
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.FT300,000 per year for one normative year. Choose the university applicant category to retrieve its recorded calendar deadline; time conflict remains unresolved.",
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Current PDF/portal saynoon, homepage says12:00AM; exact time UNCONFIRMED. Non-local1March and local31March are separate applicant categories. This non-local applicant — hku category calendar closing date is2027-03-01; no precise time or portal availability is asserted.",
+          "applicationRounds": [
+            {
+              "id": "CATEGORY-CLOSING",
+              "label": "Recorded category closing date · exact time unconfirmed",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P098",
+      "routeId": null,
+      "offeringId": "HK-HKU-P098-2027-PT",
+      "offeringFingerprint": "36968e244203e67aecb4db84ba65bd246ab4ed3fd6eafb4a82338384e2f627a4",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ccsg.hku.hk/slgp/admission/",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R360&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact2027 SLG mode/category. FT fee300,000 for one year; PT tuition remainsnull because portal and department annual quotes conflict. Dates are known by category, but portal/PDF noon and homepage12:00AM differ: no exact cutoff instant is asserted. University category classification remainsmanual.",
+      "options": [
+        {
+          "id": "HK-HKU-P098-2027-PT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.PT TUITION UNKNOWN: portal300,000 per year conflicts with department150,000 per year over two years. Neither600,000 nor300,000 is silently assigned. Choose the university applicant category to retrieve its recorded calendar deadline; time conflict remains unresolved.",
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Current PDF/portal saynoon, homepage says12:00AM; exact time UNCONFIRMED. Non-local1March and local31March are separate applicant categories. This local applicant — hku category calendar closing date is2027-03-31; no precise time or portal availability is asserted.",
+          "applicationRounds": [
+            {
+              "id": "CATEGORY-CLOSING",
+              "label": "Recorded category closing date · exact time unconfirmed",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P098-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "feeBasis": "Proposed exact-mode composition fee; subject to University approval. Deposits credited to tuition, caution money, activity/travel costs and scholarships remain separate. No automatic scholarship, annual/maximum-duration multiplier or invented category discount.PT TUITION UNKNOWN: portal300,000 per year conflicts with department150,000 per year over two years. Neither600,000 nor300,000 is silently assigned. Choose the university applicant category to retrieve its recorded calendar deadline; time conflict remains unresolved.",
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "deadlineNote": "Stored dates only; no live-open, capacity or extension claim. Current PDF/portal saynoon, homepage says12:00AM; exact time UNCONFIRMED. Non-local1March and local31March are separate applicant categories. This non-local applicant — hku category calendar closing date is2027-03-01; no precise time or portal availability is asserted.",
+          "applicationRounds": [
+            {
+              "id": "CATEGORY-CLOSING",
+              "label": "Recorded category closing date · exact time unconfirmed",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }
