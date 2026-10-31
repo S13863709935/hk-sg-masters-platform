@@ -221,7 +221,7 @@ test('parent records and raw export are unchanged; route and category evidence h
   assert.deepEqual(meta.routeEvidence, { groups: 10, routes: 26, pageChecked: 26, peerReviewed: 0, complete: 0 });
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 184, categories: 370, peerReviewed: 0 });
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
-  assert.equal(meta.quality.checked, 238); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.equal(meta.quality.checked, 251); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
 });
 
 test('cards and details only show the unresolved-route badge when no specific route is selected', () => {

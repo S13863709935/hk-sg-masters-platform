@@ -27,12 +27,12 @@ const unit = (q = report, id = 'SG-NUS-P032', kind = 'programme') => q.units.fin
 
 test('review units preserve separate programme, route and category counts without inflating catalogue coverage', () => {
   assert.deepEqual(report.counts, {
-    catalogueRecords: 873, programmePageRecords: 238, remainingCatalogueLeads: 635,
-    routeRecords: 26, applicantContexts: 184, applicantCategories: 370, reviewUnits: 448,
-    pendingHumanReview: 448, reviewRecordedInSource: 0, nearCutoffUnits: 3, staleApplicantContexts: 0
+    catalogueRecords: 873, programmePageRecords: 251, remainingCatalogueLeads: 622,
+    routeRecords: 26, applicantContexts: 184, applicantCategories: 370, reviewUnits: 461,
+    pendingHumanReview: 461, reviewRecordedInSource: 0, nearCutoffUnits: 4, staleApplicantContexts: 0
   });
-  assert.equal(report.units.filter(u => u.kind === 'programme').length, 238);
-  assert.equal(new Set(report.units.map(u => u.key)).size, 448);
+  assert.equal(report.units.filter(u => u.kind === 'programme').length, 251);
+  assert.equal(new Set(report.units.map(u => u.key)).size, 461);
   assert.equal(report.livePortalChecked, false); assert.equal(report.reviewApprovalGranted, false);
   assert.ok(report.units.every(u => u.status === 'pending_human_review' && !u.sourceReviewRecorded));
 });
@@ -80,7 +80,9 @@ test('unconfirmed dates, unidentified years, exclusions and future source observ
 
 test('real imminent cutoffs retain cohort/round identity while the old transfer record stays archive-only', () => {
   const near = report.units.filter(u => u.reviewOrder === 'cutoff_within_14_days');
-  assert.deepEqual(near.map(u => u.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001', 'HK-HKUST-P021']);
+  assert.deepEqual(near.map(u => u.programmeId), ['HK-CUHK-P001', 'HK-HKU-P047', 'HK-HKUST-P001', 'HK-HKUST-P021']);
+  const mba = near.find(u => u.programmeId === 'HK-HKU-P047');
+  assert.deepEqual(mba.upcomingRecordedCutoffs.map(d => [d.offeringId, d.roundId, d.deadline]), [['HK-HKU-P047-2027-FT', 'EARLY', '2026-11-09'], ['HK-HKU-P047-2027-PT-HK', 'EARLY', '2026-11-09']]);
   const ciem = near.find(u => u.programmeId === 'HK-HKUST-P001');
   assert.deepEqual(ciem.upcomingRecordedCutoffs.map(d => [d.offeringId, d.deadline]), [['HK-HKUST-P001-FEB2027-PT', '2026-11-01']]);
   assert.ok(near[0].upcomingRecordedCutoffs.every(d => d.roundId === 'ROUND-2'));
@@ -194,9 +196,9 @@ test('real CLI works outside the repository without modifying source files or op
 });
 
 test('committed human checklist exactly reproduces its snapshot and semantic source fingerprints', () => {
-  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-31-hku-engineering.md', root), 'utf8').replaceAll('\r\n', '\n'));
+  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-31-hku-business.md', root), 'utf8').replaceAll('\r\n', '\n'));
   assert.equal(Object.keys(report.inputFingerprints).length, 8);
   for (const h of Object.values(report.inputFingerprints)) assert.match(h, /^[a-f0-9]{64}$/);
   const markdown = formatSourceReviewMarkdown(report);
-  assert.match(markdown, /不是 448 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
+  assert.match(markdown, /不是 461 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
 });

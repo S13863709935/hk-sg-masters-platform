@@ -43300,6 +43300,2521 @@
       },
       "researchBatch": "hku-engineering-2026-10-31",
       "id": "HK-HKU-P082"
+    },
+    {
+      "id": "HK-HKU-P025",
+      "universityId": "HK-HKU",
+      "name": "Master of Accounting",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Accounting accepts students without a business/commerce background; business degrees, accounting work and good GMAT/GRE scores are preferences, not mandatory entry gates. Three concentrations remain one award. Ordinary single concentration has twelve courses; double concentration has fourteen and extra course fees. Mandatory economics/statistics/accounting preparation and course-exemption approval do not guarantee exemption, fee reduction or automatic professional membership. Portal expected duration is two years; programme text still mentions one-year double-concentration completion, so confirm the cohort timetable.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P025-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 468000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 468,000, subject to University approval. Deposit HKD 156,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit acceptance of non-business/different academic backgrounds",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Accounting accepts students without a business/commerce background; business degrees, accounting work and good GMAT/GRE scores are preferences, not mandatory entry gates. Three concentrations remain one award. Ordinary single concentration has twelve courses; double concentration has fourteen and extra course fees. Mandatory economics/statistics/accounting preparation and course-exemption approval do not guarantee exemption, fee reduction or automatic professional membership. Portal expected duration is two years; programme text still mentions one-year double-concentration completion, so confirm the cohort timetable.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/our-programmes/master-of-accounting/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R336&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Accounting accepts students without a business/commerce background; business degrees, accounting work and good GMAT/GRE scores are preferences, not mandatory entry gates. Three concentrations remain one award. Ordinary single concentration has twelve courses; double concentration has fourteen and extra course fees. Mandatory economics/statistics/accounting preparation and course-exemption approval do not guarantee exemption, fee reduction or automatic professional membership. Portal expected duration is two years; programme text still mentions one-year double-concentration completion, so confirm the cohort timetable.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P026",
+      "universityId": "HK-HKU",
+      "name": "Master of Accounting Analytics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Accounting Analytics is a distinct award from Master of Accounting, not its concentration or an additional degree created by the data analytics curriculum. The current entry section gives bachelor/equivalent, two references and conditional English evidence, without an exclusive accounting major, numeric GPA or fixed work years. Ten courses and optional cross-programme electives are curriculum requirements.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P026-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 468000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 468,000, subject to University approval. Deposit HKD 156,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Accounting Analytics is a distinct award from Master of Accounting, not its concentration or an additional degree created by the data analytics curriculum. The current entry section gives bachelor/equivalent, two references and conditional English evidence, without an exclusive accounting major, numeric GPA or fixed work years. Ten courses and optional cross-programme electives are curriculum requirements.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Accounting Analytics is a distinct award from Master of Accounting, not its concentration or an additional degree created by the data analytics curriculum. The current entry section gives bachelor/equivalent, two references and conditional English evidence, without an exclusive accounting major, numeric GPA or fixed work years. Ten courses and optional cross-programme electives are curriculum requirements.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P029",
+      "universityId": "HK-HKU",
+      "name": "Master of Artificial Intelligence in Business",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. AI in Business is a distinct Business School degree, separate from Science AI and Computer Science AI streams. The consulted entry section establishes no exclusive prior computing degree, coding-test minimum, numeric GPA or fixed work years. Curriculum topics do not become compulsory pre-entry qualifications.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P029-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 508000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 508,000, subject to University approval. Deposit HKD 169,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "AI in Business is a distinct Business School degree, separate from Science AI and Computer Science AI streams. The consulted entry section establishes no exclusive prior computing degree, coding-test minimum, numeric GPA or fixed work years. Curriculum topics do not become compulsory pre-entry qualifications.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "AI in Business is a distinct Business School degree, separate from Science AI and Computer Science AI streams. The consulted entry section establishes no exclusive prior computing degree, coding-test minimum, numeric GPA or fixed work years. Curriculum topics do not become compulsory pre-entry qualifications.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P053",
+      "universityId": "HK-HKU",
+      "name": "Master of Economics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Ordinary taught MEcon welcomes different academic backgrounds; admitted students without economics preparation must complete the summer preparatory teaching and assessments. Data Analysis, Policy, Theory and Advanced Research remain curriculum streams, not extra degrees. The Advanced Research stream separately requires strong academic/research evidence, two academic references and a two-page research statement; a writing sample is optional. These additional research-stream documents, thesis length, PhD opportunity and conditional second-year support are not universal ordinary-MEcon entry or fee rules.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P053-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 438000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 438,000, subject to University approval. Deposit HKD 146,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit acceptance of non-business/different academic backgrounds",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Ordinary taught MEcon welcomes different academic backgrounds; admitted students without economics preparation must complete the summer preparatory teaching and assessments. Data Analysis, Policy, Theory and Advanced Research remain curriculum streams, not extra degrees. The Advanced Research stream separately requires strong academic/research evidence, two academic references and a two-page research statement; a writing sample is optional. These additional research-stream documents, thesis length, PhD opportunity and conditional second-year support are not universal ordinary-MEcon entry or fee rules.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/our-programmes/master-of-economics/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Ordinary taught MEcon welcomes different academic backgrounds; admitted students without economics preparation must complete the summer preparatory teaching and assessments. Data Analysis, Policy, Theory and Advanced Research remain curriculum streams, not extra degrees. The Advanced Research stream separately requires strong academic/research evidence, two academic references and a two-page research statement; a writing sample is optional. These additional research-stream documents, thesis length, PhD opportunity and conditional second-year support are not universal ordinary-MEcon entry or fee rules.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P055",
+      "universityId": "HK-HKU",
+      "name": "Master of Family Wealth Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Family Wealth Management is jointly offered with HKIHSS and is distinct from Master of Wealth Management. Submit a roughly 300-word family-member-day essay. A scholarship statement of at most 300 words applies only when requesting scholarship consideration; it is not an additional compulsory scholarship application or an automatic award. Family ownership, minimum family assets, prior finance employment and fixed work years are not established admission gates.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P055-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 508000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 508,000, subject to University approval. Deposit HKD 169,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Family Wealth Management is jointly offered with HKIHSS and is distinct from Master of Wealth Management. Submit a roughly 300-word family-member-day essay. A scholarship statement of at most 300 words applies only when requesting scholarship consideration; it is not an additional compulsory scholarship application or an automatic award. Family ownership, minimum family assets, prior finance employment and fixed work years are not established admission gates.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Family Wealth Management is jointly offered with HKIHSS and is distinct from Master of Wealth Management. Submit a roughly 300-word family-member-day essay. A scholarship statement of at most 300 words applies only when requesting scholarship consideration; it is not an additional compulsory scholarship application or an automatic award. Family ownership, minimum family assets, prior finance employment and fixed work years are not established admission gates.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P056",
+      "universityId": "HK-HKU",
+      "name": "Master of Finance",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Ordinary Finance is an interdisciplinary taught programme; curriculum references to mathematics, physics, statistics, engineering and programming do not establish an exclusive undergraduate major list or numeric GPA. Approved advanced standing may adjust fees, excluding the capstone; no automatic discount or personal adjusted quote is calculated.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P056-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 508000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 508,000, subject to University approval. Deposit HKD 169,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Ordinary Finance is an interdisciplinary taught programme; curriculum references to mathematics, physics, statistics, engineering and programming do not establish an exclusive undergraduate major list or numeric GPA. Approved advanced standing may adjust fees, excluding the capstone; no automatic discount or personal adjusted quote is calculated.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Ordinary Finance is an interdisciplinary taught programme; curriculum references to mathematics, physics, statistics, engineering and programming do not establish an exclusive undergraduate major list or numeric GPA. Approved advanced standing may adjust fees, excluding the capstone; no automatic discount or personal adjusted quote is calculated.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P057",
+      "universityId": "HK-HKU",
+      "name": "Master of Finance in Financial Technology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Computer Science, Engineering, Mathematics, Physics, Statistics and science/technology-related backgrounds are HIGHLY PREFERRED, not universally mandatory. This Business School degree is distinct from the CDS Financial Technology and Data Analytics part-time degree and retains its own fee, study mode and intake. Advanced standing and any adjusted fees need approval.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P057-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 508000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 508,000, subject to University approval. Deposit HKD 169,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Computer Science, Engineering, Mathematics, Physics, Statistics and science/technology-related backgrounds are HIGHLY PREFERRED, not universally mandatory. This Business School degree is distinct from the CDS Financial Technology and Data Analytics part-time degree and retains its own fee, study mode and intake. Advanced standing and any adjusted fees need approval.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Computer Science, Engineering, Mathematics, Physics, Statistics and science/technology-related backgrounds are HIGHLY PREFERRED, not universally mandatory. This Business School degree is distinct from the CDS Financial Technology and Data Analytics part-time degree and retains its own fee, study mode and intake. Advanced standing and any adjusted fees need approval.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P059",
+      "universityId": "HK-HKU",
+      "name": "Master of Global Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Global Management accepts bachelor/equivalent and the stated evidence. The portal preference for good GMAT/GRE, a business degree or accounting-related work remains a preference, not a required job or major gate. Company visits, global opportunities and marketing examples do not establish compulsory overseas delivery in the consulted entry section.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P059-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 468000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 468,000, subject to University approval. Deposit HKD 156,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Global Management accepts bachelor/equivalent and the stated evidence. The portal preference for good GMAT/GRE, a business degree or accounting-related work remains a preference, not a required job or major gate. Company visits, global opportunities and marketing examples do not establish compulsory overseas delivery in the consulted entry section.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Global Management accepts bachelor/equivalent and the stated evidence. The portal preference for good GMAT/GRE, a business degree or accounting-related work remains a preference, not a required job or major gate. Company visits, global opportunities and marketing examples do not establish compulsory overseas delivery in the consulted entry section.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P063",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Business Analytics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Business Analytics curriculum and career examples do not create a mandatory computing major, numeric GPA, work-year or GMAT/GRE minimum. Readiness for quantitative work and complete evidence remain assessed by the programme. No job or placement guarantee is inferred.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P063-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 468000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 468,000, subject to University approval. Deposit HKD 156,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Business Analytics curriculum and career examples do not create a mandatory computing major, numeric GPA, work-year or GMAT/GRE minimum. Readiness for quantitative work and complete evidence remain assessed by the programme. No job or placement guarantee is inferred.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Business Analytics curriculum and career examples do not create a mandatory computing major, numeric GPA, work-year or GMAT/GRE minimum. Readiness for quantitative work and complete evidence remain assessed by the programme. No job or placement guarantee is inferred.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P086",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Marketing",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Marketing retains bachelor/equivalent and conditional English/documentary evidence. No mandatory previous marketing degree, fixed employment years, numerical GPA or GMAT/GRE minimum is established in the consulted entry section. Curriculum specialisms and employers do not create extra degrees or entry qualifications.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P086-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 438000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 438,000, subject to University approval. Deposit HKD 146,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Marketing retains bachelor/equivalent and conditional English/documentary evidence. No mandatory previous marketing degree, fixed employment years, numerical GPA or GMAT/GRE minimum is established in the consulted entry section. Curriculum specialisms and employers do not create extra degrees or entry qualifications.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Marketing retains bachelor/equivalent and conditional English/documentary evidence. No mandatory previous marketing degree, fixed employment years, numerical GPA or GMAT/GRE minimum is established in the consulted entry section. Curriculum specialisms and employers do not create extra degrees or entry qualifications.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P100",
+      "universityId": "HK-HKU",
+      "name": "Master of Sustainable Accounting and Finance",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Sustainable Accounting and Finance is distinct from Accounting and ordinary Finance. ESG topics, the Paris Agreement two-degree target and career narratives are not GPA thresholds, professional licences or work-year requirements. Advanced standing and fee adjustments require approval and do not waive the capstone automatically.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P100-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 508000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 508,000, subject to University approval. Deposit HKD 169,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Sustainable Accounting and Finance is distinct from Accounting and ordinary Finance. ESG topics, the Paris Agreement two-degree target and career narratives are not GPA thresholds, professional licences or work-year requirements. Advanced standing and fee adjustments require approval and do not waive the capstone automatically.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Sustainable Accounting and Finance is distinct from Accounting and ordinary Finance. ESG topics, the Paris Agreement two-degree target and career narratives are not GPA thresholds, professional licences or work-year requirements. Advanced standing and fee adjustments require approval and do not waive the capstone automatically.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P103",
+      "universityId": "HK-HKU",
+      "name": "Master of Wealth Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake observation. Wealth Management is distinct from Family Wealth Management and retains its own curriculum, ordinary admissions and fee record. The Family Wealth Management essay is not imposed here. No required wealth amount, family-business ownership or fixed work years is established. Advanced standing and any fee adjustment require approval.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P103-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years reported by portal; confirm cohort-specific timetable",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 508000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-12-04",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "2027-intake early admission round",
+              "applicationOpen": null,
+              "deadline": "2026-07-24",
+              "deadlineAt": "2026-07-24T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-1",
+              "label": "2027-intake Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-09-28",
+              "deadlineAt": "2026-09-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "2027-intake Round 2 — latest announced",
+              "applicationOpen": null,
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake whole-programme tuition HKD 508,000, subject to University approval. Deposit HKD 169,000 is part of tuition; the balance is payable in two instalments over one academic year. This payment schedule does not establish normative study length. Separate application fee HKD 780. No local/non-local price split is published in this table, so none is invented. Extra concentration/course fees, living costs and approved advanced-standing adjustments remain separate; no scholarship or 2026-only subsidy is deducted.",
+          "feeEvidence": {
+            "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Three exact 2027-intake rounds are recorded at noon GMT+8. Round 2 is the latest ANNOUNCED cutoff, not a confirmed final deadline for the whole cycle; later rounds may be announced. Exact opening and start month remain unconfirmed. The stale indexed September upcoming-round header is superseded by current December portal/homepage observation. Live availability and early quota closure are not verified."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Wealth Management is distinct from Family Wealth Management and retains its own curriculum, ordinary admissions and fee record. The Family Wealth Management essay is not imposed here. No required wealth amount, family-business ownership or fixed work years is established. Advanced standing and any fee adjustment require approval.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "References, evidence and current availability",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "Two referee statements are required, including at least one academic referee with an official university profile/directory link. References are due before the selected round deadline; supporting documents are due no later than two WORKING days after it. No holiday calendar or exact submission time is inferred. Required categories include CV, academic/grading evidence, applicable employment/English/identity evidence and any programme-specific material. Employment proof does not establish a minimum employment period. Interview is generally not required, but an admission video may be mandatory if requested. The platform does not collect documents or contact referees.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted test evidence",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "English-medium/equivalent evidence and exceptional waivers need acceptance. TOEFL Home Edition is not accepted; that exclusion is applied to the specific TOEFL tests only. IELTS One Skill Retake is also not accepted but is not captured by the profile; its acceptance needs documentary review. No blanket IELTS-online exclusion or borrowed single-sitting rule is invented. Tests must be within two years before 1 September 2027; the date is not rolling from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferences, recognition and fee/duration limitations",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/",
+          "noteZh": "",
+          "noteEn": "GMAT/GRE is not required for these specialised masters; good scores may be favoured. No numeric entry GPA or universal honours/work-year gate is established. Qualifying assessment, recognition, timetable and complete evidence remain for university confirmation. The portal reports expected duration two years, while fee payment covers one academic year and some curriculum text mentions one-year completion. No year multiplier, fixed start month, automatic scholarship, professional licence or adjusted fee is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://masters.hkubs.hku.hk/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme identity/entry/rounds or explicitly shared named-programme fee/evidence policy; timetable and final-cycle limits remain explicit"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake/2027-28 fee cohort; start month is not established from To Be Updated or a generic homepage widget.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Wealth Management is distinct from Family Wealth Management and retains its own curriculum, ordinary admissions and fee record. The Family Wealth Management essay is not imposed here. No required wealth amount, family-business ownership or fixed work years is established. Advanced standing and any fee adjustment require approval.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA is established; academic merit, class profiles, curricula and scholarships do not create a GPA floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0/each 5.5; TOEFL 80 or new 4.5 with exam-specific Home exclusion; retake/applicability evidence remains assessed.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Named 2027 proposed total and deposit; no invented applicant-category tiers or automatic discounts. Duration and payment period remain separate.",
+          "sourceUrl": "https://masters.hkubs.hku.hk/admissions/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Three exact noon rounds; latest announced Round 2 does not establish the complete-cycle final deadline or live opening.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P047",
+      "universityId": "HK-HKU",
+      "name": "Master of Business Administration",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "HKU Business School",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal/faculty reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "MBA is separate from specialised masters. Only ordinary FT Hong Kong continuation and PT Hong Kong mode are represented; London/New York/Beijing/Shanghai partner tracks, GBA HK-SZ mode and separate IMBA are not selectable here. FT still includes a one-week Shanghai/Beijing China immersion for all students; a Hong Kong-only completion/exemption is NOT confirmed. Read the exact mode conditions before selection.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P047-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; optional longer industry-immersion arrangements require confirmation",
+          "intake": "August 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 648000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-11-09",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round — not confirmed final cycle deadline",
+              "applicationOpen": null,
+              "deadline": "2026-11-09",
+              "deadlineAt": "2026-11-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake full-time whole-programme tuition HKD 648,000, subject to approval; three instalments over one year. Deposit HKD 75,000 is quoted to confirm acceptance; exact deposit-credit accounting is not established in the read section, so it is not automatically added to or subtracted from tuition. Separate application fee HKD 780. No scholarship, loan, subsidy or longer-path total is inferred.",
+          "feeEvidence": {
+            "sourceUrl": "https://mba.hkubs.hku.hk/full-time-mba/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact early-round 9 November 2026 at noon GMT+8 from the current MBA portal; it is not the final-cycle deadline. Opening unconfirmed; rolling review/live availability and any extension need checking. PT uses Hong Kong mode only, not the GBA 30 November round."
+        },
+        {
+          "id": "HK-HKU-P047-2027-PT-HK",
+          "mode": "Part-time",
+          "duration": "2 years minimum; 4 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 588000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2026-11-09",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round — not confirmed final cycle deadline",
+              "applicationOpen": null,
+              "deadline": "2026-11-09",
+              "deadlineAt": "2026-11-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027-intake part-time whole-programme tuition HKD 588,000, subject to approval; six instalments over two years. Deposit HKD 50,000 is quoted to confirm acceptance; exact deposit-credit accounting is not established in the read section, so it is not automatically added to or subtracted from tuition. Separate application fee HKD 780. No scholarship, loan, subsidy or longer-path total is inferred.",
+          "feeEvidence": {
+            "sourceUrl": "https://mba.hkubs.hku.hk/part-time-mba/admissions/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact early-round 9 November 2026 at noon GMT+8 from the current MBA portal; it is not the final-cycle deadline. Opening unconfirmed; rolling review/live availability and any extension need checking. PT uses Hong Kong mode only, not the GBA 30 November round."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Postgraduate full-time work and equivalence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Both modes require at least two years of POSTGRADUATE FULL-TIME work experience as of August 2027. The profile has undated aggregate work years and cannot verify post-degree/full-time scope or the future August anchor; no automatic numeric pass/failure is made from that field. Bachelor recognition, evidence and individual assessment remain manual.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "MBA references and assessment",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0",
+          "noteZh": "",
+          "noteEn": "Two referee statements, academic/English documents, supporting evidence and a shortlisted interview are required. The specialised-masters rule requiring an academic referee is not imposed without MBA-specific evidence. No numeric GPA minimum or exclusive major list is established. No document upload, referee contact, scholarship or admission guarantee is performed.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://mba.hkubs.hku.hk/full-time-mba/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://mba.hkubs.hku.hk/full-time-mba/admissions/",
+          "singleAttempt": true,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P047-2027-FT"
+            ],
+            "labelEn": "Full-time MBA Hong Kong continuation",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-10-31"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact MBA mode tests and delivery",
+          "sourceUrl": "https://mba.hkubs.hku.hk/full-time-mba/admissions/",
+          "noteZh": "",
+          "noteEn": "Full-time requires satisfactory GMAT/GRE; no numeric minimum is published. Scores older than five years are not accepted and multiple attempts are permitted, but sub-scores cannot be combined. IELTS 6.5/each 5.5 differs from Hong Kong PT 6.0. FT starts with a one-week China immersion in Shanghai/Beijing for ALL students, even when later electives continue in Hong Kong. Optional overseas tracks and 18-month industry immersion are not silently substituted; confirm the project geographic-scope exception before treating this as Hong Kong-only.",
+          "mandatory": true,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P047-2027-FT"
+            ],
+            "labelEn": "Full-time MBA Hong Kong continuation",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-10-31"
+          }
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Published English score and examination-specific format route",
+          "sourceUrl": "https://mba.hkubs.hku.hk/part-time-mba/admissions/",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://mba.hkubs.hku.hk/part-time-mba/admissions/",
+          "singleAttempt": true,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P047-2027-PT-HK"
+            ],
+            "labelEn": "Part-time MBA Hong Kong mode",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-10-31"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact MBA mode tests and delivery",
+          "sourceUrl": "https://mba.hkubs.hku.hk/part-time-mba/admissions/",
+          "noteZh": "",
+          "noteEn": "Hong Kong PT requires satisfactory GMAT/GRE/GRK/EA. More than seven years of postgraduate full-time work MAY support exemption after the interview, case by case; exactly seven is not automatic exemption. Current mode-specific IELTS is 6.0/each 5.5; the generic portal 6.5 and old FAQ 2026/27 fee are not silently imposed. Saturday/Weekend are schedules within HK mode, not extra awards. GBA HK-SZ delivery and its 30 November cutoff are excluded from this option.",
+          "mandatory": true,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P047-2027-PT-HK"
+            ],
+            "labelEn": "Part-time MBA Hong Kong mode",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-10-31"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact current MBA mode fee/entry, portal noon cutoff or curriculum delivery; mode disagreements retained explicitly"
+        },
+        {
+          "url": "https://mba.hkubs.hku.hk/full-time-mba/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact current MBA mode fee/entry, portal noon cutoff or curriculum delivery; mode disagreements retained explicitly"
+        },
+        {
+          "url": "https://mba.hkubs.hku.hk/part-time-mba/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact current MBA mode fee/entry, portal noon cutoff or curriculum delivery; mode disagreements retained explicitly"
+        },
+        {
+          "url": "https://mba.hkubs.hku.hk/full-time-mba/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact current MBA mode fee/entry, portal noon cutoff or curriculum delivery; mode disagreements retained explicitly"
+        },
+        {
+          "url": "https://mba.hkubs.hku.hk/part-time-mba/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact current MBA mode fee/entry, portal noon cutoff or curriculum delivery; mode disagreements retained explicitly"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "August FT and September PT Hong Kong 2027 entries; not a GBA or separate IMBA record.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "No exclusive major list established; work experience is postgraduate/full-time and August-2027 anchored, not a major gate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "Holistic GPA consideration is not a published numeric floor.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact current mode-specific IELTS FT 6.5/PT-HK 6.0; each 5.5 and original/new TOEFL 80/4.5, 1 September 2025 minimum. Generic portal discrepancy is retained; waiver/formats require acceptance.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Exact current FT 648,000 / PT Hong Kong 588,000 totals, subject to approval; deposits, optional paths and scholarships separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "9 November noon EARLY round, not final whole-cycle deadline. Exact opening and live availability are unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation; FT geographic delivery requires project/university confirmation.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0"
+        }
+      },
+      "researchBatch": "hku-business-2026-10-31"
     }
   ]
 }

@@ -78,6 +78,7 @@ export function validateProgramme(p, universityIds) {
     if (r.kind === 'language') for (const [test, v] of Object.entries(r.tests)) {
       const max = test === 'toefl_120' ? 30 : test === 'toefl_6' ? 6 : 9;
       const valid = value => Number.isFinite(value) && value >= (test === 'toefl_6' ? 1 : 0) && value <= max && Number.isInteger(value * (test === 'toefl_120' ? 1 : 2));
+      if (v.atHomeAccepted !== undefined && typeof v.atHomeAccepted !== 'boolean') throw new InputError('Invalid examination-specific at-home policy');
       if (v.componentMin !== undefined && !valid(v.componentMin)) throw new InputError('Invalid language component minimum');
       if (v.componentMins !== undefined && (!v.componentMins || typeof v.componentMins !== 'object' || Array.isArray(v.componentMins) || !Object.keys(v.componentMins).length || Object.entries(v.componentMins).some(([name, value]) => !['listening','reading','writing','speaking'].includes(name) || !valid(value)))) throw new InputError('Invalid named language component minima');
     }

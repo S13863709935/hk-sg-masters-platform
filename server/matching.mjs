@@ -35,7 +35,7 @@ function evaluateRule(r, profile) {
   if (language.type === 'waiver') return outcome(r, 'unknown', '已选择豁免途径，但证明材料及学校接受情况需要确认。', 'A waiver route was selected. Evidence and acceptance must be confirmed.');
   const target = r.tests?.[language.type];
   if (!target) return outcome(r, 'unknown', '此考试版本的要求未确认，或尚未提供语言成绩。', 'Requirements for this test version are unconfirmed, or no score was provided.');
-  if (language.atHome && r.atHomeAccepted === false) return outcome(r, 'fail', '官方规则不接受在家考试版本。', 'The published rule does not accept the at-home test option.');
+  if (language.atHome && (target.atHomeAccepted ?? r.atHomeAccepted) === false) return outcome(r, 'fail', '官方规则不接受此考试的在家版本。', 'The published rule does not accept the at-home option for this examination.');
   const failures = [];
   const unknowns = [];
   if (language.total === null) unknowns.push('total');

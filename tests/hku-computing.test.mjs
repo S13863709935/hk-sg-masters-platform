@@ -24,8 +24,8 @@ const match=(n,language=profile.language)=>matchProgramme(p(n),{...profile,langu
 
 test('five existing HKU awards add eight options without new degrees, pilot changes or review claims',()=>{
  assert.deepEqual(obs.programmeIds,[15,17,18,67,99].map(n=>p(n).id));assert.equal(obs.counts.newDirectStudyOptions,8);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,869);assert.equal(store.quality().checked,238);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
- assert.deepEqual(applicantSummary(contexts),{studyOptions:184,categories:370,peerReviewed:0});assert.equal(store.all().filter(x=>x.universityId==='HK-HKU'&&x.verification==='programme_page_checked').length,18);
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,869);assert.equal(store.quality().checked,251);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
+ assert.deepEqual(applicantSummary(contexts),{studyOptions:184,categories:370,peerReviewed:0});assert.equal(store.all().filter(x=>x.universityId==='HK-HKU'&&x.verification==='programme_page_checked').length,31);
  for(const id of obs.programmeIds){const x=batch.programmes.find(x=>x.id===id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(x)),false);assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(batch.pilotProgrammeIds.includes(id),false);assert.equal(x.rules.some(r=>r.kind==='gpa'||r.kind==='experience'),false);}
 });
 
@@ -102,9 +102,9 @@ test('Delta X scope updates preserve dated fee contexts and ordinary CS, suppres
 test('repeated isolated imports preserve prior parent objects and load all category fingerprints',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(x=>!ids.has(x.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hku-computing-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
  try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));
-  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,238);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,184);db.close();db=null;}
+  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,251);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,184);db.close();db=null;}
  }finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,448);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,461);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-10-31T08:00:00Z')});let base;
