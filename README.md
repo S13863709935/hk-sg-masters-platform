@@ -8,18 +8,18 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 869 条；226 条有部分官方项目页观察，647 条仍为目录线索。完整要求集和独立人工复核均为 0。
-- 7 组／17 条方向快照、146 组／294 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 389 个单元，3 个单元的记录截止临近，失配绑定为 0。
-- 本轮为港大 AI、金融科技与数据分析、数据科学、电子商贸及互联网工程、统计学五个已有项目补入资料，覆盖 8 个学制选项和 7 组／14 类费用日期上下文。港大现有 103 条目录中有 6 条部分观察；这不代表完成全校核对。
-- 金融科技与数据分析仅列已明确公布的兼读选项；数据科学、统计学与 AI 的先修准备保持人工证据确认。类别总学费、获批状态、已抵首期学费的押金和额外费用分开说明；Science AI 未查明的申请费不套用其他项目。
-- 两条 CS Delta X 路径明确要求上海学期，单独列为地域范围之外；普通香港 CS 路径和原有费用日期绑定保留。英语新旧量表、单项和入学年锚定的成绩日期分别比较，所有项目仍保留未确认条件。
+- 14 校、873 条目录记录，默认可浏览 869 条；238 条有部分官方项目页观察，635 条仍为目录线索。完整要求集和独立人工复核均为 0。
+- 10 组／26 条方向快照、184 组／370 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 448 个单元，3 个单元的记录截止临近，失配绑定为 0。
+- 本轮为港大 12 个独立工程项目及土木／电气电子／基建管理三个目录分组下的 9 个方向补入部分资料，覆盖 38 个学制／方向选项和 38 组／76 类费用日期上下文。三个分组仍保留目录线索状态，需选择具体方向；港大共有 18 个部分观察父记录，并不代表完成全校核对。
+- 四门工程课程仅录明确的全日制选项；低空技术为 1.5 年、84 学分，学费不按最长修读年限重复相乘。土木与基建的非本地总价区别于普通工程，押金、额外收费与总学费分开说明。
+- 学院网页申请费 HK$600 与当期 PDF 的 HK$780 冲突，数值留空待确认。工业物流的专业资格替代、机器人研究兴趣、各方向本科领域及英语适用条件继续单独确认；毕业学分、论文与职业描述不变成入学 GPA 或工作门槛。普通香港 CS 与此前 Delta X 地域排除保留。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。20 个原核心 ID、71 种选择与 7 个合成背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 本轮只在本地保存，不自动推送。建议在下一周检查点统一发布一个可审阅的完整批次；最近已发布的 W6 检查点保持不变。
 
-[HKU 质量表](docs/research/hku-computing-quality-2026-10-31.md) · [389 单元维护清单](docs/research/source-review-queue-2026-10-31-hku-computing.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hku-computing.md) · [本批改动与限制](docs/progress/local-hku-computing-2026-10-31.md)
+[HKU 质量表](docs/research/hku-engineering-quality-2026-10-31.md) · [448 单元维护清单](docs/research/source-review-queue-2026-10-31-hku-engineering.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hku-engineering.md) · [本批改动与限制](docs/progress/local-hku-engineering-2026-10-31.md)
 
-[31 日浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
+[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
 ## 本地运行
 

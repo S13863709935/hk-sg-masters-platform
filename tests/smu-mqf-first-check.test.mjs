@@ -105,7 +105,7 @@ test('MQF migration appends partial evidence idempotently without altering other
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(pid).verification, 'programme_page_checked');
       assert.deepEqual(db.all().filter(x => x.id !== pid), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      assert.equal(db.quality().checked, 226); db.close(); db = null;
+      assert.equal(db.quality().checked, 238); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -156,10 +156,10 @@ test('actual APIs retain selected track in matching, saved restoration and expor
 
 test('programme, route and maintenance-unit counts stay distinct with zero independent review', async () => {
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-28');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 226);
-  assert.deepEqual(meta.routeEvidence, { groups: 7, routes: 17, pageChecked: 17, peerReviewed: 0, complete: 0 });
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 238);
+  assert.deepEqual(meta.routeEvidence, { groups: 10, routes: 26, pageChecked: 26, peerReviewed: 0, complete: 0 });
   assert.deepEqual(routeSummary(routes), meta.routeEvidence); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.quality.sourceRefreshConflicts, []); assert.equal(queue.counts.programmePageRecords, 226);
-  assert.equal(queue.counts.routeRecords, 17); assert.equal(queue.counts.reviewUnits, 389); assert.equal(queue.counts.nearCutoffUnits, 2);
+  assert.deepEqual(meta.quality.sourceRefreshConflicts, []); assert.equal(queue.counts.programmePageRecords, 238);
+  assert.equal(queue.counts.routeRecords, 26); assert.equal(queue.counts.reviewUnits, 448); assert.equal(queue.counts.nearCutoffUnits, 2);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.filter(u => u.programmeId === pid).length, 3);
 });

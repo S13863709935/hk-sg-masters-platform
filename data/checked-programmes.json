@@ -40543,6 +40543,2763 @@
         }
       },
       "researchBatch": "hku-computing-2026-10-31"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Building Services Engineering)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Relevant Engineering or related Science bachelor, or assessed equivalent. Designed for practising engineers/professionals does not establish mandatory employment or fixed work years. The 72-credit taught curriculum includes a dissertation; this does not make it a research master.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P068-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        },
+        {
+          "id": "HK-HKU-P068-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 4 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Relevant Engineering or related Science bachelor, or assessed equivalent. Designed for practising engineers/professionals does not establish mandatory employment or fixed work years. The 72-credit taught curriculum includes a dissertation; this does not make it a research master.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Relevant Engineering or related Science bachelor, or assessed equivalent. Designed for practising engineers/professionals does not establish mandatory employment or fixed work years. The 72-credit taught curriculum includes a dissertation; this does not make it a research master.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P068"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Energy Engineering)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Relevant Engineering or related Science bachelor/comparable qualification. This jointly offered 72-credit taught programme permits dissertation or mode-specific capstone/project alternatives. FT co-op capstone and PT project requirements do not establish prior employment or guaranteed placement.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P071-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        },
+        {
+          "id": "HK-HKU-P071-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 4 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Relevant Engineering or related Science bachelor/comparable qualification. This jointly offered 72-credit taught programme permits dissertation or mode-specific capstone/project alternatives. FT co-op capstone and PT project requirements do not establish prior employment or guaranteed placement.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Relevant Engineering or related Science bachelor/comparable qualification. This jointly offered 72-credit taught programme permits dissertation or mode-specific capstone/project alternatives. FT co-op capstone and PT project requirements do not establish prior employment or guaranteed placement.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P071"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Industrial Engineering and Logistics Management)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Engineering, Data Sciences, Mathematics, Statistics or related bachelor/equivalent. Accepted degree-equivalent professional qualifications include members of named Hong Kong/UK engineering bodies and UK Engineering Council examination routes; acceptance is assessed, not verified from the undergraduate form. The managerial/supervisory audience is not a mandatory job or work-year gate. Its 72-credit taught curriculum includes a dissertation. Professional recognition text elsewhere on the faculty template is not copied as universal accreditation.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P072-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        },
+        {
+          "id": "HK-HKU-P072-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 4 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Data Science",
+            "Data Sciences",
+            "Mathematics",
+            "Statistics"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Engineering, Data Sciences, Mathematics, Statistics or related bachelor/equivalent. Accepted degree-equivalent professional qualifications include members of named Hong Kong/UK engineering bodies and UK Engineering Council examination routes; acceptance is assessed, not verified from the undergraduate form. The managerial/supervisory audience is not a mandatory job or work-year gate. Its 72-credit taught curriculum includes a dissertation. Professional recognition text elsewhere on the faculty template is not copied as universal accreditation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Professional qualification alternative",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "The published professional qualification route is an alternative to a bachelor-based route. The profile cannot verify membership, examination completion or degree equivalence. Missing an undergraduate degree or named major must not become a false academic rejection; obtain the university assessment.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering, Data Sciences, Mathematics, Statistics or related bachelor/equivalent. Accepted degree-equivalent professional qualifications include members of named Hong Kong/UK engineering bodies and UK Engineering Council examination routes; acceptance is assessed, not verified from the undergraduate form. The managerial/supervisory audience is not a mandatory job or work-year gate. Its 72-credit taught curriculum includes a dissertation. Professional recognition text elsewhere on the faculty template is not copied as universal accreditation.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P072"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Innovative Design and Technology)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Engineering or related Science bachelor, or accepted equivalent. Innovation, entrepreneurship and design are curriculum themes rather than a required portfolio, prior business degree or work-year gate. The 72-credit taught curriculum includes a dissertation.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P074-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        },
+        {
+          "id": "HK-HKU-P074-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 4 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Engineering or related Science bachelor, or accepted equivalent. Innovation, entrepreneurship and design are curriculum themes rather than a required portfolio, prior business degree or work-year gate. The 72-credit taught curriculum includes a dissertation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or related Science bachelor, or accepted equivalent. Innovation, entrepreneurship and design are curriculum themes rather than a required portfolio, prior business degree or work-year gate. The 72-credit taught curriculum includes a dissertation.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P074"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Integrated Circuits and Electronic Systems)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Engineering or related Sciences bachelor/comparable qualification. FULL-TIME ONLY: one year normative, two maximum. An empty part-time tab or To Be Updated placeholder is not a selectable study offer. The 72-credit taught curriculum includes a dissertation.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P075-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Engineering or related Sciences bachelor/comparable qualification. FULL-TIME ONLY: one year normative, two maximum. An empty part-time tab or To Be Updated placeholder is not a selectable study offer. The 72-credit taught curriculum includes a dissertation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or related Sciences bachelor/comparable qualification. FULL-TIME ONLY: one year normative, two maximum. An empty part-time tab or To Be Updated placeholder is not a selectable study offer. The 72-credit taught curriculum includes a dissertation.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P075"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Intelligent Networks and Information Engineering)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Engineering or related Sciences bachelor/comparable qualification. Current September 2027 portal and October 2026 information PDF establish FULL-TIME ONLY, one year normative/two maximum. Older generic regulation wording does not create a part-time offer for this new programme. The 72-credit taught curriculum includes a dissertation.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P076-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Engineering or related Sciences bachelor/comparable qualification. Current September 2027 portal and October 2026 information PDF establish FULL-TIME ONLY, one year normative/two maximum. Older generic regulation wording does not create a part-time offer for this new programme. The 72-credit taught curriculum includes a dissertation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or related Sciences bachelor/comparable qualification. Current September 2027 portal and October 2026 information PDF establish FULL-TIME ONLY, one year normative/two maximum. Older generic regulation wording does not create a part-time offer for this new programme. The 72-credit taught curriculum includes a dissertation.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P076"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Low-Altitude Technology)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Engineering or related Science bachelor/equivalent. FULL-TIME ONLY, 1.5 years normative and three years maximum. The 84-credit curriculum includes 54 taught credits and a 30-credit dissertation; neither the maximum period nor capstone credits alter the normative tuition total. This is distinct from one-year/72-credit engineering programmes.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P077-2027-FT",
+          "mode": "Full-time",
+          "duration": "1.5 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 3 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Engineering or related Science bachelor/equivalent. FULL-TIME ONLY, 1.5 years normative and three years maximum. The 84-credit curriculum includes 54 taught credits and a 30-credit dissertation; neither the maximum period nor capstone credits alter the normative tuition total. This is distinct from one-year/72-credit engineering programmes.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or related Science bachelor/equivalent. FULL-TIME ONLY, 1.5 years normative and three years maximum. The 84-credit curriculum includes 54 taught credits and a 30-credit dissertation; neither the maximum period nor capstone credits alter the normative tuition total. This is distinct from one-year/72-credit engineering programmes.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P077"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Materials Engineering and Advanced Manufacturing)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Engineering or related Science bachelor, or accepted equivalent. Current September 2027 portal and October 2026 information PDF establish FULL-TIME ONLY, one year normative/two maximum. The 72-credit curriculum includes 30 core credits, at least 18 elective credits and a 24-credit dissertation; these are post-entry award requirements.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P078-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Engineering or related Science bachelor, or accepted equivalent. Current September 2027 portal and October 2026 information PDF establish FULL-TIME ONLY, one year normative/two maximum. The 72-credit curriculum includes 30 core credits, at least 18 elective credits and a 24-credit dissertation; these are post-entry award requirements.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or related Science bachelor, or accepted equivalent. Current September 2027 portal and October 2026 information PDF establish FULL-TIME ONLY, one year normative/two maximum. The 72-credit curriculum includes 30 core credits, at least 18 elective credits and a 24-credit dissertation; these are post-entry award requirements.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P078"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Mechanical Engineering)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Bachelor in a relevant field or accepted equivalent; current faculty quick facts name Engineering or related Science. The 72-credit taught curriculum contains a dissertation. Robotics/Drones/Control and Railway focuses are curriculum choices, not extra admission degrees, new intakes or pre-entry employment requirements.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P079-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        },
+        {
+          "id": "HK-HKU-P079-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 4 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-mechanical-engineering/",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor in a relevant field or accepted equivalent; current faculty quick facts name Engineering or related Science. The 72-credit taught curriculum contains a dissertation. Robotics/Drones/Control and Railway focuses are curriculum choices, not extra admission degrees, new intakes or pre-entry employment requirements.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-mechanical-engineering/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor in a relevant field or accepted equivalent; current faculty quick facts name Engineering or related Science. The 72-credit taught curriculum contains a dissertation. Robotics/Drones/Control and Railway focuses are curriculum choices, not extra admission degrees, new intakes or pre-entry employment requirements.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P079"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Microelectronics Science and Technology)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Engineering or related Science bachelor/equivalent. Both FT one-year and PT two-year modes are established; the FT-only restriction on Integrated Circuits is not imposed on Microelectronics. The 72-credit taught curriculum includes a dissertation.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P080-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        },
+        {
+          "id": "HK-HKU-P080-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 4 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Engineering or related Science bachelor/equivalent. Both FT one-year and PT two-year modes are established; the FT-only restriction on Integrated Circuits is not imposed on Microelectronics. The 72-credit taught curriculum includes a dissertation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or related Science bachelor/equivalent. Both FT one-year and PT two-year modes are established; the FT-only restriction on Integrated Circuits is not imposed on Microelectronics. The 72-credit taught curriculum includes a dissertation.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P080"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Robotics and Intelligent Systems)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Bachelor in Engineering or a related field, with a strong interest in Robotics. Interest, field relevance and equivalence remain assessed from evidence; no numeric work-year or compulsory prior robotics job is inferred. The 72-credit programme permits a dissertation or project; these do not change its taught-master identity.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P081-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        },
+        {
+          "id": "HK-HKU-P081-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 4 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0",
+          "accepted": [
+            "Engineering"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor in Engineering or a related field, with a strong interest in Robotics. Interest, field relevance and equivalence remain assessed from evidence; no numeric work-year or compulsory prior robotics job is inferred. The 72-credit programme permits a dissertation or project; these do not change its taught-master identity.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=REGULATIONSYLLABUS&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor in Engineering or a related field, with a strong interest in Robotics. Interest, field relevance and equivalence remain assessed from evidence; no numeric work-year or compulsory prior robotics job is inferred. The 72-credit programme permits a dissertation or project; these do not change its taught-master identity.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P081"
+    },
+    {
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Engineering (Sustainability Engineering)",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Engineering",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial exact-programme source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official portal reading and faculty PDF visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "September 2027 partial source observation. Engineering or related Science bachelor, or accepted equivalent. The current portal identifies FT one-year and PT two-year study. Sustainability/ESG, research and career examples do not impose professional registration, a prior sustainability job or a numeric GPA minimum. Its 72-credit curriculum includes a capstone pathway, not pre-entry research experience.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P082-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 2 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350 and FT activity fee HKD 100. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        },
+        {
+          "id": "HK-HKU-P082-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-09",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-09",
+              "deadlineAt": "2027-04-09T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose exact HKU applicant category. 4 instalments across the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited toward tuition. Separate caution money HKD 350. Application fee is UNRESOLVED: current faculty webpage HKD 600 versus October 2026 admissions PDF HKD 780; no numeric default. Extension/repeating charges are conditional extras, not base tuition. No scholarship, credit-transfer or professional discount deducted; living and travel excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact main 4 January 2027 and clearing 9 April 2027 cutoffs are noon GMT+8. Early October is approximate, not an exact opening. Published dates do not verify live availability, early quota closure or admission eligibility."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor or university-assessed equivalent qualification",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit programme subject examples; related or professional equivalents assessed",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and documentary alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses whether a qualification obtained outside Hong Kong was taught/examined in English and whether alternative evidence or an exceptional exemption is accepted. The test-date boundary is two years before 1 September 2027. No Arts-only higher score, unverified Home-test exclusion or borrowed single-sitting rule is imposed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "Engineering or related Science bachelor, or accepted equivalent. The current portal identifies FT one-year and PT two-year study. Sustainability/ESG, research and career examples do not impose professional registration, a prior sustainability job or a numeric GPA minimum. Its 72-credit curriculum includes a capstone pathway, not pre-entry research experience.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Supporting evidence and document timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Faculty instructions request academic transcripts (interim if unfinished), certificates where applicable, English evidence where required and identity evidence submitted to HKU. Non-English academic documents need certified English translations. Reference letters and initial-stage postal documents are NOT required in this checklist. Supporting documents are due within one month of receiving the notification email; its receipt date is not captured, so no exact personal deadline is generated. A request for originals is not an admission offer. Documents are not collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, assessment and study permission",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU assesses qualifications, professional/subject equivalence, any required qualifying assessment and study permission. No numeric admission GPA, honours class or fixed work-year minimum is established in the consulted entry sections. Degree completion, English score comparisons and a self-selected fee category cannot establish complete eligibility or admission probability.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/tuition-fees/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://mscadmissions.engg.hku.hk/application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=SUPPORTDOCUMENT&pREF_CODE=R51&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact programme/route body or explicitly shared faculty evidence; numeric application-fee conflict and older generic mode limits remain unresolved rather than silently substituted"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027, 2027/28. New full-time-only offerings follow current exact portal and October 2026 information evidence.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or related Science bachelor, or accepted equivalent. The current portal identifies FT one-year and PT two-year study. Sustainability/ESG, research and career examples do not impose professional registration, a prior sustainability job or a numeric GPA minimum. Its 72-credit curriculum includes a capstone pathway, not pre-entry research experience.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA is established; transcript/grading evidence, graduation credits and academic awards are not admission cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "HKU general score route with test-version/date boundary; applicability and alternatives remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed total is category-specific and subject to approval; application fee remains unconfirmed because current official sources conflict (600 vs 780). Deposit first instalment is credited.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main and clearing noon GMT+8 cutoffs recorded; exact opening, notification-relative document date and live portal availability are not established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted reading only; no independent review or complete requirement set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0"
+        }
+      },
+      "researchBatch": "hku-engineering-2026-10-31",
+      "id": "HK-HKU-P082"
     }
   ]
 }
