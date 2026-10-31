@@ -111,8 +111,13 @@ test('PolyU and HKUST rebuilds are pure and preserve each other and all unrelate
   const data = input(), before = JSON.stringify(data), out = buildPolyuInventory(data);
   assert.equal(JSON.stringify(data), before); assert.deepEqual(out.inventory, inventory);
   for (const key of ['expansion', 'links', 'audit']) assert.deepEqual(out[key], data[key]);
-  const hkust = buildHkustInventory({ ...input(), observation: read('data/research/hkust-directory-observation-2026-10-20.json') });
-  for (const key of ['expansion', 'links', 'audit']) assert.deepEqual(hkust[key], data[key]);
+  const older = { ...input(), observation: read('data/research/hkust-directory-observation-2026-10-20.json') };
+  assert.throws(() => buildHkustInventory(older), /newer HKUST listings/);
+  older.links.listings = older.links.listings.filter(l => !l.programmeId.startsWith('HK-HKUST-'));
+  older.links.checkedOn = older.links.listings.map(l => l.checkedOn).sort().at(-1);
+  const hkust = buildHkustInventory(older);
+  for (const key of ['expansion', 'audit']) assert.deepEqual(hkust[key], data[key]);
+  assert.deepEqual(hkust.links.listings.filter(l => !l.programmeId.startsWith('HK-HKUST-')), data.links.listings.filter(l => !l.programmeId.startsWith('HK-HKUST-')));
 });
 
 test('malformed rows, unsafe paths, wrong filters, missing closure evidence and newer batches fail closed', () => {

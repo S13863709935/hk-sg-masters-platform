@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-30",
+  "checkedOn": "2026-10-31",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -29125,15 +29125,15 @@
       "faculty": "Finance",
       "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina",
       "verification": "programme_page_checked",
-      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
-      "lastChecked": "2026-10-30",
+      "sourceStatus": "AI-assisted partial official-page retrieval; independent review and live portal unconfirmed",
+      "lastChecked": "2026-10-31",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source reading",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027/28 observation. Full-time study does not require work experience. Part-time study requires at least one full-time post-qualification work year. The form captures total years only and cannot confirm this timing/type; the part-time requirement remains a separate mandatory manual condition. GMAT/GRE is not required; a good result may strengthen an application.",
+      "notesEn": "Partial 2027/28 observation with an explicitly mode-bound work-duration comparison. Full-time Finance has no minimum work duration. Part-time Finance requires one year of full-time post-qualification work. Only the selected part-time option compares the reported aggregate years to the necessary one-year lower bound; enough aggregate years does not prove full-time status or post-qualification timing. Those documents remain mandatory manual checks. GMAT/GRE is not required; strong scores may enhance an application.",
       "offerings": [
         {
           "id": "HK-HKUST-P031-2027-FT",
@@ -29225,7 +29225,7 @@
           "labelEn": "Programme-specific academic and study conditions",
           "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina",
           "noteZh": "",
-          "noteEn": "Full-time study does not require work experience. Part-time study requires at least one full-time post-qualification work year. The form captures total years only and cannot confirm this timing/type; the part-time requirement remains a separate mandatory manual condition. GMAT/GRE is not required; a good result may strengthen an application.",
+          "noteEn": "Full-time Finance has no minimum work duration. Part-time Finance requires one year of full-time post-qualification work. Only the selected part-time option compares the reported aggregate years to the necessary one-year lower bound; enough aggregate years does not prove full-time status or post-qualification timing. Those documents remain mandatory manual checks. GMAT/GRE is not required; strong scores may enhance an application.",
           "mandatory": true
         },
         {
@@ -29245,6 +29245,21 @@
           "noteZh": "",
           "noteEn": "Qualification equivalence, evidence, applicant classification, study permission, live availability and any required assessment need university confirmation. Partial comparisons never establish admission probability or full eligibility.",
           "mandatory": true
+        },
+        {
+          "kind": "experience",
+          "labelZh": "",
+          "labelEn": "Part-time work-duration lower bound",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina",
+          "min": 1,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKUST-P031-2027-PT"
+            ],
+            "academicYear": "2027/28",
+            "labelEn": "September 2027 part-time Finance only",
+            "checkedOn": "2026-10-31"
+          }
         }
       ],
       "sources": [
@@ -29257,6 +29272,11 @@
           "url": "https://msc.hkust.edu.hk/priority-application",
           "purpose": "Listed programme regular opening 1 September; separate 2 July–15 August 2026 priority window and automatic carry-over",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina",
+          "purpose": "Re-read mode-specific work condition; preserve earlier fees, opening and deadlines without restamping them",
+          "checkedOn": "2026-10-31"
         }
       ],
       "fieldStatus": {
@@ -30121,15 +30141,15 @@
       "faculty": "School of Humanities and Social Science",
       "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
       "verification": "programme_page_checked",
-      "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
-      "lastChecked": "2026-10-30",
+      "sourceStatus": "AI-assisted partial official-page retrieval; independent review and live portal unconfirmed",
+      "lastChecked": "2026-10-31",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source reading",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Partial 2027/28 observation. Declare exactly one concentration at application; double concentration is not allowed and changes require approval. TESL: IELTS 7.0 overall, Writing 7.0 and other components 5.5; old TOEFL iBT 100 with Writing 27, or new iBT 5 with Writing 5.5. TCSL: IELTS 6.5/5.5 each; old iBT 85 or new iBT 4.5. Each English branch also lists first-language English/English-medium bachelor alternatives. For TCSL, non-Chinese-first-language applicants without a Chinese-medium bachelor need HSK Level 5; Chinese-first-language OR Chinese-medium bachelor applicants need PSC Grade 2B. Chinese background is not an automatic test exemption. The current form has no concentration selection or per-component Writing threshold model; all branch checks remain mandatory manual conditions, not a generic English pass.",
+      "notesEn": "One MA award with two separately selected concentrations: TESL or TCSL. Choose one explicit concentration before comparing language requirements; double concentration is not allowed and transfers require approval. Shared fee/date information does not establish either concentration's entry eligibility. Earlier route-free saved study choices require a fresh explicit concentration selection.",
       "offerings": [
         {
           "id": "HK-HKUST-P008-2027-FT",
@@ -30172,7 +30192,7 @@
           "labelEn": "Programme-specific academic and study conditions",
           "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
           "noteZh": "",
-          "noteEn": "Declare exactly one concentration at application; double concentration is not allowed and changes require approval. TESL: IELTS 7.0 overall, Writing 7.0 and other components 5.5; old TOEFL iBT 100 with Writing 27, or new iBT 5 with Writing 5.5. TCSL: IELTS 6.5/5.5 each; old iBT 85 or new iBT 4.5. Each English branch also lists first-language English/English-medium bachelor alternatives. For TCSL, non-Chinese-first-language applicants without a Chinese-medium bachelor need HSK Level 5; Chinese-first-language OR Chinese-medium bachelor applicants need PSC Grade 2B. Chinese background is not an automatic test exemption. The current form has no concentration selection or per-component Writing threshold model; all branch checks remain mandatory manual conditions, not a generic English pass.",
+          "noteEn": "One MA award with two separately selected concentrations: TESL or TCSL. Choose one explicit concentration before comparing language requirements; double concentration is not allowed and transfers require approval. Shared fee/date information does not establish either concentration's entry eligibility. Earlier route-free saved study choices require a fresh explicit concentration selection.",
           "mandatory": true
         },
         {
@@ -30199,6 +30219,11 @@
           "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
           "purpose": "Rendered 2027/28 general, curriculum, admission and application sections",
           "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+          "purpose": "Re-read the separately selected TESL/TCSL English, Writing, Chinese evidence and shared fee/date conditions",
+          "checkedOn": "2026-10-31"
         }
       ],
       "fieldStatus": {
@@ -30219,7 +30244,7 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Declare exactly one concentration at application; double concentration is not allowed and changes require approval. TESL: IELTS 7.0 overall, Writing 7.0 and other components 5.5; old TOEFL iBT 100 with Writing 27, or new iBT 5 with Writing 5.5. TCSL: IELTS 6.5/5.5 each; old iBT 85 or new iBT 4.5. Each English branch also lists first-language English/English-medium bachelor alternatives. For TCSL, non-Chinese-first-language applicants without a Chinese-medium bachelor need HSK Level 5; Chinese-first-language OR Chinese-medium bachelor applicants need PSC Grade 2B. Chinese background is not an automatic test exemption. The current form has no concentration selection or per-component Writing threshold model; all branch checks remain mandatory manual conditions, not a generic English pass.",
+          "noteEn": "Choose TESL or TCSL: each has a standalone sourced language snapshot. TESL includes Writing-specific thresholds; TCSL Chinese evidence remains assessed. No concentration is inferred from the profile.",
           "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
         },
         "tuition": {

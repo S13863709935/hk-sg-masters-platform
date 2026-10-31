@@ -94,7 +94,7 @@ test('materials, events, dates and separate Chinese fee rows remain unresolved w
 test('three-record source migration preserves prior objects, original pilot and previous report hashes across restarts', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
   assert.equal(batch.pilotProgrammeIds.length, 20); assert.equal(programmes.some(p => batch.pilotProgrammeIds.includes(p.id) || routes.has(p.id)), false);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269); assert.equal(queue.counts.reviewRecordedInSource, 0);
   for (const p of programmes) assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-chbiz-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
@@ -136,6 +136,6 @@ test('real matching/save/restore/export preserves all six mode choices, distinct
   }
   const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17);
   assert.equal(JSON.stringify(store.all()), before);
 });

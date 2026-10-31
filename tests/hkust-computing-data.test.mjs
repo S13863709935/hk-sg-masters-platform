@@ -49,7 +49,7 @@ test('DDM three rounds remain distinct from final cutoff, unknown opening and th
   assert.equal(programmeTimeline(x,'2026-11-01').offerings[0].rounds[0].state,'deadline_today');
   const later=programmeTimeline(x,'2026-11-02');assert.equal(later.offerings[0].rounds[0].state,'deadline_passed');assert.equal(later.offerings[0].nextRoundId,'ROUND-2');
  }
- const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.reviewUnits,267);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.reviewUnits,269);assert.equal(q.counts.staleApplicantContexts,0);
  const unit=q.units.find(u=>u.kind==='programme'&&u.programmeId===p(21).id);assert.equal(unit.reviewOrder,'cutoff_within_14_days');assert.ok(unit.upcomingRecordedCutoffs.every(d=>d.deadline==='2026-11-01'));
  assert.equal(loadRepositoryReviewQueue('2026-10-29').units.find(u=>u.kind==='programme'&&u.programmeId===p(21).id).upcomingRecordedCutoffs.length,0);
 });

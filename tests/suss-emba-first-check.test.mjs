@@ -84,7 +84,7 @@ test('first EMBA source migration keeps one existing coursework identity and all
   assert.equal(p.offerings.length, 1); assert.equal(routes.has(p.id), false); assert.equal(batch.pilotProgrammeIds.includes(p.id), false);
   assert.equal(obs.identity.coreCu + obs.identity.electiveCu + obs.identity.appliedProjectCu, 90);
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269); assert.equal(queue.counts.reviewRecordedInSource, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-emba-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, programmes: batch.programmes.filter(x => x.id !== p.id) }));
@@ -122,6 +122,6 @@ test('actual EMBA match/save/restore/export distinguishes total-year gaps from u
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17);
   assert.equal(detail.applicationTimeline.state, 'dates_incomplete'); assert.equal(JSON.stringify(store.all()), before);
 });

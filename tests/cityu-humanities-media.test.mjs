@@ -104,7 +104,7 @@ test('explicit dates and score validity remain comparable without invented categ
   assert.equal(english(8, { ...old, testDate: '2025-01-01', atHome: true }).status, 'fail');
   for (const id of obs.programmeIds) assert.equal(programmeTimeline(store.get(id), '2026-10-30').state, 'within_recorded_dates');
   const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, 174);
-  assert.equal(q.counts.reviewUnits, 267); assert.equal(q.counts.nearCutoffUnits, 3); assert.equal(q.counts.staleApplicantContexts, 0);
+  assert.equal(q.counts.reviewUnits, 269); assert.equal(q.counts.nearCutoffUnits, 3); assert.equal(q.counts.staleApplicantContexts, 0);
   assert.equal(q.counts.applicantContexts, 78); assert.equal(q.counts.applicantCategories, 158);
 });
 

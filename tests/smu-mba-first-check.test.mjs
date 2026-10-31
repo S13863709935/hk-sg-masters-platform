@@ -115,6 +115,6 @@ test('actual MBA matching/save/restore/export preserves intake choice, necessary
 test('MBA increases partial programme and maintenance counts without extra routes, fake independent review or urgent dates', async () => {
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-28');
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.routeEvidence, { groups: 6, routes: 15, pageChecked: 15, peerReviewed: 0, complete: 0 });
-  assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267); assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.filter(u => u.programmeId === pid).length, 1);
+  assert.deepEqual(meta.routeEvidence, { groups: 7, routes: 17, pageChecked: 17, peerReviewed: 0, complete: 0 });
+  assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269); assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.filter(u => u.programmeId === pid).length, 1);
 });

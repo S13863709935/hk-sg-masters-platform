@@ -1,6 +1,12 @@
 # 现有课程数据
 
-## 当前本地状态（2026-10-30）
+## 当前本地状态（2026-10-31）
+
+本轮不增加目录学位；继续保持 873／默认 869、174 条部分观察／699 条线索。ILE 的项目正文明确列出 TESL／TCSL 申请方向，新增两个完整的部分方向快照，方向层共 7 组／17 份；费用日期上下文仍为 78 组／158 类，维护单元变为 269。Finance 与普通 MBA 的工作年数比较按准确模式绑定，ILE 支持指定写作单项；中文版测试与证据、全职／毕业后工作、豁免和完整资格仍须确认。只调整 ILE／Finance 两个项目、普通 MBA 路径及 ILE 的方向依据；其他 172 条项目、14 份原路径、所有上下文、范围决定及历史研究不变。来源局部重读于 31 日，旧费用日期不重标。见[观察](research/hkust-scoped-matching-observation-2026-10-31.json)、[质量表](../docs/research/hkust-scoped-matching-quality-2026-10-31.md)、[维护清单](../docs/research/source-review-queue-2026-10-31-hkust-scoped-matching.md)和[本地记录](../docs/progress/local-hkust-scoped-matching-2026-10-31.md)。
+
+以下保留 30 日及此前批次的输入和数量：
+
+## 2026-10-30 本地状态
 
 HKUST 剩余批次新增 18 条部分项目页记录、2 份 MBA 方向快照，覆盖 26 个直接选项和 3 个 MBA 模式选项。全库 174 条部分观察／699 条线索，总库 873／默认 869；HKUST 48 条部分观察（含 1 条旧转入参考）／1 条英国交付排除线索。新增 14 组／28 类上下文后，全库 78 组／158 类；方向 6 组／15 份。原 156 条项目、13 份方向、64 组上下文、3 条范围决定、全部目录身份与历史数据不变。GCS 原始 GPA 3.0/4.0 和较高英语门槛可比较；ILE 两个方向的写作及中文测试仍为必查人工条件；MBA 全日制未知本地最终日期不填数，EMBA 交付范围未知不改成通过。完整要求及独立复核仍为 0；维护单元 267，近 14 日记录截止单元 3，失配绑定 0。见 [批次观察](research/hkust-remaining-observation-2026-10-30.json)、[质量表](../docs/research/hkust-remaining-quality-2026-10-30.md)、[维护清单](../docs/research/source-review-queue-2026-10-30-hkust-remaining.md)与[本地记录](../docs/progress/local-hkust-remaining-2026-10-30.md)。
 

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-10-31",
+  "collector": "AI-assisted official-page web retrieval; source cache freshness and live portal unconfirmed",
+  "reviewer": null,
+  "changedProgrammeIds": [
+    "HK-HKUST-P008",
+    "HK-HKUST-P031"
+  ],
+  "changedRouteIds": [
+    "HK-HKUST-P010-ROUTE-REGULAR"
+  ],
+  "addedRouteIds": [
+    "HK-HKUST-P008-ROUTE-TESL",
+    "HK-HKUST-P008-ROUTE-TCSL"
+  ],
+  "sourceUrls": [
+    "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+    "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina",
+    "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+    "https://mba.hkust.edu.hk/admissions"
+  ],
+  "scope": "Improve comparison of already recorded concentration/mode conditions; no new parent award, complete requirement set, independent review or live-open claim.",
+  "ile": {
+    "tesl": {
+      "ieltsTotal": 7,
+      "ieltsWriting": 7,
+      "otherIeltsComponents": 5.5,
+      "oldToeflTotal": 100,
+      "oldToeflWriting": 27,
+      "newToeflTotal": 5,
+      "newToeflWriting": 5.5
+    },
+    "tcsl": {
+      "ieltsTotal": 6.5,
+      "eachIeltsComponent": 5.5,
+      "oldToeflTotal": 85,
+      "newToeflTotal": 4.5,
+      "chinese": "HSK 5 for neither Chinese first-language nor Chinese-medium bachelor; otherwise PSC 2B; manual evidence"
+    }
+  },
+  "modeRules": {
+    "financePtYears": 1,
+    "financeFtYears": null,
+    "mbaFtYears": 2,
+    "mbaWeeklyPtYears": 3,
+    "mbaGmatGre": "Required only for FT; manual evidence"
+  },
+  "preservation": "172 other parent objects, fourteen unchanged prior route snapshots, all 78 applicant contexts, original scope decisions, core IDs, workbook and historical files retained. Only the ILE directory listing gains programme-body concentration evidence. Existing fee/date source dates are not restamped.",
+  "counts": {
+    "catalogue": 873,
+    "browsable": 869,
+    "partial": 174,
+    "leads": 699,
+    "routeGroups": 7,
+    "routeSnapshots": 17,
+    "applicantContexts": 78,
+    "applicantCategories": 158,
+    "reviewUnits": 269
+  }
+}

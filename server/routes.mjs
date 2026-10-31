@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { InputError, validateProgramme, isOfficialUrl } from './validation.mjs';
-import { resolveOffering } from './offerings.mjs';
+import { resolveOffering, carryOfferingSelection } from './offerings.mjs';
 import { resolveApplicantContext } from './applicants.mjs';
 
 // A client/import cannot assert this trust marker by adding a JSON property.
@@ -22,7 +22,8 @@ export function loadRoutes(path, programmes) {
       if (!route || typeof route.routeId !== 'string' || !route.routeId.startsWith(`${base.id}-ROUTE-`) || !/^[A-Z0-9-]+$/.test(route.routeId) || route.routeId.length > 100 || ids.has(route.routeId)) throw new InputError('Invalid or duplicate route ID');
       ids.add(route.routeId);
       if (!base.directoryListing.variants.some(v => v.officialUrl === route.officialUrl && v.nameEn === route.name)) throw new InputError('Route must match explicit directory evidence');
-      if (!isDate(route.lastChecked) || route.lastChecked > batch.checkedOn || !Array.isArray(route.sources) || !route.sources.some(s => s?.url === route.officialUrl && s.checkedOn === route.lastChecked) || route.sources.some(s => !s || !isOfficialUrl(s.url) || s.checkedOn !== route.lastChecked)) throw new InputError('Route evidence date or programme source is missing');
+      // A later scoped requirement read must not restamp older fee/date evidence.
+      if (!isDate(route.lastChecked) || route.lastChecked > batch.checkedOn || !Array.isArray(route.sources) || !route.sources.some(s => s?.url === route.officialUrl && s.checkedOn === route.lastChecked) || route.sources.some(s => !s || !isOfficialUrl(s.url) || !isDate(s.checkedOn) || s.checkedOn > route.lastChecked)) throw new InputError('Route evidence date or programme source is missing');
       if (route.scope && (route.scope.checkedOn !== route.lastChecked || !route.sources.some(s => s.url === route.scope.sourceUrl && s.checkedOn === route.scope.checkedOn))) throw new InputError('Route scope requires its own date-matched source evidence');
       // A full standalone snapshot is mandatory: never spread the parent/sibling rules.
       const record = { ...route, id: base.id, universityId: base.universityId };
@@ -69,7 +70,8 @@ export function resolveProgramme(base, index, routeId, offeringId, applicantId, 
     if (offeringId || applicantId) throw new InputError('Choose a verified specific route before choosing a study option');
     return routed;
   }
-  const result = resolveApplicantContext(resolveOffering(routed, offeringId), applicantIndex, applicantId);
+  const offered = resolveOffering(routed, offeringId);
+  const result = carryOfferingSelection(offered, resolveApplicantContext(offered, applicantIndex, applicantId));
   // Preserve trust only across this server-owned projection, never from JSON.
   if (hasResolvedRoute(routed)) resolvedRoutes.add(result);
   return result;

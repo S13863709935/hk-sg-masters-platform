@@ -100,7 +100,7 @@ test('conflicting official Energy deadlines remain unresolved without a guessed 
     assert.equal(o.intake, 'September 2027'); assert.equal(o.tuition, 213000);
   }
   for (const day of ['2026-10-30', '2027-03-31', '2027-04-30', '2027-05-31']) assert.equal(programmeTimeline(p(43), day).state, 'dates_incomplete');
-  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.reviewUnits, 267); assert.equal(q.counts.nearCutoffUnits, 3);
+  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.reviewUnits, 269); assert.equal(q.counts.nearCutoffUnits, 3);
   assert.equal(q.counts.applicantContexts, 78); assert.equal(q.counts.applicantCategories, 158); assert.equal(q.counts.staleApplicantContexts, 0);
 });
 

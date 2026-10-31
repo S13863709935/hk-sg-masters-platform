@@ -154,6 +154,6 @@ test('AI lookup, matching and exporting remain read-only with unchanged record a
   const before = JSON.stringify(store.all()); for (const p of [hk, nt]) { programmeTimeline(p, '2026-10-24'); matchProgramme(p, profile); }
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17);
   assert.equal(JSON.stringify(store.all()), before);
 });

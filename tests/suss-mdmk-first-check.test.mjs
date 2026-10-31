@@ -102,7 +102,7 @@ test('MAVI archives are immutable and the new maintenance unit creates no action
     'core-pilot-acceptance-2026-10-27-suss-mavi.md': 'bebefa82526e9e42adf86c8c3a9bcd7dba9b1603e3cd06b78f2018466225f11e'
   };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash('sha256').update(readFileSync(new URL('docs/research/' + file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267);
+  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -141,5 +141,5 @@ test('actual API, saving and export keep standalone pathway boundaries and flag 
   }
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15); assert.equal(JSON.stringify(store.all()), before);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17); assert.equal(JSON.stringify(store.all()), before);
 });

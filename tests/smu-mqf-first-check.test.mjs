@@ -113,11 +113,17 @@ test('MQF migration appends partial evidence idempotently without altering other
 test('older school rebuilds preserve a newer unrelated MQF listing and batch date, but refuse newer target records and inconsistent metadata', () => {
   for (const [school, name, build] of [['HK-CITYU', 'cityu', buildCityuInventory], ['HK-EDUHK', 'eduhk', buildEduhkInventory], ['HK-HKUST', 'hkust', buildHkustInventory], ['HK-HKU', 'hku', buildHkuInventory], ['HK-POLYU', 'polyu', buildPolyuInventory]]) {
     const input = { observation: read(`data/research/${name}-directory-observation-2026-10-20.json`), seed: read('data/catalogue.json'), checked: batch, expansion: read('data/catalogue-expansion.json'), links: read('data/directory-links.json'), audit: read('data/directory-audit.json') };
-    input.links.listings.find(l => l.programmeId === pid).checkedOn = '2026-10-29'; input.links.checkedOn = '2026-10-29';
+    if (school === 'HK-HKUST') {
+      assert.throws(() => build(input), /newer HKUST listings/);
+      input.links.listings = input.links.listings.filter(l => !l.programmeId.startsWith(school + '-'));
+      input.links.checkedOn = input.links.listings.map(l => l.checkedOn).sort().at(-1);
+      input.links = build(input).links;
+    }
+    input.links.listings.find(l => l.programmeId === pid).checkedOn = '2026-10-29'; input.links.checkedOn = input.links.listings.map(l => l.checkedOn).sort().at(-1);
     const before = JSON.stringify(input), out = build(input); assert.equal(JSON.stringify(input), before);
     assert.deepEqual(out.links, input.links); assert.deepEqual(out.expansion, input.expansion); assert.deepEqual(out.audit, input.audit);
     const inconsistent = structuredClone(input); inconsistent.links.checkedOn = '2026-10-30'; assert.throws(() => build(inconsistent), /batch date/);
-    const newerTarget = structuredClone(input); newerTarget.links.listings.find(l => l.programmeId.startsWith(school + '-')).checkedOn = '2026-10-30'; newerTarget.links.checkedOn = '2026-10-30';
+    const newerTarget = structuredClone(input); newerTarget.links.listings.find(l => l.programmeId.startsWith(school + '-')).checkedOn = '2026-11-01'; newerTarget.links.checkedOn = '2026-11-01';
     assert.throws(() => build(newerTarget), /newer/); assert.equal(JSON.stringify(input), before);
   }
 });
@@ -151,9 +157,9 @@ test('actual APIs retain selected track in matching, saved restoration and expor
 test('programme, route and maintenance-unit counts stay distinct with zero independent review', async () => {
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-28');
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174);
-  assert.deepEqual(meta.routeEvidence, { groups: 6, routes: 15, pageChecked: 15, peerReviewed: 0, complete: 0 });
+  assert.deepEqual(meta.routeEvidence, { groups: 7, routes: 17, pageChecked: 17, peerReviewed: 0, complete: 0 });
   assert.deepEqual(routeSummary(routes), meta.routeEvidence); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.deepEqual(meta.quality.sourceRefreshConflicts, []); assert.equal(queue.counts.programmePageRecords, 174);
-  assert.equal(queue.counts.routeRecords, 15); assert.equal(queue.counts.reviewUnits, 267); assert.equal(queue.counts.nearCutoffUnits, 2);
+  assert.equal(queue.counts.routeRecords, 17); assert.equal(queue.counts.reviewUnits, 269); assert.equal(queue.counts.nearCutoffUnits, 2);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.filter(u => u.programmeId === pid).length, 3);
 });

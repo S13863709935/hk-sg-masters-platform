@@ -95,9 +95,15 @@ test('45 new records and three preserved identities add no invented admission th
 });
 
 test('all three Oct-20 builders preserve unrelated observations and stay idempotent', () => {
-  const data = input(), before = JSON.stringify(data), output = buildHkustInventory(data);
-  assert.equal(JSON.stringify(data), before); assert.deepEqual(output.inventory, inventory);
-  for (const key of ['expansion', 'links', 'audit']) assert.deepEqual(output[key], data[key]);
+  const data = input(), before = JSON.stringify(data);
+  assert.throws(() => buildHkustInventory(data), /newer HKUST listings/);
+  const historical = structuredClone(data);
+  historical.links.listings = historical.links.listings.filter(l => !l.programmeId.startsWith('HK-HKUST-'));
+  historical.links.checkedOn = historical.links.listings.map(l => l.checkedOn).sort().at(-1);
+  const first = buildHkustInventory(historical), output = buildHkustInventory({ ...historical, ...first });
+  assert.equal(JSON.stringify(data), before); assert.deepEqual(output.inventory, inventory); assert.deepEqual(output, first);
+  assert.deepEqual(output.links.listings.filter(l => !l.programmeId.startsWith('HK-HKUST-')), data.links.listings.filter(l => !l.programmeId.startsWith('HK-HKUST-')));
+  for (const key of ['expansion', 'audit']) assert.deepEqual(output[key], data[key]);
   for (const [build, file] of [[buildEduhkInventory, 'eduhk'], [buildCityuInventory, 'cityu']]) {
     const other = build({ ...input(), observation: read(`data/research/${file}-directory-observation-2026-10-20.json`) });
     for (const key of ['expansion', 'links', 'audit']) assert.deepEqual(other[key], data[key]);

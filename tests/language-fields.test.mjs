@@ -36,8 +36,8 @@ function harness() {
 for (const [type, visible, max, step, scale] of [
   ['none', [], '9', '0.5', '0–9'],
   ['ielts', ['total-field', 'date-field', 'component-fields', 'attempt-fields'], '9', '0.5', '0–9'],
-  ['toefl_120', ['total-field', 'date-field', 'attempt-fields'], '120', '1', '0–120'],
-  ['toefl_6', ['total-field', 'date-field', 'attempt-fields'], '6', '0.5', '1–6'],
+  ['toefl_120', ['total-field', 'date-field', 'component-fields', 'attempt-fields'], '120', '1', '0–120'],
+  ['toefl_6', ['total-field', 'date-field', 'component-fields', 'attempt-fields'], '6', '0.5', '1–6'],
   ['waiver', ['waiver-fields'], '9', '0.5', '0–9']
 ]) test(`${type} exposes only its relevant controls and score instructions`, () => {
   const h = harness(); h.update(type);
@@ -47,6 +47,11 @@ for (const [type, visible, max, step, scale] of [
   }
   assert.equal(h.controls.total.max, max); assert.equal(h.controls.total.step, step);
   assert.equal(h.controls.total.min, type === 'toefl_6' ? '1' : '0');
+  for (const name of ['listening', 'reading', 'writing', 'speaking']) {
+    assert.equal(h.controls[name].max, type === 'toefl_120' ? '30' : type === 'toefl_6' ? '6' : '9');
+    assert.equal(h.controls[name].min, type === 'toefl_6' ? '1' : '0');
+    assert.equal(h.controls[name].step, type === 'toefl_120' ? '1' : '0.5');
+  }
   assert.equal(h.hint.textContent, copy[`languageHint_${type}`]); assert.equal(h.label.textContent, `Overall score · ${scale}`);
   assert.equal(h.controls.languageType.getAttribute('aria-describedby'), 'language-input-hint');
 });

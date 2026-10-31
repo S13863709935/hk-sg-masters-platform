@@ -68,7 +68,7 @@ test('mixed fee cohorts and tax-labelled credited deposits do not produce person
 
 test('new 29 October observation migrates idempotently without restamping the other programmes or earlier reports', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  assert.equal(batch.checkedOn, '2026-10-30'); assert.equal(batch.programmes.filter(x => x.lastChecked === '2026-10-29').length, 2);
+  assert.equal(batch.checkedOn, '2026-10-31'); assert.equal(batch.programmes.filter(x => x.lastChecked === '2026-10-29').length, 2);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-smu-emba-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, checkedOn: batch.programmes.filter(x => x.id !== pid).map(x => x.lastChecked).sort().at(-1), programmes: batch.programmes.filter(x => x.id !== pid) })); db = new CatalogueStore(path, { ...options, checkedPath });
@@ -97,6 +97,6 @@ test('actual EMBA matching/save/restore/export retains assessed career exception
 test('EMBA adds one partial record and maintenance unit while catalogue, routes, review and recent-cutoff counts remain honest', async () => {
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-29');
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.routeEvidence, { groups: 6, routes: 15, pageChecked: 15, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267); assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  assert.deepEqual(meta.routeEvidence, { groups: 7, routes: 17, pageChecked: 17, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269); assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.counts.reviewRecordedInSource, 0);
   assert.equal(batch.pilotProgrammeIds.length, 20); assert.equal(batch.pilotProgrammeIds.includes(pid), false);
 });

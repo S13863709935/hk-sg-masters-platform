@@ -29,7 +29,7 @@ export function validateProfile(input) {
   // ETS reports the updated TOEFL overall score on 1–6, not 0–6.
   const total = bounded(languageInput.total, type === 'toefl_6' ? 1 : 0, max, 'Language score', type === 'ielts' || type === 'toefl_6' ? 0.5 : 1);
   const components = {};
-  for (const name of ['listening', 'reading', 'writing', 'speaking']) components[name] = bounded(languageInput.components?.[name], 0, 9, name, 0.5);
+  for (const name of ['listening', 'reading', 'writing', 'speaking']) components[name] = bounded(languageInput.components?.[name], type === 'toefl_6' ? 1 : 0, type === 'toefl_120' ? 30 : type === 'toefl_6' ? 6 : 9, name, type === 'toefl_120' ? 1 : 0.5);
   const testDate = languageInput.testDate || null;
   if (testDate && !isIsoDate(testDate)) throw new InputError('Please enter a valid test date in YYYY-MM-DD format.');
   const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Singapore', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
@@ -75,6 +75,16 @@ export function validateProgramme(p, universityIds) {
     if (r.kind === 'major' && (!Array.isArray(r.accepted) || r.accepted.some(x => typeof x !== 'string'))) throw new InputError('Invalid major rule');
     if (r.kind === 'experience' && (!Number.isFinite(r.min) || r.min < 0)) throw new InputError('Invalid experience rule');
     if (r.kind === 'language' && (!r.tests || typeof r.tests !== 'object' || Object.entries(r.tests).some(([test, v]) => !['ielts', 'toefl_120', 'toefl_6'].includes(test) || !Number.isFinite(v.total) || v.total < 0 || (test === 'ielts' && v.total > 9) || (test === 'toefl_120' && v.total > 120) || (test === 'toefl_6' && v.total > 6)))) throw new InputError('Invalid language rule');
+    if (r.kind === 'language') for (const [test, v] of Object.entries(r.tests)) {
+      const max = test === 'toefl_120' ? 30 : test === 'toefl_6' ? 6 : 9;
+      const valid = value => Number.isFinite(value) && value >= (test === 'toefl_6' ? 1 : 0) && value <= max && Number.isInteger(value * (test === 'toefl_120' ? 1 : 2));
+      if (v.componentMin !== undefined && !valid(v.componentMin)) throw new InputError('Invalid language component minimum');
+      if (v.componentMins !== undefined && (!v.componentMins || typeof v.componentMins !== 'object' || Array.isArray(v.componentMins) || !Object.keys(v.componentMins).length || Object.entries(v.componentMins).some(([name, value]) => !['listening','reading','writing','speaking'].includes(name) || !valid(value)))) throw new InputError('Invalid named language component minima');
+    }
+    if (r.appliesTo !== undefined) {
+      const a = r.appliesTo;
+      if (!a || typeof a !== 'object' || Array.isArray(a) || !Array.isArray(a.offeringIds) || !a.offeringIds.length || new Set(a.offeringIds).size !== a.offeringIds.length || typeof a.labelEn !== 'string' || !a.labelEn.trim() || a.labelEn.length > 200 || typeof a.academicYear !== 'string' || !isIsoDate(a.checkedOn) || a.checkedOn > p.lastChecked || !Array.isArray(p.sources) || !p.sources.some(s => s.url === r.sourceUrl && s.checkedOn === a.checkedOn) || a.offeringIds.some(id => !p.offerings.some(o => o.id === id && (o.academicYear || p.academicYear) === a.academicYear))) throw new InputError('Requirement scope needs exact owned offerings, academic year and dated source evidence');
+    }
     if (r.testDateNotBefore !== undefined || r.testDateSourceUrl !== undefined) {
       if (r.kind !== 'language' || !isIsoDate(r.testDateNotBefore) || !isOfficialUrl(r.testDateSourceUrl) || r.validityMonths !== undefined) throw new InputError('Explicit test-date minimum requires a valid date and official source, without rolling expiry');
     }

@@ -195,6 +195,6 @@ test('data-science browsing, matching and export remain read-only with no inflat
   const before = JSON.stringify(store.all()); resolve(hk, 0); resolve(nu, 0, nu.offerings[0].id + '-INTERNATIONAL-STANDARD'); matchProgramme(nu, profile);
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17);
   assert.equal(JSON.stringify(store.all()), before);
 });

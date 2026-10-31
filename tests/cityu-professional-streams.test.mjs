@@ -27,7 +27,7 @@ test('six existing IDs and two separate BIS snapshots preserve counts without ne
  assert.equal(store.quality().checked,174); assert.equal(store.quality().total,873); assert.equal(store.quality().browsable,869);
  assert.equal(store.quality().complete,0); assert.equal(store.quality().peerReviewed,0); assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
  assert.equal(store.all().filter(x=>x.universityId==='HK-CITYU'&&x.verification==='programme_page_checked').length,60);
- assert.deepEqual(routeSummary(routes),{groups:6,routes:15,pageChecked:15,peerReviewed:0,complete:0});
+ assert.deepEqual(routeSummary(routes),{groups:7,routes:17,pageChecked:17,peerReviewed:0,complete:0});
  assert.deepEqual(applicantSummary(applicants),{studyOptions:78,categories:158,peerReviewed:0});
  for(const x of [...obs.programmeIds.map(id=>store.get(id)),...siblings]){
   assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(y=>y.id===x.id)||x)),false);
@@ -114,7 +114,7 @@ test('EMBA and legacy Civil holds remain leads without merging Chinese experienc
  for(const n of [3,9]){assert.equal(p(n).verification,'catalogue_seed');assert.equal(routes.has(p(n).id),false);assert.equal(p(n).rules.length,0);}
  assert.equal(obs.boundaries.EMBA.decision,'retain_catalogue_lead');assert.match(obs.boundaries.EMBA.notesEn,/not imported into P12/);
  assert.match(obs.boundaries.EMBA.notesEn,/HKD 1000/);assert.equal(obs.boundaries.civil.decision,'retain_legacy_identity_hold');
- const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,267);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,269);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 test('isolated imports preserve all earlier records over restarts and route/context evidence still validates',()=>{

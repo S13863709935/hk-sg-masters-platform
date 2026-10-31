@@ -162,7 +162,7 @@ test('a route offering change invalidates its categories without borrowing the o
 
 test('mixed route observation dates retain the older NTU dates and their source dates', () => {
   const batch = JSON.parse(readFileSync(routePath, 'utf8'));
-  assert.equal(batch.checkedOn, '2026-10-30');
+  assert.equal(batch.checkedOn, '2026-10-31');
   assert.ok(routes.get('SG-NTU-P061').every(r => r.lastChecked === '2026-10-16' && r.sources.every(s => s.checkedOn === '2026-10-16')));
   assert.equal(routes.get(id)[0].lastChecked, '2026-10-21');
   const eduhkContext = [...applicants.values()].find(r => r.programmeId === 'HK-EDUHK-P001');
@@ -218,7 +218,7 @@ test('parent records and raw export are unchanged; route and category evidence h
   assert.equal(exported.verification, 'catalogue_seed'); assert.equal(exported.selectedRoute, undefined);
   assert.equal(exported.applicantEvidence, undefined);
   const meta = await get('/api/meta');
-  assert.deepEqual(meta.routeEvidence, { groups: 6, routes: 15, pageChecked: 15, peerReviewed: 0, complete: 0 });
+  assert.deepEqual(meta.routeEvidence, { groups: 7, routes: 17, pageChecked: 17, peerReviewed: 0, complete: 0 });
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 78, categories: 158, peerReviewed: 0 });
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
   assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);

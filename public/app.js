@@ -261,11 +261,17 @@ function languageFields() {
   }
   panel.dataset.languageType = type;
   const scored = !['none', 'waiver'].includes(type);
-  $('#total-field').hidden = !scored; $('#date-field').hidden = !scored; $('#component-fields').hidden = type !== 'ielts'; $('#attempt-fields').hidden = !scored; $('#waiver-fields').hidden = type !== 'waiver';
+  $('#total-field').hidden = !scored; $('#date-field').hidden = !scored; $('#component-fields').hidden = !scored; $('#attempt-fields').hidden = !scored; $('#waiver-fields').hidden = type !== 'waiver';
   for (const id of ['total-field', 'date-field', 'component-fields', 'attempt-fields', 'waiver-fields']) $( `#${id}` ).querySelectorAll('input,select').forEach(input => { input.disabled = $(`#${id}`).hidden; });
   $('#profile-total').min = type === 'toefl_6' ? '1' : '0';
   $('#profile-total').max = type === 'toefl_120' ? '120' : type === 'toefl_6' ? '6' : '9';
   $('#profile-total').step = type === 'toefl_120' ? '1' : '0.5';
+  for (const name of ['listening', 'reading', 'writing', 'speaking']) {
+    const input = $(`#profile-${name}`);
+    input.min = type === 'toefl_6' ? '1' : '0';
+    input.max = type === 'toefl_120' ? '30' : type === 'toefl_6' ? '6' : '9';
+    input.step = type === 'toefl_120' ? '1' : '0.5';
+  }
   $('#profile-languageType').setAttribute('aria-describedby', 'language-input-hint');
   $('#language-input-hint').textContent = t(`languageHint_${type}`);
   $('#total-field label').textContent = `${t('total')} · ${type === 'toefl_120' ? '0–120' : type === 'toefl_6' ? '1–6' : '0–9'}`;
@@ -375,7 +381,7 @@ async function submitProfile(event) {
   const form = event.target; const values = new FormData(form);
   const number = key => values.get(key) === '' || values.get(key) === null ? null : Number(values.get(key));
   const type = values.get('languageType');
-  const profile = { major: values.get('major').trim(), degreeStatus: values.get('degreeStatus'), classification: values.get('classification'), gpa: number('gpa'), gpaScale: number('gpaScale'), experienceYears: number('experienceYears'), language: { type, total: ['none', 'waiver'].includes(type) ? null : number('total'), testDate: ['none', 'waiver'].includes(type) ? null : values.get('testDate') || null, singleAttempt: values.has('singleAttempt'), atHome: values.has('atHome'), waiverBasis: values.get('waiverBasis'), components: Object.fromEntries(['listening', 'reading', 'writing', 'speaking'].map(k => [k, type === 'ielts' ? number(k) : null])) } };
+  const profile = { major: values.get('major').trim(), degreeStatus: values.get('degreeStatus'), classification: values.get('classification'), gpa: number('gpa'), gpaScale: number('gpaScale'), experienceYears: number('experienceYears'), language: { type, total: ['none', 'waiver'].includes(type) ? null : number('total'), testDate: ['none', 'waiver'].includes(type) ? null : values.get('testDate') || null, singleAttempt: values.has('singleAttempt'), atHome: values.has('atHome'), waiverBasis: values.get('waiverBasis'), components: Object.fromEntries(['listening', 'reading', 'writing', 'speaking'].map(k => [k, ['none', 'waiver'].includes(type) ? null : number(k)])) } };
   const version = backgroundVersion, sequence = ++matchRequestSequence, snapshot = profileFormSnapshot(form), choices = choiceContext();
   const current = () => version === backgroundVersion && sequence === matchRequestSequence && state.view === 'profile' && form.isConnected && $('#profile-form') === form;
   const button = form.querySelector('button[type=submit]'), errorBox = $('#form-error'); button.disabled = true; errorBox.hidden = true;
@@ -400,18 +406,19 @@ async function submitProfile(event) {
   finally { button.disabled = false; }
 }
 function ruleText(r) {
-  if (r.kind === 'language') return Object.entries(r.tests).map(([kind, test]) => `${esc(t(kind))}: ${test.total}${test.componentMin !== undefined ? ` · each component ≥ ${test.componentMin}` : ''}`).join('<br>') + (r.testDateNotBefore ? `<br><small>Accepted test date: on or after ${esc(r.testDateNotBefore)} (inclusive). Published intake-specific rule, not a rolling expiry from today. <a href="${esc(r.testDateSourceUrl)}" target="_blank" rel="noopener noreferrer">Official test-date source ↗</a></small>` : '');
+  if (r.appliesTo) { const { appliesTo, ...rest } = r; return `<strong>Only for ${esc(appliesTo.labelEn)}</strong><small>Academic year ${esc(appliesTo.academicYear)} · source read ${esc(appliesTo.checkedOn)}</small>${ruleText(rest)}`; }
+  if (r.kind === 'language') return Object.entries(r.tests).map(([kind, test]) => `${esc(t(kind))}: ${test.total}${test.componentMin !== undefined ? ` · each component ≥ ${test.componentMin}` : ''}${Object.entries(test.componentMins || {}).map(([name, min]) => ` · ${esc(t(name))} ≥ ${esc(min)}`).join('')}`).join('<br>') + (r.testDateNotBefore ? `<br><small>Accepted test date: on or after ${esc(r.testDateNotBefore)} (inclusive). Published intake-specific rule, not a rolling expiry from today. <a href="${esc(r.testDateSourceUrl)}" target="_blank" rel="noopener noreferrer">Official test-date source ↗</a></small>` : '');
   if (r.kind === 'gpa') return `GPA ≥ ${r.min}/${r.scale}`;
   if (r.kind === 'classification') return t(r.min);
   if (r.kind === 'major') return r.any ? 'Any undergraduate discipline; all other criteria still apply.' : `${r.accepted.map(esc).join(', ')}${r.relatedAllowed ? '; related fields need confirmation' : ''}`;
-  if (r.kind === 'experience') return `At least ${r.min} years${r.mandatory === false ? ' preferred (not mandatory)' : ' of relevant experience'}`;
+  if (r.kind === 'experience') return `At least ${r.min} years${r.mandatory === false ? ' preferred (not mandatory)' : ' of work experience; required type and evidence still need confirmation'}`;
   return esc(r.noteEn || r.labelEn);
 }
 function roundDeadline(r) { return r.deadlineAt ? `<time datetime="${esc(r.deadlineAt)}">${esc(r.deadline)} · ${esc(r.deadlineAt.slice(11, 16))} UTC+08:00</time>` : `${esc(r.deadline)} · cutoff time not recorded`; }
 function comparisonLabel(a) { return `${a.asOfDate}${a.asOfInstant ? ` · ${new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Singapore', hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23' }).format(new Date(a.asOfInstant))}` : ''}`; }
 function deadlineText(o) { return `${known(o.deadline)}${o.applicationRounds?.length ? `<small>Final recorded deadline; review each round:</small>${o.applicationRounds.map(r => `<small><strong>${esc(r.label)}:</strong> ${roundDeadline(r)}</small>`).join('')}` : ''}${o.applicationOpen ? `<small>Recorded opening: ${esc(o.applicationOpen)}</small>` : ''}${o.deadlineNote ? `<small>${esc(o.deadlineNote)}</small>` : ''}`; }
 const offeringLabel = o => [o.intake, o.academicYear, o.mode].filter(Boolean).join(' · ') || 'Study option';
-const offeringCaution = 'Fees and dates only. Applicant-category notes still apply; intake-specific entry requirements need confirmation.';
+const offeringCaution = 'Only explicitly bound entry conditions follow this choice. Other requirements, supporting evidence and applicant-category notes still need confirmation.';
 function offeringSummary(p) { return p.selectedOffering ? `<p class="offering-context"><strong>Selected study option</strong><br>${esc(offeringLabel(p.selectedOffering))}${p.selectedApplicant ? `<br>${esc(p.selectedApplicant.label)}` : ''}<small>${p.offerings.some(o => o.applicantCategoryRequired) ? 'Applicant category required. ' : ''}Category-specific notes still apply. Change this choice in programme details.</small></p>` : ''; }
 function applicantSelector(p) {
   if (p.applicantContextStatus === 'stale') return '<p class="detail-note warning">Applicant-category evidence no longer matches the stored study option. Recheck the sources before choosing a category.</p>';

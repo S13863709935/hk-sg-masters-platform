@@ -111,7 +111,7 @@ test('MGSS text fees do not inherit a populated subsidy from a neighbouring row 
 
 test('first MGSS migration preserves earlier records and 27 October archive hashes across isolated restarts', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-mgss-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     writeFileSync(checkedPath, JSON.stringify({ ...batch, checkedOn: obs.previousBatchCheckedOn, programmes: batch.programmes.filter(x => x.id !== p.id) }));
@@ -147,5 +147,5 @@ test('actual API/save/restore/export retains contradictory published values and 
   assert.equal(exported.evidence.lastChecked, '2026-10-28'); assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15); assert.equal(JSON.stringify(store.all()), before);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17); assert.equal(JSON.stringify(store.all()), before);
 });

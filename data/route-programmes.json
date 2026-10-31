@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-30",
+  "checkedOn": "2026-10-31",
   "programmes": [
     {
       "programmeId": "SG-NTU-P061",
@@ -2192,15 +2192,15 @@
           "faculty": "School of Business and Management",
           "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
           "verification": "programme_page_checked",
-          "sourceStatus": "AI-assisted partial rendered official-source observation; independent review pending",
-          "lastChecked": "2026-10-30",
+          "sourceStatus": "AI-assisted partial official-page retrieval; independent review and live portal unconfirmed",
+          "lastChecked": "2026-10-31",
           "academicYear": "2027/28",
           "admissionRoute": "direct",
           "requirementsCoverage": "partial",
           "collector": "AI-assisted official-source reading",
           "reviewer": null,
           "notesZh": "",
-          "notesEn": "Ordinary Hong Kong MBA format. Full-time: two full-time work years and GMAT/GRE required. Weekly part-time: three full-time work years; GMAT/GRE encouraged rather than mandatory. The automated two-year lower bound is necessary for either mode; it does not establish the three-year part-time condition. Part-time July 2027 online accelerators and mid-August 2027 mandatory campus immersion are recorded; a 2026 full-time commencement schedule is not shifted into 2027. Optional international exchange is not required overseas delivery. Applicant-date labels are MBA-specific, not the MSc local/non-local definition.",
+          "notesEn": "Full-time: two full-time work years and GMAT/GRE required. Weekly part-time: three full-time work years; GMAT/GRE encouraged rather than mandatory. Work duration comparisons are bound to the exact selected mode; full-time status, timing and documentary acceptance remain assessed. July 2027 online accelerators and mid-August mandatory campus immersion apply to part-time study; exact FT 2027 commencement remains unconfirmed. Optional exchange is not compulsory overseas delivery. MBA category dates and fees retain their earlier observations.",
           "offerings": [
             {
               "id": "HK-HKUST-P010-2027-FT",
@@ -2247,13 +2247,6 @@
               "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/"
             },
             {
-              "kind": "experience",
-              "labelZh": "",
-              "labelEn": "Necessary work-year lower bound; full-time status still assessed",
-              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
-              "min": 2
-            },
-            {
               "kind": "language",
               "labelZh": "",
               "labelEn": "Published English test score route",
@@ -2281,7 +2274,7 @@
               "labelEn": "Exact mode, full-time work and selection evidence",
               "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
               "noteZh": "",
-              "noteEn": "Ordinary Hong Kong MBA format. Full-time: two full-time work years and GMAT/GRE required. Weekly part-time: three full-time work years; GMAT/GRE encouraged rather than mandatory. The automated two-year lower bound is necessary for either mode; it does not establish the three-year part-time condition. Part-time July 2027 online accelerators and mid-August 2027 mandatory campus immersion are recorded; a 2026 full-time commencement schedule is not shifted into 2027. Optional international exchange is not required overseas delivery. Applicant-date labels are MBA-specific, not the MSc local/non-local definition.",
+              "noteEn": "Full-time: two full-time work years and GMAT/GRE required. Weekly part-time: three full-time work years; GMAT/GRE encouraged rather than mandatory. Work duration comparisons are bound to the exact selected mode; full-time status, timing and documentary acceptance remain assessed. July 2027 online accelerators and mid-August mandatory campus immersion apply to part-time study; exact FT 2027 commencement remains unconfirmed. Optional exchange is not compulsory overseas delivery. MBA category dates and fees retain their earlier observations.",
               "mandatory": true
             },
             {
@@ -2290,8 +2283,55 @@
               "labelEn": "English alternatives and application evidence",
               "sourceUrl": "https://mba.hkust.edu.hk/admissions",
               "noteZh": "",
-              "noteEn": "The MBA admissions page also lists DET and undergraduate/postgraduate English-medium evidence. DET numeric threshold is not reliably established in this observation; it is not invented. Central-catalogue IELTS/TOEFL thresholds remain explicitly sourced; MBA waiver applicability and one-sitting/at-home restrictions need assessment. Essays, two references and interview evidence remain separate. No test validity date anchor or admissions guarantee is inferred.",
+              "noteEn": "The 2027/28 MBA catalogue lists DET 125; DET is a manual alternative because the form does not model this test. The admissions page also lists undergraduate/postgraduate English-medium evidence, whose applicability requires confirmation. Central-catalogue IELTS/TOEFL thresholds keep their own source. Essays, two references, interview and work-evidence acceptance remain assessed; no score-validity anchor or admission guarantee is inferred.",
               "mandatory": true
+            },
+            {
+              "kind": "experience",
+              "labelZh": "",
+              "labelEn": "Full-time MBA work-duration lower bound",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+              "min": 2,
+              "appliesTo": {
+                "offeringIds": [
+                  "HK-HKUST-P010-2027-FT"
+                ],
+                "academicYear": "2027/28",
+                "labelEn": "2027 full-time MBA only",
+                "checkedOn": "2026-10-31"
+              }
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Full-time MBA GMAT or GRE",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+              "noteZh": "",
+              "noteEn": "A GMAT or GRE score is required for full-time MBA. The profile does not collect this evidence; a work-year or English result cannot satisfy it.",
+              "mandatory": true,
+              "appliesTo": {
+                "offeringIds": [
+                  "HK-HKUST-P010-2027-FT"
+                ],
+                "academicYear": "2027/28",
+                "labelEn": "2027 full-time MBA only",
+                "checkedOn": "2026-10-31"
+              }
+            },
+            {
+              "kind": "experience",
+              "labelZh": "",
+              "labelEn": "Weekly part-time MBA work-duration lower bound",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+              "min": 3,
+              "appliesTo": {
+                "offeringIds": [
+                  "HK-HKUST-P010-2027-WEEKLY"
+                ],
+                "academicYear": "2027/28",
+                "labelEn": "2027 weekly part-time MBA only",
+                "checkedOn": "2026-10-31"
+              }
             }
           ],
           "sources": [
@@ -2324,6 +2364,11 @@
               "url": "https://mba.hkust.edu.hk/full-time",
               "purpose": "Full-time 12/16 months and optional exchange; visible 2026 commencement not reused as 2027",
               "checkedOn": "2026-10-30"
+            },
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/",
+              "purpose": "Re-read 2027/28 FT two-year / weekly PT three-year work requirements and FT-only GMAT/GRE; DET 125 remains a manual alternative",
+              "checkedOn": "2026-10-31"
             }
           ],
           "fieldStatus": {
@@ -2528,6 +2573,309 @@
           },
           "researchBatch": "hkust-remaining-2026-10-30",
           "routeId": "HK-HKUST-P010-ROUTE-BIWEEKLY"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKUST-P008",
+      "routes": [
+        {
+          "name": "Teaching English as a Second Language (TESL) Concentration",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "School of Humanities and Social Science",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial official-page retrieval; independent review and live portal unconfirmed",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted official-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Standalone TESL concentration observation of the same MA. Shared full-time one-year programme fee HKD 165,000, separate HKD 260 application fee, September 2027 cohort and 1 April 2027 labelled deadline. Additional credits HKD 6,875 each; no credit transfer. IELTS 7.0 includes Writing 7.0; TOEFL has separate Writing minima on each original score scale.",
+          "offerings": [
+            {
+              "id": "HK-HKUST-P008-TESL-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 165000,
+              "applicationFee": 260,
+              "applicationOpen": null,
+              "deadline": "2027-04-01",
+              "feeBasis": "Published 2027/28 ordinary Master programme total HKD 165,000 for full-time study (24 minimum curriculum credits), not an annual price multiplied by years. Separate application fee HKD 260; living costs and extra charges excluded. No scholarship or transfer discount deducted. Additional credits cost HKD 6,875 each; failed-course retakes are charged pro rata. Credit transfer is not allowed.",
+              "feeEvidence": {
+                "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Both labelled applicant categories: 1 April 2027 for this full-time September cohort. Date-only cutoff and live availability require confirmation.",
+              "applicationRounds": [
+                {
+                  "id": "FINAL",
+                  "label": "Published final date",
+                  "applicationOpen": null,
+                  "deadline": "2027-04-01",
+                  "deadlineAt": null
+                }
+              ]
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or approved equivalent",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "TESL English score route",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "tests": {
+                "ielts": {
+                  "total": 7,
+                  "componentMin": 5.5,
+                  "componentMins": {
+                    "writing": 7
+                  }
+                },
+                "toefl_120": {
+                  "total": 100,
+                  "componentMins": {
+                    "writing": 27
+                  },
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 5,
+                  "componentMins": {
+                    "writing": 5.5
+                  },
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English waiver and report evidence",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "noteZh": "",
+              "noteEn": "English first language or an English-medium bachelor may support a waiver; acceptance and evidence need confirmation. Scores must be from one attempt and not at home. No test-date validity anchor is established, and the profile never converts between score scales.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Concentration, qualification and study evidence",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "noteZh": "",
+              "noteEn": "Declare this single concentration at application; no double concentration. Changes require Academic Director approval and the destination concentration's language standard. Recognition, documentation and live availability need confirmation; 24 credits and no credit transfer are study conditions, not numeric undergraduate entry GPA.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "purpose": "2027/28 concentration-specific entry conditions and shared full-time MA fee, curriculum and labelled deadlines",
+              "checkedOn": "2026-10-31"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "2027/28 catalogue; only the stated ordinary cohort is represented.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "major": {
+              "status": "not_published",
+              "noteEn": "No exclusive undergraduate subject requirement established in the consulted concentration conditions.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric undergraduate entry GPA established; honours and post-entry academic standards are separate.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Standalone TESL English total/component standards; waiver and any Chinese evidence remain assessed.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Stated ordinary programme total; optional concentrations, smaller awards and extra credits remain separate.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Only fall category/mode final dates recorded; no earlier spring substitution.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent review or complete requirements set.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            }
+          },
+          "researchBatch": "hkust-remaining-2026-10-30",
+          "routeId": "HK-HKUST-P008-ROUTE-TESL"
+        },
+        {
+          "name": "Teaching Chinese as a Second Language (TCSL) Concentration",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "School of Humanities and Social Science",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial official-page retrieval; independent review and live portal unconfirmed",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted official-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Standalone TCSL concentration observation of the same MA. Shared full-time one-year programme fee HKD 165,000, separate HKD 260 application fee, September 2027 cohort and 1 April 2027 labelled deadline. Additional credits HKD 6,875 each; no credit transfer. English and Chinese requirements are separate; a passing English comparison does not satisfy HSK/PSC evidence.",
+          "offerings": [
+            {
+              "id": "HK-HKUST-P008-TCSL-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 165000,
+              "applicationFee": 260,
+              "applicationOpen": null,
+              "deadline": "2027-04-01",
+              "feeBasis": "Published 2027/28 ordinary Master programme total HKD 165,000 for full-time study (24 minimum curriculum credits), not an annual price multiplied by years. Separate application fee HKD 260; living costs and extra charges excluded. No scholarship or transfer discount deducted. Additional credits cost HKD 6,875 each; failed-course retakes are charged pro rata. Credit transfer is not allowed.",
+              "feeEvidence": {
+                "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Both labelled applicant categories: 1 April 2027 for this full-time September cohort. Date-only cutoff and live availability require confirmation.",
+              "applicationRounds": [
+                {
+                  "id": "FINAL",
+                  "label": "Published final date",
+                  "applicationOpen": null,
+                  "deadline": "2027-04-01",
+                  "deadlineAt": null
+                }
+              ]
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or approved equivalent",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "TCSL English score route",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "tests": {
+                "ielts": {
+                  "total": 6.5,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 85,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English waiver and report evidence",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "noteZh": "",
+              "noteEn": "English first language or an English-medium bachelor may support a waiver; acceptance and evidence need confirmation. Scores must be from one attempt and not at home. No test-date validity anchor is established, and the profile never converts between score scales.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Concentration, qualification and study evidence",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "noteZh": "",
+              "noteEn": "Declare this single concentration at application; no double concentration. Changes require Academic Director approval and the destination concentration's language standard. Recognition, documentation and live availability need confirmation; 24 credits and no credit transfer are study conditions, not numeric undergraduate entry GPA.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "TCSL Chinese language evidence",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "noteZh": "",
+              "noteEn": "For applicants with neither Chinese first language nor a Chinese-medium bachelor, HSK Level 5 is required. Chinese first language OR a Chinese-medium bachelor instead requires PSC Grade 2B. Background is not an automatic exemption; documentary acceptance must be confirmed. The form does not assess these Chinese tests.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
+              "purpose": "2027/28 concentration-specific entry conditions and shared full-time MA fee, curriculum and labelled deadlines",
+              "checkedOn": "2026-10-31"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "2027/28 catalogue; only the stated ordinary cohort is represented.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "major": {
+              "status": "not_published",
+              "noteEn": "No exclusive undergraduate subject requirement established in the consulted concentration conditions.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric undergraduate entry GPA established; honours and post-entry academic standards are separate.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Standalone TCSL English total/component standards; waiver and any Chinese evidence remain assessed.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Stated ordinary programme total; optional concentrations, smaller awards and extra credits remain separate.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Only fall category/mode final dates recorded; no earlier spring substitution.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "No independent review or complete requirements set.",
+              "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+            }
+          },
+          "researchBatch": "hkust-remaining-2026-10-30",
+          "routeId": "HK-HKUST-P008-ROUTE-TCSL"
         }
       ]
     }

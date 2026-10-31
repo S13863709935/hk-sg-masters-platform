@@ -58,7 +58,7 @@ test('August-only month ranges do not inherit precise Economics windows, January
   }
   const queue = loadRepositoryReviewQueue('2026-10-28');
   assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
-  assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267);
+  assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269);
 });
 
 test('duration versions and personal-fee uncertainty remain visible without extra track degrees or doubled advance tuition', () => {
@@ -120,6 +120,6 @@ test('real APIs, saved-option restore and export keep both MAF modes unresolved 
   }
   const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17);
   assert.equal(JSON.stringify(store.all()), before);
 });

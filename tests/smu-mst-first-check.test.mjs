@@ -56,7 +56,7 @@ test('2027 versus 2026 date references and recurring FAQ cutoffs never become li
     for (const day of ['2026-10-28', '2026-11-30', '2027-02-28', '2027-06-30', '2027-07-01']) assert.equal(programmeTimeline(selected(o), day).state, 'dates_incomplete');
   }
   const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 2);
-  assert.equal(current.counts.programmePageRecords, 174); assert.equal(current.counts.reviewUnits, 267);
+  assert.equal(current.counts.programmePageRecords, 174); assert.equal(current.counts.reviewUnits, 269);
   for (const day of ['2026-10-28', '2026-11-25', '2027-06-25']) assert.equal(loadRepositoryReviewQueue(day).units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -115,6 +115,6 @@ test('actual matching/save/restore/export retains both MST modes, strict source 
   }
   const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17);
   assert.equal(JSON.stringify(store.all()), before);
 });

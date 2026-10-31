@@ -97,5 +97,5 @@ test('94 partial records do not claim complete current-SMU inventory, independen
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.equal(smu.length, 17); assert.ok(smu.every(p => p.verification === 'programme_page_checked' && p.requirementsCoverage === 'partial'));
   assert.equal(obs.directoryFollowup.newCatalogueEntryCreated, false); assert.equal(obs.directoryFollowup.currentFullDirectoryReconciliationClaimed, false); assert.equal(smu.some(p => p.name.includes('Public Governance')), false);
-  assert.deepEqual(meta.routeEvidence, { groups: 6, routes: 15, pageChecked: 15, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267); assert.equal(queue.counts.nearCutoffUnits, 2);
+  assert.deepEqual(meta.routeEvidence, { groups: 7, routes: 17, pageChecked: 17, peerReviewed: 0, complete: 0 }); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269); assert.equal(queue.counts.nearCutoffUnits, 2);
 });

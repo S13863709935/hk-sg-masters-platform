@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-28",
+  "checkedOn": "2026-10-31",
   "description": "Non-admission directory evidence. Existing titles, rules, reviews and offering values remain untouched.",
   "listings": [
     {
@@ -3253,11 +3253,20 @@
     {
       "programmeId": "HK-HKUST-P008",
       "nameEn": "MA International Language Education",
-      "checkedOn": "2026-10-20",
-      "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog",
+      "checkedOn": "2026-10-31",
+      "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile",
       "programmeUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
-      "variants": [],
-      "noteEn": "2027/28 directory evidence only; it does not refresh older-cycle admissions, fees or dates. Prospective curriculum remains under review and fees may change. Programme-specific requirements and delivery remain for confirmation. Directory presence does not prove applications are open."
+      "variants": [
+        {
+          "nameEn": "Teaching English as a Second Language (TESL) Concentration",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+        },
+        {
+          "nameEn": "Teaching Chinese as a Second Language (TCSL) Concentration",
+          "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile"
+        }
+      ],
+      "noteEn": "The original MA directory identity is preserved. Its 2027/28 official programme body explicitly requires TESL or TCSL selection at application. These source-backed concentration variants are not two new catalogue awards; admission, Chinese evidence, waiver acceptance and live availability remain unconfirmed."
     },
     {
       "programmeId": "HK-HKUST-P009",

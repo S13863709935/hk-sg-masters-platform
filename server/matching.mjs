@@ -1,6 +1,7 @@
 import { validateProfile } from './validation.mjs';
 import { hasResolvedRoute } from './routes.mjs';
 import { summarizeRecordedCriteria } from './criteria-summary.mjs';
+import { resolvedOfferingId } from './offerings.mjs';
 
 const ranks = { ordinary: 0, third: 1, second_lower: 2, second_upper: 3, first: 4 };
 const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
@@ -39,7 +40,8 @@ function evaluateRule(r, profile) {
   const unknowns = [];
   if (language.total === null) unknowns.push('total');
   else if (language.total < target.total) failures.push('total');
-  if (target.componentMin !== undefined) for (const [name, score] of Object.entries(language.components)) { if (score === null) unknowns.push(name); else if (score < target.componentMin) failures.push(name); }
+  const componentTargets = Object.fromEntries(['listening', 'reading', 'writing', 'speaking'].map(name => [name, Math.max(target.componentMin ?? -1, target.componentMins?.[name] ?? -1)]).filter(([, min]) => min >= 0));
+  for (const [name, min] of Object.entries(componentTargets)) { const score = language.components[name]; if (score === null) unknowns.push(name); else if (score < min) failures.push(name); }
   if (r.singleAttempt && !language.singleAttempt) unknowns.push('single attempt');
   if ((target.validFrom || target.validBefore || r.validityMonths || r.testDateNotBefore) && !language.testDate) unknowns.push('test date');
   if (language.testDate && ((target.validFrom && language.testDate < target.validFrom) || (target.validBefore && language.testDate >= target.validBefore))) failures.push('version date');
@@ -50,18 +52,19 @@ function evaluateRule(r, profile) {
   return outcome(r, status,
     status === 'pass' ? '自报总分、适用单项及已记录的考试条件达到要求。' : `${failures.length ? `未满足：${failures.map(x => fieldsZh[x]).join('、')}。` : ''}${unknowns.length ? `待确认：${unknowns.map(x => fieldsZh[x]).join('、')}。` : ''}`,
     (status === 'pass' ? 'Reported total, applicable components and recorded test conditions meet the rule.' : `${failures.length ? `Not met: ${failures.join(', ')}. ` : ''}${unknowns.length ? `Needs confirmation: ${unknowns.join(', ')}.` : ''}`) + (r.testDateNotBefore ? ` Published test-date minimum: ${r.testDateNotBefore} (inclusive), not a rolling expiry measured from today.` : ''),
-    { unresolved: unknowns.length > 0, ...(r.testDateNotBefore ? { testDateEvidence: { notBefore: r.testDateNotBefore, sourceUrl: r.testDateSourceUrl } } : {}), languageMargin: status === 'pass' && language.total > target.total && (target.componentMin === undefined || Object.values(language.components).every(v => v > target.componentMin)) });
+    { unresolved: unknowns.length > 0, ...(r.testDateNotBefore ? { testDateEvidence: { notBefore: r.testDateNotBefore, sourceUrl: r.testDateSourceUrl } } : {}), languageMargin: status === 'pass' && language.total > target.total && Object.entries(componentTargets).every(([name, min]) => language.components[name] > min) });
 }
 
 export function matchProgramme(programme, profileInput) {
   const profile = validateProfile(profileInput);
   if (programme.scope?.status === 'out_of_scope') return { status: 'out_of_scope', tier: null, checks: [{ kind: 'scope', labelEn: 'Programme scope', labelZh: '', mandatory: true, status: 'unknown', reasonEn: programme.scope.reasonEn, reasonZh: '', sourceUrl: programme.scope.sourceUrl }], counts: { pass: 0, fail: 0, unknown: 1 }, disclaimerEn: 'Excluded because of the programme type, not because of your background. No eligibility or admission conclusion is made.', disclaimerZh: '' };
   const canUseRules = ['programme_page_checked', 'peer_reviewed'].includes(programme.verification);
-  const checks = canUseRules ? programme.rules.map(r => evaluateRule(r, profile)) : [];
+  const selectedOffering = resolvedOfferingId(programme);
+  const checks = canUseRules ? programme.rules.filter(r => !r.appliesTo || !selectedOffering || r.appliesTo.offeringIds.includes(selectedOffering)).map(r => r.appliesTo && !selectedOffering ? outcome(r, 'unknown', '请选择对应的入学批次及学习模式。', `Choose an intake and study mode to check this condition. Applies only to ${r.appliesTo.labelEn}.`) : evaluateRule(r, profile)) : [];
   if (!checks.length) checks.push({ kind: 'data', labelZh: '项目要求', labelEn: 'Programme requirements', mandatory: true, status: 'unknown', reasonZh: '仍为目录线索，不能据此判断门槛。', reasonEn: 'This is a catalogue lead, not a checked admissions record.', sourceUrl: programme.officialUrl });
   if (programme.scope?.status === 'unconfirmed') checks.push({ kind: 'scope', labelZh: '', labelEn: 'Delivery and project scope', mandatory: true, status: 'unknown', reasonZh: '', reasonEn: programme.scope.reasonEn, sourceUrl: programme.scope.sourceUrl });
   if (programme.requirementsCoverage !== 'complete') checks.push({ kind: 'coverage', labelZh: '完整性', labelEn: 'Completeness', mandatory: true, status: 'unknown', reasonZh: '尚未确认完整招生条件、当期申请状态或独立复核。', reasonEn: 'The complete requirements, current application status or independent review remain unconfirmed.', sourceUrl: programme.officialUrl });
-  if (programme.selectedOffering) checks.push({ kind: 'offering', labelZh: '', labelEn: 'Intake and study-mode applicability', mandatory: true, status: 'unknown', reasonZh: '', reasonEn: 'Selecting this study option filters recorded fees and dates; programme/route-level criteria have not been separately verified for this intake, mode and applicant category.', sourceUrl: programme.officialUrl });
+  if (programme.selectedOffering) checks.push({ kind: 'offering', labelZh: '', labelEn: 'Intake and study-mode applicability', mandatory: true, status: 'unknown', reasonZh: '', reasonEn: 'Only explicitly bound conditions use this selected intake and mode. Complete requirements, applicant-category applicability and supporting evidence still need confirmation.', sourceUrl: programme.officialUrl });
   if (programme.selectedApplicant) checks.push({ kind: 'applicant', labelZh: '', labelEn: 'University applicant classification', mandatory: true, status: 'unknown', reasonZh: '', reasonEn: 'This category is selected by the user for fee/date comparison only. The university must confirm classification; it is not inferred from residence, nationality or academic background.', sourceUrl: programme.officialUrl });
   if (programme.admissionRoute === 'transfer_only') checks.push({ kind: 'route', labelZh: '申请路径', labelEn: 'Admission route', mandatory: true, status: 'fail', reasonZh: '仅限现有学生转入，不是新生直接申请项目。', reasonEn: 'Transfer-only for existing students; not open to direct new admission.', sourceUrl: programme.officialUrl });
   if (programme.directoryListing?.variants.length && !hasResolvedRoute(programme)) checks.push({ kind: 'route', labelZh: '', labelEn: 'Specific programme route', mandatory: true, status: 'unknown', reasonZh: '', reasonEn: 'The directory groups specialisations, languages or dual pathways. Select and verify one specific route; shared or sibling-route criteria cannot establish eligibility.', sourceUrl: programme.directoryListing.sourceUrl });

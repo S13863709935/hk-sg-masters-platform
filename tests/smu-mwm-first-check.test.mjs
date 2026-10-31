@@ -80,7 +80,7 @@ test('deadline-only observations preserve old whole-record dates and round/intak
   const spring = resolveProgramme(store.get(ci.programmeId), routes, undefined, ci.offeringId, undefined, contexts);
   assert.equal(spring.offerings[0].mode, 'Part-time'); assert.equal(spring.offerings[0].deadline, ci.deadline);
   assert.equal(programmeTimeline(spring, '2026-11-01').state, 'deadline_today'); assert.equal(programmeTimeline(spring, '2026-11-02').state, 'deadline_passed');
-  assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 267); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269); assert.equal(queue.counts.reviewRecordedInSource, 0);
 });
 
 test('expanded MWM catalogue ID migrates idempotently without changing preceding programmes, date-only spot-check parents or historical reports', () => {
@@ -121,6 +121,6 @@ test('actual matching/save/restore/export retains MWM post-degree/CFA exceptions
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined); assert.equal(detail.applicationTimeline.state, 'dates_incomplete');
   const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 174); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 15);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17);
   assert.equal(JSON.stringify(store.all()), before);
 });

@@ -114,7 +114,7 @@ test('all new source/category bindings are valid and do not invent more near-cut
   const q = loadRepositoryReviewQueue('2026-10-30');
   assert.equal(q.counts.programmePageRecords, 174); assert.equal(q.counts.remainingCatalogueLeads, 699);
   assert.equal(q.counts.applicantContexts, 78); assert.equal(q.counts.applicantCategories, 158);
-  assert.equal(q.counts.reviewUnits, 267); assert.equal(q.counts.staleApplicantContexts, 0);
+  assert.equal(q.counts.reviewUnits, 269); assert.equal(q.counts.staleApplicantContexts, 0);
   assert.equal(q.counts.nearCutoffUnits, 3); assert.equal(q.counts.reviewRecordedInSource, 0);
 });
 
