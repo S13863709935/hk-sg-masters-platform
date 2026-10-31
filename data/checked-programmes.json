@@ -45815,6 +45815,3135 @@
         }
       },
       "researchBatch": "hku-business-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P009",
+      "universityId": "HK-HKU",
+      "name": "MA Chinese Language and Literature",
+      "award": "MA",
+      "area": "Business",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. A good bachelor with Chinese/Chinese Language and Literature or a closely related subject, or accepted equivalent. Related subjects need assessment. Putonghua/Cantonese teaching does not itself waive English evidence. Possible qualifying examination/interview; no numeric GPA or fixed work years established.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P009-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 238200,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-29",
+              "deadlineAt": "2027-01-29T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 238,200. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. School fee table identifies the whole one-year FT/two-year PT total, paid in two/four instalments respectively. Caution money and other charges are separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://macll.chinese.hku.hk/zh-hant/admission/fee_and_government_grant_loan_scheme/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        },
+        {
+          "id": "HK-HKU-P009-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 238200,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-29",
+              "deadlineAt": "2027-01-29T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact part-time option: HKD 238,200. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. School fee table identifies the whole one-year FT/two-year PT total, paid in two/four instalments respectively. Caution money and other charges are separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://macll.chinese.hku.hk/zh-hant/admission/fee_and_government_grant_loan_scheme/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0",
+          "accepted": [
+            "Chinese",
+            "Chinese Language and Literature"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://macll.chinese.hku.hk/zh-hant/admission/requirement/",
+          "noteZh": "",
+          "noteEn": "A good bachelor with Chinese/Chinese Language and Literature or a closely related subject, or accepted equivalent. Related subjects need assessment. Putonghua/Cantonese teaching does not itself waive English evidence. Possible qualifying examination/interview; no numeric GPA or fixed work years established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. No examination-format ban is inferred from another programme. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://macll.chinese.hku.hk/zh-hant/admission/requirement/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://macll.chinese.hku.hk/zh-hant/admission/fee_and_government_grant_loan_scheme/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A good bachelor with Chinese/Chinese Language and Literature or a closely related subject, or accepted equivalent. Related subjects need assessment. Putonghua/Cantonese teaching does not itself waive English evidence. Possible qualifying examination/interview; no numeric GPA or fixed work years established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://macll.chinese.hku.hk/zh-hant/admission/fee_and_government_grant_loan_scheme/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P011",
+      "universityId": "HK-HKU",
+      "name": "MA Translation",
+      "award": "MA",
+      "area": "Arts & Humanities",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. A good bachelor or equivalent; an equivalent professional qualification may also be considered. No exclusive major is established in the consulted entry section. Possible qualifying examination/interview; teaching in English, Cantonese and/or Putonghua requires readiness beyond an English score. Translation/interpreting capstones remain one taught award.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P011-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 238200,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-02-02",
+              "deadlineAt": "2027-02-02T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 238,200. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "A good bachelor or equivalent; an equivalent professional qualification may also be considered. No exclusive major is established in the consulted entry section. Possible qualifying examination/interview; teaching in English, Cantonese and/or Putonghua requires readiness beyond an English score. Translation/interpreting capstones remain one taught award.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. No examination-format ban is inferred from another programme. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "A good bachelor or equivalent; an equivalent professional qualification may also be considered. No exclusive major is established in the consulted entry section. Possible qualifying examination/interview; teaching in English, Cantonese and/or Putonghua requires readiness beyond an English score. Translation/interpreting capstones remain one taught award.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P030",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Applied Linguistics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. The portal requires a good bachelor/equivalent and possible writing test/interview. The CAES programme audience includes current/former English teachers and non-teaching language professionals; it does not establish a fixed work-year floor. Prior language/education experience and equivalence need assessment. Advanced standing is not a guaranteed waiver or tuition discount.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P030-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 271200,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-24",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-30",
+              "deadlineAt": "2026-12-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-02-24",
+              "deadlineAt": "2027-02-24T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 271,200. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. CAES fee page currently quotes 2026-entry tuition 263,200/228,300; those older totals are not substituted for current portal 271,200/235,200. Its separately quoted one-time application fee is 780; confirm current payment instructions.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. Applied Linguistics clearing closes 24 February for FT and 24 March for PT; do not copy one mode to the other."
+        },
+        {
+          "id": "HK-HKU-P030-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 235200,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-24",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-30",
+              "deadlineAt": "2026-12-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-24",
+              "deadlineAt": "2027-03-24T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact part-time option: HKD 235,200. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. CAES fee page currently quotes 2026-entry tuition 263,200/228,300; those older totals are not substituted for current portal 271,200/235,200. Its separately quoted one-time application fee is 780; confirm current payment instructions.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. Applied Linguistics clearing closes 24 February for FT and 24 March for PT; do not copy one mode to the other."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://caes.hku.hk/maal/",
+          "noteZh": "",
+          "noteEn": "The portal requires a good bachelor/equivalent and possible writing test/interview. The CAES programme audience includes current/former English teachers and non-teaching language professionals; it does not establish a fixed work-year floor. Prior language/education experience and equivalence need assessment. Advanced standing is not a guaranteed waiver or tuition discount.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Current supporting checklist and timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R83&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Current 2027/28 supporting checklist: provide documents within one month from application and all documents/electronic references no later than closing. Two academic referees must use official university/company email, not personal email. Academic/grading, qualification, applicable English and identity evidence and any translations follow the checklist. Application date and school acceptance are not captured; no personal deadline or document verification is fabricated. The advanced-standing appendix allows assessed six-credit core-course exemption for comparable postgraduate study within five years, with NO composition-fee reduction.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://caes.hku.hk/maal/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://caes.hku.hk/maal/fees-and-scholarships/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R83&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "The portal requires a good bachelor/equivalent and possible writing test/interview. The CAES programme audience includes current/former English teachers and non-teaching language professionals; it does not establish a fixed work-year floor. Prior language/education experience and equivalence need assessment. Advanced standing is not a guaranteed waiver or tuition discount.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P031",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Art History",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. Art History major OR a bachelor in another subject with substantial art-related experience. The alternative route is assessed, not rejected because the major differs. English statement up to 1,000 words, academic/professional writing sample up to 5,000 words including notes/bibliography, CV and two referees (at least one academic); possible interview. A taught dissertation does not turn this MA into MPhil.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P031-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 303800,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-05-17",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-28",
+              "deadlineAt": "2026-12-28T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-05-17",
+              "deadlineAt": "2027-05-17T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 303,800. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0",
+          "accepted": [
+            "Art History"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://arthistory.hku.hk/index.php/academic-programmes/master-of-arts-in-art-history/ma-application/",
+          "noteZh": "",
+          "noteEn": "Art History major OR a bachelor in another subject with substantial art-related experience. The alternative route is assessed, not rejected because the major differs. English statement up to 1,000 words, academic/professional writing sample up to 5,000 words including notes/bibliography, CV and two referees (at least one academic); possible interview. A taught dissertation does not turn this MA into MPhil.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. No examination-format ban is inferred from another programme. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://arthistory.hku.hk/index.php/academic-programmes/master-of-arts-in-art-history/ma-application/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Art History major OR a bachelor in another subject with substantial art-related experience. The alternative route is assessed, not rejected because the major differs. English statement up to 1,000 words, academic/professional writing sample up to 5,000 words including notes/bibliography, CV and two referees (at least one academic); possible interview. A taught dissertation does not turn this MA into MPhil.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P032",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Chinese Historical Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. The programme explicitly accepts any undergraduate discipline, subject to good degree/equivalence and possible assessment/interview. Putonghua/Cantonese/English teaching readiness remains assessed. Chinese Historical Studies is the named Arts English exception: do not impose ordinary Arts IELTS 7 or TOEFL Writing 25/5. English-medium/local evidence still needs acceptance.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P032-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 238200,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-02-02",
+              "deadlineAt": "2027-02-02T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 238,200. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. School fee table identifies the whole one-year FT/two-year PT total, paid in two/four instalments respectively. Caution money and other charges are separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://machs.chinese.hku.hk/zh-hant/admission/fee_and_government_grant_loan_scheme/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        },
+        {
+          "id": "HK-HKU-P032-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 238200,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-02-02",
+              "deadlineAt": "2027-02-02T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact part-time option: HKD 238,200. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. School fee table identifies the whole one-year FT/two-year PT total, paid in two/four instalments respectively. Caution money and other charges are separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://machs.chinese.hku.hk/zh-hant/admission/fee_and_government_grant_loan_scheme/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicitly accepts all undergraduate disciplines",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://machs.chinese.hku.hk/zh-hant/admission/requirement/",
+          "noteZh": "",
+          "noteEn": "The programme explicitly accepts any undergraduate discipline, subject to good degree/equivalence and possible assessment/interview. Putonghua/Cantonese/English teaching readiness remains assessed. Chinese Historical Studies is the named Arts English exception: do not impose ordinary Arts IELTS 7 or TOEFL Writing 25/5. English-medium/local evidence still needs acceptance.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. Retake/combined-score and unrecorded test formats remain to be checked. Chinese Historical Studies uses the named Arts exception, not a blanket English exemption.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Current supporting checklist and timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R299&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Current 2027/28 supporting checklist: provide documents within one month from application and all documents/electronic references no later than closing. Two academic referees must use official university/company email, not personal email. Academic/grading, qualification, applicable English and identity evidence and any translations follow the checklist. Application date and school acceptance are not captured; no personal deadline or document verification is fabricated.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://machs.chinese.hku.hk/zh-hant/admission/requirement/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://machs.chinese.hku.hk/zh-hant/admission/fee_and_government_grant_loan_scheme/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R299&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "The programme explicitly accepts any undergraduate discipline, subject to good degree/equivalence and possible assessment/interview. Putonghua/Cantonese/English teaching readiness remains assessed. Chinese Historical Studies is the named Arts English exception: do not impose ordinary Arts IELTS 7 or TOEFL Writing 25/5. English-medium/local evidence still needs acceptance.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://machs.chinese.hku.hk/zh-hant/admission/fee_and_government_grant_loan_scheme/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P034",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Creative Communications",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. All disciplines are encouraged. The portal asks for an extended creative personal statement described as approximately 500-750 words, plus a PDF portfolio of at most 12 pages/5 MB; finalists interview. These are assessed materials, not profile-computable scores. The English School site contains mixed scholarship/cohort and curriculum-table text; do not turn those into fees, GPA or entry-credit requirements.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P034-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 303700,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-03-19",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-11-27",
+              "deadlineAt": "2026-11-27T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-19",
+              "deadlineAt": "2027-03-19T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 303,700. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicitly accepts all undergraduate disciplines",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://english.hku.hk/Postgraduate/MACC/MACC_2027-28_Full-time",
+          "noteZh": "",
+          "noteEn": "All disciplines are encouraged. The portal asks for an extended creative personal statement described as approximately 500-750 words, plus a PDF portfolio of at most 12 pages/5 MB; finalists interview. These are assessed materials, not profile-computable scores. The English School site contains mixed scholarship/cohort and curriculum-table text; do not turn those into fees, GPA or entry-credit requirements.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. The current School of English rules reject IELTS One Skill Retake and TOEFL MyBest; the profile cannot capture every format/retake condition, which still needs documentary review. Single-attempt confirmation means a whole-exam result, not a ban on multiple attempts. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://english.hku.hk/Postgraduate/MACC/MACC_2027-28_Full-time",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "All disciplines are encouraged. The portal asks for an extended creative personal statement described as approximately 500-750 words, plus a PDF portfolio of at most 12 pages/5 MB; finalists interview. These are assessed materials, not profile-computable scores. The English School site contains mixed scholarship/cohort and curriculum-table text; do not turn those into fees, GPA or entry-credit requirements.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P035",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in East Asian Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. Current programme admissions names Japanese, Korean, East Asian Studies and related disciplines including Anthropology, Cultural Studies, History, Linguistics, Literature, Media Studies, Politics and Sociology. Evidence of Japanese JLPT N2+, Korean TOPIK 4+, or Russian TORFL II+ is required. The portal generic CEFL B2 wording is not a substitute for this exact language list. Two academic referees, personal statement/CV, possible test/interview remain assessed. Elective field-trip opportunities are not evidence that every student must leave Hong Kong.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P035-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 275600,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-14",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-11-27",
+              "deadlineAt": "2026-11-27T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-04-14",
+              "deadlineAt": "2027-04-14T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 275,600. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://www.maeas.hku.hk/admissions",
+          "accepted": [
+            "Japanese",
+            "Korean",
+            "East Asian Studies",
+            "Anthropology",
+            "Cultural Studies",
+            "History",
+            "Linguistics",
+            "Literature",
+            "Media Studies",
+            "Politics",
+            "Sociology"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://www.maeas.hku.hk/admissions",
+          "noteZh": "",
+          "noteEn": "Current programme admissions names Japanese, Korean, East Asian Studies and related disciplines including Anthropology, Cultural Studies, History, Linguistics, Literature, Media Studies, Politics and Sociology. Evidence of Japanese JLPT N2+, Korean TOPIK 4+, or Russian TORFL II+ is required. The portal generic CEFL B2 wording is not a substitute for this exact language list. Two academic referees, personal statement/CV, possible test/interview remain assessed. Elective field-trip opportunities are not evidence that every student must leave Hong Kong.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://www.maeas.hku.hk/admissions",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://www.maeas.hku.hk/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Current programme admissions names Japanese, Korean, East Asian Studies and related disciplines including Anthropology, Cultural Studies, History, Linguistics, Literature, Media Studies, Politics and Sociology. Evidence of Japanese JLPT N2+, Korean TOPIK 4+, or Russian TORFL II+ is required. The portal generic CEFL B2 wording is not a substitute for this exact language list. Two academic referees, personal statement/CV, possible test/interview remain assessed. Elective field-trip opportunities are not evidence that every student must leave Hong Kong.",
+          "sourceUrl": "https://www.maeas.hku.hk/admissions"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P036",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in English Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. Current 2027/28 School of English requirements specify English or a closely related major, although the central portal summary gives only a good bachelor. Preserve the specific major condition; related/equivalent backgrounds need assessment. A personal statement, English writing sample and possible interview are additional evidence. Old part-time pages do not create a current PT option.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P036-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 273800,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-03-19",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-11-27",
+              "deadlineAt": "2026-11-27T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-19",
+              "deadlineAt": "2027-03-19T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 273,800. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://english.hku.hk/Postgraduate/MAES/2027-28_Full-Time",
+          "accepted": [
+            "English"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://english.hku.hk/Postgraduate/MAES/2027-28_Full-Time",
+          "noteZh": "",
+          "noteEn": "Current 2027/28 School of English requirements specify English or a closely related major, although the central portal summary gives only a good bachelor. Preserve the specific major condition; related/equivalent backgrounds need assessment. A personal statement, English writing sample and possible interview are additional evidence. Old part-time pages do not create a current PT option.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. The current School of English rules reject IELTS One Skill Retake and TOEFL MyBest; the profile cannot capture every format/retake condition, which still needs documentary review. Single-attempt confirmation means a whole-exam result, not a ban on multiple attempts. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://english.hku.hk/Postgraduate/MAES/2027-28_Full-Time",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Current 2027/28 School of English requirements specify English or a closely related major, although the central portal summary gives only a good bachelor. Preserve the specific major condition; related/equivalent backgrounds need assessment. A personal statement, English writing sample and possible interview are additional evidence. Old part-time pages do not create a current PT option.",
+          "sourceUrl": "https://english.hku.hk/Postgraduate/MAES/2027-28_Full-Time"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P037",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in European Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. Current programme admissions names European Studies and related disciplines including Anthropology, Cultural Studies, History, Linguistics, Literature, Media Studies, Politics and Sociology. Evidence of French/German/Spanish CEFR B2+ or Russian TORFL II+ is required. The portal generic CEFL B2 wording does not establish acceptance of another regional language. Two academic referees, statement/CV, possible test/interview remain assessed. Elective travel opportunities are not imposed as universal delivery.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P037-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 275600,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-14",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-11-27",
+              "deadlineAt": "2026-11-27T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-04-14",
+              "deadlineAt": "2027-04-14T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 275,600. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://www.maeus.hku.hk/admissions",
+          "accepted": [
+            "European Studies",
+            "Anthropology",
+            "Cultural Studies",
+            "History",
+            "Linguistics",
+            "Literature",
+            "Media Studies",
+            "Politics",
+            "Sociology"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://www.maeus.hku.hk/admissions",
+          "noteZh": "",
+          "noteEn": "Current programme admissions names European Studies and related disciplines including Anthropology, Cultural Studies, History, Linguistics, Literature, Media Studies, Politics and Sociology. Evidence of French/German/Spanish CEFR B2+ or Russian TORFL II+ is required. The portal generic CEFL B2 wording does not establish acceptance of another regional language. Two academic referees, statement/CV, possible test/interview remain assessed. Elective travel opportunities are not imposed as universal delivery.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://www.maeus.hku.hk/admissions",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://www.maeus.hku.hk/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Current programme admissions names European Studies and related disciplines including Anthropology, Cultural Studies, History, Linguistics, Literature, Media Studies, Politics and Sociology. Evidence of French/German/Spanish CEFR B2+ or Russian TORFL II+ is required. The portal generic CEFL B2 wording does not establish acceptance of another regional language. Two academic referees, statement/CV, possible test/interview remain assessed. Elective travel opportunities are not imposed as universal delivery.",
+          "sourceUrl": "https://www.maeus.hku.hk/admissions"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P038",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Hong Kong Cultural Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. A good bachelor majoring in Hong Kong Studies, Chinese Literature and Culture, or a related subject; related equivalence needs assessment. Possible interview. Courses are primarily English with Chinese supplementation. Do not substitute Hong Kong History, Chinese Language and Literature, or their fee/entry rules.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P038-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 230900,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-29",
+              "deadlineAt": "2027-01-29T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 230,900. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0",
+          "accepted": [
+            "Hong Kong Studies",
+            "Chinese Literature and Culture"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "A good bachelor majoring in Hong Kong Studies, Chinese Literature and Culture, or a related subject; related equivalence needs assessment. Possible interview. Courses are primarily English with Chinese supplementation. Do not substitute Hong Kong History, Chinese Language and Literature, or their fee/entry rules.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. No examination-format ban is inferred from another programme. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A good bachelor majoring in Hong Kong Studies, Chinese Literature and Culture, or a related subject; related equivalence needs assessment. Possible interview. Courses are primarily English with Chinese supplementation. Do not substitute Hong Kong History, Chinese Language and Literature, or their fee/entry rules.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P039",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Hong Kong History",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. History major OR another bachelor with experience studying history. The experience alternative is not an automatic rejection for another degree and has no published numeric work-year substitute. The school page still says 2027/28 tuition to be confirmed and quotes 2026/27 annual PT fees; the portal proposed 2027 amount is recorded explicitly as provisional, not approved. English instruction and capstone research do not imply MPhil or assured PhD entry.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P039-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 259600,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-05-05",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-05-05",
+              "deadlineAt": "2027-05-05T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 259,600. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. Portal proposes 259,600 for each mode, while school 2027/28 rates remain To be confirmed; its 2026/27 249,600 FT /124,800 per PT year are not current totals or added on top. Exact current confirmation is outstanding.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        },
+        {
+          "id": "HK-HKU-P039-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 259600,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-05-05",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-05-05",
+              "deadlineAt": "2027-05-05T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact part-time option: HKD 259,600. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. Portal proposes 259,600 for each mode, while school 2027/28 rates remain To be confirmed; its 2026/27 249,600 FT /124,800 per PT year are not current totals or added on top. Exact current confirmation is outstanding.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0",
+          "accepted": [
+            "History"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://www.history.hku.hk/ma-hong-kong-history",
+          "noteZh": "",
+          "noteEn": "History major OR another bachelor with experience studying history. The experience alternative is not an automatic rejection for another degree and has no published numeric work-year substitute. The school page still says 2027/28 tuition to be confirmed and quotes 2026/27 annual PT fees; the portal proposed 2027 amount is recorded explicitly as provisional, not approved. English instruction and capstone research do not imply MPhil or assured PhD entry.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. No examination-format ban is inferred from another programme. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://www.history.hku.hk/ma-hong-kong-history",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "History major OR another bachelor with experience studying history. The experience alternative is not an automatic rejection for another degree and has no published numeric work-year substitute. The school page still says 2027/28 tuition to be confirmed and quotes 2026/27 annual PT fees; the portal proposed 2027 amount is recorded explicitly as provisional, not approved. English instruction and capstone research do not imply MPhil or assured PhD entry.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "Current mode-specific provisional portal quotation; school 2027/28 fee to be confirmed and old annual PT amount remain explicit.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P040",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Linguistics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. The current portal names Linguistics or a closely related subject. The department page last updated in 2025 describes that major as preferred and uses Division 2 wording; resolve the source/qualification applicability rather than converting it into a GPA or universal honours threshold. Closely related fields and qualifying examination/interview remain assessed.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P040-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 281300,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": "2027-03-31T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 281,300. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0",
+          "accepted": [
+            "Linguistics"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://linguistics.hku.hk/degree-programs/graduate/masters-programme-ma/admissions/",
+          "noteZh": "",
+          "noteEn": "The current portal names Linguistics or a closely related subject. The department page last updated in 2025 describes that major as preferred and uses Division 2 wording; resolve the source/qualification applicability rather than converting it into a GPA or universal honours threshold. Closely related fields and qualifying examination/interview remain assessed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://linguistics.hku.hk/degree-programs/graduate/masters-programme-ma/admissions/",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "The current portal names Linguistics or a closely related subject. The department page last updated in 2025 describes that major as preferred and uses Division 2 wording; resolve the source/qualification applicability rather than converting it into a GPA or universal honours threshold. Closely related fields and qualifying examination/interview remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P041",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Literary and Cultural Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. The portal explicitly accepts any discipline. A mixed-year departmental page also uses BA Division 2 (2B) wording; that older lower section is not silently imposed as a current numeric GPA/honours gate. Current 2027/28 scanned checklist requires one recent English writing sample of 1,000-1,200 words with word count, Times New Roman 12, PDF; it is separate from a personal statement. Two academic referees and assessment/interview remain required evidence. Optional Literary/Cultural or Film/Media transcript streams remain one degree.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P041-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 273800,
+          "applicationFee": null,
+          "applicationOpen": "2026-10-12",
+          "deadline": "2027-03-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-10-12",
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-10-12",
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 273,800. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. Portal 273,800 FT/220,700 PT is current; departmental lower fee table explicitly says 2025/26 at 263,200/212,200 and application fee 600. That old table does not establish current application fee, which stays unknown.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. The current header gives opening 12 October 2026 at NOON; the opening field stores calendar-date precision only and does not verify intraday opening or live availability. Lower-page 2025/2026 dates and March 2026 scholarship cutoff are not the current admissions cycle. "
+        },
+        {
+          "id": "HK-HKU-P041-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 220700,
+          "applicationFee": null,
+          "applicationOpen": "2026-10-12",
+          "deadline": "2027-03-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-10-12",
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-10-12",
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact part-time option: HKD 220,700. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate. Portal 273,800 FT/220,700 PT is current; departmental lower fee table explicitly says 2025/26 at 263,200/212,200 and application fee 600. That old table does not establish current application fee, which stays unknown.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. The current header gives opening 12 October 2026 at NOON; the opening field stores calendar-date precision only and does not verify intraday opening or live availability. Lower-page 2025/2026 dates and March 2026 scholarship cutoff are not the current admissions cycle. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicitly accepts all undergraduate disciplines",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://complit.hku.hk/malcs/admissions.html",
+          "noteZh": "",
+          "noteEn": "The portal explicitly accepts any discipline. A mixed-year departmental page also uses BA Division 2 (2B) wording; that older lower section is not silently imposed as a current numeric GPA/honours gate. Current 2027/28 scanned checklist requires one recent English writing sample of 1,000-1,200 words with word count, Times New Roman 12, PDF; it is separate from a personal statement. Two academic referees and assessment/interview remain required evidence. Optional Literary/Cultural or Film/Media transcript streams remain one degree.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Current supporting checklist and timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R302&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Current 2027/28 supporting checklist: provide documents within one month from application and all documents/electronic references no later than closing. Two academic referees must use official university/company email, not personal email. Academic/grading, qualification, applicable English and identity evidence and any translations follow the checklist. Application date and school acceptance are not captured; no personal deadline or document verification is fabricated. The checklist is scanned: pages one and two were rendered and read visually. Its current writing-sample rule is retained separately from the mixed-year website.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://complit.hku.hk/malcs/admissions.html",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R302&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "The portal explicitly accepts any discipline. A mixed-year departmental page also uses BA Division 2 (2B) wording; that older lower section is not silently imposed as a current numeric GPA/honours gate. Current 2027/28 scanned checklist requires one recent English writing sample of 1,000-1,200 words with word count, Times New Roman 12, PDF; it is separate from a personal statement. Two academic referees and assessment/interview remain required evidence. Optional Literary/Cultural or Film/Media transcript streams remain one degree.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P042",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Music Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. Music major OR a bachelor in another subject with relevant musical experience. The alternative cannot be rejected solely from the undergraduate title; musical experience is not an employment-years threshold. Current portal start month is To be updated. Curriculum and careers do not imply a professional licence or guaranteed admission.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P042-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry (start month unconfirmed)",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 281300,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 281,300. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0",
+          "accepted": [
+            "Music"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Music major OR a bachelor in another subject with relevant musical experience. The alternative cannot be rejected solely from the undergraduate title; musical experience is not an employment-years threshold. Current portal start month is To be updated. Curriculum and careers do not imply a professional licence or guaranteed admission.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. No examination-format ban is inferred from another programme. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Music major OR a bachelor in another subject with relevant musical experience. The alternative cannot be rejected solely from the undergraduate title; musical experience is not an employment-years threshold. Current portal start month is To be updated. Curriculum and careers do not imply a professional licence or guaranteed admission.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P043",
+      "universityId": "HK-HKU",
+      "name": "Master of Arts in Philosophy, Politics and Economics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. A good bachelor majoring in Philosophy, Politics or Economics OR another degree with experience studying at least one of those subjects. Prior-study evidence is not a numeric employment-years test. The three fields form one PPE award, not three extra degrees or an assumed requirement to major in all three.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P043-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 312000,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-22",
+              "deadlineAt": "2027-01-22T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 312,000. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Named major route; alternatives require evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0",
+          "accepted": [
+            "Philosophy",
+            "Politics",
+            "Economics"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "A good bachelor majoring in Philosophy, Politics or Economics OR another degree with experience studying at least one of those subjects. Prior-study evidence is not a numeric employment-years test. The three fields form one PPE award, not three extra degrees or an assumed requirement to major in all three.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. No examination-format ban is inferred from another programme. Retake/combined-score and unrecorded test formats remain to be checked. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Unresolved supporting evidence and completeness",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Read the current exact programme checklist before applying. Reference, personal statement, portfolio, translations and individual timing are only established where explicitly noted above; another programme checklist is not substituted. No numeric GPA, universal honours classification, employment-year floor, scholarship or personal admission eligibility is inferred.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "A good bachelor majoring in Philosophy, Politics or Economics OR another degree with experience studying at least one of those subjects. Prior-study evidence is not a numeric employment-years test. The three fields form one PPE award, not three extra degrees or an assumed requirement to major in all three.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P058",
+      "universityId": "HK-HKU",
+      "name": "Master of Fine Arts in Creative Writing in English",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial programme-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact official portal/mode reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial 2027-intake humanities observation. All fields are welcomed; Arts/Humanities backgrounds are encouraged rather than mandatory. Current checklist requires original English creative work/work in progress up to 10 pages/5 MB and a separate 250-300-word personal statement. Shortlisted candidates interview. Do not copy Creative Communications 12-page portfolio or its 500-750-word statement into this MFA. The creative dissertation remains part of a taught master.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P058-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 320100,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-03-19",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-11-27",
+              "deadlineAt": "2026-11-27T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-19",
+              "deadlineAt": "2027-03-19T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional 2027-intake composition fee for this exact full-time option: HKD 320,100. No annual/maximum-duration multiplier, scholarship deduction, automatic exemption discount or local/non-local tier is invented. Instalment schedules, extra charges and approval remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Exact published 2027-intake noon GMT+8 cutoffs for this study mode; latest recorded round is not a guarantee against changes, capacity closure or later rounds. Exact opening remains unconfirmed; generic Apply Now wording does not prove live availability. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised good bachelor or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicitly accepts all undergraduate disciplines",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Arts English route with exact exception and test-version conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "componentMins": {
+                "writing": 25
+              },
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "componentMins": {
+                "writing": 5
+              },
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://english.hku.hk/Postgraduate/MFA/MFA_2027-28_Full-time",
+          "noteZh": "",
+          "noteEn": "All fields are welcomed; Arts/Humanities backgrounds are encouraged rather than mandatory. Current checklist requires original English creative work/work in progress up to 10 pages/5 MB and a separate 250-300-word personal statement. Shortlisted candidates interview. Do not copy Creative Communications 12-page portfolio or its 500-750-word statement into this MFA. The creative dissertation remains part of a taught master.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium qualification, institutional recognition and exceptional waivers need university acceptance. Published test-date minimum is 1 September 2025 inclusive for the 2027 intake. Programme-specific PDF/department evidence rejects TOEFL Home and IELTS Indicator; the TOEFL format restriction is applied per test. The current School of English rules reject IELTS One Skill Retake and TOEFL MyBest; the profile cannot capture every format/retake condition, which still needs documentary review. Single-attempt confirmation means a whole-exam result, not a ban on multiple attempts. Arts IELTS 7/each 5.5 and TOEFL Writing 25 (old) or 5 (new) apply where English evidence is required.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Current supporting checklist and timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R272&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Current 2027/28 supporting checklist: provide documents within one month from application and all documents/electronic references no later than closing. Two academic referees must use official university/company email, not personal email. Academic/grading, qualification, applicable English and identity evidence and any translations follow the checklist. Application date and school acceptance are not captured; no personal deadline or document verification is fabricated.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://english.hku.hk/Postgraduate/MFA/MFA_2027-28_Full-time",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R272&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-10-31",
+          "purpose": "Exact portal/mode identity, provisional fee and noon rounds; shared English rule or expressly noted department/PDF evidence, with mixed-cohort limits retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Explicit 2027 intake; September retained only where shown. Literary/Cultural and Music portal start month remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "All fields are welcomed; Arts/Humanities backgrounds are encouraged rather than mandatory. Current checklist requires original English creative work/work in progress up to 10 pages/5 MB and a separate 250-300-word personal statement. Shortlisted candidates interview. Do not copy Creative Communications 12-page portfolio or its 500-750-word statement into this MFA. The creative dissertation remains part of a taught master.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA minimum established from the consulted current entry section; good degree, old Division 2 language and scholarships are not converted to a numeric GPA.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Chinese Historical Studies exception 6/5.5 and no Arts Writing floor; other records Arts 7/5.5 with TOEFL Writing 25/5. Applicability, waiver and unrecorded formats remain assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Current mode-specific provisional portal quotation; unverified application fees, payment details, category differences and older tables are not silently filled.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Exact published noon rounds; mode differences and current versus old page sections remain separate. No live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no independent reviewer or complete admission eligibility.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-humanities-2026-10-31"
     }
   ]
 }

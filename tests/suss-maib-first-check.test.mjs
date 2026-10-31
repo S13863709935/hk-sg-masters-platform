@@ -108,7 +108,7 @@ test('earlier MHSc same-day archives are immutable and MAIB creates no actionabl
   };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash('sha256').update(readFileSync(new URL('docs/research/' + file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
   const queue = loadRepositoryReviewQueue('2026-10-27');
-  assert.equal(queue.counts.programmePageRecords, 251); assert.equal(queue.counts.reviewUnits, 461); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  assert.equal(queue.counts.programmePageRecords, 267); assert.equal(queue.counts.reviewUnits, 477); assert.equal(queue.counts.reviewRecordedInSource, 0);
   assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -124,7 +124,7 @@ test('first MAIB source migration preserves other records and old catalogue evid
       db = new CatalogueStore(path, { ...options, checkedPath });
       assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory);
       assert.deepEqual(db.all().filter(x => x.id !== p.id), previous); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 251); db.close(); db = null;
+      assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 267); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -148,7 +148,7 @@ test('real API, saving and exports preserve each explicit pathway, unresolved fe
     assert.equal(exported.offerings[0].id, o.id); assert.equal(exported.offerings[0].tuition, null); assert.equal(exported.offerings[0].deadline, null);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 251);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 267);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 184, categories: 370, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 26);
   assert.equal(JSON.stringify(store.all()), before);

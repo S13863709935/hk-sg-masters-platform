@@ -61,7 +61,7 @@ test('explicit September openings plus May-only closes never become complete win
     }
     assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   }
-  assert.equal(queue.counts.programmePageRecords, 251); assert.equal(queue.counts.reviewUnits, 461);
+  assert.equal(queue.counts.programmePageRecords, 267); assert.equal(queue.counts.reviewUnits, 477);
 });
 
 test('distinct statements, overseas residency, curriculum versions and deposit tax bases survive selection without stale fees or automatic funding', () => {
@@ -94,7 +94,7 @@ test('two existing catalogue IDs migrate idempotently without rewriting older pr
       db = new CatalogueStore(path, { ...options, checkedPath });
       for (const [i, id] of obs.programmeIds.entries()) { assert.equal(db.get(id).verification, 'programme_page_checked'); assert.deepEqual(db.get(id).directoryListing, listings[i]); }
       assert.deepEqual(db.all().filter(p => !obs.programmeIds.includes(p.id)), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      assert.equal(db.quality().checked, 251); db.close(); db = null;
+      assert.equal(db.quality().checked, 267); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -119,7 +119,7 @@ test('actual matching, saved-choice restore and export preserve separate MEI/MBA
     assert.match(exported.evidence.publishedRequirements.find(r => /Flexible experience/.test(r.labelEn)).noteEn, /neither a one-year floor nor five-year cap/);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined); assert.equal(detail.applicationTimeline.state, 'dates_incomplete');
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 251); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 267); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
   assert.deepEqual(applicantSummary(contexts), { studyOptions: 184, categories: 370, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 26);
   assert.equal(JSON.stringify(store.all()), before);

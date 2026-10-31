@@ -8,18 +8,18 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 869 条；251 条有部分官方项目页观察，622 条仍为目录线索。完整要求集和独立人工复核均为 0。
-- 10 组／26 条方向快照、184 组／370 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 461 个单元，4 个单元的记录截止临近，失配绑定为 0。
-- 本轮为港大 12 个专业硕士与普通 MBA 补入部分资料，共 13 个既有项目、14 个学习选项；港大为 31 个部分观察父记录／72 条线索。专业硕士仅录明确的全日制；统一收费表未分本地／非本地，不虚构类别差价。
-- 专业硕士 TOEFL Home Edition 限制按具体考试比较，IELTS 单科重考仍需材料确认。MBA 全日制 IELTS 6.5、香港兼读 6.0；工作经历的毕业后／全职／截至 2027 年 8 月条件、必需 GMAT 等测试及可能豁免仍待学校审核。
-- 专业硕士 12 月 4 日和 MBA 11 月 9 日均为已公布轮次，记录正午时点，不冒充整个申请季最终期限或实时开放。门户预期两年与部分一年培养文字的差异、付款周期及额外费用均保留说明。MBA 全日制仍含沪京一周必需活动，不宣称纯香港完成；香港兼读与大湾区模式分开。
+- 14 校、873 条目录记录，默认可浏览 869 条；267 条有部分官方项目页观察，606 条仍为目录线索。完整要求集和独立人工复核均为 0。
+- 10 组／26 条方向快照、184 组／370 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 477 个单元，4 个单元的记录截止临近，失配绑定为 0。
+- 本轮为港大 16 个语言与人文项目补入部分资料，共 21 个学习选项；港大为 47 个部分观察父记录／56 条线索。五个项目有明确兼读模式；应用语言学 FT／PT 费用与清算轮分别记录。
+- 中国历史研究保留文学院英语例外；其他本批课程分别记录 IELTS 7／单项 5.5 和 TOEFL 写作要求。区域语言证明、其他专业加相关经历的替代条件、MAES 具体专业要求及作品材料继续单独确认。
+- MALCS 当前页首／扫描清单与旧年份页面正文分开；香港历史的门户拟定学费与学院待确认状态并列。文学文化及音乐的入学月份仍未知，未确定的申请费不补数字。全部轮次保留正午时点，不保证实时开放、奖学金或录取。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。20 个原核心 ID、71 种选择与 7 个合成背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 本轮只在本地保存，不自动推送。建议在下一周检查点统一发布一个可审阅的完整批次；最近已发布的 W6 检查点保持不变。
 
-[HKU 质量表](docs/research/hku-business-quality-2026-10-31.md) · [461 单元维护清单](docs/research/source-review-queue-2026-10-31-hku-business.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hku-business.md) · [本批改动与限制](docs/progress/local-hku-business-2026-10-31.md)
+[HKU 质量表](docs/research/hku-humanities-quality-2026-10-31.md) · [477 单元维护清单](docs/research/source-review-queue-2026-10-31-hku-humanities.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hku-humanities.md) · [本批改动与限制](docs/progress/local-hku-humanities-2026-10-31.md)
 
-[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
+[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
 ## 本地运行
 

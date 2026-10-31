@@ -174,7 +174,7 @@ test('read-only category use does not alter raw records or increase programme re
   const before = JSON.stringify([store.get(cu), store.get(bu)]);
   resolve(cu, 1, 'LOCAL'); resolve(bu, 1, 'NONLOCAL');
   const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 184, categories: 370, peerReviewed: 0 });
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 251);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 267);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.equal(JSON.stringify([store.get(cu), store.get(bu)]), before);
 });
