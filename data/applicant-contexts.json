@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-31",
+  "checkedOn": "2026-11-01",
   "contexts": [
     {
       "programmeId": "HK-EDUHK-P001",
@@ -11916,6 +11916,180 @@
               "applicationOpen": null,
               "deadline": "2027-03-01",
               "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P064",
+      "routeId": null,
+      "offeringId": "HK-HKU-P064-2027-FT",
+      "offeringFingerprint": "8ee6ef0e11283f943abce6b9d8c37583002b00ab5429394f06f4b53b2fb29a2f",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-chemical-technologies-for-health-and-materials-sci&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-01",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.scifac.hku.hk/prospective/tpg/MSCTHM",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact September 2027 FT and university applicant category only. Current local/non-local deadlines differ; both retain the same published composition fee. Category selection does not establish university classification, visa eligibility or admission. Other charges, documents and live portal state remain to confirm.",
+      "options": [
+        {
+          "id": "HK-HKU-P064-2027-FT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 293100,
+          "feeBasis": "Published composition/mode quote HKD 293,100; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole 1.5-year programme paid in THREE instalments, not three times 293,100.",
+          "applicationFee": null,
+          "applicationOpen": "2026-10-27",
+          "deadline": "2027-06-30",
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language. Exact selected category deadline retained; no personal category approval.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-27",
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P064-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 293100,
+          "feeBasis": "Published composition/mode quote HKD 293,100; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole 1.5-year programme paid in THREE instalments, not three times 293,100.",
+          "applicationFee": null,
+          "applicationOpen": "2026-10-27",
+          "deadline": "2027-04-30",
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language. Exact selected category deadline retained; no personal category approval.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-27",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P085",
+      "routeId": null,
+      "offeringId": "HK-HKU-P085-2027-FT",
+      "offeringFingerprint": "76b4d7ba25d6f9df79a7e13d52cafa198a124fe5db853f0b16c264e5531ab439",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-integrative-marine-ecology-and-conservation-sci&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-01",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.scifac.hku.hk/prospective/tpg/IMEC",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact September 2027 FT and university applicant category only. Current local/non-local deadlines differ; both retain the same published composition fee. Category selection does not establish university classification, visa eligibility or admission. Other charges, documents and live portal state remain to confirm.",
+      "options": [
+        {
+          "id": "HK-HKU-P085-2027-FT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 315000,
+          "feeBasis": "Published composition/mode quote HKD 315,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole one-year FT fee 315,000, payable in TWO instalments and subject to approval; listed caution/graduation/activity charges are separate.",
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-06-29",
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language.Late-October opening is approximate; no exact date invented. Exact selected category deadline retained; no personal category approval.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-06-29",
+              "deadlineAt": "2027-06-29T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P085-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 315000,
+          "feeBasis": "Published composition/mode quote HKD 315,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole one-year FT fee 315,000, payable in TWO instalments and subject to approval; listed caution/graduation/activity charges are separate.",
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-05-31",
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language.Late-October opening is approximate; no exact date invented. Exact selected category deadline retained; no personal category approval.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": "2027-05-31T12:00:00+08:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P087",
+      "routeId": null,
+      "offeringId": "HK-HKU-P087-2027-FT",
+      "offeringFingerprint": "915210f0761ba4342c08e70a10cf4f4ae3cf8c372ce6682952e99383f2ed8c18",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-physics-sci&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-01",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.physics.hku.hk/graduate_studies/for_prospective_students/master_of_science_program/1/",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact September 2027 FT and university applicant category only. Current local/non-local deadlines differ; both retain the same published composition fee. Category selection does not establish university classification, visa eligibility or admission. Other charges, documents and live portal state remain to confirm.",
+      "options": [
+        {
+          "id": "HK-HKU-P087-2027-FT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Published composition/mode quote HKD 230,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole one-year FT fee 230,000, payable in TWO instalments and subject to approval; separate caution/graduation/activity charges are not included.",
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-06-30",
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language. Exact selected category deadline retained; no personal category approval.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P087-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Published composition/mode quote HKD 230,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole one-year FT fee 230,000, payable in TWO instalments and subject to approval; separate caution/graduation/activity charges are not included.",
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language. Exact selected category deadline retained; no personal category approval.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
             }
           ]
         }

@@ -54742,6 +54742,1558 @@
       "researchBatch": "hku-media-social-2026-11-01",
       "id": "HK-HKU-P097",
       "universityId": "HK-HKU"
+    },
+    {
+      "id": "HK-HKU-P008",
+      "universityId": "HK-HKU",
+      "name": "MA AI, Ethics and Society",
+      "award": "MA",
+      "area": "Business",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-ai%2C-ethics-and-society-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode, department and PDF reading with selected visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Good bachelor/equivalent with Philosophy as the major OR another major plus experience studying issues relevant to AI, Ethics and Society. This is not an exclusive Philosophy or Computer Science degree gate. The relevant-study alternative, qualifying examination and individual exemptions require assessment; no numeric GPA or fixed employment years are established.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P008-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 312000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-22",
+              "deadlineAt": "2027-01-22T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 312,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. 2027/28 one-year FT composition is provisional, not an annual amount multiplied or a scholarship-net personal charge.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.maaies.arts.hku.hk/admissions",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Good bachelor/equivalent with Philosophy as the major OR another major plus experience studying issues relevant to AI, Ethics and Society. This is not an exclusive Philosophy or Computer Science degree gate. The relevant-study alternative, qualifying examination and individual exemptions require assessment; no numeric GPA or fixed employment years are established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence follow the exact checklist. The platform does not collect or submit private application documents. Supporting PDF lists TWO ACADEMIC referees, while current programme FAQ says statements and references are NOT REQUIRED. Main PDF says ONE MONTH from notification; supporting PDF says ONE MONTH from application; website/FAQ says before cutoff or FOUR WEEKS from account creation, whichever is earlier. These conflicts remain unresolved. Statement/CV naming abbreviations do not impose a requirement, and historical cohort acceptance rates are not personal admission probabilities.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own Arts PDF rejects IELTS Indicator/One Skill Retake, TOEFL Home/ITP/Essentials/MyBest and the other listed unsupported tests. English-medium degree evidence, accepted alternative examinations and waivers require institutional assessment; no automatic waiver from a self-report. Score-scale changes and test-date applicability remain separate.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false,
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false,
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-ai%2C-ethics-and-society-arts&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://www.maaies.arts.hku.hk/admissions",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://www.maaies.arts.hku.hk/faq",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 intake established by current exact portal/PDF; older page headings not relabelled.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Good bachelor/equivalent with Philosophy as the major OR another major plus experience studying issues relevant to AI, Ethics and Society. This is not an exclusive Philosophy or Computer Science degree gate. The relevant-study alternative, qualifying examination and individual exemptions require assessment; no numeric GPA or fixed employment years are established.",
+          "sourceUrl": "https://www.maaies.arts.hku.hk/admissions"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA established. Good degree, honours class or GPA-equivalence wording does not provide a numeric conversion or entry floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme English scores, exact exam-version boundary and fixed September 2027 date anchor retained; applicability/waiver evidence still assessed.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published composition/mode quote HKD 312,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. 2027/28 one-year FT composition is provisional, not an annual amount multiplied or a scholarship-net personal charge.",
+          "sourceUrl": "https://www.maaies.arts.hku.hk/admissions"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. ",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R379&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete-requirements or independent human-review claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-ai%2C-ethics-and-society-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-science-arts-2026-11-01"
+    },
+    {
+      "id": "HK-HKU-P010",
+      "universityId": "HK-HKU",
+      "name": "MA Museum Studies",
+      "award": "MA",
+      "area": "Arts & Humanities",
+      "faculty": "Faculty of Arts",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-museum-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode, department and PDF reading with selected visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Good bachelor/equivalent in Museum Studies, Art History or a closely related subject. Current portal/department also allow relevant experience or qualifications to demonstrate strong interest. Cultural heritage, conservation, archaeology, cultural management and related backgrounds need assessment; do not automatically reject a career changer or invent employment years. No numeric GPA is established.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P010-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 340000,
+          "applicationFee": 780,
+          "applicationOpen": "2026-10-12",
+          "deadline": "2027-05-14",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-12",
+              "deadline": "2027-05-14",
+              "deadlineAt": "2027-05-14T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 340,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. 2027/28 one-year FT composition is provisional, not an annual amount multiplied or a scholarship-net personal charge.",
+          "feeEvidence": {
+            "sourceUrl": "https://mamuseumstudies.arts.hku.hk/admission-and-application",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-museum-studies-arts&mode=0",
+          "noteZh": "",
+          "noteEn": "Good bachelor/equivalent in Museum Studies, Art History or a closely related subject. Current portal/department also allow relevant experience or qualifications to demonstrate strong interest. Cultural heritage, conservation, archaeology, cultural management and related backgrounds need assessment; do not automatically reject a career changer or invent employment years. No numeric GPA is established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence follow the exact checklist. The platform does not collect or submit private application documents. All THREE pages of the scanned supporting PDF were visually read; a missing text layer is not a missing requirement. It lists TWO ACADEMIC referees and evidence by the application cutoff; files within ONE MONTH from application conflict with main PDF/website ONE MONTH from notification. Current website additionally requires a 600-800-word reason-for-interest response, prior relevant work/experience and other application questions. No universal portfolio is inferred from the name Museum Studies.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own Arts PDF rejects IELTS Indicator/One Skill Retake, TOEFL Home/ITP/Essentials/MyBest and the other listed unsupported tests. English-medium degree evidence, accepted alternative examinations and waivers require institutional assessment; no automatic waiver from a self-report. Score-scale changes and test-date applicability remain separate.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "tests": {
+            "ielts": {
+              "total": 7,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false,
+              "componentMins": {
+                "writing": 25
+              }
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false,
+              "componentMins": {
+                "writing": 5
+              }
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-museum-studies-arts&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://mamuseumstudies.arts.hku.hk/admission-and-application",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 intake established by current exact portal/PDF; older page headings not relabelled.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Good bachelor/equivalent in Museum Studies, Art History or a closely related subject. Current portal/department also allow relevant experience or qualifications to demonstrate strong interest. Cultural heritage, conservation, archaeology, cultural management and related backgrounds need assessment; do not automatically reject a career changer or invent employment years. No numeric GPA is established.",
+          "sourceUrl": "https://mamuseumstudies.arts.hku.hk/admission-and-application"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA established. Good degree, honours class or GPA-equivalence wording does not provide a numeric conversion or entry floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme English scores, exact exam-version boundary and fixed September 2027 date anchor retained; applicability/waiver evidence still assessed.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published composition/mode quote HKD 340,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. 2027/28 one-year FT composition is provisional, not an annual amount multiplied or a scholarship-net personal charge.",
+          "sourceUrl": "https://mamuseumstudies.arts.hku.hk/admission-and-application"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. ",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R377&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete-requirements or independent human-review claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-museum-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-science-arts-2026-11-01"
+    },
+    {
+      "id": "HK-HKU-P062",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Applied Geosciences",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode, department and PDF reading with selected visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Science, Engineering or related bachelor with First or Second Class Honours, or accepted GPA equivalent. The comparable honours floor is recorded separately from numeric GPA; no GPA conversion is supplied. Current portal has Engineering Geology and Engineering Geology with HKIE Approved Courses in FT/PT, but General Applied Geosciences is FT ONLY. These curriculum themes are not three extra degrees or fully verified route snapshots. PT evening/weekend fieldwork and professional accreditation require individual arrangements.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P062-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 210000,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-29",
+              "deadlineAt": "2027-01-29T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 210,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Portal shows the SAME HKD 210,000 for one-year FT and two-year PT; do not multiply the PT quote again or assume an automatic PT grant.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Current local and non-local round dates match. PDF advises student-visa applicants to apply before 31 March; this advisory is distinct from the recorded 30 April cutoff."
+        },
+        {
+          "id": "HK-HKU-P062-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 210000,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-29",
+              "deadlineAt": "2027-01-29T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 210,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Portal shows the SAME HKD 210,000 for one-year FT and two-year PT; do not multiply the PT quote again or assume an automatic PT grant.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Current local and non-local round dates match. PDF advises student-visa applicants to apply before 31 March; this advisory is distinct from the recorded 30 April cutoff."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Science, Engineering or related bachelor with First or Second Class Honours, or accepted GPA equivalent. The comparable honours floor is recorded separately from numeric GPA; no GPA conversion is supplied. Current portal has Engineering Geology and Engineering Geology with HKIE Approved Courses in FT/PT, but General Applied Geosciences is FT ONLY. These curriculum themes are not three extra degrees or fully verified route snapshots. PT evening/weekend fieldwork and professional accreditation require individual arrangements.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence follow the exact checklist. The platform does not collect or submit private application documents. Referee reports are explicitly OPTIONAL. Upload files within ONE MONTH of notification; late uploads are not accepted. Current checklist rejects notary-public certified true copies and requires the specified registry/authorised transcript and qualification evidence. Do not copy two mandatory Arts referees into Science.",
+          "mandatory": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "First or Second Class Honours, or assessed GPA equivalent",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "min": "second_lower"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Theme and mode availability",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0",
+          "noteZh": "",
+          "noteEn": "General Applied Geosciences is FT ONLY. Engineering Geology and the HKIE-approved-courses theme have FT/PT. The generic PT option does not establish General-theme availability or personal professional recognition; exact theme and current courses remain to confirm.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own Science checklist rejects TOEFL Home, IELTS Indicator and IELTS General Training for UKVI. No IELTS Online or One Skill Retake ban is inferred from another programme. English-medium degree evidence, accepted alternative examinations and waivers require institutional assessment; no automatic waiver from a self-report. Score-scale changes and test-date applicability remain separate.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://www.earthsciences.hku.hk/education/postgraduate_students/taught_postgraduates_(MSc(AG))/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 intake established by current exact portal/PDF; older page headings not relabelled.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Science, Engineering or related bachelor with First or Second Class Honours, or accepted GPA equivalent. The comparable honours floor is recorded separately from numeric GPA; no GPA conversion is supplied. Current portal has Engineering Geology and Engineering Geology with HKIE Approved Courses in FT/PT, but General Applied Geosciences is FT ONLY. These curriculum themes are not three extra degrees or fully verified route snapshots. PT evening/weekend fieldwork and professional accreditation require individual arrangements.",
+          "sourceUrl": "https://www.earthsciences.hku.hk/education/postgraduate_students/taught_postgraduates_(MSc(AG))/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA established. Good degree, honours class or GPA-equivalence wording does not provide a numeric conversion or entry floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme English scores, exact exam-version boundary and fixed September 2027 date anchor retained; applicability/waiver evidence still assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published composition/mode quote HKD 210,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Portal shows the SAME HKD 210,000 for one-year FT and two-year PT; do not multiply the PT quote again or assume an automatic PT grant.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Current local and non-local round dates match. PDF advises student-visa applicants to apply before 31 March; this advisory is distinct from the recorded 30 April cutoff.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R314&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete-requirements or independent human-review claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0"
+        }
+      },
+      "researchBatch": "hku-science-arts-2026-11-01"
+    },
+    {
+      "id": "HK-HKU-P064",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Chemical Technologies for Health and Materials",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-chemical-technologies-for-health-and-materials-sci&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode, department and PDF reading with selected visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor in Science or Engineering; listed chemical/biochemical/materials/biotechnology/medical/health/analytical and related engineering specialisations are PREFERRED, not an exclusive major list. Laboratory readiness and possible qualifying assessment remain individual conditions. The 72-credit curriculum and project-dissertation are graduation requirements, not undergraduate prerequisite credits or a research-master award.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P064-2027-FT",
+          "mode": "Full-time",
+          "duration": "1.5 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 293100,
+          "applicationFee": null,
+          "applicationOpen": "2026-10-27",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-27",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 293,100; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole 1.5-year programme paid in THREE instalments, not three times 293,100.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.scifac.hku.hk/prospective/tpg/MSCTHM",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor in Science or Engineering; listed chemical/biochemical/materials/biotechnology/medical/health/analytical and related engineering specialisations are PREFERRED, not an exclusive major list. Laboratory readiness and possible qualifying assessment remain individual conditions. The 72-credit curriculum and project-dissertation are graduation requirements, not undergraduate prerequisite credits or a research-master award.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence follow the exact checklist. The platform does not collect or submit private application documents. Referee reports are listed without optional wording; the consulted checklist does not establish a numeric referee count. Upload files within ONE MONTH of notification. No mandatory two-referee count, statement or CV is inferred from another Science checklist or filename legend.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own Science checklist rejects TOEFL Home, IELTS Indicator and IELTS General Training for UKVI. No IELTS Online or One Skill Retake ban is inferred from another programme. English-medium degree evidence, accepted alternative examinations and waivers require institutional assessment; no automatic waiver from a self-report. Score-scale changes and test-date applicability remain separate.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-chemical-technologies-for-health-and-materials-sci&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://www.scifac.hku.hk/prospective/tpg/MSCTHM",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 intake established by current exact portal/PDF; older page headings not relabelled.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor in Science or Engineering; listed chemical/biochemical/materials/biotechnology/medical/health/analytical and related engineering specialisations are PREFERRED, not an exclusive major list. Laboratory readiness and possible qualifying assessment remain individual conditions. The 72-credit curriculum and project-dissertation are graduation requirements, not undergraduate prerequisite credits or a research-master award.",
+          "sourceUrl": "https://www.scifac.hku.hk/prospective/tpg/MSCTHM"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA established. Good degree, honours class or GPA-equivalence wording does not provide a numeric conversion or entry floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme English scores, exact exam-version boundary and fixed September 2027 date anchor retained; applicability/waiver evidence still assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published composition/mode quote HKD 293,100; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole 1.5-year programme paid in THREE instalments, not three times 293,100.",
+          "sourceUrl": "https://www.scifac.hku.hk/prospective/tpg/MSCTHM"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R385&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete-requirements or independent human-review claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-chemical-technologies-for-health-and-materials-sci&mode=0"
+        }
+      },
+      "researchBatch": "hku-science-arts-2026-11-01"
+    },
+    {
+      "id": "HK-HKU-P083",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Food Safety and Toxicology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-food-safety-and-toxicology-sci&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode, department and PDF reading with selected visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor in Science or accepted equivalent, with the listed life/food/chemical/environmental/pharmacological fields PREFERRED. Food-sector work is a target audience, not a mandatory job or fixed employment years. Current 2027 portal/PDF supersede the school page still labelled 2026/27; its old tuition, opening, cutoff and single-course occasional-student price are not carried into 2027.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P083-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 230000,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-09",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-09",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 230,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Current 2027 portal quote 230,000; school page 200,000 and occasional-student 2,610 per credit explicitly refer to 2026/27 and are not reused.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-food-safety-and-toxicology-sci&mode=0",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Portal opens 9 November 2026 and current PDF closes 30 April 2027. School page still says early November 2025/30 April 2026: old cohort only."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor in Science or accepted equivalent, with the listed life/food/chemical/environmental/pharmacological fields PREFERRED. Food-sector work is a target audience, not a mandatory job or fixed employment years. Current 2027 portal/PDF supersede the school page still labelled 2026/27; its old tuition, opening, cutoff and single-course occasional-student price are not carried into 2027.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence follow the exact checklist. The platform does not collect or submit private application documents. Referee reports are explicitly MANDATORY, but the checklist does not establish a numeric count. Upload files within ONE MONTH of notification. Relevant publications are conditional. No two-referee count is invented, and one optional-reference sibling does not make these optional.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own Science checklist rejects TOEFL Home, IELTS Indicator and IELTS General Training for UKVI. No IELTS Online or One Skill Retake ban is inferred from another programme. English-medium degree evidence, accepted alternative examinations and waivers require institutional assessment; no automatic waiver from a self-report. Score-scale changes and test-date applicability remain separate.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-food-safety-and-toxicology-sci&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://www.scifac.hku.hk/prospective/tpg/FSTX",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 intake established by current exact portal/PDF; older page headings not relabelled.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor in Science or accepted equivalent, with the listed life/food/chemical/environmental/pharmacological fields PREFERRED. Food-sector work is a target audience, not a mandatory job or fixed employment years. Current 2027 portal/PDF supersede the school page still labelled 2026/27; its old tuition, opening, cutoff and single-course occasional-student price are not carried into 2027.",
+          "sourceUrl": "https://www.scifac.hku.hk/prospective/tpg/FSTX"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA established. Good degree, honours class or GPA-equivalence wording does not provide a numeric conversion or entry floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme English scores, exact exam-version boundary and fixed September 2027 date anchor retained; applicability/waiver evidence still assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published composition/mode quote HKD 230,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Current 2027 portal quote 230,000; school page 200,000 and occasional-student 2,610 per credit explicitly refer to 2026/27 and are not reused.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-food-safety-and-toxicology-sci&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Portal opens 9 November 2026 and current PDF closes 30 April 2027. School page still says early November 2025/30 April 2026: old cohort only.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R315&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete-requirements or independent human-review claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-food-safety-and-toxicology-sci&mode=0"
+        }
+      },
+      "researchBatch": "hku-science-arts-2026-11-01"
+    },
+    {
+      "id": "HK-HKU-P084",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Innovation and Technology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "School of Innovation",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027 founding intakes (FT/PT differ)",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode, department and PDF reading with selected visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent AND technical competence shown through a STEM-related degree OR a portfolio of relevant coursework, projects, research or professional experience. Non-STEM candidates are not automatically rejected; the portfolio is required for them and highly recommended for STEM graduates. No numeric GPA or work-year minimum is established. FT September 2027 and tentative PT January 2027 founding intakes have different windows and join for the capstone; do not merge them into one open intake.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P084-2027-SEP-FT",
+          "mode": "Full-time",
+          "duration": "10 months (one academic year)",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 330000,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "deadlineAt": "2027-01-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 330,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Portal displays 330,000 for each founding mode; do not multiply 18-month PT duration or add a second fee for the shared capstone. Payment schedule/inclusions remain to confirm.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. September 2027 FT main and clearing rounds differ from the closed January PT application. Approximate September 2026 opening has no precise day."
+        },
+        {
+          "id": "HK-HKU-P084-2027-JAN-PT",
+          "mode": "Part-time",
+          "duration": "18 months (1.5 academic years)",
+          "intake": "January 2027 (tentative; subject to confirmation)",
+          "academicYear": "January 2027",
+          "currency": "HKD",
+          "tuition": 330000,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2026-10-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-10-30",
+              "deadlineAt": "2026-10-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 330,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Portal displays 330,000 for each founding mode; do not multiply 18-month PT duration or add a second fee for the shared capstone. Payment schedule/inclusions remain to confirm.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. ARCHIVED cutoff 30 October 2026; tentative January 2027 start is not a reopened September FT application. Academic-year label remains unconfirmed."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent AND technical competence shown through a STEM-related degree OR a portfolio of relevant coursework, projects, research or professional experience. Non-STEM candidates are not automatically rejected; the portfolio is required for them and highly recommended for STEM graduates. No numeric GPA or work-year minimum is established. FT September 2027 and tentative PT January 2027 founding intakes have different windows and join for the capstone; do not merge them into one open intake.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence follow the exact checklist. The platform does not collect or submit private application documents. Current CV and TWO referees are required, preferably one academic supervisor and one professional supervisor; preference is not a mandatory one-of-each quota. Portfolio REQUIRED for non-STEM degrees and highly recommended for STEM degrees. Files within ONE MONTH of application, not a copied Science notification clock. Applicable dual-degree and English evidence follow this School checklist.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Technical portfolio and exact cohort evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Portfolio is required for applicants with a degree outside STEM and highly recommended for STEM graduates. January PT start is tentative, its academic-year label unconfirmed, and its 30 October 2026 cutoff is already past. School expects both cohorts to graduate in June 2028. Existing pre-application instructions are superseded: current v3 PDF says no separate pre-application process.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own School checklist rejects IELTS Indicator/One Skill Retake and TOEFL Home/ITP/Essentials/MyBest plus other listed tests. English-medium degree evidence, accepted alternative examinations and waivers require institutional assessment; no automatic waiver from a self-report. Score-scale changes and test-date applicability remain separate.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Founding-cohort English scores and exact date scope",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P084-2027-SEP-FT"
+            ],
+            "labelEn": "September 2027 FT intake",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-11-01"
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Founding-cohort English scores and exact date scope",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P084-2027-JAN-PT"
+            ],
+            "labelEn": "January 2027 PT founding cohort; academic-year label unconfirmed",
+            "academicYear": "January 2027",
+            "checkedOn": "2026-11-01"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "January PT English-date applicability",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "The checklist anchors IELTS/TOEFL validity to 1 September of the admission year. January 2027 PT has no confirmed academic-year label in the consulted evidence: no guessed 2024/2025 fixed minimum or rolling expiry is assigned. September FT has its own 1 September 2025 minimum.",
+          "mandatory": true,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P084-2027-JAN-PT"
+            ],
+            "labelEn": "January 2027 PT founding cohort only",
+            "academicYear": "January 2027",
+            "checkedOn": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://msc.ischool.hku.hk/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "unknown",
+          "noteEn": "January PT tentative start/academic-year label and September FT are separate founding intakes.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Bachelor/equivalent AND technical competence shown through a STEM-related degree OR a portfolio of relevant coursework, projects, research or professional experience. Non-STEM candidates are not automatically rejected; the portfolio is required for them and highly recommended for STEM graduates. No numeric GPA or work-year minimum is established. FT September 2027 and tentative PT January 2027 founding intakes have different windows and join for the capstone; do not merge them into one open intake.",
+          "sourceUrl": "https://msc.ischool.hku.hk/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA established. Good degree, honours class or GPA-equivalence wording does not provide a numeric conversion or entry floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Exact score versions and format exclusions recorded. January PT test-date applicability remains unresolved; FT condition is explicitly mode-bound.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published composition/mode quote HKD 330,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Portal displays 330,000 for each founding mode; do not multiply 18-month PT duration or add a second fee for the shared capstone. Payment schedule/inclusions remain to confirm.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "September 2027 FT closes15January/30April2027 noon; tentative January PT closed30October2026 noon. Current PDF v3 supersedes the separate pre-application process. Neither is a live availability check.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R432&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete-requirements or independent human-review claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0"
+        }
+      },
+      "researchBatch": "hku-science-arts-2026-11-01",
+      "scope": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-11-01",
+        "sourceUrl": "https://msc.ischool.hku.hk/",
+        "reasonEn": "Current school website explicitly labels location Hong Kong & GBA and describes Shenzhen immersion as part of the learning experience. Mandatory attendance, teaching location and an entirely Hong Kong route are not established by the consulted material. Do not promise HK-only delivery or copy another programme exclusion."
+      }
+    },
+    {
+      "id": "HK-HKU-P085",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Integrative Marine Ecology and Conservation",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-integrative-marine-ecology-and-conservation-sci&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode, department and PDF reading with selected visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Any undergraduate major is welcome, but current 2026/27-and-thereafter regulations MIMEC1 require an honours bachelor/equivalent and evidence of basic biology, ecology and chemistry coursework. The shorter portal entry summary does not remove these prerequisites. Work is useful, not essential. Research/project capstone and career tracks remain within a taught degree, not separate awards or admission routes.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P085-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 315000,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": "2027-05-31T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 315,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole one-year FT fee 315,000, payable in TWO instalments and subject to approval; listed caution/graduation/activity charges are separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.scifac.hku.hk/prospective/tpg/IMEC",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language.Late-October opening is approximate; no exact date invented."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Any undergraduate major is welcome, but current 2026/27-and-thereafter regulations MIMEC1 require an honours bachelor/equivalent and evidence of basic biology, ecology and chemistry coursework. The shorter portal entry summary does not remove these prerequisites. Work is useful, not essential. Research/project capstone and career tracks remain within a taught degree, not separate awards or admission routes.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence follow the exact checklist. The platform does not collect or submit private application documents. Current programme-information PDF says AT LEAST ONE referee and four-week invitation/platform wording; the linked supporting checklist says referee reports OPTIONAL. Both source wordings are retained rather than silently dropping the programme requirement or inventing two referees. Files within ONE MONTH from notification. Individual instructions and accepted evidence still require confirmation.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Any undergraduate major; science coursework still required",
+          "sourceUrl": "https://www.scifac.hku.hk/prospective/tpg/IMEC",
+          "accepted": [],
+          "any": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Marine prior learning and elective overseas field course",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "MIMEC1 requires basic biology, ecology and chemistry with relevant coursework records. IMEC7008 is an ELECTIVE field course comparing Hong Kong and AUSTRALIA; it is not compulsory for every student and does not exclude the entire degree. Chosen electives, practical delivery and current arrangements need confirmation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own Science checklist rejects TOEFL Home, IELTS Indicator and IELTS General Training for UKVI. No IELTS Online or One Skill Retake ban is inferred from another programme. English-medium degree evidence, accepted alternative examinations and waivers require institutional assessment; no automatic waiver from a self-report. Score-scale changes and test-date applicability remain separate.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-integrative-marine-ecology-and-conservation-sci&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://www.scifac.hku.hk/prospective/tpg/IMEC",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 intake established by current exact portal/PDF; older page headings not relabelled.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Any undergraduate major is welcome, but current 2026/27-and-thereafter regulations MIMEC1 require an honours bachelor/equivalent and evidence of basic biology, ecology and chemistry coursework. The shorter portal entry summary does not remove these prerequisites. Work is useful, not essential. Research/project capstone and career tracks remain within a taught degree, not separate awards or admission routes.",
+          "sourceUrl": "https://www.scifac.hku.hk/prospective/tpg/IMEC"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA established. Good degree, honours class or GPA-equivalence wording does not provide a numeric conversion or entry floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme English scores, exact exam-version boundary and fixed September 2027 date anchor retained; applicability/waiver evidence still assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published composition/mode quote HKD 315,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole one-year FT fee 315,000, payable in TWO instalments and subject to approval; listed caution/graduation/activity charges are separate.",
+          "sourceUrl": "https://www.scifac.hku.hk/prospective/tpg/IMEC"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language.Late-October opening is approximate; no exact date invented.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R402&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete-requirements or independent human-review claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-integrative-marine-ecology-and-conservation-sci&mode=0"
+        }
+      },
+      "researchBatch": "hku-science-arts-2026-11-01"
+    },
+    {
+      "id": "HK-HKU-P087",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Physics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-physics-sci&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode, department and PDF reading with selected visual inspection",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor in relevant Science or Engineering, with prior university-level electromagnetism, quantum mechanics, thermodynamics, linear algebra, multivariable calculus, basic statistics and programming. Neither a generic Science title nor a high GPA proves all prior learning. Possible qualifying examination and individually assessed exemptions remain. A capstone research project does not make this a research master, and HKUST Physics requirements are not borrowed.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P087-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 230000,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Published composition/mode quote HKD 230,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole one-year FT fee 230,000, payable in TWO instalments and subject to approval; separate caution/graduation/activity charges are not included.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.physics.hku.hk/graduate_studies/for_prospective_students/master_of_science_program/1/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor in relevant Science or Engineering, with prior university-level electromagnetism, quantum mechanics, thermodynamics, linear algebra, multivariable calculus, basic statistics and programming. Neither a generic Science title nor a high GPA proves all prior learning. Possible qualifying examination and individually assessed exemptions remain. A capstone research project does not make this a research master, and HKUST Physics requirements are not borrowed.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence follow the exact checklist. The platform does not collect or submit private application documents. TWO referee reports are explicitly OPTIONAL. The same checklist states before the application deadline AND within FOUR WEEKS of account creation, and also ONE MONTH from email notification. These different personal clocks are retained, not resolved without actual dates/instructions. Filename statement/CV abbreviations do not create required documents.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability and accepted evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own Science checklist rejects TOEFL Home, IELTS Indicator and IELTS General Training for UKVI. No IELTS Online or One Skill Retake ban is inferred from another programme. English-medium degree evidence, accepted alternative examinations and waivers require institutional assessment; no automatic waiver from a self-report. Score-scale changes and test-date applicability remain separate.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-physics-sci&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://www.physics.hku.hk/graduate_studies/for_prospective_students/master_of_science_program/1/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/mode, consulted department or linked PDF; older cohorts, relative clocks and unresolved evidence retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 intake established by current exact portal/PDF; older page headings not relabelled.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor in relevant Science or Engineering, with prior university-level electromagnetism, quantum mechanics, thermodynamics, linear algebra, multivariable calculus, basic statistics and programming. Neither a generic Science title nor a high GPA proves all prior learning. Possible qualifying examination and individually assessed exemptions remain. A capstone research project does not make this a research master, and HKUST Physics requirements are not borrowed.",
+          "sourceUrl": "https://www.physics.hku.hk/graduate_studies/for_prospective_students/master_of_science_program/1/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric admission GPA established. Good degree, honours class or GPA-equivalence wording does not provide a numeric conversion or entry floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Programme English scores, exact exam-version boundary and fixed September 2027 date anchor retained; applicability/waiver evidence still assessed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Published composition/mode quote HKD 230,000; admission intake and billing basis must be confirmed. Scholarships, application fee and living costs are not deducted or included. Whole one-year FT fee 230,000, payable in TWO instalments and subject to approval; separate caution/graduation/activity charges are not included.",
+          "sourceUrl": "https://www.physics.hku.hk/graduate_studies/for_prospective_students/master_of_science_program/1/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates only; no live-open, place, extension or personal admission claim. Cutoffs are 12:00 noon GMT+8. Choose the university applicant category: local and non-local cutoffs differ. No category is inferred from nationality, residence or language.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R362&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation only; no complete-requirements or independent human-review claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-physics-sci&mode=0"
+        }
+      },
+      "researchBatch": "hku-science-arts-2026-11-01"
     }
   ]
 }

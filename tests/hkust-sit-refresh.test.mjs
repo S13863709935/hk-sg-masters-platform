@@ -167,8 +167,8 @@ test('remembered HKUST mode-only choices need category selection while explicit 
 test('read-only use preserves partial coverage and quality without new programmes or artificial human review', async () => {
   const before = JSON.stringify([store.get(hk.id), store.get(sit.id), store.get('HK-HKUST-P003')]);
   for (const p of [resolve(1, 'LOCAL'), sit]) { programmeTimeline(p, '2026-10-24'); matchProgramme(p, profile); }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 297);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 305);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 193, categories: 388, peerReviewed: 0 }); assert.deepEqual(applicantSummary(contexts), meta.applicantEvidence);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 196, categories: 394, peerReviewed: 0 }); assert.deepEqual(applicantSummary(contexts), meta.applicantEvidence);
   assert.equal(JSON.stringify([store.get(hk.id), store.get(sit.id), store.get('HK-HKUST-P003')]), before);
 });
