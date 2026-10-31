@@ -57,7 +57,7 @@ function evaluateRule(r, profile) {
 
 export function matchProgramme(programme, profileInput) {
   const profile = validateProfile(profileInput);
-  if (programme.scope?.status === 'out_of_scope') return { status: 'out_of_scope', tier: null, checks: [{ kind: 'scope', labelEn: 'Programme scope', labelZh: '', mandatory: true, status: 'unknown', reasonEn: programme.scope.reasonEn, reasonZh: '', sourceUrl: programme.scope.sourceUrl }], counts: { pass: 0, fail: 0, unknown: 1 }, disclaimerEn: 'Excluded because of the programme type, not because of your background. No eligibility or admission conclusion is made.', disclaimerZh: '' };
+  if (programme.scope?.status === 'out_of_scope') return { status: 'out_of_scope', tier: null, checks: [{ kind: 'scope', labelEn: 'Programme scope', labelZh: '', mandatory: true, status: 'unknown', reasonEn: programme.scope.reasonEn, reasonZh: '', sourceUrl: programme.scope.sourceUrl }], counts: { pass: 0, fail: 0, unknown: 1 }, disclaimerEn: 'Excluded under the current project scope. This does not assess your academic background or admission eligibility.', disclaimerZh: '' };
   const canUseRules = ['programme_page_checked', 'peer_reviewed'].includes(programme.verification);
   const selectedOffering = resolvedOfferingId(programme);
   const checks = canUseRules ? programme.rules.filter(r => !r.appliesTo || !selectedOffering || r.appliesTo.offeringIds.includes(selectedOffering)).map(r => r.appliesTo && !selectedOffering ? outcome(r, 'unknown', '请选择对应的入学批次及学习模式。', `Choose an intake and study mode to check this condition. Applies only to ${r.appliesTo.labelEn}.`) : evaluateRule(r, profile)) : [];

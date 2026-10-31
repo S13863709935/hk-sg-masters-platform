@@ -30,18 +30,18 @@ const get = path => fetch(url + path).then(r => r.json());
 test('all three exact HKU pathways are explicit options, never a silent default or extra catalogue degree', () => {
   const p = resolveProgramme(base, routes, undefined, undefined, undefined, applicants);
   assert.deepEqual(p.routeOptions.map(r => r.id), [standard, ai, streams]);
-  assert.deepEqual(p.routeOptions.map(r => r.scope?.status || null), [null, 'unconfirmed', 'unconfirmed']);
+  assert.deepEqual(p.routeOptions.map(r => r.scope?.status || null), [null, 'out_of_scope', 'out_of_scope']);
   assert.equal(p.selectedRoute, undefined); assert.equal(p.verification, 'catalogue_seed');
   assert.equal(p.directoryListing.variants.length, 3); assert.equal(store.quality().total, 873);
 });
 
-test('Shanghai semesters are route-specific and remain a delivery/scope question, not an academic rejection', () => {
+test('required Shanghai semesters exclude only the exact Delta X routes from geographic scope', () => {
   for (const [key, semester] of [[ai, 1], [streams, 2]]) {
     const p = resolve(key), r = matchProgramme(p, profile);
     assert.match(p.scope.reasonEn, new RegExp('Semester ' + semester + ' study in Shanghai'));
-    assert.equal(p.scope.status, 'unconfirmed'); assert.equal(p.scope.sourceUrl, p.officialUrl);
+    assert.equal(p.scope.status, 'out_of_scope'); assert.equal(p.scope.sourceUrl, p.officialUrl);
     assert.equal(r.checks.find(c => c.kind === 'scope').status, 'unknown');
-    assert.equal(r.status, 'needs_confirmation'); assert.equal(r.tier, null);
+    assert.equal(r.status, 'out_of_scope'); assert.equal(r.tier, null); assert.equal(r.checks.some(c => c.status === 'fail'), false);
   }
 });
 
@@ -51,8 +51,9 @@ test('each Delta X route is a standalone source snapshot, without inherited pare
     assert.equal(p.notesEn.includes('parent marker'), false); assert.equal(p.rules.some(r => r.kind === 'gpa' || r.kind === 'major'), false);
     assert.equal(p.rules.find(r => r.kind === 'degree').sourceUrl, p.officialUrl);
     assert.equal(p.fieldStatus.major.status, 'unknown'); assert.equal(p.fieldStatus.gpa.status, 'not_published');
-    assert.equal(p.lastChecked, '2026-10-21'); assert.equal(p.reviewer, null); assert.equal(p.requirementsCoverage, 'partial');
-    assert.ok(p.sources.some(s => s.url === p.officialUrl)); assert.ok(p.sources.every(s => s.checkedOn === '2026-10-21'));
+    assert.equal(p.lastChecked, '2026-10-31'); assert.equal(p.reviewer, null); assert.equal(p.requirementsCoverage, 'partial');
+    assert.ok(p.sources.some(s => s.url === p.officialUrl && s.checkedOn === '2026-10-31'));
+    assert.ok(p.sources.some(s => s.checkedOn === '2026-10-21')); assert.ok(p.sources.every(s => s.checkedOn <= p.lastChecked));
   }
 });
 
@@ -80,7 +81,7 @@ test('all three new study options have independently bound categories, with no a
     assert.equal(p.applicantOptions.length, 2); assert.equal(p.offerings[0].applicationRounds, undefined);
     assert.equal(record.routeId, key); assert.equal(record.officialUrl, route(key).officialUrl);
     assert.equal(record.offeringFingerprint, offeringFingerprint(route(key).offerings.find(o => o.id === offering)));
-    assert.equal(programmeTimeline(p, '2026-10-21').state, 'applicant_required');
+    assert.equal(programmeTimeline(p, '2026-10-31').state, 'excluded');
   }
 });
 
@@ -91,7 +92,7 @@ test('published category tuition is not discounted by a Fellowship, increased by
     assert.match(o.feeBasis, /subject to University approval/); assert.match(o.feeBasis, /credited, not extra tuition/);
     assert.match(o.feeBasis, /No Fellowship discount/); assert.match(o.feeBasis, /cross-border travel costs are excluded/);
     assert.match(o.feeBasis, offering === streamsPt ? /four instalments/ : /two instalments/);
-    assert.equal(p.scope.status, 'unconfirmed'); assert.equal(p.reviewer, null);
+    assert.equal(p.scope.status, 'out_of_scope'); assert.equal(p.reviewer, null);
   }
 });
 
@@ -105,9 +106,10 @@ test('Fellowship opportunities and support do not become numeric guarantees or G
   }
 });
 
-test('language minima use the current central source, with component and intake date checks rather than invented subject acceptance', () => {
+test('archived language snapshot remains intact in a controlled unscoped unit fixture', () => {
   for (const key of [ai, streams]) {
-    const p = resolve(key), evaluate = input => matchProgramme(p, input).checks.find(c => c.kind === 'language');
+    const p = { ...resolve(key) }; delete p.scope;
+    const evaluate = input => matchProgramme(p, input).checks.find(c => c.kind === 'language');
     assert.equal(evaluate(profile).status, 'pass');
     assert.equal(evaluate({ ...profile, language: { ...profile.language, components: { ...profile.language.components, writing: 5 } } }).status, 'fail');
     assert.equal(evaluate({ ...profile, language: { ...profile.language, testDate: '2025-08-31' } }).status, 'fail');
@@ -119,14 +121,14 @@ test('language minima use the current central source, with component and intake 
 });
 
 test('unconfirmed delivery alone blocks a recommendation even in an otherwise complete synthetic checked fixture', () => {
-  const synthetic = { officialUrl: route(ai).officialUrl, admissionRoute: 'direct', verification: 'peer_reviewed', requirementsCoverage: 'complete', rules: [{ kind: 'degree', labelEn: 'Synthetic degree', labelZh: '', sourceUrl: route(ai).officialUrl }], scope: route(ai).scope };
+  const synthetic = { officialUrl: route(ai).officialUrl, admissionRoute: 'direct', verification: 'peer_reviewed', requirementsCoverage: 'complete', rules: [{ kind: 'degree', labelEn: 'Synthetic degree', labelZh: '', sourceUrl: route(ai).officialUrl }], scope: { ...route(ai).scope, status: 'unconfirmed' } };
   assert.equal(matchProgramme(synthetic, profile).status, 'needs_confirmation'); assert.equal(matchProgramme(synthetic, profile).tier, null);
   const withoutScope = { ...synthetic }; delete withoutScope.scope;
   assert.equal(matchProgramme(withoutScope, profile).status, 'meets_checked');
 });
 
 test('scope uncertainty does not hide the unreviewed-data fallback when there are no usable requirements', () => {
-  const synthetic = { ...route(ai), verification: 'catalogue_seed', rules: [] };
+  const synthetic = { ...route(ai), verification: 'catalogue_seed', rules: [], scope: { ...route(ai).scope, status: 'unconfirmed' } };
   const r = matchProgramme(synthetic, profile);
   assert.ok(r.checks.some(c => c.kind === 'data')); assert.ok(r.checks.some(c => c.kind === 'scope'));
   assert.equal(r.tier, null);
@@ -148,10 +150,12 @@ test('switching back to ordinary CS leaves its criteria, category fingerprints a
   assert.match(p.notesEn, /without Delta X Fellowship/);
 });
 
-test('round snapshots retain exact noon cutoffs but cannot establish cross-border eligibility or an open window', () => {
+test('exclusion suppresses actionable dates while archived noon cutoffs remain intact', () => {
   for (const [key, offering] of [[ai, aiFt], [streams, streamsPt]]) {
     const p = resolve(key, offering, offering + '-NONLOCAL');
-    const d = programmeTimeline(p, '2026-12-01', '2026-12-01T04:00:00.000Z');
+    assert.equal(programmeTimeline(p, '2026-12-01', '2026-12-01T04:00:00.000Z').state, 'excluded');
+    const unscoped = { ...p }; delete unscoped.scope; delete unscoped.directoryListing;
+    const d = programmeTimeline(unscoped, '2026-12-01', '2026-12-01T04:00:00.000Z');
     assert.equal(d.offerings[0].rounds[0].state, 'cutoff_reached'); assert.equal(d.offerings[0].nextRoundId, 'CLEARING');
     assert.equal(d.state, 'dates_incomplete'); assert.equal(d.livePortalChecked, false);
     assert.equal(matchProgramme(p, profile).checks.find(c => c.kind === 'scope').status, 'unknown');
@@ -161,7 +165,7 @@ test('round snapshots retain exact noon cutoffs but cannot establish cross-borde
 test('route loading rejects malformed scope evidence instead of displaying a false cleared status', () => {
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-delta-scope-')), file = join(dir, 'routes.json');
   try {
-    for (const patch of [{ status: 'approved' }, { checkedOn: '2026-02-30' }, { checkedOn: '2026-10-22' }, { sourceUrl: 'https://hku.hk.attacker.invalid/' }, { sourceUrl: 'https://www.hku.hk/unobserved-scope' }, { reasonEn: '' }]) {
+    for (const patch of [{ status: 'approved' }, { checkedOn: '2026-02-30' }, { checkedOn: '2026-11-01' }, { sourceUrl: 'https://hku.hk.attacker.invalid/' }, { sourceUrl: 'https://www.hku.hk/unobserved-scope' }, { reasonEn: '' }]) {
       const data = JSON.parse(readFileSync(routePath, 'utf8'));
       Object.assign(data.programmes.find(p => p.programmeId === id).routes.find(r => r.routeId === ai).scope, patch);
       writeFileSync(file, JSON.stringify(data)); assert.throws(() => loadRoutes(file, store.all()));
@@ -173,18 +177,23 @@ test('GET exposes the route warning and exact fee context without altering the u
   const unselected = await get('/api/programmes/' + id);
   assert.equal(unselected.scope, undefined); assert.equal(unselected.selectedRoute, undefined);
   const p = await get(query(ai, aiFt, aiFt + '-NONLOCAL'));
-  assert.equal(p.scope.status, 'unconfirmed'); assert.equal(p.offerings[0].tuition, 375000);
+  assert.equal(p.scope.status, 'out_of_scope'); assert.equal(p.offerings[0].tuition, 375000);
   assert.equal(p.selectedRoute.id, ai); assert.equal(p.selectedOffering.id, aiFt);
   assert.equal((await fetch(url + query(ai, streamsPt))).status, 422);
   assert.equal((await get(query(ai, aiFt))).offerings[0].tuition, null);
 });
 
-test('matching API keeps scope uncertainty separate from passed language and never returns an admission tier', async () => {
-  const result = await fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ profile, selectedRoutes: { [id]: streams }, selectedOfferings: { [id]: streamsPt }, selectedApplicants: { [id]: streamsPt + '-LOCAL' }, filters: { school: 'HK-HKU', q: 'Computer Science' } }) });
+test('matching API returns geographic exclusion before academic comparisons and never returns an admission tier', async () => {
+  const selected = { profile, selectedRoutes: { [id]: streams }, selectedOfferings: { [id]: streamsPt }, selectedApplicants: { [id]: streamsPt + '-LOCAL' }, filters: { school: 'HK-HKU', q: 'Computer Science' } };
+  const hidden = await fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(selected) });
+  assert.equal((await hidden.json()).items.some(p => p.id === id), false);
+  const ordinary = await fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...selected, selectedRoutes: { [id]: standard }, selectedOfferings: {}, selectedApplicants: {} }) });
+  assert.equal((await ordinary.json()).items.find(p => p.id === id).scope, undefined);
+  const result = await fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ profile, selectedRoutes: { [id]: streams }, selectedOfferings: { [id]: streamsPt }, selectedApplicants: { [id]: streamsPt + '-LOCAL' }, filters: { school: 'HK-HKU', q: 'Computer Science', includeOutOfScope: 'true' } }) });
   assert.equal(result.status, 200); const p = (await result.json()).items.find(p => p.id === id);
-  assert.equal(p.match.checks.find(c => c.kind === 'language').status, 'pass');
+  assert.equal(p.match.checks.some(c => c.kind === 'language'), false);
   assert.equal(p.match.checks.find(c => c.kind === 'scope').status, 'unknown');
-  assert.equal(p.match.status, 'needs_confirmation'); assert.equal(p.match.tier, null); assert.equal(p.scope.status, 'unconfirmed');
+  assert.equal(p.match.status, 'out_of_scope'); assert.equal(p.match.tier, null); assert.equal(p.scope.status, 'out_of_scope');
 });
 
 test('candidate export retains the route delivery warning while remembered browser storage contains IDs only', async () => {
@@ -194,7 +203,7 @@ test('candidate export retains the route delivery warning while remembered brows
   const stored = JSON.stringify(savedOptionsPayload({ [id]: saved }));
   assert.equal(stored.includes('Shanghai'), false); assert.equal(stored.includes('tuition'), false);
   const response = await fetch(url + '/api/saved-options/resolve', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ contexts: [saved] }) });
-  assert.equal((await response.json()).items[0].programme.scope.status, 'unconfirmed');
+  assert.equal((await response.json()).items[0].programme.scope.status, 'out_of_scope');
 });
 
 test('route/category evidence is counted separately and no original parent, workbook-backed record or review is upgraded', async () => {
@@ -202,9 +211,9 @@ test('route/category evidence is counted separately and no original parent, work
   assert.equal(JSON.stringify(store.get(id)), before);
   const raw = await get('/api/export'); assert.equal(raw.programmes.find(p => p.id === id).verification, 'catalogue_seed');
   const meta = await get('/api/meta');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 221);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 226);
   assert.deepEqual(meta.routeEvidence, { groups: 7, routes: 17, pageChecked: 17, peerReviewed: 0, complete: 0 });
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 139, categories: 280, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 146, categories: 294, peerReviewed: 0 });
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.ok(routes.get('SG-NTU-P061').every(r => r.lastChecked === '2026-10-16'));
 });

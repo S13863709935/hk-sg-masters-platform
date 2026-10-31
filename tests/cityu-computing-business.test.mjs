@@ -19,7 +19,7 @@ const english = (n, language) => matchProgramme(p(n), { ...background, language 
 
 test('21 existing IDs gain partial source evidence without creating new catalogue awards or changing the original pilot', () => {
   assert.equal(obs.programmeIds.length, 21); assert.equal(new Set(obs.programmeIds).size, 21);
-  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 221); assert.equal(q.browsable, 869); assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0);
+  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 226); assert.equal(q.browsable, 869); assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0);
   assert.equal(store.all().filter(p => p.universityId === 'HK-CITYU' && p.verification === 'programme_page_checked').length, 60);
   const batch = read('data/checked-programmes.json'); assert.equal(batch.pilotProgrammeIds.length, 20);
   assert.ok(obs.programmeIds.every(id => !batch.pilotProgrammeIds.includes(id)));
@@ -58,7 +58,7 @@ test('one school batch upgrades 21 existing catalogue records over isolated rest
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
-      assert.equal(db.quality().checked, 221);
+      assert.equal(db.quality().checked, 226);
       assert.deepEqual(db.all().filter(p => !ids.has(p.id)), earlier);
       assert.deepEqual(db.quality().sourceRefreshConflicts, []);
       for (const id of ids) assert.equal(db.get(id).verification, 'programme_page_checked');
@@ -124,8 +124,8 @@ test('universal deadlines remain withheld after category reconciliation and stud
 });
 
 test('current maintenance units distinguish later category evidence from unchanged routes and imminent cutoffs', () => {
-  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, 221); assert.equal(q.counts.remainingCatalogueLeads, 652);
-  assert.equal(q.counts.reviewUnits, 377); assert.equal(q.counts.routeRecords, 17); assert.equal(q.counts.applicantContexts, 139);
+  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, 226); assert.equal(q.counts.remainingCatalogueLeads, 647);
+  assert.equal(q.counts.reviewUnits, 389); assert.equal(q.counts.routeRecords, 17); assert.equal(q.counts.applicantContexts, 146);
   assert.equal(q.counts.nearCutoffUnits, 3); assert.equal(q.counts.staleApplicantContexts, 0);
 });
 

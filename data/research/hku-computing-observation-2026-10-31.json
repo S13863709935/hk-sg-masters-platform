@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-10-31",
+  "universityId": "HK-HKU",
+  "collector": "AI-assisted official HTML reading, rendered portal scope verification and four admissions PDF visual inspections",
+  "reviewer": null,
+  "programmeIds": [
+    "HK-HKU-P015",
+    "HK-HKU-P017",
+    "HK-HKU-P018",
+    "HK-HKU-P067",
+    "HK-HKU-P099"
+  ],
+  "records": [
+    {
+      "programmeId": "HK-HKU-P015",
+      "programmeUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0",
+      "academicNote": "Bachelor or equivalent, with preparation in linear algebra, calculus, probability, introductory statistics and computer programming. Preparation is assessed from evidence, not inferred from a degree title. A qualifying examination, test or interview may be required. GRE/GMAT and references are not mandatory; CV and personal statement are optional in the current FAQ. Supporting documents are due within four weeks of account creation or the clearing deadline, whichever is earlier; the account-creation date is not captured. The old FAQ July 2025 results date is not a 2027 application cutoff. July 2029 conferment is distinct from the 1.5-year normative study period. This Science AI award is separate from CS Delta X AI.",
+      "localTuitionHkd": 420000,
+      "nonLocalTuitionHkd": 420000,
+      "feeSourceUrl": "https://www.mscai.hku.hk/programme/",
+      "applicationFeeHkd": null,
+      "studyOptions": [
+        {
+          "id": "HK-HKU-P015-2027-FT",
+          "mode": "Full-time",
+          "duration": "1.5 years"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P017",
+      "programmeUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0",
+      "academicNote": "Bachelor in Engineering or Science, or an assessed equivalent qualification. A qualifying examination may be required. Current 2027/28 fee and entry sections establish PART-TIME only; the full-time portal section says To Be Updated and is not a selectable offer. CV, transcripts, grading information and CGPA proof are documentary requirements, not a numeric GPA cutoff. The official PDF introduces September 2027 but its fee heading and results date retain 2026/27 and July 2026; current department 2027/28 part-time fee evidence is used instead. The around-October opening statement is not an exact opening date.",
+      "localTuitionHkd": 275000,
+      "nonLocalTuitionHkd": 375000,
+      "feeSourceUrl": "https://mscftda.cds.hku.hk/Admission/Fee",
+      "applicationFeeHkd": 780,
+      "studyOptions": [
+        {
+          "id": "HK-HKU-P017-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P018",
+      "programmeUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0",
+      "academicNote": "Bachelor or equivalent AND at least one university or post-secondary certificate course in EACH of: calculus and algebra, computer programming, and introductory statistics, or related areas. Course equivalence and any qualifying examination require assessment; a major alone cannot prove all prerequisite courses. FT normative 1.5 years and PT 2.5 years are distinct from July 2029/2030 conferment. The 72-credit curriculum includes a capstone; it is a taught degree. The 2026/27 admission numbers and optional Delta X opportunity are not 2027 quotas or compulsory ordinary-path Shanghai study. Early October is an approximate opening statement. Broken homepage admission counters and unrelated footer links are excluded; key facts are corroborated against the HKU portal and October 2026 admissions PDF.",
+      "localTuitionHkd": 339000,
+      "nonLocalTuitionHkd": 369000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y",
+      "applicationFeeHkd": 780,
+      "studyOptions": [
+        {
+          "id": "HK-HKU-P018-2027-FT",
+          "mode": "Full-time",
+          "duration": "1.5 years normative; 3 years maximum"
+        },
+        {
+          "id": "HK-HKU-P018-2027-PT",
+          "mode": "Part-time",
+          "duration": "2.5 years normative; 4 years maximum"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P067",
+      "programmeUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0",
+      "academicNote": "Bachelor or equivalent; a qualifying examination may be required. No exclusive computing/business undergraduate subject list or numeric GPA is established in the consulted entry sections. CV, transcripts and CGPA proof do not create a minimum CGPA. The 72-credit taught programme includes a capstone project or practicum. A generic now-open statement does not establish an exact opening date. Older optional Delta X Fellowship material is not imposed as a compulsory Shanghai semester on this ordinary Hong Kong offer.",
+      "localTuitionHkd": 275000,
+      "nonLocalTuitionHkd": 375000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y",
+      "applicationFeeHkd": 780,
+      "studyOptions": [
+        {
+          "id": "HK-HKU-P067-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum"
+        },
+        {
+          "id": "HK-HKU-P067-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P099",
+      "programmeUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0",
+      "academicNote": "Bachelor or equivalent AND knowledge of matrices and calculus, introductory statistics and linear modelling. Knowledge and any qualifying examination are assessed from evidence; a major alone does not establish all prerequisites. No fixed work-year gate, exclusive major list or numeric GPA is established. Risk Management, Data Analytics and Financial Statistics themes remain one degree. Normal FT 1-year/PT 2-year study is distinct from July 2028/2029 conferment or later conferment after summer assessment; these are not additional intakes. Older FTSS subsidy cohorts do not establish a 2027 automatic fee discount.",
+      "localTuitionHkd": 245000,
+      "nonLocalTuitionHkd": 265000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y",
+      "applicationFeeHkd": 780,
+      "studyOptions": [
+        {
+          "id": "HK-HKU-P099-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum"
+        },
+        {
+          "id": "HK-HKU-P099-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum"
+        }
+      ]
+    }
+  ],
+  "applicantContextPlan": [
+    {
+      "programmeId": "HK-HKU-P017",
+      "routeId": null,
+      "offeringId": "HK-HKU-P017-2027-PT",
+      "localFee": 275000,
+      "nonLocalFee": 375000,
+      "feeSourceUrl": "https://mscftda.cds.hku.hk/Admission/Fee",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0"
+    },
+    {
+      "programmeId": "HK-HKU-P018",
+      "routeId": null,
+      "offeringId": "HK-HKU-P018-2027-FT",
+      "localFee": 339000,
+      "nonLocalFee": 369000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0"
+    },
+    {
+      "programmeId": "HK-HKU-P018",
+      "routeId": null,
+      "offeringId": "HK-HKU-P018-2027-PT",
+      "localFee": 339000,
+      "nonLocalFee": 369000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0"
+    },
+    {
+      "programmeId": "HK-HKU-P067",
+      "routeId": null,
+      "offeringId": "HK-HKU-P067-2027-FT",
+      "localFee": 275000,
+      "nonLocalFee": 375000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0"
+    },
+    {
+      "programmeId": "HK-HKU-P067",
+      "routeId": null,
+      "offeringId": "HK-HKU-P067-2027-PT",
+      "localFee": 275000,
+      "nonLocalFee": 375000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0"
+    },
+    {
+      "programmeId": "HK-HKU-P099",
+      "routeId": null,
+      "offeringId": "HK-HKU-P099-2027-FT",
+      "localFee": 245000,
+      "nonLocalFee": 265000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0"
+    },
+    {
+      "programmeId": "HK-HKU-P099",
+      "routeId": null,
+      "offeringId": "HK-HKU-P099-2027-PT",
+      "localFee": 245000,
+      "nonLocalFee": 265000,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y",
+      "dateSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0"
+    }
+  ],
+  "pdfVisualChecks": [
+    {
+      "name": "data-science",
+      "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y",
+      "sha256": "7abaab5597af1449356d37002f7b8d0bb0169ee695db53c260c3412b73b9473e",
+      "pages": 2,
+      "renderedPage": 2,
+      "visualObservation": "Page 2 composition-fee year, local/non-local totals, instalment/deposit treatment and separate application fee visually verified; FTDA retains stale 2026/27 fee/result labels."
+    },
+    {
+      "name": "ecic",
+      "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y",
+      "sha256": "b43fdb0d97c92f775f69de6e79e278457c7908f27ebca0a27d304ba99d07e270",
+      "pages": 2,
+      "renderedPage": 2,
+      "visualObservation": "Page 2 composition-fee year, local/non-local totals, instalment/deposit treatment and separate application fee visually verified; FTDA retains stale 2026/27 fee/result labels."
+    },
+    {
+      "name": "ftda",
+      "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R410&pVIEW=Y",
+      "sha256": "ee19892d8082390dcb628f1bd7980c26af1dbf61b46f99167088673e604ad279",
+      "pages": 2,
+      "renderedPage": 2,
+      "visualObservation": "Page 2 composition-fee year, local/non-local totals, instalment/deposit treatment and separate application fee visually verified; FTDA retains stale 2026/27 fee/result labels."
+    },
+    {
+      "name": "statistics",
+      "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y",
+      "sha256": "9d0539809cbef7d2fca593e2c750d8cc601fb0406a13e19e0a92e42a8805ef69",
+      "pages": 2,
+      "renderedPage": 2,
+      "visualObservation": "Page 2 composition-fee year, local/non-local totals, instalment/deposit treatment and separate application fee visually verified; FTDA retains stale 2026/27 fee/result labels."
+    }
+  ],
+  "scopeRefreshes": [
+    {
+      "programmeId": "HK-HKU-P016",
+      "routeId": "HK-HKU-P016-ROUTE-DELTA-AI",
+      "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0",
+      "status": "out_of_scope",
+      "reasonEn": "Includes Semester 1 study in Shanghai as part of this exact September 2027 Delta X pathway. Required mainland delivery is outside the current Hong Kong/Singapore-only project scope; this is a geographic exclusion, not an academic-background rejection. Ordinary Hong Kong CS remains a separate option."
+    },
+    {
+      "programmeId": "HK-HKU-P016",
+      "routeId": "HK-HKU-P016-ROUTE-DELTA-STREAMS",
+      "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0",
+      "status": "out_of_scope",
+      "reasonEn": "Includes Semester 2 study in Shanghai as part of this exact September 2027 Delta X pathway. Required mainland delivery is outside the current Hong Kong/Singapore-only project scope; this is a geographic exclusion, not an academic-background rejection. Ordinary Hong Kong CS remains a separate option."
+    }
+  ],
+  "boundaries": {
+    "ftda": "2027/28 part-time only from portal and current department fee page. PDF page 2 retains a 2026/27 fee heading and July 2026 results date; neither establishes current fees or a full-time offering.",
+    "dataScience": "Homepage has unrelated footer links and broken admission-rate counters. Do not follow/export these or infer an admission probability. Critical facts corroborated against central portal and official October 2026 PDF.",
+    "ai": "Science AI is distinct from CS Delta X AI. Total HKD 420,000 over 1.5 years/three instalments; application fee unconfirmed. Exact opening 21 September 2026, main 16 November 2026 noon, clearing 1 February 2027 noon.",
+    "dates": "Other four degrees: main 1 December 2026 noon and clearing 30 April 2027 noon GMT+8. Approximate October/generic now-open statements are not exact dates. Result and conferment dates are not application deadlines.",
+    "fees": "Whole-programme proposed totals, not annual prices multiplied by duration. The deposit first instalment is credited. Caution money and FT activity fee are separate where explicitly stated; no scholarship deducted.",
+    "language": "Only general HKU minima and intake-anchored date boundary recorded; no Arts-only requirement, inferred new-scale component conversion or borrowed university test-format restriction."
+  },
+  "sourceLimits": "Five existing programme identities in the computing/data subject batch, not a full HKU census. No live portal availability, independent review, human user test or complete admission eligibility is claimed. Scope-only Delta X refresh preserves older fee/language observations and context fingerprints.",
+  "preservation": "All prior 221 checked parent objects, 139 existing contexts, 15 unrelated route snapshots (including ordinary HKU CS), all existing study offerings/fingerprints, directory identities, scope-audit decisions, pilot IDs, workbook/history and protected refs preserved.",
+  "counts": {
+    "newPartialRecords": 5,
+    "newDirectStudyOptions": 8,
+    "newApplicantContexts": 7,
+    "newApplicantCategories": 14,
+    "scopeRefreshes": 2,
+    "globalPartial": 226,
+    "globalLeads": 647,
+    "hkuPartial": 6,
+    "hkuLeads": 97
+  }
+}

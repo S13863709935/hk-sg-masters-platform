@@ -158,14 +158,15 @@ test('parent, applicant-category and comparison dates remain separate for a sele
   assert.equal(result.selectedApplicant.id, choice + '-LOCAL'); assert.equal(result.rememberedChoice, true);
 });
 
-test('route exports contain only selected-route criteria and preserve unresolved cross-region delivery', async () => {
+test('route exports retain selected-route criteria, geographic exclusion and separate source dates', async () => {
   const id = 'HK-HKU-P016', route = id + '-ROUTE-DELTA-AI';
   const parent = await get('/api/programmes/' + id);
   assert.deepEqual(exportOne(parent).evidence.publishedRequirements, []);
   const p = await get('/api/programmes/' + id + '?route=' + route + '&offering=' + id + '-DELTA-AI-FT-2027');
   const result = exportOne(p), e = result.evidence;
-  assert.equal(result.selectedRoute.id, route); assert.equal(result.scope.status, 'unconfirmed');
-  assert.match(result.scope.reasonEn, /Semester 1/); assert.equal(e.lastChecked, '2026-10-21');
+  assert.equal(result.selectedRoute.id, route); assert.equal(result.scope.status, 'out_of_scope');
+  assert.match(result.scope.reasonEn, /Semester 1/); assert.equal(e.lastChecked, '2026-10-31');
+  assert.ok(e.sources.some(s => s.checkedOn === '2026-10-21')); assert.ok(e.sources.some(s => s.checkedOn === '2026-10-31'));
   assert.deepEqual(e.publishedRequirements.map(r => r.labelEn), p.rules.map(r => r.labelEn));
   assert.equal(e.requirementsCoverage, 'partial'); assert.equal(result.offerings[0].tuition, null);
 });

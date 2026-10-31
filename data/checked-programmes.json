@@ -39545,6 +39545,1004 @@
         }
       },
       "researchBatch": "hkbu-remaining-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P015",
+      "universityId": "HK-HKU",
+      "name": "MSc Artificial Intelligence",
+      "award": "MSc",
+      "area": "Data & AI",
+      "faculty": "Faculty of Science, jointly with School of Computing and Data Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official HTML and admissions PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Ordinary Hong Kong programme observation; partial requirements only. Bachelor or equivalent, with preparation in linear algebra, calculus, probability, introductory statistics and computer programming. Preparation is assessed from evidence, not inferred from a degree title. A qualifying examination, test or interview may be required. GRE/GMAT and references are not mandatory; CV and personal statement are optional in the current FAQ. Supporting documents are due within four weeks of account creation or the clearing deadline, whichever is earlier; the account-creation date is not captured. The old FAQ July 2025 results date is not a 2027 application cutoff. July 2029 conferment is distinct from the 1.5-year normative study period. This Science AI award is separate from CS Delta X AI.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P015-2027-FT",
+          "mode": "Full-time",
+          "duration": "1.5 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 420000,
+          "applicationFee": null,
+          "applicationOpen": "2026-09-21",
+          "deadline": "2027-02-01",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": "2026-09-21",
+              "deadline": "2026-11-16",
+              "deadlineAt": "2026-11-16T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": "2026-09-21",
+              "deadline": "2027-02-01",
+              "deadlineAt": "2027-02-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; HKD 420,000 total. Paid in 3 instalments over the normative study period; do not multiply the total by years. Application fee amount was not established in the consulted Science AI sources; no sibling or government-funded fee is substituted. No scholarship or Fellowship discount automatically deducted; living and travel costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.mscai.hku.hk/programme/",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Main and clearing rounds close at 12:00 noon GMT+8, not midnight. Exact opening 21 September 2026 is recorded. Dates do not confirm live availability or prevent early quota closure."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English test-score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, evidence and alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses applicability for qualifications obtained outside Hong Kong where teaching and/or examination was not in English. Accepted medium-of-instruction evidence, waivers, other listed examinations and test formats require confirmation. No unverified Home-test or single-sitting restriction is imported from another university. The 1 September 2025 lower date is derived from two years before 1 September 2027, not from today. Arts-only higher score/writing requirements are not imposed on this programme.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor or equivalent, with preparation in linear algebra, calculus, probability, introductory statistics and computer programming. Preparation is assessed from evidence, not inferred from a degree title. A qualifying examination, test or interview may be required. GRE/GMAT and references are not mandatory; CV and personal statement are optional in the current FAQ. Supporting documents are due within four weeks of account creation or the clearing deadline, whichever is earlier; the account-creation date is not captured. The old FAQ July 2025 results date is not a 2027 application cutoff. July 2029 conferment is distinct from the 1.5-year normative study period. This Science AI award is separate from CS Delta X AI.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, applicant category and current availability",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU decides qualification equivalence, prerequisite evidence, applicant classification and study permissions. Local/non-local fee classification is not inferred from nationality or current residence. Exact published rounds are snapshots; opening statements, early quota closure and live availability are not verified. Numeric language comparisons do not establish complete eligibility, admission probability or a guaranteed safety option.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://www.mscai.hku.hk/admissions/",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://www.mscai.hku.hk/programme/",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://www.mscai.hku.hk/frequently-asked-questions/",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R367&pVIEW=Y",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 entry; 2027/28. Earlier cohorts, conferment dates and optional Fellowship opportunities are not merged.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "No exclusive degree-subject list established; required preparation or coursework remains assessed. This is not universal any-major acceptance.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; CGPA documentation, scholarship and graduation conditions are not entry cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0 with each component 5.5; original TOEFL 80 before 21 January 2026 or new scale 4.5 from that date. Intake-anchored validity and applicability remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed whole-programme total in dated mode/category context; approval, separate charges and deposit treatment remain explicit. Science AI application fee is unconfirmed.",
+          "sourceUrl": "https://www.mscai.hku.hk/programme/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Two exact noon GMT+8 cutoffs; no approximate opening is converted into an exact date. Live availability unconfirmed.",
+          "sourceUrl": "https://www.mscai.hku.hk/admissions/"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial source observation only; no independent reviewer or complete requirements set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0"
+        }
+      },
+      "researchBatch": "hku-computing-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P017",
+      "universityId": "HK-HKU",
+      "name": "MSc Financial Technology and Data Analytics",
+      "award": "MSc",
+      "area": "Finance",
+      "faculty": "School of Computing and Data Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official HTML and admissions PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Ordinary Hong Kong programme observation; partial requirements only. Bachelor in Engineering or Science, or an assessed equivalent qualification. A qualifying examination may be required. Current 2027/28 fee and entry sections establish PART-TIME only; the full-time portal section says To Be Updated and is not a selectable offer. CV, transcripts, grading information and CGPA proof are documentary requirements, not a numeric GPA cutoff. The official PDF introduces September 2027 but its fee heading and results date retain 2026/27 and July 2026; current department 2027/28 part-time fee evidence is used instead. The around-October opening statement is not an exact opening date.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P017-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose the HKU local/non-local category for its total. Paid in 4 instalments over the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited, not extra tuition. Separate caution money HKD 350 are not included in this tuition total. Separate application fee HKD 780. No scholarship or Fellowship discount automatically deducted; living and travel costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://mscftda.cds.hku.hk/Admission/Fee",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Main and clearing rounds close at 12:00 noon GMT+8, not midnight. No exact opening date is established. Dates do not confirm live availability or prevent early quota closure."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0"
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Engineering or Science; equivalent qualifications assessed",
+          "sourceUrl": "https://mscftda.cds.hku.hk/Admission/Requirements",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English test-score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, evidence and alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses applicability for qualifications obtained outside Hong Kong where teaching and/or examination was not in English. Accepted medium-of-instruction evidence, waivers, other listed examinations and test formats require confirmation. No unverified Home-test or single-sitting restriction is imported from another university. The 1 September 2025 lower date is derived from two years before 1 September 2027, not from today. Arts-only higher score/writing requirements are not imposed on this programme.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor in Engineering or Science, or an assessed equivalent qualification. A qualifying examination may be required. Current 2027/28 fee and entry sections establish PART-TIME only; the full-time portal section says To Be Updated and is not a selectable offer. CV, transcripts, grading information and CGPA proof are documentary requirements, not a numeric GPA cutoff. The official PDF introduces September 2027 but its fee heading and results date retain 2026/27 and July 2026; current department 2027/28 part-time fee evidence is used instead. The around-October opening statement is not an exact opening date.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, applicant category and current availability",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU decides qualification equivalence, prerequisite evidence, applicant classification and study permissions. Local/non-local fee classification is not inferred from nationality or current residence. Exact published rounds are snapshots; opening statements, early quota closure and live availability are not verified. Numeric language comparisons do not establish complete eligibility, admission probability or a guaranteed safety option.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://mscftda.cds.hku.hk/Admission/Requirements",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://mscftda.cds.hku.hk/Admission/Application",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://mscftda.cds.hku.hk/Admission/Fee",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R410&pVIEW=Y",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 entry; 2027/28. Earlier cohorts, conferment dates and optional Fellowship opportunities are not merged.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Engineering or Science bachelor/equivalent; no full-time offer inferred.",
+          "sourceUrl": "https://mscftda.cds.hku.hk/Admission/Requirements"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; CGPA documentation, scholarship and graduation conditions are not entry cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0 with each component 5.5; original TOEFL 80 before 21 January 2026 or new scale 4.5 from that date. Intake-anchored validity and applicability remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed whole-programme mode/category total, subject to approval. Deposits credit the first instalment, without scholarships or annual multiplication.",
+          "sourceUrl": "https://mscftda.cds.hku.hk/Admission/Fee"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Two exact noon GMT+8 cutoffs; no approximate opening is converted into an exact date. Live availability unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial source observation only; no independent reviewer or complete requirements set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0"
+        }
+      },
+      "researchBatch": "hku-computing-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P018",
+      "universityId": "HK-HKU",
+      "name": "Master of Data Science",
+      "award": "Master",
+      "area": "Data & AI",
+      "faculty": "School of Computing and Data Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official HTML and admissions PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Ordinary Hong Kong programme observation; partial requirements only. Bachelor or equivalent AND at least one university or post-secondary certificate course in EACH of: calculus and algebra, computer programming, and introductory statistics, or related areas. Course equivalence and any qualifying examination require assessment; a major alone cannot prove all prerequisite courses. FT normative 1.5 years and PT 2.5 years are distinct from July 2029/2030 conferment. The 72-credit curriculum includes a capstone; it is a taught degree. The 2026/27 admission numbers and optional Delta X opportunity are not 2027 quotas or compulsory ordinary-path Shanghai study. Early October is an approximate opening statement. Broken homepage admission counters and unrelated footer links are excluded; key facts are corroborated against the HKU portal and October 2026 admissions PDF.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P018-2027-FT",
+          "mode": "Full-time",
+          "duration": "1.5 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose the HKU local/non-local category for its total. Paid in 3 instalments over the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited, not extra tuition. Separate caution money HKD 350 and FT student activity fee HKD 100 are not included in this tuition total. Separate application fee HKD 780. No scholarship or Fellowship discount automatically deducted; living and travel costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Main and clearing rounds close at 12:00 noon GMT+8, not midnight. No exact opening date is established. Dates do not confirm live availability or prevent early quota closure."
+        },
+        {
+          "id": "HK-HKU-P018-2027-PT",
+          "mode": "Part-time",
+          "duration": "2.5 years normative; 4 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose the HKU local/non-local category for its total. Paid in 5 instalments over the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited, not extra tuition. Separate caution money HKD 350 are not included in this tuition total. Separate application fee HKD 780. No scholarship or Fellowship discount automatically deducted; living and travel costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Main and clearing rounds close at 12:00 noon GMT+8, not midnight. No exact opening date is established. Dates do not confirm live availability or prevent early quota closure."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English test-score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, evidence and alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses applicability for qualifications obtained outside Hong Kong where teaching and/or examination was not in English. Accepted medium-of-instruction evidence, waivers, other listed examinations and test formats require confirmation. No unverified Home-test or single-sitting restriction is imported from another university. The 1 September 2025 lower date is derived from two years before 1 September 2027, not from today. Arts-only higher score/writing requirements are not imposed on this programme.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor or equivalent AND at least one university or post-secondary certificate course in EACH of: calculus and algebra, computer programming, and introductory statistics, or related areas. Course equivalence and any qualifying examination require assessment; a major alone cannot prove all prerequisite courses. FT normative 1.5 years and PT 2.5 years are distinct from July 2029/2030 conferment. The 72-credit curriculum includes a capstone; it is a taught degree. The 2026/27 admission numbers and optional Delta X opportunity are not 2027 quotas or compulsory ordinary-path Shanghai study. Early October is an approximate opening statement. Broken homepage admission counters and unrelated footer links are excluded; key facts are corroborated against the HKU portal and October 2026 admissions PDF.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, applicant category and current availability",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU decides qualification equivalence, prerequisite evidence, applicant classification and study permissions. Local/non-local fee classification is not inferred from nationality or current residence. Exact published rounds are snapshots; opening statements, early quota closure and live availability are not verified. Numeric language comparisons do not establish complete eligibility, admission probability or a guaranteed safety option.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://mdasc.cds.hku.hk/admissions-2027-28/",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://mdasc.cds.hku.hk/programme-2027-28/",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 entry; 2027/28. Earlier cohorts, conferment dates and optional Fellowship opportunities are not merged.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "No exclusive degree-subject list established; required preparation or coursework remains assessed. This is not universal any-major acceptance.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; CGPA documentation, scholarship and graduation conditions are not entry cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0 with each component 5.5; original TOEFL 80 before 21 January 2026 or new scale 4.5 from that date. Intake-anchored validity and applicability remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed whole-programme mode/category total, subject to approval. Deposits credit the first instalment, without scholarships or annual multiplication.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Two exact noon GMT+8 cutoffs; no approximate opening is converted into an exact date. Live availability unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial source observation only; no independent reviewer or complete requirements set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0"
+        }
+      },
+      "researchBatch": "hku-computing-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P067",
+      "universityId": "HK-HKU",
+      "name": "Master of Science in Electronic Commerce and Internet Computing",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "School of Computing and Data Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official HTML and admissions PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Ordinary Hong Kong programme observation; partial requirements only. Bachelor or equivalent; a qualifying examination may be required. No exclusive computing/business undergraduate subject list or numeric GPA is established in the consulted entry sections. CV, transcripts and CGPA proof do not create a minimum CGPA. The 72-credit taught programme includes a capstone project or practicum. A generic now-open statement does not establish an exact opening date. Older optional Delta X Fellowship material is not imposed as a compulsory Shanghai semester on this ordinary Hong Kong offer.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P067-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose the HKU local/non-local category for its total. Paid in 2 instalments over the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited, not extra tuition. Separate caution money HKD 350 and FT student activity fee HKD 100 are not included in this tuition total. Separate application fee HKD 780. No scholarship or Fellowship discount automatically deducted; living and travel costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Main and clearing rounds close at 12:00 noon GMT+8, not midnight. No exact opening date is established. Dates do not confirm live availability or prevent early quota closure."
+        },
+        {
+          "id": "HK-HKU-P067-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose the HKU local/non-local category for its total. Paid in 4 instalments over the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited, not extra tuition. Separate caution money HKD 350 are not included in this tuition total. Separate application fee HKD 780. No scholarship or Fellowship discount automatically deducted; living and travel costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Main and clearing rounds close at 12:00 noon GMT+8, not midnight. No exact opening date is established. Dates do not confirm live availability or prevent early quota closure."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English test-score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, evidence and alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses applicability for qualifications obtained outside Hong Kong where teaching and/or examination was not in English. Accepted medium-of-instruction evidence, waivers, other listed examinations and test formats require confirmation. No unverified Home-test or single-sitting restriction is imported from another university. The 1 September 2025 lower date is derived from two years before 1 September 2027, not from today. Arts-only higher score/writing requirements are not imposed on this programme.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor or equivalent; a qualifying examination may be required. No exclusive computing/business undergraduate subject list or numeric GPA is established in the consulted entry sections. CV, transcripts and CGPA proof do not create a minimum CGPA. The 72-credit taught programme includes a capstone project or practicum. A generic now-open statement does not establish an exact opening date. Older optional Delta X Fellowship material is not imposed as a compulsory Shanghai semester on this ordinary Hong Kong offer.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, applicant category and current availability",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU decides qualification equivalence, prerequisite evidence, applicant classification and study permissions. Local/non-local fee classification is not inferred from nationality or current residence. Exact published rounds are snapshots; opening statements, early quota closure and live availability are not verified. Numeric language comparisons do not establish complete eligibility, admission probability or a guaranteed safety option.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://www.ecom-icom.hku.hk/Admission/application",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://www.ecom-icom.hku.hk/Admission/entrance_requirements",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 entry; 2027/28. Earlier cohorts, conferment dates and optional Fellowship opportunities are not merged.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "No exclusive degree-subject list established; required preparation or coursework remains assessed. This is not universal any-major acceptance.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; CGPA documentation, scholarship and graduation conditions are not entry cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0 with each component 5.5; original TOEFL 80 before 21 January 2026 or new scale 4.5 from that date. Intake-anchored validity and applicability remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed whole-programme mode/category total, subject to approval. Deposits credit the first instalment, without scholarships or annual multiplication.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Two exact noon GMT+8 cutoffs; no approximate opening is converted into an exact date. Live availability unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial source observation only; no independent reviewer or complete requirements set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0"
+        }
+      },
+      "researchBatch": "hku-computing-2026-10-31"
+    },
+    {
+      "id": "HK-HKU-P099",
+      "universityId": "HK-HKU",
+      "name": "Master of Statistics",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "School of Computing and Data Science",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+      "lastChecked": "2026-10-31",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted official HTML and admissions PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Ordinary Hong Kong programme observation; partial requirements only. Bachelor or equivalent AND knowledge of matrices and calculus, introductory statistics and linear modelling. Knowledge and any qualifying examination are assessed from evidence; a major alone does not establish all prerequisites. No fixed work-year gate, exclusive major list or numeric GPA is established. Risk Management, Data Analytics and Financial Statistics themes remain one degree. Normal FT 1-year/PT 2-year study is distinct from July 2028/2029 conferment or later conferment after summer assessment; these are not additional intakes. Older FTSS subsidy cohorts do not establish a 2027 automatic fee discount.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P099-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year normative; 2 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose the HKU local/non-local category for its total. Paid in 2 instalments over the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited, not extra tuition. Separate caution money HKD 350 and FT student activity fee HKD 100 are not included in this tuition total. Separate application fee HKD 780. No scholarship or Fellowship discount automatically deducted; living and travel costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Main and clearing rounds close at 12:00 noon GMT+8, not midnight. No exact opening date is established. Dates do not confirm live availability or prevent early quota closure."
+        },
+        {
+          "id": "HK-HKU-P099-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-01",
+              "deadlineAt": "2026-12-01T12:00:00+08:00"
+            },
+            {
+              "id": "CLEARING",
+              "label": "Clearing round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Proposed 2027/28 whole-programme tuition, subject to University approval; choose the HKU local/non-local category for its total. Paid in 4 instalments over the normative study period; do not multiply the total by years. Admission deposit includes the first instalment, credited, not extra tuition. Separate caution money HKD 350 are not included in this tuition total. Separate application fee HKD 780. No scholarship or Fellowship discount automatically deducted; living and travel costs excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y",
+            "checkedOn": "2026-10-31"
+          },
+          "deadlineNote": "Main and clearing rounds close at 12:00 noon GMT+8, not midnight. No exact opening date is established. Dates do not confirm live availability or prevent early quota closure."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Bachelor's degree or assessed equivalent",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0"
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "HKU general English test-score route",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, evidence and alternatives",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "HKU assesses applicability for qualifications obtained outside Hong Kong where teaching and/or examination was not in English. Accepted medium-of-instruction evidence, waivers, other listed examinations and test formats require confirmation. No unverified Home-test or single-sitting restriction is imported from another university. The 1 September 2025 lower date is derived from two years before 1 September 2027, not from today. Arts-only higher score/writing requirements are not imposed on this programme.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and study conditions",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0",
+          "noteZh": "",
+          "noteEn": "Bachelor or equivalent AND knowledge of matrices and calculus, introductory statistics and linear modelling. Knowledge and any qualifying examination are assessed from evidence; a major alone does not establish all prerequisites. No fixed work-year gate, exclusive major list or numeric GPA is established. Risk Management, Data Analytics and Financial Statistics themes remain one degree. Normal FT 1-year/PT 2-year study is distinct from July 2028/2029 conferment or later conferment after summer assessment; these are not additional intakes. Older FTSS subsidy cohorts do not establish a 2027 automatic fee discount.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognition, applicant category and current availability",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0",
+          "noteZh": "",
+          "noteEn": "HKU decides qualification equivalence, prerequisite evidence, applicant classification and study permissions. Local/non-local fee classification is not inferred from nationality or current residence. Exact published rounds are snapshots; opening statements, early quota closure and live availability are not verified. Numeric language comparisons do not establish complete eligibility, admission probability or a guaranteed safety option.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y",
+          "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+          "checkedOn": "2026-10-31"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September 2027 entry; 2027/28. Earlier cohorts, conferment dates and optional Fellowship opportunities are not merged.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "No exclusive degree-subject list established; required preparation or coursework remains assessed. This is not universal any-major acceptance.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; CGPA documentation, scholarship and graduation conditions are not entry cutoffs.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "IELTS 6.0 with each component 5.5; original TOEFL 80 before 21 January 2026 or new scale 4.5 from that date. Intake-anchored validity and applicability remain separate.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Proposed whole-programme mode/category total, subject to approval. Deposits credit the first instalment, without scholarships or annual multiplication.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Two exact noon GMT+8 cutoffs; no approximate opening is converted into an exact date. Live availability unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "AI-assisted partial source observation only; no independent reviewer or complete requirements set.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0"
+        }
+      },
+      "researchBatch": "hku-computing-2026-10-31"
     }
   ]
 }

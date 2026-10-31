@@ -18,7 +18,7 @@ export const applicationLabels = {
   route_required: 'Choose a specific route before checking dates',
   applicant_required: 'Choose an applicant category before comparing these dates',
   unverified: 'Application dates are not source-checked',
-  excluded: 'Not a direct-entry taught master’s option'
+  excluded: 'Excluded from the current project scope'
 };
 
 function offeringDate(programme, offering, asOfDate, asOfInstant) {
