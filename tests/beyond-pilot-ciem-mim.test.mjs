@@ -121,7 +121,8 @@ test('SMU month-only year-specific notices do not become exact windows, invented
 const app = createApp({ store, publicDir: new URL('public/', root), routeEvidencePath: routePath, applicantEvidencePath: contextPath, now: () => new Date('2026-10-24T04:00:00Z') });
 await new Promise(resolve => app.listen(0, '127.0.0.1', resolve));
 const base = `http://127.0.0.1:${app.address().port}`;
-const get = async path => { const r = await fetch(base + path); assert.equal(r.status, 200); return r.json(); };
+// Migration checks can block this process beyond the server's idle keep-alive timeout.
+const get = async path => { const r = await fetch(base + path, { headers: { Connection: 'close' } }); assert.equal(r.status, 200); return r.json(); };
 test.after(async () => { await new Promise(resolve => app.close(resolve)); store.close(); });
 
 test('real APIs and remembered choices use new programme evidence while retired seed choices require attention', async () => {
@@ -149,16 +150,16 @@ test('an existing file-backed catalogue with directory metadata loads both first
     db.close(); db = null; writeFileSync(checkedPath, JSON.stringify(batch)); db = new CatalogueStore(path, { ...options, checkedPath });
     assert.equal(db.get(hk.id).verification, 'programme_page_checked'); assert.equal(db.get(sm.id).verification, 'programme_page_checked');
     assert.deepEqual(db.get(hk.id).directoryListing, directory); assert.deepEqual(db.get('HK-HKUST-P002'), oldProgramme);
-    assert.equal(db.quality().checked, 267); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-    const routeIndex = loadRoutes(routePath, db.all()); assert.deepEqual(applicantSummary(loadApplicantContexts(contextPath, db.all(), routeIndex)), { studyOptions: 184, categories: 370, peerReviewed: 0 });
+    assert.equal(db.quality().checked, 274); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
+    const routeIndex = loadRoutes(routePath, db.all()); assert.deepEqual(applicantSummary(loadApplicantContexts(contextPath, db.all(), routeIndex)), { studyOptions: 191, categories: 384, peerReviewed: 0 });
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
 
 test('read-only views do not inflate record totals, independent review, completed requirements or programme-source dates', async () => {
   const before = JSON.stringify(store.all());
   for (const p of [hk, sm]) { programmeTimeline(p, '2026-10-24'); matchProgramme(p, profile); }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 267);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 274);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 184, categories: 370, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 191, categories: 384, peerReviewed: 0 });
   assert.equal(JSON.stringify(store.all()), before);
 });

@@ -5117,6 +5117,2079 @@
           "routeId": "HK-HKU-P073-ROUTE-PROJECT-MANAGEMENT"
         }
       ]
+    },
+    {
+      "programmeId": "HK-HKU-P001",
+      "routes": [
+        {
+          "name": "Master of Architecture (non-HK and International Applicants)",
+          "award": "Master",
+          "area": "Architecture",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Architectural Studies bachelor or university-accepted equivalent architectural qualification. Professional experience is preferred, not essential; the current FAQ sets no absolute GPA. The two-year MArch and three-year MArch(Design) are distinct awards. Local UGC and non-HK/international self-funded paths require university classification, not inference from residence. Two referees with at least one academic, landscape-format portfolio up to30 pages/30MB and interest statement up to500 words; exact current PDF deadline supersedes old January2026 document text on the webpage.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P001-ROUTE-NONLOCAL-2027-FT",
+              "mode": "Full-time",
+              "duration": "2 years",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 460000,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. Portal composition tuition460,000; current PDF estimates460,450 inclusive of350 caution money and100 activity fee. Four instalments during two years; the extra450 is separate from composition tuition.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R399&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. The department webpage still contains April2026/January2026 document dates; current 2027 portal/PDF controls this recorded application round."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Named subject route; other/related qualifications require assessment",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0",
+              "accepted": [
+                "Architectural Studies"
+              ],
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R399&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Architectural Studies bachelor or university-accepted equivalent architectural qualification. Professional experience is preferred, not essential; the current FAQ sets no absolute GPA. The two-year MArch and three-year MArch(Design) are distinct awards. Local UGC and non-HK/international self-funded paths require university classification, not inference from residence. Two referees with at least one academic, landscape-format portfolio up to30 pages/30MB and interest statement up to500 words; exact current PDF deadline supersedes old January2026 document text on the webpage.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Exact funding/application path",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0",
+              "noteZh": "",
+              "noteEn": "This is the non-HK/international self-funded catalogue path. University classification, funding entitlement and professional-degree equivalence must be assessed. No profile field infers this status. A path selection is not approval of funding or admission. Current PDF 2027 deadline supersedes the webpage old supporting-documents date.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R399&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/arch/master-of-architecture/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Architectural Studies bachelor or university-accepted equivalent architectural qualification. Professional experience is preferred, not essential; the current FAQ sets no absolute GPA. The two-year MArch and three-year MArch(Design) are distinct awards. Local UGC and non-HK/international self-funded paths require university classification, not inference from residence. Two referees with at least one academic, landscape-format portfolio up to30 pages/30MB and interest statement up to500 words; exact current PDF deadline supersedes old January2026 document text on the webpage.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R399&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P001-ROUTE-NONLOCAL"
+        },
+        {
+          "name": "Master of Architecture (UGC funded for HK Applicants)",
+          "award": "Master",
+          "area": "Architecture",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Architectural Studies bachelor or university-accepted equivalent architectural qualification. Professional experience is preferred, not essential; the current FAQ sets no absolute GPA. The two-year MArch and three-year MArch(Design) are distinct awards. Local UGC and non-HK/international self-funded paths require university classification, not inference from residence. Two referees with at least one academic, landscape-format portfolio up to30 pages/30MB and interest statement up to500 words; exact current PDF deadline supersedes old January2026 document text on the webpage.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P001-ROUTE-UGC-2027-FT",
+              "mode": "Full-time",
+              "duration": "2 years",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 99000,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. Portal composition tuition99,000; current PDF estimates99,450 inclusive of350 caution money and100 activity fee. Four instalments during two years; the extra450 is separate from composition tuition.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R84&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. The department webpage still contains April2026/January2026 document dates; current 2027 portal/PDF controls this recorded application round."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Named subject route; other/related qualifications require assessment",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0",
+              "accepted": [
+                "Architectural Studies"
+              ],
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R84&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Architectural Studies bachelor or university-accepted equivalent architectural qualification. Professional experience is preferred, not essential; the current FAQ sets no absolute GPA. The two-year MArch and three-year MArch(Design) are distinct awards. Local UGC and non-HK/international self-funded paths require university classification, not inference from residence. Two referees with at least one academic, landscape-format portfolio up to30 pages/30MB and interest statement up to500 words; exact current PDF deadline supersedes old January2026 document text on the webpage.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Exact funding/application path",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0",
+              "noteZh": "",
+              "noteEn": "This is the local UGC-funded catalogue path. University classification, funding entitlement and professional-degree equivalence must be assessed. No profile field infers this status. A path selection is not approval of funding or admission. Current PDF 2027 deadline supersedes the webpage old supporting-documents date.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R84&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/arch/master-of-architecture/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Architectural Studies bachelor or university-accepted equivalent architectural qualification. Professional experience is preferred, not essential; the current FAQ sets no absolute GPA. The two-year MArch and three-year MArch(Design) are distinct awards. Local UGC and non-HK/international self-funded paths require university classification, not inference from residence. Two referees with at least one academic, landscape-format portfolio up to30 pages/30MB and interest statement up to500 words; exact current PDF deadline supersedes old January2026 document text on the webpage.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R84&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P001-ROUTE-UGC"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P065",
+      "routes": [
+        {
+          "name": "Master of Science in Conservation (Conservation Planning and Management Stream)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Built environment, engineering, archaeology, social sciences, geosciences, humanities or law backgrounds; other motivated degree holders with relevant work/research experience may be assessed. No absolute GPA or universal work-year floor. Both streams require an English PDF portfolio up to15 pages/30MB, own role/credits and a reflective essay up to500 words, with two referees and shortlisted interview. Stream choice is a preference; final allocation remains assessed. Programme-specific IELTS6.5/each5.5 and old TOEFL90/new4.5 exceed the general rule for IELTS/old TOEFL.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P065-ROUTE-PLANNING-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "EARLY",
+                  "label": "Early round",
+                  "applicationOpen": null,
+                  "deadline": "2026-10-22",
+                  "deadlineAt": "2026-10-22T12:00:00+08:00"
+                },
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. TUITION UNRESOLVED: portal and main PDF section quote250,000, but the same current PDF FAQ quotes248,800. Both describe two FT/four PT instalments. Neither conflicting amount is exposed as a settled numeric fee.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. "
+            },
+            {
+              "id": "HK-HKU-P065-ROUTE-PLANNING-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "EARLY",
+                  "label": "Early round",
+                  "applicationOpen": null,
+                  "deadline": "2026-10-22",
+                  "deadlineAt": "2026-10-22T12:00:00+08:00"
+                },
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. TUITION UNRESOLVED: portal and main PDF section quote250,000, but the same current PDF FAQ quotes248,800. Both describe two FT/four PT instalments. Neither conflicting amount is exposed as a settled numeric fee.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Named subject route; other/related qualifications require assessment",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0",
+              "accepted": [
+                "Architecture",
+                "Landscape Architecture",
+                "Urban Studies",
+                "Urban Planning",
+                "Urban Design",
+                "Surveying",
+                "Engineering",
+                "Archaeology",
+                "Social Sciences",
+                "Geosciences",
+                "Humanities",
+                "Law"
+              ],
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "tests": {
+                "ielts": {
+                  "total": 6.5,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 90,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Built environment, engineering, archaeology, social sciences, geosciences, humanities or law backgrounds; other motivated degree holders with relevant work/research experience may be assessed. No absolute GPA or universal work-year floor. Both streams require an English PDF portfolio up to15 pages/30MB, own role/credits and a reflective essay up to500 words, with two referees and shortlisted interview. Stream choice is a preference; final allocation remains assessed. Programme-specific IELTS6.5/each5.5 and old TOEFL90/new4.5 exceed the general rule for IELTS/old TOEFL.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Part-time residency and minimum cohort",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0",
+              "noteZh": "",
+              "noteEn": "Part-time is offered only if at least8 successful applicants form a cohort and is restricted to students with residency status in Hong Kong or Macau. The profile cannot establish residency or cohort size; this condition is NOT imposed on full-time applicants.",
+              "mandatory": true,
+              "appliesTo": {
+                "offeringIds": [
+                  "HK-HKU-P065-ROUTE-PLANNING-2027-PT"
+                ],
+                "labelEn": "Part-time Master of Science in Conservation (Conservation Planning and Management Stream)",
+                "academicYear": "2027/28",
+                "checkedOn": "2026-10-31"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/conservation/master-of-science-in-conservation/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Built environment, engineering, archaeology, social sciences, geosciences, humanities or law backgrounds; other motivated degree holders with relevant work/research experience may be assessed. No absolute GPA or universal work-year floor. Both streams require an English PDF portfolio up to15 pages/30MB, own role/credits and a reflective essay up to500 words, with two referees and shortlisted interview. Stream choice is a preference; final allocation remains assessed. Programme-specific IELTS6.5/each5.5 and old TOEFL90/new4.5 exceed the general rule for IELTS/old TOEFL.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P065-ROUTE-PLANNING",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-31",
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "reasonEn": "Programme evidence describes international field trips as part of the curriculum. Exact destination, required attendance and any Hong Kong/Singapore-only alternative are not established. Do not present this path as confirmed Hong Kong-only; confirm delivery scope with the university."
+          }
+        },
+        {
+          "name": "Master of Science in Conservation (Design for Conservation Stream)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Built environment, engineering, archaeology, social sciences, geosciences, humanities or law backgrounds; other motivated degree holders with relevant work/research experience may be assessed. No absolute GPA or universal work-year floor. Both streams require an English PDF portfolio up to15 pages/30MB, own role/credits and a reflective essay up to500 words, with two referees and shortlisted interview. Stream choice is a preference; final allocation remains assessed. Programme-specific IELTS6.5/each5.5 and old TOEFL90/new4.5 exceed the general rule for IELTS/old TOEFL.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P065-ROUTE-DESIGN-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "EARLY",
+                  "label": "Early round",
+                  "applicationOpen": null,
+                  "deadline": "2026-10-22",
+                  "deadlineAt": "2026-10-22T12:00:00+08:00"
+                },
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. TUITION UNRESOLVED: portal and main PDF section quote250,000, but the same current PDF FAQ quotes248,800. Both describe two FT/four PT instalments. Neither conflicting amount is exposed as a settled numeric fee.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. "
+            },
+            {
+              "id": "HK-HKU-P065-ROUTE-DESIGN-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "EARLY",
+                  "label": "Early round",
+                  "applicationOpen": null,
+                  "deadline": "2026-10-22",
+                  "deadlineAt": "2026-10-22T12:00:00+08:00"
+                },
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. TUITION UNRESOLVED: portal and main PDF section quote250,000, but the same current PDF FAQ quotes248,800. Both describe two FT/four PT instalments. Neither conflicting amount is exposed as a settled numeric fee.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Named subject route; other/related qualifications require assessment",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0",
+              "accepted": [
+                "Architecture",
+                "Landscape Architecture",
+                "Urban Studies",
+                "Urban Planning",
+                "Urban Design",
+                "Surveying",
+                "Engineering",
+                "Archaeology",
+                "Social Sciences",
+                "Geosciences",
+                "Humanities",
+                "Law"
+              ],
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "tests": {
+                "ielts": {
+                  "total": 6.5,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 90,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Built environment, engineering, archaeology, social sciences, geosciences, humanities or law backgrounds; other motivated degree holders with relevant work/research experience may be assessed. No absolute GPA or universal work-year floor. Both streams require an English PDF portfolio up to15 pages/30MB, own role/credits and a reflective essay up to500 words, with two referees and shortlisted interview. Stream choice is a preference; final allocation remains assessed. Programme-specific IELTS6.5/each5.5 and old TOEFL90/new4.5 exceed the general rule for IELTS/old TOEFL.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Part-time residency and minimum cohort",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0",
+              "noteZh": "",
+              "noteEn": "Part-time is offered only if at least8 successful applicants form a cohort and is restricted to students with residency status in Hong Kong or Macau. The profile cannot establish residency or cohort size; this condition is NOT imposed on full-time applicants.",
+              "mandatory": true,
+              "appliesTo": {
+                "offeringIds": [
+                  "HK-HKU-P065-ROUTE-DESIGN-2027-PT"
+                ],
+                "labelEn": "Part-time Master of Science in Conservation (Design for Conservation Stream)",
+                "academicYear": "2027/28",
+                "checkedOn": "2026-10-31"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/conservation/master-of-science-in-conservation/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Built environment, engineering, archaeology, social sciences, geosciences, humanities or law backgrounds; other motivated degree holders with relevant work/research experience may be assessed. No absolute GPA or universal work-year floor. Both streams require an English PDF portfolio up to15 pages/30MB, own role/credits and a reflective essay up to500 words, with two referees and shortlisted interview. Stream choice is a preference; final allocation remains assessed. Programme-specific IELTS6.5/each5.5 and old TOEFL90/new4.5 exceed the general rule for IELTS/old TOEFL.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P065-ROUTE-DESIGN",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-31",
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R54&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "reasonEn": "Programme evidence describes international field trips as part of the curriculum. Exact destination, required attendance and any Hong Kong/Singapore-only alternative are not established. Do not present this path as confirmed Hong Kong-only; confirm delivery scope with the university."
+          }
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P089",
+      "routes": [
+        {
+          "name": "Master of Science in Urban Planning (For ADB-Japan Scholarship Programme applicants)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P089-ROUTE-ADB-2027-FT",
+              "mode": "Full-time",
+              "duration": "2 years",
+              "intake": "2027 entry (start month unconfirmed)",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-29",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-29",
+                  "deadlineAt": "2027-01-29T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. ADB fee is To be updated. Scholarship consideration is not an award; no zero fee or ordinary/UGC price is substituted.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R34&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. ADB-JSP closes29January, not the ordinary4January cutoff. Portal October2027 versus faculty PDF September2027 start remains unresolved. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Explicitly accepts all undergraduate disciplines",
+              "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-planning/admissions/",
+              "accepted": [],
+              "any": true,
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R34&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "ADB-JSP eligibility and funding decision",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R34&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Separate scholarship eligibility includes current eligible citizenship/ODA status, dual-citizenship limits, at least two years of POST-DEGREE FULL-TIME professional work at application, age35 limit with possible exceptional endorsement, home-country residence/work and return obligations, plus other exclusions. Current ADB policy was consulted separately; the MUD PDF country list is labelled October2015 and is not used as a current automatic list. The profile cannot prove these conditions; no numeric work pass, fee waiver, zero tuition or scholarship award is inferred. Ordinary applicants do not inherit ADB rules.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R34&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-planning/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R34&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P089-ROUTE-ADB",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-31",
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R34&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "reasonEn": "Programme evidence describes international field trips as part of the curriculum; Planning FAQ explicitly calls them compulsory. Exact destination, required attendance and any Hong Kong/Singapore-only alternative are not established. Do not present this path as confirmed Hong Kong-only; confirm delivery scope with the university."
+          }
+        },
+        {
+          "name": "Master of Science in Urban Planning (Urban and Regional Planning Stream) [Self-funded for all applicants]",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P089-ROUTE-REGIONAL-2027-FT",
+              "mode": "Full-time",
+              "duration": "2 years",
+              "intake": "2027 entry (start month unconfirmed)",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 426000,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. Portal two-year total426,000; department/PDF quotes213,000 per annum. Published proposed total and annual quotation remain separate; no duplicate multiplication.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R392&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. Portal October2027 versus faculty PDF September2027 start remains unresolved. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Explicitly accepts all undergraduate disciplines",
+              "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-planning/admissions/",
+              "accepted": [],
+              "any": true,
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R392&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R392&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-planning/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R392&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P089-ROUTE-REGIONAL",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-31",
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R392&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "reasonEn": "Programme evidence describes international field trips as part of the curriculum; Planning FAQ explicitly calls them compulsory. Exact destination, required attendance and any Hong Kong/Singapore-only alternative are not established. Do not present this path as confirmed Hong Kong-only; confirm delivery scope with the university."
+          }
+        },
+        {
+          "name": "Master of Science in Urban Planning (Urban Planning Stream) [UGC-funded for HK Applicants]",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P089-ROUTE-UGC-2027-FT",
+              "mode": "Full-time",
+              "duration": "2 years",
+              "intake": "2027 entry (start month unconfirmed)",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 99000,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. Portal two-year total99,000; department quotes49,500 per year. Published proposed total and annual quotation remain separate; no duplicate multiplication.",
+              "feeEvidence": {
+                "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. Portal October2027 versus faculty PDF September2027 start remains unresolved. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Explicitly accepts all undergraduate disciplines",
+              "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-planning/admissions/",
+              "accepted": [],
+              "any": true,
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R260&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Local UGC path classification",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0",
+              "noteZh": "",
+              "noteEn": "Local applicant/funding classification and availability require university confirmation; no current location or nationality field automatically proves entitlement. Self-funded URP and ADB dates/fees must not substitute this path.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R260&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-planning/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Bachelor in ANY discipline or assessed equivalent; English applicability/evidence and possible qualifying assessment/interview remain separate. Urban Planning UGC, Urban and Regional Planning self-funded, and ADB-JSP are exact application paths within this parent, not extra degrees. Professional membership may require work AFTER graduation; do not impose that as ordinary entry experience. Current portal October2027 versus PDF September2027 creates an unresolved start-month conflict. Compulsory/international field trips require geographic-scope confirmation.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P089-ROUTE-UGC",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-31",
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R260&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "reasonEn": "Programme evidence describes international field trips as part of the curriculum; Planning FAQ explicitly calls them compulsory. Exact destination, required attendance and any Hong Kong/Singapore-only alternative are not established. Do not present this path as confirmed Hong Kong-only; confirm delivery scope with the university."
+          }
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P101",
+      "routes": [
+        {
+          "name": "Master of Urban Design (For ADB-Japan Scholarship Programme applicants)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Relevant bachelor/equivalent; department also considers other majors with distinction/equivalent, assessed individually without GPA conversion. A single PDF design portfolio up to50 pages/100MB with credits/own role and a personal statement up to1,000 words are documentary requirements. One-year/12-month portal wording and three semesters described as equivalent to1.5 years in the PDF need timetable confirmation; no fee multiplier or automatic MUP credit waiver. International field-trip location/requirement needs scope confirmation.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P101-ROUTE-ADB-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year quoted; three-semester timetable requires confirmation",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-29",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-29",
+                  "deadlineAt": "2027-01-29T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. ADB fee is To be updated; no promised award or zero fee.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R19&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. ADB-JSP closes29January, not the ordinary4January cutoff. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Named subject route; other/related qualifications require assessment",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0",
+              "accepted": [
+                "Architecture",
+                "Landscape Architecture",
+                "Urban Planning"
+              ],
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R19&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Relevant bachelor/equivalent; department also considers other majors with distinction/equivalent, assessed individually without GPA conversion. A single PDF design portfolio up to50 pages/100MB with credits/own role and a personal statement up to1,000 words are documentary requirements. One-year/12-month portal wording and three semesters described as equivalent to1.5 years in the PDF need timetable confirmation; no fee multiplier or automatic MUP credit waiver. International field-trip location/requirement needs scope confirmation.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "ADB-JSP eligibility and funding decision",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R19&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Separate scholarship eligibility includes current eligible citizenship/ODA status, dual-citizenship limits, at least two years of POST-DEGREE FULL-TIME professional work at application, age35 limit with possible exceptional endorsement, home-country residence/work and return obligations, plus other exclusions. Current ADB policy was consulted separately; the MUD PDF country list is labelled October2015 and is not used as a current automatic list. The profile cannot prove these conditions; no numeric work pass, fee waiver, zero tuition or scholarship award is inferred. Ordinary applicants do not inherit ADB rules.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R19&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/upad/master-of-urban-design/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Relevant bachelor/equivalent; department also considers other majors with distinction/equivalent, assessed individually without GPA conversion. A single PDF design portfolio up to50 pages/100MB with credits/own role and a personal statement up to1,000 words are documentary requirements. One-year/12-month portal wording and three semesters described as equivalent to1.5 years in the PDF need timetable confirmation; no fee multiplier or automatic MUP credit waiver. International field-trip location/requirement needs scope confirmation.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R19&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P101-ROUTE-ADB",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-31",
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R19&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "reasonEn": "Programme evidence describes international field trips as part of the curriculum. Exact destination, required attendance and any Hong Kong/Singapore-only alternative are not established. Do not present this path as confirmed Hong Kong-only; confirm delivery scope with the university."
+          }
+        },
+        {
+          "name": "Master of Urban Design (For general applicants)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Relevant bachelor/equivalent; department also considers other majors with distinction/equivalent, assessed individually without GPA conversion. A single PDF design portfolio up to50 pages/100MB with credits/own role and a personal statement up to1,000 words are documentary requirements. One-year/12-month portal wording and three semesters described as equivalent to1.5 years in the PDF need timetable confirmation; no fee multiplier or automatic MUP credit waiver. International field-trip location/requirement needs scope confirmation.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P101-ROUTE-GENERAL-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year quoted; three-semester timetable requires confirmation",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 306000,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. Ordinary self-funded total306,000; no ADB award or automatic MUP credit/fee waiver is assumed.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R257&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0"
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Named subject route; other/related qualifications require assessment",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0",
+              "accepted": [
+                "Architecture",
+                "Landscape Architecture",
+                "Urban Planning"
+              ],
+              "relatedAllowed": true
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R257&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Relevant bachelor/equivalent; department also considers other majors with distinction/equivalent, assessed individually without GPA conversion. A single PDF design portfolio up to50 pages/100MB with credits/own role and a personal statement up to1,000 words are documentary requirements. One-year/12-month portal wording and three semesters described as equivalent to1.5 years in the PDF need timetable confirmation; no fee multiplier or automatic MUP credit waiver. International field-trip location/requirement needs scope confirmation.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R257&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/upad/master-of-urban-design/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0"
+            },
+            "major": {
+              "status": "known",
+              "noteEn": "Relevant bachelor/equivalent; department also considers other majors with distinction/equivalent, assessed individually without GPA conversion. A single PDF design portfolio up to50 pages/100MB with credits/own role and a personal statement up to1,000 words are documentary requirements. One-year/12-month portal wording and three semesters described as equivalent to1.5 years in the PDF need timetable confirmation; no fee multiplier or automatic MUP credit waiver. International field-trip location/requirement needs scope confirmation.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R257&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P101-ROUTE-GENERAL",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-10-31",
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R257&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "reasonEn": "Programme evidence describes international field trips as part of the curriculum. Exact destination, required attendance and any Hong Kong/Singapore-only alternative are not established. Do not present this path as confirmed Hong Kong-only; confirm delivery scope with the university."
+          }
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P102",
+      "routes": [
+        {
+          "name": "Master of Urban Studies and Housing Management (Housing Management (Professional) Stream)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Bachelor/equivalent OR an assessed professional-qualification route. Five years in housing applies to the Professional Diploma/MHKIH/MCIH alternatives; the membership routes also require at least two years post-qualification. These are NOT universal work-year requirements for bachelor applicants. Housing Professional is FT/PT; Urban Studies is FT only, with different whole-programme fees and curriculum. Professional accreditation is not automatic membership, licensing or an admission guarantee.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P102-ROUTE-HOUSING-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 238000,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. Current PDF explicitly quotes whole-programme238,000 for Housing Professional FT/PT. Degree/professional alternatives are assessed separately from fee.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. "
+            },
+            {
+              "id": "HK-HKU-P102-ROUTE-HOUSING-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 238000,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. Current PDF explicitly quotes whole-programme238,000 for Housing Professional FT/PT. Degree/professional alternatives are assessed separately from fee.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0"
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Bachelor/equivalent OR an assessed professional-qualification route. Five years in housing applies to the Professional Diploma/MHKIH/MCIH alternatives; the membership routes also require at least two years post-qualification. These are NOT universal work-year requirements for bachelor applicants. Housing Professional is FT/PT; Urban Studies is FT only, with different whole-programme fees and curriculum. Professional accreditation is not automatic membership, licensing or an admission guarantee.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0"
+            },
+            "major": {
+              "status": "not_published",
+              "noteEn": "Bachelor/equivalent OR an assessed professional-qualification route. Five years in housing applies to the Professional Diploma/MHKIH/MCIH alternatives; the membership routes also require at least two years post-qualification. These are NOT universal work-year requirements for bachelor applicants. Housing Professional is FT/PT; Urban Studies is FT only, with different whole-programme fees and curriculum. Professional accreditation is not automatic membership, licensing or an admission guarantee.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P102-ROUTE-HOUSING"
+        },
+        {
+          "name": "Master of Urban Studies and Housing Management (Urban Studies Stream)",
+          "award": "Master",
+          "area": "Unclassified",
+          "faculty": "Faculty of Architecture",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0",
+          "verification": "programme_page_checked",
+          "sourceStatus": "AI-assisted partial exact-programme observation; independent review pending",
+          "lastChecked": "2026-10-31",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "requirementsCoverage": "partial",
+          "collector": "AI-assisted exact portal/mode and faculty document reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial 2027-intake observation. Bachelor/equivalent OR an assessed professional-qualification route. Five years in housing applies to the Professional Diploma/MHKIH/MCIH alternatives; the membership routes also require at least two years post-qualification. These are NOT universal work-year requirements for bachelor applicants. Housing Professional is FT/PT; Urban Studies is FT only, with different whole-programme fees and curriculum. Professional accreditation is not automatic membership, licensing or an admission guarantee.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P102-ROUTE-URBAN-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 229000,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "applicationRounds": [
+                {
+                  "id": "MAIN",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-04",
+                  "deadlineAt": "2027-01-04T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "Proposed 2027-intake composition tuition for this exact programme/path and mode; subject to approval. Do not multiply a quoted total by maximum years or add a deposit twice. Caution money, activity fees, field trips, printing/model costs and personal living costs remain separate; no scholarship or advanced-standing discount is deducted. Current PDF explicitly quotes whole-programme229,000 for Urban Studies FT only. Degree/professional alternatives are assessed separately from fee.",
+              "feeEvidence": {
+                "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-10-31"
+              },
+              "deadlineNote": "Exact published noon GMT+8 cutoff(s) for this path and mode. September/early-October opening and September-December rolling statements do not establish an exact date or separate early-round cutoff. No live-open, capacity, extension, notification or admission guarantee. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or university-assessed equivalent",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0"
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Exact programme English route and test-date anchor",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Bachelor/equivalent OR an assessed professional-qualification route. Five years in housing applies to the Professional Diploma/MHKIH/MCIH alternatives; the membership routes also require at least two years post-qualification. These are NOT universal work-year requirements for bachelor applicants. Housing Professional is FT/PT; Urban Studies is FT only, with different whole-programme fees and curriculum. Professional accreditation is not automatic membership, licensing or an admission guarantee.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, equivalence and evidence",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "noteZh": "",
+              "noteEn": "English-medium/local qualifications, exemptions, institutional recognition, unrecorded formats and complete supporting evidence remain subject to acceptance. The 2027 lower test date is 1 September2025, inclusive, not a rolling expiry from today. Arts-only IELTS7/TOEFL Writing floors are not imposed on Architecture. No TOEFL Home or single-sitting restriction is borrowed from a sibling programme.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            },
+            {
+              "url": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/admissions/",
+              "checkedOn": "2026-10-31",
+              "purpose": "Exact portal/route or named faculty admission/document source; fee/annual/cohort/document-date conflicts and unresolved delivery are retained explicitly"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "Exact 2027 entry; Urban Planning start-month conflict remains unresolved rather than choosing September/October.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0"
+            },
+            "major": {
+              "status": "not_published",
+              "noteEn": "Bachelor/equivalent OR an assessed professional-qualification route. Five years in housing applies to the Professional Diploma/MHKIH/MCIH alternatives; the membership routes also require at least two years post-qualification. These are NOT universal work-year requirements for bachelor applicants. Housing Professional is FT/PT; Urban Studies is FT only, with different whole-programme fees and curriculum. Professional accreditation is not automatic membership, licensing or an admission guarantee.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; honours/equivalence, professional alternatives, scholarships and work preferences are not linearly converted.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Conservation IELTS6.5/each5.5 and old TOEFL90/new4.5; other Architecture records general6/5.5 and80/4.5. Date minimum2025-09-01; applicability/evidence remain assessed.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "Exact proposed composition totals, category estimates and annual figures are separated. Conservation same-document250,000/248,800 conflict and ADB unknown fees stay numeric-null; application fees not established stay null.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R376&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Exact noon rounds; unknown opening, older document dates and unresolved start month do not become invented dates.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted observation; no human independent review, full eligibility or project-scope clearance.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0"
+            }
+          },
+          "researchBatch": "hku-architecture-2026-10-31",
+          "routeId": "HK-HKU-P102-ROUTE-URBAN"
+        }
+      ]
     }
   ]
 }

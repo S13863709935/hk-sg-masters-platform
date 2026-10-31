@@ -149,7 +149,8 @@ test('financial evidence alternatives and optional GRE/referees are not turned i
 const app = createApp({ store, publicDir: new URL('public/', root), routeEvidencePath: routePath, applicantEvidencePath: contextPath, now: () => new Date('2026-10-24T04:00:00Z') });
 await new Promise(resolve => app.listen(0, '127.0.0.1', resolve));
 const base = 'http://127.0.0.1:' + app.address().port;
-const get = async path => { const r = await fetch(base + path); assert.equal(r.status, 200); return r.json(); };
+// Migration checks can block this process beyond the server's idle keep-alive timeout.
+const get = async path => { const r = await fetch(base + path, { headers: { Connection: 'close' } }); assert.equal(r.status, 200); return r.json(); };
 test.after(async () => { await new Promise(resolve => app.close(resolve)); store.close(); });
 
 test('detail/search/match APIs and saved exports keep NUS category and HKUST mode context with explicit old-option repair', async () => {
@@ -184,8 +185,8 @@ test('existing file-backed catalogues migrate first data-science checks while pr
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
       for (const [i, p] of [hk, nu].entries()) { assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory[i]); }
-      assert.deepEqual(db.get('HK-HKUST-P015'), prior); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 267);
-      const ri = loadRoutes(routePath, db.all()); assert.deepEqual(applicantSummary(loadApplicantContexts(contextPath, db.all(), ri)), { studyOptions: 184, categories: 370, peerReviewed: 0 });
+      assert.deepEqual(db.get('HK-HKUST-P015'), prior); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 274);
+      const ri = loadRoutes(routePath, db.all()); assert.deepEqual(applicantSummary(loadApplicantContexts(contextPath, db.all(), ri)), { studyOptions: 191, categories: 384, peerReviewed: 0 });
       db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
@@ -193,8 +194,8 @@ test('existing file-backed catalogues migrate first data-science checks while pr
 
 test('data-science browsing, matching and export remain read-only with no inflated record/route or review totals', async () => {
   const before = JSON.stringify(store.all()); resolve(hk, 0); resolve(nu, 0, nu.offerings[0].id + '-INTERNATIONAL-STANDARD'); matchProgramme(nu, profile);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 267);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 274);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 184, categories: 370, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 26);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 191, categories: 384, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 37);
   assert.equal(JSON.stringify(store.all()), before);
 });

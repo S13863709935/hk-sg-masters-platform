@@ -92,7 +92,8 @@ test('CUHK alternative academic/English evidence stays manual and does not inher
 
 const app = createApp({ store, publicDir: new URL('public/', root), routeEvidencePath: routePath, applicantEvidencePath: contextPath, now: () => new Date('2026-10-24T04:00:00Z') });
 await new Promise(resolve => app.listen(0, '127.0.0.1', resolve));
-const base = 'http://127.0.0.1:' + app.address().port, get = async path => { const r = await fetch(base + path); assert.equal(r.status, 200); return r.json(); };
+// Migration checks can block this process beyond the server's idle keep-alive timeout.
+const base = 'http://127.0.0.1:' + app.address().port, get = async path => { const r = await fetch(base + path, { headers: { Connection: 'close' } }); assert.equal(r.status, 200); return r.json(); };
 test.after(async () => { await new Promise(resolve => app.close(resolve)); store.close(); });
 
 test('saved CUHK modes reload the new source notes and date without replacing the selection or exporting the student profile', async () => {
@@ -126,12 +127,12 @@ test('an isolated synthetic older-source database reloads CUHK notes after resta
 
 test('review worklist and API counts remain unchanged; source rereading is not independent review or a live-open result', async () => {
   const before = JSON.stringify(store.all()), q = loadRepositoryReviewQueue(obs.checkedOn), meta = await get('/api/meta');
-  assert.equal(q.counts.reviewUnits, 477); assert.equal(q.counts.pendingHumanReview, 477);
+  assert.equal(q.counts.reviewUnits, 502); assert.equal(q.counts.pendingHumanReview, 502);
   assert.equal(q.units.find(u => u.kind === 'programme' && u.programmeId === cu.id).sourceCheckedOn, obs.checkedOn);
   const next = loadRepositoryReviewQueue('2026-11-02');
   assert.ok(next.units.filter(u => [cu.id, ci.id].includes(u.programmeId)).every(u => u.upcomingRecordedCutoffs.length === 0));
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 267);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 274);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 184, categories: 370, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 26);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 191, categories: 384, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 37);
   assert.equal(JSON.stringify(store.all()), before);
 });

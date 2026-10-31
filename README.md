@@ -8,18 +8,18 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 869 条；267 条有部分官方项目页观察，606 条仍为目录线索。完整要求集和独立人工复核均为 0。
-- 10 组／26 条方向快照、184 组／370 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 477 个单元，4 个单元的记录截止临近，失配绑定为 0。
-- 本轮为港大 16 个语言与人文项目补入部分资料，共 21 个学习选项；港大为 47 个部分观察父记录／56 条线索。五个项目有明确兼读模式；应用语言学 FT／PT 费用与清算轮分别记录。
-- 中国历史研究保留文学院英语例外；其他本批课程分别记录 IELTS 7／单项 5.5 和 TOEFL 写作要求。区域语言证明、其他专业加相关经历的替代条件、MAES 具体专业要求及作品材料继续单独确认。
-- MALCS 当前页首／扫描清单与旧年份页面正文分开；香港历史的门户拟定学费与学院待确认状态并列。文学文化及音乐的入学月份仍未知，未确定的申请费不补数字。全部轮次保留正午时点，不保证实时开放、奖学金或录取。
+- 14 校、873 条目录记录，默认可浏览 869 条；274 条有部分官方项目页观察，599 条仍为目录线索。完整要求集和独立人工复核均为 0。
+- 15 组／37 条方向快照、191 组／384 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 502 个单元，4 个单元的记录截止临近，失配绑定为 0。
+- 本轮为港大建筑学院的 7 个独立项目及 5 个原有目录分组下的 11 条路径补入部分资料，共 25 个模式／路径选项、新增 7 组／14 类费用上下文。港大为 54 个部分观察父记录／49 条线索；分组仍需选择具体路径。旧 Housing Management P003 身份未确认，不套用新住房项目资料。
+- 景观建筑年费与两年估算分开；建筑学资助／自费路径及普通／ADB 路径分别绑定。Conservation 同一文件收费冲突继续显示未知，较高英语门槛及仅兼读适用的居留／开班条件分别保留。既有商科、工程和人文的模式、语言例外及地域限制继续有效。
+- 城市规划入学月份冲突、Conservation／规划／城市设计的国际考察地域要求继续待确认。ADB 条件、奖学金、作品集和专业资格需要材料判断。全部轮次保留正午时点，不保证实时开放、奖学金或录取。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。20 个原核心 ID、71 种选择与 7 个合成背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 本轮只在本地保存，不自动推送。建议在下一周检查点统一发布一个可审阅的完整批次；最近已发布的 W6 检查点保持不变。
 
-[HKU 质量表](docs/research/hku-humanities-quality-2026-10-31.md) · [477 单元维护清单](docs/research/source-review-queue-2026-10-31-hku-humanities.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hku-humanities.md) · [本批改动与限制](docs/progress/local-hku-humanities-2026-10-31.md)
+[HKU 质量表](docs/research/hku-architecture-quality-2026-10-31.md) · [502 单元维护清单](docs/research/source-review-queue-2026-10-31-hku-architecture.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hku-architecture.md) · [本批改动与限制](docs/progress/local-hku-architecture-2026-10-31.md)
 
-[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
+[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
 ## 本地运行
 
@@ -52,7 +52,7 @@ Windows 优先双击 `start-local.cmd`（不是 `.ps1`），待启动窗口显�
 
 按学校批量核对现有资料，先提高匹配实用性并明确缺漏，再扩展目录。每条正式用于匹配的记录应说明本科背景、学术成绩、语言、适用批次及官方来源；未采集、未公布及需学校判断是不同状态。暂不具备条件的记录继续标作线索，不能凭未知项认定达标。
 
-下一批按 HKUST 剩余商科、人文／公共政策及跨学科身份分组推进；CityU 的 EMBA／旧土木身份继续保留待确认依据。P17 名称批准／费用适用、Financial Mathematics and Statistics 的实际学分及年度负载继续单列，不因等候这些事项阻塞其他分组。14 校全量目录身份、组合／跨地区边界和新增 SMU MPGL 仍待核对。软件变更限于可复现的问题及匹配、数据维护的必要改进，不按每次“继续”增加功能。
+下一批按港大剩余教育、社科及其他专业领域分组核对；旧 Housing Management P003 和 CityU 的 EMBA／旧土木身份继续保留待确认依据。HKUST P17 名称批准／费用适用、Financial Mathematics and Statistics 的实际学分及年度负载继续单列，不因等候这些事项阻塞其他分组。14 校全量目录身份、组合／跨地区边界和新增 SMU MPGL 仍待核对。软件变更限于可复现的问题及匹配、数据维护的必要改进，不按每次“继续”增加功能。
 
 [维护工具](scripts/source-review-queue.mjs)与[学校质量检查](scripts/school-quality.mjs)只读本地来源并要求明确比较日期，不写日常数据库或授予复核状态。真实复核、实际用户反馈和正式托管仍待完成，不能用自动检查代替。
 
