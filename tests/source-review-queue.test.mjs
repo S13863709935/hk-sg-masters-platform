@@ -27,12 +27,12 @@ const unit = (q = report, id = 'SG-NUS-P032', kind = 'programme') => q.units.fin
 
 test('review units preserve separate programme, route and category counts without inflating catalogue coverage', () => {
   assert.deepEqual(report.counts, {
-    catalogueRecords: 873, programmePageRecords: 174, remainingCatalogueLeads: 699,
-    routeRecords: 17, applicantContexts: 78, applicantCategories: 158, reviewUnits: 269,
-    pendingHumanReview: 269, reviewRecordedInSource: 0, nearCutoffUnits: 3, staleApplicantContexts: 0
+    catalogueRecords: 873, programmePageRecords: 194, remainingCatalogueLeads: 679,
+    routeRecords: 17, applicantContexts: 107, applicantCategories: 216, reviewUnits: 318,
+    pendingHumanReview: 318, reviewRecordedInSource: 0, nearCutoffUnits: 3, staleApplicantContexts: 0
   });
-  assert.equal(report.units.filter(u => u.kind === 'programme').length, 174);
-  assert.equal(new Set(report.units.map(u => u.key)).size, 269);
+  assert.equal(report.units.filter(u => u.kind === 'programme').length, 194);
+  assert.equal(new Set(report.units.map(u => u.key)).size, 318);
   assert.equal(report.livePortalChecked, false); assert.equal(report.reviewApprovalGranted, false);
   assert.ok(report.units.every(u => u.status === 'pending_human_review' && !u.sourceReviewRecorded));
 });
@@ -194,9 +194,9 @@ test('real CLI works outside the repository without modifying source files or op
 });
 
 test('committed human checklist exactly reproduces its snapshot and semantic source fingerprints', () => {
-  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-31-hkust-scoped-matching.md', root), 'utf8').replaceAll('\r\n', '\n'));
+  assert.equal(formatSourceReviewMarkdown(report), readFileSync(new URL('docs/research/source-review-queue-2026-10-31-hkbu-business-science.md', root), 'utf8').replaceAll('\r\n', '\n'));
   assert.equal(Object.keys(report.inputFingerprints).length, 8);
   for (const h of Object.values(report.inputFingerprints)) assert.match(h, /^[a-f0-9]{64}$/);
   const markdown = formatSourceReviewMarkdown(report);
-  assert.match(markdown, /不是 269 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
+  assert.match(markdown, /不是 318 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
 });

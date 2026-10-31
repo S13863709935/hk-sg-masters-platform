@@ -8,18 +8,18 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 869 条；174 条有部分官方项目页观察，699 条仍为目录线索。完整要求集和独立人工复核均为 0。
-- 7 组／17 条方向快照、78 组／158 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 269 个单元，3 个单元的记录截止临近，失配绑定为 0。
-- 本轮完善 HKUST 已有资料的匹配实用性：ILE 的 TESL／TCSL 可分别选择，英语总分与指定写作单项独立比较；TOEFL 原始总分／单项按各自版本校验，不换算。
-- Finance 兼读制一年与 MBA 全日制两年／每周兼读制三年的工作年数条件只对所选模式生效。未选模式时不硬判不符；足够的总年数仍不能证明全职、毕业后工作或其他证据。
-- 中文测试、语言豁免、工作性质、资料冲突和交付范围保留待确认。旧 ILE 收藏若缺少方向，会提示重新选择，不自动替换。费用／日期及历史来源日不因新增比较功能而重标。
+- 14 校、873 条目录记录，默认可浏览 869 条；194 条有部分官方项目页观察，679 条仍为目录线索。完整要求集和独立人工复核均为 0。
+- 7 组／17 条方向快照、107 组／216 类申请者费用日期上下文分开计数，不新增硕士学位。维护清单有 318 个单元，3 个单元的记录截止临近，失配绑定为 0。
+- 本轮按学校整理浸会计算、数据、商科及理科 20 个既有项目、34 个学制选项，新增 29 组／58 类费用日期上下文。浸会现有 49 条目录记录中，22 条有部分项目页观察、27 条仍为线索。
+- 本地／非本地费用日期、全日制／兼读制费用及明确申请轮次分别绑定。非商科预备课程、工作经验偏好、英语补修及单项条件单独保留；奖学金及毕业 GPA 不作本科入学门槛。
+- EGM 的 January 2028 标签保留，两个官方入口的最终日期冲突尚未解决，不提供可操作最终截止日。MCE 必修海外考察的目的地／替代安排、ORBS 联合授课安排仍为范围待确认。未公布的新 TOEFL 分数和通知书日期有效期不自行换算。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。20 个原核心 ID、71 种选择与 7 个合成背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 本轮只在本地保存，不自动推送。建议在下一周检查点统一发布一个可审阅的完整批次；最近已发布的 W6 检查点保持不变。
 
-[HKUST 质量表](docs/research/hkust-scoped-matching-quality-2026-10-31.md) · [269 单元维护清单](docs/research/source-review-queue-2026-10-31-hkust-scoped-matching.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hkust-scoped-matching.md) · [本批改动与限制](docs/progress/local-hkust-scoped-matching-2026-10-31.md)
+[HKBU 质量表](docs/research/hkbu-business-science-quality-2026-10-31.md) · [318 单元维护清单](docs/research/source-review-queue-2026-10-31-hkbu-business-science.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hkbu-business-science.md) · [本批改动与限制](docs/progress/local-hkbu-business-science-2026-10-31.md)
 
-[30 日 HKUST 首轮整理](docs/progress/local-hkust-remaining-2026-10-30.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
+[31 日 HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)、[30 日 HKUST 首轮整理](docs/progress/local-hkust-remaining-2026-10-30.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
 ## 本地运行
 

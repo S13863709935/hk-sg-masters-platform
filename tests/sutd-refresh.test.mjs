@@ -152,8 +152,8 @@ test('read-only SUTD lookups do not mutate evidence or promote catalogue, review
   const before = JSON.stringify([store.get(ma.id), store.get(mt.id)]);
   for (const p of [ma, mt]) { programmeTimeline(p, '2026-10-23'); matchProgramme(p, profile); }
   const meta = await get('/api/meta');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 194);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 78, categories: 158, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 107, categories: 216, peerReviewed: 0 });
   assert.equal(JSON.stringify([store.get(ma.id), store.get(mt.id)]), before);
 });

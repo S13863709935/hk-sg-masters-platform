@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-30",
+  "checkedOn": "2026-10-31",
   "contexts": [
     {
       "programmeId": "HK-EDUHK-P001",
@@ -4501,6 +4501,1744 @@
               "label": "Labelled rolling cutoff",
               "applicationOpen": null,
               "deadline": "2027-06-24",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P004",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P004-2027-FT",
+      "offeringFingerprint": "d06099ffbcd4cd823b3e12e352c819d200649df05765c4587b3825091692096d",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P004-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 180,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 180,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-07-23",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P004-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 180,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 180,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P004",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P004-2027-PT",
+      "offeringFingerprint": "db6e0893e4753357421f41188085286aeb2470c39c02f0af8384b14488cbc1ee",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P004-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 180,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 180,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-07-23",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P004-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 180,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 180,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P005",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P005-2027-FT",
+      "offeringFingerprint": "0baa85b2c1c6f600f00063e857f0809d70ac7319d424ee0e70f1497d2de0acef",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P005-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 250000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 250,000. Published 2027/28 full-time programme total for 36 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Required pre-core courses cost HKD 5,000 each; count and professional recognition are assessed.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-31",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-31",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P005-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 315000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 315,000. Published 2027/28 full-time programme total for 36 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Required pre-core courses cost HKD 5,000 each; count and professional recognition are assessed.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-31",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-31",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P005",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P005-2027-PT",
+      "offeringFingerprint": "b61173085e8a4a65363f85ac188f2e48a7be53ef122d9cc341e9113f17f7cdc2",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P005-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 250000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 250,000. Published 2027/28 part-time programme total for 36 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Required pre-core courses cost HKD 5,000 each; count and professional recognition are assessed.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-31",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-31",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P005-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 315000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 315,000. Published 2027/28 part-time programme total for 36 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Required pre-core courses cost HKD 5,000 each; count and professional recognition are assessed.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-31",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-31",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P006",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P006-2027-FT",
+      "offeringFingerprint": "3ea99919dfc9c575817b25e04b4f15e10ce3783ee688d9d467dd0da8e3a446cc",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-economics",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-economics",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-economics",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P006-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 235000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 235,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-23",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P006-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 308000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 308,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-17",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-05-17",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P019",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P019-2027-FT",
+      "offeringFingerprint": "2fc6b84f0771a434f99ad1fac5d84e62cbb65b73b451a65e7d6bd9b86df5e737",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-business-administration-mba",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-business-administration-mba",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-business-administration-mba",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P019-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 550000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 550,000. Published 2027/28 full-time programme total for 45 curriculum units, not an annual price multiplied by duration. HKD 550,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P019-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 550000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 550,000. Published 2027/28 full-time programme total for 45 curriculum units, not an annual price multiplied by duration. HKD 550,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P023",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P023-2027-FT",
+      "offeringFingerprint": "a738365476952ca218969c4136a522e356776e7c5d548ad1ca6452f900cc14a5",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P023-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 227000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 227,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-04",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-04",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P023-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 285000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 285,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-04",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-04",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P023",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P023-2027-PT",
+      "offeringFingerprint": "7fed6e7cb099c911d3d2d460a20a637fab58362053b28e1c2129a128d792bb0c",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P023-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 227000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 227,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-04",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-04",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P023-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 285000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 285,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-04",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-04",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P026",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P026-2027-FT",
+      "offeringFingerprint": "a043b84c8c1385479c16adf41a1dcb01474921279c7cff5a69234b3228576724",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-for-business",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-for-business",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-for-business",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P026-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 360000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 360,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 360,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-10",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-10",
+              "deadline": "2027-07-23",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P026-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 360000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 360,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 360,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-10",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-10",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P027",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P027-2027-FT",
+      "offeringFingerprint": "3223930a5b99efd1c7b8f48d8ea319542fd6d5ca426832d715c2a275061a1407",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P027-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 160000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 160,000. Published 2027/28 full-time programme total for 27 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P027-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 170000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 170,000. Published 2027/28 full-time programme total for 27 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P027",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P027-2027-PT",
+      "offeringFingerprint": "655fb2ceba009703bae8150a731d4c834b03c99e21fe3467211bd35f751177c9",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P027-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 160000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 160,000. Published 2027/28 part-time programme total for 27 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P027-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 170000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 170,000. Published 2027/28 part-time programme total for 27 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P028",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P028-2027-FT",
+      "offeringFingerprint": "62ca86f6504d5d66a583d608ab074425f49c6bfb8c4861a41cfeeb5d8ceaf8a3",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P028-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 220000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 220,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Assigned fundamentals preparation may cost extra; no amount is established. Conditional exemption/fee waiver is not deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-02-28",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-04-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P028-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 310000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 310,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Assigned fundamentals preparation may cost extra; no amount is established. Conditional exemption/fee waiver is not deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-02-28",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-04-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P028",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P028-2027-PT",
+      "offeringFingerprint": "1dd1ad19fb48dd08c9c30ea9095c784dd2142514b2130703f7fa570660c221c0",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P028-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 220000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 220,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Assigned fundamentals preparation may cost extra; no amount is established. Conditional exemption/fee waiver is not deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-02-28",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-04-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P028-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 310000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 310,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Assigned fundamentals preparation may cost extra; no amount is established. Conditional exemption/fee waiver is not deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-02-28",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-04-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P030",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P030-2027-FT",
+      "offeringFingerprint": "4e218b864433899150c4f91dafae0f663541df3e6586eb01e84326d9eaaf97b2",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P030-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 260000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 260,000. Published 2027/28 full-time programme total for 29 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-02-01",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-02-01",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P030-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 300000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 300,000. Published 2027/28 full-time programme total for 29 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-02-01",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-02-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P030",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P030-2027-PT",
+      "offeringFingerprint": "24923a6da81adade07f78fe6a91c73a6947c1db8bed329b5ccdc4ea1ca72b9d1",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P030-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 260000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 260,000. Published 2027/28 part-time programme total for 29 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-02-01",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-02-01",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P030-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 300000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 300,000. Published 2027/28 part-time programme total for 29 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-02-01",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-02-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P031",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P031-2027-FT",
+      "offeringFingerprint": "ea38103c5d1ef8de9120462b96ee6295a92d3c81ec634e9d35a085c548e12377",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P031-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 248000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 248,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-14",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-14",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P031-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 318000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 318,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-14",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-14",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P031",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P031-2027-PT",
+      "offeringFingerprint": "58c0f421c3e802cd39e704421ecb54901806d7e3e7489b38f67dfa223358ced1",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P031-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 248000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 248,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-14",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-14",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P031-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 318000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 318,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-12-14",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-12-14",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P034",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P034-2027-FT",
+      "offeringFingerprint": "c768b27e066c42d0aac3496c8b8204eca449f2aa5a2501b62caec2ab13dabc47",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P034-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 160000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 160,000. Published 2027/28 full-time programme total for 27 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-25",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-25",
+              "deadline": "2027-07-23",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P034-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 178000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 178,000. Published 2027/28 full-time programme total for 27 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-25",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-25",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P034",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P034-2027-PT",
+      "offeringFingerprint": "3a4f5a4e6431323e7f11ee053f78efc8e17074eb5c7b035e65b0c3ec81c6e048",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P034-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 160000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 160,000. Published 2027/28 part-time programme total for 27 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-25",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-25",
+              "deadline": "2027-07-23",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P034-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 178000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 178,000. Published 2027/28 part-time programme total for 27 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-25",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-25",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P036",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P036-2027-FT",
+      "offeringFingerprint": "2493dcab61ace8cf8b79a11579774fcefc3351b156d0ff1976a02d1c5aeaef56",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P036-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 181500,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 181,500. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 181,500 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-07-23",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P036-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 181500,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 181,500. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 181,500 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P036",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P036-2027-PT",
+      "offeringFingerprint": "989a6d82ef15fee4c9b18ed3dbb4959b9f7f34f82c99a06ca192ce3dac53f898",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P036-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 181500,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 181,500. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 181,500 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-07-23",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-07-23",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P036-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 181500,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 181,500. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 181,500 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P037",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P037-2027-FT",
+      "offeringFingerprint": "e72cf0cd476872d66aa9288bec80e57566fe2f6d7db85ad130d869d6c8303806",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P037-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 220000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 220,000. Published 2027/28 full-time programme total for 29 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-02-01",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-02-01",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P037-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 260000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 260,000. Published 2027/28 full-time programme total for 29 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-02-01",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-02-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P037",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P037-2027-PT",
+      "offeringFingerprint": "9cab44f3986ec47f9a369b3b16a98986c3fe7e7d2f7dfb9dfe467a78141d3ded",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P037-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 220000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 220,000. Published 2027/28 part-time programme total for 29 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-02-01",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-02-01",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P037-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 260000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 260,000. Published 2027/28 part-time programme total for 29 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-10-06",
+          "deadline": "2027-02-01",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-10-06",
+              "deadline": "2027-02-01",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P038",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P038-2027-FT",
+      "offeringFingerprint": "aa85929ea63208b30170f21179e317b80bb471315a643b3af451556cf0d0ad29",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-marketing-for-the-creative-economy",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-marketing-for-the-creative-economy",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-marketing-for-the-creative-economy",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P038-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 240000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 240,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Required field-trip travel costs are extra; a subsidy up to HKD 10,000 is conditional and not deducted from tuition.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-11-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-11-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P038-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 298000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 298,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. Choose the HKBU applicant category for its exact total. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted. Required field-trip travel costs are extra; a subsidy up to HKD 10,000 is conditional and not deducted from tuition.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2026-11-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2026-11-30",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P039",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P039-2027-FT",
+      "offeringFingerprint": "d0c510337d5e58e802c087611a286d5795fa774f80269dcb2e79dc35018aec82",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-mathematical-finance",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-mathematical-finance",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-mathematical-finance",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P039-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 230,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 230,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P039-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 230,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 230,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P040",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P040-2027-FT",
+      "offeringFingerprint": "b9da0d9d14059f9a239450c6a2078ca2a6b144b0f9bcda85d96728492a4f7578",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P040-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 230,000. Published 2027/28 full-time programme total for 40 curriculum units, not an annual price multiplied by duration. HKD 230,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P040-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 230,000. Published 2027/28 full-time programme total for 40 curriculum units, not an annual price multiplied by duration. HKD 230,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P040",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P040-2027-PT",
+      "offeringFingerprint": "d3af8bf85d50cde47b581ccb0e8a40294c0bd865f6a7db86cae3743361c039f3",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P040-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 230,000. Published 2027/28 part-time programme total for 40 curriculum units, not an annual price multiplied by duration. HKD 230,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P040-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 230,000. Published 2027/28 part-time programme total for 40 curriculum units, not an annual price multiplied by duration. HKD 230,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P042",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P042-2027-FT",
+      "offeringFingerprint": "f17859fb972268896db835518a9d4324637599454285ca147e13ddf964bf4a8b",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P042-2027-FT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 400000,
+          "feeBasis": "Published full-time local applicant — hkbu category programme total HKD 400,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 400,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P042-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 400000,
+          "feeBasis": "Published full-time non-local applicant — hkbu category programme total HKD 400,000. Published 2027/28 full-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 400,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKBU-P042",
+      "routeId": null,
+      "offeringId": "HK-HKBU-P042-2027-PT",
+      "offeringFingerprint": "569c5e60ee8359cc092fa16d10443221f4e7d14b3eec687f82ccea6b61f60cde",
+      "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-10-31",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management",
+      "dateSourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management",
+      "noteEn": "Only this exact HKBU 2027/28 programme, intake and study mode. HKBU decides local/non-local classification and study permission; neither nationality nor current residence determines the category. A recorded non-local part-time price/mode is not proof of visa permission. No sibling programme, optional overseas path, fee waiver or professional registration substituted.",
+      "options": [
+        {
+          "id": "HK-HKBU-P042-2027-PT-LOCAL",
+          "label": "Local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 400000,
+          "feeBasis": "Published part-time local applicant — hkbu category programme total HKD 400,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 400,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-07-30",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-07-30",
+              "deadlineAt": null
+            }
+          ]
+        },
+        {
+          "id": "HK-HKBU-P042-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKBU category",
+          "currency": "HKD",
+          "tuition": 400000,
+          "feeBasis": "Published part-time non-local applicant — hkbu category programme total HKD 400,000. Published 2027/28 part-time programme total for 30 curriculum units, not an annual price multiplied by duration. HKD 400,000 total applies to the published categories. Separate application fee HKD 450; living costs and extra charges excluded. No scholarship automatically deducted.",
+          "applicationFee": 450,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-07",
+          "deadlineNote": "Published programme/category date-only rounds; exact cutoff time, quota early closure and live availability remain unconfirmed.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Published final round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-06-07",
               "deadlineAt": null
             }
           ]

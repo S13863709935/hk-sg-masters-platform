@@ -2,6 +2,10 @@
 
 ## 当前本地状态（2026-10-31）
 
+浸会计算／数据／商科／理科批次为 20 个已有 ID 补入部分项目页依据、34 个学制选项及 29 组／58 类费用日期上下文。总库 873／默认 869、部分观察 194／线索 679；浸会 49 条中 22 条部分观察／27 条线索。方向 7 组／17 份、费用日期上下文 107 组／216 类，维护单元 318、近截止 3、失配 0。完整要求和独立复核仍为 0。费用总价、额外课程费及申请费分别说明，未公布 GPA 不填数；英语补修、Reading OR Listening、工作偏好和非商科准备不硬判为统一门槛。EGM 保留 January 2028，官方日期冲突未解决前不提供可操作最终截止；MCE 必修海外考察和 ORBS 联合交付范围保留待确认。原 174 个项目对象、17 份方向、78 组上下文、目录身份、范围审计、核心项目及历史研究不变。见[观察](research/hkbu-business-science-observation-2026-10-31.json)、[质量表](../docs/research/hkbu-business-science-quality-2026-10-31.md)、[维护清单](../docs/research/source-review-queue-2026-10-31-hkbu-business-science.md)和[本地记录](../docs/progress/local-hkbu-business-science-2026-10-31.md)。
+
+## 2026-10-31 较早 HKUST 模式比较批次
+
 本轮不增加目录学位；继续保持 873／默认 869、174 条部分观察／699 条线索。ILE 的项目正文明确列出 TESL／TCSL 申请方向，新增两个完整的部分方向快照，方向层共 7 组／17 份；费用日期上下文仍为 78 组／158 类，维护单元变为 269。Finance 与普通 MBA 的工作年数比较按准确模式绑定，ILE 支持指定写作单项；中文版测试与证据、全职／毕业后工作、豁免和完整资格仍须确认。只调整 ILE／Finance 两个项目、普通 MBA 路径及 ILE 的方向依据；其他 172 条项目、14 份原路径、所有上下文、范围决定及历史研究不变。来源局部重读于 31 日，旧费用日期不重标。见[观察](research/hkust-scoped-matching-observation-2026-10-31.json)、[质量表](../docs/research/hkust-scoped-matching-quality-2026-10-31.md)、[维护清单](../docs/research/source-review-queue-2026-10-31-hkust-scoped-matching.md)和[本地记录](../docs/progress/local-hkust-scoped-matching-2026-10-31.md)。
 
 以下保留 30 日及此前批次的输入和数量：

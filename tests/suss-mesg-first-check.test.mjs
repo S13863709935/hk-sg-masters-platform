@@ -101,7 +101,7 @@ test('Finance archives remain immutable and the added programme creates no actio
     'core-pilot-acceptance-2026-10-27-suss-mfin.md': '162e0b3f3b236b36f17bdac7d69a068920cdb51d0b25a754a562f5e46e117965'
   };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash('sha256').update(readFileSync(new URL('docs/research/' + file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 174); assert.equal(queue.counts.reviewUnits, 269);
+  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 194); assert.equal(queue.counts.reviewUnits, 318);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -115,7 +115,7 @@ test('first MESG source migration preserves all earlier records and directory co
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, directory); assert.deepEqual(db.all().filter(x => x.id !== p.id), previous);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 174); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 194); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -140,7 +140,7 @@ test('real API/save/export keeps encouraged CV and capstone alternatives while l
     assert.equal(published.find(r => /CV submission/.test(r.labelEn)).mandatory, false); assert.match(published.find(r => /One graduation capstone/.test(r.labelEn)).noteEn, /Complete one of the two/);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 174);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 194);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 78, categories: 158, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17); assert.equal(JSON.stringify(store.all()), before);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 107, categories: 216, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 17); assert.equal(JSON.stringify(store.all()), before);
 });
