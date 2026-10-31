@@ -8,18 +8,18 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 869 条；286 条有部分官方项目页观察，587 条仍为目录线索。完整要求集和独立人工复核均为 0。
-- 15 组／37 条方向快照、193 组／388 类申请者费用日期上下文分开计数，不新增硕士学位。10 月 31 日维护快照有 516 个单元，4 个单元的记录截止临近，失配绑定为 0。
-- 本轮补入港大教育、公共政策及地理／社会数据领域的 12 个既有项目、18 个学习选项；港大为 66 个部分观察父记录／37 条线索。来源查阅日为 10 月 31 日，集成验证于 11 月 1 日继续完成。
-- TESOL 和教育硕士分别采用自己的英语门槛；教育三项目的推荐信非必需，不能套用社科学院的两位推荐人规则。教育硕士使用学院的 2027 安排，听力学保留已关闭的 2026 批次；未知学费、专业方向和个人材料继续待确认。
-- TESOL 第二轮有剩余名额条件；可持续治理兼读年费和截止时刻存在来源差异，保留未知学费与日期精度，不自动选本地／非本地类别。治理与政策、可持续治理和数据类项目的偏好不变成硬门槛。此前建筑、商科、工程、人文及地域限制继续有效。
-- **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。20 个原核心 ID、71 种选择与 7 个合成背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
+- 14 校、873 条目录记录，默认可浏览 869 条；297 条有部分官方项目页观察，576 条仍为目录线索。完整要求集和独立人工复核均为 0。
+- 16 组／39 条方向快照、193 组／388 类申请者上下文分开计数。11 月 1 日维护快照有 529 个单元，7 个记录截止临近，失配绑定为 0。
+- 本轮港大传媒、社会服务与佛学批次补入 11 个既有直接项目、2 条新闻学路径，共 22 个学习选项；港大为 77 个部分父记录／26 条线索。各自来源日期、学制与材料要求分别保留。
+- 普通新闻、纪录片及创意 AI 影视采用不同英语门槛；纪录片拟改名、学制及收费待最终批准，最终学费保持未知。普通新闻的额外学分费用不包含在基本总价中。
+- 社会服务工作年限偏好不当硬门槛；艺术参与经历不当就业年数。佛学先修与补修路径、推荐信和材料时限冲突保持明确。此前教育、建筑、商科、工程、人文及地域限制继续有效。
+- **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。原核心 20 个 ID、71 种选择与 7 个模拟背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
-本轮只在本地保存，不自动推送。建议在下一周检查点统一发布一个可审阅的完整批次；最近已发布的 W6 检查点保持不变。
+本轮只在本地保存，不自动推送。建议在下一周检查点统一发布完整批次；最近已发布的 W6 检查点保持不变。
 
-[HKU 质量表](docs/research/hku-education-policy-quality-2026-10-31.md) · [516 单元维护清单](docs/research/source-review-queue-2026-10-31-hku-education-policy.md) · [核心验收](docs/research/core-pilot-acceptance-2026-10-31-hku-education-policy.md) · [本批改动与限制](docs/progress/local-hku-education-policy-2026-11-01.md)
+[HKU 质量表](docs/research/hku-media-social-quality-2026-11-01.md) · [529 单元维护清单](docs/research/source-review-queue-2026-11-01-hku-media-social.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-01-hku-media-social.md) · [本批改动与限制](docs/progress/local-hku-media-social-2026-11-01.md)
 
-[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
+[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
 ## 本地运行
 

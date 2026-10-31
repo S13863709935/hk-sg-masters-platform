@@ -24,10 +24,10 @@ const select=(x,o,category)=>resolveProgramme(x,routes,undefined,o.id,category?o
 
 test('six existing IDs and two separate BIS snapshots preserve counts without new degrees or full approvals',()=>{
  assert.equal(obs.programmeIds.length,6); assert.equal(new Set(obs.programmeIds).size,6);
- assert.equal(store.quality().checked,286); assert.equal(store.quality().total,873); assert.equal(store.quality().browsable,869);
+ assert.equal(store.quality().checked,297); assert.equal(store.quality().total,873); assert.equal(store.quality().browsable,869);
  assert.equal(store.quality().complete,0); assert.equal(store.quality().peerReviewed,0); assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
  assert.equal(store.all().filter(x=>x.universityId==='HK-CITYU'&&x.verification==='programme_page_checked').length,60);
- assert.deepEqual(routeSummary(routes),{groups:15,routes:37,pageChecked:37,peerReviewed:0,complete:0});
+ assert.deepEqual(routeSummary(routes),{groups:16,routes:39,pageChecked:39,peerReviewed:0,complete:0});
  assert.deepEqual(applicantSummary(applicants),{studyOptions:193,categories:388,peerReviewed:0});
  for(const x of [...obs.programmeIds.map(id=>store.get(id)),...siblings]){
   assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(y=>y.id===x.id)||x)),false);
@@ -114,7 +114,7 @@ test('EMBA and legacy Civil holds remain leads without merging Chinese experienc
  for(const n of [3,9]){assert.equal(p(n).verification,'catalogue_seed');assert.equal(routes.has(p(n).id),false);assert.equal(p(n).rules.length,0);}
  assert.equal(obs.boundaries.EMBA.decision,'retain_catalogue_lead');assert.match(obs.boundaries.EMBA.notesEn,/not imported into P12/);
  assert.match(obs.boundaries.EMBA.notesEn,/HKD 1000/);assert.equal(obs.boundaries.civil.decision,'retain_legacy_identity_hold');
- const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,516);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,529);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 test('isolated imports preserve all earlier records over restarts and route/context evidence still validates',()=>{

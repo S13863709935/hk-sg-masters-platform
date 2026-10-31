@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-31",
+  "checkedOn": "2026-11-01",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -52505,6 +52505,2243 @@
         }
       },
       "researchBatch": "hku-education-policy-2026-10-31"
+    },
+    {
+      "name": "Master of Social Work",
+      "award": "Master",
+      "area": "Social Sciences",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-work-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent and possible qualifying assessment; exemptions are assessed individually. Bachelor award must be obtained by31August2027. No exclusive undergraduate major, numeric GPA or work-year minimum is established. FT includes a summer block placement; degree training/registration eligibility does not mean an applicant already has registration or employment.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P023-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 388080,
+          "applicationFee": 780,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-02-22",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2026-11-02",
+              "deadlineAt": "2026-11-02T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Second round (subject to places)",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-02-22",
+              "deadlineAt": "2027-02-22T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 388080; FT two years and PT three years have the SAME total, not annual fee multiplied again.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-social-work/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Second round depends on remaining places; displayed starts2November2026 at12:01pm after the main cutoff. Calendar-only opening is retained; eligibility/places are not guaranteed."
+        },
+        {
+          "id": "HK-HKU-P023-2027-PT",
+          "mode": "Part-time",
+          "duration": "3 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 388080,
+          "applicationFee": 780,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-02-22",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2026-11-02",
+              "deadlineAt": "2026-11-02T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Second round (subject to places)",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-02-22",
+              "deadlineAt": "2027-02-22T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 388080; FT two years and PT three years have the SAME total, not annual fee multiplied again.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-social-work/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Second round depends on remaining places; displayed starts2November2026 at12:01pm after the main cutoff. Calendar-only opening is retained; eligibility/places are not guaranteed."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R21&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent and possible qualifying assessment; exemptions are assessed individually. Bachelor award must be obtained by31August2027. No exclusive undergraduate major, numeric GPA or work-year minimum is established. FT includes a summer block placement; degree training/registration eligibility does not mean an applicant already has registration or employment.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R21&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. TWO referee reports and supporting evidence must arrive by the relevant round deadline. Upload within SEVEN WORKING DAYS of email notification OR the round deadline, whichever is earlier. No personal notification date is recorded. Other relevant documents are conditional, not a mandatory ten-page essay. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-work-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://web.socialwork.hku.hk/programme-admission/master-of-social-work/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R21&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R21&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R21&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent and possible qualifying assessment; exemptions are assessed individually. Bachelor award must be obtained by31August2027. No exclusive undergraduate major, numeric GPA or work-year minimum is established. FT includes a summer block placement; degree training/registration eligibility does not mean an applicant already has registration or employment.",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-social-work/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R21&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 388080; FT two years and PT three years have the SAME total, not annual fee multiplied again.",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-social-work/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Second round depends on remaining places; displayed starts2November2026 at12:01pm after the main cutoff. Calendar-only opening is retained; eligibility/places are not guaranteed.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R21&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-work-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P023",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Arts in Creative Artificial Intelligence Film and Media",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-creative-artificial-intelligence-filmmaking-and-media-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent with film/media experience preferred. Exceptional non-degree applicants may be considered after directing1-2 award-winning films or substantial producer work on multiple award-winning films, with accepted English evidence and assessment. This is Creative Artificial Intelligence Film and Media, not an automatic Computer Science prerequisite, and not the Documentary route under Journalism.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P033-2027-FT",
+          "mode": "Full-time",
+          "duration": "1.5 years normative; 3 years maximum",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 348000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-01-15",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "deadlineAt": "2027-01-15T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. 60credits x HKD5,800=348,000 for the1.5-year programme; not the Documentary/Journalism credit basis.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-creative-artificial-intelligence-filmmaking-and-media-socsc&mode=0",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 6
+            },
+            "toefl_120": {
+              "total": 90,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent with film/media experience preferred. Exceptional non-degree applicants may be considered after directing1-2 award-winning films or substantial producer work on multiple award-winning films, with accepted English evidence and assessment. This is Creative Artificial Intelligence Film and Media, not an automatic Computer Science prerequisite, and not the Documentary route under Journalism.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. English CV is explicitly listed. Upload within ONE MONTH from notification or the emailed deadline. Personal-statement/CV codes in the naming legend do not by themselves impose a statement, portfolio or two referees. Film/media submission instructions beyond the listed CV remain to confirm. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-creative-artificial-intelligence-filmmaking-and-media-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://hkums.hku.hk/caifm/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent with film/media experience preferred. Exceptional non-degree applicants may be considered after directing1-2 award-winning films or substantial producer work on multiple award-winning films, with accepted English evidence and assessment. This is Creative Artificial Intelligence Film and Media, not an automatic Computer Science prerequisite, and not the Documentary route under Journalism.",
+          "sourceUrl": "https://hkums.hku.hk/caifm/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. 60credits x HKD5,800=348,000 for the1.5-year programme; not the Documentary/Journalism credit basis.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-creative-artificial-intelligence-filmmaking-and-media-socsc&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. ",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R426&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-creative-artificial-intelligence-filmmaking-and-media-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P033",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Buddhist Counselling",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts - Centre of Buddhist Studies",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-counselling-arts&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Good bachelor/equivalent plus satisfactorily completed BSTC6079 Early Buddhism and BSTC6002 Mahayana Buddhism, or accepted comparable Buddhist-studies courses. Applicants lacking the degree and/or prerequisite courses may be invited to a Buddhist Studies Foundation Course (BSFC) or qualifying examination and considered after satisfactory performance. A non-Buddhist undergraduate major is not an automatic rejection. The MBC alone is NOT professional training leading directly to registration; a separate professional-practice diploma and registration assessment are described by the Centre.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P045-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 186800,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-26",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 186800; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.buddhism.hku.hk/ap/mbc/admission/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 31December monastic scholarship date is NOT the admission cutoff; admission cutoff is26February for FT/PT."
+        },
+        {
+          "id": "HK-HKU-P045-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 186800,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-26",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 186800; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.buddhism.hku.hk/ap/mbc/admission/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 31December monastic scholarship date is NOT the admission cutoff; admission cutoff is26February for FT/PT."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Good bachelor/equivalent plus satisfactorily completed BSTC6079 Early Buddhism and BSTC6002 Mahayana Buddhism, or accepted comparable Buddhist-studies courses. Applicants lacking the degree and/or prerequisite courses may be invited to a Buddhist Studies Foundation Course (BSFC) or qualifying examination and considered after satisfactory performance. A non-Buddhist undergraduate major is not an automatic rejection. The MBC alone is NOT professional training leading directly to registration; a separate professional-practice diploma and registration assessment are described by the Centre.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. Current supporting PDF requests two ACADEMIC referees; main PDF requires TWO referees with at least one from the corresponding academic institution for degrees awarded on/after1January2022, and normally FOUR WEEKS for the referee survey. Referee eligibility needs reconciliation. Supporting checklist says ONE MONTH from APPLICATION and all evidence/references by the application closing date; main PDF says ONE MONTH from NOTIFICATION. These clocks conflict; do not invent a personal deadline. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. Centre of Buddhist Studies is the named exception to the general Faculty of Arts higher threshold; no Arts IELTS7 or writing25 is copied here. IELTS Indicator/One Skill Retake, TOEFL Home/ITP/Essentials/MyBest and other listed alternative tests are expressly rejected in this programme PDF. No IELTS Online ban is inferred.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conflicting relative document and referee timing",
+          "sourceUrl": "https://www.buddhism.hku.hk/ap/mbc/admission/",
+          "noteZh": "",
+          "noteEn": "Current supporting PDF requests two ACADEMIC referees; main PDF requires TWO referees with at least one from the corresponding academic institution for degrees awarded on/after1January2022, and normally FOUR WEEKS for the referee survey. Referee eligibility needs reconciliation. Supporting checklist says ONE MONTH from APPLICATION and all evidence/references by the application closing date; main PDF says ONE MONTH from NOTIFICATION. These clocks conflict; do not invent a personal deadline. ",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-counselling-arts&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://www.buddhism.hku.hk/ap/mbc/admission/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "unknown",
+          "noteEn": "Good bachelor/equivalent plus satisfactorily completed BSTC6079 Early Buddhism and BSTC6002 Mahayana Buddhism, or accepted comparable Buddhist-studies courses. Applicants lacking the degree and/or prerequisite courses may be invited to a Buddhist Studies Foundation Course (BSFC) or qualifying examination and considered after satisfactory performance. A non-Buddhist undergraduate major is not an automatic rejection. The MBC alone is NOT professional training leading directly to registration; a separate professional-practice diploma and registration assessment are described by the Centre.",
+          "sourceUrl": "https://www.buddhism.hku.hk/ap/mbc/admission/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 186800; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "sourceUrl": "https://www.buddhism.hku.hk/ap/mbc/admission/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 31December monastic scholarship date is NOT the admission cutoff; admission cutoff is26February for FT/PT.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R337&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-counselling-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P045",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Buddhist Studies",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Arts - Centre of Buddhist Studies",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-studies-arts&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Good bachelor/equivalent; applicants from all professional backgrounds and undergraduate majors are welcome. Exceptional candidates with substantial subject background may be considered through qualifying assessment; no numeric GPA or required Buddhist undergraduate major is established. Dissertation/portfolio capstone choices remain part of this taught degree, not separate research-master awards.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P046-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 180500,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-26",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-14",
+              "deadlineAt": "2026-12-14T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 180500; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.buddhism.hku.hk/ap/mbs/admission/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 14December and26February are admission rounds. Separate monastic/lay scholarship dates are NOT applicant-specific admission deadlines."
+        },
+        {
+          "id": "HK-HKU-P046-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 180500,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-26",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-12-14",
+              "deadlineAt": "2026-12-14T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-02-26",
+              "deadlineAt": "2027-02-26T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 180500; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.buddhism.hku.hk/ap/mbs/admission/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 14December and26February are admission rounds. Separate monastic/lay scholarship dates are NOT applicant-specific admission deadlines."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Good bachelor/equivalent; applicants from all professional backgrounds and undergraduate majors are welcome. Exceptional candidates with substantial subject background may be considered through qualifying assessment; no numeric GPA or required Buddhist undergraduate major is established. Dissertation/portfolio capstone choices remain part of this taught degree, not separate research-master awards.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. Personal statement and CV are expressly OPTIONAL in the supporting PDF. Main PDF asks TWO referees, official institutional/company email and normally TWO WEEKS for the survey; current Centre page says FOUR WEEKS. One recent-degree academic referee is required as specified in the main PDF. Supporting checklist says ONE MONTH from APPLICATION while main PDF says ONE MONTH from NOTIFICATION: unresolved relative timing, not a computed date. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. Centre of Buddhist Studies is the named exception to the general Faculty of Arts higher threshold; no Arts IELTS7 or writing25 is copied here. IELTS Indicator/One Skill Retake, TOEFL Home/ITP/Essentials/MyBest and other listed alternative tests are expressly rejected in this programme PDF. No IELTS Online ban is inferred.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "All undergraduate majors welcome",
+          "sourceUrl": "https://www.buddhism.hku.hk/ap/mbs/admission/",
+          "accepted": [],
+          "any": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Conflicting relative document and referee timing",
+          "sourceUrl": "https://www.buddhism.hku.hk/ap/mbs/admission/",
+          "noteZh": "",
+          "noteEn": "Personal statement and CV are expressly OPTIONAL in the supporting PDF. Main PDF asks TWO referees, official institutional/company email and normally TWO WEEKS for the survey; current Centre page says FOUR WEEKS. One recent-degree academic referee is required as specified in the main PDF. Supporting checklist says ONE MONTH from APPLICATION while main PDF says ONE MONTH from NOTIFICATION: unresolved relative timing, not a computed date. ",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-studies-arts&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://www.buddhism.hku.hk/ap/mbs/admission/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "All undergraduate majors welcome.",
+          "sourceUrl": "https://www.buddhism.hku.hk/ap/mbs/admission/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 180500; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "sourceUrl": "https://www.buddhism.hku.hk/ap/mbs/admission/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 14December and26February are admission rounds. Separate monastic/lay scholarship dates are NOT applicant-specific admission deadlines.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R273&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-studies-arts&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P046",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Expressive Arts Therapy",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-expressive-arts-therapy-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent, preferably in social sciences, healthcare, education or arts; THREE relevant post-qualification work years are PREFERRED, not a universal minimum. Bachelor award by31August2027 is required by the current PDF. Arts proficiency and the exact portfolio/assessment remain required. During-degree practicum is not pre-entry work experience or a licence guarantee.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P054-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 378840,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-01",
+              "deadlineAt": "2027-02-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 378840; FT two years and PT three years have the SAME total, not annual fee multiplied again.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-expressive-arts-therapy/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. School says October2026 opening without exact day; no exact opening date invented."
+        },
+        {
+          "id": "HK-HKU-P054-2027-PT",
+          "mode": "Part-time",
+          "duration": "3 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 378840,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-02-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-01",
+              "deadlineAt": "2027-02-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 378840; FT two years and PT three years have the SAME total, not annual fee multiplied again.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-expressive-arts-therapy/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. School says October2026 opening without exact day; no exact opening date invented."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R319&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent, preferably in social sciences, healthcare, education or arts; THREE relevant post-qualification work years are PREFERRED, not a universal minimum. Bachelor award by31August2027 is required by the current PDF. Arts proficiency and the exact portfolio/assessment remain required. During-degree practicum is not pre-entry work experience or a licence guarantee.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R319&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. Exact checklist requires TWO referee reports and a USB arts portfolio posted by the application deadline; other CV evidence is conditional. Upload supporting files within SEVEN WORKING DAYS and by the closing date. School page specifies3-10 digital images/videos with descriptions and FOUR personal essays with NO assigned word limit; its FAQ separately expects at least THREE years of arts involvement. Arts involvement is not three employment years. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferred relevant professional experience",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R319&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "THREE relevant work years are PREFERRED, not a mandatory employment minimum. Total self-reported years do not prove relevant post-qualification experience.",
+          "mandatory": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Arts portfolio, essays and arts involvement",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-expressive-arts-therapy/",
+          "noteZh": "",
+          "noteEn": "Submit3-10 images/videos with descriptions in the USB portfolio and FOUR personal essays; no essay word limit assigned. FAQ expects at least THREE years of arts involvement. This can include regular recreational/formal arts practice, not necessarily three years of paid work. Portfolio and personal readiness require assessment.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-expressive-arts-therapy-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://web.socialwork.hku.hk/programme-admission/master-of-expressive-arts-therapy/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R319&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R319&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R319&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent, preferably in social sciences, healthcare, education or arts; THREE relevant post-qualification work years are PREFERRED, not a universal minimum. Bachelor award by31August2027 is required by the current PDF. Arts proficiency and the exact portfolio/assessment remain required. During-degree practicum is not pre-entry work experience or a licence guarantee.",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-expressive-arts-therapy/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R319&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 378840; FT two years and PT three years have the SAME total, not annual fee multiplied again.",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/master-of-expressive-arts-therapy/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. School says October2026 opening without exact day; no exact opening date invented.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R319&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-expressive-arts-therapy-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P054",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Social Sciences in Counselling",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-counselling-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent and individually assessed exemptions; TWO relevant work years are PREFERRED. Counselling/psychology/social-work prior training is not an exclusive major requirement. Two-year PT ONLY; do not invent FT or wholly online delivery. Counselling placement and supervision during study are not pre-entry work years, and professional registration/membership needs separate assessment.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P090-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 257340,
+          "applicationFee": 780,
+          "applicationOpen": "2026-10-16",
+          "deadline": "2027-03-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-16",
+              "deadline": "2026-11-27",
+              "deadlineAt": "2026-11-27T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-10-16",
+              "deadline": "2027-03-31",
+              "deadlineAt": "2027-03-31T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Two PT years x128,670=257,340 total; FT is not offered.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/msocsc-counselling/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R307&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent and individually assessed exemptions; TWO relevant work years are PREFERRED. Counselling/psychology/social-work prior training is not an exclusive major requirement. Two-year PT ONLY; do not invent FT or wholly online delivery. Counselling placement and supervision during study are not pre-entry work years, and professional registration/membership needs separate assessment.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R307&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. TWO referees with official institutional/company contact details; upload before the application deadline. Checklist lists statement around800words under if-appropriate, but programme FAQ explicitly makes a personal statement COMPULSORY. Record both wordings and confirm exact scope rather than dropping the statement. Referee FAQ says14DAYS from invitation, independent of application deadline; this differs from applicant file timing. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferred relevant professional experience",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R307&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "TWO relevant work years are PREFERRED, not a mandatory employment minimum. Total self-reported years do not prove relevant post-qualification experience.",
+          "mandatory": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Personal statement and referee timing reconciliation",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/msocsc-counselling/",
+          "noteZh": "",
+          "noteEn": "FAQ makes the personal statement compulsory despite conditional checklist wording; approximately800words appears in the checklist. Referees have14days from invitation, distinct from applicant file deadline. Actual applicability and email dates are not recorded.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-counselling-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://web.socialwork.hku.hk/programme-admission/msocsc-counselling/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R307&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R307&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R307&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent and individually assessed exemptions; TWO relevant work years are PREFERRED. Counselling/psychology/social-work prior training is not an exclusive major requirement. Two-year PT ONLY; do not invent FT or wholly online delivery. Counselling placement and supervision during study are not pre-entry work years, and professional registration/membership needs separate assessment.",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/msocsc-counselling/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R307&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Two PT years x128,670=257,340 total; FT is not offered.",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/msocsc-counselling/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. ",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R307&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-counselling-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P090",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Social Sciences in Criminology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-criminology-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent; social sciences, humanities, law, education, business and management majors are PREFERRED, not exclusive. Current PDF also prefers relevant criminal-justice/social-welfare/offender work; departmental alternative-experience wording needs individual assessment. No numeric work-year or GPA minimum is established. Written/interview and possible language assessment may apply.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P091-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216300,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-11-13",
+              "deadlineAt": "2026-11-13T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Clearing round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "deadlineAt": "2027-01-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Clearing round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": "2027-03-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-criminology",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Clearing rounds are recorded, not a guarantee that places remain after the main round."
+        },
+        {
+          "id": "HK-HKU-P091-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216300,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-11-13",
+              "deadlineAt": "2026-11-13T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Clearing round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "deadlineAt": "2027-01-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Clearing round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": "2027-03-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-criminology",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Clearing rounds are recorded, not a guarantee that places remain after the main round."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent; social sciences, humanities, law, education, business and management majors are PREFERRED, not exclusive. Current PDF also prefers relevant criminal-justice/social-welfare/offender work; departmental alternative-experience wording needs individual assessment. No numeric work-year or GPA minimum is established. Written/interview and possible language assessment may apply.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. Linked checklist is dated September2025, not automatically a fresh2027 checklist. It asks TWO official-address referee reports and files within ONE MONTH from notification or the emailed deadline. Its continued linkage is recorded but applicability remains unconfirmed. Naming examples do not impose a personal statement or CV. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-criminology-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sociology.hku.hk/taught-postgraduate/tpg-criminology",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent; social sciences, humanities, law, education, business and management majors are PREFERRED, not exclusive. Current PDF also prefers relevant criminal-justice/social-welfare/offender work; departmental alternative-experience wording needs individual assessment. No numeric work-year or GPA minimum is established. Written/interview and possible language assessment may apply.",
+          "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-criminology"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-criminology"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Clearing rounds are recorded, not a guarantee that places remain after the main round.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-criminology-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P091",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Social Sciences in Gerontology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-gerontology-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent; TWO relevant post-qualification work years are PREFERRED, not a compulsory minimum. One-year FT ONLY; do not create PT from another social-work programme. Gerontology curriculum/career examples do not by themselves qualify a student as a registered healthcare or social-work professional.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P092-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 250000,
+          "applicationFee": 780,
+          "applicationOpen": "2026-10-16",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-16",
+              "deadline": "2026-12-04",
+              "deadlineAt": "2026-12-04T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-10-16",
+              "deadline": "2027-01-29",
+              "deadlineAt": "2027-01-29T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": "2026-10-16",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. One-year FT total250,000; not a PT or annual-multiplied quote.",
+          "feeEvidence": {
+            "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/msocsc-gerontology/",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R308&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent; TWO relevant post-qualification work years are PREFERRED, not a compulsory minimum. One-year FT ONLY; do not create PT from another social-work programme. Gerontology curriculum/career examples do not by themselves qualify a student as a registered healthcare or social-work professional.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R308&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. TWO official-address referees; upload before the application deadline. Around1000-word statement/CV/publications are under IF APPROPRIATE in this checklist. A recent photo is requested from SHORTLISTED candidates before the invitation-specified deadline, not an invented universal upload deadline. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferred relevant professional experience",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R308&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "TWO relevant work years are PREFERRED, not a mandatory employment minimum. Total self-reported years do not prove relevant post-qualification experience.",
+          "mandatory": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-gerontology-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://web.socialwork.hku.hk/programme-admission/msocsc-gerontology/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R308&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R308&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R308&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent; TWO relevant post-qualification work years are PREFERRED, not a compulsory minimum. One-year FT ONLY; do not create PT from another social-work programme. Gerontology curriculum/career examples do not by themselves qualify a student as a registered healthcare or social-work professional.",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/msocsc-gerontology/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R308&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. One-year FT total250,000; not a PT or annual-multiplied quote.",
+          "sourceUrl": "https://web.socialwork.hku.hk/programme-admission/msocsc-gerontology/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. ",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R308&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-gerontology-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P092",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Social Sciences in Media, Culture and Creative Cities",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-media%2C-culture-and-creative-cities-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent with media/cultural-sector work PREFERRED, without a fixed year minimum or exclusive undergraduate major. Written/interview and possible English assessment may apply. Research-methods and capstone curriculum do not make this a research master or a journalism practice/film portfolio prerequisite.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P093-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216300,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-02-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-11-13",
+              "deadlineAt": "2026-11-13T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Clearing round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-31",
+              "deadlineAt": "2026-12-31T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Clearing round 2",
+              "applicationOpen": null,
+              "deadline": "2027-02-01",
+              "deadlineAt": "2027-02-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-media-culture-creative-cities",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Clearing rounds are recorded, not a guarantee that places remain after the main round."
+        },
+        {
+          "id": "HK-HKU-P093-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216300,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-02-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2026-11-13",
+              "deadlineAt": "2026-11-13T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Clearing round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-31",
+              "deadlineAt": "2026-12-31T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Clearing round 2",
+              "applicationOpen": null,
+              "deadline": "2027-02-01",
+              "deadlineAt": "2027-02-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-media-culture-creative-cities",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Clearing rounds are recorded, not a guarantee that places remain after the main round."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent with media/cultural-sector work PREFERRED, without a fixed year minimum or exclusive undergraduate major. Written/interview and possible English assessment may apply. Research-methods and capstone curriculum do not make this a research master or a journalism practice/film portfolio prerequisite.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. Linked checklist is dated September2025. TWO official-address referees and files within ONE MONTH from notification or emailed deadline; current applicability remains unconfirmed. Personal statement/CV abbreviations in the naming legend alone do not establish mandatory documents. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-media%2C-culture-and-creative-cities-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sociology.hku.hk/taught-postgraduate/tpg-media-culture-creative-cities",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent with media/cultural-sector work PREFERRED, without a fixed year minimum or exclusive undergraduate major. Written/interview and possible English assessment may apply. Research-methods and capstone curriculum do not make this a research master or a journalism practice/film portfolio prerequisite.",
+          "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-media-culture-creative-cities"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-media-culture-creative-cities"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. Clearing rounds are recorded, not a guarantee that places remain after the main round.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-media%2C-culture-and-creative-cities-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P093",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Social Sciences in Nonprofit Management",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-nonprofit-management-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent; THREE relevant post-qualification work years in public/private/nonprofit sectors are PREFERRED, not a mandatory floor. Individually assessed exemptions remain possible. Blended/intensive executive-style teaching is not proof this programme is wholly remote; delivery, visits and individual attendance remain to confirm.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P094-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 262240,
+          "applicationFee": 780,
+          "applicationOpen": "2026-10-09",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-09",
+              "deadline": "2026-11-30",
+              "deadlineAt": "2026-11-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-10-09",
+              "deadline": "2027-02-15",
+              "deadlineAt": "2027-02-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": "2026-10-09",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme262,240 for either FT or PT, not PT two times262,240.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-nonprofit-management-socsc&mode=0",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 9October application opening is recorded at date precision; the website states noon."
+        },
+        {
+          "id": "HK-HKU-P094-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 262240,
+          "applicationFee": 780,
+          "applicationOpen": "2026-10-09",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-10-09",
+              "deadline": "2026-11-30",
+              "deadlineAt": "2026-11-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-10-09",
+              "deadline": "2027-02-15",
+              "deadlineAt": "2027-02-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": "2026-10-09",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme262,240 for either FT or PT, not PT two times262,240.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-nonprofit-management-socsc&mode=0",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 9October application opening is recorded at date precision; the website states noon."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 85,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R323&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent; THREE relevant post-qualification work years in public/private/nonprofit sectors are PREFERRED, not a mandatory floor. Individually assessed exemptions remain possible. Blended/intensive executive-style teaching is not proof this programme is wholly remote; delivery, visits and individual attendance remain to confirm.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R323&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. TWO official-address referees, personal statement around1000words and a recent plain-background photo under1MB are listed. CV/publications are conditional. Upload before application deadline. The ten-page maximum applies to the relevant additional-documents section, not a required ten-page statement. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Preferred relevant professional experience",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R323&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "THREE relevant work years are PREFERRED, not a mandatory employment minimum. Total self-reported years do not prove relevant post-qualification experience.",
+          "mandatory": false
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-nonprofit-management-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://mnpm.socialwork.hku.hk/",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R323&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R323&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R323&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent; THREE relevant post-qualification work years in public/private/nonprofit sectors are PREFERRED, not a mandatory floor. Individually assessed exemptions remain possible. Blended/intensive executive-style teaching is not proof this programme is wholly remote; delivery, visits and individual attendance remain to confirm.",
+          "sourceUrl": "https://mnpm.socialwork.hku.hk/"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R323&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme262,240 for either FT or PT, not PT two times262,240.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-nonprofit-management-socsc&mode=0"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. 9October application opening is recorded at date precision; the website states noon.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R323&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-nonprofit-management-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P094",
+      "universityId": "HK-HKU"
+    },
+    {
+      "name": "Master of Social Sciences in Sociology",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Social Sciences",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-sociology-socsc&mode=0",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+      "lastChecked": "2026-11-01",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent; social-science/humanities major PREFERRED, not exclusive. Written/interview and possible language assessment may apply. No numeric GPA or work-year minimum is established. Sociology research-methods and capstone courses remain within this taught award.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P097-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216300,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": "2027-03-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-sociology",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. "
+        },
+        {
+          "id": "HK-HKU-P097-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 216300,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": "2027-03-01",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-01",
+              "deadlineAt": "2027-03-01T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "feeEvidence": {
+            "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-sociology",
+            "checkedOn": "2026-11-01"
+          },
+          "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. "
+        }
+      ],
+      "rules": [
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R401&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent; social-science/humanities major PREFERRED, not exclusive. Written/interview and possible language assessment may apply. No numeric GPA or work-year minimum is established. Sociology research-methods and capstone courses remain within this taught award.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R401&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. Linked checklist is dated September2025. TWO official-address referees and files within ONE MONTH from notification or emailed deadline; current applicability remains unconfirmed. No statement/CV requirement is created from the file-naming legend. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, format and date evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-sociology-socsc&mode=0",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sociology.hku.hk/taught-postgraduate/tpg-sociology",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R401&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R401&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-01",
+          "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R401&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "not_published",
+          "noteEn": "Bachelor/equivalent; social-science/humanities major PREFERRED, not exclusive. Written/interview and possible language assessment may apply. No numeric GPA or work-year minimum is established. Sociology research-methods and capstone courses remain within this taught award.",
+          "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-sociology"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R401&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Whole programme 216300; FT2 instalments or PT4 instalments, not an annual price multiplied by duration.",
+          "sourceUrl": "https://sociology.hku.hk/taught-postgraduate/tpg-sociology"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. ",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R401&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-sociology-socsc&mode=0"
+        }
+      },
+      "researchBatch": "hku-media-social-2026-11-01",
+      "id": "HK-HKU-P097",
+      "universityId": "HK-HKU"
     }
   ]
 }

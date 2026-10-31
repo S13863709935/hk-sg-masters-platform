@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-31",
+  "checkedOn": "2026-11-01",
   "programmes": [
     {
       "programmeId": "SG-NTU-P061",
@@ -7188,6 +7188,374 @@
           },
           "researchBatch": "hku-architecture-2026-10-31",
           "routeId": "HK-HKU-P102-ROUTE-URBAN"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P021",
+      "requiresSelection": true,
+      "routes": [
+        {
+          "name": "Master of Journalism",
+          "award": "MJ",
+          "area": "Communication",
+          "faculty": "Faculty of Social Sciences",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+          "lastChecked": "2026-11-01",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial official-source observation. Bachelor/equivalent; professional journalism experience is desirable, not required. Proven journalism/relevant professional achievement may support an assessed exceptional non-degree route with English and qualifying assessment. General Journalism has its own higher English scores; do not borrow the Documentary or Creative AI minimum. Concentrations/internships are not extra degrees or guaranteed admission.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P021-GENERAL-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 267000,
+              "applicationFee": 780,
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "applicationRounds": [
+                {
+                  "id": "ROUND-1",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-15",
+                  "deadlineAt": "2027-01-15T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Required60credits x4,450=267,000. Up to72credits may be taken; extra credits increase charges. Portal explicitly says same rate for local/non-local students; no category-price selector is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0",
+                "checkedOn": "2026-11-01"
+              },
+              "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. "
+            },
+            {
+              "id": "HK-HKU-P021-GENERAL-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 267000,
+              "applicationFee": 780,
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "applicationRounds": [
+                {
+                  "id": "ROUND-1",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-15",
+                  "deadlineAt": "2027-01-15T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Required60credits x4,450=267,000. Up to72credits may be taken; extra credits increase charges. Portal explicitly says same rate for local/non-local students; no category-price selector is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0",
+                "checkedOn": "2026-11-01"
+              },
+              "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Programme English scores and exact exam-version evidence",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "tests": {
+                "ielts": {
+                  "total": 7,
+                  "componentMin": 6
+                },
+                "toefl_120": {
+                  "total": 95,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Bachelor/equivalent; professional journalism experience is desirable, not required. Proven journalism/relevant professional achievement may support an assessed exceptional non-degree route with English and qualifying assessment. General Journalism has its own higher English scores; do not borrow the Documentary or Creative AI minimum. Concentrations/internships are not extra degrees or guaranteed admission.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Exact supporting documents and relative timing",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. English CV explicitly listed. Files within ONE MONTH from notification or emailed deadline. Naming legend P:statement does not establish a compulsory statement, two referees or universal portfolio. Current webpage title still says2026-2027 while its banner says Fall2027; the current PDF/portal govern this observed intake. ",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, format and date evidence",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            },
+            {
+              "url": "https://hkums.hku.hk/mjadmissions/",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "major": {
+              "status": "not_published",
+              "noteEn": "Bachelor/equivalent; professional journalism experience is desirable, not required. Proven journalism/relevant professional achievement may support an assessed exceptional non-degree route with English and qualifying assessment. General Journalism has its own higher English scores; do not borrow the Documentary or Creative AI minimum. Concentrations/internships are not extra degrees or guaranteed admission.",
+              "sourceUrl": "https://hkums.hku.hk/mjadmissions/"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "tuition": {
+              "status": "known",
+              "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. Required60credits x4,450=267,000. Up to72credits may be taken; extra credits increase charges. Portal explicitly says same rate for local/non-local students; no category-price selector is invented.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. ",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R68&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0"
+            }
+          },
+          "researchBatch": "hku-media-social-2026-11-01",
+          "routeId": "HK-HKU-P021-ROUTE-GENERAL"
+        },
+        {
+          "name": "Master of Journalism - Documentary Filmmaking Specialisation",
+          "award": "MJ",
+          "area": "Communication",
+          "faculty": "Faculty of Social Sciences",
+          "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-documentary-filmmaking-socsc&mode=0",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted exact programme/route observation; independent review pending",
+          "lastChecked": "2026-11-01",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official portal/mode, department and exact PDF reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Partial official-source observation. Current verified directory identity is Master of Journalism - Documentary Filmmaking Specialisation. The official2027 PDF says renaming to Master of Arts in Documentary Filmmaking (MADF), extension from1year to1.5years and changes to credits, curriculum and tuition are PENDING final University approval. Do not silently rename, count another degree or promise the proposed structure. Bachelor/equivalent; exceptional non-degree award-winning documentary director/producer achievements require individual assessment and English evidence.",
+          "offerings": [
+            {
+              "id": "HK-HKU-P021-DOCUMENTARY-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year currently displayed; proposed 1.5 years pending final University approval",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": 780,
+              "applicationOpen": null,
+              "deadline": "2027-01-15",
+              "applicationRounds": [
+                {
+                  "id": "ROUND-1",
+                  "label": "Main round",
+                  "applicationOpen": null,
+                  "deadline": "2027-01-15",
+                  "deadlineAt": "2027-01-15T12:00:00+08:00"
+                }
+              ],
+              "feeBasis": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. UNKNOWN final tuition: displayed72credits x4,450=320,400 and one-year duration may change under the pending revamp. No approved1.5-year MADF total or extra award is inferred.",
+              "feeEvidence": {
+                "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-documentary-filmmaking-socsc&mode=0",
+                "checkedOn": "2026-11-01"
+              },
+              "deadlineNote": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. "
+            }
+          ],
+          "rules": [
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Programme English scores and exact exam-version evidence",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "tests": {
+                "ielts": {
+                  "total": 6,
+                  "componentMin": 5.5
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4.5,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "testDateNotBefore": "2025-09-01",
+              "testDateSourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme-specific academic and evidence conditions",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Current verified directory identity is Master of Journalism - Documentary Filmmaking Specialisation. The official2027 PDF says renaming to Master of Arts in Documentary Filmmaking (MADF), extension from1year to1.5years and changes to credits, curriculum and tuition are PENDING final University approval. Do not silently rename, count another degree or promise the proposed structure. Bachelor/equivalent; exceptional non-degree award-winning documentary director/producer achievements require individual assessment and English evidence.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Exact supporting documents and relative timing",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Academic/grading, qualification, identity and applicable English/translation evidence must follow the exact checklist; the platform does not collect or submit private application materials. English CV explicitly listed; files within ONE MONTH from notification or emailed deadline. Naming legend does not establish a compulsory statement or universal portfolio. Current PDF disclaimer must accompany the exact route; documentary tuition, graduation credits and duration are pending approval, not an approved MADF offer. ",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English applicability, format and date evidence",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "English-medium degree evidence, other accepted exams and waivers require institutional acceptance; no automatic waiver from a self-report. Tests for2027 entry must be taken on/after1September2025. No home/combined-score restriction is copied from another faculty or sibling programme. Exam format acceptance not established here remains to confirm.",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme revamp pending final approval",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "noteZh": "",
+              "noteEn": "Proposed MADF name,1.5-year duration, revised credits and tuition are awaiting final University approval. Current displayed one-year/72-credit quote of72x4,450=320,400 is retained as provisional context only; numeric tuition stays UNKNOWN. It is not a second approved degree.",
+              "mandatory": true
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-documentary-filmmaking-socsc&mode=0",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            },
+            {
+              "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            },
+            {
+              "url": "https://hkums.hku.hk/dfsadmission/",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            },
+            {
+              "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+              "checkedOn": "2026-11-01",
+              "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "noteEn": "September2027 intake; old checklist headings do not change the admissions year.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "major": {
+              "status": "not_published",
+              "noteEn": "Current verified directory identity is Master of Journalism - Documentary Filmmaking Specialisation. The official2027 PDF says renaming to Master of Arts in Documentary Filmmaking (MADF), extension from1year to1.5years and changes to credits, curriculum and tuition are PENDING final University approval. Do not silently rename, count another degree or promise the proposed structure. Bachelor/equivalent; exceptional non-degree award-winning documentary director/producer achievements require individual assessment and English evidence.",
+              "sourceUrl": "https://hkums.hku.hk/dfsadmission/"
+            },
+            "gpa": {
+              "status": "not_published",
+              "noteEn": "No numeric entry GPA established; good-degree wording, preferences, equivalence and scholarships do not create a numeric floor.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "language": {
+              "status": "known",
+              "noteEn": "Exact English test thresholds and version boundary retained; applicability/accepted proof require assessment.",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "tuition": {
+              "status": "unknown",
+              "noteEn": "2027/28 published fee, subject to university approval; scholarships, living costs and application fee not deducted or included. UNKNOWN final tuition: displayed72credits x4,450=320,400 and one-year duration may change under the pending revamp. No approved1.5-year MADF total or extra award is inferred.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-documentary-filmmaking-socsc&mode=0"
+            },
+            "deadline": {
+              "status": "known",
+              "noteEn": "Recorded dates/cutoffs only; no live portal, capacity, extension or personal admission claim. All listed cutoffs are12:00noon GMT+8. ",
+              "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R391&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+            },
+            "independentReview": {
+              "status": "unknown",
+              "noteEn": "Partial AI-assisted source observation only; no independently reviewed or complete-requirements claim.",
+              "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-documentary-filmmaking-socsc&mode=0"
+            }
+          },
+          "researchBatch": "hku-media-social-2026-11-01",
+          "routeId": "HK-HKU-P021-ROUTE-DOCUMENTARY"
         }
       ]
     }

@@ -25,7 +25,7 @@ const post = value => fetch(url + '/api/matches', { method: 'POST', headers: { '
 
 test('category evidence has its own dated scope and does not inflate programme review counts', () => {
   assert.deepEqual(applicantSummary(index), { studyOptions: 193, categories: 388, peerReviewed: 0 });
-  assert.equal(store.quality().checked, 286); assert.equal(store.quality().complete, 0); assert.equal(store.quality().peerReviewed, 0);
+  assert.equal(store.quality().checked, 297); assert.equal(store.quality().complete, 0); assert.equal(store.quality().peerReviewed, 0);
 });
 test('the source binding fingerprints every field regardless of property order', () => {
   const o = base.offerings[0];

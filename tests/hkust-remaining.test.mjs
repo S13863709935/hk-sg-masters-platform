@@ -22,10 +22,10 @@ const academic=n=>p(n).rules.find(r=>r.labelEn==='Programme-specific academic an
 const mba=(route,tag,category)=>resolveProgramme(p(10),routes,`HK-HKUST-P010-ROUTE-${route}`,`HK-HKUST-P010-2027-${tag}`,category?`HK-HKUST-P010-2027-${tag}-${category}`:undefined,contexts);
 
 test('eighteen retained parents gain partial evidence without adding awards, reviewers or core-pilot membership',()=>{
- assert.equal(obs.programmeIds.length,18);assert.equal(new Set(obs.programmeIds).size,18);assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,869);assert.equal(store.quality().checked,286);assert.equal(store.quality().complete,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
+ assert.equal(obs.programmeIds.length,18);assert.equal(new Set(obs.programmeIds).size,18);assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,869);assert.equal(store.quality().checked,297);assert.equal(store.quality().complete,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
  assert.equal(store.all().filter(x=>x.universityId==='HK-HKUST'&&x.verification==='programme_page_checked').length,48);
  assert.equal(store.all().filter(x=>x.universityId==='HK-HKUST'&&x.verification==='catalogue_seed').length,1);
- assert.deepEqual(routeSummary(routes),{groups:15,routes:37,pageChecked:37,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:193,categories:388,peerReviewed:0});
+ assert.deepEqual(routeSummary(routes),{groups:16,routes:39,pageChecked:39,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:193,categories:388,peerReviewed:0});
  for(const id of obs.programmeIds){const x=batch.programmes.find(x=>x.id===id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(x)),false);assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,['HK-HKUST-P008','HK-HKUST-P031'].includes(id)?'2026-10-31':'2026-10-30');assert.equal(batch.pilotProgrammeIds.includes(id),false);}
 });
 
@@ -98,9 +98,9 @@ test('MBA stays grouped until exact route selection; PT categories retain their 
 test('repeated isolated imports preserve all earlier IDs and bind 193 contexts without touching the daily database',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(x=>!ids.has(x.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hkust-remaining-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
  try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));
-  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,286);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,193);db.close();db=null;}
+  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,297);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,193);db.close();db=null;}
  }finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,516);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,529);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-10-30T08:00:00Z')});let base;

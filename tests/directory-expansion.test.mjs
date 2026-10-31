@@ -27,7 +27,7 @@ test('catalogue expansion preserves original IDs, historical additions and recon
     assert.equal(expansion.programmes.filter(p => p.inventoryBatch === '2026-10-13' && p.inventoryPass !== 'nus-ntu-dynamic').length, 37);
     assert.equal(db.quality().total, seed.programmes.length + expansion.programmes.length);
     assert.equal(db.quality().browsable, seed.programmes.length + expansion.programmes.length - 4);
-    assert.equal(db.quality().checked, 286);
+    assert.equal(db.quality().checked, 297);
     assert.equal(db.quality().peerReviewed, 0);
     const allIds = new Set(db.all().map(p => p.id));
     assert.ok(seed.programmes.every(p => allIds.has(p.id)));

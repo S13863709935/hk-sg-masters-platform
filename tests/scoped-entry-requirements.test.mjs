@@ -24,7 +24,7 @@ const mba=(tag,cat)=>resolveProgramme(store.get('HK-HKUST-P010'),routes,'HK-HKUS
 const lang=(p,patch)=>matchProgramme(p,{...profile,language:{...profile.language,...patch}}).checks.find(c=>c.kind==='language');
 
 test('TESL and TCSL stay one parent with two explicitly chosen independent language snapshots',()=>{
- assert.equal(store.quality().total,873);assert.equal(store.quality().checked,286);assert.equal(routes.size,15);assert.equal([...routes.values()].flat().length,37);assert.equal(contexts.size,193);
+ assert.equal(store.quality().total,873);assert.equal(store.quality().checked,297);assert.equal(routes.size,16);assert.equal([...routes.values()].flat().length,39);assert.equal(contexts.size,193);
  const base=resolveProgramme(store.get('HK-HKUST-P008'),routes);assert.equal(base.routeOptions.length,2);assert.equal(matchProgramme(base,profile).checks.some(c=>c.kind==='language'&&c.status==='pass'),false);
  assert.throws(()=>resolveProgramme(store.get('HK-HKUST-P008'),routes,undefined,'HK-HKUST-P008-2027-FT'));
  assert.equal(lang(ile('TESL')).status,'fail');assert.match(lang(ile('TESL')).reasonEn,/writing/);assert.equal(lang(ile('TCSL')).status,'pass');
