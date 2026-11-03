@@ -15,7 +15,7 @@
 - 临床研究的英语门槛、学位授予时限和条件式清算轮次独立保存；生物医学创新的全日制必需活动与兼读制自选活动分开。各项目材料时限、推荐信和执业证明条件不互相复制。此前各批限制继续有效。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。原核心 20 个 ID、71 种选择与 7 个模拟背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
-本轮只在本地保存，不自动推送。建议在 W7 检查点统一发布完整批次；最近已发布的 W6 检查点保持不变。
+W7 选定阶段版本已于 11 月 3 日推送为 [`checkpoint/week-07`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-07)，提交 `dff8b54`。该发布保留 20 条直接申请试点，加入比较、候选清单、公开引用导出及 5 条兼容的来源更新。这里的扩展目录和超前功能继续保存在本地；后续“继续”不触发重复小批推送。见[本次发布记录](docs/progress/2026-11-03-week-07-publication.md)。
 
 [HKU 质量表](docs/research/hku-medical-law-quality-2026-11-03.md) · [556 单元维护清单](docs/research/source-review-queue-2026-11-03-hku-medical-law.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-03-hku-medical-law.md) · [本批改动与限制](docs/progress/local-hku-medical-law-2026-11-03.md)
 
