@@ -25,9 +25,9 @@ const docs=x=>x.rules.find(r=>r.labelEn==='Exact supporting documents and relati
 
 test('eleven existing parents and two exact journalism routes remain partial, English and separate from catalogue/category counts',()=>{
  assert.equal(direct.length,11);assert.equal(direct.flatMap(p=>p.offerings).length,19);assert.equal(routes.get(p(21).id).length,2);assert.equal(routes.get(p(21).id).flatMap(p=>p.offerings).length,3);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,330);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,345);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
  assert.equal(store.all().filter(p=>p.universityId==='HK-HKU'&&p.verification==='programme_page_checked').length,93);
- assert.deepEqual(routeSummary(routes),{groups:17,routes:41,pageChecked:41,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:224,categories:449,peerReviewed:0});
+ assert.deepEqual(routeSummary(routes),{groups:17,routes:41,pageChecked:41,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:228,categories:457,peerReviewed:0});
  for(const x of snaps()){assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,'2026-11-01');assert.equal(x.rules.some(r=>['gpa','classification','experience'].includes(r.kind)),false);const raw=x.routeId?x:batch.programmes.find(p=>p.id===x.id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(raw)),false);}
 });
 
@@ -80,12 +80,12 @@ test('noon boundaries, fixed English-date anchor and separate scholarship/file c
  for(const x of snaps()){assert.equal(language(x,{...profile.language,testDate:'2025-08-31'}).status,'fail');assert.equal(language(x,{type:'waiver'}).status,'unknown');for(const o of x.offerings)for(const r of o.applicationRounds){const y=resolveProgramme(p(Number((x.id||'HK-HKU-P021').slice(-3))),routes,x.routeId,o.id,undefined,contexts),a=programmeTimeline(y,r.deadline,r.deadline+'T03:59:59.999Z'),b=programmeTimeline(y,r.deadline,r.deadline+'T04:00:00.000Z');assert.equal(r.deadlineAt,r.deadline+'T12:00:00+08:00');assert.equal(a.offerings[0].rounds.find(v=>v.id===r.id).state,r.applicationOpen?'within_recorded_dates':'cutoff_ahead');assert.equal(b.offerings[0].rounds.find(v=>v.id===r.id).state,'cutoff_reached');assert.equal(b.livePortalChecked,false);}}
  assert.match(resolve(23).offerings[0].deadlineNote,/remaining places.*12:01pm/);assert.equal(resolve(45).offerings[0].applicationRounds.some(r=>r.deadline==='2026-12-31'),false);assert.equal(resolve(46).offerings[0].applicationRounds.length,2);
  assert.equal(obs.pdfChecks.length,26);assert.equal(obs.pdfChecks.reduce((n,p)=>n+p.renderedPages.length,0),10);assert.equal(obs.pdfChecks.filter(p=>p.renderedPages.length).length,7);
- const q=loadRepositoryReviewQueue('2026-11-01');assert.equal(q.counts.reviewUnits,595);assert.equal(q.counts.nearCutoffUnits,7);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-11-01');assert.equal(q.counts.reviewUnits,614);assert.equal(q.counts.nearCutoffUnits,7);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 test('temporary database upgrade preserves all unrelated parents, prior options and applicant fingerprints',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hku-media-social-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,330);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,224);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,345);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,228);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
 });
 

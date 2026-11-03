@@ -27,12 +27,12 @@ const unit = (q = report, id = 'SG-NUS-P032', kind = 'programme') => q.units.fin
 
 test('review units preserve separate programme, route and category counts without inflating catalogue coverage', () => {
   assert.deepEqual(report.counts, {
-    catalogueRecords: 873, programmePageRecords: 330, remainingCatalogueLeads: 543,
-    routeRecords: 41, applicantContexts: 224, applicantCategories: 449, reviewUnits: 595,
-    pendingHumanReview: 595, reviewRecordedInSource: 0, nearCutoffUnits: 4, staleApplicantContexts: 0
+    catalogueRecords: 873, programmePageRecords: 345, remainingCatalogueLeads: 528,
+    routeRecords: 41, applicantContexts: 228, applicantCategories: 457, reviewUnits: 614,
+    pendingHumanReview: 614, reviewRecordedInSource: 0, nearCutoffUnits: 4, staleApplicantContexts: 0
   });
-  assert.equal(report.units.filter(u => u.kind === 'programme').length, 330);
-  assert.equal(new Set(report.units.map(u => u.key)).size, 595);
+  assert.equal(report.units.filter(u => u.kind === 'programme').length, 345);
+  assert.equal(new Set(report.units.map(u => u.key)).size, 614);
   assert.equal(report.livePortalChecked, false); assert.equal(report.reviewApprovalGranted, false);
   assert.ok(report.units.every(u => u.status === 'pending_human_review' && !u.sourceReviewRecorded));
 });
@@ -186,7 +186,7 @@ test('real CLI works outside the repository without modifying source files or op
   const inputPaths = Object.keys(report.inputFingerprints);
   const sha = file => createHash('sha256').update(readFileSync(new URL(file, root))).digest('hex');
   const before = inputPaths.map(sha);
-  const output = execFileSync(process.execPath, [script, '--as-of', currentDay], { cwd: tmpdir(), encoding: 'utf8', maxBuffer: 4 * 1024 * 1024 });
+  const output = execFileSync(process.execPath, [script, '--as-of', currentDay], { cwd: tmpdir(), encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 });
   assert.deepEqual(JSON.parse(output), report);
   assert.deepEqual(inputPaths.map(sha), before);
   const bad = spawnSync(process.execPath, [script, '--as-of', '2026-02-30'], { cwd: tmpdir(), encoding: 'utf8' });
@@ -196,9 +196,9 @@ test('real CLI works outside the repository without modifying source files or op
 });
 
 test('committed human checklist exactly reproduces its snapshot and semantic source fingerprints', () => {
-  assert.equal(formatSourceReviewMarkdown(loadRepositoryReviewQueue('2026-11-03')), readFileSync(new URL('docs/research/source-review-queue-2026-11-03-cityu-hku-remainder.md', root), 'utf8').replaceAll('\r\n', '\n'));
+  assert.equal(formatSourceReviewMarkdown(loadRepositoryReviewQueue('2026-11-03')), readFileSync(new URL('docs/research/source-review-queue-2026-11-03-lingnan-business-data.md', root), 'utf8').replaceAll('\r\n', '\n'));
   assert.equal(Object.keys(report.inputFingerprints).length, 8);
   for (const h of Object.values(report.inputFingerprints)) assert.match(h, /^[a-f0-9]{64}$/);
   const markdown = formatSourceReviewMarkdown(report);
-  assert.match(markdown, /不是 595 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
+  assert.match(markdown, /不是 614 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
 });

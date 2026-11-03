@@ -25,10 +25,10 @@ const lang=(n,language)=>matchProgramme(p(n),{...profile,language}).checks.find(
 test('ten existing IDs gain twenty English-data options without adding awards, full criteria or reviewers',()=>{
  assert.equal(obs.programmeIds.length,10);assert.equal(new Set(obs.programmeIds).size,10);
  assert.equal(obs.programmeIds.reduce((sum,id)=>sum+store.get(id).offerings.length,0),20);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,330);
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,345);
  assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
  const school=store.all().filter(x=>x.universityId==='HK-HKUST');assert.equal(school.length,49);assert.equal(school.filter(x=>x.verification==='programme_page_checked').length,48);
- assert.deepEqual(applicantSummary(contexts),{studyOptions:224,categories:449,peerReviewed:0});
+ assert.deepEqual(applicantSummary(contexts),{studyOptions:228,categories:457,peerReviewed:0});
  for(const id of obs.programmeIds){const x=batch.programmes.find(x=>x.id===id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(x)),false);assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,'2026-10-30');assert.equal(x.rules.some(r=>r.kind==='gpa'),false);assert.equal(batch.pilotProgrammeIds.includes(id),false);}
 });
 
@@ -49,7 +49,7 @@ test('DDM three rounds remain distinct from final cutoff, unknown opening and th
   assert.equal(programmeTimeline(x,'2026-11-01').offerings[0].rounds[0].state,'deadline_today');
   const later=programmeTimeline(x,'2026-11-02');assert.equal(later.offerings[0].rounds[0].state,'deadline_passed');assert.equal(later.offerings[0].nextRoundId,'ROUND-2');
  }
- const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.reviewUnits,595);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.reviewUnits,614);assert.equal(q.counts.staleApplicantContexts,0);
  const unit=q.units.find(u=>u.kind==='programme'&&u.programmeId===p(21).id);assert.equal(unit.reviewOrder,'cutoff_within_14_days');assert.ok(unit.upcomingRecordedCutoffs.every(d=>d.deadline==='2026-11-01'));
  assert.equal(loadRepositoryReviewQueue('2026-10-29').units.find(u=>u.kind==='programme'&&u.programmeId===p(21).id).upcomingRecordedCutoffs.length,0);
 });
@@ -100,7 +100,7 @@ test('all IELTS components, single-sitting/home restrictions and independent TOE
 test('isolated batch imports remain idempotent across restarts without altering other current records',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(x=>!ids.has(x.id))};const dir=mkdtempSync(join(tmpdir(),'gradpath-hkust-computing-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
  try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));
-  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,330);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,224);db.close();db=null;}
+  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,345);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,228);db.close();db=null;}
  }finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
 });
 

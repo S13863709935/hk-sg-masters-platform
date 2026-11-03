@@ -8,17 +8,17 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 865 条；330 条有部分官方项目页观察，543 条仍为目录线索。其中 528 条尚无项目页首轮核对、12 条分组父记录已有独立方向证据、3 条线索按范围留档。完整要求集和独立人工复核均为 0。
-- 17 组／41 条方向快照、224 组／449 类申请者上下文分开计数。11 月 3 日维护快照有 595 个单元，5 个记录截止临近，失配绑定为 0。
-- 本轮处理城大与港大剩余 3 条未读线索：城大 P60 按同一官方代码保留原 ID、更新当期土木基建与可持续建筑名称；EMBA 中文／Global 两条路径分开；港大旧房屋管理名称留档，转向已存在的城市研究与房屋管理两条路径。城大和港大的现有目录未读线索归零，不代表所有字段已完备。
-- P60 246,000 港币为 30 个最低学分乘以当期费率的计算基线；Global EMBA 936,000 为待批准且包含游学费用的方案，中文 EMBA 学费仍未知。六个模式上下文分别绑定 12 类费用／日期，EMBA 经验年限、中文条件、海外交付和来源冲突不互相复制；未增加录取概率或完整资格结论。
+- 14 校、873 条目录记录，默认可浏览 865 条；345 条有部分官方项目页观察，528 条仍为目录线索。其中 513 条尚无项目页首轮核对、12 条分组父记录已有独立方向证据、3 条线索按范围留档。完整要求集和独立人工复核均为 0。
+- 17 组／41 条方向快照、228 组／457 类申请者上下文分开计数。11 月 3 日维护快照有 614 个单元，5 个记录截止临近，失配绑定为 0。
+- 本轮补入岭南商学院／数据科学学院 15 个既有项目、17 个批次选项及 4 组／8 类费用上下文；岭南为 16 条部分记录、28 条未读线索。Agentic AI 与创新设计 AI 的一月、九月学年及费用分开；会计、HROM、市场及风险保险四项按本地／非本地明确选择。
+- 电子商务与供应链的六月／七月截止冲突保持未知，其与金融的旧年度费表不套入新年度。金融双学位 GPA、毕业／奖学金 GPA 不当作普通入学门槛；中文项目的英语分数、各预备课、推荐信方法与时限分别保留。工业数据分析页面仍提示当期要求待更新，未据此建立自动入学门槛。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。原核心 20 个 ID、71 种选择与 7 个模拟背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 W7 选定阶段版本已于 11 月 3 日推送为 [`checkpoint/week-07`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-07)，提交 `dff8b54`。该发布保留 20 条直接申请试点，加入比较、候选清单、公开引用导出及 5 条兼容的来源更新。这里的扩展目录和超前功能继续保存在本地；后续“继续”不触发重复小批推送。见[本次发布记录](docs/progress/2026-11-03-week-07-publication.md)。
 
-[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-03-cityu-hku-remainder.md) · [本批改动与限制](docs/progress/local-cityu-hku-remainder-2026-11-03.md) · [595 单元维护清单](docs/research/source-review-queue-2026-11-03-cityu-hku-remainder.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-03-cityu-hku-remainder.md)
+[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-03-lingnan-business-data.md) · [岭南质量表](docs/research/hk-lu-quality-2026-11-03-lingnan-business-data.md) · [本批改动与限制](docs/progress/local-lingnan-business-data-2026-11-03.md) · [614 单元维护清单](docs/research/source-review-queue-2026-11-03-lingnan-business-data.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-03-lingnan-business-data.md)
 
-[同日 SUTD 批次](docs/progress/local-sutd-school-2026-11-03.md)、[同日港大医学批次](docs/progress/local-hku-medical-law-2026-11-03.md)、[较早理学／创新科技及文科批次](docs/progress/local-hku-science-arts-2026-11-01.md)、[较早传媒与社会服务批次](docs/progress/local-hku-media-social-2026-11-01.md)、[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
+[同日城大／港大收尾批次](docs/progress/local-cityu-hku-remainder-2026-11-03.md)、[同日 SUTD 批次](docs/progress/local-sutd-school-2026-11-03.md)、[同日港大医学批次](docs/progress/local-hku-medical-law-2026-11-03.md)、[较早理学／创新科技及文科批次](docs/progress/local-hku-science-arts-2026-11-01.md)、[较早传媒与社会服务批次](docs/progress/local-hku-media-social-2026-11-01.md)、[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
 ## 本地运行
 

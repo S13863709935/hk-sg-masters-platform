@@ -60503,6 +60503,2700 @@
           "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
         }
       ]
+    },
+    {
+      "id": "HK-LU-P010",
+      "universityId": "HK-LU",
+      "name": "Master of Accountancy",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/acct/macc",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Recognised bachelor/equivalent; non-business graduates MUST PASS assigned pre-entry courses BEFORE formal admission. Course count depends on prior study; accounting/auditing/tax/finance work or professional qualifications are PREFERENCES, not universal experience years. Normal Hong Kong single MAcc only; optional double-degree conditions are not represented. Graduation/progression CGPA 2.67/2.50 is not an undergraduate admission threshold.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Recognised bachelor/equivalent; non-business graduates MUST PASS assigned pre-entry courses BEFORE formal admission. Course count depends on prior study; accounting/auditing/tax/finance work or professional qualifications are PREFERENCES, not universal experience years. Normal Hong Kong single MAcc only; optional double-degree conditions are not represented. Graduation/progression CGPA 2.67/2.50 is not an undergraduate admission threshold.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/application-method",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. Entry page asks TWO recommendation forms but application method says reference letters IF ANY; this conflict needs confirmation. No fixed statement word count or invented reference deadline. Programme-specific distance/short/uncertain qualifications may require HKCAAVQ assessment.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published bachelor route with conditional preparation",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Optional dual degree is a separate choice",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteZh": "",
+          "noteEn": "The directory advertises an OPTIONAL double-degree route. This record contains only the ordinary Hong Kong degree; overseas partner admissions, travel, GPA floors, tuition and currencies must be checked separately. Optional overseas arrangements do not exclude every ordinary applicant.",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P010-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 229,000 local / HKD 315,000 non-local, explicitly selected university category. HKD 6,000 PER assigned pre-entry course. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/tuition-fees-scholarships",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established. Exact 2027 method gives 1 Aug 2026, while generic FAQ recurs 1 October; explicit cohort window is retained with that distinction."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements",
+          "noteEn": "Recognised bachelor/equivalent; non-business graduates MUST PASS assigned pre-entry courses BEFORE formal admission. Course count depends on prior study; accounting/auditing/tax/finance work or professional qualifications are PREFERENCES, not universal experience years. Normal Hong Kong single MAcc only; optional double-degree conditions are not represented. Graduation/progression CGPA 2.67/2.50 is not an undergraduate admission threshold."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/tuition-fees-scholarships",
+          "noteEn": "Current named cohort/category only. HKD 6,000 PER assigned pre-entry course."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc/Admission/application-method",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/acct/macc",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/acct/macc",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/acct/macc/Admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/acct/macc/Admission/tuition-fees-scholarships",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/acct/macc/Admission/application-method",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/acct/macc/Admission/faqs",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/acct/macc/Programme-Overview/programme-structure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P022",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Agentic AI Systems",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": "School of Data Science",
+      "officialUrl": "https://www.ln.edu.hk/sds/dai/mscaais",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Relevant recognised bachelor OR equivalent qualification OR assessed academic/professional attainment. Applicants with no/limited mathematics, computing or statistics preparation must complete non-credit Introduction to Computing, Statistics and Essential Mathematics for AI. No numeric GPA or mandatory work-year floor established.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Relevant recognised bachelor OR equivalent qualification OR assessed academic/professional attainment. Applicants with no/limited mathematics, computing or statistics preparation must complete non-credit Introduction to Computing, Statistics and Essential Mathematics for AI. No numeric GPA or mandatory work-year floor established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/application-procedure",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. PTE Academic 62 with no sub-score below 59 is an explicit alternative, retained manually because the current profile does not capture PTE. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P022-2026-JAN-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "January 2027",
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": 289000,
+          "applicationFee": 400,
+          "applicationOpen": null,
+          "deadline": "2026-11-30",
+          "feeBasis": "Published 2026/27 programme tuition: HKD 289,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 3,000 PER pre-entry course, subject to change. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        },
+        {
+          "id": "HK-LU-P022-2027-SEP-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 293000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 293,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 3,000 PER pre-entry course, subject to change. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established.",
+          "applicationRounds": [
+            {
+              "id": "FIRST",
+              "label": "First round",
+              "applicationOpen": "2026-09-01",
+              "deadline": "2027-04-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+          "noteEn": "Relevant recognised bachelor OR equivalent qualification OR assessed academic/professional attainment. Applicants with no/limited mathematics, computing or statistics preparation must complete non-credit Introduction to Computing, Statistics and Essential Mathematics for AI. No numeric GPA or mandatory work-year floor established."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. PTE Academic 62 with no sub-score below 59 is an explicit alternative, retained manually because the current profile does not capture PTE. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+          "noteEn": "Current named cohort/category only. HKD 3,000 PER pre-entry course, subject to change."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/application-procedure",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaais",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscaais",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/application-procedure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P023",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Artificial Intelligence and Business Analytics",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": "School of Data Science",
+      "officialUrl": "https://www.ln.edu.hk/sds/dai/mscaiba",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Engineering/Science bachelor OR equivalent qualification OR assessed academic/professional attainment; equivalence remains individual. No numeric undergraduate GPA or universal work-year floor established. PTE and CET-6 are separate language alternatives, not degree waivers.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Engineering/Science bachelor OR equivalent qualification OR assessed academic/professional attainment; equivalence remains individual. No numeric undergraduate GPA or universal work-year floor established. PTE and CET-6 are separate language alternatives, not degree waivers.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/application-procedures-2",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. TWO referees must return letters/forms WITHIN THREE WEEKS OF APPLICATION, by sealed post or their official university/company email; personal-email referees are not accepted. Do not replace this with the newer 14-day portal process of another programme.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Engineering/science or assessed equivalent",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. PTE Academic 62 with no sub-score below 59 is an explicit alternative, retained manually because the current profile does not capture PTE. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P023-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 293000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 293,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 3,000 PER pre-entry course, subject to adjustment. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/tuition-fees-scholarships-and-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "noteEn": "Engineering/Science bachelor OR equivalent qualification OR assessed academic/professional attainment; equivalence remains individual. No numeric undergraduate GPA or universal work-year floor established. PTE and CET-6 are separate language alternatives, not degree waivers."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. PTE Academic 62 with no sub-score below 59 is an explicit alternative, retained manually because the current profile does not capture PTE. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/tuition-fees-scholarships-and-financial-assistance",
+          "noteEn": "Current named cohort/category only. HKD 3,000 PER pre-entry course, subject to adjustment."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/application-procedures-2",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscaiba",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscaiba",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/tuition-fees-scholarships-and-financial-assistance",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/application-procedures-2",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P024",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Arts Technology and Business",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/fb/mscatb/home",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Recognised bachelor/equivalent considered individually. The programme is taught in CHINESE, including core and specialisation courses; the lower English test scores do not establish Chinese readiness. Subsequent English courses/activities are graduation requirements. Optional paid field trips/internships do not imply required overseas delivery.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Recognised bachelor/equivalent considered individually. The programme is taught in CHINESE, including core and specialisation courses; the lower English test scores do not establish Chinese readiness. Subsequent English courses/activities are graduation requirements. Optional paid field trips/internships do not imply required overseas delivery.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/application-method",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. The current procedure uses OAS invitation reports WITHIN 14 DAYS; post/email is no longer required. Exact individual invitation clock is not calculated from today. TWO referees are listed in its entry checklist.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published bachelor route with conditional preparation",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 5.5
+            },
+            "toefl_120": {
+              "total": 46,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Chinese-taught programme still publishes IELTS 5.5/old TOEFL 46/CET-6 430. Chinese readiness and accepted English-medium qualification evidence need separate confirmation. Do not replace its scores with the generic university 6/79 minimum. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chinese instruction and optional visits",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/Programme-overview/programme-structure",
+          "noteZh": "",
+          "noteEn": "Core/specialisation instruction is Chinese. Teaching venues are the M+ Campus and Tuen Mun Main Campus; optional field visits/internship sessions may cost extra. They are not treated as compulsory mainland/overseas attendance.",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P024-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 258000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 258,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 6,000 PER pre-entry course. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/tuition-fee-and-scholarship",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements",
+          "noteEn": "Recognised bachelor/equivalent considered individually. The programme is taught in CHINESE, including core and specialisation courses; the lower English test scores do not establish Chinese readiness. Subsequent English courses/activities are graduation requirements. Optional paid field trips/internships do not imply required overseas delivery."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements",
+          "noteEn": "Chinese-taught programme still publishes IELTS 5.5/old TOEFL 46/CET-6 430. Chinese readiness and accepted English-medium qualification evidence need separate confirmation. Do not replace its scores with the generic university 6/79 minimum. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/tuition-fee-and-scholarship",
+          "noteEn": "Current named cohort/category only. HKD 6,000 PER pre-entry course."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/admission/application-method",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscatb/home",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/fb/mscatb/home",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fb/mscatb/admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fb/mscatb/admission/tuition-fee-and-scholarship",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fb/mscatb/admission/application-method",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fb/mscatb/Programme-overview/programme-structure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P025",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Business Innovation and Entrepreneurship",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/fb/mscbie",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Recognised bachelor/equivalent; programme instruction is CHINESE. Non-business graduates require Economics and/or Marketing pre-entry courses. English-medium qualification evidence may support an assessed waiver; lower English thresholds do not establish Chinese ability. English courses/activities after admission are graduation conditions, not an admission GPA.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Recognised bachelor/equivalent; programme instruction is CHINESE. Non-business graduates require Economics and/or Marketing pre-entry courses. English-medium qualification evidence may support an assessed waiver; lower English thresholds do not establish Chinese ability. English courses/activities after admission are graduation conditions, not an admission GPA.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-procedure",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. The current procedure uses OAS invitation reports WITHIN 14 DAYS; post/email is no longer required. Exact individual invitation clock is not calculated from today.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published bachelor route with conditional preparation",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 5.5
+            },
+            "toefl_120": {
+              "total": 46,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Chinese-taught programme still publishes IELTS 5.5/old TOEFL 46/CET-6 430. Chinese readiness and accepted English-medium qualification evidence need separate confirmation. Do not replace its scores with the generic university 6/79 minimum. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P025-2027-FT",
+          "mode": "Full-time",
+          "duration": "Full-time; normal duration unconfirmed in consulted HTML",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 308000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 308,000 for the stated ordinary full-time cohort; no category scholarship deducted. Economics/Marketing preparation charges are not established here. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/tuition-fee-and-scholarship",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements",
+          "noteEn": "Recognised bachelor/equivalent; programme instruction is CHINESE. Non-business graduates require Economics and/or Marketing pre-entry courses. English-medium qualification evidence may support an assessed waiver; lower English thresholds do not establish Chinese ability. English courses/activities after admission are graduation conditions, not an admission GPA."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements",
+          "noteEn": "Chinese-taught programme still publishes IELTS 5.5/old TOEFL 46/CET-6 430. Chinese readiness and accepted English-medium qualification evidence need separate confirmation. Do not replace its scores with the generic university 6/79 minimum. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/tuition-fee-and-scholarship",
+          "noteEn": "Current named cohort/category only. Economics/Marketing preparation charges are not established here."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie/application/admission-procedure",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/fb/mscbie",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/fb/mscbie",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fb/mscbie/application/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fb/mscbie/application/tuition-fee-and-scholarship",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fb/mscbie/application/admission-procedure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P027",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Data Science",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": "School of Data Science",
+      "officialUrl": "https://www.ln.edu.hk/sds/dai/mscds",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Engineering/Science bachelor OR equivalent qualification OR satisfactory academic/professional attainment, assessed individually. No numeric undergraduate GPA or mandatory work-year requirement established. The one-year full-time degree is not the separate research-degree programme in the directory.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Engineering/Science bachelor OR equivalent qualification OR satisfactory academic/professional attainment, assessed individually. No numeric undergraduate GPA or mandatory work-year requirement established. The one-year full-time degree is not the separate research-degree programme in the directory.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/application-procedures",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. TWO referees must return letters/forms WITHIN THREE WEEKS OF APPLICATION, by sealed post or their official university/company email; personal-email referees are not accepted. Do not replace this with the newer 14-day portal process of another programme.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Engineering/science or assessed equivalent",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. PTE Academic 62 with no sub-score below 59 is an explicit alternative, retained manually because the current profile does not capture PTE. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P027-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 293000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 293,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 3,000 PER pre-entry course, subject to adjustment. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/tuition-fees-scholarships-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "noteEn": "Engineering/Science bachelor OR equivalent qualification OR satisfactory academic/professional attainment, assessed individually. No numeric undergraduate GPA or mandatory work-year requirement established. The one-year full-time degree is not the separate research-degree programme in the directory."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. PTE Academic 62 with no sub-score below 59 is an explicit alternative, retained manually because the current profile does not capture PTE. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/tuition-fees-scholarships-financial-assistance",
+          "noteEn": "Current named cohort/category only. HKD 3,000 PER pre-entry course, subject to adjustment."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds/admissions/application-procedures",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/mscds",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscds",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscds/admissions/tuition-fees-scholarships-financial-assistance",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/mscds/admissions/application-procedures",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P028",
+      "universityId": "HK-LU",
+      "name": "Master of Science in eBusiness and Supply Chain Management",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/orm/ebscm",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Recognised bachelor/equivalent assessed individually, without an exhaustive subject restriction. One-year full-time ordinary Hong Kong programme. No numeric GPA, universal experience years or automatic fee discount from exemptions established.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Recognised bachelor/equivalent assessed individually, without an exhaustive subject restriction. One-year full-time ordinary Hong Kong programme. No numeric GPA, universal experience years or automatic fee discount from exemptions established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/application",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. Current/former direct supervisor or university teacher, not a friend/relative; referee returns evidence WITHIN ONE MONTH AFTER ONLINE APPLICATION, by sealed post or official university/company email. No universal numeric referee count inferred.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published bachelor route with conditional preparation",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P028-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": null,
+          "feeBasis": "2027/28 tuition UNKNOWN. The linked fee table is labelled 2026/27 and is not reused. Old local 208,000/non-local 238,000 and per-course 3,000 are historical, not a current offer.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/financial-matters",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established. CONFLICT: current central directory says 30 June 2027 but department application says 31 July 2027. Final deadline remains NULL; do not choose the later date."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements",
+          "noteEn": "Recognised bachelor/equivalent assessed individually, without an exhaustive subject restriction. One-year full-time ordinary Hong Kong programme. No numeric GPA, universal experience years or automatic fee discount from exemptions established."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. "
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/financial-matters",
+          "noteEn": "Current named cohort/category only. Old 2026/27 table has HKD 3,000 per preparation course; next-year price not established."
+        },
+        "deadline": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm/admissions/application",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/orm/ebscm",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/orm/ebscm",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/orm/ebscm/admissions/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/orm/ebscm/admissions/financial-matters",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/orm/ebscm/admissions/application",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P029",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Environmental, Social, and Governance Management",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/acct/mscesgm",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Recognised bachelor/equivalent. Applicants with no/limited undergraduate business preparation MUST PASS a 30-hour Introduction to Business course before commencement, based on transcript review. This applies to the ordinary programme and Sustainable Technology concentration; the concentration is not an additional degree.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Recognised bachelor/equivalent. Applicants with no/limited undergraduate business preparation MUST PASS a 30-hour Introduction to Business course before commencement, based on transcript review. This applies to the ordinary programme and Sustainable Technology concentration; the concentration is not an additional degree.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/application-method",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. Personal statement and reference letters are listed; no numeric reference count inferred. Ordinary and Sustainable Technology pre-entry requirements remain conditional.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published bachelor route with conditional preparation",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P029-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 258000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 258,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 10,000 PER pre-entry course. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/fees-and-scholarships",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements",
+          "noteEn": "Recognised bachelor/equivalent. Applicants with no/limited undergraduate business preparation MUST PASS a 30-hour Introduction to Business course before commencement, based on transcript review. This applies to the ordinary programme and Sustainable Technology concentration; the concentration is not an additional degree."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/fees-and-scholarships",
+          "noteEn": "Current named cohort/category only. HKD 10,000 PER pre-entry course."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm/admission/application-method",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/acct/mscesgm",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/acct/mscesgm",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/acct/mscesgm/admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/acct/mscesgm/admission/fees-and-scholarships",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/acct/mscesgm/admission/application-method",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P030",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Finance",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/fin/mfin",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Ordinary Hong Kong MSc Finance requires a relevant recognised bachelor OR equivalent qualification OR assessed academic/professional attainment. Financial Management 18-hour and Statistics 24-hour pre-entry courses may be required when prior finance/accounting/statistics is limited. GMAT/GRE is HELPFUL, NOT REQUIRED. The separate overseas DUAL DEGREE has GPA 3.0/4.0 and IELTS 6.5/TOEFL 80 conditions; none is imported as the ordinary programme minimum. No numeric ordinary-entry GPA established.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Ordinary Hong Kong MSc Finance requires a relevant recognised bachelor OR equivalent qualification OR assessed academic/professional attainment. Financial Management 18-hour and Statistics 24-hour pre-entry courses may be required when prior finance/accounting/statistics is limited. GMAT/GRE is HELPFUL, NOT REQUIRED. The separate overseas DUAL DEGREE has GPA 3.0/4.0 and IELTS 6.5/TOEFL 80 conditions; none is imported as the ordinary programme minimum. No numeric ordinary-entry GPA established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/application",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            }
+          },
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. Finance states 26 JANUARY 2026 as its TOEFL version boundary, conflicting with the university 21 JANUARY boundary. Old 79/new 4 are retained in prose only; no automated TOEFL rule or guessed correction. The dual-degree 80/IELTS 6.5/GPA 3.0 do not apply to this ordinary award.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Optional dual degree is a separate choice",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteZh": "",
+          "noteEn": "The directory advertises an OPTIONAL double-degree route. This record contains only the ordinary Hong Kong degree; overseas partner admissions, travel, GPA floors, tuition and currencies must be checked separately. Optional overseas arrangements do not exclude every ordinary applicant.",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P030-2027-FT",
+          "mode": "Full-time",
+          "duration": "Full-time; normal duration unconfirmed in consulted HTML",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "2027/28 tuition UNKNOWN. The linked fee table is labelled 2026/27 and is not reused. Old ordinary local 218,000/non-local 300,000 and dual-degree 433,000/UTDallas USD amounts are historical and remain separate.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/tuition-fee",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/admission-requirements",
+          "noteEn": "Ordinary Hong Kong MSc Finance requires a relevant recognised bachelor OR equivalent qualification OR assessed academic/professional attainment. Financial Management 18-hour and Statistics 24-hour pre-entry courses may be required when prior finance/accounting/statistics is limited. GMAT/GRE is HELPFUL, NOT REQUIRED. The separate overseas DUAL DEGREE has GPA 3.0/4.0 and IELTS 6.5/TOEFL 80 conditions; none is imported as the ordinary programme minimum. No numeric ordinary-entry GPA established."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. Finance states 26 JANUARY 2026 as its TOEFL version boundary, conflicting with the university 21 JANUARY boundary. Old 79/new 4 are retained in prose only; no automated TOEFL rule or guessed correction. The dual-degree 80/IELTS 6.5/GPA 3.0 do not apply to this ordinary award."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/tuition-fee",
+          "noteEn": "Current named cohort/category only. Old 2026/27 prices are not current 2027 quotations."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin/admission/application",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/fin/mfin",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/fin/mfin",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fin/mfin/admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fin/mfin/admission/tuition-fee",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fin/mfin/admission/application",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/fin/mfin/programme/master-of-science-in-finance",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P031",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Human Resource and Organisational Management",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/mgt/hrom",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Business bachelor/equivalent OR individually assessed qualifications/experience; non-business entrants may need preparatory courses. Mainstream may require HRM, Economics and Statistics based on transcript evidence. HRADT concentration requires a Python preparation course unless specially approved for advanced coding/certification; its additional HRM course is OPTIONAL for the stated background. Do not impose Python on mainstream applicants. Scholarship GPA 3.0 is not an admission floor.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Business bachelor/equivalent OR individually assessed qualifications/experience; non-business entrants may need preparatory courses. Mainstream may require HRM, Economics and Statistics based on transcript evidence. HRADT concentration requires a Python preparation course unless specially approved for advanced coding/certification; its additional HRM course is OPTIONAL for the stated background. Do not impose Python on mainstream applicants. Scholarship GPA 3.0 is not an admission floor.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/application-procedures",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. TWO confidential references; sealed physically signed forms or direct official university/company email are accepted. No numeric relative deadline or statement word limit established.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published bachelor route with conditional preparation",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. ",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Mainstream versus HRADT preparatory scope",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/preparatory-course",
+          "noteZh": "",
+          "noteEn": "Mainstream HRM/Economics/Statistics preparation depends on transcript evidence and can be satisfied by approved equivalents. HRADT requires Python unless special approval; its HRM preparation is optional for specified backgrounds. Both concentrations share the published local/non-local tuition. Choosing the general programme does not select or secure a concentration.",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P031-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 208,000 local / HKD 248,000 non-local, explicitly selected university category. Preparatory fees are extra and individually notified; no fixed amount assigned. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/tuition-fees",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements",
+          "noteEn": "Business bachelor/equivalent OR individually assessed qualifications/experience; non-business entrants may need preparatory courses. Mainstream may require HRM, Economics and Statistics based on transcript evidence. HRADT concentration requires a Python preparation course unless specially approved for advanced coding/certification; its additional HRM course is OPTIONAL for the stated background. Do not impose Python on mainstream applicants. Scholarship GPA 3.0 is not an admission floor."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/tuition-fees",
+          "noteEn": "Current named cohort/category only. Preparatory fees are extra and individually notified; no fixed amount assigned."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom/admission/application-procedures",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/mgt/hrom",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/mgt/hrom",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/mgt/hrom/admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/mgt/hrom/admission/tuition-fees",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/mgt/hrom/admission/application-procedures",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/mgt/hrom/admission/preparatory-course",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P032",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Industrial Data Analytics",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": "School of Data Science",
+      "officialUrl": "https://www.ln.edu.hk/sds/dids/ida",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. PROVISIONAL: the programme explicitly says 2027/28 information is being updated. Displayed relevant fields include Engineering, Computer Science/IT, Statistics/Mathematics, Data Science/AI, Business Analytics, Operations/Supply Chain, Economics/Finance and Information Systems; other strong quantitative/technical backgrounds are encouraged. Limited computing/statistics requires non-credit preparation. Current criteria need confirmation; no automated major or English admission gate is imposed from this pending page.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+          "noteZh": "",
+          "noteEn": "PROVISIONAL: the programme explicitly says 2027/28 information is being updated. Displayed relevant fields include Engineering, Computer Science/IT, Statistics/Mathematics, Data Science/AI, Business Analytics, Operations/Supply Chain, Economics/Finance and Information Systems; other strong quantitative/technical backgrounds are encouraged. Limited computing/statistics requires non-credit preparation. Current criteria need confirmation; no automated major or English admission gate is imposed from this pending page.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/application-procedure",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. The procedure is still labelled 2026 and says 30 June 2026; its TWO-referee/THREE-WEEK checklist is retained as provisional and not silently promoted to confirmed 2027 policy.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. The programme says 2027/28 requirements are being updated. Displayed IELTS 6/old TOEFL 79 are provisional; no automated language comparison is assigned until confirmed.",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P032-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 293000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 293,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 3,000 PER pre-entry course, subject to change; page warns 2027 information is being updated. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established. Central 2027 directory gives 1 Aug 2026–30 Jun 2027, but department procedure remains 2026 and says 30 Jun 2026 while 2027 information is being updated. The old deadline is not copied."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+          "noteEn": "PROVISIONAL: the programme explicitly says 2027/28 information is being updated. Displayed relevant fields include Engineering, Computer Science/IT, Statistics/Mathematics, Data Science/AI, Business Analytics, Operations/Supply Chain, Economics/Finance and Information Systems; other strong quantitative/technical backgrounds are encouraged. Limited computing/statistics requires non-credit preparation. Current criteria need confirmation; no automated major or English admission gate is imposed from this pending page."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. The programme says 2027/28 requirements are being updated. Displayed IELTS 6/old TOEFL 79 are provisional; no automated language comparison is assigned until confirmed."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+          "noteEn": "Current named cohort/category only. HKD 3,000 PER pre-entry course, subject to change; page warns 2027 information is being updated."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/application-procedure",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/ida",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/ida",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/application-procedure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P033",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Innovative Design and Artificial Intelligence",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": "School of Data Science",
+      "officialUrl": "https://www.ln.edu.hk/sds/dids/idai",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Relevant recognised bachelor/equivalent or assessed academic/professional attainment. Explicit fields include engineering, CS/IT, statistics/mathematics, data science/AI, business analytics, management science, operations/supply chain, economics/finance and information systems/industrial management. Extensive AI/design/technology industry experience is a PREFERENCE without a mandatory numeric minimum. Limited computing/statistics requires non-credit preparation.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Relevant recognised bachelor/equivalent or assessed academic/professional attainment. Explicit fields include engineering, CS/IT, statistics/mathematics, data science/AI, business analytics, management science, operations/supply chain, economics/finance and information systems/industrial management. Extensive AI/design/technology industry experience is a PREFERENCE without a mandatory numeric minimum. Limited computing/statistics requires non-credit preparation.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/application-procedure",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit relevant fields and assessed alternatives",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "accepted": [
+            "Engineering",
+            "Mechanical Engineering",
+            "Electrical Engineering",
+            "Computer Science",
+            "Information Technology",
+            "Statistics",
+            "Mathematics",
+            "Applied Mathematics",
+            "Data Science",
+            "Artificial Intelligence",
+            "Business Analytics",
+            "Management Science",
+            "Operations Research",
+            "Supply Chain Management",
+            "Economics",
+            "Finance",
+            "Information Systems",
+            "Industrial Management"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P033-2026-JAN-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "January 2027",
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": 289000,
+          "applicationFee": 400,
+          "applicationOpen": null,
+          "deadline": "2026-11-30",
+          "feeBasis": "Published 2026/27 programme tuition: HKD 289,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 3,000 PER pre-entry course, subject to review. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        },
+        {
+          "id": "HK-LU-P033-2027-SEP-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 293000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 293,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 3,000 PER pre-entry course, subject to review. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established.",
+          "applicationRounds": [
+            {
+              "id": "FIRST",
+              "label": "First round",
+              "applicationOpen": "2026-08-01",
+              "deadline": "2027-04-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or assessed academic/professional attainment. Explicit fields include engineering, CS/IT, statistics/mathematics, data science/AI, business analytics, management science, operations/supply chain, economics/finance and information systems/industrial management. Extensive AI/design/technology industry experience is a PREFERENCE without a mandatory numeric minimum. Limited computing/statistics requires non-credit preparation."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+          "noteEn": "Current named cohort/category only. HKD 3,000 PER pre-entry course, subject to review."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/application-procedure",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/idai",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/idai",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/application-procedure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P036",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Marketing and International Business",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/mkt/mscmib",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Relevant bachelor/equivalent or assessed academic/professional attainment; the overview welcomes business AND non-business students. Non-business applicants and those without Marketing/Economics may need to PASS a pre-entry bridge course or accepted equivalent before commencement. No numeric GPA or work-year floor established. Normal duration is one year (TEN MONTHS), not two-year part-time.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Relevant bachelor/equivalent or assessed academic/professional attainment; the overview welcomes business AND non-business students. Non-business applicants and those without Marketing/Economics may need to PASS a pre-entry bridge course or accepted equivalent before commencement. No numeric GPA or work-year floor established. Normal duration is one year (TEN MONTHS), not two-year part-time.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/application",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. At least TWO recommendations; the page adds a 14-day OAS invitation route but its checklist still mentions sealed envelopes. Preserve the method conflict; do not calculate a personal clock or promise postal submission is valid.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published bachelor route with conditional preparation",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. The source says old TOEFL before 21 Jan and new 4 AFTER 21 Jan, leaving 21 Jan itself ambiguous; automated new-scale comparison is withheld. TOEFL Home is explicitly excluded; no sibling format restriction is invented.",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P036-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year (10 months)",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 228,000 local / HKD 278,000 non-local, explicitly selected university category. Bridge-course charge not established in this fee page. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/programme-overview/tuition-fees-and-scholarships",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements",
+          "noteEn": "Relevant bachelor/equivalent or assessed academic/professional attainment; the overview welcomes business AND non-business students. Non-business applicants and those without Marketing/Economics may need to PASS a pre-entry bridge course or accepted equivalent before commencement. No numeric GPA or work-year floor established. Normal duration is one year (TEN MONTHS), not two-year part-time."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. The source says old TOEFL before 21 Jan and new 4 AFTER 21 Jan, leaving 21 Jan itself ambiguous; automated new-scale comparison is withheld. TOEFL Home is explicitly excluded; no sibling format restriction is invented."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/programme-overview/tuition-fees-and-scholarships",
+          "noteEn": "Current named cohort/category only. Bridge-course charge not established in this fee page."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib/admission/application",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/mkt/mscmib",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/mkt/mscmib",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/mkt/mscmib/admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/mkt/mscmib/programme-overview/tuition-fees-and-scholarships",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/mkt/mscmib/admission/application",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P037",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Risk, Insurance and Actuarial Analytics",
+      "award": "Master",
+      "area": "Business",
+      "faculty": "Faculty of Business",
+      "officialUrl": "https://www.ln.edu.hk/orm/mscriaa",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Recognised bachelor/equivalent assessed individually. No/limited insurance or statistics background requires PASSING pre-entry courses. GMAT/GRE is helpful but NOT REQUIRED. Scholarship GPA 3.5 or other award GPA targets are not undergraduate admission floors.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements",
+          "noteZh": "",
+          "noteEn": "Recognised bachelor/equivalent assessed individually. No/limited insurance or statistics background requires PASSING pre-entry courses. GMAT/GRE is helpful but NOT REQUIRED. Scholarship GPA 3.5 or other award GPA targets are not undergraduate admission floors.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform. Recommendation and consent forms are linked; no numeric referee count or personal turnaround clock established in consulted HTML.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Published bachelor route with conditional preparation",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P037-2027-FT",
+          "mode": "Full-time",
+          "duration": "Full-time; normal duration unconfirmed in consulted HTML",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 208,000 local / HKD 238,000 non-local, explicitly selected university category. Risk/Insurance preparation HKD 6,000; Statistics Workshop HKD 4,000, only if required. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/fees-and-scholarships",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements",
+          "noteEn": "Recognised bachelor/equivalent assessed individually. No/limited insurance or statistics background requires PASSING pre-entry courses. GMAT/GRE is helpful but NOT REQUIRED. Scholarship GPA 3.5 or other award GPA targets are not undergraduate admission floors."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. No exact new TOEFL 1–6 threshold/version boundary is established from this programme page, so none is copied from siblings. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application/fees-and-scholarships",
+          "noteEn": "Current named cohort/category only. Risk/Insurance preparation HKD 6,000; Statistics Workshop HKD 4,000, only if required."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa/application",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/orm/mscriaa",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/orm/mscriaa",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/orm/mscriaa/application/entrance-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/orm/mscriaa/application/fees-and-scholarships",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/orm/mscriaa/application",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P038",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Smart City Technologies and Applications",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": "School of Data Science",
+      "officialUrl": "https://www.ln.edu.hk/sds/dids/scta",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official programme-page observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-business-data-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Partial source observation for the ordinary Hong Kong taught degree. Programme, intake and applicant conditions remain separate. Engineering/Science or related fields including urban planning, IT, environmental science and public policy; equivalent qualification or academic/professional attainment is assessed individually. Diverse backgrounds are welcomed. Missing foundational computing/statistics requires the named non-credit preparation BEFORE ENROLMENT. No numeric GPA or universal work-year floor established.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "Engineering/Science or related fields including urban planning, IT, environmental science and public policy; equivalent qualification or academic/professional attainment is assessed individually. Diverse backgrounds are welcomed. Missing foundational computing/statistics requires the named non-credit preparation BEFORE ENROLMENT. No numeric GPA or universal work-year floor established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/application-procedures",
+          "noteZh": "",
+          "noteEn": "Official application uses identity (do NOT upload HKID; local HKID is checked at registration), degree/proof-of-study, transcripts and grading explanation, applicable English evidence, personal statement and conditional qualification-verification evidence. General references are if applicable; CV/employment evidence is conditional on programme requirements. Programme-specific counts, methods and clocks take precedence; no private documents are collected by this platform.",
+          "mandatory": true
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Explicit related urban/science disciplines",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "accepted": [
+            "Engineering",
+            "Science",
+            "Urban Planning",
+            "Information Technology",
+            "Environmental Science",
+            "Public Policy"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme-specific recorded English scores",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, versions and relative validity",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "noteZh": "",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. ",
+          "mandatory": true
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P038-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum3 years subject to programme rules",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 293000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-24",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 293,000 for the stated ordinary full-time cohort; no category scholarship deducted. HKD 3,000 PER pre-entry course, subject to change. Application fee HKD 400 is SEPARATE. Course exemptions do not automatically reduce full tuition; scholarships/loans are not guaranteed discounts. Separate HKD 600 graduation-related charge/deposit is not tuition or an extra tuition instalment; it remains subject to stated review.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/tuition-fees-scholarships-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established.",
+          "applicationRounds": [
+            {
+              "id": "FIRST",
+              "label": "First round",
+              "applicationOpen": "2026-08-24",
+              "deadline": "2027-04-30",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": null
+            }
+          ]
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "2027/28 named directory row; separately labelled January 2027 cohorts are 2026/27."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "noteEn": "Engineering/Science or related fields including urban planning, IT, environmental science and public policy; equivalent qualification or academic/professional attainment is assessed individually. Diverse backgrounds are welcomed. Missing foundational computing/statistics requires the named non-credit preparation BEFORE ENROLMENT. No numeric GPA or universal work-year floor established."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Graduation, progression, scholarship or separate dual-degree GPA is not an ordinary undergraduate admission floor."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "noteEn": "English-medium evidence, university-assessed equivalents and test formats remain individual. IELTS/TOEFL validity is assessed at ACTUAL APPLICATION SUBMISSION, not today; no fixed rolling-expiry date is invented. CET-6 is a manual alternative, not an automatic waiver. The consulted source specifies a five-year CET-6 submission-based validity; spoken evidence/interview or Speaking grade B is required where stated. "
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/tuition-fees-scholarships-financial-assistance",
+          "noteEn": "Current named cohort/category only. HKD 3,000 PER pre-entry course, subject to change."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta/application-admission/application-procedures",
+          "noteEn": "Programme-specific dated window and cohort; source conflicts and old procedures are retained in the selected option notes."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dids/scta",
+          "noteEn": "AI-assisted partial observation; no independent human review or complete-admission evidence."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/scta",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/scta/application-admission/tuition-fees-scholarships-financial-assistance",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dids/scta/application-admission/application-procedures",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official exact programme, cohort, fee, application or general admission source; optional paths, old-year data and conflicts remain separate"
+        }
+      ]
     }
   ]
 }
