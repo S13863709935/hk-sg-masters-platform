@@ -14331,6 +14331,90 @@
           "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
         }
       ]
+    },
+    {
+      "programmeId": "HK-LU-P008",
+      "routeId": null,
+      "offeringId": "HK-LU-P008-2027-FT",
+      "offeringFingerprint": "742b30b066fedbf1328161e44c629c4443376137c1088333d68e4bca8ab6a210",
+      "officialUrl": "https://www.ln.edu.hk/sgs/sag/home",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+      "dateSourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+      "noteEn": "Exact 2027/28 Lingnan SAG mode and explicitly selected category. Tuition is approval-pending. Programme local300/non-local515 application quotes conflict with central400, so payable application fee stays null. Mandatory LU/HKMU partner/delivery scope remains unconfirmed; no personal classification inferred.",
+      "options": [
+        {
+          "id": "HK-LU-P008-2027-FT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 150000,
+          "tuitionEstimate": true,
+          "applicationFee": null,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 150,000 for this exact mode/cohort. HKD 150,000 is SUBJECT TO FINAL APPROVAL. Programme-specific application quotes LOCAL 300 / NON-LOCAL 515 conflict with current central MASTER application fee 400; actual application fee remains NULL, with quotes retained per selected category. Old partner curriculum and LU/HKMU award conditions remain separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees. Selected LOCAL programme application quote is HKD 300; central HKD 400 conflicts, so the payable application fee stays unknown.",
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        },
+        {
+          "id": "HK-LU-P008-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 150000,
+          "tuitionEstimate": true,
+          "applicationFee": null,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 150,000 for this exact mode/cohort. HKD 150,000 is SUBJECT TO FINAL APPROVAL. Programme-specific application quotes LOCAL 300 / NON-LOCAL 515 conflict with current central MASTER application fee 400; actual application fee remains NULL, with quotes retained per selected category. Old partner curriculum and LU/HKMU award conditions remain separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees. Selected NONLOCAL programme application quote is HKD 515; central HKD 400 conflicts, so the payable application fee stays unknown.",
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P008",
+      "routeId": null,
+      "offeringId": "HK-LU-P008-2027-PT",
+      "offeringFingerprint": "1daedbf146ecea863bf88103307a3c8c0139b8f46b826cac2aca5a591884a8d6",
+      "officialUrl": "https://www.ln.edu.hk/sgs/sag/home",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+      "dateSourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+      "noteEn": "Exact 2027/28 Lingnan SAG mode and explicitly selected category. Tuition is approval-pending. Programme local300/non-local515 application quotes conflict with central400, so payable application fee stays null. Mandatory LU/HKMU partner/delivery scope remains unconfirmed; no personal classification inferred.",
+      "options": [
+        {
+          "id": "HK-LU-P008-2027-PT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 150000,
+          "tuitionEstimate": true,
+          "applicationFee": null,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 150,000 for this exact mode/cohort. HKD 150,000 is SUBJECT TO FINAL APPROVAL. Programme-specific application quotes LOCAL 300 / NON-LOCAL 515 conflict with current central MASTER application fee 400; actual application fee remains NULL, with quotes retained per selected category. Old partner curriculum and LU/HKMU award conditions remain separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees. Selected LOCAL programme application quote is HKD 300; central HKD 400 conflicts, so the payable application fee stays unknown.",
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        },
+        {
+          "id": "HK-LU-P008-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 150000,
+          "tuitionEstimate": true,
+          "applicationFee": null,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 150,000 for this exact mode/cohort. HKD 150,000 is SUBJECT TO FINAL APPROVAL. Programme-specific application quotes LOCAL 300 / NON-LOCAL 515 conflict with current central MASTER application fee 400; actual application fee remains NULL, with quotes retained per selected category. Old partner curriculum and LU/HKMU award conditions remain separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees. Selected NONLOCAL programme application quote is HKD 515; central HKD 400 conflicts, so the payable application fee stays unknown.",
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ]
     }
   ]
 }

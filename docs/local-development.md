@@ -44,9 +44,9 @@ $env:PORT = '3103'
 
 `data/catalogue.json` 是从原始工作簿提取的 175 条种子，保留了旧稿的状态和备注。旧稿内容标签可能不准确，不作为本科专业门槛依据。旧要求备注不参与自动判断。
 
-`data/checked-programmes.json` 保存 363 条部分项目页记录，完整要求及独立复核为 0。11 月 3 日岭南人文／社科批次补入 18 个既有项目、41 个批次／学习模式和 9 组／17 类上下文。总库 873／默认 865；方向 17 组／41 份、上下文 237 组／474 类，维护 641 单元、近截止 5。类别可保留已知学费和 null 截止日期，未知日期不会套用另一类别日期。见[逐校清单](research/school-data-backlog-2026-11-03-lingnan-arts-social.md)、[数据说明](../data/README.md)与[本批记录](progress/local-lingnan-arts-social-2026-11-03.md)。
+`data/checked-programmes.json` 保存 373 条部分项目页记录，完整要求及独立复核为 0。11 月 3 日读取、4 日整理的岭南剩余批次补入 10 个既有项目、19 个父级批次／模式、2 个路径选项与 2 组／4 类上下文。总库 873／默认 865；方向 18 组／43 份、上下文 239 组／478 类，4 日维护 655 单元、近截止 7。岭南现有 44 条均有部分详情，未知字段和合作边界仍待解决。见[逐校清单](research/school-data-backlog-2026-11-04-lingnan-gs-remainder.md)、[数据说明](../data/README.md)与[本批记录](progress/local-lingnan-gs-remainder-2026-11-04.md)。
 
-`data/route-programmes.json` 另存 17 组／41 条部分方向快照，独立复核 0。各方向、学制和申请类别分别保留原查阅日期及其来源；跨地区交付疑点继续明确记录。路径不增加父项目数量、不覆盖另一方向的条件，统计单独显示。
+`data/route-programmes.json` 另存 18 组／43 条部分方向快照，独立复核 0。各方向、学制和申请类别分别保留原查阅日期及其来源；跨地区交付疑点继续明确记录。路径不增加父项目数量、不覆盖另一方向的条件，统计单独显示。
 
 详情页可临时选择方向；选择后，详情、背景检查、比较和候选导出使用该方向自己的要求、费用和年份。不选择时继续按未解决的分组处理。未主动记忆的方向选择在重载后清除，不清空已有背景或候选列表；只有点击 `Remember these choices` 才保存选项编号。服务启动时校验并读取方向快照；修改该 JSON 后重启服务。运行时不支持后台导入方向数据，`/api/export` 仍导出父目录数据；版本化方向文件应单独保存，候选导出包含所选方向标识。
 
@@ -119,13 +119,13 @@ node scripts/import-data.mjs path/to/checked-batch.json
 在仓库根目录使用 Node 24 运行：
 
 ```text
-node scripts/source-review-queue.mjs --as-of 2026-11-03
-node scripts/source-review-queue.mjs --as-of 2026-11-03 --format markdown
+node scripts/source-review-queue.mjs --as-of 2026-11-04
+node scripts/source-review-queue.mjs --as-of 2026-11-04 --format markdown
 ```
 
-日期必须明确指定；工具只读仓库 JSON，并在内存中组装来源，不打开 `data/local` 的日常数据库、不联网，也不自动写输出文件或修改复核状态。JSON 保留原查阅日、字段说明、人工条件、类别绑定及记录截止；Markdown 为便于人工操作的索引。363 条部分项目页记录、41 条路径、237 个申请人上下文共 641 个工作单元，不是 641 个项目。未公布 GPA 不当成零或一般缺失，未知条件不自动通过。绑定失配或晚于快照的类别证据不得产生可用价格日期；临近截止只用于安排核对，不证明申请开放。
+日期必须明确指定；工具只读仓库 JSON，并在内存中组装来源，不打开 `data/local` 的日常数据库、不联网，也不自动写输出文件或修改复核状态。JSON 保留原查阅日、字段说明、人工条件、类别绑定及记录截止；Markdown 为便于人工操作的索引。373 条部分项目页记录、43 条路径、239 个申请人上下文共 655 个工作单元，不是 655 个项目。未公布 GPA 不当成零或一般缺失，未知条件不自动通过。绑定失配或晚于快照的类别证据不得产生可用价格日期；临近截止只用于安排核对，不证明申请开放。
 
-当前为 [3 日岭南人文／社科清单](research/source-review-queue-2026-11-03-lingnan-arts-social.md)，另保留 [同日岭南商科／数据清单](research/source-review-queue-2026-11-03-lingnan-business-data.md)、 [同日城大／港大清单](research/source-review-queue-2026-11-03-cityu-hku-remainder.md)、[同日 SUTD 清单](research/source-review-queue-2026-11-03-sutd-school.md)、[同日港大医学清单](research/source-review-queue-2026-11-03-hku-medical-law.md)、[1 日理学批次清单](research/source-review-queue-2026-11-01-hku-science-arts.md)、[同日传媒批次清单](research/source-review-queue-2026-11-01-hku-media-social.md)、[31 日教育／政策批次清单](research/source-review-queue-2026-10-31-hku-education-policy.md)与 [24 日历史工作清单](research/source-review-queue-2026-10-24.md)。源文件变动后应另建新批次快照；输入指纹按 JSON 语义计算，不受换行或对象键序影响。原件视觉检查、真实人员复核、完整性评估及上线授权仍是独立事项。
+当前为 [4 日岭南剩余清单](research/source-review-queue-2026-11-04-lingnan-gs-remainder.md)，另保留 [3 日岭南人文／社科清单](research/source-review-queue-2026-11-03-lingnan-arts-social.md)、 [同日岭南商科／数据清单](research/source-review-queue-2026-11-03-lingnan-business-data.md)、 [同日城大／港大清单](research/source-review-queue-2026-11-03-cityu-hku-remainder.md)、[同日 SUTD 清单](research/source-review-queue-2026-11-03-sutd-school.md)、[同日港大医学清单](research/source-review-queue-2026-11-03-hku-medical-law.md)、[1 日理学批次清单](research/source-review-queue-2026-11-01-hku-science-arts.md)、[同日传媒批次清单](research/source-review-queue-2026-11-01-hku-media-social.md)、[31 日教育／政策批次清单](research/source-review-queue-2026-10-31-hku-education-policy.md)与 [24 日历史工作清单](research/source-review-queue-2026-10-24.md)。源文件变动后应另建新批次快照；输入指纹按 JSON 语义计算，不受换行或对象键序影响。原件视觉检查、真实人员复核、完整性评估及上线授权仍是独立事项。
 
 ### 申请日期与学术条件分开
 
@@ -203,4 +203,4 @@ node scripts/check-data.mjs
 
 ## 逐校数据盘点
 
-`node scripts/school-data-backlog.mjs --as-of 2026-11-03` 只读仓库数据，在内存中划分项目页记录、未读线索、已具独立方向证据的分组父记录和范围留档线索，不访问日常数据库或网络。必须明确日期；日期不会重构历史版本，晚于快照的资料在 JSON 结果中标记。当前 [Markdown 快照](research/school-data-backlog-2026-11-03-lingnan-arts-social.md)与 [JSON 清单](../data/research/school-backlog-2026-11-03-lingnan-arts-social.json)保留 14 校统计和全部 495 条未读线索的 ID／官方 URL。部分父记录的未知字段和 not_published 分开，模式／类别证据可能另行解决父级未知项。学校未读数量为 0 仍须维护已查资料，不能据此声称完整达标。
+`node scripts/school-data-backlog.mjs --as-of 2026-11-04` 只读仓库数据，在内存中划分项目页记录、未读线索、已具独立方向证据的分组父记录和范围留档线索，不访问日常数据库或网络。必须明确日期；日期不会重构历史版本，晚于快照的资料在 JSON 结果中标记。当前 [Markdown 快照](research/school-data-backlog-2026-11-04-lingnan-gs-remainder.md)与 [JSON 清单](../data/research/school-backlog-2026-11-04-lingnan-gs-remainder.json)保留 14 校统计和全部 485 条未读线索的 ID／官方 URL。部分父记录的未知字段和 not_published 分开，模式／类别证据可能另行解决父级未知项。学校未读数量为 0 仍须维护已查资料，不能据此声称完整达标。

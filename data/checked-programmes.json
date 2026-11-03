@@ -66720,6 +66720,1958 @@
           "purpose": "Official selected programme/cohort/mode, fees, application or identity source; old years, conditional requirements and conflicts remain explicit"
         }
       ]
+    },
+    {
+      "id": "HK-LU-P002",
+      "universityId": "HK-LU",
+      "name": "Master of Social Sciences in Comparative Public Administration",
+      "award": "Master",
+      "area": "Social Sciences",
+      "faculty": "School of Graduate Studies",
+      "officialUrl": "https://www.ln.edu.hk/sgs/cpa",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Relevant recognised bachelor OR equivalent qualification OR satisfactory academic/professional attainment, assessed individually. No exhaustive required-major list, numeric GPA or universal work-year floor established. Digital and Smart Governance is an optional concentration within this existing degree; it is not a separate independently checked route.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "noteEn": "Relevant recognised bachelor OR equivalent qualification OR satisfactory academic/professional attainment, assessed individually. No exhaustive required-major list, numeric GPA or universal work-year floor established. Digital and Smart Governance is an optional concentration within this existing degree; it is not a separate independently checked route."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. The programme directs applicants to the general SGS admission checklist: personal statement and reference letters IF APPLICABLE, CV/employment proof if required. No programme-specific referee count or numeric statement length established; do not copy a sibling's two-reference rule."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P002-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 190000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 190,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        },
+        {
+          "id": "HK-LU-P002-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 190000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 190,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "noteEn": "Relevant recognised bachelor OR equivalent qualification OR satisfactory academic/professional attainment, assessed individually. No exhaustive required-major list, numeric GPA or universal work-year floor established. Digital and Smart Governance is an optional concentration within this existing degree; it is not a separate independently checked route."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "noteEn": "Published 2027/28 programme tuition: HKD 190,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/cpa",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/cpa",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/cpa/unique-features/programme-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/cpa/unique-features/digital-and-smart-governance-dsg-concentration",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P003",
+      "universityId": "HK-LU",
+      "name": "Master of China and Regional Development Studies",
+      "award": "Master",
+      "area": "Social Sciences",
+      "faculty": "School of Graduate Studies",
+      "officialUrl": "https://www.ln.edu.hk/sgs/crds",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. The 2024/25 title change from MA in China and Regional Studies is explicitly documented; keep the existing degree identity. China-Africa, China/East Asia, Greater Bay Area and no-specialisation choices are not extra degrees. The GBA-specific month-long SCNU exchange described on the homepage is not a universal requirement for every CRDS applicant; exact concentration/current delivery remains manual.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. The 2024/25 title change from MA in China and Regional Studies is explicitly documented; keep the existing degree identity. China-Africa, China/East Asia, Greater Bay Area and no-specialisation choices are not extra degrees. The GBA-specific month-long SCNU exchange described on the homepage is not a universal requirement for every CRDS applicant; exact concentration/current delivery remains manual."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/application-period",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. The programme directs applicants to the general SGS admission checklist: personal statement and reference letters IF APPLICABLE, CV/employment proof if required. No programme-specific referee count or numeric statement length established; do not copy a sibling's two-reference rule."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P003-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum 3 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 175000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 175,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/tuition-fee",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        },
+        {
+          "id": "HK-LU-P003-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years; maximum 4 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 175000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 175,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/tuition-fee",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. The 2024/25 title change from MA in China and Regional Studies is explicitly documented; keep the existing degree identity. China-Africa, China/East Asia, Greater Bay Area and no-specialisation choices are not extra degrees. The GBA-specific month-long SCNU exchange described on the homepage is not a universal requirement for every CRDS applicant; exact concentration/current delivery remains manual."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/tuition-fee",
+          "noteEn": "Published 2027/28 programme tuition: HKD 175,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds/admission/application-period",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/crds",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/crds",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/crds/admission/tuition-fee",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/crds/admission/application-period",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/crds/programme-overview/programme-overview",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/crds/programme-overview/programme-structure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P004",
+      "universityId": "HK-LU",
+      "name": "Master of Cities and Governance",
+      "award": "Master",
+      "area": "Social Sciences",
+      "faculty": "School of Graduate Studies",
+      "officialUrl": "https://www.ln.edu.hk/sgs/mcg",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Interdisciplinary city governance welcomes diverse backgrounds without an exhaustive undergraduate-major list. Environment and Sustainability is an optional concentration, sharing the published degree/English/graduation framework. Field visits and GBA study opportunities do not establish compulsory overseas delivery for all applicants.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Interdisciplinary city governance welcomes diverse backgrounds without an exhaustive undergraduate-major list. Environment and Sustainability is an optional concentration, sharing the published degree/English/graduation framework. Field visits and GBA study opportunities do not establish compulsory overseas delivery for all applicants."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/application-period",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. The programme directs applicants to the general SGS admission checklist: personal statement and reference letters IF APPLICABLE, CV/employment proof if required. No programme-specific referee count or numeric statement length established; do not copy a sibling's two-reference rule."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P004-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year; maximum 3 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 174000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 174,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/tuition-fee-and-scholarships",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        },
+        {
+          "id": "HK-LU-P004-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years; maximum 5 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 174000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 174,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/tuition-fee-and-scholarships",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Interdisciplinary city governance welcomes diverse backgrounds without an exhaustive undergraduate-major list. Environment and Sustainability is an optional concentration, sharing the published degree/English/graduation framework. Field visits and GBA study opportunities do not establish compulsory overseas delivery for all applicants."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/tuition-fee-and-scholarships",
+          "noteEn": "Published 2027/28 programme tuition: HKD 174,000 for this exact mode/cohort. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg/admission/application-period",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mcg",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/mcg",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mcg/admission/tuition-fee-and-scholarships",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mcg/admission/application-period",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mcg/programme-overview/mcg-programme-information-with-es-concentration",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mcg/programme-overview/programme-structure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P005",
+      "universityId": "HK-LU",
+      "name": "Master of Arts in Arts and Cultural Heritage Management",
+      "award": "MA",
+      "area": "Social Sciences",
+      "faculty": "School of Graduate Studies",
+      "officialUrl": "https://www.ln.edu.hk/sgs/achm",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "A GROUPED degree with distinct Hong Kong HTM single-award and LU/University-of-Lincoln no-concentration dual-award paths. Choose an independently documented route before comparing requirements, fees or dates. Do not apply the HTM HKD 180,000 fee or Lingnan-only English conditions to the mixed-currency/UK path.",
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Choose a specific ACHM pathway",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "A GROUPED degree with distinct Hong Kong HTM single-award and LU/University-of-Lincoln no-concentration dual-award paths. Choose an independently documented route before comparing requirements, fees or dates. Do not apply the HTM HKD 180,000 fee or Lingnan-only English conditions to the mixed-currency/UK path."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P005-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "Route selection required",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Published 2027/28 programme tuition: UNCONFIRMED; no shared/default total. Choose HTM single LU award or no-concentration LU/Lincoln dual award; HKD 180,000 versus HKD 90,000 plus GBP 10,500 INDICATIVE partner fee are not a common total. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+          "noteEn": "A GROUPED degree with distinct Hong Kong HTM single-award and LU/University-of-Lincoln no-concentration dual-award paths. Choose an independently documented route before comparing requirements, fees or dates. Do not apply the HTM HKD 180,000 fee or Lingnan-only English conditions to the mixed-currency/UK path."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+          "noteEn": "No shared complete language requirement: Lincoln route adds separately assessed partner requirements."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+          "noteEn": "Published 2027/28 programme tuition: UNCONFIRMED; no shared/default total. Choose HTM single LU award or no-concentration LU/Lincoln dual award; HKD 180,000 versus HKD 90,000 plus GBP 10,500 INDICATIVE partner fee are not a common total. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/application-procedures",
+          "noteEn": "Select the exact documented path before interpreting dates."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/achm",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/achm",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/achm/admission/application-procedures",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/achm/about-us/programme-introduction",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/achm/programme-overview/programme-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/achm/programme-overview/programme-structure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/achm/programme-overview/heritage-tourism-and-management-concentration",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ],
+      "directoryListing": {
+        "nameEn": "Master of Arts in Arts and Cultural Heritage Management",
+        "checkedOn": "2026-11-03",
+        "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+        "programmeUrl": "https://www.ln.edu.hk/sgs/achm",
+        "noteEn": "Current official fee/entry/curriculum panels distinguish Hong Kong HTM single award and LU/Lincoln dual award. Choose the exact route; not two degree IDs.",
+        "variants": [
+          {
+            "nameEn": "MA Arts and Cultural Heritage Management — HTM single award",
+            "officialUrl": "https://www.ln.edu.hk/sgs/achm/programme-overview/heritage-tourism-and-management-concentration"
+          },
+          {
+            "nameEn": "MA Arts and Cultural Heritage Management — LU/Lincoln dual award",
+            "officialUrl": "https://www.ln.edu.hk/sgs/achm/programme-overview/programme-structure"
+          }
+        ]
+      }
+    },
+    {
+      "id": "HK-LU-P006",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Health Analytics and Management",
+      "award": "MSc",
+      "area": "Social Sciences",
+      "faculty": "School of Graduate Studies",
+      "officialUrl": "https://www.ln.edu.hk/sgs/ham",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment, assessed individually; no nursing/medical licence, numeric GPA, universal work-year floor or exhaustive relevant-major list established. Interviews may be conducted if needed. Graduation CGPA 2.67 and intermediate-award 2.33 are not undergraduate-entry floors.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment, assessed individually; no nursing/medical licence, numeric GPA, universal work-year floor or exhaustive relevant-major list established. Interviews may be conducted if needed. Graduation CGPA 2.67 and intermediate-award 2.33 are not undergraduate-entry floors."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/application-deadline",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. Personal statement and reference letters IF ANY are explicitly listed. No mandatory referee count, relative referee deadline or statement word count established."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P006-2027-FT",
+          "mode": "Full-time",
+          "duration": "12 months; maximum 24 months",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 205000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 205,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/tuition-fees",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        },
+        {
+          "id": "HK-LU-P006-2027-PT",
+          "mode": "Part-time",
+          "duration": "24 months; maximum 36 months",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 205000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 205,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/tuition-fees",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment, assessed individually; no nursing/medical licence, numeric GPA, universal work-year floor or exhaustive relevant-major list established. Interviews may be conducted if needed. Graduation CGPA 2.67 and intermediate-award 2.33 are not undergraduate-entry floors."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/tuition-fees",
+          "noteEn": "Published 2027/28 programme tuition: HKD 205,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham/admission/application-deadline",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ham",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/ham",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/ham/admission/tuition-fees",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/ham/admission/application-deadline",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/ham/programme/programme-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/ham/admission/application-procedure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P007",
+      "universityId": "HK-LU",
+      "name": "Master of Social Sciences in Health and Social Services Management",
+      "award": "Master",
+      "area": "Social Sciences",
+      "faculty": "School of Graduate Studies",
+      "officialUrl": "https://www.ln.edu.hk/sgs/mhsm",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. This is health/social-services MANAGEMENT, not proof of a qualifying clinical/social-work licence. Interviews may be conducted if needed. Graduation CGPA 2.67 and intermediate-award 2.33 are not entry GPA minima; published curriculum approval caveats remain separate.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. This is health/social-services MANAGEMENT, not proof of a qualifying clinical/social-work licence. Interviews may be conducted if needed. Graduation CGPA 2.67 and intermediate-award 2.33 are not entry GPA minima; published curriculum approval caveats remain separate."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/application-deadline",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. Personal statement and reference letters IF ANY are explicitly listed. No mandatory referee count, relative referee deadline or statement word count established."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P007-2027-FT",
+          "mode": "Full-time",
+          "duration": "12 months; maximum 24 months",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 198000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 198,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/tuition-fees",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        },
+        {
+          "id": "HK-LU-P007-2027-PT",
+          "mode": "Part-time",
+          "duration": "24 months; maximum 36 months",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 198000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 198,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/tuition-fees",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. This is health/social-services MANAGEMENT, not proof of a qualifying clinical/social-work licence. Interviews may be conducted if needed. Graduation CGPA 2.67 and intermediate-award 2.33 are not entry GPA minima; published curriculum approval caveats remain separate."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/tuition-fees",
+          "noteEn": "Published 2027/28 programme tuition: HKD 198,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm/admission/application-deadline",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/mhsm",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/mhsm",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mhsm/admission/tuition-fees",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mhsm/admission/application-deadline",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mhsm/programme/programme-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/mhsm/admission/application-procedure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P008",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Smart Ageing and Gerontology",
+      "award": "MSc",
+      "area": "Social Sciences",
+      "faculty": "School of Graduate Studies",
+      "officialUrl": "https://www.ln.edu.hk/sgs/sag/home",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. The programme is a LU/HKMU DOUBLE DEGREE; the cited curriculum is labelled 2026/27 and includes partner-credit transfer. HKMU is outside this project's fixed fourteen-institution list, so current awarding/delivery and scope remain UNCONFIRMED. Do not silently expand the university list, label HKMU private/public, or promise both awards/recognition. Graduation CGPA 2.67 LU / 2.7 HKMU is not an entry GPA floor.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. The programme is a LU/HKMU DOUBLE DEGREE; the cited curriculum is labelled 2026/27 and includes partner-credit transfer. HKMU is outside this project's fixed fourteen-institution list, so current awarding/delivery and scope remain UNCONFIRMED. Do not silently expand the university list, label HKMU private/public, or promise both awards/recognition. Graduation CGPA 2.67 LU / 2.7 HKMU is not an entry GPA floor."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. Admission page gives no programme-specific numeric referee count or statement word limit; general checklist remains conditional. Programme application-fee quotes LOCAL 300/NON-LOCAL 515 conflict with current central taught-master 400; actual application fee stays null until confirmed."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Partner, old curriculum and fee approval",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/programme-overview",
+          "noteEn": "Mandatory LU/HKMU double-degree description and 2026/27 curriculum are not an independently confirmed 2027/28 partner arrangement. Tuition 150,000 needs final approval; programme application fees 300/515 conflict with central 400. Neither dual graduation GPA is an entry minimum."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P008-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 150,000 for this exact mode/cohort. HKD 150,000 is SUBJECT TO FINAL APPROVAL. Programme-specific application quotes LOCAL 300 / NON-LOCAL 515 conflict with current central MASTER application fee 400; actual application fee remains NULL, with quotes retained per selected category. Old partner curriculum and LU/HKMU award conditions remain separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified.",
+          "tuitionEstimate": true
+        },
+        {
+          "id": "HK-LU-P008-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 150,000 for this exact mode/cohort. HKD 150,000 is SUBJECT TO FINAL APPROVAL. Programme-specific application quotes LOCAL 300 / NON-LOCAL 515 conflict with current central MASTER application fee 400; actual application fee remains NULL, with quotes retained per selected category. Old partner curriculum and LU/HKMU award conditions remain separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified.",
+          "tuitionEstimate": true
+        }
+      ],
+      "scope": {
+        "status": "unconfirmed",
+        "checkedOn": "2026-11-03",
+        "sourceUrl": "https://www.ln.edu.hk/sgs/sag/programme-overview",
+        "reasonEn": "LU/HKMU dual award and partner credits are explicit; HKMU is outside the fixed fourteen-institution list. Current 2027/28 partner/delivery applicability needs confirmation. No institution-list expansion or private/public reclassification is made."
+      },
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. The programme is a LU/HKMU DOUBLE DEGREE; the cited curriculum is labelled 2026/27 and includes partner-credit transfer. HKMU is outside this project's fixed fourteen-institution list, so current awarding/delivery and scope remain UNCONFIRMED. Do not silently expand the university list, label HKMU private/public, or promise both awards/recognition. Graduation CGPA 2.67 LU / 2.7 HKMU is not an entry GPA floor."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "noteEn": "Published 2027/28 programme tuition: HKD 150,000 for this exact mode/cohort. HKD 150,000 is SUBJECT TO FINAL APPROVAL. Programme-specific application quotes LOCAL 300 / NON-LOCAL 515 conflict with current central MASTER application fee 400; actual application fee remains NULL, with quotes retained per selected category. Old partner curriculum and LU/HKMU award conditions remain separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/admission",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/sag/home",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/sag/home",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/sag/admission",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/sag/programme-overview",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P009",
+      "universityId": "HK-LU",
+      "name": "Master of Arts in Social Entrepreneurship and Innovation Management",
+      "award": "MA",
+      "area": "Social Sciences",
+      "faculty": "School of Graduate Studies",
+      "officialUrl": "https://www.ln.edu.hk/sgs/seim",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Social entrepreneurship is interdisciplinary; no numeric GPA, founder/manager experience years or universal arts portfolio established. Art and Design for Social Impact is an optional concentration, whose regulations follow the parent unless stated otherwise. It is not another degree.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Social entrepreneurship is interdisciplinary; no numeric GPA, founder/manager experience years or universal arts portfolio established. Art and Design for Social Impact is an optional concentration, whose regulations follow the parent unless stated otherwise. It is not another degree."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/application-deadlinea",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. Personal statement and reference letters IF ANY are explicitly listed. No mandatory referee count, relative referee deadline or statement word count established."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P009-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 210000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 210,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/tuition-fees",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        },
+        {
+          "id": "HK-LU-P009-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 210000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 210,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/tuition-fees",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Social entrepreneurship is interdisciplinary; no numeric GPA, founder/manager experience years or universal arts portfolio established. Art and Design for Social Impact is an optional concentration, whose regulations follow the parent unless stated otherwise. It is not another degree."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/tuition-fees",
+          "noteEn": "Published 2027/28 programme tuition: HKD 210,000 for this exact mode/cohort. Explicit SAME WHOLE-PROGRAMME price for one-year FT and two-year PT; do not double the PT amount. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim/admission/application-deadlinea",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/seim",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sgs/seim",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/seim/admission/tuition-fees",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/seim/admission/application-deadlinea",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/seim/courses-description/adsi-concentration",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/seim/courses-description/programme-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/seim/admission/application-procedure",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P021",
+      "universityId": "HK-LU",
+      "name": "Master of Research in Advanced Data Science",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": "School of Data Science",
+      "officialUrl": "https://www.ln.edu.hk/sds/dai/ads",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "The official Division of Artificial Intelligence lists MResADS under TAUGHT POSTGRADUATE, separately from MPhil/PhD under Research Postgraduate. The programme is research-intensive but is not excluded solely for its MRes name. Published entry is Bachelor of Engineering, Science or a related discipline WITH FIRST- OR SECOND-CLASS HONOURS, OR individually assessed equivalent qualifications/experience. Do not convert GPA to honours or apply a universal hard honours failure to assessed alternatives. Limited computing/statistics preparation requires named non-credit pre-entry courses.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "noteEn": "The official Division of Artificial Intelligence lists MResADS under TAUGHT POSTGRADUATE, separately from MPhil/PhD under Research Postgraduate. The programme is research-intensive but is not excluded solely for its MRes name. Published entry is Bachelor of Engineering, Science or a related discipline WITH FIRST- OR SECOND-CLASS HONOURS, OR individually assessed equivalent qualifications/experience. Do not convert GPA to honours or apply a universal hard honours failure to assessed alternatives. Limited computing/statistics preparation requires named non-credit pre-entry courses."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/application-procedures",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. TWO confidential referees. The procedure says return within THREE WEEKS OF APPLICATION by sealed post, and separately says online invitations require submission within 14 DAYS. Methods/clocks are recorded distinctly, not collapsed into one guessed date. Shortlisted candidates may be interviewed. Do not infer statement length from the 15-credit thesis requirement."
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "Engineering/science or assessed related discipline",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "accepted": [
+            "Engineering",
+            "Science"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "singleAttempt": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "MRes research structure and entry honours",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/peogramme-overview/curriculum",
+          "noteEn": "45-credit, 1.5-year full-time programme includes a 6-credit advanced project and 15-credit thesis, not a one-year MSc. Curriculum says eight required plus TWO electives but graduation prose says THREE; do not silently reconcile the source. Graduation/progression GPA 2.67/2.50 and diploma 2.33 are not undergraduate-entry GPA floors. First/second honours OR equivalent qualifications/experience remain individually assessed."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P021-2027-FT",
+          "mode": "Full-time",
+          "duration": "1.5 years; maximum 3 years with approval",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 351000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-06-30",
+          "feeBasis": "Published 2027/28 programme tuition: HKD 351,000 for this exact mode/cohort. HKD 351,000 for 2027/28, BOTH local/non-local, SUBJECT TO APPROVAL. Non-credit preparation HKD 3,000 PER COURSE subject to adjustment; no automatic exemption tuition reduction. HKD 600 graduation deposit separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/tuition-fees-scholarships-financial-assistance",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified. The department says 2027 applications are currently open/rolling without exact days; central named row establishes 1 Aug 2026–30 Jun 2027. Do not infer a second-round or clock time.",
+          "tuitionEstimate": true
+        }
+      ],
+      "scope": {
+        "status": "in_scope",
+        "checkedOn": "2026-11-03",
+        "sourceUrl": "https://www.ln.edu.hk/sds/dai/programmes",
+        "reasonEn": "Official Division lists MResADS in Taught Postgraduate, with Research Postgraduate reserved for MPhil/PhD. Research-intensive structure does not itself change this official programme classification."
+      },
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "noteEn": "The official Division of Artificial Intelligence lists MResADS under TAUGHT POSTGRADUATE, separately from MPhil/PhD under Research Postgraduate. The programme is research-intensive but is not excluded solely for its MRes name. Published entry is Bachelor of Engineering, Science or a related discipline WITH FIRST- OR SECOND-CLASS HONOURS, OR individually assessed equivalent qualifications/experience. Do not convert GPA to honours or apply a universal hard honours failure to assessed alternatives. Limited computing/statistics preparation requires named non-credit pre-entry courses."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/tuition-fees-scholarships-financial-assistance",
+          "noteEn": "Published 2027/28 programme tuition: HKD 351,000 for this exact mode/cohort. HKD 351,000 for 2027/28, BOTH local/non-local, SUBJECT TO APPROVAL. Non-credit preparation HKD 3,000 PER COURSE subject to adjustment; no automatic exemption tuition reduction. HKD 600 graduation deposit separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads/application-admission/application-procedures",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/sds/dai/ads",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/ads",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/ads/application-admission/tuition-fees-scholarships-financial-assistance",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/ads/application-admission/application-procedures",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/ads/peogramme-overview/programme-highlights",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/ads/peogramme-overview/curriculum",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sds/dai/programmes",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
+    },
+    {
+      "id": "HK-LU-P026",
+      "universityId": "HK-LU",
+      "name": "Master of Science in Cross-disciplinary Technologies+",
+      "award": "Master",
+      "area": "Computing",
+      "faculty": "Wu Jieh Yee School of Interdisciplinary Studies",
+      "officialUrl": "https://www.ln.edu.hk/wjysis/mct",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted selected official HTML reading",
+      "reviewer": null,
+      "researchBatch": "lingnan-gs-remainder-2026-11-03",
+      "notesZh": "",
+      "notesEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Students can choose the general programme WITHOUT a concentration, selecting a field-trip OR capstone course. Ten concentrations have different Fall/Spring availability and required CDT507/CDT508 choices; the general degree is not automatically all ten routes. A field-trip label does not establish its location or mandatory overseas attendance for every applicant. No numeric GPA/work-year floor established.",
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed alternative",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "appliesTo": {
+            "offeringIds": [
+              "HK-LU-P026-2026-T2-FT"
+            ],
+            "labelEn": "Consulted Spring 2027 / 2026–27 requirements",
+            "academicYear": "2026/27",
+            "checkedOn": "2026-11-03"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Students can choose the general programme WITHOUT a concentration, selecting a field-trip OR capstone course. Ten concentrations have different Fall/Spring availability and required CDT507/CDT508 choices; the general degree is not automatically all ten routes. A field-trip label does not establish its location or mandatory overseas attendance for every applicant. No numeric GPA/work-year floor established.",
+          "appliesTo": {
+            "offeringIds": [
+              "HK-LU-P026-2026-T2-FT"
+            ],
+            "labelEn": "Consulted Spring 2027 / 2026–27 requirements",
+            "academicYear": "2026/27",
+            "checkedOn": "2026-11-03"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. Personal statement with RECOMMENDED 200–500 words; do not call the suggested length a mandatory hard limit. Confidential forms return by SEALED POST, as soon as possible and no later than the official deadline, with no numeric referee count inferred. Spring 2027 applicants must select the 2026–27 portal; consent form links labelled 2027/28 do not change that cohort.",
+          "appliesTo": {
+            "offeringIds": [
+              "HK-LU-P026-2026-T2-FT"
+            ],
+            "labelEn": "Consulted Spring 2027 / 2026–27 requirements",
+            "academicYear": "2026/27",
+            "checkedOn": "2026-11-03"
+          }
+        },
+        {
+          "kind": "major",
+          "labelZh": "",
+          "labelEn": "General route welcomes assessed diverse backgrounds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "accepted": [],
+          "any": true,
+          "relatedAllowed": false,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-LU-P026-2026-T2-FT"
+            ],
+            "labelEn": "Consulted Spring 2027 / 2026–27 requirements",
+            "academicYear": "2026/27",
+            "checkedOn": "2026-11-03"
+          }
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded programme English thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21"
+            }
+          },
+          "atHomeAccepted": false,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-LU-P026-2026-T2-FT"
+            ],
+            "labelEn": "Consulted Spring 2027 / 2026–27 requirements",
+            "academicYear": "2026/27",
+            "checkedOn": "2026-11-03"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language applicability, formats and relative validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre conditions apply; a programme-specific single-sitting statement was not established. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented.",
+          "appliesTo": {
+            "offeringIds": [
+              "HK-LU-P026-2026-T2-FT"
+            ],
+            "labelEn": "Consulted Spring 2027 / 2026–27 requirements",
+            "academicYear": "2026/27",
+            "checkedOn": "2026-11-03"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Concentrations, terms and required course choices",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/programme-overview",
+          "noteEn": "Ten concentrations are listed, although older highlight prose says eight. Four are FALL ONLY: Advanced Material Science, Automotive/Advanced Manufacturing, Carbon Neutralisation/Sustainability and Renewable Energy Management. Others list Fall & Spring. CDT507 is required for Automotive, Digital Media Business, Carbon Neutralisation, Business/Finance and Statistics/Data; other named paths require CDT508. General students can choose either. Actual field-trip destination/extra cost remains unconfirmed.",
+          "appliesTo": {
+            "offeringIds": [
+              "HK-LU-P026-2026-T2-FT"
+            ],
+            "labelEn": "Consulted Spring 2027 / 2026–27 requirements",
+            "academicYear": "2026/27",
+            "checkedOn": "2026-11-03"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Other-year requirements need confirmation",
+          "mandatory": true,
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Central 2027/28 term windows are recorded, but Spring 2027 tuition/requirements are not automatically copied into those cohorts.",
+          "appliesTo": {
+            "offeringIds": [
+              "HK-LU-P026-2027-T1-FT",
+              "HK-LU-P026-2027-T2-FT"
+            ],
+            "labelEn": "Unconfirmed 2027/28 requirement coverage",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-11-03"
+          }
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-LU-P026-2026-T2-FT",
+          "mode": "Full-time",
+          "duration": "Full-time; normal duration unconfirmed in consulted HTML",
+          "intake": "Spring 2027",
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": 188000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2026-11-30",
+          "feeBasis": "Published 2026/27 programme tuition: HKD 188,000 for this exact mode/cohort. HKD 188,000 appears with Spring 2027 / 2026–27 portal instructions; not carried into 2027/28 terms. Field-trip costs/location and concentration applicability are separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified. Separate term windows from central directory. Spring 2027 uses the 2026–27 portal; the later term start months are not invented. Late applications are individually assessed, not guaranteed open."
+        },
+        {
+          "id": "HK-LU-P026-2027-T1-FT",
+          "mode": "Full-time",
+          "duration": "Full-time; normal duration unconfirmed in consulted HTML",
+          "intake": "Term 1, 2027/28",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-07-30",
+          "feeBasis": "Published 2027/28 programme tuition: UNCONFIRMED; no shared/default total. HKD 188,000 appears with Spring 2027 / 2026–27 portal instructions; not carried into 2027/28 terms. Field-trip costs/location and concentration applicability are separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified. Separate term windows from central directory. Spring 2027 uses the 2026–27 portal; the later term start months are not invented. Late applications are individually assessed, not guaranteed open."
+        },
+        {
+          "id": "HK-LU-P026-2027-T2-FT",
+          "mode": "Full-time",
+          "duration": "Full-time; normal duration unconfirmed in consulted HTML",
+          "intake": "Term 2, 2027/28",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2027-08-01",
+          "deadline": "2027-11-30",
+          "feeBasis": "Published 2027/28 programme tuition: UNCONFIRMED; no shared/default total. HKD 188,000 appears with Spring 2027 / 2026–27 portal instructions; not carried into 2027/28 terms. Field-trip costs/location and concentration applicability are separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified. Separate term windows from central directory. Spring 2027 uses the 2026–27 portal; the later term start months are not invented. Late applications are individually assessed, not guaranteed open."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment. Students can choose the general programme WITHOUT a concentration, selecting a field-trip OR capstone course. Ten concentrations have different Fall/Spring availability and required CDT507/CDT508 choices; the general degree is not automatically all ten routes. A field-trip label does not establish its location or mandatory overseas attendance for every applicant. No numeric GPA/work-year floor established."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre conditions apply; a programme-specific single-sitting statement was not established. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "noteEn": "Published 2026/27 programme tuition: HKD 188,000 for this exact mode/cohort. HKD 188,000 appears with Spring 2027 / 2026–27 portal instructions; not carried into 2027/28 terms. Field-trip costs/location and concentration applicability are separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "noteEn": "Exact named programme window. Capacity/office changes and individual document deadlines remain separate."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.ln.edu.hk/wjysis/mct",
+          "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ln.edu.hk/wjysis/mct",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/wjysis/mct/admission",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        },
+        {
+          "url": "https://www.ln.edu.hk/wjysis/mct/programme-overview",
+          "checkedOn": "2026-11-03",
+          "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
+        }
+      ]
     }
   ]
 }

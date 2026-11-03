@@ -7924,6 +7924,357 @@
           ]
         }
       ]
+    },
+    {
+      "programmeId": "HK-LU-P005",
+      "routes": [
+        {
+          "name": "MA Arts and Cultural Heritage Management — HTM single award",
+          "award": "MA",
+          "area": "Social Sciences",
+          "faculty": "School of Graduate Studies",
+          "officialUrl": "https://www.ln.edu.hk/sgs/achm/programme-overview/heritage-tourism-and-management-concentration",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+          "lastChecked": "2026-11-03",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted selected official HTML reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Exact ACHM path only. Hong Kong-focused Heritage Tourism and Management single LU award; current fee HKD 180,000.",
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed alternative",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment, individually assessed. No numeric undergraduate GPA or universal work-years minimum."
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Recorded programme English thresholds",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 79,
+                  "validBefore": "2026-01-21"
+                }
+              },
+              "atHomeAccepted": false,
+              "singleAttempt": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and personal timing",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/application-procedures",
+              "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. English personal statement of NO MORE THAN TWO PAGES, CV and TWO confidential referee forms returned directly by SEALED POST to the programme office. No numeric relative referee clock established. Partner requirements for the Lincoln route need separate confirmation."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Language applicability, formats and relative validity",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented. The no-concentration dual route additionally directs applicants to University of Lincoln requirements, which are not represented by a Lingnan-only score comparison."
+            }
+          ],
+          "offerings": [
+            {
+              "id": "HK-LU-P005-HTM-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year; maximum 3 years",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": 180000,
+              "applicationFee": 400,
+              "applicationOpen": "2026-08-01",
+              "deadline": "2027-06-30",
+              "feeBasis": "2027/28 HTM single-award tuition HKD 180,000.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+                "checkedOn": "2026-11-03"
+              },
+              "deadlineNote": "Exact route observation in the 2027/28 parent application window; live availability, extensions and closing time not verified."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "Relevant recognised bachelor/equivalent or individually assessed academic/professional attainment for this exact route; no exhaustive undergraduate-major list."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+            },
+            "language": {
+              "status": "known",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "Lingnan-only scores and assessed equivalents."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+              "noteEn": "2027/28 HTM single-award tuition HKD 180,000."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/application-procedures",
+              "noteEn": "Observed 2027/28 named application window; live availability unverified."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm",
+              "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm/programme-overview/heritage-tourism-and-management-concentration",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm/admission/application-procedures",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            }
+          ],
+          "routeId": "HK-LU-P005-ROUTE-HTM",
+          "scope": {
+            "status": "in_scope",
+            "checkedOn": "2026-11-03",
+            "sourceUrl": "https://www.ln.edu.hk/sgs/achm/programme-overview/heritage-tourism-and-management-concentration",
+            "reasonEn": "Hong Kong-focused single LU award; do not inherit the UK route delivery."
+          }
+        },
+        {
+          "name": "MA Arts and Cultural Heritage Management — LU/Lincoln dual award",
+          "award": "MA",
+          "area": "Social Sciences",
+          "faculty": "School of Graduate Studies",
+          "officialUrl": "https://www.ln.edu.hk/sgs/achm/programme-overview/programme-structure",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial official HTML observation; cohort, partner and independent-review conditions remain explicit",
+          "lastChecked": "2026-11-03",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted selected official HTML reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Exact ACHM path only. No-concentration LU/Lincoln dual degree. Earlier explicit curriculum requires Hong Kong semester 1 and UK semester 2/terms 2–3; current partner delivery/applicability needs confirmation. No single-currency combined total.",
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed alternative",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "Relevant recognised bachelor/equivalent or satisfactory academic/professional attainment, individually assessed. No numeric undergraduate GPA or universal work-years minimum."
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Recorded programme English thresholds",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 79,
+                  "validBefore": "2026-01-21"
+                }
+              },
+              "atHomeAccepted": false,
+              "singleAttempt": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and personal timing",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/application-procedures",
+              "noteEn": "Programme-specific checklist and assessed alternatives apply. General documents include degree/proof of study, transcripts and grading explanation, applicable English evidence, translations and conditional CHSI/CSCSE/HKCAAVQ verification. Do NOT upload HKID where the official checklist excludes it; verification occurs at registration. No private documents are collected here. English personal statement of NO MORE THAN TWO PAGES, CV and TWO confidential referee forms returned directly by SEALED POST to the programme office. No numeric relative referee clock established. Partner requirements for the Lincoln route need separate confirmation."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Language applicability, formats and relative validity",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "The programme publishes IELTS 6.0 / old TOEFL 79, with CET-6 450 plus spoken/interview evidence or assessed equivalents. English-MOI evidence is individually assessed. Test-centre and stated single-sitting conditions apply. IELTS/TOEFL two-year and CET-6 five-year validity are counted at ACTUAL APPLICATION SUBMISSION, not today. No rolling expiry, guaranteed waiver, or sibling new TOEFL 1–6 score is invented. The no-concentration dual route additionally directs applicants to University of Lincoln requirements, which are not represented by a Lingnan-only score comparison."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Separate University of Lincoln requirements",
+              "mandatory": true,
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "The LU entry page explicitly requires checking the partner's own English requirements. A pass against Lingnan IELTS 6 / old TOEFL 79 is NOT confirmation of Lincoln eligibility. Partner requirements and current UK study/awarding arrangements are not independently represented here."
+            }
+          ],
+          "offerings": [
+            {
+              "id": "HK-LU-P005-LINCOLN-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year; maximum 3 years",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": 400,
+              "applicationOpen": "2026-08-01",
+              "deadline": "2027-06-30",
+              "feeBasis": "2027/28 LU HKD 90,000 PLUS University of Lincoln GBP 10,500 (INDICATIVE, subject to partner review/approval). Currency remains HKD with tuition NULL; do not add mixed currencies, invent an exchange rate or represent 90,000 as the full programme total.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+                "checkedOn": "2026-11-03"
+              },
+              "deadlineNote": "Exact route observation in the 2027/28 parent application window; live availability, extensions and closing time not verified."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "noteEn": "Current named 2027/28 directory entry, with earlier/later term offerings separately identified."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "Relevant recognised bachelor/equivalent or individually assessed academic/professional attainment for this exact route; no exhaustive undergraduate-major list."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "No numeric ordinary-entry GPA established. Honours/assessed alternatives remain manual; graduation, progression, intermediate-award and scholarship GPA are not undergraduate-entry floors."
+            },
+            "language": {
+              "status": "unknown",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "noteEn": "Partner English requirements remain separate; Lingnan-only tests do not establish dual eligibility."
+            },
+            "tuition": {
+              "status": "unknown",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+              "noteEn": "2027/28 LU HKD 90,000 PLUS University of Lincoln GBP 10,500 (INDICATIVE, subject to partner review/approval). Currency remains HKD with tuition NULL; do not add mixed currencies, invent an exchange rate or represent 90,000 as the full programme total."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm/admission/application-procedures",
+              "noteEn": "Observed 2027/28 named application window; live availability unverified."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://www.ln.edu.hk/sgs/achm",
+              "noteEn": "AI-assisted partial source reading; no independent human review or complete eligibility judgement."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm/programme-overview/programme-structure",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm/admission/application-procedures",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/achm",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            },
+            {
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "checkedOn": "2026-11-03",
+              "purpose": "Official exact ACHM pathway source; partner/currency and old curriculum conditions remain explicit"
+            }
+          ],
+          "routeId": "HK-LU-P005-ROUTE-LINCOLN",
+          "scope": {
+            "status": "unconfirmed",
+            "checkedOn": "2026-11-03",
+            "sourceUrl": "https://www.ln.edu.hk/sgs/achm/programme-overview/programme-structure",
+            "reasonEn": "The explicit older curriculum contains required UK study and a partner award. Current intake applicability and cross-region inclusion need confirmation under this project's fixed institution/delivery boundary; no blanket parent exclusion."
+          }
+        }
+      ]
     }
   ]
 }
