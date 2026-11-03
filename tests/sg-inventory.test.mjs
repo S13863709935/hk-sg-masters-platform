@@ -53,16 +53,16 @@ test('new SG leads have official sources, English names and no admissions rules 
   assert.ok(additions.every(p => !/\p{Script=Han}/u.test(p.name + p.notesEn)));
   assert.ok(additions.every(p => matchProgramme(p, profile).tier === null));
 });
-test('three scope corrections hide records but keep IDs, evidence and original snapshot intact', () => {
+test('six scope corrections hide records but keep IDs, evidence and original snapshot intact', () => {
   const db = new CatalogueStore(':memory:', options);
   try {
     const total = seed.programmes.length + read('data/catalogue-expansion.json').programmes.length;
     assert.equal(db.quality().total, total);
-    assert.equal(db.quality().browsable, total - 4);
-    assert.equal(db.quality().outOfScope, 3);
+    assert.equal(db.quality().browsable, total - 7);
+    assert.equal(db.quality().outOfScope, 6);
     assert.equal(db.quality().enumeratedUniversities, 6);
-    assert.equal(db.quality().scopeAuditDate, '2026-10-30');
-    assert.equal(filterProgrammes(db.all()).length, total - 4);
+    assert.equal(db.quality().scopeAuditDate, '2026-11-03');
+    assert.equal(filterProgrammes(db.all()).length, total - 7);
     assert.equal(filterProgrammes(db.all(), {includeTransfer:'true',includeOutOfScope:'true'}).length, total);
     for (const d of scope.decisions) {
       const p = db.get(d.programmeId);

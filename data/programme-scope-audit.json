@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-30",
+  "checkedOn": "2026-11-03",
   "verificationLevel": "AI-assisted scope correction; not independent human review of admissions",
   "decisions": [
     {
@@ -23,6 +23,27 @@
       "checkedOn": "2026-10-30",
       "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm",
       "reasonEn": "The official Global Marine Resources Management page identifies dual HKUST/Southampton degrees, required Southampton study and commencement in the UK. Required UK delivery is outside the current Hong Kong/Singapore delivery scope. This is a delivery-scope exclusion, not an academic-background failure; the HKD instalment is not the whole mixed-currency fee."
+    },
+    {
+      "programmeId": "SG-SUTD-P005",
+      "status": "out_of_scope",
+      "checkedOn": "2026-11-03",
+      "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-ai-and-technology-in-education/programme-schedule/#tabs",
+      "reasonEn": "The official schedule places Term 1 at a host university in China and Terms 2–3 at SUTD in Singapore. Required China delivery is outside the current Hong Kong/Singapore delivery scope; this is not a judgement of the applicant."
+    },
+    {
+      "programmeId": "SG-SUTD-P008",
+      "status": "out_of_scope",
+      "checkedOn": "2026-11-03",
+      "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-ai-and-technology-in-finance/programme-schedule/#tabs",
+      "reasonEn": "The official schedule places Term 1 at a host university in China and Terms 2–3 at SUTD in Singapore. Required China delivery is outside the current Hong Kong/Singapore delivery scope; this is not a financial or academic judgement of the applicant."
+    },
+    {
+      "programmeId": "SG-SUTD-P015",
+      "status": "out_of_scope",
+      "checkedOn": "2026-11-03",
+      "sourceUrl": "https://www.sutd.edu.sg/programme-listing/mtd-ic-design-failure-analysis-and-reliability/programme-schedule/#tabs",
+      "reasonEn": "The programme requires satisfactory completion of a two-month final-term internship at Wintech-Nano Technology in Suzhou, China. Required China delivery is outside the current Hong Kong/Singapore delivery scope; stipend/accommodation wording does not remove that requirement."
     }
   ]
 }

@@ -25,9 +25,9 @@ const language=(x,l=profile.language)=>matchProgramme(x,{...profile,language:l})
 const academic=n=>p(n).rules.find(r=>r.labelEn==='Programme-specific academic and evidence conditions').noteEn;
 
 test('sixteen existing humanities parents add twenty-one options without new degree, route or category counts',()=>{
- assert.equal(records.length,16);assert.equal(records.flatMap(x=>x.offerings).length,21);assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,869);assert.equal(store.quality().checked,312);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
+ assert.equal(records.length,16);assert.equal(records.flatMap(x=>x.offerings).length,21);assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,866);assert.equal(store.quality().checked,328);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
  assert.equal(store.all().filter(x=>x.universityId==='HK-HKU'&&x.verification==='programme_page_checked').length,92);
- assert.deepEqual(routeSummary(routes),{groups:16,routes:39,pageChecked:39,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:205,categories:411,peerReviewed:0});
+ assert.deepEqual(routeSummary(routes),{groups:16,routes:39,pageChecked:39,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:218,categories:437,peerReviewed:0});
  for(const x of records){assert.equal(x.requirementsCoverage,'partial');assert.equal(x.lastChecked,'2026-10-31');assert.equal(x.reviewer,null);assert.equal(batch.pilotProgrammeIds.includes(x.id),false);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(p=>p.id===x.id))),false);assert.equal(validateProgramme(x,new Set(['HK-HKU'])),x);assert.equal(x.rules.some(r=>['gpa','classification','experience'].includes(r.kind)),false);}
 });
 
@@ -89,9 +89,9 @@ test('all exact noon rounds retain before/at-cutoff transitions without an assum
 
 test('temporary restarts retain unrelated parent objects and every existing applicant fingerprint without the daily database',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hku-humanities-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,312);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,205);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,328);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,218);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,556);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,585);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-10-31T08:00:00Z')});let base;

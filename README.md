@@ -8,16 +8,17 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 869 条；312 条有部分官方项目页观察，561 条仍为目录线索。完整要求集和独立人工复核均为 0。
-- 16 组／39 条方向快照、205 组／411 类申请者上下文分开计数。11 月 3 日维护快照有 556 个单元，5 个记录截止临近，失配绑定为 0。
-- 本轮补入港大医学、公共健康和商务法律的 7 个既有项目，共 12 个学习选项；港大为 92 个部分父记录／11 条线索。9 组／17 类上下文分别绑定；公共健康兼读制只提供有依据的本地类别，仍须主动选择。
+- 14 校、873 条目录记录，默认可浏览 866 条；328 条有部分官方项目页观察，545 条仍为目录线索。其中 531 条尚无项目页首轮核对、11 条分组父记录已有独立方向证据、3 条线索按范围留档。完整要求集和独立人工复核均为 0。
+- 16 组／39 条方向快照、218 组／437 类申请者上下文分开计数。11 月 3 日维护快照有 585 个单元，5 个记录截止临近，失配绑定为 0。
+- 本轮按学校完成 SUTD 剩余 16 条授课项目线索的首轮核对，增加 21 个学习选项、13 组／26 类费用与日期上下文；SUTD 为 18 个部分记录／1 条研究型范围留档线索。教育与金融科技须首学期赴中国、IC 失效分析须在苏州实习，3 条从默认候选中排除。
 - 商务法律一月批次已过截止，学费因年度／批次冲突保持未知；中医仍为旧年度，分方向截止不合并成通用日期，也不套用其他医学项目的语言分数。
 - 临床研究的英语门槛、学位授予时限和条件式清算轮次独立保存；生物医学创新的全日制必需活动与兼读制自选活动分开。各项目材料时限、推荐信和执业证明条件不互相复制。此前各批限制继续有效。
+- SUTD 的全日制费用按公民／PR 与国际类别显式选择；兼读制年度费率不改成固定两年总价，准证限制只绑定兼读选项。DAI-E 下届日期未知、MSSD 为已截止的 2026 批次，MUSPP 的 2027 窗口于 11 月 9 日才开始；不据未来截止宣称门户已开放。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。原核心 20 个 ID、71 种选择与 7 个模拟背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 W7 选定阶段版本已于 11 月 3 日推送为 [`checkpoint/week-07`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-07)，提交 `dff8b54`。该发布保留 20 条直接申请试点，加入比较、候选清单、公开引用导出及 5 条兼容的来源更新。这里的扩展目录和超前功能继续保存在本地；后续“继续”不触发重复小批推送。见[本次发布记录](docs/progress/2026-11-03-week-07-publication.md)。
 
-[HKU 质量表](docs/research/hku-medical-law-quality-2026-11-03.md) · [556 单元维护清单](docs/research/source-review-queue-2026-11-03-hku-medical-law.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-03-hku-medical-law.md) · [本批改动与限制](docs/progress/local-hku-medical-law-2026-11-03.md)
+[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-03.md) · [SUTD 质量表](docs/research/sutd-school-quality-2026-11-03.md) · [585 单元维护清单](docs/research/source-review-queue-2026-11-03-sutd-school.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-03-sutd-school.md) · [本批改动与限制](docs/progress/local-sutd-school-2026-11-03.md)
 
 [较早理学／创新科技及文科批次](docs/progress/local-hku-science-arts-2026-11-01.md)、[较早传媒与社会服务批次](docs/progress/local-hku-media-social-2026-11-01.md)、[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 

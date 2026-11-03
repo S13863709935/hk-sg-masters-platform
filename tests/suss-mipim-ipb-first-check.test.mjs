@@ -99,7 +99,7 @@ test('earlier MESG archives remain immutable and the added record creates no act
     'core-pilot-acceptance-2026-10-27-suss-mesg.md': 'fd6d2589b9dbd04d31787e398d3bc43b0d505e22a73bf6faff2dfc3298770c5b'
   };
   for (const [file, hash] of Object.entries(expected)) assert.equal(createHash('sha256').update(readFileSync(new URL('docs/research/' + file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 312); assert.equal(queue.counts.reviewUnits, 556);
+  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 328); assert.equal(queue.counts.reviewUnits, 585);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -113,7 +113,7 @@ test('first IP Business source migration preserves all other records and directo
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, directory); assert.deepEqual(db.all().filter(x => x.id !== p.id), previous);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 312); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 328); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -135,7 +135,7 @@ test('actual API/save/export preserves joint-application uncertainty and fee dif
   assert.equal(exported.offerings[0].tuition, null); assert.equal(exported.offerings[0].deadline, null); assert.match(exported.offerings[0].feeBasis, /Unreconciled quotes/);
   assert.equal(exported.evidence.publishedRequirements.find(r => /Applications to both/.test(r.labelEn)).mandatory, true);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 869); assert.equal(meta.quality.checked, 312);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 866); assert.equal(meta.quality.checked, 328);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 205, categories: 411, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 39); assert.equal(JSON.stringify(store.all()), before);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 218, categories: 437, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 39); assert.equal(JSON.stringify(store.all()), before);
 });

@@ -25,9 +25,9 @@ const resolve=(n,tag='FT',category)=>{const id=p(n).id,o=id+'-2027-'+tag;return 
 
 test('twenty existing HKBU identities gain partial English evidence without duplicating awards or claiming reviews',()=>{
  assert.equal(obs.programmeIds.length,20);assert.equal(new Set(obs.programmeIds).size,20);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,869);assert.equal(store.quality().checked,312);assert.equal(store.quality().complete,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,866);assert.equal(store.quality().checked,328);assert.equal(store.quality().complete,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
  assert.equal(store.all().filter(x=>x.universityId==='HK-HKBU'&&x.verification==='programme_page_checked').length,49);
- assert.deepEqual(routeSummary(routes),{groups:16,routes:39,pageChecked:39,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:205,categories:411,peerReviewed:0});
+ assert.deepEqual(routeSummary(routes),{groups:16,routes:39,pageChecked:39,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:218,categories:437,peerReviewed:0});
  for(const id of obs.programmeIds){const x=batch.programmes.find(x=>x.id===id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(x)),false);assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,'2026-10-31');assert.equal(batch.pilotProgrammeIds.includes(id),false);assert.ok(x.sources.some(s=>s.url===x.officialUrl&&s.checkedOn===x.lastChecked));}
 });
 
@@ -132,15 +132,15 @@ test('required overseas component and unconfirmed partner delivery are explicit 
  assert.equal(p(38).scope.status,'unconfirmed');assert.match(p(38).scope.reasonEn,/required overseas.*destination.*unconfirmed/i);
  assert.equal(p(40).scope.status,'unconfirmed');assert.match(p(40).scope.reasonEn,/does not establish required UK attendance/);
  for(const n of [38,40]){const m=match(n);assert.equal(m.status,'needs_confirmation');assert.ok(m.checks.some(c=>c.kind==='scope'&&c.status==='unknown'));assert.equal(m.tier,null);}
- assert.equal(read('data/programme-scope-audit.json').decisions.length,3);assert.equal(store.quality().browsable,869);
+ assert.equal(read('data/programme-scope-audit.json').decisions.length,6);assert.equal(store.quality().browsable,866);
 });
 
 test('isolated repeated source migration preserves earlier objects, stable IDs and category bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(x=>!ids.has(x.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hkbu-business-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
  try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));
-  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,312);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,205);db.close();db=null;}
+  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,328);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,218);db.close();db=null;}
  }finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,556);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,585);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-10-31T08:00:00Z')});let base;
