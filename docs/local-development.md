@@ -1,6 +1,6 @@
 # 本地运行与维护
 
-当前本地演示版本：0.1.0；维护说明更新于 2026-11-03。核心功能已进入冻结；本批按用户确认收敛条件摘要与数据质量，数据核验和公开部署尚未完成。本说明不是课程提交材料。
+当前本地演示版本：0.1.0；维护说明更新于 2026-11-04。核心功能已进入冻结；本批按用户确认收敛条件摘要与数据质量，数据核验和公开部署尚未完成。本说明不是课程提交材料。
 
 ## 开始使用
 
@@ -44,7 +44,7 @@ $env:PORT = '3103'
 
 `data/catalogue.json` 是从原始工作簿提取的 175 条种子，保留了旧稿的状态和备注。旧稿内容标签可能不准确，不作为本科专业门槛依据。旧要求备注不参与自动判断。
 
-`data/checked-programmes.json` 保存 373 条部分项目页记录，完整要求及独立复核为 0。11 月 3 日读取、4 日整理的岭南剩余批次补入 10 个既有项目、19 个父级批次／模式、2 个路径选项与 2 组／4 类上下文。总库 873／默认 865；方向 18 组／43 份、上下文 239 组／478 类，4 日维护 655 单元、近截止 7。岭南现有 44 条均有部分详情，未知字段和合作边界仍待解决。见[逐校清单](research/school-data-backlog-2026-11-04-lingnan-gs-remainder.md)、[数据说明](../data/README.md)与[本批记录](progress/local-lingnan-gs-remainder-2026-11-04.md)。
+`data/checked-programmes.json` 保存 373 条部分项目页记录，完整要求及独立复核为 0。11 月 3 日读取、4 日整理的岭南剩余批次补入 10 个既有项目、19 个父级批次／模式、2 个路径选项与 2 组／4 类上下文。总库 873／默认 865；方向 18 组／43 份、上下文 239 组／478 类，4 日维护 655 单元、近截止 7。岭南现有 44 条均有部分详情，未知字段和合作边界仍待解决。见[逐校清单](research/school-data-backlog-2026-11-04-eduhk-fehd.md)、[数据说明](../data/README.md)与[本批记录](progress/local-lingnan-gs-remainder-2026-11-04.md)。
 
 `data/route-programmes.json` 另存 18 组／43 条部分方向快照，独立复核 0。各方向、学制和申请类别分别保留原查阅日期及其来源；跨地区交付疑点继续明确记录。路径不增加父项目数量、不覆盖另一方向的条件，统计单独显示。
 
@@ -203,4 +203,4 @@ node scripts/check-data.mjs
 
 ## 逐校数据盘点
 
-`node scripts/school-data-backlog.mjs --as-of 2026-11-04` 只读仓库数据，在内存中划分项目页记录、未读线索、已具独立方向证据的分组父记录和范围留档线索，不访问日常数据库或网络。必须明确日期；日期不会重构历史版本，晚于快照的资料在 JSON 结果中标记。当前 [Markdown 快照](research/school-data-backlog-2026-11-04-lingnan-gs-remainder.md)与 [JSON 清单](../data/research/school-backlog-2026-11-04-lingnan-gs-remainder.json)保留 14 校统计和全部 485 条未读线索的 ID／官方 URL。部分父记录的未知字段和 not_published 分开，模式／类别证据可能另行解决父级未知项。学校未读数量为 0 仍须维护已查资料，不能据此声称完整达标。
+`node scripts/school-data-backlog.mjs --as-of 2026-11-04` 只读仓库数据，在内存中划分项目页记录、未读线索、已具独立方向证据的分组父记录和范围留档线索，不访问日常数据库或网络。必须明确日期；日期不会重构历史版本，晚于快照的资料在 JSON 结果中标记。当前 [Markdown 快照](research/school-data-backlog-2026-11-04-eduhk-fehd.md)与 [JSON 清单](../data/research/school-backlog-2026-11-04-eduhk-fehd.json)保留 14 校统计和全部 474 条未读线索的 ID／官方 URL。部分父记录的未知字段和 not_published 分开，模式／类别证据可能另行解决父级未知项。学校未读数量为 0 仍须维护已查资料，不能据此声称完整达标。

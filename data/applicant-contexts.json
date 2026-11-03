@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-11-03",
+  "checkedOn": "2026-11-04",
   "contexts": [
     {
       "programmeId": "HK-EDUHK-P001",
@@ -14413,6 +14413,1782 @@
           "deadline": "2027-06-30",
           "feeBasis": "Published 2027/28 programme tuition: HKD 150,000 for this exact mode/cohort. HKD 150,000 is SUBJECT TO FINAL APPROVAL. Programme-specific application quotes LOCAL 300 / NON-LOCAL 515 conflict with current central MASTER application fee 400; actual application fee remains NULL, with quotes retained per selected category. Old partner curriculum and LU/HKMU award conditions remain separate. Application fee HKD 400 is separate unless a programme-specific conflict is stated. Scholarships/loans, visa charges, graduation costs and extra courses are not guaranteed tuition discounts or bundled fees. Selected NONLOCAL programme application quote is HKD 515; central HKD 400 conflicts, so the payable application fee stays unknown.",
           "deadlineNote": "Recorded programme/cohort/mode window only; rolling capacity, extensions, live portal and exact cutoff time are not verified."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P007",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P007-2027-FT",
+      "offeringFingerprint": "c1dcd582177050da36cb9ef873ea110e25df369d67bcc9304315634944d07246",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P007-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 184,200. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 7,675 per credit for 24 credits.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P007-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 184,200. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 7,675 per credit for 24 credits.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P007",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P007-2027-PT",
+      "offeringFingerprint": "109e7fe2264690abe09e69935e27e3913885acacfcdce9b111cdc0ca9815ad21",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P007-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 184,200. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 7,675 per credit for 24 credits.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P007-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 184,200. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 7,675 per credit for 24 credits.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P013",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P013-2027-FT",
+      "offeringFingerprint": "ac26c98595da8440ed81e3b542292fbe60fe7acf1785c7015876e4d8278cefe5",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P013-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 146,640. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P013-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 183,300. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P020",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P020-2027-FT",
+      "offeringFingerprint": "66859189a5327d96d5534b5e9d3072f83a199bf654a400dd42962f6ac3a62195",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P020-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 199,800. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 6,660 per credit for 30 credits.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P020-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 199,800. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 6,660 per credit for 30 credits.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P020",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P020-2027-PT",
+      "offeringFingerprint": "3e48d7291111da41571a80162b84acbb5c577dc828ce0c22c6910af7ba84b0b6",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P020-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 199,800. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 6,660 per credit for 30 credits.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P020-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 199,800. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 6,660 per credit for 30 credits.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P023",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P023-2027-FT",
+      "offeringFingerprint": "a6bf300fb160f5755d269544b46708d4808f6a316a5ca139124e7bd2b0a9bfe5",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P023-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 185,966. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P023-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 185,966. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P026",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P026-2027-FT",
+      "offeringFingerprint": "3b2ff6c91c2abbaa8f9f69ca5f2a6aad5b1437b0fe6e4e9952e8f6f401b00edd",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P026-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 189,200. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P026-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 189,200. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P026",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P026-2027-PT",
+      "offeringFingerprint": "b87df3f60076f60193d7a8b47c5e5b58bb33c7feebce6fdac50b0be3c35bbc39",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P026-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 189,200. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P026-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 189,200. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P032",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P032-2027-FT",
+      "offeringFingerprint": "a3229e02413eecf300e8f034f012d3ba34371982438a8b07f67ccd2ee56752e7",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P032-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 170,040. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P032-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 170,040. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P032",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P032-2027-PT",
+      "offeringFingerprint": "9321628ac98ca2837efca51d1d25271760383b741405e989d94df5bb246a4232",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P032-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 170,040. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P032-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 170,040. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P049",
+      "routeId": "HK-EDUHK-P049-ROUTE-EN",
+      "offeringId": "HK-EDUHK-P049-EN-2027-FT",
+      "offeringFingerprint": "f4ef538cc07d215e88d31aa3acfe070692e377afc1e290d6663a1439b98debbf",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P049-EN-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 174200,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 174,200. Explicitly labelled 2027/28 tuition, PROVISIONAL subject to adjustment. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "tuitionEstimate": true
+        },
+        {
+          "id": "HK-EDUHK-P049-EN-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 174200,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 174,200. Explicitly labelled 2027/28 tuition, PROVISIONAL subject to adjustment. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "tuitionEstimate": true
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P049",
+      "routeId": "HK-EDUHK-P049-ROUTE-EN",
+      "offeringId": "HK-EDUHK-P049-EN-2027-PT",
+      "offeringFingerprint": "9d1ba4059d8256f185dfd60ca06d341717a1fd0792df3248ec1ea148100e4764",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P049-EN-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 174200,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 174,200. Explicitly labelled 2027/28 tuition, PROVISIONAL subject to adjustment. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "tuitionEstimate": true
+        },
+        {
+          "id": "HK-EDUHK-P049-EN-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 174200,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 174,200. Explicitly labelled 2027/28 tuition, PROVISIONAL subject to adjustment. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "tuitionEstimate": true
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P049",
+      "routeId": "HK-EDUHK-P049-ROUTE-ZH",
+      "offeringId": "HK-EDUHK-P049-ZH-2027-FT",
+      "offeringFingerprint": "4659b885a150bf97b2b5dd0cc7143add830c65c2ad8d59b74a61c117dda8318a",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10214",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10214",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P049-ZH-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 174200,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 174,200. Explicitly labelled 2027/28 tuition, PROVISIONAL subject to adjustment. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "tuitionEstimate": true
+        },
+        {
+          "id": "HK-EDUHK-P049-ZH-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 174200,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 174,200. Explicitly labelled 2027/28 tuition, PROVISIONAL subject to adjustment. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "tuitionEstimate": true
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P051",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P051-2027-FT",
+      "offeringFingerprint": "6e68b39afc37bc38c92620ada3a32616ab3f959e542f49d64cd11f6fb6615f52",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P051-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 628,074. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 7,754 per credit; programme is two years/five semesters.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P051-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 628,074. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. Displayed rate HKD 7,754 per credit; programme is two years/five semesters.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P053",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P053-2027-FT",
+      "offeringFingerprint": "726830983b38b4fe0360e5e54eab6c04a791d781db7eeeff3d0bf7c6258e26dc",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P053-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 207,900. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P053-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 207,900. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P056",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P056-2027-FT",
+      "offeringFingerprint": "11f5b37692bdb5a5f3c38fd35bf7c131dbab7f520c82620d68136b0ca325c2bf",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P056-2027-FT-LOCAL-NO-BRIDGE",
+          "label": "Local applicant — EdUHK category / bridge exemption confirmed",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 183,960 without the three-credit bridge. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. HKD 5,110 per credit; 36-credit base HKD 183,960 versus HKD 199,290 with the separate three-credit bridge. The department must confirm course equivalence; bridge credits do not count toward 36.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P056-2027-FT-LOCAL-BRIDGE",
+          "label": "Local applicant — EdUHK category / bridge required",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 199,290 including the required bridge. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. HKD 5,110 per credit; 36-credit base HKD 183,960 versus HKD 199,290 with the separate three-credit bridge. The department must confirm course equivalence; bridge credits do not count toward 36.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P056-2027-FT-NONLOCAL-NO-BRIDGE",
+          "label": "Non-local applicant — EdUHK category / bridge exemption confirmed",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 183,960 without the three-credit bridge. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. HKD 5,110 per credit; 36-credit base HKD 183,960 versus HKD 199,290 with the separate three-credit bridge. The department must confirm course equivalence; bridge credits do not count toward 36.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P056-2027-FT-NONLOCAL-BRIDGE",
+          "label": "Non-local applicant — EdUHK category / bridge required",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 199,290 including the required bridge. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. HKD 5,110 per credit; 36-credit base HKD 183,960 versus HKD 199,290 with the separate three-credit bridge. The department must confirm course equivalence; bridge credits do not count toward 36.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P056",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P056-2027-PT",
+      "offeringFingerprint": "250650b2cab00906ecbdcbfd5f16b7e67f4bce20a52efca4854cd0ac92562575",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P056-2027-PT-LOCAL-NO-BRIDGE",
+          "label": "Local applicant — EdUHK category / bridge exemption confirmed",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 183,960 without the three-credit bridge. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. HKD 5,110 per credit; 36-credit base HKD 183,960 versus HKD 199,290 with the separate three-credit bridge. The department must confirm course equivalence; bridge credits do not count toward 36.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P056-2027-PT-LOCAL-BRIDGE",
+          "label": "Local applicant — EdUHK category / bridge required",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 199,290 including the required bridge. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. HKD 5,110 per credit; 36-credit base HKD 183,960 versus HKD 199,290 with the separate three-credit bridge. The department must confirm course equivalence; bridge credits do not count toward 36.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P056-2027-PT-NONLOCAL-NO-BRIDGE",
+          "label": "Non-local applicant — EdUHK category / bridge exemption confirmed",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 183,960 without the three-credit bridge. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. HKD 5,110 per credit; 36-credit base HKD 183,960 versus HKD 199,290 with the separate three-credit bridge. The department must confirm course equivalence; bridge credits do not count toward 36.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P056-2027-PT-NONLOCAL-BRIDGE",
+          "label": "Non-local applicant — EdUHK category / bridge required",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 199,290 including the required bridge. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. HKD 5,110 per credit; 36-credit base HKD 183,960 versus HKD 199,290 with the separate three-credit bridge. The department must confirm course equivalence; bridge credits do not count toward 36.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P059",
+      "routeId": "HK-EDUHK-P059-ROUTE-EN",
+      "offeringId": "HK-EDUHK-P059-EN-2027-FT",
+      "offeringFingerprint": "40d851141a2b6eb6d4126d7d4fbdd180768c09d0782ee985971f7c177ee3a4b6",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=724",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=724",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P059-EN-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 160,000. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. English local HKD 160,000 / non-local HKD 200,000 is not copied into Chinese, whose displayed flat quote is HKD 200,000.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P059-EN-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 200,000. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. English local HKD 160,000 / non-local HKD 200,000 is not copied into Chinese, whose displayed flat quote is HKD 200,000.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P059",
+      "routeId": "HK-EDUHK-P059-ROUTE-ZH",
+      "offeringId": "HK-EDUHK-P059-ZH-2027-FT",
+      "offeringFingerprint": "e26ddd7f73510955f0cca54685d757dca586e932d9bec22d15cb7f2658a90623",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10627",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10627",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FEHD programme, language version, September2027 mode and EdUHK local/non-local category. Application fee local400/non-local500 is from the central guide in programme sources. Psychology bridge condition requires departmental confirmation. Only EPM labels tuition2027/28 explicitly; other quotes retain unknown numeric cohort tuition. Central rounds may close earlier; no applicant identity or bridge exemption inferred.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P059-ZH-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 200,000. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 400 local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. English local HKD 160,000 / non-local HKD 200,000 is not copied into Chinese, whose displayed flat quote is HKD 200,000.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        {
+          "id": "HK-EDUHK-P059-ZH-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Programme page displays HKD 200,000. The fee panel does NOT explicitly label its academic year. The current-page quote is retained here for reference; numeric 2027/28 tuition stays NULL pending cohort confirmation. Separate taught-master application fee: HKD 500 non-local under the central application guide. Scholarships, credit-transfer/exemption reductions, extra/extension fees, living and professional costs are not guaranteed discounts or an all-in price. English local HKD 160,000 / non-local HKD 200,000 is not copied into Chinese, whose displayed flat quote is HKD 200,000.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
         }
       ]
     }

@@ -143,6 +143,6 @@ test('refreshing stored facts does not add reviewed or complete records or mutat
   const before = JSON.stringify([store.get(cu.id), store.get(su.id)]);
   for (const id of [cu.id, su.id]) { const p = store.get(id); programmeTimeline(p, '2027-02-01'); matchProgramme(p, profile); shortlistExport([p]); }
   assert.equal(JSON.stringify([store.get(cu.id), store.get(su.id)]), before);
-  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 373);
+  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 384);
   assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0);
 });

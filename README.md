@@ -8,15 +8,17 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 865 条；373 条有部分官方项目页观察，500 条仍为目录线索。其中 485 条尚无项目页首轮核对、12 条分组父记录已有独立方向证据、3 条线索按范围留档。完整要求集和独立人工复核均为 0。
-- 18 组／43 条方向快照、239 组／478 类申请者上下文分开计数。11 月 4 日维护快照有 655 个单元，7 个记录截止临近，失配绑定为 0。
-- 本轮核对岭南剩余 10 条线索，新增 19 个父级批次／模式、2 条 ACHM 独立路径、2 组／4 类 SAG 上下文，共 22 种明确选择。现有岭南 44 条记录全部具备部分项目页详情，未读线索归零；合作院校范围、待批准费用、要求完整性和来源冲突仍未全部解决。
-- MRes 按官方授课型分类保留，不凭名称排除；ACHM 香港 HTM 单学位与 LU／Lincoln 双学位分开，港币／英镑不相加；SAG 的 LU／HKMU 合作边界及申请费冲突明确待确认。MCT 春季价格与要求不复制到下一学年，通用课程选择不等于每个方向均适用。来源于 11 月 3 日读取，11 月 4 日完成整理与核验，原查阅日保留。
+- 14 校、873 条目录记录，默认可浏览 865 条；384 条有部分官方项目页观察，489 条仍为目录线索。其中 474 条尚无项目页首轮核对、12 条分组父记录已有独立方向证据、3 条线索按范围留档。完整要求集和独立人工复核均为 0。
+- 20 组／47 条方向快照、258 组／520 类申请者上下文分开计数。11 月 4 日维护快照有 689 个单元，7 个记录截止临近，失配绑定为 0。
+- 本轮按学院核对教大教育及人类发展学院的 11 个既有项目、13 个中英文版本，补入 4 条独立语言路径、19 组／42 类模式与申请条件。现有教大 59 条目录中，13 条有部分详情、46 条尚未首轮核对。
+- 普通话证明、粤语条件、心理学桥梁课、2027/28 不招生的模式／方向分别保留；教学硕士不等于教师资格，优先背景和奖学金条件不当作硬性入学门槛。EPM 的学费明确标注 2027/28，其余未标学年的报价保留在说明中，数值学费待确认。本地／非本地申请费及三轮截止日期分别选择，无默认身份或保证录取。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。原核心 20 个 ID、71 种选择与 7 个模拟背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 W7 选定阶段版本已于 11 月 3 日推送为 [`checkpoint/week-07`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-07)，提交 `dff8b54`。该发布保留 20 条直接申请试点，加入比较、候选清单、公开引用导出及 5 条兼容的来源更新。这里的扩展目录和超前功能继续保存在本地；后续“继续”不触发重复小批推送。见[本次发布记录](docs/progress/2026-11-03-week-07-publication.md)。
 
-[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-04-lingnan-gs-remainder.md) · [岭南质量表](docs/research/hk-lu-quality-2026-11-04-lingnan-gs-remainder.md) · [本批改动与限制](docs/progress/local-lingnan-gs-remainder-2026-11-04.md) · [655 单元维护清单](docs/research/source-review-queue-2026-11-04-lingnan-gs-remainder.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-04-lingnan-gs-remainder.md)
+[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-04-eduhk-fehd.md) · [教大质量表](docs/research/hk-eduhk-quality-2026-11-04-eduhk-fehd.md) · [本批改动与限制](docs/progress/local-eduhk-fehd-2026-11-04.md) · [689 单元维护清单](docs/research/source-review-queue-2026-11-04-eduhk-fehd.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-04-eduhk-fehd.md)
+
+[较早岭南收尾批次](docs/progress/local-lingnan-gs-remainder-2026-11-04.md)保留当时来源、统计和限制。
 
 [3 日岭南人文／社科批次](docs/progress/local-lingnan-arts-social-2026-11-03.md)、[3 日岭南商科／数据科学批次](docs/progress/local-lingnan-business-data-2026-11-03.md)、[同日城大／港大收尾批次](docs/progress/local-cityu-hku-remainder-2026-11-03.md)、[同日 SUTD 批次](docs/progress/local-sutd-school-2026-11-03.md)、[同日港大医学批次](docs/progress/local-hku-medical-law-2026-11-03.md)、[较早理学／创新科技及文科批次](docs/progress/local-hku-science-arts-2026-11-01.md)、[较早传媒与社会服务批次](docs/progress/local-hku-media-social-2026-11-01.md)、[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-11-03",
+  "checkedOn": "2026-11-04",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -68672,6 +68672,1885 @@
           "purpose": "Official selected programme, cohort/mode, entry, fees, application, curriculum, partner or classification evidence; unresolved conditions remain explicit"
         }
       ]
+    },
+    {
+      "id": "HK-EDUHK-P007",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Arts in Child and Family Education",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor/master or equivalent; education, psychology or related study is PREFERRED, not a mandatory major list. Shortlisted applicants may have an interview/test. Thesis, Practice and Advanced Study tracks are allocated considering preference, background and quota; the Advanced Study courses are subject to 2027/28 approval. A thesis option does not make this taught degree a separate research programme.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P007-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "id": "HK-EDUHK-P007-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed equivalent",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "noteEn": "Recognised bachelor/master or equivalent; education, psychology or related study is PREFERRED, not a mandatory major list. Shortlisted applicants may have an interview/test. Thesis, Practice and Advanced Study tracks are allocated considering preference, background and quota; the Advanced Study courses are subject to 2027/28 approval. A thesis option does not make this taught degree a separate research programme."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded English test thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2025-01-01",
+          "testDateSourceUrl": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English alternatives, applicability and validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. CET-6 430 is an explicitly listed alternative. This programme page states two years without its own fixed-date example; the explicit 1 January 2025 cohort example is from the central 2027/28 entrance page."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. References/study statements are optional UNLESS the programme or actual application asks otherwise; no numeric mandatory referee count or personal document deadline is invented."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "noteEn": "Recognised bachelor/master or equivalent; education, psychology or related study is PREFERRED, not a mandatory major list. Shortlisted applicants may have an interview/test. Thesis, Practice and Advanced Study tracks are allocated considering preference, background and quota; the Advanced Study courses are subject to 2027/28 approval. A thesis option does not make this taught degree a separate research programme."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. CET-6 430 is an explicitly listed alternative. This programme page states two years without its own fixed-date example; the explicit 1 January 2025 cohort example is from the central 2027/28 entrance page."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=705",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P013",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Arts in Cultural Heritage Education and Management",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor or equivalent. A cultural/history/arts/education/management degree OR two years of relevant work is PREFERRED, not a universal work-year minimum. Heritage Education and Management is the available specialisation; Xiqu and part-time study are NOT offered in 2027/28. Interviews may be required. Docent membership/practice waivers are subject to the professional association, not automatic admission or licensing.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P013-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed equivalent",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "noteEn": "Recognised bachelor or equivalent. A cultural/history/arts/education/management degree OR two years of relevant work is PREFERRED, not a universal work-year minimum. Heritage Education and Management is the available specialisation; Xiqu and part-time study are NOT offered in 2027/28. Interviews may be required. Docent membership/practice waivers are subject to the professional association, not automatic admission or licensing."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chinese instruction and language evidence",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "noteEn": "High spoken/written Chinese proficiency. If BOTH native language is not Chinese AND no degree was Chinese-medium, HSK Level 6 OR equivalent is required; no English-test threshold is inferred."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. References/study statements are optional UNLESS the programme or actual application asks otherwise; no numeric mandatory referee count or personal document deadline is invented."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "noteEn": "Recognised bachelor or equivalent. A cultural/history/arts/education/management degree OR two years of relevant work is PREFERRED, not a universal work-year minimum. Heritage Education and Management is the available specialisation; Xiqu and part-time study are NOT offered in 2027/28. Interviews may be required. Docent membership/practice waivers are subject to the professional association, not automatic admission or licensing."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "noteEn": "High spoken/written Chinese proficiency. If BOTH native language is not Chinese AND no degree was Chinese-medium, HSK Level 6 OR equivalent is required; no English-test threshold is inferred."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=9118",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P020",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Arts in Educational Counselling",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor; background in education/guidance/counselling is PREFERRED. Shortlisted candidates must attend an interview or test. Practicum and Research streams share this degree identity, but only the Practicum Stream has the stated HKPCA professional/certified-counsellor pathway; Research does NOT lead to that qualification. Membership/application is not an automatic professional licence.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P020-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "id": "HK-EDUHK-P020-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed equivalent",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "noteEn": "Recognised bachelor; background in education/guidance/counselling is PREFERRED. Shortlisted candidates must attend an interview or test. Practicum and Research streams share this degree identity, but only the Practicum Stream has the stated HKPCA professional/certified-counsellor pathway; Research does NOT lead to that qualification. Membership/application is not an automatic professional licence."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded English test thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2025-01-01",
+          "testDateSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English alternatives, applicability and validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. CET-6 430 is an explicitly listed alternative. Practicum instruction is Chinese although classroom instruction is mainly English."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. References/study statements are optional UNLESS the programme or actual application asks otherwise; no numeric mandatory referee count or personal document deadline is invented."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "noteEn": "Recognised bachelor; background in education/guidance/counselling is PREFERRED. Shortlisted candidates must attend an interview or test. Practicum and Research streams share this degree identity, but only the Practicum Stream has the stated HKPCA professional/certified-counsellor pathway; Research does NOT lead to that qualification. Membership/application is not an automatic professional licence."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. CET-6 430 is an explicitly listed alternative. Practicum instruction is Chinese although classroom instruction is mainly English."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=230",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P023",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Arts in Global Studies in Education",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor or equivalent. Personal Study Statement of 500-1,000 words is REQUIRED, articulating interest in this programme. Shortlisted applicants may have an interview. This is the Chinese-medium 2027/28 version; the related English-medium page is explicitly marked NO ADMISSION in 2027/28 and is not added as an available option.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P023-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed equivalent",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "noteEn": "Recognised bachelor or equivalent. Personal Study Statement of 500-1,000 words is REQUIRED, articulating interest in this programme. Shortlisted applicants may have an interview. This is the Chinese-medium 2027/28 version; the related English-medium page is explicitly marked NO ADMISSION in 2027/28 and is not added as an available option."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chinese instruction and language evidence",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "noteEn": "For applicants from countries/regions where Chinese is NOT an official language, acceptable Chinese evidence is: HKEAA Advanced Level Putonghua pass; PSC Level 2B; LPAT(Putonghua oral) Level 3; OR new HSK Level 5 with at least 70 in EACH Listening/Reading/Writing AND HSKK Advanced at least 70. These are alternatives, not cumulative qualifications. No IELTS rule is copied from the English version; country/language applicability is assessed manually."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. Programme-specific Personal Study Statement of 500-1,000 words is REQUIRED. This overrides the generic optional-study-statement guidance. No mandatory referee count is established."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "noteEn": "Recognised bachelor or equivalent. Personal Study Statement of 500-1,000 words is REQUIRED, articulating interest in this programme. Shortlisted applicants may have an interview. This is the Chinese-medium 2027/28 version; the related English-medium page is explicitly marked NO ADMISSION in 2027/28 and is not added as an available option."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "noteEn": "For applicants from countries/regions where Chinese is NOT an official language, acceptable Chinese evidence is: HKEAA Advanced Level Putonghua pass; PSC Level 2B; LPAT(Putonghua oral) Level 3; OR new HSK Level 5 with at least 70 in EACH Listening/Reading/Writing AND HSKK Advanced at least 70. These are alternatives, not cumulative qualifications. No IELTS rule is copied from the English version; country/language applicability is assessed manually."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=10665",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P026",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Arts in Inclusive Early Childhood Education",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor or equivalent, preferably education/psychology/related disciplines. This preference is not a mandatory major list. Shortlisted applicants may have an interview/test. FT one year and PT two years are both listed; a sibling programme's PT closure is not inherited.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P026-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "id": "HK-EDUHK-P026-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed equivalent",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "noteEn": "Recognised bachelor or equivalent, preferably education/psychology/related disciplines. This preference is not a mandatory major list. Shortlisted applicants may have an interview/test. FT one year and PT two years are both listed; a sibling programme's PT closure is not inherited."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chinese instruction and language evidence",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "noteEn": "Chinese (mainly Putonghua) delivery is explicit, but no numeric Chinese-test floor/equivalence was established on the selected programme page. This is NOT evidence of an English waiver; applicability and language proof need confirmation."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. References/study statements are optional UNLESS the programme or actual application asks otherwise; no numeric mandatory referee count or personal document deadline is invented."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "noteEn": "Recognised bachelor or equivalent, preferably education/psychology/related disciplines. This preference is not a mandatory major list. Shortlisted applicants may have an interview/test. FT one year and PT two years are both listed; a sibling programme's PT closure is not inherited."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "noteEn": "Chinese (mainly Putonghua) delivery is explicit, but no numeric Chinese-test floor/equivalence was established on the selected programme page. This is NOT evidence of an English waiver; applicability and language proof need confirmation."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=9840",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P032",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Arts in Positive Psychology in Education",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor. No exhaustive mandatory undergraduate-major list or required psychology degree is established. Shortlisted applicants may have an interview or written/oral test. FT one year and PT two years have the same displayed whole-programme quote, not twice the PT tuition.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P032-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "id": "HK-EDUHK-P032-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed equivalent",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "noteEn": "Recognised bachelor. No exhaustive mandatory undergraduate-major list or required psychology degree is established. Shortlisted applicants may have an interview or written/oral test. FT one year and PT two years have the same displayed whole-programme quote, not twice the PT tuition."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded English test thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2025-01-01",
+          "testDateSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English alternatives, applicability and validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. CET-6 430 is an explicitly listed alternative."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. References/study statements are optional UNLESS the programme or actual application asks otherwise; no numeric mandatory referee count or personal document deadline is invented."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "noteEn": "Recognised bachelor. No exhaustive mandatory undergraduate-major list or required psychology degree is established. Shortlisted applicants may have an interview or written/oral test. FT one year and PT two years have the same displayed whole-programme quote, not twice the PT tuition."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. CET-6 430 is an explicitly listed alternative."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=4788",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P049",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Science in Education Policy and Management",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted grouped-language observation; choose separately sourced version",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor or equivalent; prior statistics/data-science knowledge is PREFERRED. Select the exact English or Chinese-medium version. English FT/PT and Chinese FT have different language evidence; English scores cannot stand for the Chinese route. Shortlisted applicants may have an interview.",
+      "directoryListing": {
+        "nameEn": "Master of Science in Education Policy and Management",
+        "checkedOn": "2026-11-04",
+        "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+        "programmeUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861",
+        "variants": [
+          {
+            "nameEn": "Master of Science in Education Policy and Management — English",
+            "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861"
+          },
+          {
+            "nameEn": "Master of Science in Education Policy and Management — Chinese (mainly Putonghua)",
+            "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10214"
+          }
+        ],
+        "noteEn": "2027 prospectus physically lists English and Chinese versions separately. Existing degree identity retained; version/mode/language/fees are not interchangeable."
+      },
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Choose the independently documented language version",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Recognised bachelor or equivalent; prior statistics/data-science knowledge is PREFERRED. Select the exact English or Chinese-medium version. English FT/PT and Chinese FT have different language evidence; English scores cannot stand for the Chinese route. Shortlisted applicants may have an interview."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P049-2027-GROUP",
+          "mode": null,
+          "duration": null,
+          "intake": "Language route selection required",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Choose language route, study mode and university-specific applicant category before interpreting fees or dates."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=9861",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        },
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=10214",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "2027 central prospectus lists both language versions."
+        },
+        "major": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Select language version for its entry and preference conditions."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "No numeric entry GPA established in either consulted programme page."
+        },
+        "language": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Choose exact language version; English tests are not copied into Chinese."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Choose version, mode and category; no shared/default whole-programme fee."
+        },
+        "deadline": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "Choose version, mode and category before applying central dates."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "No complete requirements or independent human review."
+        }
+      }
+    },
+    {
+      "id": "HK-EDUHK-P051",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Science in Educational Speech-Language Pathology and Learning Disabilities",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "The exact wording allows a recognised bachelor AND/OR postgraduate diploma in education, psychology, linguistics, speech/hearing sciences or another field accepted by the selection panel. Qualification level/equivalence must be assessed manually; no blanket bachelor-only failure is inferred. Chinese evidence AND Cantonese proficiency apply alongside applicable English evidence. Shortlisted applicants MUST attend an interview AND test, which weigh heavily. Full-time two years (five semesters), not a one-year programme; clinical/placement and professional recognition remain separate.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P051-2027-FT",
+          "mode": "Full-time",
+          "duration": "2 years (5 semesters)",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "noteEn": "The exact wording allows a recognised bachelor AND/OR postgraduate diploma in education, psychology, linguistics, speech/hearing sciences or another field accepted by the selection panel. Qualification level/equivalence must be assessed manually; no blanket bachelor-only failure is inferred. Chinese evidence AND Cantonese proficiency apply alongside applicable English evidence. Shortlisted applicants MUST attend an interview AND test, which weigh heavily. Full-time two years (five semesters), not a one-year programme; clinical/placement and professional recognition remain separate."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded English test thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2025-01-01",
+          "testDateSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English alternatives, applicability and validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. CET-6 430 is an explicitly listed alternative. Chinese proficiency and Cantonese are additional mandatory conditions, not replaced by an IELTS pass."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. October 2026 additional checklist explicitly asks for Chinese examination evidence. Programme accepts HKDSE Chinese 3, HKCEE Chinese E, HKALE AS Chinese Language & Culture E OR individually assessed alternative proof; Cantonese proficiency is separately required. A scholarship personal statement is for ADMITTED applicants, not a universal admissions statement."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chinese evidence, Cantonese and selection test",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "noteEn": "Chinese HKDSE Level 3 OR HKCEE E OR HKALE AS Chinese Language & Culture E OR individually assessed proof; ALSO proficient Cantonese. Shortlisted candidates must attend BOTH interview and test; IELTS alone is not eligibility confirmation."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "noteEn": "The exact wording allows a recognised bachelor AND/OR postgraduate diploma in education, psychology, linguistics, speech/hearing sciences or another field accepted by the selection panel. Qualification level/equivalence must be assessed manually; no blanket bachelor-only failure is inferred. Chinese evidence AND Cantonese proficiency apply alongside applicable English evidence. Shortlisted applicants MUST attend an interview AND test, which weigh heavily. Full-time two years (five semesters), not a one-year programme; clinical/placement and professional recognition remain separate."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. CET-6 430 is an explicitly listed alternative. Chinese proficiency and Cantonese are additional mandatory conditions, not replaced by an IELTS pass."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=231",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P053",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Science in Learning Sciences and Smart Education",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor or equivalent; shortlisted applicants may have an interview. Chinese (Putonghua) delivery. The page still lists a PT code/two-year norm but explicitly says PT is NOT offered in 2027/28; only FT one year is represented as available.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P053-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed equivalent",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "noteEn": "Recognised bachelor or equivalent; shortlisted applicants may have an interview. Chinese (Putonghua) delivery. The page still lists a PT code/two-year norm but explicitly says PT is NOT offered in 2027/28; only FT one year is represented as available."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chinese instruction and language evidence",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "noteEn": "Chinese (mainly Putonghua) delivery is explicit, but no numeric Chinese-test floor/equivalence was established on the selected programme page. This is NOT evidence of an English waiver; applicability and language proof need confirmation."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. References/study statements are optional UNLESS the programme or actual application asks otherwise; no numeric mandatory referee count or personal document deadline is invented."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "noteEn": "Recognised bachelor or equivalent; shortlisted applicants may have an interview. Chinese (Putonghua) delivery. The page still lists a PT code/two-year norm but explicitly says PT is NOT offered in 2027/28; only FT one year is represented as available."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "noteEn": "Chinese (mainly Putonghua) delivery is explicit, but no numeric Chinese-test floor/equivalence was established on the selected programme page. This is NOT evidence of an English waiver; applicability and language proof need confirmation."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=9112",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P056",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Social Sciences in Psychology (Schools and Community Settings)",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted selected official HTML/PDF observation; independent review and unresolved cohort fees remain pending",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Conversion programme for non-psychology degree holders, especially educators/community workers. Introductory psychology is PREFERRED for admission, but applicants lacking an undergraduate-or-higher recognised introductory psychology course MUST complete the three-credit online bridge BEFORE other courses. Its credits do not count towards the 36-credit degree. The department determines whether it is needed; no exemption is inferred from the broad major label. Optional dissertation and prospective HKPS membership do not guarantee clinical/educational-psychologist qualification.",
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P056-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+            "checkedOn": "2026-11-04"
+          }
+        },
+        {
+          "id": "HK-EDUHK-P056-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Select the exact EdUHK local/non-local and, where needed, department-confirmed bridge condition. No default fee or deadline is assumed.",
+          "deadlineNote": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+            "checkedOn": "2026-11-04"
+          }
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor or assessed equivalent",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme academic and preparatory conditions",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "noteEn": "Conversion programme for non-psychology degree holders, especially educators/community workers. Introductory psychology is PREFERRED for admission, but applicants lacking an undergraduate-or-higher recognised introductory psychology course MUST complete the three-credit online bridge BEFORE other courses. Its credits do not count towards the 36-credit degree. The department determines whether it is needed; no exemption is inferred from the broad major label. Optional dissertation and prospective HKPS membership do not guarantee clinical/educational-psychologist qualification."
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Recorded English test thresholds",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "singleAttempt": true,
+          "atHomeAccepted": false,
+          "testDateNotBefore": "2025-01-01",
+          "testDateSourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English alternatives, applicability and validity",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. This programme does NOT list CET-6: sibling/general CET-6 430 is not treated as confirmed acceptance here."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Documents, referees and personal timing",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "noteEn": "October 2026 central checklist distinguishes final-year/graduate/EdUHK-graduate and qualification-location documents. Transcripts, degree/status evidence and applicable language evidence are required as relevant. CHSI/CSCSE/HKCAAVQ verification applies only to the stated background; non-English/non-Chinese documents need certified English translation. Originals/certified copies are normally not required at application, but official direct transmission can be requested before offer confirmation/registration. No private documents are collected by this platform. October 2026 additional checklist requires a transcript showing Psychology courses/modules. Programme RECOMMENDS a personal statement up to 400 words; this is not a mandatory 400-word minimum. Bridge applicability and prior course equivalence remain manual; no referee count is inferred."
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Prior psychology course and mandatory bridge",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "noteEn": "A recognised undergraduate-or-higher introductory psychology course or equivalent must be assessed. If absent, the three-credit online bridge is required BEFORE other courses, with extra quoted fees and credits outside the 36-credit degree. Choose a bridge-fee condition only after departmental confirmation; no automatic exemption."
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Central 2027 prospectus physically lists this FEHD taught degree/language version; pages 3-4 were visually inspected. This is not a fee-year label."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "noteEn": "Conversion programme for non-psychology degree holders, especially educators/community workers. Introductory psychology is PREFERRED for admission, but applicants lacking an undergraduate-or-higher recognised introductory psychology course MUST complete the three-credit online bridge BEFORE other courses. Its credits do not count towards the 36-credit degree. The department determines whether it is needed; no exemption is inferred from the broad major label. Optional dissertation and prospective HKPS membership do not guarantee clinical/educational-psychologist qualification."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "noteEn": "No numeric undergraduate-entry GPA floor established; preference, scholarship, graduation and professional criteria are not admission GPA."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "noteEn": "For an entrance qualification from a non-English-speaking system, programme alternatives include IELTS Academic 6.0, old TOEFL iBT 80 BEFORE 21 January 2026, new TOEFL 4.0 FROM that date, GCSE/GCE OL English C and assessed equivalents. Test-centre results only; TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are excluded. English-MOI/equivalence requires university assessment, not an automatic country-based waiver. The source says valid within two years AND gives the 2027/28 example of tests on/after 1 January 2025; retain both statements, without inventing a rolling expiry from today. This programme does NOT list CET-6: sibling/general CET-6 430 is not treated as confirmed acceptance here."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "noteEn": "Choose exact applicant/bridge category. Displayed tuition quotes have no explicit fee-panel academic-year label, so numeric 2027/28 tuition remains NULL. Quotes and conditions are retained in the category fee basis."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "September 2027 CENTRAL TPG schedule: opens 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final 10 May 2027 non-local / 31 May 2027 local. Programmes may close earlier subject to capacity; no later-round opening dates, exact cutoff times, guaranteed live opening or offer-announcement-as-deadline is inferred. This is NOT the separately scheduled MSocSc Educational Psychology."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "noteEn": "AI-assisted partial official observation only; no independent human review or complete qualification/recognition judgement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=826",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        }
+      ]
+    },
+    {
+      "id": "HK-EDUHK-P059",
+      "universityId": "HK-EDUHK",
+      "name": "Master of Teaching",
+      "award": "Master",
+      "area": "Education",
+      "faculty": "Faculty of Education and Human Development",
+      "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=724",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted grouped-language observation; choose separately sourced version",
+      "lastChecked": "2026-11-04",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official programme and central admission-source reading",
+      "reviewer": null,
+      "researchBatch": "eduhk-fehd-2026-11-04",
+      "notesZh": "",
+      "notesEn": "Recognised bachelor; recognised teacher qualification is PREFERRED, not a mandatory prior licence. Both language versions are FT one year. This degree DOES NOT lead to Qualified Teacher Status. The scholarship's one-year teaching/relevant-work condition, recommendation letter and 1 September date are NOT universal admission requirements or the application deadline. Chinese and English specialisation lists cross-reference each other and must not be combined.",
+      "directoryListing": {
+        "nameEn": "Master of Teaching",
+        "checkedOn": "2026-11-04",
+        "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+        "programmeUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=724",
+        "variants": [
+          {
+            "nameEn": "Master of Teaching — English",
+            "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=724"
+          },
+          {
+            "nameEn": "Master of Teaching — Chinese (mainly Putonghua)",
+            "officialUrl": "https://www.eduhk.hk/fehd/en/programmes.php?id=10627"
+          }
+        ],
+        "noteEn": "2027 prospectus physically lists English and Chinese versions separately. Existing degree identity retained; version/mode/language/fees are not interchangeable."
+      },
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Choose the independently documented language version",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Recognised bachelor; recognised teacher qualification is PREFERRED, not a mandatory prior licence. Both language versions are FT one year. This degree DOES NOT lead to Qualified Teacher Status. The scholarship's one-year teaching/relevant-work condition, recommendation letter and 1 September date are NOT universal admission requirements or the application deadline. Chinese and English specialisation lists cross-reference each other and must not be combined."
+        }
+      ],
+      "offerings": [
+        {
+          "id": "HK-EDUHK-P059-2027-GROUP",
+          "mode": null,
+          "duration": null,
+          "intake": "Language route selection required",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "Choose language route, study mode and university-specific applicant category before interpreting fees or dates."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=724",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "2027 taught prospectus, physical pages 3-4: FEHD membership/language classification only, not fee-year confirmation"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "September 2027 central application rounds and local/non-local final deadlines"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "General entrance conditions; explicit 2027/28 fixed test-date example"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/application/index.html",
+          "checkedOn": "2026-11-04",
+          "purpose": "Central taught-master application fee: local400/non-local500"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 conditional qualification-document checklist"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+          "checkedOn": "2026-11-04",
+          "purpose": "October 2026 programme-specific additional documents; references/statements conditional"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "checkedOn": "2026-11-04",
+          "purpose": "Certified translation, pending test reports, teacher qualification and official-document verification conditions"
+        },
+        {
+          "url": "https://www.eduhk.hk/fehd/en/programmes.php?id=10627",
+          "checkedOn": "2026-11-04",
+          "purpose": "Exact programme/language page: entry, instruction, delivery, fees, curriculum and restrictions"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "2027 central prospectus lists both language versions."
+        },
+        "major": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Select language version for its entry and preference conditions."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "No numeric entry GPA established in either consulted programme page."
+        },
+        "language": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Choose exact language version; English tests are not copied into Chinese."
+        },
+        "tuition": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "Choose version, mode and category; no shared/default whole-programme fee."
+        },
+        "deadline": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "noteEn": "Choose version, mode and category before applying central dates."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+          "noteEn": "No complete requirements or independent human review."
+        }
+      }
     }
   ]
 }

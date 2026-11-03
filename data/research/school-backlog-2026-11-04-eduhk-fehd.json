@@ -1,0 +1,2813 @@
+{
+  "schemaVersion": 1,
+  "asOfDate": "2026-11-04",
+  "basis": "Inventory of existing repository records, not a certified complete current university catalogue or a new source review.",
+  "counts": {
+    "schools": 14,
+    "catalogueRecords": 873,
+    "pageCheckedRecords": 384,
+    "partialRecords": 384,
+    "completeRecords": 0,
+    "catalogueLeads": 489,
+    "routeCoveredLeads": 12,
+    "scopeHeldLeads": 3,
+    "unreadLeads": 474
+  },
+  "schools": [
+    {
+      "schoolId": "HK-CITYU",
+      "catalogueRecords": 62,
+      "partialRecords": 61,
+      "pageCheckedRecords": 61,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 1,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 61,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 0,
+        "language": 1,
+        "tuition": 3,
+        "deadline": 2
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 18,
+        "gpa": 61,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-CUHK",
+      "catalogueRecords": 129,
+      "partialRecords": 1,
+      "pageCheckedRecords": 1,
+      "completeRecords": 0,
+      "catalogueLeads": 128,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 128,
+      "activePageCheckedRecords": 1,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 1,
+        "gpa": 0,
+        "language": 0,
+        "tuition": 1,
+        "deadline": 0
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 1,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": [
+        {
+          "programmeId": "HK-CUHK-P002",
+          "name": "MA Christian Studies",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P003",
+          "name": "Master of Divinity",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P004",
+          "name": "MA Buddhist Studies",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P005",
+          "name": "MSc Cardiology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P006",
+          "name": "MSc Clinical Gerontology and End-of-Life Care",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P007",
+          "name": "MSc Endocrinology, Diabetes and Metabolism",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P008",
+          "name": "MSc Gastroenterology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P009",
+          "name": "MSc Stroke and Clinical Neurosciences",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P010",
+          "name": "Master of Chinese Medicine",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P011",
+          "name": "MSc Digital Economy and Artificial Intelligence",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P012",
+          "name": "MSc Economics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P013",
+          "name": "MA Global Communication",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P014",
+          "name": "MA Journalism",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P015",
+          "name": "MSc Artificial Intelligence and Communication",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P016",
+          "name": "MSc New Media",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P017",
+          "name": "MSocSc Advertising",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P018",
+          "name": "MSocSc Corporate Communication",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P019",
+          "name": "Master of Architecture",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P020",
+          "name": "MSc Urban Design",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programme-filter"
+        },
+        {
+          "programmeId": "HK-CUHK-P021",
+          "name": "Dual Degree - MSc in Applied Economics (CUHK) and MS in Social and Economic Policy (Northwestern University)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/dual-degree-msc-applied-economics-cuhk-and-ms-social-and-economic-policy"
+        },
+        {
+          "programmeId": "HK-CUHK-P022",
+          "name": "Executive MBA",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/executive-mba"
+        },
+        {
+          "programmeId": "HK-CUHK-P023",
+          "name": "Executive MBA (Chinese)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/executive-mba-chinese"
+        },
+        {
+          "programmeId": "HK-CUHK-P024",
+          "name": "MA in China Studies",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-china-studies"
+        },
+        {
+          "programmeId": "HK-CUHK-P025",
+          "name": "MA in Chinese Art History",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-art-history"
+        },
+        {
+          "programmeId": "HK-CUHK-P026",
+          "name": "MA in Chinese Language and Literature",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-language-and-literature"
+        },
+        {
+          "programmeId": "HK-CUHK-P027",
+          "name": "MA in Chinese Language Education",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/ma-chinese-language-education"
+        },
+        {
+          "programmeId": "HK-CUHK-P028",
+          "name": "MA in Chinese Linguistics and Language Acquisition",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-linguistics-and-language-acquisition"
+        },
+        {
+          "programmeId": "HK-CUHK-P029",
+          "name": "MA in Comparative and Public History",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-comparative-and-public-history"
+        },
+        {
+          "programmeId": "HK-CUHK-P030",
+          "name": "MA in Cultural Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-cultural-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P031",
+          "name": "MA in Early Childhood Education",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/ma-early-childhood-education"
+        },
+        {
+          "programmeId": "HK-CUHK-P032",
+          "name": "MA in English (Applied English Linguistics)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-applied-english-linguistics"
+        },
+        {
+          "programmeId": "HK-CUHK-P033",
+          "name": "MA in English (Literary Studies)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies"
+        },
+        {
+          "programmeId": "HK-CUHK-P034",
+          "name": "MA in English Language Teaching",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/ma-english-language-teaching"
+        },
+        {
+          "programmeId": "HK-CUHK-P035",
+          "name": "MA in Family Counselling and Family Education",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/ma-family-counselling-and-family-education"
+        },
+        {
+          "programmeId": "HK-CUHK-P036",
+          "name": "MA in Fine Arts",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-fine-arts"
+        },
+        {
+          "programmeId": "HK-CUHK-P037",
+          "name": "MA in Gender Studies",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/inter-faculty/ma-gender-studies"
+        },
+        {
+          "programmeId": "HK-CUHK-P038",
+          "name": "MA in Intercultural Studies",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-intercultural-studies"
+        },
+        {
+          "programmeId": "HK-CUHK-P039",
+          "name": "MA in Japanese Studies",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-japanese-studies"
+        },
+        {
+          "programmeId": "HK-CUHK-P040",
+          "name": "MA in Linguistics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-linguistics"
+        },
+        {
+          "programmeId": "HK-CUHK-P041",
+          "name": "MA in Music",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-music"
+        },
+        {
+          "programmeId": "HK-CUHK-P042",
+          "name": "MA in Philosophy",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-philosophy"
+        },
+        {
+          "programmeId": "HK-CUHK-P043",
+          "name": "MA in Professional Educational Psychology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/ma-professional-educational-psychology"
+        },
+        {
+          "programmeId": "HK-CUHK-P044",
+          "name": "MA in Psychology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/ma-psychology"
+        },
+        {
+          "programmeId": "HK-CUHK-P045",
+          "name": "MA in Religious Studies",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-religious-studies"
+        },
+        {
+          "programmeId": "HK-CUHK-P046",
+          "name": "MA in School Guidance and Counselling",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/ma-school-guidance-and-counselling"
+        },
+        {
+          "programmeId": "HK-CUHK-P047",
+          "name": "MA in School Improvement and Leadership",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/ma-school-improvement-and-leadership"
+        },
+        {
+          "programmeId": "HK-CUHK-P048",
+          "name": "MA in Social Policy",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/ma-social-policy"
+        },
+        {
+          "programmeId": "HK-CUHK-P049",
+          "name": "MA in Social Service Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/ma-social-service-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P050",
+          "name": "MA in Sociology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/ma-sociology"
+        },
+        {
+          "programmeId": "HK-CUHK-P051",
+          "name": "MA in Teaching English to Speakers of Other Languages",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/ma-teaching-english-speakers-other-languages"
+        },
+        {
+          "programmeId": "HK-CUHK-P052",
+          "name": "MA in Translation",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-translation"
+        },
+        {
+          "programmeId": "HK-CUHK-P053",
+          "name": "Master of Accountancy",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/master-accountancy"
+        },
+        {
+          "programmeId": "HK-CUHK-P054",
+          "name": "Master of Clinical Pharmacy",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/master-clinical-pharmacy"
+        },
+        {
+          "programmeId": "HK-CUHK-P055",
+          "name": "Master of Education",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/master-education"
+        },
+        {
+          "programmeId": "HK-CUHK-P056",
+          "name": "Master of Education in Teaching in Key Subject Areas (National Excellent Teacher Training Initiative)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/master-education-teaching-key-subject-areas-national-excellent-teacher"
+        },
+        {
+          "programmeId": "HK-CUHK-P057",
+          "name": "Master of Laws in AI Law",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/law/master-laws-ai-law"
+        },
+        {
+          "programmeId": "HK-CUHK-P058",
+          "name": "Master of Laws in Chinese Business Law",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/law/master-laws-chinese-business-law"
+        },
+        {
+          "programmeId": "HK-CUHK-P059",
+          "name": "Master of Laws in Common Law",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/law/master-laws-common-law"
+        },
+        {
+          "programmeId": "HK-CUHK-P060",
+          "name": "Master of Laws in Energy and Environmental Law",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/law/master-laws-energy-and-environmental-law"
+        },
+        {
+          "programmeId": "HK-CUHK-P061",
+          "name": "Master of Laws in International Economic Law",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/law/master-laws-international-economic-law"
+        },
+        {
+          "programmeId": "HK-CUHK-P062",
+          "name": "Master of Laws in Legal History",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/law/master-laws-legal-history"
+        },
+        {
+          "programmeId": "HK-CUHK-P063",
+          "name": "Master of Nursing",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/master-nursing"
+        },
+        {
+          "programmeId": "HK-CUHK-P064",
+          "name": "Master of Nursing Science (Pre-registration)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/master-nursing-science-pre-registration"
+        },
+        {
+          "programmeId": "HK-CUHK-P065",
+          "name": "Master of Public Health",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/master-public-health"
+        },
+        {
+          "programmeId": "HK-CUHK-P066",
+          "name": "Master of Science in Global Wealth Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/master-science-global-wealth-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P067",
+          "name": "Master of Social Work",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/master-social-work"
+        },
+        {
+          "programmeId": "HK-CUHK-P068",
+          "name": "MBA",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/mba"
+        },
+        {
+          "programmeId": "HK-CUHK-P069",
+          "name": "MBA in Finance",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/mba-finance"
+        },
+        {
+          "programmeId": "HK-CUHK-P070",
+          "name": "MSc in Accreditation Chemistry",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-accreditation-chemistry"
+        },
+        {
+          "programmeId": "HK-CUHK-P071",
+          "name": "MSc in Actuarial Science and Insurance Analytics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-actuarial-science-and-insurance-analytics"
+        },
+        {
+          "programmeId": "HK-CUHK-P072",
+          "name": "MSc in Advanced Materials Science",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-advanced-materials-science"
+        },
+        {
+          "programmeId": "HK-CUHK-P073",
+          "name": "MSc in Advanced Studies in Statistics and Data Science",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-advanced-studies-statistics-and-data-science"
+        },
+        {
+          "programmeId": "HK-CUHK-P074",
+          "name": "MSc in Artificial Intelligence",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-artificial-intelligence"
+        },
+        {
+          "programmeId": "HK-CUHK-P075",
+          "name": "MSc in Artificial Intelligence for Science",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-artificial-intelligence-science"
+        },
+        {
+          "programmeId": "HK-CUHK-P076",
+          "name": "MSc in Aviation Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-aviation-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P077",
+          "name": "MSc in Biochemical and Biomedical Sciences",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-biochemical-and-biomedical-sciences"
+        },
+        {
+          "programmeId": "HK-CUHK-P078",
+          "name": "MSc in Biodiversity, Environmental Management, Sustainability and Technology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-biodiversity-environmental-management-sustainability-and-technology"
+        },
+        {
+          "programmeId": "HK-CUHK-P079",
+          "name": "MSc in Biomedical Engineering",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-biomedical-engineering"
+        },
+        {
+          "programmeId": "HK-CUHK-P080",
+          "name": "MSc in Business Analytics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-business-analytics"
+        },
+        {
+          "programmeId": "HK-CUHK-P081",
+          "name": "MSc in Chinese Medicine",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-chinese-medicine"
+        },
+        {
+          "programmeId": "HK-CUHK-P082",
+          "name": "MSc in Chinese Medicine Pharmacology and Drug Development",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-chinese-medicine-pharmacology-and-drug-development"
+        },
+        {
+          "programmeId": "HK-CUHK-P083",
+          "name": "MSc in Computer Science",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-computer-science"
+        },
+        {
+          "programmeId": "HK-CUHK-P084",
+          "name": "MSc in Data Science and Business Statistics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-data-science-and-business-statistics"
+        },
+        {
+          "programmeId": "HK-CUHK-P085",
+          "name": "MSc in E-Commerce and Logistics Technologies",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-e-commerce-and-logistics-technologies"
+        },
+        {
+          "programmeId": "HK-CUHK-P086",
+          "name": "MSc in Earth and Environmental Analytics for Sustainability",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-earth-and-environmental-analytics-sustainability"
+        },
+        {
+          "programmeId": "HK-CUHK-P087",
+          "name": "MSc in Electronic Engineering",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering"
+        },
+        {
+          "programmeId": "HK-CUHK-P088",
+          "name": "MSc in Environmental Information, Health and Public Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/msc-environmental-information-health-and-public-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P089",
+          "name": "MSc in Epidemiology and Biostatistics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-epidemiology-and-biostatistics"
+        },
+        {
+          "programmeId": "HK-CUHK-P090",
+          "name": "MSc in Family Business Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-family-business-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P091",
+          "name": "MSc in Finance",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-finance"
+        },
+        {
+          "programmeId": "HK-CUHK-P092",
+          "name": "MSc in Financial Technology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-financial-technology"
+        },
+        {
+          "programmeId": "HK-CUHK-P093",
+          "name": "MSc in Genomics and Bioinformatics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-genomics-and-bioinformatics"
+        },
+        {
+          "programmeId": "HK-CUHK-P094",
+          "name": "MSc in GeoInformation Science and Smart Cities",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/msc-geoinformation-science-and-smart-cities"
+        },
+        {
+          "programmeId": "HK-CUHK-P095",
+          "name": "MSc in Health Services Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-health-services-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P096",
+          "name": "MSc in Information and Technology Management (Part-time Mode Only)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-information-and-technology-management-part-time-mode-only"
+        },
+        {
+          "programmeId": "HK-CUHK-P097",
+          "name": "MSc in Information Engineering",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-information-engineering"
+        },
+        {
+          "programmeId": "HK-CUHK-P098",
+          "name": "MSc in Information Science and Technology Management (Full-time Mode Only)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-information-science-and-technology-management-full-time-mode"
+        },
+        {
+          "programmeId": "HK-CUHK-P099",
+          "name": "MSc in Landscape Architecture",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/msc-landscape-architecture"
+        },
+        {
+          "programmeId": "HK-CUHK-P100",
+          "name": "MSc in Leadership for Experience Economy",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-leadership-experience-economy"
+        },
+        {
+          "programmeId": "HK-CUHK-P101",
+          "name": "MSc in Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P102",
+          "name": "MSc in Marketing",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-marketing"
+        },
+        {
+          "programmeId": "HK-CUHK-P103",
+          "name": "MSc in Maternal Fetal Medicine",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-maternal-fetal-medicine"
+        },
+        {
+          "programmeId": "HK-CUHK-P104",
+          "name": "MSc in Mathematics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-mathematics"
+        },
+        {
+          "programmeId": "HK-CUHK-P105",
+          "name": "MSc in Mathematics Education",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/msc-mathematics-education"
+        },
+        {
+          "programmeId": "HK-CUHK-P106",
+          "name": "MSc in Mechanical and Automation Engineering",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-mechanical-and-automation-engineering"
+        },
+        {
+          "programmeId": "HK-CUHK-P107",
+          "name": "MSc in Medical Laboratory Sciences",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-medical-laboratory-sciences"
+        },
+        {
+          "programmeId": "HK-CUHK-P108",
+          "name": "MSc in Microelectronics and Integrated Circuits",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits"
+        },
+        {
+          "programmeId": "HK-CUHK-P109",
+          "name": "MSc in Musculoskeletal Medicine, Rehabilitation and Geriatric Orthopaedics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-musculoskeletal-medicine-rehabilitation-and-geriatric-orthopaedics"
+        },
+        {
+          "programmeId": "HK-CUHK-P110",
+          "name": "MSc in Nutrition, Food Science and Technology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-nutrition-food-science-and-technology"
+        },
+        {
+          "programmeId": "HK-CUHK-P111",
+          "name": "MSc in Obstetric and Midwifery Care",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-obstetric-and-midwifery-care"
+        },
+        {
+          "programmeId": "HK-CUHK-P112",
+          "name": "MSc in Physics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-physics"
+        },
+        {
+          "programmeId": "HK-CUHK-P113",
+          "name": "MSc in Prehospital and Emergency Care",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-prehospital-and-emergency-care"
+        },
+        {
+          "programmeId": "HK-CUHK-P114",
+          "name": "MSc in Real Estate",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-real-estate"
+        },
+        {
+          "programmeId": "HK-CUHK-P115",
+          "name": "MSc in Risk Management Science and Data Analytics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/science/msc-risk-management-science-and-data-analytics"
+        },
+        {
+          "programmeId": "HK-CUHK-P116",
+          "name": "MSc in Robotics",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics"
+        },
+        {
+          "programmeId": "HK-CUHK-P117",
+          "name": "MSc in Sports Business Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-sports-business-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P118",
+          "name": "MSc in Sports Medicine and Health Science",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/medicine/msc-sports-medicine-and-health-science"
+        },
+        {
+          "programmeId": "HK-CUHK-P119",
+          "name": "MSc in Sports Science and Physical Activity",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/education/msc-sports-science-and-physical-activity"
+        },
+        {
+          "programmeId": "HK-CUHK-P120",
+          "name": "MSc in Sustainable Global Business",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-sustainable-global-business"
+        },
+        {
+          "programmeId": "HK-CUHK-P121",
+          "name": "MSc in Sustainable Urban Planning",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/msc-sustainable-urban-planning"
+        },
+        {
+          "programmeId": "HK-CUHK-P122",
+          "name": "MSc in Systems Engineering and Engineering Management",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-systems-engineering-and-engineering-management"
+        },
+        {
+          "programmeId": "HK-CUHK-P123",
+          "name": "MSSc in Clinical Psychology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-clinical-psychology"
+        },
+        {
+          "programmeId": "HK-CUHK-P124",
+          "name": "MSSc in Global Political Economy",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-global-political-economy"
+        },
+        {
+          "programmeId": "HK-CUHK-P125",
+          "name": "MSSc in Government and Politics (Greater China)",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-government-and-politics-greater-china"
+        },
+        {
+          "programmeId": "HK-CUHK-P126",
+          "name": "MSSc in Industrial-Organizational Psychology",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-industrial-organizational-psychology"
+        },
+        {
+          "programmeId": "HK-CUHK-P127",
+          "name": "MSSc in Public Policy",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-public-policy"
+        },
+        {
+          "programmeId": "HK-CUHK-P128",
+          "name": "MSSc in Social Work",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-social-work"
+        },
+        {
+          "programmeId": "HK-CUHK-P129",
+          "name": "MSSc in Sustainable Tourism",
+          "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-sustainable-tourism"
+        }
+      ]
+    },
+    {
+      "schoolId": "HK-EDUHK",
+      "catalogueRecords": 59,
+      "partialRecords": 13,
+      "pageCheckedRecords": 13,
+      "completeRecords": 0,
+      "catalogueLeads": 46,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 46,
+      "activePageCheckedRecords": 13,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 4,
+        "gpa": 0,
+        "language": 5,
+        "tuition": 11,
+        "deadline": 3
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 1,
+        "gpa": 13,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": [
+        {
+          "programmeId": "HK-EDUHK-P002",
+          "name": "Master of Management",
+          "officialUrl": "https://www.eduhk.hk/acadprog/postgrad/"
+        },
+        {
+          "programmeId": "HK-EDUHK-P003",
+          "name": "Master of Global Management",
+          "officialUrl": "https://www.eduhk.hk/acadprog/postgrad/"
+        },
+        {
+          "programmeId": "HK-EDUHK-P004",
+          "name": "Executive Master of Public Administration and Leadership",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/empal"
+        },
+        {
+          "programmeId": "HK-EDUHK-P005",
+          "name": "Master of Arts in Beauty and Lifestyle (Organisational Operations and Management)",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MABLOOM"
+        },
+        {
+          "programmeId": "HK-EDUHK-P006",
+          "name": "Master of Arts in Belt and Road Business Communication and Administration",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-belt-and-road-business-communication-and-administration"
+        },
+        {
+          "programmeId": "HK-EDUHK-P008",
+          "name": "Master of Arts in China’s Global Diplomacy and International Relations",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MACGDIR"
+        },
+        {
+          "programmeId": "HK-EDUHK-P009",
+          "name": "Master of Arts in Chinese Art Business and Cultural Heritage Management",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-art-business-and-cultural-heritage-management"
+        },
+        {
+          "programmeId": "HK-EDUHK-P010",
+          "name": "Master of Arts in Chinese Studies (Language Education)",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-chinese-studies-language-education-macsle/"
+        },
+        {
+          "programmeId": "HK-EDUHK-P011",
+          "name": "Master of Arts in Chinese Values-Based Leadership Education",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-values-based-leadership-education"
+        },
+        {
+          "programmeId": "HK-EDUHK-P012",
+          "name": "Master of Arts in Comparative Education and Collaborative Innovation",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-comparative-education-and-collaborative-innovation"
+        },
+        {
+          "programmeId": "HK-EDUHK-P014",
+          "name": "Master of Arts in Digital Human Resource Management",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-human-resource-management-and-organisational-marketing"
+        },
+        {
+          "programmeId": "HK-EDUHK-P015",
+          "name": "Master of Arts in Digital Humanities for Cultural Professionals",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp"
+        },
+        {
+          "programmeId": "HK-EDUHK-P016",
+          "name": "Master of Arts in Digital Linguistics and Intercultural Communication",
+          "officialUrl": "https://www.eduhk.hk/madlic"
+        },
+        {
+          "programmeId": "HK-EDUHK-P017",
+          "name": "Master of Arts in Digital Marketing and E-Commerce",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-marketing-and-e-commerce"
+        },
+        {
+          "programmeId": "HK-EDUHK-P018",
+          "name": "Master of Arts in E-Sports Management",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-e-sports-management"
+        },
+        {
+          "programmeId": "HK-EDUHK-P019",
+          "name": "Master of Arts in Education for Sustainability",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/maefs"
+        },
+        {
+          "programmeId": "HK-EDUHK-P021",
+          "name": "Master of Arts in Emerging Technology for Future Workforce",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce"
+        },
+        {
+          "programmeId": "HK-EDUHK-P022",
+          "name": "Master of Arts in Global Histories of Education",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/"
+        },
+        {
+          "programmeId": "HK-EDUHK-P024",
+          "name": "Master of Arts in Healthy Ageing and Silver Economy",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-healthy-ageing-and-silver-economy"
+        },
+        {
+          "programmeId": "HK-EDUHK-P025",
+          "name": "Master of Arts in Higher Education Management",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAHEM"
+        },
+        {
+          "programmeId": "HK-EDUHK-P027",
+          "name": "Master of Arts in Mathematics and Pedagogy",
+          "officialUrl": "https://www.eduhk.hk/mit/en/mamp"
+        },
+        {
+          "programmeId": "HK-EDUHK-P028",
+          "name": "Master of Arts in Mindfulness and Life Education",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-mindfulness-and-life-education"
+        },
+        {
+          "programmeId": "HK-EDUHK-P029",
+          "name": "Master of Arts in Music Education",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-music-education-mame"
+        },
+        {
+          "programmeId": "HK-EDUHK-P030",
+          "name": "Master of Arts in New Media and Social Media",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-new-media-and-social-media"
+        },
+        {
+          "programmeId": "HK-EDUHK-P031",
+          "name": "Master of Arts in Personal Finance",
+          "officialUrl": "https://www.eduhk.hk/ssps/mapf"
+        },
+        {
+          "programmeId": "HK-EDUHK-P033",
+          "name": "Master of Arts in Science and Robotics Education",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-science-and-robotics-education"
+        },
+        {
+          "programmeId": "HK-EDUHK-P034",
+          "name": "Master of Arts in STEM Education",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/stem_ed"
+        },
+        {
+          "programmeId": "HK-EDUHK-P035",
+          "name": "Master of Arts in Teaching Chinese as an International Language",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-chinese-as-an-international-language-matcil"
+        },
+        {
+          "programmeId": "HK-EDUHK-P036",
+          "name": "Master of Arts in Teaching English to Speakers of Other Languages",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-english-to-speakers-of-other-languages-matesol/"
+        },
+        {
+          "programmeId": "HK-EDUHK-P037",
+          "name": "Master of Arts in Tourism and Hospitality Management",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-tourism-and-hospitality-management"
+        },
+        {
+          "programmeId": "HK-EDUHK-P038",
+          "name": "Master of Arts in Visual Arts Education and Creative Practice",
+          "officialUrl": "https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-visual-arts-education-and-creative-practice-mavaecp"
+        },
+        {
+          "programmeId": "HK-EDUHK-P039",
+          "name": "Master of Arts in Women’s Studies and Sustainable Development in the Chinese Context",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAWSSD"
+        },
+        {
+          "programmeId": "HK-EDUHK-P040",
+          "name": "Master of Education",
+          "officialUrl": "https://gs.eduhk.hk/prospective/med/"
+        },
+        {
+          "programmeId": "HK-EDUHK-P041",
+          "name": "Master of Laws in Digital Governance",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-laws-in-digital-governance"
+        },
+        {
+          "programmeId": "HK-EDUHK-P042",
+          "name": "Master of Laws in National Security Law",
+          "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL"
+        },
+        {
+          "programmeId": "HK-EDUHK-P043",
+          "name": "Master of Occupational Therapy",
+          "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-occupational-therapy"
+        },
+        {
+          "programmeId": "HK-EDUHK-P045",
+          "name": "Master of Science in Artificial Intelligence and Educational Technology",
+          "officialUrl": "https://www.eduhk.hk/mit/en/mscait"
+        },
+        {
+          "programmeId": "HK-EDUHK-P046",
+          "name": "Master of Science in Artificial Intelligence for Executive Professionals",
+          "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep"
+        },
+        {
+          "programmeId": "HK-EDUHK-P047",
+          "name": "Master of Science in Business Analytics and FinTech",
+          "officialUrl": "https://www.eduhk.hk/ssps/mscbaft"
+        },
+        {
+          "programmeId": "HK-EDUHK-P048",
+          "name": "Master of Science in Digital Economy",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MScDE"
+        },
+        {
+          "programmeId": "HK-EDUHK-P050",
+          "name": "Master of Science in Educational Neuroscience",
+          "officialUrl": "https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-science-in-educational-neuroscience"
+        },
+        {
+          "programmeId": "HK-EDUHK-P052",
+          "name": "Master of Science in Environmental, Social and Governance for Sustainable Development",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/ESGSD"
+        },
+        {
+          "programmeId": "HK-EDUHK-P054",
+          "name": "Master of Science in Low-Altitude Economy and Management",
+          "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MScLAEM"
+        },
+        {
+          "programmeId": "HK-EDUHK-P055",
+          "name": "Master of Social Sciences in Global Business and Policy Studies for the Belt-and-Road Initiative",
+          "officialUrl": "https://www.eduhk.hk/ssps/mgbpsbri"
+        },
+        {
+          "programmeId": "HK-EDUHK-P057",
+          "name": "Master of Social Sciences in Sports Coaching and Management",
+          "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/"
+        },
+        {
+          "programmeId": "HK-EDUHK-P058",
+          "name": "Master of Social Sciences in Therapeutic Play and Well-Being",
+          "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/"
+        }
+      ]
+    },
+    {
+      "schoolId": "HK-HKBU",
+      "catalogueRecords": 49,
+      "partialRecords": 49,
+      "pageCheckedRecords": 49,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 49,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 0,
+        "language": 1,
+        "tuition": 1,
+        "deadline": 2
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 18,
+        "gpa": 48,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-HKU",
+      "catalogueRecords": 103,
+      "partialRecords": 93,
+      "pageCheckedRecords": 93,
+      "completeRecords": 0,
+      "catalogueLeads": 10,
+      "routeCoveredLeads": 10,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 92,
+      "activeParentUnknownFields": {
+        "academicYear": 1,
+        "major": 7,
+        "gpa": 0,
+        "language": 4,
+        "tuition": 6,
+        "deadline": 2
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 38,
+        "gpa": 92,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-HKUST",
+      "catalogueRecords": 49,
+      "partialRecords": 48,
+      "pageCheckedRecords": 48,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 1,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 47,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 1,
+        "gpa": 1,
+        "language": 1,
+        "tuition": 1,
+        "deadline": 3
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 19,
+        "gpa": 45,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-LU",
+      "catalogueRecords": 44,
+      "partialRecords": 44,
+      "pageCheckedRecords": 44,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 44,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 1,
+        "gpa": 0,
+        "language": 7,
+        "tuition": 12,
+        "deadline": 5
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 44,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-POLYU",
+      "catalogueRecords": 100,
+      "partialRecords": 1,
+      "pageCheckedRecords": 1,
+      "completeRecords": 0,
+      "catalogueLeads": 99,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 99,
+      "activePageCheckedRecords": 1,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 0,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 1,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": [
+        {
+          "programmeId": "HK-POLYU-P002",
+          "name": "MSc Urban Informatics and Smart Cities",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P003",
+          "name": "MSc Aerospace Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P004",
+          "name": "MSc Health Informatics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P005",
+          "name": "MSc Nursing",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P006",
+          "name": "Master of Nursing",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P007",
+          "name": "MA Chinese Culture",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P008",
+          "name": "MA English Studies for the Professions",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P009",
+          "name": "MSc AI for Teaching English to Speakers of Other Languages",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P010",
+          "name": "MSc Biopharmaceutical Development and Commercialization",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P011",
+          "name": "MSc Sustainable Technology for Carbon Neutrality",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate"
+        },
+        {
+          "programmeId": "HK-POLYU-P012",
+          "name": "MA Bilingual Corporate Communication",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/72017-bcf-bcp"
+        },
+        {
+          "programmeId": "HK-POLYU-P013",
+          "name": "MA Chinese Language and Literature",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/72017-llf-llp-pdp"
+        },
+        {
+          "programmeId": "HK-POLYU-P014",
+          "name": "MA Chinese Linguistics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/72017-clf-clp"
+        },
+        {
+          "programmeId": "HK-POLYU-P015",
+          "name": "MA Fashion Design",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/14111-fpp-dfi"
+        },
+        {
+          "programmeId": "HK-POLYU-P016",
+          "name": "MA Global Communication and Event Hosting Arts",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/72029-ehf-ehp"
+        },
+        {
+          "programmeId": "HK-POLYU-P017",
+          "name": "MA Guidance and Counselling",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/54047-gcf-gcp"
+        },
+        {
+          "programmeId": "HK-POLYU-P018",
+          "name": "MA Mental Health",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/54047-fmh-pmh"
+        },
+        {
+          "programmeId": "HK-POLYU-P019",
+          "name": "MA School and Community Psychology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/54072-ft-pt"
+        },
+        {
+          "programmeId": "HK-POLYU-P020",
+          "name": "MA Social Policy and Social Development",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/54055-sdf-sdp"
+        },
+        {
+          "programmeId": "HK-POLYU-P021",
+          "name": "MA Sustainable Fashion and Innovation",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/14107-ffs-pfs"
+        },
+        {
+          "programmeId": "HK-POLYU-P022",
+          "name": "MA Teaching Chinese as a Foreign Language",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/72017-tlf-tlp"
+        },
+        {
+          "programmeId": "HK-POLYU-P023",
+          "name": "MA Translation and Language Technology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/72030-ttf-ttp"
+        },
+        {
+          "programmeId": "HK-POLYU-P024",
+          "name": "Master of Applied Psychology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/54057-ft-pt"
+        },
+        {
+          "programmeId": "HK-POLYU-P025",
+          "name": "Master of Corporate Governance",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/21047-cgf-cgp"
+        },
+        {
+          "programmeId": "HK-POLYU-P026",
+          "name": "Master of Design",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/73035-ibd-ibp-isd-isp-ssd-ssp-ted-tep"
+        },
+        {
+          "programmeId": "HK-POLYU-P027",
+          "name": "Master of Finance",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/21050-fcf-cfp"
+        },
+        {
+          "programmeId": "HK-POLYU-P028",
+          "name": "Master of Medical Imaging",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/55006"
+        },
+        {
+          "programmeId": "HK-POLYU-P029",
+          "name": "Master of Medical Laboratory Science",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/55007"
+        },
+        {
+          "programmeId": "HK-POLYU-P030",
+          "name": "Master of Professional Accounting",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/21046-maf-paf-mae-pap"
+        },
+        {
+          "programmeId": "HK-POLYU-P031",
+          "name": "Master of Social Work",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/54047-msw"
+        },
+        {
+          "programmeId": "HK-POLYU-P032",
+          "name": "Master of Technology Entrepreneurship",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/07001-fte-pte"
+        },
+        {
+          "programmeId": "HK-POLYU-P033",
+          "name": "MSc Accountancy",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/21049-afm-apm"
+        },
+        {
+          "programmeId": "HK-POLYU-P034",
+          "name": "MSc Accounting and Finance Analytics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/21052-fam-pam"
+        },
+        {
+          "programmeId": "HK-POLYU-P035",
+          "name": "MSc Actuarial and Investment Science",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/63032-afm-apm"
+        },
+        {
+          "programmeId": "HK-POLYU-P036",
+          "name": "MSc Advanced Photonic Technology and Materials",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/11045-mft-mpt"
+        },
+        {
+          "programmeId": "HK-POLYU-P037",
+          "name": "MSc Advanced Physiotherapy",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/51069-ptf-ptp-pnf-pnp-spf-spp-mpf-mpp"
+        },
+        {
+          "programmeId": "HK-POLYU-P038",
+          "name": "MSc Advanced Rehabilitation Sciences",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/51069-rsf-rsp-ddf-ddp"
+        },
+        {
+          "programmeId": "HK-POLYU-P039",
+          "name": "MSc Agentic AI Systems",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/61040-fas-pas"
+        },
+        {
+          "programmeId": "HK-POLYU-P040",
+          "name": "MSc AI for Architectural and Habitat Design",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/35002-afm-apm"
+        },
+        {
+          "programmeId": "HK-POLYU-P041",
+          "name": "MSc Artificial Intelligence and Big Data Computing",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/62037-fai-pai"
+        },
+        {
+          "programmeId": "HK-POLYU-P042",
+          "name": "MSc Asset and Wealth Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02029-dfm-dpm-ffm-fpm"
+        },
+        {
+          "programmeId": "HK-POLYU-P043",
+          "name": "MSc Aviation Engineering and Operations Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/48005-omf-omp"
+        },
+        {
+          "programmeId": "HK-POLYU-P044",
+          "name": "MSc Biomedical Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/47002-bmf-bmp"
+        },
+        {
+          "programmeId": "HK-POLYU-P045",
+          "name": "MSc Blockchain Technology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/61036-fbt-pbt"
+        },
+        {
+          "programmeId": "HK-POLYU-P046",
+          "name": "MSc Brain-Machine Interface",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/47007-bmf-bmp"
+        },
+        {
+          "programmeId": "HK-POLYU-P047",
+          "name": "MSc Building Services Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/33084-bem-bsm"
+        },
+        {
+          "programmeId": "HK-POLYU-P048",
+          "name": "MSc Business Analytics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/23090-maf-map"
+        },
+        {
+          "programmeId": "HK-POLYU-P049",
+          "name": "MSc Carbon Neutral Cities and Urban Sustainability",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/33088-cfm-cpm"
+        },
+        {
+          "programmeId": "HK-POLYU-P050",
+          "name": "MSc Civil Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/31077-cfm-cpm"
+        },
+        {
+          "programmeId": "HK-POLYU-P051",
+          "name": "MSc Construction and Real Estate",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/32111-rfm-rpm"
+        },
+        {
+          "programmeId": "HK-POLYU-P052",
+          "name": "MSc Cybersecurity",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/61039-fcy-pcy"
+        },
+        {
+          "programmeId": "HK-POLYU-P053",
+          "name": "MSc Data Science and Analytics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/62027-dfm-dpm"
+        },
+        {
+          "programmeId": "HK-POLYU-P054",
+          "name": "MSc Dietetics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/15060"
+        },
+        {
+          "programmeId": "HK-POLYU-P055",
+          "name": "MSc Economics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/21055-aem-dem"
+        },
+        {
+          "programmeId": "HK-POLYU-P056",
+          "name": "MSc Electric Vehicles",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/46012-ev-evt"
+        },
+        {
+          "programmeId": "HK-POLYU-P057",
+          "name": "MSc Electrical Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/46010-ee-eet"
+        },
+        {
+          "programmeId": "HK-POLYU-P058",
+          "name": "MSc Electronic and Information Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/46011-eie-eit"
+        },
+        {
+          "programmeId": "HK-POLYU-P059",
+          "name": "MSc Environmental Management and Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/31078-efm-epm"
+        },
+        {
+          "programmeId": "HK-POLYU-P060",
+          "name": "MSc ESG and Sustainability",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/21054-efm-epm"
+        },
+        {
+          "programmeId": "HK-POLYU-P061",
+          "name": "MSc Facility Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/33085-fam-fmm"
+        },
+        {
+          "programmeId": "HK-POLYU-P062",
+          "name": "MSc Fire and Safety Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/33086-fem-fsm"
+        },
+        {
+          "programmeId": "HK-POLYU-P063",
+          "name": "MSc Generative AI and the Humanities",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/74001-atf-atp-lcf-lcp"
+        },
+        {
+          "programmeId": "HK-POLYU-P064",
+          "name": "MSc Geomatics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/34084-gfm-gpm"
+        },
+        {
+          "programmeId": "HK-POLYU-P065",
+          "name": "MSc Global Business and Decision Analysis",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/44094-bfm-bpm"
+        },
+        {
+          "programmeId": "HK-POLYU-P066",
+          "name": "MSc Global Food Safety Management and Risk Analysis",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/15057-mft"
+        },
+        {
+          "programmeId": "HK-POLYU-P067",
+          "name": "MSc Global Supply Chain Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/44089-sfm-sfp-gpm-spp"
+        },
+        {
+          "programmeId": "HK-POLYU-P068",
+          "name": "MSc Human Resource Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/23090-mhf-mhp"
+        },
+        {
+          "programmeId": "HK-POLYU-P069",
+          "name": "MSc Industrial Logistics Systems",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/45100-mls-ml"
+        },
+        {
+          "programmeId": "HK-POLYU-P070",
+          "name": "MSc Information Technology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/61030-fit-pit"
+        },
+        {
+          "programmeId": "HK-POLYU-P071",
+          "name": "MSc Innovative Multimedia Entertainment",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/73040-ftm-ptm"
+        },
+        {
+          "programmeId": "HK-POLYU-P072",
+          "name": "MSc Intelligent Construction",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/32114-ifm-ipm"
+        },
+        {
+          "programmeId": "HK-POLYU-P073",
+          "name": "MSc Intelligent Robotics Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt"
+        },
+        {
+          "programmeId": "HK-POLYU-P074",
+          "name": "MSc Intelligent Wearable Technology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/14110-iwt-pwt-pgd"
+        },
+        {
+          "programmeId": "HK-POLYU-P075",
+          "name": "MSc International Management and Leadership",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/23090-mlf-mlp"
+        },
+        {
+          "programmeId": "HK-POLYU-P076",
+          "name": "MSc International Shipping and Transport Logistics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/44087-ifm-tfp-ipm-tpp"
+        },
+        {
+          "programmeId": "HK-POLYU-P077",
+          "name": "MSc Knowledge and Technology Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/45100-mt-mtt"
+        },
+        {
+          "programmeId": "HK-POLYU-P078",
+          "name": "MSc Language Neuroscience and Neurotechnology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/72031-lnf-lnp"
+        },
+        {
+          "programmeId": "HK-POLYU-P079",
+          "name": "MSc Low-altitude Economy",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/48007-lmf-lmp"
+        },
+        {
+          "programmeId": "HK-POLYU-P080",
+          "name": "MSc Marketing Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/23090-mkf-mkp"
+        },
+        {
+          "programmeId": "HK-POLYU-P081",
+          "name": "MSc Materials Intelligence",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/46014-mi-mit"
+        },
+        {
+          "programmeId": "HK-POLYU-P082",
+          "name": "MSc Mathematics for Artificial Intelligence Technology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/63031-afm-apm"
+        },
+        {
+          "programmeId": "HK-POLYU-P083",
+          "name": "MSc Mechanical Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/43100-me-met"
+        },
+        {
+          "programmeId": "HK-POLYU-P084",
+          "name": "MSc Medical Data Science",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/55005-mfd-mpd"
+        },
+        {
+          "programmeId": "HK-POLYU-P085",
+          "name": "MSc Medical Imaging and Radiation Science",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/55005-frm-prm"
+        },
+        {
+          "programmeId": "HK-POLYU-P086",
+          "name": "MSc Medical Laboratory Science",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/55005-fmm-pmm"
+        },
+        {
+          "programmeId": "HK-POLYU-P087",
+          "name": "MSc Medical Physics",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/55005-msf-msp"
+        },
+        {
+          "programmeId": "HK-POLYU-P088",
+          "name": "MSc Metaverse Technology",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/61038-fmt-pmt"
+        },
+        {
+          "programmeId": "HK-POLYU-P089",
+          "name": "MSc Microelectronics and Quantum Systems Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/46013-mqs-mqt"
+        },
+        {
+          "programmeId": "HK-POLYU-P090",
+          "name": "MSc Microelectronics Technology and Materials",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/11044-mft"
+        },
+        {
+          "programmeId": "HK-POLYU-P091",
+          "name": "MSc Nutrition and Healthy Ageing",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/15058-mft"
+        },
+        {
+          "programmeId": "HK-POLYU-P092",
+          "name": "MSc Operational Research and Risk Analysis",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/63024-ofm-opm"
+        },
+        {
+          "programmeId": "HK-POLYU-P093",
+          "name": "MSc Operations Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/44092-ofm-opm"
+        },
+        {
+          "programmeId": "HK-POLYU-P094",
+          "name": "MSc Project Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/32113-pfm-ppm"
+        },
+        {
+          "programmeId": "HK-POLYU-P095",
+          "name": "MSc Quantitative Finance and FinTech",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/63029-qfm-qpm"
+        },
+        {
+          "programmeId": "HK-POLYU-P096",
+          "name": "MSc Satellite Engineering",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/48008-smf-smp"
+        },
+        {
+          "programmeId": "HK-POLYU-P097",
+          "name": "MSc Smart Manufacturing",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/45100-smf-smp"
+        },
+        {
+          "programmeId": "HK-POLYU-P098",
+          "name": "MSc Sports Technology and Management",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/47005-stf-stp"
+        },
+        {
+          "programmeId": "HK-POLYU-P099",
+          "name": "MSc Sustainable Energy",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/43102-se-set"
+        },
+        {
+          "programmeId": "HK-POLYU-P100",
+          "name": "MSc Vision Science and Innovation",
+          "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/52049-ftm-ptm"
+        }
+      ]
+    },
+    {
+      "schoolId": "SG-NTU",
+      "catalogueRecords": 88,
+      "partialRecords": 4,
+      "pageCheckedRecords": 4,
+      "completeRecords": 0,
+      "catalogueLeads": 84,
+      "routeCoveredLeads": 1,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 83,
+      "activePageCheckedRecords": 4,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 0,
+        "language": 0,
+        "tuition": 2,
+        "deadline": 0
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 4,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": [
+        {
+          "programmeId": "SG-NTU-P001",
+          "name": "MSc Enterprise Artificial Intelligence",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P002",
+          "name": "MSc Environmental Sustainability Science",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P003",
+          "name": "MSc Sustainability and Environmental Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P004",
+          "name": "MSc Game Design, Art and Technology",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P005",
+          "name": "MA Museum Studies and Curatorial Practices",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P006",
+          "name": "MSc Nanotechnology and Nanoscience",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P007",
+          "name": "MSc Engineering Management",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P008",
+          "name": "Master in Management",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P009",
+          "name": "MSc Applied Materials Analytics",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P010",
+          "name": "MSc Robotics and Intelligent Systems",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P011",
+          "name": "MSc AI in Medicine",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P012",
+          "name": "MA Applied Psychology",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P013",
+          "name": "Master of Media and Communication",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P014",
+          "name": "MSc BioBusiness and BioEntrepreneurship",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P016",
+          "name": "MSc Applied Gerontology",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P017",
+          "name": "MSc Information Studies",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P019",
+          "name": "MSc Knowledge Management",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P020",
+          "name": "Master of Public Administration",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P021",
+          "name": "MSc Managerial Economics",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P022",
+          "name": "MSocSc China and Global Governance",
+          "officialUrl": "https://www.ntu.edu.sg/admissions/graduate/coursework"
+        },
+        {
+          "programmeId": "SG-NTU-P023",
+          "name": "Executive Master of Science in Sustainability Management",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/executive-master-of-science-in-sustainability-management"
+        },
+        {
+          "programmeId": "SG-NTU-P024",
+          "name": "Master of Arts (Applied Linguistics)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-(applied-linguistics)"
+        },
+        {
+          "programmeId": "SG-NTU-P025",
+          "name": "Master of Arts (Counselling and Guidance)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-(counselling-and-guidance)"
+        },
+        {
+          "programmeId": "SG-NTU-P026",
+          "name": "Master of Arts (Educational Leadership)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-(educational-leadership)"
+        },
+        {
+          "programmeId": "SG-NTU-P027",
+          "name": "Master of Arts (Humanities Education)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-humanities-education"
+        },
+        {
+          "programmeId": "SG-NTU-P028",
+          "name": "Master of Arts (Instructional Design and Technology)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-(instructional-design-and-technology)"
+        },
+        {
+          "programmeId": "SG-NTU-P029",
+          "name": "Master of Arts (Teaching Chinese as an International Language)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-(teaching-chinese-as-an-international-language)"
+        },
+        {
+          "programmeId": "SG-NTU-P030",
+          "name": "Master of Arts in AI Ethics and Society",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-ai-ethics-and-society"
+        },
+        {
+          "programmeId": "SG-NTU-P031",
+          "name": "Master of Arts in Creative Writing and Publishing",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-creative-writing-and-publishing"
+        },
+        {
+          "programmeId": "SG-NTU-P032",
+          "name": "Master of Arts in Digital Humanities",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-digital-humanities"
+        },
+        {
+          "programmeId": "SG-NTU-P033",
+          "name": "Master of Arts in Global Cultural and Creative Leadership",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-global-cultural-and-creative-leadership"
+        },
+        {
+          "programmeId": "SG-NTU-P034",
+          "name": "Master of Arts in Health and Human Experience",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-health-and-human-experience"
+        },
+        {
+          "programmeId": "SG-NTU-P035",
+          "name": "Master of Arts in Linguistics",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-linguistics"
+        },
+        {
+          "programmeId": "SG-NTU-P036",
+          "name": "Master of Arts in Professional Education (Training and Development)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-professional-education-(training-and-development)"
+        },
+        {
+          "programmeId": "SG-NTU-P037",
+          "name": "Master of Arts in Translation and Interpretation",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-arts-in-translation-and-interpretation"
+        },
+        {
+          "programmeId": "SG-NTU-P038",
+          "name": "Master of Computing In Applied AI",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-computing-in-applied-ai-mcaai"
+        },
+        {
+          "programmeId": "SG-NTU-P039",
+          "name": "Master of Education",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-education-(art)"
+        },
+        {
+          "programmeId": "SG-NTU-P040",
+          "name": "Master of Science (Exercise and Sport Studies)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-(exercise-and-sport-studies)"
+        },
+        {
+          "programmeId": "SG-NTU-P041",
+          "name": "Master of Science (Life Sciences)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-(life-sciences)"
+        },
+        {
+          "programmeId": "SG-NTU-P042",
+          "name": "Master of Science (Mathematics for Educators)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-(mathematics-for-educators)"
+        },
+        {
+          "programmeId": "SG-NTU-P043",
+          "name": "Master of Science (Science of Learning)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-(science-of-learning)"
+        },
+        {
+          "programmeId": "SG-NTU-P044",
+          "name": "Master of Science in Accountancy",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-accountancy"
+        },
+        {
+          "programmeId": "SG-NTU-P045",
+          "name": "Master of Science in Actuarial and Risk Analytics",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-actuarial-and-risk-analytics"
+        },
+        {
+          "programmeId": "SG-NTU-P046",
+          "name": "Master of Science in Analytics",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-analytics"
+        },
+        {
+          "programmeId": "SG-NTU-P048",
+          "name": "Master of Science in Asset & Wealth Management",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-asset-wealth-management"
+        },
+        {
+          "programmeId": "SG-NTU-P049",
+          "name": "Master of Science in Aviation",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-aviation"
+        },
+        {
+          "programmeId": "SG-NTU-P050",
+          "name": "Master of Science in Biomedical Data Science",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-biomedical-data-science"
+        },
+        {
+          "programmeId": "SG-NTU-P051",
+          "name": "Master of Science in Biomedical Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-biomedical-engineering"
+        },
+        {
+          "programmeId": "SG-NTU-P052",
+          "name": "Master of Science in Blockchain",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-blockchain"
+        },
+        {
+          "programmeId": "SG-NTU-P053",
+          "name": "Master of Science in Business Analytics",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-business-analytics"
+        },
+        {
+          "programmeId": "SG-NTU-P054",
+          "name": "Master of Science in Chemical and Biomedical Modelling",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-chemical-modelling"
+        },
+        {
+          "programmeId": "SG-NTU-P055",
+          "name": "Master of Science in Chemical Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-chemical-engineering"
+        },
+        {
+          "programmeId": "SG-NTU-P056",
+          "name": "Master of Science in Chemical Sciences and Instrumentation",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-chemical-sciences-and-instrumentation"
+        },
+        {
+          "programmeId": "SG-NTU-P057",
+          "name": "Master of Science in Chinese Medicine",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-chinese-medicine-(mscmed)"
+        },
+        {
+          "programmeId": "SG-NTU-P058",
+          "name": "Master of Science in Civil Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-civil-engineering"
+        },
+        {
+          "programmeId": "SG-NTU-P059",
+          "name": "Master of Science in Communications Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-communications-engineering"
+        },
+        {
+          "programmeId": "SG-NTU-P060",
+          "name": "Master of Science in Computer Control & Automation",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-computer-control-automation"
+        },
+        {
+          "programmeId": "SG-NTU-P063",
+          "name": "Master of Science in Finance",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-finance"
+        },
+        {
+          "programmeId": "SG-NTU-P064",
+          "name": "Master of Science in Financial Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-financial-engineering2"
+        },
+        {
+          "programmeId": "SG-NTU-P065",
+          "name": "Master of Science in Financial Technology",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-financial-technology"
+        },
+        {
+          "programmeId": "SG-NTU-P066",
+          "name": "Master of Science in Green Energy Technologies",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-green-energy-technologies"
+        },
+        {
+          "programmeId": "SG-NTU-P067",
+          "name": "Master of Science in Holistic Palliative Care",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-holistic-palliative-care-(hope)"
+        },
+        {
+          "programmeId": "SG-NTU-P068",
+          "name": "Master of Science in Integrated Circuits & Microelectronics",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-integrated-circuits-and-microelectronics"
+        },
+        {
+          "programmeId": "SG-NTU-P069",
+          "name": "Master of Science in International Construction Management",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-international-construction-management"
+        },
+        {
+          "programmeId": "SG-NTU-P070",
+          "name": "Master of Science in Maritime Studies",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-maritime-studies"
+        },
+        {
+          "programmeId": "SG-NTU-P071",
+          "name": "Master of Science in Marketing Science",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-marketing-science"
+        },
+        {
+          "programmeId": "SG-NTU-P072",
+          "name": "Master of Science in Materials Science and Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-materials-science-and-engineering"
+        },
+        {
+          "programmeId": "SG-NTU-P073",
+          "name": "Master of Science in Mechanical Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-mechanical-engineering-2"
+        },
+        {
+          "programmeId": "SG-NTU-P074",
+          "name": "Master of Science in Modelling and Simulation",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-modelling-and-simulation"
+        },
+        {
+          "programmeId": "SG-NTU-P075",
+          "name": "Master of Science in Power Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-power-engineering"
+        },
+        {
+          "programmeId": "SG-NTU-P076",
+          "name": "Master of Science in Precision Scientific Instrumentation",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-precision-scientific-instrumentation"
+        },
+        {
+          "programmeId": "SG-NTU-P077",
+          "name": "Master of Science in Project Management",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-project-management"
+        },
+        {
+          "programmeId": "SG-NTU-P078",
+          "name": "Master of Science in Psychology",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-psychology"
+        },
+        {
+          "programmeId": "SG-NTU-P079",
+          "name": "Master of Science in Signal Processing & Machine Learning",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-signal-processing"
+        },
+        {
+          "programmeId": "SG-NTU-P080",
+          "name": "Master of Science in Smart Manufacturing",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-smart-manufacturing"
+        },
+        {
+          "programmeId": "SG-NTU-P081",
+          "name": "Master of Science in Supply Chain Engineering",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-supply-chain-logistics"
+        },
+        {
+          "programmeId": "SG-NTU-P082",
+          "name": "Master of Science Technopreneurship and Innovation Programme",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-technopreneurship-and-innovation-programme"
+        },
+        {
+          "programmeId": "SG-NTU-P083",
+          "name": "Master of Teaching",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/master-of-teaching"
+        },
+        {
+          "programmeId": "SG-NTU-P084",
+          "name": "Nanyang Executive MBA",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-executive-mba"
+        },
+        {
+          "programmeId": "SG-NTU-P085",
+          "name": "Nanyang Fellows MBA",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-fellows-mba"
+        },
+        {
+          "programmeId": "SG-NTU-P086",
+          "name": "Nanyang MBA",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-mba"
+        },
+        {
+          "programmeId": "SG-NTU-P087",
+          "name": "Nanyang Professional MBA",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/nanyang-professional-mba"
+        },
+        {
+          "programmeId": "SG-NTU-P088",
+          "name": "NTU International MBA (IMBA)",
+          "officialUrl": "https://www.ntu.edu.sg/education/graduate-programme/ntu-imba"
+        }
+      ]
+    },
+    {
+      "schoolId": "SG-NUS",
+      "catalogueRecords": 121,
+      "partialRecords": 3,
+      "pageCheckedRecords": 3,
+      "completeRecords": 0,
+      "catalogueLeads": 118,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 118,
+      "activePageCheckedRecords": 3,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 0,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 3,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": [
+        {
+          "programmeId": "SG-NUS-P001",
+          "name": "MSc Artificial Intelligence & Innovation",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P002",
+          "name": "MSc Smart Industries and Digital Transformation",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P003",
+          "name": "MSc Venture Creation",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P004",
+          "name": "MSc Environmental Management",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P005",
+          "name": "Master of Business Administration",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P006",
+          "name": "MSc Accounting",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P008",
+          "name": "MSc Human Capital Management and Analytics",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P009",
+          "name": "MSc Management",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P010",
+          "name": "MSc Marketing Analytics and Insights",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P011",
+          "name": "MSc Real Estate",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P012",
+          "name": "MSc Sustainable and Green Finance",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P013",
+          "name": "MSc Business Analytics",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P014",
+          "name": "Master of Architecture",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P015",
+          "name": "MA Urban Design",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P016",
+          "name": "MSc Biomedical Engineering",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P017",
+          "name": "MSc Chemical Engineering",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P018",
+          "name": "MSc Civil Engineering",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P019",
+          "name": "MSc Computer Engineering",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P020",
+          "name": "MSc Electrical Engineering",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P021",
+          "name": "MSc Industrial & Systems Engineering",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P022",
+          "name": "MSc Project Management",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P023",
+          "name": "MSc Robotics",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P024",
+          "name": "MSc Supply Chain Management",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P025",
+          "name": "Master of Communication",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P026",
+          "name": "Master of Economics",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P027",
+          "name": "MSc Climate Change and Sustainability",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P028",
+          "name": "Master of Social Work",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P030",
+          "name": "Master of Computing in Artificial Intelligence",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P031",
+          "name": "MSc Digital Financial Technology",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P033",
+          "name": "MSc Quantitative Finance",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P034",
+          "name": "Master of Public Health",
+          "officialUrl": "https://masters.nus.edu.sg/programmes/more-nus-master%27s-degrees-%28coursework%29"
+        },
+        {
+          "programmeId": "SG-NUS-P035",
+          "name": "Duke-NUS Master of International Translational Medicine",
+          "officialUrl": "https://www.duke-nus.edu.sg/admissions/masters/mitm"
+        },
+        {
+          "programmeId": "SG-NUS-P036",
+          "name": "Executive Master in AI and Digital Transformation",
+          "officialUrl": "https://www.aidf.nus.edu.sg/executive-master-in-ai-and-digital-transformation/"
+        },
+        {
+          "programmeId": "SG-NUS-P037",
+          "name": "Executive Master in Healthcare Leadership and Management",
+          "officialUrl": "https://www.duke-nus.edu.sg/sdghi/asianheal/executive-master"
+        },
+        {
+          "programmeId": "SG-NUS-P038",
+          "name": "Executive MSc in Management",
+          "officialUrl": "https://emim.nus.edu.sg/"
+        },
+        {
+          "programmeId": "SG-NUS-P039",
+          "name": "MA (Applied and Public History)",
+          "officialUrl": "https://fass.nus.edu.sg/hist/maph/"
+        },
+        {
+          "programmeId": "SG-NUS-P040",
+          "name": "MA (Architectural Conservation)",
+          "officialUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-arts-in-architectural-conservation/"
+        },
+        {
+          "programmeId": "SG-NUS-P041",
+          "name": "MA (Arts and Cultural Entrepreneurship)",
+          "officialUrl": "https://fass.nus.edu.sg/cnm/ace-master"
+        },
+        {
+          "programmeId": "SG-NUS-P042",
+          "name": "MA (Asian and Global History)",
+          "officialUrl": "https://fass.nus.edu.sg/hist/magh/"
+        },
+        {
+          "programmeId": "SG-NUS-P043",
+          "name": "MA (Chinese Culture and Language)",
+          "officialUrl": "https://fass.nus.edu.sg/cs/masters-coursework/"
+        },
+        {
+          "programmeId": "SG-NUS-P044",
+          "name": "MA (Contemporary Southeast Asia)",
+          "officialUrl": "https://fass.nus.edu.sg/sea/masters-by-coursework/"
+        },
+        {
+          "programmeId": "SG-NUS-P045",
+          "name": "MA (English Communication Teaching)",
+          "officialUrl": "https://www.nus.edu.sg/celc/ma-in-ect/"
+        },
+        {
+          "programmeId": "SG-NUS-P046",
+          "name": "MA (English Language and Linguistics)",
+          "officialUrl": "https://fass.nus.edu.sg/elts/ma-by-coursework-el/"
+        },
+        {
+          "programmeId": "SG-NUS-P047",
+          "name": "MA (Global Sociology and Anthropology)",
+          "officialUrl": "https://fass.nus.edu.sg/socanth/graduate-coursework-programme-master-of-arts-global-sociology-and-anthropology/#:~:text=The%20Master%20of%20Arts%20(Global,and%20Anthropological%20theories%20and%20methods."
+        },
+        {
+          "programmeId": "SG-NUS-P048",
+          "name": "MA (Japanese Visual Cultures)",
+          "officialUrl": "https://fass.nus.edu.sg/jps/majvc/"
+        },
+        {
+          "programmeId": "SG-NUS-P049",
+          "name": "MA (Literary Studies)",
+          "officialUrl": "https://fass.nus.edu.sg/elts/ma-by-coursework-en/"
+        },
+        {
+          "programmeId": "SG-NUS-P050",
+          "name": "MA (Theatre and Performance Studies)",
+          "officialUrl": "https://fass.nus.edu.sg/elts/ma-by-coursework-tps/"
+        },
+        {
+          "programmeId": "SG-NUS-P051",
+          "name": "Master in International Affairs",
+          "officialUrl": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-international-affairs-mia"
+        },
+        {
+          "programmeId": "SG-NUS-P052",
+          "name": "Master in Patient Safety and Healthcare Quality",
+          "officialUrl": "https://www.duke-nus.edu.sg/cll/allcourses/master-s-in-patient-safety-and-healthcare-quality"
+        },
+        {
+          "programmeId": "SG-NUS-P053",
+          "name": "Master in Public Administration",
+          "officialUrl": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-public-administration-mpa"
+        },
+        {
+          "programmeId": "SG-NUS-P054",
+          "name": "Master in Public Administration and Management (Chinese)",
+          "officialUrl": "https://lkyspp.nus.edu.sg/graduate-programmes/mpam"
+        },
+        {
+          "programmeId": "SG-NUS-P055",
+          "name": "Master in Public Policy",
+          "officialUrl": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-public-policy-mpp"
+        },
+        {
+          "programmeId": "SG-NUS-P056",
+          "name": "Master of Audio Arts and Sciences",
+          "officialUrl": "https://www.ystmusic.nus.edu.sg/programmes-master-of-audio-arts-and-sciences/"
+        },
+        {
+          "programmeId": "SG-NUS-P057",
+          "name": "Master of Cities",
+          "officialUrl": "https://cde.nus.edu.sg/nuscities/master-of-cities/"
+        },
+        {
+          "programmeId": "SG-NUS-P058",
+          "name": "Master of Clinical Investigation",
+          "officialUrl": "https://medicine.nus.edu.sg/graduatestudies/education/master-of-clinical-investigation/"
+        },
+        {
+          "programmeId": "SG-NUS-P059",
+          "name": "Master of Clinical Mental Health and Psychotherapy",
+          "officialUrl": "https://medicine.nus.edu.sg/nmsc/mcmhp/"
+        },
+        {
+          "programmeId": "SG-NUS-P060",
+          "name": "Master of Community Health",
+          "officialUrl": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-community-health/"
+        },
+        {
+          "programmeId": "SG-NUS-P061",
+          "name": "Master of Dental Surgery",
+          "officialUrl": "https://www.dentistry.nus.edu.sg/gs/prospective-graduate-students/"
+        },
+        {
+          "programmeId": "SG-NUS-P062",
+          "name": "Master of Design in Integrated Design",
+          "officialUrl": "https://cde.nus.edu.sg/did/mdes/"
+        },
+        {
+          "programmeId": "SG-NUS-P063",
+          "name": "Master of Landscape Architecture",
+          "officialUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-landscape-architecture/"
+        },
+        {
+          "programmeId": "SG-NUS-P064",
+          "name": "Master of Laws",
+          "officialUrl": "https://law1a.nus.edu.sg/admissions/llm.html"
+        },
+        {
+          "programmeId": "SG-NUS-P065",
+          "name": "Master of Music",
+          "officialUrl": "https://www.ystmusic.nus.edu.sg/programmes-master-of-music/"
+        },
+        {
+          "programmeId": "SG-NUS-P066",
+          "name": "Master of Music Leadership",
+          "officialUrl": "https://www.ystmusic.nus.edu.sg/musicleaders/"
+        },
+        {
+          "programmeId": "SG-NUS-P067",
+          "name": "Master of Nursing",
+          "officialUrl": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-nursing/how-to-apply/"
+        },
+        {
+          "programmeId": "SG-NUS-P068",
+          "name": "Master of Pharmacy (Clinical Pharmacy)",
+          "officialUrl": "https://pharmacy.nus.edu.sg/study/postgraduate-programmes/master-of-pharmacy-clinical-pharmacy-programme/"
+        },
+        {
+          "programmeId": "SG-NUS-P069",
+          "name": "Master of Psychology (Clinical)",
+          "officialUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/"
+        },
+        {
+          "programmeId": "SG-NUS-P070",
+          "name": "Master of Urban Planning",
+          "officialUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-urban-planning/"
+        },
+        {
+          "programmeId": "SG-NUS-P071",
+          "name": "MSc (AI for Science)",
+          "officialUrl": "https://www.physics.nus.edu.sg/student/msc-ai-for-science/"
+        },
+        {
+          "programmeId": "SG-NUS-P072",
+          "name": "MSc (Applied Biomedicine)",
+          "officialUrl": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-applied-biomedicine/"
+        },
+        {
+          "programmeId": "SG-NUS-P073",
+          "name": "MSc (Applied Geographic Information Systems)",
+          "officialUrl": "https://fass.nus.edu.sg/geog/msc-in-applied-gis/"
+        },
+        {
+          "programmeId": "SG-NUS-P074",
+          "name": "MSc (Audiology)",
+          "officialUrl": "https://blog.nus.edu.sg/audiology/"
+        },
+        {
+          "programmeId": "SG-NUS-P075",
+          "name": "MSc (Behavioural and Implementation Sciences in Health)",
+          "officialUrl": "https://medicine.nus.edu.sg/bisi/master-of-science-in-behavioural-and-implementation-sciences-in-health/"
+        },
+        {
+          "programmeId": "SG-NUS-P076",
+          "name": "MSc (Biodiversity Conservation and Sustainability)",
+          "officialUrl": "https://www.dbs.nus.edu.sg/education/graduates/masters-by-coursework/biodiversity-conservation-sustainability/"
+        },
+        {
+          "programmeId": "SG-NUS-P077",
+          "name": "MSc (Biomedical Informatics)",
+          "officialUrl": "https://medicine.nus.edu.sg/dbmi/msc-in-biomedical-informatics-coursework/"
+        },
+        {
+          "programmeId": "SG-NUS-P078",
+          "name": "MSc (Biotechnology)",
+          "officialUrl": "https://www.dbs.nus.edu.sg/education/graduates/masters-by-coursework/biotechnology/"
+        },
+        {
+          "programmeId": "SG-NUS-P079",
+          "name": "MSc (Building Performance and Sustainability)",
+          "officialUrl": "https://cde.nus.edu.sg/dbe/graduate/msc-building-performance-and-sustainability/"
+        },
+        {
+          "programmeId": "SG-NUS-P080",
+          "name": "MSc (Chemical Sciences)",
+          "officialUrl": "https://chemistry.nus.edu.sg/education/graduate/msc-in-chemical-sciences/"
+        },
+        {
+          "programmeId": "SG-NUS-P081",
+          "name": "MSc (Critical Care Nursing)",
+          "officialUrl": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-science-critical-care-nursing/"
+        },
+        {
+          "programmeId": "SG-NUS-P082",
+          "name": "MSc (Data Science for Sustainability)",
+          "officialUrl": "https://www.stat.nus.edu.sg/prospective-students/graduate-programme/msc-in-data-science-for-sustainability/"
+        },
+        {
+          "programmeId": "SG-NUS-P083",
+          "name": "MSc (Energy Systems)",
+          "officialUrl": "https://cde.nus.edu.sg/chbe/masters-of-science-energy-systems/"
+        },
+        {
+          "programmeId": "SG-NUS-P084",
+          "name": "MSc (Engineering Design and Innovation)",
+          "officialUrl": "https://cde.nus.edu.sg/edic/msc/"
+        },
+        {
+          "programmeId": "SG-NUS-P085",
+          "name": "MSc (Environmental Engineering)",
+          "officialUrl": "https://cde.nus.edu.sg/cee/graduate/coursework-based-programmes/msc-eve/"
+        },
+        {
+          "programmeId": "SG-NUS-P086",
+          "name": "MSc (Financial Engineering)",
+          "officialUrl": "https://rmi.nus.edu.sg/mfe-program/introduction/"
+        },
+        {
+          "programmeId": "SG-NUS-P087",
+          "name": "MSc (Food Science and Human Nutrition)",
+          "officialUrl": "https://www.fst.nus.edu.sg/education/postgraduate-programme/admission-information/msc-in-food-science-human-nutrition/"
+        },
+        {
+          "programmeId": "SG-NUS-P088",
+          "name": "MSc (Forensic Science)",
+          "officialUrl": "https://www.dbs.nus.edu.sg/education/master-of-science-in-forensic-science/"
+        },
+        {
+          "programmeId": "SG-NUS-P089",
+          "name": "MSc (Health Economics and Outcomes Research)",
+          "officialUrl": "https://sph.nus.edu.sg/education/mscheor/"
+        },
+        {
+          "programmeId": "SG-NUS-P090",
+          "name": "MSc (Human Potential and Performance)",
+          "officialUrl": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-human-potential-and-performance/"
+        },
+        {
+          "programmeId": "SG-NUS-P091",
+          "name": "MSc (Infection Prevention and Control)",
+          "officialUrl": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-science-infection-prevention-and-control/"
+        },
+        {
+          "programmeId": "SG-NUS-P092",
+          "name": "MSc (Infectious Disease Emergencies)",
+          "officialUrl": "https://medicine.nus.edu.sg/cider/education/msc-infectious-disease-emergencies/"
+        },
+        {
+          "programmeId": "SG-NUS-P093",
+          "name": "MSc (Integrated Sustainable Design)",
+          "officialUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-science-integrated-sustainable-design/"
+        },
+        {
+          "programmeId": "SG-NUS-P094",
+          "name": "MSc (Management of Technology and Innovation)",
+          "officialUrl": "https://cde.nus.edu.sg/isem/masters-of-science-management-of-technology-and-innovation-programme/"
+        },
+        {
+          "programmeId": "SG-NUS-P095",
+          "name": "MSc (Maritime Technology and Management)",
+          "officialUrl": "https://cde.nus.edu.sg/isem/graduate/coursework/masters-of-science-maritime-technology-management-programme/"
+        },
+        {
+          "programmeId": "SG-NUS-P096",
+          "name": "MSc (Materials for Energy Innovation and Sustainability)",
+          "officialUrl": "https://cde.nus.edu.sg/mse/graduates/master-of-science-msc-energy-and-sustainability/"
+        },
+        {
+          "programmeId": "SG-NUS-P097",
+          "name": "MSc (Materials Science and Engineering)",
+          "officialUrl": "https://cde.nus.edu.sg/mse/graduates/master-of-science-msc/"
+        },
+        {
+          "programmeId": "SG-NUS-P098",
+          "name": "MSc (Mathematics)",
+          "officialUrl": "https://www.math.nus.edu.sg/pg/msc-cwk/"
+        },
+        {
+          "programmeId": "SG-NUS-P099",
+          "name": "MSc (Mechanical Engineering)",
+          "officialUrl": "https://cde.nus.edu.sg/me/graduate/msc-me/"
+        },
+        {
+          "programmeId": "SG-NUS-P100",
+          "name": "MSc (Medical Pharmacology)",
+          "officialUrl": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-medical-pharmacology/"
+        },
+        {
+          "programmeId": "SG-NUS-P101",
+          "name": "MSc (Nutrition and Lifestyle Medicine)",
+          "officialUrl": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-nutrition-and-lifestyle-medicine/"
+        },
+        {
+          "programmeId": "SG-NUS-P102",
+          "name": "MSc (Pharmaceutical Science and Technology)",
+          "officialUrl": "https://pharmacy.nus.edu.sg/study/postgraduate-programmes/msc-pharmaceutical-science-technology-programme/"
+        },
+        {
+          "programmeId": "SG-NUS-P103",
+          "name": "MSc (Physics for Technology)",
+          "officialUrl": "https://www.physics.nus.edu.sg/student/master-in-physics-technology/"
+        },
+        {
+          "programmeId": "SG-NUS-P104",
+          "name": "MSc (Physics)",
+          "officialUrl": "https://www.physics.nus.edu.sg/student/master-of-science-by-coursework/"
+        },
+        {
+          "programmeId": "SG-NUS-P105",
+          "name": "MSc (Precision Health and Medicine)",
+          "officialUrl": "https://medicine.nus.edu.sg/bch/msc-phm/"
+        },
+        {
+          "programmeId": "SG-NUS-P106",
+          "name": "MSc (Safety, Health and Environmental Technology)",
+          "officialUrl": "https://cde.nus.edu.sg/chbe/masters-of-science-safety-health-environmental-technology/"
+        },
+        {
+          "programmeId": "SG-NUS-P107",
+          "name": "MSc (Semiconductor Technology and Operations)",
+          "officialUrl": "https://cde.nus.edu.sg/ece/graduate/msc_sto/"
+        },
+        {
+          "programmeId": "SG-NUS-P108",
+          "name": "MSc (Social Analytics and AI)",
+          "officialUrl": "https://scale.nus.edu.sg/programmes/graduate/msc-(social-analytics-and-ai)"
+        },
+        {
+          "programmeId": "SG-NUS-P109",
+          "name": "MSc (Social Impact & Nonprofit Leadership)",
+          "officialUrl": "https://scale.nus.edu.sg/programmes/graduate/msc-(social-impact---nonprofit-leadership)"
+        },
+        {
+          "programmeId": "SG-NUS-P110",
+          "name": "MSc (Speech and Language Pathology)",
+          "officialUrl": "https://medicine.nus.edu.sg/dgms/SLP/home.html"
+        },
+        {
+          "programmeId": "SG-NUS-P111",
+          "name": "MSc (Statistics)",
+          "officialUrl": "https://www.stat.nus.edu.sg/prospective-students/graduate-programme/msc_in_statistics/"
+        },
+        {
+          "programmeId": "SG-NUS-P112",
+          "name": "MSc (Strategic Analysis and Innovation)",
+          "officialUrl": "https://mscstrategy.nus.edu.sg/"
+        },
+        {
+          "programmeId": "SG-NUS-P113",
+          "name": "MSc (Sustainable Chemistry for Energy and Environment)",
+          "officialUrl": "https://chemistry.nus.edu.sg/education/graduate/msc-sce/"
+        },
+        {
+          "programmeId": "SG-NUS-P114",
+          "name": "MSc (Sustainable Healthcare)",
+          "officialUrl": "https://medicine.nus.edu.sg/cosm/education/msc/"
+        },
+        {
+          "programmeId": "SG-NUS-P115",
+          "name": "MSocSc (Geopolitics of South Asia)",
+          "officialUrl": "https://fass.nus.edu.sg/sas/masters-by-coursework/"
+        },
+        {
+          "programmeId": "SG-NUS-P116",
+          "name": "MTech (Artificial Intelligence Systems)",
+          "officialUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-artificial-intelligence-systems"
+        },
+        {
+          "programmeId": "SG-NUS-P117",
+          "name": "MTech (Digital Leadership)",
+          "officialUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-digital-leadership"
+        },
+        {
+          "programmeId": "SG-NUS-P118",
+          "name": "MTech (Enterprise Business Analytics)",
+          "officialUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-enterprise-business-analytics"
+        },
+        {
+          "programmeId": "SG-NUS-P119",
+          "name": "MTech (Software Engineering)",
+          "officialUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-software-engineering"
+        },
+        {
+          "programmeId": "SG-NUS-P120",
+          "name": "NUS Executive MBA (Chinese)",
+          "officialUrl": "https://embac.nus.edu.sg/"
+        },
+        {
+          "programmeId": "SG-NUS-P121",
+          "name": "NUS Executive MBA (English)",
+          "officialUrl": "https://emba.nus.edu.sg/"
+        }
+      ]
+    },
+    {
+      "schoolId": "SG-SIT",
+      "catalogueRecords": 4,
+      "partialRecords": 4,
+      "pageCheckedRecords": 4,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 4,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 2,
+        "gpa": 0,
+        "language": 4,
+        "tuition": 4,
+        "deadline": 1
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 4,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-SMU",
+      "catalogueRecords": 17,
+      "partialRecords": 17,
+      "pageCheckedRecords": 17,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 17,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 2,
+        "gpa": 0,
+        "language": 15,
+        "tuition": 14,
+        "deadline": 11
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 3,
+        "gpa": 17,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-SUSS",
+      "catalogueRecords": 29,
+      "partialRecords": 28,
+      "pageCheckedRecords": 28,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 1,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 27,
+      "activeParentUnknownFields": {
+        "academicYear": 27,
+        "major": 20,
+        "gpa": 0,
+        "language": 26,
+        "tuition": 27,
+        "deadline": 27
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 6,
+        "gpa": 27,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-SUTD",
+      "catalogueRecords": 19,
+      "partialRecords": 18,
+      "pageCheckedRecords": 18,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 1,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 15,
+      "activeParentUnknownFields": {
+        "academicYear": 2,
+        "major": 0,
+        "gpa": 0,
+        "language": 6,
+        "tuition": 8,
+        "deadline": 2
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 15,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    }
+  ]
+}

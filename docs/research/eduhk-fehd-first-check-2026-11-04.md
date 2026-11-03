@@ -1,0 +1,37 @@
+# EdUHK FEHD first-pass source check — 4 November 2026
+
+Local engineering research and data maintenance, not assessment prose. This batch covers the existing eleven FEHD degree identities, represented by thirteen separately read language-version pages. It is not a full EdUHK re-enumeration, current live-portal check, professional accreditation assessment or complete eligibility audit.
+
+## Exact programme boundaries
+
+| Existing ID | Separately retained programme conditions | Official programme source(s) |
+| --- | --- | --- |
+| P007 | Child/Family: FT1/PT2; relevant study preferred; three study tracks allocated by the programme. Practice may use Chinese. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=705) |
+| P013 | Cultural Heritage: FT1 Heritage Education/Management only for 2027/28; no PT or Xiqu intake. High Chinese; conditional HSK6/equivalence. Relevant degree/work is preferred. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=9118) |
+| P020 | Educational Counselling: FT1/PT2; Chinese practicum. Practicum/Research streams have different professional-membership pathways; Research does not lead to the cited certified-counsellor route. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=230) |
+| P023 | Global Studies in Education: Chinese FT1; required 500–1,000-word study statement; conditional Chinese proof. Related English version says no 2027/28 admission. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=10665) |
+| P026 | Inclusive Early Childhood: Chinese FT1/PT2; education/psychology preferred, no numeric Chinese-test floor established in the selected panel. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=9840) |
+| P032 | Positive Psychology: English FT1/PT2; recognised bachelor; no mandatory psychology degree inferred. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=4788) |
+| P049 | EPM: English FT1/PT2 versus Chinese FT1, with independent language evidence. Prior statistics/data science is preferred. | [English](https://www.eduhk.hk/fehd/en/programmes.php?id=9861), [Chinese](https://www.eduhk.hk/fehd/en/programmes.php?id=10214) |
+| P051 | Speech-Language Pathology/Learning Disabilities: FT2 years/5 semesters; assessed qualification alternatives, applicable English plus Chinese and Cantonese; shortlisted interview AND test. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=231) |
+| P053 | Learning Sciences/Smart Education: Chinese FT1; PT code remains on page but PT is explicitly unavailable in 2027/28. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=9112) |
+| P056 | Psychology: English FT1/PT2; prior introductory psychology determines required online bridge. Bridge credits are outside the 36-credit degree; department decides equivalence. | [Programme](https://www.eduhk.hk/fehd/en/programmes.php?id=826) |
+| P059 | Teaching: English FT1 and Chinese FT1 are separate snapshots; specialisations differ. Teacher qualification preferred; neither version grants QTS. Scholarship work/referee conditions are separate. | [English](https://www.eduhk.hk/fehd/en/programmes.php?id=724), [Chinese](https://www.eduhk.hk/fehd/en/programmes.php?id=10627) |
+
+The [2027 official prospectus](https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf), physical pages 3–4, confirms the FEHD taught-programme/language grouping. The # marker denotes Chinese instruction, not pending approval. Existing P049/P059 identities are retained rather than creating four additional degrees. The old Graduate School directory was not successfully re-read; its 20 October evidence and inventory remain unchanged.
+
+## Fees, rounds and language comparisons
+
+Only EPM's fee panel explicitly labels **2027/28**, with provisional tuition HKD174,200 for the represented modes/languages. The other current-page quotes have no explicit fee-year label; retain them in fee-basis prose while keeping numeric 2027/28 tuition null. Quotes are: CFE184,200; Heritage local146,640/non-local183,300; Counselling199,800; GSE185,966; IECE189,200; PositivePsychology170,040; SpeechLanguage628,074; LSSE207,900; Psychology183,960 or199,290 including bridge; Teaching English local160,000/non-local200,000 versus Chinese200,000. No scholarship, exemption, PT duration multiplier, extra fees or living costs are silently applied.
+
+The [central application guide](https://www.eduhk.hk/acadprog/application/index.html) distinguishes taught-master application HKD400 local/HKD500 non-local. The [September2027 schedule](https://www.eduhk.hk/acadprog/postgrad/schedule_index.html) records opening5Oct2026, early4Jan2027, main15Feb2027, final10May2027 non-local/31May2027 local. These three rounds keep null cutoff times and null later-round openings. Capacity can cause earlier closure. January2027 MPPM, offer-announcement periods, programme talks and scholarship1September are not interchangeable deadlines. MSocSc Psychology(Schools/Community) is not the separately excluded MSocSc Educational Psychology.
+
+English panels retain IELTS6, oldTOEFL80 before21Jan2026/newTOEFL4 from21Jan2026, centre-only formats and explicit fixed test-date example1Jan2025 for2027/28. The two-year prose is also retained for confirmation; no rolling expiry is calculated from today. CFE's fixed-date example is attributed to the [central entrance page](https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html). Psychology does not explicitly list CET6; its acceptance is not copied from siblings. Chinese GSE/EPM alternative PSC/LPAT/HSK+HSKK qualifications remain manual; no IELTS score or automatic waiver is imposed. Numeric GPA and universal work-year floors were not established.
+
+## Documents and source-access limits
+
+The October2026 [additional checklist](https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf) explicitly asks for Chinese examination evidence for ESLPLD and psychology-course transcripts for Psychology. The [main document checklist](https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf) distinguishes current students, graduates and qualification locations. Original/certified copies are normally not needed at application but official direct transmission can be requested. Reference reports/statements are optional unless specifically required. GSE's required500–1,000 statement and Psychology's recommended up-to400 statement stay distinct. The [FAQ](https://www.eduhk.hk/acadprog/FAQS/index.htm) supplies certified translation and further verification conditions.
+
+The [machine observation](../../data/research/eduhk-fehd-observation-2026-11-04.json) retains38 retrieval attempts:22 readable successes and16 failures, including repeated retrievals. Initial Python legacy-TLS negotiation failures were resolved for selected pages using Windows curl/Schannel with normal certificate verification; certificate checks were never disabled. Both old GS-directory attempts still failed. Three official PDFs were read; relevant prospectus pages3–4 and both one-page checklists were rendered and visually checked. Raw bodies remain outside Git, with saved SHA256 hashes; retrieval count is not a programme count or independent review.
+
+All new records stay partial, reviewer null, with actual source dates4November. No private documents, application submission, daily SQLite import, GitHub push, deployment or weekly-ref change occurred.
