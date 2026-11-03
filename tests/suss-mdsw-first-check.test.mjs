@@ -109,7 +109,7 @@ test('maximum SSG and separate diploma prices remain quotes, while generic calen
 
 test('first MDSW source migration preserves every other record and previous snapshots in isolated stores', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 328); assert.equal(queue.counts.reviewUnits, 585);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 330); assert.equal(queue.counts.reviewUnits, 595);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-mdsw-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
@@ -120,7 +120,7 @@ test('first MDSW source migration preserves every other record and previous snap
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 328); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 330); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -145,8 +145,8 @@ test('actual matching, remembered selection and export retain the diploma altern
   assert.match(exported.evidence.publishedRequirements.find(r => /graduate-diploma/.test(r.labelEn)).noteEn, /cannot verify an additional graduate diploma/);
   assert.equal(exported.evidence.publishedRequirements.some(r => ['major', 'gpa', 'experience', 'classification'].includes(r.kind)), false);
   assert.match(exported.offerings[0].feeBasis, /not a default personal price/); assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 328); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 866);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 330); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 218, categories: 437, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 39);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 224, categories: 449, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 41);
   assert.equal(detail.applicationTimeline.state, 'dates_incomplete'); assert.equal(JSON.stringify(store.all()), before);
 });

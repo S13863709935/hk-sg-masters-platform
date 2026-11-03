@@ -44,7 +44,7 @@ $env:PORT = '3103'
 
 `data/catalogue.json` 是从原始工作簿提取的 175 条种子，保留了旧稿的状态和备注。旧稿内容标签可能不准确，不作为本科专业门槛依据。旧要求备注不参与自动判断。
 
-`data/checked-programmes.json` 保存 328 条部分项目页记录，完整要求及独立复核为 0。11 月 3 日 SUTD 批次补入 16 个项目／21 个学习选项，并按必需中国交付排除 3 条；总库 873／默认 866。方向 16 组／39 份、上下文 218 组／437 类，维护 585 单元、近截止 5。整校首轮清单与未知字段缺口分开，见[逐校剩余数据](research/school-data-backlog-2026-11-03.md)、[数据说明](../data/README.md)与[本批记录](progress/local-sutd-school-2026-11-03.md)。
+`data/checked-programmes.json` 保存 330 条部分项目页记录，完整要求及独立复核为 0。11 月 3 日城大／港大批次处理 3 条剩余线索：P60 同代码名称连续性、EMBA 两条独立路径、港大旧房屋管理名称留档。总库 873／默认 865；方向 17 组／41 份、上下文 224 组／449 类，维护 595 单元、近截止 5。见[逐校清单](research/school-data-backlog-2026-11-03-cityu-hku-remainder.md)、[数据说明](../data/README.md)与[本批记录](progress/local-cityu-hku-remainder-2026-11-03.md)。
 
 `data/route-programmes.json` 另存 15 组／37 条部分方向快照，独立复核 0。各方向、学制和申请类别分别保留原查阅日期及其来源；跨地区交付疑点继续明确记录。路径不增加父项目数量、不覆盖另一方向的条件，统计单独显示。
 
@@ -123,9 +123,9 @@ node scripts/source-review-queue.mjs --as-of 2026-11-03
 node scripts/source-review-queue.mjs --as-of 2026-11-03 --format markdown
 ```
 
-日期必须明确指定；工具只读仓库 JSON，并在内存中组装来源，不打开 `data/local` 的日常数据库、不联网，也不自动写输出文件或修改复核状态。JSON 保留原查阅日、字段说明、人工条件、类别绑定及记录截止；Markdown 为便于人工操作的索引。328 条部分项目页记录、39 条路径、218 个申请人上下文共 585 个工作单元，不是 585 个项目。未公布 GPA 不当成零或一般缺失，未知条件不自动通过。绑定失配或晚于快照的类别证据不得产生可用价格日期；临近截止只用于安排核对，不证明申请开放。
+日期必须明确指定；工具只读仓库 JSON，并在内存中组装来源，不打开 `data/local` 的日常数据库、不联网，也不自动写输出文件或修改复核状态。JSON 保留原查阅日、字段说明、人工条件、类别绑定及记录截止；Markdown 为便于人工操作的索引。330 条部分项目页记录、41 条路径、224 个申请人上下文共 595 个工作单元，不是 595 个项目。未公布 GPA 不当成零或一般缺失，未知条件不自动通过。绑定失配或晚于快照的类别证据不得产生可用价格日期；临近截止只用于安排核对，不证明申请开放。
 
-当前为 [3 日 SUTD 整校清单](research/source-review-queue-2026-11-03-sutd-school.md)，另保留 [同日港大医学清单](research/source-review-queue-2026-11-03-hku-medical-law.md)、[1 日理学批次清单](research/source-review-queue-2026-11-01-hku-science-arts.md)、[同日传媒批次清单](research/source-review-queue-2026-11-01-hku-media-social.md)、[31 日教育／政策批次清单](research/source-review-queue-2026-10-31-hku-education-policy.md)与 [24 日历史工作清单](research/source-review-queue-2026-10-24.md)。源文件变动后应另建新批次快照；输入指纹按 JSON 语义计算，不受换行或对象键序影响。原件视觉检查、真实人员复核、完整性评估及上线授权仍是独立事项。
+当前为 [3 日城大／港大收尾清单](research/source-review-queue-2026-11-03-cityu-hku-remainder.md)，另保留 [同日 SUTD 清单](research/source-review-queue-2026-11-03-sutd-school.md)、[同日港大医学清单](research/source-review-queue-2026-11-03-hku-medical-law.md)、[1 日理学批次清单](research/source-review-queue-2026-11-01-hku-science-arts.md)、[同日传媒批次清单](research/source-review-queue-2026-11-01-hku-media-social.md)、[31 日教育／政策批次清单](research/source-review-queue-2026-10-31-hku-education-policy.md)与 [24 日历史工作清单](research/source-review-queue-2026-10-24.md)。源文件变动后应另建新批次快照；输入指纹按 JSON 语义计算，不受换行或对象键序影响。原件视觉检查、真实人员复核、完整性评估及上线授权仍是独立事项。
 
 ### 申请日期与学术条件分开
 
@@ -203,4 +203,4 @@ node scripts/check-data.mjs
 
 ## 逐校数据盘点
 
-`node scripts/school-data-backlog.mjs --as-of 2026-11-03` 只读仓库数据，在内存中划分项目页记录、未读线索、已具独立方向证据的分组父记录和范围留档线索，不访问日常数据库或网络。必须明确日期；日期不会重构历史版本，晚于快照的资料在 JSON 结果中标记。当前 [Markdown 快照](research/school-data-backlog-2026-11-03.md)与 [JSON 清单](../data/research/school-backlog-2026-11-03-sutd.json)保留 14 校统计和全部 531 条未读线索的 ID／官方 URL。部分父记录的未知字段和 not_published 分开，模式／类别证据可能另行解决父级未知项。学校未读数量为 0 仍须维护已查资料，不能据此声称完整达标。
+`node scripts/school-data-backlog.mjs --as-of 2026-11-03` 只读仓库数据，在内存中划分项目页记录、未读线索、已具独立方向证据的分组父记录和范围留档线索，不访问日常数据库或网络。必须明确日期；日期不会重构历史版本，晚于快照的资料在 JSON 结果中标记。当前 [Markdown 快照](research/school-data-backlog-2026-11-03-cityu-hku-remainder.md)与 [JSON 清单](../data/research/school-backlog-2026-11-03-cityu-hku-remainder.json)保留 14 校统计和全部 528 条未读线索的 ID／官方 URL。部分父记录的未知字段和 not_published 分开，模式／类别证据可能另行解决父级未知项。学校未读数量为 0 仍须维护已查资料，不能据此声称完整达标。

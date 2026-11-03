@@ -1,0 +1,35 @@
+# Local CityU/HKU remaining identities — 3 November 2026
+
+This batch handles the three remaining unread identities in the existing CityU/HKU catalogue. It adds two partial parent observations, two snapshots under the existing EMBA grouped parent, six study options, one former-name archive option and six applicant contexts/twelve categories. No degree ID is added. Zero unread leads does not mean complete admissions evidence.
+
+## Identity and source decisions
+
+CityU's old Engineering list labels **P60** Civil and Architectural Engineering; its exact 2027 page labels **P60** Civil Infrastructure and Building Sustainability. The same-code continuity supports attaching current P60 information to existing `HK-CITYU-P009`, with an explicit limitation: this is not an invented formal legal rename date or a guarantee of equivalence between every historical curriculum. The original catalogue, directory reconciliation hold and earlier observations remain unchanged as history. Two curricular streams remain within this programme and are not presented as separately verified degrees/routes.
+
+The HKU faculty explicitly calls Master of Housing Management the former name of Master of Urban Studies and Housing Management. `HK-HKU-P003` becomes an archive reference, excluded from default candidates to avoid a duplicate current choice. Existing `HK-HKU-P102` and its two paths/three modes remain unchanged. This exclusion concerns an obsolete separate application choice, not a geographic restriction or an academic failure. No new current fee or window is copied into the legacy record.
+
+The existing CityU EMBA parent remains a grouped catalogue lead. Only its two existing directory variants receive independently recorded snapshots: Chinese P01A and Global P12. P01B is not silently added to or substituted for these paths. No default language/degree path is selected.
+
+## Admission and cost boundaries
+
+- P60 accepts the specified civil/building disciplines or individually assessed equivalent academic/professional achievements. IELTS6/old TOEFL79/new TOEFL4, the inclusive 15 Sep 2024 test-date anchor, format restrictions and conditional English interview remain separate. No numeric GPA or work-year minimum is invented. Classes can be held on weekday daytimes in either mode; a Dissertation may add a summer term.
+- The P60 AY2027/28 rate is HKD8,200 per credit. Minimum30 credits yields a **calculated HKD246,000 baseline**, not an explicit guaranteed all-in programme price. Extra/retaken credits and individual choices remain separate; application fee600 is not included. Both categories have a recorded 28 Feb 2027 HKT23:59 cutoff. The fee source is identified as official indexed content because direct fee requests return a verification page.
+- Chinese EMBA requires second-class honours/equivalent plus six years of significant managerial experience, with Putonghua instruction/assessment. The profile's generic employment years cannot establish managerial quality. Its current tuition stays unknown. Local20 Aug2027 and non-local14 Jul2027 cutoffs are not swapped or copied from P12.
+- Global EMBA specifies ten professional/managerial years as of September2027 and individual exceptional alternatives. The profile does not assess future dated experience or approve an exceptional waiver. Its recorded next-round cutoff is 10 Dec2026, not proof that no later round can exist. The proposed HKD936,000 package includes756,000 credit tuition and180,000 trip charge; the378,000 acceptance payment covers credits and is not added again. Approval, flights/hotel/meals, scholarships and the separate1,000 application fee remain explicit.
+- Global EMBA entry-page English validity uses two years before the application period, while its FAQ says at application. Central/department sources also differ between at least4 global-tour credits, two Cambridge tours and Cambridge/Hangzhou tours. Both EMBA paths retain unconfirmed overseas-delivery conditions. This batch neither invents a universal compulsory UK itinerary nor asserts an entirely HK/SG delivery path.
+
+## Retrieval quality and remaining data
+
+Sixteen direct official retrieval attempts produced ten readable bodies and six unusable verification/empty bodies despite HTTP200. The raw content hashes and `contentReadable` flags are retained in the [observation](../../data/research/cityu-hku-remainder-observation-2026-11-03.json), with full bodies outside Git. Official indexed observations for central/fee/history pages are separately identified. No private student portal, PDF brochure, fabricated opening time or independent human approval is used.
+
+Current totals: 873 catalogue records,865 default browsable,330 partial parents,543 leads,17 route groups/41 snapshots,224 contexts/449 categories,595 maintenance units, five near recorded cutoffs and zero stale bindings. The original core remains497 synthetic comparisons:125 gaps,372 needing confirmation, zero complete-admission outcomes and zero violations. Complete requirements and independent human reviews remain zero.
+
+The [school backlog](../research/school-data-backlog-2026-11-03-cityu-hku-remainder.md) reconciles543 leads as528 unread,12 route-covered grouped parents and three scope-held leads. CityU has61 partial parents and one route-covered EMBA lead; HKU has93 partial parents and ten route-covered leads. Both have zero remaining unread identities in the existing local inventory, not a certified complete current catalogue. Lingnan's43 unread leads are the next useful bounded school/subject batches.
+
+## Validation and publication
+
+All 1,429 tests passed, with zero failures, skips or cancellations, including twelve new batch tests. All twelve mode/category choices passed actual details, matching, saved restoration and privacy-safe export checks. Legacy exclusion, cross-path rejection, obsolete saved-seed attention, exact cutoff boundaries, estimated-cost flags and conditional criteria were checked. P60's calculated price carries the existing visible minimum-credit estimate label and preserves that flag in exports. Tests use memory and temporary databases, not the daily working database.
+
+The preservation audit confirmed the previous 328 parent objects, 39 route snapshots, 218 contexts, six scope decisions, historical source/research/progress files, catalogue/workbook/core inputs and six protected refs. All sixteen raw retrieval hashes matched, with ten readable and six unusable bodies kept distinct; 305 local links across nine documents passed. The whitespace check passed. Old live-count expectations and historical hold checks were updated to reflect this later source batch, while original observations and source score thresholds remain unchanged.
+
+This batch stays local on `feat/local-prototype`. No push, deployment, daily database import or weekly-ref update is included. Week7 stays at `dff8b54a2be6bf864d5167a0e9132420e4bc42a8`. The previous328 parent objects,39 route snapshots,218 contexts,six scope decisions and historical/source/workbook/core files must remain unchanged; no teammate work or human review is claimed.

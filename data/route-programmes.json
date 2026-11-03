@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-11-01",
+  "checkedOn": "2026-11-03",
   "programmes": [
     {
       "programmeId": "SG-NTU-P061",
@@ -7556,6 +7556,372 @@
           },
           "researchBatch": "hku-media-social-2026-11-01",
           "routeId": "HK-HKU-P021-ROUTE-DOCUMENTARY"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P003",
+      "routes": [
+        {
+          "name": "Executive Master of Business Administration (Taught in Chinese)",
+          "award": "Master",
+          "area": "Business",
+          "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+          "faculty": "College of Business",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+          "lastChecked": "2026-11-03",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and indexed-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Recognised bachelor with at least SECOND CLASS HONOURS/equivalent AND at least SIX YEARS SIGNIFICANT MANAGERIAL experience. The profile records generic years, not managerial quality or exact assessment date; this condition remains manual. Putonghua instruction/assessment must be suitable for the applicant. No numeric GPA conversion, English score copied from P12, or automatic experience equivalence.",
+          "offerings": [
+            {
+              "id": "HK-CITYU-P003-ROUTE-P01A-2027-FT",
+              "mode": "Full-time",
+              "duration": "1.25 years",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": 1000,
+              "applicationOpen": "2026-09-15",
+              "deadline": null,
+              "feeBasis": "P01A 2027 tuition UNCONFIRMED; no P12 fee, older tariff or automatic subsidy imported. HKD1,000 application fee is separate.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+                "checkedOn": "2026-11-03"
+              },
+              "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+            },
+            {
+              "id": "HK-CITYU-P003-ROUTE-P01A-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": 1000,
+              "applicationOpen": "2026-09-15",
+              "deadline": null,
+              "feeBasis": "P01A 2027 tuition UNCONFIRMED; no P12 fee, older tariff or automatic subsidy imported. HKD1,000 application fee is separate.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+                "checkedOn": "2026-11-03"
+              },
+              "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelEn": "Recognised bachelor or accepted equivalent",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a"
+            },
+            {
+              "kind": "classification",
+              "labelEn": "Second-class honours or equivalent",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "min": "second_lower"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Chinese EMBA managerial experience and language",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "Recognised bachelor with at least SECOND CLASS HONOURS/equivalent AND at least SIX YEARS SIGNIFICANT MANAGERIAL experience. The profile records generic years, not managerial quality or exact assessment date; this condition remains manual. Putonghua instruction/assessment must be suitable for the applicant. No numeric GPA conversion, English score copied from P12, or automatic experience equivalence.",
+              "noteZh": "",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Chinese EMBA overseas delivery and fee limits",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "The timetable explicitly mentions overseas modules; exact required locations and whether an entirely Hong Kong/Singapore path exists are UNCONFIRMED. No Global EMBA Cambridge requirement is copied. Current P01A total tuition is not established from the consulted sources; P12 fee936,000 does not apply.",
+              "noteZh": "",
+              "mandatory": true
+            }
+          ],
+          "routeId": "HK-CITYU-P003-ROUTE-P01A",
+          "scope": {
+            "status": "unconfirmed",
+            "reasonEn": "Required overseas modules/tours and any HK/SG-only delivery route need exact confirmation; language-route conditions cannot be interchanged.",
+            "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+            "checkedOn": "2026-11-03"
+          },
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "Exact 2027 entry and path-specific evidence; no independent review."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "Recognised bachelor with at least SECOND CLASS HONOURS/equivalent AND at least SIX YEARS SIGNIFICANT MANAGERIAL experience. The profile records generic years, not managerial quality or exact assessment date; this condition remains manual. Putonghua instruction/assessment must be suitable for the applicant. No numeric GPA conversion, English score copied from P12, or automatic experience equivalence."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "Exact 2027 entry and path-specific evidence; no independent review."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "No numeric undergraduate admission GPA; honours/equivalence is not a conversion."
+            },
+            "language": {
+              "status": "known",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "Putonghua instruction; no P12 English threshold imported."
+            },
+            "tuition": {
+              "status": "unknown",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "P01A 2027 tuition UNCONFIRMED; no P12 fee, older tariff or automatic subsidy imported. HKD1,000 application fee is separate."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "noteEn": "Partial AI-assisted route reading only."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cityu.edu.hk/en/pg/taught-postgraduate-programmes/faq",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            }
+          ]
+        },
+        {
+          "name": "Executive Master of Business Administration (EMBA)",
+          "award": "Master",
+          "area": "Business",
+          "officialUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12",
+          "faculty": "College of Business",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+          "lastChecked": "2026-11-03",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and indexed-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Recognised bachelor with at least SECOND CLASS HONOURS/equivalent AND at least TEN YEARS professional and/or managerial experience AS OF SEPTEMBER 2027; shortlisted applicants interview. Exceptionally good alternative qualifications or substantial current managerial experience may be individually considered. The profile does not represent experience as of a future month or approve exceptional entry. No universal GPA or automatic experience threshold is substituted. The December date is the recorded NEXT ROUND, not proof that no later round can exist.",
+          "offerings": [
+            {
+              "id": "HK-CITYU-P003-ROUTE-P12-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": 1000,
+              "applicationOpen": "2026-09-15",
+              "deadline": null,
+              "feeBasis": "P12 2027 proposed programme package HKD936,000, SUBJECT TO APPROVAL: 40 credits x18,900=756,000 plus180,000 residential-trip charge. Acceptance payment378,000 covers20 credits and is credited, not added again. Application1,000 separate. Flights/hotel/meals have different inclusions and are not all covered; no scholarship or loan deducted. This P12 package must not price P01A.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships",
+                "checkedOn": "2026-11-03"
+              },
+              "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+            },
+            {
+              "id": "HK-CITYU-P003-ROUTE-P12-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "2027 entry",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": 1000,
+              "applicationOpen": "2026-09-15",
+              "deadline": null,
+              "feeBasis": "P12 2027 proposed programme package HKD936,000, SUBJECT TO APPROVAL: 40 credits x18,900=756,000 plus180,000 residential-trip charge. Acceptance payment378,000 covers20 credits and is credited, not added again. Application1,000 separate. Flights/hotel/meals have different inclusions and are not all covered; no scholarship or loan deducted. This P12 package must not price P01A.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships",
+                "checkedOn": "2026-11-03"
+              },
+              "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+            }
+          ],
+          "rules": [
+            {
+              "kind": "manual",
+              "labelEn": "Global EMBA dated experience and exceptional route",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "noteEn": "Recognised bachelor with at least SECOND CLASS HONOURS/equivalent AND at least TEN YEARS professional and/or managerial experience AS OF SEPTEMBER 2027; shortlisted applicants interview. Exceptionally good alternative qualifications or substantial current managerial experience may be individually considered. The profile does not represent experience as of a future month or approve exceptional entry. No universal GPA or automatic experience threshold is substituted.",
+              "noteZh": "",
+              "mandatory": true
+            },
+            {
+              "kind": "language",
+              "labelEn": "Global EMBA published English scores",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 79,
+                  "validBefore": "2026-01-21",
+                  "atHomeAccepted": false
+                },
+                "toefl_6": {
+                  "total": 4,
+                  "validFrom": "2026-01-21",
+                  "atHomeAccepted": false
+                }
+              },
+              "testDateNotBefore": "2024-09-15",
+              "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Global EMBA language evidence and validity conflict",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "noteEn": "Non-English-medium qualification requires accepted English evidence; IELTS6/old TOEFL79/new TOEFL4 or CET-6 450/equivalent alternatives are published. Entry page uses two years BEFORE APPLICATION PERIOD; FAQ instead says valid AT APPLICATION. Preserve this unresolved anchor conflict; no self-reported English-medium waiver or CET-6 acceptance is automatic. Exact central page format/interview restrictions remain subject to that source, without silently using the broader FAQ. The exact central page excludes TOEFL Home/MyBest and IELTS Indicator/One Skill Retake/Online, requires direct score delivery, and flags IELTS6 or TOEFL4 for an English interview (a comparable TOEFL79 report may exempt the interview).",
+              "noteZh": "",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Global EMBA overseas delivery needs confirmation",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/programme/programme-delivery",
+              "noteEn": "Current delivery page advertises two global tours, Cambridge and Hangzhou. The FAQ instead describes two Cambridge tours (8 credits), while the exact central 2027 indexed page requires at least4 global-tour credits. Required locations, substitutions and any entirely Hong Kong/Singapore route need confirmation. Overseas attendance is not described as optional by the platform, but these inconsistent sources do not establish one universal compulsory UK itinerary for every selectable path; scope remains UNCONFIRMED.",
+              "noteZh": "",
+              "mandatory": true
+            },
+            {
+              "kind": "manual",
+              "labelEn": "Global EMBA supporting documents and selection",
+              "labelZh": "",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/how-to-apply",
+              "noteEn": "Degree certificate/transcript with overall marks, applicable English evidence and conditional mainland CSSD verification are uploaded through the official application account. All shortlisted candidates interview. No fixed referee count or statement word limit established. The platform does not collect these private materials or submit applications.",
+              "noteZh": "",
+              "mandatory": true
+            }
+          ],
+          "routeId": "HK-CITYU-P003-ROUTE-P12",
+          "scope": {
+            "status": "unconfirmed",
+            "reasonEn": "Required overseas modules/tours and any HK/SG-only delivery route need exact confirmation; language-route conditions cannot be interchanged.",
+            "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/programme/programme-delivery",
+            "checkedOn": "2026-11-03"
+          },
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "noteEn": "Exact 2027 entry and path-specific evidence; no independent review."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "noteEn": "Recognised bachelor with at least SECOND CLASS HONOURS/equivalent AND at least TEN YEARS professional and/or managerial experience AS OF SEPTEMBER 2027; shortlisted applicants interview. Exceptionally good alternative qualifications or substantial current managerial experience may be individually considered. The profile does not represent experience as of a future month or approve exceptional entry. No universal GPA or automatic experience threshold is substituted."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "noteEn": "Exact 2027 entry and path-specific evidence; no independent review."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "noteEn": "No numeric undergraduate admission GPA; honours/equivalence is not a conversion."
+            },
+            "language": {
+              "status": "unknown",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "noteEn": "Published test scores are recorded, but validity anchor/applicability and alternative evidence remain unresolved."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships",
+              "noteEn": "P12 2027 proposed programme package HKD936,000, SUBJECT TO APPROVAL: 40 credits x18,900=756,000 plus180,000 residential-trip charge. Acceptance payment378,000 covers20 credits and is credited, not added again. Application1,000 separate. Flights/hotel/meals have different inclusions and are not all covered; no scholarship or loan deducted. This P12 package must not price P01A."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "noteEn": "Partial AI-assisted route reading only."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cityu.edu.hk/en/pg/taught-postgraduate-programmes/faq",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/globalemba/admissions/faqs",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/globalemba/programme/programme-delivery",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/globalemba/programme/global-learning-tour",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            },
+            {
+              "url": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/how-to-apply",
+              "checkedOn": "2026-11-03",
+              "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+            }
+          ]
         }
       ]
     }

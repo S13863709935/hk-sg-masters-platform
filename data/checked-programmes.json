@@ -60201,6 +60201,308 @@
         }
       },
       "researchBatch": "sutd-school-2026-11-03"
+    },
+    {
+      "id": "HK-CITYU-P009",
+      "universityId": "HK-CITYU",
+      "name": "MSc Civil Infrastructure and Building Sustainability",
+      "award": "MSc",
+      "area": "Engineering",
+      "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+      "faculty": "Department of Architecture and Civil Engineering",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "collector": "AI-assisted official HTML and indexed-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Current P60 title attached to the existing P009 ID using official P60 code continuity: the Engineering list still names Civil and Architectural Engineering, while the exact 2027 P60 page names Civil Infrastructure and Building Sustainability. This is a code-based identity reconciliation, not a separately announced legal rename date or proof that every historical curriculum is equivalent. No new duplicate degree is created. Two curricular streams remain within one programme, not separately verified route records.",
+      "offerings": [
+        {
+          "id": "HK-CITYU-P009-P60-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year (2 semesters); Dissertation adds a summer term",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 600,
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "feeBasis": "AY2027/28 published rate HKD8,200 per credit, fixed for this admitted cohort. Minimum 30 credits gives a CALCULATED BASELINE of HKD246,000, not an explicit guaranteed all-in quote. Extra/retaken credits, summer/Dissertation timing and other charges remain individual; application fee600 separate. The fee schedule was read via official indexed content; the direct endpoint returned a verification page.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        },
+        {
+          "id": "HK-CITYU-P009-P60-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years (4 semesters); Dissertation adds a summer term",
+          "intake": "2027 entry",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 600,
+          "applicationOpen": "2026-09-15",
+          "deadline": null,
+          "feeBasis": "AY2027/28 published rate HKD8,200 per credit, fixed for this admitted cohort. Minimum 30 credits gives a CALCULATED BASELINE of HKD246,000, not an explicit guaranteed all-in quote. Extra/retaken credits, summer/Dissertation timing and other charges remain individual; application fee600 separate. The fee schedule was read via official indexed content; the direct endpoint returned a verification page.",
+          "feeEvidence": {
+            "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "degree",
+          "labelEn": "Recognised bachelor or university-assessed equivalent",
+          "labelZh": "",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60"
+        },
+        {
+          "kind": "major",
+          "labelEn": "Published civil/building disciplines",
+          "labelZh": "",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "accepted": [
+            "Civil Engineering",
+            "Building Engineering",
+            "Building Environment and Equipment Engineering",
+            "Building Science and Technology",
+            "Renewable Energy and Green Buildings",
+            "Intelligent Building Technologies",
+            "Urban Planning and Sustainability"
+          ],
+          "any": false,
+          "relatedAllowed": true
+        },
+        {
+          "kind": "language",
+          "labelEn": "Programme English scores and exact test-date anchor",
+          "labelZh": "",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "tests": {
+            "ielts": {
+              "total": 6
+            },
+            "toefl_120": {
+              "total": 79,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 4,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          },
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list"
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Programme academic alternatives and stream boundaries",
+          "labelZh": "",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "noteEn": "Civil Engineering with structural/transport/geotechnical/environmental/water-resources focus OR Building Engineering/related disciplines including building environment/equipment, building science, renewable energy/green buildings, intelligent building technologies or urban planning/sustainability; OR university-assessed equivalent academic/professional achievements. Relatedness and alternatives remain individual. No numeric undergraduate GPA or mandatory work-year minimum is established.",
+          "noteZh": "",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelEn": "English applicability, formats and interview",
+          "labelZh": "",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "noteEn": "Non-English-medium entrants need accepted evidence; CET-6 450/equivalent alternatives and waivers require institutional acceptance. IELTS 6.0 or TOEFL 4 requires an English-proficiency interview; a comparable TOEFL 79+ report may exempt that interview, not admission. No TOEFL Home/MyBest, IELTS Indicator/One Skill Retake/Online. Direct official score delivery is required. Two years before the application period gives the inclusive 15 September 2024 anchor, not expiry from today.",
+          "noteZh": "",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelEn": "P60 title reconciliation and historical curriculum",
+          "labelZh": "",
+          "sourceUrl": "https://www.cityu.edu.hk/ceng/programmes/masters-programmes--professional-doctorate-programmes",
+          "noteEn": "Official old and current names share P60. Retain the original seed for history; the 2027 requirements belong to the CURRENT Civil Infrastructure and Building Sustainability page. A formal legal rename date and universal equivalence of older awards are not established.",
+          "noteZh": "",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelEn": "Documents, timetable and credit costs",
+          "labelZh": "",
+          "sourceUrl": "https://www.cityu.edu.hk/en/pg/taught-postgraduate-programmes/faq",
+          "noteEn": "Upload degree/transcript and applicable English/professional evidence before submission; supplementary form/statement only if requested. Originals are checked later on request; no fixed referee count or statement length is inferred. Classes can occur on weekday DAYTIMES in either mode. FT normally two semesters, PT four; Dissertation adds a summer term. Minimum 30 credits; changing streams is possible but simultaneous streams are not. Credit transfer is generally not entertained and never an automatic fee discount.",
+          "noteZh": "",
+          "mandatory": true
+        }
+      ],
+      "researchBatch": "cityu-hku-remainder-2026-11-03",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "noteEn": "Exact 2027 entry programme evidence; context selection required for numeric fee/date."
+        },
+        "major": {
+          "status": "known",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "noteEn": "Civil Engineering with structural/transport/geotechnical/environmental/water-resources focus OR Building Engineering/related disciplines including building environment/equipment, building science, renewable energy/green buildings, intelligent building technologies or urban planning/sustainability; OR university-assessed equivalent academic/professional achievements. Relatedness and alternatives remain individual. No numeric undergraduate GPA or mandatory work-year minimum is established."
+        },
+        "language": {
+          "status": "known",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "noteEn": "Exact 2027 entry programme evidence; context selection required for numeric fee/date."
+        },
+        "deadline": {
+          "status": "known",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "noteEn": "Exact 2027 entry programme evidence; context selection required for numeric fee/date."
+        },
+        "gpa": {
+          "status": "not_published",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "noteEn": "No universal numeric entry GPA established; academic equivalence is individual."
+        },
+        "tuition": {
+          "status": "known",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+          "noteEn": "AY2027/28 published rate HKD8,200 per credit, fixed for this admitted cohort. Minimum 30 credits gives a CALCULATED BASELINE of HKD246,000, not an explicit guaranteed all-in quote. Extra/retaken credits, summer/Dissertation timing and other charges remain individual; application fee600 separate. The fee schedule was read via official indexed content; the direct endpoint returned a verification page."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "noteEn": "Partial AI-assisted observation, not independent human review."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+        },
+        {
+          "url": "https://www.cityu.edu.hk/ceng/programmes/masters-programmes--professional-doctorate-programmes",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+        },
+        {
+          "url": "https://www.cityu.edu.hk/en/pg/taught-postgraduate-programmes/faq",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+        }
+      ]
+    },
+    {
+      "id": "HK-HKU-P003",
+      "universityId": "HK-HKU",
+      "name": "Master of Housing Management",
+      "award": "Master",
+      "area": "Architecture",
+      "officialUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+      "faculty": "Faculty of Architecture",
+      "verification": "programme_page_checked",
+      "requirementsCoverage": "partial",
+      "sourceStatus": "AI-assisted partial official-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "Historical title; see current HK-HKU-P102",
+      "admissionRoute": "unconfirmed",
+      "collector": "AI-assisted official HTML and indexed-source reading",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "The faculty explicitly identifies Master of Housing Management as the FORMER NAME of Master of Urban Studies and Housing Management. This former title is an archive reference. Select the current Urban Studies and Housing Management entry and its Housing Professional or Urban Studies path for application information; it is not a second current degree or fee/date option.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P003-LEGACY",
+          "mode": null,
+          "duration": null,
+          "intake": "Historical title; see current Urban Studies and Housing Management",
+          "academicYear": "Historical title; see current HK-HKU-P102",
+          "currency": null,
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "No current tuition assigned to the former-name archive.",
+          "deadlineNote": "No current application window assigned; consult the existing current programme routes."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelEn": "Historical title and current programme identity",
+          "labelZh": "",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "noteEn": "The faculty explicitly identifies Master of Housing Management as the FORMER NAME of Master of Urban Studies and Housing Management. This former title is an archive reference. Select the current Urban Studies and Housing Management entry and its Housing Professional or Urban Studies path for application information; it is not a second current degree or fee/date option.",
+          "noteZh": "",
+          "mandatory": true
+        }
+      ],
+      "researchBatch": "cityu-hku-remainder-2026-11-03",
+      "fieldStatus": {
+        "academicYear": {
+          "status": "not_applicable",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "noteEn": "Former-name archive; current requirements belong to the Urban Studies and Housing Management paths, not another application choice."
+        },
+        "major": {
+          "status": "not_applicable",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "noteEn": "Former-name archive; current requirements belong to the Urban Studies and Housing Management paths, not another application choice."
+        },
+        "gpa": {
+          "status": "not_applicable",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "noteEn": "Former-name archive; current requirements belong to the Urban Studies and Housing Management paths, not another application choice."
+        },
+        "language": {
+          "status": "not_applicable",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "noteEn": "Former-name archive; current requirements belong to the Urban Studies and Housing Management paths, not another application choice."
+        },
+        "tuition": {
+          "status": "not_applicable",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "noteEn": "Former-name archive; current requirements belong to the Urban Studies and Housing Management paths, not another application choice."
+        },
+        "deadline": {
+          "status": "not_applicable",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "noteEn": "Former-name archive; current requirements belong to the Urban Studies and Housing Management paths, not another application choice."
+        },
+        "independentReview": {
+          "status": "unknown",
+          "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "noteEn": "No independent review recorded."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+        },
+        {
+          "url": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/admissions/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact official programme or supporting source. Some central/fee observations use official indexed content because direct requests return a verification page; no live portal check or complete review."
+        }
+      ]
     }
   ]
 }

@@ -19,8 +19,8 @@ const english = (n, language) => matchProgramme(p(n), { ...background, language 
 
 test('21 existing IDs gain partial source evidence without creating new catalogue awards or changing the original pilot', () => {
   assert.equal(obs.programmeIds.length, 21); assert.equal(new Set(obs.programmeIds).size, 21);
-  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 328); assert.equal(q.browsable, 866); assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0);
-  assert.equal(store.all().filter(p => p.universityId === 'HK-CITYU' && p.verification === 'programme_page_checked').length, 60);
+  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.checked, 330); assert.equal(q.browsable, 865); assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0);
+  assert.equal(store.all().filter(p => p.universityId === 'HK-CITYU' && p.verification === 'programme_page_checked').length, 61);
   const batch = read('data/checked-programmes.json'); assert.equal(batch.pilotProgrammeIds.length, 20);
   assert.ok(obs.programmeIds.every(id => !batch.pilotProgrammeIds.includes(id)));
   for (const id of obs.programmeIds) {
@@ -33,7 +33,9 @@ test('21 existing IDs gain partial source evidence without creating new catalogu
 
 test('the first-batch P17 hold is retained historically and its later partial record keeps title approval unresolved', () => {
   assert.equal(obs.held[0].programmeId, p(7).id);
-  for (const n of [3, 9]) assert.equal(p(n).verification, 'catalogue_seed');
+  assert.equal(p(3).verification, 'catalogue_seed');
+  assert.equal(p(9).verification, 'programme_page_checked');
+  assert.equal(p(9).lastChecked, '2026-11-03');
   for (const n of [36, 37]) assert.equal(p(n).verification, 'programme_page_checked');
   assert.equal(p(7).verification, 'programme_page_checked');
   assert.equal(matchProgramme(p(7), background).status, 'needs_confirmation');
@@ -58,7 +60,7 @@ test('one school batch upgrades 21 existing catalogue records over isolated rest
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath });
-      assert.equal(db.quality().checked, 328);
+      assert.equal(db.quality().checked, 330);
       assert.deepEqual(db.all().filter(p => !ids.has(p.id)), earlier);
       assert.deepEqual(db.quality().sourceRefreshConflicts, []);
       for (const id of ids) assert.equal(db.get(id).verification, 'programme_page_checked');
@@ -124,8 +126,8 @@ test('universal deadlines remain withheld after category reconciliation and stud
 });
 
 test('current maintenance units distinguish later category evidence from unchanged routes and imminent cutoffs', () => {
-  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, 328); assert.equal(q.counts.remainingCatalogueLeads, 545);
-  assert.equal(q.counts.reviewUnits, 585); assert.equal(q.counts.routeRecords, 39); assert.equal(q.counts.applicantContexts, 218);
+  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, 330); assert.equal(q.counts.remainingCatalogueLeads, 543);
+  assert.equal(q.counts.reviewUnits, 595); assert.equal(q.counts.routeRecords, 41); assert.equal(q.counts.applicantContexts, 224);
   assert.equal(q.counts.nearCutoffUnits, 3); assert.equal(q.counts.staleApplicantContexts, 0);
 });
 
@@ -136,7 +138,7 @@ test.after(async () => { await new Promise(resolve => app.close(resolve)); store
 const get = async path => { const r = await fetch(url + path); assert.equal(r.status, 200); return r.json(); };
 
 test('real APIs expose checked details and restore new choices without silently substituting retired lead choices', async () => {
-  const listing = await get('/api/catalogue?school=HK-CITYU&verification=programme_page_checked&limit=100'); assert.equal(listing.total, 60);
+  const listing = await get('/api/catalogue?school=HK-CITYU&verification=programme_page_checked&limit=100'); assert.equal(listing.total, 61);
   const id = p(31).id, offering = p(31).offerings[0].id;
   const detail = await get(`/api/programmes/${id}?offering=${offering}`); assert.equal(detail.selectedOffering.id, offering); assert.equal(detail.offerings[0].tuition, null);
   const original = [...read('data/catalogue.json').programmes, ...read('data/catalogue-expansion.json').programmes].find(p => p.id === id);

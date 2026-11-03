@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-11-03",
+  "collector": "AI-assisted official HTML and indexed-source observations",
+  "reviewer": null,
+  "programmeIds": [
+    "HK-CITYU-P009",
+    "HK-HKU-P003"
+  ],
+  "routeRecords": [
+    {
+      "programmeId": "HK-CITYU-P003",
+      "routeId": "HK-CITYU-P003-ROUTE-P01A"
+    },
+    {
+      "programmeId": "HK-CITYU-P003",
+      "routeId": "HK-CITYU-P003-ROUTE-P12"
+    }
+  ],
+  "applicantContextPlan": [
+    {
+      "programmeId": "HK-CITYU-P009",
+      "routeId": null,
+      "offeringId": "HK-CITYU-P009-P60-2027-FT",
+      "feeSourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+      "dateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+      "options": [
+        {
+          "id": "HK-CITYU-P009-P60-2027-FT-LOCAL",
+          "label": "Local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": 246000,
+          "applicationFee": 600,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-02-28",
+              "deadlineAt": "2027-02-28T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "AY2027/28 published rate HKD8,200 per credit, fixed for this admitted cohort. Minimum 30 credits gives a CALCULATED BASELINE of HKD246,000, not an explicit guaranteed all-in quote. Extra/retaken credits, summer/Dissertation timing and other charges remain individual; application fee600 separate. The fee schedule was read via official indexed content; the direct endpoint returned a verification page.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee.",
+          "tuitionEstimate": true
+        },
+        {
+          "id": "HK-CITYU-P009-P60-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": 246000,
+          "applicationFee": 600,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-02-28",
+              "deadlineAt": "2027-02-28T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "AY2027/28 published rate HKD8,200 per credit, fixed for this admitted cohort. Minimum 30 credits gives a CALCULATED BASELINE of HKD246,000, not an explicit guaranteed all-in quote. Extra/retaken credits, summer/Dissertation timing and other charges remain individual; application fee600 separate. The fee schedule was read via official indexed content; the direct endpoint returned a verification page.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee.",
+          "tuitionEstimate": true
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P009",
+      "routeId": null,
+      "offeringId": "HK-CITYU-P009-P60-2027-PT",
+      "feeSourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+      "dateSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+      "options": [
+        {
+          "id": "HK-CITYU-P009-P60-2027-PT-LOCAL",
+          "label": "Local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": 246000,
+          "applicationFee": 600,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-02-28",
+              "deadlineAt": "2027-02-28T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "AY2027/28 published rate HKD8,200 per credit, fixed for this admitted cohort. Minimum 30 credits gives a CALCULATED BASELINE of HKD246,000, not an explicit guaranteed all-in quote. Extra/retaken credits, summer/Dissertation timing and other charges remain individual; application fee600 separate. The fee schedule was read via official indexed content; the direct endpoint returned a verification page.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee.",
+          "tuitionEstimate": true
+        },
+        {
+          "id": "HK-CITYU-P009-P60-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": 246000,
+          "applicationFee": 600,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-02-28",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-02-28",
+              "deadlineAt": "2027-02-28T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "AY2027/28 published rate HKD8,200 per credit, fixed for this admitted cohort. Minimum 30 credits gives a CALCULATED BASELINE of HKD246,000, not an explicit guaranteed all-in quote. Extra/retaken credits, summer/Dissertation timing and other charges remain individual; application fee600 separate. The fee schedule was read via official indexed content; the direct endpoint returned a verification page.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee.",
+          "tuitionEstimate": true
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P003",
+      "routeId": "HK-CITYU-P003-ROUTE-P01A",
+      "offeringId": "HK-CITYU-P003-ROUTE-P01A-2027-FT",
+      "feeSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "dateSourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "options": [
+        {
+          "id": "HK-CITYU-P003-ROUTE-P01A-2027-FT-LOCAL",
+          "label": "Local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 1000,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-08-20",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-08-20",
+              "deadlineAt": "2027-08-20T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "P01A 2027 tuition UNCONFIRMED; no P12 fee, older tariff or automatic subsidy imported. HKD1,000 application fee is separate.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        },
+        {
+          "id": "HK-CITYU-P003-ROUTE-P01A-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 1000,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-07-14",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-07-14",
+              "deadlineAt": "2027-07-14T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "P01A 2027 tuition UNCONFIRMED; no P12 fee, older tariff or automatic subsidy imported. HKD1,000 application fee is separate.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P003",
+      "routeId": "HK-CITYU-P003-ROUTE-P01A",
+      "offeringId": "HK-CITYU-P003-ROUTE-P01A-2027-PT",
+      "feeSourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "dateSourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "options": [
+        {
+          "id": "HK-CITYU-P003-ROUTE-P01A-2027-PT-LOCAL",
+          "label": "Local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 1000,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-08-20",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-08-20",
+              "deadlineAt": "2027-08-20T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "P01A 2027 tuition UNCONFIRMED; no P12 fee, older tariff or automatic subsidy imported. HKD1,000 application fee is separate.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        },
+        {
+          "id": "HK-CITYU-P003-ROUTE-P01A-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 1000,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2027-07-14",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2027-07-14",
+              "deadlineAt": "2027-07-14T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "P01A 2027 tuition UNCONFIRMED; no P12 fee, older tariff or automatic subsidy imported. HKD1,000 application fee is separate.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P003",
+      "routeId": "HK-CITYU-P003-ROUTE-P12",
+      "offeringId": "HK-CITYU-P003-ROUTE-P12-2027-FT",
+      "feeSourceUrl": "https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships",
+      "dateSourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12",
+      "options": [
+        {
+          "id": "HK-CITYU-P003-ROUTE-P12-2027-FT-LOCAL",
+          "label": "Local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": 936000,
+          "applicationFee": 1000,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2026-12-10",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2026-12-10",
+              "deadlineAt": "2026-12-10T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "P12 2027 proposed programme package HKD936,000, SUBJECT TO APPROVAL: 40 credits x18,900=756,000 plus180,000 residential-trip charge. Acceptance payment378,000 covers20 credits and is credited, not added again. Application1,000 separate. Flights/hotel/meals have different inclusions and are not all covered; no scholarship or loan deducted. This P12 package must not price P01A.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        },
+        {
+          "id": "HK-CITYU-P003-ROUTE-P12-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": 936000,
+          "applicationFee": 1000,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2026-12-10",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2026-12-10",
+              "deadlineAt": "2026-12-10T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "P12 2027 proposed programme package HKD936,000, SUBJECT TO APPROVAL: 40 credits x18,900=756,000 plus180,000 residential-trip charge. Acceptance payment378,000 covers20 credits and is credited, not added again. Application1,000 separate. Flights/hotel/meals have different inclusions and are not all covered; no scholarship or loan deducted. This P12 package must not price P01A.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-CITYU-P003",
+      "routeId": "HK-CITYU-P003-ROUTE-P12",
+      "offeringId": "HK-CITYU-P003-ROUTE-P12-2027-PT",
+      "feeSourceUrl": "https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships",
+      "dateSourceUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12",
+      "options": [
+        {
+          "id": "HK-CITYU-P003-ROUTE-P12-2027-PT-LOCAL",
+          "label": "Local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": 936000,
+          "applicationFee": 1000,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2026-12-10",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2026-12-10",
+              "deadlineAt": "2026-12-10T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "P12 2027 proposed programme package HKD936,000, SUBJECT TO APPROVAL: 40 credits x18,900=756,000 plus180,000 residential-trip charge. Acceptance payment378,000 covers20 credits and is credited, not added again. Application1,000 separate. Flights/hotel/meals have different inclusions and are not all covered; no scholarship or loan deducted. This P12 package must not price P01A.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        },
+        {
+          "id": "HK-CITYU-P003-ROUTE-P12-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — CityUHK category",
+          "currency": "HKD",
+          "tuition": 936000,
+          "applicationFee": 1000,
+          "applicationOpen": "2026-09-15",
+          "deadline": "2026-12-10",
+          "applicationRounds": [
+            {
+              "id": "RECORDED",
+              "label": "Recorded 2027 entry cutoff",
+              "applicationOpen": "2026-09-15",
+              "deadline": "2026-12-10",
+              "deadlineAt": "2026-12-10T23:59:00+08:00"
+            }
+          ],
+          "feeBasis": "P12 2027 proposed programme package HKD936,000, SUBJECT TO APPROVAL: 40 credits x18,900=756,000 plus180,000 residential-trip charge. Acceptance payment378,000 covers20 credits and is credited, not added again. Application1,000 separate. Flights/hotel/meals have different inclusions and are not all covered; no scholarship or loan deducted. This P12 package must not price P01A.",
+          "deadlineNote": "Exact 2027 entry category cutoff; HKT 23:59. Rolling review may end earlier; the recorded dates do not establish portal availability or an admission guarantee."
+        }
+      ]
+    }
+  ],
+  "sourceRetrievals": [
+    {
+      "key": "emba-p12",
+      "requestedUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12",
+      "url": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12",
+      "status": 200,
+      "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "contentReadable": false,
+      "observedOn": "2026-11-03",
+      "title": "",
+      "error": null
+    },
+    {
+      "key": "emba-p01a",
+      "requestedUrl": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "url": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "status": 200,
+      "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "contentReadable": false,
+      "observedOn": "2026-11-03",
+      "title": "",
+      "error": null
+    },
+    {
+      "key": "emba-faq",
+      "requestedUrl": "https://www.cb.cityu.edu.hk/globalemba/admissions/faqs",
+      "url": "https://www.cb.cityu.edu.hk/globalemba/admissions/faqs",
+      "status": 200,
+      "sha256": "3c8a4b136562a9a27184e3f3e65373a3bcf4e14510c676e5a0b2843223600738",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "FAQs",
+      "error": null
+    },
+    {
+      "key": "emba-fees",
+      "requestedUrl": "https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships",
+      "url": "https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships",
+      "status": 200,
+      "sha256": "b94405a2ae857817e381d769bfd573d7ec9be13e2b3639c90c98464f68bf2b0f",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "Fees And Scholarships",
+      "error": null
+    },
+    {
+      "key": "civil-old",
+      "requestedUrl": "https://www.cityu.edu.hk/en/ace/programmes-admissions/master-programmes/master-science-civil-and-architectural-engineering",
+      "url": "https://www.cityu.edu.hk/en/ace/programmes-admissions/master-programmes/master-science-civil-and-architectural-engineering",
+      "status": 200,
+      "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "contentReadable": false,
+      "observedOn": "2026-11-03",
+      "title": "",
+      "error": null
+    },
+    {
+      "key": "civil-p60",
+      "requestedUrl": "https://www.cityu.edu.hk/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+      "url": "https://www.cityu.edu.hk/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+      "status": 200,
+      "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "contentReadable": false,
+      "observedOn": "2026-11-03",
+      "title": "",
+      "error": null
+    },
+    {
+      "key": "civil-fees",
+      "requestedUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+      "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+      "status": 200,
+      "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "contentReadable": false,
+      "observedOn": "2026-11-03",
+      "title": "",
+      "error": null
+    },
+    {
+      "key": "housing-intro",
+      "requestedUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+      "url": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/",
+      "status": 200,
+      "sha256": "de702709ec4df46d7e49255cc9157a1ce0cb407da117790347da597c074de820",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "Master of Urban Studies and Housing Management | HKU Faculty of Architecture",
+      "error": null
+    },
+    {
+      "key": "housing-admission",
+      "requestedUrl": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/admissions/",
+      "url": "https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/admissions/",
+      "status": 200,
+      "sha256": "f239ed71d4f68db89cd0abc8de1a117a27be0016e53d291f0d21897025a3cb10",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "Admissions | HKU Faculty of Architecture",
+      "error": null
+    },
+    {
+      "key": "emba-entry",
+      "requestedUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+      "url": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/entry-requirements",
+      "status": 200,
+      "sha256": "deaa85c3227f13b186bfa3e5b3aaf3cf4420a855f892466a1d1b7727b97a669e",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "Entry Requirements",
+      "error": null
+    },
+    {
+      "key": "emba-delivery",
+      "requestedUrl": "https://www.cb.cityu.edu.hk/en/globalemba/programme/programme-delivery",
+      "url": "https://www.cb.cityu.edu.hk/en/globalemba/programme/programme-delivery",
+      "status": 200,
+      "sha256": "a3cd34078526143ac06c467f4ffa309aab3dcba17688353e7eaef0e8261897b4",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "Programme Delivery",
+      "error": null
+    },
+    {
+      "key": "emba-apply",
+      "requestedUrl": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/how-to-apply",
+      "url": "https://www.cb.cityu.edu.hk/en/globalemba/admissions/how-to-apply",
+      "status": 200,
+      "sha256": "ae0fd38ec36d5c77edd5fe327688195c5ec0ea82b37ca0e7a9867a8ce9f3be57",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "How to Apply",
+      "error": null
+    },
+    {
+      "key": "emba-tour",
+      "requestedUrl": "https://www.cb.cityu.edu.hk/en/globalemba/programme/global-learning-tour",
+      "url": "https://www.cb.cityu.edu.hk/en/globalemba/programme/global-learning-tour",
+      "status": 200,
+      "sha256": "0fb3474146b7c4fdc87c2f1528f357ca517fbc8831168e5a66259cb7e0138a10",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "Global Learning Tour",
+      "error": null
+    },
+    {
+      "key": "chinese-emba",
+      "requestedUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a",
+      "status": 200,
+      "sha256": "10a59859b58b1eb92721922e4fb1d9cb848eb9120026bfad4925c64541b86d7d",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "Executive Master of Business Administration (Taught in Chinese) | CityUHK Postgraduate Admissions",
+      "error": null
+    },
+    {
+      "key": "civil-college",
+      "requestedUrl": "https://www.cityu.edu.hk/ceng/programmes/masters-programmes--professional-doctorate-programmes",
+      "url": "https://www.cityu.edu.hk/ceng/programmes/masters-programmes--professional-doctorate-programmes",
+      "status": 200,
+      "sha256": "b252993bdff4b43252bd765fdd0d0e86ed1cce16395bc086ded656222524b295",
+      "contentReadable": false,
+      "observedOn": "2026-11-03",
+      "title": "",
+      "error": null
+    },
+    {
+      "key": "civil-p60-cb",
+      "requestedUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+      "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60",
+      "status": 200,
+      "sha256": "fdd8d3f5b136f271c35c23c724f2b30fafd8754c470eac18f3c5cd1fed617a8f",
+      "contentReadable": true,
+      "observedOn": "2026-11-03",
+      "title": "MSc in Civil Infrastructure and Building Sustainability | CityUHK Postgraduate Admissions",
+      "error": null
+    }
+  ],
+  "indexedSources": [
+    {
+      "url": "https://www.cityu.edu.hk/ceng/programmes/masters-programmes--professional-doctorate-programmes",
+      "observedOn": "2026-11-03",
+      "noteEn": "Official Engineering list associates old Civil and Architectural Engineering name with P60."
+    },
+    {
+      "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm",
+      "observedOn": "2026-11-03",
+      "noteEn": "Official indexed AY2027/28 fee schedule: HKD8,200 per credit; direct request is a verification page, not readable evidence."
+    },
+    {
+      "url": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12",
+      "observedOn": "2026-11-03",
+      "noteEn": "Exact 2027 central indexed programme: FT/PT1/2years, recorded10Dec2026 cutoff, at least4credits global tours."
+    },
+    {
+      "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+      "observedOn": "2026-11-03",
+      "noteEn": "2027/28 directory, inclusive15Sep2024 language date and HKT23:59 cutoffs."
+    }
+  ],
+  "boundaries": {
+    "identity": "P60 code continuity, not an invented formal rename date. HKU faculty explicitly says formerly; former P003 archive points to existing P102. No new award IDs.",
+    "experience": "Chinese EMBA6 managerial years versus Global10 years as of September2027 with exceptional alternatives; generic experience is not auto-approved.",
+    "delivery": "EMBA exact overseas path unresolved; FAQ and central/delivery versions differ. Do not invent a universal UK-only exclusion or a Hong Kong-only route.",
+    "cost": "Civil246,000 is a calculated minimum-credit baseline, not a guaranteed all-in quotation. Chinese EMBA fee unknown. Global936,000 proposed package includes180,000 trip charge; acceptance credited.",
+    "sourceAccess": "16 direct retrieval attempts; challenge/empty bodies are explicitly unusable even when HTTP200. Indexed official evidence is identified separately; no student portal used."
+  },
+  "counts": {
+    "newPartialParents": 2,
+    "newRoutes": 2,
+    "newStudyOptions": 6,
+    "newArchiveOptions": 1,
+    "newApplicantContexts": 6,
+    "newApplicantCategories": 12,
+    "newScopeExclusions": 1
+  },
+  "limits": {
+    "completeRequirements": 0,
+    "independentHumanReviews": 0,
+    "livePortalChecked": false,
+    "pdfBrochuresUsed": false,
+    "fullCatalogueReenumerated": false
+  }
+}

@@ -26,10 +26,10 @@ const language=(x,l=profile.language)=>matchProgramme(x,{...profile,language:l})
 
 test('seven existing direct records and eleven standalone routes preserve catalogue identities and separate evidence counts',()=>{
  assert.equal(obs.programmeIds.length,7);assert.equal(obs.routeRecords.length,11);assert.equal(obs.applicantContextPlan.length,7);assert.equal(snapshots().flatMap(x=>x.offerings).length,25);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,866);assert.equal(store.quality().checked,328);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);assert.equal(store.all().filter(x=>x.universityId==='HK-HKU'&&x.verification==='programme_page_checked').length,92);
- assert.deepEqual(routeSummary(routes),{groups:16,routes:39,pageChecked:39,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:218,categories:437,peerReviewed:0});
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,330);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);assert.equal(store.all().filter(x=>x.universityId==='HK-HKU'&&x.verification==='programme_page_checked').length,93);
+ assert.deepEqual(routeSummary(routes),{groups:17,routes:41,pageChecked:41,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:224,categories:449,peerReviewed:0});
  for(const x of snapshots()){assert.equal(x.requirementsCoverage,'partial');assert.equal(x.lastChecked,'2026-10-31');assert.equal(x.reviewer,null);assert.equal(x.rules.some(r=>['gpa','classification','experience'].includes(r.kind)),false);const raw=x.routeId?read('data/route-programmes.json').programmes.find(g=>g.programmeId===x.id).routes.find(r=>r.routeId===x.routeId):batch.programmes.find(p=>p.id===x.id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(raw)),false);}
- assert.equal(p(3).verification,'catalogue_seed');assert.equal(obs.programmeIds.includes(p(3).id),false);assert.equal(p(3).selectedRoute,undefined);
+ assert.equal(p(3).scope.status,'out_of_scope');assert.equal(obs.programmeIds.includes(p(3).id),false);assert.equal(p(3).selectedRoute,undefined);
 });
 
 test('each grouped parent needs an explicit path and cannot supply inherited parent or sibling requirements',()=>{
@@ -99,11 +99,11 @@ test('all twenty-five options retain exact noon boundaries, approximate openings
  assert.equal(obs.pdfChecks.length,16);assert.equal(obs.pdfChecks.reduce((n,p)=>n+p.renderedPages.length,0),10);assert.equal(obs.pdfChecks.filter(p=>p.renderedPages.length).length,8);
 });
 
-test('temporary database upgrades preserve unrelated earlier parents and all 218 current context fingerprints',()=>{
+test('temporary database upgrades preserve unrelated earlier parents and all 224 current context fingerprints',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(x=>!ids.has(x.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hku-architecture-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,328);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,218);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,330);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,224);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,585);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,595);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-10-31T08:00:00Z')});let base;
