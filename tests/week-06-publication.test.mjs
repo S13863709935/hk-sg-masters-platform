@@ -15,7 +15,7 @@ const languageCheck = (id, language) => checkProgramme(get(id), { ...structuredC
 
 test('publication data audit pins all selected and retained objects and frozen files', () => {
   const text = execFileSync(process.execPath, [fileURLToPath(new URL('scripts/check-pilot.mjs', root))], { encoding: 'utf8' });
-  assert.match(text, /8 selected updates and 13 retained records/);
+  assert.match(text, /5 selected updates and 16 retained records/);
 });
 
 test('published CityU test-date minimum is unresolved when the test date is missing', () => {
@@ -91,7 +91,7 @@ for (const [label, input] of scenarios) test(`synthetic ${label}: all twenty API
   const response = await fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ profile: input }) });
   assert.equal(response.status, 200);
   const data = await response.json();
-  assert.equal(data.checkpoint, 'week-06'); assert.equal(data.items.length, 20); assert.equal('profile' in data, false);
+  assert.equal(data.checkpoint, 'week-07'); assert.equal(data.items.length, 20); assert.equal('profile' in data, false);
   for (const p of data.items) {
     const original = get(p.id);
     assert.deepEqual(p.match, checkProgramme(original, input));

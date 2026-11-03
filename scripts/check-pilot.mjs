@@ -5,14 +5,14 @@ const root = new URL('../', import.meta.url);
 const read = path => JSON.parse(readFileSync(new URL(path, root), 'utf8'));
 const pilot = read('data/checked-programmes.json');
 const directory = read('data/directory-audit.json');
-const manifest = read('data/publication-week-06.json');
+const manifest = read('data/publication-week-07.json');
 const stable = value => Array.isArray(value) ? value.map(stable) : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().map(key => [key, stable(value[key])])) : value;
 const hash = value => createHash('sha256').update(JSON.stringify(stable(value))).digest('hex');
 const fileHash = path => createHash('sha256').update(readFileSync(new URL(path, root))).digest('hex');
 assert.equal(pilot.schemaVersion, 1);
-assert.equal(manifest.checkpoint, 'week-06');
-assert.equal(manifest.preparedOn, '2026-10-27');
-assert.equal(manifest.selectedProgrammeIds.length, 8);
+assert.equal(manifest.checkpoint, 'week-07');
+assert.equal(manifest.preparedOn, '2026-11-03');
+assert.equal(manifest.selectedProgrammeIds.length, 5);
 assert.equal(directory.universities.length, 14);
 assert.equal(pilot.pilotProgrammeIds.length, 20);
 assert.equal(pilot.programmes.length, 21);
@@ -43,4 +43,4 @@ for (const entry of expected) {
 }
 assert.equal(fileHash('data/raw/master-programme-seeds-2026-09-29.xlsx'), manifest.workbookSha256);
 assert.equal(fileHash('data/directory-audit.json'), manifest.directorySha256);
-console.log('Week 6 checkpoint: 14 schools, 20 direct-entry records, 1 transfer reference; 8 selected updates and 13 retained records. Latest actual source date: 24 October. Independent reviews: 0; complete requirement records: 0.');
+console.log('Week 7 checkpoint: 14 schools, 20 direct-entry records, 1 transfer reference; 5 selected updates and 16 retained records. Latest actual source date: 24 October. Independent reviews: 0; complete requirement records: 0.');

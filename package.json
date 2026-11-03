@@ -1,10 +1,12 @@
 {
   "name": "hk-sg-masters-platform",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "type": "module",
-  "description": "Week 6 source consolidation on the limited programme-screening pilot",
-  "engines": { "node": ">=24" },
+  "description": "Week 7 pilot comparison, candidate references and selected source consolidation",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "start": "node server/index.mjs",
     "test": "node --test tests/*.test.mjs",

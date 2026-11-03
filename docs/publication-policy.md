@@ -13,6 +13,10 @@ Local development may advance beyond the project timetable. Remote commits and p
 
 This is a publication workflow, not an automatic schedule or an assertion that every planned task is complete.
 
+## W7 stage review — 3 November 2026
+
+The user confirmed W7 during the planned review. Apply the delegated publication timing to one tested `checkpoint/week-07` batch from published W6: pilot comparison/candidates/export plus five compatible source observations. This is early-week progress, not completion of W7 or a fresh source reading. Verify the pushed SHA. Keep the advanced local catalogue and later work local, and preserve main and all earlier checkpoints. Further “continue” turns return to local work, with no repeated small push merely because the date is still W7.
+
 ## Current cadence and explicit W6 request — 27 October 2026
 
 The user's later clarification on 20 October supersedes an interpretation of the earlier delegated timing as frequent small pushes. “Continue” means implement, verify and save locally. Consolidate a meaningful tested batch at a weekly/stage review, state a push/no-push recommendation, and do not treat the review date itself as automatic publication. No backdating or invented weekly activity is allowed.

@@ -585,64 +585,68 @@
       "name": "MA International Higher Education and Management",
       "award": "MA",
       "area": "Education",
-      "faculty": null,
+      "faculty": "School of Graduate Studies",
       "officialUrl": "https://www.ln.edu.hk/sgs/ihem/admission",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "The window is 1 August 2026 to 30 June 2027, subject to change. Tuition and duration remain uncollected in this batch.",
+      "notesEn": "AY2027/28: applications 1 August 2026–30 June 2027, subject to change. Full-time is one year and includes Regular/Weekend formats; Weekend is not the two-year part-time mode. HKD 198,000 is programme tuition, not an annual multiplier; application fee HKD 400 is separate. GPA 2.67 (pass), 3.50 (distinction) and 2.33 (intermediate diploma) are graduation classifications, not undergraduate admission thresholds. Relevant fields, equivalent qualifications and language alternatives require university judgement.",
       "offerings": [
         {
           "id": "HK-LU-P001-O1",
           "mode": "Full-time",
-          "duration": null,
+          "duration": "1 year",
           "intake": "2027/28 intake",
           "deadline": "2027-06-30",
-          "deadlineNote": null,
+          "deadlineNote": "AY2027/28 application window: 1 August 2026 to 30 June 2027. The Programme Office may change the closing date without notice based on admissions. No exact cutoff time, extra round or live portal availability is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": null,
-          "feeBasis": null
+          "tuition": 198000,
+          "feeBasis": "Published AY2027/28 programme tuition HKD 198,000, not an annual amount multiplied by the two-year part-time duration. Separate application fee HKD 400. Other expenses and individual mode/status applicability require confirmation; no automatic scholarship deduction or all-in total.",
+          "applicationOpen": "2026-08-01",
+          "applicationFee": 400
         },
         {
           "id": "HK-LU-P001-O2",
           "mode": "Part-time",
-          "duration": null,
+          "duration": "2 years",
           "intake": "2027/28 intake",
           "deadline": "2027-06-30",
-          "deadlineNote": null,
+          "deadlineNote": "AY2027/28 application window: 1 August 2026 to 30 June 2027. The Programme Office may change the closing date without notice based on admissions. No exact cutoff time, extra round or live portal availability is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": null,
-          "feeBasis": null
+          "tuition": 198000,
+          "feeBasis": "Published AY2027/28 programme tuition HKD 198,000, not an annual amount multiplied by the two-year part-time duration. Separate application fee HKD 400. Other expenses and individual mode/status applicability require confirmation; no automatic scholarship deduction or all-in total.",
+          "applicationOpen": "2026-08-01",
+          "applicationFee": 400
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
-          "labelEn": "Bachelor’s degree",
+          "labelZh": "",
+          "labelEn": "Bachelor’s degree or accepted alternative",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         {
           "kind": "manual",
-          "labelZh": "Academic standing and equivalence",
-          "labelEn": "Academic standing and equivalence",
-          "noteZh": "A relevant bachelor's degree, accepted equivalent, or satisfactory academic/professional attainment is considered.",
-          "noteEn": "A relevant bachelor's degree, accepted equivalent, or satisfactory academic/professional attainment is considered.",
+          "labelZh": "",
+          "labelEn": "Relevant fields and alternative academic attainment",
+          "noteZh": "",
+          "noteEn": "A relevant recognised bachelor degree, equivalent qualification, or satisfactory academic/professional attainment may be considered. No exhaustive subject whitelist, automatic any-discipline rule, numeric admission GPA or mandatory work-year minimum is established. Alternative routes and recognition require university judgement.",
           "mandatory": true,
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         {
           "kind": "language",
-          "labelZh": "Published English test scores",
-          "labelEn": "Published English test scores",
+          "labelZh": "",
+          "labelEn": "Published IELTS and old-scale TOEFL scores",
           "tests": {
             "ielts": {
               "total": 6
@@ -658,65 +662,70 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Relevance, alternative qualifications and language equivalents need university judgement.",
-          "noteEn": "Relevance, alternative qualifications and language equivalents need university judgement.",
+          "labelZh": "",
+          "labelEn": "Language validity, CET-6 alternative and spoken evidence",
+          "noteZh": "",
+          "noteEn": "For a prior qualification not taught in English, IELTS/TOEFL must be from one sitting at a recognised test centre and within two years counted from the submission date for this intake, not today's date. CET-6 450 is a manual alternative with a five-year submission-based validity period plus a Programme oral interview and/or CET-6 Speaking grade B or above. Recognised equivalent tests/qualifications, waiver evidence and an unlisted TOEFL 1–6 threshold need confirmation; no score conversion is inferred.",
           "mandatory": true,
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "Single-sitting language scores must remain valid at application; the page does not give a revised TOEFL 6-point threshold.",
-          "noteEn": "Single-sitting language scores must remain valid at application; the page does not give a revised TOEFL 6-point threshold.",
+          "labelZh": "",
+          "labelEn": "Study formats, concentration and selection",
+          "noteZh": "",
+          "noteEn": "Regular and Weekend formats are both listed under full-time; some Regular classes may be on weekends. Neither format determines immigration permission or guarantees a concentration place. Two-year part-time study remains a separate mode. Interviews may be required; a professional-attainment alternative or meeting recorded scores does not guarantee admission.",
           "mandatory": true,
-          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information"
         }
       ],
       "sources": [
         {
           "url": "https://www.ln.edu.hk/sgs/ihem/admission",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit AY2027/28 window, tuition/application fee and intake-submission-based language alternatives",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information",
+          "purpose": "FT/PT formats and durations; degree/exit-award GPAs are graduation classifications",
+          "checkedOn": "2026-10-23"
         },
         {
           "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
-          "purpose": "Study modes and application window",
-          "checkedOn": "2026-10-06"
+          "purpose": "Selected IHEM row corroborates both modes and dated window; not a new directory enumeration",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "lingnan-eduhk-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "noteEn": "Admissions explicitly identifies AY2027/28; no precise start month is inferred.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "major": {
           "status": "known",
-          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "noteEn": "Relevant bachelor degree or accepted alternative is qualitative; equivalence remains manual, not an automatic any-discipline rule.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
+          "noteEn": "No numeric undergraduate admission cutoff found; 2.67/3.50 degree and 2.33 exit-diploma GPAs are graduation classifications.",
+          "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/programme-overview/programme-information"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "IELTS 6.0 / TOEFL 79 old scale; single test-centre sitting. CET-6 450 plus spoken evidence and submission-based validity remain manual; no new TOEFL threshold inferred.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
+          "status": "known",
+          "noteEn": "AY2027/28 programme tuition HKD 198,000 with separate HKD 400 application fee; not two annual tuition amounts for part-time.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Dated 1 August 2026–30 June 2027 window is recorded, subject to change without notice; exact cutoff time/live availability unverified.",
           "sourceUrl": "https://www.ln.edu.hk/sgs/ihem/admission"
         },
         "independentReview": {
@@ -1122,54 +1131,90 @@
       "name": "MSc Business Management",
       "award": "MSc",
       "area": "Business",
-      "faculty": null,
+      "faculty": "Faculty of Business",
       "officialUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Any discipline may apply. The advertised fee is not a complete cost-of-study estimate; summer-school expenses are additional.",
+      "notesEn": "September 2027 mixed-mode programme: 1 year full-time or 2 years part-time including summer term. Any discipline is stated, subject to recognition and selection. The 43-credit award has 36 PolyU tuition-charged credits, 1 no-charge ethics credit and 6 external summer-school credits; HKD 424,800 is not a 43-credit multiplication or an all-in cost. The faculty alumni-referral subsection mentions 20 October while the central programme table gives both early and main cutoffs; keep that context for confirmation, not a whole-programme closure.",
       "offerings": [
         {
           "id": "HK-POLYU-P001-O1",
           "mode": "Full-time",
-          "duration": "1 year",
+          "duration": "1 year, including summer term",
           "intake": "September 2027",
           "deadline": "2027-02-25",
-          "deadlineNote": "Early round: 20 October 2026; main round: 25 February 2027.",
+          "deadlineNote": "Early round: 20 October 2026; main round: 25 February 2027, explicitly the same for local/non-local mixed-mode applicants. Central September 2027 opening is 2 July 2026. Separate round openings and exact cutoff times are not stated. The faculty alumni-referral subsection's 20 October admission-deadline wording needs contextual confirmation, not substitution for the central main cutoff. Rolling quota/interview notices do not verify live availability.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 424800,
-          "feeBasis": "Programme tuition excluding compulsory overseas summer-school course and travel costs"
+          "feeBasis": "HKD 424,800 total programme tuition for local and non-local students, excluding external summer-school course fees and travel/accommodation/visa/insurance. HKD 11,800 x 36 charged credits, not all 43 degree credits: 1 ethics credit has no tuition charge and 6 external credits are paid separately to the host. No automatic scholarship discount or all-in cost. Separate 2027/28 application fee: HKD 600, non-refundable/non-transferable; not the MBA or doctorate fee.",
+          "applicationOpen": "2026-07-02",
+          "applicationFee": 600,
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": null,
+              "deadline": "2026-10-20",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-25",
+              "deadlineAt": null
+            }
+          ]
         },
         {
           "id": "HK-POLYU-P001-O2",
           "mode": "Part-time",
-          "duration": "2 years",
+          "duration": "2 years, including summer term",
           "intake": "September 2027",
           "deadline": "2027-02-25",
-          "deadlineNote": "Early round: 20 October 2026; main round: 25 February 2027.",
+          "deadlineNote": "Early round: 20 October 2026; main round: 25 February 2027, explicitly the same for local/non-local mixed-mode applicants. Central September 2027 opening is 2 July 2026. Separate round openings and exact cutoff times are not stated. The faculty alumni-referral subsection's 20 October admission-deadline wording needs contextual confirmation, not substitution for the central main cutoff. Rolling quota/interview notices do not verify live availability.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 424800,
-          "feeBasis": "Programme tuition excluding compulsory overseas summer-school course and travel costs"
+          "feeBasis": "HKD 424,800 total programme tuition for local and non-local students, excluding external summer-school course fees and travel/accommodation/visa/insurance. HKD 11,800 x 36 charged credits, not all 43 degree credits: 1 ethics credit has no tuition charge and 6 external credits are paid separately to the host. No automatic scholarship discount or all-in cost. Separate 2027/28 application fee: HKD 600, non-refundable/non-transferable; not the MBA or doctorate fee.",
+          "applicationOpen": "2026-07-02",
+          "applicationFee": 600,
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": null,
+              "deadline": "2026-10-20",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-25",
+              "deadlineAt": null
+            }
+          ]
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
-          "labelEn": "Bachelor’s degree",
+          "labelZh": "",
+          "labelEn": "Bachelor’s degree or accepted equivalent",
           "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
         },
         {
           "kind": "major",
-          "labelZh": "Undergraduate field",
+          "labelZh": "",
           "labelEn": "Undergraduate field",
           "accepted": [],
           "any": true,
@@ -1178,7 +1223,7 @@
         },
         {
           "kind": "language",
-          "labelZh": "Published English test scores",
+          "labelZh": "",
           "labelEn": "Published English test scores",
           "tests": {
             "ielts": {
@@ -1199,56 +1244,108 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "English waiver and score validity at application require confirmation; shortlisted applicants may be interviewed.",
-          "noteEn": "English waiver and score validity at application require confirmation; shortlisted applicants may be interviewed.",
+          "labelZh": "",
+          "labelEn": "English applicability, validity and excluded variants",
+          "noteZh": "",
+          "noteEn": "Non-native English speakers whose bachelor degree or equivalent was not taught in English must satisfy the published English requirement. IELTS Academic or the stated TOEFL scale is required in a single sitting within two years; the exact validity reference date and waiver evidence need confirmation. TOEFL Home Edition and IELTS Online/Indicator/One Skill Retake are excluded. Do not infer a rolling expiry date or acceptance of unlisted variants.",
+          "mandatory": true,
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Academic recognition, documents and selection",
+          "noteZh": "",
+          "noteEn": "Recognition and equivalent qualifications require university judgement; no numeric GPA or mandatory work-year cutoff is published here. Programme code 02022 asks for transcript/certificate including the grading system/conversion table; this is not authority for the platform to convert GPA scales. Additional evidence may be requested, and shortlisted candidates may be interviewed. Neighbouring doctoral employment requirements do not apply.",
+          "mandatory": true,
+          "sourceUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/additional-supporting-documents-required-application-admissions-tpg"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "International experience, mode and scholarship scope",
+          "noteZh": "",
+          "noteEn": "The 6-credit international-experience component normally uses an external accredited summer school outside Greater China; final alternatives and credit approval may change. Confirm delivery, study-load and non-local applicability rather than inferring immigration permission. Merit scholarships are described for full-time only, not part-time; awards are not admission requirements or automatic tuition deductions. Optional DBM Connect electives may have separate fees.",
           "mandatory": true,
           "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Referral deadline wording and rolling selection",
+          "noteZh": "",
+          "noteEn": "The faculty admissions page's alumni-referral subsection calls 20 October 2026 the admission deadline, while the dated central programme table separately lists early 20 October and main 25 February. Confirm referral-specific applicability with PolyU. Interview months or possible subsequent interviews are not additional application rounds, and a referral interview does not guarantee admission.",
+          "mandatory": true,
+          "sourceUrl": "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/bm/admissions/"
         }
       ],
       "sources": [
         {
           "url": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "2027 programme-specific local/non-local dates, modes, credit and fee basis",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/bm/admissions/",
+          "purpose": "2027/28 faculty duration, summer costs, scholarship and alumni-referral deadline caveat",
+          "checkedOn": "2026-10-23"
         },
         {
           "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg",
-          "purpose": "General English requirements",
-          "checkedOn": "2026-10-06"
+          "purpose": "General English scales, single sitting and excluded variants",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/frequently-asked-questions-tpg",
+          "purpose": "Explicit September 2027 central opening date",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/general-information-tpg",
+          "purpose": "2027/28 separate application fee and MBA/doctorate exceptions",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/additional-supporting-documents-required-application-admissions-tpg",
+          "purpose": "Programme code 02022 supporting documents, not adjacent doctoral requirements",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www38.polyu.edu.hk/eAdmission/index.do",
+          "purpose": "Public September 2027 entry dates only; no application-session availability check",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "polyu-hku-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "noteEn": "Programme-specific September 2027 / 2027/28 cohort; not the January entry.",
           "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
         },
         "major": {
           "status": "known",
-          "noteEn": "Any discipline is explicitly allowed, subject to all other criteria.",
+          "noteEn": "Any discipline or accepted equivalent is stated; institutional recognition and selection remain manual.",
           "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "noteEn": "No numeric undergraduate admission GPA cutoff is published in the consulted programme sources; do not infer one from scholarship or grading documents.",
           "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "IELTS Academic 6.0; TOEFL 80/120 before 21 January 2026 or 4.5/6 from that date. Single sitting is required; validity reference date and waiver evidence remain manual.",
           "sourceUrl": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "noteEn": "2027/28 HKD 424,800 programme total for local/non-local students: 36 charged credits, not all 43 award credits; external summer and related expenses are extra.",
           "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Central opening 2 July 2026 and programme early/main cutoffs are recorded. Separate round openings/times and alumni-referral applicability remain unconfirmed.",
           "sourceUrl": "https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp"
         },
         "independentReview": {
@@ -1402,52 +1499,63 @@
       "name": "MSc Urban Analytics",
       "award": "MSc",
       "area": "Social Sciences",
-      "faculty": null,
+      "faculty": "Faculty of Architecture",
       "officialUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Use the 2027/28 amount, not the older HKD 240,000. Main-round timing and provisional fee status are retained.",
+      "notesEn": "2027/28 Urban Analytics is one-year full-time. The main cutoff is 4 January 2027 at 12:00 noon GMT+8, not midnight; no separate opening date, early-round dates or clearing round is inferred. HKD 252,000 is proposed and subject to University approval, payable in two HKD 126,000 instalments, not twice the programme fee. Urban-field equivalence, preferred professional qualifications and selection need university judgement. The overview's RTPI membership experience is not an admission work-year minimum.",
       "offerings": [
         {
           "id": "HK-HKU-P007-O1",
           "mode": "Full-time",
-          "duration": null,
+          "duration": "1 year",
           "intake": "2027/28 intake",
           "deadline": "2027-01-04",
-          "deadlineNote": "12:00 noon GMT+8; shortlisted candidates may be interviewed.",
+          "deadlineNote": "Main round closes 4 January 2027 at 12:00 noon GMT+8 for all application steps. The page says the system is open but gives no exact opening date; September–December rolling review is not a dated early round. Late applications are normally not considered. No clearing round, extension or live portal availability is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 252000,
-          "feeBasis": "Proposed programme tuition, subject to university approval"
+          "feeBasis": "Proposed 2027/28 total programme tuition HKD 252,000, subject to University approval; two semester instalments of HKD 126,000 sum to that total. No automatic scholarship deduction or all-in quote. Separate current application fee is unconfirmed: the undated faculty FAQ's HKD 300 is not bound to this intake, and other faculties' amounts are not copied.",
+          "applicationOpen": null,
+          "applicationFee": null,
+          "applicationRounds": [
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-01-04",
+              "deadlineAt": "2027-01-04T12:00:00+08:00"
+            }
+          ]
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
-          "labelEn": "Bachelor’s degree",
+          "labelZh": "",
+          "labelEn": "Bachelor’s degree or accepted equivalent",
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
         },
         {
           "kind": "manual",
-          "labelZh": "Academic standing and equivalence",
-          "labelEn": "Academic standing and equivalence",
-          "noteZh": "An urban-related bachelor's degree or accepted equivalent is required; a qualifying examination may be requested.",
-          "noteEn": "An urban-related bachelor's degree or accepted equivalent is required; a qualifying examination may be requested.",
+          "labelZh": "",
+          "labelEn": "Urban-field equivalence and qualifying examination",
+          "noteZh": "",
+          "noteEn": "An urban/related bachelor degree or a qualification of accepted equivalent standard is required. No exhaustive subject whitelist or numeric GPA cutoff is published here, so equivalence remains the university's judgement. A professional qualification is preferred, not mandatory, and a qualifying examination may be required.",
           "mandatory": true,
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
         },
         {
           "kind": "language",
-          "labelZh": "Published English test scores",
-          "labelEn": "Published English test scores",
+          "labelZh": "",
+          "labelEn": "Published coursework English scores and cohort-anchored date",
           "tests": {
             "ielts": {
               "total": 6,
@@ -1462,69 +1570,90 @@
               "validFrom": "2026-01-21"
             }
           },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
           "sourceUrl": "https://calendar.hku.hk/general-regulations/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Urban-field equivalence and any qualifying examination need university judgement.",
-          "noteEn": "Urban-field equivalence and any qualifying examination need university judgement.",
+          "labelZh": "",
+          "labelEn": "English applicability, alternatives and validity boundary",
+          "noteZh": "",
+          "noteEn": "The programme requires IELTS/TOEFL within two years before 1 September of the admission year; for 2027 this gives a recorded minimum test date of 1 September 2025, not rolling expiry measured from today. Confirm boundary acceptance and English-medium qualification evidence. GCE/IGCSE/Cambridge alternatives and exceptional faculty waivers remain manual. The linked current Calendar is 2026–2027; confirm any later amendments. Faculty of Arts writing/IELTS footnotes do not apply to Faculty of Architecture. No home-test or single-sitting rule is inferred.",
           "mandatory": true,
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "English alternatives and waivers need confirmation; tests must be within two years before 1 September of the admission year.",
-          "noteEn": "English alternatives and waivers need confirmation; tests must be within two years before 1 September of the admission year.",
+          "labelZh": "",
+          "labelEn": "Certified documents, referees and interview",
+          "noteZh": "",
+          "noteEn": "Provide the official undergraduate transcript, graduation certificate, reports from two referees and applicable English evidence. Non-English documents need certified English translations; follow the programme's certified-true-copy instructions rather than assuming ordinary photocopies suffice. Only shortlisted applicants are interviewed. Professional membership experience after graduation is not an entry work-year requirement; no admission or scholarship is guaranteed.",
           "mandatory": true,
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Current application-fee and approval confirmation",
+          "noteZh": "",
+          "noteEn": "Programme tuition remains subject to University approval. The undated faculty FAQ states an application fee of HKD 300 with older portal addresses but does not establish a 2027/28 amount; the programme portal link was not readable with the research tool. Confirm the applicable fee and instructions directly; do not assume another faculty's fee or automatically deduct a scholarship.",
+          "mandatory": true,
+          "sourceUrl": "https://www.arch.hku.hk/admissions/faqs-for-taught-postgraduate-programmes/"
         }
       ],
       "sources": [
         {
           "url": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Explicit 2027/28 provisional tuition, exact main cutoff, urban-field and document/validity requirements",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/",
+          "purpose": "One-year full-time structure; RTPI membership experience is not entry experience",
+          "checkedOn": "2026-10-23"
         },
         {
           "url": "https://calendar.hku.hk/general-regulations/",
-          "purpose": "General Regulation G2(b) for higher degrees by coursework",
-          "checkedOn": "2026-10-06"
+          "purpose": "Linked current Calendar coursework English scales and separate Faculty of Arts footnotes",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.arch.hku.hk/admissions/faqs-for-taught-postgraduate-programmes/",
+          "purpose": "Undated faculty application-fee wording, not a confirmed 2027/28 amount",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "polyu-hku-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "noteEn": "The programme admissions page identifies 2027/28 tuition and January 2027 application cutoff; exact commencement month is not asserted.",
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
         },
         "major": {
           "status": "known",
-          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "noteEn": "Urban/related degree or accepted equivalent is stated qualitatively; no automatic subject whitelist is invented.",
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "noteEn": "No numeric undergraduate admission GPA cutoff is published in the consulted sources; equivalence and possible examination remain manual.",
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Coursework scores from the linked current Calendar; programme-specific validity is anchored to 1 September 2027, with manual applicability/boundary confirmation.",
           "sourceUrl": "https://calendar.hku.hk/general-regulations/"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "noteEn": "HKD 252,000 proposed programme total for 2027/28, subject to approval; two HKD 126,000 instalments are not extra tuition. Current application fee is unconfirmed.",
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "One exact main cutoff: 4 January 2027 at noon GMT+8. No exact opening or clearing round is established by the consulted programme page.",
           "sourceUrl": "https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/"
         },
         "independentReview": {
@@ -2883,14 +3012,14 @@
       "officialUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-24",
       "academicYear": "January 2027 intake",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Duration differs between the page summary and mode-specific text; preserve both and seek confirmation. Closed application window is not a failure of the applicant's academic background.",
+      "notesEn": "January 2027 intake still lists a 3-30 September 2026 application window, already passed on 24 October. No extension or next intake is inferred. Overview says 2 years while mode text says FT 3 / PT 5 trimesters; maximum candidature is 4 years. Programme-specific accredited Civil Engineering wording is narrower than central generic Engineering/equivalent wording and needs confirmation. Undated programme fee examples are not a cohort-bound January 2027 quote. The English guide was text-read but could not be visually retrieved, and its applicability differs from the central native-language wording; thresholds remain manual, not newly automated. No independent human review or live portal check.",
       "offerings": [
         {
           "id": "SG-SIT-P002-O1",
@@ -2898,11 +3027,13 @@
           "duration": "3 trimesters",
           "intake": "5 January 2027",
           "deadline": "2026-09-30",
-          "deadlineNote": "Published application window is already closed as of 6 October 2026.",
+          "deadlineNote": "January 2027 published application window: 3-30 September 2026; already passed as of 24 October. Later payment/documents, interview, outcome and acceptance dates are not extended application deadlines. No exact closing time, extension or next intake was established.",
           "academicYear": "January 2027 intake",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "January 2027 tuition and application-fee amounts remain unconfirmed. Undated programme examples distinguish Singapore Citizen/PR subsidy and non-subsidised fees; do not use them as an international/default cohort quote. Miscellaneous fees and subsidy eligibility are separate and require confirmation.",
+          "applicationOpen": "2026-09-03",
+          "applicationFee": null
         },
         {
           "id": "SG-SIT-P002-O2",
@@ -2910,11 +3041,13 @@
           "duration": "5 trimesters; overview lists 2 years",
           "intake": "5 January 2027",
           "deadline": "2026-09-30",
-          "deadlineNote": "Published application window is already closed as of 6 October 2026.",
+          "deadlineNote": "January 2027 published application window: 3-30 September 2026; already passed as of 24 October. Later payment/documents, interview, outcome and acceptance dates are not extended application deadlines. No exact closing time, extension or next intake was established.",
           "academicYear": "January 2027 intake",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "January 2027 tuition and application-fee amounts remain unconfirmed. Undated programme examples distinguish Singapore Citizen/PR subsidy and non-subsidised fees; do not use them as an international/default cohort quote. Miscellaneous fees and subsidy eligibility are separate and require confirmation.",
+          "applicationOpen": "2026-09-03",
+          "applicationFee": null
         }
       ],
       "rules": [
@@ -2926,10 +3059,10 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Academic standing and equivalence",
-          "labelEn": "Academic standing and equivalence",
-          "noteZh": "An engineering bachelor's degree or accepted equivalent and at least one year of relevant post-bachelor experience.",
-          "noteEn": "An engineering bachelor's degree or accepted equivalent and at least one year of relevant post-bachelor experience.",
+          "labelZh": "",
+          "labelEn": "Civil Engineering accreditation and generic equivalence wording",
+          "noteZh": "",
+          "noteEn": "The programme page specifically requires an accredited bachelor degree in Civil Engineering (including SIT-Glasgow BEng). The central engineering overview allows an Engineering bachelor degree or equivalent. The narrower programme requirement, accreditation and any accepted equivalence need SIT confirmation; generic wording does not establish that every Engineering major is accepted.",
           "mandatory": true,
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
         },
@@ -2942,36 +3075,73 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Engineering-degree equivalence, relevance and timing of experience need confirmation; SIT IWSP can count.",
-          "noteEn": "Engineering-degree equivalence, relevance and timing of experience need confirmation; SIT IWSP can count.",
+          "labelZh": "",
+          "labelEn": "Relevant post-bachelor experience and IWSP",
+          "noteZh": "",
+          "noteEn": "At least one year of relevant post-bachelor working experience is published, including SIT IWSP. Reported total years alone do not establish relevance or qualifying timing; the IWSP inclusion must be confirmed for the applicant.",
           "mandatory": true,
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "English proficiency is required for non-native speakers; the linked international guide's numeric thresholds remain uncollected.",
-          "noteEn": "English proficiency is required for non-native speakers; the linked international guide's numeric thresholds remain uncollected.",
+          "labelZh": "",
+          "labelEn": "English applicability and guide scores pending visual confirmation",
+          "noteZh": "",
+          "noteEn": "The central page requires English results for non-native English speakers. The linked international-qualification guide text instead refers to an international bachelor degree not taught in English. Its Engineering/Infocomm table text lists IELTS Academic 6.0 and TOEFL iBT 85, but the PDF image could not be retrieved for visual confirmation. No new-scale TOEFL cutoff is stated. Keep applicability, table interpretation and score thresholds manual; English-medium study is not an automatic exemption in this record.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English validity, alternatives and documents",
+          "noteZh": "",
+          "noteEn": "The text-read guide measures test validity within two years before application, not today. Other listed alternatives include SAT reading/writing 600, ACT-with-writing composite 29, O-Level English/EL1119 C6 and Cambridge C1 Advanced/C2 Proficiency; interpretation and the Cambridge table require confirmation. A relevant completed stackable SIT course may be considered for English satisfaction; a SIT English test may be invited, neither is automatic. Degree certificate/transcript and certified translations for non-English documents are required by the guide. PDF visual verification and newer TOEFL-scale policy remain outstanding.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Study length, curriculum and interview",
+          "noteZh": "",
+          "noteEn": "Programme mode text gives FT 3 trimesters / PT 5 trimesters and maximum candidature 4 years, while the overview says 2 years. Confirm the applicable duration rather than add the figures. Classes are weekday evenings. Ten coursework modules or eight plus an industrial dissertation are offered; dissertation access requires good academic standing and does not itself make the MSc a research-admission programme. Shortlisted applicants are interviewed; no interview outcome is guaranteed.",
           "mandatory": true,
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Cohort fees, subsidy and application-stage dates",
+          "noteZh": "",
+          "noteEn": "The programme displays undated Singapore Citizen tuition 8,970, PR 18,180 and non-subsidised 36,069, with a separate international fee-structure link. Central policy fixes AY2022-onward rates by cohort/subsidy status and limits subsidy based on relevant professional recognition and previous government-subsidised postgraduate study. The January 2027 cohort quote, GST treatment, international applicability and application-fee amount were not established. Do not assume a subsidy from nationality. One-week post-closing payment/document timing, 1-23 October shortlisting and 27 October-3 November outcome/acceptance are not a reopened application window.",
+          "mandatory": true,
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees"
         }
       ],
       "sources": [
         {
           "url": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "January 2027 window, specific Civil Engineering eligibility, mode durations, curriculum and undated fee examples",
+          "checkedOn": "2026-10-24"
         },
         {
           "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/requirements",
-          "purpose": "Engineering academic and experience requirements",
-          "checkedOn": "2026-10-06"
+          "purpose": "Central generic Engineering/equivalent, experience and English applicability wording",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees",
+          "purpose": "Cohort/subsidy policy and separate miscellaneous fees; no cohort quote obtained",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications",
+          "purpose": "Both pages text-read only; PDF visual retrieval unavailable, applicability and table confirmation pending",
+          "checkedOn": "2026-10-24"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "hkust-sit-refresh-2026-10-24",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -2980,7 +3150,7 @@
         },
         "major": {
           "status": "known",
-          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "noteEn": "Specific accredited Civil Engineering requirement is narrower than the central generic engineering/equivalence wording; no exhaustive automatic field whitelist is asserted.",
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
         },
         "gpa": {
@@ -2990,17 +3160,17 @@
         },
         "language": {
           "status": "unknown",
-          "noteEn": "Numeric thresholds were not captured. Do not assume the programme has no English requirement.",
-          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+          "noteEn": "Guide text has IELTS 6.0 / TOEFL iBT 85, but PDF visual confirmation and applicability against central native-language wording remain unresolved; no new automated thresholds imported.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/pg-application-guide-international-qualifications"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
+          "noteEn": "Undated nationality/subsidy examples do not establish a January 2027 cohort quote, international/GST basis or application-fee amount.",
+          "sourceUrl": "https://www.singaporetech.edu.sg/admissions/postgraduate/tuition-fees"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Explicit 3-30 September 2026 window for 5 January 2027 intake; later administrative stages do not extend it, exact closing time unknown.",
           "sourceUrl": "https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering"
         },
         "independentReview": {
@@ -3020,26 +3190,26 @@
       "officialUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-23",
       "academicYear": "Current page; intake year to confirm",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "GMAT/GRE are not required. General guidance lists IELTS 6.5 and other tests, including paper-based TOEFL, not a checked iBT threshold. CGPA 3.0 is a graduation condition.",
+      "notesEn": "January/July are recurring intakes, not verified dated windows for this record. Regular and accelerated pathways have different applicant conditions, and programme-structure durations conflict with the FAQ. Fees need cohort/category confirmation; no universal amount is imported. GMAT/GRE are not required. CGPA 3.0 is a graduation condition, not an undergraduate admission cutoff. No paper-TOEFL to iBT conversion is made.",
       "offerings": [
         {
           "id": "SG-SUSS-P001-O1",
           "mode": null,
-          "duration": "18 months–4 years; accelerated pathway differs",
+          "duration": "Conflicting regular/accelerated durations; confirm with SUSS",
           "intake": "January or July annually; year to confirm",
           "deadline": null,
-          "deadlineNote": null,
+          "deadlineNote": "January/July recur, but no exact MMGT cohort or dated application window was confirmed. Dates of other featured programmes are not reused.",
           "academicYear": "Current page; intake year to confirm",
           "currency": "SGD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "Category- and cohort-dependent; the linked 2026/2027 fee table excludes GST and extras. Table layout not visually verified, so no universal tuition or subsidy is assumed. The general SGD 2,000 acceptance deposit includes GST and credits the first-semester bill; do not add it again as tuition."
         }
       ],
       "rules": [
@@ -3047,7 +3217,7 @@
           "kind": "degree",
           "labelZh": "Bachelor’s degree",
           "labelEn": "Bachelor’s degree",
-          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
         },
         {
           "kind": "language",
@@ -3062,10 +3232,28 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "English waiver, merit review, possible interview/evaluation tests and alternative qualifications need checking.",
-          "noteEn": "English waiver, merit review, possible interview/evaluation tests and alternative qualifications need checking.",
+          "labelZh": "",
+          "labelEn": "English evidence, validity and unsupported alternatives",
+          "noteZh": "",
+          "noteEn": "Application-time two-year score window for the listed non-MUET tests, five years for MUET; evidence/waiver checked manually. Official medium-of-instruction letter needed when claiming an English-taught degree from a non-English-medium institution; not an automatic waiver. Paper TOEFL 580, PTE Academic 58, C1 Advanced 180 and MUET band 4 are not converted into iBT/new TOEFL thresholds.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Pathway, duration and applicant eligibility",
+          "noteZh": "",
+          "noteEn": "Programme page limits this pathway to Singapore citizens/PRs; up to 20 CU per semester. Programme page admits international applicants and eligible citizens/PRs not employed full-time; suitability assessed at interview; up to 30 CU per semester. Structure says 1-4 years regular / within 1 year accelerated; FAQ says 18 months-4 years / 12 or 18 months. Confirm pathway and duration; no status or full-/part-time mode is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Individual admission and programme review",
+          "noteZh": "",
+          "noteEn": "Shortlisted interview, alternative-qualification merit review and pathway suitability. Volunteering is advantageous, not mandatory years of work. GMAT/GRE not required. Confirm alternative qualifications and full-master versus certificate/diploma/specialisation applicability with SUSS.",
           "mandatory": true,
           "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
         }
@@ -3073,45 +3261,55 @@
       "sources": [
         {
           "url": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Programme pathway restrictions and conflicting structure/FAQ durations",
+          "checkedOn": "2026-10-23"
         },
         {
           "url": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria",
-          "purpose": "General graduate academic and English requirements",
-          "checkedOn": "2026-10-06"
+          "purpose": "General degree, English, validity, alternative evidence and credited deposit",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate",
+          "purpose": "Category-dependent fee policy and additional charges",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.suss.edu.sg/docs/default-source/dept_gs/grad_prog_tuition_fee_year_2026.pdf?sfvrsn=9671852c_80",
+          "purpose": "2026/2027 fee PDF read as text only; layout not visually verified; no numeric tuition imported",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "cuhk-suss-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "unknown",
-          "noteEn": "The consulted page does not identify a cohort for all published figures.",
+          "noteEn": "Recurring January/July intake months do not establish a specific MMGT cohort or fee year.",
           "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
         },
         "major": {
           "status": "unknown",
-          "noteEn": "A complete accepted-field policy was not captured.",
+          "noteEn": "Degree recognition, alternative qualifications and pathway suitability require individual assessment; no complete undergraduate-field whitelist is recorded.",
           "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "noteEn": "CGPA 3.0 concerns the master's award, not admission; no numeric undergraduate cutoff was found in these consulted sources.",
           "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "IELTS Academic 6.5 is recorded. Application-time validity, degree-medium evidence, waiver and unsupported test alternatives remain manual; no iBT threshold is inferred.",
           "sourceUrl": "https://www.suss.edu.sg/admissions/application-process/eligibility/graduate-admission-criteria"
         },
         "tuition": {
           "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
+          "noteEn": "Exact cohort/category and subsidy applicability remain unresolved. The 2026/2027 PDF was text-read only, not visually verified; no numeric tuition is imported.",
+          "sourceUrl": "https://www.suss.edu.sg/admissions/financial-matters/tuition-fee-subsidy/graduate"
         },
         "deadline": {
           "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
+          "noteEn": "No exact dated MMGT window was established. Other programmes' featured application dates do not apply by assumption.",
           "sourceUrl": "https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt"
         },
         "independentReview": {
