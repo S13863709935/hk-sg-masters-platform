@@ -23,9 +23,9 @@ const note=(n,label)=>p(n).rules.find(r=>r.labelEn===label).noteEn;
 
 test('fifteen existing IDs gain twenty-eight options; a separate delivery exclusion does not add awards or full reviews',()=>{
  assert.equal(obs.programmeIds.length,15);assert.equal(new Set(obs.programmeIds).size,15);assert.equal(obs.programmeIds.reduce((s,id)=>s+store.get(id).offerings.length,0),28);
- const q=store.quality();assert.equal(q.total,873);assert.equal(q.checked,345);assert.equal(q.browsable,865);assert.equal(q.outOfScope,7);assert.equal(q.complete,0);assert.equal(q.peerReviewed,0);assert.deepEqual(q.sourceRefreshConflicts,[]);
+ const q=store.quality();assert.equal(q.total,873);assert.equal(q.checked,363);assert.equal(q.browsable,865);assert.equal(q.outOfScope,7);assert.equal(q.complete,0);assert.equal(q.peerReviewed,0);assert.deepEqual(q.sourceRefreshConflicts,[]);
  assert.equal(store.all().filter(x=>x.universityId==='HK-HKUST'&&x.verification==='programme_page_checked').length,48);
- assert.deepEqual(applicantSummary(contexts),{studyOptions:228,categories:457,peerReviewed:0});
+ assert.deepEqual(applicantSummary(contexts),{studyOptions:237,categories:474,peerReviewed:0});
  for(const id of obs.programmeIds){const x=batch.programmes.find(x=>x.id===id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(x)),false);assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,'2026-10-30');assert.equal(batch.pilotProgrammeIds.includes(id),false);assert.equal(x.rules.some(r=>r.kind==='gpa'),false);}
 });
 
@@ -86,9 +86,9 @@ test('marine UK delivery is excluded independently of applicant strength and nev
 test('isolated repeated imports preserve older records and exactly bind the 64 contexts with scope applied',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(x=>!ids.has(x.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hkust-engineering-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
  try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));
-  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,345);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,228);db.close();db=null;}
+  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,363);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,237);db.close();db=null;}
  }finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,614);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,641);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-10-30T08:00:00Z')});let base;

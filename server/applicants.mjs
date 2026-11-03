@@ -33,8 +33,9 @@ export function loadApplicantContexts(path, programmes, routes = new Map()) {
     for (const o of r.options) {
       if (o?.tuitionEstimate !== undefined && typeof o.tuitionEstimate !== 'boolean') throw new InputError('Invalid tuition estimate flag');
       if (o && !validApplicationRounds(o.applicationRounds, o)) throw new InputError('Invalid applicant-category application rounds');
-      // A documented category deadline can exist while its tuition is unresolved.
-      if (!o || typeof o.id !== 'string' || !o.id.startsWith(`${r.offeringId}-`) || !/^[A-Z0-9-]+$/.test(o.id) || o.id.length > 200 || typeof o.label !== 'string' || !o.label.trim() || o.label.length > 150 || !/^[A-Z]{3}$/.test(o.currency) || (o.tuition !== null && (!Number.isFinite(o.tuition) || o.tuition < 0)) || (o.applicationFee !== null && (!Number.isFinite(o.applicationFee) || o.applicationFee < 0)) || typeof o.feeBasis !== 'string' || !o.feeBasis || !date(o.deadline) || (o.applicationOpen !== null && (!date(o.applicationOpen) || o.applicationOpen > o.deadline)) || (o.deadlineNote !== undefined && (typeof o.deadlineNote !== 'string' || o.deadlineNote.length > 2000))) throw new InputError('Invalid applicant-category fees or dates');
+      // A category can retain a known fee while its deadline is unresolved (and vice versa).
+      // Only explicit null represents an unknown date; malformed or missing values still fail.
+      if (!o || typeof o.id !== 'string' || !o.id.startsWith(`${r.offeringId}-`) || !/^[A-Z0-9-]+$/.test(o.id) || o.id.length > 200 || typeof o.label !== 'string' || !o.label.trim() || o.label.length > 150 || !/^[A-Z]{3}$/.test(o.currency) || (o.tuition !== null && (!Number.isFinite(o.tuition) || o.tuition < 0)) || (o.applicationFee !== null && (!Number.isFinite(o.applicationFee) || o.applicationFee < 0)) || typeof o.feeBasis !== 'string' || !o.feeBasis || (o.deadline !== null && !date(o.deadline)) || (o.applicationOpen !== null && (!date(o.applicationOpen) || (o.deadline !== null && o.applicationOpen > o.deadline))) || (o.deadlineNote !== undefined && (typeof o.deadlineNote !== 'string' || o.deadlineNote.length > 2000))) throw new InputError('Invalid applicant-category fees or dates');
     }
     index.set(contextKey, r);
   }

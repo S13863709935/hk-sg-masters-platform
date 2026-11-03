@@ -13981,6 +13981,356 @@
           "deadlineNote": "Exact recorded intake window only; rolling closure/capacity, extensions and live portal availability are not verified. No exact closing time established."
         }
       ]
+    },
+    {
+      "programmeId": "HK-LU-P011",
+      "routeId": null,
+      "offeringId": "HK-LU-P011-2027-PT",
+      "offeringFingerprint": "b1be26e4120df66fcb322684d798dd52d3b184fbac699ece1c57e5ea2d51fc6b",
+      "officialUrl": "https://www.ln.edu.hk/philoso/hkcrc/maaif",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/philoso/hkcrc/maaif/admissions-and-application/fees-and-scholarships",
+      "dateSourceUrl": "https://www.ln.edu.hk/philoso/hkcrc/maaif",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "tuitionEstimate": true,
+          "id": "HK-LU-P011-2027-PT-LOCAL",
+          "label": "Hong Kong resident — part-time mode only",
+          "currency": "HKD",
+          "tuition": 200000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-06-15",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 200,000 for this selected mode/cohort. Calculated normal two-year baseline: published ANNUAL HKD 100,000 × 2 = HKD 200,000; not an annual amount mislabelled as the whole programme. Extensions/extras remain separate. Summer capstone extension costs an extra HKD 10,000 if applicable. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P034",
+      "routeId": null,
+      "offeringId": "HK-LU-P034-2027-FT",
+      "offeringFingerprint": "efc31242629953c923b14c8195a03fd4cbecf38bdbf016b963b01254dc78cec7",
+      "officialUrl": "https://www.ln.edu.hk/econ/mide",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/econ/mide/admission/admission-information",
+      "dateSourceUrl": "https://www.ln.edu.hk/econ/mide/admission/admission-information",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "id": "HK-LU-P034-2027-FT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 150000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: TOTAL UNCONFIRMED. 2027/28 LOCAL HKD 150,000 / NON-LOCAL HKD 270,000, selected explicitly for the university category and mode. Conditional 42-hour English course HKD 6,700 subject to change; selected Economics/Maths-Statistics pre-entry costs not numerically established. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        },
+        {
+          "id": "HK-LU-P034-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 270000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: TOTAL UNCONFIRMED. 2027/28 LOCAL HKD 150,000 / NON-LOCAL HKD 270,000, selected explicitly for the university category and mode. Conditional 42-hour English course HKD 6,700 subject to change; selected Economics/Maths-Statistics pre-entry costs not numerically established. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P034",
+      "routeId": null,
+      "offeringId": "HK-LU-P034-2027-PT",
+      "offeringFingerprint": "55d61557ae208e8177d0eef3c0ad8d3af74f70ca4aec1b3cabc0f23b92819749",
+      "officialUrl": "https://www.ln.edu.hk/econ/mide",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/econ/mide/admission/admission-information",
+      "dateSourceUrl": "https://www.ln.edu.hk/econ/mide/admission/admission-information",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "id": "HK-LU-P034-2027-PT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 150000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: TOTAL UNCONFIRMED. 2027/28 LOCAL HKD 150,000 / NON-LOCAL HKD 270,000, selected explicitly for the university category and mode. Conditional 42-hour English course HKD 6,700 subject to change; selected Economics/Maths-Statistics pre-entry costs not numerically established. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        },
+        {
+          "id": "HK-LU-P034-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 270000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: TOTAL UNCONFIRMED. 2027/28 LOCAL HKD 150,000 / NON-LOCAL HKD 270,000, selected explicitly for the university category and mode. Conditional 42-hour English course HKD 6,700 subject to change; selected Economics/Maths-Statistics pre-entry costs not numerically established. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P035",
+      "routeId": null,
+      "offeringId": "HK-LU-P035-2027-FT",
+      "offeringFingerprint": "43eeb336df9eb81749a68489d923220312b01745a6108ecb97d3433ee371e8ba",
+      "officialUrl": "https://www.ln.edu.hk/econ/mibf",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/econ/mibf/admission/admission-information",
+      "dateSourceUrl": "https://www.ln.edu.hk/econ/mibf/admission/admission-information",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "id": "HK-LU-P035-2027-FT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 150000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: TOTAL UNCONFIRMED. 2027/28 LOCAL HKD 150,000 / NON-LOCAL HKD 270,000, selected explicitly for the university category and mode. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        },
+        {
+          "id": "HK-LU-P035-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 270000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: TOTAL UNCONFIRMED. 2027/28 LOCAL HKD 150,000 / NON-LOCAL HKD 270,000, selected explicitly for the university category and mode. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P035",
+      "routeId": null,
+      "offeringId": "HK-LU-P035-2027-PT",
+      "offeringFingerprint": "44968a46c85c6dc54ea9a08e66958a87093e07ea5431ec15493b31a8b035524e",
+      "officialUrl": "https://www.ln.edu.hk/econ/mibf",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/econ/mibf/admission/admission-information",
+      "dateSourceUrl": "https://www.ln.edu.hk/econ/mibf/admission/admission-information",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "id": "HK-LU-P035-2027-PT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 150000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: TOTAL UNCONFIRMED. 2027/28 LOCAL HKD 150,000 / NON-LOCAL HKD 270,000, selected explicitly for the university category and mode. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        },
+        {
+          "id": "HK-LU-P035-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 270000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-09-01",
+          "deadline": "2027-05-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: TOTAL UNCONFIRMED. 2027/28 LOCAL HKD 150,000 / NON-LOCAL HKD 270,000, selected explicitly for the university category and mode. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P042",
+      "routeId": null,
+      "offeringId": "HK-LU-P042-2027-FT",
+      "offeringFingerprint": "cd10e233e95834c342e5bceb1995a092a01ea18840de05238bd77dc1c20fae54",
+      "officialUrl": "https://www.ln.edu.hk/socsp/imcsp",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+      "dateSourceUrl": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "id": "HK-LU-P042-2027-FT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 160000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-07-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 160,000 for this selected mode/cohort. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
+        },
+        {
+          "id": "HK-LU-P042-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 160000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 160,000 for this selected mode/cohort. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P042",
+      "routeId": null,
+      "offeringId": "HK-LU-P042-2027-PT",
+      "offeringFingerprint": "1ed5204d9e3b94adeed85caa1c2e2e3e7b621b39eb28584b0a977a4deb9a36f6",
+      "officialUrl": "https://www.ln.edu.hk/socsp/imcsp",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+      "dateSourceUrl": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "id": "HK-LU-P042-2027-PT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 160000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-07-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 160,000 for this selected mode/cohort. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
+        },
+        {
+          "id": "HK-LU-P042-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 160000,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 160,000 for this selected mode/cohort. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P044",
+      "routeId": null,
+      "offeringId": "HK-LU-P044-2027-FT",
+      "offeringFingerprint": "5f3f41a8574de263c9f76e3cb58deefae1519ad305dcfab7e3042b54f0d49a76",
+      "officialUrl": "https://www.ln.edu.hk/socsp/msoda",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+      "dateSourceUrl": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "id": "HK-LU-P044-2027-FT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 181500,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-07-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 181,500 for this selected mode/cohort. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
+        },
+        {
+          "id": "HK-LU-P044-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 181500,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 181,500 for this selected mode/cohort. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-LU-P044",
+      "routeId": null,
+      "offeringId": "HK-LU-P044-2027-PT",
+      "offeringFingerprint": "a768defcae908671c54e22681c485b841cf3289c84d574954bddcf5ba777ca26",
+      "officialUrl": "https://www.ln.edu.hk/socsp/msoda",
+      "academicYear": "2027/28",
+      "intake": "2027 entry",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+      "dateSourceUrl": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+      "noteEn": "Exact Lingnan cohort/mode and explicitly selected category. Unknown category deadline remains null; no default category, inferred immigration status or borrowed sibling date. Local-only part-time restriction, optional dual awards, preparation, scholarships and personal documents remain separate.",
+      "options": [
+        {
+          "id": "HK-LU-P044-2027-PT-LOCAL",
+          "label": "Local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 181500,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": "2027-07-31",
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 181,500 for this selected mode/cohort. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
+        },
+        {
+          "id": "HK-LU-P044-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — Lingnan category",
+          "currency": "HKD",
+          "tuition": 181500,
+          "applicationFee": 400,
+          "applicationOpen": "2026-08-01",
+          "deadline": null,
+          "feeBasis": "Published 2027/28 ordinary programme tuition: HKD 181,500 for this selected mode/cohort. Application fee HKD 400 is separate. Scholarships, visa/graduation costs and extra courses are not guaranteed tuition reductions or bundled charges.",
+          "deadlineNote": "Recorded cohort/mode window only; no live portal, capacity, extension or closing time verified. LOCAL 31 July 2027 agrees in department panels; NON-LOCAL homepage 15 June conflicts with admission page 30 June 2027. Non-local deadline remains NULL; central generic 30 June does not resolve the conflict."
+        }
+      ]
     }
   ]
 }

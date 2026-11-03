@@ -219,9 +219,9 @@ test('parent records and raw export are unchanged; route and category evidence h
   assert.equal(exported.applicantEvidence, undefined);
   const meta = await get('/api/meta');
   assert.deepEqual(meta.routeEvidence, { groups: 17, routes: 41, pageChecked: 41, peerReviewed: 0, complete: 0 });
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 228, categories: 457, peerReviewed: 0 });
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 237, categories: 474, peerReviewed: 0 });
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
-  assert.equal(meta.quality.checked, 345); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.equal(meta.quality.checked, 363); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
 });
 
 test('cards and details only show the unresolved-route badge when no specific route is selected', () => {

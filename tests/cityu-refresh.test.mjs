@@ -36,7 +36,7 @@ test('two CityU parents are refreshed without adding programmes or independent r
     assert.equal(p.verification, 'programme_page_checked'); assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
     assert.ok(p.sources.every(s => s.checkedOn === p.lastChecked));
   }
-  assert.equal(store.quality().total, 873); assert.equal(store.quality().checked, 345);
+  assert.equal(store.quality().total, 873); assert.equal(store.quality().checked, 363);
   assert.equal(store.quality().peerReviewed, 0); assert.equal(store.quality().complete, 0);
 });
 
@@ -73,7 +73,7 @@ test('both CS modes keep local and non-local minimum-credit estimates separate',
 });
 
 test('same-university subdomains are supported without accepting another university or spoofed hosts', () => {
-  assert.equal(index.size, 228);
+  assert.equal(index.size, 237);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-cityu-domain-')), file = join(dir, 'batch.json');
   try {
     for (const bad of ['https://www.nus.edu.sg/fees', 'https://cityu.edu.hk.attacker.invalid/fees', 'https://attacker@www.cityu.edu.hk/fees']) {
