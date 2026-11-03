@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-11-01",
+  "checkedOn": "2026-11-03",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -56294,6 +56294,1417 @@
         }
       },
       "researchBatch": "hku-science-arts-2026-11-01"
+    },
+    {
+      "id": "HK-HKU-P019",
+      "universityId": "HK-HKU",
+      "name": "Master of Public Health",
+      "award": "Master",
+      "area": "Health",
+      "faculty": "Li Ka Shing Faculty of Medicine",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official department/PDF reading; selected pages visually inspected",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Honours bachelor OR MBBS/equivalent; not restricted to licensed doctors or a healthcare-only major list. Honours equivalence, possible qualifying examination and individual exemptions require assessment. No exact honours class, numeric GPA or fixed work years are published in the consulted entry conditions. Advanced standing up to nine credits for recent prior study is credit transfer, not pre-entry employment or an automatic fee reduction.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P019-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "feeBasis": "Provisional FT local 254400/non-local 317100 for one year. PT LOCAL ONLY is 127200 per year for TWO years, whole-course 254400, not 127200 total. Occasional-student 12840 per course is not a degree price. No non-local PT fee or availability inferred.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Opening 2 November 2026. Main 30 April 2027 noon; clearing 30 June 2027 noon LOCAL ONLY. Early Decision for applications BEFORE 15 February 2027 is a separate accelerated-decision service, not an invented noon/final cutoff. PT is LOCAL ONLY. No live portal/place confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P019-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 254400,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "feeBasis": "Provisional FT local 254400/non-local 317100 for one year. PT LOCAL ONLY is 127200 per year for TWO years, whole-course 254400, not 127200 total. Occasional-student 12840 per course is not a degree price. No non-local PT fee or availability inferred.",
+          "feeEvidence": {
+            "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Opening 2 November 2026. Main 30 April 2027 noon; clearing 30 June 2027 noon LOCAL ONLY. Early Decision for applications BEFORE 15 February 2027 is a separate accelerated-decision service, not an invented noon/final cutoff. PT is LOCAL ONLY. No live portal/place confirmation.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Honours bachelor OR MBBS/equivalent; not restricted to licensed doctors or a healthcare-only major list. Honours equivalence, possible qualifying examination and individual exemptions require assessment. No exact honours class, numeric GPA or fixed work years are published in the consulted entry conditions. Advanced standing up to nine credits for recent prior study is credit transfer, not pre-entry employment or an automatic fee reduction.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "TWO referee reports, a current application photo, signed declaration and personal-information statement are listed. The declaration asks why this programme and concentration. CV/statement filename abbreviations alone do not establish a separate mandatory CV. Upload within ONE MONTH FROM EMAIL NOTIFICATION. Original official award/transcript evidence must come directly from the issuing institution for a firm offer; applicant-supplied notarised copies are not accepted. The exact qualification-location checklist still applies.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, formats and exact date scope",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "September 2027 score validity begins 1 September 2025. No additional programme-specific test-format prohibition is borrowed from another faculty checklist. English-medium degree and accepted alternative evidence/waivers need institutional assessment; no automatic waiver from a self-report. Score comparison does not complete the entry conditions.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Part-time is local-applicant only",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+          "noteZh": "",
+          "noteEn": "Consulted portal explicitly lists part-time for LOCAL APPLICANTS ONLY. There is no supported non-local PT category or price. Selecting Local does not establish HKU classification, immigration eligibility or admission.",
+          "mandatory": true,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P019-2027-PT"
+            ],
+            "labelEn": "September2027 PT only",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-11-03"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://www.mph.sph.hku.hk/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://www.mph.sph.hku.hk/application",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Current September 2027 intake.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Honours bachelor OR MBBS/equivalent; not restricted to licensed doctors or a healthcare-only major list. Honours equivalence, possible qualifying examination and individual exemptions require assessment. No exact honours class, numeric GPA or fixed work years are published in the consulted entry conditions. Advanced standing up to nine credits for recent prior study is credit transfer, not pre-entry employment or an automatic fee reduction.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA admission threshold or conversion established; honours/equivalence assessed separately.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Current score versions and September 2027 fixed validity anchor retained; individual applicability requires assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Provisional FT local 254400/non-local 317100 for one year. PT LOCAL ONLY is 127200 per year for TWO years, whole-course 254400, not 127200 total. Occasional-student 12840 per course is not a degree price. No non-local PT fee or availability inferred.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Opening 2 November 2026. Main 30 April 2027 noon; clearing 30 June 2027 noon LOCAL ONLY. Early Decision for applications BEFORE 15 February 2027 is a separate accelerated-decision service, not an invented noon/final cutoff. PT is LOCAL ONLY. No live portal/place confirmation.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review or complete requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0"
+        }
+      },
+      "researchBatch": "hku-medical-law-2026-11-03"
+    },
+    {
+      "id": "HK-HKU-P024",
+      "universityId": "HK-HKU",
+      "name": "Executive Master of Business Laws",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Faculty of Law",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=executive-master-of-business-laws-law&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "January 2027",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official department/PDF reading; selected pages visually inspected",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. At least Second Class Honours/equivalent through a law degree OR a non-law degree OR a recognised CPE plus the required degree. At least THREE YEARS of FULL-TIME work experience is mandatory; a professional position related to finance or law is PREFERRED. A self-reported three years does not establish full-time status or relevance. No numeric GPA conversion is supplied. This is not automatic professional legal qualification.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P024-2027-JAN-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "January 2027",
+          "academicYear": "January 2027",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2026-09-18",
+          "feeBasis": "January 2027 portal quote 366000 conflicts with the department fee headings: September 2026 intake 366000 and September 2027 intake 390000; supporting instructions say tuition under review. January tuition stays NULL pending exact-cohort confirmation; neither September fee is silently assigned to January.",
+          "feeEvidence": {
+            "sourceUrl": "https://llm.law.hku.hk/embl/",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "ARCHIVED January 2027 intake; main 14 August 2026, clearing 18 September 2026, local-only clearing 26 October 2026, all noon GMT+8 and already past. No September 2027 offering or reopened window inferred.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-08-14",
+              "deadlineAt": "2026-08-14T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2026-09-18",
+              "deadlineAt": "2026-09-18T12:00:00+08:00"
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "At least Second Class Honours/equivalent through a law degree OR a non-law degree OR a recognised CPE plus the required degree. At least THREE YEARS of FULL-TIME work experience is mandatory; a professional position related to finance or law is PREFERRED. A self-reported three years does not establish full-time status or relevance. No numeric GPA conversion is supplied. This is not automatic professional legal qualification.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Personal statement, CV and TWO referees are listed. Upload PDF documents within 14 CALENDAR DAYS FROM ACCOUNT CREATION AND BEFORE THE APPLICATION DEADLINE. Referees have 28 CALENDAR DAYS from their separate system invitation. Do not merge these personal clocks or calculate a personal deadline without actual dates. January 2027 supporting instructions still contain earlier September decision wording and tuition-under-review text; the cohort inconsistency remains explicit.",
+          "mandatory": true
+        },
+        {
+          "kind": "classification",
+          "labelZh": "",
+          "labelEn": "At least Second Class Honours or assessed equivalent",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "min": "second_lower"
+        },
+        {
+          "kind": "experience",
+          "labelZh": "",
+          "labelEn": "At least three years of full-time work; full-time nature separately assessed",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "min": 3
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 97,
+              "validBefore": "2026-01-21",
+              "atHomeAccepted": false
+            },
+            "toefl_6": {
+              "total": 5,
+              "validFrom": "2026-01-21",
+              "atHomeAccepted": false
+            }
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, formats and exact date scope",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Own January Law checklist rejects IELTS Indicator/One Skill Retake, TOEFL Home/ITP/Essentials/MyBest and other listed tests. Validity is anchored to 1 September of the admission year; the annual-year interpretation for January 2027 is UNCONFIRMED, so no fixed September 2025 date is guessed. English-medium degree and accepted alternative evidence/waivers need institutional assessment; no automatic waiver from a self-report. Score comparison does not complete the entry conditions.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=executive-master-of-business-laws-law&mode=0",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://llm.law.hku.hk/embl/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "January 2027 intake only; annual English-validity interpretation unconfirmed.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "At least Second Class Honours/equivalent through a law degree OR a non-law degree OR a recognised CPE plus the required degree. At least THREE YEARS of FULL-TIME work experience is mandatory; a professional position related to finance or law is PREFERRED. A self-reported three years does not establish full-time status or relevance. No numeric GPA conversion is supplied. This is not automatic professional legal qualification.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA admission threshold or conversion established; honours/equivalence assessed separately.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "January annual-year validity anchor remains unconfirmed.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "unknown",
+          "noteEn": "January 2027 portal quote 366000 conflicts with the department fee headings: September 2026 intake 366000 and September 2027 intake 390000; supporting instructions say tuition under review. January tuition stays NULL pending exact-cohort confirmation; neither September fee is silently assigned to January.",
+          "sourceUrl": "https://llm.law.hku.hk/embl/"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "ARCHIVED January 2027 intake; main 14 August 2026, clearing 18 September 2026, local-only clearing 26 October 2026, all noon GMT+8 and already past. No September 2027 offering or reopened window inferred.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=executive-master-of-business-laws-law&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review or complete requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=executive-master-of-business-laws-law&mode=0"
+        }
+      },
+      "researchBatch": "hku-medical-law-2026-11-03"
+    },
+    {
+      "id": "HK-HKU-P027",
+      "universityId": "HK-HKU",
+      "name": "Master of Advanced Pharmacy",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Li Ka Shing Faculty of Medicine",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-advanced-pharmacy-med&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official department/PDF reading; selected pages visually inspected",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor or above in PHARMACY for Clinical Practice or Community Health streams. Pharmaceutical Medicine or Generalist permits pharmacy, pharmaceutical science, pharmacology, physiology, physical science, biochemistry, biotechnology, chemistry, biomedical/biological sciences, genetics, medicine, nursing or another relevant discipline. A Science degree does not establish clinical-stream eligibility; Pharmacy is not mandatory for EVERY stream. Possible qualifying assessment remains. Four curriculum streams are not four extra degrees or checked routes. No fixed work-year minimum or automatic professional registration is established.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P027-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 283590,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "feeBasis": "Whole 69-credit composition: FT 283590 for one year, PT 186300 for two years, not 186300 multiplied again. Extra credits can cost extra; deposit is not automatically added to the quoted tuition.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Main non-local 30 April 2027, local 31 May 2027; local-only clearing 30 June 2027, noon GMT+8. Select the HKU applicant category; no default non-local classification.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P027-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 186300,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "feeBasis": "Whole 69-credit composition: FT 283590 for one year, PT 186300 for two years, not 186300 multiplied again. Extra credits can cost extra; deposit is not automatically added to the quoted tuition.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Main non-local 30 April 2027, local 31 May 2027; local-only clearing 30 June 2027, noon GMT+8. Select the HKU applicant category; no default non-local classification.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor or above in PHARMACY for Clinical Practice or Community Health streams. Pharmaceutical Medicine or Generalist permits pharmacy, pharmaceutical science, pharmacology, physiology, physical science, biochemistry, biotechnology, chemistry, biomedical/biological sciences, genetics, medicine, nursing or another relevant discipline. A Science degree does not establish clinical-stream eligibility; Pharmacy is not mandatory for EVERY stream. Possible qualifying assessment remains. Four curriculum streams are not four extra degrees or checked routes. No fixed work-year minimum or automatic professional registration is established.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "CV REQUIRED; reference letters explicitly OPTIONAL. Upload within ONE MONTH FROM APPLICATION DATE, not a sibling notification clock. Qualification/CHSI/overseas verification, identity, applicable English and translation evidence follow the exact checklist; individual instructions still require confirmation.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, formats and exact date scope",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "September 2027 score validity begins 1 September 2025. No additional programme-specific test-format prohibition is borrowed from another faculty checklist. English-medium degree and accepted alternative evidence/waivers need institutional assessment; no automatic waiver from a self-report. Score comparison does not complete the entry conditions.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-advanced-pharmacy-med&mode=0",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://www.pharma.hku.hk/en/Prospective-Student/Master-of-Advanced-Pharmacy",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Current September 2027 intake.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor or above in PHARMACY for Clinical Practice or Community Health streams. Pharmaceutical Medicine or Generalist permits pharmacy, pharmaceutical science, pharmacology, physiology, physical science, biochemistry, biotechnology, chemistry, biomedical/biological sciences, genetics, medicine, nursing or another relevant discipline. A Science degree does not establish clinical-stream eligibility; Pharmacy is not mandatory for EVERY stream. Possible qualifying assessment remains. Four curriculum streams are not four extra degrees or checked routes. No fixed work-year minimum or automatic professional registration is established.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA admission threshold or conversion established; honours/equivalence assessed separately.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Current score versions and September 2027 fixed validity anchor retained; individual applicability requires assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Whole 69-credit composition: FT 283590 for one year, PT 186300 for two years, not 186300 multiplied again. Extra credits can cost extra; deposit is not automatically added to the quoted tuition.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Main non-local 30 April 2027, local 31 May 2027; local-only clearing 30 June 2027, noon GMT+8. Select the HKU applicant category; no default non-local classification.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-advanced-pharmacy-med&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review or complete requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-advanced-pharmacy-med&mode=0"
+        }
+      },
+      "researchBatch": "hku-medical-law-2026-11-03"
+    },
+    {
+      "id": "HK-HKU-P044",
+      "universityId": "HK-HKU",
+      "name": "Master of Biomedical Innovation",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Li Ka Shing Faculty of Medicine",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-biomedical-innovation-med&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official department/PDF reading; selected pages visually inspected",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Honours bachelor/equivalent and possible qualifying examination. No exact honours class, numeric GPA or fixed employment years are established. Current portal proposes the name Digital Health and AI subject to University approval; the linked PDF still says Digital Health Technology. Do not treat the proposed rename as an approved new degree or route. The 69 credits and 21-credit capstone are during-study requirements, not undergraduate entry credits.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P044-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 370000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "feeBasis": "Whole 69-credit composition: FT 370000; PT 290000=145000/year over two years. PT students may OPT IN to Innovator Immersion for the difference of 80000, with employer release; not a compulsory PT surcharge. FT industry internship capstone and compulsory non-credit immersion are mode-specific.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Early 15 December 2026, main 31 March 2027; LOCAL ONLY clearing 31 May 2027, noon GMT+8. Neither a place nor current portal opening is established.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": "2026-12-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": "2027-03-31T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P044-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 290000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "feeBasis": "Whole 69-credit composition: FT 370000; PT 290000=145000/year over two years. PT students may OPT IN to Innovator Immersion for the difference of 80000, with employer release; not a compulsory PT surcharge. FT industry internship capstone and compulsory non-credit immersion are mode-specific.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Early 15 December 2026, main 31 March 2027; LOCAL ONLY clearing 31 May 2027, noon GMT+8. Neither a place nor current portal opening is established.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": "2026-12-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": "2027-03-31T12:00:00+08:00"
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Honours bachelor/equivalent and possible qualifying examination. No exact honours class, numeric GPA or fixed employment years are established. Current portal proposes the name Digital Health and AI subject to University approval; the linked PDF still says Digital Health Technology. Do not treat the proposed rename as an approved new degree or route. The 69 credits and 21-credit capstone are during-study requirements, not undergraduate entry credits.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "CV OPTIONAL and reference letters OPTIONAL. Upload within ONE MONTH FROM EMAIL NOTIFICATION. Original/certified documents are requested after acceptance, not universally at initial application. Applicable qualification-location and English evidence follow the exact School checklist.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, formats and exact date scope",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "September 2027 score validity begins 1 September 2025. No additional programme-specific test-format prohibition is borrowed from another faculty checklist. English-medium degree and accepted alternative evidence/waivers need institutional assessment; no automatic waiver from a self-report. Score comparison does not complete the entry conditions.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Full-time immersion and GBA attendance",
+          "sourceUrl": "https://mbioinno.hku.hk/industry-immersion",
+          "noteZh": "",
+          "noteEn": "FT Innovator Immersion is COMPULSORY and year-long. Its own page includes Hong Kong and Greater Bay Area industry engagement/field trips. Whether out-of-Hong-Kong attendance is mandatory, exact location and an entirely Hong Kong pathway remain UNCONFIRMED; do not promise HK-only delivery.",
+          "mandatory": true,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P044-2027-FT"
+            ],
+            "labelEn": "FT September2027 only",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-11-03"
+          }
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Optional part-time immersion",
+          "sourceUrl": "https://mbioinno.hku.hk/industry-immersion",
+          "noteZh": "",
+          "noteEn": "PT immersion is OPT-IN, with the 80000 fee difference and employer release. The industry-internship capstone is FT ONLY. FT compulsory immersion must not be imposed on every PT choice. Chosen activities and delivery location still require confirmation.",
+          "mandatory": true,
+          "appliesTo": {
+            "offeringIds": [
+              "HK-HKU-P044-2027-PT"
+            ],
+            "labelEn": "PT September2027 only",
+            "academicYear": "2027/28",
+            "checkedOn": "2026-11-03"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-biomedical-innovation-med&mode=0",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://mbioinno.hku.hk/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://mbioinno.hku.hk/admissions",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://mbioinno.hku.hk/industry-immersion",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Current September 2027 intake.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Honours bachelor/equivalent and possible qualifying examination. No exact honours class, numeric GPA or fixed employment years are established. Current portal proposes the name Digital Health and AI subject to University approval; the linked PDF still says Digital Health Technology. Do not treat the proposed rename as an approved new degree or route. The 69 credits and 21-credit capstone are during-study requirements, not undergraduate entry credits.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA admission threshold or conversion established; honours/equivalence assessed separately.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Current score versions and September 2027 fixed validity anchor retained; individual applicability requires assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Whole 69-credit composition: FT 370000; PT 290000=145000/year over two years. PT students may OPT IN to Innovator Immersion for the difference of 80000, with employer release; not a compulsory PT surcharge. FT industry internship capstone and compulsory non-credit immersion are mode-specific.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Early 15 December 2026, main 31 March 2027; LOCAL ONLY clearing 31 May 2027, noon GMT+8. Neither a place nor current portal opening is established.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-biomedical-innovation-med&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review or complete requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-biomedical-innovation-med&mode=0"
+        }
+      },
+      "researchBatch": "hku-medical-law-2026-11-03"
+    },
+    {
+      "id": "HK-HKU-P049",
+      "universityId": "HK-HKU",
+      "name": "Master of Chinese Medicine",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Li Ka Shing Faculty of Medicine",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-chinese-medicine-med&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2026/27",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official department/PDF reading; selected pages visually inspected",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. ARCHIVED 2026/27 entry: Chinese Medicine/Traditional Chinese Medicine bachelor or accepted equivalent; alternatively a recognised relevant medicine/pharmacy/science/dentistry/physiotherapy/healthcare bachelor PLUS a recognised Chinese Medicine diploma for Oncology/Clinical Pharmacy, or a relevant medicine/dentistry/physiotherapy/healthcare bachelor PLUS a recognised acupuncture diploma for Acupuncture and Moxibustion. Science or Pharmacy ALONE is insufficient for the diploma alternative. Gynaecology is NOT OFFERED in 2026/27. The named streams are not new degrees or verified route snapshots.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P049-2026-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September/October 2026 (tentative; archived)",
+          "academicYear": "2026/27",
+          "currency": "HKD",
+          "tuition": 170000,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": null,
+          "feeBasis": "ARCHIVED 2026/27 whole two-year PT composition 170000=85000/year. Not a 2027/28 quote. Application fee 600 is separate; no scholarship, visa, placement or licence guaranteed.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "ARCHIVED 2026/27 ONLY. Portal: Acupuncture and Moxibustion 27 March 2026; Oncology/Clinical Pharmacy 24 April 2026 noon. Linked November 2025 PDF gives 27 March only. Generic PT deadline stays NULL because the stream/version differs; no universal 24 April or 2027 application inferred. Tentative September/October 2026 commencement."
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "ARCHIVED 2026/27 entry: Chinese Medicine/Traditional Chinese Medicine bachelor or accepted equivalent; alternatively a recognised relevant medicine/pharmacy/science/dentistry/physiotherapy/healthcare bachelor PLUS a recognised Chinese Medicine diploma for Oncology/Clinical Pharmacy, or a relevant medicine/dentistry/physiotherapy/healthcare bachelor PLUS a recognised acupuncture diploma for Acupuncture and Moxibustion. Science or Pharmacy ALONE is insufficient for the diploma alternative. Gynaecology is NOT OFFERED in 2026/27. The named streams are not new degrees or verified route snapshots.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "ARCHIVED 2026/27 checklist: post required files to the School within FIVE WORKING DAYS AFTER ONLINE APPLICATION; official transcript and verified-document channels differ by qualification location. References are advised without a stated universal numeric count; close relatives should not be referees. Supporting professional registration/work proof is conditional. Do not replace this with a generic one-month upload-only rule.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chinese and English readiness with explicit regulation waivers",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "G2(b) and TPG2(d) are explicitly WAIVED. No numeric IELTS/TOEFL requirement is copied from other Medicine programmes. Teaching is primarily Cantonese/Mandarin with some English material; written and spoken Chinese AND English proficiency still require confirmation. A waiver is not automatic language readiness.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Chosen clinical attachment and location",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Certain advanced clinical attachments expressly use designated MAINLAND sites; practice-based and project-based choices differ. Exact chosen stream, compulsory attendance, placement and registration arrangements need confirmation before any Hong Kong-only claim. Do not exclude every pathway or promise professional registration.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-chinese-medicine-med&mode=0",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://scm.hku.hk/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=REGULATIONSYLLABUS&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "ARCHIVED 2026/27; no 2027/28 start inferred.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "ARCHIVED 2026/27 entry: Chinese Medicine/Traditional Chinese Medicine bachelor or accepted equivalent; alternatively a recognised relevant medicine/pharmacy/science/dentistry/physiotherapy/healthcare bachelor PLUS a recognised Chinese Medicine diploma for Oncology/Clinical Pharmacy, or a relevant medicine/dentistry/physiotherapy/healthcare bachelor PLUS a recognised acupuncture diploma for Acupuncture and Moxibustion. Science or Pharmacy ALONE is insufficient for the diploma alternative. Gynaecology is NOT OFFERED in 2026/27. The named streams are not new degrees or verified route snapshots.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA admission threshold or conversion established; honours/equivalence assessed separately.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "unknown",
+          "noteEn": "Explicit waivers retain Chinese/English readiness; no numeric test rule.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "ARCHIVED 2026/27 whole two-year PT composition 170000=85000/year. Not a 2027/28 quote. Application fee 600 is separate; no scholarship, visa, placement or licence guaranteed.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R358&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "unknown",
+          "noteEn": "ARCHIVED 2026/27 ONLY. Portal: Acupuncture and Moxibustion 27 March 2026; Oncology/Clinical Pharmacy 24 April 2026 noon. Linked November 2025 PDF gives 27 March only. Generic PT deadline stays NULL because the stream/version differs; no universal 24 April or 2027 application inferred. Tentative September/October 2026 commencement.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-chinese-medicine-med&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review or complete requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-chinese-medicine-med&mode=0"
+        }
+      },
+      "researchBatch": "hku-medical-law-2026-11-03"
+    },
+    {
+      "id": "HK-HKU-P051",
+      "universityId": "HK-HKU",
+      "name": "Master of Clinical Research and Product Development",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Li Ka Shing Faculty of Medicine",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-clinical-research-and-product-development-med&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official department/PDF reading; selected pages visually inspected",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. Bachelor/equivalent; healthcare-related graduates are PREFERRED, not an exclusive healthcare-major gate. Shortlisted candidates may be interviewed. No numeric GPA, precise honours class or mandatory work years are established. Most classes are IN PERSON at HKU Main Campus, HKUMed or Queen Mary Hospital, with occasional hybrid sessions depending on lecturer/location; this is not a wholly remote programme.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P051-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 300000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-30",
+          "feeBasis": "2027/28 whole-programme quote FT 300000/PT 280000; PT is not charged 280000 each year. Subject to University approval. Living costs and separate charges excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Early 30 January 2027 and main 30 March 2027 noon GMT+8. A 21 May 2027 clearing round is SUBJECT TO PLACES and remains a conditional note, not an unconditionally available extra round or guaranteed final cutoff.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-30",
+              "deadlineAt": "2027-01-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P051-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 280000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-30",
+          "feeBasis": "2027/28 whole-programme quote FT 300000/PT 280000; PT is not charged 280000 each year. Subject to University approval. Living costs and separate charges excluded.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Early 30 January 2027 and main 30 March 2027 noon GMT+8. A 21 May 2027 clearing round is SUBJECT TO PLACES and remains a conditional note, not an unconditionally available extra round or guaranteed final cutoff.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-01-30",
+              "deadlineAt": "2027-01-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Bachelor/equivalent; healthcare-related graduates are PREFERRED, not an exclusive healthcare-major gate. Shortlisted candidates may be interviewed. No numeric GPA, precise honours class or mandatory work years are established. Most classes are IN PERSON at HKU Main Campus, HKUMed or Queen Mary Hospital, with occasional hybrid sessions depending on lecturer/location; this is not a wholly remote programme.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "CV REQUIRED; reference letters OPTIONAL. Upload immediately after application following the notification; the consulted checklist gives NO NUMERIC one-month clock. Degree must be conferred by 31 AUGUST for local applicants or 30 JUNE for non-local applicants in the admission year. These award dates are not extra application rounds or proof that any pending degree is accepted. Applicable qualification-location verification and translations remain.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "tests": {
+            "ielts": {
+              "total": 6.5,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 85,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, formats and exact date scope",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "September 2027 score validity begins 1 September 2025. No additional programme-specific test-format prohibition is borrowed from another faculty checklist. English-medium degree and accepted alternative evidence/waivers need institutional assessment; no automatic waiver from a self-report. Score comparison does not complete the entry conditions.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-clinical-research-and-product-development-med&mode=0",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://www.mcrpd.hku.hk/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Current September 2027 intake.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "Bachelor/equivalent; healthcare-related graduates are PREFERRED, not an exclusive healthcare-major gate. Shortlisted candidates may be interviewed. No numeric GPA, precise honours class or mandatory work years are established. Most classes are IN PERSON at HKU Main Campus, HKUMed or Queen Mary Hospital, with occasional hybrid sessions depending on lecturer/location; this is not a wholly remote programme.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA admission threshold or conversion established; honours/equivalence assessed separately.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Current score versions and September 2027 fixed validity anchor retained; individual applicability requires assessment.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "2027/28 whole-programme quote FT 300000/PT 280000; PT is not charged 280000 each year. Subject to University approval. Living costs and separate charges excluded.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R414&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Early 30 January 2027 and main 30 March 2027 noon GMT+8. A 21 May 2027 clearing round is SUBJECT TO PLACES and remains a conditional note, not an unconditionally available extra round or guaranteed final cutoff.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-clinical-research-and-product-development-med&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review or complete requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-clinical-research-and-product-development-med&mode=0"
+        }
+      },
+      "researchBatch": "hku-medical-law-2026-11-03"
+    },
+    {
+      "id": "HK-HKU-P052",
+      "universityId": "HK-HKU",
+      "name": "Master of Community Health Care",
+      "award": "Master",
+      "area": "Unclassified",
+      "faculty": "Li Ka Shing Faculty of Medicine",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-community-health-care-med&mode=0",
+      "verification": "programme_page_checked",
+      "sourceStatus": "AI-assisted programme-source observation; independent review pending",
+      "lastChecked": "2026-11-03",
+      "academicYear": "2027/28",
+      "admissionRoute": "direct",
+      "requirementsCoverage": "partial",
+      "collector": "AI-assisted exact portal/mode and official department/PDF reading; selected pages visually inspected",
+      "reviewer": null,
+      "notesZh": "",
+      "notesEn": "Partial official-source observation. MBBS or bachelor in Chinese Medicine, Dentistry, Nursing, Social Work, Occupational Therapy, Physiotherapy, Psychology or another healthcare-related field, or accepted equivalent. Possible qualifying examination remains. No numeric GPA or fixed work years are established. Professional licence evidence applies to practising professionals choosing practicums, not automatically to every applicant or thesis/capstone choice. The 600 hours of student learning activity for a chosen final component are DURING STUDY, not 600 hours of pre-entry clinical work.",
+      "offerings": [
+        {
+          "id": "HK-HKU-P052-2027-FT",
+          "mode": "Full-time",
+          "duration": "1 year",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 230000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-30",
+          "feeBasis": "Whole 63-credit composition FT 230000/PT 210000. Estimated admission deposit FT 115000/PT 52500 is recorded separately; it is not automatically added as a second tuition charge. Scholarships and living costs are not deducted or included.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Early 30 March 2027 for local/non-local; main 30 May 2027 and clearing 30 June 2027 LOCAL ONLY, noon GMT+8. No inferred applicant classification or live-open claim.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            }
+          ]
+        },
+        {
+          "id": "HK-HKU-P052-2027-PT",
+          "mode": "Part-time",
+          "duration": "2 years",
+          "intake": "September 2027",
+          "academicYear": "2027/28",
+          "currency": "HKD",
+          "tuition": 210000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-30",
+          "feeBasis": "Whole 63-credit composition FT 230000/PT 210000. Estimated admission deposit FT 115000/PT 52500 is recorded separately; it is not automatically added as a second tuition charge. Scholarships and living costs are not deducted or included.",
+          "feeEvidence": {
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "checkedOn": "2026-11-03"
+          },
+          "deadlineNote": "Early 30 March 2027 for local/non-local; main 30 May 2027 and clearing 30 June 2027 LOCAL ONLY, noon GMT+8. No inferred applicant classification or live-open claim.",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme-specific academic and evidence conditions",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "MBBS or bachelor in Chinese Medicine, Dentistry, Nursing, Social Work, Occupational Therapy, Physiotherapy, Psychology or another healthcare-related field, or accepted equivalent. Possible qualifying examination remains. No numeric GPA or fixed work years are established. Professional licence evidence applies to practising professionals choosing practicums, not automatically to every applicant or thesis/capstone choice. The 600 hours of student learning activity for a chosen final component are DURING STUDY, not 600 hours of pre-entry clinical work.",
+          "mandatory": true
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Exact supporting documents and relative timing",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "Approximately 300-word statement of intent, CV and TWO referees; preferably one academic/workplace and one personal referee IF AVAILABLE, not a mandatory one-of-each quota. Upload within ONE MONTH FROM EMAIL NOTIFICATION. Practising healthcare professionals choosing practicums need applicable registration and annual practising certificates; this is conditional, not a universal licence requirement. Qualifications and original/issuer evidence follow their own checklist. The checklist rejects applicant-submitted notarised academic copies but permits certified professional-registration evidence in its separate footnote; do not flatten the two document types.",
+          "mandatory": true
+        },
+        {
+          "kind": "language",
+          "labelZh": "",
+          "labelEn": "Programme English scores and exact exam-version evidence",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "tests": {
+            "ielts": {
+              "total": 6,
+              "componentMin": 5.5
+            },
+            "toefl_120": {
+              "total": 80,
+              "validBefore": "2026-01-21"
+            },
+            "toefl_6": {
+              "total": 4.5,
+              "validFrom": "2026-01-21"
+            }
+          },
+          "testDateNotBefore": "2025-09-01",
+          "testDateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "English applicability, formats and exact date scope",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "noteZh": "",
+          "noteEn": "September 2027 score validity begins 1 September 2025. No additional programme-specific test-format prohibition is borrowed from another faculty checklist. English-medium degree and accepted alternative evidence/waivers need institutional assessment; no automatic waiver from a self-report. Score comparison does not complete the entry conditions.",
+          "mandatory": true
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-community-health-care-med&mode=0",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://mchc.hku.hk/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://mchc.hku.hk/admission/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://mchc.hku.hk/composition-fees/",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        },
+        {
+          "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+          "checkedOn": "2026-11-03",
+          "purpose": "Exact programme/mode, department or linked PDF observed; older cohort labels, conditional rounds and unresolved wording retained"
+        }
+      ],
+      "fieldStatus": {
+        "academicYear": {
+          "status": "known",
+          "noteEn": "Current September 2027 intake.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "major": {
+          "status": "known",
+          "noteEn": "MBBS or bachelor in Chinese Medicine, Dentistry, Nursing, Social Work, Occupational Therapy, Physiotherapy, Psychology or another healthcare-related field, or accepted equivalent. Possible qualifying examination remains. No numeric GPA or fixed work years are established. Professional licence evidence applies to practising professionals choosing practicums, not automatically to every applicant or thesis/capstone choice. The 600 hours of student learning activity for a chosen final component are DURING STUDY, not 600 hours of pre-entry clinical work.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "gpa": {
+          "status": "not_published",
+          "noteEn": "No numeric GPA admission threshold or conversion established; honours/equivalence assessed separately.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "language": {
+          "status": "known",
+          "noteEn": "Current score versions and September 2027 fixed validity anchor retained; individual applicability requires assessment.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements"
+        },
+        "tuition": {
+          "status": "known",
+          "noteEn": "Whole 63-credit composition FT 230000/PT 210000. Estimated admission deposit FT 115000/PT 52500 is recorded separately; it is not automatically added as a second tuition charge. Scholarships and living costs are not deducted or included.",
+          "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y"
+        },
+        "deadline": {
+          "status": "known",
+          "noteEn": "Early 30 March 2027 for local/non-local; main 30 May 2027 and clearing 30 June 2027 LOCAL ONLY, noon GMT+8. No inferred applicant classification or live-open claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-community-health-care-med&mode=0"
+        },
+        "independentReview": {
+          "status": "unknown",
+          "noteEn": "Partial AI-assisted observation; no independent human review or complete requirements claim.",
+          "sourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-community-health-care-med&mode=0"
+        }
+      },
+      "researchBatch": "hku-medical-law-2026-11-03"
     }
   ]
 }

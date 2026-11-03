@@ -19,7 +19,7 @@ const english = (n, language) => matchProgramme(p(n), { ...profile, language }).
 
 test('fourteen existing catalogue identities gain partial evidence and no full requirements or independent approval', () => {
   assert.equal(obs.programmeIds.length, 14); assert.equal(new Set(obs.programmeIds).size, 14);
-  assert.equal(obs.counts.newOfferings, 27); assert.equal(store.quality().checked, 305); assert.equal(store.quality().total, 873);
+  assert.equal(obs.counts.newOfferings, 27); assert.equal(store.quality().checked, 312); assert.equal(store.quality().total, 873);
   assert.equal(store.quality().browsable, 869); assert.equal(store.quality().peerReviewed, 0); assert.equal(store.quality().complete, 0);
   assert.equal(store.all().filter(p => p.universityId === 'HK-CITYU' && p.verification === 'programme_page_checked').length, 60);
   for (const id of obs.programmeIds) {
@@ -100,8 +100,8 @@ test('conflicting official Energy deadlines remain unresolved without a guessed 
     assert.equal(o.intake, 'September 2027'); assert.equal(o.tuition, 213000);
   }
   for (const day of ['2026-10-30', '2027-03-31', '2027-04-30', '2027-05-31']) assert.equal(programmeTimeline(p(43), day).state, 'dates_incomplete');
-  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.reviewUnits, 540); assert.equal(q.counts.nearCutoffUnits, 3);
-  assert.equal(q.counts.applicantContexts, 196); assert.equal(q.counts.applicantCategories, 394); assert.equal(q.counts.staleApplicantContexts, 0);
+  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.reviewUnits, 556); assert.equal(q.counts.nearCutoffUnits, 3);
+  assert.equal(q.counts.applicantContexts, 205); assert.equal(q.counts.applicantCategories, 411); assert.equal(q.counts.staleApplicantContexts, 0);
 });
 
 test('one 14-record import is idempotent and preserves other current records over isolated restarts', () => {
@@ -113,7 +113,7 @@ test('one 14-record import is idempotent and preserves other current records ove
     assert.equal(db.quality().checked, before.programmes.length); const earlier = db.all().filter(p => !ids.has(p.id)); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
-      db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.quality().checked, 305);
+      db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.quality().checked, 312);
       assert.deepEqual(db.all().filter(p => !ids.has(p.id)), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
       for (const id of ids) assert.equal(db.get(id).verification, 'programme_page_checked'); db.close(); db = null;
     }

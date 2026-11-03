@@ -4,22 +4,22 @@
 
 用户可以按本科专业、GPA／学位等级和语言成绩筛选项目，查看公开入学要求、费用、申请时间和官方来源，比较课程并保存候选清单。网站不代办申请，不预测录取概率，也不保证录取。
 
-## 当前状态（2026-11-01）
+## 当前状态（2026-11-03）
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 869 条；305 条有部分官方项目页观察，568 条仍为目录线索。完整要求集和独立人工复核均为 0。
-- 16 组／39 条方向快照、196 组／394 类申请者上下文分开计数。11 月 1 日维护快照有 540 个单元，7 个记录截止临近，失配绑定为 0。
-- 本轮补入港大理学、创新科技和剩余文科的 8 个既有项目，共 10 个学习选项；港大为 85 个部分父记录／18 条线索。三组本地／非本地截止分别绑定，不默认选择申请者类别。
-- 创新科技一月兼读制与九月全日制分开；一月截止已过，暂定开课及英语日期适用仍待确认。非 STEM 作品材料的替代路径保留，香港／大湾区交付范围继续待确认。
-- 海洋生态的基础课程要求、物理先修与地球科学荣誉等级分别保存；选修澳洲考察不当作人人必须出境。食品安全旧年度费用、文科推荐信和材料时限冲突均不强行合并。此前各批限制继续有效。
+- 14 校、873 条目录记录，默认可浏览 869 条；312 条有部分官方项目页观察，561 条仍为目录线索。完整要求集和独立人工复核均为 0。
+- 16 组／39 条方向快照、205 组／411 类申请者上下文分开计数。11 月 3 日维护快照有 556 个单元，5 个记录截止临近，失配绑定为 0。
+- 本轮补入港大医学、公共健康和商务法律的 7 个既有项目，共 12 个学习选项；港大为 92 个部分父记录／11 条线索。9 组／17 类上下文分别绑定；公共健康兼读制只提供有依据的本地类别，仍须主动选择。
+- 商务法律一月批次已过截止，学费因年度／批次冲突保持未知；中医仍为旧年度，分方向截止不合并成通用日期，也不套用其他医学项目的语言分数。
+- 临床研究的英语门槛、学位授予时限和条件式清算轮次独立保存；生物医学创新的全日制必需活动与兼读制自选活动分开。各项目材料时限、推荐信和执业证明条件不互相复制。此前各批限制继续有效。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。原核心 20 个 ID、71 种选择与 7 个模拟背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
-本轮只在本地保存，不自动推送。建议在下一周检查点统一发布完整批次；最近已发布的 W6 检查点保持不变。
+本轮只在本地保存，不自动推送。建议在 W7 检查点统一发布完整批次；最近已发布的 W6 检查点保持不变。
 
-[HKU 质量表](docs/research/hku-science-arts-quality-2026-11-01.md) · [540 单元维护清单](docs/research/source-review-queue-2026-11-01-hku-science-arts.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-01-hku-science-arts.md) · [本批改动与限制](docs/progress/local-hku-science-arts-2026-11-01.md)
+[HKU 质量表](docs/research/hku-medical-law-quality-2026-11-03.md) · [556 单元维护清单](docs/research/source-review-queue-2026-11-03-hku-medical-law.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-03-hku-medical-law.md) · [本批改动与限制](docs/progress/local-hku-medical-law-2026-11-03.md)
 
-[较早传媒与社会服务批次](docs/progress/local-hku-media-social-2026-11-01.md)、[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
+[较早理学／创新科技及文科批次](docs/progress/local-hku-science-arts-2026-11-01.md)、[较早传媒与社会服务批次](docs/progress/local-hku-media-social-2026-11-01.md)、[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
 ## 本地运行
 
@@ -52,7 +52,7 @@ Windows 优先双击 `start-local.cmd`（不是 `.ps1`），待启动窗口显�
 
 按学校批量核对现有资料，先提高匹配实用性并明确缺漏，再扩展目录。每条正式用于匹配的记录应说明本科背景、学术成绩、语言、适用批次及官方来源；未采集、未公布及需学校判断是不同状态。暂不具备条件的记录继续标作线索，不能凭未知项认定达标。
 
-下一批按港大剩余传媒、社会服务及其他专业领域分组核对；旧 Housing Management P003 和 CityU 的 EMBA／旧土木身份继续保留待确认依据。HKUST P17 名称批准／费用适用、Financial Mathematics and Statistics 的实际学分及年度负载继续单列，不因等候这些事项阻塞其他分组。14 校全量目录身份、组合／跨地区边界和新增 SMU MPGL 仍待核对。软件变更限于可复现的问题及匹配、数据维护的必要改进，不按每次“继续”增加功能。
+后续优先收敛既有项目中的条件与来源冲突，按学校继续批量核对；旧 Housing Management P003 和 CityU 的 EMBA／旧土木身份继续保留待确认依据。HKUST P17 名称批准／费用适用、Financial Mathematics and Statistics 的实际学分及年度负载继续单列，不因等候这些事项阻塞其他分组。14 校全量目录身份、组合／跨地区边界和新增 SMU MPGL 仍待核对。软件变更限于可复现的问题及匹配、数据维护的必要改进，不按每次“继续”增加功能。
 
 [维护工具](scripts/source-review-queue.mjs)与[学校质量检查](scripts/school-quality.mjs)只读本地来源并要求明确比较日期，不写日常数据库或授予复核状态。真实复核、实际用户反馈和正式托管仍待完成，不能用自动检查代替。
 

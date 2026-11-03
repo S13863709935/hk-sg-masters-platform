@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-11-01",
+  "checkedOn": "2026-11-03",
   "contexts": [
     {
       "programmeId": "HK-EDUHK-P001",
@@ -12092,6 +12092,627 @@
               "deadlineAt": "2027-04-30T12:00:00+08:00"
             }
           ]
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P019",
+      "routeId": null,
+      "offeringId": "HK-HKU-P019-2027-FT",
+      "offeringFingerprint": "76a18ec44355d7fadd7726290977e5a83bafe670c037c2819bd19ffd88dbe47b",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Master of Public Health intake and mode only. Each applicant category retains its own recorded fees and round dates. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P019-2027-FT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 254400,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional FT local 254400/non-local 317100 for one year. PT LOCAL ONLY is 127200 per year for TWO years, whole-course 254400, not 127200 total. Occasional-student 12840 per course is not a degree price. No non-local PT fee or availability inferred.",
+          "deadlineNote": "Opening 2 November 2026. Main 30 April 2027 noon; clearing 30 June 2027 noon LOCAL ONLY. Early Decision for applications BEFORE 15 February 2027 is a separate accelerated-decision service, not an invented noon/final cutoff. PT is LOCAL ONLY. No live portal/place confirmation."
+        },
+        {
+          "id": "HK-HKU-P019-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 317100,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional FT local 254400/non-local 317100 for one year. PT LOCAL ONLY is 127200 per year for TWO years, whole-course 254400, not 127200 total. Occasional-student 12840 per course is not a degree price. No non-local PT fee or availability inferred.",
+          "deadlineNote": "Opening 2 November 2026. Main 30 April 2027 noon; clearing 30 June 2027 noon LOCAL ONLY. Early Decision for applications BEFORE 15 February 2027 is a separate accelerated-decision service, not an invented noon/final cutoff. PT is LOCAL ONLY. No live portal/place confirmation."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P019",
+      "routeId": null,
+      "offeringId": "HK-HKU-P019-2027-PT",
+      "offeringFingerprint": "aeecf8ae174a0cc0afed776ac92c24c4a76f3b0be00b238a7ec954ab7b07c007",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R226&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Master of Public Health intake and mode only. This PT option is LOCAL ONLY; no non-local PT category or fee is established. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P019-2027-PT-LOCAL",
+          "label": "Local applicant only — HKU category",
+          "currency": "HKD",
+          "tuition": 254400,
+          "applicationFee": null,
+          "applicationOpen": "2026-11-02",
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": "2026-11-02",
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Provisional FT local 254400/non-local 317100 for one year. PT LOCAL ONLY is 127200 per year for TWO years, whole-course 254400, not 127200 total. Occasional-student 12840 per course is not a degree price. No non-local PT fee or availability inferred.",
+          "deadlineNote": "Opening 2 November 2026. Main 30 April 2027 noon; clearing 30 June 2027 noon LOCAL ONLY. Early Decision for applications BEFORE 15 February 2027 is a separate accelerated-decision service, not an invented noon/final cutoff. PT is LOCAL ONLY. No live portal/place confirmation."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P024",
+      "routeId": null,
+      "offeringId": "HK-HKU-P024-2027-JAN-PT",
+      "offeringFingerprint": "fe6a735846570626558f3bdd000c32d905b9f9b75ace2edcb4978c07f286c9b5",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=executive-master-of-business-laws-law&mode=0",
+      "academicYear": "January 2027",
+      "intake": "January 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://llm.law.hku.hk/embl/",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R427&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Executive Master of Business Laws intake and mode only. January 2027 tuition remains unresolved despite archived category-specific rounds. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P024-2027-JAN-PT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2026-10-26",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-08-14",
+              "deadlineAt": "2026-08-14T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2026-09-18",
+              "deadlineAt": "2026-09-18T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2026-10-26",
+              "deadlineAt": "2026-10-26T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "January 2027 portal quote 366000 conflicts with the department fee headings: September 2026 intake 366000 and September 2027 intake 390000; supporting instructions say tuition under review. January tuition stays NULL pending exact-cohort confirmation; neither September fee is silently assigned to January.",
+          "deadlineNote": "ARCHIVED January 2027 intake; main 14 August 2026, clearing 18 September 2026, local-only clearing 26 October 2026, all noon GMT+8 and already past. No September 2027 offering or reopened window inferred."
+        },
+        {
+          "id": "HK-HKU-P024-2027-JAN-PT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": null,
+          "applicationFee": 600,
+          "applicationOpen": null,
+          "deadline": "2026-09-18",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-08-14",
+              "deadlineAt": "2026-08-14T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2026-09-18",
+              "deadlineAt": "2026-09-18T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "January 2027 portal quote 366000 conflicts with the department fee headings: September 2026 intake 366000 and September 2027 intake 390000; supporting instructions say tuition under review. January tuition stays NULL pending exact-cohort confirmation; neither September fee is silently assigned to January.",
+          "deadlineNote": "ARCHIVED January 2027 intake; main 14 August 2026, clearing 18 September 2026, local-only clearing 26 October 2026, all noon GMT+8 and already past. No September 2027 offering or reopened window inferred."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P027",
+      "routeId": null,
+      "offeringId": "HK-HKU-P027-2027-FT",
+      "offeringFingerprint": "5edfc9723119ae9e751ddf28a813612fc5d749ade1e1bf823bc114ccfe609fc3",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-advanced-pharmacy-med&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Master of Advanced Pharmacy intake and mode only. Each applicant category retains its own recorded fees and round dates. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P027-2027-FT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 283590,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": "2027-05-31T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 69-credit composition: FT 283590 for one year, PT 186300 for two years, not 186300 multiplied again. Extra credits can cost extra; deposit is not automatically added to the quoted tuition.",
+          "deadlineNote": "Main non-local 30 April 2027, local 31 May 2027; local-only clearing 30 June 2027, noon GMT+8. Select the HKU applicant category; no default non-local classification."
+        },
+        {
+          "id": "HK-HKU-P027-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 283590,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 69-credit composition: FT 283590 for one year, PT 186300 for two years, not 186300 multiplied again. Extra credits can cost extra; deposit is not automatically added to the quoted tuition.",
+          "deadlineNote": "Main non-local 30 April 2027, local 31 May 2027; local-only clearing 30 June 2027, noon GMT+8. Select the HKU applicant category; no default non-local classification."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P027",
+      "routeId": null,
+      "offeringId": "HK-HKU-P027-2027-PT",
+      "offeringFingerprint": "348790a815e0aad0d25358d93dd02d4545735fd7cda3bc784ad4d08b58955b6e",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-advanced-pharmacy-med&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Master of Advanced Pharmacy intake and mode only. Each applicant category retains its own recorded fees and round dates. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P027-2027-PT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 186300,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": "2027-05-31T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 69-credit composition: FT 283590 for one year, PT 186300 for two years, not 186300 multiplied again. Extra credits can cost extra; deposit is not automatically added to the quoted tuition.",
+          "deadlineNote": "Main non-local 30 April 2027, local 31 May 2027; local-only clearing 30 June 2027, noon GMT+8. Select the HKU applicant category; no default non-local classification."
+        },
+        {
+          "id": "HK-HKU-P027-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 186300,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-04-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-04-30",
+              "deadlineAt": "2027-04-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 69-credit composition: FT 283590 for one year, PT 186300 for two years, not 186300 multiplied again. Extra credits can cost extra; deposit is not automatically added to the quoted tuition.",
+          "deadlineNote": "Main non-local 30 April 2027, local 31 May 2027; local-only clearing 30 June 2027, noon GMT+8. Select the HKU applicant category; no default non-local classification."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P044",
+      "routeId": null,
+      "offeringId": "HK-HKU-P044-2027-FT",
+      "offeringFingerprint": "2af57e3f7bb27a611f18531ac17619dbabab8213565444b28c5a9335a440dcc3",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-biomedical-innovation-med&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Master of Biomedical Innovation intake and mode only. Each applicant category retains its own recorded fees and round dates. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P044-2027-FT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 370000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": "2026-12-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": "2027-03-31T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": "2027-05-31T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 69-credit composition: FT 370000; PT 290000=145000/year over two years. PT students may OPT IN to Innovator Immersion for the difference of 80000, with employer release; not a compulsory PT surcharge. FT industry internship capstone and compulsory non-credit immersion are mode-specific.",
+          "deadlineNote": "Early 15 December 2026, main 31 March 2027; LOCAL ONLY clearing 31 May 2027, noon GMT+8. Neither a place nor current portal opening is established."
+        },
+        {
+          "id": "HK-HKU-P044-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 370000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": "2026-12-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": "2027-03-31T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 69-credit composition: FT 370000; PT 290000=145000/year over two years. PT students may OPT IN to Innovator Immersion for the difference of 80000, with employer release; not a compulsory PT surcharge. FT industry internship capstone and compulsory non-credit immersion are mode-specific.",
+          "deadlineNote": "Early 15 December 2026, main 31 March 2027; LOCAL ONLY clearing 31 May 2027, noon GMT+8. Neither a place nor current portal opening is established."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P044",
+      "routeId": null,
+      "offeringId": "HK-HKU-P044-2027-PT",
+      "offeringFingerprint": "4df3ab31cfd893e27eacf5d616f4df877de35904f81552c8c5dee9efe2b89b44",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-biomedical-innovation-med&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Master of Biomedical Innovation intake and mode only. Each applicant category retains its own recorded fees and round dates. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P044-2027-PT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 290000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": "2026-12-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": "2027-03-31T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": "2027-05-31T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 69-credit composition: FT 370000; PT 290000=145000/year over two years. PT students may OPT IN to Innovator Immersion for the difference of 80000, with employer release; not a compulsory PT surcharge. FT industry internship capstone and compulsory non-credit immersion are mode-specific.",
+          "deadlineNote": "Early 15 December 2026, main 31 March 2027; LOCAL ONLY clearing 31 May 2027, noon GMT+8. Neither a place nor current portal opening is established."
+        },
+        {
+          "id": "HK-HKU-P044-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 290000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-31",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2026-12-15",
+              "deadlineAt": "2026-12-15T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-03-31",
+              "deadlineAt": "2027-03-31T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 69-credit composition: FT 370000; PT 290000=145000/year over two years. PT students may OPT IN to Innovator Immersion for the difference of 80000, with employer release; not a compulsory PT surcharge. FT industry internship capstone and compulsory non-credit immersion are mode-specific.",
+          "deadlineNote": "Early 15 December 2026, main 31 March 2027; LOCAL ONLY clearing 31 May 2027, noon GMT+8. Neither a place nor current portal opening is established."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P052",
+      "routeId": null,
+      "offeringId": "HK-HKU-P052-2027-FT",
+      "offeringFingerprint": "96135d14f5addf2c185b9ece53b8ca89ba4d586b1720ee46bb1921ea11687540",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-community-health-care-med&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Master of Community Health Care intake and mode only. Each applicant category retains its own recorded fees and round dates. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P052-2027-FT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-05-30",
+              "deadlineAt": "2027-05-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 63-credit composition FT 230000/PT 210000. Estimated admission deposit FT 115000/PT 52500 is recorded separately; it is not automatically added as a second tuition charge. Scholarships and living costs are not deducted or included.",
+          "deadlineNote": "Early 30 March 2027 for local/non-local; main 30 May 2027 and clearing 30 June 2027 LOCAL ONLY, noon GMT+8. No inferred applicant classification or live-open claim."
+        },
+        {
+          "id": "HK-HKU-P052-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 230000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 63-credit composition FT 230000/PT 210000. Estimated admission deposit FT 115000/PT 52500 is recorded separately; it is not automatically added as a second tuition charge. Scholarships and living costs are not deducted or included.",
+          "deadlineNote": "Early 30 March 2027 for local/non-local; main 30 May 2027 and clearing 30 June 2027 LOCAL ONLY, noon GMT+8. No inferred applicant classification or live-open claim."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-HKU-P052",
+      "routeId": null,
+      "offeringId": "HK-HKU-P052-2027-PT",
+      "offeringFingerprint": "879d2cbfff628fdbc5c731e299d0229ec6399faf056ce011d172b8285c712eda",
+      "officialUrl": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-community-health-care-med&mode=0",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-03",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "dateSourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+      "noteEn": "Exact Master of Community Health Care intake and mode only. Each applicant category retains its own recorded fees and round dates. No category is automatically selected or assigned from nationality/residence. Selection does not establish HKU classification, visa eligibility or admission; no live portal/place confirmation.",
+      "options": [
+        {
+          "id": "HK-HKU-P052-2027-PT-LOCAL",
+          "label": "Local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 210000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-06-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Round 1",
+              "applicationOpen": null,
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-2",
+              "label": "Round 2",
+              "applicationOpen": null,
+              "deadline": "2027-05-30",
+              "deadlineAt": "2027-05-30T12:00:00+08:00"
+            },
+            {
+              "id": "ROUND-3",
+              "label": "Round 3",
+              "applicationOpen": null,
+              "deadline": "2027-06-30",
+              "deadlineAt": "2027-06-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 63-credit composition FT 230000/PT 210000. Estimated admission deposit FT 115000/PT 52500 is recorded separately; it is not automatically added as a second tuition charge. Scholarships and living costs are not deducted or included.",
+          "deadlineNote": "Early 30 March 2027 for local/non-local; main 30 May 2027 and clearing 30 June 2027 LOCAL ONLY, noon GMT+8. No inferred applicant classification or live-open claim."
+        },
+        {
+          "id": "HK-HKU-P052-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — HKU category",
+          "currency": "HKD",
+          "tuition": 210000,
+          "applicationFee": 780,
+          "applicationOpen": null,
+          "deadline": "2027-03-30",
+          "applicationRounds": [
+            {
+              "id": "ROUND-1",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-03-30",
+              "deadlineAt": "2027-03-30T12:00:00+08:00"
+            }
+          ],
+          "feeBasis": "Whole 63-credit composition FT 230000/PT 210000. Estimated admission deposit FT 115000/PT 52500 is recorded separately; it is not automatically added as a second tuition charge. Scholarships and living costs are not deducted or included.",
+          "deadlineNote": "Early 30 March 2027 for local/non-local; main 30 May 2027 and clearing 30 June 2027 LOCAL ONLY, noon GMT+8. No inferred applicant classification or live-open claim."
         }
       ]
     }

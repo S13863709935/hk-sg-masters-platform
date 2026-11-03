@@ -28,7 +28,8 @@ export function loadApplicantContexts(path, programmes, routes = new Map()) {
     const ownSource = value => p && institutionDomain(value) && institutionDomain(value) === institutionDomain(p.officialUrl);
     if (!p || (r.routeId !== null && typeof r.routeId !== 'string') || r.officialUrl !== p.officialUrl || !p.offerings.some(o => o.id === r.offeringId) || !/^[a-f0-9]{64}$/.test(r.offeringFingerprint || '') || !r.academicYear || !r.intake || !r.mode || !date(r.checkedOn) || r.checkedOn > batch.checkedOn || r.verification !== 'programme_page_checked' || r.reviewer !== null || !ownSource(r.feeSourceUrl) || !ownSource(r.dateSourceUrl) || typeof r.noteEn !== 'string' || r.noteEn.length > 2000) throw new InputError('Invalid applicant-category identity or evidence');
     const contextKey = key(base.id, r.routeId, r.offeringId);
-    if (index.has(contextKey) || !Array.isArray(r.options) || r.options.length < 2 || r.options.length > 20 || new Set(r.options.map(o => o?.id)).size !== r.options.length) throw new InputError('Missing or duplicate applicant categories');
+    // An official local-only intake can have one supported category; selection is still explicit.
+    if (index.has(contextKey) || !Array.isArray(r.options) || r.options.length < 1 || r.options.length > 20 || new Set(r.options.map(o => o?.id)).size !== r.options.length) throw new InputError('Missing or duplicate applicant categories');
     for (const o of r.options) {
       if (o?.tuitionEstimate !== undefined && typeof o.tuitionEstimate !== 'boolean') throw new InputError('Invalid tuition estimate flag');
       if (o && !validApplicationRounds(o.applicationRounds, o)) throw new InputError('Invalid applicant-category application rounds');
