@@ -24,8 +24,8 @@ const academic=x=>x.rules.find(r=>r.labelEn==='Programme-specific academic and e
 const choices=()=>records.flatMap(x=>x.offerings.flatMap(o=>{const c=obs.applicantContextPlan.find(c=>c.offeringId===o.id);return(c?c.options:[undefined]).map(cat=>resolveProgramme(x,routes,undefined,o.id,cat?.id,contexts));}));
 
 test('seven existing identities add twelve study options and nine exact contexts without inflating complete review or degree counts',()=>{
- assert.equal(records.length,7);assert.equal(records.flatMap(p=>p.offerings).length,12);assert.equal(choices().length,20);assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,384);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
- assert.equal(store.all().filter(p=>p.universityId==='HK-HKU'&&p.verification==='programme_page_checked').length,93);assert.deepEqual(routeSummary(routes),{groups:20,routes:47,pageChecked:47,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:258,categories:520,peerReviewed:0});
+ assert.equal(records.length,7);assert.equal(records.flatMap(p=>p.offerings).length,12);assert.equal(choices().length,20);assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,392);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
+ assert.equal(store.all().filter(p=>p.universityId==='HK-HKU'&&p.verification==='programme_page_checked').length,93);assert.deepEqual(routeSummary(routes),{groups:23,routes:53,pageChecked:53,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:271,categories:546,peerReviewed:0});
  for(const x of records){assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,'2026-11-03');assert.equal(x.rules.some(r=>r.kind==='gpa'),false);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(p=>p.id===x.id))),false);assert.equal(routes.has(x.id),false);}
  assert.equal(p(3).scope.status,'out_of_scope');
 });
@@ -87,9 +87,9 @@ test('category timelines keep archived Law rounds and exact current local/non-lo
 
 test('repeated temporary source migration preserves old parents and all prior route/context bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hku-medical-law-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,384);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,258);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,392);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,271);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-11-03');assert.equal(q.counts.reviewUnits,689);assert.equal(q.counts.nearCutoffUnits,5);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-11-03');assert.equal(q.counts.reviewUnits,716);assert.equal(q.counts.nearCutoffUnits,5);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-11-03T08:00:00Z')});let base;

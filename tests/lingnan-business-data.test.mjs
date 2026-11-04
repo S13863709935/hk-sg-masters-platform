@@ -20,8 +20,8 @@ const lang=(n,evidence)=>matchProgramme(selected(n),{...profile,language:evidenc
 const choices=()=>obs.programmeIds.flatMap(id=>store.get(id).offerings.flatMap(o=>{const plan=obs.applicantContextPlan.find(c=>c.offeringId===o.id);return(plan?plan.options:[undefined]).map(c=>resolveProgramme(store.get(id),routes,undefined,o.id,c?.id,contexts));}));
 
 test('fifteen existing Lingnan IDs add seventeen options and four contexts without degree or review inflation',()=>{
- assert.equal(obs.programmeIds.length,15);assert.equal(obs.programmeIds.flatMap(id=>store.get(id).offerings).length,17);assert.equal(choices().length,21);const q=store.quality();assert.equal(q.total,873);assert.equal(q.checked,384);assert.equal(q.browsable,865);assert.equal(q.complete,0);assert.equal(q.peerReviewed,0);assert.equal(q.outOfScope,7);
- assert.deepEqual(routeSummary(routes),{groups:20,routes:47,pageChecked:47,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:258,categories:520,peerReviewed:0});assert.equal(p(1).lastChecked,'2026-10-23');
+ assert.equal(obs.programmeIds.length,15);assert.equal(obs.programmeIds.flatMap(id=>store.get(id).offerings).length,17);assert.equal(choices().length,21);const q=store.quality();assert.equal(q.total,873);assert.equal(q.checked,392);assert.equal(q.browsable,865);assert.equal(q.complete,0);assert.equal(q.peerReviewed,0);assert.equal(q.outOfScope,7);
+ assert.deepEqual(routeSummary(routes),{groups:23,routes:53,pageChecked:53,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:271,categories:546,peerReviewed:0});assert.equal(p(1).lastChecked,'2026-10-23');
  for(const id of obs.programmeIds){const x=store.get(id);assert.equal(x.lastChecked,'2026-11-03');assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.rules.some(r=>r.kind==='gpa'||r.kind==='experience'),false);assert.equal(routes.has(id),false);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(p=>p.id===id))),false);}
 });
 
@@ -76,14 +76,14 @@ test('ordinary GPA rules, optional dual awards and added fees are not mixed with
 });
 
 test('batch backlog and retrieval metadata preserve honest coverage instead of treating fetched pages as complete requirements',()=>{
- const b=loadSchoolBacklog('2026-11-04');assert.equal(b.counts.pageCheckedRecords,384);assert.equal(b.counts.catalogueLeads,489);assert.equal(b.counts.unreadLeads,474);const lu=b.schools.find(s=>s.schoolId==='HK-LU');assert.equal(lu.catalogueRecords,44);assert.equal(lu.pageCheckedRecords,44);assert.equal(lu.unreadLeads,0);assert.equal(lu.activeParentUnknownFields.gpa,0);assert.equal(lu.activeParentNotPublishedFields.gpa,44);
- assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-eduhk-fehd.json'));assert.equal(formatSchoolBacklog(b),readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-eduhk-fehd.md',root),'utf8').replaceAll('\r\n','\n'));
+ const b=loadSchoolBacklog('2026-11-04');assert.equal(b.counts.pageCheckedRecords,392);assert.equal(b.counts.catalogueLeads,481);assert.equal(b.counts.unreadLeads,466);const lu=b.schools.find(s=>s.schoolId==='HK-LU');assert.equal(lu.catalogueRecords,44);assert.equal(lu.pageCheckedRecords,44);assert.equal(lu.unreadLeads,0);assert.equal(lu.activeParentUnknownFields.gpa,0);assert.equal(lu.activeParentNotPublishedFields.gpa,44);
+ assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-eduhk-fhm.json'));assert.equal(formatSchoolBacklog(b),readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-eduhk-fhm.md',root),'utf8').replaceAll('\r\n','\n'));
  assert.equal(obs.sourceRetrievals.length,144);assert.ok(obs.sourceRetrievals.every(s=>s.contentReadable&&s.status===200&&/^[a-f0-9]{64}$/.test(s.sha256)));assert.equal(obs.limits.completeRequirements,0);assert.equal(obs.limits.pdfBrochuresUsed,false);assert.equal(obs.limits.livePortalChecked,false);
 });
 
 test('repeated temporary imports preserve every earlier parent and validate all current exact context bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-lingnan-business-data-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,384);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,258);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,before.programmes.length);const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,392);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,271);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
 });
 

@@ -116,7 +116,7 @@ test('MECED fee quotes remain unassigned without a funding deduction, certificat
 
 test('MECED migration preserves earlier source records across isolated restarts and leaves MCOU archives immutable', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 384); assert.equal(queue.counts.reviewUnits, 689);
+  const queue = loadRepositoryReviewQueue('2026-10-27'); assert.equal(queue.counts.programmePageRecords, 392); assert.equal(queue.counts.reviewUnits, 716);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-meced-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
@@ -127,7 +127,7 @@ test('MECED migration preserves earlier source records across isolated restarts 
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, directory); assert.deepEqual(db.all().filter(x => x.id !== p.id), previous);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 384); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().total, 873); assert.equal(db.quality().checked, 392); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -150,7 +150,7 @@ test('actual API/save/export preserves strict conditional English and training/r
   assert.match(exported.evidence.publishedRequirements.find(r => /Conditional programme English/.test(r.labelEn)).noteEn, /strictly above 6.5/);
   assert.match(exported.evidence.publishedRequirements.find(r => /Teacher-training/.test(r.labelEn)).noteEn, /primary\/secondary/);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 384);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 392);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 258, categories: 520, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 47); assert.equal(JSON.stringify(store.all()), before);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 271, categories: 546, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 53); assert.equal(JSON.stringify(store.all()), before);
 });
