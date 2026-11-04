@@ -25,8 +25,8 @@ const languageCheck=(x,language)=>matchProgramme(x,{...profile,language}).checks
 
 test('FHM batch adds eight existing identities, six independent language snapshots and twenty-six exact choices',()=>{
  assert.equal(obs.programmeIds.length,8);assert.equal(obs.directoryRows.length,12);assert.equal(obs.applicantContextPlan.length,13);assert.equal(choices().length,26);assert.equal(obs.counts.newParentStudyOptions,9);assert.equal(obs.counts.newRouteStudyOptions,7);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,392);assert.equal(store.quality().universities,14);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
- assert.deepEqual(routeSummary(routes),{groups:23,routes:53,pageChecked:53,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:271,categories:546,peerReviewed:0});
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,401);assert.equal(store.quality().universities,14);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
+ assert.deepEqual(routeSummary(routes),{groups:27,routes:61,pageChecked:61,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:288,categories:580,peerReviewed:0});
  for(const id of obs.programmeIds){const x=store.get(id);assert.equal(x.lastChecked,'2026-11-04');assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.rules.some(r=>r.kind==='gpa'||r.kind==='experience'),false);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(p=>p.id===id))),false);}
  assert.equal(p(1).lastChecked,'2026-10-30');assert.equal(p(44).lastChecked,'2026-10-25');
 });
@@ -113,15 +113,15 @@ test('HTTP success, redirects, one retained 500 and same-day source reuse are no
 });
 
 test('latest backlog retains 38 unread EdUHK leads, complete-zero status and unchanged core results',()=>{
- const b=loadSchoolBacklog('2026-11-04'),s=b.schools.find(x=>x.schoolId==='HK-EDUHK');assert.equal(s.catalogueRecords,59);assert.equal(s.pageCheckedRecords,21);assert.equal(s.unreadLeads,38);assert.equal(s.completeRecords,0);assert.equal(b.counts.pageCheckedRecords,392);assert.equal(b.counts.catalogueLeads,481);assert.equal(b.counts.unreadLeads,466);
- assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-eduhk-fhm.json'));assert.equal(formatSchoolBacklog(b),readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-eduhk-fhm.md',root),'utf8').replaceAll('\r\n','\n'));
- const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,716);assert.equal(q.counts.nearCutoffUnits,7);assert.equal(q.counts.staleApplicantContexts,0);assert.equal(batch.pilotProgrammeIds.length,20);
+ const b=loadSchoolBacklog('2026-11-04'),s=b.schools.find(x=>x.schoolId==='HK-EDUHK');assert.equal(s.catalogueRecords,59);assert.equal(s.pageCheckedRecords,30);assert.equal(s.unreadLeads,29);assert.equal(s.completeRecords,0);assert.equal(b.counts.pageCheckedRecords,401);assert.equal(b.counts.catalogueLeads,472);assert.equal(b.counts.unreadLeads,457);
+ assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-eduhk-flass.json'));assert.equal(formatSchoolBacklog(b),readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-eduhk-flass.md',root),'utf8').replaceAll('\r\n','\n'));
+ const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,750);assert.equal(q.counts.nearCutoffUnits,7);assert.equal(q.counts.staleApplicantContexts,0);assert.equal(batch.pilotProgrammeIds.length,20);
  for(const plan of obs.applicantContextPlan){const r=plan.routeId?routes.get(plan.programmeId).find(r=>r.routeId===plan.routeId):store.get(plan.programmeId),o=r.offerings.find(o=>o.id===plan.offeringId),binding=[...contexts.values()].find(c=>c.offeringId===o.id);assert.equal(binding.offeringFingerprint,offeringFingerprint(o));assert.equal(binding.intake,'September 2027');}
 });
 
 test('isolated repeated imports preserve every earlier parent and reload exact alias/language/category bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-eduhk-fhm-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,392);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const rs=loadRoutes(routePath,db.all());assert.equal(rs.size,23);assert.equal(loadApplicantContexts(contextPath,db.all(),rs).size,271);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,401);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const rs=loadRoutes(routePath,db.all());assert.equal(rs.size,27);assert.equal(loadApplicantContexts(contextPath,db.all(),rs).size,288);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
 });
 

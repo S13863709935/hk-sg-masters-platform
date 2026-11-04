@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-31",
-  "description": "Non-admission directory evidence. Existing titles, rules, reviews and offering values remain untouched.",
+  "checkedOn": "2026-11-04",
+  "description": "Versioned programme identity and explicit route/condition links. Admissions values remain in independently sourced programme snapshots.",
   "listings": [
     {
       "programmeId": "SG-NUS-P035",
@@ -2920,8 +2920,8 @@
     {
       "programmeId": "HK-EDUHK-P034",
       "nameEn": "Master of Arts in STEM Education",
-      "checkedOn": "2026-10-20",
-      "sourceUrl": "https://gs.eduhk.hk/pg-programmes/programme-information.html",
+      "checkedOn": "2026-11-04",
+      "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
       "programmeUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
       "variants": [
         {
@@ -2930,10 +2930,10 @@
         },
         {
           "nameEn": "Master of Arts in STEM Education — Chinese (mainly Putonghua)",
-          "officialUrl": "https://ses.eduhk.hk/en/programmes/master-arts-stem-education-medium-instruction-chinese-mainly-putonghua"
+          "officialUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi"
         }
       ],
-      "noteEn": "Language versions grouped conservatively, not separate awards or interchangeable admissions criteria. Verify the selected language route. A Chinese-medium marker is not an English-test waiver. Directory presence does not prove applications are open."
+      "noteEn": "Current Chinese STEM page directly linked from the official English STEM page resolves at /sc/programmes/mastemedcmi. The old October URL loops; retain it in historical inventory/retrieval evidence. Language versions remain separate; a Chinese-medium marker is not an English-test waiver."
     },
     {
       "programmeId": "HK-EDUHK-P035",
@@ -3190,11 +3190,20 @@
     {
       "programmeId": "HK-EDUHK-P057",
       "nameEn": "Master of Social Sciences in Sports Coaching and Management",
-      "checkedOn": "2026-10-20",
-      "sourceUrl": "https://gs.eduhk.hk/pg-programmes/programme-information.html",
+      "checkedOn": "2026-11-04",
+      "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
       "programmeUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
-      "variants": [],
-      "noteEn": "Official taught directory lead only; admissions, delivery, applicable year, fees and dates remain unreviewed. A Chinese-medium marker is not an English-test waiver. Directory presence does not prove applications are open."
+      "variants": [
+        {
+          "nameEn": "Master of Social Sciences in Sports Coaching and Management — Standard English requirements",
+          "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/"
+        },
+        {
+          "nameEn": "Master of Social Sciences in Sports Coaching and Management — Regional/national elite-athlete consideration",
+          "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/"
+        }
+      ],
+      "noteEn": "Two platform CONDITION VIEWS of ONE degree, not university-named specialisations or extra awards. The official page distinguishes standard English assessment and a quota-limited regional/national elite-athlete exception with interview and self-funded English enhancement. A Chinese-medium marker is not an English-test waiver; this programme is English-medium."
     },
     {
       "programmeId": "HK-EDUHK-P058",

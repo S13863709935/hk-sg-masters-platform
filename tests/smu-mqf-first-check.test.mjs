@@ -105,7 +105,7 @@ test('MQF migration appends partial evidence idempotently without altering other
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(pid).verification, 'programme_page_checked');
       assert.deepEqual(db.all().filter(x => x.id !== pid), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      assert.equal(db.quality().checked, 392); db.close(); db = null;
+      assert.equal(db.quality().checked, 401); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -113,6 +113,12 @@ test('MQF migration appends partial evidence idempotently without altering other
 test('older school rebuilds preserve a newer unrelated MQF listing and batch date, but refuse newer target records and inconsistent metadata', () => {
   for (const [school, name, build] of [['HK-CITYU', 'cityu', buildCityuInventory], ['HK-EDUHK', 'eduhk', buildEduhkInventory], ['HK-HKUST', 'hkust', buildHkustInventory], ['HK-HKU', 'hku', buildHkuInventory], ['HK-POLYU', 'polyu', buildPolyuInventory]]) {
     const input = { observation: read(`data/research/${name}-directory-observation-2026-10-20.json`), seed: read('data/catalogue.json'), checked: batch, expansion: read('data/catalogue-expansion.json'), links: read('data/directory-links.json'), audit: read('data/directory-audit.json') };
+    // Replay this October MQF scenario against the exact pre-FLASS identities;
+    // current EdUHK identities have their own newer-source refusal tests.
+    const reconciliation = read('data/research/eduhk-flass-directory-reconciliation-2026-11-04.json');
+    for (const change of reconciliation.changes) input.links.listings[input.links.listings.findIndex(l => l.programmeId === change.programmeId)] = structuredClone(change.before);
+    input.links.checkedOn = reconciliation.beforeBatchCheckedOn;
+    input.links.description = reconciliation.beforeDescription;
     if (school === 'HK-HKUST') {
       assert.throws(() => build(input), /newer HKUST listings/);
       input.links.listings = input.links.listings.filter(l => !l.programmeId.startsWith(school + '-'));
@@ -156,10 +162,10 @@ test('actual APIs retain selected track in matching, saved restoration and expor
 
 test('programme, route and maintenance-unit counts stay distinct with zero independent review', async () => {
   const meta = await get('/api/meta'), queue = loadRepositoryReviewQueue('2026-10-28');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 392);
-  assert.deepEqual(meta.routeEvidence, { groups: 23, routes: 53, pageChecked: 53, peerReviewed: 0, complete: 0 });
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 401);
+  assert.deepEqual(meta.routeEvidence, { groups: 27, routes: 61, pageChecked: 61, peerReviewed: 0, complete: 0 });
   assert.deepEqual(routeSummary(routes), meta.routeEvidence); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
-  assert.deepEqual(meta.quality.sourceRefreshConflicts, []); assert.equal(queue.counts.programmePageRecords, 392);
-  assert.equal(queue.counts.routeRecords, 53); assert.equal(queue.counts.reviewUnits, 716); assert.equal(queue.counts.nearCutoffUnits, 2);
+  assert.deepEqual(meta.quality.sourceRefreshConflicts, []); assert.equal(queue.counts.programmePageRecords, 401);
+  assert.equal(queue.counts.routeRecords, 61); assert.equal(queue.counts.reviewUnits, 750); assert.equal(queue.counts.nearCutoffUnits, 2);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.filter(u => u.programmeId === pid).length, 3);
 });

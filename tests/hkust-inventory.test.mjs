@@ -78,7 +78,7 @@ test('directory attachment preserves the independently checked programme cohort,
     assert.ok(current.officialUrl.includes('/2027-28/'));
     assert.equal(current.officialUrl, original.officialUrl); assert.deepEqual(current.sources, original.sources);
     assert.match(current.directoryListing.noteEn, /does not refresh older-cycle/);
-    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 865); assert.equal(q.checked, 392); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.transferOnly, 1); assert.deepEqual(q.sourceRefreshConflicts, []);
+    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 865); assert.equal(q.checked, 401); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.equal(q.transferOnly, 1); assert.deepEqual(q.sourceRefreshConflicts, []);
   } finally { db.close(); }
 });
 
@@ -105,8 +105,17 @@ test('all three Oct-20 builders preserve unrelated observations and stay idempot
   assert.deepEqual(output.links.listings.filter(l => !l.programmeId.startsWith('HK-HKUST-')), data.links.listings.filter(l => !l.programmeId.startsWith('HK-HKUST-')));
   for (const key of ['expansion', 'audit']) assert.deepEqual(output[key], data[key]);
   for (const [build, file] of [[buildEduhkInventory, 'eduhk'], [buildCityuInventory, 'cityu']]) {
-    const other = build({ ...input(), observation: read(`data/research/${file}-directory-observation-2026-10-20.json`) });
-    for (const key of ['expansion', 'links', 'audit']) assert.deepEqual(other[key], data[key]);
+    const replay = { ...input(), observation: read(`data/research/${file}-directory-observation-2026-10-20.json`) };
+    if (file === 'eduhk') {
+      assert.throws(() => build(replay), /newer EdUHK listings/);
+      const reconciliation = read('data/research/eduhk-flass-directory-reconciliation-2026-11-04.json');
+      for (const change of reconciliation.changes) replay.links.listings[replay.links.listings.findIndex(l => l.programmeId === change.programmeId)] = structuredClone(change.before);
+      replay.links.checkedOn = reconciliation.beforeBatchCheckedOn;
+      replay.links.description = reconciliation.beforeDescription;
+    }
+    const beforeReplay = structuredClone(replay), other = build(replay);
+    assert.deepEqual(replay, beforeReplay);
+    for (const key of ['expansion', 'links', 'audit']) assert.deepEqual(other[key], beforeReplay[key]);
   }
 });
 

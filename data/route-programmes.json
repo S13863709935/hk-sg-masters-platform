@@ -10278,6 +10278,1460 @@
           "routeId": "HK-EDUHK-P022-ROUTE-ZH"
         }
       ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P019",
+      "routes": [
+        {
+          "name": "Master of Arts in Education for Sustainability — English",
+          "award": "Master",
+          "area": "Education",
+          "faculty": "Faculty of Liberal Arts and Social Sciences",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted selected official-source reading; approval, language, exception and independent-review limits remain explicit",
+          "lastChecked": "2026-11-04",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and same-day central-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Recognised bachelor or assessed equivalent; the programme FAQ explicitly welcomes ANY undergraduate discipline. Current headline confirms one-year full-time. The English page still prints a C2 part-time code without confirming a current part-time intake, so no verified PT option is inferred from the code alone. English and Chinese programmes have different curriculum/language evidence. Optional thesis/field-visit choices do not reclassify the taught degree; post-entry award ranking is not entry GPA.",
+          "offerings": [
+            {
+              "id": "HK-EDUHK-P019-EN-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+                "checkedOn": "2026-11-04"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "noteEn": "Recognised bachelor or assessed equivalent; the programme FAQ explicitly welcomes ANY undergraduate discipline. Current headline confirms one-year full-time. The English page still prints a C2 part-time code without confirming a current part-time intake, so no verified PT option is inferred from the code alone. English and Chinese programmes have different curriculum/language evidence. Optional thesis/field-visit choices do not reclassify the taught degree; post-entry award ranking is not entry GPA."
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Published broad undergraduate backgrounds",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "accepted": [],
+              "any": true,
+              "relatedAllowed": false
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Recorded standard English thresholds",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false,
+              "testDateNotBefore": "2025-01-01",
+              "testDateSourceUrl": "https://ses.eduhk.hk/en/programmes/maefs"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English alternatives, applicability and validity",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "noteEn": "For entrance qualifications from a non-English-speaking system: IELTS Academic 6, old TOEFL 80 BEFORE 21 January 2026 or new TOEFL 4 FROM that date, CET-6 430, GCSE/GCE O-Level C or assessed equivalent. Test-centre results and two-year validity prose apply; no automatic degree/country waiver. TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are rejected. The explicit 2027/28 test-date example is on/after 1 January 2025; no rolling expiry is calculated from today."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and condition applicability",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "noteEn": "October 2026 central checklist distinguishes final-year/graduate/qualification-location documents, applicable language evidence, conditional CHSI/CSCSE/HKCAAVQ and certified English translation. Original documents are normally not required at application; official direct transmission may be requested before offer confirmation/registration. The platform collects no private documents. No programme-specific mandatory referee count or numeric statement length was established in the selected source; further application-system requests remain manual."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "noteEn": "Central 2027 prospectus page 5 and current programme panels identify the prospective 2027/28 degree/language. Approval-pending entries remain explicitly proposed."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "noteEn": "Recognised bachelor or assessed equivalent; the programme FAQ explicitly welcomes ANY undergraduate discipline. Current headline confirms one-year full-time. The English page still prints a C2 part-time code without confirming a current part-time intake, so no verified PT option is inferred from the code alone. English and Chinese programmes have different curriculum/language evidence. Optional thesis/field-visit choices do not reclassify the taught degree; post-entry award ranking is not entry GPA."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "noteEn": "No numeric undergraduate-entry GPA established. Post-entry ranking, award, transfer or professional requirements are not admission GPA minima."
+            },
+            "language": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "noteEn": "For entrance qualifications from a non-English-speaking system: IELTS Academic 6, old TOEFL 80 BEFORE 21 January 2026 or new TOEFL 4 FROM that date, CET-6 430, GCSE/GCE O-Level C or assessed equivalent. Test-centre results and two-year validity prose apply; no automatic degree/country waiver. TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are rejected. The explicit 2027/28 test-date example is on/after 1 January 2025; no rolling expiry is calculated from today."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "noteEn": "Select exact mode/category. Explicit 2027/28 whole-programme tuition HKD 184,800; stated adjustments and extra costs remain separate."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "noteEn": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+              "noteEn": "AI-assisted partial selected source reading only; no complete eligibility or independent human/professional-recognition review."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://ses.eduhk.hk/en/programmes/maefs",
+              "checkedOn": "2026-11-04",
+              "purpose": "Exact current programme/language/condition page: entry, mode, fees, documents, approval and academic/professional alternatives"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day 2027 central prospectus, physical page 5, FLASS identities; pending-approval markers retained"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 application rounds/categories; not a programme-approval or live-open statement"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 entrance/test-date example"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/application/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central taught-master application 400/500"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 conditional academic-document checklist"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 maths/elite-athlete additional documents"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day official general equivalence/translation and teacher-qualification boundaries"
+            }
+          ],
+          "routeId": "HK-EDUHK-P019-ROUTE-EN"
+        },
+        {
+          "name": "Master of Arts in Education for Sustainability — Chinese (mainly Putonghua)",
+          "award": "Master",
+          "area": "Education",
+          "faculty": "Faculty of Liberal Arts and Social Sciences",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted selected official-source reading; approval, language, exception and independent-review limits remain explicit",
+          "lastChecked": "2026-11-04",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and same-day central-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Recognised bachelor or assessed equivalent; the programme FAQ explicitly welcomes ANY undergraduate discipline. Current headline confirms one-year full-time. The English page still prints a C2 part-time code without confirming a current part-time intake, so no verified PT option is inferred from the code alone. English and Chinese programmes have different curriculum/language evidence. Optional thesis/field-visit choices do not reclassify the taught degree; post-entry award ranking is not entry GPA.",
+          "offerings": [
+            {
+              "id": "HK-EDUHK-P019-ZH-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+                "checkedOn": "2026-11-04"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "noteEn": "Recognised bachelor or assessed equivalent; the programme FAQ explicitly welcomes ANY undergraduate discipline. Current headline confirms one-year full-time. The English page still prints a C2 part-time code without confirming a current part-time intake, so no verified PT option is inferred from the code alone. English and Chinese programmes have different curriculum/language evidence. Optional thesis/field-visit choices do not reclassify the taught degree; post-entry award ranking is not entry GPA."
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Published broad undergraduate backgrounds",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "accepted": [],
+              "any": true,
+              "relatedAllowed": false
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Chinese instruction and language evidence",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "noteEn": "Chinese/mainly Putonghua instruction. No numeric Chinese-proof or English-test floor established on the selected programme page; applicability remains manual, not an automatic English waiver."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and condition applicability",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "noteEn": "October 2026 central checklist distinguishes final-year/graduate/qualification-location documents, applicable language evidence, conditional CHSI/CSCSE/HKCAAVQ and certified English translation. Original documents are normally not required at application; official direct transmission may be requested before offer confirmation/registration. The platform collects no private documents. No programme-specific mandatory referee count or numeric statement length was established in the selected source; further application-system requests remain manual."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "noteEn": "Central 2027 prospectus page 5 and current programme panels identify the prospective 2027/28 degree/language. Approval-pending entries remain explicitly proposed."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "noteEn": "Recognised bachelor or assessed equivalent; the programme FAQ explicitly welcomes ANY undergraduate discipline. Current headline confirms one-year full-time. The English page still prints a C2 part-time code without confirming a current part-time intake, so no verified PT option is inferred from the code alone. English and Chinese programmes have different curriculum/language evidence. Optional thesis/field-visit choices do not reclassify the taught degree; post-entry award ranking is not entry GPA."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "noteEn": "No numeric undergraduate-entry GPA established. Post-entry ranking, award, transfer or professional requirements are not admission GPA minima."
+            },
+            "language": {
+              "status": "unknown",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "noteEn": "Chinese/mainly Putonghua instruction. No numeric Chinese-proof or English-test floor established on the selected programme page; applicability remains manual, not an automatic English waiver."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "noteEn": "Select exact mode/category. Explicit 2027/28 whole-programme tuition HKD 184,800; stated adjustments and extra costs remain separate."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "noteEn": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "noteEn": "AI-assisted partial selected source reading only; no complete eligibility or independent human/professional-recognition review."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://ses.eduhk.hk/en/programmes/maefscmi",
+              "checkedOn": "2026-11-04",
+              "purpose": "Exact current programme/language/condition page: entry, mode, fees, documents, approval and academic/professional alternatives"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day 2027 central prospectus, physical page 5, FLASS identities; pending-approval markers retained"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 application rounds/categories; not a programme-approval or live-open statement"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 entrance/test-date example"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/application/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central taught-master application 400/500"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 conditional academic-document checklist"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 maths/elite-athlete additional documents"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day official general equivalence/translation and teacher-qualification boundaries"
+            }
+          ],
+          "routeId": "HK-EDUHK-P019-ROUTE-ZH"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P034",
+      "routes": [
+        {
+          "name": "Master of Arts in STEM Education — English",
+          "award": "Master",
+          "area": "Education",
+          "faculty": "Faculty of Liberal Arts and Social Sciences",
+          "officialUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted selected official-source reading; approval, language, exception and independent-review limits remain explicit",
+          "lastChecked": "2026-11-04",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and same-day central-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Recognised bachelor/equivalent; the programme FAQ welcomes ANY discipline. Current headline confirms one-year FT; the English C2 code alone is not current PT-intake confirmation. English curriculum lists six core/two electives; Chinese lists seven core/one research-project-or-internship elective. These are separately sourced language versions of one taught degree. Internship/research options do not confer Hong Kong teacher qualification or create a research-master award.",
+          "offerings": [
+            {
+              "id": "HK-EDUHK-P034-EN-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+                "checkedOn": "2026-11-04"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "noteEn": "Recognised bachelor/equivalent; the programme FAQ welcomes ANY discipline. Current headline confirms one-year FT; the English C2 code alone is not current PT-intake confirmation. English curriculum lists six core/two electives; Chinese lists seven core/one research-project-or-internship elective. These are separately sourced language versions of one taught degree. Internship/research options do not confer Hong Kong teacher qualification or create a research-master award."
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Published broad undergraduate backgrounds",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "accepted": [],
+              "any": true,
+              "relatedAllowed": false
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Recorded standard English thresholds",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false,
+              "testDateNotBefore": "2025-01-01",
+              "testDateSourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English alternatives, applicability and validity",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "noteEn": "For entrance qualifications from a non-English-speaking system: IELTS Academic 6, old TOEFL 80 BEFORE 21 January 2026 or new TOEFL 4 FROM that date, CET-6 430, GCSE/GCE O-Level C or assessed equivalent. Test-centre results and two-year validity prose apply; no automatic degree/country waiver. TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are rejected. The explicit 2027/28 test-date example is on/after 1 January 2025; no rolling expiry is calculated from today."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and condition applicability",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "noteEn": "October 2026 central checklist distinguishes final-year/graduate/qualification-location documents, applicable language evidence, conditional CHSI/CSCSE/HKCAAVQ and certified English translation. Original documents are normally not required at application; official direct transmission may be requested before offer confirmation/registration. The platform collects no private documents. No programme-specific mandatory referee count or numeric statement length was established in the selected source; further application-system requests remain manual."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "noteEn": "Central 2027 prospectus page 5 and current programme panels identify the prospective 2027/28 degree/language. Approval-pending entries remain explicitly proposed."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "noteEn": "Recognised bachelor/equivalent; the programme FAQ welcomes ANY discipline. Current headline confirms one-year FT; the English C2 code alone is not current PT-intake confirmation. English curriculum lists six core/two electives; Chinese lists seven core/one research-project-or-internship elective. These are separately sourced language versions of one taught degree. Internship/research options do not confer Hong Kong teacher qualification or create a research-master award."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "noteEn": "No numeric undergraduate-entry GPA established. Post-entry ranking, award, transfer or professional requirements are not admission GPA minima."
+            },
+            "language": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "noteEn": "For entrance qualifications from a non-English-speaking system: IELTS Academic 6, old TOEFL 80 BEFORE 21 January 2026 or new TOEFL 4 FROM that date, CET-6 430, GCSE/GCE O-Level C or assessed equivalent. Test-centre results and two-year validity prose apply; no automatic degree/country waiver. TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are rejected. The explicit 2027/28 test-date example is on/after 1 January 2025; no rolling expiry is calculated from today."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "noteEn": "Select exact mode/category. Explicit 2027/28 whole-programme tuition HKD 184,800; stated adjustments and extra costs remain separate."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "noteEn": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "noteEn": "AI-assisted partial selected source reading only; no complete eligibility or independent human/professional-recognition review."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://ses.eduhk.hk/en/programmes/stem_ed",
+              "checkedOn": "2026-11-04",
+              "purpose": "Exact current programme/language/condition page: entry, mode, fees, documents, approval and academic/professional alternatives"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day 2027 central prospectus, physical page 5, FLASS identities; pending-approval markers retained"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 application rounds/categories; not a programme-approval or live-open statement"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 entrance/test-date example"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/application/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central taught-master application 400/500"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 conditional academic-document checklist"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 maths/elite-athlete additional documents"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day official general equivalence/translation and teacher-qualification boundaries"
+            }
+          ],
+          "routeId": "HK-EDUHK-P034-ROUTE-EN"
+        },
+        {
+          "name": "Master of Arts in STEM Education — Chinese (mainly Putonghua)",
+          "award": "Master",
+          "area": "Education",
+          "faculty": "Faculty of Liberal Arts and Social Sciences",
+          "officialUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted selected official-source reading; approval, language, exception and independent-review limits remain explicit",
+          "lastChecked": "2026-11-04",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and same-day central-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Recognised bachelor/equivalent; the programme FAQ welcomes ANY discipline. Current headline confirms one-year FT; the English C2 code alone is not current PT-intake confirmation. English curriculum lists six core/two electives; Chinese lists seven core/one research-project-or-internship elective. These are separately sourced language versions of one taught degree. Internship/research options do not confer Hong Kong teacher qualification or create a research-master award.",
+          "offerings": [
+            {
+              "id": "HK-EDUHK-P034-ZH-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+                "checkedOn": "2026-11-04"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "noteEn": "Recognised bachelor/equivalent; the programme FAQ welcomes ANY discipline. Current headline confirms one-year FT; the English C2 code alone is not current PT-intake confirmation. English curriculum lists six core/two electives; Chinese lists seven core/one research-project-or-internship elective. These are separately sourced language versions of one taught degree. Internship/research options do not confer Hong Kong teacher qualification or create a research-master award."
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Published broad undergraduate backgrounds",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "accepted": [],
+              "any": true,
+              "relatedAllowed": false
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Chinese instruction and language evidence",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "noteEn": "Chinese/mainly Putonghua instruction. No numeric Chinese-proof or English-test floor established on the selected programme page; applicability remains manual, not an automatic English waiver."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and condition applicability",
+              "mandatory": true,
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "noteEn": "October 2026 central checklist distinguishes final-year/graduate/qualification-location documents, applicable language evidence, conditional CHSI/CSCSE/HKCAAVQ and certified English translation. Original documents are normally not required at application; official direct transmission may be requested before offer confirmation/registration. The platform collects no private documents. No programme-specific mandatory referee count or numeric statement length was established in the selected source; further application-system requests remain manual."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "noteEn": "Central 2027 prospectus page 5 and current programme panels identify the prospective 2027/28 degree/language. Approval-pending entries remain explicitly proposed."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "noteEn": "Recognised bachelor/equivalent; the programme FAQ welcomes ANY discipline. Current headline confirms one-year FT; the English C2 code alone is not current PT-intake confirmation. English curriculum lists six core/two electives; Chinese lists seven core/one research-project-or-internship elective. These are separately sourced language versions of one taught degree. Internship/research options do not confer Hong Kong teacher qualification or create a research-master award."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "noteEn": "No numeric undergraduate-entry GPA established. Post-entry ranking, award, transfer or professional requirements are not admission GPA minima."
+            },
+            "language": {
+              "status": "unknown",
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "noteEn": "Chinese/mainly Putonghua instruction. No numeric Chinese-proof or English-test floor established on the selected programme page; applicability remains manual, not an automatic English waiver."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "noteEn": "Select exact mode/category. Explicit 2027/28 whole-programme tuition HKD 184,800; stated adjustments and extra costs remain separate."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "noteEn": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "noteEn": "AI-assisted partial selected source reading only; no complete eligibility or independent human/professional-recognition review."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+              "checkedOn": "2026-11-04",
+              "purpose": "Exact current programme/language/condition page: entry, mode, fees, documents, approval and academic/professional alternatives"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day 2027 central prospectus, physical page 5, FLASS identities; pending-approval markers retained"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 application rounds/categories; not a programme-approval or live-open statement"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 entrance/test-date example"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/application/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central taught-master application 400/500"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 conditional academic-document checklist"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 maths/elite-athlete additional documents"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day official general equivalence/translation and teacher-qualification boundaries"
+            }
+          ],
+          "routeId": "HK-EDUHK-P034-ROUTE-ZH"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P045",
+      "routes": [
+        {
+          "name": "Master of Science in Artificial Intelligence and Educational Technology — English",
+          "award": "Master",
+          "area": "Computing",
+          "faculty": "Faculty of Liberal Arts and Social Sciences",
+          "officialUrl": "https://www.eduhk.hk/mit/en/mscait",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted selected official-source reading; approval, language, exception and independent-review limits remain explicit",
+          "lastChecked": "2026-11-04",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and same-day central-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Recognised bachelor in educational technology, statistics, computer science, engineering-related disciplines OR assessed equivalent. PRIOR PROGRAMMING KNOWLEDGE AND SKILLS are REQUIRED in BOTH language versions, not just preferred and not automatically proved by a broad major label. Each is one-year FT. Chinese version additionally requires high spoken/written Chinese, with conditional HSK 6/equivalence; English requirements must not be copied into Chinese.",
+          "offerings": [
+            {
+              "id": "HK-EDUHK-P045-EN-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+                "checkedOn": "2026-11-04"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "Recognised bachelor in educational technology, statistics, computer science, engineering-related disciplines OR assessed equivalent. PRIOR PROGRAMMING KNOWLEDGE AND SKILLS are REQUIRED in BOTH language versions, not just preferred and not automatically proved by a broad major label. Each is one-year FT. Chinese version additionally requires high spoken/written Chinese, with conditional HSK 6/equivalence; English requirements must not be copied into Chinese."
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Listed technical discipline or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "accepted": [
+                "Educational Technology",
+                "Statistics",
+                "Computer Science",
+                "Engineering"
+              ],
+              "any": false,
+              "relatedAllowed": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Required prior programming knowledge and skills",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "BOTH language versions require PRIOR programming knowledge and skills. This is not merely a preference, and no named major or self-reported GPA automatically proves it. The university must assess evidence."
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Recorded standard English thresholds",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false,
+              "testDateNotBefore": "2025-01-01",
+              "testDateSourceUrl": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English alternatives, applicability and validity",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "For entrance qualifications from a non-English-speaking system: IELTS Academic 6, old TOEFL 80 BEFORE 21 January 2026 or new TOEFL 4 FROM that date, CET-6 430, GCSE/GCE O-Level C or assessed equivalent. Test-centre results and two-year validity prose apply; no automatic degree/country waiver. TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are rejected. The explicit 2027/28 test-date example is on/after 1 January 2025; no rolling expiry is calculated from today. This programme states two-year validity without its own fixed-date example;1 January 2025 is attributed to the SAME-DAY CENTRAL 2027/28 entrance page."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and condition applicability",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "October 2026 central checklist distinguishes final-year/graduate/qualification-location documents, applicable language evidence, conditional CHSI/CSCSE/HKCAAVQ and certified English translation. Original documents are normally not required at application; official direct transmission may be requested before offer confirmation/registration. The platform collects no private documents. Evidence of required prior programming skills must be assessed; a self-reported major is not a skills certificate. Chinese HSK/equivalence applicability is separate from English evidence."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "noteEn": "Central 2027 prospectus page 5 and current programme panels identify the prospective 2027/28 degree/language. Approval-pending entries remain explicitly proposed."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "Recognised bachelor in educational technology, statistics, computer science, engineering-related disciplines OR assessed equivalent. PRIOR PROGRAMMING KNOWLEDGE AND SKILLS are REQUIRED in BOTH language versions, not just preferred and not automatically proved by a broad major label. Each is one-year FT. Chinese version additionally requires high spoken/written Chinese, with conditional HSK 6/equivalence; English requirements must not be copied into Chinese."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "No numeric undergraduate-entry GPA established. Post-entry ranking, award, transfer or professional requirements are not admission GPA minima."
+            },
+            "language": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "For entrance qualifications from a non-English-speaking system: IELTS Academic 6, old TOEFL 80 BEFORE 21 January 2026 or new TOEFL 4 FROM that date, CET-6 430, GCSE/GCE O-Level C or assessed equivalent. Test-centre results and two-year validity prose apply; no automatic degree/country waiver. TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are rejected. The explicit 2027/28 test-date example is on/after 1 January 2025; no rolling expiry is calculated from today. This programme states two-year validity without its own fixed-date example;1 January 2025 is attributed to the SAME-DAY CENTRAL 2027/28 entrance page."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "Select exact mode/category. Explicit 2027/28 whole-programme tuition HKD 230,500; stated adjustments and extra costs remain separate."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "noteEn": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+              "noteEn": "AI-assisted partial selected source reading only; no complete eligibility or independent human/professional-recognition review."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://www.eduhk.hk/mit/en/mscait",
+              "checkedOn": "2026-11-04",
+              "purpose": "Exact current programme/language/condition page: entry, mode, fees, documents, approval and academic/professional alternatives"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day 2027 central prospectus, physical page 5, FLASS identities; pending-approval markers retained"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 application rounds/categories; not a programme-approval or live-open statement"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 entrance/test-date example"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/application/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central taught-master application 400/500"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 conditional academic-document checklist"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 maths/elite-athlete additional documents"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day official general equivalence/translation and teacher-qualification boundaries"
+            }
+          ],
+          "routeId": "HK-EDUHK-P045-ROUTE-EN"
+        },
+        {
+          "name": "Master of Science in Artificial Intelligence and Educational Technology — Chinese (mainly Putonghua)",
+          "award": "Master",
+          "area": "Computing",
+          "faculty": "Faculty of Liberal Arts and Social Sciences",
+          "officialUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted selected official-source reading; approval, language, exception and independent-review limits remain explicit",
+          "lastChecked": "2026-11-04",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and same-day central-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "Recognised bachelor in educational technology, statistics, computer science, engineering-related disciplines OR assessed equivalent. PRIOR PROGRAMMING KNOWLEDGE AND SKILLS are REQUIRED in BOTH language versions, not just preferred and not automatically proved by a broad major label. Each is one-year FT. Chinese version additionally requires high spoken/written Chinese, with conditional HSK 6/equivalence; English requirements must not be copied into Chinese.",
+          "offerings": [
+            {
+              "id": "HK-EDUHK-P045-ZH-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+                "checkedOn": "2026-11-04"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "Recognised bachelor in educational technology, statistics, computer science, engineering-related disciplines OR assessed equivalent. PRIOR PROGRAMMING KNOWLEDGE AND SKILLS are REQUIRED in BOTH language versions, not just preferred and not automatically proved by a broad major label. Each is one-year FT. Chinese version additionally requires high spoken/written Chinese, with conditional HSK 6/equivalence; English requirements must not be copied into Chinese."
+            },
+            {
+              "kind": "major",
+              "labelZh": "",
+              "labelEn": "Listed technical discipline or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "accepted": [
+                "Educational Technology",
+                "Statistics",
+                "Computer Science",
+                "Engineering"
+              ],
+              "any": false,
+              "relatedAllowed": true
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Required prior programming knowledge and skills",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "BOTH language versions require PRIOR programming knowledge and skills. This is not merely a preference, and no named major or self-reported GPA automatically proves it. The university must assess evidence."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Chinese instruction and language evidence",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "High spoken/written Chinese proficiency. IF BOTH native language is NOT Chinese AND no degree was Chinese-medium, HSK LEVEL 6 OR equivalent is required. This conditional test is not imposed on every applicant. Required prior programming is additional. No English threshold is copied from the separate English programme."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and condition applicability",
+              "mandatory": true,
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "October 2026 central checklist distinguishes final-year/graduate/qualification-location documents, applicable language evidence, conditional CHSI/CSCSE/HKCAAVQ and certified English translation. Original documents are normally not required at application; official direct transmission may be requested before offer confirmation/registration. The platform collects no private documents. Evidence of required prior programming skills must be assessed; a self-reported major is not a skills certificate. Chinese HSK/equivalence applicability is separate from English evidence."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "noteEn": "Central 2027 prospectus page 5 and current programme panels identify the prospective 2027/28 degree/language. Approval-pending entries remain explicitly proposed."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "Recognised bachelor in educational technology, statistics, computer science, engineering-related disciplines OR assessed equivalent. PRIOR PROGRAMMING KNOWLEDGE AND SKILLS are REQUIRED in BOTH language versions, not just preferred and not automatically proved by a broad major label. Each is one-year FT. Chinese version additionally requires high spoken/written Chinese, with conditional HSK 6/equivalence; English requirements must not be copied into Chinese."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "No numeric undergraduate-entry GPA established. Post-entry ranking, award, transfer or professional requirements are not admission GPA minima."
+            },
+            "language": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "High spoken/written Chinese proficiency. IF BOTH native language is NOT Chinese AND no degree was Chinese-medium, HSK LEVEL 6 OR equivalent is required. This conditional test is not imposed on every applicant. Required prior programming is additional. No English threshold is copied from the separate English programme."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "Select exact mode/category. Explicit 2027/28 whole-programme tuition HKD 230,500; stated adjustments and extra costs remain separate."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "noteEn": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "noteEn": "AI-assisted partial selected source reading only; no complete eligibility or independent human/professional-recognition review."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://www.eduhk.hk/mit/en/mscait_cmi",
+              "checkedOn": "2026-11-04",
+              "purpose": "Exact current programme/language/condition page: entry, mode, fees, documents, approval and academic/professional alternatives"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day 2027 central prospectus, physical page 5, FLASS identities; pending-approval markers retained"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 application rounds/categories; not a programme-approval or live-open statement"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 entrance/test-date example"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/application/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central taught-master application 400/500"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 conditional academic-document checklist"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 maths/elite-athlete additional documents"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day official general equivalence/translation and teacher-qualification boundaries"
+            }
+          ],
+          "routeId": "HK-EDUHK-P045-ROUTE-ZH"
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P057",
+      "routes": [
+        {
+          "name": "Master of Social Sciences in Sports Coaching and Management — Standard English requirements",
+          "award": "Master",
+          "area": "Social Sciences",
+          "faculty": "Faculty of Liberal Arts and Social Sciences",
+          "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted selected official-source reading; approval, language, exception and independent-review limits remain explicit",
+          "lastChecked": "2026-11-04",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and same-day central-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "ONE degree with two platform CONDITION VIEWS, not formal university specialisations: standard English requirements, or explicitly described REGIONAL/NATIONAL elite-athlete consideration. Standard academic entry is sports/closely related bachelor OR assessed local/regional/national elite-athlete bachelor/equivalent. Only REGIONAL/NATIONAL elite athletes have the stated limited-quota English exception, determined by interview plus a required additional SELF-FUNDED English enhancement course if selected. Local-elite status alone is not that exception. FT 1/PT 2; no automatic athlete classification, waiver, enhancement-course price or admission guarantee.",
+          "offerings": [
+            {
+              "id": "HK-EDUHK-P057-STANDARD-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+                "checkedOn": "2026-11-04"
+              }
+            },
+            {
+              "id": "HK-EDUHK-P057-STANDARD-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+                "checkedOn": "2026-11-04"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "ONE degree with two platform CONDITION VIEWS, not formal university specialisations: standard English requirements, or explicitly described REGIONAL/NATIONAL elite-athlete consideration. Standard academic entry is sports/closely related bachelor OR assessed local/regional/national elite-athlete bachelor/equivalent. Only REGIONAL/NATIONAL elite athletes have the stated limited-quota English exception, determined by interview plus a required additional SELF-FUNDED English enhancement course if selected. Local-elite status alone is not that exception. FT 1/PT 2; no automatic athlete classification, waiver, enhancement-course price or admission guarantee."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Athlete identity, academic alternatives and scope",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "Sports/closely related bachelor OR assessed local/regional/national elite-athlete bachelor/equivalent. Regional/national proof is required IF that exception is relied upon. Local-elite status alone does NOT activate the special English exception. These platform condition views are ONE Hong Kong taught degree, not additional university specialisations or professional licences."
+            },
+            {
+              "kind": "language",
+              "labelZh": "",
+              "labelEn": "Recorded standard English thresholds",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "tests": {
+                "ielts": {
+                  "total": 6
+                },
+                "toefl_120": {
+                  "total": 80,
+                  "validBefore": "2026-01-21"
+                },
+                "toefl_6": {
+                  "total": 4,
+                  "validFrom": "2026-01-21"
+                }
+              },
+              "singleAttempt": true,
+              "atHomeAccepted": false,
+              "testDateNotBefore": "2025-01-01",
+              "testDateSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "English alternatives, applicability and validity",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "For entrance qualifications from a non-English-speaking system: IELTS Academic 6, old TOEFL 80 BEFORE 21 January 2026 or new TOEFL 4 FROM that date, CET-6 430, GCSE/GCE O-Level C or assessed equivalent. Test-centre results and two-year validity prose apply; no automatic degree/country waiver. TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are rejected. The explicit 2027/28 test-date example is on/after 1 January 2025; no rolling expiry is calculated from today. This view applies STANDARD English assessment. The separate regional/national elite-athlete view records a possible quota/interview exception and extra course; it is not automatically applied to ordinary or local-elite applicants."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and condition applicability",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "October 2026 central checklist distinguishes final-year/graduate/qualification-location documents, applicable language evidence, conditional CHSI/CSCSE/HKCAAVQ and certified English translation. Original documents are normally not required at application; official direct transmission may be requested before offer confirmation/registration. The platform collects no private documents. Programme specifies a TWO-PAGE personal statement; a TWO-PAGE CV in ONE PDF; sports/health supporting documents in ONE PDF IF APPLICABLE; regional/national elite-athlete proof IF APPLICABLE. The CV one-PDF instruction does not mean statement and CV must be combined. Do not turn page limits into word counts. Elite consideration needs actual proof, quota/interview assessment and self-funded English enhancement, not self-certified exemption."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "noteEn": "Central 2027 prospectus page 5 and current programme panels identify the prospective 2027/28 degree/language. Approval-pending entries remain explicitly proposed."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "ONE degree with two platform CONDITION VIEWS, not formal university specialisations: standard English requirements, or explicitly described REGIONAL/NATIONAL elite-athlete consideration. Standard academic entry is sports/closely related bachelor OR assessed local/regional/national elite-athlete bachelor/equivalent. Only REGIONAL/NATIONAL elite athletes have the stated limited-quota English exception, determined by interview plus a required additional SELF-FUNDED English enhancement course if selected. Local-elite status alone is not that exception. FT 1/PT 2; no automatic athlete classification, waiver, enhancement-course price or admission guarantee."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "No numeric undergraduate-entry GPA established. Post-entry ranking, award, transfer or professional requirements are not admission GPA minima."
+            },
+            "language": {
+              "status": "known",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "For entrance qualifications from a non-English-speaking system: IELTS Academic 6, old TOEFL 80 BEFORE 21 January 2026 or new TOEFL 4 FROM that date, CET-6 430, GCSE/GCE O-Level C or assessed equivalent. Test-centre results and two-year validity prose apply; no automatic degree/country waiver. TOEFL Home/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and National Postgraduate Entrance Examination are rejected. The explicit 2027/28 test-date example is on/after 1 January 2025; no rolling expiry is calculated from today. This view applies STANDARD English assessment. The separate regional/national elite-athlete view records a possible quota/interview exception and extra course; it is not automatically applied to ordinary or local-elite applicants."
+            },
+            "tuition": {
+              "status": "known",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "Select exact mode/category. Explicit 2027/28 whole-programme tuition HKD 184,800; stated adjustments and extra costs remain separate."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "noteEn": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "AI-assisted partial selected source reading only; no complete eligibility or independent human/professional-recognition review."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "checkedOn": "2026-11-04",
+              "purpose": "Exact current programme/language/condition page: entry, mode, fees, documents, approval and academic/professional alternatives"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day 2027 central prospectus, physical page 5, FLASS identities; pending-approval markers retained"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 application rounds/categories; not a programme-approval or live-open statement"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 entrance/test-date example"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/application/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central taught-master application 400/500"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 conditional academic-document checklist"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 maths/elite-athlete additional documents"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day official general equivalence/translation and teacher-qualification boundaries"
+            }
+          ],
+          "routeId": "HK-EDUHK-P057-ROUTE-STANDARD"
+        },
+        {
+          "name": "Master of Social Sciences in Sports Coaching and Management — Regional/national elite-athlete consideration",
+          "award": "Master",
+          "area": "Social Sciences",
+          "faculty": "Faculty of Liberal Arts and Social Sciences",
+          "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+          "verification": "programme_page_checked",
+          "requirementsCoverage": "partial",
+          "sourceStatus": "AI-assisted selected official-source reading; approval, language, exception and independent-review limits remain explicit",
+          "lastChecked": "2026-11-04",
+          "academicYear": "2027/28",
+          "admissionRoute": "direct",
+          "collector": "AI-assisted official HTML and same-day central-source reading",
+          "reviewer": null,
+          "notesZh": "",
+          "notesEn": "ONE degree with two platform CONDITION VIEWS, not formal university specialisations: standard English requirements, or explicitly described REGIONAL/NATIONAL elite-athlete consideration. Standard academic entry is sports/closely related bachelor OR assessed local/regional/national elite-athlete bachelor/equivalent. Only REGIONAL/NATIONAL elite athletes have the stated limited-quota English exception, determined by interview plus a required additional SELF-FUNDED English enhancement course if selected. Local-elite status alone is not that exception. FT 1/PT 2; no automatic athlete classification, waiver, enhancement-course price or admission guarantee.",
+          "offerings": [
+            {
+              "id": "HK-EDUHK-P057-ELITE-2027-FT",
+              "mode": "Full-time",
+              "duration": "1 year",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+                "checkedOn": "2026-11-04"
+              }
+            },
+            {
+              "id": "HK-EDUHK-P057-ELITE-2027-PT",
+              "mode": "Part-time",
+              "duration": "2 years",
+              "intake": "September 2027",
+              "academicYear": "2027/28",
+              "currency": "HKD",
+              "tuition": null,
+              "applicationFee": null,
+              "applicationOpen": null,
+              "deadline": null,
+              "feeBasis": "Choose exact language/condition view, mode and EdUHK local/non-local category; no default identity, fee or date.",
+              "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented.",
+              "feeEvidence": {
+                "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+                "checkedOn": "2026-11-04"
+              }
+            }
+          ],
+          "rules": [
+            {
+              "kind": "degree",
+              "labelZh": "",
+              "labelEn": "Recognised bachelor or assessed equivalent",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/"
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Programme academic and preparatory conditions",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "ONE degree with two platform CONDITION VIEWS, not formal university specialisations: standard English requirements, or explicitly described REGIONAL/NATIONAL elite-athlete consideration. Standard academic entry is sports/closely related bachelor OR assessed local/regional/national elite-athlete bachelor/equivalent. Only REGIONAL/NATIONAL elite athletes have the stated limited-quota English exception, determined by interview plus a required additional SELF-FUNDED English enhancement course if selected. Local-elite status alone is not that exception. FT 1/PT 2; no automatic athlete classification, waiver, enhancement-course price or admission guarantee."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Athlete identity, academic alternatives and scope",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "Sports/closely related bachelor OR assessed local/regional/national elite-athlete bachelor/equivalent. Regional/national proof is required IF that exception is relied upon. Local-elite status alone does NOT activate the special English exception. These platform condition views are ONE Hong Kong taught degree, not additional university specialisations or professional licences."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Elite English exception requires university assessment",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "The published standard benchmark is IELTS 6/old TOEFL 80/new TOEFL 4 or other listed evidence. REGIONAL/NATIONAL elite athletes BELOW the normal English requirement MAY be individually considered after interview, subject to LIMITED QUOTA. If selected they MUST complete an additional SELF-FUNDED English enhancement course during study to meet graduation requirements. No guaranteed waiver, automatic language pass/failure, local-elite exception or enhancement-course fee is inferred."
+            },
+            {
+              "kind": "manual",
+              "labelZh": "",
+              "labelEn": "Documents, referees and condition applicability",
+              "mandatory": true,
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "October 2026 central checklist distinguishes final-year/graduate/qualification-location documents, applicable language evidence, conditional CHSI/CSCSE/HKCAAVQ and certified English translation. Original documents are normally not required at application; official direct transmission may be requested before offer confirmation/registration. The platform collects no private documents. Programme specifies a TWO-PAGE personal statement; a TWO-PAGE CV in ONE PDF; sports/health supporting documents in ONE PDF IF APPLICABLE; regional/national elite-athlete proof IF APPLICABLE. The CV one-PDF instruction does not mean statement and CV must be combined. Do not turn page limits into word counts. Elite consideration needs actual proof, quota/interview assessment and self-funded English enhancement, not self-certified exemption."
+            }
+          ],
+          "fieldStatus": {
+            "academicYear": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "noteEn": "Central 2027 prospectus page 5 and current programme panels identify the prospective 2027/28 degree/language. Approval-pending entries remain explicitly proposed."
+            },
+            "major": {
+              "status": "known",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "ONE degree with two platform CONDITION VIEWS, not formal university specialisations: standard English requirements, or explicitly described REGIONAL/NATIONAL elite-athlete consideration. Standard academic entry is sports/closely related bachelor OR assessed local/regional/national elite-athlete bachelor/equivalent. Only REGIONAL/NATIONAL elite athletes have the stated limited-quota English exception, determined by interview plus a required additional SELF-FUNDED English enhancement course if selected. Local-elite status alone is not that exception. FT 1/PT 2; no automatic athlete classification, waiver, enhancement-course price or admission guarantee."
+            },
+            "gpa": {
+              "status": "not_published",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "No numeric undergraduate-entry GPA established. Post-entry ranking, award, transfer or professional requirements are not admission GPA minima."
+            },
+            "language": {
+              "status": "known",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "Two sourced condition views prevent the normal numeric threshold from incorrectly becoming a universal failure for a university-assessed regional/national elite-athlete exception."
+            },
+            "tuition": {
+              "status": "unknown",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "Select exact mode/category. Base 2027 tuition recorded, but required athlete English enhancement has unknown additional fee."
+            },
+            "deadline": {
+              "status": "known",
+              "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "noteEn": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+            },
+            "independentReview": {
+              "status": "unknown",
+              "sourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "noteEn": "AI-assisted partial selected source reading only; no complete eligibility or independent human/professional-recognition review."
+            }
+          },
+          "sources": [
+            {
+              "url": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+              "checkedOn": "2026-11-04",
+              "purpose": "Exact current programme/language/condition page: entry, mode, fees, documents, approval and academic/professional alternatives"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/EdUHK_Postgraduate_Prospectus_2027.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day 2027 central prospectus, physical page 5, FLASS identities; pending-approval markers retained"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 application rounds/categories; not a programme-approval or live-open statement"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central 2027 entrance/test-date example"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/application/index.html",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day central taught-master application 400/500"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Submission_of_Supporting_Documents.pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 conditional academic-document checklist"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/downloads/Additional_Supporting_Documents_(For_Master's_degree_programmes).pdf",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day October 2026 maths/elite-athlete additional documents"
+            },
+            {
+              "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+              "checkedOn": "2026-11-04",
+              "purpose": "Same-day official general equivalence/translation and teacher-qualification boundaries"
+            }
+          ],
+          "routeId": "HK-EDUHK-P057-ROUTE-ELITE"
+        }
+      ]
     }
   ]
 }

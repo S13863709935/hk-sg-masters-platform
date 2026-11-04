@@ -17251,6 +17251,1502 @@
           "deadlineNote": "September 2027 central TPG schedule: opens5 October 2026; early4 January 2027, main15 February 2027, final10 May 2027 non-local/31 May 2027 local. Faculty first-round4January wording is not a final cutoff; programme exceptions override the central sequence. Capacity may close earlier, no guaranteed live opening, invented later-round opening, midnight cutoff or automatic late extension."
         }
       ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P019",
+      "routeId": "HK-EDUHK-P019-ROUTE-EN",
+      "offeringId": "HK-EDUHK-P019-EN-2027-FT",
+      "offeringFingerprint": "e465c0a383f438e5c3672b5c1bbc27b0c83b9601a61fe8c3db41c0a53c15b261",
+      "officialUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ses.eduhk.hk/en/programmes/maefs",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P019-EN-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P019-EN-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P019",
+      "routeId": "HK-EDUHK-P019-ROUTE-ZH",
+      "offeringId": "HK-EDUHK-P019-ZH-2027-FT",
+      "offeringFingerprint": "2372d87e845a6f9581d77ee3bf904e72b3cee04a9304296efbd32bae4a5b91d5",
+      "officialUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ses.eduhk.hk/en/programmes/maefscmi",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P019-ZH-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P019-ZH-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P027",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P027-2027-FT",
+      "offeringFingerprint": "9c73e91d1d17da51fe55ca0e72b2a76385c8695a13b240686fa619986b383515",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mamp",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/mit/en/mamp",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P027-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 176100,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 176,100. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P027-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 176100,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 176,100. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P031",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P031-2027-FT",
+      "offeringFingerprint": "b5a511b72b1b8376fd5d7a7bad147deed957e5a7e3f8ab2874ae0f11f47c6844",
+      "officialUrl": "https://www.eduhk.hk/ssps/mapf",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/ssps/mapf",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P031-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P031-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P031",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P031-2027-PT",
+      "offeringFingerprint": "3687eede370995d32d692faad4d57ba67fffb28058da50f42e579b9a484c799e",
+      "officialUrl": "https://www.eduhk.hk/ssps/mapf",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/ssps/mapf",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P031-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P031-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P034",
+      "routeId": "HK-EDUHK-P034-ROUTE-EN",
+      "offeringId": "HK-EDUHK-P034-EN-2027-FT",
+      "offeringFingerprint": "0fdc61cf1516e52572d8b7dc0e51972a4251fa48bcc14671596207bf5e13e048",
+      "officialUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ses.eduhk.hk/en/programmes/stem_ed",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P034-EN-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P034-EN-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P034",
+      "routeId": "HK-EDUHK-P034-ROUTE-ZH",
+      "offeringId": "HK-EDUHK-P034-ZH-2027-FT",
+      "offeringFingerprint": "dd3330d76e5ef530a733b990940da7ebb911986d6b841ceb3ea7539224b318b9",
+      "officialUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://ses.eduhk.hk/sc/programmes/mastemedcmi",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P034-ZH-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P034-ZH-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P045",
+      "routeId": "HK-EDUHK-P045-ROUTE-EN",
+      "offeringId": "HK-EDUHK-P045-EN-2027-FT",
+      "offeringFingerprint": "aca7f264d3a6e16266945d2eef511eea3f48cddae066ec07cc84084a0237cf5d",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mscait",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/mit/en/mscait",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P045-EN-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 230500,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 230,500. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P045-EN-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 230500,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 230,500. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P045",
+      "routeId": "HK-EDUHK-P045-ROUTE-ZH",
+      "offeringId": "HK-EDUHK-P045-ZH-2027-FT",
+      "offeringFingerprint": "a06cd58336d576b8ee4aee4fc59082c5e5b87bf8bf7f02b3d88eafee8235c40b",
+      "officialUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/mit/en/mscait_cmi",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P045-ZH-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 230500,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 230,500. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P045-ZH-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 230500,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 230,500. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P047",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P047-2027-FT",
+      "offeringFingerprint": "1944bf8186e662c1cd3b400cfcc5d96d41d1cda7ece448fd98cd029d1e34827b",
+      "officialUrl": "https://www.eduhk.hk/ssps/mscbaft",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/ssps/mscbaft",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P047-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 231000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 231,000. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL; this is not a confirmed available-place or final payable fee. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented. APPROVAL PENDING: calendar values are provisional reference information, NOT a live-open/approved-intake claim."
+        },
+        {
+          "id": "HK-EDUHK-P047-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 231000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 231,000. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL; this is not a confirmed available-place or final payable fee. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented. APPROVAL PENDING: calendar values are provisional reference information, NOT a live-open/approved-intake claim."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P055",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P055-2027-FT",
+      "offeringFingerprint": "6bd03a40a01241b46cb6e78292d5b470feae5ddb0522159dc5fd0d6179799b2f",
+      "officialUrl": "https://www.eduhk.hk/ssps/mgbpsbri",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://www.eduhk.hk/ssps/mgbpsbri",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P055-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 180,000. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL; this is not a confirmed available-place or final payable fee. Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented. APPROVAL PENDING: calendar values are provisional reference information, NOT a live-open/approved-intake claim."
+        },
+        {
+          "id": "HK-EDUHK-P055-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 180,000. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL; this is not a confirmed available-place or final payable fee. Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented. APPROVAL PENDING: calendar values are provisional reference information, NOT a live-open/approved-intake claim."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P057",
+      "routeId": "HK-EDUHK-P057-ROUTE-STANDARD",
+      "offeringId": "HK-EDUHK-P057-STANDARD-2027-FT",
+      "offeringFingerprint": "f99bdd590447aa73d89173cc0ab43838719018a3a01f42424210ccfcd25b9c6b",
+      "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P057-STANDARD-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P057-STANDARD-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P057",
+      "routeId": "HK-EDUHK-P057-ROUTE-STANDARD",
+      "offeringId": "HK-EDUHK-P057-STANDARD-2027-PT",
+      "offeringFingerprint": "97b5eeca30dd283485a863cde34d3fac0db2c235cafa67bf74ffc5892db9ed76",
+      "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P057-STANDARD-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P057-STANDARD-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P057",
+      "routeId": "HK-EDUHK-P057-ROUTE-ELITE",
+      "offeringId": "HK-EDUHK-P057-ELITE-2027-FT",
+      "offeringFingerprint": "cde04ecd35f6ca624cb41761a3b0c3cacc247447cb1b257e6af91d6d214ca9b1",
+      "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P057-ELITE-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. If the university selects a regional/national elite athlete under the English exception, an additional SELF-FUNDED English enhancement course is REQUIRED. Its fee was not established: this numeric amount is BASE TUITION ONLY, not a complete total for that applicant. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P057-ELITE-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. If the university selects a regional/national elite athlete under the English exception, an additional SELF-FUNDED English enhancement course is REQUIRED. Its fee was not established: this numeric amount is BASE TUITION ONLY, not a complete total for that applicant. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P057",
+      "routeId": "HK-EDUHK-P057-ROUTE-ELITE",
+      "offeringId": "HK-EDUHK-P057-ELITE-2027-PT",
+      "offeringFingerprint": "5bd47bc192f16a3c57e9ab6dc09c4cdb33202c4a6dff1d142650ea4133fe51f4",
+      "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P057-ELITE-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. If the university selects a regional/national elite athlete under the English exception, an additional SELF-FUNDED English enhancement course is REQUIRED. Its fee was not established: this numeric amount is BASE TUITION ONLY, not a complete total for that applicant. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        },
+        {
+          "id": "HK-EDUHK-P057-ELITE-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 184800,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 184,800 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. If the university selects a regional/national elite athlete under the English exception, an additional SELF-FUNDED English enhancement course is REQUIRED. Its fee was not established: this numeric amount is BASE TUITION ONLY, not a complete total for that applicant. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P058",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P058-2027-FT",
+      "offeringFingerprint": "2440c94d0665b2a5e29ce22264ec1e9e8af00f6bc3b29110945c416b6cc0e309",
+      "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/",
+      "dateSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P058-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 209160,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 209,160 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented. The TPWB programme itself explicitly records the same 2027/28 local/non-local final dates."
+        },
+        {
+          "id": "HK-EDUHK-P058-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 209160,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 209,160 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented. The TPWB programme itself explicitly records the same 2027/28 local/non-local final dates."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P058",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P058-2027-PT",
+      "offeringFingerprint": "d183bc9a2fc31b6c1f1dc41ec970b45a91457885846b00462d6af484e8236cc5",
+      "officialUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/",
+      "dateSourceUrl": "https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/",
+      "noteEn": "Exact FLASS programme/language or source-defined condition view, September 2027 mode and EdUHK applicant category. Current tuition has stated approval/adjustment limits; Sports elite enhancement costs are extra and unknown. Application 400/500 and central rounds are reference evidence, not an approval/live-open or personal-category decision. No automatic athlete waiver, PT multiplier or scholarship deduction.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P058-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 209160,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — local",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 209,160 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 400 LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented. The TPWB programme itself explicitly records the same 2027/28 local/non-local final dates."
+        },
+        {
+          "id": "HK-EDUHK-P058-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 209160,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round — non-local",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 programme tuition HKD 209,160 (2027 cohort on the programme page). Retain stated adjustment conditions. Separate taught-master application fee HKD 500 NON-LOCAL. No scholarship, credit exemption, extension, travel/living or other personal costs are automatically deducted or bundled. Whole-programme price is not multiplied by the two-year PT duration. FTSS prose refers to earlier 2025/26 or 2026/27 support; no guaranteed 2027/28 award or automatic HKD 100,000 deduction is assumed.",
+          "deadlineNote": "September 2027 central TPG schedule: opens 5 October 2026; early 4 January 2027; main 15 February 2027; final 10 May 2027 non-local/31 May 2027 local. Rolling capacity may close earlier; generic late-application prose is not a guaranteed extension. No later-round opening, exact clock time or live-portal availability is invented. The TPWB programme itself explicitly records the same 2027/28 local/non-local final dates."
+        }
+      ]
     }
   ]
 }

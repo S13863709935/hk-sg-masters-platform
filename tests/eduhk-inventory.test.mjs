@@ -15,7 +15,14 @@ const read = file => JSON.parse(readFileSync(new URL(file, root), 'utf8'));
 const observation = read('data/research/eduhk-directory-observation-2026-10-20.json');
 const inventory = read('data/research/eduhk-programme-inventory-2026-10-20.json');
 const seed = read('data/catalogue.json'), expansion = read('data/catalogue-expansion.json'), checked = read('data/checked-programmes.json'), links = read('data/directory-links.json'), audit = read('data/directory-audit.json');
-const input = () => structuredClone({ observation, seed, expansion, checked, links, audit });
+const reconciliation = read('data/research/eduhk-flass-directory-reconciliation-2026-11-04.json');
+const historicalLinks = structuredClone(links);
+for (const change of reconciliation.changes) historicalLinks.listings[historicalLinks.listings.findIndex(l => l.programmeId === change.programmeId)] = structuredClone(change.before);
+historicalLinks.checkedOn = reconciliation.beforeBatchCheckedOn;
+historicalLinks.description = reconciliation.beforeDescription;
+// The October generator is replayed against its exact prior link inputs. It must
+// refuse newer official identities instead of overwriting them with an old crawl.
+const input = () => structuredClone({ observation, seed, expansion, checked, links: historicalLinks, audit });
 const options = { seed, expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root), directoryEvidencePath: new URL('data/directory-links.json', root) };
 const profile = { major: 'Computer Science', degreeStatus: 'graduated', gpa: 4, gpaScale: 4, language: { type: 'ielts', total: 9 } };
 
@@ -79,7 +86,7 @@ test('existing management and MPPM identities are preserved; 56 additions have u
 test('directory-only updates preserve checked fields and the independently dated MPPM fee context', () => {
   const db = new CatalogueStore(':memory:', options);
   try {
-    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 865); assert.equal(q.checked, 392); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
+    const q = db.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 865); assert.equal(q.checked, 401); assert.equal(q.peerReviewed, 0); assert.equal(q.complete, 0); assert.deepEqual(q.sourceRefreshConflicts, []);
     assert.equal(db.all().filter(p => p.universityId === 'HK-EDUHK').length, 59);
     for (const original of checked.programmes) { const p = db.get(original.id); assert.deepEqual(p.rules, original.rules); assert.deepEqual(p.offerings, original.offerings); assert.equal(p.lastChecked, original.lastChecked); }
     const routes = loadRoutes(new URL('data/route-programmes.json', root), db.all());
@@ -93,9 +100,16 @@ test('directory-only updates preserve checked fields and the independently dated
 test('EdUHK and CityU directory rebuilds preserve each other and stay idempotent', () => {
   const data = input(), before = JSON.stringify(data), output = buildEduhkInventory(data);
   assert.equal(JSON.stringify(data), before); assert.deepEqual(output.inventory, inventory);
-  assert.deepEqual(output.expansion, expansion); assert.deepEqual(output.links, links); assert.deepEqual(output.audit, audit);
+  assert.deepEqual(output.expansion, expansion); assert.deepEqual(output.links, historicalLinks); assert.deepEqual(output.audit, audit);
   const cityu = buildCityuInventory({ ...input(), observation: read('data/research/cityu-directory-observation-2026-10-20.json') });
-  assert.deepEqual(cityu.links, links); assert.deepEqual(cityu.expansion, expansion); assert.deepEqual(cityu.audit, audit);
+  assert.deepEqual(cityu.links, historicalLinks); assert.deepEqual(cityu.expansion, expansion); assert.deepEqual(cityu.audit, audit);
+});
+
+test('October replay rejects the later STEM-link and Sports-condition observations without modifying current evidence', () => {
+  const data = { ...input(), links: structuredClone(links) }, before = JSON.stringify(data);
+  assert.throws(() => buildEduhkInventory(data), /newer EdUHK listings/);
+  assert.equal(JSON.stringify(data), before);
+  for (const change of reconciliation.changes) assert.deepEqual(links.listings.find(l => l.programmeId === change.programmeId), change.after);
 });
 
 test('malformed rows, duplicate rows, wrong source domains and newer evidence are rejected', () => {

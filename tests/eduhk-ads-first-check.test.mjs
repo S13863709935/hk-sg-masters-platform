@@ -114,7 +114,7 @@ test('today adds a new review snapshot without rewriting yesterday or relabellin
   const current = today.units.find(x => x.kind === 'applicant_context' && x.programmeId === p.id);
   const future = yesterday.units.find(x => x.kind === 'applicant_context' && x.programmeId === p.id);
   assert.ok(current.categories.every(x => x.tuition === 227700)); assert.ok(future.categories.every(x => x.tuition === null && x.recordedCutoffs.length === 0));
-  assert.equal(today.counts.reviewUnits, 716); assert.equal(today.counts.reviewRecordedInSource, 0);
+  assert.equal(today.counts.reviewUnits, 750); assert.equal(today.counts.reviewRecordedInSource, 0);
   assert.equal(today.units.find(x => x.programmeId === 'SG-NTU-P062').sourceCheckedOn, '2026-10-24');
   assert.deepEqual(today.units.filter(x => x.upcomingRecordedCutoffs.length).map(x => x.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001']);
 });
@@ -162,7 +162,7 @@ test('first ADS source migration preserves all prior programme objects, director
       db = new CatalogueStore(path, { ...options, checkedPath });
       assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, directory);
       assert.deepEqual(db.all().filter(x => x.id !== p.id), previous); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
-      const ri = loadRoutes(routePath, db.all()); assert.deepEqual(applicantSummary(loadApplicantContexts(contextPath, db.all(), ri)), { studyOptions: 271, categories: 546, peerReviewed: 0 });
+      const ri = loadRoutes(routePath, db.all()); assert.deepEqual(applicantSummary(loadApplicantContexts(contextPath, db.all(), ri)), { studyOptions: 288, categories: 580, peerReviewed: 0 });
       db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
@@ -170,8 +170,8 @@ test('first ADS source migration preserves all prior programme objects, director
 
 test('ADS lookup, matching and export do not write data or inflate independent review and catalogue coverage', async () => {
   const before = JSON.stringify(store.all()); resolve('LOCAL'); matchProgramme(resolve('NONLOCAL'), profile);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 392);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 401);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 271, categories: 546, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 53);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 288, categories: 580, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 61);
   assert.equal(JSON.stringify(store.all()), before);
 });

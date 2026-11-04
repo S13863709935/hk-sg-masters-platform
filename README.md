@@ -8,17 +8,17 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 865 条；392 条有部分官方项目页观察，481 条仍为目录线索。其中 466 条尚无项目页首轮核对、12 条分组父记录已有独立方向证据、3 条线索按范围留档。完整要求集和独立人工复核均为 0。
-- 23 组／53 条方向快照、271 组／546 类申请者上下文分开计数。11 月 4 日维护快照有 716 个单元，7 个记录截止临近，失配绑定为 0。
-- 本轮核对教大人文学院 8 个既有项目，补入 6 条独立中英文路径、13 组／26 类模式与申请条件。现有教大 59 条目录中，21 条有部分详情、38 条尚未首轮核对。另发现原待定 AI 语言学习项目的新官网链接，审批差异保留研究观察，未自行加入可申请目录。
-- 数字人文／语言学英语为 IELTS 6.0、单项 5.5；TESOL 为 7.0、单项 6.5。中文研究明确将英语考试列为非必需，国际汉语教学则同时有普通话证明和适用英语要求。数字语言学保留官网 4 Jan 2027 的较早截止；作品集 PDF 的 2026 版本、旧学年费用、未确定奖学金与当期要求分开。
+- 14 校、873 条目录记录，默认可浏览 865 条；401 条有部分官方项目页观察，472 条仍为目录线索。其中 457 条尚无项目页首轮核对、12 条分组父记录已有独立方向证据、3 条线索按范围留档。完整要求集和独立人工复核均为 0。
+- 27 组／61 条路径或条件视图快照、288 组／580 类申请者上下文分开计数。11 月 4 日维护快照有 750 个单元，7 个记录截止临近，失配绑定为 0。
+- 本轮核对教大博文及社会科学学院 9 个既有项目，补入 6 条中英文路径和运动管理的 2 种条件视图，共 34 种模式／申请类别选择。教大 59 条现有目录中，30 条有部分详情、29 条尚未首轮核对。
+- AI 教育科技保留必需编程基础；运动员低于标准英语的个案考虑、名额和额外自费课程单列，额外费用未知；治疗性游戏全日制为 1.5 年，兼读也有整段日间课程。商业分析及金融科技、全球商贸与政策项目仍待批准，不能凭公开日历认定开放申请。STEM 中文旧链接循环重定向，已按实际官方链接修正，并保留原始目录与差异记录。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。原核心 20 个 ID、71 种选择与 7 个模拟背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 W7 选定阶段版本已于 11 月 3 日推送为 [`checkpoint/week-07`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-07)，提交 `dff8b54`。该发布保留 20 条直接申请试点，加入比较、候选清单、公开引用导出及 5 条兼容的来源更新。这里的扩展目录和超前功能继续保存在本地；后续“继续”不触发重复小批推送。见[本次发布记录](docs/progress/2026-11-03-week-07-publication.md)。
 
-[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-04-eduhk-fhm.md) · [教大质量表](docs/research/hk-eduhk-quality-2026-11-04-eduhk-fhm.md) · [本批改动与限制](docs/progress/local-eduhk-fhm-2026-11-04.md) · [716 单元维护清单](docs/research/source-review-queue-2026-11-04-eduhk-fhm.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-04-eduhk-fhm.md)
+[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-04-eduhk-flass.md) · [教大质量表](docs/research/hk-eduhk-quality-2026-11-04-eduhk-flass.md) · [本批改动与限制](docs/progress/local-eduhk-flass-2026-11-04.md) · [750 单元维护清单](docs/research/source-review-queue-2026-11-04-eduhk-flass.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-04-eduhk-flass.md)
 
-[同日教大教育及人类发展学院批次](docs/progress/local-eduhk-fehd-2026-11-04.md)、[较早岭南收尾批次](docs/progress/local-lingnan-gs-remainder-2026-11-04.md)保留当时来源、统计和限制。
+[同日教大人文学院批次](docs/progress/local-eduhk-fhm-2026-11-04.md)、[较早教大教育及人类发展学院批次](docs/progress/local-eduhk-fehd-2026-11-04.md)、[较早岭南收尾批次](docs/progress/local-lingnan-gs-remainder-2026-11-04.md)保留当时来源、统计和限制。
 
 [3 日岭南人文／社科批次](docs/progress/local-lingnan-arts-social-2026-11-03.md)、[3 日岭南商科／数据科学批次](docs/progress/local-lingnan-business-data-2026-11-03.md)、[同日城大／港大收尾批次](docs/progress/local-cityu-hku-remainder-2026-11-03.md)、[同日 SUTD 批次](docs/progress/local-sutd-school-2026-11-03.md)、[同日港大医学批次](docs/progress/local-hku-medical-law-2026-11-03.md)、[较早理学／创新科技及文科批次](docs/progress/local-hku-science-arts-2026-11-01.md)、[较早传媒与社会服务批次](docs/progress/local-hku-media-social-2026-11-01.md)、[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 
