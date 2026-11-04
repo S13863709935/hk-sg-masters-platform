@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync,rmSync,rmdirSync} from 'node:fs';
@@ -24,9 +25,9 @@ const resolve=(n,tag='FT',category)=>{const id=p(n).id,o=id+'-2027-'+tag;return 
 
 test('the remaining 27 existing HKBU identities receive partial English observations without new awards or review claims',()=>{
  assert.equal(obs.programmeIds.length,27);assert.equal(new Set(obs.programmeIds).size,27);assert.equal(obs.counts.newDirectStudyOptions,48);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,440);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,repositoryExpected.checked);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
  assert.equal(store.all().filter(x=>x.universityId==='HK-HKBU'&&x.verification==='programme_page_checked').length,49);
- assert.deepEqual(routeSummary(routes),{groups:28,routes:63,pageChecked:63,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:345,categories:694,peerReviewed:0});
+ assert.deepEqual(routeSummary(routes),{groups:repositoryExpected.routeGroups,routes:repositoryExpected.routeRecords,pageChecked:repositoryExpected.routeRecords,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:345,categories:694,peerReviewed:0});
  for(const id of obs.programmeIds){const x=batch.programmes.find(x=>x.id===id);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(x)),false);assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,'2026-10-31');assert.equal(batch.pilotProgrammeIds.includes(id),false);}
 });
 
@@ -130,9 +131,9 @@ test('Sport preserves the old TOEFL Writing minimum while explicit new-test acce
 test('isolated restarts preserve all unrelated earlier parents, stable IDs and category fingerprints',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(x=>!ids.has(x.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-hkbu-remaining-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
  try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...options,checkedPath});const earlier=db.all().filter(x=>!ids.has(x.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));
-  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,440);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,345);db.close();db=null;}
+  for(let i=0;i<2;i++){db=new CatalogueStore(file,{...options,checkedPath});assert.equal(db.quality().checked,repositoryExpected.checked);assert.deepEqual(db.all().filter(x=>!ids.has(x.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const ri=loadRoutes(routePath,db.all());assert.equal(loadApplicantContexts(contextPath,db.all(),ri).size,345);db.close();db=null;}
  }finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
- const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,848);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-31');assert.equal(q.counts.reviewUnits,repositoryExpected.reviewUnits);assert.equal(q.counts.nearCutoffUnits,4);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 const app=createApp({store,publicDir:new URL('public/',root),routeEvidencePath:routePath,applicantEvidencePath:contextPath,now:()=>new Date('2026-10-31T08:00:00Z')});let base;

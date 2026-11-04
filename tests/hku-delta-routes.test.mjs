@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -211,8 +212,8 @@ test('route/category evidence is counted separately and no original parent, work
   assert.equal(JSON.stringify(store.get(id)), before);
   const raw = await get('/api/export'); assert.equal(raw.programmes.find(p => p.id === id).verification, 'catalogue_seed');
   const meta = await get('/api/meta');
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 440);
-  assert.deepEqual(meta.routeEvidence, { groups: 28, routes: 63, pageChecked: 63, peerReviewed: 0, complete: 0 });
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, repositoryExpected.checked);
+  assert.deepEqual(meta.routeEvidence, { groups:repositoryExpected.routeGroups, routes:repositoryExpected.routeRecords, pageChecked:repositoryExpected.routeRecords, peerReviewed: 0, complete: 0 });
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 345, categories: 694, peerReviewed: 0 });
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.ok(routes.get('SG-NTU-P061').every(r => r.lastChecked === '2026-10-16'));

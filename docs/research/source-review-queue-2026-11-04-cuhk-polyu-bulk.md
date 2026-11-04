@@ -1,0 +1,1224 @@
+# 官方数据独立复核工作清单
+
+本地快照比较日期：2026-11-04（UTC+08）。这是维护清单，不是已完成的研究结果、课程提交正文或录取判断。
+
+## 当前范围与限制
+
+- 目录 873 条；项目页记录 656 条；其余 217 条仍是目录线索，不能全部视为范围内或开放申请。
+- 项目记录 656、具体方向 138、费用／日期上下文 345 分开核对，共 1139 个工作单元，不是 1139 个项目。上下文内共有 694 个类别选项。
+- 待人工复核 1139 个单元；来源中记录复核 0 个；本工具不核实身份、不批准复核、不写回数据库，也不新增人工贡献记录。
+- 有记录截止落在快照日起 14 天内的单元 13 个；不等于现在可申请，不安排提醒。失配费用上下文 0 个。
+
+## 人工实际操作
+
+1. 由真实复核者打开下列官方来源，确认学位类型、交付地点、批次、学制及页面日期；不要仅核对目录标题。
+2. 保留专业／学历替代路线、语言版本与豁免、申请时有效期、未公布 GPA 和所有人工判断条件，不把 unknown 改成通过或把 not_published 改成零门槛。
+3. 分开核对每个方向和费用类别；确认含税／按年或按项目、订金是否已计入、优惠资格、杂费、轮次和精确截止。不能用另一批次、学制或类别替代。
+4. 实际记录复核者、真实日期、所看页面或 PDF 页码、发现的差异及处理结论；未确认或存在冲突的内容继续留待确认。复核一个字段不代表整条招生要求完整。
+5. 本清单不能替代正式复核记录。不要在清单中自动填成员名字、签名、已完成日期或批准状态；公开仓库不保存私人资料或签名。
+
+原件复核提醒：来源备注中如有 PDF 仅文字可读、视觉未核对或下载遇到安全验证的限制，须由可正常访问的复核者查看原件，不能宣称视觉验证或独立人工复核完成。具体限制以各条人工条件与类别备注为准，不由本清单自动取消；不要绕过网站验证。
+
+## 项目记录
+
+| 优先顺序 | 稳定 ID／官方来源 | 原查阅日 | 尚未确认字段 | 未公布字段（不补造门槛） |
+| --- | --- | --- | --- | --- |
+| 先查：14 日内有记录截止 | HK-CUHK-P026 · [MA in Chinese Language and Literature](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-language-and-literature>) | 2026-11-04 | tuition | gpa |
+| 先查：14 日内有记录截止 | HK-CUHK-P050 · [MA in Sociology](<https://www.gs.cuhk.edu.hk/programmes/social-science/ma-sociology>) | 2026-11-04 | major, tuition | gpa |
+| 先查：14 日内有记录截止 | HK-HKU-P015 · [MSc Artificial Intelligence](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 先查：14 日内有记录截止 | HK-HKU-P047 · [Master of Business Administration](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-business-administration-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 先查：14 日内有记录截止 | HK-HKU-P091 · [Master of Social Sciences in Criminology](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-criminology-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 先查：14 日内有记录截止 | HK-HKU-P093 · [Master of Social Sciences in Media, Culture and Creative Cities](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-media%2C-culture-and-creative-cities-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 先查：14 日内有记录截止 | SG-NUS-P007 · [MSc Finance](<https://mscfin.nus.edu.sg/admissions/admission-requirements/>) | 2026-10-22 | 另查人工条件与完整性 | gpa |
+| 先解决未确认依据 | HK-CITYU-P007 · [MSc Digital Commerce and Computing](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p17>) | 2026-10-30 | tuition | gpa |
+| 先解决未确认依据 | HK-CITYU-P032 · [MSc Artificial Intelligence for Sciences](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p79>) | 2026-10-30 | language | gpa |
+| 先解决未确认依据 | HK-CITYU-P037 · [MSc Business Information Systems](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a>) | 2026-10-30 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CITYU-P043 · [MSc Energy and Environment](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-energy-and-environment/school-of-energy-and-environment/p63>) | 2026-10-30 | deadline | gpa |
+| 先解决未确认依据 | HK-CITYU-P046 · [MSc Financial Mathematics and Statistics](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-mathematics/p68>) | 2026-10-30 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P001 · [MA Anthropology](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology>) | 2026-10-24 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P002 · [MA Christian Studies](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-christian-studies>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P003 · [Master of Divinity](<https://www.gs.cuhk.edu.hk/programmes/arts/master-divinity>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P004 · [MA Buddhist Studies](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-buddhist-studies>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P005 · [MSc Cardiology](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-cardiology>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P006 · [MSc Clinical Gerontology and End-of-Life Care](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-clinical-gerontology-and-end-life-care>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P007 · [MSc Endocrinology, Diabetes and Metabolism](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-endocrinology-diabetes-and-metabolism>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P008 · [MSc Gastroenterology](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-gastroenterology>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P009 · [MSc Stroke and Clinical Neurosciences](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-stroke-and-clinical-neurosciences>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P010 · [Master of Chinese Medicine](<https://www.gs.cuhk.edu.hk/programmes/medicine/master-chinese-medicine>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P011 · [MSc Digital Economy and Artificial Intelligence](<https://www.gs.cuhk.edu.hk/programmes/social-science/master-science-digital-economy-and-artificial-intelligence>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P012 · [MSc Economics](<https://www.gs.cuhk.edu.hk/programmes/social-science/msc-economics>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P013 · [MA Global Communication](<https://www.gs.cuhk.edu.hk/programmes/social-science/ma-global-communication>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P014 · [MA Journalism](<https://www.gs.cuhk.edu.hk/programmes/social-science/ma-journalism>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P015 · [MSc Artificial Intelligence and Communication](<https://www.gs.cuhk.edu.hk/programmes/social-science/msc-artificial-intelligence-and-communication>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P016 · [MSc New Media](<https://www.gs.cuhk.edu.hk/programmes/social-science/msc-new-media>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P017 · [MSocSc Advertising](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-advertising>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P018 · [MSocSc Corporate Communication](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-corporate-communication>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P019 · [Master of Architecture](<https://www.gs.cuhk.edu.hk/programmes/social-science/master-architecture>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P020 · [MSc Urban Design](<https://www.gs.cuhk.edu.hk/programmes/social-science/msc-urban-design>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P021 · [Dual Degree - MSc in Applied Economics (CUHK) and MS in Social and Economic Policy (Northwestern University)](<https://www.gs.cuhk.edu.hk/programmes/social-science/dual-degree-msc-applied-economics-cuhk-and-ms-social-and-economic-policy>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P022 · [Executive MBA](<https://www.gs.cuhk.edu.hk/programmes/business-administration/executive-mba>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P023 · [Executive MBA (Chinese)](<https://www.gs.cuhk.edu.hk/programmes/business-administration/executive-mba-chinese>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P024 · [MA in China Studies](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-china-studies>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P025 · [MA in Chinese Art History](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-art-history>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P027 · [MA in Chinese Language Education](<https://www.gs.cuhk.edu.hk/programmes/education/ma-chinese-language-education>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P028 · [MA in Chinese Linguistics and Language Acquisition](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-linguistics-and-language-acquisition>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P029 · [MA in Comparative and Public History](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-comparative-and-public-history>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P030 · [MA in Cultural Management](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-cultural-management>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P031 · [MA in Early Childhood Education](<https://www.gs.cuhk.edu.hk/programmes/education/ma-early-childhood-education>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P032 · [MA in English (Applied English Linguistics)](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-applied-english-linguistics>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P033 · [MA in English (Literary Studies)](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P034 · [MA in English Language Teaching](<https://www.gs.cuhk.edu.hk/programmes/education/ma-english-language-teaching>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P035 · [MA in Family Counselling and Family Education](<https://www.gs.cuhk.edu.hk/programmes/social-science/ma-family-counselling-and-family-education>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P036 · [MA in Fine Arts](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-fine-arts>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P037 · [MA in Gender Studies](<https://www.gs.cuhk.edu.hk/programmes/inter-faculty/ma-gender-studies>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P038 · [MA in Intercultural Studies](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-intercultural-studies>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P039 · [MA in Japanese Studies](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-japanese-studies>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P040 · [MA in Linguistics](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-linguistics>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P041 · [MA in Music](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-music>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P042 · [MA in Philosophy](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-philosophy>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P043 · [MA in Professional Educational Psychology](<https://www.gs.cuhk.edu.hk/programmes/education/ma-professional-educational-psychology>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P044 · [MA in Psychology](<https://www.gs.cuhk.edu.hk/programmes/social-science/ma-psychology>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P045 · [MA in Religious Studies](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-religious-studies>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P046 · [MA in School Guidance and Counselling](<https://www.gs.cuhk.edu.hk/programmes/education/ma-school-guidance-and-counselling>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P047 · [MA in School Improvement and Leadership](<https://www.gs.cuhk.edu.hk/programmes/education/ma-school-improvement-and-leadership>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P048 · [MA in Social Policy](<https://www.gs.cuhk.edu.hk/programmes/social-science/ma-social-policy>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P049 · [MA in Social Service Management](<https://www.gs.cuhk.edu.hk/programmes/social-science/ma-social-service-management>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P051 · [MA in Teaching English to Speakers of Other Languages](<https://www.gs.cuhk.edu.hk/programmes/education/ma-teaching-english-speakers-other-languages>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P052 · [MA in Translation](<https://www.gs.cuhk.edu.hk/programmes/arts/ma-translation>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P053 · [Master of Accountancy](<https://www.gs.cuhk.edu.hk/programmes/business-administration/master-accountancy>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P054 · [Master of Clinical Pharmacy](<https://www.gs.cuhk.edu.hk/programmes/medicine/master-clinical-pharmacy>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P055 · [Master of Education](<https://www.gs.cuhk.edu.hk/programmes/education/master-education>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P056 · [Master of Education in Teaching in Key Subject Areas (National Excellent Teacher Training Initiative)](<https://www.gs.cuhk.edu.hk/programmes/education/master-education-teaching-key-subject-areas-national-excellent-teacher>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P057 · [Master of Laws in AI Law](<https://www.gs.cuhk.edu.hk/programmes/law/master-laws-ai-law>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P058 · [Master of Laws in Chinese Business Law](<https://www.gs.cuhk.edu.hk/programmes/law/master-laws-chinese-business-law>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P059 · [Master of Laws in Common Law](<https://www.gs.cuhk.edu.hk/programmes/law/master-laws-common-law>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P060 · [Master of Laws in Energy and Environmental Law](<https://www.gs.cuhk.edu.hk/programmes/law/master-laws-energy-and-environmental-law>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P061 · [Master of Laws in International Economic Law](<https://www.gs.cuhk.edu.hk/programmes/law/master-laws-international-economic-law>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P062 · [Master of Laws in Legal History](<https://www.gs.cuhk.edu.hk/programmes/law/master-laws-legal-history>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P063 · [Master of Nursing](<https://www.gs.cuhk.edu.hk/programmes/medicine/master-nursing>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P064 · [Master of Nursing Science (Pre-registration)](<https://www.gs.cuhk.edu.hk/programmes/medicine/master-nursing-science-pre-registration>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P065 · [Master of Public Health](<https://www.gs.cuhk.edu.hk/programmes/medicine/master-public-health>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P066 · [Master of Science in Global Wealth Management](<https://www.gs.cuhk.edu.hk/programmes/business-administration/master-science-global-wealth-management>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P067 · [Master of Social Work](<https://www.gs.cuhk.edu.hk/programmes/social-science/master-social-work>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P068 · [MBA](<https://www.gs.cuhk.edu.hk/programmes/business-administration/mba>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P069 · [MBA in Finance](<https://www.gs.cuhk.edu.hk/programmes/business-administration/mba-finance>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P070 · [MSc in Accreditation Chemistry](<https://www.gs.cuhk.edu.hk/programmes/science/msc-accreditation-chemistry>) | 2026-11-04 | major, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P071 · [MSc in Actuarial Science and Insurance Analytics](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-actuarial-science-and-insurance-analytics>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P072 · [MSc in Advanced Materials Science](<https://www.gs.cuhk.edu.hk/programmes/science/msc-advanced-materials-science>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P073 · [MSc in Advanced Studies in Statistics and Data Science](<https://www.gs.cuhk.edu.hk/programmes/science/msc-advanced-studies-statistics-and-data-science>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P074 · [MSc in Artificial Intelligence](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-artificial-intelligence>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P075 · [MSc in Artificial Intelligence for Science](<https://www.gs.cuhk.edu.hk/programmes/science/msc-artificial-intelligence-science>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P076 · [MSc in Aviation Management](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-aviation-management>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P077 · [MSc in Biochemical and Biomedical Sciences](<https://www.gs.cuhk.edu.hk/programmes/science/msc-biochemical-and-biomedical-sciences>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P078 · [MSc in Biodiversity, Environmental Management, Sustainability and Technology](<https://www.gs.cuhk.edu.hk/programmes/science/msc-biodiversity-environmental-management-sustainability-and-technology>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P079 · [MSc in Biomedical Engineering](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-biomedical-engineering>) | 2026-11-04 | deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P080 · [MSc in Business Analytics](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-business-analytics>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P081 · [MSc in Chinese Medicine](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-chinese-medicine>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P082 · [MSc in Chinese Medicine Pharmacology and Drug Development](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-chinese-medicine-pharmacology-and-drug-development>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P083 · [MSc in Computer Science](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-computer-science>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P084 · [MSc in Data Science and Business Statistics](<https://www.gs.cuhk.edu.hk/programmes/science/msc-data-science-and-business-statistics>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P085 · [MSc in E-Commerce and Logistics Technologies](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-e-commerce-and-logistics-technologies>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P086 · [MSc in Earth and Environmental Analytics for Sustainability](<https://www.gs.cuhk.edu.hk/programmes/science/msc-earth-and-environmental-analytics-sustainability>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P088 · [MSc in Environmental Information, Health and Public Management](<https://www.gs.cuhk.edu.hk/programmes/social-science/msc-environmental-information-health-and-public-management>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P089 · [MSc in Epidemiology and Biostatistics](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-epidemiology-and-biostatistics>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P090 · [MSc in Family Business Management](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-family-business-management>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P091 · [MSc in Finance](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-finance>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P093 · [MSc in Genomics and Bioinformatics](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-genomics-and-bioinformatics>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P094 · [MSc in GeoInformation Science and Smart Cities](<https://www.gs.cuhk.edu.hk/programmes/social-science/msc-geoinformation-science-and-smart-cities>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P095 · [MSc in Health Services Management](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-health-services-management>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P096 · [MSc in Information and Technology Management (Part-time Mode Only)](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-information-and-technology-management-part-time-mode-only>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P098 · [MSc in Information Science and Technology Management (Full-time Mode Only)](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-information-science-and-technology-management-full-time-mode>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P099 · [MSc in Landscape Architecture](<https://www.gs.cuhk.edu.hk/programmes/social-science/msc-landscape-architecture>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P100 · [MSc in Leadership for Experience Economy](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-leadership-experience-economy>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P101 · [MSc in Management](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-management>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P102 · [MSc in Marketing](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-marketing>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P103 · [MSc in Maternal Fetal Medicine](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-maternal-fetal-medicine>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P104 · [MSc in Mathematics](<https://www.gs.cuhk.edu.hk/programmes/science/msc-mathematics>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P105 · [MSc in Mathematics Education](<https://www.gs.cuhk.edu.hk/programmes/education/msc-mathematics-education>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P106 · [MSc in Mechanical and Automation Engineering](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-mechanical-and-automation-engineering>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P107 · [MSc in Medical Laboratory Sciences](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-medical-laboratory-sciences>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-CUHK-P109 · [MSc in Musculoskeletal Medicine, Rehabilitation and Geriatric Orthopaedics](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-musculoskeletal-medicine-rehabilitation-and-geriatric-orthopaedics>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P110 · [MSc in Nutrition, Food Science and Technology](<https://www.gs.cuhk.edu.hk/programmes/science/msc-nutrition-food-science-and-technology>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P111 · [MSc in Obstetric and Midwifery Care](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-obstetric-and-midwifery-care>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P112 · [MSc in Physics](<https://www.gs.cuhk.edu.hk/programmes/science/msc-physics>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P113 · [MSc in Prehospital and Emergency Care](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-prehospital-and-emergency-care>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P114 · [MSc in Real Estate](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-real-estate>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P115 · [MSc in Risk Management Science and Data Analytics](<https://www.gs.cuhk.edu.hk/programmes/science/msc-risk-management-science-and-data-analytics>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P116 · [MSc in Robotics](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P117 · [MSc in Sports Business Management](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-sports-business-management>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P118 · [MSc in Sports Medicine and Health Science](<https://www.gs.cuhk.edu.hk/programmes/medicine/msc-sports-medicine-and-health-science>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P119 · [MSc in Sports Science and Physical Activity](<https://www.gs.cuhk.edu.hk/programmes/education/msc-sports-science-and-physical-activity>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P120 · [MSc in Sustainable Global Business](<https://www.gs.cuhk.edu.hk/programmes/business-administration/msc-sustainable-global-business>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P121 · [MSc in Sustainable Urban Planning](<https://www.gs.cuhk.edu.hk/programmes/social-science/msc-sustainable-urban-planning>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P122 · [MSc in Systems Engineering and Engineering Management](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-systems-engineering-and-engineering-management>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P123 · [MSSc in Clinical Psychology](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-clinical-psychology>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P124 · [MSSc in Global Political Economy](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-global-political-economy>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P125 · [MSSc in Government and Politics (Greater China)](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-government-and-politics-greater-china>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P126 · [MSSc in Industrial-Organizational Psychology](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-industrial-organizational-psychology>) | 2026-11-04 | gpa, tuition | 无此标签 |
+| 先解决未确认依据 | HK-CUHK-P127 · [MSSc in Public Policy](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-public-policy>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P128 · [MSSc in Social Work](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-social-work>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-CUHK-P129 · [MSSc in Sustainable Tourism](<https://www.gs.cuhk.edu.hk/programmes/social-science/mssc-sustainable-tourism>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P001 · [Master of Public Policy and Management](<https://www.eduhk.hk/ssps/mppm>) | 2026-10-30 | deadline | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P002 · [Master of Management](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-management>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P004 · [Executive Master of Public Administration and Leadership](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/empal>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P005 · [Master of Arts in Beauty and Lifestyle (Organisational Operations and Management)](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MABLOOM>) | 2026-11-04 | language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P006 · [Master of Arts in Belt and Road Business Communication and Administration](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-belt-and-road-business-communication-and-administration>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P007 · [Master of Arts in Child and Family Education](<https://www.eduhk.hk/fehd/en/programmes.php?id=705>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P008 · [Master of Arts in China’s Global Diplomacy and International Relations](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MACGDIR>) | 2026-11-04 | language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P009 · [Master of Arts in Chinese Art Business and Cultural Heritage Management](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-art-business-and-cultural-heritage-management>) | 2026-11-04 | language, tuition | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P010 · [Master of Arts in Chinese Studies (Language Education)](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-chinese-studies-language-education-macsle/>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P011 · [Master of Arts in Chinese Values-Based Leadership Education](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-values-based-leadership-education>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P012 · [Master of Arts in Comparative Education and Collaborative Innovation](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-comparative-education-and-collaborative-innovation>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P013 · [Master of Arts in Cultural Heritage Education and Management](<https://www.eduhk.hk/fehd/en/programmes.php?id=9118>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P014 · [Master of Arts in Digital Human Resource Management](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-human-resource-management-and-organisational-marketing>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P015 · [Master of Arts in Digital Humanities for Cultural Professionals](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P016 · [Master of Arts in Digital Linguistics and Intercultural Communication](<https://www.eduhk.hk/madlic>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P017 · [Master of Arts in Digital Marketing and E-Commerce](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-marketing-and-e-commerce>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P018 · [Master of Arts in E-Sports Management](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-e-sports-management>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P019 · [Master of Arts in Education for Sustainability](<https://ses.eduhk.hk/en/programmes/maefs>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P020 · [Master of Arts in Educational Counselling](<https://www.eduhk.hk/fehd/en/programmes.php?id=230>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P021 · [Master of Arts in Emerging Technology for Future Workforce](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P022 · [Master of Arts in Global Histories of Education](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P023 · [Master of Arts in Global Studies in Education](<https://www.eduhk.hk/fehd/en/programmes.php?id=10665>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P024 · [Master of Arts in Healthy Ageing and Silver Economy](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-healthy-ageing-and-silver-economy>) | 2026-11-04 | language, tuition | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P025 · [Master of Arts in Higher Education Management](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAHEM>) | 2026-11-04 | tuition, deadline | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P026 · [Master of Arts in Inclusive Early Childhood Education](<https://www.eduhk.hk/fehd/en/programmes.php?id=9840>) | 2026-11-04 | language, tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P028 · [Master of Arts in Mindfulness and Life Education](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-mindfulness-and-life-education>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P029 · [Master of Arts in Music Education](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-music-education-mame>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P030 · [Master of Arts in New Media and Social Media](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-new-media-and-social-media>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P032 · [Master of Arts in Positive Psychology in Education](<https://www.eduhk.hk/fehd/en/programmes.php?id=4788>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P033 · [Master of Arts in Science and Robotics Education](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-science-and-robotics-education>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P034 · [Master of Arts in STEM Education](<https://ses.eduhk.hk/en/programmes/stem_ed>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P035 · [Master of Arts in Teaching Chinese as an International Language](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-chinese-as-an-international-language-matcil>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P037 · [Master of Arts in Tourism and Hospitality Management](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-tourism-and-hospitality-management>) | 2026-11-04 | language, tuition | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P039 · [Master of Arts in Women’s Studies and Sustainable Development in the Chinese Context](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAWSSD>) | 2026-11-04 | tuition, deadline | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P044 · [Master of Science in Applied Data Science](<https://www.eduhk.hk/mit/en/mscads>) | 2026-10-25 | major, language | gpa |
+| 先解决未确认依据 | HK-EDUHK-P045 · [Master of Science in Artificial Intelligence and Educational Technology](<https://www.eduhk.hk/mit/en/mscait>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P046 · [Master of Science in Artificial Intelligence for Executive Professionals](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P047 · [Master of Science in Business Analytics and FinTech](<https://www.eduhk.hk/ssps/mscbaft>) | 2026-11-04 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P048 · [Master of Science in Digital Economy](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MScDE>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P049 · [Master of Science in Education Policy and Management](<https://www.eduhk.hk/fehd/en/programmes.php?id=9861>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P050 · [Master of Science in Educational Neuroscience](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-science-in-educational-neuroscience>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P051 · [Master of Science in Educational Speech-Language Pathology and Learning Disabilities](<https://www.eduhk.hk/fehd/en/programmes.php?id=231>) | 2026-11-04 | major, tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P052 · [Master of Science in Environmental, Social and Governance for Sustainable Development](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/ESGSD>) | 2026-11-04 | language | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P053 · [Master of Science in Learning Sciences and Smart Education](<https://www.eduhk.hk/fehd/en/programmes.php?id=9112>) | 2026-11-04 | language, tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P054 · [Master of Science in Low-Altitude Economy and Management](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MScLAEM>) | 2026-11-04 | language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | HK-EDUHK-P055 · [Master of Social Sciences in Global Business and Policy Studies for the Belt-and-Road Initiative](<https://www.eduhk.hk/ssps/mgbpsbri>) | 2026-11-04 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P056 · [Master of Social Sciences in Psychology (Schools and Community Settings)](<https://www.eduhk.hk/fehd/en/programmes.php?id=826>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-EDUHK-P057 · [Master of Social Sciences in Sports Coaching and Management](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-EDUHK-P059 · [Master of Teaching](<https://www.eduhk.hk/fehd/en/programmes.php?id=724>) | 2026-11-04 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-HKBU-P019 · [Master of Business Administration (MBA)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-business-administration-mba>) | 2026-10-31 | language | gpa |
+| 先解决未确认依据 | HK-HKBU-P033 · [Master of Science (MSc) in Entrepreneurship and Global Marketing](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-entrepreneurship-and-global-marketing>) | 2026-10-31 | deadline | gpa |
+| 先解决未确认依据 | HK-HKBU-P044 · [Master of Social Sciences (MSocSc) in Counselling](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-counselling>) | 2026-10-31 | tuition, deadline | major, gpa |
+| 先解决未确认依据 | HK-HKU-P008 · [MA AI, Ethics and Society](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-ai%2C-ethics-and-society-arts&mode=0>) | 2026-11-01 | major | gpa |
+| 先解决未确认依据 | HK-HKU-P010 · [MA Museum Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-museum-studies-arts&mode=0>) | 2026-11-01 | major | gpa |
+| 先解决未确认依据 | HK-HKU-P012 · [MA TESOL](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-teaching-english-to-speakers-of-other-languages-edu&mode=0>) | 2026-10-31 | tuition | gpa |
+| 先解决未确认依据 | HK-HKU-P013 · [Master of Education](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-education-edu&mode=0>) | 2026-10-31 | major, tuition | gpa |
+| 先解决未确认依据 | HK-HKU-P014 · [MSc Audiology](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-audiology&mode=0>) | 2026-10-31 | language, tuition | major, gpa |
+| 先解决未确认依据 | HK-HKU-P022 · [MSc Geospatial Data Science](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-geospatial-data-science-socsc&mode=0>) | 2026-10-31 | major | gpa |
+| 先解决未确认依据 | HK-HKU-P024 · [Executive Master of Business Laws](<https://portal.hku.hk/tpg-admissions/programme-details?programme=executive-master-of-business-laws-law&mode=0>) | 2026-11-03 | language, tuition | gpa |
+| 先解决未确认依据 | HK-HKU-P039 · [Master of Arts in Hong Kong History](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-history-arts&mode=0>) | 2026-10-31 | tuition | gpa |
+| 先解决未确认依据 | HK-HKU-P045 · [Master of Buddhist Counselling](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-counselling-arts&mode=0>) | 2026-11-01 | major | gpa |
+| 先解决未确认依据 | HK-HKU-P048 · [Master of China Development Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-china-development-studies-socsc&mode=0>) | 2026-10-31 | major | gpa |
+| 先解决未确认依据 | HK-HKU-P049 · [Master of Chinese Medicine](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-chinese-medicine-med&mode=0>) | 2026-11-03 | language, deadline | gpa |
+| 先解决未确认依据 | HK-HKU-P084 · [Master of Science in Innovation and Technology](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-innovation-and-technology&mode=0>) | 2026-11-01 | academicYear, major, language | gpa |
+| 先解决未确认依据 | HK-HKU-P098 · [Master of Social Sciences in Sustainability Leadership and Governance](<https://portal.hku.hk/tpg-admissions/programme-details?programme=msocsc-sustainability-leadership-and-governance&mode=0>) | 2026-10-31 | tuition, deadline | major, gpa |
+| 先解决未确认依据 | HK-HKUST-P005 · [Executive Master of Business Administration](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/hkust-emba>) | 2026-10-30 | deadline | major, gpa |
+| 先解决未确认依据 | HK-HKUST-P010 · [Master of Business Administration](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/>) | 2026-10-30 | major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-HKUST-P013 · [MSc Aeronautical Engineering](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae>) | 2026-10-30 | deadline | gpa |
+| 先解决未确认依据 | HK-LU-P005 · [Master of Arts in Arts and Cultural Heritage Management](<https://www.ln.edu.hk/sgs/achm>) | 2026-11-03 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | HK-LU-P008 · [Master of Science in Smart Ageing and Gerontology](<https://www.ln.edu.hk/sgs/sag/home>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | HK-LU-P013 · [Master of Arts in Creative and Media Industries](<https://www.ln.edu.hk/daci/macmi>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | HK-LU-P015 · [Master of Arts in Digital English Studies](<https://www.ln.edu.hk/eng/mades>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | HK-LU-P016 · [Master of Arts in Digital History in Global Asia](<https://www.ln.edu.hk/history/programmes/chdh>) | 2026-11-03 | language, tuition | gpa |
+| 先解决未确认依据 | HK-LU-P019 · [Master of Cultural Studies](<https://www.ln.edu.hk/cultural/programmes/mcs>) | 2026-11-03 | deadline | gpa |
+| 先解决未确认依据 | HK-LU-P020 · [Master of Liberal Sciences](<https://www.ln.edu.hk/wjysis/mls>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | HK-LU-P021 · [Master of Research in Advanced Data Science](<https://www.ln.edu.hk/sds/dai/ads>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | HK-LU-P026 · [Master of Science in Cross-disciplinary Technologies+](<https://www.ln.edu.hk/wjysis/mct>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | HK-LU-P028 · [Master of Science in eBusiness and Supply Chain Management](<https://www.ln.edu.hk/orm/ebscm>) | 2026-11-03 | tuition, deadline | gpa |
+| 先解决未确认依据 | HK-LU-P030 · [Master of Science in Finance](<https://www.ln.edu.hk/fin/mfin>) | 2026-11-03 | language, tuition | gpa |
+| 先解决未确认依据 | HK-LU-P032 · [Master of Science in Industrial Data Analytics](<https://www.ln.edu.hk/sds/dids/ida>) | 2026-11-03 | major, language | gpa |
+| 先解决未确认依据 | HK-LU-P035 · [Master of Science in International Banking and Finance](<https://www.ln.edu.hk/econ/mibf>) | 2026-11-03 | language | gpa |
+| 先解决未确认依据 | HK-LU-P036 · [Master of Science in Marketing and International Business](<https://www.ln.edu.hk/mkt/mscmib>) | 2026-11-03 | language | gpa |
+| 先解决未确认依据 | HK-LU-P039 · [Master of Science in Sustainability and Environmental Analytics](<https://www.ln.edu.hk/dos/sea>) | 2026-11-03 | language, tuition | gpa |
+| 先解决未确认依据 | HK-LU-P040 · [Master of Science in Work and Organisational Psychology](<https://www.ln.edu.hk/psy/mwop>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | HK-LU-P042 · [Master of Social Sciences in Comparative Social Policy (International)](<https://www.ln.edu.hk/socsp/imcsp>) | 2026-11-03 | deadline | gpa |
+| 先解决未确认依据 | HK-LU-P044 · [Master of Social Sciences in Sociology and Data Analytics](<https://www.ln.edu.hk/socsp/msoda>) | 2026-11-03 | deadline | gpa |
+| 先解决未确认依据 | HK-POLYU-P002 · [MSc Urban Informatics and Smart Cities](<https://www.polyu.edu.hk/study/pg/tpg/2027/34083-ifm-ipm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P003 · [MSc Aerospace Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/48006-amf-amp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P004 · [MSc Health Informatics](<https://www.polyu.edu.hk/study/pg/tpg/2027/06003-hif-hip>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P005 · [MSc Nursing](<https://www.polyu.edu.hk/study/pg/tpg/2027/53070-fts-pt>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P006 · [Master of Nursing](<https://www.polyu.edu.hk/study/pg/tpg/2027/53081>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P008 · [MA English Studies for the Professions](<https://www.polyu.edu.hk/study/pg/tpg/2027/71026-mcf-mcp-mlf-mlp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P009 · [MSc AI for Teaching English to Speakers of Other Languages](<https://www.polyu.edu.hk/study/pg/tpg/2027/71032-mtf-mtp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P012 · [MA Bilingual Corporate Communication](<https://www.polyu.edu.hk/study/pg/tpg/2027/72017-bcf-bcp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P013 · [MA Chinese Language and Literature](<https://www.polyu.edu.hk/study/pg/tpg/2027/72017-llf-llp-pdp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P014 · [MA Chinese Linguistics](<https://www.polyu.edu.hk/study/pg/tpg/2027/72017-clf-clp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P015 · [MA Fashion Design](<https://www.polyu.edu.hk/study/pg/tpg/2027/14111-fpp-dfi>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P016 · [MA Global Communication and Event Hosting Arts](<https://www.polyu.edu.hk/study/pg/tpg/2027/72029-ehf-ehp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P021 · [MA Sustainable Fashion and Innovation](<https://www.polyu.edu.hk/study/pg/tpg/2027/14107-ffs-pfs>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P022 · [MA Teaching Chinese as a Foreign Language](<https://www.polyu.edu.hk/study/pg/tpg/2027/72017-tlf-tlp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P023 · [MA Translation and Language Technology](<https://www.polyu.edu.hk/study/pg/tpg/2027/72030-ttf-ttp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P024 · [Master of Applied Psychology](<https://www.polyu.edu.hk/study/pg/tpg/2027/54057-ft-pt>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P026 · [Master of Design](<https://www.polyu.edu.hk/study/pg/tpg/2027/73035-ibd-ibp-isd-isp-ssd-ssp-ted-tep>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P027 · [Master of Finance](<https://www.polyu.edu.hk/study/pg/tpg/2027/21050-fcf-cfp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P028 · [Master of Medical Imaging](<https://www.polyu.edu.hk/study/pg/tpg/2027/55006>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P029 · [Master of Medical Laboratory Science](<https://www.polyu.edu.hk/study/pg/tpg/2027/55007>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P037 · [MSc Advanced Physiotherapy](<https://www.polyu.edu.hk/study/pg/tpg/2027/51069-ptf-ptp-pnf-pnp-spf-spp-mpf-mpp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P038 · [MSc Advanced Rehabilitation Sciences](<https://www.polyu.edu.hk/study/pg/tpg/2027/51069-rsf-rsp-ddf-ddp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P041 · [MSc Artificial Intelligence and Big Data Computing](<https://www.polyu.edu.hk/study/pg/tpg/2027/62037-fai-pai>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P043 · [MSc Aviation Engineering and Operations Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/48005-omf-omp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P044 · [MSc Biomedical Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/47002-bmf-bmp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P045 · [MSc Blockchain Technology](<https://www.polyu.edu.hk/study/pg/tpg/2027/61036-fbt-pbt>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P047 · [MSc Building Services Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/33084-bem-bsm>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P049 · [MSc Carbon Neutral Cities and Urban Sustainability](<https://www.polyu.edu.hk/study/pg/tpg/2027/33088-cfm-cpm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P050 · [MSc Civil Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/31077-cfm-cpm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P051 · [MSc Construction and Real Estate](<https://www.polyu.edu.hk/study/pg/tpg/2027/32111-rfm-rpm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P052 · [MSc Cybersecurity](<https://www.polyu.edu.hk/study/pg/tpg/2027/61039-fcy-pcy>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P053 · [MSc Data Science and Analytics](<https://www.polyu.edu.hk/study/pg/tpg/2027/62027-dfm-dpm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P054 · [MSc Dietetics](<https://www.polyu.edu.hk/study/pg/tpg/2027/15060>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P056 · [MSc Electric Vehicles](<https://www.polyu.edu.hk/study/pg/tpg/2027/46012-ev-evt>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P057 · [MSc Electrical Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/46010-ee-eet>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P058 · [MSc Electronic and Information Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/46011-eie-eit>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P059 · [MSc Environmental Management and Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/31078-efm-epm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P061 · [MSc Facility Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/33085-fam-fmm>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P062 · [MSc Fire and Safety Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/33086-fem-fsm>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P063 · [MSc Generative AI and the Humanities](<https://www.polyu.edu.hk/study/pg/tpg/2027/74001-atf-atp-lcf-lcp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P064 · [MSc Geomatics](<https://www.polyu.edu.hk/study/pg/tpg/2027/34084-gfm-gpm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P069 · [MSc Industrial Logistics Systems](<https://www.polyu.edu.hk/study/pg/tpg/2027/45100-mls-ml>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P070 · [MSc Information Technology](<https://www.polyu.edu.hk/study/pg/tpg/2027/61030-fit-pit>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P072 · [MSc Intelligent Construction](<https://www.polyu.edu.hk/study/pg/tpg/2027/32114-ifm-ipm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P073 · [MSc Intelligent Robotics Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P074 · [MSc Intelligent Wearable Technology](<https://www.polyu.edu.hk/study/pg/tpg/2027/14110-iwt-pwt-pgd>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P076 · [MSc International Shipping and Transport Logistics](<https://www.polyu.edu.hk/study/pg/tpg/2027/44087-ifm-tfp-ipm-tpp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P078 · [MSc Language Neuroscience and Neurotechnology](<https://www.polyu.edu.hk/study/pg/tpg/2027/72031-lnf-lnp>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P079 · [MSc Low-altitude Economy](<https://www.polyu.edu.hk/study/pg/tpg/2027/48007-lmf-lmp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P081 · [MSc Materials Intelligence](<https://www.polyu.edu.hk/study/pg/tpg/2027/46014-mi-mit>) | 2026-11-04 | tuition | gpa |
+| 先解决未确认依据 | HK-POLYU-P083 · [MSc Mechanical Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/43100-me-met>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P084 · [MSc Medical Data Science](<https://www.polyu.edu.hk/study/pg/tpg/2027/55005-mfd-mpd>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P085 · [MSc Medical Imaging and Radiation Science](<https://www.polyu.edu.hk/study/pg/tpg/2027/55005-frm-prm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P086 · [MSc Medical Laboratory Science](<https://www.polyu.edu.hk/study/pg/tpg/2027/55005-fmm-pmm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P088 · [MSc Metaverse Technology](<https://www.polyu.edu.hk/study/pg/tpg/2027/61038-fmt-pmt>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P089 · [MSc Microelectronics and Quantum Systems Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/46013-mqs-mqt>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P091 · [MSc Nutrition and Healthy Ageing](<https://www.polyu.edu.hk/study/pg/tpg/2027/15058-mft>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P094 · [MSc Project Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/32113-pfm-ppm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P095 · [MSc Quantitative Finance and FinTech](<https://www.polyu.edu.hk/study/pg/tpg/2027/63029-qfm-qpm>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P096 · [MSc Satellite Engineering](<https://www.polyu.edu.hk/study/pg/tpg/2027/48008-smf-smp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P097 · [MSc Smart Manufacturing](<https://www.polyu.edu.hk/study/pg/tpg/2027/45100-smf-smp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P098 · [MSc Sports Technology and Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/47005-stf-stp>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | HK-POLYU-P099 · [MSc Sustainable Energy](<https://www.polyu.edu.hk/study/pg/tpg/2027/43102-se-set>) | 2026-11-04 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 先解决未确认依据 | SG-NTU-P015 · [MSc Applied Economics](<https://www.ntu.edu.sg/education/graduate-programme/master-of-applied-economics>) | 2026-10-22 | tuition | gpa |
+| 先解决未确认依据 | SG-NTU-P018 · [MSc Information Systems](<https://www.ntu.edu.sg/education/graduate-programme/master-in-science-in-information-systems>) | 2026-10-21 | tuition | gpa |
+| 先解决未确认依据 | SG-SIT-P001 · [Master of Health Sciences (via CSM Pathway)](<https://www.singaporetech.edu.sg/postgraduate-programmes/master-of-health-sciences-csm>) | 2026-10-27 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SIT-P002 · [MSc Civil Engineering](<https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-civil-engineering>) | 2026-10-24 | language, tuition | gpa |
+| 先解决未确认依据 | SG-SIT-P003 · [MSc Electrical and Electronic Engineering](<https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-electrical-and-electronic-engineering>) | 2026-10-27 | major, language, tuition | gpa |
+| 先解决未确认依据 | SG-SIT-P004 · [MSc Mechanical Engineering](<https://www.singaporetech.edu.sg/postgraduate-programmes/master-science-mechanical-engineering>) | 2026-10-27 | language, tuition | gpa |
+| 先解决未确认依据 | SG-SMU-P002 · [Master of Science in Accounting](<https://masters.smu.edu.sg/programme/master-in-accounting>) | 2026-10-28 | major, language, tuition | gpa |
+| 先解决未确认依据 | SG-SMU-P003 · [MSc Management](<https://masters.smu.edu.sg/programme/msc-in-management>) | 2026-10-24 | language, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P004 · [Master of Science in Applied Finance](<https://masters.smu.edu.sg/programme/msc-in-applied-finance>) | 2026-10-28 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P005 · [Master of Science in Entrepreneurship and Innovation](<https://masters.smu.edu.sg/programme/master-entrepreneurship-innovation>) | 2026-10-28 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P006 · [Master of Science in Business AI](<https://masters.smu.edu.sg/programme/msc-in-business-ai>) | 2026-10-28 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P007 · [Master of Science in Economics](<https://masters.smu.edu.sg/programme/master-in-economics>) | 2026-10-30 | language, tuition | major, gpa |
+| 先解决未确认依据 | SG-SMU-P008 · [Master of Data Science in Economics](<https://masters.smu.edu.sg/programme/master-of-data-science-economics>) | 2026-10-30 | language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | SG-SMU-P009 · [Master of Science in Financial Economics](<https://masters.smu.edu.sg/programme/master-in-financial-economics>) | 2026-10-30 | language, tuition | major, gpa |
+| 先解决未确认依据 | SG-SMU-P010 · [Master of IT in Business](<https://masters.smu.edu.sg/programme/master-of-it-in-business>) | 2026-10-20 | deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P011 · [Chinese Executive MBA](<https://cn.masters.smu.edu.sg/cemba>) | 2026-10-29 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P012 · [Executive Master of Business Administration](<https://masters.smu.edu.sg/programme/executive-master-of-business-administration>) | 2026-10-29 | language, tuition | gpa |
+| 先解决未确认依据 | SG-SMU-P013 · [Master of Business Administration](<https://masters.smu.edu.sg/programme/master-of-business-administration>) | 2026-10-28 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P014 · [Master of Laws](<https://masters.smu.edu.sg/programme/master-of-laws>) | 2026-10-28 | major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P015 · [Master of Sustainability](<https://masters.smu.edu.sg/programme/master-of-sustainability>) | 2026-10-28 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P016 · [Master of Science in Quantitative Finance](<https://masters.smu.edu.sg/programme/msc-in-quantitative-finance>) | 2026-10-28 | language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SMU-P017 · [Master of Science in Wealth Management](<https://masters.smu.edu.sg/programme/msc-in-wealth-management>) | 2026-10-28 | language, tuition | gpa |
+| 先解决未确认依据 | SG-SUSS-P001 · [Master of Management](<https://www.suss.edu.sg/programmes/detail/master-of-management-mmgt>) | 2026-10-23 | academicYear, major, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P002 · [Master of Science in Management (Chinese)](<https://www.suss.edu.sg/programmes/detail/master-of-science-in-management>) | 2026-10-28 | academicYear, language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | SG-SUSS-P003 · [Master of Science in Management (Education)](<https://www.suss.edu.sg/programmes/detail/master-of-science-in-management-(education)>) | 2026-10-28 | academicYear, language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | SG-SUSS-P004 · [Master of Arts in Applied Linguistics (TESOL)](<https://www.suss.edu.sg/programmes/detail/master-of-arts-in-applied-linguistics-tesol-matsl>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P005 · [Master of Global Security and Strategy](<https://www.suss.edu.sg/programmes/detail/master-of-global-security-and-strategy>) | 2026-10-28 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P006 · [Master of Psychology](<https://www.suss.edu.sg/programmes/detail/master-of-psychology>) | 2026-10-28 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P007 · [Master of Psychology (Clinical)](<https://www.suss.edu.sg/programmes/detail/master-of-psychology-clinical>) | 2026-10-28 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P009 · [Master of Social Sciences](<https://www.suss.edu.sg/programmes/detail/master-of-social-sciences>) | 2026-10-28 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P010 · [Master in Boundary-Crossing Learning and Leadership](<https://www.suss.edu.sg/programmes/detail/master-in-boundary-crossing-learning-and-leadership>) | 2026-10-28 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P011 · [Master of Education](<https://www.suss.edu.sg/programmes/detail/master-of-education>) | 2026-10-28 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P012 · [Master of Social Work](<https://www.suss.edu.sg/programmes/detail/master-of-social-work-mdsw>) | 2026-10-28 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P013 · [Master of Taxation](<https://www.suss.edu.sg/programmes/detail/master-of-taxation-mtax>) | 2026-10-28 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P014 · [Executive Master of Business Administration](<https://www.suss.edu.sg/programmes/detail/executive-master-of-business-administration-emba>) | 2026-10-28 | academicYear, language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | SG-SUSS-P015 · [Master of Analytics and Visualisation](<https://www.suss.edu.sg/programmes/detail/mavi>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P016 · [Master of Artificial Intelligence for Business](<https://www.suss.edu.sg/programmes/detail/master-of-artificial-intelligence-for-business>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P017 · [Master of Built Environment](<https://www.suss.edu.sg/programmes/detail/master-of-built-environment>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P018 · [Master of Counselling](<https://www.suss.edu.sg/programmes/detail/master-of-counselling-mcou>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P019 · [Master of Digital Marketing](<https://www.suss.edu.sg/programmes/detail/master-of-digital-marketing>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P020 · [Master of Early Childhood Education](<https://www.suss.edu.sg/programmes/detail/master-of-early-childhood-education-mece-spe>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P021 · [Master of Education in Early Childhood Education (Chinese)](<https://www.suss.edu.sg/programmes/detail/master-of-education-in-early-childhood-education-%28chinese%29-%E5%AD%A6%E5%89%8D%E6%95%99%E8%82%B2%E7%A1%95%E5%A3%AB%E8%AF%BE%E7%A8%8B-%28%E5%8D%8E%E6%96%87>) | 2026-10-28 | academicYear, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P022 · [Master of Finance](<https://www.suss.edu.sg/programmes/detail/master-of-finance-mfin>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P023 · [Master of Gerontology](<https://www.suss.edu.sg/programmes/detail/master-of-gerontology-mger-maj>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P024 · [Master of Human Capital Management](<https://www.suss.edu.sg/programmes/detail/master-of-human-capital-management>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P025 · [Master of IP and Innovation Management (IP Business)](<https://www.suss.edu.sg/programmes/detail/mipimipb>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUSS-P026 · [Master of Science in Data Analytics and Visualisation (Chinese)](<https://www.suss.edu.sg/programmes/detail/master-of-science-in-data-analytics-and-visualisation-chinese>) | 2026-10-28 | academicYear, language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | SG-SUSS-P027 · [Master of Science in Financial Technology (Chinese)](<https://www.suss.edu.sg/programmes/detail/master-of-financial-technology>) | 2026-10-28 | academicYear, language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | SG-SUSS-P028 · [Master of Science in Strategic IP and Innovation Management (Chinese)](<https://www.suss.edu.sg/programmes/detail/msmip>) | 2026-10-28 | academicYear, language, tuition, deadline | major, gpa |
+| 先解决未确认依据 | SG-SUSS-P029 · [Master of Sustainability Management](<https://www.suss.edu.sg/programmes/detail/master-of-sustainability-management>) | 2026-10-27 | academicYear, major, language, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUTD-P001 · [Master of Architecture](<https://www.sutd.edu.sg/programme-listing/master-of-architecture-programme/>) | 2026-10-23 | language, tuition | gpa |
+| 先解决未确认依据 | SG-SUTD-P002 · [MSc Technology and Design (Human-Centred AI for Venture Innovation)](<https://www.sutd.edu.sg/programme-listing/mtd-human-centred-ai-for-venture-innovation/application/>) | 2026-10-23 | academicYear, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUTD-P004 · [MSc Design and Artificial Intelligence for Enterprise](<https://www.sutd.edu.sg/programme-listing/master-of-science-in-design-and-artificial-intelligence-for-enterprise>) | 2026-11-03 | academicYear, tuition, deadline | gpa |
+| 先解决未确认依据 | SG-SUTD-P006 · [Master of Science in Security by Design](<https://www.sutd.edu.sg/programme-listing/mssd/>) | 2026-11-03 | language, tuition | gpa |
+| 先解决未确认依据 | SG-SUTD-P007 · [Master of Science in Technology and Design (Advanced IC Design and Technology)](<https://www.sutd.edu.sg/programme-listing/mtd-advanced-ic-design-technology/>) | 2026-11-03 | language | gpa |
+| 先解决未确认依据 | SG-SUTD-P009 · [Master of Science in Technology and Design (Architectural Design Computation)](<https://www.sutd.edu.sg/programme-listing/mtd-architectural-design-computation/>) | 2026-11-03 | language | gpa |
+| 先解决未确认依据 | SG-SUTD-P011 · [Master of Science in Technology and Design (Cybersecurity)](<https://www.sutd.edu.sg/programme-listing/mtd-cybersecurity/>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | SG-SUTD-P012 · [Master of Science in Technology and Design (Data Science)](<https://www.sutd.edu.sg/programme-listing/mtd-data-science/>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | SG-SUTD-P013 · [Master of Science in Technology and Design (HealthTech Innovation)](<https://www.sutd.edu.sg/programme-listing/mtd-healthtech-innovation/>) | 2026-11-03 | language | gpa |
+| 先解决未确认依据 | SG-SUTD-P014 · [Master of Science in Technology and Design (Human-Centred Design)](<https://www.sutd.edu.sg/programme-listing/mtd-human-centred-design/>) | 2026-11-03 | tuition | gpa |
+| 先解决未确认依据 | SG-SUTD-P019 · [Master of Science in Urban Science, Policy and Planning](<https://www.sutd.edu.sg/programme-listing/muspp/overview/programme-overview>) | 2026-11-03 | language, tuition | gpa |
+| 待独立核对 | HK-CITYU-P001 · [MSc Professional Accounting and Corporate Governance](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p10>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P002 · [Master of Business Administration](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P004 · [MSc Applied Economics](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p13>) | 2026-10-20 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P005 · [MSc Financial Engineering](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p15>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P006 · [MSc Digital Transformation and Technological Innovation](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p16>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P008 · [MA Public Policy and Management](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p27>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P009 · [MSc Civil Infrastructure and Building Sustainability](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p60>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P010 · [MSc Computer Science](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53>) | 2026-10-20 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P011 · [MA Applied Social Sciences](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p77>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P012 · [MA Chinese and History](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-chinese-and-history/p34>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P013 · [MA Communication and New Media](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-media-and-communication/p25>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P014 · [MA Creative Media](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-creative-media/school-of-creative-media/p81>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P015 · [MA English Studies](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-english/p40>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P016 · [MA Global Business Management](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p07>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P017 · [MA Housing and Urban Management](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p78>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P018 · [MA Integrated Marketing Communication](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-media-and-communication/p39>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P019 · [MA International Accounting](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-accountancy/p02>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P020 · [MA International Studies](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p38>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P021 · [MA Language Studies](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-linguistics-and-translation/p30>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P022 · [Master of Architecture](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p82>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P023 · [Master of Laws](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p46>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P024 · [Master of Laws in Arbitration and Dispute Resolution](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-law/school-of-law/p41>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P025 · [Master of Public Health](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/jockey-club-college-of-veterinary-medicine-and-life-sciences/department-of-infectious-diseases-and-public-health/p96>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P026 · [Master of Social Work](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p71>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P027 · [Master of Urban Design and Regional Planning](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p64>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P028 · [Master of Veterinary Medicine](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/jockey-club-college-of-veterinary-medicine-and-life-sciences/department-of-veterinary-clinical-sciences/p99>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P029 · [MFA Creative Media](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/school-of-creative-media/school-of-creative-media/p80>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P030 · [MSc AI-Driven Innovation](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p89>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P031 · [MSc Artificial Intelligence](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p75>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P033 · [MSc Artificial Intelligence in Business](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p85>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P034 · [MSc Biomedical Engineering](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-engineering/p69>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P035 · [MSc Biostatistics](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-biostatistics/p97>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P036 · [MSc Business and Data Analytics](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p84>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P038 · [MSc Chemistry](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-chemistry/p67>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P039 · [MSc Computer and Information Engineering](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p59>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P040 · [MSc Cybersecurity](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p91>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P041 · [MSc Data Science](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-data-science/p70>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P042 · [MSc Electrical and Electronic Engineering](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P044 · [MSc Engineering Management](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p56>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P045 · [MSc Finance](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-economics-and-finance/p04>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P047 · [MSc FinTech and Digital Assets](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p94>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P048 · [MSc Health Sciences and Biomedicine](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-biomedical-sciences/p95>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P049 · [MSc Intelligent Construction and Project Management](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-architecture-and-civil-engineering/p52>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P050 · [MSc Intelligent Semiconductor Manufacturing](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P051 · [MSc Management and Innovation](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-management/p19>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P052 · [MSc Marketing](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-marketing/p18>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P053 · [MSc Materials Science and Engineering](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-materials-science-and-engineering/p58>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P054 · [MSc Mechanical Engineering](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-mechanical-engineering/p66>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P055 · [MSc Neuroscience](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-biomedicine/department-of-neuroscience/p98>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P056 · [MSc Operations and Supply Chain Management](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-decision-analytics-and-operations/p09>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P057 · [MSc Physics with Data Modelling and Quantum Technologies](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-science/department-of-physics/p50>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P058 · [MSc Venture Creation](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CITYU-P059 · [MSocSc Counselling](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p20>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P060 · [MSocSc Cross Sectoral Leadership (Taught in Chinese)](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/college-of-liberal-arts-and-social-sciences/p92>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P061 · [MSocSc Psychology](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-social-and-behavioural-sciences/p76>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-CITYU-P062 · [MSocSc Sustainability and Development Studies](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-liberal-arts-and-social-sciences/department-of-public-and-international-affairs/p37>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CUHK-P087 · [MSc in Electronic Engineering](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CUHK-P092 · [MSc in Financial Technology](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-financial-technology>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CUHK-P097 · [MSc in Information Engineering](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-information-engineering>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-CUHK-P108 · [MSc in Microelectronics and Integrated Circuits](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-EDUHK-P003 · [Master of Global Management](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-global-management>) | 2026-11-04 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-EDUHK-P027 · [Master of Arts in Mathematics and Pedagogy](<https://www.eduhk.hk/mit/en/mamp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-EDUHK-P031 · [Master of Arts in Personal Finance](<https://www.eduhk.hk/ssps/mapf>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-EDUHK-P036 · [Master of Arts in Teaching English to Speakers of Other Languages](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-english-to-speakers-of-other-languages-matesol/>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-EDUHK-P038 · [Master of Arts in Visual Arts Education and Creative Practice](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-visual-arts-education-and-creative-practice-mavaecp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-EDUHK-P041 · [Master of Laws in Digital Governance](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-laws-in-digital-governance>) | 2026-11-04 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-EDUHK-P042 · [Master of Laws in National Security Law](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL>) | 2026-11-04 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-EDUHK-P043 · [Master of Occupational Therapy](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-occupational-therapy>) | 2026-11-04 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-EDUHK-P058 · [Master of Social Sciences in Therapeutic Play and Well-Being](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P001 · [MA Communication](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P002 · [MA International Journalism Studies](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-international-journalism-studies>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P003 · [MSocSc Media Management](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-media-management>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P004 · [MSc AI and Digital Media](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P005 · [Master of Accountancy](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P006 · [MSc Applied Economics](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-economics>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P007 · [MSc Business Management](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P008 · [Executive Master of Business Administration (Business + Communication in the AI Age)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/executive-master-of-business-administration-business-communication-in-the-ai-age>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P009 · [Master of Arts (MA) in Chinese Literature, Language and Culture](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-chinese-literature-language-and-culture>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P010 · [Master of Arts (MA) in Creative Writing for Cultural Professionals](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-creative-writing-for-cultural-professionals>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P011 · [Master of Arts (MA) in Ethics and Public Affairs](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-ethics-and-public-affairs>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P012 · [Master of Arts (MA) in Global Society](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-global-society>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P013 · [Master of Arts (MA) in Language Studies](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-language-studies>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P014 · [Master of Arts (MA) in Literary and Comparative Studies](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-literary-and-comparative-studies>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P015 · [Master of Arts (MA) in Music](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-music>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P016 · [Master of Arts (MA) in Producing for Film, Television and New Media](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-producing-for-film-television-and-new-media>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P017 · [Master of Arts (MA) in Translation and Bilingual Communication](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-translation-and-bilingual-communication>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P018 · [Master of Arts (MA) in Visual Arts](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-visual-arts>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P020 · [Master of Chinese Medicine (MCM)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-chinese-medicine-mcm>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P021 · [Master of Education (MEd)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-education-med>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P022 · [Master of Fine Arts (MFA) in Cinematic Arts and Creative Practice](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-fine-arts-mfa-in-cinematic-arts-and-creative-practice>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P023 · [Master of Human Resources Management (MHRM)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P024 · [Master of Pharmaceutical Sciences in Chinese Medicine (MPS)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-pharmaceutical-sciences-in-chinese-medicine-mps>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P025 · [Master of Public Administration (MPA)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-public-administration-mpa>) | 2026-10-31 | 另查人工条件与完整性 | 无此标签 |
+| 待独立核对 | HK-HKBU-P026 · [Master of Science (MSc) in AI for Business](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-for-business>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P027 · [Master of Science (MSc) in Analytical Chemistry](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P028 · [Master of Science (MSc) in Applied Accounting and Finance](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P029 · [Master of Science (MSc) in Corporate Governance and Compliance](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-corporate-governance-and-compliance>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P030 · [Master of Science (MSc) in Data Analytics and Artificial Intelligence](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P031 · [Master of Science (MSc) in Data Analytics and Business Economics](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P032 · [Master of Science (MSc) in Drug Discovery (Modernization of Chinese Medicine) (MDD)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-drug-discovery-modernization-of-chinese-medicine-mdd>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P034 · [Master of Science (MSc) in Environmental and Public Health Management](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P035 · [Master of Science (MSc) in Finance (FinTech and Financial Analytics)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-finance-fintech-and-financial-analytics>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P036 · [Master of Science (MSc) in Green Technology (Energy)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P037 · [Master of Science (MSc) in Information Technology Management](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P038 · [Master of Science (MSc) in Marketing for the Creative Economy](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-marketing-for-the-creative-economy>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P039 · [Master of Science (MSc) in Mathematical Finance](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-mathematical-finance>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P040 · [Master of Science (MSc) in Operational Research & Business Statistics](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P041 · [Master of Science (MSc) in Personal Health Management (Chinese Medicine) (MHM)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-personal-health-management-chinese-medicine-mhm>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P042 · [Master of Science in Family Office Management](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P043 · [Master of Social Sciences (MSocSc) (Contemporary China Studies)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-contemporary-china-studies>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P045 · [Master of Social Sciences (MSocSc) in Psychology](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-psychology>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P046 · [Master of Social Sciences (MSocSc) in Smart, Resilient and Sustainable Cities](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-smart-resilient-and-sustainable-cities>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKBU-P047 · [Master of Social Sciences (MSocSc) in Social Work](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-social-work>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P048 · [Master of Social Sciences (MSocSc) in Sport and Leisure Management](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-sport-and-leisure-management>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKBU-P049 · [Master of Social Work (MSW)](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-work-msw>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P002 · [Master of Digital Urban Management](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-digital-urban-management-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P004 · [Master of Landscape Architecture](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-landscape-architecture-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P005 · [MSc Construction Project Management](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-construction-project-management-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P006 · [MSc Real Estate](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-real-estate-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P007 · [MSc Urban Analytics](<https://www.arch.hku.hk/programmes/upad/master-of-science-in-urban-analytics/admission/>) | 2026-10-23 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P009 · [MA Chinese Language and Literature](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-language-and-literature-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P011 · [MA Translation](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-translation-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P017 · [MSc Financial Technology and Data Analytics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-financial-technology-and-data-analytics-cds&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P018 · [Master of Data Science](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-data-science-cds&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P019 · [Master of Public Health](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P020 · [Master of International and Public Affairs](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-international-and-public-affairs-socsc&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P023 · [Master of Social Work](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-work-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P025 · [Master of Accounting](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P026 · [Master of Accounting Analytics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-accounting-analytics-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P027 · [Master of Advanced Pharmacy](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-advanced-pharmacy-med&mode=0>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P028 · [Master of Architecture (Design)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(design)-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P029 · [Master of Artificial Intelligence in Business](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-artificial-intelligence-in-business-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P030 · [Master of Arts in Applied Linguistics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-applied-linguistics-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P031 · [Master of Arts in Art History](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-art-history-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P032 · [Master of Arts in Chinese Historical Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-chinese-historical-studies-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P033 · [Master of Arts in Creative Artificial Intelligence Film and Media](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-creative-artificial-intelligence-filmmaking-and-media-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P034 · [Master of Arts in Creative Communications](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-creative-communications-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P035 · [Master of Arts in East Asian Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-east-asian-studies-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P036 · [Master of Arts in English Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-english-studies-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P037 · [Master of Arts in European Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-european-studies-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P038 · [Master of Arts in Hong Kong Cultural Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-hong-kong-cultural-studies-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P040 · [Master of Arts in Linguistics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-linguistics-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P041 · [Master of Arts in Literary and Cultural Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-literary-and-cultural-studies-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P042 · [Master of Arts in Music Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-music-studies-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P043 · [Master of Arts in Philosophy, Politics and Economics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-the-field-of-philosophy%2C-politics-and-economics-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P044 · [Master of Biomedical Innovation](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-biomedical-innovation-med&mode=0>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P046 · [Master of Buddhist Studies](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-buddhist-studies-arts&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P050 · [Master of Climate Governance and Risk Management](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-climate-governance-and-risk-management-socsc&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P051 · [Master of Clinical Research and Product Development](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-clinical-research-and-product-development-med&mode=0>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P052 · [Master of Community Health Care](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-community-health-care-med&mode=0>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P053 · [Master of Economics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-economics-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P054 · [Master of Expressive Arts Therapy](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-expressive-arts-therapy-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P055 · [Master of Family Wealth Management](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-family-wealth-management-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P056 · [Master of Finance](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P057 · [Master of Finance in Financial Technology](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-finance-in-financial-technology-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P058 · [Master of Fine Arts in Creative Writing in English](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-fine-arts-in-the-field-of-creative-writing-in-english-arts&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P059 · [Master of Global Management](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-global-management-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P060 · [Master of Governance and Policy](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-governance-and-policy-sgp&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P061 · [Master of Public Administration](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-administration-socsc&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P062 · [Master of Science in Applied Geosciences](<https://portal.hku.hk/tpg-admissions/programme-details?programme=msc-in-the-field-of-applied-geosciences-sci&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P063 · [Master of Science in Business Analytics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-business-analytics-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P064 · [Master of Science in Chemical Technologies for Health and Materials](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-chemical-technologies-for-health-and-materials-sci&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P066 · [Master of Science in Digital Management of Built Assets](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-digital-management-of-built-assets-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P067 · [Master of Science in Electronic Commerce and Internet Computing](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-electronic-commerce-and-internet-computing-cds&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P068 · [Master of Science in Engineering (Building Services Engineering)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(building-services-engineering)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P071 · [Master of Science in Engineering (Energy Engineering)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(energy-engineering)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P072 · [Master of Science in Engineering (Industrial Engineering and Logistics Management)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(industrial-engineering-and-logistics-management)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P074 · [Master of Science in Engineering (Innovative Design and Technology)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(innovative-design-and-technology)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P075 · [Master of Science in Engineering (Integrated Circuits and Electronic Systems)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(integrated-circuits-and-electronic-systems)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P076 · [Master of Science in Engineering (Intelligent Networks and Information Engineering)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(intelligent-networks-and-information-engineering)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P077 · [Master of Science in Engineering (Low-Altitude Technology)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(low-altitude-technology)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P078 · [Master of Science in Engineering (Materials Engineering and Advanced Manufacturing)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(materials-engineering-and-advanced-manufacturing)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P079 · [Master of Science in Engineering (Mechanical Engineering)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(mechanical-engineering)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P080 · [Master of Science in Engineering (Microelectronics Science and Technology)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(microelectronics-science-and-technology)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P081 · [Master of Science in Engineering (Robotics and Intelligent Systems)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(robotics-and-intelligent-systems)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P082 · [Master of Science in Engineering (Sustainability Engineering)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(sustainability-engineering)-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P083 · [Master of Science in Food Safety and Toxicology](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-food-safety-and-toxicology-sci&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P085 · [Master of Science in Integrative Marine Ecology and Conservation](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-integrative-marine-ecology-and-conservation-sci&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P086 · [Master of Science in Marketing](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-marketing-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P087 · [Master of Science in Physics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-the-field-of-physics-sci&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P088 · [Master of Science in Sustainable Environmental Design](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-sustainable-environmental-design-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKU-P090 · [Master of Social Sciences in Counselling](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-counselling-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P092 · [Master of Social Sciences in Gerontology](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-gerontology-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P094 · [Master of Social Sciences in Nonprofit Management](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-nonprofit-management-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P095 · [Master of Social Sciences in Population and Policy Analysis](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-population-and-policy-analysis-socsc&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P096 · [Master of Social Sciences in Social Data Analytics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-social-data-analytics-socsc&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P097 · [Master of Social Sciences in Sociology](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-sociology-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P099 · [Master of Statistics](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-statistics-cds&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P100 · [Master of Sustainable Accounting and Finance](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-sustainable-accounting-and-finance-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKU-P103 · [Master of Wealth Management](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-wealth-management-hkubs&mode=0>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P001 · [MSc Civil Infrastructural Engineering and Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P002 · [MSc Digital and Sustainable Cities](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P004 · [Master of Public Policy](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpp>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P006 · [MA Arts and Machine Creativity](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P007 · [MA Chinese Culture](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P008 · [MA International Language Education](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile>) | 2026-10-31 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P009 · [MA Social Science](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-ma-sosc>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P011 · [Master of Public Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P012 · [MSc Accounting](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-acct>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P014 · [MSc Analytical Chemistry](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P015 · [MSc Artificial Intelligence](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P016 · [MSc Big Data Technology](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P017 · [MSc Biomolecular Engineering and Health Informatics](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P018 · [MSc Biotechnology](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P019 · [MSc Business Analytics](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P020 · [MSc Chemical and Energy Engineering](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P021 · [MSc Data-Driven Modeling](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ddm>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P022 · [MSc Drug Regulatory Affairs and Policy](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P023 · [MSc Economics](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P024 · [MSc Electronic Engineering](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P025 · [MSc Engineering Enterprise Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P026 · [MSc Entrepreneurial Leadership in Biotechnology](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P027 · [MSc Environmental Engineering and Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P028 · [MSc Environmental Health and Safety](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P029 · [MSc Environmental Science, Management and Sustainability](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P030 · [MSc Family Office and Family Business](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fofb>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P031 · [MSc Finance](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina>) | 2026-10-31 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P032 · [MSc Financial Mathematics](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mafm>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P033 · [MSc Financial Technology](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fintech>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P034 · [MSc Global China Studies](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs>) | 2026-10-30 | 另查人工条件与完整性 | major |
+| 待独立核对 | HK-HKUST-P036 · [MSc Global Operations](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-go>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P037 · [MSc Information and Cyber Security Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-icsm>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P038 · [MSc Information Systems Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ism>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P039 · [MSc Information Technology](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P040 · [MSc Integrated Circuits](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P041 · [MSc Intelligent Building Technology and Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P042 · [MSc International Management](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-imt>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P043 · [MSc Marketing](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mark>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P044 · [MSc Materials Engineering](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P045 · [MSc Mathematics for Educators](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P046 · [MSc Mechanical Engineering](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P047 · [MSc Physics](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-HKUST-P048 · [MSc Technology Leadership and Entrepreneurship](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle>) | 2026-10-30 | 另查人工条件与完整性 | major, gpa |
+| 待独立核对 | HK-HKUST-P049 · [MSc Telecommunications](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-telecom>) | 2026-10-30 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P001 · [MA International Higher Education and Management](<https://www.ln.edu.hk/sgs/ihem/admission>) | 2026-10-23 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P002 · [Master of Social Sciences in Comparative Public Administration](<https://www.ln.edu.hk/sgs/cpa>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P003 · [Master of China and Regional Development Studies](<https://www.ln.edu.hk/sgs/crds>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P004 · [Master of Cities and Governance](<https://www.ln.edu.hk/sgs/mcg>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P006 · [Master of Science in Health Analytics and Management](<https://www.ln.edu.hk/sgs/ham>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P007 · [Master of Social Sciences in Health and Social Services Management](<https://www.ln.edu.hk/sgs/mhsm>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P009 · [Master of Arts in Social Entrepreneurship and Innovation Management](<https://www.ln.edu.hk/sgs/seim>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P010 · [Master of Accountancy](<https://www.ln.edu.hk/acct/macc>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P011 · [Master of Arts in Artificial Intelligence and the Future](<https://www.ln.edu.hk/philoso/hkcrc/maaif>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P012 · [Master of Arts in Chinese](<https://www.ln.edu.hk/chi/machi>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P014 · [Master of Arts in Curating and Art History](<https://www.ln.edu.hk/daci/macah>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P017 · [Master of Arts in International Affairs](<https://www.ln.edu.hk/gia/maia>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P018 · [Master of Arts in Language, Communication, and Technology](<https://www.ln.edu.hk/lit/programmes/malct>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P022 · [Master of Science in Agentic AI Systems](<https://www.ln.edu.hk/sds/dai/mscaais>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P023 · [Master of Science in Artificial Intelligence and Business Analytics](<https://www.ln.edu.hk/sds/dai/mscaiba>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P024 · [Master of Science in Arts Technology and Business](<https://www.ln.edu.hk/fb/mscatb/home>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P025 · [Master of Science in Business Innovation and Entrepreneurship](<https://www.ln.edu.hk/fb/mscbie>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P027 · [Master of Science in Data Science](<https://www.ln.edu.hk/sds/dai/mscds>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P029 · [Master of Science in Environmental, Social, and Governance Management](<https://www.ln.edu.hk/acct/mscesgm>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P031 · [Master of Science in Human Resource and Organisational Management](<https://www.ln.edu.hk/mgt/hrom>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P033 · [Master of Science in Innovative Design and Artificial Intelligence](<https://www.ln.edu.hk/sds/dids/idai>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P034 · [Master of Science in International and Development Economics](<https://www.ln.edu.hk/econ/mide>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P037 · [Master of Science in Risk, Insurance and Actuarial Analytics](<https://www.ln.edu.hk/orm/mscriaa>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P038 · [Master of Science in Smart City Technologies and Applications](<https://www.ln.edu.hk/sds/dids/scta>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P041 · [Master of Social Sciences in Applied Psychology](<https://www.ln.edu.hk/psy/mssap/home>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-LU-P043 · [Master of Social Sciences in Organisational Psychology and Education Management](<https://www.ln.edu.hk/psy/opem>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P001 · [MSc Business Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/02022-mmf-mmp>) | 2026-10-23 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P007 · [MA Chinese Culture](<https://www.polyu.edu.hk/study/pg/tpg/2027/77002-maf-map>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P010 · [MSc Biopharmaceutical Development and Commercialization](<https://www.polyu.edu.hk/study/pg/tpg/2027/17004-mft-mpt>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P011 · [MSc Sustainable Technology for Carbon Neutrality](<https://www.polyu.edu.hk/study/pg/tpg/2027/16005-mft-mpt>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P017 · [MA Guidance and Counselling](<https://www.polyu.edu.hk/study/pg/tpg/2027/54047-gcf-gcp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P018 · [MA Mental Health](<https://www.polyu.edu.hk/study/pg/tpg/2027/54047-fmh-pmh>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P019 · [MA School and Community Psychology](<https://www.polyu.edu.hk/study/pg/tpg/2027/54072-ft-pt>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P020 · [MA Social Policy and Social Development](<https://www.polyu.edu.hk/study/pg/tpg/2027/54055-sdf-sdp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P025 · [Master of Corporate Governance](<https://www.polyu.edu.hk/study/pg/tpg/2027/21047-cgf-cgp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P030 · [Master of Professional Accounting](<https://www.polyu.edu.hk/study/pg/tpg/2027/21046-maf-paf-mae-pap>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P031 · [Master of Social Work](<https://www.polyu.edu.hk/study/pg/tpg/2027/54047-msw>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P032 · [Master of Technology Entrepreneurship](<https://www.polyu.edu.hk/study/pg/tpg/2027/07001-fte-pte>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P033 · [MSc Accountancy](<https://www.polyu.edu.hk/study/pg/tpg/2027/21049-afm-apm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P034 · [MSc Accounting and Finance Analytics](<https://www.polyu.edu.hk/study/pg/tpg/2027/21052-fam-pam>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P035 · [MSc Actuarial and Investment Science](<https://www.polyu.edu.hk/study/pg/tpg/2027/63032-afm-apm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P036 · [MSc Advanced Photonic Technology and Materials](<https://www.polyu.edu.hk/study/pg/tpg/2027/11045-mft-mpt>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P039 · [MSc Agentic AI Systems](<https://www.polyu.edu.hk/study/pg/tpg/2027/61040-fas-pas>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P040 · [MSc AI for Architectural and Habitat Design](<https://www.polyu.edu.hk/study/pg/tpg/2027/35002-afm-apm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P042 · [MSc Asset and Wealth Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/02029-dfm-dpm-ffm-fpm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P046 · [MSc Brain-Machine Interface](<https://www.polyu.edu.hk/study/pg/tpg/2027/47007-bmf-bmp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P048 · [MSc Business Analytics](<https://www.polyu.edu.hk/study/pg/tpg/2027/23090-maf-map>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P055 · [MSc Economics](<https://www.polyu.edu.hk/study/pg/tpg/2027/21055-aem-dem>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P060 · [MSc ESG and Sustainability](<https://www.polyu.edu.hk/study/pg/tpg/2027/21054-efm-epm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P065 · [MSc Global Business and Decision Analysis](<https://www.polyu.edu.hk/study/pg/tpg/2027/44094-bfm-bpm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P066 · [MSc Global Food Safety Management and Risk Analysis](<https://www.polyu.edu.hk/study/pg/tpg/2027/15057-mft>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P067 · [MSc Global Supply Chain Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/44089-sfm-sfp-gpm-spp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P068 · [MSc Human Resource Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/23090-mhf-mhp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P071 · [MSc Innovative Multimedia Entertainment](<https://www.polyu.edu.hk/study/pg/tpg/2027/73040-ftm-ptm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P075 · [MSc International Management and Leadership](<https://www.polyu.edu.hk/study/pg/tpg/2027/23090-mlf-mlp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P077 · [MSc Knowledge and Technology Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/45100-mt-mtt>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P080 · [MSc Marketing Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/23090-mkf-mkp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P082 · [MSc Mathematics for Artificial Intelligence Technology](<https://www.polyu.edu.hk/study/pg/tpg/2027/63031-afm-apm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P087 · [MSc Medical Physics](<https://www.polyu.edu.hk/study/pg/tpg/2027/55005-msf-msp>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P090 · [MSc Microelectronics Technology and Materials](<https://www.polyu.edu.hk/study/pg/tpg/2027/11044-mft>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P092 · [MSc Operational Research and Risk Analysis](<https://www.polyu.edu.hk/study/pg/tpg/2027/63024-ofm-opm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P093 · [MSc Operations Management](<https://www.polyu.edu.hk/study/pg/tpg/2027/44092-ofm-opm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | HK-POLYU-P100 · [MSc Vision Science and Innovation](<https://www.polyu.edu.hk/study/pg/tpg/2027/52049-ftm-ptm>) | 2026-11-04 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-NTU-P047 · [Master of Science in Artificial Intelligence](<https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-NTU-P062 · [Master of Science in Data Science](<https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-data-science-(msds)>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-NUS-P029 · [Master of Computing (General Track)](<https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/>) | 2026-10-22 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-NUS-P032 · [MSc Data Science and Machine Learning](<https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/>) | 2026-10-24 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-SMU-P001 · [Master of Professional Accounting](<https://masters.smu.edu.sg/programme/master-of-professional-accounting>) | 2026-10-20 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-SUTD-P010 · [Master of Science in Technology and Design (Artificial Intelligence)](<https://www.sutd.edu.sg/programme-listing/mtd-artificial-intelligence/>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-SUTD-P016 · [Master of Science in Technology and Design (Integrated Photonics For Semiconductor Technology)](<https://www.sutd.edu.sg/programme-listing/mtd-integrated-photonics-for-semiconductor-technology/>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-SUTD-P017 · [Master of Science in Technology and Design (Robotics & Automation)](<https://www.sutd.edu.sg/programme-listing/mtd-robotics-automation/>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 待独立核对 | SG-SUTD-P018 · [Master of Science in Technology and Design (Urban Innovation and Design)](<https://www.sutd.edu.sg/programme-listing/mtd-urban-innovation-and-design/>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 仅保留归档／排除 | HK-HKU-P003 · [Master of Housing Management](<https://www.arch.hku.hk/programmes/upad/master-of-urban-studies-and-housing-management/>) | 2026-11-03 | 另查人工条件与完整性 | 无此标签 |
+| 仅保留归档／排除 | HK-HKUST-P003 · [MEng Digital and Sustainable Cities](<https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc>) | 2026-10-06 | academicYear, major, gpa, language, tuition, deadline | 无此标签 |
+| 仅保留归档／排除 | SG-SUTD-P005 · [MSc Technology and Design (AI and Technology in Education)](<https://www.sutd.edu.sg/programme-listing/mtd-ai-and-technology-in-education/>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 仅保留归档／排除 | SG-SUTD-P008 · [Master of Science in Technology and Design (AI and Technology in Finance)](<https://www.sutd.edu.sg/programme-listing/mtd-ai-and-technology-in-finance/>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+| 仅保留归档／排除 | SG-SUTD-P015 · [Master of Science in Technology and Design (IC Design, Failure Analysis and Reliability)](<https://www.sutd.edu.sg/programme-listing/mtd-ic-design-failure-analysis-and-reliability/>) | 2026-11-03 | 另查人工条件与完整性 | gpa |
+
+## 方向记录（不继承兄弟方向结论）
+
+| 优先顺序 | 方向 ID／官方来源 | 原查阅日 | 尚未确认字段 |
+| --- | --- | --- | --- |
+| 先解决未确认依据 | HK-CITYU-P003-ROUTE-P01A · [Executive Master of Business Administration (Taught in Chinese)](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a>) | 2026-11-03 | tuition |
+| 先解决未确认依据 | HK-CITYU-P003-ROUTE-P12 · [Executive Master of Business Administration (EMBA)](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p12>) | 2026-11-03 | language |
+| 先解决未确认依据 | HK-EDUHK-P015-ROUTE-ZH · [Master of Arts in Digital Humanities for Cultural Professionals — Chinese (mainly Putonghua)](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp>) | 2026-11-04 | language |
+| 先解决未确认依据 | HK-EDUHK-P016-ROUTE-ZH · [Master of Arts in Digital Linguistics and Intercultural Communication — Chinese (mainly Putonghua)](<https://www.eduhk.hk/madlic>) | 2026-11-04 | language |
+| 先解决未确认依据 | HK-EDUHK-P019-ROUTE-ZH · [Master of Arts in Education for Sustainability — Chinese (mainly Putonghua)](<https://ses.eduhk.hk/en/programmes/maefscmi>) | 2026-11-04 | language |
+| 先解决未确认依据 | HK-EDUHK-P022-ROUTE-ZH · [Master of Arts in Global Histories of Education — Chinese (mainly Putonghua)](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/>) | 2026-11-04 | language |
+| 先解决未确认依据 | HK-EDUHK-P034-ROUTE-ZH · [Master of Arts in STEM Education — Chinese (mainly Putonghua)](<https://ses.eduhk.hk/sc/programmes/mastemedcmi>) | 2026-11-04 | language |
+| 先解决未确认依据 | HK-EDUHK-P046-ROUTE-ZH · [Master of Science in Artificial Intelligence for Executive Professionals — Chinese (mainly Putonghua)](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep>) | 2026-11-04 | language |
+| 先解决未确认依据 | HK-EDUHK-P049-ROUTE-EN · [Master of Science in Education Policy and Management — English](<https://www.eduhk.hk/fehd/en/programmes.php?id=9861>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-EDUHK-P049-ROUTE-ZH · [Master of Science in Education Policy and Management — Chinese (mainly Putonghua)](<https://www.eduhk.hk/fehd/en/programmes.php?id=10214>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-EDUHK-P057-ROUTE-ELITE · [Master of Social Sciences in Sports Coaching and Management — Regional/national elite-athlete consideration](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-EDUHK-P059-ROUTE-EN · [Master of Teaching — English](<https://www.eduhk.hk/fehd/en/programmes.php?id=724>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-EDUHK-P059-ROUTE-ZH · [Master of Teaching — Chinese (mainly Putonghua)](<https://www.eduhk.hk/fehd/en/programmes.php?id=10627>) | 2026-11-04 | language, tuition |
+| 先解决未确认依据 | HK-HKU-P016-ROUTE-STANDARD · [Master of Science in Computer Science (General, Cyber Security, Financial Computing and Multimedia Computing Streams)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)-cds&mode=0>) | 2026-10-21 | major, tuition |
+| 先解决未确认依据 | HK-HKU-P021-ROUTE-DOCUMENTARY · [Master of Journalism - Documentary Filmmaking Specialisation](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-arts-in-documentary-filmmaking-socsc&mode=0>) | 2026-11-01 | tuition |
+| 先解决未确认依据 | HK-HKU-P065-ROUTE-DESIGN · [Master of Science in Conservation (Design for Conservation Stream)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-(design-for-conservation-stream)-foa&mode=0>) | 2026-10-31 | tuition |
+| 先解决未确认依据 | HK-HKU-P065-ROUTE-PLANNING · [Master of Science in Conservation (Conservation Planning and Management Stream)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-conservation-foa&mode=0>) | 2026-10-31 | tuition |
+| 先解决未确认依据 | HK-HKU-P089-ROUTE-ADB · [Master of Science in Urban Planning (For ADB-Japan Scholarship Programme applicants)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0>) | 2026-10-31 | tuition |
+| 先解决未确认依据 | HK-HKU-P101-ROUTE-ADB · [Master of Urban Design (For ADB-Japan Scholarship Programme applicants)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-adb-japan-scholarship-programme-applicants)-foa&mode=0>) | 2026-10-31 | tuition |
+| 先解决未确认依据 | HK-HKUST-P010-ROUTE-REGULAR · [Master of Business Administration (MBA)](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ft-pt-mba/>) | 2026-10-31 | deadline |
+| 先解决未确认依据 | HK-LU-P005-ROUTE-LINCOLN · [MA Arts and Cultural Heritage Management — LU/Lincoln dual award](<https://www.ln.edu.hk/sgs/achm/programme-overview/programme-structure>) | 2026-11-03 | language, tuition |
+| 先解决未确认依据 | HK-POLYU-P002-ROUTE-JAN2027-34083-IFM-IPM · [Urban Informatics and Smart Cities — Jan 2027 (34083-ifm-ipm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/34083-ifm-ipm>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P002-ROUTE-SEP2027-34083-IFM-IPM · [Urban Informatics and Smart Cities — Sept 2027 (34083-ifm-ipm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/34083-ifm-ipm>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P003-ROUTE-JAN2027-48006-AMF-AMP · [Aerospace Engineering — Jan 2027 (48006-amf-amp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/48006-amf-amp>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P003-ROUTE-SEP2027-48006-AMF-AMP · [Aerospace Engineering — Sept 2027 (48006-amf-amp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/48006-amf-amp>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P008-ROUTE-JAN2027-71026-MCF-MCP-MLF-MLP · [English Studies for the Professions — Jan 2027 (71026-mcf-mcp-mlf-mlp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/71026-mcf-mcp-mlf-mlp>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P008-ROUTE-SEP2027-71026-MCF-MCP-MLF-MLP · [English Studies for the Professions — Sept 2027 (71026-mcf-mcp-mlf-mlp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/71026-mcf-mcp-mlf-mlp>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P013-ROUTE-JAN2027-72017-LLF-PDF-LLP-PDP · [Chinese Language and Literature — Jan 2027 (72017-llf-pdf-llp-pdp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/72017-llf-pdf-llp-pdp>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P013-ROUTE-SEP2027-72017-LLF-LLP-PDP · [Chinese Language and Literature — Sept 2027 (72017-llf-llp-pdp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/72017-llf-llp-pdp>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P014-ROUTE-JAN2027-72017-CLF-CLP · [Chinese Linguistics — Jan 2027 (72017-clf-clp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/72017-clf-clp>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P014-ROUTE-SEP2027-72017-CLF-CLP · [Chinese Linguistics — Sept 2027 (72017-clf-clp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/72017-clf-clp>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P022-ROUTE-JAN2027-72017-TLF-TLP · [Teaching Chinese as a Foreign Language — Jan 2027 (72017-tlf-tlp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/72017-tlf-tlp>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P022-ROUTE-SEP2027-72017-TLF-TLP · [Teaching Chinese as a Foreign Language — Sept 2027 (72017-tlf-tlp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/72017-tlf-tlp>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P041-ROUTE-JAN2027-62037-FAI-PAI · [Artificial Intelligence and Big Data Computing — Jan 2027 (62037-fai-pai)](<https://www.polyu.edu.hk/study/pg/tpg/20262/62037-fai-pai>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P044-ROUTE-JAN2027-47002-BMF-BMP · [Biomedical Engineering — Jan 2027 (47002-bmf-bmp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/47002-bmf-bmp>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P045-ROUTE-JAN2027-61036-FBT-PBT · [Blockchain Technology — Jan 2027 (61036-fbt-pbt)](<https://www.polyu.edu.hk/study/pg/tpg/20262/61036-fbt-pbt>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P049-ROUTE-JAN2027-33088-CFM-CPM · [Carbon Neutral Cities and Urban Sustainability — Jan 2027 (33088-cfm-cpm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/33088-cfm-cpm>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P049-ROUTE-SEP2027-33088-CFM-CPM · [Carbon Neutral Cities and Urban Sustainability — Sept 2027 (33088-cfm-cpm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/33088-cfm-cpm>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P050-ROUTE-JAN2027-31077-CFM-CPM · [Civil Engineering — Jan 2027 (31077-cfm-cpm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/31077-cfm-cpm>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P051-ROUTE-JAN2027-32111-RFM-RPM · [Construction and Real Estate — Jan 2027 (32111-rfm-rpm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/32111-rfm-rpm>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P052-ROUTE-JAN2027-61039-FCY-PCY · [Cybersecurity — Jan 2027 (61039-fcy-pcy)](<https://www.polyu.edu.hk/study/pg/tpg/20262/61039-fcy-pcy>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P053-ROUTE-JAN2027-62027-DFM-DPM · [Data Science and Analytics — Jan 2027 (62027-dfm-dpm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/62027-dfm-dpm>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P056-ROUTE-JAN2027-46012-EV-EVT · [Electric Vehicles — Jan 2027 (46012-ev-evt)](<https://www.polyu.edu.hk/study/pg/tpg/20262/46012-ev-evt>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P056-ROUTE-SEP2027-46012-EV-EVT · [Electric Vehicles — Sept 2027 (46012-ev-evt)](<https://www.polyu.edu.hk/study/pg/tpg/2027/46012-ev-evt>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P058-ROUTE-JAN2027-46011-EIE-EIT · [Electronic and Information Engineering — Jan 2027 (46011-eie-eit)](<https://www.polyu.edu.hk/study/pg/tpg/20262/46011-eie-eit>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P058-ROUTE-SEP2027-46011-EIE-EIT · [Electronic and Information Engineering — Sept 2027 (46011-eie-eit)](<https://www.polyu.edu.hk/study/pg/tpg/2027/46011-eie-eit>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P059-ROUTE-JAN2027-31078-EFM-EPM · [Environmental Management and Engineering — Jan 2027 (31078-efm-epm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/31078-efm-epm>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P064-ROUTE-JAN2027-34084-GFM-GPM · [Geomatics — Jan 2027 (34084-gfm-gpm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/34084-gfm-gpm>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P064-ROUTE-SEP2027-34084-GFM-GPM · [Geomatics — Sept 2027 (34084-gfm-gpm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/34084-gfm-gpm>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P069-ROUTE-JAN2027-45100-MLS-ML · [Industrial Logistics Systems — Jan 2027 (45100-mls-ml)](<https://www.polyu.edu.hk/study/pg/tpg/20262/45100-mls-ml>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P070-ROUTE-JAN2027-61030-FIT-PIT · [Information Technology — Jan 2027 (61030-fit-pit)](<https://www.polyu.edu.hk/study/pg/tpg/20262/61030-fit-pit>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P072-ROUTE-JAN2027-32114-IFM-IPM · [Intelligent Construction — Jan 2027 (32114-ifm-ipm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/32114-ifm-ipm>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P073-ROUTE-JAN2027-43101-IR-IRT · [Intelligent Robotics Engineering — Jan 2027 (43101-ir-irt)](<https://www.polyu.edu.hk/study/pg/tpg/20262/43101-ir-irt>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P073-ROUTE-SEP2027-43101-IR-IRT · [Intelligent Robotics Engineering — Sept 2027 (43101-ir-irt)](<https://www.polyu.edu.hk/study/pg/tpg/2027/43101-ir-irt>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P076-ROUTE-SEP2027-44087-ISS · [International Shipping and Transport Logistics — Sept 2027 (44087-iss)](<https://www.polyu.edu.hk/study/pg/tpg/2027/44087-iss>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P079-ROUTE-JAN2027-48007-LMF-LMP · [Low-altitude Economy — Jan 2027 (48007-lmf-lmp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/48007-lmf-lmp>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P079-ROUTE-SEP2027-48007-LMF-LMP · [Low-altitude Economy — Sept 2027 (48007-lmf-lmp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/48007-lmf-lmp>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P083-ROUTE-JAN2027-43100-ME-MET · [Mechanical Engineering — Jan 2027 (43100-me-met)](<https://www.polyu.edu.hk/study/pg/tpg/20262/43100-me-met>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P083-ROUTE-SEP2027-43100-ME-MET · [Mechanical Engineering — Sept 2027 (43100-me-met)](<https://www.polyu.edu.hk/study/pg/tpg/2027/43100-me-met>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P088-ROUTE-JAN2027-61038 · [Metaverse Technology — Jan 2027 (61038)](<https://www.polyu.edu.hk/study/pg/tpg/20262/61038>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P089-ROUTE-JAN2027-46013-MQS-MQT · [Microelectronics and Quantum Systems Engineering — Jan 2027 (46013-mqs-mqt)](<https://www.polyu.edu.hk/study/pg/tpg/20262/46013-mqs-mqt>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P089-ROUTE-SEP2027-46013-MQS-MQT · [Microelectronics and Quantum Systems Engineering — Sept 2027 (46013-mqs-mqt)](<https://www.polyu.edu.hk/study/pg/tpg/2027/46013-mqs-mqt>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P094-ROUTE-JAN2027-32113-PFM-PPM · [Project Management — Jan 2027 (32113-pfm-ppm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/32113-pfm-ppm>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P095-ROUTE-JAN2027-63029-QFM-QPM · [Quantitative Finance and FinTech — Jan 2027 (63029-qfm-qpm)](<https://www.polyu.edu.hk/study/pg/tpg/20262/63029-qfm-qpm>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P096-ROUTE-JAN2027-48008-SMF-SMP · [Satellite Engineering — Jan 2027 (48008-smf-smp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/48008-smf-smp>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P096-ROUTE-SEP2027-48008-SMF-SMP · [Satellite Engineering — Sept 2027 (48008-smf-smp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/48008-smf-smp>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | HK-POLYU-P097-ROUTE-JAN2027-45100-SMF-SMP · [Smart Manufacturing — Jan 2027 (45100-smf-smp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/45100-smf-smp>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P098-ROUTE-JAN2027-47005-STF-STP · [Sports Technology and Management — Jan 2027 (47005-stf-stp)](<https://www.polyu.edu.hk/study/pg/tpg/20262/47005-stf-stp>) | 2026-11-04 | deadline |
+| 先解决未确认依据 | HK-POLYU-P099-ROUTE-JAN2027-43102-SE-SET · [Sustainable Energy — Jan 2027 (43102-se-set)](<https://www.polyu.edu.hk/study/pg/tpg/20262/43102-se-set>) | 2026-11-04 | tuition, deadline |
+| 先解决未确认依据 | HK-POLYU-P099-ROUTE-SEP2027-43102-SE-SET · [Sustainable Energy — Sept 2027 (43102-se-set)](<https://www.polyu.edu.hk/study/pg/tpg/2027/43102-se-set>) | 2026-11-04 | tuition |
+| 先解决未确认依据 | SG-NTU-P061-ROUTE-CRYPTO · [Master of Science in Cybersecurity (Applied Cryptography)](<https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-master-of-science-in-cybersecurity-applied-cryptography>) | 2026-10-16 | academicYear, major, language, tuition, deadline |
+| 先解决未确认依据 | SG-NTU-P061-ROUTE-CYBER · [Master of Science in Cybersecurity (Applied Cybersecurity)](<https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-cybersecurity-(applied-cybersecurity>) | 2026-10-16 | academicYear, major, language, deadline |
+| 先解决未确认依据 | SG-SMU-P014-ROUTE-CROSSBORDER · [Cross-Border Business and Finance Law in Asia Track](<https://masters.smu.edu.sg/programme/master-of-laws>) | 2026-10-28 | major, language, tuition |
+| 先解决未确认依据 | SG-SMU-P014-ROUTE-DUAL · [Dual LLM in Commercial Law (Singapore & London) Track](<https://masters.smu.edu.sg/programme/master-of-laws>) | 2026-10-28 | academicYear, major, language, tuition, deadline |
+| 先解决未确认依据 | SG-SMU-P014-ROUTE-JUDICIAL · [Judicial Studies Track](<https://masters.smu.edu.sg/programme/master-of-laws>) | 2026-10-28 | major, language, tuition |
+| 先解决未确认依据 | SG-SMU-P014-ROUTE-LAWTECH · [Law and Technology Track](<https://masters.smu.edu.sg/programme/master-of-laws>) | 2026-10-28 | major, language, tuition |
+| 先解决未确认依据 | SG-SMU-P016-ROUTE-INTERNATIONAL · [International Track](<https://masters.smu.edu.sg/programme/msc-in-quantitative-finance>) | 2026-10-28 | language, tuition, deadline |
+| 先解决未确认依据 | SG-SMU-P016-ROUTE-SINGAPORE · [Singapore-based Track](<https://masters.smu.edu.sg/programme/msc-in-quantitative-finance>) | 2026-10-28 | language, tuition, deadline |
+| 待独立核对 | HK-CITYU-P037-ROUTE-FIT · [MSc Business Information Systems (Financial and Intelligent Technology Stream)](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05b>) | 2026-10-30 | 另查人工条件与完整性 |
+| 待独立核对 | HK-CITYU-P037-ROUTE-MIS · [MSc Business Information Systems (Management of Intelligent Systems Stream)](<https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/department-of-information-systems/p05a>) | 2026-10-30 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P015-ROUTE-EN · [Master of Arts in Digital Humanities for Cultural Professionals — English](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P016-ROUTE-EN · [Master of Arts in Digital Linguistics and Intercultural Communication — English](<https://www.eduhk.hk/madlic>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P019-ROUTE-EN · [Master of Arts in Education for Sustainability — English](<https://ses.eduhk.hk/en/programmes/maefs>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P022-ROUTE-EN · [Master of Arts in Global Histories of Education — English](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P034-ROUTE-EN · [Master of Arts in STEM Education — English](<https://ses.eduhk.hk/en/programmes/stem_ed>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P045-ROUTE-EN · [Master of Science in Artificial Intelligence and Educational Technology — English](<https://www.eduhk.hk/mit/en/mscait>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P045-ROUTE-ZH · [Master of Science in Artificial Intelligence and Educational Technology — Chinese (mainly Putonghua)](<https://www.eduhk.hk/mit/en/mscait_cmi>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P046-ROUTE-EN · [Master of Science in Artificial Intelligence for Executive Professionals — English](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-EDUHK-P057-ROUTE-STANDARD · [Master of Social Sciences in Sports Coaching and Management — Standard English requirements](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P001-ROUTE-NONLOCAL · [Master of Architecture (non-HK and International Applicants)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(non-hk-and-international-applicants)-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P001-ROUTE-UGC · [Master of Architecture (UGC funded for HK Applicants)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-architecture-(ugc-funded-for-hk-applicants)-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P021-ROUTE-GENERAL · [Master of Journalism](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-journalism-socsc&mode=0>) | 2026-11-01 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P069-ROUTE-ENVIRONMENTAL · [Master of Science in Engineering (Civil Engineering) - Environmental Engineering Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-environmental-engineering-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P069-ROUTE-GENERAL · [Master of Science in Engineering (Civil Engineering) - General Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-general-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P069-ROUTE-GEOTECHNICAL · [Master of Science in Engineering (Civil Engineering) - Geotechnical Engineering Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-geotechnical-engineering-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P069-ROUTE-STRUCTURAL · [Master of Science in Engineering (Civil Engineering) - Structural Engineering Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(civil-engineering)-structural-engineering-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P070-ROUTE-COMMUNICATIONS · [Master of Science in Engineering (Electrical and Electronic Engineering) - Communications Engineering Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-communications-engineering-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P070-ROUTE-GENERAL · [Master of Science in Engineering (Electrical and Electronic Engineering) - General Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-general-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P070-ROUTE-POWER · [Master of Science in Engineering (Electrical and Electronic Engineering) - Power Engineering Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(electrical-and-electronic-engineering)-power-engineering-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P073-ROUTE-DIGITAL · [Master of Science in Engineering (Infrastructure Engineering and Management) - Digital Infrastructure Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(infrastructure-engineering-and-management)-digital-infrastructure-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P073-ROUTE-PROJECT-MANAGEMENT · [Master of Science in Engineering (Infrastructure Engineering and Management) - Infrastructure Project Management Stream](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-engineering-(infrastructure-engineering-and-management)-infrastructure-project-management-stream-engg&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P089-ROUTE-REGIONAL · [Master of Science in Urban Planning (Urban and Regional Planning Stream) \[Self-funded for all applicants\]](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(urban-and-regional-planning-stream)-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P089-ROUTE-UGC · [Master of Science in Urban Planning (Urban Planning Stream) \[UGC-funded for HK Applicants\]](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-urban-planning-(for-general-applicants)-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P101-ROUTE-GENERAL · [Master of Urban Design (For general applicants)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-design-(for-general-applicants)-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P102-ROUTE-HOUSING · [Master of Urban Studies and Housing Management (Housing Management (Professional) Stream)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-(housing-management-(professional)-stream)-foa&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKU-P102-ROUTE-URBAN · [Master of Urban Studies and Housing Management (Urban Studies Stream)](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-urban-studies-and-housing-management-foa-(urban-studies-stream)&mode=0>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKUST-P008-ROUTE-TCSL · [Teaching Chinese as a Second Language (TCSL) Concentration](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKUST-P008-ROUTE-TESL · [Teaching English as a Second Language (TESL) Concentration](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile>) | 2026-10-31 | 另查人工条件与完整性 |
+| 待独立核对 | HK-HKUST-P010-ROUTE-BIWEEKLY · [Part-time MBA (Bi-weekly)](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/pt-mba-biweekly/>) | 2026-10-30 | 另查人工条件与完整性 |
+| 待独立核对 | HK-LU-P005-ROUTE-HTM · [MA Arts and Cultural Heritage Management — HTM single award](<https://www.ln.edu.hk/sgs/achm/programme-overview/heritage-tourism-and-management-concentration>) | 2026-11-03 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P024-ROUTE-SEP2027-54057-FT-PT · [Applied Psychology — Sept 2027 (54057-ft-pt)](<https://www.polyu.edu.hk/study/pg/tpg/2027/54057-ft-pt>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P024-ROUTE-SEP2027-54057-LNF-LNP · [Applied Psychology (Diverse Learning Needs) — Sept 2027 (54057-lnf-lnp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/54057-lnf-lnp>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P027-ROUTE-SEP2027-21050-FCF-CFP · [Finance (Corporate Finance) — Sept 2027 (21050-fcf-cfp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/21050-fcf-cfp>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P027-ROUTE-SEP2027-21050-FIM-IMP · [Finance (Investment Management) — Sept 2027 (21050-fim-imp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/21050-fim-imp>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P041-ROUTE-SEP2027-62037-FAI-PAI · [Artificial Intelligence and Big Data Computing — Sept 2027 (62037-fai-pai)](<https://www.polyu.edu.hk/study/pg/tpg/2027/62037-fai-pai>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P044-ROUTE-SEP2027-47002-BMF-BMP · [Biomedical Engineering — Sept 2027 (47002-bmf-bmp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/47002-bmf-bmp>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P045-ROUTE-SEP2027-61036-FBT-PBT · [Blockchain Technology — Sept 2027 (61036-fbt-pbt)](<https://www.polyu.edu.hk/study/pg/tpg/2027/61036-fbt-pbt>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P050-ROUTE-SEP2027-31077-CFM-CPM · [Civil Engineering — Sept 2027 (31077-cfm-cpm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/31077-cfm-cpm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P051-ROUTE-SEP2027-32111-RFM-RPM · [Construction and Real Estate — Sept 2027 (32111-rfm-rpm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/32111-rfm-rpm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P052-ROUTE-SEP2027-61039-FCY-PCY · [Cybersecurity — Sept 2027 (61039-fcy-pcy)](<https://www.polyu.edu.hk/study/pg/tpg/2027/61039-fcy-pcy>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P053-ROUTE-SEP2027-62027-DFM-DPM · [Data Science and Analytics — Sept 2027 (62027-dfm-dpm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/62027-dfm-dpm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P059-ROUTE-SEP2027-31078-EFM-EPM · [Environmental Management and Engineering — Sept 2027 (31078-efm-epm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/31078-efm-epm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P069-ROUTE-SEP2027-45100-MLS-ML · [Industrial Logistics Systems — Sept 2027 (45100-mls-ml)](<https://www.polyu.edu.hk/study/pg/tpg/2027/45100-mls-ml>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P070-ROUTE-SEP2027-61030-FIT-PIT · [Information Technology — Sept 2027 (61030-fit-pit)](<https://www.polyu.edu.hk/study/pg/tpg/2027/61030-fit-pit>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P072-ROUTE-SEP2027-32114-IFM-IPM · [Intelligent Construction — Sept 2027 (32114-ifm-ipm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/32114-ifm-ipm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P076-ROUTE-SEP2027-44087-IFM-TFP-IPM-TPP · [International Shipping and Transport Logistics — Sept 2027 (44087-ifm-tfp-ipm-tpp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/44087-ifm-tfp-ipm-tpp>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P084-ROUTE-SEP2027-55005-MFD-MPD · [Medical Data Science — Sept 2027 (55005-mfd-mpd)](<https://www.polyu.edu.hk/study/pg/tpg/2027/55005-mfd-mpd>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P085-ROUTE-SEP2027-55005-FRM-PRM · [Medical Imaging and Radiation Science — Sept 2027 (55005-frm-prm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/55005-frm-prm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P086-ROUTE-SEP2027-55005-FMM-PMM · [Medical Laboratory Science — Sept 2027 (55005-fmm-pmm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/55005-fmm-pmm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P088-ROUTE-SEP2027-61038-FMT-PMT · [Metaverse Technology — Sept 2027 (61038-fmt-pmt)](<https://www.polyu.edu.hk/study/pg/tpg/2027/61038-fmt-pmt>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P091-ROUTE-SEP2027-15058-MFT · [Nutrition and Healthy Ageing — Sept 2027 (15058-mft)](<https://www.polyu.edu.hk/study/pg/tpg/2027/15058-mft>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P091-ROUTE-SEP2027-15058-NPF · [Nutrition and Healthy Ageing (Nutrition in Practice) — Sept 2027 (15058-npf)](<https://www.polyu.edu.hk/study/pg/tpg/2027/15058-npf>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P094-ROUTE-SEP2027-32113-PFM-PPM · [Project Management — Sept 2027 (32113-pfm-ppm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/32113-pfm-ppm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P095-ROUTE-SEP2027-63029-QFM-QPM · [Quantitative Finance and FinTech — Sept 2027 (63029-qfm-qpm)](<https://www.polyu.edu.hk/study/pg/tpg/2027/63029-qfm-qpm>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P097-ROUTE-SEP2027-45100-SMF-SMP · [Smart Manufacturing — Sept 2027 (45100-smf-smp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/45100-smf-smp>) | 2026-11-04 | 另查人工条件与完整性 |
+| 待独立核对 | HK-POLYU-P098-ROUTE-SEP2027-47005-STF-STP · [Sports Technology and Management — Sept 2027 (47005-stf-stp)](<https://www.polyu.edu.hk/study/pg/tpg/2027/47005-stf-stp>) | 2026-11-04 | 另查人工条件与完整性 |
+| 仅保留归档／排除 | HK-HKU-P016-ROUTE-DELTA-AI · [Master of Science in Computer Science (AI & Decentralized Technologies Stream), with Delta X Fellowship](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(ai-and-decentralized-technologies-stream)%2C-with-delta-x-fellowship-cds&mode=0>) | 2026-10-31 | major, tuition |
+| 仅保留归档／排除 | HK-HKU-P016-ROUTE-DELTA-STREAMS · [Master of Science in Computer Science (General, Cyber Security, Financial Computing and Multimedia Computing Streams), with Delta X Fellowship](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-computer-science-(general%2C-cyber-security%2C-financial-computing-and-multimedia-computing-streams)%2C-with-delta-x-fellowship-cds&mode=0>) | 2026-10-31 | major, tuition |
+
+## 费用／日期上下文（每一类别都要检查）
+
+| 优先顺序 | 项目／学习选项 | 方向 | 类别数 | 绑定一致 | 原查阅日 |
+| --- | --- | --- | ---: | --- | --- |
+| 先查：14 日内有记录截止 | HK-CITYU-P002 / [HK-CITYU-P002-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 先查：14 日内有记录截止 | HK-CITYU-P002 / [HK-CITYU-P002-2027-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 先查：14 日内有记录截止 | HK-CUHK-P074 / [HK-CUHK-P074-2027-FT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-artificial-intelligence>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 先查：14 日内有记录截止 | HK-CUHK-P074 / [HK-CUHK-P074-2027-PT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-artificial-intelligence>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 先查：14 日内有记录截止 | HK-CUHK-P092 / [HK-CUHK-P092-2027-FT](<https://fintech.erg.cuhk.edu.hk/admission/tuition-fee>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 先查：14 日内有记录截止 | HK-CUHK-P092 / [HK-CUHK-P092-2027-PT](<https://fintech.erg.cuhk.edu.hk/admission/tuition-fee>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CITYU-P003 / [HK-CITYU-P003-ROUTE-P01A-2027-FT](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a>) | HK-CITYU-P003-ROUTE-P01A | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-CITYU-P003 / [HK-CITYU-P003-ROUTE-P01A-2027-PT](<https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p01a>) | HK-CITYU-P003-ROUTE-P01A | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-CITYU-P003 / [HK-CITYU-P003-ROUTE-P12-2027-FT](<https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships>) | HK-CITYU-P003-ROUTE-P12 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-CITYU-P003 / [HK-CITYU-P003-ROUTE-P12-2027-PT](<https://www.cb.cityu.edu.hk/globalemba/admissions/fees-and-scholarships>) | HK-CITYU-P003-ROUTE-P12 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-CITYU-P006 / [HK-CITYU-P006-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p16.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P006 / [HK-CITYU-P006-2027-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p16.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P009 / [HK-CITYU-P009-P60-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-CITYU-P009 / [HK-CITYU-P009-P60-2027-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p60.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-CITYU-P010 / [HK-CITYU-P010-O1](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-20 |
+| 待独立核对 | HK-CITYU-P010 / [HK-CITYU-P010-O2](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-20 |
+| 待独立核对 | HK-CITYU-P016 / [HK-CITYU-P016-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p07.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P016 / [HK-CITYU-P016-2027-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p07.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P023 / [HK-CITYU-P023-2027-24CU-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p46.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P023 / [HK-CITYU-P023-2027-24CU-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p46.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P023 / [HK-CITYU-P023-2027-30CU-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p46.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P023 / [HK-CITYU-P023-2027-30CU-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p46.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P024 / [HK-CITYU-P024-2027-30CU-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p41.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P024 / [HK-CITYU-P024-2027-30CU-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p41.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P024 / [HK-CITYU-P024-2027-33CU-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p41.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P024 / [HK-CITYU-P024-2027-33CU-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p41.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P031 / [HK-CITYU-P031-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p75.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P031 / [HK-CITYU-P031-2027-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p75.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P032 / [HK-CITYU-P032-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p79.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P032 / [HK-CITYU-P032-2027-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p79.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P040 / [HK-CITYU-P040-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p91.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P040 / [HK-CITYU-P040-2027-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p91.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P051 / [HK-CITYU-P051-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p19.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P052 / [HK-CITYU-P052-2027-FT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p18.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CITYU-P052 / [HK-CITYU-P052-2027-PT](<https://www.cityu.edu.hk/sgs/tuitionfee/sf_p18.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-CUHK-P079 / [HK-CUHK-P079-2027-FT](<https://www.bme.cuhk.edu.hk/new/msc.php>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P079 / [HK-CUHK-P079-2027-PT](<https://www.bme.cuhk.edu.hk/new/msc.php>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P083 / [HK-CUHK-P083-2027-FT](<https://msc.cse.cuhk.edu.hk/?page_id=124&lang=en>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P083 / [HK-CUHK-P083-2027-PT](<https://msc.cse.cuhk.edu.hk/?page_id=124&lang=en>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P085 / [HK-CUHK-P085-2027-FT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-e-commerce-and-logistics-technologies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P085 / [HK-CUHK-P085-2027-PT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-e-commerce-and-logistics-technologies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P087 / [HK-CUHK-P087-2027-FT](<https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme/admission>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P087 / [HK-CUHK-P087-2027-PT](<https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme/admission>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P097 / [HK-CUHK-P097-2027-FT](<https://msc.ie.cuhk.edu.hk/admission/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P097 / [HK-CUHK-P097-2027-PT](<https://msc.ie.cuhk.edu.hk/admission/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P106 / [HK-CUHK-P106-2027-FT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-mechanical-and-automation-engineering>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P106 / [HK-CUHK-P106-2027-PT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-mechanical-and-automation-engineering>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P108 / [HK-CUHK-P108-2027-FT](<https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme-ic/admission-ic>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P108 / [HK-CUHK-P108-2027-PT](<https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme-ic/admission-ic>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P116 / [HK-CUHK-P116-2027-FT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P116 / [HK-CUHK-P116-2027-PT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-robotics>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P122 / [HK-CUHK-P122-2027-FT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-systems-engineering-and-engineering-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-CUHK-P122 / [HK-CUHK-P122-2027-PT](<https://www.gs.cuhk.edu.hk/programmes/engineering/msc-systems-engineering-and-engineering-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P001 / [HK-EDUHK-P001-O1](<https://www.eduhk.hk/ssps/mppm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-23 |
+| 待独立核对 | HK-EDUHK-P001 / [HK-EDUHK-P001-O2](<https://www.eduhk.hk/ssps/mppm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-23 |
+| 待独立核对 | HK-EDUHK-P002 / [HK-EDUHK-P002-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P003 / [HK-EDUHK-P003-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-global-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P004 / [HK-EDUHK-P004-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/empal>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P004 / [HK-EDUHK-P004-2027-PT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/empal>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P005 / [HK-EDUHK-P005-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MABLOOM>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P006 / [HK-EDUHK-P006-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-belt-and-road-business-communication-and-administration>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P007 / [HK-EDUHK-P007-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=705>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P007 / [HK-EDUHK-P007-2027-PT](<https://www.eduhk.hk/fehd/en/programmes.php?id=705>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P008 / [HK-EDUHK-P008-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MACGDIR>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P009 / [HK-EDUHK-P009-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-art-business-and-cultural-heritage-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P010 / [HK-EDUHK-P010-2027-FT](<https://www.eduhk.hk/fhm/tc/postgraduate-programme/master-of-arts-in-chinese-studies-language-education-macsle/tuition-fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P011 / [HK-EDUHK-P011-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-values-based-leadership-education>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P012 / [HK-EDUHK-P012-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-comparative-education-and-collaborative-innovation>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P013 / [HK-EDUHK-P013-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=9118>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P014 / [HK-EDUHK-P014-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-human-resource-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P015 / [HK-EDUHK-P015-EN-2027-FT](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp/programme-information/tuition-fee>) | HK-EDUHK-P015-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P015 / [HK-EDUHK-P015-ZH-2027-FT](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp/programme-information/tuition-fee>) | HK-EDUHK-P015-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P016 / [HK-EDUHK-P016-EN-2027-FT](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-linguistics-and-intercultural-communication-madlic/programme-information/tuition-fee>) | HK-EDUHK-P016-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P016 / [HK-EDUHK-P016-EN-2027-PT](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-linguistics-and-intercultural-communication-madlic/programme-information/tuition-fee>) | HK-EDUHK-P016-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P016 / [HK-EDUHK-P016-ZH-2027-FT](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-linguistics-and-intercultural-communication-madlic/programme-information/tuition-fee>) | HK-EDUHK-P016-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P017 / [HK-EDUHK-P017-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-marketing-and-e-commerce>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P018 / [HK-EDUHK-P018-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-e-sports-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P019 / [HK-EDUHK-P019-EN-2027-FT](<https://ses.eduhk.hk/en/programmes/maefs>) | HK-EDUHK-P019-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P019 / [HK-EDUHK-P019-ZH-2027-FT](<https://ses.eduhk.hk/en/programmes/maefscmi>) | HK-EDUHK-P019-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P020 / [HK-EDUHK-P020-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=230>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P020 / [HK-EDUHK-P020-2027-PT](<https://www.eduhk.hk/fehd/en/programmes.php?id=230>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P021 / [HK-EDUHK-P021-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P021 / [HK-EDUHK-P021-2027-PT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P022 / [HK-EDUHK-P022-EN-2027-FT](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/programme-information/tuition-fee>) | HK-EDUHK-P022-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P022 / [HK-EDUHK-P022-ZH-2027-FT](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/programme-information/tuition-fee>) | HK-EDUHK-P022-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P023 / [HK-EDUHK-P023-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=10665>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P024 / [HK-EDUHK-P024-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-healthy-ageing-and-silver-economy>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P025 / [HK-EDUHK-P025-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MAHEM>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P025 / [HK-EDUHK-P025-2027-PT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MAHEM>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P026 / [HK-EDUHK-P026-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=9840>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P026 / [HK-EDUHK-P026-2027-PT](<https://www.eduhk.hk/fehd/en/programmes.php?id=9840>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P027 / [HK-EDUHK-P027-2027-FT](<https://www.eduhk.hk/mit/en/mamp>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P028 / [HK-EDUHK-P028-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-mindfulness-and-life-education>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P029 / [HK-EDUHK-P029-2027-FT](<https://www.eduhk.hk/mame/fees.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P029 / [HK-EDUHK-P029-2027-PT](<https://www.eduhk.hk/mame/fees.htm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P030 / [HK-EDUHK-P030-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-new-media-and-social-media>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P031 / [HK-EDUHK-P031-2027-FT](<https://www.eduhk.hk/ssps/mapf>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P031 / [HK-EDUHK-P031-2027-PT](<https://www.eduhk.hk/ssps/mapf>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P032 / [HK-EDUHK-P032-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=4788>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P032 / [HK-EDUHK-P032-2027-PT](<https://www.eduhk.hk/fehd/en/programmes.php?id=4788>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P033 / [HK-EDUHK-P033-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-science-and-robotics-education>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P034 / [HK-EDUHK-P034-EN-2027-FT](<https://ses.eduhk.hk/en/programmes/stem_ed>) | HK-EDUHK-P034-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P034 / [HK-EDUHK-P034-ZH-2027-FT](<https://ses.eduhk.hk/sc/programmes/mastemedcmi>) | HK-EDUHK-P034-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P035 / [HK-EDUHK-P035-2027-FT](<https://www.eduhk.hk/fhm/tc/postgraduate-programme/master-of-arts-in-teaching-chinese-as-an-international-language-matcil/programme-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P036 / [HK-EDUHK-P036-2027-FT](<https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-english-to-speakers-of-other-languages-matesol/programme-information/tuition-fee>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P037 / [HK-EDUHK-P037-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-tourism-and-hospitality-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P038 / [HK-EDUHK-P038-2027-FT](<https://mavaecp.eduhk.hk/application_and_admission/application_fee_tuition_fee_and_scholarship_application/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P039 / [HK-EDUHK-P039-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MAWSSD>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P041 / [HK-EDUHK-P041-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-laws-in-digital-governance>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P042 / [HK-EDUHK-P042-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P042 / [HK-EDUHK-P042-2027-PT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P043 / [HK-EDUHK-P043-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-occupational-therapy>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P044 / [HK-EDUHK-P044-SEP2027-FT](<https://www.eduhk.hk/mit/en/mscads>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-25 |
+| 待独立核对 | HK-EDUHK-P045 / [HK-EDUHK-P045-EN-2027-FT](<https://www.eduhk.hk/mit/en/mscait>) | HK-EDUHK-P045-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P045 / [HK-EDUHK-P045-ZH-2027-FT](<https://www.eduhk.hk/mit/en/mscait_cmi>) | HK-EDUHK-P045-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P046 / [HK-EDUHK-P046-EN-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep>) | HK-EDUHK-P046-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P046 / [HK-EDUHK-P046-EN-2027-PT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep>) | HK-EDUHK-P046-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P046 / [HK-EDUHK-P046-ZH-2027-FT](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep>) | HK-EDUHK-P046-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P046 / [HK-EDUHK-P046-ZH-2027-PT](<https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep>) | HK-EDUHK-P046-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P047 / [HK-EDUHK-P047-2027-FT](<https://www.eduhk.hk/ssps/mscbaft>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P048 / [HK-EDUHK-P048-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MScDE>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P049 / [HK-EDUHK-P049-EN-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=9861>) | HK-EDUHK-P049-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P049 / [HK-EDUHK-P049-EN-2027-PT](<https://www.eduhk.hk/fehd/en/programmes.php?id=9861>) | HK-EDUHK-P049-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P049 / [HK-EDUHK-P049-ZH-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=10214>) | HK-EDUHK-P049-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P050 / [HK-EDUHK-P050-2027-FT](<https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-science-in-educational-neuroscience>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P051 / [HK-EDUHK-P051-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=231>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P052 / [HK-EDUHK-P052-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/ESGSD>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P053 / [HK-EDUHK-P053-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=9112>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P054 / [HK-EDUHK-P054-2027-FT](<https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MScLAEM>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P055 / [HK-EDUHK-P055-2027-FT](<https://www.eduhk.hk/ssps/mgbpsbri>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P056 / [HK-EDUHK-P056-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=826>) | 直接项目 | 4 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P056 / [HK-EDUHK-P056-2027-PT](<https://www.eduhk.hk/fehd/en/programmes.php?id=826>) | 直接项目 | 4 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P057 / [HK-EDUHK-P057-ELITE-2027-FT](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/>) | HK-EDUHK-P057-ROUTE-ELITE | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P057 / [HK-EDUHK-P057-ELITE-2027-PT](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/>) | HK-EDUHK-P057-ROUTE-ELITE | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P057 / [HK-EDUHK-P057-STANDARD-2027-FT](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/>) | HK-EDUHK-P057-ROUTE-STANDARD | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P057 / [HK-EDUHK-P057-STANDARD-2027-PT](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/>) | HK-EDUHK-P057-ROUTE-STANDARD | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P058 / [HK-EDUHK-P058-2027-FT](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P058 / [HK-EDUHK-P058-2027-PT](<https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P059 / [HK-EDUHK-P059-EN-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=724>) | HK-EDUHK-P059-ROUTE-EN | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-EDUHK-P059 / [HK-EDUHK-P059-ZH-2027-FT](<https://www.eduhk.hk/fehd/en/programmes.php?id=10627>) | HK-EDUHK-P059-ROUTE-ZH | 2 | 是，仍需人工复核 | 2026-11-04 |
+| 待独立核对 | HK-HKBU-P001 / [HK-HKBU-P001-O1](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-23 |
+| 待独立核对 | HK-HKBU-P002 / [HK-HKBU-P002-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-international-journalism-studies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P002 / [HK-HKBU-P002-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-international-journalism-studies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P003 / [HK-HKBU-P003-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-media-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P003 / [HK-HKBU-P003-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-media-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P004 / [HK-HKBU-P004-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P004 / [HK-HKBU-P004-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-and-digital-media>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P005 / [HK-HKBU-P005-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P005 / [HK-HKBU-P005-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-accountancy-macc>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P006 / [HK-HKBU-P006-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-economics>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P007 / [HK-HKBU-P007-O1](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-23 |
+| 待独立核对 | HK-HKBU-P008 / [HK-HKBU-P008-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/executive-master-of-business-administration-business-communication-in-the-ai-age>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P009 / [HK-HKBU-P009-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-chinese-literature-language-and-culture>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P009 / [HK-HKBU-P009-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-chinese-literature-language-and-culture>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P010 / [HK-HKBU-P010-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-creative-writing-for-cultural-professionals>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P010 / [HK-HKBU-P010-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-creative-writing-for-cultural-professionals>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P011 / [HK-HKBU-P011-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-ethics-and-public-affairs>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P011 / [HK-HKBU-P011-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-ethics-and-public-affairs>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P012 / [HK-HKBU-P012-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-global-society>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P013 / [HK-HKBU-P013-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-language-studies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P013 / [HK-HKBU-P013-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-language-studies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P014 / [HK-HKBU-P014-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-literary-and-comparative-studies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P014 / [HK-HKBU-P014-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-literary-and-comparative-studies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P015 / [HK-HKBU-P015-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-music>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P015 / [HK-HKBU-P015-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-music>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P016 / [HK-HKBU-P016-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-producing-for-film-television-and-new-media>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P017 / [HK-HKBU-P017-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-translation-and-bilingual-communication>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P017 / [HK-HKBU-P017-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-translation-and-bilingual-communication>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P018 / [HK-HKBU-P018-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-visual-arts>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P018 / [HK-HKBU-P018-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-visual-arts>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P019 / [HK-HKBU-P019-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-business-administration-mba>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P022 / [HK-HKBU-P022-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-fine-arts-mfa-in-cinematic-arts-and-creative-practice>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P023 / [HK-HKBU-P023-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P023 / [HK-HKBU-P023-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-human-resources-management-mhrm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P025 / [HK-HKBU-P025-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-public-administration-mpa>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P025 / [HK-HKBU-P025-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-public-administration-mpa>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P026 / [HK-HKBU-P026-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-ai-for-business>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P027 / [HK-HKBU-P027-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P027 / [HK-HKBU-P027-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-analytical-chemistry>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P028 / [HK-HKBU-P028-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P028 / [HK-HKBU-P028-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-applied-accounting-and-finance>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P030 / [HK-HKBU-P030-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P030 / [HK-HKBU-P030-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-artificial-intelligence>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P031 / [HK-HKBU-P031-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P031 / [HK-HKBU-P031-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-data-analytics-and-business-economics>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P034 / [HK-HKBU-P034-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P034 / [HK-HKBU-P034-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-environmental-and-public-health-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P036 / [HK-HKBU-P036-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P036 / [HK-HKBU-P036-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-green-technology-energy>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P037 / [HK-HKBU-P037-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P037 / [HK-HKBU-P037-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-information-technology-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P038 / [HK-HKBU-P038-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-marketing-for-the-creative-economy>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P039 / [HK-HKBU-P039-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-mathematical-finance>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P040 / [HK-HKBU-P040-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P040 / [HK-HKBU-P040-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-operational-research-and-business-statistics>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P042 / [HK-HKBU-P042-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P042 / [HK-HKBU-P042-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-in-family-office-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P043 / [HK-HKBU-P043-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-contemporary-china-studies>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P046 / [HK-HKBU-P046-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-smart-resilient-and-sustainable-cities>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P047 / [HK-HKBU-P047-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-social-work>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P047 / [HK-HKBU-P047-2027-PT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-social-work>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P048 / [HK-HKBU-P048-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-sciences-msocsc-in-sport-and-leisure-management>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKBU-P049 / [HK-HKBU-P049-2027-FT](<https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-social-work-msw>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P004 / [HK-HKU-P004-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R67&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P005 / [HK-HKU-P005-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R378&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P005 / [HK-HKU-P005-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R378&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P006 / [HK-HKU-P006-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R36&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P006 / [HK-HKU-P006-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R36&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P016 / [HK-HKU-P016-DELTA-AI-FT-2027](<https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/>) | HK-HKU-P016-ROUTE-DELTA-AI | 2 | 是，仍需人工复核 | 2026-10-21 |
+| 待独立核对 | HK-HKU-P016 / [HK-HKU-P016-DELTA-STREAMS-FT-2027](<https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/>) | HK-HKU-P016-ROUTE-DELTA-STREAMS | 2 | 是，仍需人工复核 | 2026-10-21 |
+| 待独立核对 | HK-HKU-P016 / [HK-HKU-P016-DELTA-STREAMS-PT-2027](<https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/>) | HK-HKU-P016-ROUTE-DELTA-STREAMS | 2 | 是，仍需人工复核 | 2026-10-21 |
+| 待独立核对 | HK-HKU-P016 / [HK-HKU-P016-STANDARD-FT-2027](<https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/>) | HK-HKU-P016-ROUTE-STANDARD | 2 | 是，仍需人工复核 | 2026-10-21 |
+| 待独立核对 | HK-HKU-P016 / [HK-HKU-P016-STANDARD-PT-2027](<https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/>) | HK-HKU-P016-ROUTE-STANDARD | 2 | 是，仍需人工复核 | 2026-10-21 |
+| 待独立核对 | HK-HKU-P017 / [HK-HKU-P017-2027-PT](<https://mscftda.cds.hku.hk/Admission/Fee>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P018 / [HK-HKU-P018-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P018 / [HK-HKU-P018-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R407&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P019 / [HK-HKU-P019-2027-FT](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P019 / [HK-HKU-P019-2027-PT](<https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-public-health-med&mode=0>) | 直接项目 | 1 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P024 / [HK-HKU-P024-2027-JAN-PT](<https://llm.law.hku.hk/embl/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P027 / [HK-HKU-P027-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P027 / [HK-HKU-P027-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R371&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P044 / [HK-HKU-P044-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P044 / [HK-HKU-P044-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R418&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P052 / [HK-HKU-P052-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P052 / [HK-HKU-P052-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R415&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-HKU-P064 / [HK-HKU-P064-2027-FT](<https://www.scifac.hku.hk/prospective/tpg/MSCTHM>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-01 |
+| 待独立核对 | HK-HKU-P066 / [HK-HKU-P066-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R374&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P066 / [HK-HKU-P066-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R374&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P067 / [HK-HKU-P067-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P067 / [HK-HKU-P067-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R409&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P068 / [HK-HKU-P068-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P068 / [HK-HKU-P068-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P069 / [HK-HKU-P069-ROUTE-ENVIRONMENTAL-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P069-ROUTE-ENVIRONMENTAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P069 / [HK-HKU-P069-ROUTE-ENVIRONMENTAL-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P069-ROUTE-ENVIRONMENTAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P069 / [HK-HKU-P069-ROUTE-GENERAL-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P069-ROUTE-GENERAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P069 / [HK-HKU-P069-ROUTE-GENERAL-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P069-ROUTE-GENERAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P069 / [HK-HKU-P069-ROUTE-GEOTECHNICAL-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P069-ROUTE-GEOTECHNICAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P069 / [HK-HKU-P069-ROUTE-GEOTECHNICAL-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P069-ROUTE-GEOTECHNICAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P069 / [HK-HKU-P069-ROUTE-STRUCTURAL-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P069-ROUTE-STRUCTURAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P069 / [HK-HKU-P069-ROUTE-STRUCTURAL-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P069-ROUTE-STRUCTURAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P070 / [HK-HKU-P070-ROUTE-COMMUNICATIONS-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P070-ROUTE-COMMUNICATIONS | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P070 / [HK-HKU-P070-ROUTE-COMMUNICATIONS-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P070-ROUTE-COMMUNICATIONS | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P070 / [HK-HKU-P070-ROUTE-GENERAL-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P070-ROUTE-GENERAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P070 / [HK-HKU-P070-ROUTE-GENERAL-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P070-ROUTE-GENERAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P070 / [HK-HKU-P070-ROUTE-POWER-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P070-ROUTE-POWER | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P070 / [HK-HKU-P070-ROUTE-POWER-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P070-ROUTE-POWER | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P071 / [HK-HKU-P071-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P071 / [HK-HKU-P071-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P072 / [HK-HKU-P072-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P072 / [HK-HKU-P072-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P073 / [HK-HKU-P073-ROUTE-DIGITAL-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P073-ROUTE-DIGITAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P073 / [HK-HKU-P073-ROUTE-DIGITAL-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P073-ROUTE-DIGITAL | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P073 / [HK-HKU-P073-ROUTE-PROJECT-MANAGEMENT-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P073-ROUTE-PROJECT-MANAGEMENT | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P073 / [HK-HKU-P073-ROUTE-PROJECT-MANAGEMENT-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | HK-HKU-P073-ROUTE-PROJECT-MANAGEMENT | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P074 / [HK-HKU-P074-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P074 / [HK-HKU-P074-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P075 / [HK-HKU-P075-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P076 / [HK-HKU-P076-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P077 / [HK-HKU-P077-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P078 / [HK-HKU-P078-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P079 / [HK-HKU-P079-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P079 / [HK-HKU-P079-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P080 / [HK-HKU-P080-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P080 / [HK-HKU-P080-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P081 / [HK-HKU-P081-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P081 / [HK-HKU-P081-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P082 / [HK-HKU-P082-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P082 / [HK-HKU-P082-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R51&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P085 / [HK-HKU-P085-2027-FT](<https://www.scifac.hku.hk/prospective/tpg/IMEC>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-01 |
+| 待独立核对 | HK-HKU-P087 / [HK-HKU-P087-2027-FT](<https://www.physics.hku.hk/graduate_studies/for_prospective_students/master_of_science_program/1/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-01 |
+| 待独立核对 | HK-HKU-P098 / [HK-HKU-P098-2027-FT](<https://ccsg.hku.hk/slgp/admission/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P098 / [HK-HKU-P098-2027-PT](<https://ccsg.hku.hk/slgp/admission/>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P099 / [HK-HKU-P099-2027-FT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKU-P099 / [HK-HKU-P099-2027-PT](<https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R411&pVIEW=Y>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-31 |
+| 待独立核对 | HK-HKUST-P001 / [HK-HKUST-P001-SEP2027-FT](<https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-24 |
+| 待独立核对 | HK-HKUST-P001 / [HK-HKUST-P001-SEP2027-PT](<https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ciem>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-24 |
+| 待独立核对 | HK-HKUST-P002 / [HK-HKUST-P002-O1](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-24 |
+| 待独立核对 | HK-HKUST-P002 / [HK-HKUST-P002-O2](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-24 |
+| 待独立核对 | HK-HKUST-P006 / [HK-HKUST-P006-2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P006 / [HK-HKUST-P006-2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P007 / [HK-HKUST-P007-2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P007 / [HK-HKUST-P007-2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P010 / [HK-HKUST-P010-2027-BIWEEKLY](<https://mba.hkust.edu.hk/admissions/fees-and-financing>) | HK-HKUST-P010-ROUTE-BIWEEKLY | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P010 / [HK-HKUST-P010-2027-WEEKLY](<https://mba.hkust.edu.hk/admissions/fees-and-financing>) | HK-HKUST-P010-ROUTE-REGULAR | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P011 / [HK-HKUST-P011-2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P011 / [HK-HKUST-P011-2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P014 / [HK-HKUST-P014-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P014 / [HK-HKUST-P014-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P018 / [HK-HKUST-P018-AUG2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P018 / [HK-HKUST-P018-AUG2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P022 / [HK-HKUST-P022-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P022 / [HK-HKUST-P022-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P025 / [HK-HKUST-P025-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P025 / [HK-HKUST-P025-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P026 / [HK-HKUST-P026-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P026 / [HK-HKUST-P026-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P027 / [HK-HKUST-P027-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P027 / [HK-HKUST-P027-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P028 / [HK-HKUST-P028-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P028 / [HK-HKUST-P028-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P029 / [HK-HKUST-P029-2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P029 / [HK-HKUST-P029-2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P034 / [HK-HKUST-P034-2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P034 / [HK-HKUST-P034-2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P040 / [HK-HKUST-P040-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P041 / [HK-HKUST-P041-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P041 / [HK-HKUST-P041-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P045 / [HK-HKUST-P045-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P045 / [HK-HKUST-P045-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P046 / [HK-HKUST-P046-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P046 / [HK-HKUST-P046-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P047 / [HK-HKUST-P047-SEP2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P047 / [HK-HKUST-P047-SEP2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P048 / [HK-HKUST-P048-2027-FT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-HKUST-P048 / [HK-HKUST-P048-2027-PT](<https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-10-30 |
+| 待独立核对 | HK-LU-P008 / [HK-LU-P008-2027-FT](<https://www.ln.edu.hk/sgs/sag/admission>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P008 / [HK-LU-P008-2027-PT](<https://www.ln.edu.hk/sgs/sag/admission>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P010 / [HK-LU-P010-2027-FT](<https://www.ln.edu.hk/acct/macc/Admission/tuition-fees-scholarships>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P011 / [HK-LU-P011-2027-PT](<https://www.ln.edu.hk/philoso/hkcrc/maaif/admissions-and-application/fees-and-scholarships>) | 直接项目 | 1 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P031 / [HK-LU-P031-2027-FT](<https://www.ln.edu.hk/mgt/hrom/admission/tuition-fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P034 / [HK-LU-P034-2027-FT](<https://www.ln.edu.hk/econ/mide/admission/admission-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P034 / [HK-LU-P034-2027-PT](<https://www.ln.edu.hk/econ/mide/admission/admission-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P035 / [HK-LU-P035-2027-FT](<https://www.ln.edu.hk/econ/mibf/admission/admission-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P035 / [HK-LU-P035-2027-PT](<https://www.ln.edu.hk/econ/mibf/admission/admission-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P036 / [HK-LU-P036-2027-FT](<https://www.ln.edu.hk/mkt/mscmib/programme-overview/tuition-fees-and-scholarships>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P037 / [HK-LU-P037-2027-FT](<https://www.ln.edu.hk/orm/mscriaa/application/fees-and-scholarships>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P042 / [HK-LU-P042-2027-FT](<https://www.ln.edu.hk/socsp/imcsp/admission-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P042 / [HK-LU-P042-2027-PT](<https://www.ln.edu.hk/socsp/imcsp/admission-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P044 / [HK-LU-P044-2027-FT](<https://www.ln.edu.hk/socsp/msoda/admission-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | HK-LU-P044 / [HK-LU-P044-2027-PT](<https://www.ln.edu.hk/socsp/msoda/admission-information>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-NUS-P032 / [SG-NUS-P032-AUG2027-FT](<https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/>) | 直接项目 | 3 | 是，仍需人工复核 | 2026-10-24 |
+| 待独立核对 | SG-NUS-P032 / [SG-NUS-P032-AUG2027-PT](<https://www.math.nus.edu.sg/cdsml/ms-dsml/dsml-prospective-students/>) | 直接项目 | 3 | 是，仍需人工复核 | 2026-10-24 |
+| 待独立核对 | SG-SUTD-P007 / [SG-SUTD-P007-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-advanced-ic-design-technology/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P009 / [SG-SUTD-P009-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-architectural-design-computation/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P010 / [SG-SUTD-P010-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-artificial-intelligence/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P011 / [SG-SUTD-P011-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-cybersecurity/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P011 / [SG-SUTD-P011-2027-PT](<https://www.sutd.edu.sg/programme-listing/mtd-cybersecurity/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P012 / [SG-SUTD-P012-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-data-science/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P012 / [SG-SUTD-P012-2027-PT](<https://www.sutd.edu.sg/programme-listing/mtd-data-science/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P013 / [SG-SUTD-P013-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-healthtech-innovation/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P014 / [SG-SUTD-P014-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-human-centred-design/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P014 / [SG-SUTD-P014-2027-PT](<https://www.sutd.edu.sg/programme-listing/mtd-human-centred-design/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P016 / [SG-SUTD-P016-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-integrated-photonics-for-semiconductor-technology/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P017 / [SG-SUTD-P017-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-robotics-automation/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+| 待独立核对 | SG-SUTD-P018 / [SG-SUTD-P018-2027-FT](<https://www.sutd.edu.sg/programme-listing/mtd-urban-innovation-and-design/financing/fees>) | 直接项目 | 2 | 是，仍需人工复核 | 2026-11-03 |
+
+## 截止优先项
+
+- HK-CITYU-P002 / HK-CITYU-P002-2027-FT / HK-CITYU-P002-2027-FT-LOCAL：记录截止 2026-11-18，距快照 14 天；来源查阅 2026-10-30。须检查最新状态、类别和确切时间。
+- HK-CITYU-P002 / HK-CITYU-P002-2027-FT / HK-CITYU-P002-2027-FT-NONLOCAL：记录截止 2026-11-18，距快照 14 天；来源查阅 2026-10-30。须检查最新状态、类别和确切时间。
+- HK-CITYU-P002 / HK-CITYU-P002-2027-PT / HK-CITYU-P002-2027-PT-LOCAL：记录截止 2026-11-18，距快照 14 天；来源查阅 2026-10-30。须检查最新状态、类别和确切时间。
+- HK-CITYU-P002 / HK-CITYU-P002-2027-PT / HK-CITYU-P002-2027-PT-NONLOCAL：记录截止 2026-11-18，距快照 14 天；来源查阅 2026-10-30。须检查最新状态、类别和确切时间。
+- HK-CUHK-P074 / HK-CUHK-P074-2027-FT / HK-CUHK-P074-2027-FT-LOCAL：记录截止 2026-11-06，距快照 2 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P074 / HK-CUHK-P074-2027-FT / HK-CUHK-P074-2027-FT-NONLOCAL：记录截止 2026-11-06，距快照 2 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P074 / HK-CUHK-P074-2027-PT / HK-CUHK-P074-2027-PT-LOCAL：记录截止 2026-11-06，距快照 2 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P074 / HK-CUHK-P074-2027-PT / HK-CUHK-P074-2027-PT-NONLOCAL：记录截止 2026-11-06，距快照 2 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P092 / HK-CUHK-P092-2027-FT / HK-CUHK-P092-2027-FT-LOCAL：记录截止 2026-11-06，距快照 2 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P092 / HK-CUHK-P092-2027-FT / HK-CUHK-P092-2027-FT-NONLOCAL：记录截止 2026-11-06，距快照 2 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P092 / HK-CUHK-P092-2027-PT / HK-CUHK-P092-2027-PT-LOCAL：记录截止 2026-11-06，距快照 2 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P092 / HK-CUHK-P092-2027-PT / HK-CUHK-P092-2027-PT-NONLOCAL：记录截止 2026-11-06，距快照 2 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P026 / HK-CUHK-P026-2027-PT：记录截止 2026-11-15，距快照 11 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P050 / HK-CUHK-P050-2027-FT：记录截止 2026-11-07，距快照 3 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-CUHK-P050 / HK-CUHK-P050-2027-PT：记录截止 2026-11-07，距快照 3 天；来源查阅 2026-11-04。须检查最新状态、类别和确切时间。
+- HK-HKU-P015 / HK-HKU-P015-2027-FT：记录截止 2026-11-16，距快照 12 天；来源查阅 2026-10-31。须检查最新状态、类别和确切时间。
+- HK-HKU-P047 / HK-HKU-P047-2027-FT：记录截止 2026-11-09，距快照 5 天；来源查阅 2026-10-31。须检查最新状态、类别和确切时间。
+- HK-HKU-P047 / HK-HKU-P047-2027-PT-HK：记录截止 2026-11-09，距快照 5 天；来源查阅 2026-10-31。须检查最新状态、类别和确切时间。
+- HK-HKU-P091 / HK-HKU-P091-2027-FT：记录截止 2026-11-13，距快照 9 天；来源查阅 2026-11-01。须检查最新状态、类别和确切时间。
+- HK-HKU-P091 / HK-HKU-P091-2027-PT：记录截止 2026-11-13，距快照 9 天；来源查阅 2026-11-01。须检查最新状态、类别和确切时间。
+- HK-HKU-P093 / HK-HKU-P093-2027-FT：记录截止 2026-11-13，距快照 9 天；来源查阅 2026-11-01。须检查最新状态、类别和确切时间。
+- HK-HKU-P093 / HK-HKU-P093-2027-PT：记录截止 2026-11-13，距快照 9 天；来源查阅 2026-11-01。须检查最新状态、类别和确切时间。
+- SG-NUS-P007 / SG-NUS-P007-O1：记录截止 2026-11-15，距快照 11 天；来源查阅 2026-10-22。须检查最新状态、类别和确切时间。
+
+## 可重复检查
+
+在仓库根目录运行（只读；使用 Node 24）：
+
+```text
+node scripts/source-review-queue.mjs --as-of 2026-11-04
+node scripts/source-review-queue.mjs --as-of 2026-11-04 --format markdown
+```
+
+JSON 输出含逐条来源、字段说明、人工条件、类别与记录截止。快照日期不改写来源日期；不联网、不打开日常 SQLite 文件，不推送或部署。源数据修改后应重新检查，不把旧清单当成新资料的复核结果。
+
+语义化输入指纹（忽略 JSON 键顺序和换行差异）：
+
+- `data/catalogue.json`: `319efc86d0cb69e7798775cf645545d445253ab0edc8b58b0a70b8905cff1792`
+- `data/catalogue-expansion.json`: `a9dc5dc89ae2ec651d383da29954b404549feda2bda2f5527d50790126cfd489`
+- `data/checked-programmes.json`: `cb918ace3cd72cd0fd0e37120d2c3584cce18028331a775aac25538afb17aaf9`
+- `data/directory-audit.json`: `6943222bfbed8c1250af519e53cad92bb39aae2fee58d69fbdc247784cb38ff8`
+- `data/programme-scope-audit.json`: `9e0d210e5093031855fdc8ac3797ce7a8b7a6aa868677f237d2718700fc775d7`
+- `data/directory-links.json`: `d22cd1c05b57e1981bd1fbff28e84ba942098868959685e598c4bb4c37bfdcf4`
+- `data/route-programmes.json`: `1f1efac16afd08d1dd85e77c6734392a66502a1fd2970754f16a05ff14c638b1`
+- `data/applicant-contexts.json`: `68059c20499f3b58920deb240316636be88f49c43bd4233089b4afdaa86f719c`
+
+清单指纹：`4da403cebc52a9ec64c3bed6bd4c840f876a58943c27ff947eb098113be8faff`

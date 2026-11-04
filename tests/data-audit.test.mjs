@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -114,7 +115,7 @@ test('directory entries distinguish 175 stored seeds from a fully enumerated sch
 test('versioned directory updates replace stale links without changing raw snapshot records', () => {
   const store = new CatalogueStore(':memory:', { seed, checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root) });
   try {
-    assert.equal(store.quality().checked, 440);
+    assert.equal(store.quality().checked, repositoryExpected.checked);
     assert.equal(store.quality().enumeratedUniversities, 6);
     assert.equal(store.universities().find(u => u.id === 'HK-HKBU').directoryUrl, 'https://ar.hkbu.edu.hk/tpg-admissions/programmes');
     assert.equal(seed.universities.find(u => u.id === 'HK-HKBU').directoryUrl, 'https://gs.hkbu.edu.hk/programmes');

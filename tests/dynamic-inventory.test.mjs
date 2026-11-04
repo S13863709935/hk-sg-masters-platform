@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -70,7 +71,7 @@ test('153 new leads remain unreviewed and source overlays preserve all checked r
   assert.ok(additions.every(p=>p.verification==='catalogue_seed' && p.rules.length===0 && p.academicYear===null && p.reviewer===null));
   const db=new CatalogueStore(':memory:',options);
   try {
-    const q=db.quality(); assert.equal(q.total,873);assert.equal(q.browsable,865);assert.equal(q.checked,440);assert.equal(q.peerReviewed,0);assert.equal(q.complete,0);
+    const q=db.quality(); assert.equal(q.total,873);assert.equal(q.browsable,865);assert.equal(q.checked,repositoryExpected.checked);assert.equal(q.peerReviewed,0);assert.equal(q.complete,0);
     for (const original of read('data/checked-programmes.json').programmes) {
       const current=db.get(original.id); assert.deepEqual(current.rules,original.rules);assert.deepEqual(current.offerings,original.offerings);assert.equal(current.lastChecked,original.lastChecked);assert.equal(current.name,original.name);
     }

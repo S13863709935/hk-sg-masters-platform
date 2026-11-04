@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -58,7 +59,7 @@ test('August-only month ranges do not inherit precise Economics windows, January
   }
   const queue = loadRepositoryReviewQueue('2026-10-28');
   assert.equal(queue.counts.nearCutoffUnits, 2); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
-  assert.equal(queue.counts.programmePageRecords, 440); assert.equal(queue.counts.reviewUnits, 848);
+  assert.equal(queue.counts.programmePageRecords, repositoryExpected.checked); assert.equal(queue.counts.reviewUnits, repositoryExpected.reviewUnits);
 });
 
 test('duration versions and personal-fee uncertainty remain visible without extra track degrees or doubled advance tuition', () => {
@@ -89,7 +90,7 @@ test('existing MAF seed migrates idempotently beneath its old catalogue metadata
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 440); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, repositoryExpected.checked); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -118,8 +119,8 @@ test('real APIs, saved-option restore and export keep both MAF modes unresolved 
     assert.match(exported.evidence.publishedRequirements.find(r => /Two statements/.test(r.labelEn)).noteEn, /two personal statements/);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined); assert.equal(detail.applicationTimeline.state, 'dates_incomplete');
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 440); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, repositoryExpected.checked); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 63);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, repositoryExpected.routeRecords);
   assert.equal(JSON.stringify(store.all()), before);
 });

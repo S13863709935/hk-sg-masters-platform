@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -218,10 +219,10 @@ test('parent records and raw export are unchanged; route and category evidence h
   assert.equal(exported.verification, 'catalogue_seed'); assert.equal(exported.selectedRoute, undefined);
   assert.equal(exported.applicantEvidence, undefined);
   const meta = await get('/api/meta');
-  assert.deepEqual(meta.routeEvidence, { groups: 28, routes: 63, pageChecked: 63, peerReviewed: 0, complete: 0 });
+  assert.deepEqual(meta.routeEvidence, { groups:repositoryExpected.routeGroups, routes:repositoryExpected.routeRecords, pageChecked:repositoryExpected.routeRecords, peerReviewed: 0, complete: 0 });
   assert.deepEqual(meta.applicantEvidence, { studyOptions: 345, categories: 694, peerReviewed: 0 });
   assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
-  assert.equal(meta.quality.checked, 440); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
+  assert.equal(meta.quality.checked, repositoryExpected.checked); assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
 });
 
 test('cards and details only show the unresolved-route badge when no specific route is selected', () => {

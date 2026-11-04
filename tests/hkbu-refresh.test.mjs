@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -174,7 +175,7 @@ test('read-only category use does not alter raw records or increase programme re
   const before = JSON.stringify([store.get(cu), store.get(bu)]);
   resolve(cu, 1, 'LOCAL'); resolve(bu, 1, 'NONLOCAL');
   const meta = await get('/api/meta'); assert.deepEqual(meta.applicantEvidence, { studyOptions: 345, categories: 694, peerReviewed: 0 });
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 440);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, repositoryExpected.checked);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0);
   assert.equal(JSON.stringify([store.get(cu), store.get(bu)]), before);
 });

@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -89,7 +90,7 @@ test('two-record source migration preserves earlier objects and original pilot, 
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
   assert.equal(batch.pilotProgrammeIds.length, 20); assert.equal(programmes.some(p => batch.pilotProgrammeIds.includes(p.id)), false);
   assert.equal(programmes.some(p => routes.has(p.id)), false);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 440); assert.equal(queue.counts.reviewUnits, 848); assert.equal(queue.counts.reviewRecordedInSource, 0);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, repositoryExpected.checked); assert.equal(queue.counts.reviewUnits, repositoryExpected.reviewUnits); assert.equal(queue.counts.reviewRecordedInSource, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-msch-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
     const other = p => !obs.programmeIds.includes(p.id);
@@ -98,7 +99,7 @@ test('two-record source migration preserves earlier objects and original pilot, 
     assert.equal(db.quality().checked, batch.programmes.length - 2); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
-      db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.quality().checked, 440);
+      db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.quality().checked, repositoryExpected.checked);
       for (const [i, p] of programmes.entries()) { assert.equal(db.get(p.id).verification, 'programme_page_checked'); assert.deepEqual(db.get(p.id).directoryListing, listings[i]); }
       assert.deepEqual(db.all().filter(other), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); db.close(); db = null;
     }
@@ -127,8 +128,8 @@ test('actual API, saved restore and export retain all three selected options, co
     assert.match(exported.evidence.publishedRequirements.find(r => /Conditional Chinese/.test(r.labelEn)).noteEn, /BOTH/);
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 440); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, repositoryExpected.checked); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 63);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, repositoryExpected.routeRecords);
   assert.equal(details.every(d => d.applicationTimeline.state === 'dates_incomplete'), true); assert.equal(JSON.stringify(store.all()), before);
 });

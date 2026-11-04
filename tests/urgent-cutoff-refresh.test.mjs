@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -127,12 +128,12 @@ test('an isolated synthetic older-source database reloads CUHK notes after resta
 
 test('review worklist and API counts remain unchanged; source rereading is not independent review or a live-open result', async () => {
   const before = JSON.stringify(store.all()), q = loadRepositoryReviewQueue(obs.checkedOn), meta = await get('/api/meta');
-  assert.equal(q.counts.reviewUnits, 848); assert.equal(q.counts.pendingHumanReview, 848);
+  assert.equal(q.counts.reviewUnits, repositoryExpected.reviewUnits); assert.equal(q.counts.pendingHumanReview, repositoryExpected.reviewUnits);
   assert.equal(q.units.find(u => u.kind === 'programme' && u.programmeId === cu.id).sourceCheckedOn, obs.checkedOn);
   const next = loadRepositoryReviewQueue('2026-11-02');
   assert.ok(next.units.filter(u => [cu.id, ci.id].includes(u.programmeId)).every(u => u.upcomingRecordedCutoffs.length === 0));
-  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 440);
+  assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, repositoryExpected.checked);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 63);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, repositoryExpected.routeRecords);
   assert.equal(JSON.stringify(store.all()), before);
 });

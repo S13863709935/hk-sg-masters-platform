@@ -59,6 +59,10 @@ export function validateProgramme(p, universityIds) {
   if (!Array.isArray(p.offerings) || !Array.isArray(p.rules)) throw new InputError('Offerings and rules must be arrays');
   if (!p.offerings.length || new Set(p.offerings.map(o => o.id)).size !== p.offerings.length) throw new InputError('Missing or duplicate offerings');
   for (const o of p.offerings) {
+    if (o.applicationAvailability !== undefined) {
+      const a = o.applicationAvailability;
+      if (!a || Object.keys(a).some(k => !['status', 'sourceUrl', 'checkedOn'].includes(k)) || a.status !== 'closed' || !isOfficialUrl(a.sourceUrl) || a.sourceUrl !== p.officialUrl || !isIsoDate(a.checkedOn) || !isIsoDate(p.lastChecked) || a.checkedOn > p.lastChecked || !['programme_page_checked', 'peer_reviewed'].includes(p.verification) || !Array.isArray(p.sources) || !p.sources.some(s => s?.url === a.sourceUrl && s.checkedOn === a.checkedOn)) throw new InputError('Closed-intake availability requires a dated checked programme source');
+    }
     if (typeof o.id !== 'string' || !o.id.startsWith(`${p.id}-`)) throw new InputError('Offering ID must belong to the programme');
     if (o.tuition !== null && o.tuition !== undefined && (!Number.isFinite(o.tuition) || o.tuition < 0 || !o.currency)) throw new InputError('Invalid tuition amount or missing currency');
     if (o.deadline && !isIsoDate(o.deadline)) throw new InputError('A dated deadline must use YYYY-MM-DD; recurring dates belong in deadlineNote');

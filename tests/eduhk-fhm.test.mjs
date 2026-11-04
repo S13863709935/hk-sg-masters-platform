@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync,rmSync,rmdirSync} from 'node:fs';
@@ -25,8 +26,8 @@ const languageCheck=(x,language)=>matchProgramme(x,{...profile,language}).checks
 
 test('FHM batch adds eight existing identities, six independent language snapshots and twenty-six exact choices',()=>{
  assert.equal(obs.programmeIds.length,8);assert.equal(obs.directoryRows.length,12);assert.equal(obs.applicantContextPlan.length,13);assert.equal(choices().length,26);assert.equal(obs.counts.newParentStudyOptions,9);assert.equal(obs.counts.newRouteStudyOptions,7);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,440);assert.equal(store.quality().universities,14);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
- assert.deepEqual(routeSummary(routes),{groups:28,routes:63,pageChecked:63,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:345,categories:694,peerReviewed:0});
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,repositoryExpected.checked);assert.equal(store.quality().universities,14);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
+ assert.deepEqual(routeSummary(routes),{groups:repositoryExpected.routeGroups,routes:repositoryExpected.routeRecords,pageChecked:repositoryExpected.routeRecords,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:345,categories:694,peerReviewed:0});
  for(const id of obs.programmeIds){const x=store.get(id);assert.equal(x.lastChecked,'2026-11-04');assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.rules.some(r=>r.kind==='gpa'||r.kind==='experience'),false);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(p=>p.id===id))),false);}
  assert.equal(p(1).lastChecked,'2026-10-30');assert.equal(p(44).lastChecked,'2026-10-25');
 });
@@ -113,15 +114,15 @@ test('HTTP success, redirects, one retained 500 and same-day source reuse are no
 });
 
 test('latest backlog retains 38 unread EdUHK leads, complete-zero status and unchanged core results',()=>{
- const b=loadSchoolBacklog('2026-11-04'),s=b.schools.find(x=>x.schoolId==='HK-EDUHK');assert.equal(s.catalogueRecords,59);assert.equal(s.pageCheckedRecords,58);assert.equal(s.unreadLeads,1);assert.equal(s.completeRecords,0);assert.equal(b.counts.pageCheckedRecords,440);assert.equal(b.counts.catalogueLeads,433);assert.equal(b.counts.unreadLeads,418);
- assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-cuhk-engineering.json'));assert.equal(formatSchoolBacklog(b),readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-cuhk-engineering.md',root),'utf8').replaceAll('\r\n','\n'));
- const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,848);assert.equal(q.counts.nearCutoffUnits,11);assert.equal(q.counts.staleApplicantContexts,0);assert.equal(batch.pilotProgrammeIds.length,20);
+ const b=loadSchoolBacklog('2026-11-04'),s=b.schools.find(x=>x.schoolId==='HK-EDUHK');assert.equal(s.catalogueRecords,59);assert.equal(s.pageCheckedRecords,58);assert.equal(s.unreadLeads,1);assert.equal(s.completeRecords,0);assert.equal(b.counts.pageCheckedRecords,repositoryExpected.checked);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);
+ assert.deepEqual(b,read(repositoryExpected.backlogJson));assert.equal(formatSchoolBacklog(b),readFileSync(new URL(repositoryExpected.backlogMarkdown,root),'utf8').replaceAll('\r\n','\n'));
+ const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,repositoryExpected.reviewUnits);assert.equal(q.counts.nearCutoffUnits,repositoryExpected.nearCutoffNovember4);assert.equal(q.counts.staleApplicantContexts,0);assert.equal(batch.pilotProgrammeIds.length,20);
  for(const plan of obs.applicantContextPlan){const r=plan.routeId?routes.get(plan.programmeId).find(r=>r.routeId===plan.routeId):store.get(plan.programmeId),o=r.offerings.find(o=>o.id===plan.offeringId),binding=[...contexts.values()].find(c=>c.offeringId===o.id);assert.equal(binding.offeringFingerprint,offeringFingerprint(o));assert.equal(binding.intake,'September 2027');}
 });
 
 test('isolated repeated imports preserve every earlier parent and reload exact alias/language/category bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-eduhk-fhm-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,440);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const rs=loadRoutes(routePath,db.all());assert.equal(rs.size,28);assert.equal(loadApplicantContexts(contextPath,db.all(),rs).size,345);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,repositoryExpected.checked);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const rs=loadRoutes(routePath,db.all());assert.equal(rs.size,repositoryExpected.routeGroups);assert.equal(loadApplicantContexts(contextPath,db.all(),rs).size,345);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
 });
 

@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -27,12 +28,12 @@ const unit = (q = report, id = 'SG-NUS-P032', kind = 'programme') => q.units.fin
 
 test('review units preserve separate programme, route and category counts without inflating catalogue coverage', () => {
   assert.deepEqual(report.counts, {
-    catalogueRecords: 873, programmePageRecords: 440, remainingCatalogueLeads: 433,
-    routeRecords: 63, applicantContexts: 345, applicantCategories: 694, reviewUnits: 848,
-    pendingHumanReview: 848, reviewRecordedInSource: 0, nearCutoffUnits: 4, staleApplicantContexts: 0
+    catalogueRecords: 873, programmePageRecords:repositoryExpected.checked, remainingCatalogueLeads:repositoryExpected.catalogueLeads,
+    routeRecords:repositoryExpected.routeRecords, applicantContexts: 345, applicantCategories: 694, reviewUnits:repositoryExpected.reviewUnits,
+    pendingHumanReview:repositoryExpected.reviewUnits, reviewRecordedInSource: 0, nearCutoffUnits: 4, staleApplicantContexts: 0
   });
-  assert.equal(report.units.filter(u => u.kind === 'programme').length, 440);
-  assert.equal(new Set(report.units.map(u => u.key)).size, 848);
+  assert.equal(report.units.filter(u => u.kind === 'programme').length, repositoryExpected.checked);
+  assert.equal(new Set(report.units.map(u => u.key)).size, repositoryExpected.reviewUnits);
   assert.equal(report.livePortalChecked, false); assert.equal(report.reviewApprovalGranted, false);
   assert.ok(report.units.every(u => u.status === 'pending_human_review' && !u.sourceReviewRecorded));
 });
@@ -139,9 +140,9 @@ test('valid applicant evidence observed after the comparison date is withheld wi
 
 test('route evidence remains separate from siblings and does not require a checked parent or manufacture a new programme', () => {
   const routes = report.units.filter(u => u.kind === 'route');
-  assert.equal(routes.length, 63); assert.equal(routes.filter(u => u.programmeId === 'HK-HKU-P016').length, 3);
+  assert.equal(routes.length, repositoryExpected.routeRecords); assert.equal(routes.filter(u => u.programmeId === 'HK-HKU-P016').length, 3);
   assert.equal(report.units.some(u => u.kind === 'programme' && u.programmeId === 'HK-HKU-P016'), false);
-  assert.equal(new Set(routes.map(u => u.sourceFingerprint)).size, 63);
+  assert.equal(new Set(routes.map(u => u.sourceFingerprint)).size, repositoryExpected.routeRecords);
   for (const route of routes) assert.ok(route.key.includes(route.routeId));
 });
 
@@ -196,9 +197,9 @@ test('real CLI works outside the repository without modifying source files or op
 });
 
 test('committed human checklist exactly reproduces its snapshot and semantic source fingerprints', () => {
-  assert.equal(formatSourceReviewMarkdown(loadRepositoryReviewQueue('2026-11-04')), readFileSync(new URL('docs/research/source-review-queue-2026-11-04-cuhk-engineering.md', root), 'utf8').replaceAll('\r\n', '\n'));
+  assert.equal(formatSourceReviewMarkdown(loadRepositoryReviewQueue('2026-11-04')), readFileSync(new URL(repositoryExpected.reviewMarkdown, root), 'utf8').replaceAll('\r\n', '\n'));
   assert.equal(Object.keys(report.inputFingerprints).length, 8);
   for (const h of Object.values(report.inputFingerprints)) assert.match(h, /^[a-f0-9]{64}$/);
   const markdown = formatSourceReviewMarkdown(report);
-  assert.match(markdown, /不是 848 个项目/); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
+  assert.ok(markdown.includes(`不是 ${repositoryExpected.reviewUnits} 个项目`)); assert.match(markdown, /安全验证/); assert.match(markdown, /视觉验证或独立人工复核完成/);
 });

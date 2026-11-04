@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, mkdtempSync, writeFileSync, rmSync, rmdirSync } from 'node:fs';
@@ -36,7 +37,7 @@ test('two CityU parents are refreshed without adding programmes or independent r
     assert.equal(p.verification, 'programme_page_checked'); assert.equal(p.requirementsCoverage, 'partial'); assert.equal(p.reviewer, null);
     assert.ok(p.sources.every(s => s.checkedOn === p.lastChecked));
   }
-  assert.equal(store.quality().total, 873); assert.equal(store.quality().checked, 440);
+  assert.equal(store.quality().total, 873); assert.equal(store.quality().checked, repositoryExpected.checked);
   assert.equal(store.quality().peerReviewed, 0); assert.equal(store.quality().complete, 0);
 });
 

@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -114,7 +115,7 @@ test('today adds a new review snapshot without rewriting yesterday or relabellin
   const current = today.units.find(x => x.kind === 'applicant_context' && x.programmeId === p.id);
   const future = yesterday.units.find(x => x.kind === 'applicant_context' && x.programmeId === p.id);
   assert.ok(current.categories.every(x => x.tuition === 227700)); assert.ok(future.categories.every(x => x.tuition === null && x.recordedCutoffs.length === 0));
-  assert.equal(today.counts.reviewUnits, 848); assert.equal(today.counts.reviewRecordedInSource, 0);
+  assert.equal(today.counts.reviewUnits, repositoryExpected.reviewUnits); assert.equal(today.counts.reviewRecordedInSource, 0);
   assert.equal(today.units.find(x => x.programmeId === 'SG-NTU-P062').sourceCheckedOn, '2026-10-24');
   assert.deepEqual(today.units.filter(x => x.upcomingRecordedCutoffs.length).map(x => x.programmeId), ['HK-CUHK-P001', 'HK-HKUST-P001']);
 });
@@ -170,8 +171,8 @@ test('first ADS source migration preserves all prior programme objects, director
 
 test('ADS lookup, matching and export do not write data or inflate independent review and catalogue coverage', async () => {
   const before = JSON.stringify(store.all()); resolve('LOCAL'); matchProgramme(resolve('NONLOCAL'), profile);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, 440);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865); assert.equal(meta.quality.checked, repositoryExpected.checked);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(meta.applicantEvidence, { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 63);
+  assert.deepEqual(meta.applicantEvidence, { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, repositoryExpected.routeRecords);
   assert.equal(JSON.stringify(store.all()), before);
 });

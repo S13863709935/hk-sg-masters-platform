@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -96,7 +97,7 @@ test('MSA first-source migration preserves MPA, all earlier objects, historical 
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 440); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, repositoryExpected.checked); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -123,8 +124,8 @@ test('actual matching/save/restore/export preserves both MSA study selections, a
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
     assert.equal(detail.applicationTimeline.state, 'within_recorded_dates'); assert.equal(detail.applicationTimeline.offerings[0].nextRoundId, 'PHASE-1');
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 440); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, repositoryExpected.checked); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 63);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, repositoryExpected.routeRecords);
   assert.equal(JSON.stringify(store.all()), before);
 });

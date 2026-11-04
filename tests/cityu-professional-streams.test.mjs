@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -24,10 +25,10 @@ const select=(x,o,category)=>resolveProgramme(x,routes,undefined,o.id,category?o
 
 test('six existing IDs and two separate BIS snapshots preserve counts without new degrees or full approvals',()=>{
  assert.equal(obs.programmeIds.length,6); assert.equal(new Set(obs.programmeIds).size,6);
- assert.equal(store.quality().checked,440); assert.equal(store.quality().total,873); assert.equal(store.quality().browsable,865);
+ assert.equal(store.quality().checked,repositoryExpected.checked); assert.equal(store.quality().total,873); assert.equal(store.quality().browsable,865);
  assert.equal(store.quality().complete,0); assert.equal(store.quality().peerReviewed,0); assert.deepEqual(store.quality().sourceRefreshConflicts,[]);
  assert.equal(store.all().filter(x=>x.universityId==='HK-CITYU'&&x.verification==='programme_page_checked').length,61);
- assert.deepEqual(routeSummary(routes),{groups:28,routes:63,pageChecked:63,peerReviewed:0,complete:0});
+ assert.deepEqual(routeSummary(routes),{groups:repositoryExpected.routeGroups,routes:repositoryExpected.routeRecords,pageChecked:repositoryExpected.routeRecords,peerReviewed:0,complete:0});
  assert.deepEqual(applicantSummary(applicants),{studyOptions:345,categories:694,peerReviewed:0});
  for(const x of [...obs.programmeIds.map(id=>store.get(id)),...siblings]){
   assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(y=>y.id===x.id)||x)),false);
@@ -115,7 +116,7 @@ test('historical EMBA/Civil holds remain unchanged while later exact snapshots r
  assert.equal(p(9).verification,'programme_page_checked');assert.equal(p(9).lastChecked,'2026-11-03');assert.equal(routes.has(p(9).id),false);assert.match(p(9).notesEn,/P60 code continuity/);
  assert.equal(obs.boundaries.EMBA.decision,'retain_catalogue_lead');assert.match(obs.boundaries.EMBA.notesEn,/not imported into P12/);
  assert.match(obs.boundaries.EMBA.notesEn,/HKD 1000/);assert.equal(obs.boundaries.civil.decision,'retain_legacy_identity_hold');
- const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,848);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
+ const q=loadRepositoryReviewQueue('2026-10-30');assert.equal(q.counts.reviewUnits,repositoryExpected.reviewUnits);assert.equal(q.counts.nearCutoffUnits,3);assert.equal(q.counts.staleApplicantContexts,0);
 });
 
 test('isolated imports preserve all earlier records over restarts and route/context evidence still validates',()=>{

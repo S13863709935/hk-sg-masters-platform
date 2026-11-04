@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -56,7 +57,7 @@ test('2027 versus 2026 date references and recurring FAQ cutoffs never become li
     for (const day of ['2026-10-28', '2026-11-30', '2027-02-28', '2027-06-30', '2027-07-01']) assert.equal(programmeTimeline(selected(o), day).state, 'dates_incomplete');
   }
   const current = loadRepositoryReviewQueue('2026-10-28'); assert.equal(current.counts.nearCutoffUnits, 2);
-  assert.equal(current.counts.programmePageRecords, 440); assert.equal(current.counts.reviewUnits, 848);
+  assert.equal(current.counts.programmePageRecords, repositoryExpected.checked); assert.equal(current.counts.reviewUnits, repositoryExpected.reviewUnits);
   for (const day of ['2026-10-28', '2026-11-25', '2027-06-25']) assert.equal(loadRepositoryReviewQueue(day).units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
 });
 
@@ -88,7 +89,7 @@ test('existing expanded MST catalogue ID migrates idempotently beneath metadata 
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 440); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, repositoryExpected.checked); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -113,8 +114,8 @@ test('actual matching/save/restore/export retains both MST modes, strict source 
     assert.match(exported.offerings[0].deadlineNote, /30 June 2026/); assert.equal(detail.applicationTimeline.state, 'dates_incomplete');
     assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
   }
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 440); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, repositoryExpected.checked); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 63);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, repositoryExpected.routeRecords);
   assert.equal(JSON.stringify(store.all()), before);
 });

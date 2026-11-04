@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -20,7 +21,7 @@ const specific = n => p(n).rules.find(r => r.labelEn === 'Programme-specific pre
 
 test('sixteen existing IDs gain thirty English-data study options without adding awards or complete approvals', () => {
   assert.equal(obs.programmeIds.length, 16); assert.equal(new Set(obs.programmeIds).size, 16); assert.equal(obs.counts.newOfferings, 30);
-  assert.equal(store.quality().checked, 440); assert.equal(store.quality().total, 873); assert.equal(store.quality().browsable, 865);
+  assert.equal(store.quality().checked, repositoryExpected.checked); assert.equal(store.quality().total, 873); assert.equal(store.quality().browsable, 865);
   assert.equal(store.quality().complete, 0); assert.equal(store.quality().peerReviewed, 0);
   assert.equal(store.all().filter(p => p.universityId === 'HK-CITYU' && p.verification === 'programme_page_checked').length, 61);
   for (const id of obs.programmeIds) {
@@ -103,8 +104,8 @@ test('explicit dates and score validity remain comparable without invented categ
   assert.throws(() => english(8, { ...old, testDate: '2026-01-21' }), /score scale conflicts with the test date/);
   assert.equal(english(8, { ...old, testDate: '2025-01-01', atHome: true }).status, 'fail');
   for (const id of obs.programmeIds) assert.equal(programmeTimeline(store.get(id), '2026-10-30').state, 'within_recorded_dates');
-  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, 440);
-  assert.equal(q.counts.reviewUnits, 848); assert.equal(q.counts.nearCutoffUnits, 3); assert.equal(q.counts.staleApplicantContexts, 0);
+  const q = loadRepositoryReviewQueue('2026-10-30'); assert.equal(q.counts.programmePageRecords, repositoryExpected.checked);
+  assert.equal(q.counts.reviewUnits, repositoryExpected.reviewUnits); assert.equal(q.counts.nearCutoffUnits, 3); assert.equal(q.counts.staleApplicantContexts, 0);
   assert.equal(q.counts.applicantContexts, 345); assert.equal(q.counts.applicantCategories, 694);
 });
 
@@ -117,7 +118,7 @@ test('a sixteen-record batch imports over isolated restarts while preserving eve
     const earlier = db.all().filter(p => !ids.has(p.id)); assert.equal(db.quality().checked, before.programmes.length); db.close(); db = null;
     writeFileSync(checkedPath, JSON.stringify(batch));
     for (let restart = 0; restart < 2; restart++) {
-      db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.quality().checked, 440);
+      db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.quality().checked, repositoryExpected.checked);
       assert.deepEqual(db.all().filter(p => !ids.has(p.id)), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []);
       for (const id of ids) assert.equal(db.get(id).verification, 'programme_page_checked'); db.close(); db = null;
     }

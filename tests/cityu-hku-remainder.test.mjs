@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync,rmSync,rmdirSync} from 'node:fs';
@@ -22,8 +23,8 @@ const selected=(tag,mode='FT',cat)=>{const p=tag==='CIVIL'?civil:emba,rid=tag===
 const choices=()=>obs.applicantContextPlan.flatMap(c=>c.options.map(cat=>resolveProgramme(store.get(c.programmeId),routes,c.routeId,c.offeringId,cat.id,contexts)));
 
 test('two parent observations and two EMBA snapshots retain existing identities and separate review counts',()=>{
- assert.equal(obs.programmeIds.length,2);assert.equal(obs.routeRecords.length,2);assert.equal(choices().length,12);assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,440);assert.equal(store.quality().outOfScope,7);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
- assert.deepEqual(routeSummary(routes),{groups:28,routes:63,pageChecked:63,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:345,categories:694,peerReviewed:0});
+ assert.equal(obs.programmeIds.length,2);assert.equal(obs.routeRecords.length,2);assert.equal(choices().length,12);assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,repositoryExpected.checked);assert.equal(store.quality().outOfScope,7);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
+ assert.deepEqual(routeSummary(routes),{groups:repositoryExpected.routeGroups,routes:repositoryExpected.routeRecords,pageChecked:repositoryExpected.routeRecords,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:345,categories:694,peerReviewed:0});
  assert.equal(emba.verification,'catalogue_seed');assert.equal(civil.name,'MSc Civil Infrastructure and Building Sustainability');assert.match(civil.notesEn,/P60 code continuity.*not a separately announced legal rename date/);
  for(const p of [civil,legacy,...routes.get(emba.id)]){assert.equal(p.lastChecked,'2026-11-03');assert.equal(p.requirementsCoverage,'partial');assert.equal(p.reviewer,null);assert.equal(p.rules.some(r=>r.kind==='gpa'),false);}
 });
@@ -70,14 +71,14 @@ test('HTTP200 verification pages never count as readable official source evidenc
 });
 
 test('backlog closes three unread identities without pretending grouped EMBA or ten HKU parents are fully reviewed',()=>{
- const b=loadSchoolBacklog('2026-11-04');assert.equal(b.counts.unreadLeads,418);assert.equal(b.counts.catalogueLeads,433);assert.equal(b.counts.routeCoveredLeads,12);assert.equal(b.counts.scopeHeldLeads,3);for(const id of ['HK-CITYU','HK-HKU'])assert.equal(b.schools.find(s=>s.schoolId===id).unreadLeads,0);
+ const b=loadSchoolBacklog('2026-11-04');assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.equal(b.counts.routeCoveredLeads,12);assert.equal(b.counts.scopeHeldLeads,3);for(const id of ['HK-CITYU','HK-HKU'])assert.equal(b.schools.find(s=>s.schoolId===id).unreadLeads,0);
  assert.equal(b.schools.find(s=>s.schoolId==='HK-CITYU').pageCheckedRecords,61);assert.equal(b.schools.find(s=>s.schoolId==='HK-HKU').pageCheckedRecords,93);
- assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-cuhk-engineering.json'));assert.equal(formatSchoolBacklog(b),readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-cuhk-engineering.md',root),'utf8').replaceAll('\r\n','\n'));
+ assert.deepEqual(b,read(repositoryExpected.backlogJson));assert.equal(formatSchoolBacklog(b),readFileSync(new URL(repositoryExpected.backlogMarkdown,root),'utf8').replaceAll('\r\n','\n'));
 });
 
 test('temporary repeat imports preserve earlier parents and previous route/category source bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-cityu-hku-remainder-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,440);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,345);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,repositoryExpected.checked);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);assert.equal(loadApplicantContexts(contextPath,db.all(),loadRoutes(routePath,db.all())).size,345);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
 });
 

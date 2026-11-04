@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, rmdirSync } from 'node:fs';
@@ -122,7 +123,7 @@ test('annual and whole-programme fee units, bridge charges and January recurrenc
 
 test('first Clinical source migration preserves other records and previous snapshots across isolated restarts', () => {
   for (const [file, hash] of Object.entries(obs.preservation.previousSnapshotHashes)) assert.equal(createHash('sha256').update(readFileSync(new URL(file, root), 'utf8').replaceAll('\r\n', '\n')).digest('hex'), hash);
-  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, 440); assert.equal(queue.counts.reviewUnits, 848);
+  const queue = loadRepositoryReviewQueue('2026-10-28'); assert.equal(queue.counts.programmePageRecords, repositoryExpected.checked); assert.equal(queue.counts.reviewUnits, repositoryExpected.reviewUnits);
   assert.equal(queue.counts.reviewRecordedInSource, 0); assert.equal(queue.units.find(u => u.programmeId === p.id).upcomingRecordedCutoffs.length, 0);
   const dir = mkdtempSync(join(tmpdir(), 'gradpath-suss-mpcl-')), path = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try {
@@ -133,7 +134,7 @@ test('first Clinical source migration preserves other records and previous snaps
     for (let restart = 0; restart < 2; restart++) {
       db = new CatalogueStore(path, { ...options, checkedPath }); assert.equal(db.get(p.id).verification, 'programme_page_checked');
       assert.deepEqual(db.get(p.id).directoryListing, listing); assert.deepEqual(db.all().filter(x => x.id !== p.id), earlier);
-      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, 440); db.close(); db = null;
+      assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(db.quality().checked, repositoryExpected.checked); db.close(); db = null;
     }
   } finally { db?.close(); rmSync(path, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
 });
@@ -161,8 +162,8 @@ test('actual API, saved-option reselection and export preserve conditional Clini
   assert.match(exported.evidence.publishedRequirements.find(r => /Standard honours/.test(r.labelEn)).noteEn, /conditional admission/);
   assert.match(exported.evidence.publishedRequirements.find(r => /Clinical documents/.test(r.labelEn)).noteEn, /two weeks/);
   assert.equal(exported.profile, undefined); assert.equal(exported.match, undefined);
-  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, 440); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
+  const meta = await get('/api/meta'); assert.equal(meta.quality.checked, repositoryExpected.checked); assert.equal(meta.quality.total, 873); assert.equal(meta.quality.browsable, 865);
   assert.equal(meta.quality.peerReviewed, 0); assert.equal(meta.quality.complete, 0); assert.deepEqual(meta.quality.sourceRefreshConflicts, []);
-  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, 63);
+  assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 }); assert.equal(meta.routeEvidence.routes, repositoryExpected.routeRecords);
   assert.equal(JSON.stringify(store.all()), before);
 });

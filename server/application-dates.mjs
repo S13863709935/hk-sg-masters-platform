@@ -18,15 +18,18 @@ export const applicationLabels = {
   route_required: 'Choose a specific route before checking dates',
   applicant_required: 'Choose an applicant category before comparing these dates',
   unverified: 'Application dates are not source-checked',
-  excluded: 'Excluded from the current project scope'
+  excluded: 'Excluded from the current project scope',
+  source_closed: 'Marked closed in the checked official source'
 };
 
 function offeringDate(programme, offering, asOfDate, asOfInstant) {
   const start = offering.applicationOpen || null;
   const end = offering.deadline || null;
   const categoryEvidence = hasApplicantDateEvidence(offering) ? offering.applicantDateEvidence : null;
-  const sourceUrl = categoryEvidence?.sourceUrl || programme.fieldStatus?.deadline?.sourceUrl || programme.officialUrl;
-  const sourceCheckedOn = categoryEvidence?.checkedOn || programme.sources?.find(s => s.url === sourceUrl)?.checkedOn || programme.lastChecked || null;
+  const availability = offering.applicationAvailability;
+  const checkedClosure = availability?.status === 'closed' && availability.sourceUrl === programme.officialUrl && validDate(availability.checkedOn) && availability.checkedOn <= programme.lastChecked && Array.isArray(programme.sources) && programme.sources.some(s => s?.url === availability.sourceUrl && s.checkedOn === availability.checkedOn) && ['programme_page_checked', 'peer_reviewed'].includes(programme.verification);
+  const sourceUrl = (checkedClosure && availability.sourceUrl) || categoryEvidence?.sourceUrl || programme.fieldStatus?.deadline?.sourceUrl || programme.officialUrl;
+  const sourceCheckedOn = (checkedClosure && availability.checkedOn) || categoryEvidence?.checkedOn || programme.sources?.find(s => s.url === sourceUrl)?.checkedOn || programme.lastChecked || null;
   const result = (state, reason, compare = false) => {
     const rounds = validApplicationRounds(offering.applicationRounds, offering) && offering.applicationRounds?.map(r => {
       const status = compare ? compareRound(r, asOfDate, asOfInstant) : { state, reason };
@@ -36,6 +39,9 @@ function offeringDate(programme, offering, asOfDate, asOfInstant) {
   };
   if (programme.scope?.status === 'out_of_scope' || programme.admissionRoute === 'transfer_only') return result('excluded', 'A scope or transfer-only exclusion is not an academic-background failure.');
   if (programme.directoryListing?.variants.length && !hasResolvedRoute(programme)) return result('route_required', 'A grouped directory entry cannot establish the dates of every direction.');
+  if (checkedClosure) return availability.checkedOn <= asOfDate
+    ? result('source_closed', 'The official source marked this intake closed on the recorded source-check date. No closing date, reopening, later extension or live portal status is inferred; this is not an academic-background failure.')
+    : result('unverified', 'The closure observation is later than this comparison date and cannot establish historical availability.');
   if (!['programme_page_checked', 'peer_reviewed'].includes(programme.verification) || programme.admissionRoute !== 'direct') return result('unverified', 'A catalogue lead or unconfirmed admission route is not evidence of an application window.');
   if (offering.applicantCategoryRequired) return result('applicant_required', 'Choose a study option and a university-specific category. The platform does not determine applicant status.');
   if ((start && !validDate(start)) || (end && !validDate(end)) || (start && end && start > end)) return result('invalid_dates', 'The stored date values or their order need correction; no availability conclusion is made.');

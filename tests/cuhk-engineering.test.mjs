@@ -1,3 +1,4 @@
+import {repositoryExpected} from './repository-expected-state.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdtempSync,rmSync,rmdirSync} from 'node:fs';
@@ -25,8 +26,8 @@ const languageCheck=(x,language)=>matchProgramme(x,{...profile,language}).checks
 
 
 test('engineering batch adds eleven existing partial parents and forty-four mode/category selections, not new awards',()=>{
- assert.equal(obs.programmeIds.length,11);assert.equal(obs.applicantContextPlan.length,22);assert.equal(choices().length,44);assert.equal(store.quality().total,873);assert.equal(store.quality().checked,440);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);assert.deepEqual(applicantSummary(contexts),{studyOptions:345,categories:694,peerReviewed:0});
- const b=loadSchoolBacklog('2026-11-04'),school=b.schools.find(s=>s.schoolId==='HK-CUHK');assert.equal(school.pageCheckedRecords,12);assert.equal(school.unreadLeads,117);assert.equal(b.counts.unreadLeads,418);assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-cuhk-engineering.json'));const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,848);assert.equal(q.counts.nearCutoffUnits,11);assert.equal(q.counts.staleApplicantContexts,0);
+ assert.equal(obs.programmeIds.length,11);assert.equal(obs.applicantContextPlan.length,22);assert.equal(choices().length,44);assert.equal(store.quality().total,873);assert.equal(store.quality().checked,repositoryExpected.checked);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);assert.deepEqual(applicantSummary(contexts),{studyOptions:345,categories:694,peerReviewed:0});
+ const b=loadSchoolBacklog('2026-11-04'),school=b.schools.find(s=>s.schoolId==='HK-CUHK');assert.equal(school.pageCheckedRecords,129);assert.equal(school.unreadLeads,0);assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);assert.deepEqual(b,read(repositoryExpected.backlogJson));const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,repositoryExpected.reviewUnits);assert.equal(q.counts.nearCutoffUnits,repositoryExpected.nearCutoffNovember4);assert.equal(q.counts.staleApplicantContexts,0);
  for(const id of obs.programmeIds){const x=store.get(id);assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.lastChecked,'2026-11-04');assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(p=>p.id===id))),false);}
 });
 test('Second Class OR average B OR assessed equivalent is not a fabricated numeric GPA or universal honours-only rejection',()=>{
@@ -64,7 +65,7 @@ test('explicit meta-refresh and HTTPS upgrades preserve provenance rather than t
 });
 test('isolated repeated imports preserve all earlier parents and reload exact condition/language bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-cuhk-engineering-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,440);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const rs=loadRoutes(routePath,db.all());assert.equal(rs.size,28);assert.equal(loadApplicantContexts(contextPath,db.all(),rs).size,345);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,repositoryExpected.checked);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const rs=loadRoutes(routePath,db.all());assert.equal(rs.size,repositoryExpected.routeGroups);assert.equal(loadApplicantContexts(contextPath,db.all(),rs).size,345);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
 });
 
