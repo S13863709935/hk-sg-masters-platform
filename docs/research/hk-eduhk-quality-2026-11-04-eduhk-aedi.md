@@ -1,0 +1,103 @@
+# HK-EDUHK existing-record quality audit
+
+As of 2026-11-04. Audit of existing local records, not a claim of the school’s full current catalogue or a fresh full-page review.
+
+59 records; 45 page-checked; 0 complete requirement sets; 0 independently reviewed. Showing only 45 page-checked records; 0 archive-only. Catalogue leads are not represented as checked rows.
+
+Known means recorded for the stated context. Not published means no universal criterion was established in the consulted source; it is not a waiver. Unknown/unrecorded requires follow-up. No field status confirms personal admission eligibility.
+
+| ID | Programme | Major | GPA | Language | Tuition | Deadline | Comparable rule kinds | Last checked |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| HK-EDUHK-P001 | Master of Public Policy and Management | not_published | not_published | known | known | unknown | degree, language | 2026-10-30 |
+| HK-EDUHK-P002 | Master of Management | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P003 | Master of Global Management | not_published | not_published | known | known | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P006 | Master of Arts in Belt and Road Business Communication and Administration | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P007 | Master of Arts in Child and Family Education | known | not_published | known | unknown | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P009 | Master of Arts in Chinese Art Business and Cultural Heritage Management | not_published | not_published | unknown | unknown | known | degree | 2026-11-04 |
+| HK-EDUHK-P010 | Master of Arts in Chinese Studies (Language Education) | unknown | not_published | known | unknown | known | none recorded | 2026-11-04 |
+| HK-EDUHK-P011 | Master of Arts in Chinese Values-Based Leadership Education | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P012 | Master of Arts in Comparative Education and Collaborative Innovation | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P013 | Master of Arts in Cultural Heritage Education and Management | known | not_published | known | unknown | known | degree | 2026-11-04 |
+| HK-EDUHK-P014 | Master of Arts in Digital Human Resource Management | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P015 | Master of Arts in Digital Humanities for Cultural Professionals | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+| HK-EDUHK-P016 | Master of Arts in Digital Linguistics and Intercultural Communication | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+| HK-EDUHK-P017 | Master of Arts in Digital Marketing and E-Commerce | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P018 | Master of Arts in E-Sports Management | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P019 | Master of Arts in Education for Sustainability | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+| HK-EDUHK-P020 | Master of Arts in Educational Counselling | known | not_published | known | unknown | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P022 | Master of Arts in Global Histories of Education | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+| HK-EDUHK-P023 | Master of Arts in Global Studies in Education | known | not_published | known | unknown | known | degree | 2026-11-04 |
+| HK-EDUHK-P024 | Master of Arts in Healthy Ageing and Silver Economy | not_published | not_published | unknown | unknown | known | degree | 2026-11-04 |
+| HK-EDUHK-P026 | Master of Arts in Inclusive Early Childhood Education | known | not_published | unknown | unknown | known | degree | 2026-11-04 |
+| HK-EDUHK-P027 | Master of Arts in Mathematics and Pedagogy | known | not_published | known | known | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P028 | Master of Arts in Mindfulness and Life Education | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P029 | Master of Arts in Music Education | known | not_published | known | unknown | known | degree, major, language | 2026-11-04 |
+| HK-EDUHK-P030 | Master of Arts in New Media and Social Media | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P031 | Master of Arts in Personal Finance | known | not_published | known | known | known | degree, major, language | 2026-11-04 |
+| HK-EDUHK-P032 | Master of Arts in Positive Psychology in Education | known | not_published | known | unknown | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P033 | Master of Arts in Science and Robotics Education | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P034 | Master of Arts in STEM Education | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+| HK-EDUHK-P035 | Master of Arts in Teaching Chinese as an International Language | known | not_published | known | unknown | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P036 | Master of Arts in Teaching English to Speakers of Other Languages | known | not_published | known | known | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P037 | Master of Arts in Tourism and Hospitality Management | not_published | not_published | unknown | unknown | known | degree | 2026-11-04 |
+| HK-EDUHK-P038 | Master of Arts in Visual Arts Education and Creative Practice | known | not_published | known | known | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P044 | Master of Science in Applied Data Science | unknown | not_published | unknown | known | known | degree | 2026-10-25 |
+| HK-EDUHK-P045 | Master of Science in Artificial Intelligence and Educational Technology | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+| HK-EDUHK-P047 | Master of Science in Business Analytics and FinTech | known | not_published | unknown | unknown | unknown | degree | 2026-11-04 |
+| HK-EDUHK-P049 | Master of Science in Education Policy and Management | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+| HK-EDUHK-P050 | Master of Science in Educational Neuroscience | not_published | not_published | unknown | known | known | degree | 2026-11-04 |
+| HK-EDUHK-P051 | Master of Science in Educational Speech-Language Pathology and Learning Disabilities | unknown | not_published | known | unknown | known | language | 2026-11-04 |
+| HK-EDUHK-P053 | Master of Science in Learning Sciences and Smart Education | known | not_published | unknown | unknown | known | degree | 2026-11-04 |
+| HK-EDUHK-P055 | Master of Social Sciences in Global Business and Policy Studies for the Belt-and-Road Initiative | known | not_published | known | unknown | unknown | degree, language | 2026-11-04 |
+| HK-EDUHK-P056 | Master of Social Sciences in Psychology (Schools and Community Settings) | known | not_published | known | unknown | known | degree, language | 2026-11-04 |
+| HK-EDUHK-P057 | Master of Social Sciences in Sports Coaching and Management | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+| HK-EDUHK-P058 | Master of Social Sciences in Therapeutic Play and Well-Being | known | not_published | known | known | known | degree, major, language | 2026-11-04 |
+| HK-EDUHK-P059 | Master of Teaching | unknown | not_published | unknown | unknown | unknown | none recorded | 2026-11-04 |
+
+## Follow-up by record
+
+- HK-EDUHK-P001: unresolved deadline, independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/ssps/mppm).
+- HK-EDUHK-P002: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-management).
+- HK-EDUHK-P003: unresolved independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-global-management).
+- HK-EDUHK-P006: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-belt-and-road-business-communication-and-administration).
+- HK-EDUHK-P007: unresolved tuition, independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=705).
+- HK-EDUHK-P009: unresolved language, tuition, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-art-business-and-cultural-heritage-management).
+- HK-EDUHK-P010: unresolved major, tuition, independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-chinese-studies-language-education-macsle/).
+- HK-EDUHK-P011: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-chinese-values-based-leadership-education).
+- HK-EDUHK-P012: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-comparative-education-and-collaborative-innovation).
+- HK-EDUHK-P013: unresolved tuition, independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=9118).
+- HK-EDUHK-P014: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-human-resource-management-and-organisational-marketing).
+- HK-EDUHK-P015: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-digital-humanities-for-cultural-professionals-madhcp).
+- HK-EDUHK-P016: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://www.eduhk.hk/madlic).
+- HK-EDUHK-P017: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-digital-marketing-and-e-commerce).
+- HK-EDUHK-P018: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-e-sports-management).
+- HK-EDUHK-P019: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://ses.eduhk.hk/en/programmes/maefs).
+- HK-EDUHK-P020: unresolved tuition, independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=230).
+- HK-EDUHK-P022: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-global-histories-of-education-maghe/).
+- HK-EDUHK-P023: unresolved tuition, independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=10665).
+- HK-EDUHK-P024: unresolved language, tuition, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-healthy-ageing-and-silver-economy).
+- HK-EDUHK-P026: unresolved language, tuition, independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=9840).
+- HK-EDUHK-P027: unresolved independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/mit/en/mamp).
+- HK-EDUHK-P028: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-mindfulness-and-life-education).
+- HK-EDUHK-P029: unresolved tuition, independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-music-education-mame).
+- HK-EDUHK-P030: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-new-media-and-social-media).
+- HK-EDUHK-P031: unresolved independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/ssps/mapf).
+- HK-EDUHK-P032: unresolved tuition, independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=4788).
+- HK-EDUHK-P033: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-science-and-robotics-education).
+- HK-EDUHK-P034: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://ses.eduhk.hk/en/programmes/stem_ed).
+- HK-EDUHK-P035: unresolved tuition, independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-chinese-as-an-international-language-matcil).
+- HK-EDUHK-P036: unresolved independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-teaching-english-to-speakers-of-other-languages-matesol/).
+- HK-EDUHK-P037: unresolved language, tuition, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-arts-in-tourism-and-hospitality-management).
+- HK-EDUHK-P038: unresolved independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fhm/postgraduate-programme/master-of-arts-in-visual-arts-education-and-creative-practice-mavaecp).
+- HK-EDUHK-P044: unresolved major, language, independentReview; 8 mandatory manual conditions. [Official page](https://www.eduhk.hk/mit/en/mscads).
+- HK-EDUHK-P045: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://www.eduhk.hk/mit/en/mscait).
+- HK-EDUHK-P047: unresolved language, tuition, deadline, independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/ssps/mscbaft).
+- HK-EDUHK-P049: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=9861).
+- HK-EDUHK-P050: unresolved language, independentReview; 2 mandatory manual conditions. [Official page](https://aedi.eduhk.hk/programmes/postgraduate-programmes/master-of-science-in-educational-neuroscience).
+- HK-EDUHK-P051: unresolved major, tuition, independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=231).
+- HK-EDUHK-P053: unresolved language, tuition, independentReview; 3 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=9112).
+- HK-EDUHK-P055: unresolved tuition, deadline, independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/ssps/mgbpsbri).
+- HK-EDUHK-P056: unresolved tuition, independentReview; 4 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=826).
+- HK-EDUHK-P057: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-sports-coaching-and-management/).
+- HK-EDUHK-P058: unresolved independentReview; 3 mandatory manual conditions. [Official page](https://hpe.eduhk.hk/programmes/master-of-social-sciences-in-therapeutic-play-and-well-being/).
+- HK-EDUHK-P059: unresolved major, language, tuition, deadline, independentReview; 1 mandatory manual conditions. [Official page](https://www.eduhk.hk/fehd/en/programmes.php?id=724).
