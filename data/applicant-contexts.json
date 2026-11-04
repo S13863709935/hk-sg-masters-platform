@@ -20067,6 +20067,1766 @@
           "deadlineNote": "Same-day central September 2027 schedule: opens 5 October 2026; early 4 January 2027, main 15 February 2027, final 10 May non-local / 31 May local. Capacity and programme-specific changes require confirmation; no exact clock, later-round opening or live portal check."
         }
       ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P004",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P004-2027-FT",
+      "offeringFingerprint": "ee9935ce7ebdb7a52d8a6b0a034d0a25dbfb7fa8dcd295a3e053aa158b49bf19",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/empal",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/empal",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P004-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 179520,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 224,400. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. Exact local HKD 179,520 / non-local HKD 224,400 from linked English panel; malformed Chinese fee string is not converted by guesswork.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P004-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 224400,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 224,400. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. Exact local HKD 179,520 / non-local HKD 224,400 from linked English panel; malformed Chinese fee string is not converted by guesswork.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P004",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P004-2027-PT",
+      "offeringFingerprint": "3453fe82aca1d09a20a1efcd63dfb79a69f551fce52a525211058007c9f7e5f9",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/empal",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/empal",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P004-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 179520,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 224,400. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. Exact local HKD 179,520 / non-local HKD 224,400 from linked English panel; malformed Chinese fee string is not converted by guesswork.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P004-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 224400,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 224,400. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. Exact local HKD 179,520 / non-local HKD 224,400 from linked English panel; malformed Chinese fee string is not converted by guesswork.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P021",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P021-2027-FT",
+      "offeringFingerprint": "155a0e526661cf7988e995db3517c2a5d56a39501e86c62ed1331d81224e1720",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P021-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 203300,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 203,300. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P021-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 203300,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 203,300. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P021",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P021-2027-PT",
+      "offeringFingerprint": "f2cef9e672c3730be2af83ab15b1dae7a71dcb96239383d1f3c369e2dc23a117",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-arts-in-emerging-technology-for-future-workforce",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P021-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 203300,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 203,300. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P021-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 203300,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 203,300. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P025",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P025-2027-FT",
+      "offeringFingerprint": "c3696d612c3632f9f457ffeae21b4a76ed91bad9cffed11c9d0404d98006d490",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAHEM",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MAHEM",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P025-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 210000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 210,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        },
+        {
+          "id": "HK-EDUHK-P025-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 210000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 210,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P025",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P025-2027-PT",
+      "offeringFingerprint": "68ffd4db004ac1176f4ac25b696f4c15087a200643649952b86865a6f794c296",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAHEM",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MAHEM",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P025-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 210000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 210,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        },
+        {
+          "id": "HK-EDUHK-P025-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 210000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 210,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P041",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P041-2027-FT",
+      "offeringFingerprint": "0cba344f5d5e97685716a0b6d0dc27c4dd57a87c9f7b4fc2fb7668e3c92e8941",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-laws-in-digital-governance",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-laws-in-digital-governance",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P041-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 219500,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 219,500. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P041-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 219500,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 219,500. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P042",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P042-2027-FT",
+      "offeringFingerprint": "63dbd15a217c5b8cca3ea1561c34fe494bb8ac1c57e98f1a24f1e21ef0adf4d5",
+      "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P042-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P042-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P042",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P042-2027-PT",
+      "offeringFingerprint": "480f82b8e569f1e4a5a470ace64d03aa2eb1a2e72146ee325c29b860a59bf233",
+      "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/LLMNSL",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P042-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P042-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P043",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P043-2027-FT",
+      "offeringFingerprint": "b643b433e74c126a8c0f625f1bdf0f650b8d14db0d0934f190486099132cd4be",
+      "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-occupational-therapy",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-occupational-therapy",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P043-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 682950,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 682,950. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P043-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 682950,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 682,950. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P046",
+      "routeId": "HK-EDUHK-P046-ROUTE-EN",
+      "offeringId": "HK-EDUHK-P046-EN-2027-FT",
+      "offeringFingerprint": "26383fd7efa823fa41f982f46b2a472438adbf934436fe37172c478c7fc90e4b",
+      "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P046-EN-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P046-EN-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P046",
+      "routeId": "HK-EDUHK-P046-ROUTE-EN",
+      "offeringId": "HK-EDUHK-P046-EN-2027-PT",
+      "offeringFingerprint": "4206826b59d19fc49468584e0d82fa810222c95709569ee586e6ef13a4940b6b",
+      "officialUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P046-EN-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P046-EN-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P046",
+      "routeId": "HK-EDUHK-P046-ROUTE-ZH",
+      "offeringId": "HK-EDUHK-P046-ZH-2027-FT",
+      "offeringFingerprint": "0412ca64e65f3388db64f62b773a7d626414dd2daf13edce861d3489428d5d58",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P046-ZH-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P046-ZH-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P046",
+      "routeId": "HK-EDUHK-P046-ROUTE-ZH",
+      "offeringId": "HK-EDUHK-P046-ZH-2027-PT",
+      "offeringFingerprint": "3679c31fe73bd3b312d49d3985619d674dc7172365a248150548354402785975",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Part-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/master-of-science-in-artificial-intelligence-for-executive-professionals-msc-aiep",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P046-ZH-2027-PT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P046-ZH-2027-PT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 207900,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 207,900. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P052",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P052-2027-FT",
+      "offeringFingerprint": "22658f44935a786a062bf898c45b6b251d1575dbad64f1bc94ee3b455362caaa",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/ESGSD",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/ESGSD",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P052-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 189000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 189,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P052-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 189000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 189,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P008",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P008-2027-FT",
+      "offeringFingerprint": "c84cb05f7b23ce85797108cf1a122f3927e7b928cb9e884e8ec4ac88e8d81e0c",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MACGDIR",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MACGDIR",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P008-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 180,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        },
+        {
+          "id": "HK-EDUHK-P008-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 180,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P039",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P039-2027-FT",
+      "offeringFingerprint": "fe418822e0bfc405c9715b6530dae7bc05dda1b735983854eff110588129b65a",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MAWSSD",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MAWSSD",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P039-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 196000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 196,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        },
+        {
+          "id": "HK-EDUHK-P039-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 196000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 196,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P054",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P054-2027-FT",
+      "offeringFingerprint": "ad43ac5c0f8baa40d55f9d4a203f2486d9f35c3e0b2c4c2b7c315c8d9463ef78",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MScLAEM",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MScLAEM",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P054-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 198000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 198,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        },
+        {
+          "id": "HK-EDUHK-P054-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 198000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 198,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P005",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P005-2027-FT",
+      "offeringFingerprint": "c03b5203672827c851c85d0e668122b9dce36fbf5472a9d6f214f481f6abe7a3",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MABLOOM",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MABLOOM",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P005-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 180,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        },
+        {
+          "id": "HK-EDUHK-P005-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 180000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 180,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount. PROPOSED programme remains SUBJECT TO UNIVERSITY APPROVAL.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed. APPROVAL PENDING: reference dates only, not application-open evidence."
+        }
+      ]
+    },
+    {
+      "programmeId": "HK-EDUHK-P048",
+      "routeId": null,
+      "offeringId": "HK-EDUHK-P048-2027-FT",
+      "offeringFingerprint": "0a893baa38ccee42755629c8d97599e0dd087b34ddcb3936450a8c00cb3eb57b",
+      "officialUrl": "https://aapsef.eduhk.hk/zht/study/prospective-students/academic-programmes/MScDE",
+      "academicYear": "2027/28",
+      "intake": "September 2027",
+      "mode": "Full-time",
+      "checkedOn": "2026-11-04",
+      "verification": "programme_page_checked",
+      "reviewer": null,
+      "feeSourceUrl": "https://aapsef.eduhk.hk/study/prospective-students/academic-programmes/MScDE",
+      "dateSourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+      "noteEn": "Exact AAPSEF language, study mode and local/nonlocal category. Pending University approval and OT registration accreditation remain explicit. Whole-programme tuition is not multiplied by PT years and conditional scholarships are not deducted; no individual visa/category or live availability is assumed.",
+      "options": [
+        {
+          "id": "HK-EDUHK-P048-2027-FT-LOCAL",
+          "label": "Local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 250000,
+          "tuitionEstimate": true,
+          "applicationFee": 400,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-31",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-31",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 250,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        },
+        {
+          "id": "HK-EDUHK-P048-2027-FT-NONLOCAL",
+          "label": "Non-local applicant — EdUHK category",
+          "currency": "HKD",
+          "tuition": 250000,
+          "tuitionEstimate": true,
+          "applicationFee": 500,
+          "applicationOpen": "2026-10-05",
+          "deadline": "2027-05-10",
+          "applicationRounds": [
+            {
+              "id": "EARLY",
+              "label": "Early round",
+              "applicationOpen": "2026-10-05",
+              "deadline": "2027-01-04",
+              "deadlineAt": null
+            },
+            {
+              "id": "MAIN",
+              "label": "Main round",
+              "applicationOpen": null,
+              "deadline": "2027-02-15",
+              "deadlineAt": null
+            },
+            {
+              "id": "FINAL",
+              "label": "Final round",
+              "applicationOpen": null,
+              "deadline": "2027-05-10",
+              "deadlineAt": null
+            }
+          ],
+          "feeBasis": "Explicit 2027/28 WHOLE-PROGRAMME provisional tuition HKD 250,000. Subject to adjustment; no PT-year multiplication, scholarship deduction or bundled living/extension expenses. Limited HKD 30,000 academy award is conditional, NOT an automatic discount.",
+          "deadlineNote": "Same-day central September 2027 calendar: opens 5 October 2026; early 4 January 2027/main 15 February/final 10 May non-local or 31 May local. Capacity, exact clock and live availability remain unconfirmed."
+        }
+      ]
     }
   ]
 }

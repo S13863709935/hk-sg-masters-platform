@@ -8,17 +8,17 @@
 
 本地英文网站支持项目浏览、背景条件比对、比较、候选清单及导出；核心功能已实现，课程数据仍在完善。
 
-- 14 校、873 条目录记录，默认可浏览 865 条；416 条有部分官方项目页观察，457 条目录线索中，442 条尚未首轮核对、12 条分组父记录已有方向证据、3 条按范围留档。完整要求集及独立复核均为 0。
-- 路径或条件视图仍为 27 组／61 份；上下文为 303 组／610 类。11 月 4 日维护 780 个单元，7 个记录截止临近，绑定失配 0。
-- 本批核对教大教育发展与创新学院 15 个既有项目，增加 30 种申请类别选择。教大 59 条现有目录中，45 条有部分详情、14 条待首轮核对；另一学院页面已获取但未冒充完成阅读，教育硕士页面连接超时。
-- 传媒本地／非本地学费分别保留；数字人力资源管理改名保留原 ID；英语选修课条件不成为中文项目的统一英语门槛。三个报价缺少收费学年标签，数值留待确认；正念教育兼读描述与全日制标题的差异保留。工作／专业偏好与必需条件分开。
+- 14 校、873 条目录记录，默认可浏览 865 条；429 条有部分官方项目页观察，444 条目录线索中，429 条尚未首轮核对、12 条分组父记录已有方向证据、3 条范围留档。完整要求集及独立复核均为 0。
+- 路径或条件视图为 28 组／63 份；上下文为 323 组／650 类。11 月 4 日维护 815 个单元，7 个记录截止临近，绑定失配 0。
+- 本批核对教大应用政策研究及教育未来学院 13 个既有项目、40 种模式／申请类别选择。教大现有 59 条目录中，58 条有部分详情、教育硕士 1 条待首轮核对。教育硕士直接正文读取继续超时，官方搜索索引只作线索，没有标为已读正文。
+- 公共行政至少两年经验与法学／ESG经验偏好分开；AI 行政人员保留优秀应届生例外及 EMI／CMI 独立条件。五个项目仍待大学批准；职业治疗保留两年全日制、87学分及香港 OT Board 认证待定。英文陈述、推荐信、分类费用及奖学金条件各自记录。
 - **Recorded comparisons met** 仅指已记录的背景比较，没有完整资格或录取分档含义。原核心 20 个 ID、71 种选择与 7 个模拟背景仍有 497 次比较：125 个缺口、372 个待确认、0 个完整达标和 0 个违规。
 
 W7 选定阶段版本已于 11 月 3 日推送为 [`checkpoint/week-07`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-07)，提交 `dff8b54`。该发布保留 20 条直接申请试点，加入比较、候选清单、公开引用导出及 5 条兼容的来源更新。这里的扩展目录和超前功能继续保存在本地；后续“继续”不触发重复小批推送。见[本次发布记录](docs/progress/2026-11-03-week-07-publication.md)。
 
-[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-04-eduhk-aedi.md) · [教大质量表](docs/research/hk-eduhk-quality-2026-11-04-eduhk-aedi.md) · [本批改动与限制](docs/progress/local-eduhk-aedi-2026-11-04.md) · [780 单元维护清单](docs/research/source-review-queue-2026-11-04-eduhk-aedi.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-04-eduhk-aedi.md)
+[逐校剩余数据清单](docs/research/school-data-backlog-2026-11-04-eduhk-aapsef.md) · [教大质量表](docs/research/hk-eduhk-quality-2026-11-04-eduhk-aapsef.md) · [本批改动与限制](docs/progress/local-eduhk-aapsef-2026-11-04.md) · [815 单元维护清单](docs/research/source-review-queue-2026-11-04-eduhk-aapsef.md) · [核心验收](docs/research/core-pilot-acceptance-2026-11-04-eduhk-aapsef.md)
 
-[同日较早教大博文及社会科学学院批次](docs/progress/local-eduhk-flass-2026-11-04.md)、[同日教大人文学院批次](docs/progress/local-eduhk-fhm-2026-11-04.md)、[较早教大教育及人类发展学院批次](docs/progress/local-eduhk-fehd-2026-11-04.md)、[较早岭南收尾批次](docs/progress/local-lingnan-gs-remainder-2026-11-04.md)保留当时来源、统计和限制。
+[同日较早教大教育发展与创新学院批次](docs/progress/local-eduhk-aedi-2026-11-04.md)、[同日较早教大博文及社会科学学院批次](docs/progress/local-eduhk-flass-2026-11-04.md)、[同日教大人文学院批次](docs/progress/local-eduhk-fhm-2026-11-04.md)、[较早教大教育及人类发展学院批次](docs/progress/local-eduhk-fehd-2026-11-04.md)、[较早岭南收尾批次](docs/progress/local-lingnan-gs-remainder-2026-11-04.md)保留当时来源、统计和限制。
 
 [3 日岭南人文／社科批次](docs/progress/local-lingnan-arts-social-2026-11-03.md)、[3 日岭南商科／数据科学批次](docs/progress/local-lingnan-business-data-2026-11-03.md)、[同日城大／港大收尾批次](docs/progress/local-cityu-hku-remainder-2026-11-03.md)、[同日 SUTD 批次](docs/progress/local-sutd-school-2026-11-03.md)、[同日港大医学批次](docs/progress/local-hku-medical-law-2026-11-03.md)、[较早理学／创新科技及文科批次](docs/progress/local-hku-science-arts-2026-11-01.md)、[较早传媒与社会服务批次](docs/progress/local-hku-media-social-2026-11-01.md)、[较早教育与政策批次](docs/progress/local-hku-education-policy-2026-11-01.md)、[31 日港大建筑批次](docs/progress/local-hku-architecture-2026-10-31.md)、[31 日港大人文批次](docs/progress/local-hku-humanities-2026-10-31.md)、[31 日港大商科批次](docs/progress/local-hku-business-2026-10-31.md)、[31 日港大工程批次](docs/progress/local-hku-engineering-2026-10-31.md)、[31 日港大计算／数据批次](docs/progress/local-hku-computing-2026-10-31.md)、[浸会剩余批次](docs/progress/local-hkbu-remaining-2026-10-31.md)、[浸会商科理科批次](docs/progress/local-hkbu-business-science-2026-10-31.md)、[HKUST 方向／模式比较](docs/progress/local-hkust-scoped-matching-2026-10-31.md)及此前研究文件保留当时来源、数量与限制；更早记录见[本地开发历史](docs/progress/local-history-through-2026-10-29.md)。
 

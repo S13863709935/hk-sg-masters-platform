@@ -24,8 +24,8 @@ const note=(x,label)=>x.rules.find(r=>r.labelEn===label)?.noteEn;
 
 test('FEHD batch adds eleven existing identities, four language snapshots and forty-two exact choices',()=>{
  assert.equal(obs.programmeIds.length,11);assert.equal(obs.directoryRows.length,13);assert.equal(choices().length,42);assert.equal(obs.counts.newParentStudyOptions,16);assert.equal(obs.counts.newRouteStudyOptions,5);assert.equal(obs.applicantContextPlan.length,19);
- assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,416);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
- assert.deepEqual(routeSummary(routes),{groups:27,routes:61,pageChecked:61,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:303,categories:610,peerReviewed:0});
+ assert.equal(store.quality().total,873);assert.equal(store.quality().browsable,865);assert.equal(store.quality().checked,429);assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
+ assert.deepEqual(routeSummary(routes),{groups:28,routes:63,pageChecked:63,peerReviewed:0,complete:0});assert.deepEqual(applicantSummary(contexts),{studyOptions:323,categories:650,peerReviewed:0});
  for(const id of obs.programmeIds){const x=store.get(id);assert.equal(x.lastChecked,'2026-11-04');assert.equal(x.requirementsCoverage,'partial');assert.equal(x.reviewer,null);assert.equal(x.rules.some(r=>r.kind==='gpa'||r.kind==='experience'),false);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(p=>p.id===id))),false);}
  assert.equal(p(1).lastChecked,'2026-10-30');assert.equal(p(44).lastChecked,'2026-10-25');
 });
@@ -110,14 +110,14 @@ test('retrieval failures and later Schannel success remain separate from review 
 });
 
 test('current FEHD backlog and maintenance snapshot reflect partial coverage without changing the twenty-ID core',()=>{
- const b=loadSchoolBacklog('2026-11-04'),s=b.schools.find(x=>x.schoolId==='HK-EDUHK');assert.equal(s.catalogueRecords,59);assert.equal(s.pageCheckedRecords,45);assert.equal(s.unreadLeads,14);assert.equal(s.completeRecords,0);
- assert.equal(b.counts.pageCheckedRecords,416);assert.equal(b.counts.unreadLeads,442);assert.equal(b.counts.catalogueLeads,457);assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-eduhk-aedi.json'));assert.equal(formatSchoolBacklog(b),readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-eduhk-aedi.md',root),'utf8').replaceAll('\r\n','\n'));
- const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,780);assert.equal(q.counts.nearCutoffUnits,7);assert.equal(q.counts.staleApplicantContexts,0);assert.equal(batch.pilotProgrammeIds.length,20);
+ const b=loadSchoolBacklog('2026-11-04'),s=b.schools.find(x=>x.schoolId==='HK-EDUHK');assert.equal(s.catalogueRecords,59);assert.equal(s.pageCheckedRecords,58);assert.equal(s.unreadLeads,1);assert.equal(s.completeRecords,0);
+ assert.equal(b.counts.pageCheckedRecords,429);assert.equal(b.counts.unreadLeads,429);assert.equal(b.counts.catalogueLeads,444);assert.deepEqual(b,read('data/research/school-backlog-2026-11-04-eduhk-aapsef.json'));assert.equal(formatSchoolBacklog(b),readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-eduhk-aapsef.md',root),'utf8').replaceAll('\r\n','\n'));
+ const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,815);assert.equal(q.counts.nearCutoffUnits,7);assert.equal(q.counts.staleApplicantContexts,0);assert.equal(batch.pilotProgrammeIds.length,20);
 });
 
 test('isolated repeated imports preserve prior parent objects, route identities and applicant bindings',()=>{
  const ids=new Set(obs.programmeIds),before={...batch,programmes:batch.programmes.filter(p=>!ids.has(p.id))},dir=mkdtempSync(join(tmpdir(),'gradpath-eduhk-fehd-')),file=join(dir,'test.sqlite'),checkedPath=join(dir,'checked.json');let db;
- try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,416);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const rs=loadRoutes(routePath,db.all());assert.equal(rs.size,27);assert.equal(loadApplicantContexts(contextPath,db.all(),rs).size,303);db.close();db=null;}}
+ try{writeFileSync(checkedPath,JSON.stringify(before));db=new CatalogueStore(file,{...paths,checkedPath});const earlier=db.all().filter(p=>!ids.has(p.id));db.close();db=null;writeFileSync(checkedPath,JSON.stringify(batch));for(let i=0;i<2;i++){db=new CatalogueStore(file,{...paths,checkedPath});assert.equal(db.quality().checked,429);assert.deepEqual(db.all().filter(p=>!ids.has(p.id)),earlier);assert.deepEqual(db.quality().sourceRefreshConflicts,[]);const rs=loadRoutes(routePath,db.all());assert.equal(rs.size,28);assert.equal(loadApplicantContexts(contextPath,db.all(),rs).size,323);db.close();db=null;}}
  finally{db?.close();rmSync(file,{force:true});rmSync(checkedPath,{force:true});rmdirSync(dir);}
 });
 
