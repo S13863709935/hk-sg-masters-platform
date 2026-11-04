@@ -1,0 +1,19 @@
+# Local CUHK Engineering batch — 4 November 2026
+
+Eleven existing Engineering programmes receive partial official-source evidence,22 FT/PT context bindings and44 explicit local/non-local selections. English product content and original degree identities retained. The1.5/3-year AI and1/3-year BME modes, CS/IE differing fees, academic alternatives and current CUHK English evidence now remain separate.
+
+Repository:873 catalogue/865 browsable,440 partial checked/433 leads;418 unread/12 route-covered grouped/3 scope-held. Routes unchanged28groups63snapshots; contexts345/categories694. Maintenance848/near-cutoff11/stale0. CUHK12 partial/117 unread; EdUHK58 partial/1 unread unchanged. Complete requirements and independent human review0.
+
+Core acceptance unchanged:20 IDs/71 choices/seven synthetic profiles,497 comparisons:125 gaps/372 confirmation/zero complete/zero violations.
+
+Boundaries: five unlabelled fee-year quotes remain numeric null; CS2027/28 prices pending financial approval do not block the programme route. BME conflicting central category cutoffs versus department rounds remain null, not a false live-open deadline. English IELTS6.5/TOEFL79 or4.5, online/home formats and assessed alternatives follow CUHK, not EdUHK rules. No uniform GPA conversion, scholarship deduction, automatic visa or professional recognition. Provisional January PT is not an extra confirmed intake.
+
+Validation: the full1,558-test run completed with1,557 passed and one invalid synthetic TOEFL fixture (500.02 seconds). The fixture incorrectly dated a120-point test AFTER the21January2026 version switch; the application correctly rejected it. Only that fixture date was corrected to20January2026, without changing validation or product data. The complete13-test Engineering suite was then rerun: **13 passed, zero failed/cancelled/skipped** (27.74 seconds). All1,545 existing regressions passed in the full run; the corrected new suite covers44 selections through detail/matching APIs, saved restoration and export, plus wrong-mode category rejection and isolated repeat imports. This is not represented as a second all-green full-suite run.
+
+Preservation audit: all429 prior parents/323 contexts, all routes/directory/scope/pilot/history and six protected refs unchanged. All63 raw-body hashes match, including61 readable and2 meta-only responses; six HTTPS citation upgrades have successful actual reads. All365 current-document links resolve;97 existing test files contain aggregate/snapshot-only updates, including date-scoped near-cutoff counts, with source-specific scores/fees preserved. Whitespace checks pass. Daily SQLite remains untouched.
+
+Provenance:63 retrievals/61 text-readable/2 meta-only; actual embedded redirects followed, six observed HTTP sources re-read over verified HTTPS before product references changed. Selected relevant sections read, not63 independent full programme checks. No PDF, private portal, student documents, live availability, daily SQLite import, publication or deployment. Prior429 parent objects/323 contexts, all routes, original directory/scope/pilot/history and six protected refs retained; W7 remains3November `dff8b54`.
+
+Next: remaining CUHK faculties in bounded batches; source-blocked EdUHK MEd stays visible without holding up the catalogue. First-pass coverage is not complete eligibility or independent review.
+
+Evidence: [source findings](../research/cuhk-engineering-first-check-2026-11-04.md), [observation](../../data/research/cuhk-engineering-observation-2026-11-04.json), [school backlog](../research/school-data-backlog-2026-11-04-cuhk-engineering.md), [quality](../research/hk-cuhk-quality-2026-11-04-cuhk-engineering.md), [maintenance](../research/source-review-queue-2026-11-04-cuhk-engineering.md), [core acceptance](../research/core-pilot-acceptance-2026-11-04-cuhk-engineering.md).

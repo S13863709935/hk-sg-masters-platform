@@ -28,8 +28,8 @@ const choices = () => records.flatMap(x => x.offerings.flatMap(o => { const c = 
 
 test('SUTD first pass closes sixteen existing leads without adding duplicate degrees or complete review claims', () => {
   assert.equal(records.length, 16); assert.equal(records.flatMap(p => p.offerings).length, 21); assert.equal(choices().length, 34);
-  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 865); assert.equal(q.checked, 429); assert.equal(q.outOfScope, 7); assert.equal(q.transferOnly, 1); assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0);
-  assert.deepEqual(routeSummary(routes), { groups: 28, routes: 63, pageChecked: 63, peerReviewed: 0, complete: 0 }); assert.deepEqual(applicantSummary(contexts), { studyOptions: 323, categories: 650, peerReviewed: 0 });
+  const q = store.quality(); assert.equal(q.total, 873); assert.equal(q.browsable, 865); assert.equal(q.checked, 440); assert.equal(q.outOfScope, 7); assert.equal(q.transferOnly, 1); assert.equal(q.complete, 0); assert.equal(q.peerReviewed, 0);
+  assert.deepEqual(routeSummary(routes), { groups: 28, routes: 63, pageChecked: 63, peerReviewed: 0, complete: 0 }); assert.deepEqual(applicantSummary(contexts), { studyOptions: 345, categories: 694, peerReviewed: 0 });
   for (const x of records) { assert.equal(x.lastChecked, '2026-11-03'); assert.equal(x.reviewer, null); assert.equal(x.requirementsCoverage, 'partial'); assert.equal(routes.has(x.id), false); assert.equal(x.rules.some(r => r.kind === 'gpa'), false); assert.equal(/\p{Script=Han}/u.test(JSON.stringify(batch.programmes.find(p => p.id === x.id))), false); }
   assert.notEqual(p(4).officialUrl, p(10).officialUrl); assert.notEqual(p(6).officialUrl, p(11).officialUrl); assert.notEqual(p(14).officialUrl, p(2).officialUrl); assert.notEqual(p(18).officialUrl, p(19).officialUrl);
 });
@@ -99,19 +99,19 @@ test('archived MSSD, unknown next DAI-E and not-yet-open MUSPP never borrow sibl
 });
 
 test('school backlog reconciles every lead and separates unknown fields from no published universal GPA', () => {
-  const r = loadSchoolBacklog('2026-11-04'); assert.deepEqual(r.counts, { schools: 14, catalogueRecords: 873, pageCheckedRecords: 429, partialRecords: 429, completeRecords: 0, catalogueLeads: 444, routeCoveredLeads: 12, scopeHeldLeads: 3, unreadLeads: 429 });
+  const r = loadSchoolBacklog('2026-11-04'); assert.deepEqual(r.counts, { schools: 14, catalogueRecords: 873, pageCheckedRecords: 440, partialRecords: 440, completeRecords: 0, catalogueLeads: 433, routeCoveredLeads: 12, scopeHeldLeads: 3, unreadLeads: 418 });
   for (const s of r.schools) { assert.equal(s.catalogueLeads, s.routeCoveredLeads + s.scopeHeldLeads + s.unreadLeads); assert.equal(s.unread.length, s.unreadLeads); assert.deepEqual(s.sourceAfterSnapshot, []); }
   const s = r.schools.find(s => s.schoolId === 'SG-SUTD'); assert.equal(s.pageCheckedRecords, 18); assert.equal(s.unreadLeads, 0); assert.equal(s.scopeHeldLeads, 1); assert.equal(s.activeParentUnknownFields.gpa, 0); assert.equal(s.activeParentNotPublishedFields.gpa, 15);
-  assert.deepEqual(r, read('data/research/school-backlog-2026-11-04-eduhk-aapsef.json')); assert.equal(formatSchoolBacklog(r), readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-eduhk-aapsef.md', root), 'utf8').replaceAll('\r\n', '\n'));
+  assert.deepEqual(r, read('data/research/school-backlog-2026-11-04-cuhk-engineering.json')); assert.equal(formatSchoolBacklog(r), readFileSync(new URL('docs/research/school-data-backlog-2026-11-04-cuhk-engineering.md', root), 'utf8').replaceAll('\r\n', '\n'));
   assert.throws(() => buildSchoolBacklog([], new Map(), '2026-02-30')); assert.throws(() => loadSchoolBacklog());
 });
 
 test('temporary repeated imports preserve previous parents and exact context bindings without using the daily database', () => {
   const ids = new Set(obs.programmeIds), before = { ...batch, programmes: batch.programmes.filter(p => !ids.has(p.id)) }, dir = mkdtempSync(join(tmpdir(), 'gradpath-sutd-school-')), file = join(dir, 'test.sqlite'), checkedPath = join(dir, 'checked.json'); let db;
   try { writeFileSync(checkedPath, JSON.stringify(before)); db = new CatalogueStore(file, { ...paths, checkedPath }); assert.equal(db.quality().checked, before.programmes.length); const earlier = db.all().filter(p => !ids.has(p.id)); db.close(); db = null; writeFileSync(checkedPath, JSON.stringify(batch));
-    for (let i = 0; i < 2; i++) { db = new CatalogueStore(file, { ...paths, checkedPath }); assert.equal(db.quality().checked, 429); assert.deepEqual(db.all().filter(p => !ids.has(p.id)), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(loadApplicantContexts(contextPath, db.all(), loadRoutes(routePath, db.all())).size, 323); db.close(); db = null; }
+    for (let i = 0; i < 2; i++) { db = new CatalogueStore(file, { ...paths, checkedPath }); assert.equal(db.quality().checked, 440); assert.deepEqual(db.all().filter(p => !ids.has(p.id)), earlier); assert.deepEqual(db.quality().sourceRefreshConflicts, []); assert.equal(loadApplicantContexts(contextPath, db.all(), loadRoutes(routePath, db.all())).size, 345); db.close(); db = null; }
   } finally { db?.close(); rmSync(file, { force: true }); rmSync(checkedPath, { force: true }); rmdirSync(dir); }
-  const q = loadRepositoryReviewQueue('2026-11-03'); assert.equal(q.counts.reviewUnits, 815); assert.equal(q.counts.nearCutoffUnits, 5); assert.equal(q.counts.staleApplicantContexts, 0);
+  const q = loadRepositoryReviewQueue('2026-11-03'); assert.equal(q.counts.reviewUnits, 848); assert.equal(q.counts.nearCutoffUnits, 5); assert.equal(q.counts.staleApplicantContexts, 0);
 });
 
 const app = createApp({ store, publicDir: new URL('public/', root), routeEvidencePath: routePath, applicantEvidencePath: contextPath, now: () => new Date('2026-11-03T08:00:00Z') }); let base;
