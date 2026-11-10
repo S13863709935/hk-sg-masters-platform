@@ -18,6 +18,8 @@
 
 [本轮完成与验证](docs/progress/local-singapore-finish-2026-11-10.md) · [本轮来源与范围](data/research/singapore-local-finish-observation-2026-11-10.json) · [逐校状态](docs/research/school-data-backlog-2026-11-10-singapore-finish.md) · [维护清单](docs/research/source-review-queue-2026-11-10-singapore-finish.md) · [本地交付说明](docs/local-finish-plan.md)
 
+W8 阶段版已于11月10日推送至[`checkpoint/week-08`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-08)，提交`b7b5a4d`，远程SHA已确认。发布版保留20个试点，包含5条来源整合及学习选项／日期／匹配修复，92项检查通过；完整本地扩展版继续分开保留。见[W8实际发布记录](docs/progress/2026-11-10-week-08-publication.md)。后续“继续”仍默认本地开发。
+
 W7 选定阶段版本已于 11 月 3 日推送为 [`checkpoint/week-07`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-07)，提交 `dff8b54`。该发布保留 20 条直接申请试点，加入比较、候选清单、公开引用导出及 5 条兼容的来源更新。这里的扩展目录和超前功能继续保存在本地；后续“继续”不触发重复小批推送。见[本次发布记录](docs/progress/2026-11-03-week-07-publication.md)。
 
 [11月4日中大／理大整校记录](docs/progress/local-cuhk-polyu-bulk-2026-11-04.md)及[较早工程学院批次](docs/progress/local-cuhk-engineering-2026-11-04.md)保留当时的来源、统计和限制。

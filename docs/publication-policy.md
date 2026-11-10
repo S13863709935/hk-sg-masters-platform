@@ -23,3 +23,5 @@ The user's latest clarification on 20 October 2026 supersedes the earlier interp
 - Never publish private student data, CVs, signatures, secrets, browser preferences or local runtime databases.
 - Keep `main` and historical checkpoint branches unchanged until a separately authorised review/merge step. A push is not a public deployment or a course submission.
 - A mid-period progress checkpoint does not mean every task for that week is complete. Record remaining research/acceptance/verification honestly.
+
+- Week 8 was explicitly requested and published once on 10 November 2026 as `checkpoint/week-08`, verified remote commit `b7b5a4d10d0686f6775219017ff9d9569c773a0b`. It starts at W7 and retains the twenty-record pilot: five selected source consolidations, exact-option/date/export integration and matching boundary fixes. Its 92 checks describe this selected version; the expanded local source branch remains unpublished. Main and W4–W7/SW refs were unchanged. Further continuing work is local until another meaningful stage review or explicit push request. See [actual W8 publication](progress/2026-11-10-week-08-publication.md).
