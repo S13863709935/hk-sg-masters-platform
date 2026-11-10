@@ -87,7 +87,7 @@ test('MADES exact-looking hours have no fabricated timezone, and optional overse
 });
 
 test('coverage and retrieval evidence distinguish remaining leads, failed old URLs and partial observations',()=>{
- const b=loadSchoolBacklog('2026-11-04');assert.equal(b.counts.pageCheckedRecords,repositoryExpected.checked);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);const lu=b.schools.find(s=>s.schoolId==='HK-LU');assert.equal(lu.catalogueRecords,44);assert.equal(lu.pageCheckedRecords,44);assert.equal(lu.unreadLeads,0);assert.equal(lu.activeParentNotPublishedFields.gpa,44);
+ const b=loadSchoolBacklog(repositoryExpected.asOfDate);assert.equal(b.counts.pageCheckedRecords,repositoryExpected.checked);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);const lu=b.schools.find(s=>s.schoolId==='HK-LU');assert.equal(lu.catalogueRecords,44);assert.equal(lu.pageCheckedRecords,44);assert.equal(lu.unreadLeads,0);assert.equal(lu.activeParentNotPublishedFields.gpa,44);
  assert.deepEqual(b,read(repositoryExpected.backlogJson));assert.equal(formatSchoolBacklog(b),readFileSync(new URL(repositoryExpected.backlogMarkdown,root),'utf8').replaceAll('\r\n','\n'));assert.equal(obs.sourceRetrievals.length,119);assert.equal(obs.sourceRetrievals.filter(s=>s.status===200&&s.contentReadable).length,117);assert.equal(obs.sourceRetrievals.filter(s=>s.error?.includes('404')).length,2);assert.equal(obs.limits.completeRequirements,0);assert.equal(obs.limits.livePortalChecked,false);
 });
 

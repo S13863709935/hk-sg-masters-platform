@@ -77,7 +77,7 @@ test('ordinary GPA rules, optional dual awards and added fees are not mixed with
 });
 
 test('batch backlog and retrieval metadata preserve honest coverage instead of treating fetched pages as complete requirements',()=>{
- const b=loadSchoolBacklog('2026-11-04');assert.equal(b.counts.pageCheckedRecords,repositoryExpected.checked);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);const lu=b.schools.find(s=>s.schoolId==='HK-LU');assert.equal(lu.catalogueRecords,44);assert.equal(lu.pageCheckedRecords,44);assert.equal(lu.unreadLeads,0);assert.equal(lu.activeParentUnknownFields.gpa,0);assert.equal(lu.activeParentNotPublishedFields.gpa,44);
+ const b=loadSchoolBacklog(repositoryExpected.asOfDate);assert.equal(b.counts.pageCheckedRecords,repositoryExpected.checked);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);const lu=b.schools.find(s=>s.schoolId==='HK-LU');assert.equal(lu.catalogueRecords,44);assert.equal(lu.pageCheckedRecords,44);assert.equal(lu.unreadLeads,0);assert.equal(lu.activeParentUnknownFields.gpa,0);assert.equal(lu.activeParentNotPublishedFields.gpa,44);
  assert.deepEqual(b,read(repositoryExpected.backlogJson));assert.equal(formatSchoolBacklog(b),readFileSync(new URL(repositoryExpected.backlogMarkdown,root),'utf8').replaceAll('\r\n','\n'));
  assert.equal(obs.sourceRetrievals.length,144);assert.ok(obs.sourceRetrievals.every(s=>s.contentReadable&&s.status===200&&/^[a-f0-9]{64}$/.test(s.sha256)));assert.equal(obs.limits.completeRequirements,0);assert.equal(obs.limits.pdfBrochuresUsed,false);assert.equal(obs.limits.livePortalChecked,false);
 });

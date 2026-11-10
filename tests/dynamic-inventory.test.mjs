@@ -59,9 +59,9 @@ test('Duke-NUS source-domain support does not add another target university or a
   assert.equal(isOfficialUrl('https://not-duke-nus.edu.sg/'),false);
 });
 test('grouped routes have explicit evidence and English labels, not shared criteria', () => {
-  assert.equal(links.listings.filter(l=>l.programmeId.startsWith('SG-')).length,209);
+  assert.equal(links.listings.filter(l=>l.programmeId.startsWith('SG-')).length,210);
   for (const listing of links.listings) { validateDirectoryListing(listing); assert.equal(/\p{Script=Han}/u.test(listing.nameEn+listing.noteEn+listing.variants.map(v=>v.nameEn).join('')),false); }
-  assert.equal(links.listings.find(l=>l.nameEn==='Master of Laws').variants.length,8);
+  assert.equal(links.listings.find(l=>l.programmeId==='SG-NUS-P064').variants.length,8);
   assert.equal(links.listings.find(l=>l.nameEn==='Master of Education').variants.length,16);
   assert.equal(links.listings.find(l=>l.programmeId==='SG-NTU-P021').variants.length,3);
 });

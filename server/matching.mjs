@@ -10,6 +10,7 @@ export const normalizeMajor = value => aliases[normalize(value)] || normalize(va
 const outcome = (r, status, zh, en, extra = {}) => ({ kind: r.kind, labelZh: r.labelZh, labelEn: r.labelEn, mandatory: r.mandatory !== false, status, reasonZh: zh, reasonEn: en, sourceUrl: r.sourceUrl, ...extra });
 
 function evaluateRule(r, profile) {
+  if (r.kind === 'degree' && r.completedOnly && profile.degreeStatus === 'final_year') return outcome(r, 'fail', '官方要求申请时已毕业；尚在最后一年的申请者不符合这一条件。', 'The published rule requires graduation before applying. Final-year applicants who have not graduated do not meet this condition.');
   if (r.kind === 'degree') return profile.degreeStatus === 'graduated' ? outcome(r, 'pass', '自报已获得学士学位；学校仍需审核院校认可及同等资格。', 'Self-reported bachelor’s degree completed. Institutional recognition remains the university’s decision.') : outcome(r, 'unknown', '尚未确认已取得学位；应查询是否接受条件录取。', 'Degree completion is not confirmed. Check conditional-offer rules with the university.');
   if (r.kind === 'major') {
     const major = normalizeMajor(profile.major);
@@ -39,7 +40,7 @@ function evaluateRule(r, profile) {
   const failures = [];
   const unknowns = [];
   if (language.total === null) unknowns.push('total');
-  else if (language.total < target.total) failures.push('total');
+  else if (language.total < target.total || (target.exclusiveMinimum && language.total === target.total)) failures.push('total');
   const componentTargets = Object.fromEntries(['listening', 'reading', 'writing', 'speaking'].map(name => [name, Math.max(target.componentMin ?? -1, target.componentMins?.[name] ?? -1)]).filter(([, min]) => min >= 0));
   for (const [name, min] of Object.entries(componentTargets)) { const score = language.components[name]; if (score === null) unknowns.push(name); else if (score < min) failures.push(name); }
   if (r.singleAttempt && !language.singleAttempt) unknowns.push('single attempt');

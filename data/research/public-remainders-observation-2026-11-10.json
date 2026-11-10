@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-11-10",
+  "programmeIds": [
+    "SG-NTU-P050",
+    "HK-EDUHK-P040"
+  ],
+  "newPartialParents": 2,
+  "sources": [
+    {
+      "key": "c03eb4441afba5a2a6a1918f",
+      "requestedUrl": "https://gs.eduhk.hk/prospective/med/",
+      "programmeIds": [
+        "HK-EDUHK-P040"
+      ],
+      "schoolIds": [
+        "HK-EDUHK"
+      ],
+      "observedOn": "2026-11-10",
+      "fetchedAt": "2026-11-10T01:46:38.299572+00:00",
+      "reviewed": false,
+      "usedInAdmissions": false,
+      "transport": "curl default TLS verification; every redirect checked before request",
+      "redirects": [],
+      "status": 200,
+      "url": "https://gs.eduhk.hk/prospective/med/",
+      "sha256": "c00f85175c2707e5c95ba2f0de33d9b71702232a975ffdaea050ae6b2cec0705",
+      "bytes": 229725,
+      "state": "captured_unreviewed",
+      "title": "Master of Education (MEd) 2027/28 Intake – Graduate School, The Education University of Hong Kong",
+      "metaRedirect": null,
+      "reusedCapture": true
+    },
+    {
+      "key": "c4e8c613cb831451d6a9e7b3",
+      "requestedUrl": "https://gs.eduhk.hk/prospective/med/admissions/",
+      "programmeIds": [
+        "HK-EDUHK-P040"
+      ],
+      "schoolIds": [
+        "HK-EDUHK"
+      ],
+      "observedOn": "2026-11-10",
+      "fetchedAt": "2026-11-10T01:47:09.915749+00:00",
+      "reviewed": false,
+      "usedInAdmissions": false,
+      "transport": "curl default TLS verification; every redirect checked before request",
+      "redirects": [],
+      "status": 200,
+      "url": "https://gs.eduhk.hk/prospective/med/admissions/",
+      "sha256": "bf0223610850ef862665e9e4f30ad5863ee6976a01d04d6255ed68644aa17e50",
+      "bytes": 172862,
+      "state": "captured_unreviewed",
+      "title": "Admissions – Graduate School, The Education University of Hong Kong",
+      "metaRedirect": null
+    },
+    {
+      "key": "47ab76445adc2164606b82bf",
+      "requestedUrl": "https://www.ntu.edu.sg/sbs/admissions/graduate/coursework/Programme_Structure_and_Curriculum",
+      "programmeIds": [
+        "SG-NTU-P050"
+      ],
+      "schoolIds": [
+        "SG-NTU"
+      ],
+      "observedOn": "2026-11-10",
+      "fetchedAt": "2026-11-10T01:46:38.646501+00:00",
+      "reviewed": false,
+      "usedInAdmissions": false,
+      "transport": "curl default TLS verification; every redirect checked before request",
+      "redirects": [],
+      "status": 200,
+      "url": "https://www.ntu.edu.sg/sbs/admissions/graduate/coursework/Programme_Structure_and_Curriculum",
+      "sha256": "a348385ad602817ea7422057513f2b02ac4769e34fef52df94eaf3d80caaa13d",
+      "bytes": 52873,
+      "state": "captured_unreviewed",
+      "title": "Programme Structure and Curriculum | School of Biological Sciences | NTU Singapore",
+      "metaRedirect": null,
+      "reusedCapture": true
+    },
+    {
+      "key": "769c87fbf8a3481ce19d302b",
+      "requestedUrl": "https://www.ntu.edu.sg/sbs/admissions/graduate/coursework/application-procedure",
+      "programmeIds": [
+        "SG-NTU-P050"
+      ],
+      "schoolIds": [
+        "SG-NTU"
+      ],
+      "observedOn": "2026-11-10",
+      "fetchedAt": "2026-11-10T01:46:38.299572+00:00",
+      "reviewed": false,
+      "usedInAdmissions": false,
+      "transport": "curl default TLS verification; every redirect checked before request",
+      "redirects": [],
+      "status": 200,
+      "url": "https://www.ntu.edu.sg/sbs/admissions/graduate/coursework/application-procedure",
+      "sha256": "252f4beb8b49822e7152314421f800e1bd870b20254655e6007b5be13759c254",
+      "bytes": 42650,
+      "state": "captured_unreviewed",
+      "title": "Application Procedure | School of Biological Sciences | NTU Singapore",
+      "metaRedirect": null,
+      "reusedCapture": true
+    }
+  ],
+  "method": "Public programme hyperlinks followed normally; source byte hashes retained. No CMS administrator/SharePoint/account endpoints used.",
+  "supersedesHold": "NTU P050 earlier same-day primary-page pass lacked a public admission link. SBS public admissions hub subsequently supplied the correct public URL.",
+  "limits": [
+    "Partial programme evidence, not complete entry conditions or independent review.",
+    "MEd clusters and dual/overseas pathways require their own conditions; early cutoff is not a final deadline."
+  ]
+}

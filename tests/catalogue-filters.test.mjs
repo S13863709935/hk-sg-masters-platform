@@ -108,7 +108,7 @@ test('real catalogue, server-filtered matches and browser-filtered matches agree
     assert.deepEqual(ids(browser), ids(catalogueItems), JSON.stringify(filters));
     assert.deepEqual(ids(matches.items), ids(catalogueItems), JSON.stringify(filters));
   }
-  assert.deepEqual(ids(filterMatchedProgrammes(allMatches, { q: 'Wee Kim Wee', school: 'SG-NTU' })), ['SG-NTU-P018']);
+  assert.deepEqual(ids(filterMatchedProgrammes(allMatches, { q: 'Wee Kim Wee', school: 'SG-NTU' })), ['SG-NTU-P013', 'SG-NTU-P017', 'SG-NTU-P018', 'SG-NTU-P019']);
 });
 
 test('selected route, mode and applicant context remain identical across search and detail', async () => {

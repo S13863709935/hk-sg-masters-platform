@@ -111,7 +111,7 @@ test('all three Oct-20 builders preserve unrelated observations and stay idempot
       assert.throws(() => build(replay), /newer EdUHK listings/);
       const reconciliation = read('data/research/eduhk-flass-directory-reconciliation-2026-11-04.json');
       for (const change of reconciliation.changes) replay.links.listings[replay.links.listings.findIndex(l => l.programmeId === change.programmeId)] = structuredClone(change.before);
-      replay.links.checkedOn = reconciliation.beforeBatchCheckedOn;
+      replay.links.checkedOn = replay.links.listings.map(l => l.checkedOn).sort().at(-1);
       replay.links.description = reconciliation.beforeDescription;
     }
     const beforeReplay = structuredClone(replay), other = build(replay);

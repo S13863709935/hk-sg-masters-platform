@@ -71,7 +71,7 @@ test('HTTP200 verification pages never count as readable official source evidenc
 });
 
 test('backlog closes three unread identities without pretending grouped EMBA or ten HKU parents are fully reviewed',()=>{
- const b=loadSchoolBacklog('2026-11-04');assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.equal(b.counts.routeCoveredLeads,12);assert.equal(b.counts.scopeHeldLeads,3);for(const id of ['HK-CITYU','HK-HKU'])assert.equal(b.schools.find(s=>s.schoolId===id).unreadLeads,0);
+ const b=loadSchoolBacklog(repositoryExpected.asOfDate);assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.equal(b.counts.routeCoveredLeads,12);assert.equal(b.counts.scopeHeldLeads,3);for(const id of ['HK-CITYU','HK-HKU'])assert.equal(b.schools.find(s=>s.schoolId===id).unreadLeads,0);
  assert.equal(b.schools.find(s=>s.schoolId==='HK-CITYU').pageCheckedRecords,61);assert.equal(b.schools.find(s=>s.schoolId==='HK-HKU').pageCheckedRecords,93);
  assert.deepEqual(b,read(repositoryExpected.backlogJson));assert.equal(formatSchoolBacklog(b),readFileSync(new URL(repositoryExpected.backlogMarkdown,root),'utf8').replaceAll('\r\n','\n'));
 });

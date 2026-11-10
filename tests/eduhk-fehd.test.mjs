@@ -111,7 +111,7 @@ test('retrieval failures and later Schannel success remain separate from review 
 });
 
 test('current FEHD backlog and maintenance snapshot reflect partial coverage without changing the twenty-ID core',()=>{
- const b=loadSchoolBacklog('2026-11-04'),s=b.schools.find(x=>x.schoolId==='HK-EDUHK');assert.equal(s.catalogueRecords,59);assert.equal(s.pageCheckedRecords,58);assert.equal(s.unreadLeads,1);assert.equal(s.completeRecords,0);
+ const b=loadSchoolBacklog(repositoryExpected.asOfDate),s=b.schools.find(x=>x.schoolId==='HK-EDUHK');assert.equal(s.catalogueRecords,59);assert.equal(s.pageCheckedRecords,59);assert.equal(s.unreadLeads,0);assert.equal(s.completeRecords,0);
  assert.equal(b.counts.pageCheckedRecords,repositoryExpected.checked);assert.equal(b.counts.unreadLeads,repositoryExpected.unreadLeads);assert.equal(b.counts.catalogueLeads,repositoryExpected.catalogueLeads);assert.deepEqual(b,read(repositoryExpected.backlogJson));assert.equal(formatSchoolBacklog(b),readFileSync(new URL(repositoryExpected.backlogMarkdown,root),'utf8').replaceAll('\r\n','\n'));
  const q=loadRepositoryReviewQueue('2026-11-04');assert.equal(q.counts.reviewUnits,repositoryExpected.reviewUnits);assert.equal(q.counts.nearCutoffUnits,repositoryExpected.nearCutoffNovember4);assert.equal(q.counts.staleApplicantContexts,0);assert.equal(batch.pilotProgrammeIds.length,20);
 });

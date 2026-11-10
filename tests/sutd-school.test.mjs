@@ -100,7 +100,7 @@ test('archived MSSD, unknown next DAI-E and not-yet-open MUSPP never borrow sibl
 });
 
 test('school backlog reconciles every lead and separates unknown fields from no published universal GPA', () => {
-  const r = loadSchoolBacklog('2026-11-04'); assert.deepEqual(r.counts, { schools: 14, catalogueRecords: 873, pageCheckedRecords:repositoryExpected.checked, partialRecords:repositoryExpected.checked, completeRecords: 0, catalogueLeads:repositoryExpected.catalogueLeads, routeCoveredLeads: 12, scopeHeldLeads: 3, unreadLeads:repositoryExpected.unreadLeads });
+  const r = loadSchoolBacklog(repositoryExpected.asOfDate); assert.deepEqual(r.counts, { schools: 14, catalogueRecords: 873, pageCheckedRecords:repositoryExpected.checked, partialRecords:repositoryExpected.checked, completeRecords: 0, catalogueLeads:repositoryExpected.catalogueLeads, routeCoveredLeads: 12, scopeHeldLeads: 3, unreadLeads:repositoryExpected.unreadLeads });
   for (const s of r.schools) { assert.equal(s.catalogueLeads, s.routeCoveredLeads + s.scopeHeldLeads + s.unreadLeads); assert.equal(s.unread.length, s.unreadLeads); assert.deepEqual(s.sourceAfterSnapshot, []); }
   const s = r.schools.find(s => s.schoolId === 'SG-SUTD'); assert.equal(s.pageCheckedRecords, 18); assert.equal(s.unreadLeads, 0); assert.equal(s.scopeHeldLeads, 1); assert.equal(s.activeParentUnknownFields.gpa, 0); assert.equal(s.activeParentNotPublishedFields.gpa, 15);
   assert.deepEqual(r, read(repositoryExpected.backlogJson)); assert.equal(formatSchoolBacklog(r), readFileSync(new URL(repositoryExpected.backlogMarkdown, root), 'utf8').replaceAll('\r\n', '\n'));

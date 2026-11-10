@@ -1,0 +1,1249 @@
+{
+  "schemaVersion": 1,
+  "readOn": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "UnreviewedFASS/CELCown-sourcegroup18existingIDs; localstagingonly",
+  "sources": {
+    "faculty": {
+      "url": "https://fass.nus.edu.sg/graduate/coursework/admission-requirements-gradcoursework/",
+      "readOn": "2026-11-10",
+      "section": "Programme-specific admission panels; preserve differences from departmental pages",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "cnm025": {
+      "url": "https://fass.nus.edu.sg/cnm/study/master-of-communication/",
+      "readOn": "2026-11-10",
+      "section": "Own entry, English, August2027date, candidature and non-tuition fees",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "cnm041": {
+      "url": "https://fass.nus.edu.sg/cnm/study/ace-master/",
+      "readOn": "2026-11-10",
+      "section": "Own entry, English, August2027date, candidature and non-tuition fees",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "econ": {
+      "url": "https://fass.nus.edu.sg/ecs/me-application-information/",
+      "readOn": "2026-11-10",
+      "section": "Own expanded entry, English, track-specific annual dates",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "econMain": {
+      "url": "https://fass.nus.edu.sg/ecs/master-of-economics/",
+      "readOn": "2026-11-10",
+      "section": "Degree identity/two tracks",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "ccs": {
+      "url": "https://fass.nus.edu.sg/geog/graduate-programme-in-climate-change-and-sustainability/msc-in-climate-change-and-sustainability/",
+      "readOn": "2026-11-10",
+      "section": "Own entry/English and track-specific duration",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "swk": {
+      "url": "https://fass.nus.edu.sg/swk/master-of-social-work-coursework-about/",
+      "readOn": "2026-11-10",
+      "section": "Own entry-route table/English/GREoptional/candidature",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "swkMain": {
+      "url": "https://fass.nus.edu.sg/swk/master-of-social-work-coursework/",
+      "readOn": "2026-11-10",
+      "section": "ExplicitAugust2027dates",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "hist039": {
+      "url": "https://fass.nus.edu.sg/hist/maph/",
+      "readOn": "2026-11-10",
+      "section": "Own entry/English/annual application/AY2027–28fee/study length",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "hist042": {
+      "url": "https://fass.nus.edu.sg/hist/magh/",
+      "readOn": "2026-11-10",
+      "section": "Own entry/English/annual application/AY2027–28fee/study length",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "ccl": {
+      "url": "https://fass.nus.edu.sg/cs/masters-coursework/",
+      "readOn": "2026-11-10",
+      "section": "Own Chinese-language delivery/entry/English/AY2027–28fee",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "sea": {
+      "url": "https://fass.nus.edu.sg/sea/masters-by-coursework/",
+      "readOn": "2026-11-10",
+      "section": "Degree identity, one-year investment; application link failed",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "ect": {
+      "url": "https://www.nus.edu.sg/celc/ma-in-ect/",
+      "readOn": "2026-11-10",
+      "section": "Own entry/Englishversiondateboundaries/conflicting applicationtables/AY2026–27fee",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "elts046": {
+      "url": "https://fass.nus.edu.sg/elts/ma-coursework-english-linguistics/",
+      "readOn": "2026-11-10",
+      "section": "Current replacement own webpage; entry/English/study/annual application",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "elts049": {
+      "url": "https://fass.nus.edu.sg/elts/ma-coursework-literary-studies/",
+      "readOn": "2026-11-10",
+      "section": "Current replacement own webpage; entry/English/study/annual application",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "elts050": {
+      "url": "https://fass.nus.edu.sg/elts/ma-coursework-theatre/",
+      "readOn": "2026-11-10",
+      "section": "Current replacement own webpage; entry/English/study/annual application",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "gsa": {
+      "url": "https://fass.nus.edu.sg/socanth/graduate-coursework-programme-master-of-arts-global-sociology-and-anthropology/",
+      "readOn": "2026-11-10",
+      "section": "Own admission/English/August2027/fees/candidature",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "jvc": {
+      "url": "https://fass.nus.edu.sg/jps/majvc/",
+      "readOn": "2026-11-10",
+      "section": "Own degree/Japanese-studyprerequisite/English/candidature/AY2027–28fees",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "psych": {
+      "url": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/",
+      "readOn": "2026-11-10",
+      "section": "Own entry/research/mandatoryrecentclinicalexperience/language/AY2027–28dates",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "gis": {
+      "url": "https://fass.nus.edu.sg/geog/msc-in-applied-gis/",
+      "readOn": "2026-11-10",
+      "section": "OwnMScspecificadmissions/English/August2027/candidature; diploma/certificateexcluded",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    },
+    "sas": {
+      "url": "https://fass.nus.edu.sg/sas/masters-by-coursework/",
+      "readOn": "2026-11-10",
+      "section": "OwnGeopoliticsSouthAsiaentry/English/August2027/candidature",
+      "method": "web tool read official public HTML, cached crawl possible; no raw HTTP status/hash"
+    }
+  },
+  "programmes": [
+    {
+      "programmeId": "SG-NUS-P025",
+      "officialTitle": "Master of Communication",
+      "programmeUrl": "https://fass.nus.edu.sg/cnm/study/master-of-communication/",
+      "undergraduate": {
+        "value": "Relevant bachelor's preferably honours (Merit/second class+) or four-year equivalent averageB. Applicants without honours need >=2 years relevant industry experience; other qualifications individually considered.",
+        "sourceIds": [
+          "cnm025"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue and university medium not completely English",
+          "TOEFLiBTMinimum": 100,
+          "writingMinimum": 22,
+          "IELTSAcademic": {
+            "overallMinimum": 7,
+            "eachBandMinimum": 6
+          },
+          "validity": "2years, unexpired when applying",
+          "scaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "cnm025"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12months",
+          "partTime": "24months"
+        },
+        "sourceIds": [
+          "cnm025"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-09-01",
+          "closes": "2026-11-30"
+        },
+        "sourceIds": [
+          "cnm025"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuition": "Unknown",
+          "currency": "SGD",
+          "application": 54.5,
+          "applicationConditions": "Includes9%GST, non-refundable/non-transferable",
+          "acceptance": 5000,
+          "acceptanceConditions": "ExcludesGST; non-refundable/non-transferable, credited",
+          "miscellaneousStudentFees": "Additional every regular semester"
+        },
+        "sourceIds": [
+          "cnm025"
+        ]
+      },
+      "concerns": [
+        "Legacy CNM programme URL redirects to /cnm/study/ own page."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P041",
+      "officialTitle": "Master of Arts (Arts and Cultural Entrepreneurship)",
+      "programmeUrl": "https://fass.nus.edu.sg/cnm/study/ace-master/",
+      "undergraduate": {
+        "value": "Relevant bachelor's preferably honours (Merit/second class+) or four-year equivalent averageB. Applicants without honours need >=2 years relevant industry experience; other qualifications individually considered.",
+        "sourceIds": [
+          "cnm041"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue and university medium not completely English",
+          "TOEFLiBTMinimum": 100,
+          "writingMinimum": 22,
+          "IELTSAcademic": {
+            "overallMinimum": 7,
+            "eachBandMinimum": 6
+          },
+          "validity": "2years, unexpired when applying",
+          "scaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "cnm041"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12months",
+          "partTime": "24months"
+        },
+        "sourceIds": [
+          "cnm041"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-09-01",
+          "closes": "2026-11-30"
+        },
+        "sourceIds": [
+          "cnm041"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuition": "Unknown",
+          "currency": "SGD",
+          "application": 54.5,
+          "applicationConditions": "Includes9%GST, non-refundable/non-transferable",
+          "acceptance": 5000,
+          "acceptanceConditions": "ExcludesGST; non-refundable/non-transferable, credited",
+          "miscellaneousStudentFees": "Additional every regular semester"
+        },
+        "sourceIds": [
+          "cnm041"
+        ]
+      },
+      "concerns": [
+        "Legacy CNM programme URL redirects to /cnm/study/ own page."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P026",
+      "officialTitle": "Master of Economics",
+      "programmeUrl": "https://fass.nus.edu.sg/ecs/master-of-economics/",
+      "undergraduate": {
+        "value": "Honours secondclass+ or four-year equivalent averageB in Economics/related (Finance, Accounting, Maths, Statistics, Physics, Engineering, Operations Research, Political Science), or good bachelor's averageB in related field plus successful interview. Other qualifications discretionary.",
+        "sourceIds": [
+          "econ"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue and university medium not English",
+          "TOEFLiBT": {
+            "minimumAlternatives": [
+              4.5,
+              85
+            ],
+            "writingMinimumAlternatives": [
+              4.5,
+              22
+            ]
+          },
+          "IELTSMinimum": 6,
+          "HomeEdition": "Accepted",
+          "waiver": "Non-native English-medium graduates encouraged to submit scores; may request waiver with evidence for committee approval",
+          "scaleDateBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "econ"
+        ]
+      },
+      "study": {
+        "value": {
+          "tracks": [
+            "AppliedEconomics",
+            "QuantitativeEconomics"
+          ],
+          "duration": "Unknown in bounded read"
+        },
+        "sourceIds": [
+          "econMain"
+        ]
+      },
+      "application": {
+        "value": {
+          "scope": "Recurring rule, not assigned to a calendar-year window",
+          "appliedEconomics": "FromAY2026: August1Julyprecedingyear–15Januaryintakeyear; January15February–15Juneprecedingyear",
+          "quantitativeEconomics": "Augustonly,1Julyprior–15Januaryintakeyear"
+        },
+        "sourceIds": [
+          "econ"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuition": "Unknown",
+          "application": 100,
+          "currency": "SGD",
+          "applicationConditions": "IncludesGST, non-refundable"
+        },
+        "sourceIds": [
+          "econ"
+        ]
+      },
+      "concerns": []
+    },
+    {
+      "programmeId": "SG-NUS-P027",
+      "officialTitle": "Master of Science in Climate Change and Sustainability",
+      "programmeUrl": "https://fass.nus.edu.sg/geog/graduate-programme-in-climate-change-and-sustainability/msc-in-climate-change-and-sustainability/",
+      "undergraduate": {
+        "value": "Relevant honours Merit/secondclass+ or four-year degree averageB; or relevant good bachelor's averageB; or bachelor's plus relevant GraduateDiploma GPA>=3.00 (scale not stated); other qualifications/professional experience discretionary.",
+        "sourceIds": [
+          "ccs"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "No degree from English-speaking university",
+          "TOEFLiBTMinimum": 100,
+          "IELTSMinimum": 7,
+          "validity": "Taken within2years before proposed admission",
+          "exceptions": "Individual exceptions possible",
+          "scaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "ccs"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullCourseworkTrack": "8months/2semesters",
+          "researchProjectTrack": "12months/3semesters",
+          "generalCandidature": "NormalFT12/PT24months; maximumFT24/PT36months",
+          "units": 40
+        },
+        "sourceIds": [
+          "ccs"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "Augustannually",
+          "yearSpecificWindow": "Unknown"
+        },
+        "sourceIds": [
+          "ccs"
+        ]
+      },
+      "fees": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "concerns": [
+        "Keep8-monthcoursework route separate from12-monthresearch route/general candidature."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P028",
+      "officialTitle": "Master of Social Work (by coursework)",
+      "programmeUrl": "https://fass.nus.edu.sg/swk/master-of-social-work-coursework/",
+      "undergraduate": {
+        "value": {
+          "socialWork": "NUSHonoursSW or4-yearSWaverageB; otherSWbacheloraverageB+>=2years humanservices experience",
+          "diplomaRoute": "BacheloraverageB+GraduateDiplomaSWaverageB+",
+          "relatedField": "NUSHonours or4-yearrelatedbacheloraverageB+>=5years humanservices experience",
+          "standalone": "Standalone-course anybachelor+3years experience not master's entry"
+        },
+        "sourceIds": [
+          "swk"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBTMinimum": 85,
+          "writingMinimum": 22,
+          "IELTSAcademicMinimum": 6.5,
+          "validity": "2years, unexpired when applying",
+          "condition": "See ownEnglishpassage; no automatic waiver inferred"
+        },
+        "sourceIds": [
+          "swk"
+        ]
+      },
+      "selection": {
+        "value": {
+          "own": "GREoptional; may strengthen application",
+          "faculty": "GREdescribed required exceptNUS/NTU/SMU/SUTDgraduates",
+          "status": "Unresolved source conflict"
+        },
+        "sourceIds": [
+          "swk",
+          "faculty"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Typical1.5years,max3",
+          "partTime": "Typical2.5years,max4",
+          "units": 40
+        },
+        "sourceIds": [
+          "swk"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-15",
+          "closes": "2026-12-15"
+        },
+        "sourceIds": [
+          "swkMain"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuition": "Unknown; ownAY2027linkedtablesnotread",
+          "currency": "SGD",
+          "application": 54.5,
+          "acceptance": 5450,
+          "GST": "Includes9%",
+          "acceptanceConditions": "Non-refundable/non-transferable, credited"
+        },
+        "sourceIds": [
+          "swk"
+        ]
+      },
+      "concerns": [
+        "Do not substitute standalone-course eligibility for fullMSW admission. GRErequirement unresolved across own/faculty sources."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P039",
+      "officialTitle": "Master of Arts (Applied and Public History)",
+      "programmeUrl": "https://fass.nus.edu.sg/hist/maph/",
+      "undergraduate": {
+        "value": "Relevant History/AreaStudies/humanities/socialscience with historical competence: honoursMerit/secondclass+ or four-yearaverageB; or bachelor's+relevantGradDiploma/GradCertificateGPA>=3 (scale unstated); or relevantbachelor+>=2years relevant work. Other qualifications discretionary.",
+        "sourceIds": [
+          "hist039"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue and university medium notEnglish",
+          "TOEFLiBTMinimum": 85,
+          "writingMinimum": 22,
+          "IELTSMinimum": 6,
+          "exceptions": "Individual exceptions possible",
+          "scaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "hist039"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2semesters possible,3recommended;max36months",
+          "partTime": "Usually4–6semesters,max48months",
+          "units": 40
+        },
+        "sourceIds": [
+          "hist039"
+        ]
+      },
+      "application": {
+        "value": {
+          "scope": "Annual rule only",
+          "intake": "August",
+          "window": "1Novemberprecedingyear–15Januaryintakeyear"
+        },
+        "sourceIds": [
+          "hist039"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027–28",
+          "gross": 41750,
+          "GST": "Included; rate not specified in quotedfee",
+          "acceptance": 5450,
+          "acceptanceConditions": "IncludesGST; non-refundable",
+          "application": 100,
+          "applicationConditions": "IncludesGST; non-refundable",
+          "miscellaneousStudentFees": "Additional"
+        },
+        "sourceIds": [
+          "hist039"
+        ]
+      },
+      "concerns": [
+        "Graduatecourse/thesis GPA thresholds are not undergraduate entry GPA."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P042",
+      "officialTitle": "Master of Arts (Asian and Global History)",
+      "programmeUrl": "https://fass.nus.edu.sg/hist/magh/",
+      "undergraduate": {
+        "value": "Relevant History/AreaStudies/humanities/socialscience with historical competence: honoursMerit/secondclass+ or four-yearaverageB; or bachelor's+relevantGradDiploma/GradCertificateGPA>=3 (scale unstated); or relevantbachelor+>=2years relevant work. Other qualifications discretionary.",
+        "sourceIds": [
+          "hist042"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue and university medium notEnglish",
+          "TOEFLiBTMinimum": 85,
+          "writingMinimum": 22,
+          "IELTSMinimum": 6,
+          "exceptions": "Individual exceptions possible",
+          "scaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "hist042"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2semesters possible,3recommended;max36months",
+          "partTime": "Usually4–6semesters,max48months",
+          "units": 40
+        },
+        "sourceIds": [
+          "hist042"
+        ]
+      },
+      "application": {
+        "value": {
+          "scope": "Annual rule only",
+          "intake": "August",
+          "window": "1Novemberprecedingyear–15Januaryintakeyear"
+        },
+        "sourceIds": [
+          "hist042"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027–28",
+          "gross": 41750,
+          "GST": "Included; rate not specified in quotedfee",
+          "acceptance": 5450,
+          "acceptanceConditions": "IncludesGST; non-refundable",
+          "application": 100,
+          "applicationConditions": "IncludesGST; non-refundable",
+          "miscellaneousStudentFees": "Additional"
+        },
+        "sourceIds": [
+          "hist042"
+        ]
+      },
+      "concerns": [
+        "Graduatecourse/thesis GPA thresholds are not undergraduate entry GPA."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P043",
+      "officialTitle": "Master of Arts (Chinese Culture and Language)",
+      "programmeUrl": "https://fass.nus.edu.sg/cs/masters-coursework/",
+      "undergraduate": {
+        "value": "Subject/related honoursMerit/secondclass+ or four-yearaverageB; or relatedgoodbacheloraverageB+placementtest; other qualifications/experience subject to approval.",
+        "sourceIds": [
+          "ccl"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue and universitymedium notEnglish",
+          "TOEFLiBT": {
+            "minimum": 85,
+            "writing": 22
+          },
+          "TOEFLNewTotalMinimum": 4.5,
+          "IELTSMinimum": 6,
+          "validity": "2years; unexpired at application-periodstart",
+          "scaleDateBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "ccl"
+        ]
+      },
+      "study": {
+        "value": {
+          "delivery": "All courses taught inChinese",
+          "duration": "Unknown"
+        },
+        "sourceIds": [
+          "ccl"
+        ]
+      },
+      "application": {
+        "value": {
+          "scope": "Recurring annual only",
+          "intake": "August",
+          "window": "1Novemberprior–15Februaryintakeyear"
+        },
+        "sourceIds": [
+          "ccl"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28",
+          "internationalNonAlumni": 44700,
+          "GST": "Included",
+          "acceptance": 9000,
+          "acceptanceConditions": "Non-refundable, credited",
+          "rebate": "OtherNUSalumni35,760; SC/PR/eligibleChineseStudiesalumni/eligiblefull-timeChinese teachers26,820; precise eligibility table retained atsource"
+        },
+        "sourceIds": [
+          "ccl"
+        ]
+      },
+      "concerns": [
+        "Departmentdeadline15February differs facultygeneral15January; do not silently choose."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P044",
+      "officialTitle": "Master of Arts (Contemporary Southeast Asia)",
+      "programmeUrl": "https://fass.nus.edu.sg/sea/masters-by-coursework/",
+      "undergraduate": {
+        "value": "Relevant humanities/socialscience/areastudies with Asia/SoutheastAsia coursework: honoursMerit/secondclass+ or four-yearaverageB; or goodbacheloraverageB+placementtest; or goodbachelor+relevantContemporarySEA/ArtsandHeritageSEA GradCert/GradDiplomaGPA>=3(scaleunstated). Exceptional alternatives approval and placementtest.",
+        "sourceIds": [
+          "faculty"
+        ]
+      },
+      "english": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "study": {
+        "value": {
+          "fullTime": "One-year programme stated",
+          "units": 40
+        },
+        "sourceIds": [
+          "sea"
+        ]
+      },
+      "application": {
+        "value": {
+          "yearSpecificWindow": "Unknown; own linkedapplicationpage cachemiss"
+        },
+        "sourceIds": [
+          "sea"
+        ]
+      },
+      "fees": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "concerns": [
+        "Entry sourced to faculty's specific programme panel; own application child unreadable. English not inferred from faculty's other programmes."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P045",
+      "officialTitle": "Master of Arts in English Communication Teaching",
+      "programmeUrl": "https://www.nus.edu.sg/celc/ma-in-ect/",
+      "undergraduate": {
+        "value": "Goodbacheloraverage>=B, >=2years teachingatanylevel,500-word writingsample; applicants missing requirements may be assessedcasebycase.",
+        "sourceIds": [
+          "ect"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "UniversityinstructionnotEnglish",
+          "IELTS": {
+            "overall": 8,
+            "reading": 8,
+            "writing": 8
+          },
+          "TOEFLBefore2026_01_21": 114,
+          "TOEFLFrom2026_01_21": {
+            "overall": 5.5,
+            "reading": 5.5,
+            "writing": 5.5,
+            "HomeEditionAccepted": true
+          },
+          "TOEFLAustralia": 114,
+          "validity": "2years",
+          "MyBest": "Notaccepted; single testonly"
+        },
+        "sourceIds": [
+          "ect"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24months",
+          "partTime": "24–36months"
+        },
+        "sourceIds": [
+          "ect"
+        ]
+      },
+      "application": {
+        "value": {
+          "status": "Unresolved same-page conflict",
+          "january2027": [
+            "July–November2026",
+            "July–September2026"
+          ],
+          "august2027": [
+            "September2026–April2027",
+            "November2026–January2027"
+          ]
+        },
+        "sourceIds": [
+          "ect"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2026/27",
+          "gross": 49050,
+          "GST": "Included",
+          "acceptance": 4905,
+          "acceptanceConditions": "Non-refundable,offsetagainstfees",
+          "application": 109,
+          "applicationConditions": "IncludesGST,non-refundable",
+          "miscellaneousStudentFees": "Additional"
+        },
+        "sourceIds": [
+          "ect"
+        ]
+      },
+      "concerns": [
+        "Noresolveddeadline asserted. 2026/27price not relabelled2027/28."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P046",
+      "officialTitle": "Master of Arts (English Language and Linguistics)",
+      "programmeUrl": "https://fass.nus.edu.sg/elts/ma-coursework-english-linguistics/",
+      "identityEvidence": {
+        "value": "Current departmental heading directly identifies programme; legacyma-by-courseworkURLfailed404.",
+        "sourceIds": [
+          "elts046"
+        ]
+      },
+      "undergraduate": {
+        "value": "NUSHonours/equivalentfour-yearbacheloraverageB, or goodbacheloraverageB, in subject/relatedfield; exceptional otherqualifications/experience approval.",
+        "sourceIds": [
+          "elts046"
+        ]
+      },
+      "english": {
+        "value": {
+          "own": "MinimumIELTSoverall7.5 orTOEFLequivalent; ownnumericTOEFLnotstated.",
+          "condition": "UniversityinstructionnotEnglish",
+          "scaleDateBoundary": "Notstated"
+        },
+        "sourceIds": [
+          "elts046"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year intensive",
+          "partTime": "Longer;locallydomiciledonly",
+          "units": 40
+        },
+        "sourceIds": [
+          "elts046"
+        ]
+      },
+      "application": {
+        "value": {
+          "scope": "Recurringruleonly",
+          "intake": "August",
+          "window": "1Novemberprior–15Januaryintakeyear"
+        },
+        "sourceIds": [
+          "elts046"
+        ]
+      },
+      "fees": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "concerns": [
+        "Facultyentrypanel adds placementtest to goodbachelorroute (and additional routes forTheatre) absent own abbreviatedpage; preservebothscopes.",
+        "Do not replace ownIELTS7.5 with genericfaculty6.0."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P049",
+      "officialTitle": "Master of Arts (Literary Studies)",
+      "programmeUrl": "https://fass.nus.edu.sg/elts/ma-coursework-literary-studies/",
+      "identityEvidence": {
+        "value": "Current departmental heading directly identifies programme; legacyma-by-courseworkURLfailed404.",
+        "sourceIds": [
+          "elts049"
+        ]
+      },
+      "undergraduate": {
+        "value": "NUSHonours/equivalentfour-yearbacheloraverageB, or goodbacheloraverageB, in subject/relatedfield; exceptional otherqualifications/experience approval.",
+        "sourceIds": [
+          "elts049"
+        ]
+      },
+      "english": {
+        "value": {
+          "own": "TOEFLiBT>=85,writing>=22 orIELTS>=6.",
+          "condition": "UniversityinstructionnotEnglish",
+          "scaleDateBoundary": "Notstated"
+        },
+        "sourceIds": [
+          "elts049"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1yearpossible,max3years",
+          "partTime": "Max4years; foreignStudentPassfull-timeonly",
+          "units": 40
+        },
+        "sourceIds": [
+          "elts049"
+        ]
+      },
+      "application": {
+        "value": {
+          "scope": "Recurringruleonly",
+          "intake": "August",
+          "window": "1Novemberprior–15Januaryintakeyear"
+        },
+        "sourceIds": [
+          "elts049"
+        ]
+      },
+      "fees": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "concerns": [
+        "Facultyentrypanel adds placementtest to goodbachelorroute (and additional routes forTheatre) absent own abbreviatedpage; preservebothscopes."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P050",
+      "officialTitle": "Master of Arts (Theatre and Performance Studies)",
+      "programmeUrl": "https://fass.nus.edu.sg/elts/ma-coursework-theatre/",
+      "identityEvidence": {
+        "value": "Current departmental heading directly identifies programme; legacyma-by-courseworkURLfailed404.",
+        "sourceIds": [
+          "elts050"
+        ]
+      },
+      "undergraduate": {
+        "value": "NUSHonours/equivalentfour-yearbacheloraverageB, or goodbacheloraverageB, in subject/relatedfield; exceptional otherqualifications/experience approval.",
+        "sourceIds": [
+          "elts050"
+        ]
+      },
+      "english": {
+        "value": {
+          "own": "TOEFLiBT>=85,writing>=22 orIELTS>=6.",
+          "condition": "UniversityinstructionnotEnglish",
+          "scaleDateBoundary": "Notstated"
+        },
+        "sourceIds": [
+          "elts050"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1academicyear/2semesters",
+          "partTime": "Unknown",
+          "units": 40
+        },
+        "sourceIds": [
+          "elts050"
+        ]
+      },
+      "application": {
+        "value": {
+          "scope": "Recurringruleonly",
+          "intake": "August",
+          "window": "1Novemberprior–15Januaryintakeyear"
+        },
+        "sourceIds": [
+          "elts050"
+        ]
+      },
+      "fees": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "concerns": [
+        "Facultyentrypanel adds placementtest to goodbachelorroute (and additional routes forTheatre) absent own abbreviatedpage; preservebothscopes."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P047",
+      "officialTitle": "Master of Arts (Global Sociology and Anthropology)",
+      "programmeUrl": "https://fass.nus.edu.sg/socanth/graduate-coursework-programme-master-of-arts-global-sociology-and-anthropology/",
+      "undergraduate": {
+        "value": "Relevant honoursMerit/secondclass+ orfour-yearaverageB; or relevant goodbacheloraverageB+placementtest; or bachelor's+relevantGradDiploma/GradCertGPA>=3(scaleunstated); otherqualificationsapproval.",
+        "sourceIds": [
+          "gsa"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "UndergraduatemediumnotEnglish",
+          "TOEFLMinimumAlternatives": [
+            85,
+            4.5
+          ],
+          "IELTSMinimum": 6,
+          "HomeEdition": "Accepted",
+          "IELTSIndicator": "Notaccepted",
+          "IELTSOneSkillRetake": "Notaccepted",
+          "scaleDateBoundary": "Notstated"
+        },
+        "sourceIds": [
+          "gsa"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1–3years",
+          "partTime": "2–4years",
+          "units": 40
+        },
+        "sourceIds": [
+          "gsa"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-09-01",
+          "closes": "2026-11-30"
+        },
+        "sourceIds": [
+          "gsa"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "August2027",
+          "gross": 50500,
+          "GST": "Includes9%",
+          "acceptance": 10900,
+          "acceptanceConditions": "Non-refundable/non-transferable",
+          "miscellaneousStudentFees": "Additional eachsemester",
+          "rebates": "Separateeligibilitytable, notextracted"
+        },
+        "sourceIds": [
+          "gsa"
+        ]
+      },
+      "concerns": []
+    },
+    {
+      "programmeId": "SG-NUS-P048",
+      "officialTitle": "Master of Arts in Japanese Visual Cultures",
+      "programmeUrl": "https://fass.nus.edu.sg/jps/majvc/",
+      "undergraduate": {
+        "value": "Relatedhumanities/socialscience/areastudies withAsia/literature/media/visualculturecourses oradvancedJapanese: honoursMerit/secondclass+ orfour-yearaverageB; or goodbacheloraverageB+placementtest; exceptionalotherqualifications+testapproval. ALLapplicants evidencepriorJapanesestudy(elementary+),JLPTorequivalent.",
+        "sourceIds": [
+          "jvc"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "NativetongueandundergraduatemediumnotEnglish",
+          "TOEFLiBTMinimum": 85,
+          "writingMinimum": 22,
+          "TOEFLNewTotalMinimum": 4.5,
+          "IELTSMinimum": 6,
+          "scaleDateBoundary": "Notstated"
+        },
+        "sourceIds": [
+          "jvc"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24months",
+          "partTime": "24–36months",
+          "units": 40
+        },
+        "sourceIds": [
+          "jvc"
+        ]
+      },
+      "application": {
+        "value": {
+          "scope": "Annualruleonly",
+          "august": "1Novemberprior–15Februaryintakeyear",
+          "january": "1June–15Septemberpriorintakeyear"
+        },
+        "sourceIds": [
+          "jvc"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28",
+          "internationalNonAlumni": 47475,
+          "GST": "Includes9%",
+          "acceptance": 13080,
+          "acceptanceConditions": "Non-refundable,credited",
+          "rebates": "SC/PRnet28,485; internationalNUSalumninet37,980"
+        },
+        "sourceIds": [
+          "jvc"
+        ]
+      },
+      "concerns": []
+    },
+    {
+      "programmeId": "SG-NUS-P069",
+      "officialTitle": "Master of Psychology (Clinical)",
+      "programmeUrl": "https://fass.nus.edu.sg/psy/master-of-psychology-clinical/",
+      "undergraduate": {
+        "value": "Goodhonourssecondclass+ orfour-yearequivalentaverageB inPsychology/closelyrelated; honourscompleted3or4years accepted. Final-yearstudentsnotgraduated cannotapply. Otherconversionsindividualreview; relevantmaster'smayassistweakerhonours.",
+        "sourceIds": [
+          "psych"
+        ]
+      },
+      "experience": {
+        "value": "Researchthesisorotheressentialresearchcompetenceevidence; >=1yearFTequivalentdirectclinical/appliedpsychologyorrelevantclinicalresearchexperiencewithinpast5years. Three refereereports.",
+        "sourceIds": [
+          "psych"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "FirstlanguagenotEnglish",
+          "IELTSMinimum": 6,
+          "TOEFLiBTMinimum": 85,
+          "writingMinimum": 22,
+          "TOEFLNewMinimum": 4.5,
+          "validity": "Takenwithin2years beforeproposedadmission",
+          "scaleDateBoundary": "Notstated"
+        },
+        "sourceIds": [
+          "psych"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Minimum/normal2years,max4years",
+          "scope": "Singapore-basedentry-levelclinicalprofessionaltraining"
+        },
+        "sourceIds": [
+          "psych"
+        ]
+      },
+      "application": {
+        "value": {
+          "intakes": [
+            "August2027",
+            "January2028"
+          ],
+          "opens": "2026-11-01",
+          "closes": "2027-01-15",
+          "rule": "Applyoneintake; Augustapplicants mayrequestalsoJanuaryconsideration"
+        },
+        "sourceIds": [
+          "psych"
+        ]
+      },
+      "fees": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "concerns": [
+        "GraduationGPA3/5notentryGPA."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P073",
+      "officialTitle": "Master of Science in Applied Geographic Information Systems",
+      "programmeUrl": "https://fass.nus.edu.sg/geog/msc-in-applied-gis/",
+      "undergraduate": {
+        "value": "RelevanthonoursMerit/secondclass+ orfour-yearaverageB; orrelevantgoodbacheloraverageB+>=1yearrelevantwork; otherqualifications/experienceapproval.",
+        "sourceIds": [
+          "gis"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "OverseasapplicantwithoutdegreefromEnglish-speakinguniversity",
+          "TOEFLiBTMinimum": 85,
+          "writingMinimum": 22,
+          "IELTSMinimum": 6.5,
+          "validity": "Within2years beforeproposedadmission",
+          "scaleDateBoundary": "Notstated"
+        },
+        "sourceIds": [
+          "gis"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Normal12,max24months",
+          "partTime": "Normal24,max36months",
+          "units": 40,
+          "tracks": [
+            "Coursework",
+            "Thesis",
+            "Project"
+          ]
+        },
+        "sourceIds": [
+          "gis"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-11-01",
+          "closes": "2027-03-15"
+        },
+        "sourceIds": [
+          "gis"
+        ]
+      },
+      "fees": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "concerns": [
+        "Ownpagealsodiploma/certificate; thoseentryconditionsnottransferred."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P115",
+      "officialTitle": "Master of Social Sciences (Geopolitics of South Asia)",
+      "programmeUrl": "https://fass.nus.edu.sg/sas/masters-by-coursework/",
+      "undergraduate": {
+        "value": "Relatedhumanities/socialscience/areastudieswithSouthAsia/Asiacoursework: honoursMerit/secondclass+ orfour-yearaverageB; or goodbacheloraverageB+placementtest; exceptionalotherqualifications/experience+placementtestapproval.",
+        "sourceIds": [
+          "sas"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "NativetongueandundergraduatemediumnotEnglish",
+          "TOEFLiBTMinimum": 85,
+          "writingMinimum": 22,
+          "IELTS": {
+            "overallMinimum": 6,
+            "allSectionsMinimum": 6
+          },
+          "validity": "2years; unexpiredatapplication-periodstart",
+          "scaleDateBoundary": "Notstated"
+        },
+        "sourceIds": [
+          "sas"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24months",
+          "partTime": "24–36months",
+          "units": 40
+        },
+        "sourceIds": [
+          "sas"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-08-01",
+          "closes": "2027-02-28"
+        },
+        "sourceIds": [
+          "sas"
+        ]
+      },
+      "fees": {
+        "value": "Unknown in bounded own-source read",
+        "sourceIds": []
+      },
+      "concerns": []
+    }
+  ],
+  "programmeIds": [
+    "SG-NUS-P025",
+    "SG-NUS-P041",
+    "SG-NUS-P026",
+    "SG-NUS-P027",
+    "SG-NUS-P028",
+    "SG-NUS-P039",
+    "SG-NUS-P042",
+    "SG-NUS-P043",
+    "SG-NUS-P044",
+    "SG-NUS-P045",
+    "SG-NUS-P046",
+    "SG-NUS-P049",
+    "SG-NUS-P050",
+    "SG-NUS-P047",
+    "SG-NUS-P048",
+    "SG-NUS-P069",
+    "SG-NUS-P073",
+    "SG-NUS-P115"
+  ],
+  "counts": {
+    "newPartialParents": 18,
+    "newRouteGroups": 0,
+    "newRouteSnapshots": 0,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "limits": [
+    "No universal undergraduate GPA, honours/work alternative or test waiver is inferred.",
+    "Own language components override easier generic faculty values; conflicting CELC dates/GRE statements remain explicit.",
+    "ISS comparable120-scale reporting is not imported into these programmes.",
+    "Bounded readings do not prove complete requirements, current availability or independent review."
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-11-10",
+  "programmeIds": [
+    "SG-NUS-P034",
+    "SG-NUS-P089",
+    "SG-NUS-P075",
+    "SG-NUS-P077",
+    "SG-NUS-P059",
+    "SG-NUS-P105",
+    "SG-NUS-P092",
+    "SG-NUS-P114",
+    "SG-NUS-P110",
+    "SG-NUS-P068",
+    "SG-NUS-P102"
+  ],
+  "counts": {
+    "newPartialParents": 11,
+    "newRouteGroups": 0,
+    "newRouteSnapshots": 0,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "sources": {
+    "p034o": {
+      "url": "https://sph.nus.edu.sg/education/mph/",
+      "readOn": "2026-11-10",
+      "section": "Own overview and window",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p034a": {
+      "url": "https://sph.nus.edu.sg/education/mph/admission-requirements/",
+      "readOn": "2026-11-10",
+      "section": "Entry and English version dates/waiver",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p034w": {
+      "url": "https://sph.nus.edu.sg/education/mph/how-to-apply/",
+      "readOn": "2026-11-10",
+      "section": "Own dated application details",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p034f": {
+      "url": "https://sph.nus.edu.sg/education/mph/fees/",
+      "readOn": "2026-11-10",
+      "section": "Own fees with cohort heading",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p089o": {
+      "url": "https://sph.nus.edu.sg/education/mscheor/",
+      "readOn": "2026-11-10",
+      "section": "Own overview and window",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p089a": {
+      "url": "https://sph.nus.edu.sg/education/mscheor/admission-requirements/",
+      "readOn": "2026-11-10",
+      "section": "Entry and English version dates/waiver",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p089w": {
+      "url": "https://sph.nus.edu.sg/education/mscheor/how-to-apply/",
+      "readOn": "2026-11-10",
+      "section": "Own dated application details",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p089f": {
+      "url": "https://sph.nus.edu.sg/education/mscheor/fees/",
+      "readOn": "2026-11-10",
+      "section": "Own fees with cohort heading",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p034c": {
+      "url": "https://sph.nus.edu.sg/education/mph/curriculum/",
+      "readOn": "2026-11-10",
+      "section": "Modes; min/max and government-subsidised normal candidature",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p075": {
+      "url": "https://medicine.nus.edu.sg/bisi/master-of-science-in-behavioural-and-implementation-sciences-in-health/",
+      "readOn": "2026-11-10",
+      "section": "Own requirements,Aug2027dates,duration,AY2027/28fees",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p077": {
+      "url": "https://medicine.nus.edu.sg/dbmi/education-3/msc-in-biomedical-informatics-coursework/",
+      "readOn": "2026-11-10",
+      "section": "Redirected own programme, requirements,2027 window and AY2027/28fee",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p059": {
+      "url": "https://medicine.nus.edu.sg/graduatestudies/education/master-of-clinical-mental-health-and-psychotherapy/",
+      "readOn": "2026-11-10",
+      "section": "RescheduledAug2027,datedwindow,requirements,English components and AY2027/28fee",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p105a": {
+      "url": "https://medicine.nus.edu.sg/mscphm/website/eligibility.html",
+      "readOn": "2026-11-10",
+      "section": "Degree profiles and aptitude routes; English not present in current extracted page",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p105c": {
+      "url": "https://medicine.nus.edu.sg/mscphm/website/course_pathway.html",
+      "readOn": "2026-11-10",
+      "section": "1yearcoursework/2yearcapstone pathways; current extracted page no mode mapping",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p105w": {
+      "url": "https://medicine.nus.edu.sg/mscphm/website/events.html",
+      "readOn": "2026-11-10",
+      "section": "Own footer explicitAug2027 application periods; official search-extracted text",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p105f": {
+      "url": "https://medicine.nus.edu.sg/mscphm/website/tuition_fee.html",
+      "readOn": "2026-11-10",
+      "section": "2027fee;tentativeAY2027/2027typo",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p092o": {
+      "url": "https://medicine.nus.edu.sg/cider/education/msc-infectious-disease-emergencies/",
+      "readOn": "2026-11-10",
+      "section": "July/August2027window/duration",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p092a": {
+      "url": "https://medicine.nus.edu.sg/cider/education/msc-infectious-disease-emergencies/admission-requirements/",
+      "readOn": "2026-11-10",
+      "section": "Degree,worktracks,English",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p092f": {
+      "url": "https://medicine.nus.edu.sg/cider/education-old/msc-infectious-disease-emergencies/fees/",
+      "readOn": "2026-11-10",
+      "section": "Linkedredirect fee page AY2027/28",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p114": {
+      "url": "https://medicine.nus.edu.sg/cosm/education/msc/",
+      "readOn": "2026-11-10",
+      "section": "Degreefields,English,FT/PT,closedAY26/27cohortandhistoricalfee",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p110a": {
+      "url": "https://medicine.nus.edu.sg/dgms/SLP/admission%20requirement.html",
+      "readOn": "2026-11-10",
+      "section": "Entry and English",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p110w": {
+      "url": "https://medicine.nus.edu.sg/dgms/SLP/application.html",
+      "readOn": "2026-11-10",
+      "section": "January2027exercise,datesembeddedimage unread",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p110c": {
+      "url": "https://medicine.nus.edu.sg/dgms/SLP/candidature.html",
+      "readOn": "2026-11-10",
+      "section": "Min2/max4years",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p074": {
+      "url": "https://blog.nus.edu.sg/audiology/msc-audiology/",
+      "readOn": "2026-11-10",
+      "section": "Programme search-extracted own page; directwebopenfailed502",
+      "method": "web tool official-domain search page text read; directopenfailed; cachedcrawl4monthspossible; no rawHTTPstatus/hash"
+    },
+    "p068": {
+      "url": "https://pharmacy.nus.edu.sg/study/postgraduate-programmes/master-of-pharmacy-clinical-pharmacy-programme/",
+      "readOn": "2026-11-10",
+      "section": "Direct/stackableroutes,versiondatedEnglish,recurringwindow,AY2027/28fee",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p102ft": {
+      "url": "https://pharmacy.nus.edu.sg/study/postgraduate-programmes/msc-pharmaceutical-science-technology-programme/full-time/",
+      "readOn": "2026-11-10",
+      "section": "OwnFTentryEnglish,Aug2027regular/earlywindows,modeandfees",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p102pt": {
+      "url": "https://pharmacy.nus.edu.sg/study/postgraduate-programmes/msc-pharmaceutical-science-technology-programme/part-time/",
+      "readOn": "2026-11-10",
+      "section": "OwnPTdirect/stackableentryandduration/window",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    }
+  },
+  "programmeFacts": [
+    {
+      "programmeId": "SG-NUS-P034",
+      "officialTitle": "Master of Public Health",
+      "programmeUrl": "https://sph.nus.edu.sg/education/mph/",
+      "concerns": [
+        "Do not turn preferred academic/work profiles into hard screening. FT normal duration conflicting own curriculum/fee pages; overview0months is display artifact, not duration. TOEFL exact boundary day unknown."
+      ],
+      "undergraduate": {
+        "value": "Criteria explicitly preferred, differing backgrounds may apply. Medical: MBBS/equivalent +1year general clinical (SG-trained excludes housemanship)+1year public-health/health-admin/occupational-environmental work OR clinical-specialty training; alternatively NUHS Preventive Medicine Residency. Nonmedical: good honours/equivalent +2years relevant public-health/clinical-research work.",
+        "sourceIds": [
+          "p034a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "IELTSVersion": "Academic",
+          "TOEFLMinimumBefore21Jan2026": 85,
+          "TOEFLMinimumAfter21Jan2026": 4.5,
+          "boundaryConcern": "Source says before/after21Jan2026; exact day itself unspecified",
+          "validity": "2years, unexpired",
+          "applicability": "International applicants except Singapore autonomous universities or English-medium institutions in Australia/Canada/Ireland/NZ/UK/US; no components stated"
+        },
+        "sourceIds": [
+          "p034a"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "min12,max24months; curriculum normal1.5years for subsidised; fee page standard12months",
+          "partTime": "min24,max48months; normal2years"
+        },
+        "sourceIds": [
+          "p034c",
+          "p034f"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-08-01",
+          "closes": "2026-11-01",
+          "status": "Own how-to-apply says CLOSED",
+          "supportingDocuments": "2026-11-15",
+          "numeracyTest": "2027-01-05 to2027-01-07"
+        },
+        "sourceIds": [
+          "p034o",
+          "p034w"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currentIntake": "unknown; displayed fee table is AY2026/27"
+        },
+        "sourceIds": [
+          "p034f"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P089",
+      "officialTitle": "MSc in Health Economics and Outcomes Research",
+      "programmeUrl": "https://sph.nus.edu.sg/education/mscheor/",
+      "concerns": [
+        "No GPA scale/conversion inferred; exact TOEFL boundary day unknown."
+      ],
+      "undergraduate": {
+        "value": "Recognised good honours bachelor/equivalent in healthcare or quantitative discipline (economics/engineering/maths/science/statistics). Nonhonours in such field considered with >=2years relevant work.",
+        "sourceIds": [
+          "p089a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "IELTSVersion": "Academic",
+          "TOEFLMinimumBefore21Jan2026": 85,
+          "TOEFLMinimumAfter21Jan2026": 4.5,
+          "boundaryConcern": "Source says before/after21Jan2026; exact day itself unspecified",
+          "validity": "2years, unexpired",
+          "applicability": "International applicants except Singapore autonomous universities or English-medium institutions in Australia/Canada/Ireland/NZ/UK/US; no components stated"
+        },
+        "sourceIds": [
+          "p089a"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year",
+          "partTime": "2years"
+        },
+        "sourceIds": [
+          "p089o",
+          "p089f"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-08-01",
+          "closes": "2026-12-15"
+        },
+        "sourceIds": [
+          "p089o"
+        ]
+      },
+      "fees": {
+        "value": {
+          "grossInclGST": "S$58,860",
+          "cohort": "AY2027/28",
+          "scope": "Full programme; miscellaneous extra"
+        },
+        "sourceIds": [
+          "p089f"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P075",
+      "officialTitle": "Master of Science in Behavioural and Implementation Sciences in Health",
+      "programmeUrl": "https://medicine.nus.edu.sg/bisi/master-of-science-in-behavioural-and-implementation-sciences-in-health/",
+      "concerns": [
+        "No score scale conversion inferred; graduate-certificate fees not used as master tuition."
+      ],
+      "undergraduate": {
+        "value": "Bachelor in Health/Healthcare/Psychology/SocialSciences/SocialWork/related; honours preferred. MBBS/life-science/bioengineering/biotechnology/health-science advantageous. Other qualifications plus relevant industrial experience case by case; no mandatory years.",
+        "sourceIds": [
+          "p075"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "IELTSVersion": "Academic",
+          "TOEFLiBTMinimum": 85,
+          "applicability": "International graduates of universities where English is not main communication medium",
+          "validity": "2years/unexpired at application",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p075"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year",
+          "partTime": "2years"
+        },
+        "sourceIds": [
+          "p075"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-16",
+          "closes": "2027-05-14",
+          "outcomes": "rolling"
+        },
+        "sourceIds": [
+          "p075"
+        ]
+      },
+      "fees": {
+        "value": {
+          "grossInclGST": "S$66,850",
+          "cohort": "AY2027/28",
+          "scope": "Full tuition; miscellaneous extra"
+        },
+        "sourceIds": [
+          "p075"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P077",
+      "officialTitle": "Master of Science in Biomedical Informatics",
+      "programmeUrl": "https://medicine.nus.edu.sg/dbmi/education-3/msc-in-biomedical-informatics-coursework/",
+      "concerns": [
+        "Entry GPA not inferred from graduation GPA3/5."
+      ],
+      "undergraduate": {
+        "value": "MBBS or honours bachelor in quantitative sciences (math/applied maths/statistics/physics), engineering, computer science, business or health-science-related field. Other qualifications/experience case by case. Fresh graduates eligible; industry experience favoured.",
+        "sourceIds": [
+          "p077"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "IELTSVersion": "Academic",
+          "TOEFLiBTMinimum": 85,
+          "applicability": "International applicants from universities where English not main communication medium",
+          "validity": "2years/unexpired at application",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p077"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "headline1year; expected12–24months,max24",
+          "partTime": "headline2years; expected24–48months,max48"
+        },
+        "sourceIds": [
+          "p077"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-02"
+        },
+        "sourceIds": [
+          "p077"
+        ]
+      },
+      "fees": {
+        "value": {
+          "grossInclGST": "S$70,595",
+          "cohort": "AY2027/28",
+          "scope": "FT/PT all nationalities; miscellaneous extra"
+        },
+        "sourceIds": [
+          "p077"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P059",
+      "officialTitle": "Master of Clinical Mental Health and Psychotherapy",
+      "programmeUrl": "https://medicine.nus.edu.sg/graduatestudies/education/master-of-clinical-mental-health-and-psychotherapy/",
+      "concerns": [
+        "Preserve experience minimum-list vs priority-note tension. Old2025guide94/writing23 not carried forward; current own page94withL/S/W24."
+      ],
+      "undergraduate": {
+        "value": "Recognised honours/equivalent high-grade pass bachelor in psychology/medicine/nursing/occupationaltherapy/alliedhealth/socialwork. Requirements list1–2years direct mental-health care; note prioritises experience and strongly encourages applicants lacking it to gain1–2years. Shortlist interview; conditional preparatory modules.",
+        "sourceIds": [
+          "p059"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "IELTSComponents": {
+            "Listening": 7,
+            "Speaking": 7
+          },
+          "TOEFLiBTMinimum": 94,
+          "TOEFLComponents": {
+            "Listening": 24,
+            "Speaking": 24,
+            "Writing": 24
+          },
+          "validity": "No earlier than2years before proposed admission",
+          "applicability": "International applicants except Singapore autonomous/English-medium Australia/Canada/Ireland/NZ/UK/US; other institutions may prove entirely English-taught",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p059"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1.5years",
+          "partTime": "not offered in overview"
+        },
+        "sourceIds": [
+          "p059"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027 rescheduled",
+          "opens": "2026-10-01",
+          "closes": "2027-03-31",
+          "concern": "Important update says period expected later this year, but same page gives explicit dates"
+        },
+        "sourceIds": [
+          "p059"
+        ]
+      },
+      "fees": {
+        "value": {
+          "grossInclGST": "S$69,500",
+          "cohort": "AY2027/28"
+        },
+        "sourceIds": [
+          "p059"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P105",
+      "officialTitle": "MSc in Precision Health and Medicine",
+      "programmeUrl": "https://medicine.nus.edu.sg/bch/msc-phm/",
+      "concerns": [
+        "Directory link is iframe to ownmscphmsite. Newsite usesPHMxAImarketing; no award rename year inferred. Fee note saysAY2027/2027; retain tentative. Search homepage FT1/PT2 conflicts with own pathway FT-capstone ambiguity; modes unresolved."
+      ],
+      "undergraduate": {
+        "value": "Typical successful backgrounds: MBBS, STEMM/related or quantitative humanities/related; honours preferred; other qualifications case by case. Quantitative and biology aptitude can be demonstrated by courses/competitions/relevant experience; experience advantageous, no hard years.",
+        "sourceIds": [
+          "p105a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": "unknown",
+          "TOEFLMinimum": "unknown",
+          "note": "Current extracted own eligibility page has no English section; no generic research-page score applied"
+        },
+        "sourceIds": [
+          "p105a"
+        ]
+      },
+      "study": {
+        "value": {
+          "pathways": "1year coursework;2year with capstone; flexible stackable",
+          "fullTime": "mode-to-pathway mapping unresolved",
+          "partTime": "mode-to-pathway mapping unresolved"
+        },
+        "sourceIds": [
+          "p105c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-07-01",
+          "categoryDates": {
+            "internationalCloses": "2027-05-31",
+            "localCloses": "2027-06-30"
+          }
+        },
+        "sourceIds": [
+          "p105w"
+        ]
+      },
+      "fees": {
+        "value": {
+          "internationalInclGST": "S$73,650",
+          "NUSAlumniInclGST": "S$58,920",
+          "SC_PRInclGST": "S$44,190",
+          "cohort": "2027intake, tentative",
+          "scope": "IncludesS$5,450acceptance"
+        },
+        "sourceIds": [
+          "p105f"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P092",
+      "officialTitle": "Master of Science in Infectious Disease Emergencies",
+      "programmeUrl": "https://medicine.nus.edu.sg/cider/education/msc-infectious-disease-emergencies/",
+      "concerns": [
+        "Fee page redirects to education-old yet explicitly labelsAY2027/28; rebate paragraph later mentionsAY2026/27only; do not guarantee rebate."
+      ],
+      "undergraduate": {
+        "value": "MBBS/health-science bachelor; other qualifications and industry experience case by case. Medical track:1year clinical(excludingSGhousemanship)+1year public-health/health-admin/occupational-environmental work or clinical-specialty training. Nonmedical:2years relevant public-health/promotion/admin/environmental/clinical-research/related work.",
+        "sourceIds": [
+          "p092a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "IELTSVersion": "Academic",
+          "TOEFLiBTMinimum": 85,
+          "applicability": "Native tongue and university instruction not completely English; conversational English essential",
+          "validity": "unknown",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p092a"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year",
+          "partTime": "2years"
+        },
+        "sourceIds": [
+          "p092o"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "July/August2027",
+          "opens": "2026-11-01",
+          "closes": "2027-05-31"
+        },
+        "sourceIds": [
+          "p092o"
+        ]
+      },
+      "fees": {
+        "value": {
+          "standardInclGST": "S$66,240",
+          "cohort": "AY2027/28"
+        },
+        "sourceIds": [
+          "p092f"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P114",
+      "officialTitle": "Master of Science in Sustainable Healthcare",
+      "programmeUrl": "https://medicine.nus.edu.sg/cosm/education/msc/",
+      "concerns": [
+        "No2027window inferred from closed2026page."
+      ],
+      "undergraduate": {
+        "value": "Bachelor graduates in healthcare(medicine/nursing/biomedicalscience/healthpolicy/publichealth/alliedhealth),publicpolicy/socialsciences,sustainability/environmentalscience; other relevant qualifications case by case. No hard workyears stated.",
+        "sourceIds": [
+          "p114"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTMinimum": 85,
+          "applicability": "International applicants where undergraduate university instruction not English",
+          "validity": "unknown",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p114"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year,max2",
+          "partTime": "2years,max4"
+        },
+        "sourceIds": [
+          "p114"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2026 displayed cohort CLOSED",
+          "nextIntake": "unknown",
+          "opens": "unknown",
+          "closes": "unknown"
+        },
+        "sourceIds": [
+          "p114"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currentIntake": "unknown",
+          "historicalOnly": "AY2026/27 S$58,860 inclGST,40units"
+        },
+        "sourceIds": [
+          "p114"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P110",
+      "officialTitle": "Master of Science (Speech and Language Pathology)",
+      "programmeUrl": "https://medicine.nus.edu.sg/dgms/SLP/home.html",
+      "concerns": [
+        "TOEFL620type notexplicitlylabelled;105explicitlyiBT; no conversion. Image schedule not interpreted."
+      ],
+      "undergraduate": {
+        "value": "Good bachelor averagegradeB/equivalent; exceptional other qualifications/experience Boardapproved. Placement interview/written test; conditional preparatory modules. Honours,appropriatework and anatomy/linguistics/physiology/psychology background preferred.",
+        "sourceIds": [
+          "p110a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7.5,
+          "TOEFLiBTMinimum": 105,
+          "TOEFLOtherScore": 620,
+          "applicability": "English not firstlanguage",
+          "validity": "Within2years before admission",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p110a"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "minimum2years,max4; mode comes existingdirectory",
+          "partTime": "unknown"
+        },
+        "sourceIds": [
+          "p110c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "January2027",
+          "opens": "unknown",
+          "closes": "unknown",
+          "note": "Schedule image not read; inpersonselection atNUS,overseasapplicants travelatowncost"
+        },
+        "sourceIds": [
+          "p110w"
+        ]
+      },
+      "fees": {
+        "value": "unknown",
+        "sourceIds": [
+          "p110w"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P074",
+      "officialTitle": "Master of Science (Audiology)",
+      "programmeUrl": "https://blog.nus.edu.sg/audiology/msc-audiology/",
+      "concerns": [
+        "Only officialsearchtextaccessible; directopen502,not closure. Month-onlywindowcannotbeexactdeadline."
+      ],
+      "undergraduate": {
+        "value": "Good bachelor alliedhealth/science/lifescience/engineering; exceptional other qualifications/experience Boardapproved. Placement test/interview; conditionalpreparatorymodules. Honours,appropriatework/anatomy/physiology/psychology/SLPbackground preferred.",
+        "sourceIds": [
+          "p074"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "TOEFLMinimum": 600,
+          "TOEFLVersion": "not specified; do not converttoiBT",
+          "applicability": "Englishnotfirstlanguage",
+          "validity": "Within2years beforeadmission"
+        },
+        "sourceIds": [
+          "p074"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2years,4semesters,max48months",
+          "partTime": "not offered"
+        },
+        "sourceIds": [
+          "p074"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "October2026(monthonly)",
+          "closes": "April2027(monthonly)",
+          "placementTest": "April2027",
+          "interviews": "May2027"
+        },
+        "sourceIds": [
+          "p074"
+        ]
+      },
+      "fees": {
+        "value": {
+          "displayedInclGST": "S$83,400",
+          "cohortYear": "notexplicitlylabelled"
+        },
+        "sourceIds": [
+          "p074"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P068",
+      "officialTitle": "Master of Pharmacy (Clinical Pharmacy)",
+      "programmeUrl": "https://pharmacy.nus.edu.sg/study/postgraduate-programmes/master-of-pharmacy-clinical-pharmacy-programme/",
+      "concerns": [
+        "Recurringwordingdoesnotestablishexact2027window. StackablecoursecontinuationGPAnotundergraduatecutoff."
+      ],
+      "undergraduate": {
+        "value": "Direct:>=2ndClassLowerhonours/equivalentBScPharmacyorBPharm. Nonmatchingdegree/honoursconsideredstackableroutecasebycasewithpossibleinterview. OverseasdegreeholdersnotpractisinginSGmayapplydirectwithinterview. Nohardworkyearsstated.",
+        "sourceIds": [
+          "p068"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTBefore21Jan2026": 85,
+          "TOEFLiBTOnOrAfter21Jan2026": 4.5,
+          "applicability": "Undergraduate instruction notEnglish; overseas-entryparagraphalso native-language condition",
+          "validity": "2years/unexpiredatapplication",
+          "restrictions": "NoHomeEditionsTOEFL/IELTS; nodigitalIELTS;physicalscorereportsonly",
+          "components": "unknown"
+        },
+        "sourceIds": [
+          "p068"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year",
+          "partTime": "SGcitizens/PRoptionupto4years"
+        },
+        "sourceIds": [
+          "p068"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "Augustannualunyearred",
+          "opens": "1Octoberprecedingyear",
+          "closes": "15March(sameyearwordingambiguous)",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p068"
+        ]
+      },
+      "fees": {
+        "value": {
+          "directProgrammeInclGST": "S$59,950",
+          "cohort": "AY2027/28Semester1onwards",
+          "scope": "40units,acceptancecredited;miscellaneousextra"
+        },
+        "sourceIds": [
+          "p068"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P102",
+      "officialTitle": "Master of Science (Pharmaceutical Science and Technology)",
+      "programmeUrl": "https://pharmacy.nus.edu.sg/study/postgraduate-programmes/msc-pharmaceutical-science-technology-programme/",
+      "concerns": [
+        "NoGREminimuminferred;2.5yearGREvaliditystated. StackableGPAappliestakenMPSTcourses,notundergraduateconversion."
+      ],
+      "undergraduate": {
+        "value": "DirectFT/PT:>=2ndClassLowerhonours/equivalent Chemistry,LifeSciences,FoodScienceTechnology,AppliedChemistry(Drug),Pharmacy,ChemicalEngineering. Otherdegree/honours/overseasequivalentcasebycase; GREoptional,recommendedinsuchcases. PTstackable5–9coursesthenGPA>=3conversion;relevantdegreeorappeal.",
+        "sourceIds": [
+          "p102ft",
+          "p102pt"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTBefore21Jan2026": 85,
+          "TOEFLiBTOnOrAfter21Jan2026": 4.5,
+          "applicability": "UndergraduateinstructionnotEnglish",
+          "validity": "2years/unexpiredatapplication",
+          "restrictions": "NoHomeEditionsTOEFL/IELTS; nodigitalIELTS;physicalscorereportsonly",
+          "components": "unknown"
+        },
+        "sourceIds": [
+          "p102ft",
+          "p102pt"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "min1year,max2",
+          "partTime": "min2years,max4"
+        },
+        "sourceIds": [
+          "p102ft",
+          "p102pt"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-01",
+          "closes": "2027-03-15",
+          "earlyOpens": "2026-05-16",
+          "earlyCloses": "2026-07-15"
+        },
+        "sourceIds": [
+          "p102ft",
+          "p102pt"
+        ]
+      },
+      "fees": {
+        "value": {
+          "fullTimeInclGST": "S$57,061.50",
+          "cohort": "AY2026/27andAY2027/28",
+          "partTime": "notextracted"
+        },
+        "sourceIds": [
+          "p102ft"
+        ]
+      }
+    }
+  ],
+  "held": [
+    {
+      "programmeId": "SG-NUS-P074",
+      "reasonEn": "Only an official search-index excerpt was readable; direct page returned502. Do not promote an excerpt to programme-page admission verification."
+    }
+  ],
+  "limits": [
+    "No score-boundary day, current price, applicant category or expiry reference is guessed.",
+    "MPH supporting-document deadline is not an application extension; historical closed2026 intake does not imply2027 closure.",
+    "Part-time fee/pathway gaps and clinical-language components remain explicit."
+  ]
+}

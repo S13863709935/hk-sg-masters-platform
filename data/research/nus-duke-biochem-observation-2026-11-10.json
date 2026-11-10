@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-11-10",
+  "programmeIds": [
+    "SG-NUS-P035",
+    "SG-NUS-P037",
+    "SG-NUS-P052",
+    "SG-NUS-P061",
+    "SG-NUS-P076",
+    "SG-NUS-P078",
+    "SG-NUS-P088",
+    "SG-NUS-P080",
+    "SG-NUS-P113"
+  ],
+  "counts": {
+    "newPartialParents": 9,
+    "newRouteGroups": 0,
+    "newRouteSnapshots": 0,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "sources": {
+    "dukeAdmissions": {
+      "url": "https://www.duke-nus.edu.sg/admissions/masters/admissions-requirements",
+      "readOn": "2026-11-10",
+      "section": "Three programme tabs; generalrequirements/English; MITMno-directroute",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p035": {
+      "url": "https://www.duke-nus.edu.sg/admissions/masters/mitm",
+      "readOn": "2026-11-10",
+      "section": "PTtwo-yearstackable;GC-ITMfirst,no direct masteradmission",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p037": {
+      "url": "https://www.duke-nus.edu.sg/sdghi/asianheal/healthcare-leadership-masters-asia",
+      "readOn": "2026-11-10",
+      "section": "Tenyearsexperience,bachelor,15months,2026cohortonlyandfees",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p037cll": {
+      "url": "https://www.duke-nus.edu.sg/cll/allcourses/master's-degree/executive-master's-in-healthcare-leadership-and-management",
+      "readOn": "2026-11-10",
+      "section": "Englishminima/waiver/validity",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p052": {
+      "url": "https://www.duke-nus.edu.sg/cll/allcourses/master-s-in-patient-safety-and-healthcare-quality",
+      "readOn": "2026-11-10",
+      "section": "Bachelor,English,40units,unyearredfee",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p052w": {
+      "url": "https://www.duke-nus.edu.sg/cll/home",
+      "readOn": "2026-11-10",
+      "section": "Own datedMPSHQapplicationcard",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p061fact": {
+      "url": "https://www.dentistry.nus.edu.sg/gs/wp-content/uploads/sites/10/2026/07/MDS-Fact-Sheet-for-2027-Intake.pdf",
+      "readOn": "2026-11-10",
+      "section": "2027factsheetpp1–2:BDS/work/English/FT3yrs/Jul/openclose",
+      "method": "web tool public official PDF text extraction; visual layout not verified; no rawHTTPstatus/hash"
+    },
+    "p061instructions": {
+      "url": "https://www.dentistry.nus.edu.sg/gs/wp-content/uploads/sites/10/2026/07/Instruction-for-submission-of-MDS-RTP-Application-2027-Intake.pdf",
+      "readOn": "2026-11-10",
+      "section": "2027instructions27Jul2026:closingdate/workexperience andexample tension",
+      "method": "web tool public official PDF text extraction; visual layout not verified; no rawHTTPstatus/hash"
+    },
+    "p076": {
+      "url": "https://www.dbs.nus.edu.sg/education/graduates/masters-by-coursework/biodiversity-conservation-sustainability/",
+      "readOn": "2026-11-10",
+      "section": "Own entry,English,August2027window,FT/PTandfee",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p078": {
+      "url": "https://www.dbs.nus.edu.sg/education/graduates/masters-by-coursework/biotechnology/",
+      "readOn": "2026-11-10",
+      "section": "Own entry,English,August2027window,FT/PTandfee",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p088": {
+      "url": "https://www.dbs.nus.edu.sg/education/graduates/masters-by-coursework/forensic-science/",
+      "readOn": "2026-11-10",
+      "section": "Own entry,English,August2027window,FT/PTandfee",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p080a": {
+      "url": "https://chemistry.nus.edu.sg/education/graduate/msc-in-chemical-sciences/requirements/",
+      "readOn": "2026-11-10",
+      "section": "Degree/English",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p080c": {
+      "url": "https://chemistry.nus.edu.sg/education/graduate/msc-in-chemical-sciences/programme/",
+      "readOn": "2026-11-10",
+      "section": "FT/PTminmax",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p080w": {
+      "url": "https://chemistry.nus.edu.sg/education/graduate/msc-in-chemical-sciences/application/",
+      "readOn": "2026-11-10",
+      "section": "Unyearredcycles;Englishdetails",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p113a": {
+      "url": "https://chemistry.nus.edu.sg/education/graduate/msc-sce/requirements/",
+      "readOn": "2026-11-10",
+      "section": "Degree/English",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p113c": {
+      "url": "https://chemistry.nus.edu.sg/education/graduate/msc-sce/programme/",
+      "readOn": "2026-11-10",
+      "section": "FT/PTminmax",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p113w": {
+      "url": "https://chemistry.nus.edu.sg/education/graduate/msc-sce/application/",
+      "readOn": "2026-11-10",
+      "section": "Unyearredcycles;Englishdetails",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    }
+  },
+  "programmeFacts": [
+    {
+      "programmeId": "SG-NUS-P035",
+      "officialTitle": "Master of International Translational Medicine",
+      "programmeUrl": "https://www.duke-nus.edu.sg/admissions/masters/mitm",
+      "undergraduate": {
+        "value": "Bachelor anyindustry AND workingintranslationalmedicineorhealthcare;mustfirstcompleteGC-ITM; no direct admission to master.",
+        "sourceIds": [
+          "dukeAdmissions",
+          "p035"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "TOEFLiBTMinimum": 85,
+          "validity": "2years;validatapplicationdeadline",
+          "applicability": "InternationalexceptUG/PGdegreesNUS/NTU/SMU/SUTDorEnglish-speakingAustralia/Canada/Ireland/NZ/UK/US",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "dukeAdmissions"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "2years executive-style stackable:GCfirstyear,mastersecond",
+          "fullTime": "not offered onoverview"
+        },
+        "sourceIds": [
+          "p035"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "unknown",
+          "opens": "unknown",
+          "closes": "unknown",
+          "route": "Per-courseGCregistrationthenmasterprogression"
+        },
+        "sourceIds": [
+          "p035"
+        ]
+      },
+      "fees": {
+        "value": {
+          "total": "unknown",
+          "scope": "Ownpage saysfeesindividualcourse; nofixedcohorttotalselected"
+        },
+        "sourceIds": [
+          "p035"
+        ]
+      },
+      "concerns": [
+        "GC-first route must be shown; directory August month is not a dated master admission window."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P037",
+      "officialTitle": "Executive Master in Healthcare Leadership and Management",
+      "programmeUrl": "https://www.duke-nus.edu.sg/sdghi/asianheal/healthcare-leadership-masters-asia",
+      "undergraduate": {
+        "value": "Accreditedbachelor;>=10yearsrelevantworkandholdingseniorpositionorassumingaleadershipposition;shortlistinterview.",
+        "sourceIds": [
+          "p037"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "TOEFLiBTMinimum": 85,
+          "validity": "2years;validatapplicationdeadline",
+          "applicability": "InternationalexceptUG/PGdegreesNUS/NTU/SMU/SUTDorEnglish-speakingAustralia/Canada/Ireland/NZ/UK/US",
+          "components": "unknown",
+          "versionDates": "unknown",
+          "note": "MainprogrammesaysifUGnotEnglish;CLLinternational/countrywaiverwordingretained"
+        },
+        "sourceIds": [
+          "p037",
+          "p037cll"
+        ]
+      },
+      "study": {
+        "value": {
+          "duration": "15months,8mandatoryresidentialsegments1–2weekseach,maxcandidature5years",
+          "fullTime": "Intensivesrequirefulltimeattendance;formaloverallmodeunknown",
+          "partTime": "formaloverallmodeunknown"
+        },
+        "sourceIds": [
+          "p037"
+        ]
+      },
+      "application": {
+        "value": {
+          "displayedIntake": "August2026",
+          "nextIntake": "unknown",
+          "opens": "unknown",
+          "closes": "unknown"
+        },
+        "sourceIds": [
+          "p037"
+        ]
+      },
+      "fees": {
+        "value": {
+          "displayed": "S$92,000plus9%GST",
+          "cohortYear": "unknown",
+          "excludes": "travel/accommodation/insurance/miscellaneous"
+        },
+        "sourceIds": [
+          "p037"
+        ]
+      },
+      "concerns": [
+        "2026applications-openwordingdoesnotestablish2027status; no deadlineguessed."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P052",
+      "officialTitle": "Master in Patient Safety and Healthcare Quality",
+      "programmeUrl": "https://www.duke-nus.edu.sg/cll/allcourses/master-s-in-patient-safety-and-healthcare-quality",
+      "undergraduate": {
+        "value": "Minimum bachelor;healthcare/healthcarepolicyworkrecommended,nohardworkyearsstated.",
+        "sourceIds": [
+          "p052",
+          "dukeAdmissions"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "TOEFLiBTMinimum": 85,
+          "validity": "2years;validatapplicationdeadline",
+          "applicability": "InternationalexceptUG/PGdegreesNUS/NTU/SMU/SUTDorEnglish-speakingAustralia/Canada/Ireland/NZ/UK/US",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p052"
+        ]
+      },
+      "study": {
+        "value": {
+          "curriculum": "40units(8courses+thesis)",
+          "fullTime": "normaldurationunknown",
+          "partTime": "normaldurationunknown"
+        },
+        "sourceIds": [
+          "p052"
+        ]
+      },
+      "application": {
+        "value": {
+          "intakeYear": "notexplicitlylabelledincard",
+          "opens": "2026-09-01",
+          "closes": "2027-04-15"
+        },
+        "sourceIds": [
+          "p052w"
+        ]
+      },
+      "fees": {
+        "value": {
+          "displayed": "S$54,000beforeGST",
+          "cohortYear": "unknown",
+          "miscellaneous": "extra"
+        },
+        "sourceIds": [
+          "p052"
+        ]
+      },
+      "concerns": [
+        "Residencyrequirementsflaggedbutnotfullyspecifiedonpage;datedwindowexistswithoutcohortheading."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P061",
+      "officialTitle": "Master of Dental Surgery",
+      "programmeUrl": "https://www.dentistry.nus.edu.sg/gs/prospective-graduate-students/",
+      "undergraduate": {
+        "value": "BasicdentaldegreeBDS/equivalent;>=2yearsfulltimegeneral-dentistryclinicalexperienceaftergraduation,excludinginternship,beforeapplication;selectedinpersoninterviewandpossiblewritten/manualdexteritytests.",
+        "sourceIds": [
+          "p061fact"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "TOEFLiBTMinimum": 92,
+          "TOEFLPaperMinimum": 580,
+          "TOEFLComputerMinimum": 237,
+          "validity": "2yearsfromtest",
+          "applicability": "Native tongue OR undergraduate instruction notEnglish",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p061fact"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "3yearsclinicalresidency;6specialties",
+          "partTime": "not listed"
+        },
+        "sourceIds": [
+          "p061fact"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "July2027",
+          "opens": "2026-08-01",
+          "closes": "2026-10-15",
+          "interview": "February/March,yearnotstated"
+        },
+        "sourceIds": [
+          "p061fact",
+          "p061instructions"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currentTotal": "unknown;refersregistrar"
+        },
+        "sourceIds": [
+          "p061fact"
+        ]
+      },
+      "concerns": [
+        "Instructionsrequire2yearsbeforeapplyingbutexampleJune2026graduateeligibleSeptember2027forJuly2028appearsinconsistent;preserveruleandflagdo-notinferwaiver. GenericMDSaggregates6specialties. PDFtextread,layoutnotverified."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P076",
+      "officialTitle": "MSc Biodiversity Conservation and Sustainability",
+      "programmeUrl": "https://www.dbs.nus.edu.sg/education/graduates/masters-by-coursework/biodiversity-conservation-sustainability/",
+      "concerns": [
+        "NoGPAconversioninferred;nonhonoursworkalternativepreserved."
+      ],
+      "undergraduate": {
+        "value": "Relevant honours/4yearbachelor OR bachelor+>=2yearsrelevantwork;otherqualifications/experiencecasebycase.",
+        "sourceIds": [
+          "p076"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTMinimum": 85,
+          "applicability": "CountrieswhereEnglishnotnativelanguageANDuniversityinstructionnotcompletelyEnglish",
+          "components": "unknown",
+          "validity": "unknown",
+          "versionDates": "unknown;ownpageretains85only"
+        },
+        "sourceIds": [
+          "p076"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year,max2",
+          "partTime": "2years,max4"
+        },
+        "sourceIds": [
+          "p076"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-01",
+          "closes": "2027-03-15",
+          "earlyOpens": "2026-05-16",
+          "earlyCloses": "2026-07-15"
+        },
+        "sourceIds": [
+          "p076"
+        ]
+      },
+      "fees": {
+        "value": "DisplayedS$52,320incl9%GSTeffectivefromAY2025/26;notseparatelyreconfirmed2027total",
+        "sourceIds": [
+          "p076"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P078",
+      "officialTitle": "MSc Biotechnology",
+      "programmeUrl": "https://www.dbs.nus.edu.sg/education/graduates/masters-by-coursework/biotechnology/",
+      "concerns": [
+        "NoGPAconversioninferred;nonhonoursworkalternativepreserved."
+      ],
+      "undergraduate": {
+        "value": "Relevant honours/4yearbachelor OR bachelor+>=2yearsrelevantwork;otherqualifications/experiencecasebycase.",
+        "sourceIds": [
+          "p078"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTMinimum": 85,
+          "applicability": "CountrieswhereEnglishnotnativelanguageANDuniversityinstructionnotcompletelyEnglish",
+          "components": "unknown",
+          "validity": "unknown",
+          "TOEFLiBTBefore21Jan2026": 85,
+          "TOEFLiBTOnOrAfter21Jan2026": 4.5
+        },
+        "sourceIds": [
+          "p078"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year,max2",
+          "partTime": "2years,max4"
+        },
+        "sourceIds": [
+          "p078"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-01",
+          "closes": "2027-03-15",
+          "earlyOpens": "2026-05-16",
+          "earlyCloses": "2026-07-15"
+        },
+        "sourceIds": [
+          "p078"
+        ]
+      },
+      "fees": {
+        "value": "S$52,320incl9%GSTexplicitAY2027/28",
+        "sourceIds": [
+          "p078"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P088",
+      "officialTitle": "MSc Forensic Science",
+      "programmeUrl": "https://www.dbs.nus.edu.sg/education/graduates/masters-by-coursework/forensic-science/",
+      "concerns": [
+        "NoGPAconversioninferred;nonhonoursworkalternativepreserved."
+      ],
+      "undergraduate": {
+        "value": "Relevant honours/4yearbachelor OR relevantbachelor+>=2yearsrelevantwork;otherqualifications/experiencecasebycase. Fieldsinclude biology,chemistry,CS,engineering,geography,law,pharmacy,physics,probability/statistics,psychology,socialwork.",
+        "sourceIds": [
+          "p088"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTMinimum": 85,
+          "applicability": "CountrieswhereEnglishnotnativelanguageANDuniversityinstructionnotcompletelyEnglish",
+          "components": "unknown",
+          "validity": "unknown",
+          "TOEFLiBTBefore21Jan2026": 85,
+          "TOEFLiBTOnOrAfter21Jan2026": 4.5
+        },
+        "sourceIds": [
+          "p088"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year,max2",
+          "partTime": "2years,max4"
+        },
+        "sourceIds": [
+          "p088"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-01",
+          "closes": "2027-03-15",
+          "earlyOpens": "2026-05-16",
+          "earlyCloses": "2026-07-15"
+        },
+        "sourceIds": [
+          "p088"
+        ]
+      },
+      "fees": {
+        "value": "S$55,590incl9%GSTexplicitAY2027/28",
+        "sourceIds": [
+          "p088"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P080",
+      "officialTitle": "MSc in Chemical Sciences",
+      "programmeUrl": "https://chemistry.nus.edu.sg/education/graduate/msc-in-chemical-sciences/",
+      "concerns": [
+        "Noexplicitintakeyearonapplicationpage;annualcycleleftunyearred. GraduationGPA3notentrycutoff."
+      ],
+      "undergraduate": {
+        "value": "Chemistryorrelateddegree>=2ndClassHonours/equivalent;otherqualifications/achievementsdeemedsuitablypreparedmayalsobeconsidered.Nohardworkyearsstated.",
+        "sourceIds": [
+          "p080a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLMinimum": 85,
+          "newSchemeMinimum": 4.5,
+          "versionDate": "unknown",
+          "components": "unknown",
+          "waiver": "UniversityissuedfullEnglishinstructionproofcanreplacetestupload",
+          "validity": "2years;unexpiredatapplication",
+          "applicability": "NativetongueANDuniversityinstructionnotcompletelyEnglish"
+        },
+        "sourceIds": [
+          "p080a",
+          "p080w"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "minimum1year,optionupto2",
+          "partTime": "minimum2years,optionupto4"
+        },
+        "sourceIds": [
+          "p080c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "Augustannual",
+          "opens": "1Octoberannual",
+          "closes": "15Marchannual",
+          "earlyOpens": "16Mayannual",
+          "earlyCloses": "15Julyannual",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p080w"
+        ]
+      },
+      "fees": {
+        "value": "unknown;noapplicablecohorttotalextracted",
+        "sourceIds": [
+          "p080w"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P113",
+      "officialTitle": "MSc in Sustainable Chemistry for Energy and Environment",
+      "programmeUrl": "https://chemistry.nus.edu.sg/education/graduate/msc-sce/",
+      "concerns": [
+        "Noexplicitintakeyearonapplicationpage;annualcycleleftunyearred. GraduationGPA3notentrycutoff.",
+        "Requirementsmentions85only;applicationmentions85or4.5newgrading;sourceversiongapretained."
+      ],
+      "undergraduate": {
+        "value": "Chemistryorrelateddegree>=2ndClassHonours/equivalent;otherqualifications/achievementsdeemedsuitablypreparedmayalsobeconsidered.Nohardworkyearsstated.",
+        "sourceIds": [
+          "p113a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLMinimum": 85,
+          "newSchemeMinimum": 4.5,
+          "versionDate": "unknown",
+          "components": "unknown",
+          "waiver": "UniversityissuedfullEnglishinstructionproofcanreplacetestupload",
+          "validity": "2years;source says unexpiredbyapplicationperiodstart",
+          "applicability": "UndergraduateinstructionnotcompletelyEnglish"
+        },
+        "sourceIds": [
+          "p113a",
+          "p113w"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "minimum1year,optionupto2",
+          "partTime": "minimum2years,optionupto4"
+        },
+        "sourceIds": [
+          "p113c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "Augustannual",
+          "opens": "1Octoberannual",
+          "closes": "15Marchannual",
+          "earlyOpens": "16Mayannual",
+          "earlyCloses": "15Julyannual",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p113w"
+        ]
+      },
+      "fees": {
+        "value": "unknown;noapplicablecohorttotalextracted",
+        "sourceIds": [
+          "p113w"
+        ]
+      }
+    }
+  ],
+  "held": [],
+  "limits": [
+    "Own source observations are partial, not complete admissions or independent human review.",
+    "No guessed GPA denominator, universal work preference, fee-year projection, test conversion or live portal availability."
+  ]
+}

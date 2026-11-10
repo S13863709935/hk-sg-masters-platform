@@ -74,6 +74,7 @@ export function validateProgramme(p, universityIds) {
   if (p.verification !== 'catalogue_seed' && (!isIsoDate(p.lastChecked) || !p.academicYear)) throw new InputError('Checked data requires date and applicable intake/year');
   for (const r of p.rules) {
     if (!['degree', 'major', 'classification', 'gpa', 'language', 'experience', 'manual'].includes(r.kind) || typeof r.labelZh !== 'string' || typeof r.labelEn !== 'string' || !isOfficialUrl(r.sourceUrl)) throw new InputError('Invalid requirement or missing official source');
+    if (r.completedOnly !== undefined && (r.kind !== 'degree' || typeof r.completedOnly !== 'boolean')) throw new InputError('Invalid completed-degree-only requirement');
     if (r.kind === 'gpa' && (!Number.isFinite(r.min) || !Number.isFinite(r.scale) || r.min < 0 || r.scale <= 0 || r.min > r.scale)) throw new InputError('Invalid GPA requirement');
     if (r.kind === 'classification' && !['ordinary', 'third', 'second_lower', 'second_upper', 'first'].includes(r.min)) throw new InputError('Invalid degree classification');
     if (r.kind === 'major' && (!Array.isArray(r.accepted) || r.accepted.some(x => typeof x !== 'string'))) throw new InputError('Invalid major rule');
@@ -83,6 +84,7 @@ export function validateProgramme(p, universityIds) {
       const max = test === 'toefl_120' ? 30 : test === 'toefl_6' ? 6 : 9;
       const valid = value => Number.isFinite(value) && value >= (test === 'toefl_6' ? 1 : 0) && value <= max && Number.isInteger(value * (test === 'toefl_120' ? 1 : 2));
       if (v.atHomeAccepted !== undefined && typeof v.atHomeAccepted !== 'boolean') throw new InputError('Invalid examination-specific at-home policy');
+      if (v.exclusiveMinimum !== undefined && typeof v.exclusiveMinimum !== 'boolean') throw new InputError('Invalid language exclusive-minimum policy');
       if (v.componentMin !== undefined && !valid(v.componentMin)) throw new InputError('Invalid language component minimum');
       if (v.componentMins !== undefined && (!v.componentMins || typeof v.componentMins !== 'object' || Array.isArray(v.componentMins) || !Object.keys(v.componentMins).length || Object.entries(v.componentMins).some(([name, value]) => !['listening','reading','writing','speaking'].includes(name) || !valid(value)))) throw new InputError('Invalid named language component minima');
     }

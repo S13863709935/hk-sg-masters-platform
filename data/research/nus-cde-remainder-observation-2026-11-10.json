@@ -1,0 +1,1478 @@
+{
+  "schemaVersion": 1,
+  "readOn": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "Unreviewed own-source CDE remainder:17 existingIDs, disjoint from previous23; staging only, no catalogue edits",
+  "provenance": "Public web-tool extracts read today; may use cached crawl. No rawHTTP status/hash asserted. Source conflicts retained; unknown means not established by bounded read.",
+  "sharedScopeNotes": {
+    "collegeEnglish": {
+      "scope": "College other coursework programmes",
+      "TOEFLiBTMinimum": 4.5,
+      "IELTSAcademicMinimum": 6,
+      "condition": "First language not English",
+      "waiver": "May be waived if whole degree English-taught and situated in English-speaking country/territory",
+      "validity": "2 years; valid at application-period start",
+      "scaleBoundary": "No test-date/scale transition stated"
+    },
+    "architectureEnglish": "College architecture-family tableiBT92/IELTS6.5; ownArchitecturalConservation differs85/6.0."
+  },
+  "sources": {
+    "cde": {
+      "url": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/admission-requirement/",
+      "section": "College general/language table; no test-date/scale transition boundaries",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "period": {
+      "url": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/application-period/",
+      "section": "August 2027 / January 2028 programme table",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "arch014": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-architecture/",
+      "section": "Own identity, degree scope and study length",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "admit014": {
+      "url": "https://cde.nus.edu.sg/arch/admission/master-of-architecture/",
+      "section": "Own entry, English and August 2027 application",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "arch015": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-arts-in-urban-design/",
+      "section": "Own identity, degree scope and study length",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "admit015": {
+      "url": "https://cde.nus.edu.sg/arch/admission/master-of-urban-design/",
+      "section": "Own entry, English and August 2027 application",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "fee015": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-arts-in-urban-design/programme-fee/",
+      "section": "AY2026/27 August onwards fees/rebates; not a new AY2027/28 quote",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "arch040": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-arts-in-architectural-conservation/",
+      "section": "Own identity, degree scope and study length",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "admit040": {
+      "url": "https://cde.nus.edu.sg/arch/admission/master-of-arts-in-architectural-conservation/",
+      "section": "Own entry, English and August 2027 application",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "fee040": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-arts-in-architectural-conservation/programme-fee/",
+      "section": "AY2026/27 August onwards fees/rebates; not a new AY2027/28 quote",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "arch063": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-landscape-architecture/",
+      "section": "Own identity, degree scope and study length",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "admit063": {
+      "url": "https://cde.nus.edu.sg/arch/admission/master-of-landscape-architecture/",
+      "section": "Own entry, English and August 2027 application",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "fee063": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-landscape-architecture/programme-fee/",
+      "section": "AY2026/27 August onwards fees/rebates; not a new AY2027/28 quote",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "arch070": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-urban-planning/",
+      "section": "Own identity, degree scope and study length",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "admit070": {
+      "url": "https://cde.nus.edu.sg/arch/admission/master-of-urban-planning/",
+      "section": "Own entry, English and August 2027 application",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "fee070": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-urban-planning/programme-fee/",
+      "section": "AY2026/27 August onwards fees/rebates; not a new AY2027/28 quote",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "arch093": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-science-integrated-sustainable-design/",
+      "section": "Own identity, degree scope and study length",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "admit093": {
+      "url": "https://cde.nus.edu.sg/arch/admission/master-of-science-integrated-sustainable-design/",
+      "section": "Own entry, English and August 2027 application",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "fee093": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-science-integrated-sustainable-design/programme-fee/",
+      "section": "AY2026/27 August onwards fees/rebates; not a new AY2027/28 quote",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "arch014nonNus": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-architecture-2yrs_non_nus/",
+      "section": "Two-year non-NUS route, AY2027/28",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "admit014nonNus": {
+      "url": "https://cde.nus.edu.sg/arch/admission/master-of-architecture-2yrs_non_nus/",
+      "section": "Non-NUS entry, English and August 2027",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "fee014nonNus": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-architecture-2yrs_non_nus/programme-fee/",
+      "section": "Two-year non-NUS route AY2027/28 August onwards",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "curriculum040": {
+      "url": "https://cde.nus.edu.sg/arch/programmes/master-of-arts-in-architectural-conservation/curriculum/",
+      "section": "40-unit master's versus diploma/certificate",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "pm": {
+      "url": "https://cde.nus.edu.sg/dbe/graduate/msc-project-management/",
+      "section": "MSc entry/candidature/AY2027/28 fees; exclude later graduate certificate section",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "bps": {
+      "url": "https://cde.nus.edu.sg/dbe/graduate/msc-building-performance-and-sustainability/",
+      "section": "Own master's entry/candidature/August2027/AY2027/28",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "isem024": {
+      "url": "https://cde.nus.edu.sg/isem/graduate/coursework/masters-of-science-supply-chain-management-programme/",
+      "section": "Own entry/strict English operators/candidature/August2027/AY2027/28/FAQ",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "isem094": {
+      "url": "https://cde.nus.edu.sg/isem/masters-of-science-management-of-technology-and-innovation-programme/",
+      "section": "Own entry/strict English operators/candidature/August2027/AY2027/28/FAQ",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "isem095": {
+      "url": "https://cde.nus.edu.sg/isem/graduate/coursework/masters-of-science-maritime-technology-management-programme/",
+      "section": "Own entry/strict English operators/candidature/August2027/AY2027/28/FAQ",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "mse096": {
+      "url": "https://cde.nus.edu.sg/mse/graduates/master-of-science-msc-energy-and-sustainability/",
+      "section": "Own entry/candidature/August2027/fee table",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "mse097": {
+      "url": "https://cde.nus.edu.sg/mse/graduates/master-of-science-msc/",
+      "section": "Own entry/candidature/August2027/fee table",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "eve": {
+      "url": "https://cde.nus.edu.sg/cee/graduate/coursework-based-programmes/msc-eve/",
+      "section": "Own eligibility/candidature/AY2027/28 August2027 fees",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "cee": {
+      "url": "https://cde.nus.edu.sg/cee/graduate/coursework-based-programmes/",
+      "section": "Shared CEE English/work preference/application",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "ediAdmission": {
+      "url": "https://cde.nus.edu.sg/edic/msc/msc-admissions/",
+      "section": "Own admission/prototyping/English/August2027",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "ediStudy": {
+      "url": "https://cde.nus.edu.sg/edic/msc/courses/",
+      "section": "Full-time only12–18months,40units",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "ediFees": {
+      "url": "https://cde.nus.edu.sg/edic/msc/fees/",
+      "section": "Unyearred gross fee; 2026GSTnote; separately scoped rebates",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "cities": {
+      "url": "https://cde.nus.edu.sg/nuscities/master-of-cities/",
+      "section": "Own admission/flexible delivery/unyearred fee; page updated11June2026",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "mdes": {
+      "url": "https://cde.nus.edu.sg/dd/mdes/admissions-requirements/",
+      "section": "Current admission/August2027/explicitiBT4.5; read via legacy did redirect",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    },
+    "mdesStudy": {
+      "url": "https://cde.nus.edu.sg/dd/mdes/programme-structure/",
+      "section": "Own completion length",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; may be cached; no raw HTTP status/hash asserted"
+    }
+  },
+  "programmes": [
+    {
+      "programmeId": "SG-NUS-P014",
+      "officialTitle": "Master of Architecture",
+      "programmeUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-architecture/",
+      "undergraduate": {
+        "value": {
+          "nusOneYearRoute": "NUS BA(Arch)(Hons), GPA >=3.0 at graduation; average B or higher in AR3101/AR3102; Integrated Design Specialisation 20 units, for class of 2027 onwards. GPA scale not explicitly established here.",
+          "nonNusTwoYearRoute": "Accredited BA(Arch)(Hons) or accredited BA(Arch); Form A accreditation proof from national accreditation body/architects board subject to NUS approval. Portfolio 10–20 A4 pages and >=2 academic referees."
+        },
+        "sourceIds": [
+          "admit014",
+          "admit014nonNus"
+        ]
+      },
+      "english": {
+        "value": {
+          "scope": "Non-NUS two-year route",
+          "IELTSOverallMinimum": 6.5,
+          "TOEFLiBTMinimum": 92,
+          "accepted": [
+            "test centre",
+            "Home Edition"
+          ],
+          "waiver": "Conditional: entire degree English-taught in English-speaking country",
+          "testDateScaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "admit014nonNus"
+        ]
+      },
+      "study": {
+        "value": {
+          "nusStudents": "1 year",
+          "nonNusStudents": "2 years",
+          "degreeScope": "Professional architecture; registration prerequisites do not confer automatic licence"
+        },
+        "sourceIds": [
+          "arch014",
+          "arch014nonNus"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "nonNusEarlyConsideration": "2026-11-30",
+          "earlyOffer": "Outstanding candidates as early as January 2027; not guaranteed"
+        },
+        "sourceIds": [
+          "admit014",
+          "admit014nonNus"
+        ]
+      },
+      "fees": {
+        "value": {
+          "scope": "Non-NUS two-year route only",
+          "cohortScope": "AY2027/28 August onwards",
+          "currency": "SGD",
+          "gross": 98100,
+          "GST": "Includes 9%",
+          "acceptance": 10900,
+          "acceptanceConditions": "Non-refundable, non-transferable, credited",
+          "application": 163.5,
+          "applicationConditions": "Includes GST, non-refundable",
+          "rebate": "40% SC/PR/NUS alumni; net 58,860",
+          "miscellaneousStudentFees": "Additional each regular semester",
+          "nusOneYearFee": "Unknown"
+        },
+        "sourceIds": [
+          "fee014nonNus"
+        ]
+      },
+      "concerns": [
+        "Existing primary now serves NUS students. Do not transfer NUS-only GPA or one-year length to international/non-NUS route."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P015",
+      "officialTitle": "Master of Arts in Urban Design",
+      "programmeUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-arts-in-urban-design/",
+      "undergraduate": {
+        "value": "Bachelor's or higher in built-environment design (Architecture, Urban/Spatial Planning, Landscape Architecture, Environmental Design), or related Real Estate, Transport Planning, Building Environment, Project Management, Human Geography. Professional experience favourable; no mandatory years. Portfolio <=20 A4 pages, CV, statement and two references.",
+        "sourceIds": [
+          "admit015"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSOverallMinimum": 6.5,
+          "TOEFLiBTMinimum": 92,
+          "accepted": [
+            "test centre",
+            "Home Edition"
+          ],
+          "condition": "First language not English",
+          "waiver": "Conditional: entire degree English-taught in English-speaking country",
+          "testDateScaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "admit015",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1 year",
+          "partTime": "2 years"
+        },
+        "sourceIds": [
+          "arch015"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "earlyConsideration": "2026-11-30",
+          "earlyOffer": "Outstanding candidates as early as January 2027; not guaranteed"
+        },
+        "sourceIds": [
+          "admit015"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 49050,
+          "GST": "Includes 9%",
+          "cohortScope": "AY2026/27 August intake onwards; reviewed annually",
+          "acceptance": 10900,
+          "acceptanceConditions": "Non-refundable, non-transferable, credited",
+          "application": 163.5,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional each regular semester",
+          "rebate": "40% SC/PR/NUS alumni; separate from gross"
+        },
+        "sourceIds": [
+          "fee015"
+        ]
+      },
+      "concerns": []
+    },
+    {
+      "programmeId": "SG-NUS-P040",
+      "officialTitle": "Master of Arts in Architectural Conservation",
+      "programmeUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-arts-in-architectural-conservation/",
+      "undergraduate": {
+        "value": "Honours bachelor's in Architecture, Urban Planning, Urban Design, Project/Facility Management; alternatively bachelor's or higher in related built-environment social science/humanities. Relevant bachelor's plus >=2 years relevant experience may be considered exceptionally. Portfolio for design backgrounds, CV, statement and two references.",
+        "sourceIds": [
+          "admit040"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSOverallMinimum": 6,
+          "TOEFLiBTMinimum": 85,
+          "accepted": [
+            "test centre",
+            "Home Edition"
+          ],
+          "condition": "First language not English",
+          "waiver": "Conditional: entire degree English-taught in English-speaking country",
+          "testDateScaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "admit040",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "modes": [
+            "Full-Time",
+            "Part-Time"
+          ],
+          "duration": "Unknown in bounded own-page read",
+          "units": 40,
+          "scope": "Master's distinct from diploma 24 units and certificate 8 units"
+        },
+        "sourceIds": [
+          "arch040",
+          "curriculum040",
+          "fee040"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "earlyConsideration": "2026-11-30",
+          "earlyOffer": "Outstanding candidates as early as January 2027; not guaranteed"
+        },
+        "sourceIds": [
+          "admit040"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 49050,
+          "GST": "Includes 9%",
+          "cohortScope": "AY2026/27 August intake onwards; reviewed annually",
+          "acceptance": 10900,
+          "acceptanceConditions": "Non-refundable, non-transferable, credited",
+          "application": null,
+          "applicationConditions": "Not extracted",
+          "miscellaneousStudentFees": "Additional each regular semester",
+          "rebate": "40% SC/PR/NUS alumni; separate from gross"
+        },
+        "sourceIds": [
+          "fee040"
+        ]
+      },
+      "concerns": [
+        "Own minimum IELTS 6.0/iBT85 conflicts with college architecture-family 6.5/92. Preserve unresolved conflict. Master's fee only; diploma fee excluded."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P063",
+      "officialTitle": "Master of Landscape Architecture",
+      "programmeUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-landscape-architecture/",
+      "undergraduate": {
+        "value": "BLA(Honours)/equivalent from reputable university, or bachelor's or higher in built-environment design (Architecture, Urban Design, Urban Planning, Environmental Design). Portfolio <=20 A4 pages/4 projects, CV, statement, two references. Interview possible.",
+        "sourceIds": [
+          "admit063"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSOverallMinimum": 6.5,
+          "TOEFLiBTMinimum": 92,
+          "accepted": [
+            "test centre",
+            "Home Edition"
+          ],
+          "condition": "First language not English",
+          "waiver": "Conditional: entire degree English-taught in English-speaking country",
+          "testDateScaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "admit063",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2 years",
+          "scope": "Professional degree"
+        },
+        "sourceIds": [
+          "arch063"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "earlyConsideration": "2026-11-30",
+          "earlyOffer": "Outstanding candidates as early as January 2027; not guaranteed"
+        },
+        "sourceIds": [
+          "admit063"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 98100,
+          "GST": "Includes 9%",
+          "cohortScope": "AY2026/27 August intake onwards; reviewed annually",
+          "acceptance": 10900,
+          "acceptanceConditions": "Non-refundable, non-transferable, credited",
+          "application": 163.5,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional each regular semester",
+          "rebate": "40% SC/PR/NUS alumni; separate from gross"
+        },
+        "sourceIds": [
+          "fee063"
+        ]
+      },
+      "concerns": []
+    },
+    {
+      "programmeId": "SG-NUS-P070",
+      "officialTitle": "Master of Urban Planning",
+      "programmeUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-urban-planning/",
+      "undergraduate": {
+        "value": "Bachelor's or higher in spatial design or related fields (Environmental Studies, Geography, Real Estate, Civil Engineering, Land Management), or humanities/social science actively engaging urban issues. Professional experience favourable, no mandatory years. Portfolio required for spatial-design applicants; non-design exempt. CV, statement and two references.",
+        "sourceIds": [
+          "admit070"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSOverallMinimum": 6.5,
+          "TOEFLiBTMinimum": 92,
+          "accepted": [
+            "test centre",
+            "Home Edition"
+          ],
+          "condition": "First language not English",
+          "waiver": "Conditional: entire degree English-taught in English-speaking country",
+          "testDateScaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "admit070",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2 years",
+          "scope": "Distinct from concurrent NUS undergraduate CDP"
+        },
+        "sourceIds": [
+          "arch070"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "earlyConsideration": "2026-11-30",
+          "earlyOffer": "Outstanding candidates as early as January 2027; not guaranteed"
+        },
+        "sourceIds": [
+          "admit070"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 98100,
+          "GST": "Includes 9%",
+          "cohortScope": "AY2026/27 August intake onwards; reviewed annually",
+          "acceptance": 10900,
+          "acceptanceConditions": "Non-refundable, non-transferable, credited",
+          "application": 163.5,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional each regular semester",
+          "rebate": "40% SC/PR/NUS alumni; separate from gross"
+        },
+        "sourceIds": [
+          "fee070"
+        ]
+      },
+      "concerns": []
+    },
+    {
+      "programmeId": "SG-NUS-P093",
+      "officialTitle": "Master of Science, Integrated Sustainable Design",
+      "programmeUrl": "https://cde.nus.edu.sg/arch/programmes/master-of-science-integrated-sustainable-design/",
+      "undergraduate": {
+        "value": "Honours bachelor's in Architecture, Engineering, Landscape Architecture, Urban Planning, Urban Design, Project/Facility Management; or bachelor's in built-environment-related programme. Work experience valued but not prerequisite. Portfolio required for spatial-design applicants; non-design exempt. CV, statement and two references.",
+        "sourceIds": [
+          "admit093",
+          "arch093"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSOverallMinimum": 6.5,
+          "TOEFLiBTMinimum": 92,
+          "accepted": [
+            "test centre",
+            "Home Edition"
+          ],
+          "condition": "First language not English",
+          "waiver": "Conditional: entire degree English-taught in English-speaking country",
+          "testDateScaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "admit093",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1 year / 2 semesters; one extra semester by approval",
+          "partTime": "2 years / 4 semesters",
+          "scope": "Post-professional MSc"
+        },
+        "sourceIds": [
+          "arch093"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "earlyConsideration": "2026-11-30",
+          "earlyOffer": "Outstanding candidates as early as January 2027; not guaranteed"
+        },
+        "sourceIds": [
+          "admit093"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 49050,
+          "GST": "Includes 9%",
+          "cohortScope": "AY2026/27 August intake onwards; reviewed annually",
+          "acceptance": 10900,
+          "acceptanceConditions": "Non-refundable, non-transferable, credited",
+          "application": 163.5,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional each regular semester",
+          "rebate": "40% SC/PR/NUS alumni; separate from gross"
+        },
+        "sourceIds": [
+          "fee093"
+        ]
+      },
+      "concerns": []
+    },
+    {
+      "programmeId": "SG-NUS-P022",
+      "officialTitle": "Master of Science (Project Management)",
+      "programmeUrl": "https://cde.nus.edu.sg/dbe/graduate/msc-project-management/",
+      "undergraduate": {
+        "value": "Relevant honours bachelor's, or bachelor's plus >=8 years relevant experience. Preferably >=2 years relevant post-graduation experience, distinct from alternative-entry 8-year requirement.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      "english": {
+        "value": {
+          "own": "Good TOEFL/IELTS/equivalent if prior medium not English; no own numeric threshold",
+          "college": {
+            "scope": "College other coursework programmes",
+            "TOEFLiBTMinimum": 4.5,
+            "IELTSAcademicMinimum": 6,
+            "condition": "First language not English",
+            "waiver": "May be waived if whole degree English-taught and situated in English-speaking country/territory",
+            "validity": "2 years; valid at application-period start",
+            "scaleBoundary": "No test-date/scale transition stated"
+          }
+        },
+        "sourceIds": [
+          "pm",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Normally 1 year; maximum 4 semesters",
+          "partTime": "Normally 2 years; maximum 6 semesters",
+          "units": 40,
+          "delivery": "Mostly 19:00–22:00, some 15:00–18:00"
+        },
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "january2027": "27 July–31 August 2026, closed"
+        },
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28",
+          "gross": 50500,
+          "GST": "Includes 9%",
+          "acceptance": 5450,
+          "application": 109,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional",
+          "rebate": "40% SC/PR/NUS alumni, separate from gross"
+        },
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      "concerns": [
+        "Graduate Certificate section's bachelor's-only entry, dates/course fees excluded. Graduation GPA is not admission GPA."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P079",
+      "officialTitle": "Master of Science (Building Performance and Sustainability)",
+      "programmeUrl": "https://cde.nus.edu.sg/dbe/graduate/msc-building-performance-and-sustainability/",
+      "undergraduate": {
+        "value": "Relevant honours bachelor's (practical experience preferred), or bachelor's plus >=3 years relevant experience.",
+        "sourceIds": [
+          "bps"
+        ]
+      },
+      "english": {
+        "value": {
+          "own": "Good TOEFL/IELTS/equivalent if medium not English; no own numeric threshold",
+          "college": {
+            "scope": "College other coursework programmes",
+            "TOEFLiBTMinimum": 4.5,
+            "IELTSAcademicMinimum": 6,
+            "condition": "First language not English",
+            "waiver": "May be waived if whole degree English-taught and situated in English-speaking country/territory",
+            "validity": "2 years; valid at application-period start",
+            "scaleBoundary": "No test-date/scale transition stated"
+          }
+        },
+        "sourceIds": [
+          "bps",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Minimum 1, maximum 2 years",
+          "partTime": "Minimum 2, maximum 3 years",
+          "scope": "From AY2026/27; international without Singapore PR full-time only",
+          "units": 40
+        },
+        "sourceIds": [
+          "bps"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28"
+        },
+        "sourceIds": [
+          "bps"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28",
+          "gross": 50500,
+          "GST": "Includes 9%",
+          "acceptance": 5450,
+          "application": 109,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional",
+          "rebate": "40% SC/PR/NUS alumni, separate from gross"
+        },
+        "sourceIds": [
+          "bps"
+        ]
+      },
+      "concerns": [
+        "Graduation GPA excluded from entry; rebate not automatically stackable with corporate sponsorship."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P024",
+      "officialTitle": "Master of Science (Supply Chain Management)",
+      "programmeUrl": "https://cde.nus.edu.sg/isem/graduate/coursework/masters-of-science-supply-chain-management-programme/",
+      "undergraduate": {
+        "value": "At least second class lower honours in Engineering, Physical Science, Computer Science, Mathematics, Business Administration or related technical discipline from recognised institution. Relevant experience/interview may support discretionary admission below second class.",
+        "sourceIds": [
+          "isem024"
+        ]
+      },
+      "experience": {
+        "value": "Part-time: 1–3 years post-degree practical experience preferred. >=2 years logistics/supply-chain experience favourable for discretionary admission.",
+        "sourceIds": [
+          "isem024"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBT": {
+            "operator": ">",
+            "value": 85
+          },
+          "IELTSAcademic": {
+            "operator": ">",
+            "value": 6
+          },
+          "condition": "First language not English",
+          "waiver": "Conditional: entire English-taught degree in English-speaking country",
+          "validity": "2 years; valid at application-period start",
+          "collegeConflict": "College table iBT4.5/Academic6.0; no scale conversion/test-date boundary inferred"
+        },
+        "sourceIds": [
+          "isem024",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Minimum 1, maximum 2 years",
+          "partTime": "Minimum 2, maximum 4 years",
+          "units": 40,
+          "international": "Without Singapore PR full-time only"
+        },
+        "sourceIds": [
+          "isem024"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "january2028": "TBA"
+        },
+        "sourceIds": [
+          "period"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28",
+          "gross": 57300,
+          "GST": "Includes 9%",
+          "acceptance": 5450,
+          "acceptanceConditions": "Non-refundable/non-transferable, credited",
+          "application": 109,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional",
+          "rebate": "Merit maxima SC65%, PR50%, ASEAN40%, other international30%; minimum40% NUS alumni and non-alumni SC/PR. Individual billing."
+        },
+        "sourceIds": [
+          "isem024"
+        ]
+      },
+      "concerns": [
+        "Strict > operators preserved. Graduation GPA is not entry GPA; scale conflict unresolved."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P094",
+      "officialTitle": "Master of Science (Management of Technology and Innovation)",
+      "programmeUrl": "https://cde.nus.edu.sg/isem/masters-of-science-management-of-technology-and-innovation-programme/",
+      "undergraduate": {
+        "value": "Second class honours/equivalent bachelor's in STEM, or Business with relevant technology experience. Other disciplines with relevant technology experience may be considered competitively.",
+        "sourceIds": [
+          "isem094"
+        ]
+      },
+      "experience": {
+        "value": "1–2 years work experience preferred, FAQ explicitly not mandatory. GMAT/GRE highly encouraged for priority consideration, not required.",
+        "sourceIds": [
+          "isem094"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBT": {
+            "operator": ">",
+            "value": 85
+          },
+          "IELTSAcademic": {
+            "operator": ">",
+            "value": 6
+          },
+          "condition": "First language not English",
+          "waiver": "Conditional: entire English-taught degree in English-speaking country",
+          "validity": "2 years; valid at application-period start",
+          "collegeConflict": "College table iBT4.5/Academic6.0; no scale conversion/test-date boundary inferred"
+        },
+        "sourceIds": [
+          "isem094",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Minimum 1, maximum 2 years",
+          "partTime": "Minimum 2, maximum 4 years",
+          "units": 40
+        },
+        "sourceIds": [
+          "isem094"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "january2028": "TBA"
+        },
+        "sourceIds": [
+          "period"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28",
+          "gross": 57300,
+          "GST": "Includes 9%",
+          "acceptance": 5450,
+          "acceptanceConditions": "Non-refundable/non-transferable, credited",
+          "application": 109,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional",
+          "rebate": "Merit maxima SC65%, PR50%, ASEAN40%, other international30%; minimum40% NUS alumni and non-alumni SC/PR. Individual billing."
+        },
+        "sourceIds": [
+          "isem094"
+        ]
+      },
+      "concerns": [
+        "Strict > operators preserved. Graduation GPA is not entry GPA; scale conflict unresolved."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P095",
+      "officialTitle": "Master of Science (Maritime Technology & Management)",
+      "programmeUrl": "https://cde.nus.edu.sg/isem/graduate/coursework/masters-of-science-maritime-technology-management-programme/",
+      "undergraduate": {
+        "value": "Honours bachelor's/equivalent from good university; STEM preferred. Non-honours applicants considered by average scores and possible interview.",
+        "sourceIds": [
+          "isem095"
+        ]
+      },
+      "experience": {
+        "value": "Strong technical background plus >=2 years maritime experience advantageous, not universal requirement.",
+        "sourceIds": [
+          "isem095"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBT": {
+            "operator": ">",
+            "value": 85
+          },
+          "IELTSAcademic": {
+            "operator": ">",
+            "value": 6
+          },
+          "condition": "First language not English",
+          "waiver": "Conditional: entire English-taught degree in English-speaking country",
+          "validity": "2 years; valid at application-period start",
+          "collegeConflict": "College table iBT4.5/Academic6.0; no scale conversion/test-date boundary inferred"
+        },
+        "sourceIds": [
+          "isem095",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12 months",
+          "partTime": "24 months",
+          "units": 40,
+          "international": "Without Singapore PR full-time only",
+          "practical": "Full-time 15-week attachment; part-time maritime team project"
+        },
+        "sourceIds": [
+          "isem095"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "january2028": "TBA"
+        },
+        "sourceIds": [
+          "period"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28",
+          "gross": 63220,
+          "GST": "Includes 9%",
+          "acceptance": 5450,
+          "acceptanceConditions": "Non-refundable/non-transferable, credited",
+          "application": 109,
+          "applicationConditions": "Includes GST, non-refundable",
+          "miscellaneousStudentFees": "Additional",
+          "rebate": "Minimum 40% SC/PR/NUS alumni, net 37,932; international non-NUS alumni rebate 5,920, net 57,300; individual billing. MPA scholarship separate."
+        },
+        "sourceIds": [
+          "isem095"
+        ]
+      },
+      "concerns": [
+        "Strict > operators preserved. Graduation GPA is not entry GPA; scale conflict unresolved."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P096",
+      "officialTitle": "Master of Science (Materials for Energy Innovation and Sustainability)",
+      "programmeUrl": "https://cde.nus.edu.sg/mse/graduates/master-of-science-msc-energy-and-sustainability/",
+      "undergraduate": {
+        "value": "Relevant bachelor's with second class honours/equivalent; other qualifications case by case. Relevant experience highly desirable, not mandatory years.",
+        "sourceIds": [
+          "mse096"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBT": {
+            "operator": ">=",
+            "value": 85
+          },
+          "IELTSAcademic": {
+            "operator": ">=",
+            "value": 6
+          },
+          "conflict": "College iBT4.5 differs; no conversion/date boundary inferred"
+        },
+        "sourceIds": [
+          "mse096",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Typically 1, maximum 2 years",
+          "partTime": "Typically 2, maximum 4 years",
+          "units": 40
+        },
+        "sourceIds": [
+          "mse096"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "january2028": "TBA"
+        },
+        "sourceIds": [
+          "period"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2026/27 and AY2027/28 table",
+          "gross": 52100,
+          "GST": "Includes 9%",
+          "acceptance": 5450,
+          "application": 100,
+          "applicationConditions": "Excludes GST, non-refundable",
+          "rebate": "SC60%, PR40%, international NUS alumni40%; separate from gross"
+        },
+        "sourceIds": [
+          "mse096"
+        ]
+      },
+      "concerns": [
+        "Distinct degree from core Materials Science and Engineering; graduation GPA3.0 not entry GPA."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P097",
+      "officialTitle": "Master of Science (Materials Science and Engineering)",
+      "programmeUrl": "https://cde.nus.edu.sg/mse/graduates/master-of-science-msc/",
+      "undergraduate": {
+        "value": "Relevant bachelor's with second class honours/equivalent; other qualifications case by case. Relevant experience highly desirable, not mandatory years.",
+        "sourceIds": [
+          "mse097"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBT": {
+            "operator": ">=",
+            "value": 85
+          },
+          "IELTSAcademic": {
+            "operator": ">=",
+            "value": 6
+          },
+          "conflict": "College iBT4.5 differs; no conversion/date boundary inferred"
+        },
+        "sourceIds": [
+          "mse097",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Typically 1, maximum 2 years",
+          "partTime": "Typically 2, maximum 4 years",
+          "units": 40
+        },
+        "sourceIds": [
+          "mse097"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "january2028": "TBA"
+        },
+        "sourceIds": [
+          "period"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28 semesters 1 and 2",
+          "gross": 52100,
+          "GST": "Includes 9%",
+          "acceptance": 5450,
+          "application": null,
+          "applicationConditions": "Unknown in bounded read",
+          "rebate": "Eligibility not fully extracted; 60% illustration not universal"
+        },
+        "sourceIds": [
+          "mse097"
+        ]
+      },
+      "concerns": [
+        "Old Advanced Materials for Energy and Sustainability specialisation scoped AY2022/23–AY2025/26; distinct new energy-innovation degree. Graduation GPA3.0 not entry GPA."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P085",
+      "officialTitle": "Master of Science (Environmental Engineering)",
+      "programmeUrl": "https://cde.nus.edu.sg/cee/graduate/coursework-based-programmes/msc-eve/",
+      "undergraduate": {
+        "value": "Good honours bachelor's (at least second class)/equivalent, recognised institution. Good first degrees plus post-degree practical experience also considered. Compulsory undergraduate subject not stated in eligibility.",
+        "sourceIds": [
+          "eve",
+          "cee"
+        ]
+      },
+      "english": {
+        "value": {
+          "scope": "College other coursework programmes",
+          "TOEFLiBTMinimum": 4.5,
+          "IELTSAcademicMinimum": 6,
+          "condition": "First language not English",
+          "waiver": "May be waived if whole degree English-taught and situated in English-speaking country/territory",
+          "validity": "2 years; valid at application-period start",
+          "scaleBoundary": "No test-date/scale transition stated"
+        },
+        "sourceIds": [
+          "eve",
+          "cee",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Minimum1, maximum2, average1.5 years",
+          "partTime": "Minimum2, maximum4, average2.5 years",
+          "units": 40
+        },
+        "sourceIds": [
+          "eve"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "january2028": "TBA"
+        },
+        "sourceIds": [
+          "cee",
+          "period"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "cohortScope": "AY2027/28, August2027",
+          "gross": 50944.98,
+          "GST": "Includes9%",
+          "acceptance": 5450,
+          "acceptanceConditions": "Non-refundable/non-transferable, credited",
+          "application": 109,
+          "applicationConditions": "IncludesGST, non-refundable",
+          "miscellaneousStudentFees": "Additional",
+          "rebate": "Not fully extracted"
+        },
+        "sourceIds": [
+          "eve"
+        ]
+      },
+      "concerns": [
+        "Overview science/technology backgrounds not converted into exclusive subject requirement; graduation GPA excluded."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P084",
+      "officialTitle": "Master of Science in Engineering Design & Innovation",
+      "programmeUrl": "https://cde.nus.edu.sg/edic/msc/",
+      "undergraduate": {
+        "value": "Bachelor's, preferably honours, Engineering, Computing, Business Studies, Industrial Design/equivalent. Significant prototyping experience considered; prototype statement encouraged, portfolio if available.",
+        "sourceIds": [
+          "ediAdmission"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBTMinimum": 85,
+          "IELTSAcademicMinimum": 6,
+          "condition": "First language not English",
+          "validity": "2 years, valid when applying",
+          "waiver": "Conditional: whole English-taught degree in English-speaking country",
+          "conflict": "College iBT4.5 differs; no scale/date boundary inferred"
+        },
+        "sourceIds": [
+          "ediAdmission",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "mode": "Full-Time only",
+          "duration": "12–18 months / 2–3 regular semesters",
+          "units": 40
+        },
+        "sourceIds": [
+          "ediStudy"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28"
+        },
+        "sourceIds": [
+          "ediAdmission"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "grossExGST": 54590,
+          "grossInclGST": 59500,
+          "GST": "9%, page note specifies2026",
+          "cohortScope": "Gross fee lacks explicit academic year; not relabelled AY2027/28",
+          "acceptance": 5450,
+          "application": 109,
+          "conditions": "IncludeGST, non-refundable/non-transferable; acceptance credited",
+          "rebate": "AY2024/25onwards: NUSalumni40%, EDICDCP/iDPalumni up to60%, nonNUSSC/PR40%; non-stackable",
+          "miscellaneousStudentFees": "Additional"
+        },
+        "sourceIds": [
+          "ediFees"
+        ]
+      },
+      "concerns": [
+        "Graduation GPA3.0 not admission GPA."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P057",
+      "officialTitle": "Master of Cities",
+      "programmeUrl": "https://cde.nus.edu.sg/nuscities/master-of-cities/",
+      "undergraduate": {
+        "value": "Honours bachelor's/equivalent. >=2 years relevant work/project/research experience preferred, not mandatory.",
+        "sourceIds": [
+          "cities"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBTMinimum": 85,
+          "IELTSAcademicMinimum": 6,
+          "condition": "First language not English",
+          "validity": "2 years, valid at application-period start",
+          "conflict": "College iBT4.5 differs; no conversion"
+        },
+        "sourceIds": [
+          "cities",
+          "cde"
+        ]
+      },
+      "study": {
+        "value": {
+          "delivery": "In-person intensive blocks plus shorter online learning periods",
+          "duration": "Unknown in bounded own-page read",
+          "degreeScope": "Interdisciplinary city-focused professional degree"
+        },
+        "sourceIds": [
+          "cities"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28"
+        },
+        "sourceIds": [
+          "cities"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "grossExGST": 68000,
+          "grossInclGST": 74120,
+          "GST": "9%",
+          "cohortScope": "No explicit fee academic year; page updated11June2026",
+          "application": 100,
+          "applicationConditions": "ExcludesGST, non-refundable",
+          "acceptance": 5000,
+          "acceptanceConditions": "ExcludesGST, credited, non-refundable/non-transferable",
+          "rebates": "Self-fundedSC/PR/internationalNUSalumni up to40%; NUSCities executive CitiesProgramme alumni or SoutheastAsian international up to30%; non-stackable",
+          "miscellaneousStudentFees": "Additional; travel/accommodation excluded"
+        },
+        "sourceIds": [
+          "cities"
+        ]
+      },
+      "concerns": [
+        "Fee instalments/year-long capstone not proof of whole degree duration."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P062",
+      "officialTitle": "Master of Design in Integrated Design",
+      "programmeUrl": "https://cde.nus.edu.sg/dd/mdes/",
+      "identityEvidence": {
+        "value": "Legacy /did/mdes/ and own admission redirect to current Department of Design /dd/mdes/.",
+        "sourceIds": [
+          "mdes"
+        ]
+      },
+      "undergraduate": {
+        "value": "Bachelor's with merit or second class honours in relevant design discipline or field related to intended study, recognised institution. Other qualifications/achievements may be considered.",
+        "sourceIds": [
+          "mdes"
+        ]
+      },
+      "english": {
+        "value": {
+          "TOEFLiBTMinimum": 4.5,
+          "IELTSAcademicMinimum": 6,
+          "condition": "First language not English",
+          "validity": "2 years, valid at application-period start",
+          "waiver": "Conditional: whole degree English-taught in English-speaking country",
+          "excluded": "Institutional/predicted/equivalent/simulated tests including MyBest scores",
+          "testDateScaleBoundary": "Not stated"
+        },
+        "sourceIds": [
+          "mdes"
+        ]
+      },
+      "study": {
+        "value": {
+          "completion": "1 year/2semesters or1.5years/3semesters",
+          "mode": "Unknown in bounded own-curriculum read"
+        },
+        "sourceIds": [
+          "mdesStudy"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-10-01",
+          "closes": "2027-02-28",
+          "january": "No January intake"
+        },
+        "sourceIds": [
+          "mdes"
+        ]
+      },
+      "fees": {
+        "value": {
+          "status": "Unknown; linked fees page repeatedly timed out; historical2025brochure excluded"
+        },
+        "sourceIds": [
+          "mdes"
+        ]
+      },
+      "concerns": [
+        "Old2025/AY2026/27brochureiBT85 and fees not carried into AY2027/28."
+      ]
+    }
+  ],
+  "batch": "nus-cde-remainder-2026-11-10",
+  "programmeIds": [
+    "SG-NUS-P014",
+    "SG-NUS-P015",
+    "SG-NUS-P040",
+    "SG-NUS-P063",
+    "SG-NUS-P070",
+    "SG-NUS-P093",
+    "SG-NUS-P022",
+    "SG-NUS-P079",
+    "SG-NUS-P024",
+    "SG-NUS-P094",
+    "SG-NUS-P095",
+    "SG-NUS-P096",
+    "SG-NUS-P097",
+    "SG-NUS-P085",
+    "SG-NUS-P084",
+    "SG-NUS-P057",
+    "SG-NUS-P062"
+  ],
+  "counts": {
+    "newPartialParents": 17,
+    "newRouteGroups": 1,
+    "newRouteSnapshots": 2,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "limits": [
+    "Architecture NUS-only GPA/courses and non-NUS accreditation/portfolio are separated into owned routes.",
+    "Fee-year gaps and department/college threshold discrepancies remain explicit.",
+    "Partial automated observation, not independent review or admission eligibility."
+  ]
+}

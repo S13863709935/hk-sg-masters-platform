@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "readOn": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "Unreviewed4existingpublicpolicyIDs, official own admissions; stagingonly",
+  "sources": {
+    "checklist": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-admissions/admission-guide/application-checklist",
+      "readOn": "2026-11-10",
+      "section": "MPP/MIA/MPA English benchmarks explicitly not admissions minimum; score-version dates and conditional waiver",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p051": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-international-affairs-mia/admissions-criteria",
+      "readOn": "2026-11-10",
+      "section": "Own entry/experience/English waivers and optional GRE/GMAT",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p051Overview": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-international-affairs-mia",
+      "readOn": "2026-11-10",
+      "section": "Identity and study duration",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p053": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-public-administration-mpa/mpa-admissions-criteria",
+      "readOn": "2026-11-10",
+      "section": "Own entry/experience/English waivers and optional GRE/GMAT",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p053Overview": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-public-administration-mpa",
+      "readOn": "2026-11-10",
+      "section": "Identity and study duration",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p055": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-public-policy-mpp/mpp-admissions-criteria",
+      "readOn": "2026-11-10",
+      "section": "Own entry/experience/English waivers and optional GRE/GMAT",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p055Overview": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-public-policy-mpp",
+      "readOn": "2026-11-10",
+      "section": "Identity and study duration",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "mpam": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-programmes/mpam/admissioncriteria",
+      "readOn": "2026-11-10",
+      "section": "Chinese own admissions and explicit2027deadline",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "mpamOverview": {
+      "url": "https://lkyspp.nus.edu.sg/graduate-programmes/mpam",
+      "readOn": "2026-11-10",
+      "section": "Chinese taught degree identity",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    }
+  },
+  "programmes": [
+    {
+      "programmeId": "SG-NUS-P051",
+      "officialTitle": "Master in International Affairs",
+      "programmeUrl": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-international-affairs-mia",
+      "undergraduate": {
+        "value": "Good honours bachelor's, second class and above, or equivalent. Specific undergraduate field not mandated in own passage.",
+        "sourceIds": [
+          "p051"
+        ]
+      },
+      "experience": {
+        "value": "At least2years work experience preferred, not required.",
+        "sourceIds": [
+          "p051"
+        ]
+      },
+      "english": {
+        "value": {
+          "status": "No strict minimum admissibility scores; successful applicants generally achieve these benchmarks",
+          "benchmarks": {
+            "TOEFLBefore2026_01_21": 100,
+            "TOEFLFrom2026_01_21": 5,
+            "IELTSAcademic": 7
+          },
+          "HomeEdition": "Accepted",
+          "validity": "2 years",
+          "condition": "TOEFL/IELTS mandatory except qualifying English-medium degrees; GRE/GMAT may be submitted in lieu under shared checklist",
+          "waiver": "English-medium institution qualifications in Australia/Canada/India/Ireland/NewZealand/Philippines/Singapore/UK/US exempt; other entirely-English bachelor's/master's may be waived with institution letter"
+        },
+        "sourceIds": [
+          "p051",
+          "checklist"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2years"
+        },
+        "sourceIds": [
+          "p051Overview"
+        ]
+      },
+      "application": {
+        "value": {
+          "yearSpecificWindow": "Unknown in bounded own read"
+        },
+        "sourceIds": [
+          "p051"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuition": "Unknown",
+          "application": 60,
+          "currency": "SGD",
+          "applicationScope": "Includes9%GST"
+        },
+        "sourceIds": [
+          "p051"
+        ]
+      },
+      "concerns": [
+        "Do not encode checklist English benchmarks as hard minimum eligibility. GRE/GMAT optional on own admission page; conditional English alternative scoped to shared checklist."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P053",
+      "officialTitle": "Master in Public Administration",
+      "programmeUrl": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-public-administration-mpa",
+      "undergraduate": {
+        "value": "Good NUS honours secondclass+ or four-year equivalent averageB, or good bachelor's.",
+        "sourceIds": [
+          "p053"
+        ]
+      },
+      "experience": {
+        "value": "Mandatory minimum5years relevant work experience and attained mid-level managerial position; commitment to public service.",
+        "sourceIds": [
+          "p053"
+        ]
+      },
+      "english": {
+        "value": {
+          "status": "No strict minimum admissibility scores; successful applicants generally achieve these benchmarks",
+          "benchmarks": {
+            "TOEFLBefore2026_01_21": 100,
+            "TOEFLFrom2026_01_21": 5,
+            "IELTSAcademic": 7
+          },
+          "HomeEdition": "Accepted",
+          "validity": "2 years",
+          "condition": "TOEFL/IELTS mandatory except qualifying English-medium degrees; GRE/GMAT may be submitted in lieu under shared checklist",
+          "waiver": "English-medium institution qualifications in Australia/Canada/India/Ireland/NewZealand/Philippines/Singapore/UK/US exempt; other entirely-English bachelor's/master's may be waived with institution letter"
+        },
+        "sourceIds": [
+          "p053",
+          "checklist"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year"
+        },
+        "sourceIds": [
+          "p053Overview"
+        ]
+      },
+      "application": {
+        "value": {
+          "yearSpecificWindow": "Unknown in bounded own read"
+        },
+        "sourceIds": [
+          "p053"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuition": "Unknown",
+          "application": null,
+          "currency": "SGD",
+          "applicationScope": "Not extracted"
+        },
+        "sourceIds": [
+          "p053"
+        ]
+      },
+      "concerns": [
+        "Do not encode checklist English benchmarks as hard minimum eligibility. GRE/GMAT optional on own admission page; conditional English alternative scoped to shared checklist."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P055",
+      "officialTitle": "Master in Public Policy",
+      "programmeUrl": "https://lkyspp.nus.edu.sg/graduate-programmes/master-in-public-policy-mpp",
+      "undergraduate": {
+        "value": "NUS second-upper honours/equivalent four-year degree averageB or better; alternatively good bachelor's. Other qualifications/experience discretionary. Economics/mathematics background preferred.",
+        "sourceIds": [
+          "p055"
+        ]
+      },
+      "experience": {
+        "value": "2–5years work experience preferred, not mandatory.",
+        "sourceIds": [
+          "p055"
+        ]
+      },
+      "english": {
+        "value": {
+          "status": "No strict minimum admissibility scores; successful applicants generally achieve these benchmarks",
+          "benchmarks": {
+            "TOEFLBefore2026_01_21": 100,
+            "TOEFLFrom2026_01_21": 5,
+            "IELTSAcademic": 7
+          },
+          "HomeEdition": "Accepted",
+          "validity": "2 years",
+          "condition": "TOEFL/IELTS mandatory except qualifying English-medium degrees; GRE/GMAT may be submitted in lieu under shared checklist",
+          "waiver": "English-medium institution qualifications in Australia/Canada/India/Ireland/NewZealand/Philippines/Singapore/UK/US exempt; other entirely-English bachelor's/master's may be waived with institution letter"
+        },
+        "sourceIds": [
+          "p055",
+          "checklist"
+        ]
+      },
+      "study": {
+        "value": {
+          "duration": "2years",
+          "mode": "Not established in bounded own overview read"
+        },
+        "sourceIds": [
+          "p055Overview"
+        ]
+      },
+      "application": {
+        "value": {
+          "yearSpecificWindow": "Unknown in bounded own read"
+        },
+        "sourceIds": [
+          "p055"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuition": "Unknown",
+          "application": null,
+          "currency": "SGD",
+          "applicationScope": "Not extracted"
+        },
+        "sourceIds": [
+          "p055"
+        ]
+      },
+      "concerns": [
+        "Do not encode checklist English benchmarks as hard minimum eligibility. GRE/GMAT optional on own admission page; conditional English alternative scoped to shared checklist."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P054",
+      "officialTitle": "Master of Public Administration and Management (Chinese)",
+      "programmeUrl": "https://lkyspp.nus.edu.sg/graduate-programmes/mpam",
+      "undergraduate": {
+        "value": "Four-year undergraduate bachelor's with good results. Equivalent qualifications/experience exceptional approval.",
+        "sourceIds": [
+          "mpam"
+        ]
+      },
+      "experience": {
+        "value": {
+          "yearsMinimum": 5,
+          "scope": "Relevant work",
+          "sourceWording": "有五年以上相关工作经验"
+        },
+        "sourceIds": [
+          "mpam"
+        ]
+      },
+      "english": {
+        "value": {
+          "status": "No English-test requirement established in bounded Chinese admission page; do not borrow MPP/MPA/MIA checklist"
+        },
+        "sourceIds": [
+          "mpam"
+        ]
+      },
+      "study": {
+        "value": {
+          "language": "Chinese",
+          "duration": "Unknown in bounded own read",
+          "intakeMonth": "August"
+        },
+        "sourceIds": [
+          "mpamOverview"
+        ]
+      },
+      "application": {
+        "value": {
+          "cohort": "2027academic year",
+          "deadline": "2027-01-09",
+          "openingDate": "Unknown"
+        },
+        "sourceIds": [
+          "mpam"
+        ]
+      },
+      "fees": {
+        "value": {
+          "status": "Unknown"
+        },
+        "sourceIds": [
+          "mpam"
+        ]
+      },
+      "concerns": []
+    }
+  ],
+  "programmeIds": [
+    "SG-NUS-P051",
+    "SG-NUS-P053",
+    "SG-NUS-P055",
+    "SG-NUS-P054"
+  ],
+  "counts": {
+    "newPartialParents": 4,
+    "newRouteGroups": 0,
+    "newRouteSnapshots": 0,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "limits": [
+    "No hard IELTS/TOEFL rejection derived from explicitly non-minimum successful-applicant benchmarks.",
+    "Chinese MPAM does not inherit English MPA/MPP/MIA conditions.",
+    "Work preferences stay distinct from MPA/MPAM five-year hard experience conditions."
+  ]
+}

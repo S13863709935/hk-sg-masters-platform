@@ -118,7 +118,7 @@ test('older school rebuilds preserve a newer unrelated MQF listing and batch dat
     // current EdUHK identities have their own newer-source refusal tests.
     const reconciliation = read('data/research/eduhk-flass-directory-reconciliation-2026-11-04.json');
     for (const change of reconciliation.changes) input.links.listings[input.links.listings.findIndex(l => l.programmeId === change.programmeId)] = structuredClone(change.before);
-    input.links.checkedOn = reconciliation.beforeBatchCheckedOn;
+    input.links.checkedOn = input.links.listings.map(l => l.checkedOn).sort().at(-1);
     input.links.description = reconciliation.beforeDescription;
     if (school === 'HK-HKUST') {
       assert.throws(() => build(input), /newer HKUST listings/);
@@ -130,7 +130,7 @@ test('older school rebuilds preserve a newer unrelated MQF listing and batch dat
     const before = JSON.stringify(input), out = build(input); assert.equal(JSON.stringify(input), before);
     assert.deepEqual(out.links, input.links); assert.deepEqual(out.expansion, input.expansion); assert.deepEqual(out.audit, input.audit);
     const inconsistent = structuredClone(input); inconsistent.links.checkedOn = '2026-10-30'; assert.throws(() => build(inconsistent), /batch date/);
-    const newerTarget = structuredClone(input); newerTarget.links.listings.find(l => l.programmeId.startsWith(school + '-')).checkedOn = '2026-11-01'; newerTarget.links.checkedOn = '2026-11-01';
+    const newerTarget = structuredClone(input); newerTarget.links.listings.find(l => l.programmeId.startsWith(school + '-')).checkedOn = '2026-11-01'; newerTarget.links.checkedOn = newerTarget.links.listings.map(l => l.checkedOn).sort().at(-1);
     assert.throws(() => build(newerTarget), /newer/); assert.equal(JSON.stringify(input), before);
   }
 });

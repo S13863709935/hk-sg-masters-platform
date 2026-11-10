@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-11-10",
+  "programmeIds": [
+    "SG-NUS-P098",
+    "SG-NUS-P103",
+    "SG-NUS-P104",
+    "SG-NUS-P087",
+    "SG-NUS-P086"
+  ],
+  "counts": {
+    "newPartialParents": 5,
+    "newRouteGroups": 0,
+    "newRouteSnapshots": 0,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "sources": {
+    "p098": {
+      "url": "https://www.math.nus.edu.sg/pg/msc-cwk/msc-cwk-prospective/",
+      "readOn": "2026-11-10",
+      "section": "Track1/2entry,duration,Aug2027window,EnglishHomeEditionrestriction",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p103a": {
+      "url": "https://www.physics.nus.edu.sg/student/master-in-physics-technology-admission/",
+      "readOn": "2026-11-10",
+      "section": "Entry/English",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p103w": {
+      "url": "https://www.physics.nus.edu.sg/student/master-in-physics-technology-application/",
+      "readOn": "2026-11-10",
+      "section": "UnyearredcyclesandEnglishvalidity",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p103c": {
+      "url": "https://www.physics.nus.edu.sg/student/master-in-physics-technology-period-of-candidature/",
+      "readOn": "2026-11-10",
+      "section": "FT/PTminmax",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p104": {
+      "url": "https://www.physics.nus.edu.sg/student/master-of-science-by-coursework/",
+      "readOn": "2026-11-10",
+      "section": "Track-specificentry/durations,versiondatedEnglish,annualwindows",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p087": {
+      "url": "https://www.fst.nus.edu.sg/education/postgraduate-programme/admission-information/msc-in-food-science-human-nutrition/",
+      "readOn": "2026-11-10",
+      "section": "Degreealternatives,English,Aug2027regular/earlyconflictandfeetable",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p086a": {
+      "url": "https://rmi.nus.edu.sg/mfe-program/admission/",
+      "readOn": "2026-11-10",
+      "section": "Degree/English/work/part-timepassrestrictionandexplicit2027/2028windows",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p086c": {
+      "url": "https://rmi.nus.edu.sg/mfe-program/program-structure/",
+      "readOn": "2026-11-10",
+      "section": "Candidaturemodes",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    },
+    "p086f": {
+      "url": "https://rmi.nus.edu.sg/mfe-program/tuition-fee/",
+      "readOn": "2026-11-10",
+      "section": "Displayed64kfeetableandAY2027/28rebate",
+      "method": "web tool public official HTML read; cached crawl possible; no rawHTTPstatus/hash"
+    }
+  },
+  "programmeFacts": [
+    {
+      "programmeId": "SG-NUS-P098",
+      "officialTitle": "MSc in Mathematics",
+      "programmeUrl": "https://www.math.nus.edu.sg/pg/msc-cwk/",
+      "concerns": [
+        "Track2isnotgeneral3yearbachelorroute;noGPAconversion."
+      ],
+      "undergraduate": {
+        "value": "Track1:mathshonoursbachelor/equivalent OR honoursbachelorwithstronguniversitymathstraining. Track2:three-yearmaths/strong-mathsbachelor,exclusivelypartnerjointeducation/3+2students.",
+        "sourceIds": [
+          "p098"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTMinimum": "4.5or85;versiondatesunknown",
+          "validity": "2years/unexpiredatapplication",
+          "applicability": "Native tongue OR universityinstructionnotEnglish;FAQalsoaccepts100%Englishdegreeproof",
+          "restrictions": "Onlyauthorisedtestcentres;noTOEFLHomeEdition/IELTSOnline"
+        },
+        "sourceIds": [
+          "p098"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Track1:1–2years;Track2:2–3",
+          "partTime": "Track1:2–4years;Track2:3–5;foreignapplicantsrequirevalidSGemploymentpass"
+        },
+        "sourceIds": [
+          "p098"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-01",
+          "closes": "2027-03-15",
+          "earlyOpens": "2026-05-16",
+          "earlyCloses": "2026-07-15"
+        },
+        "sourceIds": [
+          "p098"
+        ]
+      },
+      "fees": {
+        "value": "unknown;linked2027trackPDFnotread",
+        "sourceIds": [
+          "p098"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P103",
+      "officialTitle": "MSc in Physics for Technology",
+      "programmeUrl": "https://www.physics.nus.edu.sg/student/master-in-physics-technology/",
+      "concerns": [
+        "Noapplicationyearinferredfromcohortfeelinks."
+      ],
+      "undergraduate": {
+        "value": "BScPhysicsorAppliedPhysics;engineeringspecialisationssemiconductors/electronics/photonics/materialssciencealsoconsidered.Otherqualifications/achievementsdeemedsuitablemayalsobeconsidered.Nohardworkyearsstated.",
+        "sourceIds": [
+          "p103a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTBefore21Jan2026": 85,
+          "TOEFLiBTOnOrAfter21Jan2026": 4.5,
+          "applicability": "CountrieswhereEnglishnotnativelanguageANDuniversityinstructionnotcompletelyEnglish",
+          "validity": "2years/unexpiredatapplication",
+          "components": "unknown"
+        },
+        "sourceIds": [
+          "p103a",
+          "p103w"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1–2years",
+          "partTime": "2–4years;daytimeinpersoncourses"
+        },
+        "sourceIds": [
+          "p103c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "Augustannual",
+          "opens": "1Octoberannual",
+          "closes": "15Marchannual",
+          "earlyOpens": "16Mayannual",
+          "earlyCloses": "15Julyannual",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p103w"
+        ]
+      },
+      "fees": {
+        "value": "unknown",
+        "sourceIds": [
+          "p103w"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P104",
+      "officialTitle": "MSc in Physics",
+      "programmeUrl": "https://www.physics.nus.edu.sg/student/master-of-science-by-coursework/",
+      "concerns": [
+        "Trackduration/entryalternativeskeptseparate."
+      ],
+      "undergraduate": {
+        "value": "Track1:honours/4yearPhysics/AppliedPhysics/relatedbachelor.Track2:3yearPhysics/AppliedPhysicsOR4yearotherrelatedspecialisation.Engineeringwithsemiconductor/electronics/photonics/materialsscienceconsidered;otherpreparedqualifications/achievementsmayqualify.",
+        "sourceIds": [
+          "p104"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTBefore21Jan2026": 85,
+          "TOEFLiBTOnOrAfter21Jan2026": 4.5,
+          "applicability": "CountrieswhereEnglishnotnativelanguageANDuniversityinstructionnotcompletelyEnglish",
+          "validity": "2years/unexpiredatapplication",
+          "components": "unknown"
+        },
+        "sourceIds": [
+          "p104"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Track1:1–2years;Track2:2–3",
+          "partTime": "Track1:2–4years;Track2:3–5;daytimeinperson"
+        },
+        "sourceIds": [
+          "p104"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "Augustannual",
+          "opens": "1Octoberannual",
+          "closes": "15Marchannual",
+          "earlyOpens": "16Mayannual",
+          "earlyCloses": "15Julyannual",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p104"
+        ]
+      },
+      "fees": {
+        "value": "unknown;linkedAY2027/28trackPDFnotread",
+        "sourceIds": [
+          "p104"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P087",
+      "officialTitle": "MSc in Food Science and Human Nutrition",
+      "programmeUrl": "https://www.fst.nus.edu.sg/education/postgraduate-programme/admission-information/msc-in-food-science-human-nutrition/",
+      "concerns": [
+        "Do notrepair2027earlycycletypobyinference;regularwindowconsistent. FeeamountbeforeGSTparagraphonlyexplicitthrough2026while2027tableexplicit."
+      ],
+      "undergraduate": {
+        "value": "Honours/equivalentbachelorFoodScience/Technology/EngineeringandNutrition OR samemajorordinarybachelor+>=2yrsrelevantwork OR bachelorlistedrelatedfields+>=2yrswork.Fields:chemistry,biochemistry,chemical/biochemical/biomedical/agriculturalengineering,agriculturalprocessing,biotech,biology,pharmacy,microbiology,nutrition,dietetics,physiology,agriculture/horticulture.",
+        "sourceIds": [
+          "p087"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLiBTMinimum": 85,
+          "applicability": "InternationalstudentswhosemothertongueORtertiaryinstructionnotEnglish",
+          "validity": "2years",
+          "versionDates": "unknown",
+          "components": "unknown"
+        },
+        "sourceIds": [
+          "p087"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "offered;normaldurationnotextracted",
+          "partTime": "offered;normaldurationnotextracted"
+        },
+        "sourceIds": [
+          "p087"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-10-01",
+          "closes": "2027-03-15",
+          "earlyOpens": "2026-05-16",
+          "earlyCloses": "conflict:2027-07-15intablevs2026-07-15dedicatedearlysection"
+        },
+        "sourceIds": [
+          "p087"
+        ]
+      },
+      "fees": {
+        "value": {
+          "August2027FTsemester1InclGST": "S$27,795",
+          "semester2InclGST": "S$27,795",
+          "total": "S$55,590(sumofexplicit2semestercharges)",
+          "acceptance": "creditedtowardfirstsemester"
+        },
+        "sourceIds": [
+          "p087"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P086",
+      "officialTitle": "MSc in Financial Engineering",
+      "programmeUrl": "https://rmi.nus.edu.sg/mfe-program/introduction/",
+      "concerns": [
+        "Min/maxnotclaimednormalduration;noscoreconversion."
+      ],
+      "undergraduate": {
+        "value": "Good4year/honoursbachelorwithstrongmaths/statistics/CS/engineering/finance/economicsbackground;relevantworkadvantageous;GMAT/GREoptional.",
+        "sourceIds": [
+          "p086a"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6.5,
+          "TOEFLBefore21Jan2026": 85,
+          "TOEFLOnOrAfter21Jan2026": 4.5,
+          "applicability": "UndergraduateinstructionnotEnglish",
+          "validity": "unknown",
+          "components": "unknown"
+        },
+        "sourceIds": [
+          "p086a"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "min1year,max2",
+          "partTime": "min18months,max4years;foreignapplicantsneedemployment/dependentpass",
+          "distanceLearning": "min18months,max4years"
+        },
+        "sourceIds": [
+          "p086a",
+          "p086c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-07-01",
+          "closes": "2027-02-15",
+          "additionalIntake": {
+            "intake": "January2028",
+            "opens": "2027-03-01",
+            "closes": "2027-05-31"
+          }
+        },
+        "sourceIds": [
+          "p086a"
+        ]
+      },
+      "fees": {
+        "value": {
+          "displayedTotalInclGST": "S$64,000",
+          "cohortLabel": "Totaltableunyearred;AY2027/28rebateparagraphseparate"
+        },
+        "sourceIds": [
+          "p086f"
+        ]
+      }
+    }
+  ],
+  "held": [],
+  "limits": [
+    "Own source observations are partial, not complete admissions or independent human review.",
+    "No guessed GPA denominator, universal work preference, fee-year projection, test conversion or live portal availability."
+  ]
+}

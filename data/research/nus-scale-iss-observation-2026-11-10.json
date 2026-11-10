@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 1,
+  "readOn": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "Unreviewed own-source SCALE/ISS group10existingIDs only; no catalogue edits",
+  "sources": {
+    "scale001": {
+      "url": "https://scale.nus.edu.sg/programmes/graduate/msc-(artificial-intelligence-innovation)",
+      "readOn": "2026-11-10",
+      "method": "web tool official public HTML extract, including redirected legacy URL where applicable; cached crawl possible; no raw HTTP status/hash",
+      "section": "Own admission, FAQ, duration, explicit next-intake date panel and unyearred fee"
+    },
+    "scale002": {
+      "url": "https://scale.nus.edu.sg/programmes/graduate/msc-(smart-industries-and-digital-transformation)",
+      "readOn": "2026-11-10",
+      "method": "web tool official public HTML extract, including redirected legacy URL where applicable; cached crawl possible; no raw HTTP status/hash",
+      "section": "Own admission, FAQ, duration, explicit next-intake date panel and unyearred fee"
+    },
+    "scale003": {
+      "url": "https://scale.nus.edu.sg/programmes/graduate/msc-(venture-creation)",
+      "readOn": "2026-11-10",
+      "method": "web tool official public HTML extract, including redirected legacy URL where applicable; cached crawl possible; no raw HTTP status/hash",
+      "section": "Own admission, FAQ, duration, explicit next-intake date panel and unyearred fee"
+    },
+    "scale004": {
+      "url": "https://scale.nus.edu.sg/programmes/graduate/msc-(environmental-management-and-sustainability)",
+      "readOn": "2026-11-10",
+      "method": "web tool official public HTML extract, including redirected legacy URL where applicable; cached crawl possible; no raw HTTP status/hash",
+      "section": "Own admission, FAQ, duration, explicit next-intake date panel and unyearred fee"
+    },
+    "scale108": {
+      "url": "https://scale.nus.edu.sg/programmes/graduate/msc-(social-analytics-and-artificial-intelligence)",
+      "readOn": "2026-11-10",
+      "method": "web tool official public HTML extract, including redirected legacy URL where applicable; cached crawl possible; no raw HTTP status/hash",
+      "section": "Own admission, FAQ, duration, explicit next-intake date panel and unyearred fee"
+    },
+    "scale109": {
+      "url": "https://scale.nus.edu.sg/programmes/graduate/msc-(social-impact-nonprofit-leadership)",
+      "readOn": "2026-11-10",
+      "method": "web tool official public HTML extract, including redirected legacy URL where applicable; cached crawl possible; no raw HTTP status/hash",
+      "section": "Own admission, FAQ, duration, explicit next-intake date panel and unyearred fee"
+    },
+    "iss116": {
+      "url": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-artificial-intelligence-systems",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; cached crawl possible; no raw HTTP capture/hash",
+      "section": "Overview2027dates, own Admission & Application, English; DigitalLeadership fees only"
+    },
+    "iss117": {
+      "url": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-digital-leadership",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; cached crawl possible; no raw HTTP capture/hash",
+      "section": "Overview2027dates, own Admission & Application, English; DigitalLeadership fees only"
+    },
+    "iss118": {
+      "url": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-enterprise-business-analytics",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; cached crawl possible; no raw HTTP capture/hash",
+      "section": "Overview2027dates, own Admission & Application, English; DigitalLeadership fees only"
+    },
+    "iss119": {
+      "url": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-software-engineering",
+      "readOn": "2026-11-10",
+      "method": "web tool extracted official public page; cached crawl possible; no raw HTTP capture/hash",
+      "section": "Overview2027dates, own Admission & Application, English; DigitalLeadership fees only"
+    }
+  },
+  "programmes": [
+    {
+      "programmeId": "SG-NUS-P001",
+      "officialTitle": "MSc (Artificial Intelligence & Innovation)",
+      "programmeUrl": "https://scale.nus.edu.sg/programmes/graduate/msc-(artificial-intelligence-innovation)",
+      "undergraduate": {
+        "value": "Bachelor's, preferably four-year honours; all academic fields welcome. >=1 year work experience required for three-year bachelor's without honours. Basic programming may be needed for selected electives.",
+        "sourceIds": [
+          "scale001"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue not English",
+          "TOEFLiBTMinimumAlternatives": [
+            85,
+            4.5
+          ],
+          "IELTSAcademicMinimum": 6,
+          "HomeEdition": "Accepted",
+          "validity": "2 years; unexpired at point of application",
+          "waiver": "Not established in bounded own-page read",
+          "scaleBoundary": "Page explicitly lists both scores but gives no test-date boundary; no inferred conversion"
+        },
+        "sourceIds": [
+          "scale001"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24 months",
+          "partTime": "24–36 months",
+          "units": 40
+        },
+        "sourceIds": [
+          "scale001"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-11-01",
+          "closes": "2027-01-31"
+        },
+        "sourceIds": [
+          "scale001"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 58860,
+          "GST": "Includes9%",
+          "cohortScope": "No explicit fee academic year; adjacent intake dates do not establish price year",
+          "application": 163.5,
+          "acceptance": 6540,
+          "acceptanceConditions": "Includes9%GST, non-refundable/non-transferable, credited towards tuition",
+          "miscellaneousStudentFees": "Additional",
+          "rebatesScholarships": "Separate conditional assistance; amount not assumed"
+        },
+        "sourceIds": [
+          "scale001"
+        ]
+      },
+      "concerns": [
+        "GraduationGPA3/5 not admissionGPA. GMAT/GRE not compulsory at application (ownFAQ where read); possible later individual requirements not generalized."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P002",
+      "officialTitle": "MSc (Smart Industries and Digital Transformation)",
+      "programmeUrl": "https://scale.nus.edu.sg/programmes/graduate/msc-(smart-industries-and-digital-transformation)",
+      "undergraduate": {
+        "value": "Bachelor's preferably honours in Science, Engineering, Computing, Analytics/equivalent. Other qualifications case by case, including relevant NUS stackable Graduate Certificate completed within5years with GPA>=3.5 (scale unspecified). Programming competency; additional course may be required.",
+        "sourceIds": [
+          "scale002"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue not English",
+          "TOEFLiBTMinimumAlternatives": [
+            85,
+            4.5
+          ],
+          "IELTSAcademicMinimum": 6,
+          "HomeEdition": "Accepted",
+          "validity": "2 years; unexpired at point of application",
+          "waiver": "Not established in bounded own-page read",
+          "scaleBoundary": "Page explicitly lists both scores but gives no test-date boundary; no inferred conversion"
+        },
+        "sourceIds": [
+          "scale002"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24 months",
+          "partTime": "24–36 months",
+          "units": 40
+        },
+        "sourceIds": [
+          "scale002"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-11-01",
+          "closes": "2027-01-31"
+        },
+        "sourceIds": [
+          "scale002"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 58860,
+          "GST": "Includes9%",
+          "cohortScope": "No explicit fee academic year; adjacent intake dates do not establish price year",
+          "application": 163.5,
+          "acceptance": 6540,
+          "acceptanceConditions": "Includes9%GST, non-refundable/non-transferable, credited towards tuition",
+          "miscellaneousStudentFees": "Additional",
+          "rebatesScholarships": "Separate conditional assistance; amount not assumed"
+        },
+        "sourceIds": [
+          "scale002"
+        ]
+      },
+      "concerns": [
+        "GraduationGPA3/5 not admissionGPA. GMAT/GRE not compulsory at application (ownFAQ where read); possible later individual requirements not generalized."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P003",
+      "officialTitle": "MSc (Venture Creation)",
+      "programmeUrl": "https://scale.nus.edu.sg/programmes/graduate/msc-(venture-creation)",
+      "undergraduate": {
+        "value": "Bachelor's preferably honours. Alternatives: entrepreneurial interest with demonstrated activities, STEM background, or >=1 year work experience. FAQ explicitly says work experience not prerequisite.",
+        "sourceIds": [
+          "scale003"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue not English",
+          "TOEFLiBTMinimumAlternatives": [
+            85,
+            4.5
+          ],
+          "IELTSAcademicMinimum": 6,
+          "HomeEdition": "Accepted",
+          "validity": "2 years; unexpired at point of application",
+          "waiver": "Not established in bounded own-page read",
+          "scaleBoundary": "Page explicitly lists both scores but gives no test-date boundary; no inferred conversion"
+        },
+        "sourceIds": [
+          "scale003"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24 months",
+          "partTime": "24–36 months",
+          "units": 40
+        },
+        "sourceIds": [
+          "scale003"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-11-01",
+          "closes": "2027-01-31"
+        },
+        "sourceIds": [
+          "scale003"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 65400,
+          "GST": "Includes9%",
+          "cohortScope": "No explicit fee academic year; adjacent intake dates do not establish price year",
+          "application": 163.5,
+          "acceptance": 6540,
+          "acceptanceConditions": "Includes9%GST, non-refundable/non-transferable, credited towards tuition",
+          "miscellaneousStudentFees": "Additional",
+          "rebatesScholarships": "Separate conditional assistance; amount not assumed"
+        },
+        "sourceIds": [
+          "scale003"
+        ]
+      },
+      "concerns": [
+        "GraduationGPA3/5 not admissionGPA. GMAT/GRE not compulsory at application (ownFAQ where read); possible later individual requirements not generalized."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P004",
+      "officialTitle": "MSc (Environmental Management and Sustainability)",
+      "programmeUrl": "https://scale.nus.edu.sg/programmes/graduate/msc-(environmental-management-and-sustainability)",
+      "identityEvidence": {
+        "value": "Own page explicitly identifies this as formerly MSc (Environmental Management).",
+        "sourceIds": [
+          "scale004"
+        ]
+      },
+      "undergraduate": {
+        "value": "Honours bachelor's, well-recognised university; all disciplines welcome. 3–5 years work experience preferred, sustainability background not mandatory. Outstanding fresh graduates considered case by case; non-honours further postgraduate education may support assessment.",
+        "sourceIds": [
+          "scale004"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue not English",
+          "TOEFLiBTMinimumAlternatives": [
+            85,
+            4.5
+          ],
+          "IELTSAcademicMinimum": 6,
+          "HomeEdition": "Accepted",
+          "validity": "2 years; unexpired at point of application",
+          "waiver": "Not established in bounded own-page read",
+          "scaleBoundary": "Page explicitly lists both scores but gives no test-date boundary; no inferred conversion"
+        },
+        "sourceIds": [
+          "scale004"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24 months",
+          "partTime": "24–36 months",
+          "units": 40
+        },
+        "sourceIds": [
+          "scale004"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-11-01",
+          "closes": "2027-01-31"
+        },
+        "sourceIds": [
+          "scale004"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 57879,
+          "GST": "Includes9%",
+          "cohortScope": "No explicit fee academic year; adjacent intake dates do not establish price year",
+          "application": 163.5,
+          "acceptance": 6540,
+          "acceptanceConditions": "Includes9%GST, non-refundable/non-transferable, credited towards tuition",
+          "miscellaneousStudentFees": "Additional",
+          "rebatesScholarships": "Separate conditional assistance; amount not assumed"
+        },
+        "sourceIds": [
+          "scale004"
+        ]
+      },
+      "concerns": [
+        "GraduationGPA3/5 not admissionGPA. GMAT/GRE not compulsory at application (ownFAQ where read); possible later individual requirements not generalized."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P108",
+      "officialTitle": "MSc (Social Analytics and Artificial Intelligence)",
+      "programmeUrl": "https://scale.nus.edu.sg/programmes/graduate/msc-(social-analytics-and-artificial-intelligence)",
+      "undergraduate": {
+        "value": "Bachelor's preferably honours; >=1 year work experience required for three-year bachelor's without honours. Shortlisted admission interview mandatory.",
+        "sourceIds": [
+          "scale108"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue not English",
+          "TOEFLiBTMinimumAlternatives": [
+            85,
+            4.5
+          ],
+          "IELTSAcademicMinimum": 6,
+          "HomeEdition": "Accepted",
+          "validity": "2 years; unexpired at point of application",
+          "waiver": "Not established in bounded own-page read",
+          "scaleBoundary": "Page explicitly lists both scores but gives no test-date boundary; no inferred conversion"
+        },
+        "sourceIds": [
+          "scale108"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24 months",
+          "partTime": "24–36 months",
+          "units": 40
+        },
+        "sourceIds": [
+          "scale108"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-11-01",
+          "closes": "2027-01-31"
+        },
+        "sourceIds": [
+          "scale108"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 58860,
+          "GST": "Includes9%",
+          "cohortScope": "No explicit fee academic year; adjacent intake dates do not establish price year",
+          "application": 163.5,
+          "acceptance": 6540,
+          "acceptanceConditions": "Includes9%GST, non-refundable/non-transferable, credited towards tuition",
+          "miscellaneousStudentFees": "Additional",
+          "rebatesScholarships": "Separate conditional assistance; amount not assumed"
+        },
+        "sourceIds": [
+          "scale108"
+        ]
+      },
+      "concerns": [
+        "GraduationGPA3/5 not admissionGPA. GMAT/GRE not compulsory at application (ownFAQ where read); possible later individual requirements not generalized."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P109",
+      "officialTitle": "MSc (Social Impact & Nonprofit Leadership)",
+      "programmeUrl": "https://scale.nus.edu.sg/programmes/graduate/msc-(social-impact-nonprofit-leadership)",
+      "undergraduate": {
+        "value": "Bachelor's preferably honours. >=1 year experience preferred and strong aspiration to lead social/nonprofit sectors. FAQ additionally requires experience for three-year bachelor's without honours; minimum years for that FAQ condition not stated. Shortlisted interview mandatory.",
+        "sourceIds": [
+          "scale109"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue not English",
+          "TOEFLiBTMinimumAlternatives": [
+            85,
+            4.5
+          ],
+          "IELTSAcademicMinimum": 6,
+          "HomeEdition": "Accepted",
+          "validity": "2 years; unexpired at point of application",
+          "waiver": "Not established in bounded own-page read",
+          "scaleBoundary": "Page explicitly lists both scores but gives no test-date boundary; no inferred conversion"
+        },
+        "sourceIds": [
+          "scale109"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–24 months",
+          "partTime": "24–36 months",
+          "units": 40
+        },
+        "sourceIds": [
+          "scale109"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-11-01",
+          "closes": "2027-01-31"
+        },
+        "sourceIds": [
+          "scale109"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "gross": 58860,
+          "GST": "Includes9%",
+          "cohortScope": "No explicit fee academic year; adjacent intake dates do not establish price year",
+          "application": 163.5,
+          "acceptance": 6540,
+          "acceptanceConditions": "Includes9%GST, non-refundable/non-transferable, credited towards tuition",
+          "miscellaneousStudentFees": "Additional",
+          "rebatesScholarships": "Separate conditional assistance; amount not assumed"
+        },
+        "sourceIds": [
+          "scale109"
+        ]
+      },
+      "concerns": [
+        "GraduationGPA3/5 not admissionGPA. GMAT/GRE not compulsory at application (ownFAQ where read); possible later individual requirements not generalized."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P116",
+      "officialTitle": "Master of Technology in Artificial Intelligence Systems",
+      "programmeUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-artificial-intelligence-systems",
+      "undergraduate": {
+        "value": "Bachelor's preferably Science/Engineering; average at leastB, no numeric scale stated. Preferably2years relevant work; highly relevant IT degree/good records/practical software knowledge may support experience waiver.",
+        "sourceIds": [
+          "iss116"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "University instruction not English",
+          "TOEFLiBTMinimum": 85,
+          "TOEFLScale": "0–120; own page explicitly continues this scale for tests from21January2026",
+          "IELTSMinimum": 6,
+          "validity": "2years; unexpired at application-period start",
+          "singleTestOnly": true,
+          "MyBest": "Not accepted",
+          "HomeEdition": "Not accepted"
+        },
+        "sourceIds": [
+          "iss116"
+        ]
+      },
+      "selection": {
+        "value": {
+          "test": "Overseas residents submit GRE; Singapore residents pass face-to-face ISS entrance test or submitGRE. GRE recommendation320V+Q/3.5AW, valid5years; not universal hard cutoff.",
+          "interview": "Favourable assessment required",
+          "waiver": "Relevant NUS/NTU/SMU/SUTD bachelor's Distinction/second-upper-or-above waive test/GRE and interview; GDipSA alumni conditionalGPA waiver (numeric cutoff not stated)."
+        },
+        "sourceIds": [
+          "iss116"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year/2semesters",
+          "partTime": "2years/4semesters"
+        },
+        "sourceIds": [
+          "iss116"
+        ]
+      },
+      "application": {
+        "value": {
+          "partTime": {
+            "intake": "January2027",
+            "deadline": "2026-11-15"
+          },
+          "fullTime": {
+            "intake": "August2027",
+            "opens": "2026-10-01",
+            "deadline": "2027-04-01"
+          }
+        },
+        "sourceIds": [
+          "iss116"
+        ]
+      },
+      "fees": {
+        "value": {
+          "status": "Tuition unknown in bounded read",
+          "application": 50,
+          "currency": "SGD",
+          "applicationConditions": "Excludes prevailingGST, non-refundable"
+        },
+        "sourceIds": [
+          "iss116"
+        ]
+      },
+      "concerns": [
+        "Own English85/120 retained; no externalTOEFLconversion. Degree/experience preferences kept distinct from mandatory conditions."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P117",
+      "officialTitle": "Master of Technology in Digital Leadership",
+      "programmeUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-digital-leadership",
+      "undergraduate": {
+        "value": "Accredited bachelor's preferably Science/Engineering/Computing/Business/related, average at leastB (no numeric scale). Mandatory >=5years full-time relevant work after first degree and favourable admissions interview.",
+        "sourceIds": [
+          "iss117"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "Native tongue AND medium of university instruction not English",
+          "TOEFLiBTMinimum": 85,
+          "TOEFLScale": "0–120; own page explicitly continues this scale for tests from21January2026",
+          "IELTSMinimum": 6,
+          "validity": "2years; unexpired at application-period start",
+          "singleTestOnly": true,
+          "MyBest": "Not accepted",
+          "HomeEdition": "Not established in own bounded read"
+        },
+        "sourceIds": [
+          "iss117"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "2years/4semesters"
+        },
+        "sourceIds": [
+          "iss117"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "January2027 part-time",
+          "deadline": "2026-11-15",
+          "operator": "before"
+        },
+        "sourceIds": [
+          "iss117"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currency": "SGD",
+          "grossExGST": 50000,
+          "grossInclGST": 54500,
+          "GST": "9%",
+          "cohortScope": "Unyearred fee table",
+          "acceptance": 5450,
+          "acceptanceConditions": "Includes9%GST, non-refundable/non-transferable, credited",
+          "application": 50,
+          "applicationConditions": "Excludes prevailingGST, non-refundable",
+          "rebate": "Separate eligible self-funded: SC/PR nonalumni net49,050; NUS alumni net43,600; not concurrent",
+          "miscellaneousStudentFees": "Additional"
+        },
+        "sourceIds": [
+          "iss117"
+        ]
+      },
+      "concerns": [
+        "Own English85/120 retained; no externalTOEFLconversion. Degree/experience preferences kept distinct from mandatory conditions."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P118",
+      "officialTitle": "Master of Technology in Enterprise Business Analytics",
+      "programmeUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-enterprise-business-analytics",
+      "undergraduate": {
+        "value": "Bachelor's preferably Mathematics, Statistics, Econometrics, Management Science, Operational Research, Science/Engineering; average at leastB, no numeric scale. Preferably2years relevant work; highly relevant degree/good records may support experience waiver.",
+        "sourceIds": [
+          "iss118"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "University instruction not English",
+          "TOEFLiBTMinimum": 85,
+          "TOEFLScale": "0–120; own page explicitly continues this scale for tests from21January2026",
+          "IELTSMinimum": 6,
+          "validity": "2years; unexpired at application-period start",
+          "singleTestOnly": true,
+          "MyBest": "Not accepted",
+          "HomeEdition": "Not accepted"
+        },
+        "sourceIds": [
+          "iss118"
+        ]
+      },
+      "selection": {
+        "value": {
+          "test": "Overseas residents submit GRE; Singapore residents pass face-to-face ISS entrance test or submitGRE. GRE recommendation320V+Q/3.5AW, valid5years; not universal hard cutoff.",
+          "interview": "Favourable assessment required",
+          "waiver": "Relevant NUS/NTU/SMU/SUTD bachelor's Distinction/second-upper-or-above waive test/GRE and interview; GDipSA alumni conditionalGPA waiver (numeric cutoff not stated)."
+        },
+        "sourceIds": [
+          "iss118"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year/2semesters",
+          "partTime": "2years/4semesters"
+        },
+        "sourceIds": [
+          "iss118"
+        ]
+      },
+      "application": {
+        "value": {
+          "partTime": {
+            "intake": "January2027",
+            "deadline": "2026-11-15"
+          },
+          "fullTime": {
+            "intake": "August2027",
+            "opens": "2026-10-01",
+            "deadline": "2027-04-01"
+          }
+        },
+        "sourceIds": [
+          "iss118"
+        ]
+      },
+      "fees": {
+        "value": {
+          "status": "Tuition unknown in bounded read",
+          "application": 50,
+          "currency": "SGD",
+          "applicationConditions": "Excludes prevailingGST, non-refundable"
+        },
+        "sourceIds": [
+          "iss118"
+        ]
+      },
+      "concerns": [
+        "Own English85/120 retained; no externalTOEFLconversion. Degree/experience preferences kept distinct from mandatory conditions."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P119",
+      "officialTitle": "Master of Technology in Software Engineering",
+      "programmeUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-software-engineering",
+      "undergraduate": {
+        "value": "Bachelor's preferably Science/Engineering; average at leastB, no numeric scale. Preferably2years software-engineering experience and development proficiency, not mandatory years.",
+        "sourceIds": [
+          "iss119"
+        ]
+      },
+      "english": {
+        "value": {
+          "condition": "University instruction not English",
+          "TOEFLiBTMinimum": 85,
+          "TOEFLScale": "0–120; own page explicitly continues this scale for tests from21January2026",
+          "IELTSMinimum": 6,
+          "validity": "2years; unexpired at application-period start",
+          "singleTestOnly": true,
+          "MyBest": "Not accepted",
+          "HomeEdition": "Not accepted"
+        },
+        "sourceIds": [
+          "iss119"
+        ]
+      },
+      "selection": {
+        "value": {
+          "test": "Overseas residents submit GRE; Singapore residents pass face-to-face ISS entrance test or submitGRE. GRE recommendation320V+Q/3.5AW, valid5years; not universal hard cutoff.",
+          "interview": "Favourable assessment required",
+          "waiver": "Relevant NUS/NTU/SMU/SUTD bachelor's Distinction/second-upper-or-above waive test/GRE and interview; GDipSA alumni conditionalGPA waiver (numeric cutoff not stated)."
+        },
+        "sourceIds": [
+          "iss119"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1year/2semesters",
+          "partTime": "2years/4semesters"
+        },
+        "sourceIds": [
+          "iss119"
+        ]
+      },
+      "application": {
+        "value": {
+          "partTime": {
+            "intake": "January2027",
+            "deadline": "2026-11-15"
+          },
+          "fullTime": {
+            "intake": "August2027",
+            "opens": "2026-10-01",
+            "deadline": "2027-04-01"
+          }
+        },
+        "sourceIds": [
+          "iss119"
+        ]
+      },
+      "fees": {
+        "value": {
+          "status": "Tuition unknown in bounded read",
+          "application": 50,
+          "currency": "SGD",
+          "applicationConditions": "Excludes prevailingGST, non-refundable"
+        },
+        "sourceIds": [
+          "iss119"
+        ]
+      },
+      "concerns": [
+        "Own English85/120 retained; no externalTOEFLconversion. Degree/experience preferences kept distinct from mandatory conditions."
+      ]
+    }
+  ],
+  "batch": "nus-scale-iss-2026-11-10",
+  "programmeIds": [
+    "SG-NUS-P001",
+    "SG-NUS-P002",
+    "SG-NUS-P003",
+    "SG-NUS-P004",
+    "SG-NUS-P108",
+    "SG-NUS-P109",
+    "SG-NUS-P116",
+    "SG-NUS-P117",
+    "SG-NUS-P118",
+    "SG-NUS-P119"
+  ],
+  "counts": {
+    "newPartialParents": 10,
+    "newRouteGroups": 0,
+    "newRouteSnapshots": 0,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "limits": [
+    "ISS explicitly keeps120-scale values for new test reports. Existing profile form does not infer a6-scale equivalence; that report route remains confirmation.",
+    "Before15November wording is not converted into an invented inclusive cutoff or midnight.",
+    "Unyearred fee quotes are not relabelled as confirmed2027 totals."
+  ]
+}

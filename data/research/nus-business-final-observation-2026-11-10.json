@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-11-10",
+  "programmeIds": [
+    "SG-NUS-P005",
+    "SG-NUS-P006",
+    "SG-NUS-P013",
+    "SG-NUS-P036",
+    "SG-NUS-P038",
+    "SG-NUS-P120",
+    "SG-NUS-P121"
+  ],
+  "counts": {
+    "newPartialParents": 7,
+    "newRouteGroups": 1,
+    "newRouteSnapshots": 1,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "sources": {
+    "p005": {
+      "url": "https://mba.nus.edu.sg/admissions-and-funding/",
+      "readOn": "2026-11-10",
+      "section": "August 2027 entry, tests, dated rounds and fees",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p005faq": {
+      "url": "https://mba.nus.edu.sg/faq/",
+      "readOn": "2026-11-10",
+      "section": "English applicability/waiver and Home Edition; MBA format durations",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p005o": {
+      "url": "https://mba.nus.edu.sg/",
+      "readOn": "2026-11-10",
+      "section": "FT/PT format durations",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p006a": {
+      "url": "https://mscacc.nus.edu.sg/admissions/admission-requirements/",
+      "readOn": "2026-11-10",
+      "section": "Current-title own entry and English",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p006w": {
+      "url": "https://mscacc.nus.edu.sg/admissions/application-process/",
+      "readOn": "2026-11-10",
+      "section": "Aug2027 window and final-degree July22 date",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p006c": {
+      "url": "https://mscacc.nus.edu.sg/academics/programme-structure-and-curriculum/",
+      "readOn": "2026-11-10",
+      "section": "12–18-month heading vs12-month prose",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p006q": {
+      "url": "https://mscacc.nus.edu.sg/faqs/",
+      "readOn": "2026-11-10",
+      "section": "4year degree/exceptional3year route, FT-only, English waiver",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p006f": {
+      "url": "https://mscacc.nus.edu.sg/fees-finances/programme-fees/",
+      "readOn": "2026-11-10",
+      "section": "Single degree August2027 fee",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p013": {
+      "url": "https://msba.nus.edu.sg/programme/",
+      "readOn": "2026-11-10",
+      "section": "Own admission criteria,Aug2027window,fee; timelineimage not read",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p036": {
+      "url": "https://www.aidf.nus.edu.sg/executive-master-in-ai-and-digital-transformation/admission-and-financing/",
+      "readOn": "2026-11-10",
+      "section": "Typical candidate degree,8years work,English/EA,test policy,2027fee",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p036o": {
+      "url": "https://www.aidf.nus.edu.sg/executive-master-in-ai-and-digital-transformation/",
+      "readOn": "2026-11-10",
+      "section": "January2027 CLOSED;PTduration",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p038a": {
+      "url": "https://emim.nus.edu.sg/admissions-finance/",
+      "readOn": "2026-11-10",
+      "section": "Gateway requirements,January2028windows,AY2027/28fees",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p038q": {
+      "url": "https://emim.nus.edu.sg/faq/",
+      "readOn": "2026-11-10",
+      "section": "Mature candidates30+,English5.0(100)/7;mandatorygateway",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p038c": {
+      "url": "https://emim.nus.edu.sg/programme/",
+      "readOn": "2026-11-10",
+      "section": "24monthsPT",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p120": {
+      "url": "https://embac.nus.edu.sg/admission/",
+      "readOn": "2026-11-10",
+      "section": "Own bachelor/work/management requirements;2026cohort only,discretionaryexceptions",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p120o": {
+      "url": "https://embac.nus.edu.sg/",
+      "readOn": "2026-11-10",
+      "section": "Chinese instruction,2years;2027newsheadline but article unavailable",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p121": {
+      "url": "https://emba.nus.edu.sg/admissions-funding/",
+      "readOn": "2026-11-10",
+      "section": "Bachelor/10yearswork/seniority,English,dated2026–27window,feesandPTapplicationmode",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p121o": {
+      "url": "https://emba.nus.edu.sg/",
+      "readOn": "2026-11-10",
+      "section": "15months,Mayannualstart",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    }
+  },
+  "programmeFacts": [
+    {
+      "programmeId": "SG-NUS-P005",
+      "officialTitle": "Master of Business Administration",
+      "programmeUrl": "https://mba.nus.edu.sg/",
+      "concerns": [
+        "No new TOEFL equivalent inferred. Generic MBA record covers FT/PT/Flex; double degrees not conflated.",
+        "PT applicant eligibility wording includes non-Singaporeans/ Singapore PR candidates; do not narrow it to foreigners excluding PR. Common regular-MBA facts are not automatically applicable to NUS-HEC/NUS-Peking double degrees or Executive MBAs. Flex-specific application rounds are not separately labelled; only a common Part-time MBA rounds heading is present."
+      ],
+      "undergraduate": {
+        "value": "Bachelor plus at least 2 years post-bachelor full-time work at application. For part-time applications, source describes non-Singaporean/Singapore-PR candidates as needing proof of Singapore-based full-time employment or residency, valid at application; preserve that source wording rather than assuming PR exemption. From August2027, all regular MBA formats accept valid GMAT/GRE/EA unless discretionary waiver; >=4 years full-time professional experience and strong profile may be considered for waiver. No fixed GMAT/GRE/EA minimum score stated.",
+        "sourceIds": [
+          "p005"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "TOEFLMinimum": 100,
+          "TOEFLVersion": "Not named in benchmark; FAQ accepts iBT Home Edition",
+          "applicability": "UG or PG degree not fully English taught",
+          "waiver": "May request case-by-case with >=5 years work in English-speaking environment if no English-taught degree",
+          "validity": "Report must remain valid at least one month after submission",
+          "components": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p005",
+          "p005faq"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "12–17 months",
+          "partTime": "18,24 or30 months including Flex"
+        },
+        "sourceIds": [
+          "p005o"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-09-01",
+          "fullTimeRounds": [
+            "2026-10-29",
+            "2027-01-20",
+            "2027-03-31"
+          ],
+          "partTimeRounds": [
+            "2026-11-24",
+            "2027-02-25",
+            "2027-05-05"
+          ]
+        },
+        "sourceIds": [
+          "p005"
+        ]
+      },
+      "fees": {
+        "value": {
+          "totalInclGST": "S$106,849.76",
+          "cohort": "August2027;FT/PT/Flex"
+        },
+        "sourceIds": [
+          "p005"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P006",
+      "officialTitle": "MSc in Accounting and Financial Analytics",
+      "programmeUrl": "https://mscacc.nus.edu.sg/",
+      "concerns": [
+        "Existing catalogue title MSc Accounting; direct department-to-current mscacc link chain is staged in facts identityOnly. Preserve stable existingID and previousTitle; formal rename year/award continuity across cohorts unknown.",
+        "Own duration and final-degree document dates differ; do not silently choose one."
+      ],
+      "undergraduate": {
+        "value": "Good undergraduate degree any discipline; final-year applicants welcome; no work required; GMAT/GRE optional. FAQ specifies four-year bachelor, very strong three-year bachelor may be considered case by case. Shortlist interview.",
+        "sourceIds": [
+          "p006a",
+          "p006q"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "IELTSVersion": "Academic only per FAQ",
+          "TOEFLiBTMinimum": 5,
+          "applicability": "English not native language OR undergraduate instruction medium",
+          "waiver": "Entirely English-taught degree may request waiver with official proof",
+          "components": "unknown",
+          "versionDates": "unknown",
+          "validity": "unknown"
+        },
+        "sourceIds": [
+          "p006a",
+          "p006q"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Structure heading12–18months; prose/FAQ12months;40units",
+          "partTime": "Not offered"
+        },
+        "sourceIds": [
+          "p006c",
+          "p006q"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-09-01",
+          "round1": "2026-11-15",
+          "closes": "2027-02-15",
+          "degreeCompletionDocuments": "July22 2027 on application page; FAQ saysJuly15 unyearred"
+        },
+        "sourceIds": [
+          "p006w",
+          "p006q"
+        ]
+      },
+      "fees": {
+        "value": {
+          "singleDegreeInclGST": "S$77,608",
+          "cohort": "AY2027/28"
+        },
+        "sourceIds": [
+          "p006f"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P013",
+      "officialTitle": "MSc in Business Analytics",
+      "programmeUrl": "https://msba.nus.edu.sg/",
+      "concerns": [
+        "Honours/work alternative scope retained as source wording; no nondegree route inferred. Fee gross/net caveat and English unknown preserved."
+      ],
+      "undergraduate": {
+        "value": "Own wording: good bachelor, preferably Business/Computing/Economics/Engineering/Mathematics/Science/Statistics, with good honours; or at least2years relevant work. Strong mathematics foundation; good quantitative GRE/GMAT highly recommended, not mandatory sinceAY2025/26.",
+        "sourceIds": [
+          "p013"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": "unknown",
+          "TOEFLMinimum": "unknown",
+          "note": "No current English benchmark/waiver on own admission text read; oldAY2025/26checklist says noEnglish test but not transferred to2027"
+        },
+        "sourceIds": [
+          "p013"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "Offered;normaldurationunknown",
+          "partTime": "Offered;normaldurationunknown",
+          "note": "Timelineimage not read; do not infer duration from fee instalments"
+        },
+        "sourceIds": [
+          "p013"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027 AY2027/28",
+          "opens": "2026-10-05",
+          "closes": "2027-01-31",
+          "scholarshipDeadline": "2026-12-15"
+        },
+        "sourceIds": [
+          "p013"
+        ]
+      },
+      "fees": {
+        "value": {
+          "displayedFullProgrammeInclGST": "S$87,550",
+          "cohort": "AY2027/28",
+          "concern": "Headline fullprogramme and rebate section followed by note that fees are after rebate; gross/net applicability unresolved"
+        },
+        "sourceIds": [
+          "p013"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P036",
+      "officialTitle": "Executive Master in AI and Digital Transformation",
+      "programmeUrl": "https://www.aidf.nus.edu.sg/executive-master-in-ai-and-digital-transformation/",
+      "concerns": [
+        "Source frames degree/work under typical candidate; exceptional nondegree route retained, no rigid bachelor screen inferred."
+      ],
+      "undergraduate": {
+        "value": "Typical candidate: bachelor expected; exceptional nondegree candidates considered based on professional achievements; at least8years full-time work. GMAT/GRE not required, optional international submission; shortlisted interview.",
+        "sourceIds": [
+          "p036"
+        ]
+      },
+      "english": {
+        "value": {
+          "fluency": "Required",
+          "waiver": "NoTOEFL/IELTS if English-taught degree or native English",
+          "IELTSMinimum": "unknown",
+          "TOEFLMinimum": "unknown",
+          "EA": "Good score may be required case by case"
+        },
+        "sourceIds": [
+          "p036"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "1year,up to3;6intensiveweeks spread12months",
+          "fullTime": "not listed"
+        },
+        "sourceIds": [
+          "p036o"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "January2027",
+          "status": "Own homepage says admission CLOSED",
+          "opens": "unknown",
+          "closes": "unknown"
+        },
+        "sourceIds": [
+          "p036o"
+        ]
+      },
+      "fees": {
+        "value": {
+          "totalInclGST": "S$116,000",
+          "cohort": "Payment schedule labelsJan/July2027",
+          "excludes": "Global immersion travel/accommodation"
+        },
+        "sourceIds": [
+          "p036"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P038",
+      "officialTitle": "Executive MSc in Management",
+      "programmeUrl": "https://emim.nus.edu.sg/",
+      "concerns": [
+        "Oldbrochure no-degree route not assumed as current formal waiver; current gateway pathway stated. FAQ scholarship absence conflicts admissions awards; no aid eligibility inferred."
+      ],
+      "undergraduate": {
+        "value": "Current admissions pathway requires both Gateway Courses (Financial Analysis and Business Decisions for Non-Finance Managers; Business Analytics: Decision Making through Excel) at Merit. Apply after at least one; both before offer. Current page academic certificates if applicable; no degree minimum or workyear minimum stated. FAQ describes mature30+ candidates, not explicit age exclusion.",
+        "sourceIds": [
+          "p038a",
+          "p038q"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "TOEFLMinimum": "5.0(100) perFAQ;5.0only admissions",
+          "applicability": "English not native OR medium of prior instruction",
+          "versionDates": "unknown",
+          "validity": "unknown",
+          "components": "unknown"
+        },
+        "sourceIds": [
+          "p038a",
+          "p038q"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "24months,mostlyonline plus shortinperson sessions",
+          "fullTime": "not offered"
+        },
+        "sourceIds": [
+          "p038c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "January2028",
+          "opens": "2026-09-01",
+          "rounds": [
+            "2026-11-15",
+            "2027-02-15",
+            "2027-06-30"
+          ],
+          "outcome": "October2027"
+        },
+        "sourceIds": [
+          "p038a"
+        ]
+      },
+      "fees": {
+        "value": {
+          "totalInclGST": "S$57,879",
+          "cohort": "AY2027/28"
+        },
+        "sourceIds": [
+          "p038a"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P120",
+      "officialTitle": "NUS Executive MBA (Chinese)",
+      "programmeUrl": "https://embac.nus.edu.sg/",
+      "concerns": [
+        "Homepage2027brief headline coexists with2026 admission details; no year rollover."
+      ],
+      "undergraduate": {
+        "value": "本科或以上；本科后8年以上全职工作，5年以上高层管理经验；计划或已经出海企业优先。FAQ allows discretionary consideration if degree/work requirements unmet; no guaranteed exception.",
+        "sourceIds": [
+          "p120"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": "unknown",
+          "TOEFLMinimum": "unknown",
+          "instruction": "Chinese;Englishcourseswithsimultaneousinterpretation",
+          "note": "No test waiver inferred from Chinese teaching"
+        },
+        "sourceIds": [
+          "p120",
+          "p120o"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "2years;intensive segments every~2months",
+          "fullTime": "unknown"
+        },
+        "sourceIds": [
+          "p120o"
+        ]
+      },
+      "application": {
+        "value": {
+          "displayedIntake": "September2026",
+          "displayedCloses": "June2026(monthonly)",
+          "nextIntake": "2027brief headline onhomepage but details unresolved",
+          "opens": "unknown",
+          "closes": "unknown"
+        },
+        "sourceIds": [
+          "p120",
+          "p120o"
+        ]
+      },
+      "fees": {
+        "value": "Tuition by enquiry; no total published in source read",
+        "sourceIds": [
+          "p120"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P121",
+      "officialTitle": "NUS Executive MBA (English)",
+      "programmeUrl": "https://emba.nus.edu.sg/",
+      "concerns": [
+        "No test minimum invented and no intake year inferred solely from fee instalment dates."
+      ],
+      "undergraduate": {
+        "value": "Regionally accredited bachelor/equivalent;>=10years full-time work after firstdegree; seniorposition or potential for senior managerial role soon;shortlistinterview;goodEA may be required case by case.",
+        "sourceIds": [
+          "p121"
+        ]
+      },
+      "english": {
+        "value": {
+          "applicability": "TOEFL/IELTS required if undergraduate study notEnglish",
+          "IELTSMinimum": "unknown",
+          "TOEFLMinimum": "unknown",
+          "validity": "unknown"
+        },
+        "sourceIds": [
+          "p121"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "15months,6segments of1–2weeks;study mode PT in own application instructions",
+          "fullTime": "unknown"
+        },
+        "sourceIds": [
+          "p121",
+          "p121o"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "Mayannual;windowdoesnotexplicitlylabelintakeyear",
+          "opens": "2026-08-01",
+          "round1": "2026-11-15",
+          "closes": "2027-02-10"
+        },
+        "sourceIds": [
+          "p121",
+          "p121o"
+        ]
+      },
+      "fees": {
+        "value": {
+          "totalInclGST": "S$152,993.36",
+          "cohort": "Payment scheduleApr2027–Apr2028;noexplicitintakeheading",
+          "excludes": "Flights/accommodation"
+        },
+        "sourceIds": [
+          "p121"
+        ]
+      }
+    }
+  ],
+  "held": [],
+  "limits": [
+    "Own source observations are partial, not complete admissions or independent human review.",
+    "No guessed GPA denominator, universal work preference, fee-year projection, test conversion or live portal availability.",
+    "Only standalone NUS MBA checked; HEC/Peking sibling awards remain directory evidence.",
+    "MBA part-time wording includes non-Singaporeans and Singapore-PR applicants; no PR exemption is inferred. Flex rounds are not separately labelled."
+  ],
+  "accountingIdentityChain": [
+    {
+      "programmeId": "SG-NUS-P006",
+      "status": "Direct official link chain found, formal rename not established",
+      "evidence": {
+        "value": {
+          "departmentCardTitle": "MSc (Accounting)",
+          "departmentCardUrl": "https://bschool.nus.edu.sg/accounting/",
+          "cardDirectLink": "https://mscacc.nus.edu.sg/",
+          "currentOwnSiteTitle": "MSc in Accounting and Financial Analytics",
+          "legacyInformationUrl": "https://bschool.nus.edu.sg/accounting/msc-accounting/",
+          "legacyUrlCurrentHeading": "MSc (Accounting and Financial Analytics)",
+          "durationOnDepartmentInformationPage": "12 months in three semesters",
+          "legacyInfoHowToApplyLinkResolvedTo": "https://mscacc.nus.edu.sg/",
+          "legacyInfoProgrammeStructureLinkObservedDomain": "mscacc.nus.edu.sg"
+        },
+        "sourceIds": [
+          "accountingDepartment",
+          "accountingInformation",
+          "accountingHome"
+        ]
+      },
+      "admissionsFactsNotTransferred": true,
+      "concern": "This establishes an explicit department-card link from old title to current own programme site. It does not establish effective rename year or interchangeability of awards across cohorts; owner should retain name/degree-scope review."
+    }
+  ]
+}

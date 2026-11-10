@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "readOn": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "Five existing nursing/clinical IDs; own public pages; staging only",
+  "sources": {
+    "p060a": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-community-health/admission-requirements/",
+      "readOn": "2026-11-10",
+      "section": "Entry alternatives and English applicability",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p060c": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-community-health/curriculum/",
+      "readOn": "2026-11-10",
+      "section": "40 units part-time",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p060f": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-community-health/tuition-fees/",
+      "readOn": "2026-11-10",
+      "section": "Unyearred tuition for40 units incl9%GST",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p060w": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-community-health/how-to-apply/",
+      "readOn": "2026-11-10",
+      "section": "Recurring August cycle, no intake year",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p081a": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-science-critical-care-nursing/admission-requirements/",
+      "readOn": "2026-11-10",
+      "section": "Entry alternatives and English applicability",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p081c": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-science-critical-care-nursing/curriculum/",
+      "readOn": "2026-11-10",
+      "section": "40 units part-time",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p081f": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-science-critical-care-nursing/tuition-fees/",
+      "readOn": "2026-11-10",
+      "section": "Unyearred tuition for40 units incl9%GST",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p081w": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-science-critical-care-nursing/",
+      "readOn": "2026-11-10",
+      "section": "Recurring August cycle, no intake year",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p091a": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-science-infection-prevention-and-control/admission-requirements/",
+      "readOn": "2026-11-10",
+      "section": "Entry alternatives and English applicability",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p091c": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-science-infection-prevention-and-control/curriculum/",
+      "readOn": "2026-11-10",
+      "section": "40 units part-time",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p091f": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-science-infection-prevention-and-control/tuition-fees/",
+      "readOn": "2026-11-10",
+      "section": "Unyearred tuition for40 units incl9%GST",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p091w": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-science-infection-prevention-and-control/",
+      "readOn": "2026-11-10",
+      "section": "Recurring August cycle, no intake year",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p067a": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-nursing/admission-requirements/",
+      "readOn": "2026-11-10",
+      "section": "Entry, SNB registration, practice, Jan recurring cycle and FT18months",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p067w": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-nursing/how-to-apply/",
+      "readOn": "2026-11-10",
+      "section": "Different recurring application window",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p067f": {
+      "url": "https://medicine.nus.edu.sg/nursing/education-admissions/postgraduate/masters/master-of-nursing/tuition-fees/",
+      "readOn": "2026-11-10",
+      "section": "Adult Health fee effectiveJan2026 and mandatory sponsorship",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p058": {
+      "url": "https://medicine.nus.edu.sg/graduatestudies/education/master-of-clinical-investigation/",
+      "readOn": "2026-11-10",
+      "section": "RescheduledAug2027/TBC dates, professional entry tracks, PT2years, olderAY2026/27 fees",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    }
+  },
+  "programmes": [
+    {
+      "programmeId": "SG-NUS-P060",
+      "officialTitle": "Master of Community Health",
+      "programmeUrl": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-community-health/",
+      "undergraduate": {
+        "value": "Healthcare-related bachelor GPA>=3.00 OR bachelor + relevant Graduate Diploma GPA>=3.00 OR bachelor + relevant Graduate Certificate GPA>=3.00 OR bachelor +>=2 years relevant work; other qualifications/experience case by case.",
+        "sourceIds": [
+          "p060a"
+        ]
+      },
+      "english": {
+        "value": {
+          "applicability": "Applicants whose native tongue AND university instruction are not English",
+          "IELTSMinimum": 6,
+          "IELTSVersion": "not specified",
+          "TOEFLiBTMinimum": 85,
+          "components": "unknown",
+          "scoreVersionDate": "unknown",
+          "validity": "unknown"
+        },
+        "sourceIds": [
+          "p060a"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "40 units; normal duration unknown",
+          "fullTime": "not offered on curriculum page"
+        },
+        "sourceIds": [
+          "p060c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August, annual unyearred",
+          "opens": "1 January annually",
+          "closes": "30 April annually",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p060w"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuitionInclGST": "S$54,990.50",
+          "currency": "SGD",
+          "intakeYear": "unknown",
+          "scope": "40 units; miscellaneous extra; more units may cost extra"
+        },
+        "sourceIds": [
+          "p060f"
+        ]
+      },
+      "concerns": [
+        "GPA denominator not stated; no conversion inferred. English test-version date/components not stated. Recurring dates are not assigned a year."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P081",
+      "officialTitle": "Master of Science (Critical Care Nursing)",
+      "programmeUrl": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-science-critical-care-nursing/",
+      "undergraduate": {
+        "value": "Nursing bachelor GPA>=3.00; other qualifications/experience case by case. No hard work-years stated.",
+        "sourceIds": [
+          "p081a"
+        ]
+      },
+      "english": {
+        "value": {
+          "applicability": "Applicants whose native tongue AND university instruction are not English",
+          "IELTSMinimum": 6,
+          "IELTSVersion": "not specified",
+          "TOEFLiBTMinimum": 85,
+          "components": "unknown",
+          "scoreVersionDate": "unknown",
+          "validity": "unknown"
+        },
+        "sourceIds": [
+          "p081a"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "40 units; normal duration unknown",
+          "fullTime": "not offered on curriculum page"
+        },
+        "sourceIds": [
+          "p081c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August, annual unyearred",
+          "opens": "1 January annually",
+          "closes": "30 April annually",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p081w"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuitionInclGST": "S$54,990.50",
+          "currency": "SGD",
+          "intakeYear": "unknown",
+          "scope": "40 units; miscellaneous extra; more units may cost extra"
+        },
+        "sourceIds": [
+          "p081f"
+        ]
+      },
+      "concerns": [
+        "GPA denominator not stated; no conversion inferred. English test-version date/components not stated. Recurring dates are not assigned a year."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P091",
+      "officialTitle": "Master of Science (Infection Prevention and Control)",
+      "programmeUrl": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-science-infection-prevention-and-control/",
+      "undergraduate": {
+        "value": "Nursing bachelor GPA>=3.00 AND >=1 year relevant work; other qualifications/experience case by case.",
+        "sourceIds": [
+          "p091a"
+        ]
+      },
+      "english": {
+        "value": {
+          "applicability": "Applicants whose native tongue AND university instruction are not English",
+          "IELTSMinimum": 6,
+          "IELTSVersion": "not specified",
+          "TOEFLiBTMinimum": 85,
+          "components": "unknown",
+          "scoreVersionDate": "unknown",
+          "validity": "unknown"
+        },
+        "sourceIds": [
+          "p091a"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "40 units; normal duration unknown",
+          "fullTime": "not offered on curriculum page"
+        },
+        "sourceIds": [
+          "p091c"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August, annual unyearred",
+          "opens": "1 January annually",
+          "closes": "30 April annually",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p091w"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuitionInclGST": "S$59,950.00",
+          "currency": "SGD",
+          "intakeYear": "unknown",
+          "scope": "40 units; miscellaneous extra; more units may cost extra"
+        },
+        "sourceIds": [
+          "p091f"
+        ]
+      },
+      "concerns": [
+        "GPA denominator not stated; no conversion inferred. English test-version date/components not stated. Recurring dates are not assigned a year."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P067",
+      "officialTitle": "Master of Nursing",
+      "programmeUrl": "https://medicine.nus.edu.sg/nursing/education-programmes/postgraduate/masters/master-of-nursing/",
+      "undergraduate": {
+        "value": "SNB-accredited nursing bachelor; GPA>=3.20; full SNB registration and valid practising certificate; >=5 years continuous RN clinical practice. Acute Critical Care/Emergency and mental-health applicants also need clinical specialty Advanced/Postgraduate Diploma. Chief Nurse/Director of Nursing/department recommendations and health requirements; interview may apply. Organisation sponsorship required per tuition FAQ.",
+        "sourceIds": [
+          "p067a",
+          "p067f"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": "unknown",
+          "TOEFLMinimum": "unknown",
+          "note": "No English test benchmark found on own admission page; absence is not waiver."
+        },
+        "sourceIds": [
+          "p067a"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "18 months, three semesters",
+          "partTime": "not offered per admission FAQ"
+        },
+        "sourceIds": [
+          "p067a"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "January annually, no explicit year",
+          "opens": "conflict:1 September vs1 August annually",
+          "closes": "conflict:15 October vs15 September annually",
+          "intakeYear": "unknown"
+        },
+        "sourceIds": [
+          "p067a",
+          "p067w"
+        ]
+      },
+      "fees": {
+        "value": {
+          "AdultHealthInclGST": "S$77,400 for3semesters, effectiveJanuary2026",
+          "otherPathwayFee": "unknown",
+          "scope": "Miscellaneous extra; sponsorship letter required"
+        },
+        "sourceIds": [
+          "p067f"
+        ]
+      },
+      "concerns": [
+        "Directory absence is not closure; own programme and admissions remain public. Two official pages disagree on annual window; no exact-year deadline selected. GPA scale unknown."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P058",
+      "officialTitle": "Master of Clinical Investigation",
+      "programmeUrl": "https://medicine.nus.edu.sg/graduatestudies/education/master-of-clinical-investigation/",
+      "undergraduate": {
+        "value": "Physicians: internationally recognised MBBS/equivalent AND entered specialist training/residency AND research aptitude. Allied health/other healthcare professionals: internationally recognised professional qualification AND>=3 years professional practice AND research aptitude.",
+        "sourceIds": [
+          "p058"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": "unknown",
+          "TOEFLMinimum": "unknown",
+          "note": "Not stated in own requirements read"
+        },
+        "sourceIds": [
+          "p058"
+        ]
+      },
+      "study": {
+        "value": {
+          "partTime": "2academic years, optional third year for research; intensive full-day blocks need time off",
+          "fullTime": "unknown"
+        },
+        "sourceIds": [
+          "p058"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027 rescheduled",
+          "opens": "to be confirmed",
+          "closes": "to be confirmed"
+        },
+        "sourceIds": [
+          "p058"
+        ]
+      },
+      "fees": {
+        "value": {
+          "currentIntakeTotal": "unknown",
+          "historicalOnly": "AY2026/27 S$63,750 incl9%GST; not projected to2027"
+        },
+        "sourceIds": [
+          "p058"
+        ]
+      },
+      "concerns": [
+        "Explicit reschedule and TBC take precedence over a guessed annual cycle. No current-cohort fee or English waiver inferred."
+      ]
+    }
+  ],
+  "programmeIds": [
+    "SG-NUS-P060",
+    "SG-NUS-P081",
+    "SG-NUS-P091",
+    "SG-NUS-P067",
+    "SG-NUS-P058"
+  ],
+  "counts": {
+    "newPartialParents": 5,
+    "newRouteGroups": 0,
+    "newRouteSnapshots": 0,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "limits": [
+    "No invented GPA denominator, registration/licensing approval, sponsorship or score waiver.",
+    "Rescheduled/TBC and conflicting annual sources remain unresolved; old fees are not future prices."
+  ]
+}

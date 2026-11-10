@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "readOn": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "Four existing NUS Medicine coursework IDs; staging only; public own-source HTML, no authenticated endpoints",
+  "sources": {
+    "p072": {
+      "url": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-applied-biomedicine/",
+      "readOn": "2026-11-10",
+      "section": "Overview intake, minimum requirements, study period, AY2027/28 tuition; FAQ if present",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p090": {
+      "url": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-human-potential-and-performance/",
+      "readOn": "2026-11-10",
+      "section": "Overview intake, minimum requirements, study period, AY2027/28 tuition; FAQ if present",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p100": {
+      "url": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-medical-pharmacology/",
+      "readOn": "2026-11-10",
+      "section": "Overview intake, minimum requirements, study period, AY2027/28 tuition; FAQ if present",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p101": {
+      "url": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-nutrition-and-lifestyle-medicine/",
+      "readOn": "2026-11-10",
+      "section": "Overview intake, minimum requirements, study period, AY2027/28 tuition; FAQ if present",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    }
+  },
+  "programmes": [
+    {
+      "programmeId": "SG-NUS-P072",
+      "officialTitle": "Master of Science in Applied Biomedicine",
+      "programmeUrl": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-applied-biomedicine/",
+      "concerns": [
+        "No score-version dates/components stated.",
+        "No GPA scale or admissions probability inferred."
+      ],
+      "undergraduate": {
+        "value": "Honours MBBS, Life Sciences (including biochemistry/cell/molecular biology), bioengineering, biotechnology or related health sciences; other qualifications plus relevant industry experience considered case by case.",
+        "sourceIds": [
+          "p072"
+        ]
+      },
+      "english": {
+        "value": "International applicants from non-English-speaking universities: TOEFL iBT >=85 or IELTS Academic >=6.0; valid two years and unexpired at application.",
+        "sourceIds": [
+          "p072"
+        ]
+      },
+      "study": {
+        "value": "Headline FT 1 year/PT 2 years; detailed expected FT 12–24 months (max24), PT24–36(max36).",
+        "sourceIds": [
+          "p072"
+        ]
+      },
+      "application": {
+        "value": "August2027: 1Oct2026–30Apr2027.",
+        "sourceIds": [
+          "p072"
+        ]
+      },
+      "fees": {
+        "value": "AY2027/28 gross tuition S$61,300 including GST; miscellaneous fees extra.",
+        "sourceIds": [
+          "p072"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P090",
+      "officialTitle": "Master of Science in Human Potential and Performance",
+      "programmeUrl": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-human-potential-and-performance/",
+      "concerns": [
+        "Source explicitly uses three-year English validity; do not replace with generic two-year rule. No version dates/components stated.",
+        "No GPA scale or admissions probability inferred."
+      ],
+      "undergraduate": {
+        "value": "Relevant bachelor in any field with psychology, physiology or neuroscience subjects; four-year honours preferred. Three-year non-honours requires >=1 year work. Faculty entry interview required; relevant industry experience favoured.",
+        "sourceIds": [
+          "p090"
+        ]
+      },
+      "english": {
+        "value": "International applicants from non-English-speaking universities: TOEFL iBT >=85 or IELTS Academic >=6.0; test no earlier than three years before proposed admission.",
+        "sourceIds": [
+          "p090"
+        ]
+      },
+      "study": {
+        "value": "Headline FT1/PT2 years; detailed expected FT12–24(max24) months, PT24–48(max48).",
+        "sourceIds": [
+          "p090"
+        ]
+      },
+      "application": {
+        "value": "August2027: 1Nov2026–28Feb2027.",
+        "sourceIds": [
+          "p090"
+        ]
+      },
+      "fees": {
+        "value": "AY2027/28 gross tuition S$62,392 incl GST; miscellaneous extra.",
+        "sourceIds": [
+          "p090"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P100",
+      "officialTitle": "Master of Science in Medical Pharmacology",
+      "programmeUrl": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-medical-pharmacology/",
+      "concerns": [
+        "Fee headline/table presentation requires care; do not silently sum or subtract acceptance. No English version dates/components stated.",
+        "No GPA scale or admissions probability inferred."
+      ],
+      "undergraduate": {
+        "value": "MBBS or relevant bachelor (honours preferred) in Life Sciences, Nursing, Bioengineering, Bioinformatics, Computational Biology, Health Sciences or related fields. Other qualifications/industry experience considered case by case; relevant experience favoured; selected applicants interviewed.",
+        "sourceIds": [
+          "p100"
+        ]
+      },
+      "english": {
+        "value": "International applicants from non-English-speaking universities: TOEFL iBT>=85 or IELTS Academic>=6.0; valid two years and unexpired at application.",
+        "sourceIds": [
+          "p100"
+        ]
+      },
+      "study": {
+        "value": "Headline FT1/PT2 years; detailed expected FT12–24(max24) months/PT24–48(max48).",
+        "sourceIds": [
+          "p100"
+        ]
+      },
+      "application": {
+        "value": "August2027 opens1Sep2026; international closes30Apr2027, local31May2027; rolling outcomes.",
+        "sourceIds": [
+          "p100"
+        ]
+      },
+      "fees": {
+        "value": "AY2027/28 headline gross S$67,362 incl GST; fee table separately shows FT semester charges S$30,956 twice plus S$5,450 credited acceptance.",
+        "sourceIds": [
+          "p100"
+        ]
+      }
+    },
+    {
+      "programmeId": "SG-NUS-P101",
+      "officialTitle": "Master of Science in Nutrition and Lifestyle Medicine",
+      "programmeUrl": "https://medicine.nus.edu.sg/graduatestudies/education/msc-in-nutrition-and-lifestyle-medicine/",
+      "concerns": [
+        "English applicability wording differs between minimum-requirements and FAQ. No version dates/components stated.",
+        "No GPA scale or admissions probability inferred."
+      ],
+      "undergraduate": {
+        "value": "Accredited bachelor; varied backgrounds welcomed, committee case-by-case. Relevant industry experience favoured; FAQ says advantageous, not mandatory.",
+        "sourceIds": [
+          "p101"
+        ]
+      },
+      "english": {
+        "value": "International applicants from non-English-speaking universities: TOEFL iBT>=85 or IELTS Academic>=6.0; two years/unexpired at application. English undergraduate instruction indicated in application may waive. FAQ broadly says non-native speakers: applicability differs.",
+        "sourceIds": [
+          "p101"
+        ]
+      },
+      "study": {
+        "value": "FT1/PT2 years headline; expected FT12–24(max24) months/PT24–36(max36).",
+        "sourceIds": [
+          "p101"
+        ]
+      },
+      "application": {
+        "value": "August2027:1Oct2026–28Feb2027.",
+        "sourceIds": [
+          "p101"
+        ]
+      },
+      "fees": {
+        "value": "AY2027/28 gross tuition S$67,362 incl GST; miscellaneous extra.",
+        "sourceIds": [
+          "p101"
+        ]
+      }
+    }
+  ],
+  "programmeIds": [
+    "SG-NUS-P072",
+    "SG-NUS-P090",
+    "SG-NUS-P100",
+    "SG-NUS-P101"
+  ],
+  "counts": {
+    "newPartialParents": 4,
+    "newRouteGroups": 0,
+    "newRouteSnapshots": 0,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "limits": [
+    "No blanket two-year English rule, yearless score conversion or universal applicant-category deadline.",
+    "Gross tuition includes credited acceptance; no double charge or automatic discount.",
+    "Headline and detailed duration ranges remain distinguishable."
+  ]
+}

@@ -19,10 +19,10 @@ const seed = read('data/catalogue.json'), expansion = read('data/catalogue-expan
 const reconciliation = read('data/research/eduhk-flass-directory-reconciliation-2026-11-04.json');
 const historicalLinks = structuredClone(links);
 for (const change of reconciliation.changes) historicalLinks.listings[historicalLinks.listings.findIndex(l => l.programmeId === change.programmeId)] = structuredClone(change.before);
-historicalLinks.checkedOn = reconciliation.beforeBatchCheckedOn;
+historicalLinks.checkedOn = historicalLinks.listings.map(l => l.checkedOn).sort().at(-1);
 historicalLinks.description = reconciliation.beforeDescription;
-// The October generator is replayed against its exact prior link inputs. It must
-// refuse newer official identities instead of overwriting them with an old crawl.
+// Restore the target-school prior identities while preserving later unrelated
+// observations and their actual batch maximum. Newer target identities stay protected.
 const input = () => structuredClone({ observation, seed, expansion, checked, links: historicalLinks, audit });
 const options = { seed, expansionPath: new URL('data/catalogue-expansion.json', root), checkedPath: new URL('data/checked-programmes.json', root), directoryAuditPath: new URL('data/directory-audit.json', root), scopeAuditPath: new URL('data/programme-scope-audit.json', root), directoryEvidencePath: new URL('data/directory-links.json', root) };
 const profile = { major: 'Computer Science', degreeStatus: 'graduated', gpa: 4, gpaScale: 4, language: { type: 'ielts', total: 9 } };

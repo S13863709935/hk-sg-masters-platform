@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-11-10",
+  "programmeIds": [
+    "SG-NUS-P056",
+    "SG-NUS-P065",
+    "SG-NUS-P066",
+    "SG-NUS-P064",
+    "SG-NUS-P074"
+  ],
+  "counts": {
+    "newPartialParents": 5,
+    "newRouteGroups": 1,
+    "newRouteSnapshots": 8,
+    "completeRequirements": 0,
+    "independentReviews": 0
+  },
+  "sources": {
+    "ystQualifications": {
+      "url": "https://www.ystmusic.nus.edu.sg/qualifications/",
+      "readOn": "2026-11-10",
+      "section": "Programme-specific MMus/MMusL/MAAS qualification sections",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "ystApplications": {
+      "url": "https://www.ystmusic.nus.edu.sg/how-to-apply/",
+      "readOn": "2026-11-10",
+      "section": "Exact2027 MMus/MAAS windows;MMusL expectedAug2027 and contradictoryJanstatus",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "ystEnglish": {
+      "url": "https://www.ystmusic.nus.edu.sg/english-and-music-theory-req/",
+      "readOn": "2026-11-10",
+      "section": "MMus immersion Englishassessment;MMusL iBT100writing22orIELTS7plusDET",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p056en": {
+      "url": "https://www.ystmusic.nus.edu.sg/admissions-how-to-apply-english-requirements-and-interview-maas/",
+      "readOn": "2026-11-10",
+      "section": "MAAS IELTS6/TOEFL85 and interview/evaluation",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p056": {
+      "url": "https://www.ystmusic.nus.edu.sg/programmes-master-of-audio-arts-and-sciences/",
+      "readOn": "2026-11-10",
+      "section": "One-year40unit MAAS;relevantdegreeORprofessionalexperience",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p065": {
+      "url": "https://www.ystmusic.nus.edu.sg/programmes-master-of-music/",
+      "readOn": "2026-11-10",
+      "section": "FTtwo-yearMMus,conditionalcreditadvancedstanding",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p066": {
+      "url": "https://www.ystmusic.nus.edu.sg/musicleaders/",
+      "readOn": "2026-11-10",
+      "section": "Twoannualintakes,currentfeesandmixedlegacy2022sections;FT/PTminmax",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "lawRequirements": {
+      "url": "https://law1a.nus.edu.sg/admissions/admin_requirements.html",
+      "readOn": "2026-11-10",
+      "section": "LLM row and English Proficiency section",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "lawApplications": {
+      "url": "https://law1a.nus.edu.sg/admissions/app_periods_forms.html",
+      "readOn": "2026-11-10",
+      "section": "August2027 intake table, final-year applicants, fees and deadline",
+      "method": "Web public HTML plus normal public browser rendered table DOM; confirmed Sep1-Oct15 date cell rowSpan3 covers JD and both LLM rows; no raw HTTP status/hash"
+    },
+    "lawChecklist2027": {
+      "url": "https://law1a.nus.edu.sg/admissions/pdfs/ChecklistforLLMandGD_Final.pdf",
+      "readOn": "2026-11-10",
+      "section": "9Sep2026 checklist for August2027: English, referrers, completion, employer support, IBL scope",
+      "method": "web tool public official linked PDF text read, pages1-6; no PDF visual layout verification; no raw HTTP status/hash"
+    },
+    "lawCoursework": {
+      "url": "https://law1a.nus.edu.sg/admissions/coursework_deg.html",
+      "readOn": "2026-11-10",
+      "section": "General/specialist LLM and Maritime mode rules",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "lawFees": {
+      "url": "https://law1a.nus.edu.sg/admissions/fees.html",
+      "readOn": "2026-11-10",
+      "section": "AY2026/27 fees only; AY2027/28 tuition unknown",
+      "method": "web tool public official HTML read; cached crawl possible; no raw HTTP status/hash"
+    },
+    "p074Own": {
+      "url": "https://blog.nus.edu.sg/audiology/msc-audiology/",
+      "readOn": "2026-11-10",
+      "section": "Displayed Admission, Structure, Fees, Dates and FAQ panels",
+      "method": "Normal public in-app browser navigation; clicked each displayed tab and read rendered accessibility text; Admission also visually inspected; no authentication/challenge/bypass. Earlier web-tool direct open failed but public browser succeeded."
+    }
+  },
+  "programmeFacts": [
+    {
+      "programmeId": "SG-NUS-P056",
+      "officialTitle": "Master of Audio Arts and Sciences",
+      "programmeUrl": "https://www.ystmusic.nus.edu.sg/programmes-master-of-audio-arts-and-sciences/",
+      "undergraduate": {
+        "value": "Own overview: relevant bachelor OR equivalent professional experience. Qualifications: RecordingProduction bachelor in music recording/audio engineering/equivalent;instrument performance,music theory,sightreading and ProTools competency. AudioSystemDesign engineering/audioengineering/equivalent bachelor plus strong music background. Shortlist interview and online technical evaluation.",
+        "sourceIds": [
+          "p056",
+          "ystQualifications",
+          "p056en"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 6,
+          "TOEFLMinimum": 85,
+          "TOEFLVersion": "not stated on own MAAS benchmark page",
+          "applicability": "Graduates where university instruction notEnglish",
+          "components": "unknown",
+          "validity": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "p056en"
+        ]
+      },
+      "study": {
+        "value": {
+          "duration": "1year,40units",
+          "fullTime": "Directory FT;own overview does not explicitly label mode",
+          "partTime": "unknown"
+        },
+        "sourceIds": [
+          "p056"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-09-01",
+          "closes": "2026-12-01"
+        },
+        "sourceIds": [
+          "ystApplications"
+        ]
+      },
+      "fees": {
+        "value": "unknown;refersCostofAttendance",
+        "sourceIds": [
+          "p056"
+        ]
+      },
+      "concerns": [
+        "Do not treat degree as sole route; professional-equivalence overview is broader than qualification bullets."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P065",
+      "officialTitle": "Master of Music",
+      "programmeUrl": "https://www.ystmusic.nus.edu.sg/programmes-master-of-music/",
+      "undergraduate": {
+        "value": "Completed/final-year qualifying bachelor;overview BMus or appropriate university-level studies. Audition/immersion and musicaptitude assessment. Conditional credit transfer for approved BMus withCAP/equivalent>=3.5 is advanced standing, not general entry GPA.",
+        "sourceIds": [
+          "ystQualifications",
+          "p065",
+          "ystEnglish"
+        ]
+      },
+      "english": {
+        "value": {
+          "assessment": "International candidates assessed in English on immersionday",
+          "IELTSMinimum": "unknown",
+          "TOEFLMinimum": "unknown",
+          "note": "No commonMMusL/MAASbenchmarktransferred"
+        },
+        "sourceIds": [
+          "ystEnglish"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2years,4semesters only;approved credittransfer may shorten3semesters",
+          "partTime": "not offered"
+        },
+        "sourceIds": [
+          "p065"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2026-09-01",
+          "closes": "2026-12-01"
+        },
+        "sourceIds": [
+          "ystApplications"
+        ]
+      },
+      "fees": {
+        "value": "unknown",
+        "sourceIds": [
+          "p065"
+        ]
+      },
+      "concerns": [
+        "GenericMMus separated from SoloPerformance degree; no newcatalogueID added."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P066",
+      "officialTitle": "Master of Music Leadership",
+      "programmeUrl": "https://www.ystmusic.nus.edu.sg/musicleaders/",
+      "undergraduate": {
+        "value": "Qualifying bachelor completed/finalyear; applicants withoutdegree but equivalent professional practice welcomed. Own programme lists BMus/equivalent OR significant music-related contributions/accomplishments casebycase; interviewprimary.",
+        "sourceIds": [
+          "ystQualifications",
+          "p066"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "TOEFLiBTMinimum": 100,
+          "TOEFLWritingMinimum": 22,
+          "applicability": "Native tongue OR undergraduate instruction notEnglish",
+          "additional": "All successful applicants sit DiagnosticEnglishTest beforefirstsemester",
+          "validity": "unknown",
+          "versionDates": "unknown"
+        },
+        "sourceIds": [
+          "ystEnglish"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2–4semesters(1–2years);2semesterfastest only priorpassedrequiredNUSL3/CET500courses",
+          "partTime": "5–8semesters(2.5–4years)",
+          "concern": "Duration section coexists with legacy2022 application content"
+        },
+        "sourceIds": [
+          "p066"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August2027",
+          "opens": "2027-02-01 expected",
+          "closes": "2027-03-31 expected",
+          "previousIntake": "January2027:15July–1September2026;page says bothCLOSED andOPEN; not currentstatusasserted"
+        },
+        "sourceIds": [
+          "ystApplications"
+        ]
+      },
+      "fees": {
+        "value": {
+          "August2027": "unknown",
+          "displayedHistoricalOnly": "AY2026/27 S$52,702incl9%GST;separatelegacyS$43,000exGSTnotused"
+        },
+        "sourceIds": [
+          "p066"
+        ]
+      },
+      "concerns": [
+        "Current Englishpage requiresTOEFL/IELTS plusDET;legacyprogrammepage allowsDETas alternative; preserveconflict.",
+        "Expected2027 window notconfirmed portalstatus. Mixedlegacy2022section notrestamped as2027."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P064",
+      "officialTitle": "Master of Laws (LLM)",
+      "programmeUrl": "https://law1a.nus.edu.sg/admissions/llm.html",
+      "undergraduate": {
+        "value": {
+          "requirement": "Good bachelor degree in Law; no numeric GPA or work-year minimum stated",
+          "finalYear": "May apply with interim transcripts if prerequisites and final degree/transcript supplied by 30 June of matriculation year"
+        },
+        "sourceIds": [
+          "lawRequirements",
+          "lawApplications"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7.0,
+          "IELTSVersion": "Academic",
+          "TOEFLMinimum": {
+            "oldSystemIBT": 100,
+            "newSystemIBT": 5
+          },
+          "versionEffectiveDate": "not specified on this faculty page",
+          "components": "no component minima stated",
+          "validity": "Two years; valid at beginning of application period. Current example accepts reports dated 1 September 2024 to 15 October 2026.",
+          "applicability": "English-medium institutions in Australia, Canada, Ireland, New Zealand, Singapore, UK and US exempt. Other countries may request waiver with official English-medium law-degree documentation; checklist says case-by-case.",
+          "acceptedFormats": "TOEFL iBT Home Edition accepted; single test date only; no MyBest or IELTS One Skills Retake"
+        },
+        "sourceIds": [
+          "lawRequirements",
+          "lawChecklist2027"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "1 year",
+          "partTime": "2 years, Maritime Law only; classes may occur during weekday office hours",
+          "partTimeConditions": "Maritime normally for Singapore-company employees with company/MPA support; employer support letter required",
+          "structure": "General LLM or specialisation; general option 40-44 units; International Business Law has Singapore semester1 and Shanghai semester2"
+        },
+        "sourceIds": [
+          "lawRequirements",
+          "lawCoursework",
+          "lawChecklist2027"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "2026-09-01",
+          "closes": "2026-10-15",
+          "deadlineTime": "23:59 Singapore time (GMT+8)",
+          "categoryDates": [
+            {
+              "category": "two referee reports",
+              "closes": "2026-10-29"
+            },
+            {
+              "category": "final certified transcripts/degree certificates",
+              "closes": "2027-06-30"
+            }
+          ],
+          "applicationLimit": "One LLM application; latest submission considered",
+          "mainlandChinaScope": "Checklist ECUPL submission requirement specifically applies to LLM-IBL applicants from Chinese Mainland; HTML generic paragraph is broader"
+        },
+        "sourceIds": [
+          "lawApplications",
+          "lawChecklist2027"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuition2027": "unknown; own fee page still AY2026/27",
+          "historical2026": "General/CorporateFinance/InternationalComparative/IPTech: per annum S$9,600 SC subsidy; S$17,050 PR subsidy; non-subsidised S$38,350 SC / S$40,250 international incl GST. Other specialisations self-funded; do not generalise this table.",
+          "applicationInclGST": "S$50 all LLM except IBL; IBL S$100",
+          "acceptanceInclGST": "S$3,270 offsets first-semester tuition"
+        },
+        "sourceIds": [
+          "lawFees",
+          "lawApplications"
+        ]
+      },
+      "concerns": [
+        "International and Comparative Law specialisation only proposed to discontinue AY2027/28 subject to approvals; not a confirmed closure.",
+        "New-system TOEFL effective date absent; do not infer it from unrelated programme rules.",
+        "The current HTML says IELTS7.0 for LLM; an older 2026 brochure search excerpt says7.5, which is an older cohort and was not propagated as current.",
+        "Current 2027 checklist explicitly permits English-medium waiver case-by-case; no automatic waiver inferred outside listed countries.",
+        "HTML final generic ECUPL instruction is broader than checklist which restricts it to IBL Mainland applicants; checklist scope retained.",
+        "Current linked 2027 brochure was inaccessible to web tool; admissions HTML and linked current checklist were readable."
+      ]
+    },
+    {
+      "programmeId": "SG-NUS-P074",
+      "officialTitle": "Master of Science (Audiology)",
+      "programmeUrl": "https://blog.nus.edu.sg/audiology/msc-audiology/",
+      "undergraduate": {
+        "value": "Good bachelor in allied health, science, life sciences or engineering; exceptional other qualifications/experience require Board approval. Placement test (interview and/or written); case-specific preparatory modules. Honours, appropriate work experience and anatomy/physiology/psychology/speech-language-pathology background are preferred, without a hard work-year threshold.",
+        "sourceIds": [
+          "p074Own"
+        ]
+      },
+      "english": {
+        "value": {
+          "IELTSMinimum": 7,
+          "IELTSVersion": "not specified",
+          "TOEFLMinimum": 600,
+          "TOEFLVersion": "not specified; no conversion to iBT",
+          "applicability": "English is not first language",
+          "validity": "Tests no earlier than two years before proposed admission"
+        },
+        "sourceIds": [
+          "p074Own"
+        ]
+      },
+      "study": {
+        "value": {
+          "fullTime": "2 years; four semesters; maximum candidature 48 months",
+          "partTime": "not offered"
+        },
+        "sourceIds": [
+          "p074Own"
+        ]
+      },
+      "application": {
+        "value": {
+          "intake": "August 2027",
+          "opens": "October 2026 (month only)",
+          "closes": "April 2027 (month only)",
+          "placementTest": "April 2027",
+          "interviews": "May 2027",
+          "outcome": "June 2027",
+          "precision": "Month-only dates; subject to change; no exact day inferred"
+        },
+        "sourceIds": [
+          "p074Own"
+        ]
+      },
+      "fees": {
+        "value": {
+          "tuitionInclGST": "S$83,400 for Singapore citizens/PRs/international students",
+          "cohortYear": "unknown; no fee-year label",
+          "applicationExclGST": "S$80; non-refundable"
+        },
+        "sourceIds": [
+          "p074Own"
+        ]
+      },
+      "concerns": [
+        "English test versions and IELTS components not specified. Fee year and exact application days unknown.",
+        "Supersedes earlier excerpt-only access concern: actual own programme panels read in normal public browser on 2026-11-10."
+      ]
+    }
+  ],
+  "held": [],
+  "limits": [
+    "Own source observations are partial, not complete admissions or independent human review.",
+    "No guessed GPA denominator, universal work preference, fee-year projection, test conversion or live portal availability.",
+    "Eight LLM snapshots share only the explicitly common admission rule. Maritime part-time conditions are bound to its own offering.",
+    "IBL required Shanghai semester is route-level out_of_scope; proposed International/Comparative discontinuation is unconfirmed, not closed.",
+    "Audiology has actual own-page browser recovery; earlier excerpt-only hold is superseded without fabricating an HTTP capture."
+  ]
+}

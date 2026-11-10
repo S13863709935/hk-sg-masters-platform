@@ -60,14 +60,14 @@ const object = value => value && typeof value === 'object' && !Array.isArray(val
 // Project only published evidence fields, never profile/match objects or staff metadata.
 const publishedFields = (value, keys) => Object.fromEntries(object(value) ? keys.filter(key => Object.hasOwn(value, key) && (['string', 'boolean'].includes(typeof value[key]) || (typeof value[key] === 'number' && Number.isFinite(value[key])))).map(key => [key, value[key]]) : []);
 const requirementFields = {
-  degree: [], major: ['any', 'relatedAllowed'], classification: ['min'], gpa: ['min', 'scale'], experience: ['min'],
+  degree: ['completedOnly'], major: ['any', 'relatedAllowed'], classification: ['min'], gpa: ['min', 'scale'], experience: ['min'],
   manual: [], language: ['singleAttempt', 'atHomeAccepted', 'validityMonths', 'testDateNotBefore', 'testDateSourceUrl']
 };
 function publishedRequirement(rule) {
   if (!object(rule) || !Object.hasOwn(requirementFields, rule.kind) || typeof rule.labelEn !== 'string' || typeof rule.sourceUrl !== 'string') return null;
   const result = { ...publishedFields(rule, ['kind', 'labelEn', 'noteEn', 'sourceUrl', ...requirementFields[rule.kind]]), mandatory: rule.mandatory !== false };
   if (rule.kind === 'major') result.accepted = Array.isArray(rule.accepted) ? rule.accepted.filter(value => typeof value === 'string') : [];
-  if (rule.kind === 'language') result.tests = Object.fromEntries(object(rule.tests) ? Object.entries(rule.tests).filter(([kind, value]) => ['ielts', 'toefl_120', 'toefl_6'].includes(kind) && object(value)).map(([kind, value]) => [kind, { ...publishedFields(value, ['total', 'componentMin', 'validFrom', 'validBefore']), ...(typeof value.atHomeAccepted === 'boolean' ? { atHomeAccepted: value.atHomeAccepted } : {}), ...(object(value.componentMins) ? { componentMins: Object.fromEntries(Object.entries(value.componentMins).filter(([name, min]) => ['listening', 'reading', 'writing', 'speaking'].includes(name) && Number.isFinite(min))) } : {}) }]) : []);
+  if (rule.kind === 'language') result.tests = Object.fromEntries(object(rule.tests) ? Object.entries(rule.tests).filter(([kind, value]) => ['ielts', 'toefl_120', 'toefl_6'].includes(kind) && object(value)).map(([kind, value]) => [kind, { ...publishedFields(value, ['total', 'componentMin', 'validFrom', 'validBefore']), ...(typeof value.exclusiveMinimum === 'boolean' ? { exclusiveMinimum: value.exclusiveMinimum } : {}), ...(typeof value.atHomeAccepted === 'boolean' ? { atHomeAccepted: value.atHomeAccepted } : {}), ...(object(value.componentMins) ? { componentMins: Object.fromEntries(Object.entries(value.componentMins).filter(([name, min]) => ['listening', 'reading', 'writing', 'speaking'].includes(name) && Number.isFinite(min))) } : {}) }]) : []);
   if (object(rule.appliesTo)) result.appliesTo = { ...publishedFields(rule.appliesTo, ['labelEn', 'academicYear', 'checkedOn']), offeringIds: Array.isArray(rule.appliesTo.offeringIds) ? rule.appliesTo.offeringIds.filter(id => typeof id === 'string') : [] };
   return result;
 }
