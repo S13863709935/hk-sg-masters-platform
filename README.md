@@ -16,6 +16,8 @@
 - 费用／日期／资格冲突及未公布字段继续明确留缺。完整要求集和独立复核均为0；**Recorded comparisons met**只表示已记录比较项满足，没有完整资格、录取概率或保底保证。
 - 原核心20个ID、71种选择、7个模拟背景仍有497次比较：125个缺口、372个待确认、0个完整达标、0个违规。
 
+11月10日后续集中验收已完成：22个临近截止项目的官方资料复查、小屏完整使用流程、隔离启动环境和三处修复。详情见[本地演示版验收](docs/progress/local-final-use-2026-11-10.md)及[演示说明](docs/local-demo-guide.md)。现有数据规模保持不变，W8发布不变。
+
 [本轮完成与验证](docs/progress/local-singapore-finish-2026-11-10.md) · [本轮来源与范围](data/research/singapore-local-finish-observation-2026-11-10.json) · [逐校状态](docs/research/school-data-backlog-2026-11-10-singapore-finish.md) · [维护清单](docs/research/source-review-queue-2026-11-10-singapore-finish.md) · [本地交付说明](docs/local-finish-plan.md)
 
 W8 阶段版已于11月10日推送至[`checkpoint/week-08`](https://github.com/S13863709935/hk-sg-masters-platform/tree/checkpoint/week-08)，提交`b7b5a4d`，远程SHA已确认。发布版保留20个试点，包含5条来源整合及学习选项／日期／匹配修复，92项检查通过；完整本地扩展版继续分开保留。见[W8实际发布记录](docs/progress/2026-11-10-week-08-publication.md)。后续“继续”仍默认本地开发。

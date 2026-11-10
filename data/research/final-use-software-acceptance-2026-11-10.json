@@ -1,0 +1,61 @@
+{
+  "checkedOn": "2026-11-10",
+  "service": "Isolated loopback3126; in-memory database",
+  "flow": "390px: search Information Systems, synthetic CS GPA3.4/4 IELTS7 total/components/date, matching reasons, NTU PT selection, save choice, two-programme comparison, reload restoration, real shortlist download",
+  "viewportChecks": [
+    {
+      "width": 390,
+      "documentScrollWidth": 375,
+      "comparisonInnerScrollWidth": 750,
+      "comparisonContainerWidth": 339
+    },
+    {
+      "width": 320,
+      "profileScrollWidth": 305,
+      "dataWorkspaceScrollWidth": 305
+    },
+    {
+      "width": 1280,
+      "documentScrollWidth": 1265
+    }
+  ],
+  "consoleWarningsOrErrors": 0,
+  "export": {
+    "inspectedFileName": "gradpath-shortlist (2).json",
+    "programmeId": "SG-NTU-P018",
+    "selectedOfferingId": "SG-NTU-P018-O2",
+    "mode": "Part-time",
+    "unknownTuitionPreserved": true,
+    "noBackgroundOrMatchingFields": true,
+    "sha256": "10696491dce29bee84077b73a83fc4c6c8dd607d21330a4049bd3f311f811772"
+  },
+  "fixVerified": "IELTS date label/hint distinguishes TOEFL date/version context",
+  "limits": "Desktop browser viewport emulation, not real phone hardware, participant testing or a second computer; user profile was synthetic and not remembered. Browser-restricted storage is covered by controlled software fixtures separately.",
+  "automatedChecks": {
+    "fullRun": {
+      "tests": 1591,
+      "initialPass": 1583,
+      "initialFailure": 8,
+      "skipped": 0,
+      "failureScope": "Generated backlog Markdown had one extra trailing newline; no product behaviour failure."
+    },
+    "afterSnapshotFormatCorrection": {
+      "modules": 8,
+      "tests": 119,
+      "passed": 119,
+      "failed": 0,
+      "skipped": 0
+    },
+    "startupEnvironment": {
+      "tests": 3,
+      "passed": 3,
+      "scenarios": [
+        "actual Windows major-version probe",
+        "occupied GradPath loopback port",
+        "isolated PATH/USERPROFILE without Node"
+      ]
+    },
+    "limits": "Full product regression ran once; after correcting report-only byte formatting, all eight affected modules were rerun. Passing unrelated modules were not repeatedly rerun."
+  },
+  "originalDatabaseSha256": "ca01dcab4a2d935c2500042cd42b80d4fa014628a0056cbcff1adccba49020d0"
+}

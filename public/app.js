@@ -275,6 +275,8 @@ function languageFields() {
   $('#profile-languageType').setAttribute('aria-describedby', 'language-input-hint');
   $('#language-input-hint').textContent = t(`languageHint_${type}`);
   $('#total-field label').textContent = `${t('total')} · ${type === 'toefl_120' ? '0–120' : type === 'toefl_6' ? '1–6' : '0–9'}`;
+  $('#date-field label').textContent = t(type === 'ielts' ? 'ieltsTestDate' : 'testDate');
+  $('#language-date-hint').textContent = t(type === 'ielts' ? 'ieltsDateHint' : 'languageDateHint');
 }
 function fillProfile(profile) {
   const form = $('#profile-form');

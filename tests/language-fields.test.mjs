@@ -23,7 +23,7 @@ function harness() {
   const panel = { dataset: {}, querySelector: () => invalid(languageControls)[0] || null, querySelectorAll: () => invalid(languageControls) };
   const form = { elements: { namedItem: name => controls[name] || null }, querySelectorAll: () => invalid(Object.values(controls)) };
   const box = { hidden: true, textContent: '', scrollIntoView() {} }, hint = {}, label = {};
-  const nodes = { '#language-panel': panel, '#profile-form': form, '#form-error': box, '#language-input-hint': hint, '#total-field label': label };
+  const nodes = { '#language-panel': panel, '#profile-form': form, '#form-error': box, '#language-input-hint': hint, '#total-field label': label, '#date-field label': {}, '#language-date-hint': {} };
   for (const control of Object.values(controls)) nodes[`#profile-${control.name}`] = control;
   for (const [id, names] of Object.entries(groups)) nodes[`#${id}`] = { hidden: false, querySelectorAll: selector => { assert.equal(selector, 'input,select'); return names.map(name => controls[name]); } };
   const context = vm.createContext({ $: selector => { assert.ok(nodes[selector], selector); return nodes[selector]; }, t: key => copy[key] || key });
@@ -53,6 +53,8 @@ for (const [type, visible, max, step, scale] of [
     assert.equal(h.controls[name].step, type === 'toefl_120' ? '1' : '0.5');
   }
   assert.equal(h.hint.textContent, copy[`languageHint_${type}`]); assert.equal(h.label.textContent, `Overall score · ${scale}`);
+  assert.equal(h.nodes['#date-field label'].textContent, type === 'ielts' ? copy.ieltsTestDate : copy.testDate);
+  assert.equal(h.nodes['#language-date-hint'].textContent, type === 'ielts' ? copy.ieltsDateHint : copy.languageDateHint);
   assert.equal(h.controls.languageType.getAttribute('aria-describedby'), 'language-input-hint');
 });
 

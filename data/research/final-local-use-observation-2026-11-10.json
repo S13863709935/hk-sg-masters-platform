@@ -1,0 +1,2596 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-11-10",
+  "batch": "final-local-use-2026-11-10",
+  "scope": "Scoped official-source deadline and immediately related fee recheck; no live portal, full admissions or independent review claim. Observations retained separately rather than restamping all source objects.",
+  "counts": {
+    "programmes": 22,
+    "maintenanceUnits": 25,
+    "deadlineProgrammesCorroborated": 22,
+    "deadlineDateChanges": 0,
+    "tuitionAmountChanges": 0,
+    "roundLabelsCorrected": 2
+  },
+  "corrections": [
+    {
+      "programmeId": "HK-CUHK-P033",
+      "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies",
+      "sourceObservationDate": "2026-11-10",
+      "preservedLastChecked": "2026-11-04",
+      "beforeFingerprint": "01cafc78e319a4a18814748b734f24fb84f33289110abdef0f27f498b0a50063",
+      "afterFingerprint": "137e1650aa46c82493ea9aa61de94c3cc252243c1a7b55d0a0b8246117e541a1",
+      "fields": [
+        {
+          "offeringId": "HK-CUHK-P033-2027-FT",
+          "roundId": "ROUND-2",
+          "before": "1st round: 19 November 2026 2nd round",
+          "after": "2nd round"
+        },
+        {
+          "offeringId": "HK-CUHK-P033-2027-PT",
+          "roundId": "ROUND-2",
+          "before": "1st round: 19 November 2026 2nd round",
+          "after": "2nd round"
+        }
+      ],
+      "beforeRecord": {
+        "id": "HK-CUHK-P033",
+        "universityId": "HK-CUHK",
+        "name": "MA in English (Literary Studies)",
+        "award": "Master",
+        "area": "Arts and Humanities",
+        "faculty": "Arts",
+        "officialUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies",
+        "verification": "programme_page_checked",
+        "sourceStatus": "AI-assisted official programme-panel check; independent review pending",
+        "lastChecked": "2026-11-04",
+        "academicYear": "2027/28",
+        "admissionRoute": "direct",
+        "requirementsCoverage": "partial",
+        "collector": "AI-assisted official-source extraction",
+        "reviewer": null,
+        "notesZh": "",
+        "notesEn": "English/language-related honours study is normal, but other good honours degrees may be considered. English adequacy and literary interest are assessed. Submit a 500-word goals statement and a 1,000–1,500-word literary essay sample.",
+        "offerings": [
+          {
+            "id": "HK-CUHK-P033-2027-FT",
+            "mode": "Full-time",
+            "duration": "1 year",
+            "intake": "2027 entry",
+            "academicYear": "2027/28",
+            "currency": "HKD",
+            "tuition": null,
+            "applicationOpen": "2026-09-01",
+            "deadline": "2026-12-31",
+            "feeBasis": "Observed mode quote: HKD 210,000. Per annum. The quote does not establish a confirmed total for this intake; fee-year, pathway/funding category and any extra charges need confirmation. No scholarship deduction or annual-price multiplication is assumed.",
+            "deadlineNote": "Recorded dated cutoffs only; exact times, extensions, capacity and live portal were not checked. ",
+            "applicationRounds": [
+              {
+                "id": "ROUND-1",
+                "label": "1st round",
+                "applicationOpen": null,
+                "deadline": "2026-11-19",
+                "deadlineAt": null
+              },
+              {
+                "id": "ROUND-2",
+                "label": "1st round: 19 November 2026 2nd round",
+                "applicationOpen": null,
+                "deadline": "2026-12-31",
+                "deadlineAt": null
+              }
+            ]
+          },
+          {
+            "id": "HK-CUHK-P033-2027-PT",
+            "mode": "Part-time",
+            "duration": "2 years",
+            "intake": "2027 entry",
+            "academicYear": "2027/28",
+            "currency": "HKD",
+            "tuition": null,
+            "applicationOpen": "2026-09-01",
+            "deadline": "2026-12-31",
+            "feeBasis": "Observed mode quote: HKD 105,000. Per annum. The quote does not establish a confirmed total for this intake; fee-year, pathway/funding category and any extra charges need confirmation. No scholarship deduction or annual-price multiplication is assumed.",
+            "deadlineNote": "Recorded dated cutoffs only; exact times, extensions, capacity and live portal were not checked. ",
+            "applicationRounds": [
+              {
+                "id": "ROUND-1",
+                "label": "1st round",
+                "applicationOpen": null,
+                "deadline": "2026-11-19",
+                "deadlineAt": null
+              },
+              {
+                "id": "ROUND-2",
+                "label": "1st round: 19 November 2026 2nd round",
+                "applicationOpen": null,
+                "deadline": "2026-12-31",
+                "deadlineAt": null
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "kind": "degree",
+            "labelZh": "",
+            "labelEn": "Bachelor or assessed equivalent",
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+          },
+          {
+            "kind": "manual",
+            "labelZh": "",
+            "labelEn": "Academic alternatives and recognition",
+            "noteZh": "",
+            "noteEn": "Normal taught-master academic routes: recognised bachelor with Second-Class honours OR average B, OR assessed equivalent professional/tertiary qualification. No numeric GPA scale conversion or universal honours-only rejection.",
+            "mandatory": true,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+          },
+          {
+            "kind": "manual",
+            "labelZh": "",
+            "labelEn": "Programme background, documents and selection",
+            "noteZh": "",
+            "noteEn": "English/language-related honours study is normal, but other good honours degrees may be considered. English adequacy and literary interest are assessed. Submit a 500-word goals statement and a 1,000–1,500-word literary essay sample.",
+            "mandatory": true,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies"
+          },
+          {
+            "kind": "language",
+            "labelZh": "",
+            "labelEn": "Published English test route",
+            "mandatory": true,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+            "tests": {
+              "ielts": {
+                "total": 6.5
+              },
+              "toefl_120": {
+                "total": 79,
+                "validBefore": "2026-01-21"
+              },
+              "toefl_6": {
+                "total": 4.5,
+                "validFrom": "2026-01-21"
+              }
+            },
+            "atHomeAccepted": true,
+            "validityMonths": 24
+          },
+          {
+            "kind": "manual",
+            "labelZh": "",
+            "labelEn": "English applicability and alternatives",
+            "noteZh": "",
+            "noteEn": "CUHK accepts IELTS Academic 6.5, TOEFL iBT/Home 79/120 or 4.5/6, and assessed Hong Kong/English-medium degree, listed public-exam, GMAT/professional alternatives. IELTS/TOEFL validity is two years from testing. Higher programme-specific requirements/preferences and conditional applicability are recorded separately.",
+            "mandatory": true,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+          },
+          {
+            "kind": "major",
+            "labelZh": "",
+            "labelEn": "Published undergraduate subjects (alternatives need assessment)",
+            "accepted": [
+              "English",
+              "Linguistics",
+              "Literature",
+              "Translation"
+            ],
+            "any": false,
+            "relatedAllowed": true,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies",
+            "checkedOn": "2026-11-04",
+            "purpose": "Own programme mode, duration, entry, fee quote and dated cutoff panels"
+          },
+          {
+            "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+            "checkedOn": "2026-11-04",
+            "purpose": "General taught-master/EMBA academic and English alternatives"
+          },
+          {
+            "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+            "checkedOn": "2026-11-04",
+            "purpose": "Current admissions exercise and general commencement; own exceptions retained"
+          }
+        ],
+        "researchBatch": "cuhk-polyu-whole-school-2026-11-04",
+        "fieldStatus": {
+          "academicYear": {
+            "status": "known",
+            "noteEn": "Current dated 2027 admissions exercise; this does not date every tuition quote.",
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies"
+          },
+          "major": {
+            "status": "known",
+            "noteEn": "English/language-related honours study is normal, but other good honours degrees may be considered. English adequacy and literary interest are assessed. Submit a 500-word goals statement and a 1,000–1,500-word literary essay sample.",
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies"
+          },
+          "gpa": {
+            "status": "not_published",
+            "noteEn": "Normal taught-master academic routes: recognised bachelor with Second-Class honours OR average B, OR assessed equivalent professional/tertiary qualification. No numeric GPA scale conversion or universal honours-only rejection.",
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+          },
+          "language": {
+            "status": "known",
+            "noteEn": "CUHK accepts IELTS Academic 6.5, TOEFL iBT/Home 79/120 or 4.5/6, and assessed Hong Kong/English-medium degree, listed public-exam, GMAT/professional alternatives. IELTS/TOEFL validity is two years from testing. Higher programme-specific requirements/preferences and conditional applicability are recorded separately.",
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/admissions/requirements"
+          },
+          "tuition": {
+            "status": "unknown",
+            "noteEn": "Mode-specific quotes are recorded in fee notes; an applicable current-intake total is not established.",
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies"
+          },
+          "deadline": {
+            "status": "known",
+            "noteEn": "Mode-specific dated rounds are recorded; category differences and conflicting wording remain explicit. No intraday cutoff is inferred.",
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies"
+          },
+          "independentReview": {
+            "status": "unknown",
+            "noteEn": "AI-assisted panel reading, not independent human review or complete admission eligibility.",
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies"
+          }
+        }
+      }
+    }
+  ],
+  "hongKong": {
+    "schemaVersion": 1,
+    "observedOn": "2026-11-10",
+    "batch": "final-hk-deadline-worklist-2026-11-10",
+    "scope": "Bounded own-source dated deadline check for all nine programmes in the supplied worklist, plus immediately relevant published fee comparisons. No formal data edited.",
+    "counts": {
+      "programmes": 9,
+      "worklistUnits": 12,
+      "imminentCutoffRows": 21,
+      "deadlineProgrammesCorroborated": 9,
+      "deadlineProgrammesConflicting": 0,
+      "deadlineProgrammesUnavailable": 0,
+      "deadlineDateCorrectionsProposed": 0,
+      "feeAmountCorrectionsProposed": 0,
+      "programmesWithRoundLabelCorrectionProposed": 1,
+      "roundLabelFieldChangesProposed": 2
+    },
+    "limits": [
+      "This is a scoped AI-assisted official-source observation, not complete verification or independent review.",
+      "No application availability, category eligibility, admission outcome, new opening date, unlabelled fee year, midnight cutoff, or date extension is inferred.",
+      "Existing source checkedOn, offering feeEvidence.checkedOn, programme lastChecked and applicant-context checkedOn values remain historical and unchanged. The 2026-11-10 check is recorded separately here.",
+      "No original data/local/platform.sqlite was accessed; raw JSON files were read only.",
+      "Only this ignored tmp observation file is written by this audit. No push, deployment, assessment or formal record mutation is performed."
+    ],
+    "programmes": [
+      {
+        "id": "HK-CITYU-P002",
+        "name": "Master of Business Administration / 2027 entry / Full-time",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "2027 entry; fee schedule explicitly for students admitted in 2027/28",
+        "deadlineObservation": "Own 2027 page publishes 18 November 2026. The shared combined-mode programme page covers full-time and part-time study descriptions; it does not publish a separate local/non-local cutoff. This check corroborates the recorded common date without establishing category eligibility or current availability.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-CITYU-P002-2027-FT",
+              "HK-CITYU-P002-2027-PT"
+            ],
+            "applicantCategories": [
+              "local",
+              "non-local"
+            ],
+            "categoryScope": "Common programme panel; no separate category deadline stated.",
+            "rounds": [
+              {
+                "roundNumber": null,
+                "label": null,
+                "deadline": "2026-11-18",
+                "deadlineAt": null
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "cohort": "2027 intake / admitted 2027/28",
+          "local": {
+            "wholeProgramme": 512000,
+            "perCredit": 12800
+          },
+          "nonLocal": {
+            "wholeProgramme": 560000,
+            "perCredit": 14000
+          },
+          "limits": "Additional airfare/accommodation for study trips outside Hong Kong is separate. Existing category amounts match. No category default or additional fee-total change proposed."
+        },
+        "checkedSources": [
+          {
+            "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "2027 year-of-entry, 18 November 2026 deadline and FT/PT descriptions observed."
+          },
+          {
+            "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm",
+            "method": "ordinary browser rendered page",
+            "status": "readable",
+            "observation": "2027/28 admitted cohort fee table has local 12,800/credit, total 512,000; non-local 14,000/credit, total 560,000.",
+            "accessNote": "Web reader returned 403; ordinary browser successfully displayed the public table without a bypass."
+          }
+        ],
+        "proposedChanges": [],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "applicant_context",
+            "offeringId": "HK-CITYU-P002-2027-FT",
+            "sources": [
+              {
+                "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm",
+                "purpose": "Category fees and eligibility",
+                "checkedOn": "2026-10-30"
+              },
+              {
+                "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+                "purpose": "Category dates",
+                "checkedOn": "2026-10-30"
+              }
+            ]
+          },
+          {
+            "unitKind": "applicant_context",
+            "offeringId": "HK-CITYU-P002-2027-PT",
+            "sources": [
+              {
+                "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p11.htm",
+                "purpose": "Category fees and eligibility",
+                "checkedOn": "2026-10-30"
+              },
+              {
+                "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+                "purpose": "Category dates",
+                "checkedOn": "2026-10-30"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "applicantId": "HK-CITYU-P002-2027-FT-LOCAL",
+            "offeringId": "HK-CITYU-P002-2027-FT",
+            "roundId": null,
+            "deadline": "2026-11-18",
+            "daysFromSnapshot": 8,
+            "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+            "sourceCheckedOn": "2026-10-30",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CITYU-P002-2027-FT-NONLOCAL",
+            "offeringId": "HK-CITYU-P002-2027-FT",
+            "roundId": null,
+            "deadline": "2026-11-18",
+            "daysFromSnapshot": 8,
+            "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+            "sourceCheckedOn": "2026-10-30",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CITYU-P002-2027-PT-LOCAL",
+            "offeringId": "HK-CITYU-P002-2027-PT",
+            "roundId": null,
+            "deadline": "2026-11-18",
+            "daysFromSnapshot": 8,
+            "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+            "sourceCheckedOn": "2026-10-30",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CITYU-P002-2027-PT-NONLOCAL",
+            "offeringId": "HK-CITYU-P002-2027-PT",
+            "roundId": null,
+            "deadline": "2026-11-18",
+            "daysFromSnapshot": 8,
+            "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-business/college-of-business/p11",
+            "sourceCheckedOn": "2026-10-30",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-10-30"
+      },
+      {
+        "id": "HK-CUHK-P087",
+        "name": "MSc in Electronic Engineering / September 2027 / Full-time",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "Department panel explicitly labels application deadline for 2027 entry and tuition academic year 2027-2028.",
+        "deadlineObservation": "Own graduate-school rendered panel and own department admission page agree on all four 2027-entry round dates. The common panel has no different local/non-local or FT/PT cutoff. Rolling review until places are filled is stated; no later-round opening or intraday time is established.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-CUHK-P087-2027-FT",
+              "HK-CUHK-P087-2027-PT"
+            ],
+            "applicantCategories": [
+              "local",
+              "non-local"
+            ],
+            "categoryScope": "Common programme panel; no separate category deadline stated.",
+            "rounds": [
+              {
+                "roundNumber": 1,
+                "label": "1st round",
+                "deadline": "2026-09-28",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 2,
+                "label": "2nd round",
+                "deadline": "2026-10-26",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 3,
+                "label": "3rd round",
+                "deadline": "2026-11-20",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 4,
+                "label": "4th round",
+                "deadline": "2027-01-18",
+                "deadlineAt": null
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "cohort": "2027-2028",
+          "fullTimeWholeProgramme": 270000,
+          "partTimeWholeProgramme": 270000,
+          "provisionalHeadingObserved": true,
+          "limits": "Existing whole-programme amounts match. Preserve published total and existing approval/adjustment caveats; no annual multiplication, fee-year change or estimate-flag change proposed."
+        },
+        "checkedSources": [
+          {
+            "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering",
+            "method": "ordinary browser rendered page; web own-page text",
+            "status": "readable",
+            "observation": "FT/PT study modes and matching dated rounds observed in rendered deadline panel; web text also exposes fee quote."
+          },
+          {
+            "url": "https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme/admission",
+            "method": "ordinary browser rendered page",
+            "status": "readable",
+            "observation": "Explicit 2027-entry rounds and 2027-2028 FT/PT whole-programme fee table read.",
+            "accessNote": "Web reader returned 502; ordinary browser successfully displayed the public admission page without a bypass."
+          }
+        ],
+        "proposedChanges": [],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "applicant_context",
+            "offeringId": "HK-CUHK-P087-2027-FT",
+            "sources": [
+              {
+                "url": "https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme/admission",
+                "purpose": "Category fees and eligibility",
+                "checkedOn": "2026-11-04"
+              },
+              {
+                "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering",
+                "purpose": "Category dates",
+                "checkedOn": "2026-11-04"
+              }
+            ]
+          },
+          {
+            "unitKind": "applicant_context",
+            "offeringId": "HK-CUHK-P087-2027-PT",
+            "sources": [
+              {
+                "url": "https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme/admission",
+                "purpose": "Category fees and eligibility",
+                "checkedOn": "2026-11-04"
+              },
+              {
+                "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering",
+                "purpose": "Category dates",
+                "checkedOn": "2026-11-04"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "applicantId": "HK-CUHK-P087-2027-FT-LOCAL",
+            "offeringId": "HK-CUHK-P087-2027-FT",
+            "roundId": "ROUND-3",
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CUHK-P087-2027-FT-NONLOCAL",
+            "offeringId": "HK-CUHK-P087-2027-FT",
+            "roundId": "ROUND-3",
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CUHK-P087-2027-PT-LOCAL",
+            "offeringId": "HK-CUHK-P087-2027-PT",
+            "roundId": "ROUND-3",
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CUHK-P087-2027-PT-NONLOCAL",
+            "offeringId": "HK-CUHK-P087-2027-PT",
+            "roundId": "ROUND-3",
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-electronic-engineering",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-11-04"
+      },
+      {
+        "id": "HK-CUHK-P108",
+        "name": "MSc in Microelectronics and Integrated Circuits / September 2027 / Full-time",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "Department panel explicitly labels application deadline for 2027 entry and tuition academic year 2027-2028.",
+        "deadlineObservation": "Own graduate-school rendered panel and own department admission page agree on all four 2027-entry round dates. The common panel has no different local/non-local or FT/PT cutoff. Rolling review until places are filled is stated; no later-round opening or intraday time is established.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-CUHK-P108-2027-FT",
+              "HK-CUHK-P108-2027-PT"
+            ],
+            "applicantCategories": [
+              "local",
+              "non-local"
+            ],
+            "categoryScope": "Common programme panel; no separate category deadline stated.",
+            "rounds": [
+              {
+                "roundNumber": 1,
+                "label": "1st round",
+                "deadline": "2026-09-28",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 2,
+                "label": "2nd round",
+                "deadline": "2026-10-26",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 3,
+                "label": "3rd round",
+                "deadline": "2026-11-20",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 4,
+                "label": "4th round",
+                "deadline": "2027-01-18",
+                "deadlineAt": null
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "cohort": "2027-2028",
+          "fullTimeWholeProgramme": 290000,
+          "partTimeWholeProgramme": 290000,
+          "provisionalHeadingObserved": false,
+          "limits": "Existing whole-programme amounts match. Preserve published total and existing approval/adjustment caveats; no annual multiplication, fee-year change or estimate-flag change proposed."
+        },
+        "checkedSources": [
+          {
+            "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits",
+            "method": "ordinary browser rendered page; web own-page text",
+            "status": "readable",
+            "observation": "FT/PT study modes and matching dated rounds observed in rendered deadline panel; web text also exposes fee quote."
+          },
+          {
+            "url": "https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme-ic/admission-ic",
+            "method": "ordinary browser rendered page",
+            "status": "readable",
+            "observation": "Explicit 2027-entry rounds and 2027-2028 FT/PT whole-programme fee table read.",
+            "accessNote": "Web reader returned 502; ordinary browser successfully displayed the public admission page without a bypass."
+          }
+        ],
+        "proposedChanges": [],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "applicant_context",
+            "offeringId": "HK-CUHK-P108-2027-FT",
+            "sources": [
+              {
+                "url": "https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme-ic/admission-ic",
+                "purpose": "Category fees and eligibility",
+                "checkedOn": "2026-11-04"
+              },
+              {
+                "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits",
+                "purpose": "Category dates",
+                "checkedOn": "2026-11-04"
+              }
+            ]
+          },
+          {
+            "unitKind": "applicant_context",
+            "offeringId": "HK-CUHK-P108-2027-PT",
+            "sources": [
+              {
+                "url": "https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme-ic/admission-ic",
+                "purpose": "Category fees and eligibility",
+                "checkedOn": "2026-11-04"
+              },
+              {
+                "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits",
+                "purpose": "Category dates",
+                "checkedOn": "2026-11-04"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "applicantId": "HK-CUHK-P108-2027-FT-LOCAL",
+            "offeringId": "HK-CUHK-P108-2027-FT",
+            "roundId": "ROUND-3",
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CUHK-P108-2027-FT-NONLOCAL",
+            "offeringId": "HK-CUHK-P108-2027-FT",
+            "roundId": "ROUND-3",
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CUHK-P108-2027-PT-LOCAL",
+            "offeringId": "HK-CUHK-P108-2027-PT",
+            "roundId": "ROUND-3",
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          },
+          {
+            "applicantId": "HK-CUHK-P108-2027-PT-NONLOCAL",
+            "offeringId": "HK-CUHK-P108-2027-PT",
+            "roundId": "ROUND-3",
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/msc-microelectronics-and-integrated-circuits",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-11-04"
+      },
+      {
+        "id": "HK-EDUHK-P001",
+        "name": "Master of Public Policy and Management / January 2027 / Full-time",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "January 2027 intake (Semester 2, 2026/27), full-time MPPM.",
+        "deadlineObservation": "Central admissions page explicitly lists January 2027 MPPM with non-local 15 October 2026 and local 20 November 2026. The generic Now Open promotion is not treated as proof that a passed category cutoff has been extended. No intraday cutoff is published in the consulted panel.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-EDUHK-P001-O1"
+            ],
+            "applicantCategories": [
+              "local"
+            ],
+            "rounds": [
+              {
+                "roundNumber": null,
+                "label": null,
+                "deadline": "2026-11-20",
+                "deadlineAt": null
+              }
+            ]
+          },
+          {
+            "offeringIds": [
+              "HK-EDUHK-P001-O1"
+            ],
+            "applicantCategories": [
+              "non-local"
+            ],
+            "rounds": [
+              {
+                "roundNumber": null,
+                "label": null,
+                "deadline": "2026-10-15",
+                "deadlineAt": null
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "cohort": "January 2027",
+          "localWholeProgramme": 151110,
+          "nonLocalWholeProgramme": 188888,
+          "localApplicationFee": 300,
+          "nonLocalApplicationFee": 400,
+          "limits": "Own page labels the January and September fee sections separately. Existing January values match. September dates are outside this worklist unit and were not rechecked."
+        },
+        "checkedSources": [
+          {
+            "url": "https://www.eduhk.hk/acadprog/postgrad/",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "January 2027 MPPM local/non-local deadline block read."
+          },
+          {
+            "url": "https://www.eduhk.hk/ssps/mppm",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "Full-time mode and separate January 2027 tuition/application fee lines read."
+          }
+        ],
+        "proposedChanges": [],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "applicant_context",
+            "offeringId": "HK-EDUHK-P001-O1",
+            "sources": [
+              {
+                "url": "https://www.eduhk.hk/ssps/mppm",
+                "purpose": "Category fees and eligibility",
+                "checkedOn": "2026-10-23"
+              },
+              {
+                "url": "https://www.eduhk.hk/acadprog/postgrad/",
+                "purpose": "Category dates",
+                "checkedOn": "2026-10-23"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "applicantId": "HK-EDUHK-P001-O1-LOCAL",
+            "offeringId": "HK-EDUHK-P001-O1",
+            "roundId": null,
+            "deadline": "2026-11-20",
+            "daysFromSnapshot": 10,
+            "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/",
+            "sourceCheckedOn": "2026-10-23",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-10-30"
+      },
+      {
+        "id": "HK-CUHK-P026",
+        "name": "MA in Chinese Language and Literature",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "Current admissions exercise contains dates in November/December 2026 and January/February 2027; own programme is part-time. Fee quote itself has no explicit cohort year.",
+        "deadlineObservation": "Own rendered part-time programme panel and central deadline listing agree on four round dates. The imminent first-round cutoff remains 15 November 2026; no exact time was published in these panels.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-CUHK-P026-2027-PT"
+            ],
+            "applicantCategories": null,
+            "categoryScope": "Programme mode panel, without separate applicant-category dates.",
+            "rounds": [
+              {
+                "roundNumber": 1,
+                "label": "1st round",
+                "deadline": "2026-11-15",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 2,
+                "label": "2nd round",
+                "deadline": "2026-12-15",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 3,
+                "label": "3rd round",
+                "deadline": "2027-01-31",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 4,
+                "label": "4th round",
+                "deadline": "2027-02-28",
+                "deadlineAt": null
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "quote": 80000,
+          "basis": "per annum",
+          "mode": "Part-time",
+          "cohortYearExplicitInQuote": false,
+          "limits": "Existing record preserves an annual quote and null confirmed total. No multiplication by two years or confirmed intake fee inferred."
+        },
+        "checkedSources": [
+          {
+            "url": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-language-and-literature",
+            "method": "ordinary browser rendered page; web own-page text",
+            "status": "readable",
+            "observation": "Part-time mode, four dated rounds and annual 80,000 quote read."
+          },
+          {
+            "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "Current central listing repeats the four Chinese Language and Literature dates."
+          }
+        ],
+        "proposedChanges": [],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "programme",
+            "offeringId": null,
+            "sources": [
+              {
+                "url": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-language-and-literature",
+                "checkedOn": "2026-11-04",
+                "purpose": "Own programme mode, duration, entry, fee quote and dated cutoff panels"
+              },
+              {
+                "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+                "checkedOn": "2026-11-04",
+                "purpose": "General taught-master/EMBA academic and English alternatives"
+              },
+              {
+                "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+                "checkedOn": "2026-11-04",
+                "purpose": "Current admissions exercise and general commencement; own exceptions retained"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "offeringId": "HK-CUHK-P026-2027-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-chinese-language-and-literature",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-11-04"
+      },
+      {
+        "id": "HK-CUHK-P033",
+        "name": "MA in English (Literary Studies)",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "Current admissions exercise contains November/December 2026 dates; own programme lists full-time and part-time. Fee quotes themselves have no explicit cohort year.",
+        "deadlineObservation": "Own rendered FT/PT programme panel and central deadline listing agree: first round 19 November 2026, second round 31 December 2026. Both stored dates match. The stored ROUND-2 label includes the first-round text and should be reduced to the published second-round label.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-CUHK-P033-2027-FT",
+              "HK-CUHK-P033-2027-PT"
+            ],
+            "applicantCategories": null,
+            "categoryScope": "Common programme mode panel, without separate applicant-category dates.",
+            "rounds": [
+              {
+                "roundNumber": 1,
+                "label": "1st round",
+                "deadline": "2026-11-19",
+                "deadlineAt": null
+              },
+              {
+                "roundNumber": 2,
+                "label": "2nd round",
+                "deadline": "2026-12-31",
+                "deadlineAt": null
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "fullTimeAnnualQuote": 210000,
+          "partTimeAnnualQuote": 105000,
+          "cohortYearExplicitInQuote": false,
+          "limits": "Existing record retains annual quotes and null confirmed totals. No confirmed whole-programme amount or intake fee-year inferred."
+        },
+        "checkedSources": [
+          {
+            "url": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies",
+            "method": "ordinary browser rendered page; web own-page text",
+            "status": "readable",
+            "observation": "FT/PT modes, two separately labelled rounds and annual 210,000 / 105,000 quotes read."
+          },
+          {
+            "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "Current central listing separately labels first round 19 November and second round 31 December 2026."
+          }
+        ],
+        "proposedChanges": [
+          {
+            "file": "data/checked-programmes.json",
+            "programmeId": "HK-CUHK-P033",
+            "offeringId": "HK-CUHK-P033-2027-FT",
+            "roundId": "ROUND-2",
+            "field": "label",
+            "oldValue": "1st round: 19 November 2026 2nd round",
+            "newValue": "2nd round",
+            "reason": "Own panel separates this as the second round. Deadline and all provenance dates remain unchanged.",
+            "preserveProgrammeLastChecked": "2026-11-04",
+            "preserveSourceCheckedOn": "2026-11-04"
+          },
+          {
+            "file": "data/checked-programmes.json",
+            "programmeId": "HK-CUHK-P033",
+            "offeringId": "HK-CUHK-P033-2027-PT",
+            "roundId": "ROUND-2",
+            "field": "label",
+            "oldValue": "1st round: 19 November 2026 2nd round",
+            "newValue": "2nd round",
+            "reason": "Own panel separates this as the second round. Deadline and all provenance dates remain unchanged.",
+            "preserveProgrammeLastChecked": "2026-11-04",
+            "preserveSourceCheckedOn": "2026-11-04"
+          }
+        ],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "programme",
+            "offeringId": null,
+            "sources": [
+              {
+                "url": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies",
+                "checkedOn": "2026-11-04",
+                "purpose": "Own programme mode, duration, entry, fee quote and dated cutoff panels"
+              },
+              {
+                "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+                "checkedOn": "2026-11-04",
+                "purpose": "General taught-master/EMBA academic and English alternatives"
+              },
+              {
+                "url": "https://www.gs.cuhk.edu.hk/admissions/application-deadline",
+                "checkedOn": "2026-11-04",
+                "purpose": "Current admissions exercise and general commencement; own exceptions retained"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "offeringId": "HK-CUHK-P033-2027-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-19",
+            "daysFromSnapshot": 9,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          },
+          {
+            "offeringId": "HK-CUHK-P033-2027-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-19",
+            "daysFromSnapshot": 9,
+            "sourceUrl": "https://www.gs.cuhk.edu.hk/programmes/arts/ma-english-literary-studies",
+            "sourceCheckedOn": "2026-11-04",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-11-04"
+      },
+      {
+        "id": "HK-HKU-P015",
+        "name": "MSc Artificial Intelligence",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "September 2027 / 2027-28 intake, full-time 1.5 years.",
+        "deadlineObservation": "Own admissions page and HKU portal agree on main 16 November 2026 and clearing 1 February 2027, both 12:00 noon GMT+8. Imminent main-round date and exact stored time match.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-HKU-P015-2027-FT"
+            ],
+            "applicantCategories": null,
+            "categoryScope": "Common full-time programme panel; no separate applicant-category cutoff stated.",
+            "rounds": [
+              {
+                "roundNumber": 1,
+                "label": "Main round",
+                "deadline": "2026-11-16",
+                "deadlineAt": "2026-11-16T12:00:00+08:00"
+              },
+              {
+                "roundNumber": 2,
+                "label": "Clearing round",
+                "deadline": "2027-02-01",
+                "deadlineAt": "2027-02-01T12:00:00+08:00"
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "wholeProgramme": 420000,
+          "cohort": "September 2027",
+          "subjectToApproval": true,
+          "limits": "Own programme page labels the total as subject to approval, payable in three instalments. Existing total and caveat match."
+        },
+        "checkedSources": [
+          {
+            "url": "https://www.mscai.hku.hk/admissions/",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "2027-28 dated main/clearing noon cutoffs read."
+          },
+          {
+            "url": "https://www.mscai.hku.hk/programme/",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "September 2027 full-time duration and 420,000 total subject to approval read."
+          },
+          {
+            "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "September 2027 FT panel repeats both noon deadlines and tuition amount."
+          }
+        ],
+        "proposedChanges": [],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "programme",
+            "offeringId": null,
+            "sources": [
+              {
+                "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-science-in-artificial-intelligence-sci&mode=0",
+                "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+                "checkedOn": "2026-10-31"
+              },
+              {
+                "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+                "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+                "checkedOn": "2026-10-31"
+              },
+              {
+                "url": "https://www.mscai.hku.hk/admissions/",
+                "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+                "checkedOn": "2026-10-31"
+              },
+              {
+                "url": "https://www.mscai.hku.hk/programme/",
+                "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+                "checkedOn": "2026-10-31"
+              },
+              {
+                "url": "https://www.mscai.hku.hk/frequently-asked-questions/",
+                "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+                "checkedOn": "2026-10-31"
+              },
+              {
+                "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pDOCUMENT_TYPE=PROGRAMINFORMATION&pREF_CODE=R367&pVIEW=Y",
+                "purpose": "Exact programme/cohort evidence; source-specific limits and stale labels are retained in the observation",
+                "checkedOn": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "offeringId": "HK-HKU-P015-2027-FT",
+            "roundId": "MAIN",
+            "deadline": "2026-11-16",
+            "daysFromSnapshot": 6,
+            "sourceUrl": "https://www.mscai.hku.hk/admissions/",
+            "sourceCheckedOn": "2026-10-31",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-10-31"
+      },
+      {
+        "id": "HK-HKU-P091",
+        "name": "Master of Social Sciences in Criminology",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "September 2027 / 2027/28; full-time one year and part-time two years.",
+        "deadlineObservation": "Own September 2027 programme-information PDF and portal FT/PT panels agree on all three round dates at 12:00 noon GMT+8. Imminent main-round 13 November 2026 and stored exact time match. No separate applicant-category dates or application-opening date inferred.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-HKU-P091-2027-FT",
+              "HK-HKU-P091-2027-PT"
+            ],
+            "applicantCategories": null,
+            "categoryScope": "Common FT/PT programme panels; no separate applicant-category cutoff stated.",
+            "rounds": [
+              {
+                "roundNumber": 1,
+                "label": "Main round",
+                "deadline": "2026-11-13",
+                "deadlineAt": "2026-11-13T12:00:00+08:00"
+              },
+              {
+                "roundNumber": 2,
+                "label": "1st clearing round",
+                "deadline": "2027-01-15",
+                "deadlineAt": "2027-01-15T12:00:00+08:00"
+              },
+              {
+                "roundNumber": 3,
+                "label": "2nd clearing round",
+                "deadline": "2027-03-01",
+                "deadlineAt": "2027-03-01T12:00:00+08:00"
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "wholeProgramme": 216300,
+          "cohort": "2027/28",
+          "subjectToApproval": true,
+          "fullTimeInstalments": 2,
+          "partTimeInstalments": 4,
+          "limits": "Own department page explicitly labels the cohort total subject to University approval. Existing total and caveat match; instalments are not extra tuition."
+        },
+        "checkedSources": [
+          {
+            "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "method": "web own official PDF text",
+            "status": "readable",
+            "observation": "September 2027 cohort, FT/PT duration and three exact noon cutoffs read."
+          },
+          {
+            "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-criminology-socsc&mode=0",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "FT/PT September 2027 panels repeat the same dated noon rounds and fee."
+          },
+          {
+            "url": "https://sociology.hku.hk/taught-postgraduate/tpg-criminology",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "2027/28 total tuition 216,300 subject to University approval and FT/PT instalments read."
+          }
+        ],
+        "proposedChanges": [],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "programme",
+            "offeringId": null,
+            "sources": [
+              {
+                "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-criminology-socsc&mode=0",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              },
+              {
+                "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              },
+              {
+                "url": "https://sociology.hku.hk/taught-postgraduate/tpg-criminology",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              },
+              {
+                "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              },
+              {
+                "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "offeringId": "HK-HKU-P091-2027-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-13",
+            "daysFromSnapshot": 3,
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "sourceCheckedOn": "2026-11-01",
+            "status": "corroborated"
+          },
+          {
+            "offeringId": "HK-HKU-P091-2027-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-13",
+            "daysFromSnapshot": 3,
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R310&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "sourceCheckedOn": "2026-11-01",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-11-01"
+      },
+      {
+        "id": "HK-HKU-P093",
+        "name": "Master of Social Sciences in Media, Culture and Creative Cities",
+        "deadlineStatus": "corroborated",
+        "cohortObserved": "September 2027 / 2027/28; full-time one year and part-time two years.",
+        "deadlineObservation": "Own September 2027 programme-information PDF and portal FT/PT panels agree on all three round dates at 12:00 noon GMT+8. Imminent main-round 13 November 2026 and stored exact time match. No separate applicant-category dates or application-opening date inferred.",
+        "deadlineGroups": [
+          {
+            "offeringIds": [
+              "HK-HKU-P093-2027-FT",
+              "HK-HKU-P093-2027-PT"
+            ],
+            "applicantCategories": null,
+            "categoryScope": "Common FT/PT programme panels; no separate applicant-category cutoff stated.",
+            "rounds": [
+              {
+                "roundNumber": 1,
+                "label": "Main round",
+                "deadline": "2026-11-13",
+                "deadlineAt": "2026-11-13T12:00:00+08:00"
+              },
+              {
+                "roundNumber": 2,
+                "label": "1st clearing round",
+                "deadline": "2026-12-31",
+                "deadlineAt": "2026-12-31T12:00:00+08:00"
+              },
+              {
+                "roundNumber": 3,
+                "label": "2nd clearing round",
+                "deadline": "2027-02-01",
+                "deadlineAt": "2027-02-01T12:00:00+08:00"
+              }
+            ]
+          }
+        ],
+        "feeObservation": {
+          "status": "corroborated",
+          "currency": "HKD",
+          "wholeProgramme": 216300,
+          "cohort": "2027/28",
+          "subjectToApproval": true,
+          "fullTimeInstalments": 2,
+          "partTimeInstalments": 4,
+          "limits": "Own department page explicitly labels the cohort total subject to University approval. Existing total and caveat match; instalments are not extra tuition."
+        },
+        "checkedSources": [
+          {
+            "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "method": "web own official PDF text",
+            "status": "readable",
+            "observation": "September 2027 cohort, FT/PT duration and three exact noon cutoffs read."
+          },
+          {
+            "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-media%2C-culture-and-creative-cities-socsc&mode=0",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "FT/PT September 2027 panels repeat the same dated noon rounds and fee."
+          },
+          {
+            "url": "https://sociology.hku.hk/taught-postgraduate/tpg-media-culture-creative-cities",
+            "method": "web own-page text",
+            "status": "readable",
+            "observation": "2027/28 total tuition 216,300 subject to University approval and FT/PT instalments read."
+          }
+        ],
+        "proposedChanges": [],
+        "recordedEvidenceDatesPreserved": [
+          {
+            "unitKind": "programme",
+            "offeringId": null,
+            "sources": [
+              {
+                "url": "https://portal.hku.hk/tpg-admissions/programme-details?programme=master-of-social-sciences-in-the-field-of-media%2C-culture-and-creative-cities-socsc&mode=0",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              },
+              {
+                "url": "https://portal.hku.hk/tpg-admissions/applying/admission-requirements",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              },
+              {
+                "url": "https://sociology.hku.hk/taught-postgraduate/tpg-media-culture-creative-cities",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              },
+              {
+                "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              },
+              {
+                "url": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=SUPPORTDOCUMENT&pVIEW=Y",
+                "checkedOn": "2026-11-01",
+                "purpose": "Exact programme/route portal, consulted department or programme-specific PDF; conditional documents, provisional fees and relative timing retained"
+              }
+            ]
+          }
+        ],
+        "worklistCutoffObservations": [
+          {
+            "offeringId": "HK-HKU-P093-2027-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-13",
+            "daysFromSnapshot": 3,
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "sourceCheckedOn": "2026-11-01",
+            "status": "corroborated"
+          },
+          {
+            "offeringId": "HK-HKU-P093-2027-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-13",
+            "daysFromSnapshot": 3,
+            "sourceUrl": "https://sweb.hku.hk/tola/servlet/ApplicantDownloadForm/getForm?pREF_CODE=R317&pDOCUMENT_TYPE=PROGRAMINFORMATION&pVIEW=Y",
+            "sourceCheckedOn": "2026-11-01",
+            "status": "corroborated"
+          }
+        ],
+        "programmeLastCheckedPreserved": "2026-11-01"
+      }
+    ]
+  },
+  "singapore": {
+    "schemaVersion": 1,
+    "auditDate": "2026-11-10",
+    "timezone": "Asia/Shanghai",
+    "scope": "Bounded final local-use NUS deadline audit of all13 worklist programmes; only ignored tmp observation written. No production data/code/Git/SQLite mutation.",
+    "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+    "counts": {
+      "programmesAudited": 13,
+      "deadlineCorroborated": 13,
+      "deadlineConflict": 0,
+      "deadlineUnavailable": 0,
+      "tuitionCorroborated": 10,
+      "tuitionUnavailable": 3,
+      "freshlyRereadOfficialUrls": 31,
+      "proposedDataCorrections": 0,
+      "actualDataCorrections": 0
+    },
+    "writeDisposition": "No programme fields or checked dates should be changed just because they were corroborated; this audit observation provides fresh evidence separately.",
+    "limitations": [
+      "Public page text only; web extraction may be cached. No search-summary-only facts used.",
+      "Scope preserves separately selected standalone/regular routes and never transfers their facts to CEMS/joint/Executive alternatives.",
+      "Earlier same-day duration-conflict observations not newly reread are explicitly identified in programme caveats.",
+      "No synthetic reviewer/person, independent review, admission probability, hard GPA conversion, invented year/time or live-open status.",
+      "Finance TOEFL score-version date context is not a programme-specific validity requirement and does not need automatic correction."
+    ],
+    "sources": [
+      {
+        "url": "https://mscacc.nus.edu.sg/admissions/application-process/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, exact intake, application opening and year-labelled application rounds; form and payment required by cutoff."
+        ]
+      },
+      {
+        "url": "https://mscacc.nus.edu.sg/fees-finances/programme-fees/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact single-degree/current-intake tuition, 9%GST, application/acceptance payments; no conditional award deducted."
+        ]
+      },
+      {
+        "url": "https://mscacc.nus.edu.sg/faqs/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      },
+      {
+        "url": "https://mscfin.nus.edu.sg/admissions/application-process/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, exact intake, application opening and year-labelled application rounds; form and payment required by cutoff."
+        ]
+      },
+      {
+        "url": "https://mscfin.nus.edu.sg/fees-finances/programme-fees/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact single-degree/current-intake tuition, 9%GST, application/acceptance payments; no conditional award deducted."
+        ]
+      },
+      {
+        "url": "https://mscfin.nus.edu.sg/faqs/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      },
+      {
+        "url": "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      },
+      {
+        "url": "https://mscfin.nus.edu.sg/academics/programme-structure-and-curriculum/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      },
+      {
+        "url": "https://mschcma.nus.edu.sg/admissions/application-process/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, exact intake, application opening and year-labelled application rounds; form and payment required by cutoff."
+        ]
+      },
+      {
+        "url": "https://mschcma.nus.edu.sg/fees-finances/programme-fees/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact single-degree/current-intake tuition, 9%GST, application/acceptance payments; no conditional award deducted."
+        ]
+      },
+      {
+        "url": "https://mscre.nus.edu.sg/admissions/application-process/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, exact intake, application opening and year-labelled application rounds; form and payment required by cutoff."
+        ]
+      },
+      {
+        "url": "https://mscre.nus.edu.sg/fees-finances/programme-fees/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact single-degree/current-intake tuition, 9%GST, application/acceptance payments; no conditional award deducted."
+        ]
+      },
+      {
+        "url": "https://msgfin.nus.edu.sg/admissions/application-process/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, exact intake, application opening and year-labelled application rounds; form and payment required by cutoff."
+        ]
+      },
+      {
+        "url": "https://msgfin.nus.edu.sg/fees-finances/programme-fees/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact single-degree/current-intake tuition, 9%GST, application/acceptance payments; no conditional award deducted."
+        ]
+      },
+      {
+        "url": "https://emim.nus.edu.sg/admissions-finance/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact January2028 intake, three year-labelled rounds, GatewayCourse admission conditions and AY2027/28 tuition."
+        ]
+      },
+      {
+        "url": "https://emim.nus.edu.sg/programme/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "yesterday",
+        "scopes": [
+          "Explicit24-month part-time mode and format; curriculum semester labels are not intake dates."
+        ]
+      },
+      {
+        "url": "https://mscstrategy.nus.edu.sg/admissions/application-process/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, exact intake, application opening and year-labelled application rounds; form and payment required by cutoff."
+        ]
+      },
+      {
+        "url": "https://mscstrategy.nus.edu.sg/fees-finances/programme-fees/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact single-degree/current-intake tuition, 9%GST, application/acceptance payments; no conditional award deducted."
+        ]
+      },
+      {
+        "url": "https://mscstrategy.nus.edu.sg/academics/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      },
+      {
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-artificial-intelligence-systems",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact title; FT1year/PT2years; mode-specific dated intakes/deadlines; empty tuition section; S$50 exGST application fee; own TOEFLscale wording."
+        ]
+      },
+      {
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-enterprise-business-analytics",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact title; FT1year/PT2years; mode-specific dated intakes/deadlines; empty tuition section; S$50 exGST application fee; own TOEFLscale wording."
+        ]
+      },
+      {
+        "url": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-software-engineering",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact title; FT1year/PT2years; mode-specific dated intakes/deadlines; empty tuition section; S$50 exGST application fee; own TOEFLscale wording."
+        ]
+      },
+      {
+        "url": "https://mba.nus.edu.sg/admissions-and-funding/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "RegularMBA identity; August2027 opening; distinct FT/PT rounds; current tuition inclusive/exclusiveGST; manual eligibility conditions."
+        ]
+      },
+      {
+        "url": "https://mim.nus.edu.sg/admissions/application-process/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, exact intake, application opening and year-labelled application rounds; form and payment required by cutoff."
+        ]
+      },
+      {
+        "url": "https://mim.nus.edu.sg/fees-finances/programme-fees/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact single-degree/current-intake tuition, 9%GST, application/acceptance payments; no conditional award deducted."
+        ]
+      },
+      {
+        "url": "https://mim.nus.edu.sg/academics/programme-structure-and-curriculum/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      },
+      {
+        "url": "https://mim.nus.edu.sg/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      },
+      {
+        "url": "https://mscmarketing.nus.edu.sg/admissions/application-process/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, exact intake, application opening and year-labelled application rounds; form and payment required by cutoff."
+        ]
+      },
+      {
+        "url": "https://mscmarketing.nus.edu.sg/fees-finances/programme-fees/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Exact single-degree/current-intake tuition, 9%GST, application/acceptance payments; no conditional award deducted."
+        ]
+      },
+      {
+        "url": "https://mscmarketing.nus.edu.sg/academics/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      },
+      {
+        "url": "https://mscmarketing.nus.edu.sg/",
+        "readOn": "2026-11-10",
+        "freshlyRereadInThisAudit": true,
+        "method": "Fresh public official HTML text read through web open/find on 2026-11-10; web service may return cached extraction. No direct-origin freshness, raw HTTP capture, login, live application-portal check or independent review claimed.",
+        "webCrawlLabel": "today",
+        "scopes": [
+          "Programme identity, standalone scope, mode/duration or language/completion-date context as specified in record caveats."
+        ]
+      }
+    ],
+    "programmes": [
+      {
+        "programmeId": "SG-NUS-P006",
+        "routeId": null,
+        "name": "MSc in Accounting and Financial Analytics",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://mscacc.nus.edu.sg/admissions/application-process/",
+          "https://mscacc.nus.edu.sg/fees-finances/programme-fees/",
+          "https://mscacc.nus.edu.sg/faqs/"
+        ],
+        "category": "Single-degree MSc in Accounting and Financial Analytics",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time"
+        ],
+        "intake": "August 2027",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "First application / study-award consideration cutoff"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Final application deadline for all applicants"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 71200,
+          "GSTPercent": 9,
+          "includingGST": 77608,
+          "cohort": "August 2027 / AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100,
+          "refundable": false
+        },
+        "caveats": [
+          "Own FAQ says 12 months and no part-time; earlier same-day structure observation preserves heading 12-18 months versus 12-month prose. Do not resolve the duration discrepancy by this deadline audit.",
+          "Application completion-document date is 22 July 2027, not an application round; previously recorded undated FAQ 15 July discrepancy remains."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P006-OBSERVED-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mscacc.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P007",
+        "routeId": null,
+        "name": "MSc Finance",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-10-22"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://mscfin.nus.edu.sg/admissions/application-process/",
+          "https://mscfin.nus.edu.sg/fees-finances/programme-fees/",
+          "https://mscfin.nus.edu.sg/faqs/",
+          "https://mscfin.nus.edu.sg/admissions/admission-requirements/",
+          "https://mscfin.nus.edu.sg/academics/programme-structure-and-curriculum/"
+        ],
+        "category": "Single-degree MSc Finance; separate from Financial Engineering, Quantitative Finance and double degrees",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time"
+        ],
+        "intake": "August 2027",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "First application / study-award consideration cutoff"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Final application deadline for all applicants"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 71200,
+          "GSTPercent": 9,
+          "includingGST": 77608,
+          "cohort": "August 2027 / AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100,
+          "refundable": false
+        },
+        "caveats": [
+          "Fresh FAQ confirms 16 months and currently no part-time.",
+          "Dated application page gives 22 July 2027 for completion letter/unofficial transcript; undated FAQ gives 15 July. Existing discrepancy is corroborated, not a reason to extend applications.",
+          "Fresh admission page gives TOEFL iBT >=5.0 and IELTS overall >=7.0. It gives no test-date boundary. Existing TOEFL6 validFrom 2026-01-21 is shared score-version metadata from global rollout, not a NUS-specific validity window; omission on the own page is no conflict and no automatic correction is proposed.",
+          "No strict undergraduate GPA cutoff in FAQ; curriculum graduation requirement must not become entry requirement."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P007-O1",
+            "roundId": "FIRST",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mscfin.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-10-22"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P008",
+        "routeId": null,
+        "name": "MSc Human Capital Management and Analytics",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://mschcma.nus.edu.sg/admissions/application-process/",
+          "https://mschcma.nus.edu.sg/fees-finances/programme-fees/"
+        ],
+        "category": "MSc Human Capital Management and Analytics",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time",
+          "Part-time"
+        ],
+        "intake": "August 2027",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "First application / study-award consideration cutoff"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Final application deadline for all applicants"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 71200,
+          "GSTPercent": 9,
+          "includingGST": 77608,
+          "cohort": "August 2027 / AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100,
+          "refundable": false
+        },
+        "caveats": [
+          "International part-time applicants must already hold a valid visa allowing Singapore residence.",
+          "Fresh fee heading is August 2027 but instalments say January enrolment; preserve this source inconsistency instead of inventing payment dates.",
+          "Earlier same-day own-source observation preserves PT headline 21 months versus prose 24 months; duration not newly reread here."
+        ],
+        "modeEvidence": "Fresh fee tables separately label full-time and part-time; application page states additional international PT visa condition.",
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P008-AY2027-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mschcma.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          },
+          {
+            "offeringId": "SG-NUS-P008-AY2027-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mschcma.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P011",
+        "routeId": null,
+        "name": "MSc Real Estate",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://mscre.nus.edu.sg/admissions/application-process/",
+          "https://mscre.nus.edu.sg/fees-finances/programme-fees/"
+        ],
+        "category": "MSc Real Estate",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time",
+          "Part-time"
+        ],
+        "intake": "August 2027",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "First application / study-award consideration cutoff"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Final application deadline for all applicants"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 58800,
+          "GSTPercent": 9,
+          "includingGST": 64092,
+          "cohort": "August 2027 / AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100,
+          "refundable": false
+        },
+        "caveats": [
+          "International part-time applicants must already hold a valid visa allowing Singapore residence."
+        ],
+        "modeEvidence": "Fresh fee tables separately label full-time and part-time; application page states additional international PT visa condition.",
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P011-AY2027-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mscre.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          },
+          {
+            "offeringId": "SG-NUS-P011-AY2027-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mscre.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P012",
+        "routeId": null,
+        "name": "MSc Sustainable and Green Finance",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://msgfin.nus.edu.sg/admissions/application-process/",
+          "https://msgfin.nus.edu.sg/fees-finances/programme-fees/"
+        ],
+        "category": "MSc Sustainable and Green Finance",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time",
+          "Part-time"
+        ],
+        "intake": "August 2027",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "First application / study-award consideration cutoff"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Final application deadline for all applicants"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 67000,
+          "GSTPercent": 9,
+          "includingGST": 73030,
+          "cohort": "August 2027 / AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100,
+          "refundable": false
+        },
+        "caveats": [
+          "International part-time applicants must already hold a valid visa allowing Singapore residence.",
+          "Earlier same-day own-source observation retains FT/PT duration and unit conflicts; these curriculum details were not newly reread in this deadline audit."
+        ],
+        "modeEvidence": "Fresh fee tables separately label full-time and part-time; application page states additional international PT visa condition.",
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P012-AY2027-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://msgfin.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          },
+          {
+            "offeringId": "SG-NUS-P012-AY2027-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://msgfin.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P038",
+        "routeId": null,
+        "name": "Executive MSc in Management",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://emim.nus.edu.sg/admissions-finance/",
+          "https://emim.nus.edu.sg/programme/"
+        ],
+        "category": "Executive MSc in Management, part-time Gateway Course admission pathway",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Part-time"
+        ],
+        "intake": "January 2028",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "Round 1"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Round 2"
+          },
+          {
+            "deadline": "2027-06-30",
+            "label": "Round 3"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "includingGST": 57879,
+          "GSTPercent": 9,
+          "cohort": "AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100
+        },
+        "caveats": [
+          "January 2028 is explicitly printed; do not shift intake backward to 2027.",
+          "At least one named Gateway Course at Merit plus form/payment by cutoff is needed for review; both courses at Merit before offer.",
+          "Fresh programme page explicitly says 24 months, part-time, predominantly online with short in-person sessions. Its displayed curriculum semesters mention 2027, which do not override the admissions page January 2028 intake."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P038-OBSERVED-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://emim.nus.edu.sg/admissions-finance/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P112",
+        "routeId": null,
+        "name": "MSc (Strategic Analysis and Innovation)",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://mscstrategy.nus.edu.sg/admissions/application-process/",
+          "https://mscstrategy.nus.edu.sg/fees-finances/programme-fees/",
+          "https://mscstrategy.nus.edu.sg/academics/"
+        ],
+        "category": "MSc Strategic Analysis and Innovation",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time"
+        ],
+        "intake": "August 2027",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "First application / study-award consideration cutoff"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Final application deadline for all applicants"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 71200,
+          "GSTPercent": 9,
+          "includingGST": 77608,
+          "cohort": "August 2027 / AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100,
+          "refundable": false
+        },
+        "caveats": [
+          "Own academics confirms 12 months, 44 units, optional internship 48 units with optional additional semester; fee page lists optional-semester S$7,085 separately. Full-time category is corroborated against earlier same-day own-programme observation, not inferred from 12 months alone."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P112-AY2027-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mscstrategy.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P116",
+        "routeId": null,
+        "name": "Master of Technology in Artificial Intelligence Systems",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-artificial-intelligence-systems"
+        ],
+        "category": "NUS-ISS Master of Technology coursework programme",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time",
+          "Part-time"
+        ],
+        "intake": "January 2027 (Part-time); August 2027 (Full-time)",
+        "applicationByMode": {
+          "Part-time": {
+            "intake": "January 2027",
+            "deadline": "2026-11-15",
+            "deadlineOperator": "by",
+            "applicationOpen": null
+          },
+          "Full-time": {
+            "intake": "August 2027",
+            "applicationOpen": "2026-10-01",
+            "deadline": "2027-04-01",
+            "deadlineOperator": "by"
+          }
+        },
+        "tuitionStatus": "unavailable",
+        "tuition": null,
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 50,
+          "GST": "Excludes prevailing GST",
+          "refundable": false
+        },
+        "caveats": [
+          "Fresh own-page overview explicitly confirms Jan2027 PT versus Aug2027 FT; date caveat says subject to changes.",
+          "Fresh page text has an empty Fees heading followed by Admissions; current whole-programme tuition is unavailable in this public text extraction. Retain null; do not treat application fee as tuition.",
+          "Fresh English section explicitly retains TOEFL85/120 even for tests from21January2026; IELTS6; no conversion. No exact cutoff time or PT application-opening date supplied."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P116-JAN2027-PT",
+            "roundId": null,
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-artificial-intelligence-systems",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P118",
+        "routeId": null,
+        "name": "Master of Technology in Enterprise Business Analytics",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-enterprise-business-analytics"
+        ],
+        "category": "NUS-ISS Master of Technology coursework programme",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time",
+          "Part-time"
+        ],
+        "intake": "January 2027 (Part-time); August 2027 (Full-time)",
+        "applicationByMode": {
+          "Part-time": {
+            "intake": "January 2027",
+            "deadline": "2026-11-15",
+            "deadlineOperator": "by",
+            "applicationOpen": null
+          },
+          "Full-time": {
+            "intake": "August 2027",
+            "applicationOpen": "2026-10-01",
+            "deadline": "2027-04-01",
+            "deadlineOperator": "by"
+          }
+        },
+        "tuitionStatus": "unavailable",
+        "tuition": null,
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 50,
+          "GST": "Excludes prevailing GST",
+          "refundable": false
+        },
+        "caveats": [
+          "Fresh own-page overview explicitly confirms Jan2027 PT versus Aug2027 FT; date caveat says subject to changes.",
+          "Fresh page text has an empty Fees heading followed by Admissions; current whole-programme tuition is unavailable in this public text extraction. Retain null; do not treat application fee as tuition.",
+          "Fresh English section explicitly retains TOEFL85/120 even for tests from21January2026; IELTS6; no conversion. No exact cutoff time or PT application-opening date supplied."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P118-JAN2027-PT",
+            "roundId": null,
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-enterprise-business-analytics",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P119",
+        "routeId": null,
+        "name": "Master of Technology in Software Engineering",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-software-engineering"
+        ],
+        "category": "NUS-ISS Master of Technology coursework programme",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time",
+          "Part-time"
+        ],
+        "intake": "January 2027 (Part-time); August 2027 (Full-time)",
+        "applicationByMode": {
+          "Part-time": {
+            "intake": "January 2027",
+            "deadline": "2026-11-15",
+            "deadlineOperator": "by",
+            "applicationOpen": null
+          },
+          "Full-time": {
+            "intake": "August 2027",
+            "applicationOpen": "2026-10-01",
+            "deadline": "2027-04-01",
+            "deadlineOperator": "by"
+          }
+        },
+        "tuitionStatus": "unavailable",
+        "tuition": null,
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 50,
+          "GST": "Excludes prevailing GST",
+          "refundable": false
+        },
+        "caveats": [
+          "Fresh own-page overview explicitly confirms Jan2027 PT versus Aug2027 FT; date caveat says subject to changes.",
+          "Fresh page text has an empty Fees heading followed by Admissions; current whole-programme tuition is unavailable in this public text extraction. Retain null; do not treat application fee as tuition.",
+          "Fresh English section explicitly retains TOEFL85/120 even for tests from21January2026; IELTS6; no conversion. No exact cutoff time or PT application-opening date supplied."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P119-JAN2027-PT",
+            "roundId": null,
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-software-engineering",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P005",
+        "routeId": "SG-NUS-P005-ROUTE-NUS-MBA",
+        "name": "NUS MBA",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://mba.nus.edu.sg/admissions-and-funding/"
+        ],
+        "category": "NUS MBA regular standalone route; joint/double/Executive MBA awards excluded",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time",
+          "Part-time"
+        ],
+        "intake": "August 2027",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "roundsByMode": {
+          "Full-time": [
+            {
+              "deadline": "2026-10-29",
+              "label": "Round 1"
+            },
+            {
+              "deadline": "2027-01-20",
+              "label": "Round 2"
+            },
+            {
+              "deadline": "2027-03-31",
+              "label": "Round 3"
+            }
+          ],
+          "Part-time": [
+            {
+              "deadline": "2026-11-24",
+              "label": "Round 1"
+            },
+            {
+              "deadline": "2027-02-25",
+              "label": "Round 2"
+            },
+            {
+              "deadline": "2027-05-05",
+              "label": "Round 3"
+            }
+          ]
+        },
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 98027.3,
+          "includingGST": 106849.76,
+          "GST": "Inclusive as stated",
+          "cohort": "August 2027",
+          "applicableFormats": [
+            "Full-time",
+            "Part-time",
+            "Part-time Flex"
+          ]
+        },
+        "caveats": [
+          "24 November applies to part-time Round1. Full-time Round1 29 October is separate; subsequent FT round is20January2027.",
+          "Page labels deadlines under common Part-time MBA heading; no separately labelled Flex application window established.",
+          "At least2years post-bachelor full-time work at application and source-worded Singapore employment/residency proof condition for non-Singaporeans/Singapore PR candidates remain manual; no eligibility guarantee."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P005-OBSERVED-PT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-24",
+            "daysFromSnapshot": 14,
+            "sourceUrl": "https://mba.nus.edu.sg/admissions-and-funding/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P009",
+        "routeId": "SG-NUS-P009-ROUTE-STANDALONE",
+        "name": "MSc (Management)",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://mim.nus.edu.sg/admissions/application-process/",
+          "https://mim.nus.edu.sg/fees-finances/programme-fees/",
+          "https://mim.nus.edu.sg/academics/programme-structure-and-curriculum/",
+          "https://mim.nus.edu.sg/"
+        ],
+        "category": "Standalone MSc Management only; CEMS route kept separate",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time"
+        ],
+        "intake": "January 2028",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "First application / study-award consideration cutoff"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Second-round cutoff"
+          },
+          {
+            "deadline": "2027-06-30",
+            "label": "Final application deadline for all applicants"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 56700,
+          "GSTPercent": 9,
+          "includingGST": 61803,
+          "cohort": "January 2028 / AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100,
+          "refundable": false
+        },
+        "caveats": [
+          "Own application and fee pages explicitly name January 2028 / AY2027/28 despite September 2026 opening. Do not silently shift intake to January 2027.",
+          "Own curriculum separates single degree from CEMS and preserves optional experiential-learning semester. Full-time category is corroborated against earlier same-day source observation; exact full-time wording was not newly found on the curriculum/home excerpt."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P009-JAN2028-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mim.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      },
+      {
+        "programmeId": "SG-NUS-P010",
+        "routeId": "SG-NUS-P010-ROUTE-STANDALONE",
+        "name": "MSc (Marketing Analytics and Insights)",
+        "status": "corroborated",
+        "deadlineStatus": "corroborated",
+        "readOn": "2026-11-10",
+        "previousSourceCheckedOn": [
+          "2026-11-10"
+        ],
+        "freshlyRereadDeadlinePage": true,
+        "proposedMinimalFixes": [],
+        "sourceUrls": [
+          "https://mscmarketing.nus.edu.sg/admissions/application-process/",
+          "https://mscmarketing.nus.edu.sg/fees-finances/programme-fees/",
+          "https://mscmarketing.nus.edu.sg/academics/",
+          "https://mscmarketing.nus.edu.sg/"
+        ],
+        "category": "Standalone MSc Marketing Analytics and Insights only; CEMS route kept separate",
+        "identityStatus": "corroborated",
+        "modes": [
+          "Full-time"
+        ],
+        "intake": "August 2027",
+        "academicYear": "2027/28",
+        "applicationOpen": "2026-09-01",
+        "rounds": [
+          {
+            "deadline": "2026-11-15",
+            "label": "First application / study-award consideration cutoff"
+          },
+          {
+            "deadline": "2027-02-15",
+            "label": "Final application deadline for all applicants"
+          }
+        ],
+        "tuitionStatus": "corroborated",
+        "tuition": {
+          "currency": "SGD",
+          "beforeGST": 71200,
+          "GSTPercent": 9,
+          "includingGST": 77608,
+          "cohort": "August 2027 / AY2027/2028"
+        },
+        "applicationFee": {
+          "currency": "SGD",
+          "amount": 100,
+          "refundable": false
+        },
+        "caveats": [
+          "Own application page separately labels standalone first-round 15 November 2026 and final 15 February 2027; CEMS final deadline 15 November 2026 must not replace the standalone final deadline.",
+          "Fresh standalone curriculum gives 12-16 months /40 units. Full-time category is corroborated against earlier same-day source observation; exact full-time wording was not newly found on the curriculum/home excerpt."
+        ],
+        "recordedUpcomingCutoffs": [
+          {
+            "offeringId": "SG-NUS-P010-AY2027-FT",
+            "roundId": "ROUND-1",
+            "deadline": "2026-11-15",
+            "daysFromSnapshot": 5,
+            "sourceUrl": "https://mscmarketing.nus.edu.sg/admissions/application-process/",
+            "sourceCheckedOn": "2026-11-10"
+          }
+        ],
+        "localComparison": "Recorded imminent cutoff, mode/category/intake and current known tuition agree; preserve existing programme/route data and source dates."
+      }
+    ]
+  }
+}

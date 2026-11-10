@@ -25,7 +25,12 @@ test.after(()=>store.close());
 test('NTU bulk observation preserves every previous parent and route; a later public-source recovery resolves the CMS-only hold',()=>{
  assert.deepEqual(ntu.counts,{newPartialParents:82,newRouteGroups:5,newRouteSnapshots:25,readProgrammePanels:102,completeRequirements:0,independentReviews:0});
  const parents=read('data/checked-programmes.json').programmes,rr=read('data/route-programmes.json').programmes.flatMap(g=>g.routes);
- for(const [id,hash]of Object.entries(ntu.preservedParentFingerprints))assert.equal(offeringFingerprint(parents.find(p=>p.id===id)),hash,id);
+ const later=read('data/research/final-local-use-observation-2026-11-10.json').corrections;
+ for(const [id,hash]of Object.entries(ntu.preservedParentFingerprints)){
+  const correction=later.find(c=>c.programmeId===id),current=parents.find(p=>p.id===id);
+  assert.equal(offeringFingerprint(correction?.beforeRecord||current),hash,id);
+  if(correction)assert.equal(offeringFingerprint(current),correction.afterFingerprint,id);
+ }
  for(const [id,hash]of Object.entries(ntu.preservedRouteFingerprints))assert.equal(offeringFingerprint(rr.find(p=>p.routeId===id)),hash,id);
  assert.equal(ntu.held[0].programmeId,t(50).id);assert.equal(t(50).researchBatch,'public-remainders-2026-11-10');assert.equal(store.quality().complete,0);assert.equal(store.quality().peerReviewed,0);
  for(const id of [...ntu.programmeIds,...nus.programmeIds]){const p=store.get(id);assert.equal(p.lastChecked,'2026-11-10');assert.equal(p.requirementsCoverage,'partial');assert.equal(p.reviewer,null);assert.equal(/\p{Script=Han}/u.test(JSON.stringify(parents.find(p=>p.id===id))),false,id);}

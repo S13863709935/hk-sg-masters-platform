@@ -137,6 +137,8 @@ export const copy = {
   "languageHint_waiver": "A proposed waiver is not a confirmed exemption. Check the programme’s published waiver criteria and required evidence.",
   "languageDateHint": "Use the actual test date in YYYY-MM-DD format. Leave it blank if unknown; the TOEFL version cannot be confirmed without it.",
   "testDate": "Test date · required to check TOEFL version",
+  "ieltsTestDate": "Test date · leave blank if unknown",
+  "ieltsDateHint": "Use the actual IELTS test date in YYYY-MM-DD format. Programme-specific validity and accepted test dates may require it; unknown dates remain unresolved.",
   "listening": "Listening",
   "reading": "Reading",
   "writing": "Writing",

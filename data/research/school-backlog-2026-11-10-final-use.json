@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "asOfDate": "2026-11-10",
+  "basis": "Inventory of existing repository records, not a certified complete current university catalogue or a new source review.",
+  "counts": {
+    "schools": 14,
+    "catalogueRecords": 873,
+    "pageCheckedRecords": 858,
+    "partialRecords": 858,
+    "completeRecords": 0,
+    "catalogueLeads": 15,
+    "routeCoveredLeads": 12,
+    "scopeHeldLeads": 3,
+    "unreadLeads": 0
+  },
+  "schools": [
+    {
+      "schoolId": "HK-CITYU",
+      "catalogueRecords": 62,
+      "partialRecords": 61,
+      "pageCheckedRecords": 61,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 1,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 61,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 0,
+        "language": 1,
+        "tuition": 3,
+        "deadline": 2
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 18,
+        "gpa": 61,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-CUHK",
+      "catalogueRecords": 129,
+      "partialRecords": 129,
+      "pageCheckedRecords": 129,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 129,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 45,
+        "gpa": 1,
+        "language": 0,
+        "tuition": 124,
+        "deadline": 20
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 128,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-EDUHK",
+      "catalogueRecords": 59,
+      "partialRecords": 59,
+      "pageCheckedRecords": 59,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 52,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 14,
+        "gpa": 0,
+        "language": 31,
+        "tuition": 25,
+        "deadline": 12
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 23,
+        "gpa": 52,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-HKBU",
+      "catalogueRecords": 49,
+      "partialRecords": 49,
+      "pageCheckedRecords": 49,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 49,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 0,
+        "language": 1,
+        "tuition": 1,
+        "deadline": 2
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 18,
+        "gpa": 48,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-HKU",
+      "catalogueRecords": 103,
+      "partialRecords": 93,
+      "pageCheckedRecords": 93,
+      "completeRecords": 0,
+      "catalogueLeads": 10,
+      "routeCoveredLeads": 10,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 92,
+      "activeParentUnknownFields": {
+        "academicYear": 1,
+        "major": 7,
+        "gpa": 0,
+        "language": 4,
+        "tuition": 6,
+        "deadline": 2
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 38,
+        "gpa": 92,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-HKUST",
+      "catalogueRecords": 49,
+      "partialRecords": 48,
+      "pageCheckedRecords": 48,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 1,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 47,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 1,
+        "gpa": 1,
+        "language": 1,
+        "tuition": 1,
+        "deadline": 3
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 19,
+        "gpa": 45,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-LU",
+      "catalogueRecords": 44,
+      "partialRecords": 44,
+      "pageCheckedRecords": 44,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 44,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 1,
+        "gpa": 0,
+        "language": 7,
+        "tuition": 12,
+        "deadline": 5
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 44,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "HK-POLYU",
+      "catalogueRecords": 100,
+      "partialRecords": 100,
+      "pageCheckedRecords": 100,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 57,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 0,
+        "language": 0,
+        "tuition": 21,
+        "deadline": 0
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 57,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-NTU",
+      "catalogueRecords": 88,
+      "partialRecords": 87,
+      "pageCheckedRecords": 87,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 1,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 80,
+      "activeParentUnknownFields": {
+        "academicYear": 47,
+        "major": 30,
+        "gpa": 0,
+        "language": 9,
+        "tuition": 58,
+        "deadline": 73
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 80,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-NUS",
+      "catalogueRecords": 121,
+      "partialRecords": 121,
+      "pageCheckedRecords": 121,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 115,
+      "activeParentUnknownFields": {
+        "academicYear": 20,
+        "major": 78,
+        "gpa": 4,
+        "language": 36,
+        "tuition": 60,
+        "deadline": 51
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 111,
+        "language": 3,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-SIT",
+      "catalogueRecords": 4,
+      "partialRecords": 4,
+      "pageCheckedRecords": 4,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 4,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 2,
+        "gpa": 0,
+        "language": 4,
+        "tuition": 4,
+        "deadline": 1
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 4,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-SMU",
+      "catalogueRecords": 17,
+      "partialRecords": 17,
+      "pageCheckedRecords": 17,
+      "completeRecords": 0,
+      "catalogueLeads": 0,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 0,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 17,
+      "activeParentUnknownFields": {
+        "academicYear": 0,
+        "major": 2,
+        "gpa": 0,
+        "language": 15,
+        "tuition": 14,
+        "deadline": 11
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 3,
+        "gpa": 17,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-SUSS",
+      "catalogueRecords": 29,
+      "partialRecords": 28,
+      "pageCheckedRecords": 28,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 1,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 27,
+      "activeParentUnknownFields": {
+        "academicYear": 27,
+        "major": 20,
+        "gpa": 0,
+        "language": 26,
+        "tuition": 27,
+        "deadline": 27
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 6,
+        "gpa": 27,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    },
+    {
+      "schoolId": "SG-SUTD",
+      "catalogueRecords": 19,
+      "partialRecords": 18,
+      "pageCheckedRecords": 18,
+      "completeRecords": 0,
+      "catalogueLeads": 1,
+      "routeCoveredLeads": 0,
+      "scopeHeldLeads": 1,
+      "unreadLeads": 0,
+      "activePageCheckedRecords": 15,
+      "activeParentUnknownFields": {
+        "academicYear": 2,
+        "major": 0,
+        "gpa": 0,
+        "language": 6,
+        "tuition": 8,
+        "deadline": 2
+      },
+      "activeParentNotPublishedFields": {
+        "academicYear": 0,
+        "major": 0,
+        "gpa": 15,
+        "language": 0,
+        "tuition": 0,
+        "deadline": 0
+      },
+      "sourceAfterSnapshot": [],
+      "unread": []
+    }
+  ]
+}
