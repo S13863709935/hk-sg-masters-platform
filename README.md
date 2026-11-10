@@ -16,6 +16,8 @@
 - 费用／日期／资格冲突及未公布字段继续明确留缺。完整要求集和独立复核均为0；**Recorded comparisons met**只表示已记录比较项满足，没有完整资格、录取概率或保底保证。
 - 原核心20个ID、71种选择、7个模拟背景仍有497次比较：125个缺口、372个待确认、0个完整达标、0个违规。
 
+Windows系统解压入口的交付问题已单独修复，后续运行包使用规范ZIP文件条目并提供短路径副本，见[解压兼容性修复](docs/progress/local-windows-zip-fix-2026-11-10.md)。旧包验收没有覆盖系统解压器，不应当作该入口已通过。
+
 11月10日后续集中验收已完成：22个临近截止项目的官方资料复查、小屏完整使用流程、隔离启动环境和三处修复。详情见[本地演示版验收](docs/progress/local-final-use-2026-11-10.md)及[演示说明](docs/local-demo-guide.md)。现有数据规模保持不变，W8发布不变。
 
 [本轮完成与验证](docs/progress/local-singapore-finish-2026-11-10.md) · [本轮来源与范围](data/research/singapore-local-finish-observation-2026-11-10.json) · [逐校状态](docs/research/school-data-backlog-2026-11-10-singapore-finish.md) · [维护清单](docs/research/source-review-queue-2026-11-10-singapore-finish.md) · [本地交付说明](docs/local-finish-plan.md)

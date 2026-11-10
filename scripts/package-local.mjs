@@ -4,6 +4,7 @@ import {mkdirSync,cpSync,lstatSync,writeFileSync,readFileSync,existsSync} from '
 import {resolve,dirname,sep} from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {createHash} from 'node:crypto';
+import {standardZip} from './standard-zip.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 export function includeInLocalPackage(path){
  const p=path.replaceAll('\\','/');if(p.startsWith('/')||p.split('/').some(x=>x==='..'||x==='.git'))return false;
@@ -19,7 +20,7 @@ export function packageLocal({output}){
  for(const f of files){const from=resolve(root,f);if(!from.startsWith(root)||!lstatSync(from).isFile())throw new Error('Only ordinary repository files may be packaged');mkdirSync(dirname(resolve(stage,f)),{recursive:true});cpSync(from,resolve(stage,f));}
  const meta={createdAt:new Date().toISOString(),sourceCommit:execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim(),sourceTreeDirty:!!execFileSync('git',['status','--porcelain'],{cwd:root,encoding:'utf8'}).trim(),nodeRequired:'>=24',entryPoint:'start-local.cmd',data:'Repository source snapshots; fresh local database created on first normal start. No personal runtime data bundled.',files:files.map(f=>({path:f,sha256:createHash('sha256').update(readFileSync(resolve(stage,f))).digest('hex')}))};
  writeFileSync(resolve(stage,'LOCAL-DELIVERY.json'),JSON.stringify(meta,null,2)+'\n');
- try{execFileSync('tar',['-a','-c','-f',target,'-C',stage,'.'],{windowsHide:true});}catch(error){throw new Error('ZIP creation failed; staging preserved for inspection: '+error.message);}
+ try{writeFileSync(target,standardZip([...files,'LOCAL-DELIVERY.json'].map(path=>({name:path,data:readFileSync(resolve(stage,path))}))),{flag:'wx'});}catch(error){throw new Error('ZIP creation failed; staging preserved for inspection: '+error.message);}
  return {archive:target,stage,files:files.length,sha256:createHash('sha256').update(readFileSync(target)).digest('hex'),sourceCommit:meta.sourceCommit};
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){if(process.argv.length!==4||process.argv[2]!=='--output')throw new Error('Usage: --output tmp/<new-package>.zip');console.log(JSON.stringify(packageLocal({output:process.argv[3]})));}
