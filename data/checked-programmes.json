@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-10-24",
+  "checkedOn": "2026-10-30",
   "pilotProgrammeIds": [
     "HK-CITYU-P010",
     "HK-CITYU-P004",
@@ -34,38 +34,40 @@
       "officialUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-20",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Rolling review. Tuition for this intake still needs checking; do not reuse the 2026/27 price.",
+      "notesEn": "2027/28 tuition is category-dependent and charged per credit; choose study mode and the university's applicant category. Any displayed minimum-credit total is an estimate, not an all-in quote. Rolling review may close before the deadline. Related-field IT experience, language waiver/interview and combined-mode restrictions remain for confirmation.",
       "offerings": [
         {
           "id": "HK-CITYU-P010-O1",
           "mode": "Full-time",
-          "duration": "1 year",
+          "duration": "Normal 1 year; maximum 2.5 years",
           "intake": "2027 entry",
+          "applicationOpen": "2026-09-15",
           "deadline": "2027-05-31",
-          "deadlineNote": null,
+          "deadlineNote": "Rolling review; places may fill before the recorded deadline. Date comparison does not verify live portal availability. Combined-mode and immigration restrictions require university confirmation.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027/28 per-credit rates differ by applicant category. Choose a category; no default tuition estimate or application fee is assumed."
         },
         {
           "id": "HK-CITYU-P010-O2",
           "mode": "Part-time",
-          "duration": "2 years",
+          "duration": "Normal 2 years; maximum 5 years",
           "intake": "2027 entry",
+          "applicationOpen": "2026-09-15",
           "deadline": "2027-05-31",
-          "deadlineNote": null,
+          "deadlineNote": "Rolling review; places may fill before the recorded deadline. Date comparison does not verify live portal availability. Combined-mode and immigration restrictions require university confirmation.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": null,
-          "feeBasis": null
+          "feeBasis": "2027/28 per-credit rates differ by applicant category. Choose a category; no default tuition estimate or application fee is assumed."
         }
       ],
       "rules": [
@@ -106,6 +108,8 @@
               "validFrom": "2026-01-21"
             }
           },
+          "testDateNotBefore": "2024-09-15",
+          "testDateSourceUrl": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
           "singleAttempt": true,
           "atHomeAccepted": false,
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
@@ -123,8 +127,8 @@
           "kind": "manual",
           "labelZh": "Additional condition 2",
           "labelEn": "Additional condition 2",
-          "noteZh": "Test validity is anchored to the application-period start, not today's date. CET-6 is an alternative not supported by the form.",
-          "noteEn": "Test validity is anchored to the application-period start, not today's date. CET-6 is an alternative not supported by the form.",
+          "noteZh": "",
+          "noteEn": "The recorded IELTS/TOEFL date floor is 15 September 2024 for 2027 entry. English-medium waiver, CET-6 (450) and proficiency-interview routes still need university confirmation; CET-6 is not supported by this form.",
           "mandatory": true,
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
         }
@@ -132,11 +136,21 @@
       "sources": [
         {
           "url": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "2027 requirements, study modes, credits and dated window",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm",
+          "purpose": "2027/28 local/non-local per-credit tuition",
+          "checkedOn": "2026-10-20"
+        },
+        {
+          "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/list",
+          "purpose": "2027 application start and explicit accepted test-date minimum",
+          "checkedOn": "2026-10-20"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "cityu-refresh-2026-10-20",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -155,13 +169,13 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Recorded test thresholds and the inclusive 15 September 2024 date minimum; waivers, CET-6 and proficiency-interview alternatives still need confirmation.",
           "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
         },
         "tuition": {
-          "status": "unknown",
-          "noteEn": "No confirmed intake-specific tuition was imported.",
-          "sourceUrl": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-computing/department-of-computer-science/p53"
+          "status": "known",
+          "noteEn": "2027/28 per-credit rates verified for both categories; totals require a category and are minimum-credit estimates, not published all-in prices.",
+          "sourceUrl": "https://www.cityu.edu.hk/sgs/tuitionfee/sf_p53.htm"
         },
         "deadline": {
           "status": "known",
@@ -324,42 +338,44 @@
       "name": "MA Communication",
       "award": "MA",
       "area": "Arts and Communication",
-      "faculty": null,
+      "faculty": "School of Communication",
       "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-30",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Applications open on 6 October 2026. The GPA 2.50 on the page concerns an exit award, not admission.",
+      "notesEn": "Use the registry's explicit September 2027 dates, not the school's undated recurring window. Full-time fees/dates need HKBU applicant-category selection. The school describes part-time as local-only, but 2027 mode/status applicability needs confirmation; no non-local part-time context is fabricated. The registry asks for honours while the school says bachelor degree. GPA 2.50 is an exit-award condition, not admission.",
       "offerings": [
         {
           "id": "HK-HKBU-P001-O1",
           "mode": "Full-time",
           "duration": "1 year",
           "intake": "September 2027",
-          "deadline": "2027-06-07",
-          "deadlineNote": "Non-local deadline; local applicants: 23 July 2027.",
+          "deadline": null,
+          "deadlineNote": "Non-local applicants: 7 June 2027; local applicants: 23 July 2027. Select the HKBU category; no single cutoff or intraday time is assumed. The school's undated rolling window is not converted into 2027 rounds.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 180000,
-          "feeBasis": "Total programme fee"
+          "feeBasis": "Published HKD 180,000 total programme tuition, not an annual multiplier. Select the HKBU applicant category for dated comparison. Confirmation includes a first tuition instalment plus administrative charges; do not add the tuition instalment again. Separate application/administrative and living costs are not quantified.",
+          "applicationOpen": "2026-10-06"
         },
         {
           "id": "HK-HKBU-P001-O2",
           "mode": "Part-time",
           "duration": "2 years",
           "intake": "September 2027",
-          "deadline": "2027-06-07",
-          "deadlineNote": "Non-local deadline; local applicants: 23 July 2027.",
+          "deadline": null,
+          "deadlineNote": "2027 part-time/status applicability requires HKBU confirmation. The registry publishes 7 June (non-local) and 23 July (local) 2027, but no non-local part-time context is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": 180000,
-          "feeBasis": "Total programme fee"
+          "tuition": null,
+          "feeBasis": "Part-time numeric tuition withheld pending 2027 mode/status confirmation. Registry programme total: HKD 180,000; undated school page: HKD 90,000 per year for local-only part-time. Do not multiply or extend a non-local fee/date into this mode.",
+          "applicationOpen": null
         }
       ],
       "rules": [
@@ -371,10 +387,10 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Academic standing and equivalence",
-          "labelEn": "Academic standing and equivalence",
-          "noteZh": "An honours bachelor's degree is required; no specific honours division is stated.",
-          "noteEn": "An honours bachelor's degree is required; no specific honours division is stated.",
+          "labelZh": "",
+          "labelEn": "Academic standing and programme-specific evidence",
+          "noteZh": "",
+          "noteEn": "The dated registry requires a recognised honours bachelor degree; the undated school page says bachelor degree without the qualifier. Keep honours/equivalence for university confirmation rather than silently using the weaker wording. No numeric undergraduate GPA or honours division is invented.",
           "mandatory": true,
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
@@ -392,35 +408,60 @@
             }
           },
           "atHomeAccepted": false,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
+          "singleAttempt": true
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "English waiver and validity at the offer-letter date need confirmation; the new TOEFL scale is not stated on this page.",
-          "noteEn": "English waiver and validity at the offer-letter date need confirmation; the new TOEFL scale is not stated on this page.",
+          "labelZh": "",
+          "labelEn": "English evidence, offer-date validity and exclusions",
+          "noteZh": "",
+          "noteEn": "Scores must be valid within two years of admission-offer issuance, not a rolling check from today. General rules reject TOEFL Home Edition/MyBest and IELTS Indicator/One Skill Retake/Online. Confirm English-medium degree evidence and waiver acceptance; the school FAQ's softer proof wording does not remove the registry's requirement. No updated TOEFL 1-6 cutoff is published in the consulted pages.",
+          "mandatory": true,
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme essay, experience and selection",
+          "noteZh": "",
+          "noteEn": "A 500-word English essay on academic interests/objectives is required, with the applicant's own publication/research sample if available. Relevant professional experience is a preference, not mandatory years. Shortlisted applicants may be interviewed; selection for Interactive Media concentration is not guaranteed. This website does not collect or submit documents.",
           "mandatory": true,
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "An English essay is required; professional experience is a preference, not a mandatory number of years.",
-          "noteEn": "An English essay is required; professional experience is a preference, not a mandatory number of years.",
+          "labelZh": "",
+          "labelEn": "Part-time availability and concentration scope",
+          "noteZh": "",
+          "noteEn": "The school fee table describes part-time as local Hong Kong students only; the registry lists both modes without that detail. Generic non-local visa information is not permission for this specific MA. Confirm 2027 mode/status and concentration applicability with HKBU; do not infer eligibility from location or nationality.",
           "mandatory": true,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
+          "sourceUrl": "https://comm.hkbu.edu.hk/en/programmes/taught-postgraduate-programmes/macomm.html"
         }
       ],
       "sources": [
         {
           "url": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Scoped undergraduate-field/qualification recheck; earlier fees, contextual dates and other partial evidence retain their own sources",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://comm.hkbu.edu.hk/en/programmes/taught-postgraduate-programmes/macomm.html",
+          "purpose": "Scoped undergraduate-field/qualification recheck; earlier fees, contextual dates and other partial evidence retain their own sources",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements",
+          "purpose": "General English exclusions and admission-offer-date validity",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://ar.hkbu.edu.hk/tpg-studies/prospective-student/information-for-non-local-applicants",
+          "purpose": "General non-local information does not establish programme-specific part-time permission",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "hkbu-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -428,8 +469,8 @@
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "major": {
-          "status": "known",
-          "noteEn": "See the academic-standing condition; equivalence requires judgement.",
+          "status": "not_published",
+          "noteEn": "The consulted programme registry specifies a recognised honours bachelor degree and programme-specific application evidence without a universal undergraduate-subject list. No universal required undergraduate major is published in those sections. This is not an any-discipline admission guarantee: honours/equivalence, academic interests, evidence and selection remain subject to HKBU assessment.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "gpa": {
@@ -439,17 +480,17 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Programme-specific scores only; offer-date validity, excluded test variants, English-medium evidence and unlisted TOEFL versions remain to confirm.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "noteEn": "Full-time programme total is recorded; no default category or all-in quote. Part-time numeric tuition is withheld until mode/status applicability is confirmed.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "The registry's full-time local/non-local dates are category-bound; part-time 2027 eligibility and dated scope remain unresolved.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-communication"
         },
         "independentReview": {
@@ -465,18 +506,18 @@
       "name": "MSc Business Management",
       "award": "MSc",
       "area": "Business",
-      "faculty": null,
+      "faculty": "School of Business",
       "officialUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-30",
       "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Keep local and non-local tuition distinct. The published bachelor's requirement does not give a numeric undergraduate GPA minimum.",
+      "notesEn": "September 2027 full-time tuition is HKBU-category dependent: no default non-local amount. Registry and programme pages agree on IELTS 6.0, while the general page lists 6.5; confirm applicability. CET-6 and equivalent qualifications are manual alternatives. Offer-date score validity, documents and interview remain unresolved. GMAT is encouraged, not required; no scholarship or award is automatically deducted.",
       "offerings": [
         {
           "id": "HK-HKBU-P007-O1",
@@ -484,11 +525,12 @@
           "duration": "1 year",
           "intake": "September 2027",
           "deadline": "2027-04-01",
-          "deadlineNote": null,
+          "deadlineNote": "Published full-time deadline is 1 April 2027 for local and non-local applicants. Rolling assessment may fill places earlier; no cutoff time or live portal check is assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
-          "tuition": 393000,
-          "feeBasis": "Total programme tuition for non-local students; local tuition HKD 301,000"
+          "tuition": null,
+          "feeBasis": "HKBU category required: HKD 301,000 local / HKD 393,000 non-local, total programme tuition in two instalments. No default amount, scholarship deduction or all-in cost. Field-study travel/visa/living expenses and textbooks/course materials are excluded; application/administrative fees remain separate and unquantified.",
+          "applicationOpen": "2026-09-01"
         }
       ],
       "rules": [
@@ -512,35 +554,60 @@
             }
           },
           "atHomeAccepted": false,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
+          "singleAttempt": true
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Equivalent academic qualifications, language alternatives and offer-date test validity require confirmation.",
-          "noteEn": "Equivalent academic qualifications, language alternatives and offer-date test validity require confirmation.",
+          "labelZh": "",
+          "labelEn": "Academic equivalence and undergraduate field",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor degree or accepted equivalent professional qualification is required. No numeric undergraduate GPA or complete subject whitelist was found; recognition and equivalence remain the university's decision.",
           "mandatory": true,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+          "sourceUrl": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html"
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 2",
-          "labelEn": "Additional condition 2",
-          "noteZh": "Personal statement and satisfactory admission interview are required. GMAT is encouraged, not compulsory.",
-          "noteEn": "Personal statement and satisfactory admission interview are required. GMAT is encouraged, not compulsory.",
+          "labelZh": "",
+          "labelEn": "English policy, alternatives and offer-date validity",
+          "noteZh": "",
+          "noteEn": "Programme-specific registry/admissions/FAQ pages list IELTS 6.0, but the general page lists 6.5; confirm which policy applies. CET-6 500 and equivalent qualifications are manual alternatives, not converted scores. Validity is two years at admission-offer issuance. General exclusions cover TOEFL Home Edition/MyBest and IELTS Indicator/One Skill Retake/Online; English-medium evidence and an unlisted updated TOEFL threshold need confirmation.",
           "mandatory": true,
-          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
+          "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Programme documents and admission interview",
+          "noteZh": "",
+          "noteEn": "Personal statement must be no more than 500 words; two referees and relevant qualification/score evidence are required. Shortlisted applicants need a satisfactory admission interview. GMAT is highly encouraged, not mandatory. No scholarship, tuition waiver or admission is guaranteed; this website does not collect documents.",
+          "mandatory": true,
+          "sourceUrl": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html"
         }
       ],
       "sources": [
         {
           "url": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Scoped undergraduate-field/qualification recheck; earlier fees, contextual dates and other partial evidence retain their own sources",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://mscbm.hkbu.edu.hk/admission/admission-requirements.html",
+          "purpose": "Scoped undergraduate-field/qualification recheck; earlier fees, contextual dates and other partial evidence retain their own sources",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://mscbm.hkbu.edu.hk/admission/faq.html",
+          "purpose": "Scoped undergraduate-field/qualification recheck; earlier fees, contextual dates and other partial evidence retain their own sources",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://ar.hkbu.edu.hk/tpg-admissions/admission-requirements",
+          "purpose": "General IELTS wording, excluded score variants and offer-date validity",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "hkbu-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
@@ -548,8 +615,8 @@
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
         },
         "major": {
-          "status": "unknown",
-          "noteEn": "A complete accepted-field policy was not captured.",
+          "status": "not_published",
+          "noteEn": "The consulted programme registry, programme admission requirements and FAQ specify a recognised bachelor degree or accepted equivalent professional qualification, without publishing a universal undergraduate-major restriction. No subject whitelist is recorded. This does not make every major automatically accepted; qualification recognition, equivalence and selection remain HKBU decisions.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
         },
         "gpa": {
@@ -559,17 +626,17 @@
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "Registry and programme pages list IELTS 6.0 but the general page lists 6.5; mandatory manual policy confirmation remains. No TOEFL 1-6 score or CET conversion is inferred.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "noteEn": "Both 2027 total tuition categories are sourced, but no category is inferred. Two instalments are not two programme fees; field-study and material costs are separate.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
         },
         "deadline": {
           "status": "known",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
+          "noteEn": "Explicit 1 September 2026 to 1 April 2027 full-time window is recorded for both categories; availability and cutoff time remain unverified.",
           "sourceUrl": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-science-msc-in-business-management"
         },
         "independentReview": {
@@ -1002,26 +1069,28 @@
       "officialUrl": "https://www.eduhk.hk/ssps/mppm",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
+      "lastChecked": "2026-10-30",
       "academicYear": "January 2027 (2026/27); September 2027 (2027/28)",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Do not merge the two intake prices or deadlines. The September deadline has not been checked in this batch.",
+      "notesEn": "January 2027 (2026/27) and September 2027 (2027/28) keep separate applicant categories, fees and deadlines. Select the intake and EdUHK category; no non-local default is used. January's generic Now Open label does not override the passed non-local cutoff. September dates use the central taught-postgraduate schedule with possible earlier closure. Published language-validity examples differ by academic year; no shared rolling expiry is inferred. Institutional recognition, documents and interviews remain manual; admission is not guaranteed.",
       "offerings": [
         {
           "id": "HK-EDUHK-P001-O1",
           "mode": "Full-time",
           "duration": "1 year",
           "intake": "January 2027",
-          "deadline": "2026-10-15",
-          "deadlineNote": "Non-local deadline; local applicants: 20 November 2026.",
+          "deadline": null,
+          "deadlineNote": "January 2027 category required: Non-local cutoff 15 October 2026; local applicants 20 November 2026. No dated opening or intraday cutoff is established. Generic Now Open wording does not override a passed category deadline.",
           "academicYear": "2026/27",
           "currency": "HKD",
-          "tuition": 188888,
-          "feeBasis": "Total tuition for non-local applicants; local tuition HKD 151,110"
+          "tuition": null,
+          "feeBasis": "January 2027 total tuition: non-local HKD 188,888; local tuition HKD 151,110. Separate application fees: HKD 400 non-local / HKD 300 local. Select the EdUHK category; no default amount or September fee is assumed.",
+          "applicationOpen": null,
+          "applicationFee": null
         },
         {
           "id": "HK-EDUHK-P001-O2",
@@ -1029,23 +1098,25 @@
           "duration": "1 year",
           "intake": "September 2027",
           "deadline": null,
-          "deadlineNote": null,
+          "deadlineNote": "September 2027 central TPG schedule: opening 5 October 2026; early cutoff 4 January 2027; main cutoff 15 February 2027; final cutoff 10 May 2027 non-local / 31 May 2027 local. Select the EdUHK category. Programmes may close earlier; no separate round openings, exact cutoff times or live availability are assumed.",
           "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 208000,
-          "feeBasis": "Published September 2027 programme tuition"
+          "feeBasis": "Published September 2027 programme tuition HKD 208,000. Separate application fees from this intake: HKD 400 local / HKD 500 non-local. No January price, category default, scholarship discount or all-in cost is assumed.",
+          "applicationOpen": "2026-10-05",
+          "applicationFee": null
         }
       ],
       "rules": [
         {
           "kind": "degree",
-          "labelZh": "Bachelor’s degree",
-          "labelEn": "Bachelor’s degree",
+          "labelZh": "",
+          "labelEn": "Recognised bachelor’s degree or accepted equivalent",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         {
           "kind": "language",
-          "labelZh": "Published English test scores",
+          "labelZh": "",
           "labelEn": "Published English test scores",
           "tests": {
             "ielts": {
@@ -1066,10 +1137,37 @@
         },
         {
           "kind": "manual",
-          "labelZh": "Additional condition 1",
-          "labelEn": "Additional condition 1",
-          "noteZh": "Language exemptions, accepted equivalents and intake-specific test-validity anchors require confirmation.",
-          "noteEn": "Language exemptions, accepted equivalents and intake-specific test-validity anchors require confirmation.",
+          "labelZh": "",
+          "labelEn": "Academic recognition and undergraduate field",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor degree or accepted equivalent is normally required. An exhaustive accepted-field list, an automatic any-discipline policy and a numeric admission GPA are not established. Overseas qualifications may require HKQF Level 5 equivalence and requested assessment evidence; recognition is the university's decision, not inferred from nationality or a self-reported GPA.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Intake-specific English validity and alternatives",
+          "noteZh": "",
+          "noteEn": "Programme text gives a 2026/27 example of IELTS/TOEFL/CET-6 on or after 1 January 2024; the current central 2027/28 page gives 1 January 2025. Confirm which example and two-year rule apply to the selected intake; neither is a rolling expiry from today or one shared date across intakes. CET-6 430, GCSE/GCE OL English grade C and equivalents remain manual alternatives. Scores must be test-centre based; TOEFL Home Edition/MyBest, IELTS Indicator/Online/One Skill Retake, Duolingo and the National Postgraduate Entrance Examination are excluded.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Qualification evidence, confidential transcript and interview",
+          "noteZh": "",
+          "noteEn": "Academic documents and applicable English evidence are required; confidential transcripts may need direct transmission from the awarding institution. Mainland-qualification verification requirements apply only to that qualification route, not to every applicant. Non-English/non-Chinese documents need certified English translation under the central FAQ; further evidence may be requested. Shortlisted applicants undergo document verification and interview. No third party is authorised to guarantee admission; this platform does not submit or collect these documents.",
+          "mandatory": true,
+          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Delivery, curriculum and category applicability",
+          "noteZh": "",
+          "noteEn": "Teaching defaults to in-person, with sites and class times determined by EdUHK. Specialisation/elective quotas and alternatives may change; choosing an optional thesis does not make this coursework programme a research master. EdUHK must confirm applicant status, qualification recognition and current intake availability; location in Singapore does not determine local/non-local classification.",
           "mandatory": true,
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         }
@@ -1077,46 +1175,61 @@
       "sources": [
         {
           "url": "https://www.eduhk.hk/ssps/mppm",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "purpose": "Scoped undergraduate-field/qualification recheck; earlier fees, contextual dates and other partial evidence retain their own sources",
+          "checkedOn": "2026-10-30"
         },
         {
           "url": "https://www.eduhk.hk/acadprog/postgrad/",
-          "purpose": "January intake applicant-category deadlines",
-          "checkedOn": "2026-10-06"
+          "purpose": "January 2027 local/non-local deadlines; promotional Now Open is not a date override",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html",
+          "purpose": "Central September 2027 opening, early/main and local/non-local final cutoffs; MPPM is not an excluded programme",
+          "checkedOn": "2026-10-23"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/EnReq(Pg)/index.html",
+          "purpose": "Scoped undergraduate-field/qualification recheck; earlier fees, contextual dates and other partial evidence retain their own sources",
+          "checkedOn": "2026-10-30"
+        },
+        {
+          "url": "https://www.eduhk.hk/acadprog/FAQS/index.htm",
+          "purpose": "Document translation/direct-verification guidance and separate application-fee refund conditions",
+          "checkedOn": "2026-10-23"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "lingnan-eduhk-refresh-2026-10-23",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
+          "noteEn": "January 2027 is 2026/27; September 2027 is 2027/28. These are not one combined intake.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "major": {
-          "status": "unknown",
-          "noteEn": "A complete accepted-field policy was not captured.",
+          "status": "not_published",
+          "noteEn": "The consulted programme admission and central entrance sections state a recognised bachelor degree or equivalent without a universal named undergraduate-major restriction. No exhaustive subject-acceptance rule is published in those sections. This is not automatic any-discipline eligibility; recognition, equivalence and programme assessment remain EdUHK decisions.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "gpa": {
           "status": "not_published",
-          "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
+          "noteEn": "No numeric undergraduate admission GPA cutoff found in the consulted programme/general sources.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "language": {
           "status": "known",
-          "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
+          "noteEn": "IELTS 6.0, old TOEFL 80 / new TOEFL 4.0. Distinct 2026/27 and 2027/28 validity examples and alternative qualifications remain intake-specific manual checks.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
+          "noteEn": "January category tuition differs; September tuition is HKD 208,000 but application fees change by intake/category. No non-local default is used.",
           "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
         },
         "deadline": {
           "status": "unknown",
-          "noteEn": "Offering-specific dates are recorded; see local/non-local and round notes.",
-          "sourceUrl": "https://www.eduhk.hk/ssps/mppm"
+          "noteEn": "Category-bound January cutoffs and September central rounds are recorded. January opening and exact times are unknown; use validated intake/category evidence rather than a single programme-wide date.",
+          "sourceUrl": "https://www.eduhk.hk/acadprog/postgrad/schedule_index.html"
         },
         "independentReview": {
           "status": "unknown",
@@ -1361,42 +1474,46 @@
       "name": "MSc Digital and Sustainable Cities",
       "award": "MSc",
       "area": "Engineering",
-      "faculty": null,
-      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
+      "faculty": "Department of Civil and Environmental Engineering",
+      "officialUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
       "verification": "programme_page_checked",
       "sourceStatus": "AI-assisted official-source page check; independent review pending",
-      "lastChecked": "2026-10-06",
-      "academicYear": "2026/27",
+      "lastChecked": "2026-10-24",
+      "academicYear": "2027/28",
       "admissionRoute": "direct",
       "requirementsCoverage": "partial",
       "collector": "AI-assisted official-source extraction",
       "reviewer": null,
       "notesZh": "",
-      "notesEn": "Checked 2026/27 catalogue. A newer application window or intake is not assumed. Related engineering fields and waivers require university judgement.",
+      "notesEn": "2027/28 September MSc cohort checked directly, not inferred from the directory. FT/PT fees differ; local/non-local final cutoffs require explicit category selection. Current MSc students may apply for MEng transfer only with approval; its HKD 150,000 extra year-two fee is not a standalone new-entry masters price. Graduation GGA 2.850 is not an undergraduate admission GPA. Recognised qualifications, related engineering fields, remedial courses, language alternatives/waivers and pathway exceptions require university judgement. No confirmed opening date or live application-portal check.",
       "offerings": [
         {
           "id": "HK-HKUST-P002-O1",
           "mode": "Full-time",
           "duration": "1 year",
-          "intake": null,
+          "intake": "September 2027",
           "deadline": null,
-          "deadlineNote": null,
-          "academicYear": "2026/27",
+          "deadlineNote": "Select the HKUST local/non-local applicant category for Round 1 and the different Round 2 cutoffs. Opening date and exact cutoff times are not established; competitive rolling review is not a guarantee of availability.",
+          "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 270000,
-          "feeBasis": "Total programme fee"
+          "feeBasis": "2027/28 ordinary direct-entry MSc total: HKD 270000, two instalments; not an annual amount. Additional/retaken courses cost extra. Ordinary credit transfer does not reduce the full fee; the HKUST integrated Bachelor-Master pathway has a separate pro-rata exception requiring confirmation. Excludes the separate HKD 600 application fee and conditional MEng year-two fee.",
+          "applicationOpen": null,
+          "applicationFee": 600
         },
         {
           "id": "HK-HKUST-P002-O2",
           "mode": "Part-time",
           "duration": "2–2.5 years",
-          "intake": null,
+          "intake": "September 2027",
           "deadline": null,
-          "deadlineNote": null,
-          "academicYear": "2026/27",
+          "deadlineNote": "Select the HKUST local/non-local applicant category for Round 1 and the different Round 2 cutoffs. Opening date and exact cutoff times are not established; competitive rolling review is not a guarantee of availability.",
+          "academicYear": "2027/28",
           "currency": "HKD",
           "tuition": 230000,
-          "feeBasis": "Total programme fee"
+          "feeBasis": "2027/28 ordinary direct-entry MSc total: HKD 230000, four instalments; not an annual amount. Additional/retaken courses cost extra. Ordinary credit transfer does not reduce the full fee; the HKUST integrated Bachelor-Master pathway has a separate pro-rata exception requiring confirmation. Excludes the separate HKD 600 application fee and conditional MEng year-two fee.",
+          "applicationOpen": null,
+          "applicationFee": 600
         }
       ],
       "rules": [
@@ -1404,7 +1521,7 @@
           "kind": "degree",
           "labelZh": "Bachelor’s degree",
           "labelEn": "Bachelor’s degree",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         {
           "kind": "major",
@@ -1415,14 +1532,14 @@
           ],
           "any": false,
           "relatedAllowed": true,
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         {
           "kind": "classification",
           "labelZh": "Honours classification",
           "labelEn": "Honours classification",
           "min": "second_lower",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         {
           "kind": "language",
@@ -1444,52 +1561,93 @@
           },
           "singleAttempt": true,
           "atHomeAccepted": false,
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Recognised qualification, related engineering field and remedial courses",
+          "noteZh": "",
+          "noteEn": "A recognised bachelor degree or accepted equivalent and second-class honours or above in Civil Engineering or a related engineering area are required. The university decides recognition/equivalence and whether another engineering field is related; non-Civil Engineering degree holders may need remedial civil engineering courses before study. No numeric undergraduate GPA is published here; the 2.850 GGA concerns graduation, not admission.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Language waivers, legacy tests and validity",
+          "noteZh": "",
+          "noteEn": "A first language of English or a bachelor degree/equivalent taught in English can support a TOEFL/IELTS waiver, subject to university acceptance. The catalogue also lists TOEFL pBT 550 and revised paper-delivered 60; these unmodelled formats need review. Recorded IELTS/iBT thresholds require a single sitting and exclude at-home tests. A score-validity anchor was not established in the accessible sources; no rolling expiry is inferred.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "MSc-to-MEng transfer and integrated pathway exceptions",
+          "noteZh": "",
+          "noteEn": "MEng is only for current MSc(DISC) students, with transfer after first-year MSc requirements and approval for an additional year-long industrial placement; it is not open to new direct admission. The integrated Bachelor-Master pathway is separately restricted to qualifying HKUST Year 3-or-above Civil/Civil & Environmental Engineering students, allows conditional entry and up to 9 prior credits with pro-rata tuition for at least 21 credits. Neither pathway is automatically granted to an ordinary applicant.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
+        },
+        {
+          "kind": "manual",
+          "labelZh": "",
+          "labelEn": "Applicant category, part-time permission and rolling selection",
+          "noteZh": "",
+          "noteEn": "HKUST defines non-local status using visa/entry-permit categories; do not infer it from residence, nationality or grades. FT/PT and local/non-local cutoffs are published, but part-time study permission and immigration arrangements still require confirmation. Selection is competitive and rolling; minimum requirements do not guarantee admission. Opening dates and exact cutoff times are unknown.",
+          "mandatory": true,
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         }
       ],
       "sources": [
         {
-          "url": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc",
-          "purpose": "Programme-specific admissions",
-          "checkedOn": "2026-10-06"
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc",
+          "purpose": "2027/28 MSc admissions, study modes, category cutoffs, separate application fee and restricted MEng/pathway exceptions",
+          "checkedOn": "2026-10-24"
+        },
+        {
+          "url": "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-disc",
+          "purpose": "Programme-school corroboration of 2027/28 fees, September intake and local/non-local rounds",
+          "checkedOn": "2026-10-24"
         }
       ],
-      "researchBatch": "official-pilot-2026-10-06",
+      "researchBatch": "hkust-sit-refresh-2026-10-24",
       "fieldStatus": {
         "academicYear": {
           "status": "known",
-          "noteEn": "Intake/year identified in the checked sources.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "noteEn": "2027/28 Fall / September 2027 is stated in both consulted programme sources.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "major": {
           "status": "known",
-          "noteEn": "Exact fields or accepted alternative routes are recorded.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "noteEn": "Civil Engineering is explicit; related engineering areas, recognition and remedial courses need university judgement.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "gpa": {
           "status": "not_published",
           "noteEn": "No numeric undergraduate admission GPA cutoff was found in the consulted admissions sources; this does not mean academic performance is irrelevant.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "language": {
           "status": "known",
           "noteEn": "Recorded test thresholds only; waivers, validity anchors and unlisted alternatives still need confirmation.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "tuition": {
           "status": "known",
-          "noteEn": "Keep the offering's currency, fee basis, applicant category and approval caveats.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "noteEn": "Mode-specific ordinary MSc totals with instalments, extra-course and integrated-pathway exceptions; separate HKD 600 application fee and conditional MEng extra fee.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "deadline": {
-          "status": "unknown",
-          "noteEn": "Recurring months or a directory listing are not a confirmed dated application window.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "status": "known",
+          "noteEn": "Two category-specific cutoffs are captured in separate FT/PT contexts. Final raw deadline stays null; opening dates and cutoff times remain unknown.",
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         },
         "independentReview": {
           "status": "unknown",
           "noteEn": "No independent human review has been recorded; no recommendation tier is enabled.",
-          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-meng-disc"
+          "sourceUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc"
         }
       }
     },

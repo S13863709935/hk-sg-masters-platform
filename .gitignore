@@ -41,3 +41,8 @@ docs/assessments/
 # Local review files
 qa-output/
 tmp/
+
+# Local runtime databases
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm

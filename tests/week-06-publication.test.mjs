@@ -91,7 +91,7 @@ for (const [label, input] of scenarios) test(`synthetic ${label}: all twenty API
   const response = await fetch(url + '/api/matches', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ profile: input }) });
   assert.equal(response.status, 200);
   const data = await response.json();
-  assert.equal(data.checkpoint, 'week-07'); assert.equal(data.items.length, 20); assert.equal('profile' in data, false);
+  assert.equal(data.checkpoint, 'week-08'); assert.equal(data.items.length, 20); assert.equal('profile' in data, false);
   for (const p of data.items) {
     const original = get(p.id);
     assert.deepEqual(p.match, checkProgramme(original, input));

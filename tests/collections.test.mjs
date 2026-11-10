@@ -46,5 +46,5 @@ test('export uses a whitelist so active matching or a future personal field cann
 });
 test('the browser module is served as a static feature; no sensitive backend list or export endpoint is introduced',()=>{
  const js=readFileSync(new URL('../public/app.js',import.meta.url),'utf8'),html=readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
- assert.match(js,/programmeReferencesExport\(state.candidates, state.all\)/);assert.match(js,/Save list in this browser/);assert.match(js,/Not selected — do not assume a fee/);assert.match(html,/WEEK 7/);assert.equal(/\p{Script=Han}/u.test(js+html),false);
+ assert.match(js,/programmeReferencesExport\(state.candidates, state.all\)/);assert.match(js,/Save list in this browser/);assert.match(js,/Not selected — do not assume a fee/);assert.match(html,/WEEK 8/);assert.equal(/\p{Script=Han}/u.test(js+html),false);
 });

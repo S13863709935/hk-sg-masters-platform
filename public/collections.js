@@ -1,4 +1,4 @@
-export const storageKey = 'gradpath-week-07-candidate-references';
+export const storageKey = 'gradpath-week-08-candidate-references';
 const id = value => typeof value === 'string' && /^[A-Z0-9-]{1,160}$/.test(value);
 const reference = value => ({ programmeId: value.programmeId, offeringId: value.offeringId ?? null });
 
@@ -58,13 +58,14 @@ export function programmeReferencesExport(choices, catalogue) {
   const checked = reconcileReferences(choices, catalogue);
   const pick = (object, keys) => Object.fromEntries(keys.filter(k => object[k] !== undefined).map(k => [k, object[k]]));
   return {
-    schemaVersion: 1, checkpoint: 'week-07',
+    schemaVersion: 1, checkpoint: 'week-08',
     note: 'Public programme references only. Partial historical observations, not confirmed eligibility or live application availability. No currency conversion or personal background is exported.',
     programmes: checked.choices.map(c => {
       const p = catalogue.find(p => p.id === c.programmeId), o = p.offerings.find(o => o.id === c.offeringId);
       return {
         ...pick(p, ['id', 'universityId', 'name', 'award', 'academicYear', 'officialUrl', 'lastChecked', 'verification', 'requirementsCoverage', 'notesEn']),
-        selectedOffering: o ? pick(o, ['id', 'mode', 'duration', 'intake', 'academicYear', 'currency', 'tuition', 'applicationFee', 'feeBasis', 'applicationOpen', 'deadline', 'deadlineNote']) : null,
+        selectedOffering: o ? pick(o, ['id', 'mode', 'duration', 'intake', 'academicYear', 'currency', 'tuition', 'applicationFee', 'feeBasis', 'applicationOpen', 'deadline', 'deadlineAt', 'deadlineNote']) : null,
+        applicationRounds: o ? (o.applicationRounds || []).map(r => pick(r, ['id', 'label', 'applicationOpen', 'deadline', 'deadlineAt'])) : [],
         selectionNote: o ? 'Exact selected study option; confirm its current fees, dates and applicability with the university.' : 'No study option selected; no default fee or intake assigned.',
         sources: (p.sources || []).map(s => pick(s, ['url', 'checkedOn', 'purpose']))
       };

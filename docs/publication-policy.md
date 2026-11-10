@@ -28,3 +28,7 @@ The user explicitly requested the W6 push on 27 October. Publish only the select
 The user now delegates judging when to commit and push. During active development turns, assess plan fit, completed evidence, tests, privacy and dependency boundaries; publish a review-ready checkpoint without waiting for another reminder. This is not a background automation or permission to publish the advanced local branch wholesale.
 
 Study Week is 19–25 October, not Week 6. A small progress checkpoint may be published before the period ends if its limits are explicit. Never mark pending user research, team acceptance or independent review complete. Keep `main` and historical checkpoint branches unchanged unless a separate review/merge step is authorised.
+
+## Week 8 selected checkpoint
+
+On 10 November 2026 the user explicitly requested a push. Prepare `checkpoint/week-08` from published W7 for pilot source reconciliation and integration fixes. Keep twenty direct-entry pilot IDs, the transfer archive and all earlier branch histories; leave the expanded local platform separate. Use the W8 manifest and actual observations, not publication-day source dates. Validate this selected runtime independently; the advanced local version's 1,587 tests are not this checkpoint's test result. Further "continue" requests remain local by default.

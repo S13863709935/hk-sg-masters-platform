@@ -9,7 +9,7 @@ export function createCheckpoint({ publicDir, pilotPath, directoryPath }) {
   const universities = directory.universities.map(u => ({ id: u.universityId, name: u.nameEn, region: u.region, directoryUrl: u.directoryUrl }));
   const programmes = pilot.programmes.filter(p => p.admissionRoute === 'direct').map(p => ({ ...p, university: universities.find(u => u.id === p.universityId) }));
   const checkpoint = {
-    checkpoint: 'week-07', publicationPreparedOn: '2026-11-03', sourceSnapshotDate: '2026-10-06',
+    checkpoint: 'week-08', publicationPreparedOn: '2026-11-10', sourceSnapshotDate: '2026-10-06',
     latestSourceCheckDate: pilot.checkedOn,
     sourceRefreshes: pilot.programmes.filter(p => p.lastChecked !== '2026-10-06').map(p => ({ programmeId: p.id, checkedOn: p.lastChecked })),
     targetUniversities: universities.length, pilotProgrammes: programmes.length,
@@ -41,19 +41,24 @@ export function createCheckpoint({ publicDir, pilotPath, directoryPath }) {
         let input;
         try { input = JSON.parse(Buffer.concat(chunks).toString('utf8')); } catch { throw new InputError('Invalid JSON.', 400); }
         const profile = validateProfile(input?.profile);
-        return send(200, { items: programmes.map(p => ({ ...p, match: checkProgramme(p, profile) })), checkpoint: 'week-07' });
+        return send(200, { items: programmes.map(p => ({ ...p, match: checkProgramme(p, profile) })), checkpoint: 'week-08' });
       }
       if (!['GET', 'HEAD'].includes(req.method)) return send(405, { error: 'Method not available in this checkpoint.' });
       if (assets.has(url.pathname)) { const asset = assets.get(url.pathname); return send(200, asset.body, asset.type); }
-      if (url.pathname === '/api/health') return send(200, { ok: true, app: 'gradpath', checkpoint: 'week-07' });
+      if (url.pathname === '/api/health') return send(200, { ok: true, app: 'gradpath', checkpoint: 'week-08' });
       if (url.pathname === '/api/checkpoint') return send(200, checkpoint);
       if (url.pathname === '/api/meta') return send(200, { universities, checkpoint });
       if (url.pathname === '/api/catalogue') { const items = filter(url.searchParams); return send(200, { items, total: items.length }); }
       if (url.pathname.startsWith('/api/programmes/')) {
         const p = programmes.find(p => p.id === decodeURIComponent(url.pathname.slice('/api/programmes/'.length)));
-        return p ? send(200, p) : send(404, { error: 'Programme not in the direct-entry pilot.' });
+        if (!p) return send(404, { error: 'Programme not in the direct-entry pilot.' });
+        const choices = url.searchParams.getAll('offering');
+        if (choices.length > 1) return send(400, { error: 'Select one exact study option.' });
+        const offering = choices.length ? p.offerings.find(o => o.id === choices[0]) : null;
+        if (choices.length && !offering) return send(400, { error: 'Study option does not belong to this programme. No substitute selected.' });
+        return send(200, { ...p, selectedOffering: offering });
       }
-      return send(404, { error: 'Not part of the Week 7 pilot checkpoint.' });
+      return send(404, { error: 'Not part of the Week 8 pilot checkpoint.' });
     } catch (error) { if (!res.headersSent) send(error instanceof InputError ? error.status : 500, { error: error instanceof InputError ? error.message : 'Unable to complete the request. No background was saved.' }); else res.end(); }
   });
 }

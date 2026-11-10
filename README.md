@@ -1,24 +1,22 @@
-# HK–SG Masters Platform — Week 7 checkpoint
+# HK–SG Masters Platform — Week 8 checkpoint
 
-An English website for exploring and comparing taught/coursework master's programmes at the target Hong Kong and Singapore universities.
+An English pilot for exploring taught/coursework master's programmes in Hong Kong and Singapore.
 
-## This publication
+Prepared on **10 November 2026**, during W8 (**9–15 November**), from published W7 commit `dff8b54`. This selected integration checkpoint retains **20 direct-entry programmes across 14 target universities**, plus one excluded historical transfer-only reference. It does not mark the whole week or project complete.
 
-Prepared on **3 November 2026**, early in W7 (**2–8 November**), from the published W6 checkpoint `ebc08ff`. This is a selected progress checkpoint under ongoing T2 data collection and T5 core development, ahead of the 8 November review target. It does not mark the week or project complete.
+## Included in this checkpoint
 
-The published pilot covers **20 direct-entry programmes across 14 target universities**, plus an excluded transfer-only research reference. It now supports:
+- Search, official-source details, temporary background comparison, 2–4 programme comparison and candidate references.
+- Five existing source records consolidated from the advanced local version: CityU Computer Science, HKBU Communication, HKBU Business Management, EdUHK Public Policy and Management, and HKUST Digital and Sustainable Cities.
+- Exact study-option resolution in the details API. A foreign, retired, empty or repeated option is rejected; no first-option price is substituted.
+- Multiple-option cards ask for an explicit choice. Details and comparison retain recorded rounds and exact cutoff offsets; public-reference exports retain the same ordered rounds through a field whitelist.
+- Matching distinguishes strict greater-than score rules from inclusive minima and preserves a known final-year degree status for an explicit completed-degree-only rule. Those two flags are tested with synthetic fixtures; no new university condition is invented.
 
-- Search, programme details and temporary background comparisons with reasons and official sources.
-- Comparison of 2–4 programme references with an explicit intake/study-mode choice for each. Unselected choices have no default comparison price; currencies and fee bases remain separate.
-- A candidate list with duplicate prevention, removal and clear controls.
-- Optional browser-local saving of programme/option IDs. Saving is opt-in; no background, score, document or fee snapshot is stored. Saved choices are checked against the current pilot on reload.
-- JSON export of public programme references and the exact selected offerings, without personal background or match results.
-
-The advanced local platform remains separate. Its expanded catalogue, route/applicant engines, database/admin tools and broader source batches are not included here. GitHub publication is not a public website deployment or course submission.
+The expanded catalogue, route/applicant engines, SQLite/admin tooling and broader local source batches remain in the separate local development branch. This GitHub checkpoint is not a deployed website or a course submission.
 
 ## Run locally
 
-Use **Node.js 24 or later**. There are no runtime dependencies to install.
+Use **Node.js 24 or later**. No runtime dependencies need installing.
 
 ```text
 npm start
@@ -26,34 +24,25 @@ npm test
 npm run check:data
 ```
 
-Open **http://127.0.0.1:3111**. The server binds only to loopback. W6 uses port 3110 and the advanced local version uses 3102, so the three remain separate. Keep the server terminal running while browsing.
+Open **http://127.0.0.1:3112** and keep the terminal running. The server binds only to loopback. The advanced local website on 3102 and older checkpoint ports are separate.
 
-The background form goes only to this local service, is not logged or written to disk, and clears on reload. Candidate references are temporary until the user selects **Save list in this browser**; use **Forget browser copy** or **Clear candidate list** to remove that copy. A restricted browser can refuse storage; the temporary list remains usable. Shared-device users should clear their saved references when finished.
+Backgrounds remain temporary and are not logged, saved or exported. Candidate saving is optional and stores only programme/option IDs in the browser. Saved references are checked against current options, without substitution. W8 uses a separate browser-storage key. Older W7 references are not automatically rebound to revised intakes, and their saved copy is left untouched. Clear saved references when finished on a shared device.
 
-## Data scope and limits
+## Data limits and verification
 
-- Five existing observations selected from the advanced local source: Lingnan International Higher Education and Management; PolyU Business Management; HKU Urban Analytics; SIT Civil Engineering; SUSS Management.
-- These observations retain their actual **23–24 October** dates. The other sixteen records remain identical to W6; six records including the transfer reference retain **6 October** observations.
-- All twenty direct-entry records remain **partial**. Independent human reviews: **0**; complete requirements: **0**. Recommendation tiers remain disabled.
-- Original pilot IDs, the 175-row workbook and directory register are unchanged. Current source URLs, notes, uncertainties, original currencies and cohort fee bases remain visible.
-- Publication preparation is not a fresh source check or confirmation that applications are open. Unknown prices are not zero, and recurring intake months do not establish a dated application window.
+The five consolidated objects retain their actual **20–30 October** observations, including older individual source dates within a scoped recheck. Sixteen other objects, the original pilot IDs, directory register and 175-row workbook remain unchanged. The transfer-only record retains 6 October evidence and stays outside direct-entry browsing. **10 November is preparation day, not a fresh reading of every source.**
 
-The site does not submit applications, predict admission probabilities or guarantee admission. University recognition, equivalence, waivers, professional registration and discretionary selection remain university decisions.
+All direct-entry records remain partial. Independent reviews and complete requirements are **0**. Applicant-category fees, admission equivalence, English waivers, route applicability and live portal availability still need confirmation. Unknown fees are not zero; recorded dates are not a live-open claim. No admission tiers, probabilities or guarantees are provided.
 
-## Verification and evidence
+**92 automated checks passed**, without failures or skips. Integration tests exercise all published study choices through details, saved-reference reconciliation and public export; seven synthetic backgrounds also exercise twenty records each. Browser checks confirmed CUHK's five rounds, its unresolved part-time fee and HKU's noon cutoff offset in details/comparison. These checks are software QA, not participant research or independent admissions review.
 
-**83 automated checks passed**, including fifteen new collection/source checks. The checkpoint's seven synthetic backgrounds exercise all twenty programmes through the matching API (140 comparisons); these are software fixtures, not participant research. Desktop browser checks covered explicit offerings and original-currency fees, candidate transfer, opt-in saving/reload, actual JSON download and clearing. The exported file was inspected for public fields and the chosen option. No new mobile, clean-machine or real-user acceptance result is claimed.
+- [W8 scope and validation](docs/progress/week-08-checkpoint.md)
+- [Five source records and retained limits](docs/research/week-08-selected-sources.md)
+- [Publication manifest and fingerprints](data/publication-week-08.json)
+- [Project calendar](docs/calendar-and-backlog.md)
+- [Data and matching principles](docs/data-and-matching.md)
+- [Data history](data/README.md)
+- [Publication policy](docs/publication-policy.md)
+- [Previous W7 checkpoint](docs/progress/week-07-checkpoint.md)
 
-- [Selected scope, validation and remaining work](docs/progress/week-07-checkpoint.md)
-- [Five source observations and their original dates](docs/research/week-07-selected-sources.md)
-- [Publication manifest and object fingerprints](data/publication-week-07.json)
-- [Calendar and action plan](docs/calendar-and-backlog.md)
-- [Scope and requirements](docs/scope-and-requirements.md)
-- [Data fields and matching principles](docs/data-and-matching.md)
-- [Data history and limits](data/README.md)
-- [Team and planned workflow](docs/team-and-workflow.md)
-- [User/service research protocol](docs/user-research-protocol.md)
-- [Staged publication policy](docs/publication-policy.md)
-- [Earlier W6 checkpoint](docs/progress/week-06-checkpoint.md)
-
-Real user research, independent review, broader source completion and the later integration/user-testing milestones remain outstanding. Planned ownership does not prove a teammate's contribution. Preserve `main`, earlier checkpoints and the advanced local branch; never commit private student files, credentials, browser preferences or runtime databases.
+Real user research, independent source review and team acceptance remain outstanding. Planned ownership does not establish completed teammate work. Preserve earlier checkpoints and the separate advanced local version.

@@ -3,6 +3,7 @@ const normalize = s => String(s || '').normalize('NFKC').toLowerCase().replace(/
 const rank = { ordinary: 0, third: 1, second_lower: 2, second_upper: 3, first: 4 };
 function evaluate(r, p) {
   const result = (status, reason, unresolved = false) => ({ kind: r.kind, label: r.labelEn, status, reason, unresolved, mandatory: r.mandatory !== false, sourceUrl: r.sourceUrl });
+  if (r.kind === 'degree' && r.completedOnly && p.degreeStatus === 'final_year') return result('fail', 'The published rule requires a completed degree before application; a final-year applicant has not completed it.');
   if (r.kind === 'degree') return result(p.degreeStatus === 'graduated' ? 'pass' : 'unknown', 'Self-reported degree completion only; recognition and conditional-offer rules remain subject to university assessment.');
   if (r.kind === 'major') return r.any || r.accepted.map(normalize).includes(normalize(p.major)) ? result('pass', 'Reported major is explicitly included in this recorded rule.') : r.relatedAllowed ? result('unknown', 'A related discipline may be considered. Equivalence is not inferred automatically.') : result('fail', 'Reported major is outside the explicitly listed fields.');
   if (r.kind === 'gpa') return p.gpa === null || p.gpaScale !== r.scale ? result('unknown', 'GPA is missing or on a different original scale. No conversion is applied.') : result(p.gpa >= r.min ? 'pass' : 'fail', `Reported GPA ${p.gpa}/${p.gpaScale}; recorded minimum ${r.min}/${r.scale}.`);
@@ -12,7 +13,7 @@ function evaluate(r, p) {
   const l = p.language; const target = r.tests?.[l.type];
   if (!target || l.type === 'waiver') return result('unknown', 'This test version, missing score or waiver route needs confirmation.');
   const fails = []; const unknown = [];
-  if (l.total === null) unknown.push('total'); else if (l.total < target.total) fails.push('total');
+  if (l.total === null) unknown.push('total'); else if (l.total < target.total || (target.exclusiveMinimum && l.total === target.total)) fails.push('total');
   if (target.componentMin !== undefined) {
     if (l.type !== 'ielts') unknown.push('test-specific component scores');
     else for (const [k, v] of Object.entries(l.components)) { if (v === null) unknown.push(k); else if (v < target.componentMin) fails.push(k); }
