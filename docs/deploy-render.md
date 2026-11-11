@@ -1,10 +1,10 @@
 # Render免费演示部署（2026-11-11）
 
-这是完整本地网站的独立部署准备分支deploy/render-demo，起点为本地178b744。它没有替换main、第八周或本地运行版。分支需要明确推送后才会出现在Render的GitHub来源中；本文件本身不代表已经推送、创建服务或上线。当前状态见[部署准备记录](progress/render-deployment-preparation-2026-11-11.md)。
+这是完整本地网站的独立部署分支deploy/render-demo，起点为本地178b744。它没有替换main、第八周或本地运行版。用户已于11月11日授权将完整分支推送至GitHub；推送代码后仍需在Render创建服务。本文件本身不代表服务已上线。准备与授权记录见[部署准备记录](progress/render-deployment-preparation-2026-11-11.md)。
 
 ## 一、准备GitHub来源
 
-GitHub目前发布的checkpoint/week-08只有20个直接申请试点，不是873条目录的完整本地版本。部署完整版本应使用独立deploy/render-demo分支。确认发布范围后，只推送这个新分支，保留main和各周历史；不要为使Render看到代码而覆盖原分支。
+checkpoint/week-08保留20个直接申请试点，不是873条目录的完整版本。部署完整版本使用独立deploy/render-demo分支，保留main和各周历史；不要为使Render看到代码而覆盖原分支。
 
 源码仓库：https://github.com/S13863709935/hk-sg-masters-platform
 
