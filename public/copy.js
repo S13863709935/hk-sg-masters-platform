@@ -1,4 +1,5 @@
 export const copy = {
+  "hostedDemo": "Public demonstration",
   "deliveryScope": "Delivery and project scope",
   "scopeUnconfirmed": "Delivery / scope needs confirmation",
   "studyOption": "Selected study option",

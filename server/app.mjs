@@ -9,6 +9,7 @@ import { loadApplicantContexts, validateApplicantSelections, applicantSummary } 
 import { applicationDate, programmeTimeline } from './application-dates.mjs';
 import { parseSavedOption } from '../public/saved-options.js';
 import { filterProgrammes } from '../public/catalogue-filters.js';
+import { publicOrigin as validatePublicOrigin } from './runtime-config.mjs';
 export { filterProgrammes };
 
 const headers = {
@@ -22,24 +23,27 @@ async function body(req) {
   for await (const chunk of req) { text += chunk; if (Buffer.byteLength(text) > 1024 * 1024) throw new InputError('Request too large', 413); }
   try { return JSON.parse(text); } catch { throw new InputError('Invalid JSON', 400); }
 }
-export function createApp({ store, publicDir, adminToken = '', routeEvidencePath, applicantEvidencePath, now = () => new Date() }) {
+export function createApp({ store, publicDir, adminToken = '', publicOrigin = '', routeEvidencePath, applicantEvidencePath, now = () => new Date() }) {
+  const hostedOrigin = publicOrigin ? validatePublicOrigin(publicOrigin) : '';
+  const hostedHost = hostedOrigin ? new URL(hostedOrigin).host : '';
+  if (hostedOrigin) adminToken = '';
   const routeIndex = loadRoutes(routeEvidencePath, store.all());
   const applicantIndex = loadApplicantContexts(applicantEvidencePath, store.all(), routeIndex);
   const assets = new Map([['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']], ['/styles.css', ['styles.css', 'text/css']], ['/app.js', ['app.js', 'text/javascript']], ['/copy.js', ['copy.js', 'text/javascript']], ['/saved-options.js', ['saved-options.js', 'text/javascript']], ['/catalogue-filters.js', ['catalogue-filters.js', 'text/javascript']], ['/favicon.svg', ['favicon.svg', 'image/svg+xml']]]);
   return http.createServer(async (req, res) => {
     try {
       const host = req.headers.host || '';
-      if (!/^(127\.0\.0\.1|localhost)(:\d+)?$/.test(host)) throw new InputError('Local host required', 403);
+      if (!/^(127\.0\.0\.1|localhost)(:\d+)?$/.test(host) && (!hostedHost || host.toLowerCase() !== hostedHost)) throw new InputError('Configured host required', 403);
       const url = new URL(req.url, `http://${host}`);
       const instant = now();
       const asOfDate = applicationDate(instant);
       const present = p => ({ ...p, applicationTimeline: programmeTimeline(p, asOfDate, instant.toISOString()) });
       if (req.method === 'POST') {
         const origin = req.headers.origin;
-        if (origin && origin !== `http://${host}`) throw new InputError('Cross-origin writes are not allowed', 403);
+        if (origin && origin !== (hostedOrigin || `http://${host}`)) throw new InputError('Cross-origin writes are not allowed', 403);
       }
       if (req.method === 'GET' && url.pathname === '/api/health') return send(res, 200, { ok: true, app: 'gradpath', version: '0.1.0' });
-      if (req.method === 'GET' && url.pathname === '/api/meta') return send(res, 200, { universities: store.universities(), areas: [...new Set(store.all().map(p => p.area))].sort(), quality: store.quality(), routeEvidence: routeSummary(routeIndex), applicantEvidence: applicantSummary(applicantIndex), adminEnabled: adminToken.length >= 24 });
+      if (req.method === 'GET' && url.pathname === '/api/meta') return send(res, 200, { universities: store.universities(), areas: [...new Set(store.all().map(p => p.area))].sort(), quality: store.quality(), routeEvidence: routeSummary(routeIndex), applicantEvidence: applicantSummary(applicantIndex), adminEnabled: adminToken.length >= 24, deployment: hostedOrigin ? 'hosted_demo' : 'local' });
       if (req.method === 'GET' && url.pathname === '/api/quality') return send(res, 200, store.quality());
       if (req.method === 'POST' && url.pathname === '/api/saved-options/resolve') {
         const input = await body(req);
