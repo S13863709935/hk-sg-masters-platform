@@ -1,12 +1,14 @@
 # HK–SG Masters Platform
 
-完整部署分支：Render免费只读演示配置已完成本机预检，用户已于11月11日授权将完整代码推送至GitHub。推送代码后仍需在Render创建服务，才会获得公网网址。操作步骤及准确表单值见[Render部署指南](docs/deploy-render.md)。本分支保留完整目录；已发布W8与本地运行版不变。
+Week 9 development handoff, 18 November 2026. This checkpoint archives the full code already published on 11 November at `deploy/render-demo` (`e33ba12`), together with today's verification record. The [public GradPath website](https://gradpath-hk-sg-demo.onrender.com/) is accessible. Today's changes document the handoff and verification. See the [Week 9 checkpoint](docs/progress/week-09-checkpoint.md) for results, original implementation dates and remaining user testing, and the [Render guide](docs/deploy-render.md) for hosting instructions.
 
 香港与新加坡授课型硕士项目信息整合与匹配网站。
 
 用户可以按本科专业、GPA／学位等级和语言成绩筛选项目，查看公开入学要求、费用、申请时间和官方来源，比较课程并保存候选清单。网站不代办申请，不预测录取概率，也不保证录取。
 
 ## 当前状态（2026-11-10）
+
+The following section retains the 10 November development snapshot. Current deployment verification is recorded in the [Week 9 checkpoint](docs/progress/week-09-checkpoint.md).
 
 本地英文网站已实现目录搜索、背景条件比较、课程详情、并排比较、候选保存／恢复和公开资料导出。本轮将原来剩余的202个项目一次完成首轮官方资料整理：NTU83、NUS118、教大MEd1。
 

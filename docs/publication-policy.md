@@ -1,6 +1,6 @@
 # Staged GitHub publication
 
-Local development may advance beyond the project timetable. A GitHub checkpoint publishes selected plan-appropriate progress, not the advanced development branch wholesale.
+Local development may advance beyond the project timetable. A GitHub checkpoint records the work authorised for that stage, retaining actual implementation and publication dates. The user authorised full-code publication for deployment on 11 November and the Week 9 development handoff on 18 November.
 
 The user's latest clarification on 20 October 2026 supersedes the earlier interpretation of delegated timing: consecutive small pushes after each "continue" are too frequent. "Continue" means implement, verify and save locally, not publish another remote increment.
 
@@ -25,3 +25,6 @@ The user's latest clarification on 20 October 2026 supersedes the earlier interp
 - A mid-period progress checkpoint does not mean every task for that week is complete. Record remaining research/acceptance/verification honestly.
 
 - Week 8 was explicitly requested and published once on 10 November 2026 as `checkpoint/week-08`, verified remote commit `b7b5a4d10d0686f6775219017ff9d9569c773a0b`. It starts at W7 and retains the twenty-record pilot: five selected source consolidations, exact-option/date/export integration and matching boundary fixes. Its 92 checks describe this selected version; the expanded local source branch remains unpublished. Main and W4–W7/SW refs were unchanged. Further continuing work is local until another meaningful stage review or explicit push request. See [actual W8 publication](progress/2026-11-10-week-08-publication.md).
+
+- On 11 November, the user authorised publication of the full application for Render deployment. `deploy/render-demo` was published at `e33ba126077519c733566cbf1961ea71ad5df8f9`, including the 873-record catalogue. Earlier entries describe their respective historical publication boundaries.
+- On 18 November, the user explicitly requested the Week 9 push. `checkpoint/week-09` starts at the verified published deployment commit `e33ba12` and records the full-version handoff, current public endpoint checks and 35 passing local hosted/startup/API checks. The application and data retain their earlier implementation and source dates. Genuine student usability testing and independent data review remain pending. See the [Week 9 checkpoint](progress/week-09-checkpoint.md).

@@ -1,6 +1,8 @@
 # Render免费演示部署（2026-11-11）
 
-这是完整本地网站的独立部署分支deploy/render-demo，起点为本地178b744。它没有替换main、第八周或本地运行版。用户已于11月11日授权将完整分支推送至GitHub；推送代码后仍需在Render创建服务。本文件本身不代表服务已上线。准备与授权记录见[部署准备记录](progress/render-deployment-preparation-2026-11-11.md)。
+Current status, 18 November 2026. The [public GradPath website](https://gradpath-hk-sg-demo.onrender.com/) is live. Its English entry page, health endpoint, catalogue summary and Civil Engineering search all returned HTTP 200 during today's verification. Render uses `deploy/render-demo` at `e33ba12`; `checkpoint/week-09` archives that code and the development handoff. See the [Week 9 verification record](progress/week-09-checkpoint.md).
+
+The instructions below describe creating or reproducing the deployment. The [11 November preparation record](progress/render-deployment-preparation-2026-11-11.md) retains its original pre-deployment status and test dates.
 
 ## 一、准备GitHub来源
 
